@@ -1,0 +1,964 @@
+[
+  {
+    "guid": "a3f6b9e2-2f9a-4f2e-8a5a-1c7c6d2b9a10",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "A la reunió de kickoff del projecte s’ha presentat el cronograma i el director/a del projecte ha posat especial èmfasi en la seqüència d’activitats que representa el camí més llarg a través de les activitats del projecte, la qual cosa determina la menor duració possible del projecte. Segons PMBOK v6, aquesta tècnica correspon a:",
+    "answerOptions": [
+      {
+        "text": "El mètode de la ruta crítica.",
+        "isCorrect": true,
+        "rationale": "El mètode de la ruta crítica (CPM) identifica la seqüència d’activitats amb durada total més llarga, que fixa la duració mínima possible del projecte."
+      },
+      {
+        "text": "L’optimització de recursos.",
+        "isCorrect": false,
+        "rationale": "L’optimització de recursos ajusta assignacions o calendaris de recursos, però no defineix el camí més llarg ni la duració mínima del projecte."
+      },
+      {
+        "text": "La compressió del cronograma.",
+        "isCorrect": false,
+        "rationale": "La compressió (crashing/fast tracking) és una tècnica per escurçar el cronograma, no per identificar el camí més llarg."
+      },
+      {
+        "text": "El cronograma àgil.",
+        "isCorrect": false,
+        "rationale": "Un cronograma àgil pot planificar iteracions, però no correspon a la definició formal del camí més llarg de la xarxa del projecte."
+      }
+    ],
+    "hint": "Pensa en la tècnica de xarxa que identifica el camí amb durada total més llarga."
+  },
+  {
+    "guid": "c4c2f1a9-1b7e-4b5f-9f2e-0c3a2f9d6b21",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Al tractar-se d’un projecte gran el director/a de projecte vol deixar clara les responsabilitats dels diferents membres de l’equip mitjançant la matriu de responsabilitats. La matriu d’assignació de responsabilitats és una eina útil quan l’equip del projecte està compost per recursos interns i externs. El que determina aquesta matriu, segons PMBOK v6, és:",
+    "answerOptions": [
+      {
+        "text": "El número total dels recursos interns i externs assignats al projecte.",
+        "isCorrect": false,
+        "rationale": "La matriu no té com a objectiu quantificar el nombre total de recursos, sinó assignar responsabilitats."
+      },
+      {
+        "text": "Només pels recursos interns assigna els treballs corresponents.",
+        "isCorrect": false,
+        "rationale": "La matriu d’assignació de responsabilitats pot incloure recursos interns i externs; no es limita als interns."
+      },
+      {
+        "text": "Els recursos, interns i externs, del projecte assignats a cada paquet de treball.",
+        "isCorrect": true,
+        "rationale": "La RAM (p. ex. RACI) vincula paquets de treball (WBS) amb recursos/rols responsables de l’execució i responsabilitats associades."
+      },
+      {
+        "text": "A qui ha de reportar la seva feina cadascú dels recursos del projecte.",
+        "isCorrect": false,
+        "rationale": "Això descriu línies jeràrquiques o organigrames, no la responsabilitat sobre paquets de treball."
+      }
+    ],
+    "hint": "Relaciona WBS (paquets de treball) amb qui n’és responsable."
+  },
+  {
+    "guid": "7c2cdb31-53b2-4c75-8a18-5b1aa6d9ce32",
+    "subjectId": "AF1",
+    "difficulty": 1,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Com s’ha indicat es fa servir la metodologia Agile basada en Scrum per a la construcció del projecte. Durant l’execució del projecte de construcció del sistema d’informació, el rol que s’assegura que la metodologia Scrum se està executant correctament és:",
+    "answerOptions": [
+      {
+        "text": "El Product Owner.",
+        "isCorrect": false,
+        "rationale": "El Product Owner maximitza el valor i gestiona el Product Backlog, però no és el responsable de vetllar pel correcte ús de Scrum."
+      },
+      {
+        "text": "L’equip de desenvolupadors.",
+        "isCorrect": false,
+        "rationale": "Els Developers construeixen l’increment i autogestionen el treball, però no són el rol que garanteix l’adopció correcta del marc Scrum."
+      },
+      {
+        "text": "L’Scrum Master.",
+        "isCorrect": true,
+        "rationale": "L’Scrum Master és responsable d’establir Scrum segons la guia i de promoure que s’entengui i s’apliqui correctament."
+      },
+      {
+        "text": "L’Scrum Owner.",
+        "isCorrect": false,
+        "rationale": "Aquest rol no existeix a Scrum; és un distractor típic d’examen."
+      }
+    ],
+    "hint": "Quin rol fa de facilitador i vetlla per l’adopció correcta del marc?"
+  },
+  {
+    "guid": "b8d7e9c4-4fb9-4d2c-8b0f-1f7a0d2d6a43",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Per tal de poder fer una estimació de la magnitud del projecte, el supervisor/a del projecte vol realitzar la descomposició de la feina segons la tècnica EDT/WBS (Estructura de Desglos de Treball / Work Breakdown Structure). Aquesta procés, segons PMBOK v6, forma part de la:",
+    "answerOptions": [
+      {
+        "text": "Gestió del cronograma del projecte.",
+        "isCorrect": false,
+        "rationale": "El cronograma utilitza llista d’activitats i seqüenciació, però la WBS és un artefacte de definició/descomposició d’abast."
+      },
+      {
+        "text": "Gestió de costos del projecte.",
+        "isCorrect": false,
+        "rationale": "La WBS pot suportar l’estimació de costos, però pertany a l’àrea de Gestió de l’Abast."
+      },
+      {
+        "text": "Gestió de l’abast del projecte.",
+        "isCorrect": true,
+        "rationale": "La WBS és resultat del procés de crear la WBS dins de Project Scope Management."
+      },
+      {
+        "text": "Gestió de la qualitat.",
+        "isCorrect": false,
+        "rationale": "Qualitat defineix estàndards i controls, no la descomposició jeràrquica del treball del projecte."
+      }
+    ],
+    "hint": "La WBS és la descomposició jeràrquica de l’abast."
+  },
+  {
+    "guid": "f2a1a8e7-1d6e-47a0-9a2a-2d7f6b5c4a54",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Una de les dades més importants que li demanen al director/a del projecte és el cost d’aquest projecte. Està dubtós/a de quina eina fer servir. Dins de les eines que es poden fer servir hi ha la que realitza l’estimació fent servir una relació estadística entre les dades històriques rellevants i altres variables per a calcular una estimació del cost del treball del projecte. Aquesta tècnica, segons PMBOK v6, correspon a:",
+    "answerOptions": [
+      {
+        "text": "L’estimació anàloga.",
+        "isCorrect": false,
+        "rationale": "L’anàloga compara amb projectes similars de manera global, no mitjançant un model estadístic entre variables."
+      },
+      {
+        "text": "L’estimació paramètrica.",
+        "isCorrect": true,
+        "rationale": "L’estimació paramètrica usa relacions estadístiques (paràmetres) entre dades històriques i variables per estimar cost o durada."
+      },
+      {
+        "text": "L’estimació ascendent.",
+        "isCorrect": false,
+        "rationale": "L’ascendent estima des de components petits i agrega, no es defineix per model estadístic paramètric."
+      },
+      {
+        "text": "L’estimació per tres valors.",
+        "isCorrect": false,
+        "rationale": "Tres valors (PERT) combina estimacions optimista, probable i pessimista; no descriu relació estadística amb variables històriques."
+      }
+    ],
+    "hint": "Quina estimació fa servir paràmetres i models amb dades històriques?"
+  },
+  {
+    "guid": "e9b3a6b0-3c5d-4f5a-8f0a-9b5d3c2a1f65",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "La gestió dels riscos del projecte és un dels elements clau per a la bona gestió general del projecte. Quin dels processos de la gestió dels riscos proporciona com a benefici concentrar els esforços en els riscos de prioritat alta, segons PMBOK v6?",
+    "answerOptions": [
+      {
+        "text": "Anàlisi quantitatiu dels riscos.",
+        "isCorrect": false,
+        "rationale": "L’anàlisi quantitativa quantifica efectes numèrics; el benefici de prioritzar habitualment s’associa primer a l’anàlisi qualitativa."
+      },
+      {
+        "text": "Control dels riscos.",
+        "isCorrect": false,
+        "rationale": "El control monitoritza i implementa respostes, però la priorització d’alt/baix es fa abans."
+      },
+      {
+        "text": "Anàlisi qualitatiu dels riscos.",
+        "isCorrect": true,
+        "rationale": "L’anàlisi qualitativa avalua probabilitat/impacte i prioritzar riscos, concentrant esforços en els d’alta prioritat."
+      },
+      {
+        "text": "Identificació dels riscos.",
+        "isCorrect": false,
+        "rationale": "Identificar enumera riscos; no prioritza ni concentra esforços per prioritat."
+      }
+    ],
+    "hint": "Quin procés ordena riscos per prioritat abans de quantificar-los?"
+  },
+  {
+    "guid": "3a0f6b7c-5a9d-4f49-9b8e-2a7e6c5d4b76",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Durant el curs sobre la metodologia Scrum que ha fet l’equip del projecte s’han explicat conceptes que ajuden a entendre l’operativa posterior. En concret, la metodologia Scrum es basa en:",
+    "answerOptions": [
+      {
+        "text": "L’empirisme i el pensament lean.",
+        "isCorrect": true,
+        "rationale": "Scrum es fonamenta en l’empirisme (transparència, inspecció, adaptació) i integra idees de pensament lean."
+      },
+      {
+        "text": "En el procés definit.",
+        "isCorrect": false,
+        "rationale": "Scrum s’utilitza en entorns complexos on els processos definits no són suficients; es basa en empirisme."
+      },
+      {
+        "text": "En la metodologia en cascada.",
+        "isCorrect": false,
+        "rationale": "La cascada és predictiva i seqüencial; Scrum és iteratiu i incremental."
+      },
+      {
+        "text": "En el procés aleatori.",
+        "isCorrect": false,
+        "rationale": "Scrum és disciplinat i basat en inspecció/adaptació, no en aleatorietat."
+      }
+    ],
+    "hint": "Scrum no és predictiu: es basa en aprendre de l’experiència."
+  },
+  {
+    "guid": "6f9a2c1b-9d5e-4b9e-8c2a-1f0d3a5b9c87",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Dins de les tècniques d’anàlisi de dades del procés d’anàlisi quantitatiu de riscos hi és la que ajuda a determinar quins riscos individuals o altres fons d’incertesa tenen l’impacte amb major potencial sobre els resultats del projecte. Aquesta tècnica, segons PMBOK v6, és?",
+    "answerOptions": [
+      {
+        "text": "Anàlisi de sensibilitat.",
+        "isCorrect": true,
+        "rationale": "L’anàlisi de sensibilitat identifica quines variables/riscos influeixen més en el resultat (p. ex. cost o termini) i el seu impacte potencial."
+      },
+      {
+        "text": "Anàlisi mitjançant l’arbre de decisions.",
+        "isCorrect": false,
+        "rationale": "L’arbre de decisions avalua alternatives i resultats esperats, però no és la tècnica principal per determinar variables més influents."
+      },
+      {
+        "text": "Simulació.",
+        "isCorrect": false,
+        "rationale": "La simulació (p. ex. Monte Carlo) modela distribucions de resultats, però la identificació de drivers principals és típica de sensibilitat."
+      },
+      {
+        "text": "Diagrama d’influències.",
+        "isCorrect": false,
+        "rationale": "Els diagrames d’influència representen relacions entre variables, però la pregunta apunta a identificar els riscos amb impacte potencial més alt (drivers)."
+      }
+    ],
+    "hint": "Quina tècnica indica quines variables ‘mouen’ més el resultat?"
+  },
+  {
+    "guid": "d1c5a9b7-0d8a-4d8c-9f3d-7a2c1b0f3d98",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Els membres de l’equip que han assistit a la formació d’Scrum estan molt satisfets de la formació rebuda i, entre altres molts conceptes, han aprés que els pilars d’Scrum, basats en l’aprenentatge de l’experiència, són:",
+    "answerOptions": [
+      {
+        "text": "Planificació, Control i seguiment.",
+        "isCorrect": false,
+        "rationale": "Això és llenguatge típic de gestió predictiva, però no són els pilars de l’empirisme a Scrum."
+      },
+      {
+        "text": "Transparència, inspecció i adaptació.",
+        "isCorrect": true,
+        "rationale": "Són els tres pilars de l’empirisme que sustenten Scrum."
+      },
+      {
+        "text": "Teoria, pràctica i execució.",
+        "isCorrect": false,
+        "rationale": "No és una formulació de Scrum; és un distractor genèric."
+      },
+      {
+        "text": "Planificació, iteració i proves.",
+        "isCorrect": false,
+        "rationale": "Són elements comuns en desenvolupament, però no els pilars definits de Scrum."
+      }
+    ],
+    "hint": "Recorda els tres pilars de l’empirisme."
+  },
+  {
+    "guid": "9f2b1a6c-7c3e-4a50-8bfa-1a2c3d4e5f09",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Un dels aspectes que preocupen i volen assegurar durant l’execució del projecte és l’assegurament de la qualitat. Han decicidit seguir la norma UNE-EN ISO 9001. La norma UNE-EN ISO 9001 “Sistemas de gestión de la calidad” és la versió oficial espanyola de la Norma Internacional ISO 9001:2015. Aquesta norma fa servir l’enfoc a:",
+    "answerOptions": [
+      {
+        "text": "Producte.",
+        "isCorrect": false,
+        "rationale": "ISO 9001 no se centra exclusivament en el producte final, sinó en com es gestionen processos per garantir qualitat."
+      },
+      {
+        "text": "Serveis.",
+        "isCorrect": false,
+        "rationale": "Aplica a productes i serveis, però el seu enfoc distintiu és el de processos."
+      },
+      {
+        "text": "Processos.",
+        "isCorrect": true,
+        "rationale": "ISO 9001:2015 impulsa el “process approach”, gestionant processos i la seva interacció per garantir resultats consistents."
+      },
+      {
+        "text": "Holístic.",
+        "isCorrect": false,
+        "rationale": "Tot i que té una visió de sistema de gestió, el concepte clau que pregunta és l’enfoc a processos."
+      }
+    ],
+    "hint": "ISO 9001:2015 destaca pel “process approach”."
+  },
+  {
+    "guid": "0a1b2c3d-4e5f-4a6b-8c7d-9e0f1a2b3c10",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "El director/a del projecte té molta experiència en la gestió de projectes i sap amb certesa que tard o d’hora s’hauran de gestionar amenaces imprevistes. PMBOK v6 considera cinc estratègies per a fer front a les amenaces. Per una amenaça de baixa prioritat davant la que no es prenen mesures proactives tot i ser conscient que existeix s’estaria aplicant l’estratègia de:",
+    "answerOptions": [
+      {
+        "text": "Evitar.",
+        "isCorrect": false,
+        "rationale": "Evitar implica eliminar la causa o canviar el pla per eliminar l’amenaça, que és una acció proactiva."
+      },
+      {
+        "text": "Mitigar.",
+        "isCorrect": false,
+        "rationale": "Mitigar redueix probabilitat o impacte amb accions, per tant és proactiu."
+      },
+      {
+        "text": "Acceptar.",
+        "isCorrect": true,
+        "rationale": "Acceptar és reconèixer l’amenaça i no prendre accions proactives (especialment si és de baixa prioritat), assumint-la si es materialitza."
+      },
+      {
+        "text": "Escalar.",
+        "isCorrect": false,
+        "rationale": "Escalar és transferir la gestió del risc a un nivell superior quan està fora de l’autoritat del projecte, no ‘no fer res’."
+      }
+    ],
+    "hint": "Quan no es prenen accions proactives, quina estratègia és?"
+  },
+  {
+    "guid": "1b2c3d4e-5f60-4a71-8b82-9c0d1e2f3a11",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Des de la direcció del projecte s’ha volgut estimar el temps de duració del projecte i s’ha generat un cronograma fent servir el mètode de Diagramació per Precedència. Segons aquest mètode, la relació lògica en la qual una activitat successora no pot començar fins que hagi finalitzat una activitat predecessora se denomina:",
+    "answerOptions": [
+      {
+        "text": "Final a Final.",
+        "isCorrect": false,
+        "rationale": "Final a Final exigeix que la successora no acabi fins que acabi la predecessora, però pot començar abans."
+      },
+      {
+        "text": "Final a Inici.",
+        "isCorrect": true,
+        "rationale": "Final a Inici (Finish-to-Start) significa que la successora no pot començar fins que la predecessora hagi finalitzat."
+      },
+      {
+        "text": "Inici a Final.",
+        "isCorrect": false,
+        "rationale": "Inici a Final és una relació poc habitual on la successora no pot acabar fins que la predecessora comenci."
+      },
+      {
+        "text": "Inici a Inici.",
+        "isCorrect": false,
+        "rationale": "Inici a Inici exigeix que la successora no comenci fins que comenci la predecessora, però no requereix que la predecessora acabi."
+      }
+    ],
+    "hint": "La successora comença només quan la predecessora acaba."
+  },
+  {
+    "guid": "2c3d4e5f-6071-4a82-8b93-0c1d2e3f4a12",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Un altre dels conceptes que l’equip ha aprés en el curs d’Scrum són les responsabilitats que es defineixen dins d’un equip Agile basat en Scrum i que concretant són tres responsabilitats, quines són?",
+    "answerOptions": [
+      {
+        "text": "L’equip de desenvolupadors/ores, el/la propietari/ària del producte (product owner) i el/la Scrum Master.",
+        "isCorrect": true,
+        "rationale": "Scrum defineix tres responsabilitats (accountabilities): Product Owner, Scrum Master i Developers."
+      },
+      {
+        "text": "El/la cap de projecte, l’equip de desenvolupadors/ores i el/la Scrum Master.",
+        "isCorrect": false,
+        "rationale": "El rol de cap de projecte no és una responsabilitat definida a Scrum."
+      },
+      {
+        "text": "El/la Scrum Master, el/la propietari/ària del producte (product owner) i els/les stakeholders.",
+        "isCorrect": false,
+        "rationale": "Els stakeholders són part de l’ecosistema, però no són una de les tres responsabilitats de l’Scrum Team."
+      },
+      {
+        "text": "L’usuari/ària final, el/la Scrum Master i el/la cap de projecte.",
+        "isCorrect": false,
+        "rationale": "Usuari final i cap de projecte no formen part de les tres responsabilitats definides."
+      }
+    ],
+    "hint": "Són tres: qui maximitza valor, qui facilita Scrum i qui construeix l’increment."
+  },
+  {
+    "guid": "3d4e5f60-7182-4a93-8ba4-1c2d3e4f5a13",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Per tal de gestionar els problemes que sorgeixen en l’execució del projecte és fonamental establir sistemes de control. El procés del control integrat de canvis, segons PMBOK v6, es porta a terme des de:",
+    "answerOptions": [
+      {
+        "text": "L’inici del projecte fins a la definició de l’abast.",
+        "isCorrect": false,
+        "rationale": "El control integrat de canvis no acaba en definir l’abast: continua mentre el projecte és actiu."
+      },
+      {
+        "text": "L’inici del projecte fins a la seva finalització.",
+        "isCorrect": true,
+        "rationale": "El control integrat de canvis s’aplica durant tot el cicle de vida del projecte, des de l’inici fins al tancament."
+      },
+      {
+        "text": "La definició de l’abast fins la fi del desenvolupament.",
+        "isCorrect": false,
+        "rationale": "Limitar-ho al desenvolupament no és correcte: els canvis poden afectar totes les fases."
+      },
+      {
+        "text": "L’inici del desenvolupament fins a la seva finalització.",
+        "isCorrect": false,
+        "rationale": "Comença abans del desenvolupament i també gestiona canvis d’abast, terminis, costos, etc. al llarg del projecte."
+      }
+    ],
+    "hint": "El control integrat de canvis és continu mentre el projecte està viu."
+  },
+  {
+    "guid": "4e5f6071-8293-4aa4-8bb5-2c3d4e5f6a14",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Dins de les diferents responsabilitats que hi són a un projecte gestionat mitjançant SCRUM, la de crear un pla per a l’Sprint, l’Sprint Backlog correspon a:",
+    "answerOptions": [
+      {
+        "text": "L’equip de desenvolupadors/ores.",
+        "isCorrect": true,
+        "rationale": "Els Developers creen el Sprint Backlog com a pla per assolir l’objectiu de l’Sprint, seleccionant i planificant el treball."
+      },
+      {
+        "text": "El/la Scrum Master.",
+        "isCorrect": false,
+        "rationale": "L’Scrum Master facilita i elimina impediments, però no és qui crea el Sprint Backlog."
+      },
+      {
+        "text": "El/la Product Owner.",
+        "isCorrect": false,
+        "rationale": "El Product Owner ordena el Product Backlog i defineix objectius, però el Sprint Backlog el crea l’equip de Developers."
+      },
+      {
+        "text": "El/la cap de projecte.",
+        "isCorrect": false,
+        "rationale": "El cap de projecte no és un rol Scrum."
+      }
+    ],
+    "hint": "Qui planifica el treball diari per assolir l’objectiu de l’Sprint?"
+  },
+  {
+    "guid": "5f607182-93a4-4ab5-8bc6-3d4e5f6a7b15",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "En el procés de gestió de la qualitat hi ha una tècnica d’anàlisi de dades que és una tècnica analítica que es fa servir per determinar el motiu subjacent bàsic que causa una variació, defecte o risc. Aquesta tècnica, segons PMBOK v6, és:",
+    "answerOptions": [
+      {
+        "text": "Anàlisi de causa-arrel.",
+        "isCorrect": true,
+        "rationale": "L’anàlisi de causa-arrel identifica el motiu subjacent d’una variació o defecte per evitar recurrències."
+      },
+      {
+        "text": "Anàlisi d’alternatives.",
+        "isCorrect": false,
+        "rationale": "L’anàlisi d’alternatives compara opcions, però no determina la causa subjacent d’un defecte."
+      },
+      {
+        "text": "Anàlisi de processos.",
+        "isCorrect": false,
+        "rationale": "Analitza el flux i millora processos, però la pregunta descriu explícitament identificar la causa base."
+      },
+      {
+        "text": "Anàlisi de documents.",
+        "isCorrect": false,
+        "rationale": "Revisar documentació pot donar evidència, però no és la tècnica analítica principal per trobar la causa subjacent."
+      }
+    ],
+    "hint": "Quina tècnica busca el “per què” real darrere del defecte?"
+  },
+  {
+    "guid": "60718293-a4b5-4ac6-8bd7-4e5f6a7b8c16",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Les tècniques de control de la qualitat es basen en la recopilació de dades. Una de les més utilitzades és la llista de verificació. Aquesta tècnica, segons PMBOK v6, el que fa és:",
+    "answerOptions": [
+      {
+        "text": "Organitzar els fets de manera que es faciliti la recol·lecció eficient de dades útils sobre un possible problema de qualitat.",
+        "isCorrect": false,
+        "rationale": "Això descriu més aviat una fulla de recollida de dades (check sheet) com a eina d’organització per captar dades."
+      },
+      {
+        "text": "Seleccionar una part de la població d’interès per a la seva inspecció.",
+        "isCorrect": false,
+        "rationale": "Això és mostreig (sampling), no una llista de verificació."
+      },
+      {
+        "text": "Obtenir dades sobre la satisfacció del client després del desplegament del producte o servei.",
+        "isCorrect": false,
+        "rationale": "Això correspon a enquestes o feedback, no a una checklist de control de qualitat."
+      },
+      {
+        "text": "Ajudar a gestionar les activitats de control de qualitat d’una manera estructurada.",
+        "isCorrect": true,
+        "rationale": "Una llista de verificació assegura que es compleixen passos o requisits i estructura l’execució del control de qualitat."
+      }
+    ],
+    "hint": "Una checklist assegura que no t’oblides cap verificació/criteri."
+  },
+  {
+    "guid": "718293a4-b5c6-4ad7-8be8-5f6a7b8c9d17",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "La norma UNE-EN ISO 9001 “Sistemas de gestión de la calidad” identifica quins són els principis de la gestió de la qualitat. Dels següents principis quin NO és un principi de la gestió de la qualitat?",
+    "answerOptions": [
+      {
+        "text": "Lideratge.",
+        "isCorrect": false,
+        "rationale": "El lideratge és un dels principis de gestió de la qualitat a ISO 9001:2015."
+      },
+      {
+        "text": "Presa de decisions basat en l’evidència.",
+        "isCorrect": false,
+        "rationale": "La presa de decisions basada en evidència és un principi de qualitat a ISO 9001:2015."
+      },
+      {
+        "text": "Enfoc al client.",
+        "isCorrect": false,
+        "rationale": "L’enfoc al client és un principi fonamental a ISO 9001."
+      },
+      {
+        "text": "Enfoc al servei.",
+        "isCorrect": true,
+        "rationale": "ISO 9001 parla d’enfoc al client, enfoc a processos, millora, etc., però “enfoc al servei” no és un dels principis enumerats."
+      }
+    ],
+    "hint": "ISO 9001 parla d’enfoc al client, processos i evidència, no d’un principi amb aquest nom."
+  },
+  {
+    "guid": "8293a4b5-c6d7-4ae8-8bf9-6a7b8c9d0e18",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Durant el curs d’Scrum una de les persones desenvolupadores pregunta si un Sprint es podria cancel·lar. El professor/a respon que encara que no és habitual, un Sprint podria ser cancel·lat si l’objectiu de l’Sprint esdevé obsolet. Qui té l’autoritat per a cancel·lar l’Sprint?",
+    "answerOptions": [
+      {
+        "text": "L’equip de desenvolupadors/ores.",
+        "isCorrect": false,
+        "rationale": "Els Developers gestionen el treball, però no tenen l’autoritat formal per cancel·lar l’Sprint."
+      },
+      {
+        "text": "El/la Scrum Master.",
+        "isCorrect": false,
+        "rationale": "L’Scrum Master facilita Scrum, però no decideix cancel·lar l’Sprint."
+      },
+      {
+        "text": "El/la Product Owner.",
+        "isCorrect": true,
+        "rationale": "El Product Owner pot cancel·lar l’Sprint si l’objectiu de l’Sprint esdevé obsolet."
+      },
+      {
+        "text": "El/la cap de projecte.",
+        "isCorrect": false,
+        "rationale": "Cap de projecte no és un rol Scrum."
+      }
+    ],
+    "hint": "Qui té l’autoritat sobre el valor i l’objectiu del producte?"
+  },
+  {
+    "guid": "93a4b5c6-d7e8-4af9-8c0a-7b8c9d0e1f19",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Des de la Direcció del projecte un cop han tingut assignats els diferents membres de l’equip i els seus rols corresponents s’ha volgut estimar la duració de les activitats. Per a fer aquesta tasca es requereix de dos components:",
+    "answerOptions": [
+      {
+        "text": "El cronograma del projecte i el seu abast.",
+        "isCorrect": false,
+        "rationale": "Per estimar durada d’activitats cal informació de recursos i esforç, no necessàriament el cronograma complet ja fet."
+      },
+      {
+        "text": "L’abast del projecte i els recursos disponibles per a la seva execució.",
+        "isCorrect": false,
+        "rationale": "L’abast ajuda, però la pregunta apunta a components específics per estimar durada: esforç requerit i quantitat de recursos."
+      },
+      {
+        "text": "La llista d’activitats i el cronograma del projecte.",
+        "isCorrect": false,
+        "rationale": "La llista d’activitats és important, però estimar durada requereix entendre esforç i recursos."
+      },
+      {
+        "text": "Una estimació de l’esforç requerit i de la quantitat de recursos disponibles estimats per a completar l’activitat.",
+        "isCorrect": true,
+        "rationale": "La durada d’una activitat depèn de l’esforç i dels recursos assignats (quantitat/disponibilitat), segons PMBOK v6."
+      }
+    ],
+    "hint": "Durada ≈ esforç / recursos assignats."
+  },
+  {
+    "guid": "a4b5c6d7-e8f9-4b0a-8c1b-8c9d0e1f2a20",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Una de les reunions fonamentals que determina Scrum és la Retrospectiva de l’Sprint. El propòsit de la retrospectiva de l’Sprint és:",
+    "answerOptions": [
+      {
+        "text": "Inspeccionar el resultat de l’Sprint i determinar el percentatge de producte aconseguit.",
+        "isCorrect": false,
+        "rationale": "Això s’assembla més a la Sprint Review (inspecció de l’increment i adaptació del Product Backlog)."
+      },
+      {
+        "text": "Planificar formes d’augmentar la qualitat i l’eficàcia.",
+        "isCorrect": true,
+        "rationale": "La Retrospectiva busca inspeccionar com ha anat l’Sprint i definir millores per augmentar qualitat i eficàcia de l’equip."
+      },
+      {
+        "text": "Inspeccionar el progrés cap a l’objectiu de l’Sprint i adaptar l’Sprint Backlog.",
+        "isCorrect": false,
+        "rationale": "Això correspon al Daily Scrum (inspecció cap a l’objectiu de l’Sprint i adaptació del pla)."
+      },
+      {
+        "text": "Revisar el Product Backlog per adaptar-lo a la capacitat de l’equip de desenvolupadors/ores.",
+        "isCorrect": false,
+        "rationale": "Això s’apropa a refinament del Product Backlog, no a la Retrospectiva."
+      }
+    ],
+    "hint": "És la reunió per millorar com treballa l’equip."
+  },
+  {
+    "guid": "b5c6d7e8-f9a0-4b1b-8c2c-9d0e1f2a3b21",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "El director/a del projecte ha de reconduir la manera de treballar d’una de les persones programadores de l’equip que té una tendència a generar codi i no provar-ho adequadament amb el que té un percentatge d’errors superior a la resta de l’equip. Segons PMBOK v6, el cost d’efectuar canvis i de corregir errors per part de les persones interessades normalment:",
+    "answerOptions": [
+      {
+        "text": "Es manté durant tot el cicle de vida del projecte.",
+        "isCorrect": false,
+        "rationale": "En general, el cost de canvis/correccions no és constant; acostuma a augmentar amb el temps."
+      },
+      {
+        "text": "Disminueix significativament cap al final del projecte.",
+        "isCorrect": false,
+        "rationale": "És el contrari: corregir tard sol ser més car."
+      },
+      {
+        "text": "Augmenta en la definició de requeriments del projecte.",
+        "isCorrect": false,
+        "rationale": "El cost de canvi és més baix al principi i augmenta a mesura que avança el projecte."
+      },
+      {
+        "text": "Augmenta substancialment segons el projecte s’apropa al seu final.",
+        "isCorrect": true,
+        "rationale": "PMBOK indica que el cost de canviar i corregir errors augmenta substancialment cap al final del projecte."
+      }
+    ],
+    "hint": "Com més tard detectes l’error, més car és arreglar-lo."
+  },
+  {
+    "guid": "c6d7e8f9-a0b1-4b2c-8c3d-0e1f2a3b4c22",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "L’equip que s’està formant en el curs de metodologia Scrum ha de canviar l’enfoc que ha fet servir fins ara en el desenvolupament dels projectes ja que l’enfoc d’Scrum es basa en un procés:",
+    "answerOptions": [
+      {
+        "text": "Iteratiu i decremental.",
+        "isCorrect": false,
+        "rationale": "Scrum no és decremental; produeix increments de valor."
+      },
+      {
+        "text": "Iteratiu i incremental.",
+        "isCorrect": true,
+        "rationale": "Scrum és iteratiu (sprints) i incremental (increments de producte)."
+      },
+      {
+        "text": "En cascada (waterfall).",
+        "isCorrect": false,
+        "rationale": "Cascada és predictiu i seqüencial; Scrum és adaptatiu."
+      },
+      {
+        "text": "V-model.",
+        "isCorrect": false,
+        "rationale": "V-model és un model predictiu centrat en verificació/validació, no Scrum."
+      }
+    ],
+    "hint": "Sprints repetits + increments successius de producte."
+  },
+  {
+    "guid": "d7e8f9a0-b1c2-4b3d-8c4e-1f2a3b4c5d23",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "La representació visual de l’abast del projecte dibuixant el sistema a construir i les seves interaccions amb les persones i amb altres sistemes o actors és una de les tècniques de recopilar requisits que, segons PMBOK v6, s’anomena:",
+    "answerOptions": [
+      {
+        "text": "Diagrama de context.",
+        "isCorrect": true,
+        "rationale": "El diagrama de context mostra el sistema i les interaccions amb actors externs, útil per entendre l’abast i recollir requisits."
+      },
+      {
+        "text": "Prototip.",
+        "isCorrect": false,
+        "rationale": "Un prototip és una representació funcional/visual del producte per validar requisits, però no necessàriament centra en interaccions de context."
+      },
+      {
+        "text": "Grup focal.",
+        "isCorrect": false,
+        "rationale": "Un grup focal és una tècnica de reunió amb usuaris per obtenir requisits, no un diagrama."
+      },
+      {
+        "text": "Mapeig mental.",
+        "isCorrect": false,
+        "rationale": "El mapa mental organitza idees i conceptes, però la descripció concreta és un diagrama de context."
+      }
+    ],
+    "hint": "És el dibuix del sistema i els seus actors externs."
+  },
+  {
+    "guid": "e8f9a0b1-c2d3-4b4e-8c5f-2a3b4c5d6e24",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "L’equip que s’està formant en el curs de metodologia Scrum està sorprès amb les noves maneres d’actuar ja que canvia el paradigma que tenen totalment assumit fins ara ja que Scrum defineix que els equips han de ser:",
+    "answerOptions": [
+      {
+        "text": "Multifuncionals i jeràrquics.",
+        "isCorrect": false,
+        "rationale": "Scrum promou equips multifuncionals, però no jeràrquics; són autogestionats."
+      },
+      {
+        "text": "Jeràrquics i especialitzats.",
+        "isCorrect": false,
+        "rationale": "Scrum evita jerarquies internes rígides i fomenta capacitat transversal."
+      },
+      {
+        "text": "Multifuncionals i autogestionats.",
+        "isCorrect": true,
+        "rationale": "L’Scrum Team ha de ser cross-functional (multifuncional) i self-managing (autogestionat)."
+      },
+      {
+        "text": "Especialitzats i dirigits.",
+        "isCorrect": false,
+        "rationale": "No es defineixen com a equips dirigits; són autogestionats i orientats a lliurar increments."
+      }
+    ],
+    "hint": "Scrum evita comandaments interns i busca autonomia."
+  },
+  {
+    "guid": "f9a0b1c2-d3e4-4b5f-8c60-3b4c5d6e7f25",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Per tal d’assegurar una bona qualitat del producte el director/a del projecte ha focalitzat part de la seva dedicació en elaborar una bona planificació de la gestió de la qualitat. Una de les tècniques que ha fet servir corresponent a la representació de dades, mostra la seqüència de passos i les possibilitats de ramificacions que existeixen en un procés que transforma una o més entrades en una o més sortides. Ha comentat que aquesta tècnica s’anomena:",
+    "answerOptions": [
+      {
+        "text": "Diagrama matricial.",
+        "isCorrect": false,
+        "rationale": "El diagrama matricial mostra relacions entre factors en forma de matriu, no seqüències amb ramificacions."
+      },
+      {
+        "text": "Mapa mental.",
+        "isCorrect": false,
+        "rationale": "Un mapa mental organitza idees, però no descriu el flux seqüencial d’un procés."
+      },
+      {
+        "text": "Model lògic de dades.",
+        "isCorrect": false,
+        "rationale": "És propi d’anàlisi de dades/BD, no un diagrama de procés amb ramificacions."
+      },
+      {
+        "text": "Diagrama de flux.",
+        "isCorrect": true,
+        "rationale": "El diagrama de flux mostra passos d’un procés i possibles ramificacions, transformant entrades en sortides."
+      }
+    ],
+    "hint": "Pensa en el diagrama que dibuixa un procés pas a pas amb decisions."
+  },
+  {
+    "guid": "0b1c2d3e-4f50-4b60-8c71-4c5d6e7f8a26",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Dins de la direcció d’equips una de les habilitats més importants és la gestió de conflictes. La tècnica que incorpora múltiples punts de vista i visions des de diferents perspectives, segons PMBOK v6, correspon a:",
+    "answerOptions": [
+      {
+        "text": "Consensuar.",
+        "isCorrect": false,
+        "rationale": "Consensuar pot ser un resultat, però la tècnica PMBOK que integra múltiples punts de vista per trobar solucions és col·laborar."
+      },
+      {
+        "text": "Eludir.",
+        "isCorrect": false,
+        "rationale": "Eludir/evitar retira o posposa el conflicte, no integra perspectives."
+      },
+      {
+        "text": "Col·laborar.",
+        "isCorrect": true,
+        "rationale": "Col·laborar (problem solving) integra múltiples punts de vista per arribar a una solució que satisfaci les parts."
+      },
+      {
+        "text": "Forçar.",
+        "isCorrect": false,
+        "rationale": "Forçar/direct és imposar una solució, habitualment sense integrar perspectives."
+      }
+    ],
+    "hint": "Quina tècnica busca una solució guany-guany integrant visions?"
+  },
+  {
+    "guid": "1c2d3e4f-5061-4b71-8c82-5d6e7f8a9b27",
+    "subjectId": "AF1",
+    "difficulty": 3,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Davant un risc general del projecte en el que considerem que la millor estratègia és executar accions focalitzades a capturar l’efecte positiu de la incertesa sobre el projecte en el seu conjunt, PMBOK v6 la defineix com:",
+    "answerOptions": [
+      {
+        "text": "Evitar.",
+        "isCorrect": false,
+        "rationale": "Evitar s’aplica a amenaces (risc negatiu), eliminant la causa o canviant el pla."
+      },
+      {
+        "text": "Mitigar.",
+        "isCorrect": false,
+        "rationale": "Mitigar redueix probabilitat/impacte d’amenaces; no captura efecte positiu."
+      },
+      {
+        "text": "Acceptar.",
+        "isCorrect": false,
+        "rationale": "Acceptar no implica accions focalitzades per capturar benefici; només assumir el risc."
+      },
+      {
+        "text": "Explotar.",
+        "isCorrect": true,
+        "rationale": "Explotar és una estratègia per oportunitats: executar accions per assegurar que el benefici positiu es materialitza."
+      }
+    ],
+    "hint": "Quan vols assegurar-te de captar el benefici d’una oportunitat, quina estratègia és?"
+  },
+  {
+    "guid": "2d3e4f50-6172-4b82-8c93-6e7f8a9b0c28",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "La formalització de l’acceptació dels lliurables del projecte que s’hagin completat, segons PMBOK v6, correspon al procés de:",
+    "answerOptions": [
+      {
+        "text": "Validar l’abast del projecte.",
+        "isCorrect": true,
+        "rationale": "Validar l’abast és el procés de formalitzar l’acceptació dels lliurables completats per part del client o patrocinador."
+      },
+      {
+        "text": "Definir l’abast del projecte.",
+        "isCorrect": false,
+        "rationale": "Definir l’abast descriu què s’inclou/exclou, però no formalitza acceptació de lliurables."
+      },
+      {
+        "text": "Planificar la gestió de l’abast del projecte.",
+        "isCorrect": false,
+        "rationale": "Planifica com es gestionarà l’abast, però no accepta lliurables."
+      },
+      {
+        "text": "Controlar l’abast del projecte.",
+        "isCorrect": false,
+        "rationale": "Controlar l’abast monitoritza l’estat de l’abast i canvis, però l’acceptació formal és a Validar l’abast."
+      }
+    ],
+    "hint": "Quin procés obté acceptació formal del client dels lliurables?"
+  },
+  {
+    "guid": "3e4f5061-7283-4b93-8ca4-7f8a9b0c1d29",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "El benefici clau que consisteix en determinar els recursos monetaris requerits pel projecte, segons PMBOK v6, pertany al procés de:",
+    "answerOptions": [
+      {
+        "text": "Determinar el pressupost.",
+        "isCorrect": true,
+        "rationale": "Determinar el pressupost agrega costos estimats per establir la línia base i determinar recursos monetaris requerits."
+      },
+      {
+        "text": "Controlar els costos.",
+        "isCorrect": false,
+        "rationale": "Controlar costos monitoritza desviacions i gestiona canvis al pressupost, no determina els recursos monetaris inicials."
+      },
+      {
+        "text": "Estimar els costos.",
+        "isCorrect": false,
+        "rationale": "Estimar costos calcula costos d’activitats/paquets, però el procés que determina el finançament/pressupost global és determinar el pressupost."
+      },
+      {
+        "text": "Planificar la gestió de costos.",
+        "isCorrect": false,
+        "rationale": "Planifica com s’estimaran i controlaran costos, no determina els recursos monetaris totals."
+      }
+    ],
+    "hint": "Quin procés agrega estimacions per fixar la línia base de costos?"
+  },
+
+  {
+    "guid": "4f506172-8394-4ba4-8cb5-8a9b0c1d2e30",
+    "subjectId": "AF1",
+    "difficulty": 2,
+    "origin": "AF1 Test",
+    "type": "test",
+    "question": "Com s’ha indicat es fa servir la metodologia Agile basada en Scrum per a la construcció del projecte. Durant l’execució del projecte de construcció del sistema d’informació, el rol que s’assegura que la metodologia Scrum se està executant correctament és:",
+    "answerOptions": [
+      {
+        "text": "El Product Owner.",
+        "isCorrect": false,
+        "rationale": "El Product Owner gestiona el Product Backlog i el valor, però no garanteix la correcta aplicació del marc Scrum."
+      },
+      {
+        "text": "L’equip de desenvolupadors.",
+        "isCorrect": false,
+        "rationale": "L’equip construeix l’increment, però no és el rol encarregat de vetllar per l’ús correcte de Scrum."
+      },
+      {
+        "text": "L’Scrum Master.",
+        "isCorrect": true,
+        "rationale": "L’Scrum Master és qui promou i assegura que Scrum s’entén i s’aplica correctament."
+      },
+      {
+        "text": "L’Scrum Owner.",
+        "isCorrect": false,
+        "rationale": "No és un rol Scrum oficial."
+      }
+    ],
+    "hint": "És el rol que facilita i elimina impediments perquè Scrum funcioni."
+  }
+]
