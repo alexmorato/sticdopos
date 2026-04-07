@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selecciona - sTIC d'Opos</title>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+
+  <link rel="stylesheet" href="assets/styles/loading.css">
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0b1020; color: #e7ecff; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #6ae0a7; margin: 0 0 20px 0; }
+    .container { max-width: 600px; margin: 10px auto; background: #141a2a; border-radius: 16px; padding: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+    label { display: block; margin: 8px 0 4px 0; color: #9fb0ff; font-size: 1.1rem; }
+    select, button { padding: 10px; border-radius: 8px; border: 1px solid #27304a; background: #141a2a; color: #e7ecff; cursor: pointer; font-size: 1rem; margin-bottom: 10px; }
+    select { width: 100%; }
+    .selectors-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin-bottom: 5px; }
+    .selector-item { width: 100%; }
+    .footer { text-align: center; font-size: 13px; color: #9fb0ff; margin-top: 40px; }
+    /* Modal styles */
+    .custom-modal-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0,0,0,0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    .custom-modal {
+      background: #141a2a;
+      padding: 28px 24px 18px 24px;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px #0008;
+      min-width: 260px;
+      max-width: 90vw;
+      max-height: 90vh;
+      overflow: auto;
+    }
+    .custom-modal-title {
+      font-size: 1.2rem;
+      color: #6ae0a7;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+    .custom-modal-btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 12px;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+    .custom-modal-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+    }
+    .custom-modal-accept {
+      background: #2aebad;
+      color: #032217;
+      font-weight: bold;
+      padding: 8px 22px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+    .custom-modal-cancel {
+      background: #27304a;
+      color: #e7ecff;
+      padding: 8px 22px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+    .dif-btn, .tp-btn {
+      border-radius: 8px;
+      padding: 8px 14px;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-weight: normal;
+      background: #1b223a;
+      color: #e7ecff;
+      border: 1px solid #2a3554;
+    }
+    .dif-btn.selected, .tp-btn.selected {
+      background: #2aebad;
+      color: #032217;
+      border: 2.5px solid #1aff4b;
+      font-weight: bold;
+    }
+    .tema-btn.selected { background: #2aebad; color: #032217; border: 2.5px solid #1aff4b; box-shadow: 0 0 0 2px #1aff4b55; font-weight: bold; }
+  </style>
+  <script src="assets/js/login.js"></script>
+  <script src="assets/js/loading.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <h1>👨‍💻 sTIC d'opos ☕</h1>
+  <div class="container">
+    <div class="selectors-grid">
+      <div class="selector-item">
+        <label for="tipoPreguntaBtn">Preguntes:</label>
+        <button id="tipoPreguntaBtn" type="button" style="width:100%">Selecciona tipus</button>
+      </div>
+      
+      <div class="selector-item">
+        <label for="origin">Origen:</label>
+        <select id="origin">
+          <option value="">Tots</option>
+        </select>
+      </div>
+
+      <div class="selector-item">
+        <label for="dificultatBtn">Dificultat:</label>
+        <button id="dificultatBtn" type="button" style="width:100%">Selecciona dificultats</button>
+      </div>
+
+      <div class="selector-item">
+        <label for="ambito">Àmbit:</label>
+        <select id="ambito">
+          <option value="">Tots</option>
+        </select>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+        <label style="margin:0;">Tema:</label>
+        <button id="seleccionaTotsBtn" type="button" style="font-size:0.95rem;padding:4px 10px;border-radius:6px;background:#27304a;color:#9fb0ff;border:none;cursor:pointer;">Selecciona tots</button>
+        <button id="deseleccionaTotsBtn" type="button" style="font-size:0.95rem;padding:4px 10px;border-radius:6px;background:#27304a;color:#9fb0ff;border:none;cursor:pointer;">Deselecciona tots</button>
+    </div>
+    <div id="temasBotones" style="max-height: 240px; overflow-y: auto; border: 1px solid #27304a; border-radius: 8px; background: #141a2a; padding: 8px 10px; display: flex; flex-wrap: wrap; gap: 8px;"></div>
+    
+    <div id="seleccioInfo" style="margin:16px 0 8px 0; color:#9fb0ff; font-size:1.05rem;"></div>
+    <div>
+      <button id="comencarBtn" style="width:100%;margin-top:8px;background:linear-gradient(180deg,#2aebad,#21c08d);color:#032217;font-weight:bold;font-size:1.1rem;padding:14px 0;border-radius:12px;border:none;cursor:pointer;opacity:0.5;pointer-events:none;" disabled>Continuar</button>
+      <div style="display:flex;justify-content:center;margin-top:12px;">
+        <button onclick="window.location.href='index.html'" style="background:#27304a;color:#e7ecff;font-size:1.1rem;padding:14px 38px;border-radius:12px;border:none;cursor:pointer;transition:background 0.2s;">⬅️ Tornar al menú</button>
+      </div>
+    </div>
+  </div>
+    <script>
+    // Usar la función checkUserAuth desde login.js
+    document.addEventListener('DOMContentLoaded', function() {
+      const userName = localStorage.getItem(LS_KEYS.USER_NAME);
+      const userPass = localStorage.getItem(LS_KEYS.USER_PASS);
+      login.checkUserAuth(userName, userPass);
+    }, {once:true});
+
+    // --- Lógica para ?dificutats=... & tipus=... & tema=... en la URL ---
+    document.addEventListener('DOMContentLoaded', function() {
+      const params = new URLSearchParams(window.location.search);
+      setTimeout(function() {
+      }, 650); // pequeño retardo para asegurar que se guarda
+
+      // Si existen, guardar dificultats y tipus en localStorage como arrays
+      if (params.has('dificultats')) {
+        const difsArr = params.get('dificultats').split(',').map(x => x.trim()).filter(x => x !== '');
+        localStorage.setItem(LS_KEYS.DIFICULTAT, JSON.stringify(difsArr.map(Number)));
+      }
+      if (params.has('tipus')) {
+        const tipusArr = params.get('tipus').split(',').map(x => x.trim()).filter(x => x !== '');
+        localStorage.setItem(LS_KEYS.TIPO_PREGUNTA, JSON.stringify(tipusArr));
+      }
+      if (params.has('origin')) {
+        const originVal = params.get('origin').trim();
+        if (originVal !== '') localStorage.setItem(LS_KEYS.ORIGIN, JSON.stringify(originVal));
+      }
+      const temaParam = params.get('tema');
+
+      if (temaParam) {
+        // Guardar el tema en localStorage como selección única
+        localStorage.setItem(LS_KEYS.TEMAS, JSON.stringify([temaParam]));
+        actualitzaSeleccioInfo();
+        // Redirigir como si se hubiera pulsado Començar
+        setTimeout(function() {
+          window.location.href = 'carregarFiles.html';
+        }, 350); // pequeño retardo para asegurar que se guarda
+      }
+    });
+    document.getElementById('deseleccionaTotsBtn').onclick = function() {
+        // Deselecciona tots els botons de tema visibles
+        Array.from(document.querySelectorAll('#temasBotones .tema-btn')).forEach(btn => {
+        btn.classList.remove('selected');
+        });
+        guardarTemasSeleccionados();
+    };
+    
+    document.getElementById('seleccionaTotsBtn').onclick = function() {
+      // Selecciona només els botons de tema disponibles (no deshabilitats)
+      Array.from(document.querySelectorAll('#temasBotones .tema-btn')).forEach(btn => {
+        if (!btn.disabled && !btn.classList.contains('selected')) btn.classList.add('selected');
+      });
+      guardarTemasSeleccionados();
+    };
+
+    document.getElementById('comencarBtn').onclick = function() {
+        window.location.href = 'carregarFiles.html';
+    };
+
+
+  // Elementos  
+  const tipoPreguntaBtn = document.getElementById('tipoPreguntaBtn');
+  const originSel = document.getElementById('origin');
+  const dificultatSel = document.getElementById('dificultatBtn');
+  const ambitoSel = document.getElementById('ambito');
+  const temasBotones = document.getElementById('temasBotones');
+
+
+  let tipusPregunta = [];
+  let ambits = [];
+  let temes = [];
+  let dificultats = [];
+  let origins = [];
+
+
+    // Cargar los JSON y el manifest
+    let manifestFiles = [];
+    if (typeof showLoadingSpinner === 'function') showLoadingSpinner('Carregant dades...');
+    Promise.all([
+      fetch('assets/opos24_tipusPregunta.json').then(r => r.json()),
+      fetch('assets/opos24_ambits.json').then(r => r.json()),
+      fetch('assets/opos24_temes.json').then(r => r.json()),
+      fetch('assets/difficulty.json').then(r => r.json()),
+      fetch('assets/opos24_origin.json').then(r => r.json()),
+      fetch('testfiles/manifest.json').then(r => r.json())
+    ]).then(([tipusPreguntaData, ambitsData, temesData, dificultatsData, originsData, manifestData]) => {
+      tipusPregunta = tipusPreguntaData;
+      ambits = ambitsData;
+      temes = temesData;
+      dificultats = dificultatsData;
+      origins = originsData;
+      manifestFiles = Array.isArray(manifestData) ? manifestData : (manifestData.files || []);
+      renderSelectors();
+      actualitzaSeleccioInfo();
+      if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+    });
+
+    function renderSelectors() {
+      cargarTipoPregunta();
+      cargarOrigin();
+      cargarDificultat();
+      cargarAmbitos();
+      cargarTemas();
+    }
+
+    function cargarOrigin() {
+      origins.forEach(o => {
+        const opt = document.createElement('option');
+        opt.value = o.id || o.nom || o;
+        opt.textContent = o.nom || o.id || o;
+        originSel.appendChild(opt);
+      });
+      // Seleccionar el valor guardado en localStorage si existe
+      let lastOrigin = null;
+      try {
+        lastOrigin = localStorage.getItem(LS_KEYS.ORIGIN);
+        if (lastOrigin && typeof lastOrigin === 'string') {
+          lastOrigin = lastOrigin.replace(/^"|"$/g, '');
+        }
+      } catch (e) { lastOrigin = null; }
+      if (lastOrigin) {
+        originSel.value = lastOrigin;
+      }
+    }
+
+    // --- Multi-dificultat modal ---
+    function cargarDificultat() {
+      // No hace falta cargar nada aquí, el modal se crea dinámicamente
+      actualizarTextoDificultatBtn();
+    }
+
+    function actualizarTextoDificultatBtn() {
+      const btn = document.getElementById('dificultatBtn');
+      let difs = [];
+      try {
+        difs = JSON.parse(localStorage.getItem(LS_KEYS.DIFICULTAT) || '[]');
+      } catch (e) { difs = []; }
+      if (!difs.length) {
+        btn.textContent = 'Selecciona dificultats';
+      } else if (difs.length === 1) {
+        const difObj = dificultats.find(d => d.id === difs[0]);
+        btn.textContent = difObj ? difObj.text : difs[0];
+      } else {
+        btn.textContent = difs.length + ' dificultats';
+      }
+    }
+
+    // Modal para seleccionar múltiples dificultades
+    function showDificultatModal() {
+      // Si ya existe, no crear de nuevo
+      if (document.getElementById('dificultatModal')) return;
+      let difs = [];
+      try {
+        difs = JSON.parse(localStorage.getItem(LS_KEYS.DIFICULTAT) || '[]');
+      } catch (e) { difs = []; }
+      const modal = document.createElement('div');
+      modal.id = 'dificultatModal';
+      modal.className = 'custom-modal-bg';
+      modal.innerHTML = `
+        <div class="custom-modal">
+          <div class="custom-modal-title">Selecciona dificultats</div>
+          <div id="dificultatBtns" class="custom-modal-btns"></div>
+          <div class="custom-modal-actions">
+            <button id="difAceptarBtn" class="custom-modal-accept">Aceptar</button>
+            <button id="difCancelarBtn" class="custom-modal-cancel">Cancelar</button>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+      // Botones de dificultad
+      const btnsDiv = modal.querySelector('#dificultatBtns');
+      dificultats.forEach(dif => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = dif.text;
+        btn.value = dif.id;
+        btn.className = 'dif-btn';
+        if (difs.includes(dif.id)) btn.classList.add('selected');
+        btn.addEventListener('click', function() {
+          btn.classList.toggle('selected');
+        });
+        btnsDiv.appendChild(btn);
+      });
+      // Botón aceptar
+      modal.querySelector('#difAceptarBtn').onclick = function() {
+      const seleccionadas = Array.from(btnsDiv.querySelectorAll('button.selected')).map(b => Number(b.value));
+      localStorage.setItem(LS_KEYS.DIFICULTAT, JSON.stringify(seleccionadas));
+      actualizarTextoDificultatBtn();
+      actualitzaSeleccioInfo();
+      document.body.removeChild(modal);
+      };
+      // Botón cancelar
+      modal.querySelector('#difCancelarBtn').onclick = function() {
+        document.body.removeChild(modal);
+      };
+    }
+
+    function cargarTipoPregunta() {
+      actualizarTextoTipoPreguntaBtn();
+    }
+
+    function actualizarTextoTipoPreguntaBtn() {
+      const btn = tipoPreguntaBtn;
+      let tipos = [];
+      try {
+        tipos = JSON.parse(localStorage.getItem(LS_KEYS.TIPO_PREGUNTA) || '[]');
+      } catch (e) { tipos = []; }
+      if (!tipos.length) {
+        btn.textContent = 'Selecciona tipus';
+      } else if (tipos.length === 1) {
+        const tpObj = tipusPregunta.find(tp => tp.id === tipos[0]);
+        btn.textContent = tpObj ? tpObj.nom || tpObj.id : tipos[0];
+      } else {
+        btn.textContent = tipos.length + ' tipus';
+      }
+    }
+
+    function showTipoPreguntaModal() {
+      if (document.getElementById('tipoPreguntaModal')) return;
+      let tipos = [];
+      try {
+        tipos = JSON.parse(localStorage.getItem(LS_KEYS.TIPO_PREGUNTA) || '[]');
+      } catch (e) { tipos = []; }
+      const modal = document.createElement('div');
+      modal.id = 'tipoPreguntaModal';
+      modal.className = 'custom-modal-bg';
+      modal.innerHTML = `
+        <div class="custom-modal">
+          <div class="custom-modal-title">Selecciona tipus de pregunta</div>
+          <div id="tipoPreguntaBtns" class="custom-modal-btns"></div>
+          <div class="custom-modal-actions">
+            <button id="tpAceptarBtn" class="custom-modal-accept">Aceptar</button>
+            <button id="tpCancelarBtn" class="custom-modal-cancel">Cancelar</button>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+      // Botones de tipoPregunta
+      const btnsDiv = modal.querySelector('#tipoPreguntaBtns');
+      tipusPregunta.forEach(tp => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = tp.nom || tp.id || tp;
+        btn.value = tp.id;
+        btn.className = 'tp-btn';
+        if (tipos.includes(tp.id)) btn.classList.add('selected');
+        btn.addEventListener('click', function() {
+          btn.classList.toggle('selected');
+        });
+        btnsDiv.appendChild(btn);
+      });
+      // Botón aceptar
+      modal.querySelector('#tpAceptarBtn').onclick = function() {
+        const seleccionadas = Array.from(btnsDiv.querySelectorAll('button.selected')).map(b => b.value);
+        localStorage.setItem(LS_KEYS.TIPO_PREGUNTA, JSON.stringify(seleccionadas));
+        actualizarTextoTipoPreguntaBtn();
+        actualitzaSeleccioInfo();
+        document.body.removeChild(modal);
+      };
+      // Botón cancelar
+      modal.querySelector('#tpCancelarBtn').onclick = function() {
+        document.body.removeChild(modal);
+      };
+    }
+
+    function cargarAmbitos() {
+      ambits.forEach(a => {
+        const opt = document.createElement('option');
+        opt.value = a.id || a.nom || a;
+        opt.textContent = a.id + ' - ' + a.nom || a.id || a;
+        ambitoSel.appendChild(opt);
+      });
+      // Seleccionar el valor guardado en localStorage si existe
+      let lastAmbit = null;
+      try {
+        lastAmbit = localStorage.getItem(LS_KEYS.AMBITO);
+        if (lastAmbit && typeof lastAmbit === 'string') {
+          lastAmbit = lastAmbit.replace(/^"|"$/g, '');
+        }
+      } catch (e) { lastAmbit = null; }
+      if (lastAmbit) {
+        ambitoSel.value = lastAmbit;
+      }
+    }
+
+    function cargarTemas() {
+      temasBotones.innerHTML = '';
+      let ambito = ambitoSel.value;
+      let temasFiltrados = ambito
+        ? temes.filter(t => Array.isArray(t.ambit) && t.ambit.map(String).includes(ambito))
+        : temes;
+      const temasGuardados = JSON.parse(localStorage.getItem(LS_KEYS.TEMAS) || '[]');
+      temasFiltrados.forEach(t => {
+        const id = t.tema || t.id || t;
+        const label = t.titol || t.nom || t.tema || t.id || t;
+        // Comprobar si hay algún fichero en el manifest que empiece por el tema
+        const disponible = manifestFiles.some(f => f.startsWith(id));
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = id + ' - ' + label;
+        btn.value = id;
+        btn.style.marginBottom = '4px';
+        btn.style.borderRadius = '8px';
+        btn.style.padding = '8px 14px';
+        btn.style.cursor = disponible ? 'pointer' : 'not-allowed';
+        btn.style.transition = 'all 0.15s';
+        btn.className = 'tema-btn';
+        if (disponible) {
+          btn.style.background = '#1b223a';
+          btn.style.color = '#e7ecff';
+          btn.style.border = '1px solid #2a3554';
+          if (temasGuardados.includes(id)) btn.classList.add('selected');
+          btn.addEventListener('click', function() {
+            btn.classList.toggle('selected');
+            guardarTemasSeleccionados();
+          });
+        } else {
+          btn.disabled = true;
+          btn.style.background = '#ffb3b3';
+          btn.style.color = '#a00';
+          btn.style.border = '2px solid #ffb3b3';
+          btn.title = 'No hi ha fitxers per a aquest tema';
+        }
+        temasBotones.appendChild(btn);
+      });
+    }
+
+    function guardarTemasSeleccionados() {
+      const seleccionados = Array.from(temasBotones.querySelectorAll('button.selected')).map(b => b.value);
+      localStorage.setItem(LS_KEYS.TEMAS, JSON.stringify(seleccionados));
+      actualitzaSeleccioInfo();
+    }
+
+    function actualitzaSeleccioInfo() {
+      const seleccionats = JSON.parse(localStorage.getItem(LS_KEYS.TEMAS) || '[]');
+      const infoDiv = document.getElementById('seleccioInfo');
+      const comencarBtn = document.getElementById('comencarBtn');
+      // Dificultades
+      let difs = [];
+      try { difs = JSON.parse(localStorage.getItem(LS_KEYS.DIFICULTAT) || '[]'); } catch (e) { difs = []; }
+      // Tipos de pregunta
+      let tipos = [];
+      try { tipos = JSON.parse(localStorage.getItem(LS_KEYS.TIPO_PREGUNTA) || '[]'); } catch (e) { tipos = []; }
+      // Origen
+      let origin = localStorage.getItem(LS_KEYS.ORIGIN) || '';
+      origin = origin.replace(/^"|"$/g, '');
+      // Mostrar nombres legibles
+      let difsText = '';
+      if (difs.length) {
+        difsText = 'Dificultats: ' + difs.map(did => {
+          const d = typeof dificultats !== 'undefined' ? dificultats.find(x => x.id === did) : null;
+          return d ? d.text : did;
+        }).join(', ');
+      } else {
+        difsText = 'Dificultats: TOTES';
+      }
+      let tiposText = '';
+      if (tipos.length) {
+        tiposText = 'Tipus: ' + tipos.map(tid => {
+          const t = typeof tipusPregunta !== 'undefined' ? tipusPregunta.find(x => x.id === tid) : null;
+          return t ? (t.nom || t.id) : tid;
+        }).join(', ');
+      } else {
+        tiposText = 'Tipus: TOTS';
+      }
+      let originText = '';
+      if (origin) {
+        const o = typeof origins !== 'undefined' ? origins.find(x => (x.id || x.nom || x) === origin) : null;
+        originText = 'Origen: ' + (o ? (o.nom || o.id || o) : origin);
+      } else {
+        originText = 'Origen: TOTS';
+      }
+      let temasText = '';
+      if (seleccionats.length) {
+        temasText = 'Temes: ' + seleccionats.join(', ');
+      }
+      // Construir info
+      let infoArr = [];
+      if (temasText) infoArr.push(temasText);
+      if (difsText) infoArr.push(difsText);
+      if (tiposText) infoArr.push(tiposText);
+      if (originText) infoArr.push(originText);
+  infoDiv.innerHTML = infoArr.map(x => `<div>${x}</div>`).join('');
+      if (seleccionats.length) {
+        comencarBtn.disabled = false;
+        comencarBtn.style.opacity = '1';
+        comencarBtn.style.pointerEvents = 'auto';
+      } else {
+        comencarBtn.disabled = true;
+        comencarBtn.style.opacity = '0.5';
+        comencarBtn.style.pointerEvents = 'none';
+      }
+    }
+
+    // Inicialitza l'estat del text quan es carrega la pàgina
+    document.addEventListener('DOMContentLoaded', actualitzaSeleccioInfo);
+
+
+    // Guardar selección en localStorage cada vez que cambia
+    tipoPreguntaBtn.addEventListener('click', showTipoPreguntaModal);
+
+    // Botón para abrir el modal de dificultad
+    dificultatSel.addEventListener('click', showDificultatModal);
+
+    originSel.addEventListener('change', function() {
+      localStorage.setItem(LS_KEYS.ORIGIN, this.value);
+      actualitzaSeleccioInfo();
+    });
+
+    ambitoSel.addEventListener('change', function() {
+      localStorage.setItem(LS_KEYS.AMBITO, this.value);
+      cargarTemas();
+      guardarTemasSeleccionados();
+    });
+
+    // Guardar selección inicial (por si hay valores por defecto)
+    tipoPreguntaSel.addEventListener('change', function() {
+      localStorage.setItem(LS_KEYS.TIPO_PREGUNTA, this.value);
+    });
+    ambitoSel.addEventListener('change', function() {
+      localStorage.setItem(LS_KEYS.AMBITO, this.value);
+    });
+    // El evento de selección de temas ahora se gestiona con los botones
+  // Estilos para botón seleccionado
+  const style = document.createElement('style');
+  style.textContent = `.tema-btn.selected { background: #2aebad; color: #032217; border: 2.5px solid #1aff4b; box-shadow: 0 0 0 2px #1aff4b55; font-weight: bold; }`;
+  document.head.appendChild(style);
+  </script>
+</body>
+</html>

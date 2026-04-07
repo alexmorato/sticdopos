@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carregar JSON - sTIC d'Opos</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 700px;
+      width: 100%;
+      background: #141a2a;
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      border: 1px solid #27304a;
+      margin-top: 40px;
+    }
+    h2 {
+      color: #6ae0a7;
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 220px;
+      background: #232b45;
+      color: #e7ecff;
+      border: 1.5px solid #27304a;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: monospace;
+      padding: 16px;
+      margin-bottom: 18px;
+      resize: vertical;
+      box-sizing: border-box;
+    }
+    .btn-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+    button {
+      background: #27304a;
+      color: #e7ecff;
+      font-size: 1rem;
+      padding: 10px 22px;
+      border-radius: 8px;
+      border: 1px solid #2a3554;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    button:hover {
+      background: #2a3554;
+      border-color: #6ae0a7;
+      color: #6ae0a7;
+    }
+    .main-btn {
+      background: linear-gradient(180deg, #2aebad, #21c08d);
+      color: #032217;
+      font-weight: bold;
+      font-size: 1.1rem;
+      border: none;
+    }
+    .main-btn:hover:not(:disabled) {
+      background: #6ae0a7;
+      color: #032217;
+    }
+    .main-btn:disabled {
+      background: #27304a;
+      color: #6b7585;
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #9fb0ff;
+      margin-top: 30px;
+    }
+  </style>
+  <script src="assets/js/toast.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="container">
+    <h2>Estudiar amb copy-paste ✂️</h2>
+    <div class="btn-row">
+      <button onclick="pegarDelPortapapeles()">📋 Pega</button>
+      <button onclick="borrarTextarea()">🗑️ Esborrar</button>
+    </div>
+    <textarea id="historialTextarea" placeholder="Enganxa aquí el JSON a estudiar..."></textarea>
+    <div style="color:#9fb0ff;font-size:0.98em;margin-bottom:10px;text-align:right;">
+      <span id="contadorPreguntas"></span>
+    </div>
+    <div class="btn-row">
+      <select id="modoEstudio" style="margin-right:12px;padding:10px 18px;border-radius:8px;border:1px solid #27304a;background:#141a2a;color:#e7ecff;font-size:1rem;">
+        <option value="1_estudiar" selected>Estudiar ràpid</option>
+        <option value="2_machacarFallos">Sobreescriure historial de fallos</option>
+        <option value="3_concatenarFallos">Concatenar al historial de fallos</option>
+      </select>
+      <button class="main-btn" id="estudiarBtn" onclick="guardarYEstudiar()" >Estudiar</button>
+      <button onclick="window.location.href='index.html'">⬅️ Tornar al menú</button>
+    </div>
+  </div>
+  <script>
+    // Mostrar historial actual al cargar y controlar el estado del botón
+    document.addEventListener('DOMContentLoaded', function() {
+      const textarea = document.getElementById('historialTextarea');
+      const btn = document.getElementById('estudiarBtn');
+      btn.disabled = textarea.value.trim() === '';
+      actualizarContadorPreguntas();
+      textarea.addEventListener('input', actualizarContadorPreguntas);
+
+      function actualizarContadorPreguntas() {
+        const textarea = document.getElementById('historialTextarea');
+        const contador = document.getElementById('contadorPreguntas');
+        const btn = document.getElementById('estudiarBtn');
+        let n = 0;
+        let temas = {};
+        try {
+          const arr = JSON.parse(textarea.value);
+          if (Array.isArray(arr)) {
+            n = arr.length;
+            arr.forEach(e => {
+              let tema = e.subjectId || '??';
+              temas[tema] = (temas[tema] || 0) + 1;
+            });
+          }
+        } catch {}
+        let desglose = Object.entries(temas)
+          .map(([tema, count]) => `${tema}: ${count}`)
+          .join(', ');
+        contador.textContent = `Preguntas: ${n}` + (desglose ? ` (${desglose})` : '');
+        btn.disabled = textarea.value.trim() === '';
+      }
+    });
+
+    async function pegarDelPortapapeles() {
+      const textarea = document.getElementById('historialTextarea');
+      try {
+        const text = await navigator.clipboard.readText();
+        textarea.value = text;
+        if (typeof Event === 'function') {
+          textarea.dispatchEvent(new Event('input', { bubbles: true }));
+        }
+        toast.showToast('Contingut pegat del portapapers!');
+      } catch (err) {
+        toast.showToast('Error al pegar: ' + err);
+      }
+    }
+
+    function borrarTextarea() {
+      const textarea = document.getElementById('historialTextarea');
+      textarea.value = '';
+      // Forzar evento input para que el contador se actualice correctamente
+      if (typeof Event === 'function') {
+        textarea.dispatchEvent(new Event('input', { bubbles: true }));
+      } else {
+        actualizarContadorPreguntas();
+      }
+    }
+
+    function guardarYEstudiar() {
+      const textarea = document.getElementById('historialTextarea');
+      let nuevasPreguntas;
+      try {
+        nuevasPreguntas = JSON.parse(textarea.value);
+        if (!Array.isArray(nuevasPreguntas)) throw new Error('El JSON ha de ser un array.');
+      } catch (e) {
+        toast.showToast('JSON invàlid: ' + e.message);
+        return;
+      }
+      if (!nuevasPreguntas.length) {
+        toast.showToast('No hi han preguntes per estudiar.');
+        return;
+      }
+      const modo = document.getElementById('modoEstudio').value;
+      if (modo === '1_estudiar') {
+        localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(nuevasPreguntas));
+        toast.showToast('Preguntes guardades! Redirigint...');
+        if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+        setTimeout(function() {
+          window.location.href = 'estudiar.html';
+        }, 900);
+      } else if (modo === '2_machacarFallos') {
+        if (confirm('Segur que vols SOBREESCRIURE el historial de fallos? Aquesta acció no es pot desfer.')) {
+          localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(nuevasPreguntas));
+          toast.showToast('Historial de fallos sobreescrit!');
+          setTimeout(function() {
+            window.location.href = 'historialErrors.html';
+          }, 900);
+        } else {
+          toast.showToast('Acció cancel·lada. El historial no s\'ha modificat.');
+        }
+      } else if (modo === '3_concatenarFallos') {
+        let historial = [];
+        try {
+          historial = JSON.parse(localStorage.getItem(LS_KEYS.HISTORIAL_FALLOS) || '[]');
+        } catch {}
+        historial = nuevasPreguntas.concat(historial);
+        localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(historial));
+        toast.showToast('Preguntes afegides al historial de fallos!');
+        setTimeout(function() {
+          window.location.href = 'historialErrors.html';
+        }, 900);
+      }
+      actualizarContadorPreguntas();
+    }
+    
+  </script>
+</body>
+</html>

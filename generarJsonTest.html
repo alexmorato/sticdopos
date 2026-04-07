@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generació JSON - sTIC d'Opos</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/js/toast.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+        .container { max-width: 800px; margin: 40px auto; background: #fff; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        h1 { color: #2c3e50; }
+        .manual-section { margin-bottom: 32px; }
+        .image-preview { width: 100%; max-width: 400px; margin: 16px 0; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); }
+        .prompt-example { background: #eef6fa; border-left: 4px solid #3498db; padding: 12px; margin: 12px 0; font-family: monospace; }
+    </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="container">
+        <h1>Manual per Generar Tests amb ChatGPT</h1>
+        <button onclick="window.location.href='index.html'" style="margin-bottom:20px;">⬅️ Tornar al menú</button>
+        <div class="manual-section">
+            <h2>Introducció</h2>
+            <p>Aquí podràs aprendre com crear tests utilitzant ChatGPT, incloent exemples de prompts i recomanacions.</p>
+        </div>
+        <div class="manual-section">
+            <h2>Exemple de Prompt</h2>
+                        <div class="prompt-example">
+                            Quiero que generes un JSON con estas caracteristicas.<br>
+                            Un array de QuestionContract.<br>
+                            interface QuestionContract {<br>
+                            &nbsp;&nbsp;guid: string; // Genera un GUID, Identificador Único Global, una cadena de 128 bits diseñada para ser única en el mundo<br>
+                            &nbsp;&nbsp;subjectId: string; // Identificador del tema o materia (por ejemplo, "T62", "T08", "Ambit1")<br>
+                            &nbsp;&nbsp;difficulty: 1 ; // Identificador numerico del nivel de dificultad 1-facil, 2-medio, 3-dificil, 4-avanzado, 5-mortal<br>
+                            &nbsp;&nbsp;origin: string; // Fuente o sistema de origen (por ejemplo, "OPOS19_preguntes_practic.pdf" para extracciones de ficheros o “OPOS24_gpt” para cuando las genera el chatgpt o "deepseek" cuando las genera DeepSeek)<br>
+                            &nbsp;&nbsp;type: string; // Tipo de pregunta (por ejemplo, "test", “truefalse”, “fillgap”)<br>
+                            &nbsp;&nbsp;question: string; // Texto de la pregunta<br>
+                            &nbsp;&nbsp;answerOptions: AnswerOption[]; // Opciones de respuesta<br>
+                            &nbsp;&nbsp;hint?: string; // (Opcional) pista o ayuda para el usuario<br>
+                            }<br>
+                            interface AnswerOption {<br>
+                            &nbsp;&nbsp;text: string; // Texto de la opción de respuesta. No pongas A B C o D, solo el texto de la opción.<br>
+                            &nbsp;&nbsp;isCorrect: boolean; // Indica si la opción es la respuesta correcta<br>
+                            &nbsp;&nbsp;rationale: string; // Explicación o justificación de la opción<br>
+                            }<br>
+                            Haré copy-paste del JSON.<br>
+                        </div>
+        </div>
+        <div class="manual-section">
+            <h2>Personalització del Prompt</h2>
+            <p>
+                El prompt definit s'utilitza per generar automàticament un JSON amb una estructura específica, requerida per l'aplicació <strong>sTICdOPOS</strong>.<br><br>
+                Aquest prompt és altament configurable i permet adaptar el contingut generat a diferents necessitats sense alterar l'estructura base del JSON. Per exemple, es pot demanar:
+            </p>
+            <ul>
+                <li>L'idioma del contingut (<em>català, castellà, etc.</em>).</li>
+                <li>El nivell de dificultat (<em>més senzill o més avançat</em>).</li>
+                <li>Ajustos en l'estil o enfocament pedagògic.</li>
+            </ul>
+            <p>
+                Independentment d'aquestes personalitzacions, el requisit fonamental és que el resultat respecti sempre l'estructura JSON esperada per l'aplicació, ja que això garanteix la seva correcta integració i funcionament dins de <strong>sTICdOPOS</strong>.
+            </p>
+        </div>
+        <div class="manual-section">
+            <h2>Ejemplo de JSON</h2>
+            <p>Aquí tienes un ejemplo de JSON correcto generado con ChatGPT listo para copiar y pegar en <strong>sTICdOPOS</strong>.</p>
+                <button class="accordion" onclick="toggleAccordion()" style="margin-bottom:10px;">Mostrar/Ocultar JSON</button>
+                <div id="jsonPanel" style="display:none; margin-top:10px;">
+                    <pre><code>
+                        <button onclick="copyJSON()" style="margin-bottom:10px;">Copiar JSON</button>
+                        <pre><code id="jsonExample">[
+  {
+    "guid":"b1a4c6e2-1f3a-4b7c-9e21-111a2b3c4d01",
+    "subjectId":"Infantil",
+    "difficulty":1,
+    "origin":"OPOS24_gpt",
+    "type":"test",
+    "question":"Com es diu la rateta de la pel·lícula Ratatouille?",
+    "answerOptions":[
+      {"text":"Remy","isCorrect":true,"rationale":"Remy és la rateta protagonista que cuina."},
+      {"text":"Mickey","isCorrect":false,"rationale":"Mickey Mouse és d'una altra pel·lícula."},
+      {"text":"Jerry","isCorrect":false,"rationale":"Jerry pertany a Tom i Jerry."},
+      {"text":"Stuart","isCorrect":false,"rationale":"Stuart Little no és de Disney Pixar."}
+    ],
+    "hint":"Li agrada molt cuinar."
+  },
+  {
+    "guid":"e4f7a9b2-8c1d-4e23-bb55-444d5e6f7a04",
+    "subjectId":"Infantil",
+    "difficulty":1,
+    "origin":"OPOS24_gpt",
+    "type":"truefalse",
+    "question":"El Simba és el fill del Mufasa.",
+    "answerOptions":[
+      {"text":"Cert","isCorrect":true,"rationale":"Simba és el fill del rei Mufasa."},
+      {"text":"Fals","isCorrect":false,"rationale":"La relació pare-fill és correcta."}
+    ],
+    "hint":"És una família de lleons."
+  },
+  {
+    "guid":"d9e3f5a7-4b6c-4389-aa00-999c0d1e2f09",
+    "subjectId":"Infantil",
+    "difficulty":1,
+    "origin":"OPOS24_gpt",
+    "type":"fillgap",
+    "question":"El ninot de neu de Frozen es diu _____.",
+    "answerOptions":[
+      {"text":"Olaf","isCorrect":true,"rationale":"Olaf és el ninot de neu divertit."},
+      {"text":"Sven","isCorrect":false,"rationale":"Sven és un ren."},
+      {"text":"Kristoff","isCorrect":false,"rationale":"Kristoff és un humà."},
+      {"text":"Hans","isCorrect":false,"rationale":"Hans és un príncep."}
+    ],
+    "hint":"Li agrada molt l'estiu."
+  }
+]
+
+                        </code></pre>
+                    </code></pre>
+                </div>
+        </div>
+        <div class="manual-section">
+            <h2>Comprovacio i estudi del JSON</h2>
+            <p>Un cop tens el JSON el pots engaxar directament en la APP per començar a estudiar.</p>
+            <p>El menu tens un opció que es (✂️ Estudiar amb CopyPaste).</p>
+            <img src="images/ajuda_carregaJSON.jpg" alt="Ejemplo" class="image-preview">
+            <p>Si vols que afegeixi el teu JSON a la APP passa-li al creador d'aquesta APP 😜</p>
+            <p>Accesos:</p>
+            <button onclick="window.location.href='index.html'" style="margin-bottom:20px;">⬅️ Volver al Menú</button>
+            <button onclick="window.location.href='cargarManual.html'" style="margin-bottom:20px;">✂️ Estudiar amb CopyPaste</button>
+        </div>
+        
+        <div class="manual-section">
+            <h2>Guia pas a pas</h2>
+            <ol>
+                <li>Accedeix a ChatGPT.</li>
+                <li>Introdueix el prompt desitjat.</li>
+                <li>Revisa i ajusta el test generat.</li>
+                <li>Guarda o utilitza el test a la teva plataforma.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+<script>
+    function toggleAccordion() {
+        var panel = document.getElementById('jsonPanel');
+        if (panel.style.display === 'none') {
+            panel.style.display = 'block';
+        } else {
+            panel.style.display = 'none';
+        }
+    }
+
+    function copyJSON() {
+        var code = document.getElementById('jsonExample').innerText;
+        navigator.clipboard.writeText(code).then(function() {
+            toast.showToast('JSON copiado al portapapeles');
+        }, function(err) {
+            toast.showToast('Error al copiar: ' + err);
+        });
+    }
+</script>
+
+</html>

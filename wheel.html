@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rueda Aleatoria (Canvas)</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+        /* Menú hamburguesa y panel */
+        .menu-btn {
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          width: 50px;
+          height: 50px;
+          background: #2aebad;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 6px;
+          z-index: 1000;
+          transition: all 0.3s;
+          box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+        }
+        .menu-btn:hover {
+          background: #21c08d;
+          transform: scale(1.05);
+        }
+        .menu-btn span {
+          width: 28px;
+          height: 3px;
+          background: #032217;
+          border-radius: 2px;
+          transition: all 0.3s;
+        }
+        .menu-panel {
+          position: fixed;
+          top: 20px;
+          right: 20px;
+          background: #141a2a;
+          border: 2px solid #27304a;
+          border-radius: 12px;
+          padding: 15px;
+          display: none;
+          flex-direction: column;
+          gap: 10px;
+          z-index: 1001;
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+          min-width: 180px;
+        }
+        .menu-panel.visible {
+          display: flex;
+          animation: slideIn 0.3s ease-out;
+        }
+        @keyframes slideIn {
+          from { opacity: 0; transform: translateY(-10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .menu-close-btn {
+          width: 100%;
+          padding: 12px;
+          background: #2aebad;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 1.1rem;
+          font-weight: bold;
+          color: #032217;
+          transition: all 0.2s;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+        }
+        .menu-close-btn:hover {
+          background: #21c08d;
+          transform: translateY(-1px);
+        }
+        .btn-fullscreen {
+          width: 100%;
+          padding: 12px;
+          background: #2a5f8a;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 1rem;
+          font-weight: 600;
+          color: #e7ecff;
+          transition: all 0.2s;
+        }
+        .btn-fullscreen:hover {
+          background: #3a7faa;
+          transform: translateY(-1px);
+        }
+        .btn-menu-tornar {
+          width: 100%;
+          padding: 12px;
+          background: #27304a;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 1rem;
+          font-weight: 600;
+          color: #e7ecff;
+          transition: all 0.2s;
+        }
+        .btn-menu-tornar:hover {
+          background: #3a4a6a;
+          transform: translateY(-1px);
+        }
+    .wrap { max-width: 1000px; margin: 0 auto; display: grid; gap: 16px; grid-template-columns: 1fr; }
+    @media (min-width: 900px){ .wrap { grid-template-columns: 520px 1fr; align-items: start; } }
+    .card {
+      background: #141a2a;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.18);
+      padding: 16px;
+      border: 1px solid #27304a;
+    }
+    .wheelBox { position: relative; width: 100%; aspect-ratio: 1 / 1; }
+    canvas { width: 100%; height: 100%; display: block; border-radius: 16px; background: #fff; }
+    .pointer {
+      position: absolute;
+      top: 6px; left: 50%;
+      width: 0; height: 0;
+      transform: translateX(-50%);
+      border-left: 14px solid transparent;
+      border-right: 14px solid transparent;
+      border-top: 26px solid #111;
+      filter: drop-shadow(0 3px 4px rgba(0,0,0,.25));
+      pointer-events: none;
+    }
+    .hub {
+      position:absolute; inset: 50% auto auto 50%;
+      transform: translate(-50%,-50%);
+      width: 72px; height: 72px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, #fff, #d9dde7);
+      box-shadow: inset 0 2px 10px rgba(0,0,0,.15), 0 6px 16px rgba(0,0,0,.10);
+      display:flex; align-items:center; justify-content:center;
+      font-weight: 800;
+      pointer-events:none;
+      user-select:none;
+    }
+    .row { display:flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    button {
+      appearance: none; border: 0; border-radius: 12px;
+      padding: 10px 14px; font-weight: 700; cursor: pointer;
+      background: #3369e8; color: #fff;
+      box-shadow: 0 6px 16px rgba(51,105,232,.25);
+    }
+    button:disabled { opacity: .55; cursor: not-allowed; }
+    button.secondary { background:#111; box-shadow: 0 6px 16px rgba(0,0,0,.18); }
+    textarea {
+      width: 100%; min-height: 220px; resize: vertical;
+      border-radius: 12px; border: 1px solid #e4e6ee;
+      padding: 10px; font-size: 14px; line-height: 1.3;
+    }
+    .hint { font-size: 12px; opacity: .75; margin-top: 8px; }
+    .result {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: #232b45;
+      border: 1px solid #27304a;
+      font-weight: 700;
+      color: #6ae0a7;
+    }
+    .tiny { font-size: 12px; opacity: .75; }
+  </style>
+</head>
+<body>
+  <!-- Menú hamburguesa -->
+  <button class="menu-btn" id="menuBtn" aria-label="Menú">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="closeBtn">Tancar</button>
+    <button class="btn-fullscreen" id="fullscreenBtn">FullScreen</button>
+    <button class="btn-menu-tornar" id="menuBtnTornar">Menú</button>
+  </div>
+  <div class="wrap">
+    <div class="card">
+      <div class="wheelBox">
+        <div class="pointer" aria-hidden="true"></div>
+        <canvas id="wheel" width="700" height="700" aria-label="Rueda"></canvas>
+        <div class="hub" aria-hidden="true">SPIN</div>
+      </div>
+      <div class="row" style="margin-top:12px">
+        <button id="spinBtn">Girar</button>
+        <button id="shuffleBtn" class="secondary">Mezclar colores</button>
+        <span class="tiny">Tip: también puedes hacer click en la rueda</span>
+      </div>
+      <div id="result" class="result" style="display:none"></div>
+      <div class="hint">El ganador se elige con <code>crypto.getRandomValues()</code> (aleatoriedad segura). La animación solo “cae” en ese segmento.</div>
+    </div>
+
+    <div class="card">
+      <h3 style="margin:0 0 10px 0">Opciones (una por línea)</h3>
+      <textarea id="items">
+1. La planificació estratègia dels sistemes d’informació
+2. La Transformació Digital i l'impacte en les organitzacions
+3. Prospecció de solucions TIC: Casos de negoci
+4. El procés d'innovació. Normativa UNE 166000
+5. Principis bàsics de l'Administració Electrònica
+6. Gestió de projectes TIC en PMBOK: gestió de l'abast
+7. PMBOK: gestió del cost
+8. PMBOK: gestió del cronograma
+9. PMBOK: gestió de riscos
+10. PMBOK: gestió d'implicats
+11. PMBOK: Tancament i avaluació del projecte
+12. Metodologia Agile
+13. Solucions ERP (Enterprise Resource Planning)
+14. Solucions CRM (Customer Relationship Management)
+15. Solucions de gestió documental i arxiu electrònic
+16. Serveis digitals geogràfics: definició, funcions i tipus d'informació
+Ambit_2. 
+17. Qualitat del servei: norma ISO 9001
+18. Qualitat del serveis: Norma ISO 20000
+19_24. ItilV3
+19. Gestió de serveis en Metodologia ITIL: Gestió integral del Cicle de Vida del Servei
+20. ITIL: Estratègia de Servei
+21. ITIL: Diseny del servei
+22. ITIL: Operació del servei
+23. ITIL: Transició del servei
+24. ITIL: Millora continua
+25. Plataforma d'Observabilitat: Components, característiques i reptes d'implantació
+26. El servei d'Atenció a l'Usuari: estructura organitzativa, funcions i eines
+27. Gestió del Compliance
+28. Gestió d' identitats
+29. Gestió d'Incidents de Ciberseguretat
+30. Gestió de serveis de RPA sobre UIPath
+31. Gestió del Btach sobre UC4
+32. Us del Power BI
+33. SAP Financials (Enterprise. Aplications for Public Sector)
+34. SAP TRM (Task & Revenue Management)
+35. SAP HCM (Human Capital Management)
+36. BigData i entorns de DataLake
+37. Desenvolupament APPS
+38. Eines de desenvolupament: LOWCODE i NOCODE
+39. DevOps i FinOps
+40. El model Entitat-Relació
+41. Gestió de la Qualitat del Programari
+42. Tecnologia Blockchain: Caracterítiques i casos d'ús
+43. Desenvolupament d’aplicacions natives al núvol
+44. Disseny d'una Arquitectura de Microserveis
+45. Disseny i realització de proves de programari
+46. Arquitectura basada en serveis (SOA)
+47. Dominis de dades en arquitectura DATA MESH
+48. La Intel·ligència Artificial: tipus i nivells de complexitat, riscos i biaxos
+49. Eines de treball col·laboratiu en entorn Microsoft 365
+50. Plataforma de Gestió de Dispositius Mòbils (MDM)
+51. Plataforma ECM (EndPoint Configurations Manager)
+52. Tècnica de sistemes BASIS i SAP Hana
+53. Bases de dades SQL (Structured Query Language)
+54. Bases de dades no relacionals
+55. Sistemes SAN i Nivells de RAID (Redundant Array of Independent Disks)
+56. Sistemes de Backup model 3-2-1. Backup i mitjans de protecció contra ransomware
+57. Continuïtat del negoci, Disaster Recovery
+58. Models de computació hibrids (On-premises i al Núvol)
+59. Software Defined Data Center
+60. Centres de Processament de Dades (CPD): nivells de protecció, components
+61. Xarxes WIFI
+62. Internet i els seus components: arquitectura, protocols, dominis i DNS
+63. Protocols, estructura i adreçament: TCP/IP v4 i MPLS
+64. Normativa UNE CTN178: Ciutats intel·ligents
+65. L'Esquema Nacional de Seguretat (E.N.S)
+66. El Reglament General de Protecció de Dades (RGPD)
+67. Hacking Ètic
+68. Certificats digitals i autentificació electrònica
+69. Signatura electrònica
+70. Protecció de l'accés remot
+71. La ciberseguretat aplicada al Cloud
+72. Llei 31/1995, de 8 de novembre, de prevenció de riscos laborals
+      </textarea>
+      <div class="row" style="margin-top:10px">
+        <button id="applyBtn">Aplicar</button>
+        <span class="tiny">Vacíos se ignoran. Mínimo 2 opciones.</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+        // Menú hamburguesa
+        const menuBtn = document.getElementById('menuBtn');
+        const menuPanel = document.getElementById('menuPanel');
+        const closeBtn = document.getElementById('closeBtn');
+        const fullscreenBtn = document.getElementById('fullscreenBtn');
+        const menuBtnTornar = document.getElementById('menuBtnTornar');
+
+        menuBtn.addEventListener('click', () => {
+          menuPanel.classList.toggle('visible');
+        });
+        closeBtn.addEventListener('click', () => {
+          menuPanel.classList.remove('visible');
+        });
+        fullscreenBtn.addEventListener('click', () => {
+          menuPanel.classList.remove('visible');
+          if (document.fullscreenElement) {
+            document.exitFullscreen();
+          } else {
+            document.documentElement.requestFullscreen();
+          }
+        });
+        menuBtnTornar.addEventListener('click', () => {
+          menuPanel.classList.remove('visible');
+          window.location.href = 'menu.html';
+        });
+    // ---------- Util: entero aleatorio uniforme [0, n) usando crypto (sin sesgo) ----------
+
+    // ---------- Sonido CLI ----------
+    // Genera un sonido breve tipo "cli" usando Web Audio API
+    function playCli() {
+      try {
+        const ctx = playCli.ctx || (playCli.ctx = new (window.AudioContext || window.webkitAudioContext)());
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = "sine";
+        osc.frequency.value = 700;
+        gain.gain.value = 0.08;
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.06);
+        osc.onended = () => {
+          gain.disconnect();
+          osc.disconnect();
+        };
+      } catch (e) { /* ignore */ }
+    }
+    function cryptoRandomInt(n) {
+      if (!Number.isInteger(n) || n <= 0) throw new Error("n inválido");
+      const max = 0x100000000; // 2^32
+      const limit = max - (max % n); // rejection sampling para evitar sesgo
+      const buf = new Uint32Array(1);
+      while (true) {
+        crypto.getRandomValues(buf);
+        const x = buf[0];
+        if (x < limit) return x % n;
+      }
+    }
+
+    // ---------- Color helper (paleta agradable sin librerías) ----------
+    function makePalette(count) {
+      // Genera colores HSL espaciados
+      const colors = [];
+      for (let i = 0; i < count; i++) {
+        const hue = Math.round((360 * i) / count);
+        colors.push(`hsl(${hue} 75% 55%)`);
+      }
+      return colors;
+    }
+
+    // ---------- Rueda (Canvas) ----------
+    const canvas = document.getElementById("wheel");
+    const ctx = canvas.getContext("2d");
+
+    const spinBtn = document.getElementById("spinBtn");
+    const shuffleBtn = document.getElementById("shuffleBtn");
+    const applyBtn = document.getElementById("applyBtn");
+    const itemsTa = document.getElementById("items");
+    const resultBox = document.getElementById("result");
+
+    let items = [];
+    let colors = [];
+
+    // Ángulo actual (radianes). 0 = “arriba”. Rotamos la rueda, el puntero está fijo arriba.
+    let angle = 0;
+
+    // Animación
+    let spinning = false;
+    let startAngle = 0;
+    let targetAngle = 0;
+    let startTime = 0;
+    let durationMs = 5200; // tiempo total de giro
+
+    function parseItems() {
+      const lines = itemsTa.value.split("\n")
+        .map(s => s.trim())
+        .filter(Boolean);
+      // Deduplicación opcional: si no la quieres, elimina este bloque
+      items = lines;
+      if (items.length < 2) {
+        alert("Pon al menos 2 opciones (una por línea).");
+        return false;
+      }
+      colors = makePalette(items.length);
+      drawWheel();
+      hideResult();
+      return true;
+    }
+
+    function hideResult() {
+      resultBox.style.display = "none";
+      resultBox.textContent = "";
+    }
+
+    function showResult(text) {
+      resultBox.textContent = "Ganador: " + text;
+      resultBox.style.display = "block";
+    }
+
+    function drawWheel() {
+      const W = canvas.width, H = canvas.height;
+      const cx = W / 2, cy = H / 2;
+      const r = Math.min(W, H) * 0.46;
+
+      ctx.clearRect(0, 0, W, H);
+
+      // Fondo
+      ctx.save();
+      ctx.beginPath();
+      ctx.arc(cx, cy, r + 18, 0, Math.PI * 2);
+      ctx.fillStyle = "#fff";
+      ctx.fill();
+      ctx.restore();
+
+      const n = items.length;
+      const slice = (Math.PI * 2) / n;
+
+      // Rotamos para que el “centro” de un segmento pueda caer en el puntero de arriba.
+      // El puntero apunta hacia abajo (triángulo arriba). El ángulo de “arriba” en canvas es -PI/2.
+      const baseRotation = -Math.PI / 2;
+
+      for (let i = 0; i < n; i++) {
+        const a0 = baseRotation + angle + i * slice;
+        const a1 = a0 + slice;
+
+        // Segmento
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.arc(cx, cy, r, a0, a1);
+        ctx.closePath();
+        ctx.fillStyle = colors[i % colors.length];
+        ctx.fill();
+
+        // Borde de segmento
+        ctx.strokeStyle = "rgba(255,255,255,.9)";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // Texto
+        const mid = (a0 + a1) / 2;
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(mid);
+
+        // Texto alineado hacia fuera
+        ctx.textAlign = "right";
+        ctx.textBaseline = "middle";
+        ctx.fillStyle = "white";
+        ctx.font = "800 12px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+
+        const label = items[i];
+        const maxLen = 22;
+        const text = label.length > maxLen ? label.slice(0, maxLen - 1) + "…" : label;
+
+        ctx.fillText(text, r - 14, 0);
+        ctx.restore();
+      }
+
+      // Aro exterior
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.lineWidth = 6;
+      ctx.strokeStyle = "rgba(0,0,0,.15)";
+      ctx.stroke();
+    }
+
+    function easeOutCubic(t) {
+      return 1 - Math.pow(1 - t, 3);
+    }
+
+    function currentIndexAtPointer() {
+      // Determina qué segmento está en el puntero (arriba).
+      // El puntero está en -PI/2 (arriba). Dado angle, calculamos desplazamiento.
+      const n = items.length;
+      const slice = (Math.PI * 2) / n;
+
+      // Normaliza ángulo a [0, 2pi)
+      let a = angle % (Math.PI * 2);
+      if (a < 0) a += Math.PI * 2;
+
+      // En drawWheel usamos baseRotation = -PI/2 y sumamos angle.
+      // El segmento i ocupa [baseRotation+angle+i*slice, baseRotation+angle+(i+1)*slice).
+      // Queremos el i tal que el puntero (baseRotation) cae dentro si "desrotamos" por angle:
+      // Equivalente a localizar el ángulo relativo: (-angle) en [i*slice, (i+1)*slice)
+      let rel = (-a) % (Math.PI * 2);
+      if (rel < 0) rel += Math.PI * 2;
+
+      const idx = Math.floor(rel / slice);
+      // Asegura rango
+      return (idx + n) % n;
+    }
+
+    function spin() {
+      if (spinning) return;
+      if (items.length < 2) {
+        if (!parseItems()) return;
+      }
+
+      hideResult();
+      spinning = true;
+      spinBtn.disabled = true;
+      shuffleBtn.disabled = true;
+      applyBtn.disabled = true;
+
+      // Elegimos el ganador con crypto (uniforme).
+      const winnerIndex = cryptoRandomInt(items.length);
+
+      // Calculamos un ángulo final que deje el centro del segmento ganador bajo el puntero.
+      const n = items.length;
+      const slice = (Math.PI * 2) / n;
+
+      // Centro del segmento ganador en el sistema relativo (0..2pi)
+      const center = (winnerIndex + 0.5) * slice;
+
+      // Queremos que rel = (-angleFinal mod 2pi) ≈ center  => angleFinal ≈ -center (mod 2pi)
+      // Menos vueltas y más duración para suavidad
+      const spins = 3 + cryptoRandomInt(3); // 3..5 vueltas
+      const finalBase = -(center);
+      const final = finalBase + spins * Math.PI * 2;
+
+      startAngle = angle;
+      targetAngle = final;
+      startTime = performance.now();
+
+      // Duración más larga y desaceleración final
+      durationMs = 6500 + cryptoRandomInt(1200); // 6.5s..7.7s
+
+      // Sonido cli: cada vez que el puntero pasa a un nuevo segmento, pero no más de 1 cada 80ms
+      let lastSegment = currentIndexAtPointer();
+      let lastCliTime = 0;
+
+      requestAnimationFrame(tick);
+
+      function tick(now) {
+        // Desaceleración extra al final
+        let t = Math.min(1, (now - startTime) / durationMs);
+        // Al final, desacelera más
+        let e = easeOutCubic(t);
+        if (t > 0.85) {
+          e = easeOutCubic(0.85) + (e - easeOutCubic(0.85)) * 0.5;
+        }
+        angle = startAngle + (targetAngle - startAngle) * e;
+        drawWheel();
+
+        // Detecta cambio de segmento bajo el puntero
+        const seg = currentIndexAtPointer();
+        if (seg !== lastSegment) {
+          // Limita frecuencia de sonido
+          if (now - lastCliTime > 80) {
+            playCli();
+            lastCliTime = now;
+          }
+          lastSegment = seg;
+        }
+
+        if (t < 1) {
+          requestAnimationFrame(tick);
+        } else {
+          // Ajuste final para evitar acumulación flotante
+          angle = targetAngle;
+          drawWheel();
+
+          spinning = false;
+          spinBtn.disabled = false;
+          shuffleBtn.disabled = false;
+          applyBtn.disabled = false;
+
+          // El índice bajo el puntero debería coincidir con winnerIndex
+          const idx = currentIndexAtPointer();
+          showResult(items[idx] ?? items[winnerIndex]);
+        }
+      }
+    }
+
+    // Eventos
+    spinBtn.addEventListener("click", spin);
+    canvas.addEventListener("click", spin);
+
+    applyBtn.addEventListener("click", () => {
+      parseItems();
+    });
+
+    shuffleBtn.addEventListener("click", () => {
+      if (items.length < 2) {
+        if (!parseItems()) return;
+      }
+      // “Mezclar colores”: rotamos la paleta de forma aleatoria con crypto
+      const k = cryptoRandomInt(colors.length);
+      colors = colors.slice(k).concat(colors.slice(0, k));
+      drawWheel();
+    });
+
+    // Inicial
+    parseItems();
+  </script>
+</body>
+</html>

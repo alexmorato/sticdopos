@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <title>Presentación por imágenes</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      padding-top: 20px;
+    }
+
+    .slide {
+      max-width: 1200px;
+      margin: 40px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .slide img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+    }
+
+    /* Botón hamburguesa */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* Menú desplegable */
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 180px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .menu-close-btn {
+      width: 100%;
+      padding: 12px;
+      background: #2aebad;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #032217;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+
+    .btn-fullscreen {
+      width: 100%;
+      padding: 12px;
+      background: #2a5f8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-fullscreen:hover {
+      background: #3a7faa;
+      transform: translateY(-1px);
+    }
+
+    .btn-tornar {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-tornar:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    /* Label del directorio */
+    .info-label {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 999;
+      background: #27304a;
+      color: #e7ecff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      opacity: 0.9;
+    }
+
+    /* Contador de diapositivas */
+    .slide-counter {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #2aebad;
+      color: #032217;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      box-shadow: 0 2px 6px rgba(42, 235, 173, 0.4);
+      z-index: 10;
+    }
+
+    @media (max-width: 768px) {
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tancar
+    </button>
+    <button class="btn-fullscreen" id="fullscreenBtn">
+      ⛶ Pantalla completa
+    </button>
+    <button class="btn-tornar" id="tornarBtn">
+      ⬅️ Tornar
+    </button>
+    <button class="btn-tornar" id="menuIndexBtn">
+      👨‍💻 Menu
+    </button>
+  </div>
+
+  <!-- Label fijo arriba a la izquierda con el nombre del directorio -->
+  <div id="infoLabel" class="info-label">
+    <!-- Se rellena con JavaScript -->
+  </div>
+
+  <div id="slidesContainer"></div>
+
+  <script>
+    // Leer parámetros de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const root = urlParams.get('root') || 'apunts_new';
+    const dir = urlParams.get('dir') || 'slides';
+    const tema = urlParams.get('tema') || '';
+    const imgsParam = urlParams.get('imgs') || '';
+
+    // Parsear lista de imágenes
+    const imgs = imgsParam.split(',').filter(img => img.trim() !== '');
+
+    // Generar dinámicamente los slides
+    const container = document.getElementById('slidesContainer');
+    
+    if (imgs.length === 0) {
+      container.innerHTML = '<div style="text-align:center;padding:40px;color:#666;">No hi ha imatges disponibles</div>';
+    } else {
+      imgs.forEach((img, index) => {
+        const slideDiv = document.createElement('div');
+        slideDiv.className = 'slide';
+        slideDiv.style.position = 'relative';
+        
+        // Contador de diapositiva (1 de N)
+        const counterDiv = document.createElement('div');
+        counterDiv.className = 'slide-counter';
+        counterDiv.textContent = `${index + 1} de ${imgs.length}`;
+        
+        const imgElement = document.createElement('img');
+        // Construir ruta: root/tema/dir/imagen
+        imgElement.src = `${root}/${tema}/${dir}/${img.trim()}`;
+        imgElement.alt = `Diapositiva ${index + 1}`;
+        imgElement.loading = 'lazy';
+        
+        slideDiv.appendChild(counterDiv);
+        slideDiv.appendChild(imgElement);
+        container.appendChild(slideDiv);
+      });
+    }
+
+    // Actualizar label con el nombre del directorio
+    const infoLabel = document.getElementById('infoLabel');
+    infoLabel.textContent = dir || 'slides';
+
+    // Referencias a elementos del menú
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const tornarBtn = document.getElementById('tornarBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+
+    // Toggle menú
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+
+    // Cerrar menú
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuPanel.classList.remove('visible');
+      }
+    });
+
+    // Botón fullscreen
+    fullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Sortir pantalla completa';
+          menuPanel.classList.remove('visible');
+        }).catch(err => {
+          console.error('Error al activar fullscreen:', err);
+        });
+      } else {
+        document.exitFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+          menuPanel.classList.remove('visible');
+        });
+      }
+    });
+
+    // Actualizar texto del botón cuando se sale de fullscreen con ESC
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Botón tornar
+    tornarBtn.addEventListener('click', () => {
+      tiraPaAtras();
+    });
+
+    // Capturar tecla Backspace para volver atrás
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Backspace') {
+        // Prevenir el comportamiento por defecto solo si no estamos en un input
+        if (document.activeElement.tagName !== 'INPUT' && 
+            document.activeElement.tagName !== 'TEXTAREA') {
+          e.preventDefault();
+          tiraPaAtras();
+        }
+      }
+    });
+
+    function tiraPaAtras() {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'index.html';
+      }
+    }
+
+    // Botón menu principal
+    menuIndexBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+  </script>
+
+</body>
+</html>

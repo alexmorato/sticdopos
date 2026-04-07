@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visor web - sTIC d'Opos</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Botón hamburguesa */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* Menú desplegable */
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 200px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .menu-close-btn {
+      width: 100%;
+      padding: 12px;
+      background: #2aebad;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #032217;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+
+    .btn-tornar {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-tornar:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    .btn-fullscreen {
+      width: 100%;
+      padding: 12px;
+      background: #2a5f8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-fullscreen:hover {
+      background: #3a7faa;
+      transform: translateY(-1px);
+    }
+
+    .btn-reload {
+      width: 100%;
+      padding: 12px;
+      background: #5f2a8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-reload:hover {
+      background: #7f3aaa;
+      transform: translateY(-1px);
+    }
+
+    .btn-new-tab {
+      width: 100%;
+      padding: 12px;
+      background: #8a5f2a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-new-tab:hover {
+      background: #aa7f3a;
+      transform: translateY(-1px);
+    }
+
+    /* Label del nombre */
+    .info-label {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 999;
+      background: #27304a;
+      color: #e7ecff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      opacity: 0.9;
+      max-width: calc(100% - 140px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* Contenedor del iframe */
+    .iframe-container {
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      background: #0b1020;
+      padding: 80px 20px 20px 20px;
+    }
+
+    .iframe-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      background: white;
+    }
+
+    .loading-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: #a0a8c0;
+    }
+
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid #27304a;
+      border-top-color: #6ae0a7;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .error-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      text-align: center;
+      padding: 40px 20px;
+      color: #ff6b6b;
+    }
+
+    .error-state h2 {
+      margin-bottom: 15px;
+    }
+
+    .error-state .url-display {
+      margin-top: 20px;
+      padding: 10px;
+      background: #141a2a;
+      border: 1px solid #27304a;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #a0a8c0;
+      word-break: break-all;
+      max-width: 600px;
+    }
+
+    @media (max-width: 768px) {
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 150px;
+      }
+
+      .info-label {
+        top: 15px;
+        left: 15px;
+        font-size: 0.85rem;
+        padding: 6px 12px;
+        max-width: calc(100% - 100px);
+      }
+
+      .iframe-container {
+        padding: 70px 10px 10px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tancar
+    </button>
+    <button class="btn-reload" id="reloadBtn">
+      🔄 Recarregar
+    </button>
+    <button class="btn-new-tab" id="newTabBtn">
+      🔗 Obrir en pestanya nova
+    </button>
+    <button class="btn-fullscreen" id="fullscreenBtn">
+      ⛶ Pantalla completa
+    </button>
+    <button class="btn-tornar" id="tornarBtn">
+      ⬅️ Tornar
+    </button>
+    <button class="btn-tornar" id="menuIndexBtn">
+      👨‍💻 Menu
+    </button>
+  </div>
+
+  <!-- Label fijo arriba a la izquierda con el nombre -->
+  <div id="infoLabel" class="info-label">
+    <!-- Se rellena con JavaScript -->
+  </div>
+
+  <!-- Contenedor del iframe -->
+  <div class="iframe-container" id="iframeContainer">
+    <div class="loading-state">
+      <div class="loading-spinner"></div>
+      <p>Carregant recurs web...</p>
+    </div>
+  </div>
+
+  <!-- YouTube IFrame Player API -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+
+  <script>
+    // Obtener datos desde localStorage
+    const url = localStorage.getItem('sTICdOpos_iframe_url');
+    const name = localStorage.getItem('sTICdOpos_iframe_name');
+    const tema = localStorage.getItem('sTICdOpos_iframe_tema');
+    const type = localStorage.getItem('sTICdOpos_iframe_type') || 'web';
+
+    const infoLabel = document.getElementById('infoLabel');
+    const iframeContainer = document.getElementById('iframeContainer');
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const reloadBtn = document.getElementById('reloadBtn');
+    const newTabBtn = document.getElementById('newTabBtn');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const tornarBtn = document.getElementById('tornarBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+
+    let youtubePlayer = null;
+
+    // Actualizar label con el nombre
+    infoLabel.textContent = name || 'Recurs web';
+
+    // Función para detectar si es URL de YouTube
+    function esYouTube(urlString) {
+      if (!urlString) return false;
+      return urlString.includes('youtube.com') || urlString.includes('youtu.be');
+    }
+
+    // Función para extraer video ID de YouTube
+    function extraerYouTubeID(urlString) {
+      const patterns = [
+        /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\?]+)/,
+        /youtube\.com\/embed\/([^&\?]+)/
+      ];
+      for (const pattern of patterns) {
+        const match = urlString.match(pattern);
+        if (match && match[1]) return match[1];
+      }
+      return null;
+    }
+
+    // Crear y cargar iframe (normal o YouTube)
+    function cargarIframe() {
+      if (!url) {
+        iframeContainer.innerHTML = `
+          <div class="error-state">
+            <h2>⚠️ Error</h2>
+            <p>No s'ha especificat cap URL per carregar</p>
+          </div>
+        `;
+        return;
+      }
+
+      // Detectar si es YouTube automáticamente o por tipo
+      if (type === 'youtube' || esYouTube(url)) {
+        cargarYouTubePlayer();
+      } else {
+        cargarIframeNormal();
+      }
+    }
+
+    // Cargar reproductor de YouTube con controles de velocidad
+    function cargarYouTubePlayer() {
+      const videoId = extraerYouTubeID(url);
+      if (!videoId) {
+        iframeContainer.innerHTML = `
+          <div class="error-state">
+            <h2>⚠️ Error</h2>
+            <p>No s'ha pogut extreure l'ID del vídeo de YouTube</p>
+            <div class="url-display">${url}</div>
+          </div>
+        `;
+        return;
+      }
+
+      // Crear contenedor para el reproductor YouTube
+      iframeContainer.innerHTML = `
+        <div style="position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; gap: 10px;">
+          <div style="background: #141a2a; padding: 10px; border-radius: 8px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+            <label style="color: #6ae0a7; font-weight: 600;">⚡ Velocitat:</label>
+            <button class="speed-btn" data-speed="0.25">0.25x</button>
+            <button class="speed-btn" data-speed="0.5">0.5x</button>
+            <button class="speed-btn" data-speed="0.75">0.75x</button>
+            <button class="speed-btn active" data-speed="1">1x</button>
+            <button class="speed-btn" data-speed="1.25">1.25x</button>
+            <button class="speed-btn" data-speed="1.5">1.5x</button>
+            <button class="speed-btn" data-speed="1.75">1.75x</button>
+            <button class="speed-btn" data-speed="2">2x</button>
+          </div>
+          <div id="youtubePlayer" style="flex: 1; width: 100%; background: black; border-radius: 8px;"></div>
+        </div>
+      `;
+
+      // Añadir estilos para los botones de velocidad
+      const style = document.createElement('style');
+      style.textContent = `
+        .speed-btn {
+          padding: 8px 14px;
+          border: 2px solid #27304a;
+          background: #0b1020;
+          color: #e7ecff;
+          border-radius: 6px;
+          cursor: pointer;
+          font-size: 0.9rem;
+          font-weight: 600;
+          transition: all 0.2s;
+        }
+        .speed-btn:hover {
+          background: #27304a;
+          border-color: #6ae0a7;
+        }
+        .speed-btn.active {
+          background: #2aebad;
+          color: #032217;
+          border-color: #2aebad;
+        }
+      `;
+      document.head.appendChild(style);
+
+      // Inicializar reproductor YouTube cuando la API esté lista
+      if (typeof YT !== 'undefined' && YT.Player) {
+        inicializarYouTubePlayer(videoId);
+      } else {
+        window.onYouTubeIframeAPIReady = function() {
+          inicializarYouTubePlayer(videoId);
+        };
+      }
+    }
+
+    // Inicializar el reproductor de YouTube
+    function inicializarYouTubePlayer(videoId) {
+      youtubePlayer = new YT.Player('youtubePlayer', {
+        videoId: videoId,
+        width: '100%',
+        height: '100%',
+        playerVars: {
+          autoplay: 0,
+          controls: 1,
+          modestbranding: 1,
+          rel: 0,
+          fs: 1
+        },
+        events: {
+          'onReady': onPlayerReady
+        }
+      });
+    }
+
+    // Cuando el reproductor está listo
+    function onPlayerReady(event) {
+      // Configurar botones de velocidad
+      const speedBtns = document.querySelectorAll('.speed-btn');
+      speedBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const speed = parseFloat(this.dataset.speed);
+          youtubePlayer.setPlaybackRate(speed);
+          
+          // Actualizar botón activo
+          speedBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+    }
+
+    // Cargar iframe normal para webs no-YouTube
+    function cargarIframeNormal() {
+      // Limpiar contenedor y añadir iframe inmediatamente
+      iframeContainer.innerHTML = '';
+      
+      const iframe = document.createElement('iframe');
+      iframe.id = 'mainIframe';
+      iframe.src = url;
+      iframe.allow = 'fullscreen';
+      iframe.allowFullscreen = true;
+
+      // Añadir iframe al contenedor
+      iframeContainer.appendChild(iframe);
+
+      // Manejar error de carga
+      iframe.onerror = function() {
+        iframeContainer.innerHTML = `
+          <div class="error-state">
+            <h2>⚠️ Error</h2>
+            <p>No s'ha pogut carregar el recurs</p>
+            <div class="url-display">${url}</div>
+          </div>
+        `;
+      };
+    }
+
+    // Toggle menú
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+
+    // Cerrar menú
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuPanel.classList.remove('visible');
+      }
+    });
+
+    // Botón recargar
+    reloadBtn.addEventListener('click', () => {
+      if (youtubePlayer) {
+        youtubePlayer.seekTo(0);
+        youtubePlayer.playVideo();
+      } else {
+        const iframe = document.getElementById('mainIframe');
+        if (iframe) {
+          iframe.src = iframe.src; // Recargar iframe
+        } else {
+          cargarIframe(); // Si no existe, crear nuevo
+        }
+      }
+      menuPanel.classList.remove('visible');
+    });
+
+    // Botón abrir en nueva pestaña
+    newTabBtn.addEventListener('click', () => {
+      if (url) {
+        window.open(url, '_blank');
+      }
+      menuPanel.classList.remove('visible');
+    });
+
+    // Botón fullscreen
+    fullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Sortir pantalla completa';
+          menuPanel.classList.remove('visible');
+        }).catch(err => {
+          console.error('Error al activar fullscreen:', err);
+        });
+      } else {
+        document.exitFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+          menuPanel.classList.remove('visible');
+        });
+      }
+    });
+
+    // Actualizar texto del botón cuando se sale de fullscreen con ESC
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Botón tornar
+    tornarBtn.addEventListener('click', () => {
+      tiraPaAtras();
+    });
+
+    // Botón menu principal
+    menuIndexBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    // Capturar tecla Backspace para volver atrás
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Backspace') {
+        // Prevenir el comportamiento por defecto solo si no estamos en un input
+        if (document.activeElement.tagName !== 'INPUT' && 
+            document.activeElement.tagName !== 'TEXTAREA') {
+          e.preventDefault();
+          tiraPaAtras();
+        }
+      }
+    });
+
+    function tiraPaAtras() {
+        window.location.href = 'leerrecursos.html';
+    }
+
+    // Cargar iframe al iniciar
+    cargarIframe();
+  </script>
+
+</body>
+</html>

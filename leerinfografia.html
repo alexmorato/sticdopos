@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infografia - sTIC d'Opos</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      overflow: auto;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .image-container {
+      max-width: 100%;
+      max-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      max-height: 90vh;
+      width: auto;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Botón hamburguesa */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* Menú desplegable */
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 180px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .menu-close-btn {
+      width: 100%;
+      padding: 12px;
+      background: #2aebad;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #032217;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+
+    .btn-tornar {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-tornar:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    .btn-fullscreen {
+      width: 100%;
+      padding: 12px;
+      background: #2a5f8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-fullscreen:hover {
+      background: #3a7faa;
+      transform: translateY(-1px);
+    }
+
+    .loading-state {
+      text-align: center;
+      color: #a0a8c0;
+    }
+
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid #27304a;
+      border-top-color: #6ae0a7;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .error-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: #ff6b6b;
+    }
+
+    /* Label del directorio */
+    .info-label {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 999;
+      background: #27304a;
+      color: #e7ecff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      opacity: 0.9;
+    }
+
+
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tancar
+    </button>
+    <button class="btn-fullscreen" id="fullscreenBtn">
+      ⛶ Pantalla completa
+    </button>
+    <button class="btn-tornar" id="tornarBtn">
+      ⬅️ Tornar
+    </button>
+    <button class="btn-tornar" id="menuIndexBtn">
+      👨‍💻 Menu
+    </button>
+  </div>
+
+  <!-- Label fijo arriba a la izquierda con el nombre del fichero -->
+  <div id="infoLabel" class="info-label">
+    <!-- Se rellena con JavaScript -->
+  </div>
+
+  <!-- Contenedor de la imagen -->
+  <div class="image-container" id="imageContainer">
+    <div class="loading-state">
+      <div class="loading-spinner"></div>
+      <p>Carregant infografia...</p>
+    </div>
+  </div>
+
+  <script>
+    // Obtener parámetros de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const root = urlParams.get('root') || 'apunts_new';
+    const tema = urlParams.get('tema') || '';
+    const fitxer = urlParams.get('fitxer') || '';
+
+    // Actualizar label con el nombre del fichero
+    const infoLabel = document.getElementById('infoLabel');
+    const nombreSinExtension = fitxer
+      ? fitxer.replace(/\.[^/.]+$/, '')
+      : 'infografia';
+
+    infoLabel.textContent = nombreSinExtension || 'infografia';
+
+    const imageContainer = document.getElementById('imageContainer');
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const tornarBtn = document.getElementById('tornarBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+
+    // Cargar imagen
+    function cargarImagen() {
+      if (!fitxer) {
+        imageContainer.innerHTML = '<div class="error-state">⚠️ No s\'ha especificat cap fitxer</div>';
+        return;
+      }
+
+      // Ajustar root si ya estamos en /opos/ y el root contiene "opos/"
+      let adjustedRoot = root;
+      if (location.pathname.includes('/opos/') && root.startsWith('opos/')) {
+        adjustedRoot = root.substring(5); // Quitar "opos/" del inicio
+      }
+
+      // Construir ruta de la imagen
+      const imagePath = tema ? `${adjustedRoot}/${tema}/${fitxer}` : `${adjustedRoot}/${fitxer}`;
+
+      const img = document.createElement('img');
+      img.alt = 'Infografia';
+      img.src = imagePath;
+
+      img.onload = function() {
+        imageContainer.innerHTML = '';
+        imageContainer.appendChild(img);
+      };
+
+      img.onerror = function() {
+        imageContainer.innerHTML = `<div class="error-state">
+          <h2>⚠️ Error</h2>
+          <p>No s'ha pogut carregar la infografia</p>
+          <p style="font-size: 0.9rem; color: #a0a8c0; margin-top: 10px;">${imagePath}</p>
+        </div>`;
+      };
+    }
+
+    // Toggle menú
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+
+    // Cerrar menú
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuPanel.classList.remove('visible');
+      }
+    });
+
+    // Botón fullscreen
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    fullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Sortir pantalla completa';
+          menuPanel.classList.remove('visible');
+        }).catch(err => {
+          console.error('Error al activar fullscreen:', err);
+        });
+      } else {
+        document.exitFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+          menuPanel.classList.remove('visible');
+        });
+      }
+    });
+
+    // Actualizar texto del botón cuando se sale de fullscreen con ESC
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Botón tornar
+    tornarBtn.addEventListener('click', () => {
+      tiraPaAtras();
+    });
+
+    // Botón menu principal
+    menuIndexBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    // Capturar tecla Backspace para volver atrás
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Backspace') {
+        // Prevenir el comportamiento por defecto solo si no estamos en un input
+        if (document.activeElement.tagName !== 'INPUT' && 
+            document.activeElement.tagName !== 'TEXTAREA') {
+          e.preventDefault();
+          tiraPaAtras();
+        }
+      }
+    });
+
+    function tiraPaAtras() {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'index.html';
+      }
+    }
+
+    // Cargar imagen al iniciar
+    cargarImagen();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Visor Markdown - sTIC d'Opos</title>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+
+  <!-- Markdown renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Mermaid -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    /* Layout con Grid */
+    .container {
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr auto;
+      height: 100vh;
+    }
+    
+    main {
+      grid-column: 1;
+      grid-row: 1;
+      overflow-y: auto;
+      padding: 30px;
+      background: #0b1020;
+    }
+
+    main.full-width {
+      grid-column: 1 / -1;
+    }
+
+    /* Botón hamburguesa */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* Menú desplegable */
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 180px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .menu-close-btn {
+      width: 100%;
+      padding: 12px;
+      background: #2aebad;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #032217;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+
+    .btn-fullscreen {
+      width: 100%;
+      padding: 12px;
+      background: #2a5f8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-fullscreen:hover {
+      background: #3a7faa;
+      transform: translateY(-1px);
+    }
+
+    .btn-tornar {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-tornar:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    .menu-separator {
+      height: 1px;
+      background: #27304a;
+      margin: 5px 0;
+    }
+
+    .font-size-controls {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+    }
+
+    .btn-font {
+      flex: 1;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-font:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    /* Label del fichero */
+    .info-label {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 999;
+      background: #27304a;
+      color: #e7ecff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      opacity: 0.9;
+    }
+
+    #content {
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.7;
+      font-size: 16px;
+      transition: font-size 0.2s;
+    }
+    
+    /* Markdown styling */
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+      color: #6ae0a7;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+      line-height: 1.3;
+    }
+
+    #content h1 {
+      font-size: 2.2em;
+      border-bottom: 3px solid #27304a;
+      padding-bottom: 0.3em;
+    }
+
+    #content h2 {
+      font-size: 1.8em;
+      border-bottom: 2px solid #27304a;
+      padding-bottom: 0.25em;
+    }
+
+    #content h3 {
+      font-size: 1.5em;
+    }
+
+    #content h4 {
+      font-size: 1.3em;
+    }
+
+    #content h5 {
+      font-size: 1.1em;
+    }
+
+    #content h6 {
+      font-size: 1em;
+      color: #a0a8c0;
+    }
+
+    #content p {
+      margin-bottom: 1.2em;
+    }
+
+    #content ul,
+    #content ol {
+      margin-bottom: 1.2em;
+      padding-left: 2em;
+    }
+
+    #content li {
+      margin-bottom: 0.5em;
+    }
+    
+    #content code { 
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      background: #1b223a;
+      color: #2aebad;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    
+    #content pre {
+      overflow: auto;
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid #27304a;
+      background: #141a2a;
+      margin-bottom: 1.5em;
+    }
+    
+    #content pre code {
+      background: none;
+      padding: 0;
+      margin: 1em 0;
+      padding: 12px 20px;
+      background: #141a2a;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 1.5em;
+    }
+
+    #content blockquote p:last-child {
+      margin-bottom: 0;
+    }
+    
+    #content table {
+      border-collapse: collapse;
+      overflow: auto;
+      background: #141a2a;
+      border-radius: 8px;
+      margin-bottom: 1.5em;
+    }
+    
+    #content th, #content td {
+      border: 1px solid #27304a;
+      padding: 10px 12px;
+      vertical-align: top;
+      border-top: 1px solid #27304a;
+    }
+    
+    #content th {
+      background: #27304a;
+      color: #6ae0a7;
+      padding: 12px;
+      text-align: left;
+      font-weight: bold;
+    }
+
+    #content tr:hover {
+      background: #1b223a;
+    }
+
+    #content a {
+      color: #6ae0a7;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    #content a:hover {
+      border-bottom-color: #6ae0a7;
+    }
+
+    #content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 1em 0;
+    }
+
+    #content hr {
+      border: none;
+      border-top: 2px solid #27304a;
+      margin: 2em 0;
+      border-left: 4px solid #6ae0a7;
+      background: #141a2a;
+      border-radius: 8px;
+    }
+    
+    /* Mermaid container spacing */
+    .mermaid {
+      margin: 1.5em 0;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #27304a;
+      background: #141a2a;
+      display: flex;
+      justify-content: center;
+      min-height: 200px;
+    }
+
+    .mermaid svg {
+      max-width: 100% !important;
+      height: auto !important;
+      min-width: 400px;
+    }
+
+    /* Panel TOC */
+    .toc-panel {
+      grid-column: 2;
+      grid-row: 1;
+      width: 280px;
+      background: #141a2a;
+      border-left: 2px solid #27304a;
+      overflow-y: auto;
+      padding: 10px;
+    }
+
+    .toc-panel.hidden {
+      display: none;
+    }
+
+    .toc-title {
+      color: #6ae0a7;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #27304a;
+    }
+
+    .toc-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .toc-item {
+      margin-bottom: 8px;
+    }
+
+    .toc-link {
+      color: #a0a8c0;
+      text-decoration: none;
+      display: block;
+      padding: 2px 10px;
+      border-radius: 6px;
+      transition: all 0.2s;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .toc-link:hover {
+      background: #1b2a4a;
+      color: #6ae0a7;
+    }
+
+    .toc-link.active {
+      background: #2a5f8a;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .toc-item.level-1 { padding-left: 0; }
+    .toc-item.level-2 { padding-left: 15px; }
+    .toc-item.level-3 { padding-left: 30px; }
+    .toc-item.level-4 { padding-left: 45px; }
+    .toc-item.level-5 { padding-left: 60px; }
+    .toc-item.level-6 { padding-left: 75px; }
+
+    /* Scrollbars */
+    main::-webkit-scrollbar,
+    .toc-panel::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    main::-webkit-scrollbar-track,
+    .toc-panel::-webkit-scrollbar-track {
+      background: #0b1020;
+    }
+
+    main::-webkit-scrollbar-thumb,
+    .toc-panel::-webkit-scrollbar-thumb {
+      background: #27304a;
+      border-radius: 5px;
+    }
+
+    main::-webkit-scrollbar-thumb:hover,
+    .toc-panel::-webkit-scrollbar-thumb:hover {
+      background: #3a4a6a;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 150px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tanca
+    </button>
+    <button class="btn-fullscreen" id="fullscreenBtn">
+      ⛶ Pantalla completa
+    </button>
+    <button class="btn-tornar" id="tornarBtn">
+      ⬅️ Tornar
+    </button>
+    <div class="menu-separator"></div>
+    <div class="font-size-controls">
+      <button class="btn-font" id="btnFontDecrease">A-</button>
+      <button class="btn-font" id="btnFontIncrease">A+</button>
+    </div>
+    <button class="btn-tornar" id="btnToggleToc">
+      📑 Índex
+    </button>
+  </div>
+
+  <!-- Label fijo arriba a la izquierda con el nombre del fichero -->
+  <div id="infoLabel" class="info-label"></div>
+
+  <div class="container">
+    <main id="mainPanel">
+      <div id="content"></div>
+    </main>
+
+    <div class="toc-panel" id="tocPanel">
+      <div class="toc-title">📑 Índex</div>
+      <ul class="toc-list" id="tocList"></ul>
+    </div>
+  </div>
+
+  <script>
+    // 1) Configura Mermaid (NO auto-start; lo hacemos tras insertar el HTML)
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "loose"
+    });
+
+    // 2) Configura Marked
+    marked.setOptions({
+      gfm: true,
+      breaks: false,
+      headerIds: true,
+      mangle: false
+    });
+
+    // Variables globales
+    let tocVisible = true;
+    let currentFontSize = 16;
+    const minFontSize = 10;
+    const maxFontSize = 30;
+    const mainPanel = document.getElementById('mainPanel');
+    const tocPanel = document.getElementById('tocPanel');
+    const tocList = document.getElementById('tocList');
+    const contentDiv = document.getElementById('content');
+    const infoLabel = document.getElementById('infoLabel');
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const tornarBtn = document.getElementById('tornarBtn');
+    const btnToggleToc = document.getElementById('btnToggleToc');
+    const btnFontIncrease = document.getElementById('btnFontIncrease');
+    const btnFontDecrease = document.getElementById('btnFontDecrease');
+
+    // Obtener parámetro de la URL
+    function getUrlParameter(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name);
+    }
+
+    function mdToHtmlWithMermaid(mdText) {
+      // Render básico a HTML
+      const html = marked.parse(mdText);
+
+      // Inyecta en el DOM primero
+      const container = document.getElementById("content");
+      container.innerHTML = html;
+
+      // Busca bloques de código "mermaid" y reemplázalos por <div class="mermaid">...</div>
+      const codeBlocks = container.querySelectorAll('pre > code.language-mermaid, pre > code.lang-mermaid, pre > code[class*="mermaid"]');
+
+      codeBlocks.forEach(code => {
+        const pre = code.parentElement;
+        const mermaidSrc = code.textContent;
+
+        const div = document.createElement("div");
+        div.className = "mermaid";
+        div.textContent = mermaidSrc;
+
+        pre.replaceWith(div);
+      });
+
+      // Ahora renderiza Mermaid sobre los div.mermaid
+      mermaid.run({ querySelector: ".mermaid" });
+
+      // Generar TOC
+      generateToc();
+    }
+
+    // Agregar IDs a encabezados
+    function addHeaderIds() {
+      const headers = document.querySelectorAll('#content h1, #content h2, #content h3, #content h4, #content h5, #content h6');
+      headers.forEach((header, index) => {
+        if (!header.id) {
+          const text = header.textContent.trim();
+          const id = text
+            .toLowerCase()
+            .replace(/[^\w\s-]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .substring(0, 50);
+          header.id = id || `heading-${index}`;
+        }
+      });
+    }
+
+    // Generar TOC
+    function generateToc() {
+      addHeaderIds();
+
+      const headers = document.querySelectorAll('#content h1, #content h2, #content h3, #content h4, #content h5, #content h6');
+      tocList.innerHTML = '';
+
+      if (headers.length === 0) {
+        tocList.innerHTML = '<li style="color: #a0a8c0; padding: 10px;">No hi ha encapçalaments</li>';
+        return;
+      }
+
+      headers.forEach((header, index) => {
+        const level = parseInt(header.tagName.charAt(1));
+        const text = header.textContent.trim();
+        const id = header.id || `heading-${index}`;
+
+        const li = document.createElement('li');
+        li.className = `toc-item level-${level}`;
+
+        const a = document.createElement('a');
+        a.className = 'toc-link';
+        a.href = `#${id}`;
+        a.textContent = text;
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          scrollToHeader(id);
+        });
+
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+
+      setupTocActiveTracking();
+    }
+
+    // Scroll a encabezado
+    function scrollToHeader(id) {
+      const element = document.getElementById(id);
+      if (element) {
+        const elementRect = element.getBoundingClientRect();
+        const containerRect = mainPanel.getBoundingClientRect();
+        const scrollTop = mainPanel.scrollTop;
+        const targetPosition = scrollTop + (elementRect.top - containerRect.top) - 20;
+        
+        mainPanel.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // Seguimiento activo del TOC
+    function setupTocActiveTracking() {
+      const headers = document.querySelectorAll('#content h1, #content h2, #content h3, #content h4, #content h5, #content h6');
+      const tocLinks = tocList.querySelectorAll('.toc-link');
+
+      mainPanel.addEventListener('scroll', () => {
+        let current = '';
+        
+        headers.forEach(header => {
+          const rect = header.getBoundingClientRect();
+          if (rect.top < 150) {
+            current = header.id;
+          }
+        });
+
+        tocLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('active');
+          }
+        });
+      });
+    }
+
+    // Cargar archivo desde URL
+    async function loadMarkdownFromUrl() {
+      const root = getUrlParameter('root') || 'apunts_new';
+      const fitxer = getUrlParameter('fitxer');
+      const tema = getUrlParameter('tema');
+      
+      if (!fitxer) {
+        document.getElementById("content").innerHTML = `
+          <blockquote>
+            <p><strong>Error:</strong> No s'ha especificat cap fitxer.</p>
+            <p>Utilitza: <code>?root=apunts_new&fitxer=T31_UC4_vs_UiPath.md&tema=T31</code></p>
+          </blockquote>
+        `;
+        infoLabel.textContent = 'Error';
+        return;
+      }
+
+      // Mostrar nombre del fichero sin extensión
+      const fileName = fitxer.replace(/\.[^/.]+$/, '');
+      infoLabel.textContent = fileName;
+
+      // Construir ruta: root/tema/fitxer
+      let markdownUrl = tema ? `/${root}/${tema}/${fitxer}` : `/${root}/${fitxer}`;
+
+      try {
+        const resp = await fetch(markdownUrl);
+        if (!resp.ok) throw new Error("No se pudo cargar el archivo: " + resp.status);
+        
+        const text = await resp.text();
+        mdToHtmlWithMermaid(text);
+      } catch (e) {
+        document.getElementById("content").innerHTML = `
+          <blockquote>
+            <p><strong>Error cargando fichero:</strong> ${String(e.message || e)}</p>
+            <p>Ruta intentada: <code>${markdownUrl}</code></p>
+          </blockquote>
+        `;
+        infoLabel.textContent = 'Error';
+      }
+    }
+
+    // Toggle menú
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+
+    // Cerrar menú
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuPanel.classList.remove('visible');
+      }
+    });
+
+    // Botón fullscreen
+    fullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Sortir pantalla completa';
+          menuPanel.classList.remove('visible');
+        }).catch(err => {
+          console.error('Error al activar fullscreen:', err);
+        });
+      } else {
+        document.exitFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+          menuPanel.classList.remove('visible');
+        });
+      }
+    });
+
+    // Actualizar texto del botón cuando se sale de fullscreen con ESC
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Botón tornar
+    tornarBtn.addEventListener('click', () => {
+      tiraPaAtras();
+    });
+
+    // Capturar tecla Backspace para volver atrás
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Backspace') {
+        if (document.activeElement.tagName !== 'INPUT' && 
+            document.activeElement.tagName !== 'TEXTAREA') {
+          e.preventDefault();
+          tiraPaAtras();
+        }
+      }
+    });
+
+    function tiraPaAtras() {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'index.html';
+      }
+    }
+
+    // Botón toggle TOC
+    btnToggleToc.addEventListener('click', () => {
+      tocVisible = !tocVisible;
+      
+      if (tocVisible) {
+        tocPanel.classList.remove('hidden');
+        mainPanel.classList.remove('full-width');
+      } else {
+        tocPanel.classList.add('hidden');
+        mainPanel.classList.add('full-width');
+      }
+      menuPanel.classList.remove('visible');
+    });
+
+    // Botón aumentar tamaño de letra
+    btnFontIncrease.addEventListener('click', () => {
+      if (currentFontSize < maxFontSize) {
+        currentFontSize += 2;
+        contentDiv.style.fontSize = `${currentFontSize}px`;
+      }
+    });
+
+    // Botón disminuir tamaño de letra
+    btnFontDecrease.addEventListener('click', () => {
+      if (currentFontSize > minFontSize) {
+        currentFontSize -= 2;
+        contentDiv.style.fontSize = `${currentFontSize}px`;
+      }
+    });
+
+    // Cargar al iniciar
+    loadMarkdownFromUrl();
+  </script>
+</body>
+</html>

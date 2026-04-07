@@ -1,0 +1,63 @@
+{
+  "statuses": [
+    { "code": "TODO", "label": "📝 Pendiente" },
+    { "code": "WIP",  "label": "🚧 En progreso" },
+    { "code": "DONE", "label": "✅ Finalizada" }
+  ],
+
+  "complexities": [
+    { "code": "LOW",    "label": "🟢 Baja" },
+    { "code": "MEDIUM", "label": "🟠 Media" },
+    { "code": "HIGH",   "label": "🔴 Alta" }
+  ],
+
+  "types": [
+    { "code": "BUG",    "label": "🐞 BUG" },
+    { "code": "FEATURE", "label": "✨ FEATURE" },
+    { "code": "MEJORA",   "label": "🔧 MEJORA" }
+  ],
+
+  "tasks": [
+    {
+      "title": "Creacion de pagina para visualizar todo el material de estudio",
+      "description": "Página web que centraliza la consulta de todos los temas disponibles y su material asociado, permitiendo al usuario explorar presentaciones, infografías, apuntes en formato Markdown y tests vinculados a cada tema. La interfaz incorpora un buscador para localizar rápidamente un tema y guarda el estado de navegación —búsquedas realizadas y tema seleccionado— en el almacenamiento local del navegador, de forma que al volver a acceder a la página se restaure automáticamente la última vista utilizada.",
+      "type": "FEATURE",
+      "status": "DONE",
+      "complexity": "HIGH",
+      "createdAt": "2026-01-03",
+      "completedAt": "2026-01-15"
+    },
+    {
+      "title": "Persistencia del historial de respuestas del usuario",
+      "description": "El sistema almacenará en el dispositivo del usuario el historial de respuestas a las preguntas, de modo que cada vez que el usuario vuelva a una pregunta ya contestada se muestre un contador con el número de veces que ha sido respondida, manteniendo esta información persistente entre sesiones.",
+      "type": "FEATURE",
+      "status": "TODO",
+      "complexity": "MEDIUM",
+      "createdAt": "2026-01-25",
+      "completedAt": null
+    },
+    {
+      "title": "Arreglar bug en boton de \"eliminar acertada\"",
+      "description": "Cuando estás repasando errores y sale el botón de eliminar acertada, cuando has acertado una pregunta, el botón se queda iluminado, pero si no le das al botón y pasas de pregunta, el botón sigue iluminado y puedes eliminar la siguiente. Hay que arreglar este comportamiento que cuando al pasar al siguiente, la eliminar acertada ya no esté disponible.",
+      "type": "BUG",
+      "status": "TODO",
+      "complexity": "LOW",
+      "createdAt": "2026-01-25",
+      "completedAt": null
+    },
+    {
+      "title": "XXXXXX",
+      "description": "XXXX",
+      "type": "FEATURE",
+      "status": "TODO",
+      "complexity": "MEDIUM",
+      "createdAt": "2026-01-01",
+      "completedAt": null
+    }
+  ],
+
+  "gtdInbox": [
+    "✅ Finalizada: Pasar el 30, 31, 49",
+    "📝 Pendiente: Pasar el 50, 51, 66"
+  ]
+}

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Markdown + Mermaid Renderer</title>
+
+  <!-- Markdown renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Mermaid -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.45;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: Canvas;
+      border-bottom: 1px solid color-mix(in srgb, CanvasText 15%, transparent);
+      padding: 12px 16px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header strong { margin-right: 8px; }
+    button, input[type="file"] {
+      font: inherit;
+    }
+    .btn {
+      border: 1px solid color-mix(in srgb, CanvasText 20%, transparent);
+      background: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .btn:hover { filter: brightness(0.98); }
+    .hint {
+      opacity: 0.8;
+      font-size: 0.95rem;
+    }
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+    /* Markdown-ish styling */
+    #content h1, #content h2, #content h3 { margin-top: 1.2em; }
+    #content pre {
+      overflow: auto;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid color-mix(in srgb, CanvasText 12%, transparent);
+      background: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+    }
+    #content code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    #content table {
+      border-collapse: collapse;
+      width: 100%;
+      overflow: auto;
+      display: block;
+    }
+    #content th, #content td {
+      border: 1px solid color-mix(in srgb, CanvasText 12%, transparent);
+      padding: 8px 10px;
+      vertical-align: top;
+    }
+    #content blockquote {
+      margin: 1em 0;
+      padding: 8px 12px;
+      border-left: 4px solid color-mix(in srgb, CanvasText 30%, transparent);
+      background: color-mix(in srgb, Canvas 94%, CanvasText 6%);
+      border-radius: 8px;
+    }
+    /* Mermaid container spacing */
+    .mermaid {
+      margin: 16px 0;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px dashed color-mix(in srgb, CanvasText 18%, transparent);
+      background: color-mix(in srgb, Canvas 96%, CanvasText 4%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <strong>Markdown + Mermaid</strong>
+
+    <input id="file" type="file" accept=".md,text/markdown,text/plain" />
+
+    <button class="btn" id="btnLoadExample" type="button">
+      Cargar example.md (fetch)
+    </button>
+
+    <span class="hint">
+      Sugerencia: si abres el HTML como fichero local, el botón “fetch” puede fallar por CORS; usa el selector de archivo o un servidor local.
+    </span>
+  </header>
+
+  <main>
+    <div id="content"></div>
+  </main>
+
+  <script>
+    // 1) Configura Mermaid (NO auto-start; lo hacemos tras insertar el HTML)
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "strict"
+    });
+
+    // 2) Configura Marked para que NO renderice automáticamente mermaid como <pre><code> final,
+    //    sino que podamos interceptar y transformarlo en <div class="mermaid">...</div>.
+    marked.setOptions({
+      gfm: true,
+      breaks: false
+    });
+
+    function mdToHtmlWithMermaid(mdText) {
+      // Render básico a HTML
+      const html = marked.parse(mdText);
+
+      // Inyecta en el DOM primero
+      const container = document.getElementById("content");
+      container.innerHTML = html;
+
+      // Busca bloques de código "mermaid" y reemplázalos por <div class="mermaid">...</div>
+      // Marcado típico: <pre><code class="language-mermaid">...</code></pre>
+      const codeBlocks = container.querySelectorAll('pre > code.language-mermaid, pre > code.lang-mermaid, pre > code[class*="mermaid"]');
+
+      codeBlocks.forEach(code => {
+        const pre = code.parentElement;
+        const mermaidSrc = code.textContent;
+
+        const div = document.createElement("div");
+        div.className = "mermaid";
+        div.textContent = mermaidSrc;
+
+        pre.replaceWith(div);
+      });
+
+      // Ahora renderiza Mermaid sobre los div.mermaid
+      // Nota: mermaid.run recorre nodos .mermaid y genera SVG
+      mermaid.run({ querySelector: ".mermaid" });
+    }
+
+    // 3) Cargar desde file picker
+    document.getElementById("file").addEventListener("change", async (ev) => {
+      const f = ev.target.files?.[0];
+      if (!f) return;
+
+      const text = await f.text();
+      mdToHtmlWithMermaid(text);
+    });
+
+    // 4) Cargar example.md desde el mismo directorio (requiere servir por HTTP normalmente)
+    document.getElementById("btnLoadExample").addEventListener("click", async () => {
+      try {
+        const resp = await fetch("./example.md");
+        if (!resp.ok) throw new Error("No se pudo cargar example.md: " + resp.status);
+        const text = await resp.text();
+        mdToHtmlWithMermaid(text);
+      } catch (e) {
+        document.getElementById("content").innerHTML = `
+          <blockquote>
+            <p><strong>Error cargando por fetch:</strong> ${String(e.message || e)}</p>
+            <p>Alternativas:</p>
+            <ul>
+              <li>Usa el selector de archivo (arriba) para abrir el .md.</li>
+              <li>O sirve la carpeta con un servidor local (por ejemplo: <code>python -m http.server</code>).</li>
+            </ul>
+          </blockquote>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>

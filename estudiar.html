@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudi - sTIC d'Opos</title>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+  <style>
+    .question-info {
+      font-size: 0.93rem;
+      color: #9fb0ff;
+      margin-bottom: 7px;
+    }
+    body { font-family: system-ui, sans-serif; background: #0b1020; color: #e7ecff; margin: 0; padding: 10px; }
+    .container { max-width: 800px; margin: 0 auto; }
+    .header {
+      text-align: center;
+      color: #6ae0a7;
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: #27304a;
+      border-radius: 4px;
+      /* margin-bottom: 30px; */
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #6ae0a7, #2aebad);
+      transition: width 0.3s ease;
+    }
+    .question-card {
+      background: #141a2a;
+      border: 1.5px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    .question-number {
+      font-size: 1rem;
+      color: #9fb0ff;
+      margin-bottom: 15px;
+    }
+    .question-text {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 25px;
+      color: #e7ecff;
+      white-space: pre-line;
+    }
+    .answer-option {
+      background: #27304a;
+      border: 2px solid #2a3554;
+      border-radius: 10px;
+      padding: 5px 10px;
+      margin: 10px 0;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      font-size: 1.1rem;
+    }
+    .answer-option:hover {
+      border-color: #6ae0a7;
+      background: #2a3554;
+    }
+    .answer-option.selected {
+      border-color: #6ae0a7;
+      background: rgba(106, 224, 167, 0.1);
+      color: #6ae0a7;
+    }
+    .answer-option.correct {
+      border-color: #6ae0a7;
+      background: rgba(106, 224, 167, 0.2);
+    }
+    .answer-option.incorrect {
+      border-color: #ff6b6b;
+      background: rgba(255, 107, 107, 0.2);
+    }
+    .answer-option.flashcard-hidden {
+      background: #232b45;
+      color: #9fb0ff;
+      border-color: #2a3554;
+    }
+    .answer-option.flashcard-revealed {
+      background: #0f1525;
+      border-color: #6ae0a7;
+      color: #e7ecff;
+    }
+    .option-content {
+      flex: 1;
+    }
+    .option-text {
+      color: #e7ecff;
+      margin-bottom: 5px;
+      transition: all 0.3s ease;
+    }
+    .option-text.hidden {
+      opacity: 0.3;
+      transform: scale(0.95);
+    }
+    .feedback {
+      font-weight: bold;
+      margin: 10px 0 5px 0;
+      font-size: 1rem;
+    }
+    .correct-feedback {
+      color: #6ae0a7;
+    }
+    .incorrect-feedback {
+      color: #ff6b6b;
+    }
+    .info-feedback {
+      color: #ffe066;
+    }
+    .rationale {
+      color: #c2d3ff;
+      font-style: italic;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      margin-top: 5px;
+    }
+    .explanation {
+      background: #0f1525;
+      border-left: 4px solid #6ae0a7;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: #c2d3ff;
+    }
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .nav-btn {
+      background: linear-gradient(180deg, #2aebad, #21c08d);
+      color: #032217;
+      font-weight: bold;
+      font-size: 1.1rem;
+      padding: 12px 24px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .nav-btn:disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+    .nav-btn.secondary {
+      background: #27304a;
+      color: #e7ecff;
+    }
+    .nav-btn:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+    .results {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .score {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #6ae0a7;
+      margin-bottom: 20px;
+    }
+    .score-text {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+      color: #9fb0ff;
+    }
+    .historial-section {
+      margin-top: 40px;
+      padding-top: 30px;
+      border-top: 1px solid #27304a;
+    }
+    .historial-buttons {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+    }
+    .historial-btn {
+      background: #27304a;
+      color: #e7ecff;
+      font-size: 0.9rem;
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: 1px solid #2a3554;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .historial-btn:hover {
+      background: #2a3554;
+      border-color: #6ae0a7;
+    }
+    .historial-btn.remove-btn {
+      background: #4a2727;
+      border-color: #6b4040;
+    }
+    .historial-btn.remove-btn:hover {
+      background: #6b4040;
+      border-color: #ff6b6b;
+      color: #ff6b6b;
+    }
+    .historial-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+    .historial-textarea {
+      width: 100%;
+      min-height: 200px;
+      background: #141a2a;
+      border: 1px solid #27304a;
+      border-radius: 8px;
+      color: #e7ecff;
+      font-family: monospace;
+      font-size: 0.85rem;
+      padding: 15px;
+      resize: vertical;
+      box-sizing: border-box;
+    }
+    .historial-title {
+      color: #6ae0a7;
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .hint-area {
+      background: #232b45;
+      color: #9fb0ff;
+      border-radius: 8px;
+      padding: 12px 18px;
+      margin: 0 0 18px 0;
+      text-align: center;
+      font-size: 1.05rem;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.2s, color 0.2s;
+      border: 1.5px solid #27304a;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hint-area.mostrando {
+      background: #0f1525;
+      color: #e7ecff;
+      font-weight: bold;
+    }
+    #cronometroAnchor {
+      position: fixed;
+      right: 12px;
+      bottom: 12px;
+      z-index: 9999;
+    }
+    #cronometroBox {
+      background: #ffe066;
+      color: #27304a;
+      border-radius: 18px;
+      padding: 6px 8px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      box-shadow: 0 4px 18px #0005;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      border: 2.5px solid #27304a;
+      user-select: none;
+    }
+
+    /* Botón hamburguesa */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* Menú desplegable */
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 180px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .menu-close-btn {
+      width: 100%;
+      padding: 12px;
+      background: #2aebad;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #032217;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+
+    .btn-fullscreen {
+      width: 100%;
+      padding: 12px;
+      background: #2a5f8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-fullscreen:hover {
+      background: #3a7faa;
+      transform: translateY(-1px);
+    }
+
+    .btn-menu-tornar {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-menu-tornar:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    .btn-menu-historial {
+      width: 100%;
+      padding: 12px;
+      background: #8a5f2a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-menu-historial:hover {
+      background: #ca8735;
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 768px) {
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 150px;
+      }
+    }
+  </style>
+  <!-- KaTeX for LaTeX formula rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <script src="assets/js/toast.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tancar
+    </button>
+    <button class="btn-fullscreen" id="fullscreenBtn">
+      ⛶ Pantalla completa
+    </button>
+    <button class="btn-menu-tornar" id="menuTornarBtn">
+      ⬅️ Tornar
+    </button>
+    <button class="btn-menu-tornar" id="menuIndexBtn">
+      👨‍💻 Menu
+    </button>
+    <button class="btn-menu-historial" id="menuHistorialBtn">
+      📋 Historial
+    </button>
+  </div>
+
+  <div class="container">
+  <div class="header" id="headerTitle">☕ Estic d'opos ☕</div>
+
+    
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+
+  <div id="questionContainer"></div>
+
+  <div id="hintArea" class="hint-area" onclick="mostrarHint()">pista</div>
+
+
+  <div id="removeFromHistoryContainer" style="text-align:center;margin:10px 0; display:none;">
+    <button class="historial-btn remove-btn" id="removeFromHistoryBtn" onclick="eliminarDelHistorial()" disabled>✅ Eliminar encertada (tecla "E")</button>
+  </div>
+  <!-- Cronómetro anclado -->
+  <div id="cronometroAnchor">
+    <div id="cronometroBox">00:00</div>
+  </div>
+
+    <div class="navigation">
+      <button class="nav-btn secondary" id="prevBtn" onclick="previousQuestion()">← Anterior</button>
+      <span id="questionCounter"></span>
+      <button class="nav-btn" id="nextBtn" onclick="nextQuestion()">Següent →</button>
+    </div>
+
+    <div class="historial-section">
+  <div class="historial-title">Historial fallos <span id="fallosCount" style="color:#9fb0ff;font-weight:normal;font-size:0.98em;"></span></div>
+      <div class="historial-buttons">
+        <button class="historial-btn" onclick="copiarHistorial()">📋 Copia</button>
+        <button class="historial-btn" onclick="baixarHistorial()">💾 Baixa</button>
+        <button class="historial-btn" onclick="guardarDubte()">❓ Guardar dubte "G"</button>
+        <button class="historial-btn remove-btn" onclick="borrarUltimoError()">⬅️ Esborrar últim "U"</button>
+      </div>
+      <textarea class="historial-textarea" id="historialFallos" readonly placeholder="Aquí apareixeran les preguntes fallades..."></textarea>
+    </div>
+  </div>
+
+    <script>
+    // Referencias a elementos del menú
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const menuTornarBtn = document.getElementById('menuTornarBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+    const menuHistorialBtn = document.getElementById('menuHistorialBtn');
+
+    // Toggle menú
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+
+    // Cerrar menú
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuPanel.classList.remove('visible');
+      }
+    });
+
+    // Botón fullscreen
+    fullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Sortir pantalla completa';
+          menuPanel.classList.remove('visible');
+        }).catch(err => {
+          console.error('Error al activar fullscreen:', err);
+        });
+      } else {
+        document.exitFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+          menuPanel.classList.remove('visible');
+        });
+      }
+    });
+
+    // Actualizar texto del botón cuando se sale de fullscreen con ESC
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Botón tornar
+    menuTornarBtn.addEventListener('click', irAtrasMenu);
+
+    /**
+     * Función para navegar atrás desde el menú o Backspace
+     */
+    function irAtrasMenu() {
+      // Cierra el menú si está abierto
+      menuPanel.classList.remove('visible');
+      // Navega atrás: si hay historial, vuelve; si no, va al index
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'index.html';
+      }
+    }
+    menuIndexBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    menuHistorialBtn.addEventListener('click', () => {
+      window.location.href = 'historialErrors.html';
+    });
+
+    // Fullscreen toggle al clicar el header
+    document.addEventListener('DOMContentLoaded', function() {
+      // Navegación con flechas del teclado y selección con 1-4
+      document.addEventListener('keydown', function(e) {
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        if (e.key === 'ArrowRight' || e.key === 'Enter') {
+          nextQuestion();
+          e.preventDefault();
+        } else if (e.key === 'ArrowLeft') {
+          previousQuestion();
+          e.preventDefault();
+        } else if (["1","2","3","4","5","6","7","8","9"].includes(e.key)) {
+          // Selección rápida de respuesta o expandir opción si ya está respondida
+          const idx = parseInt(e.key, 10) - 1;
+          const pregunta = preguntes[currentQuestion];
+          if (!pregunta || !Array.isArray(pregunta.answerOptions)) return;
+          if (idx >= 0 && idx < pregunta.answerOptions.length) {
+            const isMultiCorrect = pregunta.answerOptions.filter(opt => opt.isCorrect).length > 1;
+            // Detectar si la pregunta ya está respondida
+            let userAnswered = isMultiCorrect 
+              ? (multiCorrectChecked[currentQuestion] === true)
+              : (answers[currentQuestion] !== null);
+            if (!userAnswered) {
+              if (!isMultiCorrect) {
+                selectAnswer(idx);
+              } else {
+                toggleMultiSelect(idx);
+              }
+            } else {
+              // Si ya está respondida, expandir/collapse la opción
+              toggleOptionRationale(idx);
+            }
+          }
+        } else if (e.key === 'g' || e.key === 'G') {
+          // Guardar dubte con tecla G
+          guardarDubte();
+          e.preventDefault();
+        } else if (e.key === 'u' || e.key === 'U') {
+          // Borrar último error con tecla U
+          borrarUltimoError();
+          e.preventDefault();
+        } else if (e.key === 'r' || e.key === 'R') {
+          // Reportar pregunta con tecla R
+          reportarPregunta();
+          e.preventDefault();
+        } else if ((e.key === 'e' || e.key === 'E')) {
+          // Eliminar acertada del historial con tecla E
+          eliminarDelHistorial();
+          e.preventDefault();
+        } else if (e.key === 'Backspace') {
+          irAtrasMenu();
+          e.preventDefault();
+        }
+      });
+      const header = document.getElementById('headerTitle');
+      header.style.cursor = 'pointer';
+      header.title = 'Clica per a pantalla completa';
+      header.addEventListener('click', function() {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen();
+        } else {
+          document.exitFullscreen();
+        }
+      });
+    });
+    // Cargar headerTitle dinámicamente desde config.json
+    fetch('assets/config.json')
+      .then(r => r.json())
+      .then(cfg => {
+        if (cfg.headerTitle) {
+          let title = cfg.headerTitle;
+          if (cfg.headerTitleSectionText) {
+            let section = '';
+            const params = new URLSearchParams(window.location.search);
+            if (params.has('section')) {
+              section = params.get('section');
+            }
+            title = title.replace(cfg.headerTitleSectionText, section);
+          }
+          document.getElementById('headerTitle').textContent = title;
+        }
+      });
+  </script>
+
+  <script>
+    // --- Cronómetro anclado ---
+    let cronometroInterval = null;
+    let cronometroStart = null;
+    let cronometroElapsed = 0;
+    let cronometroRunning = false;
+    const cronometroBox = document.getElementById('cronometroBox');
+    let cronometroSaveInterval = null;
+
+    function formatTime(ms) {
+      const totalSec = Math.floor(ms / 1000);
+      const min = Math.floor(totalSec / 60);
+      const sec = totalSec % 60;
+      return (min < 10 ? '0' : '') + min + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    function updateCronometroDisplay() {
+      let ms = cronometroElapsed;
+      if (cronometroRunning && cronometroStart) {
+        ms += Date.now() - cronometroStart;
+      }
+      cronometroBox.textContent = formatTime(ms);
+      if (cronometroRunning) {
+        cronometroBox.style.background = 'linear-gradient(90deg,#6ae0a7,#2aebad)';
+        cronometroBox.style.color = '#032217';
+        cronometroBox.style.borderColor = '#21c08d';
+        cronometroBox.style.boxShadow = '0 4px 18px #21c08d55';
+      } else {
+        cronometroBox.style.background = '#ffe066';
+        cronometroBox.style.color = '#27304a';
+        cronometroBox.style.borderColor = '#27304a';
+        cronometroBox.style.boxShadow = '0 4px 18px #0005';
+      }
+    }
+    function saveCronometroToLocalStorage() {
+      let ms = cronometroElapsed;
+      if (cronometroRunning && cronometroStart) {
+        ms += Date.now() - cronometroStart;
+      }
+      localStorage.setItem(LS_KEYS.CRONOMETRO, ms);
+    }
+    function startCronometro() {
+      if (cronometroRunning) return;
+      cronometroRunning = true;
+      cronometroStart = Date.now();
+      cronometroInterval = setInterval(updateCronometroDisplay, 500);
+      // Save every 20 seconds
+      if (cronometroSaveInterval) clearInterval(cronometroSaveInterval);
+      cronometroSaveInterval = setInterval(saveCronometroToLocalStorage, 20000);
+      updateCronometroDisplay();
+    }
+    function stopCronometro() {
+      if (!cronometroRunning) return;
+      cronometroRunning = false;
+      cronometroElapsed += Date.now() - cronometroStart;
+      cronometroStart = null;
+      clearInterval(cronometroInterval);
+      if (cronometroSaveInterval) clearInterval(cronometroSaveInterval);
+      saveCronometroToLocalStorage();
+      updateCronometroDisplay();
+    }
+    cronometroBox.addEventListener('click', function() {
+      if (cronometroRunning) {
+        stopCronometro();
+      } else {
+        startCronometro();
+      }
+    });
+    updateCronometroDisplay();
+    // ============================================================
+    // VARIABLES GLOBALES
+    // ============================================================
+    let preguntes = [];
+    let currentQuestion = 0;
+    let answers = [];
+    let showingResults = false;
+    let historialFallos = [];
+    let historialContestades = {}; // { guid: count } - Contador de veces que se ha contestado cada pregunta
+    let isRepassingErrors = false;
+    let canRemoveFromHistory = false;
+    let inactivityTimeout = null;
+    const INACTIVITY_LIMIT_MS = 2 * 60 * 1000; // 2 minutos de inactividad
+    let expandedOptions = {}; // Para trackear opciones expandidas { questionIndex: [optionIndex1, optionIndex2, ...] }
+    let multiCorrectChecked = {}; // Para trackear qué preguntas multirespuesta han sido comprobadas { questionIndex: true/false }
+
+    // ============================================================
+    // GESTIÓN DE INACTIVIDAD
+    // ============================================================
+    function resetInactivityTimer() {
+      if (inactivityTimeout) clearTimeout(inactivityTimeout);
+      inactivityTimeout = setTimeout(() => {
+        if (cronometroRunning) {
+          stopCronometro();
+          toast && toast.showToast ? toast.showToast('Cronòmetre parat per inactivitat') : null;
+        }
+      }, INACTIVITY_LIMIT_MS);
+    }
+
+    // ============================================================
+    // GESTIÓN DE HISTORIAL DE PREGUNTAS CONTESTADAS
+    // ============================================================
+    
+    /**
+     * Cargar historial de contestadas desde localStorage
+     */
+    function cargarHistorialContestades() {
+      try {
+        const data = localStorage.getItem(LS_KEYS.HISTORIAL_CONTESTADES);
+        if (data) {
+          historialContestades = JSON.parse(data);
+        } else {
+          historialContestades = {};
+        }
+      } catch (e) {
+        console.warn('Error cargando historial de contestadas:', e);
+        historialContestades = {};
+      }
+    }
+
+    /**
+     * Guardar historial de contestadas en localStorage
+     */
+    function guardarHistorialContestades() {
+      try {
+        localStorage.setItem(LS_KEYS.HISTORIAL_CONTESTADES, JSON.stringify(historialContestades));
+      } catch (e) {
+        console.error('Error guardando historial de contestadas:', e);
+      }
+    }
+
+    /**
+     * Incrementar contador de veces contestada una pregunta
+     * @param {string} guid - GUID de la pregunta
+     */
+    function incrementarContestada(guid) {
+      if (!guid) return;
+      
+      if (!historialContestades[guid]) {
+        historialContestades[guid] = 0;
+      }
+      historialContestades[guid]++;
+      guardarHistorialContestades();
+    }
+
+    /**
+     * Obtener número de veces que se ha contestado una pregunta
+     * @param {string} guid - GUID de la pregunta
+     * @returns {number} - Número de veces contestada
+     */
+    function getContestadaCount(guid) {
+      if (!guid) return 0;
+      return historialContestades[guid] || 0;
+    }
+
+    // ============================================================
+    // GESTIÓN DE PISTAS (HINTS)
+    // ============================================================
+    
+    /**
+     * Mostrar pista de la pregunta actual
+     */
+    function mostrarHint() {
+      const hintDiv = document.getElementById('hintArea');
+      if (!hintDiv.classList.contains('mostrando')) {
+        const pregunta = preguntes[currentQuestion];
+        let hint = pregunta && (pregunta.hint || pregunta.pista || pregunta.clue);
+        // Si es tipo flashcard, ofuscar el rationale del answerOption correcto
+        if (pregunta && pregunta.type === 'flashcard' && Array.isArray(pregunta.answerOptions)) {
+          const correctOption = pregunta.answerOptions.find(opt => opt.isCorrect && opt.rationale);
+          if (correctOption && correctOption.rationale) {
+            hint = correctOption.rationale.replace(/(\w{2})(\w+)([\.,;:!?¿¡()\[\]{}"'`]*)/g, function(match, p1, p2, p3) {
+              return p1 + '*'.repeat(p2.length) + p3;
+            });
+          } else {
+            hint = '(No hi ha pista per aquesta pregunta)';
+          }
+        }
+        hintDiv.textContent = hint ? hint : '(No hi ha pista per aquesta pregunta)';
+        hintDiv.classList.add('mostrando');
+      }
+    }
+
+    /**
+     * Ocultar pista
+     */
+    function ocultarHint() {
+      const hintDiv = document.getElementById('hintArea');
+      hintDiv.textContent = 'pista';
+      hintDiv.classList.remove('mostrando');
+    }
+
+    // ============================================================
+    // MAPEO DE DIFICULTAD
+    // ============================================================
+    let difficultyMap = {};
+    
+    // Cargar mapeo de dificultades desde JSON
+    fetch('assets/difficulty.json')
+      .then(r => r.json())
+      .then(arr => {
+        arr.forEach(d => { difficultyMap[d.id] = d.text; });
+      });
+
+    /**
+     * Obtener texto de dificultad
+     * @param {string} difficulty - ID de dificultad
+     * @returns {string} - Texto de dificultad
+     */
+    function getDifficultyText(difficulty) {
+      if (!difficulty) return 'D?';
+      return difficultyMap[difficulty] || 'D?';
+    }
+
+  // ============================================================
+  // CARGA Y PREPARACIÓN DE PREGUNTAS
+  // ============================================================
+  
+  /**
+   * Cargar preguntas desde localStorage y prepararlas para el test
+   * @param {boolean} skipAnsweredCheck - Si es true, no pregunta por preguntas contestadas
+   * @returns {boolean} - true si se cargaron correctamente, false si hubo error
+   */
+  function loadQuestions(skipAnsweredCheck = false) {
+      try {
+        localStorage.setItem(LS_KEYS.ESTUDIO_WIP, 'true');
+
+        isRepassingErrors = false;
+        preguntes = JSON.parse(localStorage.getItem(LS_KEYS.PREGUNTES) || '[]');
+        document.getElementById('removeFromHistoryContainer').style.display = 'block';
+
+        if (localStorage.getItem(LS_KEYS.REPASAR_FALLOS)) {
+          isRepassingErrors = true;
+        }
+
+        if (!preguntes.length) {
+          let msg;
+          if (isRepassingErrors) {
+            msg = 'No hi ha errors guardats per repassar.';
+          } else {
+            msg = 'No hi ha preguntes carregades.';
+          }
+          document.getElementById('questionContainer').innerHTML = 
+            `<div class="question-card"><div class="question-text">${msg}</div></div>`;
+          document.getElementById('removeFromHistoryContainer').style.display = 'none';
+          return false;
+        }
+
+        // PASO 1: Detectar preguntas ya contestadas (solo si no es un reinicio)
+        const preguntesContestades = !skipAnsweredCheck ? preguntes.filter(p => {
+          return p.guid && getContestadaCount(p.guid) > 0;
+        }) : [];
+
+        // PASO 2 y 3: Mostrar alert y filtrar según respuesta
+        if (!skipAnsweredCheck && preguntesContestades.length > 0) {
+          const excluir = confirm(
+            `Hi ha ${preguntesContestades.length} pregunta${preguntesContestades.length > 1 ? 'es' : ''} ja contestada${preguntesContestades.length > 1 ? 'es' : ''} prèviament.\n\n` +
+            `Vols excloure-les de l'estudi?\n\n` +
+            `Acceptar = Sí (només preguntes noves)\n` +
+            `Cancel·lar = No (totes les preguntes)`
+          );
+
+          if (excluir) {
+            // Filtrar preguntas contestadas
+            preguntes = preguntes.filter(p => {
+              return !p.guid || getContestadaCount(p.guid) === 0;
+            });
+
+            // PASO 4: Validar que quedan preguntas
+            if (!preguntes.length) {
+              document.getElementById('questionContainer').innerHTML = 
+                `<div class="question-card"><div class="question-text">Totes les preguntes ja han estat contestades. No queden preguntes noves per estudiar.</div></div>`;
+              document.getElementById('removeFromHistoryContainer').style.display = 'none';
+              return false;
+            }
+
+            toast.showToast(`S'han exclòs ${preguntesContestades.length} pregunta${preguntesContestades.length > 1 ? 'es' : ''} ja contestada${preguntesContestades.length > 1 ? 'es' : ''}`);
+          }
+        }
+
+        // Si estamos en modo repasar errores, preguntar si quiere ordenar por ratio de fallos
+        if (isRepassingErrors && !skipAnsweredCheck) {
+          const ordenarPorFallos = confirm(
+            'Vols ordenar les preguntes per les que falles més sovint?\n\n' +
+            'Acceptar = Sí (prioritza les que tens més dificultat)\n' +
+            'Cancel·lar = No (ordre aleatori)'
+          );
+
+          if (ordenarPorFallos) {
+            // Ordenar por ratio de fallos (mayor ratio primero)
+            preguntes = preguntes.sort((a, b) => {
+              // Obtener datos de pregunta A
+              const fallosA = a.count || 1;
+              const contestadasA = getContestadaCount(a.guid) || 1;
+              const ratioA = fallosA / contestadasA;
+
+              // Obtener datos de pregunta B
+              const fallosB = b.count || 1;
+              const contestadasB = getContestadaCount(b.guid) || 1;
+              const ratioB = fallosB / contestadasB;
+
+              // Ordenar descendente (mayor ratio primero)
+              if (ratioB !== ratioA) {
+                return ratioB - ratioA;
+              }
+              // Si tienen el mismo ratio, priorizar por número absoluto de fallos
+              return fallosB - fallosA;
+            });
+            
+            toast.showToast('📊 Preguntes ordenades per dificultat');
+          } else {
+            // Orden aleatorio (comportamiento original)
+            preguntes = preguntes.sort(() => Math.random() - 0.5);
+          }
+        } else {
+          // Orden aleatorio por defecto si no es repaso de errores
+          preguntes = preguntes.sort(() => Math.random() - 0.5);
+        }
+
+        // Inicializar el array de respuestas
+        answers = new Array(preguntes.length).fill(null);
+        
+        // Ordenar aleatoriamente las opciones de respuesta de cada pregunta
+        preguntes.forEach(q => {
+          if (Array.isArray(q.answerOptions)) {
+            q.answerOptions = q.answerOptions.sort(() => Math.random() - 0.5);
+          }
+        });
+        // Guardar las preguntas barrejades en localStorage
+        localStorage.setItem(LS_KEYS.PREGUNTES_BARREJADES, JSON.stringify(preguntes));
+        return true;
+      } catch (e) {
+        document.getElementById('questionContainer').innerHTML = 
+          '<div class="question-card"><div class="question-text">Error carregant les dades.</div></div>';
+        return false;
+      }
+    }
+
+    // ============================================================
+    // RENDERIZADO DE PREGUNTAS
+    // ============================================================
+    
+    /**
+     * Mostrar pregunta actual en pantalla
+     * @param {number} index - Índice de la pregunta a mostrar
+     */
+    function showQuestion(index) {
+      if (index < 0 || index >= preguntes.length) return;
+      
+      const pregunta = preguntes[index];
+      const container = document.getElementById('questionContainer');
+
+      // Ocultar hint por defecto
+      ocultarHint();
+      
+      // Mostrar u ocultar el área de hint según si la pregunta tiene hint
+      const hintDiv = document.getElementById('hintArea');
+      const tieneHint = pregunta && (pregunta.hint || pregunta.pista || pregunta.clue);
+      if (tieneHint) {
+        hintDiv.style.display = '';
+      } else {
+        hintDiv.style.display = 'none';
+      }
+      
+      // Detectar si hay más de una respuesta correcta
+      const answerOptions = pregunta.answerOptions || [];
+      const correctAnswers = answerOptions.filter(opt => opt.isCorrect);
+      const isMultiCorrect = correctAnswers.length > 1;
+      
+      // Determinar si el usuario ya respondió
+      const userAnswered = isMultiCorrect 
+        ? (multiCorrectChecked[index] === true)
+        : (answers[index] !== null);
+      
+      const currentExpanded = expandedOptions[index] || [];
+      
+      // Obtener número de veces que se ha contestado esta pregunta
+      const contestadaCount = getContestadaCount(pregunta.guid);
+      const contestadaText = contestadaCount > 0 ? ` <span style="color:#9fb0ff;font-size:0.9em;">(contestades: ${contestadaCount})</span>` : '';
+      
+      // Obtener número de fallos de esta pregunta
+      const fallosCount = pregunta.guid ? (historialFallos.find(f => f.guid === pregunta.guid)?.count || 0) : 0;
+      const fallosText = fallosCount > 0 ? ` <span style="color:#ff6b6b;font-size:0.9em;">(🚨${fallosCount})</span>` : '';
+      
+      // Construir HTML de la pregunta
+      let html = `
+        <div class="question-card">
+          <div class="question-info">
+            ${(pregunta.subjectId || '??') + '-' + (pregunta.origin || '??') + '-' + getDifficultyText(pregunta.difficulty)}
+            ${isMultiCorrect ? ' <span style="color:#6ae0a7;font-weight:bold;">[Múltiples respostes]</span>' : ''}
+            ${contestadaText}${fallosText}
+          </div>
+          <div class="question-text">${pregunta.pregunta || pregunta.question || 'Pregunta no disponible'}</div>
+      `;
+
+      // Obtener opciones de respuesta (answerOptions)
+      const opciones = answerOptions;
+
+      opciones.forEach((option, i) => {
+        let isSelected = false;
+        if (isMultiCorrect) {
+          isSelected = Array.isArray(answers[index]) && answers[index].includes(i);
+        } else {
+          isSelected = answers[index] === i;
+        }
+        
+        const isExpanded = currentExpanded.includes(i);
+        let optionClass = 'answer-option';
+        let extraOnClick = '';
+        
+        if (userAnswered) {
+          // Lógica para preguntas con múltiples respuestas correctas
+          if (isMultiCorrect) {
+            if (option.isCorrect) {
+              if (isSelected) {
+                optionClass += ' correct';
+              } else {
+                // Correcta pero no seleccionada - mostrar como incorrecta
+                optionClass += ' incorrect';
+              }
+            } else {
+              if (isSelected) {
+                // Incorrecta y seleccionada
+                optionClass += ' incorrect';
+              }
+            }
+            // Permitir expandir/colapsar en opciones no seleccionadas
+            if (!isSelected) {
+              extraOnClick = `onclick=\"toggleOptionRationale(${i})\"`;
+              if (isExpanded) {
+                optionClass += ' incorrect';
+              }
+            } else {
+              extraOnClick = `onclick=\"nextQuestion()\"`;
+            }
+          } else {
+            // Lógica original para una sola respuesta correcta
+            if (option.isCorrect) {
+              optionClass += ' correct';
+              extraOnClick = `onclick=\"nextQuestion()\"`;
+            } else if (isSelected && !option.isCorrect) {
+              optionClass += ' incorrect';
+              extraOnClick = `onclick=\"nextQuestion()\"`;
+            } else {
+              // Opción no seleccionada: permitir expandir/colapsar
+              extraOnClick = `onclick=\"toggleOptionRationale(${i})\"`;
+              if (isExpanded) {
+                optionClass += ' incorrect';
+              }
+            }
+          }
+        } else if (isSelected) {
+          optionClass += ' selected';
+        }
+        
+        // Si no está respondida
+        if (!userAnswered) {
+          if (isMultiCorrect) {
+            extraOnClick = `onclick=\"toggleMultiSelect(${i})\"`;
+          } else {
+            extraOnClick = `onclick=\"selectAnswer(${i})\"`;
+          }
+        }
+        
+        html += `
+          <div class="${optionClass}" ${extraOnClick}>
+            <div class="option-content">
+              <div class="option-text">${option.text}</div>`;
+        
+        // Mostrar feedback si ya se respondió
+        if (userAnswered) {
+          if (isMultiCorrect) {
+            // Feedback para múltiples respuestas
+            if (option.isCorrect && isSelected) {
+              html += `
+                <div class="feedback correct-feedback">✔️ Correcta</div>
+                <div class="rationale">${option.rationale || ''}</div>`;
+            } else if (option.isCorrect && !isSelected) {
+              html += `
+                <div class="feedback incorrect-feedback">❌ Faltava seleccionar aquesta</div>
+                <div class="rationale">${option.rationale || ''}</div>`;
+            } else if (!option.isCorrect && isSelected) {
+              html += `
+                <div class="feedback incorrect-feedback">❌ Incorrecta</div>
+                <div class="rationale">${option.rationale || ''}</div>`;
+            } else if (isExpanded && option.rationale) {
+              html += `
+                <div class="feedback info-feedback">ℹ️ Informació</div>
+                <div class="rationale">${option.rationale}</div>`;
+            }
+          } else {
+            // Feedback para una sola respuesta correcta
+            if (option.isCorrect) {
+              html += `
+                <div class="feedback correct-feedback">✔️ Resposta correcta</div>
+                <div class="rationale">${option.rationale || ''}</div>`;
+            } else if (isSelected && !option.isCorrect) {
+              html += `
+                <div class="feedback incorrect-feedback">❌ Resposta incorrecta</div>
+                <div class="rationale">${option.rationale || ''}</div>`;
+            } else if (isExpanded && option.rationale) {
+              // Mostrar rationale de opción expandida (no seleccionada)
+              html += `
+                <div class="feedback info-feedback">ℹ️ Informació</div>
+                <div class="rationale">${option.rationale}</div>`;
+            }
+          }
+        }
+        html += `
+            </div>
+          </div>
+        `;
+      });
+
+      // Botón comprovar para preguntas con múltiples respuestas correctas
+      if (isMultiCorrect && !userAnswered) {
+        const hasSelection = Array.isArray(answers[index]) && answers[index].length > 0;
+        html += `
+          <div style="text-align:center;margin-top:20px;">
+            <button class="nav-btn" onclick="comprovarMultiResposta()" ${!hasSelection ? 'disabled' : ''}>
+              Comprovar
+            </button>
+          </div>`;
+      }
+
+      html += '</div>';
+      container.innerHTML = html;
+      
+      // Render LaTeX formulas with KaTeX
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(container, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError: false
+        });
+      }
+          
+      // Actualizar contador y progreso
+      document.getElementById('questionCounter').textContent = `${index + 1} / ${preguntes.length}`;
+      const progressPercent = ((index + 1) / preguntes.length) * 100;
+      document.getElementById('progressFill').style.width = progressPercent + '%';
+
+      // Guardar el índice de la pregunta actual en localStorage
+      localStorage.setItem(LS_KEYS.PREGUNTA_POSITION, index);
+
+      // Actualizar botones de navegación
+      document.getElementById('prevBtn').disabled = index === 0;
+      document.getElementById('nextBtn').textContent = 
+        index === preguntes.length - 1 ? 'Finalitzar' : 'Següent →';
+
+      resetInactivityTimer();
+    }
+
+    // ============================================================
+    // INTERACCIÓN CON OPCIONES DE RESPUESTA
+    // ============================================================
+    
+    /**
+     * Expandir/colapsar explicación de una opción no seleccionada
+     * @param {number} optionIndex - Índice de la opción
+     */
+    function toggleOptionRationale(optionIndex) {
+      if (!expandedOptions[currentQuestion]) {
+        expandedOptions[currentQuestion] = [];
+      }
+      const index = expandedOptions[currentQuestion].indexOf(optionIndex);
+      if (index > -1) {
+        // Ya está expandida, colapsarla
+        expandedOptions[currentQuestion].splice(index, 1);
+      } else {
+        // Expandirla
+        expandedOptions[currentQuestion].push(optionIndex);
+      }
+      // Re-renderizar la pregunta actual
+      showQuestion(currentQuestion);
+    }
+
+    /**
+     * Seleccionar respuesta única (una sola respuesta correcta)
+     * @param {number} optionIndex - Índice de la opción seleccionada
+     */
+    function selectAnswer(optionIndex) {
+      if (showingResults) return;
+      if (answers[currentQuestion] !== null) return; // No permitir cambiar respuesta
+
+      answers[currentQuestion] = optionIndex;
+
+      // Guardar respuestas en localStorage
+      localStorage.setItem(LS_KEYS.ANSWERS, JSON.stringify(answers));
+
+      // Incrementar contador de contestadas
+      const pregunta = preguntes[currentQuestion];
+      incrementarContestada(pregunta.guid);
+
+      // Verificar si la respuesta es correcta o incorrecta
+      const opciones = pregunta.answerOptions || [];
+      const selectedOption = opciones[optionIndex];
+
+      if (selectedOption && selectedOption.isCorrect && isRepassingErrors) {
+        // Si acertamos en modo repaso de errores, activar botón para eliminar
+        canRemoveFromHistory = true;
+        document.getElementById('removeFromHistoryBtn').disabled = false;
+      } else {
+        // Desactivar botón si no es correcto o no estamos en modo repaso
+        canRemoveFromHistory = false;
+        document.getElementById('removeFromHistoryBtn').disabled = true;
+      }
+
+      // Guardar fallo si la respuesta es incorrecta
+      if (selectedOption && !selectedOption.isCorrect) {
+        guardarFalloEnHistorial(currentQuestion, optionIndex);
+      }
+
+      // Iniciar el cronómetro si está parado
+      if (!cronometroRunning) {
+        startCronometro();
+      }
+
+      showQuestion(currentQuestion);
+      mostrarHint();
+    }
+
+    /**
+     * Toggle selección múltiple (para preguntas con varias respuestas correctas)
+     * @param {number} optionIndex - Índice de la opción a marcar/desmarcar
+     */
+    function toggleMultiSelect(optionIndex) {
+      if (showingResults) return;
+      
+      // Inicializar como array si no existe
+      if (!Array.isArray(answers[currentQuestion])) {
+        answers[currentQuestion] = [];
+      }
+      
+      const index = answers[currentQuestion].indexOf(optionIndex);
+      if (index > -1) {
+        // Ya está seleccionada, deseleccionar
+        answers[currentQuestion].splice(index, 1);
+      } else {
+        // No está seleccionada, seleccionar
+        answers[currentQuestion].push(optionIndex);
+      }
+      
+      // Guardar en localStorage
+      localStorage.setItem(LS_KEYS.ANSWERS, JSON.stringify(answers));
+      
+      // Re-renderizar para actualizar UI
+      showQuestion(currentQuestion);
+    }
+
+    /**
+     * Comprobar respuesta múltiple (cuando hay varias respuestas correctas)
+     */
+    function comprovarMultiResposta() {
+      if (showingResults) return;
+      if (!Array.isArray(answers[currentQuestion]) || answers[currentQuestion].length === 0) return;
+      
+      // Marcar como comprobada
+      multiCorrectChecked[currentQuestion] = true;
+      
+      // Incrementar contador de contestadas
+      const pregunta = preguntes[currentQuestion];
+      incrementarContestada(pregunta.guid);
+      
+      // Verificar si todas las respuestas son correctas
+      const opciones = pregunta.answerOptions || [];
+      const correctIndices = opciones
+        .map((opt, idx) => opt.isCorrect ? idx : -1)
+        .filter(idx => idx !== -1);
+      
+      const selectedIndices = answers[currentQuestion].sort();
+      const isCorrect = JSON.stringify(selectedIndices) === JSON.stringify(correctIndices.sort());
+      
+      if (isCorrect && isRepassingErrors) {
+        // Si acertamos en modo repaso de errores, activar botón para eliminar
+        canRemoveFromHistory = true;
+        document.getElementById('removeFromHistoryBtn').disabled = false;
+      } else {
+        canRemoveFromHistory = false;
+        document.getElementById('removeFromHistoryBtn').disabled = true;
+      }
+      
+      if (!isCorrect) {
+        // Guardar en historial con las opciones seleccionadas
+        guardarFalloEnHistorialMulti(currentQuestion, selectedIndices);
+      }
+      
+      // Iniciar el cronómetro si está parado
+      if (!cronometroRunning) {
+        startCronometro();
+      }
+      
+      // Re-renderizar para mostrar feedback
+      showQuestion(currentQuestion);
+      mostrarHint();
+    }
+
+
+    // ============================================================
+    // RESULTADOS Y NAVEGACIÓN
+    // ============================================================
+    
+    /**
+     * Mostrar resultados finals del test
+     */
+    function showResults() {
+      localStorage.removeItem(LS_KEYS.ESTUDIO_WIP);
+      showingResults = true;
+      
+      let correctAnswers = 0;
+      
+      preguntes.forEach((pregunta, index) => {
+        const opciones = pregunta.answerOptions || [];
+        const correctIndices = opciones
+          .map((opt, idx) => opt.isCorrect ? idx : -1)
+          .filter(idx => idx !== -1);
+        
+        // Comprobar si es pregunta con múltiples respuestas
+        if (correctIndices.length > 1) {
+          // Respuesta múltiple: verificar que coincidan exactamente
+          const selectedIndices = Array.isArray(answers[index]) ? answers[index].sort() : [];
+          if (JSON.stringify(selectedIndices) === JSON.stringify(correctIndices.sort())) {
+            correctAnswers++;
+          }
+        } else {
+          // Respuesta única
+          const selectedOption = opciones[answers[index]];
+          if (selectedOption && selectedOption.isCorrect) {
+            correctAnswers++;
+          }
+        }
+      });
+      
+      const percentage = Math.round((correctAnswers / preguntes.length) * 100);
+      
+      const container = document.getElementById('questionContainer');
+      container.innerHTML = `
+        <div class="question-card results">
+          <div class="score">${percentage}%</div>
+          <div class="score-text">
+            Has encertat ${correctAnswers} de ${preguntes.length} preguntes
+          </div>
+          <button class="nav-btn" onclick="reviewAnswers()">Revisar respostes</button>
+          <button class="nav-btn secondary" onclick="restartTest()" style="margin-left: 15px;">Tornar a començar</button>
+        </div>
+      `;
+      
+      // Ocultar navegación
+      document.querySelector('.navigation').style.display = 'none';
+    }
+
+    /**
+     * Revisar respuestas (volver a mostrar preguntas con feedback)
+     */
+    function reviewAnswers() {
+      showingResults = false;
+      currentQuestion = 0;
+      showQuestion(0);
+      document.querySelector('.navigation').style.display = 'flex';
+      document.getElementById('nextBtn').textContent = 'Següent →';
+    }
+
+    /**
+     * Reiniciar test desde cero
+     */
+    function restartTest() {
+      currentQuestion = 0;
+      answers = new Array(preguntes.length).fill(null);
+      showingResults = false;
+      expandedOptions = {};
+      multiCorrectChecked = {};
+      showQuestion(0);
+      document.querySelector('.navigation').style.display = 'flex';
+    }
+
+    /**
+     * Avanzar a la siguiente pregunta
+     */
+    function nextQuestion() {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+          event: "next_question"
+      });
+
+      if (currentQuestion < preguntes.length - 1) {
+        currentQuestion++;
+        showQuestion(currentQuestion);
+      } else {
+        showResults();
+      }
+      resetInactivityTimer();
+    }
+
+    /**
+     * Retroceder a la pregunta anterior
+     */
+    function previousQuestion() {
+      if (currentQuestion > 0) {
+        currentQuestion--;
+        if (showingResults) {
+          showQuestionWithAnswers(currentQuestion);
+        } else {
+          showQuestion(currentQuestion);
+        }
+      }
+      resetInactivityTimer();
+    }
+
+    // ============================================================
+    // GESTIÓN DE HISTORIAL DE ERRORES
+    // ============================================================
+    
+    /**
+     * Función unificada para añadir/actualizar pregunta en el historial de errores
+     * @param {Object} pregunta - Objeto de la pregunta
+     * @param {number|Array} selectedOptions - Índice(s) de opciones seleccionadas
+     */
+    function addOrUpdateQuestionInHistorial(pregunta, selectedOptions = null) {
+      const guid = pregunta.guid;
+      const ahora = new Date().toISOString();
+      
+      // Buscar si ya existe en el historial por guid
+      const indiceExistente = guid ? historialFallos.findIndex(p => p.guid === guid) : -1;
+      
+      if (indiceExistente !== -1) {
+        // Ya existe: actualizar count y fecha
+        const preguntaExistente = historialFallos[indiceExistente];
+        preguntaExistente.count = (preguntaExistente.count || 1) + 1;
+        preguntaExistente.fecha = ahora;
+        
+        // Actualizar opciones seleccionadas si se proporcionan
+        if (selectedOptions !== null && preguntaExistente.answerOptions) {
+          preguntaExistente.answerOptions.forEach((option, i) => {
+            option.selectedByUser = false; // Reset
+          });
+          
+          if (Array.isArray(selectedOptions)) {
+            // Múltiples opciones
+            selectedOptions.forEach(idx => {
+              if (preguntaExistente.answerOptions[idx]) {
+                preguntaExistente.answerOptions[idx].selectedByUser = true;
+              }
+            });
+          } else if (typeof selectedOptions === 'number') {
+            // Una sola opción
+            if (preguntaExistente.answerOptions[selectedOptions]) {
+              preguntaExistente.answerOptions[selectedOptions].selectedByUser = true;
+            }
+          }
+        }
+        
+        // Mover al principio del historial (más reciente primero)
+        historialFallos.splice(indiceExistente, 1);
+        historialFallos.unshift(preguntaExistente);
+      } else {
+        // No existe: crear nueva entrada
+        const nuevaPregunta = JSON.parse(JSON.stringify(pregunta)); // Deep copy
+        nuevaPregunta.fecha = ahora;
+        nuevaPregunta.count = 1;
+        
+        // Marcar opciones seleccionadas si se proporcionan
+        if (selectedOptions !== null && nuevaPregunta.answerOptions) {
+          nuevaPregunta.answerOptions.forEach((option, i) => {
+            option.selectedByUser = false;
+          });
+          
+          if (Array.isArray(selectedOptions)) {
+            // Múltiples opciones
+            selectedOptions.forEach(idx => {
+              if (nuevaPregunta.answerOptions[idx]) {
+                nuevaPregunta.answerOptions[idx].selectedByUser = true;
+              }
+            });
+          } else if (typeof selectedOptions === 'number') {
+            // Una sola opción
+            if (nuevaPregunta.answerOptions[selectedOptions]) {
+              nuevaPregunta.answerOptions[selectedOptions].selectedByUser = true;
+            }
+          }
+        }
+        
+        // Añadir al principio del historial
+        historialFallos.unshift(nuevaPregunta);
+      }
+      
+      // Guardar y actualizar UI
+      actualizarTextareaHistorial();
+      localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(historialFallos));
+    }
+
+    /**
+     * Guardar fallo en historial (una sola respuesta)
+     * @param {number} questionIndex - Índice de la pregunta
+     * @param {number} selectedOptionIndex - Índice de la opción seleccionada
+     */
+    function guardarFalloEnHistorial(questionIndex, selectedOptionIndex) {
+      const pregunta = preguntes[questionIndex];
+      addOrUpdateQuestionInHistorial(pregunta, selectedOptionIndex);
+    }
+
+    /**
+     * Guardar fallo en historial para preguntas con múltiples respuestas
+     * @param {number} questionIndex - Índice de la pregunta
+     * @param {Array} selectedIndices - Array de índices seleccionados
+     */
+    function guardarFalloEnHistorialMulti(questionIndex, selectedIndices) {
+      const pregunta = preguntes[questionIndex];
+      addOrUpdateQuestionInHistorial(pregunta, selectedIndices);
+    }
+
+    /**
+     * Guardar duda actual (independiente de si es correcta o no)
+     */
+    function guardarDubte() {
+      if (currentQuestion >= 0 && currentQuestion < preguntes.length) {
+        const pregunta = preguntes[currentQuestion];
+        const userAnswer = answers[currentQuestion];
+        // Si hay respuesta guardada, usar esa; si no, null (sin marcar opciones)
+        addOrUpdateQuestionInHistorial(pregunta, userAnswer);
+        toast.showToast('✅ Pregunta guardada al dubtes!');
+      }
+    }
+
+    /**
+     * Eliminar pregunta actual del historial de fallos
+     */
+    function eliminarDelHistorial() {
+      const btn = document.getElementById('removeFromHistoryBtn');
+      if (!btn || btn.disabled) return;
+      if (!canRemoveFromHistory || !isRepassingErrors) return;
+      // Encontrar la pregunta actual en el historial original
+      const preguntaActual = preguntes[currentQuestion];
+      const guid = preguntaActual.guid;
+      // Recargar historial actual del localStorage
+      const historialActual = localStorage.getItem(LS_KEYS.HISTORIAL_FALLOS);
+      if (historialActual) {
+        historialFallos = JSON.parse(historialActual);
+        // Eliminar todas las preguntas que coincidan con el guid
+        if (guid) {
+          historialFallos = historialFallos.filter(p => p.guid !== guid);
+        } else {
+          // Si no hay guid, eliminar por pregunta/question como antes
+          historialFallos = historialFallos.filter(p => !(p.pregunta === preguntaActual.pregunta || p.question === preguntaActual.question));
+        }
+        localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(historialFallos));
+        actualizarTextareaHistorial();
+        toast.showToast('Pregunta eliminada del historial de dubtes!');
+      }
+      // Desactivar botón después de usar
+      canRemoveFromHistory = false;
+      document.getElementById('removeFromHistoryBtn').disabled = true;
+    }
+
+    /**
+     * Actualizar textarea del historial con estadísticas
+     */
+    function actualizarTextareaHistorial() {
+      const textarea = document.getElementById('historialFallos');
+      textarea.value = JSON.stringify(historialFallos, null, 2);
+
+      const fallosCount = document.getElementById('fallosCount');
+      if (fallosCount) {
+        const totalPreguntas = historialFallos.length;
+
+        let totalFallos = 0;
+        const temas = {};
+
+        historialFallos.forEach(fallo => {
+          const tema = fallo.subjectId || '??';
+          const count = Number(fallo.count) || 0;
+
+          // Sumar fallos reales
+          totalFallos += count;
+
+          // Contar preguntas por tema
+          if (!temas[tema]) temas[tema] = 0;
+          temas[tema]++;
+        });
+
+        // Construir desglose por tema
+        const desgloseTemas = Object.entries(temas)
+          .map(([tema, n]) => `${tema}: ${n}`)
+          .join(', ');
+
+        fallosCount.textContent =
+          `(Preguntas: ${totalPreguntas}, Fallos: ${totalFallos}` +
+          `${desgloseTemas ? ' | ' + desgloseTemas : ''})`;
+      }
+    }
+
+    // ============================================================
+    // UTILIDADES DEL HISTORIAL
+    // ============================================================
+    
+    /**
+     * Copiar historial al portapapeles
+     */
+    function copiarHistorial() {
+      const textarea = document.getElementById('historialFallos');
+      textarea.select();
+      document.execCommand('copy');
+      toast.showToast('Historial copiat al portapapers!');
+    }
+
+    /**
+     * Descargar historial como archivo JSON
+     */
+    function baixarHistorial() {
+      const username = localStorage.getItem(LS_KEYS.USER_NAME) || 'usuario';
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+      const filename = `Errores_${username}_${timestamp}.json`;
+      
+      const blob = new Blob([JSON.stringify(historialFallos, null, 2)], {type: 'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // ============================================================
+    // INICIALIZACIÓN
+    // ============================================================
+    
+    /**
+     * Inicializar aplicación al cargar la página
+     */
+    document.addEventListener('DOMContentLoaded', function() {
+      // Cargar historial de preguntas contestadas
+      cargarHistorialContestades();
+      
+      // Cargar historial de fallos ANTES de mostrar preguntas
+      try {
+        const historialGuardado = localStorage.getItem(LS_KEYS.HISTORIAL_FALLOS);
+        if (historialGuardado) {
+          historialFallos = JSON.parse(historialGuardado);
+        }
+      } catch (e) {
+        console.warn('Error cargando historial previo:', e);
+      }
+      
+      // Restaurar cronometro si existe en localStorage
+      const savedCronometro = localStorage.getItem(LS_KEYS.CRONOMETRO);
+      if (savedCronometro && !isNaN(savedCronometro)) {
+        cronometroElapsed = parseInt(savedCronometro, 10);
+        updateCronometroDisplay();
+      }
+      // Check if there is a saved question position and preloaded questions
+      const savedPosition = localStorage.getItem(LS_KEYS.PREGUNTA_POSITION);
+      const preloadedQuestions = localStorage.getItem(LS_KEYS.PREGUNTES_BARREJADES);
+      const estudioWipContinue = localStorage.getItem(LS_KEYS.ESTUDIO_WIP_CONTINUE);
+      localStorage.removeItem(LS_KEYS.ESTUDIO_WIP_CONTINUE); // Clear after reading
+
+      if (savedPosition !== null && preloadedQuestions) {
+        // Variable para controlar si se debe continuar o reiniciar
+        let continuarChoice;
+        
+        // Verificar si estudioWipContinue es true
+        if (estudioWipContinue === 'true' || estudioWipContinue === true) {
+          continuarChoice = true; // Continuar automáticamente sin preguntar
+        } else {
+          // Solo preguntar si estudioWipContinue no es true
+          continuarChoice = confirm('Vols continuar des de la pregunta guardada o començar de nou?\nPrem "Acceptar" per continuar o "Cancel·lar" per reiniciar.');
+        }
+
+        if (continuarChoice) {
+          try {
+            // Use preloaded questions and set the current question index
+            preguntes = JSON.parse(preloadedQuestions);
+            currentQuestion = parseInt(savedPosition, 10) || 0;
+            answers = JSON.parse(localStorage.getItem(LS_KEYS.ANSWERS));
+            //answers = new Array(preguntes.length).fill(null); // Initialize answers array
+            showQuestion(currentQuestion); // Resume from the saved question
+            // Iniciar cronometro si hay valor guardado
+            if (cronometroElapsed > 0) {
+              startCronometro();
+            }
+          } catch (e) {
+            console.error('Error loading saved state:', e);
+            // Fallback to loading questions normally
+            if (loadQuestions()) {
+              showQuestion(0);
+              startCronometro();
+            }
+          }
+        } else {
+          // Clear saved state and restart
+          localStorage.removeItem(LS_KEYS.PREGUNTA_POSITION);
+          localStorage.removeItem(LS_KEYS.PREGUNTES_BARREJADES);
+          localStorage.removeItem(LS_KEYS.CRONOMETRO);
+          cronometroElapsed = 0;
+          updateCronometroDisplay();
+          // Reiniciar: saltar comprobación de contestadas (ya estaban filtradas)
+          if (loadQuestions(true)) {
+            showQuestion(0);
+            startCronometro();
+          }
+        }
+      } else {
+        // Load questions normally if no saved state exists (primer inicio: sí comprobar)
+        if (loadQuestions(false)) {
+          showQuestion(0);
+          startCronometro();
+        }
+      }
+
+      // Actualizar textarea del historial
+      actualizarTextareaHistorial();
+      
+      // Ocultar el botón de eliminar encertada por defecto
+      if (!isRepassingErrors) {
+        document.getElementById('removeFromHistoryContainer').style.display = 'none';
+      }
+      resetInactivityTimer();
+    });
+
+    /**
+     * Borrar el último error del historial
+     */
+    function borrarUltimoError() {
+      if (!historialFallos.length) {
+        toast.showToast('No hi ha errors per esborrar.');
+        return;
+      }
+      if (!confirm('Segur que vols esborrar l\'últim error del historial?')) {
+        return;
+      }
+      historialFallos.shift();
+      actualizarTextareaHistorial();
+      localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(historialFallos));
+      toast.showToast('Últim error esborrat!');
+    }
+
+    // ============================================================
+    // REPORTAR PREGUNTAS PROBLEMÁTICAS
+    // ============================================================
+    
+    /**
+     * Reportar pregunta actual como problemática (tecla R)
+     * Guarda el GUID en localStorage para revisión manual posterior
+     */
+    function reportarPregunta() {
+      if (currentQuestion < 0 || currentQuestion >= preguntes.length) {
+        toast.showToast('❌ No hi ha pregunta per reportar');
+        return;
+      }
+
+      const pregunta = preguntes[currentQuestion];
+      const guid = pregunta.guid;
+
+      if (!guid) {
+        toast.showToast('❌ Aquesta pregunta no té GUID');
+        return;
+      }
+
+      try {
+        // Cargar array de reportadas desde localStorage
+        let reportadas = [];
+        const reportadasStr = localStorage.getItem('PREGUNTAS_REPORTADAS');
+        if (reportadasStr) {
+          reportadas = JSON.parse(reportadasStr);
+        }
+
+
+        // Verificar si ya está reportada
+        if (reportadas.includes(guid)) {
+          copiarReportadasAlPortapapeles(reportadas);
+          return;
+        }
+
+
+        // Añadir GUID al array
+        reportadas.push(guid);
+
+        // Guardar en localStorage
+        localStorage.setItem('PREGUNTAS_REPORTADAS', JSON.stringify(reportadas));
+
+        // Copiar array actualizado al portapapeles
+        copiarReportadasAlPortapapeles(reportadas);
+          /**
+           * Copiar array de preguntas reportadas al portapapeles y mostrar toast
+           * @param {Array} reportadas - Array de GUIDs reportados
+           */
+          function copiarReportadasAlPortapapeles(reportadas) {
+            navigator.clipboard.writeText(JSON.stringify(reportadas)).then(() => {
+              toast.showToast(`✅ Pregunta reportada! ${reportadas.length} copiadas en el portapapeles para revisión.`);
+            }).catch(err => {
+              console.error('Error al copiar GUID:', err);
+              toast.showToast(`✅ Pregunta reportada! (Total: ${reportadas.length}) - Error copiant`);
+            });
+          }
+      } catch (e) {
+        console.error('Error reportando pregunta:', e);
+        toast.showToast('❌ Error al reportar pregunta');
+      }
+    }
+
+  </script>
+</body>
+</html>

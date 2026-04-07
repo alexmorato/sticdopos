@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tareas – Proyecto generación de tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        .status-TODO { color: #b00020; font-weight: bold; }
+        .status-WIP  { color: #e65100; font-weight: bold; }
+        .status-DONE { color: #2e7d32; font-weight: bold; }
+
+        .complexity-LOW    { color: #2e7d32; }
+        .complexity-MEDIUM { color: #e65100; }
+        .complexity-HIGH   { color: #b00020; font-weight: bold; }
+
+        .toggle-btn {
+            background: none;
+            border: none;
+            color: #1565c0;
+            cursor: pointer;
+            padding: 0;
+            font-size: 0.9em;
+        }
+
+        .toggle-btn:hover {
+            text-decoration: underline;
+        }
+
+        .tr-done {
+            background-color: #97f19f; /* verde claro */
+        }
+
+        #gtd-inbox {
+            background-color: #ffffff;
+            padding: 15px 25px;
+            border-radius: 6px;
+        }
+
+        #gtd-inbox li {
+            margin-bottom: 6px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>📋 Tareas del proyecto</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Tipo</th>
+                <th>Estado</th>
+                <th>Complejidad</th>
+                <th>Descripción</th>
+                <th>Fecha inserción</th>
+                <th>Fecha finalización</th>
+            </tr>
+        </thead>
+        <tbody id="tasks-table-body"></tbody>
+    </table>
+
+    <h2>🧠 Bandeja de entrada (Getting Things Done)</h2>
+    <ul id="gtd-inbox">
+        <!-- Items GTD -->
+    </ul>
+
+    <script>
+        const DESCRIPTION_LIMIT = 150;
+
+        fetch('tasks.json')
+            .then(response => response.json())
+            .then(data => {
+                const statusMap = createMap(data.statuses);
+                const complexityMap = createMap(data.complexities);
+                const typeMap = createMap(data.types);
+                renderTasks(data.tasks, statusMap, complexityMap, typeMap);
+                renderGtdInbox(data.gtdInbox);
+            })
+            .catch(error => console.error('Error cargando tareas:', error));
+
+        function createMap(items) {
+            return items.reduce((map, item) => {
+                map[item.code] = item.label;
+                return map;
+            }, {});
+        }
+
+        function renderGtdInbox(items) {
+            const ul = document.getElementById('gtd-inbox');
+
+            items.forEach(text => {
+                const li = document.createElement('li');
+                li.textContent = text;
+                ul.appendChild(li);
+            });
+        }
+
+        function renderTasks(tasks, statusMap, complexityMap, typeMap) {
+            const tbody = document.getElementById('tasks-table-body');
+
+            tasks.forEach((task, index) => {
+                const row = document.createElement('tr');
+
+                if (task.status === 'DONE') {
+                    row.classList.add('tr-done');
+                }
+
+                const isLongDescription = task.description.length > DESCRIPTION_LIMIT;
+                const shortDescription = isLongDescription
+                    ? task.description.slice(0, DESCRIPTION_LIMIT) + '...'
+                    : task.description;
+
+                // Determinar el tipo de tarea usando el label del typeMap
+                let tipo = '-';
+                if (task.type && typeMap[task.type.toUpperCase()]) {
+                    tipo = typeMap[task.type.toUpperCase()];
+                } else if (task.type) {
+                    tipo = task.type;
+                }
+
+                row.innerHTML = `
+                    <td>${task.title}</td>
+                    <td>${tipo}</td>
+                    <td class="status-${task.status}">
+                        ${statusMap[task.status] ?? task.status}
+                    </td>
+                    <td class="complexity-${task.complexity}">
+                        ${complexityMap[task.complexity] ?? task.complexity}
+                    </td>
+                    <td>
+                        <span id="desc-short-${index}">${shortDescription}</span>
+                        ${
+                            isLongDescription
+                                ? `
+                                <span id="desc-full-${index}" style="display:none;">
+                                    ${task.description}
+                                </span>
+                                <br>
+                                <button class="toggle-btn"
+                                        onclick="toggleDescription(${index})"
+                                        id="toggle-btn-${index}">
+                                    Ver más
+                                </button>
+                                `
+                                : ''
+                        }
+                    </td>
+                    <td>${task.createdAt}</td>
+                    <td>${task.completedAt ?? '-'}</td>
+                `;
+
+                tbody.appendChild(row);
+            });
+        }
+
+        function toggleDescription(index) {
+            const shortEl = document.getElementById(`desc-short-${index}`);
+            const fullEl = document.getElementById(`desc-full-${index}`);
+            const btn = document.getElementById(`toggle-btn-${index}`);
+
+            const isExpanded = fullEl.style.display === 'inline';
+
+            if (isExpanded) {
+                fullEl.style.display = 'none';
+                shortEl.style.display = 'inline';
+                btn.textContent = 'Ver más';
+            } else {
+                fullEl.style.display = 'inline';
+                shortEl.style.display = 'none';
+                btn.textContent = 'Ver menos';
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "guid": "1",
+            "name": "amorato",
+            "role": ["administrator", "user", "VIP"],
+            "password_hash": "$2a$12$JcCeq/UbvoQerlr2x5Gch.GFwLOTdeWV/L03utiTXl2eQMqnUkwSi"
+        },
+        {
+            "guid": "2",
+            "name": "anonim",
+            "role": ["user"],
+            "password_hash": "$2a$12$8WYTuk3gXAalfPOk.b4uoe2iKzNiiV81IZ4CWkEwbkQLKN151kce2"
+        },
+        {
+            "guid": "3",
+            "name": "sergio",
+            "role": ["user", "VIP"],
+            "password_hash": "$2a$12$eoRemKJoZ/kKGT6TaF4xUeOWrYFZ.qijow/MB5Z52NR8c7Idab1D2"
+        },
+        {
+            "guid": "4",
+            "name": "elena",
+            "role": ["user", "VIP"],
+            "password_hash": "$2a$12$uZnhEQUu40SwFPedJwt57eXfwGnis2epN31KKiZGPiABscnKJmmBu"
+        },
+        {
+            "guid": "5",
+            "name": "tania",
+            "role": ["user", "VIP"],
+            "password_hash": "$2a$12$zo4c0Y//y7U.dNUp4q01CuX1RP1n4GfjGA9kjwDFjF68fAQLC0LkO"
+        },
+        {
+            "guid": "6",
+            "name": "cristina",
+            "role": ["user", "VIP"],
+            "password_hash": "$2a$12$B1tTzeHAV9MVWqsZQkab.u15zCktAWcLjLweqvJO16xBkBzGLdHkO"
+        },
+        {
+            "guid": "7",
+            "name": "usertest",
+            "role": ["user", "VIP"],
+            "password_hash": "$2a$12$jsfi46ziKun8.ifBLyALkerTP6MitomR.IOva1f9p6waRmBYfIHka"
+        },
+        {
+            "guid": "8",
+            "name": "lara",
+            "role": ["user", "VIP"],
+            "password_hash": "$2a$12$ahX1gepjs5sscuTgPE41Cuu91Zf2oWKOF5WhgzauLlRmn0nKD5f/S"
+        }
+    ]
+}

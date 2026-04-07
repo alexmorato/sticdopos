@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <title>Seleccionar archivos para estudiar</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script src="assets/js/localstorage-utils.js"></script>
+  <style>
+    body {
+      background: #181c2a;
+      color: #e7ecff;
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .menu-btn {
+      position: fixed;
+      top: 24px;
+      right: 24px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+      transition: all 0.3s;
+    }
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+    .menu-panel {
+      position: fixed;
+      top: 24px;
+      right: 24px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 18px 16px 12px 16px;
+      display: none;
+      flex-direction: column;
+      gap: 6px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 220px;
+      animation: slideIn 0.3s ease-out;
+    }
+    .menu-panel.visible {
+      display: flex;
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .menu-close-btn, .btn-menu-action {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 8px;
+    }
+    .menu-close-btn {
+      background: #2aebad;
+      color: #032217;
+      font-weight: bold;
+      justify-content: center;
+    }
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+    .btn-menu-action.primary {
+      background: linear-gradient(180deg,#2aebad,#21c08d);
+      color: #032217;
+      font-weight: bold;
+    }
+    .btn-menu-action.primary:hover {
+      background: linear-gradient(180deg,#21c08d,#1a9970);
+    }
+    .menu-separator {
+      margin: 12px 8px;
+      border: none;
+      border-top: 1px solid #ddd;
+      width: 100%;
+    }
+    .container {
+      max-width: 700px;
+      margin: 100px auto 40px auto;
+      background: #23284a;
+      padding: 36px 30px 30px 30px;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px #0003;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 32px;
+      color: #6ae0a7;
+      font-size: 2.1em;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+    .file-list {
+      margin-bottom: 24px;
+    }
+    .file-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      background: #1b223a;
+      border-radius: 8px;
+      padding: 8px 14px;
+      box-shadow: 0 2px 8px #0002;
+      transition: background 0.2s;
+    }
+    .file-item:hover {
+      background: #27304a;
+    }
+    .file-item label {
+      flex: 1;
+      cursor: pointer;
+      font-size: 1.08em;
+      color: #e7ecff;
+      padding-left: 8px;
+    }
+    .file-date {
+      font-size: 0.98em;
+      color: #9fb0ff;
+      margin-left: 16px;
+      min-width: 140px;
+      text-align: right;
+    }
+    .file-item input[type="checkbox"] {
+      accent-color: #6ae0a7;
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        margin: 80px 8px 24px 8px;
+        padding: 18px 8px 18px 8px;
+      }
+      .menu-btn {
+        top: 12px;
+        right: 12px;
+        width: 42px;
+        height: 42px;
+      }
+      .menu-panel {
+        top: 12px;
+        right: 12px;
+        min-width: 160px;
+        padding: 12px 8px 8px 8px;
+      }
+      h1 {
+        font-size: 1.3em;
+        margin-bottom: 18px;
+      }
+      .file-date {
+        min-width: 90px;
+        font-size: 0.92em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tancar
+    </button>
+    <button class="btn-menu-action" id="menuAtrasBtn">
+      ⬅️ Atrás
+    </button>
+    <button class="btn-menu-action" id="menuIndexBtn">
+      👨‍💻 Menu
+    </button>
+    <hr class="menu-separator">
+    <button class="btn-menu-action" id="menuCopiarBtn">
+      📋 Copiar <span id="copiarCount">0</span>
+    </button>
+        <button class="btn-menu-action primary" id="menuHacerTestBtn">
+      📝 Fer <span id="hacerTestCount">0</span> test
+    </button>
+  </div>
+
+  <div class="container">
+    <h1>Últims tests afegits</h1>
+    <div class="file-list" id="fileList"></div>
+  </div>
+
+  <script>
+    // Cargar manifest_date.json con parámetro timestamp para evitar caché
+    const timestamp = Date.now();
+    fetch(`./testfiles/manifest_date.json?t=${timestamp}`)
+      .then(res => res.json())
+      .then(data => {
+        const files = data.files;
+        const fileList = document.getElementById('fileList');
+        files.forEach((item, idx) => {
+          const div = document.createElement('div');
+          div.className = 'file-item';
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.id = 'file_' + idx;
+          checkbox.value = item.file;
+          const label = document.createElement('label');
+          label.htmlFor = checkbox.id;
+          label.textContent = item.file;
+          const dateSpan = document.createElement('span');
+          dateSpan.className = 'file-date';
+          dateSpan.textContent = item.updated;
+          div.appendChild(checkbox);
+          div.appendChild(label);
+          div.appendChild(dateSpan);
+          fileList.appendChild(div);
+        });
+        actualizarCopiarCount();
+      });
+
+    // Actualizar contador de selección en el botón copiar
+    function actualizarCopiarCount() {
+      const checked = document.querySelectorAll('.file-item input[type="checkbox"]:checked');
+      document.getElementById('copiarCount').textContent = checked.length;
+      document.getElementById('hacerTestCount').textContent = checked.length;
+    }
+
+    document.addEventListener('change', function(e) {
+      if (e.target.type === 'checkbox') {
+        actualizarCopiarCount();
+      }
+    });
+
+    // Menú hamburguesa
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const menuAtrasBtn = document.getElementById('menuAtrasBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+    const menuCopiarBtn = document.getElementById('menuCopiarBtn');
+
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+    menuAtrasBtn.addEventListener('click', () => {
+      window.history.length > 1 ? window.history.back() : window.location.href = 'index.html';
+    });
+    menuIndexBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    menuCopiarBtn.addEventListener('click', () => {
+      const checked = Array.from(document.querySelectorAll('.file-item input[type="checkbox"]:checked'));
+      const selectedFiles = checked.map(cb => cb.value);
+      if (selectedFiles.length === 0) return;
+      const text = selectedFiles.join('\n');
+      navigator.clipboard.writeText(text).then(() => {
+        menuCopiarBtn.textContent = `📋 Copiado (${selectedFiles.length})`;
+        setTimeout(() => {
+          menuCopiarBtn.innerHTML = `📋 Copiar <span id="copiarCount">${selectedFiles.length}</span>`;
+        }, 1200);
+      });
+    });
+
+    // Nuevo botón: Hacer esos test
+    const menuHacerTestBtn = document.getElementById('menuHacerTestBtn');
+    menuHacerTestBtn.addEventListener('click', async () => {
+      const checked = Array.from(document.querySelectorAll('.file-item input[type="checkbox"]:checked'));
+      const selectedFiles = checked.map(cb => cb.value);
+      if (selectedFiles.length === 0) return;
+
+      // Borrar estado anterior de estudio
+      if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+
+      // Guardar selección en localStorage
+      localStorage.setItem(LS_KEYS.FITXER, JSON.stringify(selectedFiles));
+
+      // Cargar preguntas de los ficheros y empezar estudio
+      let preguntesTot = [];
+      await Promise.all(selectedFiles.map(fitxer => {
+        return fetch('testfiles/' + fitxer)
+          .then(r => r.json())
+          .then(data => {
+            if (Array.isArray(data)) {
+              preguntesTot = preguntesTot.concat(data);
+            } else if (Array.isArray(data.preguntes)) {
+              preguntesTot = preguntesTot.concat(data.preguntes);
+            }
+          })
+          .catch(() => {
+            // Si falla, no añade preguntas
+          });
+      }));
+
+      // Guardar preguntas concatenadas y navegar
+      localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntesTot));
+      window.location.href = 'estudiar.html';
+    });
+  </script>
+</body>
+</html>

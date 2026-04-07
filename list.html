@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menú de Tests Oposicions</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #6ae0a7;
+    }
+    select, button {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #27304a;
+      background: #141a2a;
+      color: #e7ecff;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      text-align: center;
+      background: #141a2a;
+      border: 1px solid #27304a;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #9fb0ff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧠 Menú de Tests Oposicions TIC</h1>
+
+  <div class="container">
+    <p>Selecciona un test per començar:</p>
+    <select id="testSelect" style="width:80%;"></select>
+    <br><br>
+    <button id="startBtn">Començar test ➡️</button>
+    <div id="status" style="margin-top:10px;font-size:14px;color:#9fb0ff;"></div>
+  </div>
+
+  <div class="footer">Fet per al sistema de pràctica de tests — v1.0</div>
+  <script src="assets/js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+  <script>
+    // Usar la función checkUserAuth desde login.js como login.checkUserAuth
+    document.addEventListener('DOMContentLoaded', function() {
+      const userGuid = localStorage.getItem(LS_KEYS.USER_GUID);
+      const userPass = localStorage.getItem(LS_KEYS.USER_PASS);
+      login.checkUserAuth(userGuid, userPass);
+    }, {once:true});
+
+    const testFolders = ["testjson_OLD"]; // afegeix més carpetes si cal
+    const testSelect = document.getElementById("testSelect");
+    const startBtn = document.getElementById("startBtn");
+    const status = document.getElementById("status");
+
+    async function carregarManifests() {
+      testSelect.innerHTML = "";
+      for (const folder of testFolders) {
+        try {
+          const res = await fetch(`${folder}/manifest.json`);
+          if (!res.ok) { status.textContent = `⚠️ No s'ha trobat manifest a ${folder}`; continue; }
+          const data = await res.json();
+          if (!data.files) continue;
+          const og = document.createElement("optgroup");
+          og.label = folder;
+          data.files.forEach(file=>{
+            const opt = document.createElement("option");
+            opt.value = `${folder}/${file}`;
+            opt.textContent = file;
+            og.appendChild(opt);
+          });
+          testSelect.appendChild(og);
+        } catch (err) {
+          console.error(err);
+          status.textContent = `⚠️ Error carregant manifest de ${folder}`;
+        }
+      }
+
+      if (!testSelect.options.length) {
+        const opt = document.createElement("option");
+        opt.textContent = "— No hi ha tests disponibles —";
+        testSelect.appendChild(opt);
+        startBtn.disabled = true;
+      }
+    }
+
+    carregarManifests();
+
+    startBtn.addEventListener("click", async ()=>{
+      const selected = testSelect.value;
+      if (!selected) {
+        alert("Selecciona un test per començar");
+        return;
+      }
+      try {
+        status.textContent = "Carregant test...";
+        const res = await fetch(selected);
+        if (!res.ok) throw new Error("No s'ha pogut carregar el fitxer");
+        const json = await res.text();
+  localStorage.setItem("testfile_content", json);
+  localStorage.setItem("testfile_name", selected);
+  status.textContent = "Test carregat en localStorage.";
+        // Redirigeix després de guardar
+        window.location.href = `estudiarOLD.html?test=${encodeURIComponent(selected)}`;
+      } catch (err) {
+        status.textContent = `⚠️ Error carregant el test: ${err.message}`;
+      }
+    });
+  </script>
+</body>
+</html>

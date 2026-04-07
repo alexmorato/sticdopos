@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sincronització Sessió V2 - sTIC d'Opos</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: #141a2a;
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      border: 1px solid #27304a;
+      margin-top: 40px;
+    }
+    h2 {
+      color: #6ae0a7;
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    .resumen-box {
+      background: #232b45;
+      border: 1.5px solid #27304a;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 18px;
+    }
+    .resumen-box h3 {
+      color: #6ae0a7;
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+    .resumen-box .subsection {
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #27304a;
+    }
+    .resumen-box .subsection:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    .resumen-box .subsection-title {
+      color: #9fb0ff;
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+    .resumen-box p {
+      margin: 4px 0;
+      font-size: 0.9rem;
+      color: #e7ecff;
+    }
+    .resumen-box .label {
+      color: #9fb0ff;
+      font-weight: bold;
+    }
+    .btn-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    button {
+      background: #27304a;
+      color: #e7ecff;
+      font-size: 1rem;
+      padding: 10px 22px;
+      border-radius: 8px;
+      border: 1px solid #2a3554;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    button:hover:not(:disabled) {
+      background: #2a3554;
+      border-color: #6ae0a7;
+      color: #6ae0a7;
+    }
+    .main-btn {
+      background: linear-gradient(180deg, #2aebad, #21c08d);
+      color: #032217;
+      font-weight: bold;
+      font-size: 1.05rem;
+      border: none;
+    }
+    .main-btn:hover:not(:disabled) {
+      background: #6ae0a7;
+      color: #032217;
+    }
+    .warning-btn {
+      background: linear-gradient(180deg, #ff9966, #ff6b35);
+      color: #fff;
+      font-weight: bold;
+      border: none;
+    }
+    .warning-btn:hover:not(:disabled) {
+      background: #ff8855;
+      color: #fff;
+    }
+    button:disabled {
+      background: #27304a;
+      color: #6b7585;
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+    .hidden {
+      display: none;
+    }
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #9fb0ff;
+      margin-top: 30px;
+    }
+
+    /* Tabla de sincronización */
+    .sync-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .sync-table thead th {
+      padding: 12px;
+      font-weight: bold;
+      font-size: 1rem;
+      text-align: center;
+      border: 1px solid #1a2030;
+    }
+    .sync-table tbody td {
+      padding: 10px 12px;
+      font-size: 0.95rem;
+      border: 1px solid #1a2030;
+    }
+    .sync-table .col-field {
+      background: #232b45;
+      color: #e7ecff;
+      font-weight: 600;
+      text-align: left;
+    }
+    .sync-table .col-local {
+      background: #1a3d2a;
+      color: #c8f5dd;
+      text-align: center;
+    }
+    .sync-table .col-servidor {
+      background: #1a2d4a;
+      color: #c8dbf5;
+      text-align: center;
+    }
+    .sync-table .col-merge {
+      background: #3a1a4a;
+      color: #e8c8f5;
+      text-align: center;
+    }
+    .sync-table .section-header {
+      background: #27304a !important;
+      color: #6ae0a7 !important;
+      font-weight: bold;
+      font-size: 1.05rem;
+      text-align: left !important;
+      padding: 12px !important;
+    }
+    .sync-table thead .col-field {
+      background: #27304a;
+      color: #9fb0ff;
+    }
+    .sync-table thead .col-local {
+      background: #2aebad;
+      color: #032217;
+    }
+    .sync-table thead .col-servidor {
+      background: #5a8fc7;
+      color: #fff;
+    }
+    .sync-table thead .col-merge {
+      background: #9b6ac7;
+      color: #fff;
+    }
+
+    /* Botón hamburguesa */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* Menú desplegable */
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 180px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .menu-close-btn {
+      width: 100%;
+      padding: 12px;
+      background: #2aebad;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #032217;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+
+    .btn-fullscreen {
+      width: 100%;
+      padding: 12px;
+      background: #2a5f8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-fullscreen:hover {
+      background: #3a7faa;
+      transform: translateY(-1px);
+    }
+
+    .btn-menu-tornar {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-menu-tornar:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    .btn-menu-historial {
+      width: 100%;
+      padding: 12px;
+      background: #8a5f2a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-menu-historial:hover {
+      background: #ca8735;
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 768px) {
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 150px;
+      }
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2000;
+    }
+
+    .modal-content {
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 16px;
+      padding: 32px;
+      max-width: 500px;
+      width: 90%;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-content h3 {
+      color: #6ae0a7;
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 1.4rem;
+      text-align: center;
+    }
+
+    .modal-content p {
+      color: #9fb0ff;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .modal-input {
+      width: 100%;
+      padding: 12px;
+      background: #232b45;
+      border: 2px solid #27304a;
+      border-radius: 8px;
+      color: #e7ecff;
+      font-size: 1rem;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+
+    .modal-input:focus {
+      outline: none;
+      border-color: #6ae0a7;
+    }
+
+    .modal-btn {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(180deg, #2aebad, #21c08d);
+      color: #032217;
+      font-weight: bold;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .modal-btn:hover:not(:disabled) {
+      background: #6ae0a7;
+      transform: translateY(-1px);
+    }
+
+    .modal-btn:disabled {
+      background: #27304a;
+      color: #6b7585;
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  </style>
+  <script src="assets/js/toast.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+  <script src="assets/js/login.js"></script>
+  <script src="assets/js/loading.js"></script>
+  <link rel="stylesheet" href="assets/styles/loading.css">
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tancar
+    </button>
+    <button class="btn-fullscreen" id="fullscreenBtn">
+      ⛶ Pantalla completa
+    </button>
+    <button class="btn-menu-tornar" id="menuIndexBtn">
+      👨‍💻 Menu
+    </button>
+    <button class="btn-menu-historial" id="menuHistorialBtn">
+      📋 Historial
+    </button>
+    <hr class="menu-separator" id="sessionSeparator" style="border: 1px solid #27304a; margin: 10px 0;">
+    <button class="btn-menu-tornar" id="menuGuardarSesionBtn">
+      💾 Guardar sessió en fitxer
+    </button>
+    <button class="btn-menu-historial" id="menuCargarSesionBtn">
+      📂 Carregar fitxer sessió
+    </button>
+  </div>
+
+  <!-- Modal Firebase Site ID -->
+  <div class="modal-overlay" id="siteIdModal" style="display: none;">
+    <div class="modal-content">
+      <h3>🏛️ Firebase Site ID</h3>
+      <p>Per poder connectar amb Firebase, necessites introduir el Site ID del projecte:</p>
+      <input type="text" class="modal-input" id="siteIdInput" placeholder="Exemple: sticdopos" />
+      <button class="modal-btn" id="siteIdSaveBtn">Guardar i continuar</button>
+    </div>
+  </div>
+
+  <!-- Modal Firebase API Key -->
+  <div class="modal-overlay" id="apiKeyModal" style="display: none;">
+    <div class="modal-content">
+      <h3>🔑 Firebase API Key</h3>
+      <p>Per poder sincronitzar amb Firebase, necessites introduir la clau API:</p>
+      <input type="text" class="modal-input" id="apiKeyInput" placeholder="Introdueix la Firebase API Key..." />
+      <button class="modal-btn" id="apiKeySaveBtn">Guardar i continuar</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>🔄 Sincronització Sessió V2 (Firebase)</h2>
+    
+    <!-- Tabla de Sincronización -->
+    <table class="sync-table">
+      <thead>
+        <tr>
+          <th class="col-field"></th>
+          <th class="col-local">📱 LOCAL</th>
+          <th class="col-servidor">☁️ SERVIDOR</th>
+          <th class="col-merge">🔀 MERGE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Historial de Fallos -->
+        <tr>
+          <td colspan="4" class="section-header">Historial de Fallos</td>
+        </tr>
+        <tr>
+          <td class="col-field">Preguntes en historial</td>
+          <td class="col-local" id="localFallosPreguntas">0</td>
+          <td class="col-servidor" id="servidorFallosPreguntas">-</td>
+          <td class="col-merge" id="mergeFallosPreguntas">-</td>
+        </tr>
+        <tr>
+          <td class="col-field">Última actualització</td>
+          <td class="col-local" id="localFallosUltima">-</td>
+          <td class="col-servidor" id="servidorFallosUltima">-</td>
+          <td class="col-merge" id="mergeFallosUltima">-</td>
+        </tr>
+        <tr>
+          <td class="col-field">Total errors (suma count)</td>
+          <td class="col-local" id="localFallosTotal">0</td>
+          <td class="col-servidor" id="servidorFallosTotal">-</td>
+          <td class="col-merge" id="mergeFallosTotal">-</td>
+        </tr>
+        <tr>
+          <td class="col-field">Temes únics</td>
+          <td class="col-local" id="localFallosTemes">0</td>
+          <td class="col-servidor" id="servidorFallosTemes">-</td>
+          <td class="col-merge" id="mergeFallosTemes">-</td>
+        </tr>
+        
+        <!-- Historial Contestades -->
+        <tr>
+          <td colspan="4" class="section-header">Historial Contestades</td>
+        </tr>
+        <tr>
+          <td class="col-field">Preguntes respondides</td>
+          <td class="col-local" id="localContestadesPreguntas">0</td>
+          <td class="col-servidor" id="servidorContestadesPreguntas">-</td>
+          <td class="col-merge" id="mergeContestadesPreguntas">-</td>
+        </tr>
+        <tr>
+          <td class="col-field">Total respostes</td>
+          <td class="col-local" id="localContestadesTotal">0</td>
+          <td class="col-servidor" id="servidorContestadesTotal">-</td>
+          <td class="col-merge" id="mergeContestadesTotal">-</td>
+        </tr>
+        
+        <!-- Interaccions API -->
+        <tr hidden>
+          <td colspan="4" class="section-header">Interaccions API</td>
+        </tr>
+        <tr hidden>
+          <td class="col-field">Última data</td>
+          <td class="col-local" id="localApiData">-</td>
+          <td class="col-servidor" id="servidorApiData">-</td>
+          <td class="col-merge" id="mergeApiData">-</td>
+        </tr>
+        <tr hidden>
+          <td class="col-field">Intents restants / Interaccions</td>
+          <td class="col-local" id="localApiRestantes">-</td>
+          <td class="col-servidor">-</td>
+          <td class="col-merge" id="mergeApiInteracciones">-</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Botón Descargar del Servidor -->
+    <div class="btn-row">
+      <button class="main-btn" id="btnDescargarSyncSession" onclick="descargarDelServidor()">☁️⬇️ Descarregar Sessió del Servidor</button>
+    </div>
+
+    <!-- Botones de Guardado -->
+    <div class="btn-row hidden" id="botonesGuardar">
+      <button class="main-btn" id="btnGuardarLocal" onclick="guardarMergeEnLocal()">💾⬅️ Guardar merge en Local</button>
+      <button class="main-btn" id="btnGuardarServidorSyncSession" onclick="guardarMergeEnServidor()">☁️⬆️ Guardar merge al Servidor</button>
+    </div>
+
+    <!-- Botón Guardar Local en Servidor -->
+    <div class="btn-row hidden" id="botonSobreescribir">
+      <button class="warning-btn" id="btnLocalAServidor" onclick="guardarLocalEnServidor()">⚠️⬆️ Guardar Local al Servidor</button>
+    </div>
+
+  </div>
+
+  <script>
+    // Referencias a elementos del menú
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+    const menuHistorialBtn = document.getElementById('menuHistorialBtn');
+    const menuGuardarSesionBtn = document.getElementById('menuGuardarSesionBtn');
+    const menuCargarSesionBtn = document.getElementById('menuCargarSesionBtn');
+
+    // Toggle menú
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+
+    // Cerrar menú
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuPanel.classList.remove('visible');
+      }
+    });
+
+    // Botón fullscreen
+    fullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Sortir pantalla completa';
+          menuPanel.classList.remove('visible');
+        }).catch(err => {
+          console.error('Error al activar fullscreen:', err);
+        });
+      } else {
+        document.exitFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+          menuPanel.classList.remove('visible');
+        });
+      }
+    });
+
+    // Actualizar texto del botón cuando se sale de fullscreen con ESC
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Botón menu
+    menuIndexBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    // Botón historial
+    menuHistorialBtn.addEventListener('click', () => {
+      window.location.href = 'historialErrors.html';
+    });
+
+    // Botón guardar sesión en fichero
+    menuGuardarSesionBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+      guardarSesionEnFichero();
+    });
+
+    // Botón cargar fichero sesión
+    menuCargarSesionBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+      cargarSesionDesdeFichero();
+    });
+
+    // Guardar sesión en fichero JSON
+    function guardarSesionEnFichero() {
+      // Guardar toda la sesión local (fallos, contestades, interacciones)
+      const sesionParaGuardar = {
+        historialFallos: window.sesionLocal.historialFallos,
+        historialContestades: window.sesionLocal.historialContestades,
+        interaccionesApi: window.sesionLocal.interaccionesApi
+      };
+      const jsonStr = JSON.stringify(sesionParaGuardar, null, 2);
+      const blob = new Blob([jsonStr], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+      const username = window.username || 'usuari';
+      a.download = `sessio-${username}-${timestamp}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(a.href);
+      if (window.toast && typeof window.toast.showToast === 'function') {
+        toast.showToast('Sessió guardada en fitxer JSON!');
+      }
+    }
+
+    // Cargar sesión desde fichero JSON
+    function cargarSesionDesdeFichero() {
+      // Mostrar alerta de sobrescribir
+      const confirmacion = confirm('⚠️ Això sobrescriurà la sessió actual del navegador. Vols continuar?');
+      if (!confirmacion) return;
+      // Crear input file
+      const input = document.createElement('input');
+      input.type = 'file';
+      input.accept = 'application/json';
+      input.style.display = 'none';
+      input.onchange = function(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            const data = JSON.parse(e.target.result);
+            if (!data || typeof data !== 'object') throw new Error('El fitxer no conté una sessió vàlida.');
+            // Validar estructura mínima
+            if (!Array.isArray(data.historialFallos) || typeof data.historialContestades !== 'object' || typeof data.interaccionesApi !== 'object') {
+              throw new Error('El fitxer no conté una sessió vàlida.');
+            }
+            // Sobrescribir localStorage
+            localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(data.historialFallos));
+            localStorage.setItem(LS_KEYS.HISTORIAL_CONTESTADES, JSON.stringify(data.historialContestades));
+            localStorage.setItem(LS_KEYS.INTERACCIONES_API, JSON.stringify(data.interaccionesApi));
+            // Actualizar variables globales
+            window.sesionLocal.historialFallos = data.historialFallos;
+            window.sesionLocal.historialContestades = data.historialContestades;
+            window.sesionLocal.interaccionesApi = data.interaccionesApi;
+            window.mostrarResumenLocal();
+            if (window.toast && typeof window.toast.showToast === 'function') {
+              toast.showToast('Sessió carregada i sobrescrita!');
+            }
+          } catch (err) {
+            console.error('Error al carregar sessió:', err);
+            alert('Error: El fitxer no conté una sessió vàlida.');
+          }
+        };
+        reader.readAsText(file);
+      };
+      document.body.appendChild(input);
+      input.click();
+      document.body.removeChild(input);
+    }
+  </script>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+    import { initializeAppCheck, ReCaptchaV3Provider } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app-check.js";
+    import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-storage.js";
+
+    const MAX_INTERACCIONES_DIA = 20;
+
+    // Variables globales - expuestas en window para acceso desde funciones onclick
+    window.storage = null;
+    window.username = null;
+    window.firebaseRef = ref;
+    window.firebaseUploadBytes = uploadBytes;
+    window.firebaseGetDownloadURL = getDownloadURL;
+    
+    window.sesionLocal = {
+      historialFallos: [],
+      historialContestades: {},
+      interaccionesApi: {}
+    };
+    window.sesionServidor = {
+      historialFallos: [],
+      historialContestades: {},
+      interaccionesApi: {}
+    };
+    window.sesionMerge = {
+      historialFallos: [],
+      historialContestades: {},
+      interaccionesApi: {}
+    };
+
+    // Inicialización
+    document.addEventListener('DOMContentLoaded', function() {
+      const userName = localStorage.getItem(LS_KEYS.USER_NAME);
+      const userPass = localStorage.getItem(LS_KEYS.USER_PASS);
+      login.checkUserAuth(userName, userPass);
+
+      window.username = localStorage.getItem(LS_KEYS.USER_NAME);
+      const debugadm = localStorage.getItem(LS_KEYS.ADMIN_DEBUG);
+
+      // Ocultar botones de guardado si el usuario no es administrador
+      (async () => {
+        try {
+          const isAdmin = await login.hasRole(window.username, login.ROLES.ADMINISTRATOR);
+          if (!isAdmin && debugadm !== 'true') {
+            document.getElementById('sessionSeparator').style.display = 'none';
+            document.getElementById('menuGuardarSesionBtn').style.display = 'none';
+            document.getElementById('menuCargarSesionBtn').style.display = 'none';
+          }
+        } catch (e) {
+          // Si hay error, ocultar por defecto
+            document.getElementById('sessionSeparator').style.display = 'none';
+            document.getElementById('menuGuardarSesionBtn').style.display = 'none';
+            document.getElementById('menuCargarSesionBtn').style.display = 'none';
+        }
+      })();
+
+      if (!window.username) {
+        toast.showToast('Error: No hi ha usuari definit');
+        return;
+      }
+
+      // Verificar si viene siteid por parámetro URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const siteIdFromUrl = urlParams.get('siteid');
+      
+      if (siteIdFromUrl) {
+        localStorage.setItem(LS_KEYS.FIREBASE_SITE_ID, siteIdFromUrl);
+        toast.showToast('Site ID guardat des de la URL!');
+        // Limpiar la URL sin recargar
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+
+      let firebaseSiteId = localStorage.getItem(LS_KEYS.FIREBASE_SITE_ID);
+      let apiKey = localStorage.getItem(LS_KEYS.FIREBASE_APIKEY);
+
+      // Si no hay Site ID, mostrar modal
+      if (!firebaseSiteId) {
+        const modal = document.getElementById('siteIdModal');
+        const input = document.getElementById('siteIdInput');
+        const saveBtn = document.getElementById('siteIdSaveBtn');
+
+        modal.style.display = 'flex';
+
+        const guardarSiteId = () => {
+          const newSiteId = input.value.trim();
+          if (!newSiteId) {
+            toast.showToast('El Site ID no pot estar buit');
+            return;
+          }
+
+          // Guardar en localStorage
+          localStorage.setItem(LS_KEYS.FIREBASE_SITE_ID, newSiteId);
+          modal.style.display = 'none';
+          firebaseSiteId = newSiteId;
+          inicializarFirebase(firebaseSiteId);
+          toast.showToast('Site ID guardat correctament!');
+        };
+
+        saveBtn.addEventListener('click', guardarSiteId);
+
+        // Permitir guardar con Enter
+        input.addEventListener('keypress', (e) => {
+          if (e.key === 'Enter') {
+            guardarSiteId();
+          }
+        });
+
+        return;
+      }else{
+        inicializarFirebase(firebaseSiteId);
+      }
+
+    }, {once: true});
+
+    // Función para inicializar Firebase
+    function inicializarFirebase(siteId) {
+      const firebaseConfig = {
+        apiKey: "AIzaSyBNEaYUKHjSQ_n8nlluwDBSKjcY-a1ieww",
+        authDomain: `${siteId}.firebaseapp.com`,
+        projectId: siteId,
+        storageBucket: `${siteId}.firebasestorage.app`,
+      };
+
+      const app = initializeApp(firebaseConfig);
+      window.storage = getStorage(app);
+
+      cargarSesionLocal();
+      mostrarResumenLocal();
+    }
+
+    // ========================================
+    // FUNCIONES DE CARGA LOCAL
+    // ========================================
+
+    function cargarSesionLocal() {
+      try {
+        // Historial Fallos
+        const fallosData = localStorage.getItem(LS_KEYS.HISTORIAL_FALLOS);
+        sesionLocal.historialFallos = fallosData ? JSON.parse(fallosData) : [];
+
+        // Historial Contestades
+        const contestadesData = localStorage.getItem(LS_KEYS.HISTORIAL_CONTESTADES);
+        sesionLocal.historialContestades = contestadesData ? JSON.parse(contestadesData) : {};
+
+        // Interacciones API
+        const apiData = localStorage.getItem(LS_KEYS.INTERACCIONES_API);
+        sesionLocal.interaccionesApi = apiData ? JSON.parse(apiData) : {};
+      } catch (e) {
+        console.error('Error cargando sesión local:', e);
+        toast.showToast('Error carregant dades locals');
+      }
+    }
+
+    window.mostrarResumenLocal = function mostrarResumenLocal() {
+      if (typeof showLoadingSpinner === 'function') showLoadingSpinner('Carregant sessió local...');
+
+      // Historial Fallos
+      const resumenFallos = calcularResumenFallos(window.sesionLocal.historialFallos);
+      document.getElementById('localFallosPreguntas').textContent = resumenFallos.preguntas;
+      document.getElementById('localFallosUltima').textContent = resumenFallos.ultima;
+      document.getElementById('localFallosTotal').textContent = resumenFallos.totalErrores;
+      document.getElementById('localFallosTemes').textContent = resumenFallos.temasUnicos;
+
+      // Historial Contestades
+      const resumenContestades = calcularResumenContestades(window.sesionLocal.historialContestades);
+      document.getElementById('localContestadesPreguntas').textContent = resumenContestades.preguntas;
+      document.getElementById('localContestadesTotal').textContent = resumenContestades.totalRespuestas;
+
+      // Interacciones API
+      const resumenApi = calcularResumenApi(window.sesionLocal.interaccionesApi, true);
+      document.getElementById('localApiData').textContent = resumenApi.fecha;
+      document.getElementById('localApiRestantes').textContent = resumenApi.restantes;
+
+      if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+    }
+
+    // ========================================
+    // FUNCIONES DE CÁLCULO DE RESUMEN
+    // ========================================
+
+    function calcularResumenFallos(historialFallos) {
+      const preguntas = historialFallos.length;
+      let ultimaFecha = '-';
+      let totalErrores = 0;
+      const temasSet = new Set();
+
+      historialFallos.forEach(p => {
+        // Sumar errores
+        totalErrores += p.count || 0;
+
+        // Contar temas únicos
+        if (p.subjectId) {
+          temasSet.add(p.subjectId);
+        }
+
+        // Buscar fecha más reciente
+        if (p.fecha) {
+          if (ultimaFecha === '-' || new Date(p.fecha) > new Date(ultimaFecha)) {
+            ultimaFecha = p.fecha;
+          }
+        }
+      });
+
+      // Formatear fecha
+      if (ultimaFecha !== '-') {
+        const date = new Date(ultimaFecha);
+        ultimaFecha = date.toLocaleString('ca-ES');
+      }
+
+      return {
+        preguntas,
+        ultima: ultimaFecha,
+        totalErrores,
+        temasUnicos: temasSet.size
+      };
+    }
+
+    function calcularResumenContestades(historialContestades) {
+      const preguntas = Object.keys(historialContestades).length;
+      let totalRespuestas = 0;
+
+      Object.values(historialContestades).forEach(count => {
+        totalRespuestas += count || 0;
+      });
+
+      return {
+        preguntas,
+        totalRespuestas
+      };
+    }
+
+    function calcularResumenApi(interaccionesApi, calcularRestantes = false) {
+      let fecha = '-';
+      let restantes = '-';
+
+      if (interaccionesApi.fecha) {
+        const date = new Date(interaccionesApi.fecha);
+        fecha = date.toLocaleDateString('ca-ES');
+      }
+
+      if (calcularRestantes) {
+        const hoy = new Date().toISOString().split('T')[0];
+        if (interaccionesApi.fecha === hoy) {
+          restantes = MAX_INTERACCIONES_DIA - (interaccionesApi.interacciones || 0);
+        } else {
+          restantes = MAX_INTERACCIONES_DIA;
+        }
+      }
+
+      return {
+        fecha,
+        restantes,
+        interacciones: interaccionesApi.interacciones || 0
+      };
+    }
+
+    // ========================================
+    // DESCARGAR DEL SERVIDOR
+    // ========================================
+
+    window.descargarDelServidor = async function() {
+      document.getElementById('btnDescargarSyncSession').disabled = true;
+      
+      if (typeof showLoadingSpinner === 'function') showLoadingSpinner('Descarregant del servidor...');
+
+      try {
+        const filePath = `sessions/${window.username}.json`;
+        const url = await window.firebaseGetDownloadURL(window.firebaseRef(window.storage, filePath));
+        
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error('No s\'ha pogut descarregar el fitxer');
+        }
+
+        const data = await response.json();
+        
+        // Parsear datos del servidor
+        sesionServidor.historialFallos = data.sTICdOpos_historialFallos || [];
+        sesionServidor.historialContestades = data.sTICdOpos_historialContestades || {};
+        sesionServidor.interaccionesApi = data.sTICdOpos_apiInteracciones || {};
+
+        mostrarResumenServidor();
+        realizarMerge();
+        mostrarResumenMerge();
+        mostrarBotonesGuardar();
+
+        toast.showToast('Sessió descarregada correctament!');
+
+      } catch (e) {
+        console.error('Error descargando:', e);
+        
+        // Si el archivo no existe, crearlo con los datos locales
+        if (e.code === 'storage/object-not-found') {
+          toast.showToast('Fitxer no trobat. Creant-lo amb dades locals...');
+          
+          try {
+            const dataToUpload = {
+              sTICdOpos_historialFallos: sesionLocal.historialFallos,
+              sTICdOpos_historialContestades: sesionLocal.historialContestades,
+              sTICdOpos_apiInteracciones: sesionLocal.interaccionesApi
+            };
+
+            const blob = new Blob([JSON.stringify(dataToUpload, null, 2)], { type: 'application/json' });
+            const filePath = `sessions/${window.username}.json`;
+
+            await window.firebaseUploadBytes(window.firebaseRef(window.storage, filePath), blob);
+
+            // Ahora el servidor tiene los mismos datos que local
+            sesionServidor.historialFallos = [...sesionLocal.historialFallos];
+            sesionServidor.historialContestades = {...sesionLocal.historialContestades};
+            sesionServidor.interaccionesApi = {...sesionLocal.interaccionesApi};
+
+            mostrarResumenServidor();
+            realizarMerge();
+            mostrarResumenMerge();
+            mostrarBotonesGuardar();
+
+            toast.showToast('Fitxer creat al servidor amb dades locals!');
+          } catch (uploadError) {
+            console.error('Error creando archivo:', uploadError);
+            toast.showToast('Error creant el fitxer al servidor');
+          }
+        } else {
+          toast.showToast('Error de connexió amb el servidor');
+        }
+      } finally {
+        if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+        document.getElementById('btnDescargarSyncSession').disabled = false;
+      }
+    };
+
+    function mostrarResumenServidor() {
+      // Historial Fallos
+      const resumenFallos = calcularResumenFallos(sesionServidor.historialFallos);
+      document.getElementById('servidorFallosPreguntas').textContent = resumenFallos.preguntas;
+      document.getElementById('servidorFallosUltima').textContent = resumenFallos.ultima;
+      document.getElementById('servidorFallosTotal').textContent = resumenFallos.totalErrores;
+      document.getElementById('servidorFallosTemes').textContent = resumenFallos.temasUnicos;
+
+      // Historial Contestades
+      const resumenContestades = calcularResumenContestades(sesionServidor.historialContestades);
+      document.getElementById('servidorContestadesPreguntas').textContent = resumenContestades.preguntas;
+      document.getElementById('servidorContestadesTotal').textContent = resumenContestades.totalRespuestas;
+
+      // Interacciones API
+      const resumenApi = calcularResumenApi(sesionServidor.interaccionesApi, false);
+      document.getElementById('servidorApiData').textContent = resumenApi.fecha;
+    }
+
+    // ========================================
+    // MERGE EN MEMORIA
+    // ========================================
+
+    function realizarMerge() {
+      // Merge Historial Fallos
+      const mapaFallos = new Map();
+
+      // Añadir del local
+      sesionLocal.historialFallos.forEach(p => {
+        const guid = p.guid;
+        if (!mapaFallos.has(guid)) {
+          mapaFallos.set(guid, p);
+        }
+      });
+
+      // Añadir del servidor
+      sesionServidor.historialFallos.forEach(p => {
+        const guid = p.guid;
+        if (!mapaFallos.has(guid)) {
+          mapaFallos.set(guid, p);
+        } else {
+          // Si existe, quedarse con el que tiene mayor count
+          const existente = mapaFallos.get(guid);
+          if ((p.count || 0) > (existente.count || 0)) {
+            mapaFallos.set(guid, p);
+          }
+        }
+      });
+
+      sesionMerge.historialFallos = Array.from(mapaFallos.values());
+
+      // Merge Historial Contestades
+      sesionMerge.historialContestades = {};
+
+      // Copiar del local
+      Object.keys(sesionLocal.historialContestades).forEach(key => {
+        sesionMerge.historialContestades[key] = sesionLocal.historialContestades[key];
+      });
+
+      // Merge con servidor
+      Object.keys(sesionServidor.historialContestades).forEach(key => {
+        const valorServidor = sesionServidor.historialContestades[key];
+        const valorLocal = sesionMerge.historialContestades[key] || 0;
+        sesionMerge.historialContestades[key] = Math.max(valorLocal, valorServidor);
+      });
+
+      // Merge Interacciones API
+      const fechaLocal = sesionLocal.interaccionesApi.fecha || '';
+      const fechaServidor = sesionServidor.interaccionesApi.fecha || '';
+
+      if (fechaServidor > fechaLocal) {
+        sesionMerge.interaccionesApi = { ...sesionServidor.interaccionesApi };
+      } else if (fechaLocal > fechaServidor) {
+        sesionMerge.interaccionesApi = { ...sesionLocal.interaccionesApi };
+      } else if (fechaLocal === fechaServidor && fechaLocal !== '') {
+        // Misma fecha, quedarse con el que tiene más interacciones
+        const interLocal = sesionLocal.interaccionesApi.interacciones || 0;
+        const interServidor = sesionServidor.interaccionesApi.interacciones || 0;
+        sesionMerge.interaccionesApi = interLocal >= interServidor
+          ? { ...sesionLocal.interaccionesApi }
+          : { ...sesionServidor.interaccionesApi };
+      } else {
+        sesionMerge.interaccionesApi = { ...sesionLocal.interaccionesApi };
+      }
+    }
+
+    function mostrarResumenMerge() {
+      // Historial Fallos
+      const resumenFallos = calcularResumenFallos(sesionMerge.historialFallos);
+      document.getElementById('mergeFallosPreguntas').textContent = resumenFallos.preguntas;
+      document.getElementById('mergeFallosUltima').textContent = resumenFallos.ultima;
+      document.getElementById('mergeFallosTotal').textContent = resumenFallos.totalErrores;
+      document.getElementById('mergeFallosTemes').textContent = resumenFallos.temasUnicos;
+
+      // Historial Contestades
+      const resumenContestades = calcularResumenContestades(sesionMerge.historialContestades);
+      document.getElementById('mergeContestadesPreguntas').textContent = resumenContestades.preguntas;
+      document.getElementById('mergeContestadesTotal').textContent = resumenContestades.totalRespuestas;
+
+      // Interacciones API
+      const resumenApi = calcularResumenApi(sesionMerge.interaccionesApi, false);
+      document.getElementById('mergeApiData').textContent = resumenApi.fecha;
+      document.getElementById('mergeApiInteracciones').textContent = resumenApi.interacciones;
+    }
+
+    function mostrarBotonesGuardar() {
+      document.getElementById('btnDescargarSyncSession').classList.add('hidden');
+      document.getElementById('botonesGuardar').classList.remove('hidden');
+      document.getElementById('botonSobreescribir').classList.remove('hidden');
+    }
+
+    // ========================================
+    // GUARDAR DATOS
+    // ========================================
+
+    window.guardarMergeEnLocal = function() {
+      try {
+        localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(sesionMerge.historialFallos));
+        localStorage.setItem(LS_KEYS.HISTORIAL_CONTESTADES, JSON.stringify(sesionMerge.historialContestades));
+        localStorage.setItem(LS_KEYS.INTERACCIONES_API, JSON.stringify(sesionMerge.interaccionesApi));
+
+        sesionLocal = JSON.parse(JSON.stringify(sesionMerge));
+        mostrarResumenLocal();
+
+        toast.showToast('Merge guardat en el dispositiu!');
+      } catch (e) {
+        console.error('Error guardando en local:', e);
+        toast.showToast('Error guardant en el dispositiu');
+      }
+    };
+
+    window.guardarMergeEnServidor = async function() {
+      document.getElementById('btnGuardarServidorSyncSession').disabled = true;
+      
+      if (typeof showLoadingSpinner === 'function') showLoadingSpinner('Pujant merge al servidor...');
+
+      try {
+        const dataToUpload = {
+          sTICdOpos_historialFallos: sesionMerge.historialFallos,
+          sTICdOpos_historialContestades: sesionMerge.historialContestades,
+          sTICdOpos_apiInteracciones: sesionMerge.interaccionesApi
+        };
+
+        const blob = new Blob([JSON.stringify(dataToUpload, null, 2)], { type: 'application/json' });
+        const filePath = `sessions/${window.username}.json`;
+
+        await window.firebaseUploadBytes(window.firebaseRef(window.storage, filePath), blob);
+
+        sesionServidor = JSON.parse(JSON.stringify(sesionMerge));
+        mostrarResumenServidor();
+
+        toast.showToast('Merge pujat al servidor correctament!');
+
+      } catch (e) {
+        console.error('Error subiendo al servidor:', e);
+        toast.showToast('Error pujant al servidor');
+      } finally {
+        if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+        document.getElementById('btnGuardarServidorSyncSession').disabled = false;
+      }
+    };
+
+    window.guardarLocalEnServidor = async function() {
+      if (!confirm('⚠️ ATENCIÓ: Aquesta acció pujarà NOMÉS les dades locals al servidor, SOBREESCRIVINT el que hi hagi. Pots perdre dades no sincronitzades. Estàs segur?')) {
+        toast.showToast('Acció cancel·lada');
+        return;
+      }
+
+      document.getElementById('btnLocalAServidor').disabled = true;
+      
+      if (typeof showLoadingSpinner === 'function') showLoadingSpinner('Pujant dades locals al servidor...');
+
+      try {
+        const dataToUpload = {
+          sTICdOpos_historialFallos: sesionLocal.historialFallos,
+          sTICdOpos_historialContestades: sesionLocal.historialContestades,
+          sTICdOpos_apiInteracciones: sesionLocal.interaccionesApi
+        };
+
+        const blob = new Blob([JSON.stringify(dataToUpload, null, 2)], { type: 'application/json' });
+        const filePath = `sessions/${window.username}.json`;
+
+        await window.firebaseUploadBytes(window.firebaseRef(window.storage, filePath), blob);
+
+        sesionServidor = JSON.parse(JSON.stringify(sesionLocal));
+        mostrarResumenServidor();
+        
+        // Actualizar merge también
+        realizarMerge();
+        mostrarResumenMerge();
+
+        toast.showToast('Dades locals pujades al servidor!');
+
+      } catch (e) {
+        console.error('Error subiendo local al servidor:', e);
+        toast.showToast('Error pujant al servidor');
+      } finally {
+        if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+        document.getElementById('btnLocalAServidor').disabled = false;
+      }
+    };
+  </script>
+</body>
+</html>

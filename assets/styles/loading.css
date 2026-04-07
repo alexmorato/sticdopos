@@ -1,0 +1,43 @@
+/* loading.css: estilos para el spinner de carga global */
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(10,16,32,0.92);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spinner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #2aebad;
+  border-color: #2aebad transparent #6ae0a7 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.spinner-msg {
+  margin-top: 18px;
+  color: #6ae0a7;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recursos per Tema - sTIC d'Opos</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+
+  <link rel="stylesheet" href="assets/styles/loading.css">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #6ae0a7;
+      margin-bottom: 10px;
+    }
+    .search-container {
+      max-width: 900px;
+      margin: 20px auto;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .search-box {
+      flex: 1;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 12px 45px 12px 15px;
+      border-radius: 10px;
+      border: 2px solid #27304a;
+      background: #141a2a;
+      color: #e7ecff;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    .search-box input:focus {
+      outline: none;
+      border-color: #6ae0a7;
+    }
+    .search-btn {
+      position: absolute;
+      right: 61px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #2aebad;
+      color: #032217;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 14px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    .search-btn:hover {
+      background: #21c08d;
+    }
+    .clear-btn {
+      position: absolute;
+      right: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #8a2a2a;
+      color: #e7ecff;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 14px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+    .clear-btn:hover {
+      background: #aa3a3a;
+    }
+    .btn-tornar {
+      padding: 12px 24px;
+      border-radius: 10px;
+      border: none;
+      background: #27304a;
+      color: #e7ecff;
+      cursor: pointer;
+      font-size: 1rem;
+      white-space: nowrap;
+    }
+    .btn-tornar:hover {
+      background: #3a4560;
+    }
+    .temes-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .tema-card {
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 18px 22px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tema-card:hover {
+      border-color: #6ae0a7;
+    }
+    .tema-card.expanded {
+      border-color: #21c08d;
+      background: #18243a;
+    }
+    .tema-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    .tema-info {
+      flex: 1;
+    }
+    .tema-title {
+      font-size: 1.3rem;
+      color: #6ae0a7;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    .tema-subtitle {
+      font-size: 1rem;
+      color: #e7ecff;
+      margin-bottom: 10px;
+    }
+    .tema-summary {
+      font-size: 0.9rem;
+      color: #a0a8c0;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .summary-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .expand-icon {
+      font-size: 1.5rem;
+      color: #6ae0a7;
+      transition: transform 0.3s;
+    }
+    .tema-card.expanded .expand-icon {
+      transform: rotate(180deg);
+    }
+    .tema-content {
+      display: none;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #27304a;
+    }
+    .tema-card.expanded .tema-content {
+      display: block;
+    }
+    .recursos-section {
+      margin-bottom: 20px;
+    }
+    .recursos-title {
+      font-size: 1.1rem;
+      color: #6ae0a7;
+      font-weight: 600;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .recursos-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .recurso-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 15px;
+      background: #0b1020;
+      border: 1px solid #27304a;
+      border-radius: 8px;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+    .recurso-item:hover {
+      border-color: #6ae0a7;
+      background: #141a2a;
+    }
+    .recurso-item.destacado {
+      background: #1a2a3a;
+      border: 2px solid #2aebad;
+      box-shadow: 0 0 20px rgba(42, 235, 173, 0.3);
+      animation: pulsoDestacado 2s ease-in-out;
+    }
+    @keyframes pulsoDestacado {
+      0%, 100% { box-shadow: 0 0 20px rgba(42, 235, 173, 0.3); }
+      50% { box-shadow: 0 0 30px rgba(42, 235, 173, 0.5); }
+    }
+    .recurso-name {
+      font-size: 0.95rem;
+      color: #e7ecff;
+      flex: 1;
+    }
+    .recurso-btn {
+      padding: 6px 16px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .btn-slides {
+      background: #2a5f8a;
+      color: #e7ecff;
+    }
+    .btn-slides:hover {
+      background: #3a7faa;
+    }
+    .btn-info {
+      background: #8a5f2a;
+      color: #e7ecff;
+    }
+    .btn-info:hover {
+      background: #aa7f3a;
+    }
+    .btn-apunts {
+      background: #5f2a8a;
+      color: #e7ecff;
+    }
+    .btn-apunts:hover {
+      background: #7f3aaa;
+    }
+    .btn-test {
+      background: #2aebad;
+      color: #032217;
+    }
+    .btn-test:hover {
+      background: #21c08d;
+    }
+    .btn-url {
+      background: #8a2a5f;
+      color: #e7ecff;
+    }
+    .btn-url:hover {
+      background: #aa3a7f;
+    }
+    .btn-youtube {
+      background: #c62828;
+      color: #e7ecff;
+    }
+    .btn-youtube:hover {
+      background: #e53935;
+    }
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: #a0a8c0;
+      font-size: 1.1rem;
+    }
+    .no-results {
+      text-align: center;
+      padding: 40px 20px;
+      color: #a0a8c0;
+      font-size: 1.1rem;
+      display: none;
+    }
+    @media (max-width: 768px) {
+      .search-container {
+        flex-direction: column;
+      }
+      .btn-tornar {
+        width: 100%;
+      }
+      .tema-header {
+        flex-direction: column;
+      }
+      .recurso-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .recurso-btn {
+        width: 100%;
+      }
+    }
+
+    /* Botón hamburguesa */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* Menú desplegable */
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 180px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .menu-close-btn {
+      width: 100%;
+      padding: 12px;
+      background: #2aebad;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #032217;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+
+    .btn-fullscreen {
+      width: 100%;
+      padding: 12px;
+      background: #2a5f8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-fullscreen:hover {
+      background: #3a7faa;
+      transform: translateY(-1px);
+    }
+
+    .btn-menu-tornar {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-menu-tornar:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    @media (max-width: 768px) {
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 150px;
+      }
+    }
+  </style>
+  <script src="assets/js/loading.js"></script>
+  <script src="assets/js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tancar
+    </button>
+    <button class="btn-fullscreen" id="fullscreenBtn">
+      ⛶ Pantalla completa
+    </button>
+    <button class="btn-menu-tornar" id="menuTornarBtn">
+      ⬅️ Tornar
+    </button>
+    <button class="btn-menu-tornar" id="menuIndexBtn">
+      👨‍💻 Menu
+    </button>
+  </div>
+
+  <h1>📚 Recursos per Tema</h1>
+
+  <div class="search-container">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="🔍 Buscar per tema, títol o contingut...">
+      <button class="search-btn" id="searchBtn">🔍</button>
+      <button class="clear-btn" id="clearBtn">🗑️</button>
+    </div>
+  </div>
+
+  <div class="temes-container" id="temesContainer">
+    <div class="empty-state">Carregant recursos...</div>
+  </div>
+
+  <div class="no-results" id="noResults">
+    No s'han trobat resultats per la cerca
+  </div>
+
+  <script>
+    if (typeof showLoadingSpinner === 'function') showLoadingSpinner('Carregant recursos...');
+
+    // Referencias a elementos del menú
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const menuTornarBtn = document.getElementById('menuTornarBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+
+    // Toggle menú
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+
+    // Cerrar menú
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuPanel.classList.remove('visible');
+      }
+    });
+
+    // Botón fullscreen
+    fullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Sortir pantalla completa';
+          menuPanel.classList.remove('visible');
+        }).catch(err => {
+          console.error('Error al activar fullscreen:', err);
+        });
+      } else {
+        document.exitFullscreen().then(() => {
+          fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+          menuPanel.classList.remove('visible');
+        });
+      }
+    });
+
+    // Actualizar texto del botón cuando se sale de fullscreen con ESC
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Botón tornar
+    menuTornarBtn.addEventListener('click', () => {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'index.html';
+      }
+    });
+
+    // Botón menu principal
+    menuIndexBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    // Variables globales
+    let temes = [];
+    let apuntsManifest = {};
+    let testsManifest = {};
+    let todosLosDatos = [];
+    let root = "";
+    let rootSinOpos = "";
+
+    // LocalStorage keys
+    const LS_RECURSOS_SEARCH = 'sTICdOpos_recursos_search_text';
+    const LS_RECURSOS_TEMA = 'sTICdOpos_recursos_tema_expanded';
+    const LS_RECURSOS_LAST_CLICKED = 'sTICdOpos_recursos_last_clicked';
+
+    // Verificar autenticación
+    document.addEventListener('DOMContentLoaded', function() {
+      const userGuid = localStorage.getItem(LS_KEYS.USER_NAME);
+      const userPass = localStorage.getItem(LS_KEYS.USER_PASS);
+      login.checkUserAuth(userGuid, userPass, login.ROLES.VIP);
+    }, {once: true});
+
+    // Buscar parámetro 'search' en la URL y aplicarlo como filtro prioritario
+    function getQueryParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+
+    // Cargar todos los datos
+    async function cargarDatos() {
+      try {
+        // Agregar timestamp para evitar caché
+        const cacheBuster = `?v=${Date.now()}`;
+        
+        // Cargar los tres JSONs en paralelo
+        const [temesRes, apuntsRes, testsRes] = await Promise.all([
+          fetch(`assets/opos24_temes.json${cacheBuster}`),
+          fetch(`apunts_new/manifest.json${cacheBuster}`),
+          fetch(`testfiles/manifest.json${cacheBuster}`)
+        ]);
+
+        if (!temesRes.ok || !apuntsRes.ok || !testsRes.ok) {
+          throw new Error("No s'han pogut carregar els fitxers");
+        }
+
+        temes = await temesRes.json();
+        apuntsManifest = await apuntsRes.json();
+        testsManifest = await testsRes.json();
+
+        // Procesar datos
+        procesarDatos();
+
+        // Restaurar estado guardado
+        let { savedSearch, savedTema } = restaurarEstado();
+        // Buscar filtro en la URL
+        const filtroUrl = getQueryParam('search');        
+        let filtroFinal = '';
+        if (filtroUrl) {
+          filtroFinal = filtroUrl;
+          document.getElementById('searchInput').value = filtroUrl;
+        } else {
+          if (savedSearch) {
+            document.getElementById('searchInput').value = savedSearch;
+            filtroFinal = savedSearch;
+          }
+        }
+        guardarEstado(filtroFinal, savedTema);
+        renderizarTemes(filtroFinal, savedTema);
+
+        if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('temesContainer').innerHTML = 
+          `<div class="empty-state">⚠️ Error carregant els recursos: ${err.message}</div>`;
+        if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+      }
+    }
+
+    // Guardar estado en localStorage
+    function guardarEstado(searchText, temaId) {
+      if (searchText !== undefined) {
+        localStorage.setItem(LS_RECURSOS_SEARCH, searchText);
+      }
+      if (temaId !== undefined) {
+        localStorage.setItem(LS_RECURSOS_TEMA, temaId);
+      }
+    }
+
+    // Guardar último recurso clicado
+    function guardarUltimoRecursoClicado(tipo, temaId, identificador) {
+      const recursoData = {
+        tipo: tipo,
+        temaId: temaId,
+        identificador: identificador,
+        timestamp: Date.now()
+      };
+      localStorage.setItem(LS_RECURSOS_LAST_CLICKED, JSON.stringify(recursoData));
+    }
+
+    // Obtener último recurso clicado
+    function obtenerUltimoRecursoClicado() {
+      const data = localStorage.getItem(LS_RECURSOS_LAST_CLICKED);
+      if (!data) return null;
+      try {
+        return JSON.parse(data);
+      } catch (e) {
+        return null;
+      }
+    }
+
+    // Restaurar estado desde localStorage
+    function restaurarEstado() {
+      const savedSearch = localStorage.getItem(LS_RECURSOS_SEARCH) || '';
+      const savedTema = localStorage.getItem(LS_RECURSOS_TEMA) || '';
+      return { savedSearch, savedTema };
+    }
+
+    // Limpiar estado guardado
+    function limpiarEstado() {
+      localStorage.removeItem(LS_RECURSOS_SEARCH);
+      localStorage.removeItem(LS_RECURSOS_TEMA);
+    }
+
+    // Procesar y combinar datos
+    function procesarDatos() {
+      todosLosDatos = temes.map(tema => {
+        const temaId = tema.tema;
+        const recursos = {
+          slides: [],
+          infografies: [],
+          apunts: [],
+          tests: [],
+          urls: []
+        };
+
+        const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+        root =  apuntsManifest.base;
+        rootSinOpos = apuntsManifest.base;
+        if (!isLocal) {
+          root = 'opos/' + root;
+        }
+        // Buscar en apunts_new/manifest.json
+        if (apuntsManifest.temes && apuntsManifest.temes[temaId]) {
+          const temaData = apuntsManifest.temes[temaId];
+          
+          // Slides
+          if (temaData.slides && temaData.slides.length > 0) {
+            temaData.slides.forEach((slideGroup, idx) => {
+              recursos.slides.push({
+                name: `Presentació ${idx + 1}`,
+                dir: slideGroup.dir,
+                imgs: slideGroup.imgs
+              });
+            });
+          }
+
+          // Infografies (info)
+          if (temaData.info && temaData.info.length > 0) {
+            temaData.info.forEach((info, idx) => {
+              recursos.infografies.push({
+                name: `Infografia ${idx + 1}`,
+                file: info
+              });
+            });
+          }
+
+          // Apunts (md)
+          if (temaData.md && temaData.md.length > 0) {
+            temaData.md.forEach((md, idx) => {
+              recursos.apunts.push({
+                name: `Apunts ${idx + 1}`,
+                file: md
+              });
+            });
+          }
+
+          // URLs
+          if (temaData.urls && temaData.urls.length > 0) {
+            temaData.urls.forEach((urlData) => {
+              recursos.urls.push({
+                name: urlData.name || 'Enllaç',
+                url: urlData.url,
+                type: urlData.type || 'web' // Añadir tipo (web, youtube, etc.)
+              });
+            });
+          }
+        }
+
+        // Buscar tests en testfiles/manifest.json
+        if (testsManifest.files && testsManifest.files.length > 0) {
+          testsManifest.files.forEach(testFile => {
+            // Buscar archivos que empiecen con el temaId
+            if (testFile.startsWith(temaId + '-') || testFile.startsWith(temaId + '_')) {
+              const testName = testFile.replace(/\.json$/, '').replace(temaId + '-', '').replace(temaId + '_', '');
+              recursos.tests.push({
+                name: testName,
+                file: testFile
+              });
+            }
+          });
+        }
+
+        return {
+          ...tema,
+          recursos
+        };
+      });
+    }
+
+    // Renderizar temas
+    function renderizarTemes(filtro = '', temaToExpand = '') {
+      const container = document.getElementById('temesContainer');
+      const noResults = document.getElementById('noResults');
+      container.innerHTML = '';
+
+      const temasFiltrados = todosLosDatos.filter(tema => {
+        if (!filtro) return true;
+        
+        // Dividir el filtro en palabras separadas por espacios
+        const palabras = filtro.toLowerCase().trim().split(/\s+/).filter(p => p.length > 0);
+        
+        // Comprobar si alguna palabra coincide con algún campo (OR)
+        return palabras.some(palabra => 
+          tema.tema.toLowerCase().includes(palabra) ||
+          tema.titol.toLowerCase().includes(palabra) ||
+          tema.curt.toLowerCase().includes(palabra)
+        );
+      });
+
+      if (temasFiltrados.length === 0) {
+        container.style.display = 'none';
+        noResults.style.display = 'block';
+        return;
+      }
+
+      container.style.display = 'flex';
+      noResults.style.display = 'none';
+
+      temasFiltrados.forEach(tema => {
+        const card = crearTemaCard(tema, temaToExpand);
+        container.appendChild(card);
+      });
+
+      // Scroll al tema expandido si existe
+      if (temaToExpand) {
+        setTimeout(() => {
+          const cardToExpand = document.querySelector(`[data-tema-id="${temaToExpand}"]`);
+          if (cardToExpand) {
+            cardToExpand.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        }, 100);
+      }
+
+      // Resaltar y hacer scroll al último recurso clicado
+      const ultimoRecurso = obtenerUltimoRecursoClicado();
+      if (ultimoRecurso) {
+        setTimeout(() => {
+          const recursoId = `recurso-${ultimoRecurso.tipo}-${ultimoRecurso.temaId}-${ultimoRecurso.identificador}`;
+          const recursoElement = document.getElementById(recursoId);
+          if (recursoElement) {
+            recursoElement.classList.add('destacado');
+            recursoElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            // Quitar el resaltado después de 5 segundos
+            setTimeout(() => {
+              return; // Mantener el resaltado indefinidamente
+              recursoElement.classList.remove('destacado');
+              // Limpiar el localStorage después de mostrar
+              localStorage.removeItem(LS_RECURSOS_LAST_CLICKED);
+            }, 5000);
+          }
+        }, 300);
+      }
+    }
+
+    // Crear card de tema
+    function crearTemaCard(tema, temaToExpand = '') {
+      const card = document.createElement('div');
+      card.className = 'tema-card';
+      card.dataset.temaId = tema.tema;
+
+      // Expandir si es el tema guardado
+      if (temaToExpand && tema.tema === temaToExpand) {
+        card.classList.add('expanded');
+      }
+
+      const totalRecursos = 
+        tema.recursos.slides.length + 
+        tema.recursos.infografies.length + 
+        tema.recursos.apunts.length + 
+        tema.recursos.tests.length + 
+        tema.recursos.urls.length;
+
+      const summary = [];
+      if (tema.recursos.slides.length > 0) summary.push(`📊 ${tema.recursos.slides.length} presentació${tema.recursos.slides.length > 1 ? 'ns' : ''}`);
+      if (tema.recursos.infografies.length > 0) summary.push(`🖼️ ${tema.recursos.infografies.length} infografia${tema.recursos.infografies.length > 1 ? 'es' : ''}`);
+      if (tema.recursos.apunts.length > 0) summary.push(`📝 ${tema.recursos.apunts.length} apunt${tema.recursos.apunts.length > 1 ? 's' : ''}`);
+      if (tema.recursos.tests.length > 0) summary.push(`✅ ${tema.recursos.tests.length} test${tema.recursos.tests.length > 1 ? 's' : ''}`);
+      if (tema.recursos.urls.length > 0) summary.push(`🔗 ${tema.recursos.urls.length} enllaç${tema.recursos.urls.length > 1 ? 'os' : ''}`);
+
+      card.innerHTML = `
+        <div class="tema-header">
+          <div class="tema-info">
+            <div class="tema-title">${tema.tema}</div>
+            <div class="tema-subtitle">${tema.titol}</div>
+            <div class="tema-summary">
+              ${summary.join(' • ')}
+              ${totalRecursos === 0 ? '<span style="color:#8a2a2a">Cap recurs disponible</span>' : ''}
+            </div>
+          </div>
+          <div class="expand-icon">▼</div>
+        </div>
+        <div class="tema-content" id="content-${tema.tema}">
+          ${crearContenidoRecursos(tema)}
+        </div>
+      `;
+
+      // Toggle expand/collapse
+      card.querySelector('.tema-header').addEventListener('click', () => {
+        const wasExpanded = card.classList.contains('expanded');
+        card.classList.toggle('expanded');
+        
+        // Guardar el tema expandido o limpiar si se colapsa
+        if (!wasExpanded) {
+          guardarEstado(undefined, tema.tema);
+        } else {
+          localStorage.removeItem(LS_RECURSOS_TEMA);
+        }
+      });
+
+      return card;
+    }
+
+    // Crear contenido de recursos
+    function crearContenidoRecursos(tema) {
+      let html = '';
+
+      // Presentaciones
+      if (tema.recursos.slides.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">📊 Presentacions</div>
+            <div class="recursos-list">
+              ${tema.recursos.slides.map((slide, idx) => `
+                <div class="recurso-item" id="recurso-slides-${tema.tema}-${slide.dir.replace(/[^a-zA-Z0-9]/g, '_')}" onclick='abrirSlides("${tema.tema}", "${slide.dir}", ${JSON.stringify(slide.imgs)})'>
+                  <div class="recurso-name">${slide.dir}</div>
+                  <button class="recurso-btn btn-slides" onclick='event.stopPropagation(); abrirSlides("${tema.tema}", "${slide.dir}", ${JSON.stringify(slide.imgs)})'>
+                    👁️ Veure
+                  </button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // Infografías
+      if (tema.recursos.infografies.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">🖼️ Infografies</div>
+            <div class="recursos-list">
+              ${tema.recursos.infografies.map((info, idx) => `
+                <div class="recurso-item" id="recurso-info-${tema.tema}-${info.file.replace(/[^a-zA-Z0-9]/g, '_')}" onclick="abrirInfografia('${tema.tema}', '${info.file}')">
+                  <div class="recurso-name">${info.file}</div>
+                  <button class="recurso-btn btn-info" onclick="event.stopPropagation(); abrirInfografia('${tema.tema}', '${info.file}')">
+                    👁️ Veure
+                  </button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // Apunts
+      if (tema.recursos.apunts.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">📝 Apunts</div>
+            <div class="recursos-list">
+              ${tema.recursos.apunts.map((apunt, idx) => `
+                <div class="recurso-item" id="recurso-apunts-${tema.tema}-${apunt.file.replace(/[^a-zA-Z0-9]/g, '_')}" onclick="abrirApunts('${tema.tema}', '${apunt.file}')">
+                  <div class="recurso-name">${apunt.file}</div>
+                  <button class="recurso-btn btn-apunts" onclick="event.stopPropagation(); abrirApunts('${tema.tema}', '${apunt.file}')">
+                    📖 Llegir
+                  </button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // Tests
+      if (tema.recursos.tests.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">✅ Tests</div>
+            <div class="recursos-list">
+              ${tema.recursos.tests.map((test, idx) => `
+                <div class="recurso-item" id="recurso-test-${tema.tema}-${test.file.replace(/[^a-zA-Z0-9]/g, '_')}" onclick="abrirTest('${tema.tema}', '${test.file}')">
+                  <div class="recurso-name">${test.name}</div>
+                  <button class="recurso-btn btn-test" onclick="event.stopPropagation(); abrirTest('${tema.tema}', '${test.file}')">
+                    ▶️ Fer test
+                  </button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // URLs
+      if (tema.recursos.urls.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">🔗 Enllaços web</div>
+            <div class="recursos-list">
+              ${tema.recursos.urls.map((urlData, idx) => {
+                const icon = urlData.type === 'youtube' ? '🎥' : '🌐';
+                const btnClass = urlData.type === 'youtube' ? 'btn-youtube' : 'btn-url';
+                return `
+                  <div class="recurso-item" id="recurso-url-${tema.tema}-${idx}" onclick="abrirURL('${tema.tema}', '${encodeURIComponent(urlData.url)}', '${encodeURIComponent(urlData.name)}', ${idx})">
+                    <div class="recurso-name">${urlData.name}</div>
+                    <button class="recurso-btn ${btnClass}" onclick="event.stopPropagation(); abrirURL('${tema.tema}', '${encodeURIComponent(urlData.url)}', '${encodeURIComponent(urlData.name)}', ${idx})">
+                      ${icon} ${urlData.type === 'youtube' ? 'Veure' : 'Obrir'}
+                    </button>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      if (html === '') {
+        html = '<div style="text-align:center;color:#a0a8c0;padding:20px;">No hi ha recursos disponibles per aquest tema</div>';
+      }
+
+      return html;
+    }
+
+    // Funciones para abrir recursos
+    window.abrirSlides = function(temaId, dir, imgs) {
+      // Guardar recurso clicado
+      guardarUltimoRecursoClicado('slides', temaId, dir.replace(/[^a-zA-Z0-9]/g, '_'));
+      // Abrir página de slides con lista de imágenes
+      const imgsParam = imgs.join(',');
+      window.open(`leerdiapos.html?root=${encodeURIComponent(rootSinOpos)}&dir=${encodeURIComponent(dir)}&tema=${encodeURIComponent(temaId)}&imgs=${imgsParam}`, '_self');
+    };
+
+    window.abrirInfografia = function(temaId, fileName) {
+      // Guardar recurso clicado
+      guardarUltimoRecursoClicado('info', temaId, fileName.replace(/[^a-zA-Z0-9]/g, '_'));
+      // Abrir infografía en nueva pestaña
+      const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+      const basePath = isLocal ? '' : 'opos/';
+      //window.open(`${basePath}apunts_new/${temaId}/${fileName}`, '_blank');
+      window.open(`leerinfografia.html?root=${encodeURIComponent(rootSinOpos)}&tema=${encodeURIComponent(temaId)}&fitxer=${encodeURIComponent(fileName)}`, '_self' );
+    };
+
+    window.abrirApunts = function(temaId, md) {
+      // Guardar recurso clicado
+      guardarUltimoRecursoClicado('apunts', temaId, md.replace(/[^a-zA-Z0-9]/g, '_'));
+      // Abrir página de apunts
+      window.open(`leermd.html?root=${encodeURIComponent(root)}&tema=${encodeURIComponent(temaId)}&fitxer=${encodeURIComponent(md)}`, '_self');
+    };
+
+    window.abrirTest = function(temaId, testFile) {
+      // Guardar recurso clicado
+      guardarUltimoRecursoClicado('test', temaId, testFile.replace(/[^a-zA-Z0-9]/g, '_'));
+      // Cargar el test y navegar a estudiar.html
+      fetch(`testfiles/${testFile}`)
+        .then(res => res.json())
+        .then(preguntas => {
+          if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+          localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntas));
+          window.location.href = 'estudiar.html';
+        })
+        .catch(err => {
+          console.error('Error carregant el test:', err);
+          alert('Error carregant el test');
+        });
+    };
+
+    window.abrirURL = function(temaId, encodedUrl, encodedName, idx) {
+      // Guardar recurso clicado usando el índice como identificador
+      guardarUltimoRecursoClicado('url', temaId, idx);
+      // Guardar URL, nombre y tipo en localStorage para la página iframe
+      const url = decodeURIComponent(encodedUrl);
+      const name = decodeURIComponent(encodedName);
+      
+      // Buscar el tipo en los datos del tema
+      const temaData = todosLosDatos.find(t => t.tema === temaId);
+      const urlData = temaData && temaData.recursos.urls[idx];
+      const type = urlData && urlData.type ? urlData.type : 'web';
+      
+      localStorage.setItem('sTICdOpos_iframe_url', url);
+      localStorage.setItem('sTICdOpos_iframe_name', name);
+      localStorage.setItem('sTICdOpos_iframe_tema', temaId);
+      localStorage.setItem('sTICdOpos_iframe_type', type);
+      // Abrir página con iframe (la crearemos después)
+      window.open('iframe_viewer.html', '_self');
+    };
+
+    // Búsqueda
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+
+    searchBtn.addEventListener('click', () => {
+      const searchText = searchInput.value.trim();
+      guardarEstado(searchText, undefined);
+      renderizarTemes(searchText);
+    });
+
+    searchInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        const searchText = searchInput.value.trim();
+        guardarEstado(searchText, undefined);
+        renderizarTemes(searchText);
+      }
+    });
+
+    // Limpiar búsqueda cuando se borra el texto
+    searchInput.addEventListener('input', (e) => {
+      if (e.target.value.trim() === '') {
+        renderizarTemes('');
+      }
+    });
+
+    // Botón limpiar
+    const clearBtn = document.getElementById('clearBtn');
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      limpiarEstado();
+      renderizarTemes('');
+    });
+
+    // Cargar datos al iniciar
+    cargarDatos();
+  </script>
+</body>
+</html>

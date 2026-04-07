@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitxers - sTIC d'Opos</title>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+
+  <link rel="stylesheet" href="assets/styles/loading.css">
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0b1020; color: #e7ecff; margin: 0; padding: 0; }
+    .center { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; }
+    .msg { font-size: 1.3rem; color: #6ae0a7; margin: 40px 0 18px 0; letter-spacing: 0.5px; }
+    .logbox {
+      width: 90vw; max-width: 700px; min-height: 320px; background: #141a2a; color: #e7ecff;
+      border: 1.5px solid #27304a; border-radius: 10px; font-family: monospace; font-size: 1.05rem;
+      padding: 18px 14px; margin-bottom: 10px; box-shadow: 0 4px 18px #0002; white-space: pre-wrap; overflow-y: auto;
+    }
+    #comencarBtn { width: 100%; max-width: 300px; background: linear-gradient(180deg,#2aebad,#21c08d); color: #032217; font-weight: bold; font-size: 1.1rem; padding: 14px 0; border-radius: 12px; border: none; cursor: pointer; margin-top: 10px; }
+    #comencarBtn:disabled { opacity: 0.5; pointer-events: none; }
+    #tornarBtn {
+  display: block;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 200px;
+      background: #27304a;
+      color: #e7ecff;
+      font-size: 1.05rem;
+      padding: 10px 0;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    .titulo {
+      text-align: center;
+      color: #6ae0a7;
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+        h1 { text-align: center; color: #6ae0a7; }
+
+    /* mini-btn styles moved to the correct place above. */
+  </style>
+  <script src="assets/js/loading.js"></script>
+  <script src="assets/js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <h1>👨‍💻 Selecció fitxers</h1>
+  <div class="center">
+    <div class="logbox" id="logbox"></div>
+    <button id="comencarBtn" disabled>començar!</button>
+    <button id="tornarBtn">⬅️ Tornar</button>
+  </div>
+  <script>
+    // Mostrar spinner hasta que se cargue el manifest
+    if (typeof showLoadingSpinner === 'function') showLoadingSpinner('Carregant fitxers...');
+
+    // Usar la función checkUserAuth desde login.js como login.checkUserAuth
+    document.addEventListener('DOMContentLoaded', function() {
+      const userName = localStorage.getItem(LS_KEYS.USER_NAME);
+      const userPass = localStorage.getItem(LS_KEYS.USER_PASS);
+      login.checkUserAuth(userName, userPass);
+    }, {once:true});
+
+    // Log helper
+    const logbox = document.getElementById('logbox');
+    function log(msg) {
+      logbox.textContent += msg + '\n';
+      logbox.scrollTop = logbox.scrollHeight;
+    }
+
+    // Obtener temas seleccionats
+    let temas = [];
+    try {
+      temas = JSON.parse(localStorage.getItem(LS_KEYS.TEMAS) || '[]');
+    } catch (e) { temas = []; }
+
+    if (!temas.length) {
+      log('No hi ha temes seleccionats.');
+    } else {
+      log('Temes seleccionats: ' + temas.join(', '));
+      // Mostrar tipo de test seleccionado
+      let tipoTestLog = null;
+      let dificultatLog = null;
+      let origenLog = null;
+      try {
+  tipoTestLog = localStorage.getItem(LS_KEYS.TIPO_PREGUNTA);
+        if (tipoTestLog && typeof tipoTestLog === 'string') {
+          tipoTestLog = tipoTestLog.replace(/^"|"$/g, '');
+        }
+  dificultatLog = localStorage.getItem(LS_KEYS.DIFICULTAT);
+        if (dificultatLog && typeof dificultatLog === 'string') {
+          dificultatLog = dificultatLog.replace(/^"|"$/g, '');
+        }
+  origenLog = localStorage.getItem(LS_KEYS.ORIGIN);
+        if (origenLog && typeof origenLog === 'string') {
+          origenLog = origenLog.replace(/^"|"$/g, '');
+        }
+      } catch (e) { tipoTestLog = null; dificultatLog = null; origenLog = null; }
+      log('Tipus test: ' + (tipoTestLog ? tipoTestLog : 'Tots'));
+      log('Dificultat: ' + (dificultatLog ? dificultatLog : 'Totes'));
+      log('Origen: ' + (origenLog ? origenLog : 'Tots'));
+      log('--------------------------');
+      // Cargar manifest.json y buscar ficheros que empiecen por los temas seleccionats
+      fetch('testfiles/manifest_date.json')
+        .then(r => r.json())
+        .then(manifest => {
+          let files = Array.isArray(manifest.files) ? manifest.files : [];
+          if (!Array.isArray(files)) {
+            log('Manifest incorrecte.');
+            if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+            return;
+          }
+          // Filtrar por temas seleccionados
+          let encontrados = [];
+          temas.forEach(tema => {
+            encontrados = encontrados.concat(files.filter(f => f.file.startsWith(tema)));
+          });
+          // Eliminar duplicados
+          encontrados = [...new Set(encontrados)];
+          if (!encontrados.length) {
+            log('No s\'ha trobat cap fitxer per als temes seleccionats.');
+            document.getElementById('comencarBtn').disabled = true;
+            document.getElementById('tornarBtn').style.display = 'block';
+            if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+            return;
+          }
+          // Ordenar primero por tema, luego por fecha descendente
+          encontrados.sort((a, b) => {
+            // Extraer el tema (prefijo hasta primer '_' o '-')
+            const temaA = a.file.split(/[-_]/)[0];
+            const temaB = b.file.split(/[-_]/)[0];
+            if (temaA < temaB) return -1;
+            if (temaA > temaB) return 1;
+            // Si el tema es igual, ordenar por fecha descendente
+            const dateA = new Date(a.updated);
+            const dateB = new Date(b.updated);
+            return dateB - dateA; // más nuevo primero
+          });
+          log('Fitxers trobats: ' + encontrados.length);
+          // Botones seleccionar/deseleccionar todos
+          const controlsDiv = document.createElement('div');
+          controlsDiv.style.display = 'flex';
+          controlsDiv.style.gap = '10px';
+          controlsDiv.style.margin = '8px 0 0 0';
+          controlsDiv.style.justifyContent = 'flex-end';
+            const btnSelectAll = document.createElement('button');
+            btnSelectAll.textContent = 'Seleccionar tots';
+            btnSelectAll.className = 'mini-btn mini-btn-green';
+            const btnDeselectAll = document.createElement('button');
+            btnDeselectAll.textContent = 'Deseleccionar';
+            btnDeselectAll.className = 'mini-btn mini-btn-gray';
+          controlsDiv.appendChild(btnSelectAll);
+          controlsDiv.appendChild(btnDeselectAll);
+          logbox.appendChild(controlsDiv);
+
+          // Mostrar un botón por cada fichero encontrado (selección múltiple)
+          const btnsDiv = document.createElement('div');
+          btnsDiv.style.marginTop = '18px';
+          let seleccionats = [];
+          const btnMap = {};
+          encontrados.forEach(ficheroObj => {
+            const fichero = ficheroObj.file;
+            const fecha = ficheroObj.updated;
+            const btn = document.createElement('button');
+            btn.innerHTML = `<span style="font-weight:bold;">${fichero}</span> <span style="color:#9fb0ff;font-size:0.95em;float:right;">${fecha}</span>`;
+            btn.style.display = 'block';
+            btn.style.width = '100%';
+            btn.style.margin = '8px 0';
+            btn.style.background = '#27304a';
+            btn.style.color = '#e7ecff';
+            btn.style.fontSize = '1.08rem';
+            btn.style.border = '1px solid #2a3554';
+            btn.style.borderRadius = '8px';
+            btn.style.padding = '10px 20px';
+            btn.style.cursor = 'pointer';
+            btn.style.textAlign = 'left';
+            btn.onclick = function() {
+              if (seleccionats.includes(fichero)) {
+                // Deseleccionar
+                seleccionats = seleccionats.filter(f => f !== fichero);
+                btn.style.outline = '';
+              } else {
+                // Seleccionar
+                seleccionats.push(fichero);
+                btn.style.outline = '3px solid #6ae0a7';
+              }
+              localStorage.setItem(LS_KEYS.FITXER, JSON.stringify(seleccionats));
+              document.getElementById('comencarBtn').disabled = seleccionats.length === 0;
+            };
+            btnsDiv.appendChild(btn);
+            btnMap[fichero] = btn;
+          });
+          logbox.appendChild(btnsDiv);
+          // Guardar selección inicial y habilitar botón
+          localStorage.setItem(LS_KEYS.FITXER, JSON.stringify(seleccionats));
+          document.getElementById('comencarBtn').disabled = seleccionats.length === 0;
+          // Funcionalidad seleccionar todos
+          btnSelectAll.onclick = function() {
+            seleccionats = encontrados.map(f => f.file);
+            encontrados.forEach(ficheroObj => {
+              btnMap[ficheroObj.file].style.outline = '3px solid #6ae0a7';
+            });
+            localStorage.setItem(LS_KEYS.FITXER, JSON.stringify(seleccionats));
+            document.getElementById('comencarBtn').disabled = seleccionats.length === 0;
+          };
+          // Funcionalidad deseleccionar todos
+          btnDeselectAll.onclick = function() {
+            seleccionats = [];
+            encontrados.forEach(ficheroObj => {
+              btnMap[ficheroObj.file].style.outline = '';
+            });
+            localStorage.setItem(LS_KEYS.FITXER, JSON.stringify(seleccionats));
+            document.getElementById('comencarBtn').disabled = true;
+          };
+          if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+        })
+        .catch(() => {
+          log('No s\'ha pogut carregar el manifest de fitxers.');
+          if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+        });
+    }
+
+    // Acción del botón tornar
+    document.getElementById('tornarBtn').onclick = function() {
+      window.location.href = 'init.html';
+    };
+
+    document.getElementById('comencarBtn').onclick = function() {
+      // Borrar estado anterior de estudio
+      if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+
+      // Leer ficheros seleccionados y concatenar preguntas
+      let fitxers = [];
+      try {
+        fitxers = JSON.parse(localStorage.getItem(LS_KEYS.FITXER) || '[]');
+      } catch (e) { fitxers = []; }
+      if (!Array.isArray(fitxers) || !fitxers.length) {
+        alert('No hi ha fitxers seleccionats.');
+        return;
+      }
+      let preguntesTot = [];
+      let filesLoaded = 0;
+
+      // Leer tipoPregunta, dificultat (array) y origen del localStorage
+      let tipusPreguntaArr = null;
+      let dificultatsArr = null;
+      let origen = null;
+      try {
+  let tipusPreguntaRaw = localStorage.getItem(LS_KEYS.TIPO_PREGUNTA);
+        try {
+          tipusPreguntaArr = JSON.parse(tipusPreguntaRaw);
+        } catch (e) {
+          tipusPreguntaArr = null;
+        }
+        if (!Array.isArray(tipusPreguntaArr)) tipusPreguntaArr = [];
+  let dificultatRaw = localStorage.getItem(LS_KEYS.DIFICULTAT);
+        try {
+          dificultatsArr = JSON.parse(dificultatRaw);
+        } catch (e) {
+          dificultatsArr = null;
+        }
+        if (!Array.isArray(dificultatsArr)) dificultatsArr = [];
+  origen = localStorage.getItem(LS_KEYS.ORIGIN);
+        if (origen && typeof origen === 'string') {
+          origen = origen.replace(/^"|"$/g, '');
+        }
+        if (origen === '' || origen === null || origen === undefined) origen = null;
+      } catch (e) { tipusPreguntaArr = []; dificultatsArr = []; origen = null; }
+
+      fitxers.forEach(fitxer => {
+        fetch('testfiles/' + fitxer)
+          .then(r => r.json())
+          .then(data => {
+            let preguntas = [];
+            if (Array.isArray(data)) {
+              preguntas = data;
+            } else if (Array.isArray(data.preguntes)) {
+              preguntas = data.preguntes;
+            }
+            // Filtrar por tipoPregunta si está definido y no nulo
+            if (Array.isArray(tipusPreguntaArr) && tipusPreguntaArr.length > 0) {
+              preguntas = preguntas.filter(q => tipusPreguntaArr.includes(q.type));
+            }
+            // Filtrar por dificultad: si el array está vacío, no se filtra; si tiene valores, solo se incluyen las dificultades del array
+            if (Array.isArray(dificultatsArr) && dificultatsArr.length > 0) {
+              preguntas = preguntas.filter(q => dificultatsArr.includes(q.difficulty));
+            }
+            // Filtrar por origen si está definido y no nulo
+            if (origen) {
+              preguntas = preguntas.filter(q => (q.origin || '') === origen);
+            }
+            preguntesTot = preguntesTot.concat(preguntas);
+            filesLoaded++;
+            if (filesLoaded === fitxers.length) {
+              // Guardar preguntas concatenadas y navegar
+              localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntesTot));
+              window.location.href = 'estudiar.html';
+            }
+          })
+          .catch(() => {
+            filesLoaded++;
+            if (filesLoaded === fitxers.length) {
+              localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntesTot));
+              window.location.href = 'estudiar.html';
+            }
+          });
+      });
+    };
+  </script>
+</body>
+</html>

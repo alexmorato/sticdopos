@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historial de Fallos - sTIC d'Opos</title>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+
+  <link rel="stylesheet" href="assets/styles/loading.css">
+  <style>
+    body { 
+      font-family: system-ui, sans-serif; 
+      background: #0b1020; 
+      color: #e7ecff; 
+      margin: 0; 
+      padding: 0; 
+    }
+    .center { 
+      min-height: 100vh; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: flex-start; 
+      padding: 20px; 
+    }
+    .titulo {
+      text-align: center;
+      color: #6ae0a7;
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+    .info-box {
+      width: 90vw; 
+      max-width: 900px; 
+      background: #141a2a; 
+      color: #e7ecff;
+      border: 1.5px solid #27304a; 
+      border-radius: 10px; 
+      padding: 18px 14px; 
+      margin-bottom: 20px; 
+      box-shadow: 0 4px 18px #0002;
+    }
+    .stats {
+      display: flex;
+      gap: 10px 20px;
+      flex-wrap: wrap;
+    }
+    .stat-item {
+      font-size: 1.1rem;
+    }
+    .stat-label {
+      color: #6ae0a7;
+      font-weight: bold;
+    }
+    .preguntes-container {
+      width: 90vw; 
+      max-width: 900px; 
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 20px;
+    }
+    .pregunta-card {
+      background: #141a2a;
+      border: 1.5px solid #27304a;
+      border-radius: 10px;
+      padding: 4px 16px;
+      box-shadow: 0 4px 18px #0002;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .pregunta-card.selected {
+      border-color: #21c08d;
+      box-shadow: 0 0 0 3px #21c08d55;
+      background: #18243a;
+    }
+    .pregunta-card:hover {
+      border-color: #6ae0a7;
+    }
+    .pregunta-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      gap: 15px;
+    }
+    .pregunta-info {
+      flex: 1;
+    }
+    .pregunta-text {
+      font-size: 1.1rem;
+      color: #e7ecff;
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+    .pregunta-meta {
+      display: flex;
+      gap: 2px 15px;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+      color: #a0a8c0;
+    }
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .meta-label {
+      color: #6ae0a7;
+      font-weight: 600;
+    }
+    .pregunta-actions {
+      display: flex;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    /* Responsive: Mobile */
+    @media (max-width: 768px) {
+      .titulo {
+        font-size: 1.8rem;
+      }
+
+      .pregunta-header {
+        flex-direction: column;
+        gap: 12px;
+      }
+      .pregunta-info {
+        width: 100%;
+      }
+      .pregunta-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+    }
+    .btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .btn-detail {
+      background: #2a5f8a;
+      color: #e7ecff;
+    }
+    .btn-detail:hover {
+      background: #3a7faa;
+    }
+    .btn-delete {
+      background: #8a2a2a;
+      color: #e7ecff;
+    }
+    .btn-delete:hover {
+      background: #aa3a3a;
+    }
+    .btn-primary {
+      width: 100%;
+      max-width: 300px;
+      background: linear-gradient(180deg,#2aebad,#21c08d);
+      color: #032217;
+      font-weight: bold;
+      font-size: 1.1rem;
+      padding: 14px 0;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn-secondary {
+      width: 100%;
+      max-width: 300px;
+      background: #27304a;
+      color: #e7ecff;
+      font-size: 1.05rem;
+      padding: 10px 0;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    #filtrarTemaBtn.btn-secondary {
+      padding-left: 22px;
+      padding-right: 22px;
+      width: auto;
+      max-width: none;
+      margin-top: 0px;
+    }
+    .btn-danger {
+      width: 100%;
+      max-width: 300px;
+      background: #8a2a2a;
+      color: #e7ecff;
+      font-size: 1.05rem;
+      padding: 10px 0;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn-danger:hover {
+      background: #aa3a3a;
+    }
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: #a0a8c0;
+      font-size: 1.2rem;
+    }
+    /* Modal Styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.7);
+      overflow: auto;
+    }
+    .modal-content {
+      background: #141a2a;
+      margin: 5% auto;
+      padding: 30px;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 700px;
+      box-shadow: 0 8px 32px #0004;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #27304a;
+    }
+    .modal-title {
+      color: #6ae0a7;
+      font-size: 1.4rem;
+      font-weight: bold;
+      flex: 1;
+      line-height: 1.4;
+    }
+    .close {
+      color: #a0a8c0;
+      font-size: 32px;
+      font-weight: bold;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0 10px;
+      margin-left: 15px;
+      flex-shrink: 0;
+    }
+    .close:hover {
+      color: #6ae0a7;
+    }
+    .modal-section {
+      margin-bottom: 20px;
+    }
+    .modal-section-title {
+      color: #6ae0a7;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .modal-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #0b1020;
+      border-radius: 8px;
+    }
+    .answer-option {
+      padding: 12px 16px;
+      background: #0b1020;
+      border: 2px solid #27304a;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+    .answer-option.correct {
+      border-color: #21c08d;
+      background: rgba(33, 192, 141, 0.1);
+    }
+    .answer-option.selected {
+      border-color: #8a2a2a;
+      background: rgba(138, 42, 42, 0.1);
+    }
+    .answer-option.correct.selected {
+      border-color: #21c08d;
+      background: rgba(33, 192, 141, 0.15);
+    }
+    .answer-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-left: 10px;
+    }
+    .badge-correct {
+      background: #21c08d;
+      color: #032217;
+    }
+    .badge-selected {
+      background: #8a2a2a;
+      color: #fff;
+    }
+    .answer-rationale {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid #27304a;
+      color: #a0a8c0;
+      font-size: 0.95rem;
+      font-style: italic;
+    }
+    .buttons-container {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .custom-modal {
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 14px;
+      box-shadow: 0 8px 32px #0006;
+      padding: 32px 28px 24px 28px;
+      width: 95vw;
+      max-width: 420px;
+      min-width: 260px;
+      position: relative;
+      z-index: 100000;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+    .custom-modal-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0,0,0,0.45);
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      z-index: 99999;
+    }
+    .custom-modal-title {
+      font-size: 1.2rem;
+      color: #6ae0a7;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+    .custom-modal-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .custom-modal-accept {
+      background: #2aebad;
+      color: #032217;
+      font-weight: bold;
+      padding: 8px 22px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+    .custom-modal-cancel {
+      background: #27304a;
+      color: #e7ecff;
+      padding: 8px 22px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+    .dif-btn {
+      border-radius: 8px;
+      padding: 8px 14px;
+      cursor: pointer;
+      transition: all 0.15s;
+      font-weight: normal;
+      background: #1b223a;
+      color: #e7ecff;
+      border: 1px solid #2a3554;
+      margin-bottom: 4px;
+    }
+    .dif-btn.selected {
+      background: #2aebad;
+      color: #032217;
+      border: 2.5px solid #1aff4b;
+      font-weight: bold;
+    }
+
+    /* Botón hamburguesa */
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    /* Menú desplegable */
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 200px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .menu-close-btn {
+      width: 100%;
+      padding: 12px;
+      background: #2aebad;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #032217;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+      transform: translateY(-1px);
+    }
+
+    .btn-menu-action {
+      width: 100%;
+      padding: 12px;
+      background: #27304a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-menu-action:hover {
+      background: #3a4a6a;
+      transform: translateY(-1px);
+    }
+
+    .btn-menu-action.primary {
+      background: linear-gradient(180deg, #2aebad, #21c08d);
+      color: #032217;
+    }
+
+    .btn-menu-action.primary:hover {
+      background: linear-gradient(180deg, #21c08d, #1a9970);
+    }
+
+    .btn-menu-action.danger {
+      background: #8a2a2a;
+    }
+
+    .btn-menu-action.danger:hover {
+      background: #aa3a3a;
+    }
+
+    .btn-menu-fullscreen {
+      width: 100%;
+      padding: 12px;
+      background: #2a5f8a;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .btn-menu-fullscreen:hover {
+      background: #3a7faa;
+      transform: translateY(-1px);
+    }
+
+    .btn-scroll-top {
+      width: 100%;
+      max-width: 300px;
+      background: #2a5f8a;
+      color: #e7ecff;
+      font-size: 1.05rem;
+      padding: 10px 0;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .btn-scroll-top:hover {
+      background: #3a7faa;
+    }
+
+    @media (max-width: 768px) {
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 170px;
+      }
+    }
+
+    /* Para el <hr> */
+    .menu-separator {
+      margin: 12px 8px;
+      border: none;
+      border-top: 1px solid #ddd;
+      width: 100%;
+    }
+
+  </style>
+  <script src="assets/js/loading.js"></script>
+  <script src="assets/js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+  <script src="assets/js/toast.js"></script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Menú desplegable -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">
+      ☰ Tancar
+    </button>
+    <button class="btn-menu-fullscreen" id="menuFullscreenBtn">
+      ⛶ Pantalla completa
+    </button>
+    <button class="btn-menu-action" id="menuIndexBtn">
+      👨‍💻 Menu
+    </button>
+    <!-- Separador después del botón Menu -->
+    <hr class="menu-separator">
+    <button class="btn-menu-action primary" id="menuRepassarBtn" style="display:none;">
+      🔁 Repassar
+    </button>
+    <button class="btn-menu-action" id="menuCopiarBtn" style="display:none;">
+      📋 Copiar
+    </button>
+    <button class="btn-menu-action" id="menuDescargarBtn" style="display:none;">
+      💾 Descargar
+    </button>
+    <button class="btn-menu-action danger" id="menuEsborrarBtn" style="display:none;">
+      🗑️ Esborrar
+    </button>
+  </div>
+
+  <div class="center">
+    <h1 class="titulo">📋 Historial d'errors</h1>
+    
+    <div class="info-box">
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-label">Total preguntes:</span>
+          <span id="totalPreguntes">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Última actualització:</span>
+          <span id="ultimaActualizacion">-</span>
+        </div>
+        <div class="stat-item">
+          <button id="filtrarTemaBtn" class="btn-secondary">🔎 Filtrar per tema</button>
+        </div>
+        <div class="stat-item">
+          <label for="ordenarSelect" style="color: #6ae0a7; font-weight: bold; margin-right: 8px;">Ordenar per:</label>
+          <select id="ordenarSelect" style="padding: 8px 14px; border-radius: 8px; border: 1px solid #27304a; background: #1b223a; color: #e7ecff; cursor: pointer; font-size: 1rem;">
+            <option value="fecha">📅 Data (recent)</option>
+            <option value="count">🔢 Count</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="preguntes-container" id="preguntesContainer">
+      <div class="empty-state">No hi ha preguntes a l'historial de fallos.</div>
+    </div>
+
+    <div class="buttons-container">
+      <button class="btn-scroll-top" id="scrollTopBtn">⬆️ Tornar a dalt</button>
+    </div>
+  </div>
+
+  <!-- Modal para mostrar detalles -->
+  <div id="detailModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <span class="close">&times;</span>
+      </div>
+      <div class="modal-meta" id="modalMeta"></div>
+      <div class="modal-section">
+        <div class="modal-section-title">Opcions de Resposta:</div>
+        <div id="modalAnswers"></div>
+      </div>
+      <div class="modal-section" id="modalHintSection" style="display:none;">
+        <div class="modal-section-title">💡 Pista:</div>
+        <div id="modalHint"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    if (typeof showLoadingSpinner === 'function') showLoadingSpinner('Carregant historial...');
+
+    // Variables globales
+    let historialFallos = [];
+    let historialFallosFiltradosURL = null; // Historial filtrado por URL params (null = sin filtros URL)
+    let temasFiltrados = [];
+    let ordenarPor = 'fecha'; // 'fecha' o 'count'
+    const preguntesContainer = document.getElementById('preguntesContainer');
+    const modal = document.getElementById('detailModal');
+    const closeModal = document.getElementsByClassName('close')[0];
+
+    // Referencias al menú hamburguesa
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const menuFullscreenBtn = document.getElementById('menuFullscreenBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+    const menuRepassarBtn = document.getElementById('menuRepassarBtn');
+    const menuCopiarBtn = document.getElementById('menuCopiarBtn');
+    const menuDescargarBtn = document.getElementById('menuDescargarBtn');
+    const menuEsborrarBtn = document.getElementById('menuEsborrarBtn');
+
+    // Toggle menú
+    menuBtn.addEventListener('click', () => {
+      menuPanel.classList.toggle('visible');
+    });
+
+    // Cerrar menú
+    menuCloseBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+    });
+
+    let cerrarMenuAlClickFuera = false;
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!cerrarMenuAlClickFuera) return;
+
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+        menuPanel.classList.remove('visible');
+      }
+    });
+
+
+    // Botón fullscreen
+    menuFullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().then(() => {
+          menuFullscreenBtn.innerHTML = '⛶ Sortir pantalla completa';
+          menuPanel.classList.remove('visible');
+        }).catch(err => {
+          console.error('Error al activar fullscreen:', err);
+        });
+      } else {
+        document.exitFullscreen().then(() => {
+          menuFullscreenBtn.innerHTML = '⛶ Pantalla completa';
+          menuPanel.classList.remove('visible');
+        });
+      }
+    });
+
+    // Actualizar texto del botón cuando se sale de fullscreen con ESC
+    document.addEventListener('fullscreenchange', () => {
+      if (!document.fullscreenElement) {
+        menuFullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Botón menu principal
+    menuIndexBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    // Botón volver arriba
+    document.getElementById('scrollTopBtn').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    // Modal para seleccionar múltiples temas
+    function showFiltrarTemaModal() {
+      if (document.getElementById('filtrarTemaModal')) return;
+      // Obtener todos los subjectId únicos del historial
+      const temasUnicos = Array.from(new Set(historialFallos.map(p => p.subjectId).filter(Boolean)));
+      // Obtener los seleccionados actualmente
+      let seleccionados = temasFiltrados;
+      const modal = document.createElement('div');
+      modal.id = 'filtrarTemaModal';
+      modal.className = 'custom-modal-bg';
+      modal.innerHTML = `
+        <div class="custom-modal">
+          <div class="custom-modal-title">Selecciona temes per filtrar</div>
+          <div id="temaBtns" class="custom-modal-btns"></div>
+          <div class="custom-modal-actions">
+            <button id="temaAceptarBtn" class="custom-modal-accept">Aceptar</button>
+            <button id="temaCancelarBtn" class="custom-modal-cancel">Cancelar</button>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+      // Botones de tema
+      const btnsDiv = modal.querySelector('#temaBtns');
+      temasUnicos.forEach(tema => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = tema;
+        btn.value = tema;
+        btn.className = 'dif-btn';
+        if (seleccionados.includes(tema)) btn.classList.add('selected');
+        btn.addEventListener('click', function() {
+          btn.classList.toggle('selected');
+        });
+        btnsDiv.appendChild(btn);
+      });
+      // Botón aceptar
+      modal.querySelector('#temaAceptarBtn').onclick = function() {
+        temasFiltrados = Array.from(btnsDiv.querySelectorAll('button.selected')).map(b => b.value);
+        document.body.removeChild(modal);
+        renderizarPreguntes(); // Aplicar filtro inmediatamente
+      };
+      // Botón cancelar
+      modal.querySelector('#temaCancelarBtn').onclick = function() {
+        document.body.removeChild(modal);
+      };
+    }
+  // Abrir modal al hacer click en el botón
+  document.getElementById('filtrarTemaBtn').addEventListener('click', showFiltrarTemaModal);
+
+  // Event listener para el selector de ordenación
+  document.getElementById('ordenarSelect').addEventListener('change', function(e) {
+    ordenarPor = e.target.value;
+    renderizarPreguntes();
+  });
+
+    // Cargar historial del localStorage
+    function cargarHistorial() {
+      try {
+        const historialStr = localStorage.getItem(LS_KEYS.HISTORIAL_FALLOS);
+        historialFallos = historialStr ? JSON.parse(historialStr) : [];
+        
+        // Aplicar filtros de URL si existen
+        aplicarFiltrosURL();
+      } catch (e) {
+        console.error('Error al cargar historial:', e);
+        historialFallos = [];
+      }
+      actualizarUI();
+    }
+
+    // Aplicar filtros desde URL params
+    function aplicarFiltrosURL() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const subjectIdParam = urlParams.get('subjectid');
+      const questionParam = urlParams.get('question');
+
+      // Si no hay parámetros, usar historial completo
+      if (!subjectIdParam && !questionParam) {
+        historialFallosFiltradosURL = null;
+        return;
+      }
+
+      // Convertir parámetros en arrays de palabras (dividir por espacios)
+      const subjectIdWords = subjectIdParam ? subjectIdParam.toLowerCase().split(/\s+/).filter(Boolean) : [];
+      const questionWords = questionParam ? questionParam.toLowerCase().split(/\s+/).filter(Boolean) : [];
+
+      // Filtrar preguntas
+      historialFallosFiltradosURL = historialFallos.filter(pregunta => {
+        let coincide = false;
+
+        // Verificar coincidencias en subjectId
+        if (subjectIdWords.length > 0) {
+          const subjectId = (pregunta.subjectId || '').toLowerCase();
+          coincide = subjectIdWords.some(word => subjectId.includes(word));
+        }
+
+        // Verificar coincidencias en question/pregunta
+        if (questionWords.length > 0) {
+          const questionText = ((pregunta.question || pregunta.pregunta) || '').toLowerCase();
+          const coincideQuestion = questionWords.some(word => questionText.includes(word));
+          
+          // Si había filtro de subjectId, usar OR, si no, usar el resultado de question
+          coincide = subjectIdWords.length > 0 ? (coincide || coincideQuestion) : coincideQuestion;
+        }
+
+        return coincide;
+      });
+
+      // Si hay filtros aplicados, mostrar toast informativo
+      if (historialFallosFiltradosURL.length > 0) {
+        const filtrosAplicados = [];
+        if (subjectIdParam) filtrosAplicados.push(`SubjectId: "${subjectIdParam}"`);
+        if (questionParam) filtrosAplicados.push(`Question: "${questionParam}"`);
+        
+        setTimeout(() => {
+          if (window.toast && typeof window.toast.showToast === 'function') {
+            toast.showToast(`🔍 Filtre URL: ${historialFallosFiltradosURL.length} pregunta${historialFallosFiltradosURL.length > 1 ? 's' : ''} trobada${historialFallosFiltradosURL.length > 1 ? 's' : ''}`);
+          }
+        }, 500);
+      } else {
+        // No hay coincidencias con los filtros
+        setTimeout(() => {
+          if (window.toast && typeof window.toast.showToast === 'function') {
+            toast.showToast(`⚠️ No hi ha coincidències amb els filtres introduïts. Prova de canviar els paràmetres de cerca.`, 5000);
+          }
+        }, 500);
+      }
+    }
+
+    // Actualizar interfaz de usuario
+    function actualizarUI() {
+      // Actualizar estadísticas
+      document.getElementById('totalPreguntes').textContent = historialFallos.length;
+      
+      if (historialFallos.length > 0) {
+        // Encontrar la fecha más reciente
+        const fechas = historialFallos
+          .filter(p => p.fecha)
+          .map(p => new Date(p.fecha))
+          .sort((a, b) => b - a);
+        
+        if (fechas.length > 0) {
+          const ultimaFecha = fechas[0];
+          document.getElementById('ultimaActualizacion').textContent = 
+            ultimaFecha.toLocaleDateString('ca-ES') + ' ' + ultimaFecha.toLocaleTimeString('ca-ES', {hour: '2-digit', minute: '2-digit'});
+        } else {
+          document.getElementById('ultimaActualizacion').textContent = '-';
+        }
+
+        // Mostrar botones del menú
+        menuRepassarBtn.style.display = 'block';
+        menuCopiarBtn.style.display = 'block';
+        menuDescargarBtn.style.display = 'block';
+        menuEsborrarBtn.style.display = 'block';
+
+        // Renderizar preguntas
+        renderizarPreguntes();
+      } else {
+        document.getElementById('ultimaActualizacion').textContent = '-';
+        menuRepassarBtn.style.display = 'none';
+        menuCopiarBtn.style.display = 'none';
+        menuDescargarBtn.style.display = 'none';
+        menuEsborrarBtn.style.display = 'none';
+        preguntesContainer.innerHTML = '<div class="empty-state">No hi ha preguntes a l\'historial de fallos.</div>';
+      }
+
+      if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
+    }
+
+    // Renderizar lista de preguntas
+    function renderizarPreguntes() {
+      preguntesContainer.innerHTML = '';
+      
+      // Determinar qué historial usar: filtrado por URL o completo
+      let preguntasAMostrar = historialFallosFiltradosURL !== null ? historialFallosFiltradosURL : historialFallos;
+      
+      // Aplicar filtro de temas si existe
+      if (temasFiltrados.length > 0) {
+        preguntasAMostrar = preguntasAMostrar.filter(p => temasFiltrados.includes(p.subjectId));
+      }
+
+      // Si no hay preguntas para mostrar después de aplicar filtros
+      if (preguntasAMostrar.length === 0) {
+        preguntesContainer.innerHTML = '<div class="empty-state">No hi ha preguntes que coincideixin amb els filtres aplicats.</div>';
+        return;
+      }
+
+      // Ordenar según criterio seleccionado
+      preguntasAMostrar = [...preguntasAMostrar]; // Crear copia para no modificar el original
+      if (ordenarPor === 'fecha') {
+        preguntasAMostrar.sort((a, b) => {
+          const fechaA = a.fecha ? new Date(a.fecha) : new Date(0);
+          const fechaB = b.fecha ? new Date(b.fecha) : new Date(0);
+          return fechaB - fechaA; // Descendente (más reciente primero)
+        });
+      } else if (ordenarPor === 'count') {
+        preguntasAMostrar.sort((a, b) => {
+          const countA = a.count || 1;
+          const countB = b.count || 1;
+          return countB - countA; // Descendente (mayor count primero)
+        });
+      }
+      preguntasAMostrar.forEach((pregunta, index) => {
+        const card = document.createElement('div');
+        card.className = 'pregunta-card';
+        card.dataset.guid = pregunta.guid; // Guardar guid en lugar de index
+        const questionText = pregunta.question || pregunta.pregunta || 'Pregunta sense text';
+        const subjectId = pregunta.subjectId || '-';
+        const difficulty = pregunta.difficulty || '-';
+        const origin = pregunta.origin || '-';
+        const fecha = pregunta.fecha ? new Date(pregunta.fecha) : null;
+        const count = pregunta.count || 1;
+        // Crear resumen truncado de la pregunta
+        const maxLength = 150;
+        const resumen = questionText.length > maxLength 
+          ? questionText.substring(0, maxLength) + '...' 
+          : questionText;
+        card.innerHTML = `
+          <div class="pregunta-header">
+            <div class="pregunta-info">
+              <div class="pregunta-text">${resumen}</div>
+              <div class="pregunta-meta">
+                <div class="meta-item">
+                  <span class="meta-label">Tema:</span>
+                  <span>${subjectId}</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">Dificultat:</span>
+                  <span>${difficulty}</span>
+                </div>
+                <div class="meta-item">
+                  <span class="meta-label">Origen:</span>
+                  <span>${origin}</span>
+                </div>
+                ${fecha ? ` 
+                <div class="meta-item">
+                  <span class="meta-label">Data:</span>
+                  <span>${fecha.toLocaleDateString('ca-ES')}</span>
+                </div>
+                ` : ''}
+                <div class="meta-item">
+                  <span class="meta-label">Count:</span>
+                  <span>${count}</span>
+                </div>
+              </div>
+            </div>
+            <div class="pregunta-actions">
+              <button class="btn btn-detail" data-guid="${pregunta.guid}">👁️</button>
+              <button class="btn btn-delete" data-guid="${pregunta.guid}">🗑️</button>
+            </div>
+          </div>
+        `;
+
+        // Selección visual y lógica
+        card.addEventListener('click', function(e) {
+          // Evitar seleccionar al hacer click en los botones internos
+          if (e.target.closest('.pregunta-actions')) return;
+          card.classList.toggle('selected');
+        });
+
+        // Si hay temas filtrados o filtros URL, marcar como seleccionada
+        if (temasFiltrados.length > 0 || (historialFallosFiltradosURL !== null && historialFallosFiltradosURL.length > 0)) {
+          card.classList.add('selected');
+        }
+
+        preguntesContainer.appendChild(card);
+      });
+
+      // Añadir event listeners a los botones
+      document.querySelectorAll('.btn-detail').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const guid = e.target.dataset.guid;
+          mostrarDetalle(guid);
+        });
+      });
+
+      document.querySelectorAll('.btn-delete').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const guid = e.target.dataset.guid;
+          borrarPregunta(guid);
+        });
+      });
+
+      // Actualizar texto de los botones según selección
+      actualizarBotonesSegunSeleccion();
+
+      // Añadir event listener para actualizar el texto al seleccionar/deseleccionar
+      document.querySelectorAll('.pregunta-card').forEach(card => {
+        card.addEventListener('click', function(e) {
+          if (e.target.closest('.pregunta-actions')) return;
+          setTimeout(actualizarBotonesSegunSeleccion, 0);
+        });
+      });
+
+      // Actualiza el texto de los botones según la selección
+      function actualizarBotonesSegunSeleccion() {
+        const btnCopiar = menuCopiarBtn;
+        const btnDescargar = menuDescargarBtn;
+        const btnRepassar = menuRepassarBtn;
+        const btnBorrar = menuEsborrarBtn;
+        const seleccionadas = document.querySelectorAll('.pregunta-card.selected').length;
+        const total = historialFallos.length;
+        if (btnCopiar) {
+          if (seleccionadas === 0) {
+            btnCopiar.textContent = '📋 Copiar Historial';
+          } else {
+            btnCopiar.textContent = `📋 Copiar ${seleccionadas} de ${total}`;
+          }
+        }
+        if (btnDescargar) {
+          if (seleccionadas === 0) {
+            btnDescargar.textContent = '💾 Descargar Historial';
+          } else {
+            btnDescargar.textContent = `💾 Descargar ${seleccionadas} de ${total}`;
+          }
+        }
+        if (btnRepassar) {
+          if (seleccionadas === 0) {
+            btnRepassar.textContent = '🔁 Repassar Historial';
+          } else {
+            btnRepassar.textContent = `🔁 Repassar ${seleccionadas} de ${total}`;
+          }
+        }
+        if (btnBorrar) {
+          if (seleccionadas === 0) {
+            btnBorrar.textContent = '🗑️ Esborrar Tot';
+          } else {
+            btnBorrar.textContent = `🗑️ Esborrar ${seleccionadas} de ${total}`;
+          }
+        }
+      }
+    }
+
+    // Mostrar detalle en modal
+    function mostrarDetalle(guid) {
+      const pregunta = historialFallos.find(p => p.guid === guid);
+      if (!pregunta) return;
+
+      const questionText = pregunta.question || pregunta.pregunta || 'Pregunta sense text';
+      document.getElementById('modalTitle').textContent = questionText;
+
+      // Meta información
+      const metaHTML = `
+        <div class="meta-item">
+          <span class="meta-label">Tema:</span>
+          <span>${pregunta.subjectId || '-'}</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Tipus:</span>
+          <span>${pregunta.type || '-'}</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Dificultat:</span>
+          <span>${pregunta.difficulty || '-'}</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Origen:</span>
+          <span>${pregunta.origin || '-'}</span>
+        </div>
+      `;
+      document.getElementById('modalMeta').innerHTML = metaHTML;
+
+      // Respuestas
+      const answersHTML = (pregunta.answerOptions || []).map((option) => {
+        const isCorrect = option.isCorrect || false;
+        const isSelected = option.selectedByUser || false;
+        let classes = 'answer-option';
+        let badges = '';
+        
+        if (isCorrect) {
+          classes += ' correct';
+          badges += '<span class="answer-badge badge-correct">✓ CORRECTA</span>';
+        }
+        if (isSelected) {
+          classes += ' selected';
+          badges += '<span class="answer-badge badge-selected">Seleccionada</span>';
+        }
+
+        const rationale = option.rationale || option.raonationale || '';
+
+        return `
+          <div class="${classes}">
+            <div>
+              ${option.text || option.resposta || '-'}
+              ${badges}
+            </div>
+            ${rationale ? `<div class="answer-rationale">${rationale}</div>` : ''}
+          </div>
+        `;
+      }).join('');
+      document.getElementById('modalAnswers').innerHTML = answersHTML || '<p>No hi ha opcions de resposta.</p>';
+
+      // Pista
+      const hint = pregunta.hint || pregunta.pista || '';
+      if (hint) {
+        document.getElementById('modalHint').textContent = hint;
+        document.getElementById('modalHintSection').style.display = 'block';
+      } else {
+        document.getElementById('modalHintSection').style.display = 'none';
+      }
+
+      modal.style.display = 'block';
+    }
+
+    // Borrar pregunta
+    function borrarPregunta(guid) {
+      if (confirm('Segur que vols esborrar aquesta pregunta de l\'historial?')) {
+        const index = historialFallos.findIndex(p => p.guid === guid);
+        if (index !== -1) {
+          historialFallos.splice(index, 1);
+          guardarHistorial();
+          actualizarUI();
+        }
+      }
+    }
+
+    // Guardar historial en localStorage
+    function guardarHistorial() {
+      try {
+        localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(historialFallos));
+      } catch (e) {
+        console.error('Error al guardar historial:', e);
+        alert('Error al guardar els canvis');
+      }
+    }
+
+    // Cerrar modal
+    closeModal.onclick = function() {
+      modal.style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = 'none';
+      }
+    }
+
+    // Conectar botones del menú a las acciones
+    menuRepassarBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+      repassarAction();
+    });
+
+    menuCopiarBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+      copiarAction();
+    });
+
+    menuDescargarBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+      descargarAction();
+    });
+
+    menuEsborrarBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+      esborrarAction();
+    });
+
+    function repassarAction() {
+      if (historialFallos.length > 0) {
+        // Obtener las seleccionadas
+        const selectedCards = Array.from(document.querySelectorAll('.pregunta-card.selected'));
+        let preguntasAEstudiar = [];
+        if (selectedCards.length > 0) {
+          preguntasAEstudiar = selectedCards.map(card => {
+            const guid = card.dataset.guid;
+            return historialFallos.find(p => p.guid === guid);
+          }).filter(p => p !== undefined);
+        } else {
+          preguntasAEstudiar = historialFallos;
+        }
+        // Limpiar estado anterior
+        if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+
+        // Guardar las preguntas a estudiar
+        localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntasAEstudiar));
+        localStorage.setItem(LS_KEYS.REPASAR_FALLOS, "true");
+
+        // Navegar a estudiar
+        window.location.href = 'estudiar.html';
+      }
+    }
+
+    // Funciones de acción
+    function copiarAction() {
+      // Copiar solo las preguntas seleccionadas
+      const selectedCards = Array.from(document.querySelectorAll('.pregunta-card.selected'));
+      let preguntasSeleccionadas = [];
+      if (selectedCards.length > 0) {
+        preguntasSeleccionadas = selectedCards.map(card => {
+          const guid = card.dataset.guid;
+          return historialFallos.find(p => p.guid === guid);
+        }).filter(p => p !== undefined);
+      } else {
+        preguntasSeleccionadas = historialFallos;
+      }
+      if (preguntasSeleccionadas.length > 0) {
+        const jsonStr = JSON.stringify(preguntasSeleccionadas, null, 2);
+        navigator.clipboard.writeText(jsonStr).then(() => {
+          if (window.toast && typeof window.toast.showToast === 'function') {
+            toast.showToast('Copiat al portapapers!');
+          }
+        }).catch(err => {
+          console.error('Error al copiar:', err);
+          if (window.toast && typeof window.toast.showToast === 'function') {
+            toast.showToast('No s\'ha pogut copiar al portapapers');
+          } else {
+            alert('No s\'ha pogut copiar al portapapers');
+          }
+        });
+      }
+    }
+
+    function descargarAction() {
+      // Descargar solo las preguntas seleccionadas
+      const selectedCards = Array.from(document.querySelectorAll('.pregunta-card.selected'));
+      let preguntasSeleccionadas = [];
+      if (selectedCards.length > 0) {
+        preguntasSeleccionadas = selectedCards.map(card => {
+          const guid = card.dataset.guid;
+          return historialFallos.find(p => p.guid === guid);
+        }).filter(p => p !== undefined);
+      } else {
+        preguntasSeleccionadas = historialFallos;
+      }
+      if (preguntasSeleccionadas.length > 0) {
+        const jsonStr = JSON.stringify(preguntasSeleccionadas, null, 2);
+        const blob = new Blob([jsonStr], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+        const username = localStorage.getItem(LS_KEYS.USER_NAME);
+
+        a.download = `historial-${username}-${timestamp}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        if (window.toast && typeof window.toast.showToast === 'function') {
+          toast.showToast('Descarregant JSON...');
+        }
+      }
+    }
+
+    function esborrarAction() {
+      // Obtener GUIDs de las preguntas seleccionadas
+      const selectedCards = Array.from(document.querySelectorAll('.pregunta-card.selected'));
+      let guidsSeleccionados = [];
+      
+      if (selectedCards.length > 0) {
+        guidsSeleccionados = selectedCards.map(card => card.dataset.guid).filter(Boolean);
+      }
+
+      const total = historialFallos.length;
+      const numSeleccionadas = guidsSeleccionados.length > 0 ? guidsSeleccionados.length : total;
+
+      if (numSeleccionadas > 0) {
+        if (confirm(`Segur que vols ⚠️ esborrar ${numSeleccionadas} de ${total} ⚠️ l'historial de fallos? Aquesta acció no es pot desfer.`)) {
+          if (guidsSeleccionados.length > 0 && guidsSeleccionados.length < total) {
+            // Borrar solo las seleccionadas: conservar las que NO están en guidsSeleccionados
+            historialFallos = historialFallos.filter(p => !guidsSeleccionados.includes(p.guid));
+          } else {
+            // Borrar todo
+            historialFallos = [];
+          }
+          guardarHistorial();
+          actualizarUI();
+          if (window.toast && typeof window.toast.showToast === 'function') {
+            toast.showToast(`✅ S'han esborrat ${numSeleccionadas} pregunta${numSeleccionadas > 1 ? 'es' : ''}`);
+          }
+          // Recargar la página tras borrar
+          setTimeout(() => { window.location.reload(); }, 600);
+        }
+      }
+    }
+
+    // Cargar historial al iniciar
+    cargarHistorial();
+  </script>
+</body>
+</html>
