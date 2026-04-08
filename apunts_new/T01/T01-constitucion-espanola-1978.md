@@ -19,51 +19,51 @@ En consecuencia, las Cortes aprueban y el pueblo español ratifica la siguiente
 
 ## TÍTULO PRELIMINAR
 
-##### Artículo 1
+### Artículo 1
 
 1. España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.
 2. La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.
 3. La forma política del Estado español es la Monarquía parlamentaria.
 
-##### Artículo 2
+### Artículo 2
 
 La Constitución se fundamenta en la indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles, y reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones que la integran y la solidaridad entre todas ellas.
 
-##### Artículo 3
+### Artículo 3
 
 1. El castellano es la lengua española oficial del Estado.
 Todos los españoles tienen el deber de conocerla y el derecho a usarla.
 2. Las demás lenguas españolas serán también oficiales en las respectivas Comunidades Autónomas de acuerdo con sus Estatutos.
 3. La riqueza de las distintas modalidades lingüísticas de España es un patrimonio cultural que será objeto de especial respeto y protección.
 
-##### Artículo 4
+### Artículo 4
 
 1. La bandera de España está formada por tres franjas horizontales, roja, amarilla y roja, siendo la amarilla de doble anchura que cada una de las rojas.
 2. Los Estatutos podrán reconocer banderas y enseñas propias de las Comunidades Autónomas.
 Estas se utilizarán junto a la bandera de España en sus edificios públicos y en sus actos oficiales.
 
-##### Artículo 5
+### Artículo 5
 
 La capital del Estado es la villa de Madrid.
 
-##### Artículo 6
+### Artículo 6
 
 Los partidos políticos expresan el pluralismo político, concurren a la formación y manifestación de la voluntad popular y son instrumento fundamental para la participación política.
 Su creación y el ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley.
 Su estructura interna y funcionamiento deberán ser democráticos.
 
-##### Artículo 7
+### Artículo 7
 
 Los sindicatos de trabajadores y las asociaciones empresariales contribuyen a la defensa y promoción de los intereses económicos y sociales que les son propios.
 Su creación y el ejercicio de su actividad son libres dentro del respeto a la Constitución y a la ley.
 Su estructura interna y funcionamiento deberán ser democráticos.
 
-##### Artículo 8
+### Artículo 8
 
 1. Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire, tienen como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional.
 2. Una ley orgánica regulará las bases de la organización militar conforme a los principios de la presente Constitución.
 
-##### Artículo 9
+### Artículo 9
 
 1. Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico.
 2. Corresponde a los poderes públicos promover las condiciones para que la libertad y la igualdad del individuo y de los grupos en que se integra sean reales y efectivas; remover los obstáculos que impidan o dificulten su plenitud y facilitar la participación de todos los ciudadanos en la vida política, económica, cultural y social.
@@ -73,7 +73,7 @@ Su estructura interna y funcionamiento deberán ser democráticos.
 
 De los derechos y deberes fundamentales
 
-##### Artículo 10
+### Artículo 10
 
 1. La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad, el respeto a la ley y a los derechos de los demás son fundamento del orden político y de la paz social.
 2. Las normas relativas a los derechos fundamentales y a las libertades que la Constitución reconoce se interpretarán de conformidad con la Declaración Universal de Derechos Humanos y los tratados y acuerdos internacionales sobre las mismas materias ratificados por España.
@@ -82,18 +82,18 @@ De los derechos y deberes fundamentales
 
 De los españoles y los extranjeros
 
-##### Artículo 11
+#### Artículo 11
 
 1. La nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley.
 2. Ningún español de origen podrá ser privado de su nacionalidad.
 3. El Estado podrá concertar tratados de doble nacionalidad con los países iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con España.
 En estos mismos países, aun cuando no reconozcan a sus ciudadanos un derecho recíproco, podrán naturalizarse los españoles sin perder su nacionalidad de origen.
 
-##### Artículo 12
+#### Artículo 12
 
 Los españoles son mayores de edad a los dieciocho años.
 
-##### Artículo 13
+#### Artículo 13
 
 1. Los extranjeros gozarán en España de las libertades públicas que garantiza el presente Título en los términos que establezcan los tratados y la ley.
 2. Solamente los españoles serán titulares de los derechos reconocidos en el artículo 23, salvo lo que, atendiendo a criterios de reciprocidad, pueda establecerse por tratado o ley para el derecho de sufragio activo y pasivo en las elecciones municipales.
@@ -105,7 +105,7 @@ Quedan excluidos de la extradición los delitos políticos, no considerándose c
 
 Derechos y libertades
 
-##### Artículo 14
+#### Artículo 14
 
 Los españoles son iguales ante la ley, sin que pueda prevalecer discriminación alguna por razón de nacimiento, raza, sexo, religión, opinión o cualquier otra condición o circunstancia personal o social.
 
@@ -283,6 +283,8 @@ Los poderes públicos garantizan y protegen su ejercicio y la defensa de la prod
 
 De los principios rectores de la política social y económica
 
+#### Artículos
+
 ##### Artículo 39
 
 1. Los poderes públicos aseguran la protección social, económica y jurídica de la familia.
@@ -368,7 +370,7 @@ Su estructura interna y funcionamiento deberán ser democráticos.
 
 De las garantías de las libertades y derechos fundamentales
 
-##### Artículo 53
+#### Artículo 53
 
 1. Los derechos y libertades reconocidos en el Capítulo segundo del presente Título vinculan a todos los poderes públicos.
 Sólo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades, que se tutelarán de acuerdo con lo previsto en el artículo 161, 1, a).
@@ -377,7 +379,7 @@ Este último recurso será aplicable a la objeción de conciencia reconocida en 
 3. El reconocimiento, el respeto y la protección de los principios reconocidos en el Capítulo tercero informarán la legislación positiva, la práctica judicial y la actuación de los poderes públicos.
 Sólo podrán ser alegados ante la Jurisdicción ordinaria de acuerdo con lo que dispongan las leyes que los desarrollen.
 
-##### Artículo 54
+#### Artículo 54
 
 Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título, a cuyo efecto podrá supervisar la actividad de la Administración, dando cuenta a las Cortes Generales.
 
@@ -385,7 +387,7 @@ Una ley orgánica regulará la institución del Defensor del Pueblo, como alto c
 
 De la suspensión de los derechos y libertades
 
-##### Artículo 55
+#### Artículo 55
 
 1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuando se acuerde la declaración del estado de excepción o de sitio en los términos previstos en la Constitución.
 Se exceptúa de lo establecido anteriormente el apartado 3 del artículo 17 para el supuesto de declaración de estado de excepción.
@@ -397,6 +399,8 @@ La utilización injustificada o abusiva de las facultades reconocidas en dicha l
 
 De la Corona
 
+### Artículos
+#### Artículos
 ##### Artículo 56
 
 1. El Rey es el Jefe del Estado, símbolo de su unidad y permanencia, arbitra y modera el funcionamiento regular de las instituciones, asume la más alta representación del Estado español en las relaciones internacionales, especialmente con las naciones de su comunidad histórica, y ejerce las funciones que le atribuyen expresamente la Constitución y las leyes.
@@ -479,6 +483,7 @@ De las Cortes Generales
 
 De las Cámaras
 
+#### Artículos
 ##### Artículo 66
 
 1. Las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado.
@@ -600,6 +605,7 @@ Las sesiones plenarias de las Cámaras serán públicas, salvo acuerdo en contra
 
 De la elaboración de las leyes
 
+#### Artículos
 ##### Artículo 81
 
 1. Son leyes orgánicas las relativas al desarrollo de los derechos fundamentales y de las libertades públicas, las que aprueben los Estatutos de Autonomía y el régimen electoral general y las demás previstas en la Constitución.
@@ -680,6 +686,7 @@ El Rey sancionará en el plazo de quince días las leyes aprobadas por las Corte
 
 De los Tratados Internacionales
 
+#### Artículos
 ##### Artículo 93
 
 Mediante ley orgánica se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución.
@@ -710,6 +717,8 @@ Sus disposiciones sólo podrán ser derogadas, modificadas o suspendidas en la f
 
 Del Gobierno y de la Administración
 
+### Artículos
+#### Artículos
 ##### Artículo 97
 
 El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado.
@@ -779,6 +788,8 @@ Una ley orgánica regulará su composición y competencia.
 ## TÍTULO V
 
 De las relaciones entre el Gobierno y las Cortes Generales
+### Artículos
+#### Artículos
 
 ##### Artículo 108
 
@@ -842,7 +853,8 @@ Disuelto el Congreso o expirado su mandato, si se produjere alguna de las situac
 ## TÍTULO VI
 
 Del Poder Judicial
-
+### Artículos
+#### Artículos
 ##### Artículo 117
 
 1. La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial, independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley.
@@ -908,6 +920,8 @@ La ley establecerá el sistema y modalidades de asociación profesional de los J
 ## TÍTULO VII
 
 Economía y Hacienda
+### Artículos
+#### Artículos
 
 ##### Artículo 128
 
@@ -996,6 +1010,7 @@ De la Organización Territorial del Estado
 ### CAPÍTULO PRIMERO
 
 Principios generales
+#### Artículos
 
 ##### Artículo 137
 
@@ -1015,6 +1030,7 @@ Todas estas entidades gozan de autonomía para la gestión de sus respectivos in
 ### CAPÍTULO SEGUNDO
 
 De la Administración Local
+#### Artículos
 
 ##### Artículo 140
 
@@ -1040,6 +1056,7 @@ Las Haciendas locales deberán disponer de los medios suficientes para el desemp
 ### CAPÍTULO TERCERO
 
 De las Comunidades Autónomas
+#### Artículos
 
 ##### Artículo 143
 
@@ -1231,6 +1248,8 @@ Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en 
 ## TÍTULO IX
 
 Del Tribunal Constitucional
+### Artículos
+#### Artículos
 
 ##### Artículo 159
 
@@ -1282,6 +1301,8 @@ Una ley orgánica regulará el funcionamiento del Tribunal Constitucional, el es
 ## TÍTULO X
 
 De la reforma constitucional
+### Artículos
+#### Artículos
 
 ##### Artículo 166
 
@@ -1305,55 +1326,54 @@ Si no hubiera acuerdo entre ambas, se intentará obtenerlo mediante la creación
 No podrá iniciarse la reforma constitucional en tiempo de guerra o de vigencia de alguno de los estados previstos en el artículo 116.
 
 ## DISPOSICIONES ADICIONALES
-
-##### Primera.
+### Primera.
 
 La Constitución ampara y respeta los derechos históricos de los territorios forales.
 
 La actualización general de dicho régimen foral se llevará a cabo, en su caso, en el marco de la Constitución y de los Estatutos de Autonomía.
 
-##### Segunda.
+### Segunda.
 
 La declaración de mayoría de edad contenida en el artículo 12 de esta Constitución no perjudica las situaciones amparadas por los derechos forales en el ámbito del Derecho privado.
 
-##### Tercera.
+### Tercera.
 
 La modificación del régimen económico y fiscal del archipiélago canario requerirá informe previo de la Comunidad Autónoma o, en su caso, del órgano provisional autonómico.
 
-##### Cuarta.
+### Cuarta.
 
 En las Comunidades Autónomas donde tengan su sede más de una Audiencia Territorial, los Estatutos de Autonomía respectivos podrán mantener las existentes, distribuyendo las competencias entre ellas, siempre de conformidad con lo previsto en la ley orgánica del poder judicial y dentro de la unidad e independencia de éste.
 
 ## DISPOSICIONES TRANSITORIAS
 
-##### Primera.
+### Primera.
 
 En los territorios dotados de un régimen provisional de autonomía, sus órganos colegiados superiores, mediante acuerdo adoptado por la mayoría absoluta de sus miembros, podrán sustituir la iniciativa que en el apartado 2 del artículo 143 atribuye a las Diputaciones Provinciales o a los órganos interinsulares correspondientes.
 
-##### Segunda.
+### Segunda.
 
 Los territorios que en el pasado hubiesen plebiscitado afirmativamente proyectos de Estatuto de autonomía y cuenten, al tiempo de promulgarse esta Constitución, con regímenes provisionales de autonomía podrán proceder inmediatamente en la forma que se prevé en el apartado 2 del artículo 148, cuando así lo acordaren, por mayoría absoluta, sus órganos preautonómicos colegiados superiores, comunicándolo al Gobierno.
 El proyecto de Estatuto será elaborado de acuerdo con lo establecido en el artículo 151, número 2, a convocatoria del órgano colegiado preautonómico.
 
-##### Tercera.
+### Tercera.
 
 La iniciativa del proceso autonómico por parte de las Corporaciones locales o de sus miembros, prevista en el apartado 2 del artículo 143, se entiende diferida, con todos sus efectos, hasta la celebración de las primeras elecciones locales una vez vigente la Constitución.
 
-##### Cuarta.
+### Cuarta.
 
 1. En el caso de Navarra, y a efectos de su incorporación al Consejo General Vasco o al régimen autonómico vasco que le sustituya, en lugar de lo que establece el artículo 143 de la Constitución, la iniciativa corresponde al Órgano Foral competente, el cual adoptará su decisión por mayoría de los miembros que lo componen.
 Para la validez de dicha iniciativa será preciso, además, que la decisión del Órgano Foral competente sea ratificada por referéndum expresamente convocado al efecto, y aprobado por mayoría de los votos válidos emitidos.
 2. Si la iniciativa no prosperase, solamente se podrá reproducir la misma en distinto período del mandato del Órgano Foral competente, y en todo caso, cuando haya transcurrido el plazo mínimo que establece el artículo 143.
 
-##### Quinta.
+### Quinta.
 
 Las ciudades de Ceuta y Melilla podrán constituirse en Comunidades Autónomas si así lo deciden sus respectivos Ayuntamientos, mediante acuerdo adoptado por la mayoría absoluta de sus miembros y así lo autorizan las Cortes Generales, mediante una ley orgánica, en los términos previstos en el artículo 144.
 
-##### Sexta.
+### Sexta.
 
 Cuando se remitieran a la Comisión Constitucional del Congreso varios proyectos de Estatuto, se dictaminarán por el orden de entrada en aquélla, y el plazo de dos meses a que se refiere el artículo 151 empezará a contar desde que la Comisión termine el estudio del proyecto o proyectos de que sucesivamente haya conocido.
 
-##### Séptima.
+### Séptima.
 
 Los organismos provisionales autonómicos se considerarán disueltos en los siguientes casos:
 [loweralpha]
@@ -1361,7 +1381,7 @@ Los organismos provisionales autonómicos se considerarán disueltos en los sigu
 1. En el supuesto de que la iniciativa del proceso autonómico no llegara a prosperar por no cumplir los requisitos previstos en el artículo 143.
 1. Si el organismo no hubiera ejercido el derecho que le reconoce la disposición transitoria primera en el plazo de tres años.
 
-##### Octava.
+### Octava.
 
 1. Las Cámaras que han aprobado la presente Constitución asumirán, tras la entrada en vigor de la misma, las funciones y competencias que en ella se señalan, respectivamente, para el Congreso y el Senado, sin que en ningún caso su mandato se extienda más allá del 15 de junio de 1981.
 2. A los efectos de lo establecido en el artículo 99, la promulgación de la Constitución se considerará como supuesto constitucional en el que procede su aplicación.
@@ -1370,7 +1390,7 @@ A tal efecto, a partir de la citada promulgación se abrirá un período de trei
 Durante este período, el actual Presidente del Gobierno, que asumirá las funciones y competencias que para dicho cargo establece la Constitución, podrá optar por utilizar la facultad que le reconoce el artículo 115 o dar paso, mediante la dimisión, a la aplicación de lo establecido en el artículo 99, quedando en este último caso en la situación prevista en el apartado 2 del artículo 101.
 3. En caso de disolución, de acuerdo con lo previsto en el artículo 115, y si no se hubiera desarrollado legalmente lo previsto en los artículos 68 y 69, serán de aplicación en las elecciones las normas vigentes con anterioridad, con las solas excepciones de que en lo referente a inelegibilidades e incompatibilidades se aplicará directamente lo previsto en el inciso segundo de la letra b) del apartado 1 del artículo 70 de la Constitución, así como lo dispuesto en la misma respecto a la edad para el voto y lo establecido en el artículo 69,3.
 
-##### Novena.
+### Novena.
 
 A los tres años de la elección por vez primera de los miembros del Tribunal Constitucional se procederá por sorteo para la designación de un grupo de cuatro miembros de la misma procedencia electiva que haya de cesar y renovarse.
 A estos solos efectos se entenderán agrupados como miembros de la misma procedencia a los dos designados a propuesta del Gobierno y a los dos que proceden de la formulada por el Consejo General del Poder Judicial.
