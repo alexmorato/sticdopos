@@ -707,7 +707,7 @@
         root =  apuntsManifest.base;
         rootSinOpos = apuntsManifest.base;
         if (!isLocal) {
-          root = 'opos/' + root;
+          root = 'sticdopos/' + root;
         }
         // Buscar en apunts_new/manifest.json
         if (apuntsManifest.temes && apuntsManifest.temes[temaId]) {
@@ -1024,7 +1024,7 @@
       guardarUltimoRecursoClicado('info', temaId, fileName.replace(/[^a-zA-Z0-9]/g, '_'));
       // Abrir infografía en nueva pestaña
       const isLocal = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-      const basePath = isLocal ? '' : 'opos/';
+      const basePath = isLocal ? '' : 'sticdopos/';
       //window.open(`${basePath}apunts_new/${temaId}/${fileName}`, '_blank');
       window.open(`leerinfografia.html?root=${encodeURIComponent(rootSinOpos)}&tema=${encodeURIComponent(temaId)}&fitxer=${encodeURIComponent(fileName)}`, '_self' );
     };
