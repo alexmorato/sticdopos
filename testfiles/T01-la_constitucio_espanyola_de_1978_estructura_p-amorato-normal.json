@@ -1,0 +1,312 @@
+[
+  {
+    "guid": "2fbb7901-65d5-4bd2-904d-f6398cda0ca0",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el Artículo 1 de la Constitución, ¿cuáles son los valores superiores del ordenamiento jurídico español?",
+    "answerOptions": [
+      {
+        "text": "La libertad, la justicia, la igualdad y el pluralismo político.",
+        "rationale": "El artículo 1.1 establece explícitamente estos cuatro conceptos como los pilares fundamentales del ordenamiento jurídico del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "La democracia, la paz, la solidaridad y la libertad.",
+        "rationale": "Aunque estos conceptos se mencionan o se derivan del texto constitucional, no son los citados específicamente como valores superiores en el artículo 1.1.",
+        "isCorrect": false
+      },
+      {
+        "text": "La unidad de la nación, la monarquía, el orden y la ley.",
+        "rationale": "Estos elementos describen la estructura y fundamentos del Estado, pero no se definen técnicamente como los valores superiores del ordenamiento jurídico.",
+        "isCorrect": false
+      },
+      {
+        "text": "El bienestar social, el trabajo, la justicia y la dignidad.",
+        "rationale": "Estos términos pertenecen a los principios rectores de la política social y económica, pero no son los valores fundacionales del artículo primero.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encuentran enumerados en el primer apartado del Título Preliminar."
+  },
+  {
+    "guid": "971c5657-0468-4143-9809-c81f503881d5",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el estatus legal de las lenguas españolas distintas al castellano según el Artículo 3?",
+    "answerOptions": [
+      {
+        "text": "Serán también oficiales en las respectivas Comunidades Autónomas de acuerdo con sus Estatutos.",
+        "rationale": "La Constitución reconoce la cooficialidad de otras lenguas españolas siempre que se establezca en el marco estatutario de su región.",
+        "isCorrect": true
+      },
+      {
+        "text": "Son lenguas oficiales del Estado en todo el territorio nacional.",
+        "rationale": "El castellano es la única lengua oficial en todo el Estado; las demás solo lo son en sus respectivas Comunidades Autónomas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tienen un carácter meramente cultural sin validez administrativa.",
+        "rationale": "La Constitución les otorga el rango de oficialidad bajo ciertas condiciones, lo que implica efectos jurídicos y administrativos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Su uso está prohibido en los actos oficiales del Estado.",
+        "rationale": "Al contrario, la riqueza lingüística se define como un patrimonio cultural objeto de especial respeto y protección.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considera el alcance geográfico de la oficialidad según los Estatutos de Autonomía."
+  },
+  {
+    "guid": "d44e5978-909c-4700-a357-772cb8aba421",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el Artículo 15, ¿en qué circunstancia excepcional podría la ley disponer la pena de muerte?",
+    "answerOptions": [
+      {
+        "text": "Lo que puedan disponer las leyes penales militares para tiempos de guerra.",
+        "rationale": "El texto constitucional declara abolida la pena de muerte con la única salvedad de la legislación militar en contextos bélicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "En casos de delitos de terrorismo con resultado de muerte.",
+        "rationale": "La Constitución no hace excepciones para delitos civiles, incluyendo el terrorismo, tras la abolición general de la pena de muerte.",
+        "isCorrect": false
+      },
+      {
+        "text": "Para delitos de alta traición contra la persona del Rey.",
+        "rationale": "La protección de la Corona no incluye la aplicación de la pena capital en el ordenamiento jurídico vigente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca, ya que la abolición es absoluta y sin excepciones de ningún tipo.",
+        "rationale": "Aunque en la práctica se considera abolida, el texto del artículo 15 mantiene técnicamente la excepción para las leyes militares en tiempo de guerra.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Relaciona la excepción con el ámbito castrense y situaciones de conflicto internacional."
+  },
+  {
+    "guid": "7d43eabc-bdec-48ae-875b-cf18f936b87e",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el Artículo 17, ¿cuál es el plazo máximo de la detención preventiva antes de que el detenido sea puesto en libertad o a disposición judicial?",
+    "answerOptions": [
+      {
+        "text": "Setenta y dos horas.",
+        "rationale": "Este es el límite máximo absoluto establecido por la Constitución para garantizar que la privación de libertad sea mínima durante las averiguaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Veinticuatro horas.",
+        "rationale": "Este plazo es inferior al máximo constitucional permitido, aunque las leyes puedan establecer tiempos menores para casos específicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuarenta y ocho horas.",
+        "rationale": "Es una confusión común con otros ordenamientos, pero la Constitución española fija el límite en un múltiplo superior de veinticuatro.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco días naturales.",
+        "rationale": "Un plazo de cinco días excede el límite máximo de 72 horas fijado en el artículo 17.2.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Equivale a tres días completos."
+  },
+  {
+    "guid": "944e304f-7d9c-4270-9af0-a67c3b23961a",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el orden de sucesión a la Corona, si existen dos personas en el mismo grado, ¿qué preferencia establece el Artículo 57?",
+    "answerOptions": [
+      {
+        "text": "El varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos.",
+        "rationale": "El artículo 57.1 establece el orden de primogenitura priorizando el sexo masculino y la mayor edad dentro del mismo grado.",
+        "isCorrect": true
+      },
+      {
+        "text": "La persona de más edad independientemente del sexo.",
+        "rationale": "Esto ignora la preferencia de varón sobre mujer que todavía figura en el texto vigente del artículo 57.",
+        "isCorrect": false
+      },
+      {
+        "text": "El candidato que sea designado directamente por las Cortes Generales.",
+        "rationale": "Las Cortes solo intervienen si se extinguen todas las líneas llamadas en Derecho, no para decidir entre grados iguales.",
+        "isCorrect": false
+      },
+      {
+        "text": "La mujer tiene preferencia en la línea directa de descendencia.",
+        "rationale": "El texto actual de 1978 mantiene la preferencia del varón, a pesar de los debates sobre su reforma.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la regla que combina la preferencia de género y la antigüedad cronológica."
+  },
+  {
+    "guid": "b109d51c-ba1d-4177-a4f4-baa77838bbbe",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién es responsable de los actos del Rey según el Artículo 64?",
+    "answerOptions": [
+      {
+        "text": "Las personas que los refrenden (Presidente del Gobierno, Ministros o Presidente del Congreso).",
+        "rationale": "Dado que el Rey es inviolable y no está sujeto a responsabilidad, la validez de sus actos depende del refrendo de la autoridad política competente.",
+        "isCorrect": true
+      },
+      {
+        "text": "El propio Rey de forma personal e indelegable.",
+        "rationale": "El artículo 56.3 declara que la persona del Rey es inviolable y no está sujeta a responsabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Supremo tras una votación de las Cortes.",
+        "rationale": "La responsabilidad de los actos del Jefe del Estado es política y se resuelve mediante el mecanismo del refrendo, no por vía judicial directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las Cortes Generales de forma colegiada.",
+        "rationale": "Aunque las Cortes controlan la acción del Gobierno, el refrendo es un acto individual de cargos específicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El Rey es inviolable, por lo que alguien debe 'firmar' o autorizar sus actos para que sean válidos."
+  },
+  {
+    "guid": "22709957-4f40-477f-bfce-61e327ff886f",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Para que un proyecto de Ley Orgánica sea aprobado, ¿qué mayoría se requiere en el Congreso de los Diputados?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta en una votación final sobre el conjunto del proyecto.",
+        "rationale": "El artículo 81.2 exige esta mayoría reforzada debido a la especial importancia de las materias que regulan las leyes orgánicas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría simple de los presentes en la sesión.",
+        "rationale": "La mayoría simple es suficiente para las leyes ordinarias, pero no para las orgánicas según el artículo 81.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres quintos de los miembros de la Cámara.",
+        "rationale": "Esta mayoría se utiliza para otros nombramientos o reformas, pero no para la aprobación de leyes orgánicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad de todos los grupos parlamentarios.",
+        "rationale": "La Constitución no exige unanimidad para ningún procedimiento legislativo, ya que bloquearía la acción del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una mayoría que requiere el voto de la mitad más uno de la totalidad de los diputados."
+  },
+  {
+    "guid": "6b6220b7-0f51-4f3b-b02a-37128d34399e",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el Artículo 99, si después de dos meses desde la primera votación de investidura ningún candidato obtiene la confianza del Congreso, ¿qué acción debe tomar el Rey?",
+    "answerOptions": [
+      {
+        "text": "Disolver ambas Cámaras y convocar nuevas elecciones con el refrendo del Presidente del Congreso.",
+        "rationale": "Este mecanismo automático evita el bloqueo institucional cuando las fuerzas políticas no logran formar un Gobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nombrar al candidato del partido con más escaños de forma automática.",
+        "rationale": "El Presidente del Gobierno siempre debe obtener la confianza (voto) del Congreso de los Diputados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prorrogar el mandato del Gobierno saliente por otros cuatro años.",
+        "rationale": "Un Gobierno en funciones no puede prolongarse indefinidamente sin una nueva investidura parlamentaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitar al Senado que elija un candidato alternativo.",
+        "rationale": "La elección del Presidente del Gobierno es una competencia exclusiva del Congreso de los Diputados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la solución de 'última instancia' que devuelve la palabra a los ciudadanos."
+  },
+  {
+    "guid": "b7ba98cc-2cf0-408d-904c-98767ed3d95c",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se define la estructura del Tribunal Constitucional según el Artículo 159?",
+    "answerOptions": [
+      {
+        "text": "Se compone de 12 miembros nombrados por el Rey por un periodo de nueve años.",
+        "rationale": "El artículo 159 establece tanto el número de magistrados como la duración de su mandato y su origen (Congreso, Senado, Gobierno y CGPJ).",
+        "isCorrect": true
+      },
+      {
+        "text": "Se compone de 20 miembros elegidos por el Consejo General del Poder Judicial.",
+        "rationale": "Esta cifra corresponde a la composición del Consejo General del Poder Judicial, no al Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se compone de todos los expresidentes del Gobierno y el Rey.",
+        "rationale": "El Tribunal Constitucional es un órgano técnico-jurídico compuesto por juristas de reconocida competencia, no por figuras políticas ex officio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es una sala especial dentro del Tribunal Supremo.",
+        "rationale": "El Tribunal Constitucional es un órgano independiente y fuera de la estructura jerárquica del Poder Judicial ordinario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El número de miembros es una docena y su renovación se hace por terceras partes."
+  },
+  {
+    "guid": "828bda09-fd11-4529-8a6e-709a09b744c6",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el Artículo 167, para una reforma ordinaria de la Constitución, si no hay acuerdo entre el Congreso y el Senado mediante una Comisión Mixta, ¿cómo puede el Congreso aprobar la reforma?",
+    "answerOptions": [
+      {
+        "text": "Por mayoría de dos tercios, siempre que el texto hubiera obtenido el voto favorable de la mayoría absoluta del Senado.",
+        "rationale": "Este mecanismo permite al Congreso superar la falta de acuerdo si tiene una mayoría muy amplia y el Senado ha dado un respaldo mínimo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Por mayoría simple tras un periodo de reflexión de seis meses.",
+        "rationale": "Una reforma constitucional nunca puede aprobarse por mayoría simple debido a su carácter de norma fundamental.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congreso no puede aprobarla sin el voto favorable de los tres quintos del Senado.",
+        "rationale": "El apartado 2 del artículo 167 prevé específicamente una forma de desbloqueo si el Senado no alcanza los tres quintos pero sí la mayoría absoluta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe disolverse el Congreso inmediatamente y convocar referéndum.",
+        "rationale": "La disolución automática solo se aplica en la reforma agravada del artículo 168, no en la ordinaria del 167.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Implica una mayoría cualificada superior a la absoluta pero condicionada al apoyo previo del Senado."
+  }
+]

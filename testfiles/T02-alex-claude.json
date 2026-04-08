@@ -1,0 +1,747 @@
+[
+  {
+    "guid": "a3f8c2d1-4e7b-4a9f-b6c3-1d2e5f8a9b0c",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "test",
+    "question": "Segons l'article 98 de la Constitució Espanyola, quins membres formen part del Govern?",
+    "answerOptions": [
+      {
+        "text": "President, Vicepresidents, Ministres i altres membres que estableixi la llei",
+        "isCorrect": true,
+        "rationale": "L'art. 98.1 CE estableix exactament aquesta composició. Els Vicepresidents i altres membres són potestatius, però formen part del Govern quan existeixen."
+      },
+      {
+        "text": "President, Vicepresidents, Ministres i Secretaris d'Estat",
+        "isCorrect": false,
+        "rationale": "Els Secretaris d'Estat NO formen part del Govern com a membres, tot i que poden assistir al Consell de Ministres quan se'ls convoca."
+      },
+      {
+        "text": "President, Ministres i Directors Generals",
+        "isCorrect": false,
+        "rationale": "Els Directors Generals són alts càrrecs de l'Administració, no membres del Govern. Tampoc s'esmenten els Vicepresidents."
+      },
+      {
+        "text": "President, Vicepresidents i Ministres únicament",
+        "isCorrect": false,
+        "rationale": "L'art. 98 CE afegeix 'i els altres membres que estableixi la llei', de manera que la llista no és tancada."
+      }
+    ],
+    "hint": "Recorda que l'art. 98.1 CE deixa la porta oberta a altres membres previstos per llei."
+  },
+  {
+    "guid": "b1e4d7a2-3c6f-4b8e-a2d5-9f1c3e7b2a4d",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin tipus de majoria necessita el candidat a President del Govern en la primera votació d'investidura?",
+    "answerOptions": [
+      {
+        "text": "Majoria absoluta del Congrés dels Diputats",
+        "isCorrect": true,
+        "rationale": "L'art. 99.3 CE estableix que en primera votació cal majoria absoluta (176 de 350 diputats). Si no s'obté, 48 hores després n'hi ha prou amb majoria simple."
+      },
+      {
+        "text": "Majoria simple del Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "La majoria simple és la que s'exigeix en la segona votació, celebrada 48 hores després de la primera si aquesta ha fracassat."
+      },
+      {
+        "text": "Majoria absoluta de les Corts Generals",
+        "isCorrect": false,
+        "rationale": "La investidura es fa exclusivament davant el Congrés dels Diputats, no davant les Corts Generals en conjunt. El Senat no hi participa."
+      },
+      {
+        "text": "Majoria de dos terços del Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "La majoria de dos terços no està prevista per a la investidura. S'utilitza en altres supòsits constitucionals com la reforma constitucional."
+      }
+    ],
+    "hint": "La investidura té dues votacions possibles. En cada una s'exigeix una majoria diferent."
+  },
+  {
+    "guid": "c5a9e3f1-7d2b-4c8a-b1e6-3f4d9a2c7e1b",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "claude",
+    "type": "test",
+    "question": "Davant quin òrgan respon políticament el Govern de manera solidària, segons l'article 108 CE?",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats",
+        "isCorrect": true,
+        "rationale": "L'art. 108 CE estableix que el Govern respon solidàriament de la seva gestió política davant el Congrés dels Diputats, no davant el Senat ni davant les Corts Generals en conjunt."
+      },
+      {
+        "text": "El Senat",
+        "isCorrect": false,
+        "rationale": "El Senat té funcions de control sobre el Govern però no pot retirar-li la confiança ni derrocar-lo. La responsabilitat política és exclusivament davant el Congrés."
+      },
+      {
+        "text": "Les Corts Generals",
+        "isCorrect": false,
+        "rationale": "Tot i que ambdues Càmeres exerceixen funcions de control, la responsabilitat política solidària del Govern és exclusivament davant el Congrés dels Diputats."
+      },
+      {
+        "text": "El Tribunal Constitucional",
+        "isCorrect": false,
+        "rationale": "El Tribunal Constitucional no és un òrgan de control polític sinó jurisdiccional. Controla la constitucionalitat de les normes, no la gestió política del Govern."
+      }
+    ],
+    "hint": "Recorda la distinció entre el Congrés i el Senat en matèria de control del Govern."
+  },
+  {
+    "guid": "d2b6f4a8-1e3c-4d7f-c9a2-5b8e1f3d6a9c",
+    "subjectId": "T02",
+    "difficulty": 3,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina de les següents afirmacions sobre la moció de censura espanyola és CORRECTA?",
+    "answerOptions": [
+      {
+        "text": "Ha de ser constructiva, incloure un candidat alternatiu i necessita majoria absoluta per prosperar",
+        "isCorrect": true,
+        "rationale": "L'art. 113 CE estableix les tres característiques fonamentals: caràcter constructiu (candidat alternatiu obligatori), necessitat de majoria absoluta (176 de 350) i termini mínim de 5 dies abans de la votació."
+      },
+      {
+        "text": "Necessita la signatura d'1/5 dels diputats i majoria simple per prosperar",
+        "isCorrect": false,
+        "rationale": "La moció de censura la poden presentar com a mínim 1/10 dels diputats (35, no 1/5), i necessita majoria absoluta per prosperar, no majoria simple."
+      },
+      {
+        "text": "Es pot votar el mateix dia de la presentació si hi ha urgència parlamentària",
+        "isCorrect": false,
+        "rationale": "L'art. 113.3 CE estableix que la moció de censura no pot ser votada fins que hagin transcorregut cinc dies des de la seva presentació. No hi ha excepcions d'urgència."
+      },
+      {
+        "text": "Si és rebutjada, els signants poden presentar-ne una de nova en qualsevol moment",
+        "isCorrect": false,
+        "rationale": "Si la moció és rebutjada, els seus signants no poden presentar una nova moció de censura durant el mateix període de sessions (art. 113.4 CE)."
+      }
+    ],
+    "hint": "Pensa en les tres grans característiques: qui la presenta, quin termini cal esperar i quina majoria necessita."
+  },
+  {
+    "guid": "e7c1a5d3-9f4b-4e2c-d8b1-6a3f7c9e2d5a",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin és el caràcter dels dictàmens del Consell d'Estat amb caràcter general?",
+    "answerOptions": [
+      {
+        "text": "Preceptius però no vinculants: el Govern ha de consultar-lo però no està obligat a seguir el seu criteri",
+        "isCorrect": true,
+        "rationale": "Aquesta és la regla general: en els supòsits previstos per llei la consulta és obligatòria (preceptiva), però el Govern pot separar-se del criteri del Consell d'Estat sense necessitat de justificació especial."
+      },
+      {
+        "text": "Vinculants: el Govern sempre ha de seguir el criteri del Consell d'Estat",
+        "isCorrect": false,
+        "rationale": "Els dictàmens del Consell d'Estat no són vinculants amb caràcter general. El Govern pot apartar-se'n. Només en casos molt concrets la normativa específica pot establir efectes addicionals."
+      },
+      {
+        "text": "Sempre facultatius: el Govern consulta el Consell d'Estat quan vol",
+        "isCorrect": false,
+        "rationale": "Hi ha supòsits en què la consulta és preceptiva (obligatòria), com ara els tractats internacionals, els Decrets Legislatius o les reclamacions de responsabilitat patrimonial superiors a 50.000 €."
+      },
+      {
+        "text": "Vinculants només quan els emet el Ple, i facultatius quan els emet la Comissió Permanent",
+        "isCorrect": false,
+        "rationale": "La distinció entre Ple i Comissió Permanent fa referència a la gravetat dels assumptes, no a la vinculació dels dictàmens. Cap dels dos té caràcter vinculant amb caràcter general."
+      }
+    ],
+    "hint": "Distingeix entre l'obligació de consultar i l'obligació de seguir el criteri del Consell."
+  },
+  {
+    "guid": "f4d8b2e6-5a1c-4f3d-e7a4-2c9b5f1d8e3a",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "claude",
+    "type": "test",
+    "question": "Qui nomena i separa els Ministres, segons l'article 100 de la Constitució Espanyola?",
+    "answerOptions": [
+      {
+        "text": "El Rei, a proposta del President del Govern",
+        "isCorrect": true,
+        "rationale": "L'art. 100 CE estableix que els Ministres són nomenats i separats pel Rei a proposta del President del Govern. El nomenament reial és formal i reglat: el Rei no pot negar-se a nomenar el candidat proposat."
+      },
+      {
+        "text": "El President del Govern directament, sense intervenció del Rei",
+        "isCorrect": false,
+        "rationale": "Formalment és el Rei qui nomena i separa els Ministres, tot i que ho fa sempre a proposta del President. El Reial Decret es publica al BOE."
+      },
+      {
+        "text": "El Congrés dels Diputats, mitjançant votació de confiança per a cada Ministre",
+        "isCorrect": false,
+        "rationale": "El Parlament no intervé en el nomenament dels Ministres. Aquesta és una de les diferències clau amb el President, que sí que necessita la confiança del Congrés per ser investit."
+      },
+      {
+        "text": "El Consell de Ministres, per acord col·legiat",
+        "isCorrect": false,
+        "rationale": "El Consell de Ministres no aprova el nomenament dels seus propis membres. La decisió correspon al President (proposta) i al Rei (nomenament formal)."
+      }
+    ],
+    "hint": "Recorda que el nomenament formal sempre correspon al Rei, però qui realment decideix és el President."
+  },
+  {
+    "guid": "a1c5e9f3-2d7b-4a6e-b3c8-7f2a5d9e1c4b",
+    "subjectId": "T02",
+    "difficulty": 3,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina de les següents actuacions POT dur a terme el Govern en funcions?",
+    "answerOptions": [
+      {
+        "text": "Gestionar els assumptes ordinaris i executar les lleis vigents",
+        "isCorrect": true,
+        "rationale": "El Govern en funcions manté la capacitat de gestió ordinària dels afers públics. El que no pot fer és adoptar decisions polítiques de gran transcendència ni exercir les funcions constitucionals especials."
+      },
+      {
+        "text": "Aprovar el Projecte de Llei de Pressupostos Generals de l'Estat",
+        "isCorrect": false,
+        "rationale": "L'art. 21.5 de la Llei 50/1997 prohibeix expressament al Govern en funcions aprovar el Projecte de Llei de Pressupostos Generals de l'Estat."
+      },
+      {
+        "text": "Proposar al Rei la dissolució de les Corts Generals",
+        "isCorrect": false,
+        "rationale": "La dissolució de les Corts és una de les facultats que el Govern en funcions té expressament prohibides per la Llei 50/1997, ja que és una decisió política de màxima transcendència."
+      },
+      {
+        "text": "Plantejar una qüestió de confiança davant el Congrés",
+        "isCorrect": false,
+        "rationale": "Plantejar la qüestió de confiança és una acció política de gran rellevància que el Govern en funcions no pot exercir. Només ho pot fer un Govern en plenes funcions."
+      }
+    ],
+    "hint": "El Govern en funcions manté la gestió ordinària però perd les grans decisions polítiques."
+  },
+  {
+    "guid": "b8e2c6a4-3f9d-4b7c-a5e1-8d3f6b2c9a7e",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "truefalse",
+    "question": "La qüestió de confiança la planteja el President del Govern davant el Senat, i necessita majoria absoluta per ser atorgada.",
+    "answerOptions": [
+      {
+        "text": "Cert",
+        "isCorrect": false,
+        "rationale": "Aquesta afirmació conté dos errors. La qüestió de confiança es planteja davant el CONGRÉS dels Diputats (no el Senat) i la confiança s'entén atorgada per MAJORIA SIMPLE (no absoluta), segons l'art. 112 CE."
+      },
+      {
+        "text": "Fals",
+        "isCorrect": true,
+        "rationale": "L'art. 112 CE estableix que la qüestió de confiança es planteja davant el Congrés dels Diputats i la confiança s'atorga per majoria simple. La majoria absoluta s'exigeix per a la moció de censura, no per a la qüestió de confiança."
+      }
+    ],
+    "hint": "Confon sovint la qüestió de confiança amb la moció de censura. Recorda quin mecanisme utilitza cada majoria."
+  },
+  {
+    "guid": "c3a7f1e5-8b4d-4c9a-d2f7-1e5b8c3a6f2d",
+    "subjectId": "T02",
+    "difficulty": 3,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina va ser la primera moció de censura de la història espanyola que va prosperar?",
+    "answerOptions": [
+      {
+        "text": "La presentada per Pedro Sánchez contra Mariano Rajoy l'any 2018",
+        "isCorrect": true,
+        "rationale": "La moció de censura de juny de 2018, presentada per Pedro Sánchez (PSOE) contra Mariano Rajoy (PP), va ser la primera de la democràcia espanyola que va prosperar, amb 180 vots a favor."
+      },
+      {
+        "text": "La presentada per Felipe González contra Adolfo Suárez l'any 1980",
+        "isCorrect": false,
+        "rationale": "La moció de censura de 1980, presentada per Felipe González contra Adolfo Suárez, no va prosperar. Va ser la primera moció de censura de la democràcia espanyola però no va obtenir la majoria necessària."
+      },
+      {
+        "text": "La presentada per Antonio Hernández Mancha contra Felipe González l'any 1987",
+        "isCorrect": false,
+        "rationale": "La moció de censura de 1987, presentada per Antonio Hernández Mancha (AP) contra Felipe González, tampoc va prosperar. Va ser un fracàs notable per al partit que la va presentar."
+      },
+      {
+        "text": "La presentada per Mariano Rajoy contra José Luis Rodríguez Zapatero l'any 2008",
+        "isCorrect": false,
+        "rationale": "No hi va haver cap moció de censura de Rajoy contra Zapatero l'any 2008. Les úniques mocions de censura de la democràcia espanyola van ser les de 1980, 1987 i 2018."
+      }
+    ],
+    "hint": "A Espanya s'han presentat tres mocions de censura en tota la democràcia. Només una va tenir èxit."
+  },
+  {
+    "guid": "d6f2b8c4-7e1a-4d5f-b9c3-4a7e2d8f5b1c",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina és la principal diferència entre una pregunta parlamentària i una interpel·lació?",
+    "answerOptions": [
+      {
+        "text": "Les preguntes versan sobre fets concrets, mentre que les interpel·lacions tracten sobre la política general del Govern o d'un Ministeri",
+        "isCorrect": true,
+        "rationale": "Aquesta és la distinció fonamental recollida a l'art. 111 CE. A més, les interpel·lacions es formulen sempre en sessió plenària i poden donar lloc a una moció, cosa que no passa amb les preguntes."
+      },
+      {
+        "text": "Les preguntes les fan els Senadors i les interpel·lacions les fan els Diputats",
+        "isCorrect": false,
+        "rationale": "Tant preguntes com interpel·lacions poden ser formulades per Diputats i Senadors en les seves respectives Càmeres. La diferència no és qui les formula sinó el seu abast temàtic."
+      },
+      {
+        "text": "Les interpel·lacions requereixen la signatura de tot un grup parlamentari, mentre que les preguntes les pot fer qualsevol parlamentari",
+        "isCorrect": false,
+        "rationale": "Les interpel·lacions no requereixen necessàriament la signatura de tot un grup parlamentari. Qualsevol parlamentari pot formular-les, tot i que el reglament limita el nombre per grup i sessió."
+      },
+      {
+        "text": "Les preguntes poden donar lloc a una moció parlamentària però les interpel·lacions no",
+        "isCorrect": false,
+        "rationale": "És exactament a l'inrevés: són les INTERPEL·LACIONS les que poden donar lloc a una moció parlamentària, no les preguntes."
+      }
+    ],
+    "hint": "Pensa en l'abast: una és sobre un fet puntual, l'altra sobre la política en general."
+  },
+  {
+    "guid": "e9b3d7f1-6c2a-4e8b-c4d9-3a6f1e7b2c5d",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin article de la Constitució Espanyola estableix les funcions del Govern: dirigir la política interior i exterior, l'Administració civil i militar i la defensa de l'Estat?",
+    "answerOptions": [
+      {
+        "text": "L'article 97 CE",
+        "isCorrect": true,
+        "rationale": "L'art. 97 CE és el fonament constitucional de les funcions del Govern. Estableix que el Govern dirigeix la política interior i exterior, l'Administració civil i militar i la defensa de l'Estat, i exerceix la funció executiva i la potestat reglamentària."
+      },
+      {
+        "text": "L'article 98 CE",
+        "isCorrect": false,
+        "rationale": "L'art. 98 CE regula la composició del Govern (President, Vicepresidents, Ministres i altres membres), no les seves funcions."
+      },
+      {
+        "text": "L'article 99 CE",
+        "isCorrect": false,
+        "rationale": "L'art. 99 CE regula el procediment d'investidura del President del Govern, no les funcions del Govern."
+      },
+      {
+        "text": "L'article 108 CE",
+        "isCorrect": false,
+        "rationale": "L'art. 108 CE regula la responsabilitat política del Govern davant el Congrés dels Diputats, no les seves funcions executives."
+      }
+    ],
+    "hint": "Les funcions principals del Govern es troben al primer article del Títol IV CE."
+  },
+  {
+    "guid": "f2c6e4a8-1d9b-4f7c-e3a6-9b4d2f8c1e5a",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina llei ordinària regula l'organització, la competència i el funcionament del Govern espanyol?",
+    "answerOptions": [
+      {
+        "text": "La Llei 50/1997, de 27 de novembre, del Govern",
+        "isCorrect": true,
+        "rationale": "La Llei 50/1997 del Govern és la norma de desenvolupament del Títol IV CE. Regula la composició del Govern, l'estatut dels seus membres, el funcionament del Consell de Ministres i els òrgans de col·laboració i suport."
+      },
+      {
+        "text": "La Llei Orgànica 3/1980, del Consell d'Estat",
+        "isCorrect": false,
+        "rationale": "La LO 3/1980 regula el Consell d'Estat, que és el màxim òrgan consultiu del Govern, no el Govern en si mateix."
+      },
+      {
+        "text": "La Llei 40/2015, de Règim Jurídic del Sector Públic",
+        "isCorrect": false,
+        "rationale": "La Llei 40/2015 regula el règim jurídic de les Administracions Públiques i les relacions entre elles, no específicament el Govern com a òrgan constitucional."
+      },
+      {
+        "text": "La Llei 39/2015, del Procediment Administratiu Comú",
+        "isCorrect": false,
+        "rationale": "La Llei 39/2015 regula el procediment administratiu comú aplicable a totes les Administracions Públiques, no l'organització i funcionament del Govern."
+      }
+    ],
+    "hint": "És una llei ordinària aprovada a finals dels anys 90 que porta el nom del propi òrgan que regula."
+  },
+  {
+    "guid": "a4d8b6f2-3e1c-4a9d-b7f4-2c5e9a3d7f1b",
+    "subjectId": "T02",
+    "difficulty": 3,
+    "origin": "claude",
+    "type": "test",
+    "question": "Què passa si transcorren dos mesos des de la primera votació d'investidura sense que cap candidat obtingui la confiança del Congrés?",
+    "answerOptions": [
+      {
+        "text": "El Rei dissol automàticament les dues Càmeres i convoca eleccions, amb el refrend del President del Congrés",
+        "isCorrect": true,
+        "rationale": "L'art. 99.5 CE estableix que si transcorren dos mesos sense que cap candidat obtingui la confiança del Congrés, el Rei dissoldrà les dues Càmeres i convocarà noves eleccions, amb el refrend del President del Congrés."
+      },
+      {
+        "text": "El Govern anterior continua indefinidament en funcions fins que es formi un nou Govern",
+        "isCorrect": false,
+        "rationale": "Tot i que el Govern en funcions continua gestionant els assumptes ordinaris, la CE preveu un mecanisme de desencallament automàtic als dos mesos: la dissolució de les Corts i noves eleccions."
+      },
+      {
+        "text": "El Senat assumeix provisionalment les funcions de govern fins a una nova investidura",
+        "isCorrect": false,
+        "rationale": "La CE no preveu cap assumpció de funcions governamentals pel Senat. És un supòsit inexistent en el nostre sistema constitucional."
+      },
+      {
+        "text": "El Rei pot nomenar directament un President del Govern sense necessitat d'investidura",
+        "isCorrect": false,
+        "rationale": "El Rei no té facultat per nomenar un President sense investidura parlamentària. El mecanisme previst és la dissolució de les Corts i la convocatòria de noves eleccions."
+      }
+    ],
+    "hint": "La CE estableix un termini màxim de bloqueig polític. Passats dos mesos, el sistema es desencalla automàticament."
+  },
+  {
+    "guid": "b5f1c9e3-4d7a-4b2f-c8e5-1a9d3b7f4c2e",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "truefalse",
+    "question": "El Vicepresident del Govern és un membre de caràcter obligatori, i la seva existència és imprescindible per a la validesa del Govern.",
+    "answerOptions": [
+      {
+        "text": "Cert",
+        "isCorrect": false,
+        "rationale": "El Vicepresident és un membre potestatiu, no obligatori. L'art. 98.1 CE preveu la seva existència però no l'imposa. Pot haver-hi un o més Vicepresidents, o fins i tot cap, sense que això afecti la validesa del Govern."
+      },
+      {
+        "text": "Fals",
+        "isCorrect": true,
+        "rationale": "El Vicepresident és un càrrec potestatiu: el President del Govern té plena llibertat per decidir si en nomena, quants en nomena i a qui. La seva absència no invalida el Govern en cap cas."
+      }
+    ],
+    "hint": "Pensa en la distinció entre membres obligatoris i potestatius del Govern."
+  },
+  {
+    "guid": "c7a2e6d4-9f3b-4c1a-d5e8-6b2f9c4a7e3d",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "test",
+    "question": "Davant quin tribunal estan aforats els membres del Govern espanyol per a causes penals?",
+    "answerOptions": [
+      {
+        "text": "La Sala Penal del Tribunal Suprem",
+        "isCorrect": true,
+        "rationale": "L'art. 102.1 CE estableix que la responsabilitat criminal del President i dels altres membres del Govern serà exigible davant la Sala Penal del Tribunal Suprem."
+      },
+      {
+        "text": "El Tribunal Constitucional",
+        "isCorrect": false,
+        "rationale": "El Tribunal Constitucional és un òrgan de control constitucional de les normes, no un tribunal penal. No té competència per jutjar penalment els membres del Govern."
+      },
+      {
+        "text": "L'Audiència Nacional",
+        "isCorrect": false,
+        "rationale": "L'Audiència Nacional té competències en determinats delictes greus (terrorisme, narcotràfic...) però no és el tribunal aforat per als membres del Govern. L'aforament els correspon al Tribunal Suprem."
+      },
+      {
+        "text": "El Tribunal Superior de Justícia de Madrid, per raó del domicili del Govern",
+        "isCorrect": false,
+        "rationale": "L'aforament dels membres del Govern no depèn del seu domicili sinó del seu càrrec, i correspon al Tribunal Suprem, no als Tribunals Superiors de Justícia autonòmics."
+      }
+    ],
+    "hint": "L'aforament dels membres del Govern es troba a l'art. 102.1 CE i els protegeix davant el màxim tribunal ordinari."
+  },
+  {
+    "guid": "d1e5c3f7-8a4b-4d9e-f2c1-7b5a3e9d6f4c",
+    "subjectId": "T02",
+    "difficulty": 3,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin és el període de restricció post-cessament ('porta giratòria') que s'aplica als Ministres per exercir activitats privades relacionades amb el seu àmbit competencial?",
+    "answerOptions": [
+      {
+        "text": "Dos anys",
+        "isCorrect": true,
+        "rationale": "La Llei 3/2015, reguladora de l'exercici de l'alt càrrec de l'Administració General de l'Estat, estableix un període de dos anys durant els quals els Ministres no poden exercir activitats privades vinculades a les matèries sobre les quals van tenir competència."
+      },
+      {
+        "text": "Un any",
+        "isCorrect": false,
+        "rationale": "El període no és d'un any sinó de dos anys. Un any seria insuficient per garantir la separació entre la funció pública i els interessos privats."
+      },
+      {
+        "text": "Cinc anys",
+        "isCorrect": false,
+        "rationale": "El període de porta giratòria establert per la Llei 3/2015 és de dos anys, no de cinc. Cinc anys seria un termini desproporcionat i podria vulnerar drets fonamentals."
+      },
+      {
+        "text": "No hi ha cap restricció temporal; el Ministre pot incorporar-se immediatament al sector privat",
+        "isCorrect": false,
+        "rationale": "La Llei 3/2015 sí que estableix restriccions post-càrrec. La seva finalitat és evitar conflictes d'interès i l'aprofitament de la informació privilegiada obtinguda en l'exercici del càrrec."
+      }
+    ],
+    "hint": "La Llei 3/2015 regula les incompatibilitats dels alts càrrecs. El termini de restricció és el mateix que la durada típica d'una legislatura a l'estiu."
+  },
+  {
+    "guid": "e3b9f5a1-2c7d-4e6b-a8f3-5d1c7e2b9a4f",
+    "subjectId": "T02",
+    "difficulty": 4,
+    "origin": "claude",
+    "type": "test",
+    "question": "En quin cas la consulta al Consell d'Estat és preceptiva (obligatòria) per al Govern?",
+    "answerOptions": [
+      {
+        "text": "En la revisió d'ofici d'actes administratius nuls de ple dret",
+        "isCorrect": true,
+        "rationale": "La revisió d'ofici d'actes nuls de ple dret és un dels supòsits en què la consulta al Consell d'Estat és preceptiva per llei. Altres supòsits preceptius són els tractats internacionals, els Decrets Legislatius, els recursos d'inconstitucionalitat i les reclamacions de responsabilitat patrimonial superiors a 50.000 €."
+      },
+      {
+        "text": "En l'aprovació de qualsevol Reial Decret del Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "No tots els Reials Decrets requereixen consulta preceptiva al Consell d'Estat. Només els reglaments executius de lleis (de major rellevància) en requereixen. Els Reials Decrets organitzatius no sempre en necessiten."
+      },
+      {
+        "text": "En el nomenament de qualsevol alt càrrec de l'Administració General de l'Estat",
+        "isCorrect": false,
+        "rationale": "El nomenament d'alts càrrecs no requereix dictamen preceptiu del Consell d'Estat. És una facultat del President del Govern o dels Ministres, sense intervenció consultiva obligatòria del Consell."
+      },
+      {
+        "text": "En l'aprovació de tots els projectes de llei que s'envien al Congrés",
+        "isCorrect": false,
+        "rationale": "L'aprovació de projectes de llei per part del Consell de Ministres no requereix consulta preceptiva al Consell d'Estat. El Consell d'Estat intervé en supòsits específics previstos per llei, no en tota l'activitat legislativa del Govern."
+      }
+    ],
+    "hint": "Recorda els supòsits concrets de consulta preceptiva: tractats, Decrets Legislatius, recursos d'inconstitucionalitat, responsabilitat patrimonial i revisió d'ofici."
+  },
+  {
+    "guid": "f6d4a2c8-5b1e-4f3d-c9a7-3e8b6f2d5a1c",
+    "subjectId": "T02",
+    "difficulty": 3,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina de les següents és una característica exclusiva de les interpel·lacions respecte a les preguntes parlamentàries?",
+    "answerOptions": [
+      {
+        "text": "Les interpel·lacions poden donar lloc a una moció parlamentària",
+        "isCorrect": true,
+        "rationale": "Aquesta és la característica diferencial més important: les interpel·lacions poden generar una moció (resolució del Parlament sobre la matèria), mentre que les preguntes no tenen aquest efecte. A més, les interpel·lacions sempre es formulen en sessió plenària i versan sobre política general."
+      },
+      {
+        "text": "Les interpel·lacions poden ser formulades per escrit, a diferència de les preguntes",
+        "isCorrect": false,
+        "rationale": "És exactament a l'inrevés: les PREGUNTES poden ser escrites o orals. Les interpel·lacions sempre es formulen oralment en sessió plenària."
+      },
+      {
+        "text": "Les interpel·lacions les pot respondre qualsevol membre del Govern, mentre que les preguntes han de ser respostes pel Ministre competent",
+        "isCorrect": false,
+        "rationale": "Tant les preguntes com les interpel·lacions les pot respondre el membre del Govern al qual van dirigides o qui el Govern designi. No hi ha aquesta distinció entre els dos mecanismes."
+      },
+      {
+        "text": "Les interpel·lacions requereixen la signatura de la majoria del grup parlamentari per ser admeses",
+        "isCorrect": false,
+        "rationale": "Les interpel·lacions no requereixen la signatura de la majoria del grup parlamentari. Qualsevol parlamentari pot formular-les, tot i que el reglament limita el nombre per grup i període de sessions."
+      }
+    ],
+    "hint": "Pensa en quin mecanisme pot generar una resolució vinculant del Parlament sobre una matèria concreta."
+  },
+  {
+    "guid": "a7e1c5b3-6f4d-4a8e-b2c7-9d3f1a5e8b2c",
+    "subjectId": "T02",
+    "difficulty": 4,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin membre del Govern té la funció específica de substituir el President en cas d'absència o malaltia?",
+    "answerOptions": [
+      {
+        "text": "El Primer Vicepresident, i en absència d'aquest, el Segon Vicepresident per ordre numèric",
+        "isCorrect": true,
+        "rationale": "L'art. 13 de la Llei 50/1997 estableix que el President serà substituït en els casos d'absència, malaltia o impediment pel Vicepresident que correspongui, seguint l'ordre numèric establert en el moment del seu nomenament."
+      },
+      {
+        "text": "El Ministre de la Presidència, per ser el membre del Govern més proper al President",
+        "isCorrect": false,
+        "rationale": "El Ministre de la Presidència coordina les relacions entre el Govern i les Corts però no té per funció substituir el President. Aquesta funció correspon al Vicepresident."
+      },
+      {
+        "text": "El Ministre d'Hisenda, per la seva importància estratègica en el Govern",
+        "isCorrect": false,
+        "rationale": "El Ministre d'Hisenda no té cap funció de substitució presidencial establerta per llei. La substitució presidencial correspon al Vicepresident, independentment de quina cartera tingui."
+      },
+      {
+        "text": "El Ministre de més antiguitat en el càrrec, com a primus inter pares",
+        "isCorrect": false,
+        "rationale": "L'ordre de substitució presidencial no depèn de l'antiguitat dels Ministres sinó de l'existència i ordre dels Vicepresidents. Si no hi ha Vicepresidents, la substitució es regula per Reial Decret."
+      }
+    ],
+    "hint": "La funció de substitució és la raó de ser essencial del Vicepresident. L'ordre de substitució segueix la numeració dels càrrecs."
+  },
+  {
+    "guid": "b2f8d4e6-7a3c-4b5f-d1e9-4c7a2f8d3e6b",
+    "subjectId": "T02",
+    "difficulty": 4,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina afirmació sobre les comissions d'investigació parlamentàries és CORRECTA?",
+    "answerOptions": [
+      {
+        "text": "Les seves conclusions no són vinculants jurídicament per als tribunals, però els ciutadans estan obligats a comparèixer quan hi siguin cridats",
+        "isCorrect": true,
+        "rationale": "L'art. 76 CE estableix les dues característiques clau: les conclusions de les comissions d'investigació no vinculen els tribunals (no poden condemnar ni absldre ningú), però la compareixença davant elles és obligatòria per als ciutadans cridats a declarar."
+      },
+      {
+        "text": "Les seves conclusions vinculen els tribunals de justícia i poden substituir una sentència judicial",
+        "isCorrect": false,
+        "rationale": "Les conclusions de les comissions d'investigació no vinculen els tribunals en cap cas. Poden tenir gran impacte polític però no tenen efectes jurídics equivalents a una resolució judicial."
+      },
+      {
+        "text": "Només les pot crear el Congrés dels Diputats, no el Senat ni ambdues Càmeres conjuntament",
+        "isCorrect": false,
+        "rationale": "L'art. 76 CE permet que les comissions d'investigació siguin creades pel Congrés, pel Senat o per ambdues Càmeres conjuntament. No és una facultat exclusiva del Congrés."
+      },
+      {
+        "text": "La compareixença davant una comissió d'investigació és voluntària per als ciutadans particulars",
+        "isCorrect": false,
+        "rationale": "La compareixença davant les comissions d'investigació és OBLIGATÒRIA per als ciutadans cridats a declarar. Negar-se a comparèixer pot tenir conseqüències legals."
+      }
+    ],
+    "hint": "Les comissions d'investigació tenen un gran impacte polític però estan molt limitades jurídicament. Recorda les dues cares d'aquesta moneda."
+  },
+  {
+    "guid": "c9a3e7f1-4d6b-4c2a-e8f5-1b9d4c7a3e6f",
+    "subjectId": "T02",
+    "difficulty": 5,
+    "origin": "claude",
+    "type": "test",
+    "question": "En quin cas el President del Govern NO pot proposar al Rei la dissolució de les Corts Generals?",
+    "answerOptions": [
+      {
+        "text": "Quan estigui en tramitació una moció de censura",
+        "isCorrect": true,
+        "rationale": "L'art. 115.2 CE estableix expressament que la proposta de dissolució no podrà presentar-se quan estigui en tramitació una moció de censura. Tampoc es pot dissoldre durant els estats d'alarma, excepció o setge."
+      },
+      {
+        "text": "Quan el Govern estigui en minoria parlamentària",
+        "isCorrect": false,
+        "rationale": "La situació de minoria parlamentària no és un impediment per proposar la dissolució de les Corts. De fet, moltes dissolucions es produeixen precisament en contextos de dificultat parlamentària per al Govern."
+      },
+      {
+        "text": "Quan hagin transcorregut menys de dotze mesos des de les darreres eleccions generals",
+        "isCorrect": false,
+        "rationale": "La CE no estableix cap termini mínim de dotze mesos des de les darreres eleccions per poder dissoldre les Corts. Els únics límits són els expressament previstos a l'art. 115.2 CE."
+      },
+      {
+        "text": "Quan el Senat hagi rebutjat el Projecte de Llei de Pressupostos Generals de l'Estat",
+        "isCorrect": false,
+        "rationale": "El rebuig del Senat als Pressupostos no és cap impediment per dissoldre les Corts. El Senat pot ser superat pel Congrés en el procediment legislatiu, i en cap cas un rebuig senatorial bloqueja la facultat de dissolució del President."
+      }
+    ],
+    "hint": "L'art. 115.2 CE estableix els límits de la facultat de dissolució. Recorda quins estats constitucionals excepcionals la impedeixen."
+  },
+  {
+    "guid": "d4b8f2c6-3e9a-4d7b-f1c4-8a2e5d9b3f7c",
+    "subjectId": "T02",
+    "difficulty": 5,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina és la regulació correcta de la responsabilitat penal del President del Govern per delictes de traïció o contra la seguretat de l'Estat?",
+    "answerOptions": [
+      {
+        "text": "La iniciativa d'acusació correspon al Congrés per majoria absoluta, i el President no pot ser indultat per aquests delictes",
+        "isCorrect": true,
+        "rationale": "L'art. 102.2 CE estableix que en els delictes de traïció o contra la seguretat de l'Estat la iniciativa penal correspon al Congrés per majoria absoluta. L'art. 102.3 afegeix que la prerrogativa reial de gràcia (indult) no és aplicable a cap dels supòsits del mateix article."
+      },
+      {
+        "text": "La iniciativa d'acusació correspon al Fiscal General de l'Estat, igual que per a qualsevol altre càrrec públic",
+        "isCorrect": false,
+        "rationale": "Per als delictes de traïció i contra la seguretat de l'Estat, l'art. 102.2 CE atorga la iniciativa d'acusació al Congrés dels Diputats per majoria absoluta, no al Fiscal General. És un supòsit especial i excepcional."
+      },
+      {
+        "text": "La iniciativa d'acusació correspon a les Corts Generals en sessió conjunta per majoria de dos terços",
+        "isCorrect": false,
+        "rationale": "La iniciativa no correspon a les Corts Generals en sessió conjunta sinó específicament al CONGRÉS dels Diputats, i la majoria exigida és l'absoluta (majoria simple de la totalitat de membres), no els dos terços."
+      },
+      {
+        "text": "El President pot ser indultat pel Rei amb el refrend del Ministre de Justícia, igual que qualsevol altre condemnat",
+        "isCorrect": false,
+        "rationale": "L'art. 102.3 CE exclou expressament la prerrogativa de gràcia (indult) per als supòsits de responsabilitat del President del Govern previstos en aquest article. Es tracta d'una excepció al règim general de l'indult."
+      }
+    ],
+    "hint": "L'art. 102 CE conté tres apartats: l'aforament al TS, la iniciativa d'acusació especial per traïció i la prohibició d'indult."
+  },
+  {
+    "guid": "e5c1a9d3-7f4e-4b8c-a2d6-9e3b1f5c7a4d",
+    "subjectId": "T02",
+    "difficulty": 3,
+    "origin": "claude",
+    "type": "fillgap",
+    "question": "Completa: La moció de censura espanyola té caràcter __________, ja que no es pot derrocar el President sense proposar simultàniament un candidat __________. Necessita la signatura de com a mínim __________ dels Diputats i s'ha d'aprovar per majoria __________.",
+    "answerOptions": [
+      {
+        "text": "Constructiu / alternatiu / 1/10 (35 diputats) / absoluta",
+        "isCorrect": true,
+        "rationale": "Les quatre dades són correctes: caràcter constructiu (model alemany), necessitat de candidat alternatiu simultani, mínim 1/10 dels diputats (35 de 350) per presentar-la, i majoria absoluta (176 de 350) per aprovar-la."
+      },
+      {
+        "text": "Destructiu / substitut / 1/5 (70 diputats) / simple",
+        "isCorrect": false,
+        "rationale": "Quatre errors: la moció és constructiva (no destructiva), el candidat és alternatiu (terme tècnic), cal 1/10 dels diputats (no 1/5) i s'exigeix majoria absoluta (no simple). La majoria simple s'exigeix per a la qüestió de confiança."
+      },
+      {
+        "text": "Constructiu / alternatiu / 1/4 (87 diputats) / absoluta",
+        "isCorrect": false,
+        "rationale": "El caràcter constructiu i la majoria absoluta són correctes, però el quòrum per presentar la moció és d'1/10 dels Diputats (35), no d'1/4 (87). Confondre el quòrum de presentació és un error freqüent."
+      },
+      {
+        "text": "Constructiu / alternatiu / 1/10 (35 diputats) / simple",
+        "isCorrect": false,
+        "rationale": "El caràcter constructiu, el candidat alternatiu i el quòrum d'1/10 són correctes, però la majoria necessària per APROVAR la moció és l'ABSOLUTA (176 de 350), no la simple. La majoria simple és per a la qüestió de confiança."
+      }
+    ],
+    "hint": "Recorda les quatre dades numèriques i tècniques de la moció de censura: caràcter, candidat, quòrum de presentació i majoria d'aprovació."
+  },
+  {
+    "guid": "f8d2b6e4-1c5a-4f9d-b3e7-6a4c2f1d8b5e",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "claude",
+    "type": "truefalse",
+    "question": "Els Secretaris d'Estat formen part del Govern i participen amb vot en les reunions del Consell de Ministres.",
+    "answerOptions": [
+      {
+        "text": "Cert",
+        "isCorrect": false,
+        "rationale": "Afirmació falsa en les dues parts. Els Secretaris d'Estat NO formen part del Govern com a membres, i quan assisteixen al Consell de Ministres ho fan sense dret a vot. Són alts càrrecs de l'Administració, no membres del Govern."
+      },
+      {
+        "text": "Fals",
+        "isCorrect": true,
+        "rationale": "Els Secretaris d'Estat no formen part del Govern. Poden ser convocats al Consell de Ministres però sense vot. Formen part de l'Administració General de l'Estat, no del Govern com a òrgan constitucional. Aquesta és una distinció fonamental i freqüent en exàmens."
+      }
+    ],
+    "hint": "Distingeix entre membres del Govern (art. 98 CE) i alts càrrecs de l'Administració. Els Secretaris d'Estat pertanyen al segon grup."
+  },
+  {
+    "guid": "a6c4e8f2-9b3d-4a7c-e1f6-3d8b5a2c9f4e",
+    "subjectId": "T02",
+    "difficulty": 4,
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin òrgan del Consell d'Estat emet els dictàmens en assumptes de tràmit ordinari, amb caràcter més àgil i operatiu?",
+    "answerOptions": [
+      {
+        "text": "La Comissió Permanent",
+        "isCorrect": true,
+        "rationale": "La Comissió Permanent del Consell d'Estat, formada pel President i els Consellers Permanents, és l'òrgan que emet els dictàmens en assumptes de tràmit ordinari, amb caràcter més àgil. El Ple es reserva per als assumptes de major rellevància."
+      },
+      {
+        "text": "El Ple del Consell d'Estat",
+        "isCorrect": false,
+        "rationale": "El Ple és l'òrgan format per tots els Consellers i es reserva per als assumptes més importants i per emetre els dictàmens preceptius de major rellevància. No és l'òrgan de tràmit ordinari."
+      },
+      {
+        "text": "La Comissió d'Estudis",
+        "isCorrect": false,
+        "rationale": "La Comissió d'Estudis s'encarrega d'elaborar estudis i informes, tant a iniciativa pròpia com a petició del Govern, però no és l'òrgan que emet els dictàmens de tràmit ordinari."
+      },
+      {
+        "text": "El President del Consell d'Estat, per delegació del Ple",
+        "isCorrect": false,
+        "rationale": "El President del Consell d'Estat dirigeix l'òrgan i presideix les seves seccions, però no emet dictàmens de forma individual ni per delegació. Els dictàmens els emet sempre un òrgan col·legiat (Ple o Comissió Permanent)."
+      }
+    ],
+    "hint": "El Consell d'Estat té dos grans òrgans de dictamen. Un per als assumptes importants i un altre per als de tràmit. Recorda quin és quin."
+  }
+]
