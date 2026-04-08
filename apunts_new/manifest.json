@@ -2,6 +2,9 @@
   "base": "apunts_new",
   "temes": {
     "T01": {
+      "md": [
+        "T01-constitucion-espanola-1978.md"
+      ],
       "info": [
         "T01-alex-notebooklm.jpg"
       ],
@@ -15,6 +18,10 @@
           "url": "https://youtu.be/SPHe34CFn7g",
           "name": "T01 alex audio",
           "type": "youtube"
+        },
+        {
+          "url": "https://github.com/hpalacio/leyes/blob/master/constitucion-espanola-1978.adoc",
+          "name": "T01 Consti 78 completa"
         }
       ],
       "slides": [
@@ -73,6 +80,11 @@
             "img_14.jpg"
           ]
         }
+      ]
+    },
+    "T03": {
+      "md": [
+        "T03-Adams-esquema.md"
       ]
     }
   }
