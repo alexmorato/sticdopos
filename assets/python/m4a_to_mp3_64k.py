@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 
-INPUT_DIR = Path(r"D:\AlexPersonal\OPOS25\SETA\audios_m4a")
+INPUT_DIR = Path(r"D:\AlexPersonal\OPOS27")
 OUTPUT_DIR = INPUT_DIR / "mp3_64k"
 HIST_DIR = INPUT_DIR / "historicos_convertidos"
 

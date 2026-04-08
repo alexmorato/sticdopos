@@ -5,8 +5,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 
-INPUT_DIR = Path(r"D:\AlexPersonal\OPOS25\SETA\audios_m4a")
-OUTPUT_DIR = Path(r"D:\AlexPersonal\OPOS25\SETA\audios_m4a\videos_mp4")
+INPUT_DIR = Path(r"D:\AlexPersonal\OPOS27")
+OUTPUT_DIR = Path(r"D:\AlexPersonal\OPOS27\videos_mp4")
 HIST_DIR = INPUT_DIR / "historicos_convertidos"
 
 # Si no quieres tocar el PATH, pon la ruta completa:

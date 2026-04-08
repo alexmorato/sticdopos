@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 # ========= CONFIG =========
-INPUT_DIR = Path(r"D:\AlexPersonal\OPOS25\SETA\audios_m4a\mp3_64k")
+INPUT_DIR = Path(r"D:\AlexPersonal\OPOS27")
 OUTPUT_DIR = INPUT_DIR / "mp4_youtube"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
