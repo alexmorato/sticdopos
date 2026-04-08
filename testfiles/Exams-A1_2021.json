@@ -1,0 +1,362 @@
+[
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0001",
+    "subjectId": "T01",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "1. Quin d’aquests supòsits té el caràcter de dret fonamental susceptible de recurs d’empara davant del Tribunal Constitucional?",
+    "answerOptions": [
+      {
+        "text": "A. Dret a la llibertat ideològica, religiosa i de culte.",
+        "isCorrect": true,
+        "rationale": "És un dret fonamental (art. 16 CE) susceptible de recurs d’empara."
+      },
+      {
+        "text": "B. Dret al treball.",
+        "isCorrect": false,
+        "rationale": "És un dret constitucional però no fonamental (art. 35 CE)."
+      },
+      {
+        "text": "C. Dret a la protecció de la salut.",
+        "isCorrect": false,
+        "rationale": "És un principi rector (art. 43 CE), no emparable directament."
+      },
+      {
+        "text": "D. Dret a la propietat privada.",
+        "isCorrect": false,
+        "rationale": "És un dret constitucional (art. 33 CE), però no fonamental emparable."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0002",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "2. La delegació legislativa en favor del Govern:",
+    "answerOptions": [
+      {
+        "text": "A. Podrà entendre's atorgada per un lapse de temps indeterminat, però no podrà facultar a dictar normes amb caràcter retroactiu.",
+        "isCorrect": false,
+        "rationale": "La delegació ha de ser expressa i amb termini determinat (art. 82 CE)."
+      },
+      {
+        "text": "B. Adopta la forma de llei de bases que podrà autoritzar, si escau, la modificació de la mateixa llei de bases.",
+        "isCorrect": false,
+        "rationale": "La llei de bases no pot autoritzar modificar-se a si mateixa."
+      },
+      {
+        "text": "C. No podrà entendre's concedida de manera implícita i poden adoptar la forma de llei de bases quan tinguin per objecte la formació de textos articulats o de llei ordinària quan es tracti de refondre diversos textos.",
+        "isCorrect": true,
+        "rationale": "Correcte segons art. 82 CE."
+      },
+      {
+        "text": "D. Es pot modificar en qualsevol moment per una proposició de llei sense necessitat de modificar la llei de delegació vigent.",
+        "isCorrect": false,
+        "rationale": "Cal modificar la llei de delegació."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0003",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "3. La responsabilitat criminal dels membres del Govern central serà exigible davant:",
+    "answerOptions": [
+      {
+        "text": "A. L'Audiència Nacional.",
+        "isCorrect": false,
+        "rationale": "No és l’òrgan competent."
+      },
+      {
+        "text": "B. La Sala Contenciosa Administrativa del Tribunal Suprem.",
+        "isCorrect": false,
+        "rationale": "La responsabilitat és penal, no contenciosa."
+      },
+      {
+        "text": "C. La Sala Penal del Tribunal Suprem, únicament si l'acusació fos per traïció.",
+        "isCorrect": false,
+        "rationale": "No només per traïció."
+      },
+      {
+        "text": "D. La Sala Penal del Tribunal Suprem, prèvia autorització del Congrés dels Diputats quan tinguin la condició de membres d'aquesta Cambra.",
+        "isCorrect": true,
+        "rationale": "Art. 102 CE."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0004",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "4. Els/les ministres són nomenats/ades i remoguts/des:",
+    "answerOptions": [
+      {
+        "text": "A. Pel president/a del Govern.",
+        "isCorrect": false,
+        "rationale": "El president proposa però no nomena directament."
+      },
+      {
+        "text": "B. Pel rei/na amb el referendament del president/a del Congrés dels Diputats.",
+        "isCorrect": false,
+        "rationale": "El referendament correspon al president del Govern."
+      },
+      {
+        "text": "C. Pel rei/na a proposta del president/a de Govern.",
+        "isCorrect": true,
+        "rationale": "Art. 100 CE."
+      },
+      {
+        "text": "D. Pel president/a del Govern, previ debat en el Congrés dels Diputats.",
+        "isCorrect": false,
+        "rationale": "No hi ha debat previ obligatori."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0005",
+    "subjectId": "T01",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "5. L’exercici del dret de reunió pacífica i sense armes requereix una autorització prèvia?",
+    "answerOptions": [
+      {
+        "text": "A. Sí, cal l’autorització de la policia.",
+        "isCorrect": false,
+        "rationale": "No es requereix autorització prèvia segons art. 21 CE."
+      },
+      {
+        "text": "B. Sí, cal l’autorització del jutjat de guàrdia.",
+        "isCorrect": false,
+        "rationale": "No és necessari autorització judicial prèvia."
+      },
+      {
+        "text": "C. No.",
+        "isCorrect": true,
+        "rationale": "El dret de reunió no requereix autorització prèvia, només comunicació en determinats casos."
+      },
+      {
+        "text": "D. Només per a manifestar-se en dies festius.",
+        "isCorrect": false,
+        "rationale": "No existeix aquesta limitació."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0006",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "6. En la qüestió de confiança:",
+    "answerOptions": [
+      {
+        "text": "A. El president/a del Govern presenta davant el Congrés dels Diputats el seu programa o una declaració de política general.",
+        "isCorrect": true,
+        "rationale": "Art. 112 CE."
+      },
+      {
+        "text": "B. El president/a del Govern presenta davant el Senat el seu programa de govern.",
+        "isCorrect": false,
+        "rationale": "La qüestió de confiança es planteja davant el Congrés."
+      },
+      {
+        "text": "C. Qualsevol membre del govern presenta davant el Congrés dels Diputats les línies bàsiques programàtiques del seu departament.",
+        "isCorrect": false,
+        "rationale": "Només el president del Govern pot plantejar-la."
+      },
+      {
+        "text": "D. El president/a del Govern presenta davant el Congrés dels Diputats i del Senat, reunits en sessió conjunta, el seu programa de govern.",
+        "isCorrect": false,
+        "rationale": "No es fa en sessió conjunta."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0007",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "7. El Congrés dels Diputats pot exigir la responsabilitat política del govern mitjançant:",
+    "answerOptions": [
+      {
+        "text": "A. L'adopció de la moció de censura per majoria de tres cinquenes parts.",
+        "isCorrect": false,
+        "rationale": "La majoria exigida és absoluta, no de tres cinquenes parts."
+      },
+      {
+        "text": "B. L'adopció de la moció de censura per majoria absoluta.",
+        "isCorrect": true,
+        "rationale": "Art. 113 CE."
+      },
+      {
+        "text": "C. L'adopció de la qüestió de confiança per majoria de tres cinquenes parts.",
+        "isCorrect": false,
+        "rationale": "La qüestió de confiança no és per exigir responsabilitat sinó per confirmar suport."
+      },
+      {
+        "text": "D. L'adopció de la qüestió de confiança per majoria absoluta.",
+        "isCorrect": false,
+        "rationale": "No és el mecanisme per exigir responsabilitat."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0008",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "8. Segons la Llei 50/1997, de 27 de novembre, del Govern, correspon al Consell de Ministres:",
+    "answerOptions": [
+      {
+        "text": "A. Aprovar la dissolució del Congrés, del Senat o de les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "És competència del president del Govern."
+      },
+      {
+        "text": "B. Plantejar davant el Congrés dels Diputats la qüestió de confiança.",
+        "isCorrect": false,
+        "rationale": "Correspon al president del Govern."
+      },
+      {
+        "text": "C. Aprovar la convocatòria d'un referèndum consultiu.",
+        "isCorrect": false,
+        "rationale": "És competència del Rei a proposta del president amb autorització del Congrés."
+      },
+      {
+        "text": "D. Aprovar els reials decrets llei i els reials decrets legislatius.",
+        "isCorrect": true,
+        "rationale": "Funció pròpia del Consell de Ministres."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0009",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "9. Segons l'article 97 de la Constitució espanyola, el govern de l'Estat:",
+    "answerOptions": [
+      {
+        "text": "A. Dirigeix la política interior i l'exterior, l'Administració civil i militar i la defensa de l'Estat.",
+        "isCorrect": true,
+        "rationale": "És la redacció literal de l’article 97 CE."
+      },
+      {
+        "text": "B. Dirigeix la política interior i l'exterior, l'Administració civil, però no l'Administració militar ni la defensa de l'Estat, que corresponen al rei/na.",
+        "isCorrect": false,
+        "rationale": "La defensa també correspon al Govern."
+      },
+      {
+        "text": "C. Dirigeix la política interior i l'exterior, i l'Administració civil i militar, però no la defensa de l'Estat, que correspon a l'exèrcit.",
+        "isCorrect": false,
+        "rationale": "La defensa no correspon a l’exèrcit com a òrgan autònom."
+      },
+      {
+        "text": "D. Dirigeix la política interior i l'exterior, l'Administració civil i militar i militar, la defensa de l'Estat i l'activitat parlamentària.",
+        "isCorrect": false,
+        "rationale": "L’activitat parlamentària no és dirigida pel Govern."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0010",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "10. El Tribunal de Comptes és:",
+    "answerOptions": [
+      {
+        "text": "A. L’òrgan fiscalitzador suprem dels comptes i de la gestió econòmica de l’Estat, i, alhora, del sector públic.",
+        "isCorrect": true,
+        "rationale": "Art. 136 CE."
+      },
+      {
+        "text": "B. Una Sala del Tribunal Suprem a qui correspon l’exercici de la jurisdicció comptable.",
+        "isCorrect": false,
+        "rationale": "És un òrgan constitucional independent."
+      },
+      {
+        "text": "C. Un òrgan especialitzat de la jurisdicció economicoadministrativa.",
+        "isCorrect": false,
+        "rationale": "No forma part d’aquesta jurisdicció."
+      },
+      {
+        "text": "D. Un òrgan especialitzat de la jurisdicció contenciosa administrativa.",
+        "isCorrect": false,
+        "rationale": "No és un òrgan contenciós-administratiu."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0011",
+    "subjectId": "T04",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "11. El Consell General del Poder Judicial està integrat per:",
+    "answerOptions": [
+      {
+        "text": "A. Vint membres, d’entre els quals trien un president/a que també ho serà del Tribunal Suprem.",
+        "isCorrect": false,
+        "rationale": "Són 20 vocals més el president."
+      },
+      {
+        "text": "B. Dotze membres, nomenats entre jutges/jutgesses i tribunals a proposta del Congrés i del Senat per majoria de tres cinquenes parts.",
+        "isCorrect": false,
+        "rationale": "El nombre total no és correcte."
+      },
+      {
+        "text": "C. Vint-i-un membres: onze a proposta del Congrés dels Diputats i deu a proposta del Senat, entre jutges, magistrats/ades i altres juristes.",
+        "isCorrect": false,
+        "rationale": "La distribució no és correcta."
+      },
+      {
+        "text": "D. El president/a del Tribunal Suprem i vint membres nomenats pel rei/na per un període de cinc anys.",
+        "isCorrect": true,
+        "rationale": "Art. 122 CE."
+      }
+    ]
+  },
+  {
+    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0012",
+    "subjectId": "T04",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "12. El Tribunal Superior de Justícia (TSJ) de Catalunya és un òrgan:",
+    "answerOptions": [
+      {
+        "text": "A. Previst a l’Estatut d’autonomia com a culminació de l’organització judicial de Catalunya.",
+        "isCorrect": true,
+        "rationale": "És l’òrgan jurisdiccional superior a Catalunya segons l’Estatut."
+      },
+      {
+        "text": "B. Integrat en el Departament de Justícia de la Generalitat de Catalunya.",
+        "isCorrect": false,
+        "rationale": "No depèn administrativament de la Generalitat."
+      },
+      {
+        "text": "C. Que no està integrat a la planta judicial prevista a la Llei orgànica del poder judicial, com cap altre TSJ, sinó que és una peculiaritat prevista a l’Estatut d’autonomia de Catalunya.",
+        "isCorrect": false,
+        "rationale": "Sí que està integrat a la LOPJ."
+      },
+      {
+        "text": "D. Jurisdiccional de caràcter especial.",
+        "isCorrect": false,
+        "rationale": "És un òrgan ordinari dins del sistema judicial."
+      }
+    ]
+  }
+]
