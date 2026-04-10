@@ -1,2596 +1,1206 @@
 [
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0001",
-    "subjectId": "T01",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "1. Quin d’aquests supòsits té el caràcter de dret fonamental susceptible de recurs d’empara davant del Tribunal Constitucional?",
-    "answerOptions": [
-      {
-        "text": "A. Dret a la llibertat ideològica, religiosa i de culte.",
-        "isCorrect": true,
-        "rationale": "És un dret fonamental (art. 16 CE) susceptible de recurs d’empara."
-      },
-      {
-        "text": "B. Dret al treball.",
-        "isCorrect": false,
-        "rationale": "És un dret constitucional però no fonamental (art. 35 CE)."
-      },
-      {
-        "text": "C. Dret a la protecció de la salut.",
-        "isCorrect": false,
-        "rationale": "És un principi rector (art. 43 CE), no emparable directament."
-      },
-      {
-        "text": "D. Dret a la propietat privada.",
-        "isCorrect": false,
-        "rationale": "És un dret constitucional (art. 33 CE), però no fonamental emparable."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0002",
-    "subjectId": "T05",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "2. La delegació legislativa en favor del Govern:",
-    "answerOptions": [
-      {
-        "text": "A. Podrà entendre's atorgada per un lapse de temps indeterminat, però no podrà facultar a dictar normes amb caràcter retroactiu.",
-        "isCorrect": false,
-        "rationale": "La delegació ha de ser expressa i amb termini determinat (art. 82 CE)."
-      },
-      {
-        "text": "B. Adopta la forma de llei de bases que podrà autoritzar, si escau, la modificació de la mateixa llei de bases.",
-        "isCorrect": false,
-        "rationale": "La llei de bases no pot autoritzar modificar-se a si mateixa."
-      },
-      {
-        "text": "C. No podrà entendre's concedida de manera implícita i poden adoptar la forma de llei de bases quan tinguin per objecte la formació de textos articulats o de llei ordinària quan es tracti de refondre diversos textos.",
-        "isCorrect": true,
-        "rationale": "Correcte segons art. 82 CE."
-      },
-      {
-        "text": "D. Es pot modificar en qualsevol moment per una proposició de llei sense necessitat de modificar la llei de delegació vigent.",
-        "isCorrect": false,
-        "rationale": "Cal modificar la llei de delegació."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0003",
-    "subjectId": "T02",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "3. La responsabilitat criminal dels membres del Govern central serà exigible davant:",
-    "answerOptions": [
-      {
-        "text": "A. L'Audiència Nacional.",
-        "isCorrect": false,
-        "rationale": "No és l’òrgan competent."
-      },
-      {
-        "text": "B. La Sala Contenciosa Administrativa del Tribunal Suprem.",
-        "isCorrect": false,
-        "rationale": "La responsabilitat és penal, no contenciosa."
-      },
-      {
-        "text": "C. La Sala Penal del Tribunal Suprem, únicament si l'acusació fos per traïció.",
-        "isCorrect": false,
-        "rationale": "No només per traïció."
-      },
-      {
-        "text": "D. La Sala Penal del Tribunal Suprem, prèvia autorització del Congrés dels Diputats quan tinguin la condició de membres d'aquesta Cambra.",
-        "isCorrect": true,
-        "rationale": "Art. 102 CE."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0004",
-    "subjectId": "T02",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "4. Els/les ministres són nomenats/ades i remoguts/des:",
-    "answerOptions": [
-      {
-        "text": "A. Pel president/a del Govern.",
-        "isCorrect": false,
-        "rationale": "El president proposa però no nomena directament."
-      },
-      {
-        "text": "B. Pel rei/na amb el referendament del president/a del Congrés dels Diputats.",
-        "isCorrect": false,
-        "rationale": "El referendament correspon al president del Govern."
-      },
-      {
-        "text": "C. Pel rei/na a proposta del president/a de Govern.",
-        "isCorrect": true,
-        "rationale": "Art. 100 CE."
-      },
-      {
-        "text": "D. Pel president/a del Govern, previ debat en el Congrés dels Diputats.",
-        "isCorrect": false,
-        "rationale": "No hi ha debat previ obligatori."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0005",
-    "subjectId": "T01",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "5. L’exercici del dret de reunió pacífica i sense armes requereix una autorització prèvia?",
-    "answerOptions": [
-      {
-        "text": "A. Sí, cal l’autorització de la policia.",
-        "isCorrect": false,
-        "rationale": "No es requereix autorització prèvia segons art. 21 CE."
-      },
-      {
-        "text": "B. Sí, cal l’autorització del jutjat de guàrdia.",
-        "isCorrect": false,
-        "rationale": "No és necessari autorització judicial prèvia."
-      },
-      {
-        "text": "C. No.",
-        "isCorrect": true,
-        "rationale": "El dret de reunió no requereix autorització prèvia, només comunicació en determinats casos."
-      },
-      {
-        "text": "D. Només per a manifestar-se en dies festius.",
-        "isCorrect": false,
-        "rationale": "No existeix aquesta limitació."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0006",
-    "subjectId": "T02",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "6. En la qüestió de confiança:",
-    "answerOptions": [
-      {
-        "text": "A. El president/a del Govern presenta davant el Congrés dels Diputats el seu programa o una declaració de política general.",
-        "isCorrect": true,
-        "rationale": "Art. 112 CE."
-      },
-      {
-        "text": "B. El president/a del Govern presenta davant el Senat el seu programa de govern.",
-        "isCorrect": false,
-        "rationale": "La qüestió de confiança es planteja davant el Congrés."
-      },
-      {
-        "text": "C. Qualsevol membre del govern presenta davant el Congrés dels Diputats les línies bàsiques programàtiques del seu departament.",
-        "isCorrect": false,
-        "rationale": "Només el president del Govern pot plantejar-la."
-      },
-      {
-        "text": "D. El president/a del Govern presenta davant el Congrés dels Diputats i del Senat, reunits en sessió conjunta, el seu programa de govern.",
-        "isCorrect": false,
-        "rationale": "No es fa en sessió conjunta."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0007",
-    "subjectId": "T02",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "7. El Congrés dels Diputats pot exigir la responsabilitat política del govern mitjançant:",
-    "answerOptions": [
-      {
-        "text": "A. L'adopció de la moció de censura per majoria de tres cinquenes parts.",
-        "isCorrect": false,
-        "rationale": "La majoria exigida és absoluta, no de tres cinquenes parts."
-      },
-      {
-        "text": "B. L'adopció de la moció de censura per majoria absoluta.",
-        "isCorrect": true,
-        "rationale": "Art. 113 CE."
-      },
-      {
-        "text": "C. L'adopció de la qüestió de confiança per majoria de tres cinquenes parts.",
-        "isCorrect": false,
-        "rationale": "La qüestió de confiança no és per exigir responsabilitat sinó per confirmar suport."
-      },
-      {
-        "text": "D. L'adopció de la qüestió de confiança per majoria absoluta.",
-        "isCorrect": false,
-        "rationale": "No és el mecanisme per exigir responsabilitat."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0008",
-    "subjectId": "T02",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "8. Segons la Llei 50/1997, de 27 de novembre, del Govern, correspon al Consell de Ministres:",
-    "answerOptions": [
-      {
-        "text": "A. Aprovar la dissolució del Congrés, del Senat o de les Corts Generals.",
-        "isCorrect": false,
-        "rationale": "És competència del president del Govern."
-      },
-      {
-        "text": "B. Plantejar davant el Congrés dels Diputats la qüestió de confiança.",
-        "isCorrect": false,
-        "rationale": "Correspon al president del Govern."
-      },
-      {
-        "text": "C. Aprovar la convocatòria d'un referèndum consultiu.",
-        "isCorrect": false,
-        "rationale": "És competència del Rei a proposta del president amb autorització del Congrés."
-      },
-      {
-        "text": "D. Aprovar els reials decrets llei i els reials decrets legislatius.",
-        "isCorrect": true,
-        "rationale": "Funció pròpia del Consell de Ministres."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0009",
-    "subjectId": "T02",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "9. Segons l'article 97 de la Constitució espanyola, el govern de l'Estat:",
-    "answerOptions": [
-      {
-        "text": "A. Dirigeix la política interior i l'exterior, l'Administració civil i militar i la defensa de l'Estat.",
-        "isCorrect": true,
-        "rationale": "És la redacció literal de l’article 97 CE."
-      },
-      {
-        "text": "B. Dirigeix la política interior i l'exterior, l'Administració civil, però no l'Administració militar ni la defensa de l'Estat, que corresponen al rei/na.",
-        "isCorrect": false,
-        "rationale": "La defensa també correspon al Govern."
-      },
-      {
-        "text": "C. Dirigeix la política interior i l'exterior, i l'Administració civil i militar, però no la defensa de l'Estat, que correspon a l'exèrcit.",
-        "isCorrect": false,
-        "rationale": "La defensa no correspon a l’exèrcit com a òrgan autònom."
-      },
-      {
-        "text": "D. Dirigeix la política interior i l'exterior, l'Administració civil i militar i militar, la defensa de l'Estat i l'activitat parlamentària.",
-        "isCorrect": false,
-        "rationale": "L’activitat parlamentària no és dirigida pel Govern."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0010",
-    "subjectId": "T03",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "10. El Tribunal de Comptes és:",
-    "answerOptions": [
-      {
-        "text": "A. L’òrgan fiscalitzador suprem dels comptes i de la gestió econòmica de l’Estat, i, alhora, del sector públic.",
-        "isCorrect": true,
-        "rationale": "Art. 136 CE."
-      },
-      {
-        "text": "B. Una Sala del Tribunal Suprem a qui correspon l’exercici de la jurisdicció comptable.",
-        "isCorrect": false,
-        "rationale": "És un òrgan constitucional independent."
-      },
-      {
-        "text": "C. Un òrgan especialitzat de la jurisdicció economicoadministrativa.",
-        "isCorrect": false,
-        "rationale": "No forma part d’aquesta jurisdicció."
-      },
-      {
-        "text": "D. Un òrgan especialitzat de la jurisdicció contenciosa administrativa.",
-        "isCorrect": false,
-        "rationale": "No és un òrgan contenciós-administratiu."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0011",
-    "subjectId": "T04",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "11. El Consell General del Poder Judicial està integrat per:",
-    "answerOptions": [
-      {
-        "text": "A. Vint membres, d’entre els quals trien un president/a que també ho serà del Tribunal Suprem.",
-        "isCorrect": false,
-        "rationale": "Són 20 vocals més el president."
-      },
-      {
-        "text": "B. Dotze membres, nomenats entre jutges/jutgesses i tribunals a proposta del Congrés i del Senat per majoria de tres cinquenes parts.",
-        "isCorrect": false,
-        "rationale": "El nombre total no és correcte."
-      },
-      {
-        "text": "C. Vint-i-un membres: onze a proposta del Congrés dels Diputats i deu a proposta del Senat, entre jutges, magistrats/ades i altres juristes.",
-        "isCorrect": false,
-        "rationale": "La distribució no és correcta."
-      },
-      {
-        "text": "D. El president/a del Tribunal Suprem i vint membres nomenats pel rei/na per un període de cinc anys.",
-        "isCorrect": true,
-        "rationale": "Art. 122 CE."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0012",
-    "subjectId": "T04",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "12. El Tribunal Superior de Justícia (TSJ) de Catalunya és un òrgan:",
-    "answerOptions": [
-      {
-        "text": "A. Previst a l’Estatut d’autonomia com a culminació de l’organització judicial de Catalunya.",
-        "isCorrect": true,
-        "rationale": "És l’òrgan jurisdiccional superior a Catalunya segons l’Estatut."
-      },
-      {
-        "text": "B. Integrat en el Departament de Justícia de la Generalitat de Catalunya.",
-        "isCorrect": false,
-        "rationale": "No depèn administrativament de la Generalitat."
-      },
-      {
-        "text": "C. Que no està integrat a la planta judicial prevista a la Llei orgànica del poder judicial, com cap altre TSJ, sinó que és una peculiaritat prevista a l’Estatut d’autonomia de Catalunya.",
-        "isCorrect": false,
-        "rationale": "Sí que està integrat a la LOPJ."
-      },
-      {
-        "text": "D. Jurisdiccional de caràcter especial.",
-        "isCorrect": false,
-        "rationale": "És un òrgan ordinari dins del sistema judicial."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0013",
-    "subjectId": "T05",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "13. El dret de llibertat sindical s’ha de regular mitjançant:",
-    "answerOptions": [
-      {
-        "text": "A. Llei de bases.",
-        "isCorrect": false,
-        "rationale": "La llibertat sindical és un dret fonamental i el seu desenvolupament exigeix llei orgànica."
-      },
-      {
-        "text": "B. Llei ordinària.",
-        "isCorrect": false,
-        "rationale": "La regulació del desenvolupament dels drets fonamentals no es fa per llei ordinària."
-      },
-      {
-        "text": "C. Llei orgànica.",
-        "isCorrect": true,
-        "rationale": "L’article 81 CE reserva a llei orgànica el desenvolupament dels drets fonamentals i llibertats públiques."
-      },
-      {
-        "text": "D. Llei marc.",
-        "isCorrect": false,
-        "rationale": "La llei marc serveix per atribuir a les comunitats autònomes la facultat de dictar normes legislatives en matèries de competència estatal."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0014",
-    "subjectId": "T05",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "14. Mitjançant les anomenades “lleis marc”, les Corts Generals:",
-    "answerOptions": [
-      {
-        "text": "A. Delimiten el marc competencial en què les comunitats autònomes poden desenvolupar les seves competències sobre una o diverses matèries determinades.",
-        "isCorrect": false,
-        "rationale": "Aquesta formulació no correspon al concepte constitucional de llei marc."
-      },
-      {
-        "text": "B. Estableixen els principis necessaris per harmonitzar les disposicions normatives de les comunitats autònomes, fins i tot en el cas de matèries de la seva competència.",
-        "isCorrect": false,
-        "rationale": "Això correspon a les lleis d’harmonització de l’article 150.3 CE."
-      },
-      {
-        "text": "C. Atribueixen a totes o algunes comunitats autònomes la facultat de dictar normes legislatives en matèries de competència estatal.",
-        "isCorrect": true,
-        "rationale": "És la definició de llei marc de l’article 150.1 CE."
-      },
-      {
-        "text": "D. Regulen el marc normatiu competencial en el qual les comunitats autònomes poden desenvolupar la seva potestat legislativa pròpia.",
-        "isCorrect": false,
-        "rationale": "No és la definició tècnica de llei marc prevista a la Constitució."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0015",
-    "subjectId": "T05",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "15. Segons l’article 81 de la Constitució espanyola, les lleis orgàniques es poden modificar:",
-    "answerOptions": [
-      {
-        "text": "A. D’acord amb els mecanismes previstos a la mateixa llei.",
-        "isCorrect": false,
-        "rationale": "La Constitució fixa un requisit específic de majoria absoluta del Congrés en votació final sobre el conjunt."
-      },
-      {
-        "text": "B. Per majoria absoluta del Congrés, en una votació final sobre el conjunt del projecte.",
-        "isCorrect": true,
-        "rationale": "És el requisit literal de l’article 81.2 CE."
-      },
-      {
-        "text": "C. Per majoria de dos terços al Congrés i Senat.",
-        "isCorrect": false,
-        "rationale": "La Constitució no exigeix aquesta majoria reforçada."
-      },
-      {
-        "text": "D. Per majoria absoluta del Congrés i del Senat, en una votació final sobre el conjunt del projecte.",
-        "isCorrect": false,
-        "rationale": "L’exigència constitucional es refereix al Congrés, no a ambdues cambres en aquests termes."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0016",
-    "subjectId": "T05",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "16. Quin títol reben les disposicions del Govern que contenen legislació delegada?",
-    "answerOptions": [
-      {
-        "text": "A. Decrets legislatius.",
-        "isCorrect": true,
-        "rationale": "Segons l’article 85 CE, les disposicions del Govern que contenen legislació delegada reben el títol de decrets legislatius."
-      },
-      {
-        "text": "B. Decrets llei.",
-        "isCorrect": false,
-        "rationale": "El decret llei és una norma amb rang de llei dictada en cas d’extraordinària i urgent necessitat, no una legislació delegada."
-      },
-      {
-        "text": "C. Reials decrets.",
-        "isCorrect": false,
-        "rationale": "El reial decret és una forma reglamentària o formal, però no identifica específicament la legislació delegada."
-      },
-      {
-        "text": "D. Lleis de bases.",
-        "isCorrect": false,
-        "rationale": "La llei de bases és la norma habilitant de la delegació, no el resultat aprovat pel Govern."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0017",
-    "subjectId": "T08",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "17. El Parlament de Catalunya exerceix potestats legislatives?",
-    "answerOptions": [
-      {
-        "text": "A. Sí, d’acord amb l’Estatut d’autonomia de Catalunya.",
-        "isCorrect": true,
-        "rationale": "Les comunitats autònomes tenen potestat legislativa dins del seu àmbit competencial segons la CE i l’Estatut."
-      },
-      {
-        "text": "B. No, perquè la Constitució espanyola reserva aquestes potestats en exclusiva a les Corts Generals, formades pel Congrés dels Diputats i el Senat.",
-        "isCorrect": false,
-        "rationale": "La CE reconeix potestat legislativa a les CCAA."
-      },
-      {
-        "text": "C. Només en aquelles matèries que hagin estat objecte de delegació per part de l’Estat.",
-        "isCorrect": false,
-        "rationale": "També tenen competències pròpies, no només delegades."
-      },
-      {
-        "text": "D. Sí, perquè es tracta d’una nacionalitat històrica.",
-        "isCorrect": false,
-        "rationale": "La potestat legislativa no depèn d’aquesta qualificació."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0018",
-    "subjectId": "T07",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "18. D'acord amb la Llei 40/2015, d'1 d'octubre, els organismes públics vinculats o dependents de l'Administració General de l'Estat es classifiquen en:",
-    "answerOptions": [
-      {
-        "text": "A. Societats mercantils estatals i fundacions del sector públic.",
-        "isCorrect": false,
-        "rationale": "Aquestes formen part del sector públic institucional però no són la classificació principal dels organismes públics."
-      },
-      {
-        "text": "B. Organismes autònoms, entitats públiques empresarials i universitats públiques.",
-        "isCorrect": false,
-        "rationale": "Les universitats no formen part d’aquesta classificació."
-      },
-      {
-        "text": "C. Organismes autònoms, entitats públiques empresarials i fundacions dels sector públic.",
-        "isCorrect": false,
-        "rationale": "Les fundacions no formen part d’aquesta classificació."
-      },
-      {
-        "text": "D. Organismes autònoms, entitats públiques empresarials i agències estatals.",
-        "isCorrect": true,
-        "rationale": "És la classificació correcta segons la Llei 40/2015."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0019",
-    "subjectId": "T07",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "19. Segons la Llei 40/2015, d'1 d'octubre, els organismes autònoms:",
-    "answerOptions": [
-      {
-        "text": "A. Són entitats de dret públic que es regeixen pel dret privat.",
-        "isCorrect": false,
-        "rationale": "No es regeixen pel dret privat com a regla general."
-      },
-      {
-        "text": "B. Són entitats de dret públic que es regeixen pel dret públic.",
-        "isCorrect": true,
-        "rationale": "Els organismes autònoms es regeixen principalment pel dret públic."
-      },
-      {
-        "text": "C. Són entitats de dret públic que es regeixen pel dret públic o pel dret privat, segons quina sigui l'activitat que desenvolupin en cada cas.",
-        "isCorrect": false,
-        "rationale": "Aquesta característica correspon a les entitats públiques empresarials."
-      },
-      {
-        "text": "D. Són entitats de dret privat que es regeixen pel dret privat, llevat per tractar-se d'activitats desenvolupades en el mercat, o així ho disposin els seus estatuts.",
-        "isCorrect": false,
-        "rationale": "No són entitats de dret privat."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0020",
-    "subjectId": "T06",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "20. Segons l'article 103 de la Constitució espanyola, és un principi d'actuació de l'Administració pública:",
-    "answerOptions": [
-      {
-        "text": "A. El principi de jerarquia.",
-        "isCorrect": true,
-        "rationale": "És un dels principis recollits a l’article 103 CE."
-      },
-      {
-        "text": "B. El principi d'igualtat.",
-        "isCorrect": false,
-        "rationale": "És un principi constitucional general però no específic d’actuació administrativa a l’art. 103."
-      },
-      {
-        "text": "C. El principi de suficiència financera.",
-        "isCorrect": false,
-        "rationale": "És un principi relacionat amb el finançament, no amb l’actuació administrativa."
-      },
-      {
-        "text": "D. El principi d'autonomia local.",
-        "isCorrect": false,
-        "rationale": "És un principi organitzatiu territorial, no d’actuació administrativa directa."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0021",
-    "subjectId": "T08",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "21. D’acord amb l’article 147 de la Constitució espanyola, els estatuts d’autonomia són:",
-    "answerOptions": [
-      {
-        "text": "A. Una norma autonòmica.",
-        "isCorrect": false,
-        "rationale": "És una norma amb rang especial, no simplement autonòmica ordinària."
-      },
-      {
-        "text": "B. Una norma institucional bàsica de cada comunitat autònoma.",
-        "isCorrect": true,
-        "rationale": "Definició literal de l’art. 147 CE."
-      },
-      {
-        "text": "C. Una norma de funcionament de cada comunitat autònoma.",
-        "isCorrect": false,
-        "rationale": "No és només una norma de funcionament."
-      },
-      {
-        "text": "D. Una norma que regula els drets fonamentals.",
-        "isCorrect": false,
-        "rationale": "Els drets fonamentals es regulen a la Constitució."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0022",
-    "subjectId": "T07",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "22. D’acord amb l’article 81 de la Llei 40/2015 de règim jurídic del sector públic, els principis generals d’actuació de les entitats que integren el Sector Públic Institucional són:",
-    "answerOptions": [
-      {
-        "text": "A. Legalitat, eficiència, excel·lència i estabilitat pressupostària i sostenibilitat financera.",
-        "isCorrect": false,
-        "rationale": "El terme 'excel·lència' no forma part del redactat legal."
-      },
-      {
-        "text": "B. Legalitat, eficiència, transparència en la gestió i estabilitat pressupostària i sostenibilitat financera.",
-        "isCorrect": true,
-        "rationale": "És el redactat correcte segons la Llei 40/2015."
-      },
-      {
-        "text": "C. Legalitat, eficiència, simplicitat, claredat i estabilitat pressupostària i sostenibilitat financera.",
-        "isCorrect": false,
-        "rationale": "Aquests termes no són els recollits literalment."
-      },
-      {
-        "text": "D. Legalitat, racionalització i agilitat dels procediments, transparència en la gestió i estabilitat pressupostària i sostenibilitat financera.",
-        "isCorrect": false,
-        "rationale": "No és la formulació exacta de la llei."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0023",
-    "subjectId": "T11",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "23. La Carta Municipal defineix els consorcis legals com ens associatius, creats per llei, entre la Generalitat de Catalunya i l'Ajuntament de Barcelona, per a la gestió conjunta de funcions, activitats o serveis. Quin/s consorci/s legal/s crea la Carta Municipal?",
-    "answerOptions": [
-      {
-        "text": "A. Educació, Habitatge i Serveis Socials.",
-        "isCorrect": true,
-        "rationale": "Són els consorcis legals previstos a la Carta Municipal de Barcelona."
-      },
-      {
-        "text": "B. Esports i Cultura.",
-        "isCorrect": false,
-        "rationale": "No són els consorcis legals definits per la Carta."
-      },
-      {
-        "text": "C. Transports urbans de viatgers.",
-        "isCorrect": false,
-        "rationale": "No correspon als consorcis legals de la Carta."
-      },
-      {
-        "text": "D. Urbanisme i Infraestructures.",
-        "isCorrect": false,
-        "rationale": "No són els previstos com a consorcis legals."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0024",
-    "subjectId": "T11",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "24. El Consell Tributari:",
-    "answerOptions": [
-      {
-        "text": "A. Està regulat a la Llei 7/1985, de 2 d’abril, reguladora de les Bases del Règim Local.",
-        "isCorrect": false,
-        "rationale": "No és la norma específica que el regula."
-      },
-      {
-        "text": "B. Està regulat a la Llei 1/2006, de 13 de març, per la qual es regula el règim especial del municipi de Barcelona.",
-        "isCorrect": true,
-        "rationale": "És la norma que regula el règim especial de Barcelona."
-      },
-      {
-        "text": "C. Està regulat a la Llei 40/2015, d’1 d’octubre, de règim jurídic del sector públic.",
-        "isCorrect": false,
-        "rationale": "No regula aquest òrgan específic."
-      },
-      {
-        "text": "D. Està regulat a la Llei 22/1998, de 30 de desembre, de la Carta Municipal de Barcelona.",
-        "isCorrect": false,
-        "rationale": "Tot i estar relacionat, la regulació específica és la Llei 1/2006."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0025",
-    "subjectId": "T10",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "25. D'acord amb l'article 7 de l'Estatut d'autonomia de Catalunya, quines persones gaudeixen de la condició política de catalans/anes o ciutadans/anes de Catalunya?",
-    "answerOptions": [
-      {
-        "text": "A. Els ciutadans/anes espanyols/oles que tenen veïnatge administratiu a Catalunya.",
-        "isCorrect": true,
-        "rationale": "És la definició literal de ciutadania catalana segons l’Estatut."
-      },
-      {
-        "text": "B. Els ciutadans/anes de qualsevol estat membre de la Unió Europa que tenen una empresa a Catalunya.",
-        "isCorrect": false,
-        "rationale": "No és criteri suficient per adquirir la condició política."
-      },
-      {
-        "text": "C. Els ciutadans/anes de qualsevol estat llatinoamericà que siguin parella de fet d'una persona que viu a Catalunya.",
-        "isCorrect": false,
-        "rationale": "No és un supòsit previst a l’Estatut."
-      },
-      {
-        "text": "D. Els ciutadans/anes del Principat d'Andorra que passin les vacances d'estiu a Catalunya durant, com a mínim, 5 anys seguits.",
-        "isCorrect": false,
-        "rationale": "No és un criteri jurídic vàlid."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0026",
-    "subjectId": "T10",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "26. La proposta de reforma de l'Estatut d'autonomia de Catalunya que afecta els títols I i II requereix:",
-    "answerOptions": [
-      {
-        "text": "A. El vot favorable de les dues terceres parts del Parlament, la remissió i consulta a les Corts Generals, la ratificació per mitjà d'una llei orgànica i el referèndum positiu dels electors/ores de Catalunya.",
-        "isCorrect": true,
-        "rationale": "És el procediment reforçat de reforma de l’Estatut."
-      },
-      {
-        "text": "B. El vot favorable de les tres quartes parts del Parlament, la remissió i consulta a les Corts Generals, la ratificació per mitjà d'una llei orgànica i el referèndum positiu dels electors/ores de Catalunya.",
-        "isCorrect": false,
-        "rationale": "No es requereix majoria de tres quartes parts."
-      },
-      {
-        "text": "C. El vot favorable de les dues terceres parts del Parlament, l'aprovació de les Corts Generals per mitjà d'una llei orgànica, i finalment el referèndum positiu dels electors/ores.",
-        "isCorrect": false,
-        "rationale": "Falta el tràmit de remissió i consulta formal."
-      },
-      {
-        "text": "D. El vot favorable de les dues terceres parts del Parlament, l'aprovació de les Corts Generals per mitjà de llei ordinària, i finalment el referèndum positiu dels electors/ores de Catalunya.",
-        "isCorrect": false,
-        "rationale": "La ratificació ha de ser per llei orgànica."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0027",
-    "subjectId": "T10",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "27. L'Estatut d'autonomia de Catalunya de 2006 determina que:",
-    "answerOptions": [
-      {
-        "text": "A. El català és la llengua d'ús normal i preferent de les administracions públiques i dels mitjans de comunicació públics de Catalunya.",
-        "isCorrect": false,
-        "rationale": "El terme 'preferent' ha estat matisat pel TC."
-      },
-      {
-        "text": "B. El català és la llengua d'ús exclusiu de les administracions públiques i dels mitjans de comunicació públics de Catalunya.",
-        "isCorrect": false,
-        "rationale": "També ho és el castellà com a llengua oficial."
-      },
-      {
-        "text": "C. El català i el castellà és la llengua d'ús normal i preferent de les administracions públiques i dels mitjans de comunicació públics de Catalunya.",
-        "isCorrect": false,
-        "rationale": "La formulació no és correcta."
-      },
-      {
-        "text": "D. El català és la llengua d'ús normal de les administracions públiques i dels mitjans de comunicació públics de Catalunya.",
-        "isCorrect": true,
-        "rationale": "És la formulació conforme a l’Estatut després de la interpretació constitucional."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0028",
-    "subjectId": "T10",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "28. D'acord amb el que estableix l’article 2.2 de l'Estatut d'autonomia de Catalunya del 2006 NO forma part de la Generalitat:",
-    "answerOptions": [
-      {
-        "text": "A. El Parlament.",
-        "isCorrect": false,
-        "rationale": "Forma part de la Generalitat."
-      },
-      {
-        "text": "B. La Presidència de la Generalitat i el Govern.",
-        "isCorrect": false,
-        "rationale": "També en formen part."
-      },
-      {
-        "text": "C. El Defensor del Poble.",
-        "isCorrect": true,
-        "rationale": "És una institució estatal, no de la Generalitat."
-      },
-      {
-        "text": "D. El Síndic de Greuges.",
-        "isCorrect": false,
-        "rationale": "És una institució pròpia de la Generalitat."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0029",
-    "subjectId": "T10",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "29. Quin Títol de l'Estatut d'autonomia de Catalunya del 2006 regula el poder judicial?",
-    "answerOptions": [
-      {
-        "text": "A. El Títol VI.",
-        "isCorrect": false,
-        "rationale": "No és el títol correcte segons l’Estatut."
-      },
-      {
-        "text": "B. El Títol III.",
-        "isCorrect": true,
-        "rationale": "El poder judicial es regula al Títol III de l’Estatut."
-      },
-      {
-        "text": "C. El Títol II.",
-        "isCorrect": false,
-        "rationale": "Aquest títol no regula el poder judicial."
-      },
-      {
-        "text": "D. El Títol II i III.",
-        "isCorrect": false,
-        "rationale": "Només el Títol III regula aquesta matèria."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0030",
-    "subjectId": "T10",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "30. D’acord amb el que diu l’article 52 de l’Estatut, i pel que fa al principi rector dels mitjans de comunicació social, en el cas dels mitjans de comunicació de titularitat pública, la informació també ha de ser:",
-    "answerOptions": [
-      {
-        "text": "A. Extensa.",
-        "isCorrect": false,
-        "rationale": "No és un requisit jurídic establert."
-      },
-      {
-        "text": "B. Neutral.",
-        "isCorrect": true,
-        "rationale": "L’Estatut estableix el principi de neutralitat informativa."
-      },
-      {
-        "text": "C. Indiferent.",
-        "isCorrect": false,
-        "rationale": "No és un principi jurídic reconegut."
-      },
-      {
-        "text": "D. Completa.",
-        "isCorrect": false,
-        "rationale": "No és el terme utilitzat per la norma."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0031",
-    "subjectId": "T11",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "31. D'acord amb la Carta Municipal de Barcelona, la competència per dictar bans de l'alcalde o alcaldessa:",
-    "answerOptions": [
-      {
-        "text": "A. És indelegable.",
-        "isCorrect": true,
-        "rationale": "És una competència pròpia de l’alcaldia no delegable."
-      },
-      {
-        "text": "B. Es pot delegar a la Comissió de Govern.",
-        "isCorrect": false,
-        "rationale": "No és delegable."
-      },
-      {
-        "text": "C. Es pot delegar a la Comissió de Govern, als regidors/ores i als òrgans i als càrrecs directius de l'Administració executiva.",
-        "isCorrect": false,
-        "rationale": "No es permet aquesta delegació."
-      },
-      {
-        "text": "D. Es pot delegar a la Comissió de Govern i al Consell Municipal.",
-        "isCorrect": false,
-        "rationale": "No és delegable."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0032",
-    "subjectId": "T11",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "32. D'acord amb la Carta Municipal de Barcelona, poden participar en referèndums i d'altres procediments consultius:",
-    "answerOptions": [
-      {
-        "text": "A. Els estrangers/eres empadronats/ades.",
-        "isCorrect": true,
-        "rationale": "La Carta Municipal permet la participació dels estrangers empadronats en processos consultius."
-      },
-      {
-        "text": "B. Els estrangers/eres que es trobin a la ciutat en el moment de celebrar el referèndum o altre procediment consultiu.",
-        "isCorrect": false,
-        "rationale": "Cal empadronament."
-      },
-      {
-        "text": "C. Els estrangers/eres que siguin nacionals de països amb qui l'Estat tingui signat tractats de reciprocitat.",
-        "isCorrect": false,
-        "rationale": "Aquest criteri és propi d’eleccions, no de consultes municipals."
-      },
-      {
-        "text": "D. Els estrangers/eres no poden participar en cap cas en referèndums o processos consultius.",
-        "isCorrect": false,
-        "rationale": "Sí que poden participar en determinats supòsits."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0033",
-    "subjectId": "T11",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "33. Els districtes són:",
-    "answerOptions": [
-      {
-        "text": "A. Òrgans territorials per a la desconcentració de la gestió i la descentralització de la participació ciutadana.",
-        "isCorrect": true,
-        "rationale": "Definició correcta segons la Carta Municipal de Barcelona."
-      },
-      {
-        "text": "B. Òrgans de participació territorial gestionats descentralitzadament.",
-        "isCorrect": false,
-        "rationale": "No recull correctament la doble funció (gestió i participació)."
-      },
-      {
-        "text": "C. Òrgans territorials per a la descentralització de la gestió i la desconcentració de la participació ciutadana.",
-        "isCorrect": false,
-        "rationale": "Els conceptes estan invertits respecte la definició correcta."
-      },
-      {
-        "text": "D. Són únicament òrgans de participació.",
-        "isCorrect": false,
-        "rationale": "També tenen funcions de gestió."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0034",
-    "subjectId": "T11",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "34. És competència del Plenari del Consell Municipal:",
-    "answerOptions": [
-      {
-        "text": "A. Aprovar de manera provisional el Pla general i les seves revisions i modificacions, en l'àmbit del seu terme municipal.",
-        "isCorrect": true,
-        "rationale": "És una competència pròpia del Plenari."
-      },
-      {
-        "text": "B. Acordar la declaració de lesivitat dels actes de l'Ajuntament.",
-        "isCorrect": false,
-        "rationale": "No correspon al Plenari."
-      },
-      {
-        "text": "C. Aprovar els instruments de gestió urbanística previstos en el planejament.",
-        "isCorrect": false,
-        "rationale": "No és competència directa del Plenari en aquests termes."
-      },
-      {
-        "text": "D. Organitzar l'administració municipal executiva i nomenar els tinents/tinentes d'alcalde i els regidors/ores de districte.",
-        "isCorrect": false,
-        "rationale": "Correspon a l’alcaldia."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0035",
-    "subjectId": "T11",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "35. Segons la Carta Municipal de Barcelona les disposicions de caràcter general dictades en situacions excepcionals o de necessitat urgent són:",
-    "answerOptions": [
-      {
-        "text": "A. Decrets d'alcaldia.",
-        "isCorrect": false,
-        "rationale": "No són la figura específica per a aquestes situacions."
-      },
-      {
-        "text": "B. Bans.",
-        "isCorrect": true,
-        "rationale": "Els bans són disposicions generals dictades per l’alcaldia en situacions excepcionals o urgents."
-      },
-      {
-        "text": "C. Decrets de la Comissió de Govern.",
-        "isCorrect": false,
-        "rationale": "No és la figura adequada segons la Carta."
-      },
-      {
-        "text": "D. Ordenances.",
-        "isCorrect": false,
-        "rationale": "Les ordenances segueixen un procediment ordinari."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0036",
-    "subjectId": "T11",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "36. D’acord amb la Carta Municipal, els reglaments són:",
-    "answerOptions": [
-      {
-        "text": "A. Disposicions de caràcter general que pot dictar el Consell Municipal en l'exercici de la potestat normativa inherent a l'autonomia municipal, i que tenen com a finalitat l'ordenació social.",
-        "isCorrect": false,
-        "rationale": "Aquesta definició correspon més a ordenances."
-      },
-      {
-        "text": "B. Disposicions de caràcter general que pot dictar el Consell Municipal en exercici de la potestat d'autoorganització municipal.",
-        "isCorrect": true,
-        "rationale": "És la definició correcta de reglament en l’àmbit municipal."
-      },
-      {
-        "text": "C. Disposicions de caràcter general que només pot dictar l'alcaldia, que poden dictar-se en situacions excepcionals o de necessitat urgent, i també en ocasió de circumstàncies o esdeveniments de significació o rellevància especials.",
-        "isCorrect": false,
-        "rationale": "Aquesta definició correspon als bans."
-      },
-      {
-        "text": "D. En tot cas són disposicions de caràcter concret dictades per l’Alcaldia.",
-        "isCorrect": false,
-        "rationale": "Els reglaments tenen caràcter general, no concret."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0037",
-    "subjectId": "T12",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "37. Quina d’aquestes respostes sobre l’acte administratiu és la CORRECTA?",
-    "answerOptions": [
-      {
-        "text": "A. L’acte administratiu és una declaració intel·lectual i, per tant, inclou l’activitat tècnica de l’Administració i les execucions coactives de resolucions judicials.",
-        "isCorrect": false,
-        "rationale": "L’activitat tècnica i execucions materials no són actes administratius."
-      },
-      {
-        "text": "B. El contingut de l’acte administratiu s’ha d’ajustar al que disposa l’ordenament jurídic i s’ha de determinar i adequar a les seves finalitats.",
-        "isCorrect": true,
-        "rationale": "Principi de legalitat i finalitat de l’acte administratiu."
-      },
-      {
-        "text": "C. L’acte administratiu innova l’ordenament jurídic i crea normes que passen a formar-ne part.",
-        "isCorrect": false,
-        "rationale": "Això correspon als reglaments, no als actes administratius."
-      },
-      {
-        "text": "D. Els actes administratius no es poden produir a través de mitjans electrònics.",
-        "isCorrect": false,
-        "rationale": "La normativa permet plenament els actes electrònics."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0038",
-    "subjectId": "T12",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "38. El silenci administratiu té efecte estimatori:",
-    "answerOptions": [
-      {
-        "text": "A. En els procediments que impliquin l’exercici d’activitats que puguin danyar el medi ambient.",
-        "isCorrect": false,
-        "rationale": "En aquests casos el silenci és desestimatori."
-      },
-      {
-        "text": "B. En els procediments de responsabilitat patrimonial.",
-        "isCorrect": false,
-        "rationale": "El silenci és desestimatori."
-      },
-      {
-        "text": "C. En els procediments que transfereixin facultats de domini públic.",
-        "isCorrect": false,
-        "rationale": "El silenci és desestimatori."
-      },
-      {
-        "text": "D. En els procediments de recursos d’alçada interposats contra una desestimació per silenci administratiu.",
-        "isCorrect": true,
-        "rationale": "En aquest cas es produeix silenci estimatori segons la Llei 39/2015."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0039",
-    "subjectId": "T12",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "39. Quins actes administratius NO s’han de motivar?",
-    "answerOptions": [
-      {
-        "text": "A. Els que se separin del criteri seguit en actuacions precedents.",
-        "isCorrect": false,
-        "rationale": "Aquests actes sí que s’han de motivar."
-      },
-      {
-        "text": "B. Els que rebutgin proves proposades per les persones interessades.",
-        "isCorrect": false,
-        "rationale": "També s’han de motivar."
-      },
-      {
-        "text": "C. Els actes que no limitin drets subjectius o interessos legítims.",
-        "isCorrect": true,
-        "rationale": "Només és obligatòria la motivació en determinats supòsits, com quan limiten drets."
-      },
-      {
-        "text": "D. Els que limitin drets subjectius o interessos legítims.",
-        "isCorrect": false,
-        "rationale": "Aquests sí que s’han de motivar obligatòriament."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0040",
-    "subjectId": "T12",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "40. NO és un acte administratiu nul de ple dret:",
-    "answerOptions": [
-      {
-        "text": "A. El que sigui constitutiu d'infracció penal.",
-        "isCorrect": false,
-        "rationale": "Aquests actes són nuls de ple dret."
-      },
-      {
-        "text": "B. El dictat prescindint totalment i absolutament del procediment legalment establert.",
-        "isCorrect": false,
-        "rationale": "També és causa de nul·litat de ple dret."
-      },
-      {
-        "text": "C. El dictat per un òrgan incompetent per raons de jerarquia.",
-        "isCorrect": true,
-        "rationale": "Això genera anul·labilitat, no nul·litat de ple dret."
-      },
-      {
-        "text": "D. El que té un contingut impossible.",
-        "isCorrect": false,
-        "rationale": "És causa de nul·litat de ple dret."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0041",
-    "subjectId": "T12",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "41. De quin termini disposa la persona interessada per interposar un recurs d'alçada contra un acte administratiu exprés?",
-    "answerOptions": [
-      {
-        "text": "A. No hi ha termini, el pot interposar en qualsevol moment.",
-        "isCorrect": false,
-        "rationale": "El recurs d’alçada té termini legalment establert."
-      },
-      {
-        "text": "B. Un mes.",
-        "isCorrect": true,
-        "rationale": "Segons la Llei 39/2015, el termini és d’un mes si l’acte és exprés."
-      },
-      {
-        "text": "C. Dos mesos.",
-        "isCorrect": false,
-        "rationale": "Aquest termini no és correcte per al recurs d’alçada."
-      },
-      {
-        "text": "D. Tres mesos.",
-        "isCorrect": false,
-        "rationale": "No correspon a aquest recurs."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0042",
-    "subjectId": "T12",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "42. Els actes administratius que posen fi a la via administrativa poden ser recorreguts potestativament mitjançant:",
-    "answerOptions": [
-      {
-        "text": "A. Recurs de reposició davant l’òrgan superior jeràrquic que l’ha dictat.",
-        "isCorrect": false,
-        "rationale": "El recurs de reposició es presenta davant el mateix òrgan, no el superior."
-      },
-      {
-        "text": "B. Recurs de reposició davant el mateix òrgan que l’ha dictat.",
-        "isCorrect": true,
-        "rationale": "És el recurs potestatiu contra actes que posen fi a la via administrativa."
-      },
-      {
-        "text": "C. Recurs d’alçada davant l’òrgan superior jeràrquic que l’ha dictat.",
-        "isCorrect": false,
-        "rationale": "El recurs d’alçada no procedeix si l’acte posa fi a la via administrativa."
-      },
-      {
-        "text": "D. Recurs d’alçada davant el mateix òrgan que l’ha dictat.",
-        "isCorrect": false,
-        "rationale": "No existeix aquesta configuració."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0043",
-    "subjectId": "T12",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "43. Les administracions públiques poden rectificar en qualsevol moment d’ofici o a instància de part:",
-    "answerOptions": [
-      {
-        "text": "A. Els actes nuls.",
-        "isCorrect": false,
-        "rationale": "Els actes nuls segueixen un procediment de revisió d’ofici específic."
-      },
-      {
-        "text": "B. Els actes anul·lables.",
-        "isCorrect": false,
-        "rationale": "No es rectifiquen directament, sinó que es poden anul·lar."
-      },
-      {
-        "text": "C. Els errors materials, de fet o aritmètics, existents en els seus actes.",
-        "isCorrect": true,
-        "rationale": "És un mecanisme de correcció immediata previst a la Llei 39/2015."
-      },
-      {
-        "text": "D. Els actes de contingut impossible.",
-        "isCorrect": false,
-        "rationale": "Aquests són nuls de ple dret."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0044",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "44. La base imposable de les contribucions especials, està constituïda:",
-    "answerOptions": [
-      {
-        "text": "A. Pel 70%, com a màxim, del cost que l’Ajuntament suporti per a la realització de les obres o per a l’establiment o ampliació dels serveis.",
-        "isCorrect": false,
-        "rationale": "El límit legal és superior."
-      },
-      {
-        "text": "B. Únicament per l’import de les obres a realitzar o dels treballs de l’establiment o ampliació dels serveis.",
-        "isCorrect": false,
-        "rationale": "No és només l’import íntegre sense límit."
-      },
-      {
-        "text": "C. Pel 90%, com a màxim, del cost que l’Ajuntament suporti per a la realització de les obres o per a l’establiment o ampliació dels serveis.",
-        "isCorrect": true,
-        "rationale": "Segons la normativa d’hisendes locals."
-      },
-      {
-        "text": "D. Únicament per les indemnitzacions que resultin procedents als arrendataris/àries dels béns que hagin de ser ocupats.",
-        "isCorrect": false,
-        "rationale": "No defineix correctament la base imposable."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0045",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "45. En quina/quines matèria/es el Decret legislatiu 2/2004 atribueix als municipis el poder de delegar les funcions dels seus propis tributs a la comunitat autònoma o altres ens locals?",
-    "answerOptions": [
-      {
-        "text": "A. Es poden delegar les funcions de gestió, liquidació, inspecció i recaptació.",
-        "isCorrect": true,
-        "rationale": "La normativa permet delegar totes aquestes funcions."
-      },
-      {
-        "text": "B. Únicament es poden delegar les funcions de gestió i liquidació.",
-        "isCorrect": false,
-        "rationale": "També es poden delegar inspecció i recaptació."
-      },
-      {
-        "text": "C. Únicament es pot delegar la funció de la inspecció.",
-        "isCorrect": false,
-        "rationale": "No és l’única funció delegable."
-      },
-      {
-        "text": "D. Únicament es pot delegar la funció de la recaptació.",
-        "isCorrect": false,
-        "rationale": "Es poden delegar més funcions."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0046",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "46. Les operacions de capital dels Pressupostos de les entitats locals es recullen en:",
-    "answerOptions": [
-      {
-        "text": "A. Els capítols 1 i 2.",
-        "isCorrect": false,
-        "rationale": "Aquests corresponen a despeses corrents."
-      },
-      {
-        "text": "B. Els capítols 3, 4 i 5.",
-        "isCorrect": false,
-        "rationale": "No són operacions de capital."
-      },
-      {
-        "text": "C. Els capítols 8 i 9.",
-        "isCorrect": false,
-        "rationale": "Són operacions financeres."
-      },
-      {
-        "text": "D. Els capítols 6 i 7.",
-        "isCorrect": true,
-        "rationale": "Corresponen a inversions reals i transferències de capital."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0047",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "47. D’acord amb l’article 164 de la Llei d’hisendes locals, l'exercici pressupostari:",
-    "answerOptions": [
-      {
-        "text": "A. Tindrà vigència durant un any a comptar des de l’endemà de la darrera publicació del pressupost, un cop hagi estat definitivament aprovat.",
-        "isCorrect": false,
-        "rationale": "No és la definició legal."
-      },
-      {
-        "text": "B. Coincidirà amb l’any natural.",
-        "isCorrect": true,
-        "rationale": "L’exercici pressupostari coincideix amb l’any natural."
-      },
-      {
-        "text": "C. Tindrà vigència durant un any a comptar des de l’endemà de la seva aprovació definitiva.",
-        "isCorrect": false,
-        "rationale": "No es computa així."
-      },
-      {
-        "text": "D. Coincidirà amb la vigència del pressupost aprovat més, si s’escau, la de la seva pròrroga.",
-        "isCorrect": false,
-        "rationale": "La definició legal és més estricta."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0048",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "48. El pressupost general ha de contenir, per a cadascun dels pressupostos que s’hi integrin:",
-    "answerOptions": [
-      {
-        "text": "A. Els estats de despeses sense especificar els crèdits necessaris per atendre el compliment de les obligacions.",
-        "isCorrect": false,
-        "rationale": "Els crèdits s’han d’especificar obligatòriament."
-      },
-      {
-        "text": "B. Els estats de despeses, d'ingressos i les bases d'execució.",
-        "isCorrect": true,
-        "rationale": "És el contingut obligatori del pressupost."
-      },
-      {
-        "text": "C. Els estats d’ingressos en què han de figurar les estimacions dels recursos econòmics a liquidar durant un termini de quatre anys.",
-        "isCorrect": false,
-        "rationale": "El pressupost és anual."
-      },
-      {
-        "text": "D. Únicament els estats de despeses i ingressos.",
-        "isCorrect": false,
-        "rationale": "També inclou bases d’execució."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0049",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "49. El càrrec que paga un usuari/ària en inscriure's en un taller en un centre cívic correspon a:",
-    "answerOptions": [
-      {
-        "text": "A. Una taxa.",
-        "isCorrect": false,
-        "rationale": "Les taxes responen a serveis obligatoris o d’interès general."
-      },
-      {
-        "text": "B. Un impost directe.",
-        "isCorrect": false,
-        "rationale": "No és un impost."
-      },
-      {
-        "text": "C. Un preu públic.",
-        "isCorrect": true,
-        "rationale": "És un servei voluntari, per tant preu públic."
-      },
-      {
-        "text": "D. Una contribució especial.",
-        "isCorrect": false,
-        "rationale": "No hi ha benefici especial derivat d’una obra pública."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0050",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "50. L’impost sobre béns immobles:",
-    "answerOptions": [
-      {
-        "text": "A. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles urbans i en cap cas sobre els béns immobles rústics.",
-        "isCorrect": false,
-        "rationale": "És obligatori i inclou rústics i urbans."
-      },
-      {
-        "text": "B. És un tribut d’exacció obligatòria per als ajuntaments, que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i en cap cas sobre els béns immobles urbans.",
-        "isCorrect": false,
-        "rationale": "Inclou també immobles urbans."
-      },
-      {
-        "text": "C. És un tribut d’exacció obligatòria per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.",
-        "isCorrect": true,
-        "rationale": "Definició correcta de l’IBI."
-      },
-      {
-        "text": "D. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.",
-        "isCorrect": false,
-        "rationale": "No és voluntari."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0051",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "51. D'acord amb la Llei reguladora de les hisendes locals, són tributs propis:",
-    "answerOptions": [
-      {
-        "text": "A. Ingressos procedents del patrimoni municipal.",
-        "isCorrect": false,
-        "rationale": "Són ingressos patrimonials, no tributs."
-      },
-      {
-        "text": "B. Impostos, taxes i contribucions especials.",
-        "isCorrect": true,
-        "rationale": "Són les tres categories de tributs locals."
-      },
-      {
-        "text": "C. Multes i preus públics.",
-        "isCorrect": false,
-        "rationale": "No tenen naturalesa tributària."
-      },
-      {
-        "text": "D. Subvencions i operacions de crèdit.",
-        "isCorrect": false,
-        "rationale": "Són fonts de finançament, no tributs."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0052",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "52. Segons l'article 74 de l'Estatut bàsic de l’empleat públic, les administracions públiques estructuren la seva organització a través de:",
-    "answerOptions": [
-      {
-        "text": "A. La relació de llocs de treball.",
-        "isCorrect": true,
-        "rationale": "És l’instrument bàsic d’organització del personal."
-      },
-      {
-        "text": "B. L’oferta pública.",
-        "isCorrect": false,
-        "rationale": "Serveix per planificar l’accés, no l’organització."
-      },
-      {
-        "text": "C. Els plans sectorials de recursos humans.",
-        "isCorrect": false,
-        "rationale": "Són instruments complementaris."
-      },
-      {
-        "text": "D. El registre de personal.",
-        "isCorrect": false,
-        "rationale": "És un instrument de control, no d’organització."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0049",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "49. El càrrec que paga un usuari/ària en inscriure's en un taller en un centre cívic correspon a:",
-    "answerOptions": [
-      {
-        "text": "A. Una taxa.",
-        "isCorrect": false,
-        "rationale": "Les taxes responen a serveis obligatoris o d’interès general."
-      },
-      {
-        "text": "B. Un impost directe.",
-        "isCorrect": false,
-        "rationale": "No és un impost."
-      },
-      {
-        "text": "C. Un preu públic.",
-        "isCorrect": true,
-        "rationale": "És un servei voluntari, per tant preu públic."
-      },
-      {
-        "text": "D. Una contribució especial.",
-        "isCorrect": false,
-        "rationale": "No hi ha benefici especial derivat d’una obra pública."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0050",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "50. L’impost sobre béns immobles:",
-    "answerOptions": [
-      {
-        "text": "A. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles urbans i en cap cas sobre els béns immobles rústics.",
-        "isCorrect": false,
-        "rationale": "És obligatori i inclou rústics i urbans."
-      },
-      {
-        "text": "B. És un tribut d’exacció obligatòria per als ajuntaments, que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i en cap cas sobre els béns immobles urbans.",
-        "isCorrect": false,
-        "rationale": "Inclou també immobles urbans."
-      },
-      {
-        "text": "C. És un tribut d’exacció obligatòria per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.",
-        "isCorrect": true,
-        "rationale": "Definició correcta de l’IBI."
-      },
-      {
-        "text": "D. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.",
-        "isCorrect": false,
-        "rationale": "No és voluntari."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0051",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "51. D'acord amb la Llei reguladora de les hisendes locals, són tributs propis:",
-    "answerOptions": [
-      {
-        "text": "A. Ingressos procedents del patrimoni municipal.",
-        "isCorrect": false,
-        "rationale": "Són ingressos patrimonials, no tributs."
-      },
-      {
-        "text": "B. Impostos, taxes i contribucions especials.",
-        "isCorrect": true,
-        "rationale": "Són les tres categories de tributs locals."
-      },
-      {
-        "text": "C. Multes i preus públics.",
-        "isCorrect": false,
-        "rationale": "No tenen naturalesa tributària."
-      },
-      {
-        "text": "D. Subvencions i operacions de crèdit.",
-        "isCorrect": false,
-        "rationale": "Són fonts de finançament, no tributs."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0052",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "52. Segons l'article 74 de l'Estatut bàsic de l’empleat públic, les administracions públiques estructuren la seva organització a través de:",
-    "answerOptions": [
-      {
-        "text": "A. La relació de llocs de treball.",
-        "isCorrect": true,
-        "rationale": "És l’instrument bàsic d’organització del personal."
-      },
-      {
-        "text": "B. L’oferta pública.",
-        "isCorrect": false,
-        "rationale": "Serveix per planificar l’accés, no l’organització."
-      },
-      {
-        "text": "C. Els plans sectorials de recursos humans.",
-        "isCorrect": false,
-        "rationale": "Són instruments complementaris."
-      },
-      {
-        "text": "D. El registre de personal.",
-        "isCorrect": false,
-        "rationale": "És un instrument de control, no d’organització."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0053",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "53. Segons l’art. 97 de l'Estatut bàsic de l'empleat públic, el termini de prescripció de les faltes disciplinàries comença a comptar-se:",
-    "answerOptions": [
-      {
-        "text": "A. Des del moment que s'hagin comès.",
-        "isCorrect": true,
-        "rationale": "El còmput s’inicia des de la comissió de la falta."
-      },
-      {
-        "text": "B. Des de la data de la resolució sancionadora.",
-        "isCorrect": false,
-        "rationale": "Això correspon al còmput de prescripció de sancions."
-      },
-      {
-        "text": "C. Des de la fermesa de la resolució sancionadora.",
-        "isCorrect": false,
-        "rationale": "No és el moment inicial de la falta."
-      },
-      {
-        "text": "D. Des de la notificació de la resolució sancionadora.",
-        "isCorrect": false,
-        "rationale": "No aplica a la prescripció de faltes."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0054",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "54. Segons l’article 97 de l'Estatut bàsic de l'empleat públic, el termini de prescripció de les sancions de faltes lleus és de:",
-    "answerOptions": [
-      {
-        "text": "A. Sis mesos.",
-        "isCorrect": false,
-        "rationale": "No és el termini correcte."
-      },
-      {
-        "text": "B. Un any.",
-        "isCorrect": true,
-        "rationale": "Termini de prescripció correcte segons EBEP."
-      },
-      {
-        "text": "C. Dos anys.",
-        "isCorrect": false,
-        "rationale": "No correspon a faltes lleus."
-      },
-      {
-        "text": "D. Tres anys.",
-        "isCorrect": false,
-        "rationale": "És excessiu per faltes lleus."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0055",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "55. D'acord amb l’article 15 de l'Estatut bàsic de l'empleat públic, quin dels següents drets NO és un dret individual que s’exerceix de forma col·lectiva?",
-    "answerOptions": [
-      {
-        "text": "A. La llibertat sindical.",
-        "isCorrect": false,
-        "rationale": "És un dret individual d’exercici col·lectiu."
-      },
-      {
-        "text": "B. La vaga.",
-        "isCorrect": false,
-        "rationale": "També és un dret individual d’exercici col·lectiu."
-      },
-      {
-        "text": "C. La negociació col·lectiva.",
-        "isCorrect": false,
-        "rationale": "Forma part dels drets col·lectius."
-      },
-      {
-        "text": "D. La llibertat d’expressió.",
-        "isCorrect": true,
-        "rationale": "És un dret individual que no requereix exercici col·lectiu."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0056",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "56. Quina de les següents activitats està exceptuada del règim d’incompatibilitats de la Llei 53/1984, de 26 de desembre?",
-    "answerOptions": [
-      {
-        "text": "A. L’exercici d’un lloc de treball en l’esfera docent com a professor/a universitari/ària associat/ada en règim de dedicació no superior a la de temps parcial i amb durada determinada.",
-        "isCorrect": false,
-        "rationale": "Pot ser compatible amb autorització, però no està exempta automàticament."
-      },
-      {
-        "text": "B. La participació ocasional en col·loquis i programes en qualsevol mitjà de comunicació social.",
-        "isCorrect": true,
-        "rationale": "Està expressament exceptuada per la llei."
-      },
-      {
-        "text": "C. L’exercici de càrrecs en empreses o societats concessionàries, contractistes d’obres, serveis o subministraments, arrendatàries o administradores de monopolis, o amb participació o aval del sector públic, qualsevol que sigui la configuració jurídica d’aquelles.",
-        "isCorrect": false,
-        "rationale": "És incompatible."
-      },
-      {
-        "text": "D. L’exercici com a membres de les corporacions locals, excepte que desenvolupin els mateixos càrrecs retribuïts en règim de dedicació exclusiva.",
-        "isCorrect": false,
-        "rationale": "No és una excepció general."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0057",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "57. D’acord amb la Llei de bases de règim local, els llocs de treball a l’Administració local seran ocupats:",
-    "answerOptions": [
-      {
-        "text": "A. Amb caràcter general per personal funcionari.",
-        "isCorrect": true,
-        "rationale": "La regla general és que els llocs es cobreixin per funcionaris."
-      },
-      {
-        "text": "B. Per personal funcionari o laboral indistintament.",
-        "isCorrect": false,
-        "rationale": "El règim general prioritza personal funcionari."
-      },
-      {
-        "text": "C. Amb caràcter general per personal laboral.",
-        "isCorrect": false,
-        "rationale": "No és la regla general."
-      },
-      {
-        "text": "D. Amb caràcter general per personal eventual.",
-        "isCorrect": false,
-        "rationale": "El personal eventual és excepcional."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0058",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "58. Es pot accedir a la condició de funcionari/ària sense cap titulació de les previstes en el sistema educatiu:",
-    "answerOptions": [
-      {
-        "text": "A. Als cossos i escales dels grups A, B i C i de les agrupacions professionals de funcionaris/àries.",
-        "isCorrect": false,
-        "rationale": "Els grups A, B i C requereixen titulació."
-      },
-      {
-        "text": "B. A les agrupacions professionals de funcionaris/àries.",
-        "isCorrect": true,
-        "rationale": "Aquestes agrupacions no exigeixen titulació acadèmica formal."
-      },
-      {
-        "text": "C. Només als cossos i escales del grup B.",
-        "isCorrect": false,
-        "rationale": "El grup B requereix titulació."
-      },
-      {
-        "text": "D. Als cossos i escales del grup C.",
-        "isCorrect": false,
-        "rationale": "El grup C també exigeix titulació."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0059",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "59. En quin dels següents casos el personal funcionari NO està en situació de servei actiu?",
-    "answerOptions": [
-      {
-        "text": "A. Quan està de vacances.",
-        "isCorrect": false,
-        "rationale": "Continua en servei actiu."
-      },
-      {
-        "text": "B. Quan està en comissió de serveis.",
-        "isCorrect": false,
-        "rationale": "Segueix en servei actiu."
-      },
-      {
-        "text": "C. Quan està de permís per assumptes propis.",
-        "isCorrect": false,
-        "rationale": "També és situació de servei actiu."
-      },
-      {
-        "text": "D. Quan està suspès de funcions amb caràcter provisional amb motiu de la tramitació d’un procediment judicial o expedient disciplinari.",
-        "isCorrect": true,
-        "rationale": "En aquest cas no està en servei actiu."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0060",
-    "subjectId": "T15",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "60. D’acord amb l’article 56 de l’Estatut bàsic de l’empleat públic, els requisits generals per poder participar en els processos selectius són:",
-    "answerOptions": [
-      {
-        "text": "A. Ser major de 18 anys i no excedir l’edat de jubilació forçosa.",
-        "isCorrect": false,
-        "rationale": "És un requisit, però no és l’única resposta correcta completa."
-      },
-      {
-        "text": "B. Tenir sempre el permís de conduir.",
-        "isCorrect": false,
-        "rationale": "No és un requisit general."
-      },
-      {
-        "text": "C. Posseir la titulació exigida.",
-        "isCorrect": true,
-        "rationale": "És un requisit essencial establert per l’EBEP."
-      },
-      {
-        "text": "D. Tenir sempre la nacionalitat espanyola.",
-        "isCorrect": false,
-        "rationale": "Hi ha supòsits d’accés per a ciutadans de la UE."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0061",
-    "subjectId": "T15",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "61. A l'Ajuntament de Barcelona i, d'acord amb la Carta Municipal de Barcelona, qui té atribuïda la competència per a l'aprovació de l'oferta pública d'ocupació?",
-    "answerOptions": [
-      {
-        "text": "A. El Consell Municipal.",
-        "isCorrect": false,
-        "rationale": "No és l’òrgan competent en aquest cas."
-      },
-      {
-        "text": "B. L'alcalde o alcaldessa.",
-        "isCorrect": true,
-        "rationale": "Segons la Carta Municipal, és competència de l’alcaldia."
-      },
-      {
-        "text": "C. La Comissió de Govern.",
-        "isCorrect": false,
-        "rationale": "No té atribuïda aquesta competència."
-      },
-      {
-        "text": "D. El/la gerent municipal.",
-        "isCorrect": false,
-        "rationale": "No és l’òrgan competent."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0062",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "62. El personal funcionari que passi a ocupar un càrrec electe i de dedicació exclusiva en una corporació local serà declarat en la situació administrativa següent:",
-    "answerOptions": [
-      {
-        "text": "A. Excedència forçosa.",
-        "isCorrect": false,
-        "rationale": "No és la situació aplicable."
-      },
-      {
-        "text": "B. Serveis especials.",
-        "isCorrect": true,
-        "rationale": "És la situació prevista per exercir càrrecs públics electes."
-      },
-      {
-        "text": "C. Serveis en altres administracions.",
-        "isCorrect": false,
-        "rationale": "No correspon a aquest supòsit."
-      },
-      {
-        "text": "D. Excedència per incompatibilitat.",
-        "isCorrect": false,
-        "rationale": "No és la qualificació correcta."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0063",
-    "subjectId": "T16",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "63. Pel que fa als tractaments de dades personals amb fins de videovigilància, tret que hagin de ser conservats per acreditar la comissió d'actes que atemptin contra la integritat de persones, béns o instal·lacions, les dades seran suprimides en:",
-    "answerOptions": [
-      {
-        "text": "A. El termini màxim d'1 mes des de la seva captació.",
-        "isCorrect": true,
-        "rationale": "És el termini general establert per la normativa de protecció de dades."
-      },
-      {
-        "text": "B. El termini màxim de 2 mesos des de la seva captació.",
-        "isCorrect": false,
-        "rationale": "No és el termini legal."
-      },
-      {
-        "text": "C. El termini màxim de 3 mesos des de la seva captació.",
-        "isCorrect": false,
-        "rationale": "No és el termini general aplicable."
-      },
-      {
-        "text": "D. El termini màxim de 6 mesos des de la seva captació.",
-        "isCorrect": false,
-        "rationale": "És un termini excessiu."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0064",
-    "subjectId": "T16",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "64. La infracció “el tractament de dades personals d'un/a menor d'edat sense demanar el seu consentiment, quan tingui capacitat per a això, o el del/la titular de la seva pàtria potestat o tutela, de conformitat amb l'article 8 del Reglament (UE) 2016/679” és considerada:",
-    "answerOptions": [
-      {
-        "text": "A. Una infracció molt greu.",
-        "isCorrect": false,
-        "rationale": "No està tipificada com a molt greu."
-      },
-      {
-        "text": "B. Una infracció lleu.",
-        "isCorrect": false,
-        "rationale": "No és una infracció de menor entitat."
-      },
-      {
-        "text": "C. Una infracció greu.",
-        "isCorrect": true,
-        "rationale": "Així ho estableix la normativa de protecció de dades."
-      },
-      {
-        "text": "D. No es regula aquest supòsit entre les infraccions regulades en matèria de protecció de dades.",
-        "isCorrect": false,
-        "rationale": "Sí que està expressament regulat."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0065",
-    "subjectId": "T16",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "65. És un objectiu estratègic del Pla d'igualtat d'oportunitats entre dones i homes:",
-    "answerOptions": [
-      {
-        "text": "A. Garantir la igualtat retributiva entre dones i homes.",
-        "isCorrect": true,
-        "rationale": "És un objectiu estratègic directe dels plans d’igualtat."
-      },
-      {
-        "text": "B. Reduir la bretxa salarial.",
-        "isCorrect": false,
-        "rationale": "És una conseqüència, però l’objectiu es formula en termes de garantir la igualtat."
-      },
-      {
-        "text": "C. Elaborar un nou informe de bretxa salarial de gènere l'any 2022.",
-        "isCorrect": false,
-        "rationale": "És una acció concreta, no un objectiu estratègic."
-      },
-      {
-        "text": "D. Reduir el nombre de factors que afavoreixen les diferències retributives entre dones i homes.",
-        "isCorrect": false,
-        "rationale": "És una línia d’actuació, no la formulació estratègica principal."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0066",
-    "subjectId": "T16",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "66. Al III Pla d’igualtat d’oportunitats entre dones i homes de l’Ajuntament de Barcelona, s’entén per Segregació horitzontal de les dones:",
-    "answerOptions": [
-      {
-        "text": "A. La concentració de dones en determinades ocupacions que, generalment, es caracteritzen per una remuneració, un reconeixement i un valor social inferiors.",
-        "isCorrect": true,
-        "rationale": "Definició correcta de segregació horitzontal."
-      },
-      {
-        "text": "B. La concentració de dones en determinats llocs de treball que generalment es caracteritzen per ser els de responsabilitat més baixa i menys remuneració.",
-        "isCorrect": false,
-        "rationale": "Això s’apropa a segregació vertical."
-      },
-      {
-        "text": "C. La concentració de dones en determinats llocs de treball que generalment es caracteritzen per ser els de responsabilitat més baixa i més alta remuneració.",
-        "isCorrect": false,
-        "rationale": "No és una definició correcta."
-      },
-      {
-        "text": "D. Les circumstàncies originades per les responsabilitats i càrregues familiars que mantenen moltes dones atrapades a la base de la piràmide econòmica.",
-        "isCorrect": false,
-        "rationale": "Descriu factors, no el concepte."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0067",
-    "subjectId": "T17",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "67. Les notificacions per mitjans electrònics es consideraran practicades:",
-    "answerOptions": [
-      {
-        "text": "A. En el moment que l'Administració les diposita a la plataforma de notificació electrònica.",
-        "isCorrect": false,
-        "rationale": "No és el moment jurídicament rellevant."
-      },
-      {
-        "text": "B. En el moment que l'Administració les posa a disposició de la persona interessada a través de l'adreça electrònica habilitada única.",
-        "isCorrect": false,
-        "rationale": "Només es considera practicada amb accés."
-      },
-      {
-        "text": "C. En el moment en què es produeix l’accés al seu contingut.",
-        "isCorrect": true,
-        "rationale": "És el moment de pràctica de la notificació segons la Llei 39/2015."
-      },
-      {
-        "text": "D. En el moment que la persona interessada rep un avís de l’Administració que pot accedir a la notificació.",
-        "isCorrect": false,
-        "rationale": "L’avís no equival a notificació."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0068",
-    "subjectId": "T17",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "68. Segons la Llei 39/2015, del procediment administratiu, quina d’aquestes persones o entitats NO té l’obligació de relacionar-se amb les administracions públiques a través de mitjans electrònics, per a la realització de qualsevol tràmit d’un procediment administratiu?",
-    "answerOptions": [
-      {
-        "text": "A. Les persones físiques que no es trobin compreses en cap dels supòsits previstos a l’art. 14.2 de la Llei 39/2015.",
-        "isCorrect": true,
-        "rationale": "Aquestes persones poden optar per mitjans no electrònics."
-      },
-      {
-        "text": "B. Les persones jurídiques.",
-        "isCorrect": false,
-        "rationale": "Estan obligades a relacionar-se electrònicament."
-      },
-      {
-        "text": "C. Els qui exerceixen una activitat professional per la qual es requereixi col·legiació obligatòria, per als tràmits i actuacions que portin a terme amb les administracions públiques en exercici d’aquesta activitat professional.",
-        "isCorrect": false,
-        "rationale": "També estan obligats."
-      },
-      {
-        "text": "D. Les entitats sense personalitat jurídica.",
-        "isCorrect": false,
-        "rationale": "També estan obligades."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0069",
-    "subjectId": "T17",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "69. Segons l'Ordenança reguladora de l'administració electrònica, quin dels següents continguts NO forma part de la Seu Electrònica?",
-    "answerOptions": [
-      {
-        "text": "A. L’oferta pública d'ocupació.",
-        "isCorrect": false,
-        "rationale": "Forma part de la informació accessible."
-      },
-      {
-        "text": "B. Informació sobre protecció de dades.",
-        "isCorrect": false,
-        "rationale": "És contingut obligatori."
-      },
-      {
-        "text": "C. La guia d'equipaments de la ciutat.",
-        "isCorrect": true,
-        "rationale": "No forma part dels continguts essencials de la Seu Electrònica."
-      },
-      {
-        "text": "D. La gaseta municipal.",
-        "isCorrect": false,
-        "rationale": "Forma part de la informació institucional."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0070",
-    "subjectId": "T17",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "70. La Llei 39/2015 assenyala que els expedients han de tenir format electrònic i s’han de formar mitjançant l’agregació ordenada de:",
-    "answerOptions": [
-      {
-        "text": "A. Els informes, les notes, els acords i les notificacions.",
-        "isCorrect": false,
-        "rationale": "És incomplet."
-      },
-      {
-        "text": "B. Informes, esborranys, resums i acords.",
-        "isCorrect": false,
-        "rationale": "No recull tots els elements exigits."
-      },
-      {
-        "text": "C. Els documents, proves, dictàmens, informes, acords, notificacions, diligències, així com un índex numerat.",
-        "isCorrect": true,
-        "rationale": "Definició completa segons la Llei 39/2015."
-      },
-      {
-        "text": "D. Els informes, judicis de valor, opinions, acords i notificacions.",
-        "isCorrect": false,
-        "rationale": "No és la formulació legal."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0071",
-    "subjectId": "T18",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "71. Segons el Codi ètic i de conducta de l'Ajuntament de Barcelona, les persones que hagin tingut responsabilitats executives en l’àmbit municipal:",
-    "answerOptions": [
-      {
-        "text": "A. No poden prestar serveis en entitats privades que hagin resultat afectades per decisions en què hagin participat durant el termini de 5 anys des de la data del seu cessament.",
-        "isCorrect": false,
-        "rationale": "El termini no és de 5 anys."
-      },
-      {
-        "text": "B. No poden prestar serveis en entitats privades que hagin resultat afectades per decisions en què hagin participat durant el termini d'1 any des de la data del seu cessament.",
-        "isCorrect": false,
-        "rationale": "El termini és superior."
-      },
-      {
-        "text": "C. No poden prestar serveis en entitats privades que hagin resultats afectades per decisions en què hagin participat durant un termini de 3 anys des de la data del seu cessament.",
-        "isCorrect": false,
-        "rationale": "No és el termini establert."
-      },
-      {
-        "text": "D. No poden prestar serveis en entitats privades que hagin resultat afectades per decisions en què hagin participat durant el termini de 2 anys des de la data del seu cessament.",
-        "isCorrect": true,
-        "rationale": "És el termini establert pel Codi ètic."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0072",
-    "subjectId": "T18",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "72. Quin és el termini de resolució de les sol·licituds d'accés a la informació pública establert amb caràcter general a la Llei 19/2014, de 29 de desembre, de transparència, accés a la informació pública i bon govern?",
-    "answerOptions": [
-      {
-        "text": "A. 2 mesos.",
-        "isCorrect": false,
-        "rationale": "És superior al termini general."
-      },
-      {
-        "text": "B. 10 dies.",
-        "isCorrect": false,
-        "rationale": "És inferior al termini legal."
-      },
-      {
-        "text": "C. 15 dies.",
-        "isCorrect": false,
-        "rationale": "No és el termini general."
-      },
-      {
-        "text": "D. 1 mes.",
-        "isCorrect": true,
-        "rationale": "És el termini general establert per la Llei 19/2014."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0073",
-    "subjectId": "T18",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "73. D'acord amb la Llei 19/2014, de 29 de desembre, de transparència, accés a la informació pública i bon govern, és informació pública:",
-    "answerOptions": [
-      {
-        "text": "A. Tota la informació elaborada per l'Administració i la que aquesta té en el seu poder com a conseqüència de la seva activitat o l'exercici de les seves funcions.",
-        "isCorrect": true,
-        "rationale": "És la definició legal d’informació pública."
-      },
-      {
-        "text": "B. Tota informació elaborada per l'Administració com a conseqüència de la seva activitat o l'exercici de les seves funcions, exclusivament.",
-        "isCorrect": false,
-        "rationale": "També inclou la que està en el seu poder encara que no l’hagi elaborat."
-      },
-      {
-        "text": "C. Tota informació que proporcionen les persones interessades en el marc d'un procediment administratiu, exclusivament.",
-        "isCorrect": false,
-        "rationale": "És només una part de la informació possible."
-      },
-      {
-        "text": "D. Tota informació que consta en els arxius municipals i que és lliurement accessible per la ciutadania, exclusivament.",
-        "isCorrect": false,
-        "rationale": "La definició és més àmplia."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0074",
-    "subjectId": "T18",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "74. Segons les normes reguladores de la bústia ètica de l'Ajuntament de Barcelona, la persona que presenta una comunicació:",
-    "answerOptions": [
-      {
-        "text": "A. Té dret a la protecció eficaç del seu anonimat en tot cas.",
-        "isCorrect": true,
-        "rationale": "La normativa garanteix la protecció de l’anonimat."
-      },
-      {
-        "text": "B. Té dret a la protecció eficaç del seu anonimat mentre es comproven els fets comunicats.",
-        "isCorrect": false,
-        "rationale": "La protecció no és limitada temporalment així."
-      },
-      {
-        "text": "C. Té dret a la protecció eficaç del seu anonimat si l'acte comunicat afecta una persona del seu mateix Servei.",
-        "isCorrect": false,
-        "rationale": "No depèn d’aquesta condició."
-      },
-      {
-        "text": "D. No té dret a la protecció eficaç del seu anonimat en cap cas.",
-        "isCorrect": false,
-        "rationale": "És contrari a la normativa."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0075",
-    "subjectId": "T18",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "75. L'accés a la informació pública s'ha de denegar directament quan:",
-    "answerOptions": [
-      {
-        "text": "A. La informació a la qual es vol accedir fa referència a expedients administratius en tràmit.",
-        "isCorrect": false,
-        "rationale": "Pot limitar-se però no denegar-se automàticament."
-      },
-      {
-        "text": "B. La informació a la qual es vol accedir conté dades personals relatives a la ideologia, afiliació sindical i religió.",
-        "isCorrect": true,
-        "rationale": "Són dades especialment protegides."
-      },
-      {
-        "text": "C. La informació a la qual es vol accedir conté dades merament identificatives relatives a l'organització, el funcionament o l’activitat de l'administració.",
-        "isCorrect": false,
-        "rationale": "Aquestes dades són accessibles."
-      },
-      {
-        "text": "D. La informació a la qual es vol accedir conté dades personals no especialment protegides.",
-        "isCorrect": false,
-        "rationale": "Es poden ponderar i facilitar."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0076",
-    "subjectId": "T01",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "76. Quina és la forma política de l'Estat espanyol?",
-    "answerOptions": [
-      {
-        "text": "A. La monarquia democràtica.",
-        "isCorrect": false,
-        "rationale": "No és la denominació constitucional exacta."
-      },
-      {
-        "text": "B. La monarquia constitucional.",
-        "isCorrect": false,
-        "rationale": "No és la formulació literal de la CE."
-      },
-      {
-        "text": "C. La monarquia hereditària.",
-        "isCorrect": false,
-        "rationale": "No defineix la forma política completa."
-      },
-      {
-        "text": "D. La monarquia parlamentària.",
-        "isCorrect": true,
-        "rationale": "Art. 1.3 CE."
-      }
-    ]
-  }
-,
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0077",
-    "subjectId": "T01",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "77. El deure d’inscriure en un registre les associacions constituïdes a l'empara de l'article 22 de la Constitució espanyola s’estableix únicament a efectes:",
-    "answerOptions": [
-      {
-        "text": "A. Econòmics.",
-        "isCorrect": false,
-        "rationale": "No és la finalitat del registre."
-      },
-      {
-        "text": "B. De publicitat.",
-        "isCorrect": true,
-        "rationale": "Art. 22 CE: registre a efectes de publicitat."
-      },
-      {
-        "text": "C. Tributaris.",
-        "isCorrect": false,
-        "rationale": "No és la finalitat constitucional."
-      },
-      {
-        "text": "D. Electorals.",
-        "isCorrect": false,
-        "rationale": "No té relació amb processos electorals."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0078",
-    "subjectId": "T04",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "78. D'acord amb el que preveu la Constitució espanyola, el Ministeri Fiscal exerceix les seves funcions:",
-    "answerOptions": [
-      {
-        "text": "A. Seguint les instruccions que aprova el Govern de l’Estat com a superior jeràrquic.",
-        "isCorrect": false,
-        "rationale": "No depèn jeràrquicament del Govern."
-      },
-      {
-        "text": "B. Segons els principis d’independència i autonomia.",
-        "isCorrect": false,
-        "rationale": "No és independent, sinó sotmès a principis concrets."
-      },
-      {
-        "text": "C. Conforme als principis d’unitat d’actuació i dependència jeràrquica amb subjecció, en tot cas, als principis de legalitat i imparcialitat.",
-        "isCorrect": true,
-        "rationale": "Art. 124 CE."
-      },
-      {
-        "text": "D. D’acord amb les indicacions rebudes per part del Jutjat o Tribunal al qual està adscrit.",
-        "isCorrect": false,
-        "rationale": "No depèn funcionalment dels jutges."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0079",
-    "subjectId": "T13",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "79. Els ajuntaments poden exigir el pagament d’un preu públic:",
-    "answerOptions": [
-      {
-        "text": "A. Pel servei de recollida de residus sòlids urbans.",
-        "isCorrect": false,
-        "rationale": "És una taxa, no preu públic."
-      },
-      {
-        "text": "B. Pels serveis de prevenció i extinció d’incendis.",
-        "isCorrect": false,
-        "rationale": "És servei obligatori → taxa."
-      },
-      {
-        "text": "C. Per l’entrada en un espectacle públic municipal.",
-        "isCorrect": true,
-        "rationale": "És servei voluntari → preu públic."
-      },
-      {
-        "text": "D. Per l’atorgament de llicències urbanístiques exigides per la Llei.",
-        "isCorrect": false,
-        "rationale": "És taxa."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0080",
-    "subjectId": "T14",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "80. Segons l'article 39 de l’Estatut bàsic de l’empleat públic, les juntes de personal en entitats locals de més de 1.001 funcionaris, tenen la següent composició:",
-    "answerOptions": [
-      {
-        "text": "A. Dos representants per cada 1.000 o fracció, amb un màxim de 75.",
-        "isCorrect": true,
-        "rationale": "És la composició establerta per l’EBEP."
-      },
-      {
-        "text": "B. Dos representants per dada 1.000 o fracció, amb un màxim de 100.",
-        "isCorrect": false,
-        "rationale": "El màxim no és correcte."
-      },
-      {
-        "text": "C. Tres representants per cada 1.000 o fracció, amb un màxim de 75.",
-        "isCorrect": false,
-        "rationale": "No és el nombre establert."
-      },
-      {
-        "text": "D. Tres representants per cada 1.000 o fracció, amb un màxim de 100.",
-        "isCorrect": false,
-        "rationale": "No és correcte."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0081",
-    "subjectId": "T15",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "81. D’acord amb l’Estatut bàsic de l’empleat públic, han de ser objecte de l’oferta d’ocupació pública:",
-    "answerOptions": [
-      {
-        "text": "A. Les necessitats de recursos humans, amb assignació pressupostària, que s’hagin de proveir mitjançant la incorporació de personal de nou ingrés.",
-        "isCorrect": true,
-        "rationale": "Definició correcta segons EBEP."
-      },
-      {
-        "text": "B. Les necessitats de recursos humans, sense assignació pressupostària, que s’hagin de proveir mitjançant la incorporació de personal de nou ingrés.",
-        "isCorrect": false,
-        "rationale": "Cal assignació pressupostària."
-      },
-      {
-        "text": "C. Les necessitats de recursos humans, amb o sense assignació pressupostària, que s’hagin de proveir mitjançant la incorporació de personal de nou ingrés.",
-        "isCorrect": false,
-        "rationale": "No és correcte."
-      },
-      {
-        "text": "D. Les necessitats de recursos humans, amb o sense assignació pressupostària, que s’hagin de proveir mitjançant la incorporació només de personal funcionari de carrera de nou ingrés.",
-        "isCorrect": false,
-        "rationale": "No es limita només a funcionaris."
-      }
-    ]
-  },
-  {
-    "guid": "c1a7f8d2-8f5c-4f4e-9a0a-1e2b3c4d0082",
-    "subjectId": "T16",
-    "difficulty": 1,
-    "origin": "A1-2021.pdf",
-    "type": "test",
-    "question": "82. El resultat estratègic de l’àmbit d’intervenció relatiu a “Cultura Institucional “del III Pla d’igualtat d’oportunitats entre dones i homes de l’Ajuntament de Barcelona és:",
-    "answerOptions": [
-      {
-        "text": "A. Integració de la igualtat de gènere en els processos de presa de decisions, de la gestió de persones i de les accions que afecten el personal municipal.",
-        "isCorrect": true,
-        "rationale": "És el resultat estratègic definit."
-      },
-      {
-        "text": "B. Disminució de la segregació horitzontal i la segregació vertical.",
-        "isCorrect": false,
-        "rationale": "És un objectiu específic, no aquest àmbit."
-      },
-      {
-        "text": "C. Millora de la carrera professional de les dones en el seu sentit més ampli i la formació.",
-        "isCorrect": false,
-        "rationale": "Correspon a altres línies."
-      },
-      {
-        "text": "D. Reducció de la bretxa salarial de gènere.",
-        "isCorrect": false,
-        "rationale": "És un objectiu global, no específic d’aquest àmbit."
-      }
-    ]
-  }
+    {
+        "guid": "8aab7b3a-9828-4ca5-9142-079ac18d55b9",
+        "subjectId": "T01",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "1. Quin d’aquests supòsits té el caràcter de dret fonamental susceptible de recurs d’empara davant del Tribunal Constitucional?",
+        "answerOptions": [
+     {"text":"A. Dret a la llibertat ideològica,religiosa i de culte.","isCorrect":true,"rationale":"És un dret fonamental (art. 16 CE) susceptible de recurs d’empara."},
+     {"text":"B. Dret al treball.","isCorrect":false,"rationale":"És un dret constitucional però no fonamental (art. 35 CE)."},
+     {"text":"C. Dret a la protecció de la salut.","isCorrect":false,"rationale":"És un principi rector (art. 43 CE),no emparable directament."},
+     {"text":"D. Dret a la propietat privada.","isCorrect":false,"rationale":"És un dret constitucional (art. 33 CE),però no fonamental emparable."}
+    ]
+    },
+    {
+        "guid": "1de45334-b910-4555-a708-6d0946868826",
+        "subjectId": "T05",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "2. La delegació legislativa en favor del Govern:",
+        "answerOptions": [
+     {"text":"A. Podrà entendre's atorgada per un lapse de temps indeterminat,però no podrà facultar a dictar normes amb caràcter retroactiu.","isCorrect":false,"rationale":"La delegació ha de ser expressa i amb termini determinat (art. 82 CE)."},
+     {"text":"B. Adopta la forma de llei de bases que podrà autoritzar,si escau,la modificació de la mateixa llei de bases.","isCorrect":false,"rationale":"La llei de bases no pot autoritzar modificar-se a si mateixa."},
+     {"text":"C. No podrà entendre's concedida de manera implícita i poden adoptar la forma de llei de bases quan tinguin per objecte la formació de textos articulats o de llei ordinària quan es tracti de refondre diversos textos.","isCorrect":true,"rationale":"Correcte segons art. 82 CE."},
+     {"text":"D. Es pot modificar en qualsevol moment per una proposició de llei sense necessitat de modificar la llei de delegació vigent.","isCorrect":false,"rationale":"Cal modificar la llei de delegació."}
+    ]
+    },
+    {
+        "guid": "a9fdb48e-12e2-42a6-a623-e49e0ca1abe4",
+        "subjectId": "T02",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "3. La responsabilitat criminal dels membres del Govern central serà exigible davant:",
+        "answerOptions": [
+     {"text":"A. L'Audiència Nacional.","isCorrect":false,"rationale":"No és l’òrgan competent."},
+     {"text":"B. La Sala Contenciosa Administrativa del Tribunal Suprem.","isCorrect":false,"rationale":"La responsabilitat és penal,no contenciosa."},
+     {"text":"C. La Sala Penal del Tribunal Suprem,únicament si l'acusació fos per traïció.","isCorrect":false,"rationale":"No només per traïció."},
+     {"text":"D. La Sala Penal del Tribunal Suprem,prèvia autorització del Congrés dels Diputats quan tinguin la condició de membres d'aquesta Cambra.","isCorrect":true,"rationale":"Art. 102 CE."}
+    ]
+    },
+    {
+        "guid": "6177cf3c-bd90-4f28-942f-525860ca404b",
+        "subjectId": "T02",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "4. Els/les ministres són nomenats/ades i remoguts/des:",
+        "answerOptions": [
+     {"text":"A. Pel president/a del Govern.","isCorrect":false,"rationale":"El president proposa però no nomena directament."},
+     {"text":"B. Pel rei/na amb el referendament del president/a del Congrés dels Diputats.","isCorrect":false,"rationale":"El referendament correspon al president del Govern."},
+     {"text":"C. Pel rei/na a proposta del president/a de Govern.","isCorrect":true,"rationale":"Art. 100 CE."},
+     {"text":"D. Pel president/a del Govern,previ debat en el Congrés dels Diputats.","isCorrect":false,"rationale":"No hi ha debat previ obligatori."}
+    ]
+    },
+    {
+        "guid": "1600a4eb-0391-43bc-beea-a91a4f345404",
+        "subjectId": "T01",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "5. L’exercici del dret de reunió pacífica i sense armes requereix una autorització prèvia?",
+        "answerOptions": [
+     {"text":"A. Sí,cal l’autorització de la policia.","isCorrect":false,"rationale":"No es requereix autorització prèvia segons art. 21 CE."},
+     {"text":"B. Sí,cal l’autorització del jutjat de guàrdia.","isCorrect":false,"rationale":"No és necessari autorització judicial prèvia."},
+     {"text":"C. No.","isCorrect":true,"rationale":"El dret de reunió no requereix autorització prèvia,només comunicació en determinats casos."},
+     {"text":"D. Només per a manifestar-se en dies festius.","isCorrect":false,"rationale":"No existeix aquesta limitació."}
+    ]
+    },
+    {
+        "guid": "553af3d4-cbbe-4913-8ec2-221c223063ad",
+        "subjectId": "T02",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "6. En la qüestió de confiança:",
+        "answerOptions": [
+     {"text":"A. El president/a del Govern presenta davant el Congrés dels Diputats el seu programa o una declaració de política general.","isCorrect":true,"rationale":"Art. 112 CE."},
+     {"text":"B. El president/a del Govern presenta davant el Senat el seu programa de govern.","isCorrect":false,"rationale":"La qüestió de confiança es planteja davant el Congrés."},
+     {"text":"C. Qualsevol membre del govern presenta davant el Congrés dels Diputats les línies bàsiques programàtiques del seu departament.","isCorrect":false,"rationale":"Només el president del Govern pot plantejar-la."},
+     {"text":"D. El president/a del Govern presenta davant el Congrés dels Diputats i del Senat,reunits en sessió conjunta,el seu programa de govern.","isCorrect":false,"rationale":"No es fa en sessió conjunta."}
+    ]
+    },
+    {
+        "guid": "e8d9d671-fdb8-41ab-939b-dcb8dae61137",
+        "subjectId": "T02",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "7. El Congrés dels Diputats pot exigir la responsabilitat política del govern mitjançant:",
+        "answerOptions": [
+     {"text":"A. L'adopció de la moció de censura per majoria de tres cinquenes parts.","isCorrect":false,"rationale":"La majoria exigida és absoluta,no de tres cinquenes parts."},
+     {"text":"B. L'adopció de la moció de censura per majoria absoluta.","isCorrect":true,"rationale":"Art. 113 CE."},
+     {"text":"C. L'adopció de la qüestió de confiança per majoria de tres cinquenes parts.","isCorrect":false,"rationale":"La qüestió de confiança no és per exigir responsabilitat sinó per confirmar suport."},
+     {"text":"D. L'adopció de la qüestió de confiança per majoria absoluta.","isCorrect":false,"rationale":"No és el mecanisme per exigir responsabilitat."}
+    ]
+    },
+    {
+        "guid": "a071cfb5-b0d1-49c5-a688-9355b765990e",
+        "subjectId": "T02",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "8. Segons la Llei 50/1997, de 27 de novembre, del Govern, correspon al Consell de Ministres:",
+        "answerOptions": [
+     {"text":"A. Aprovar la dissolució del Congrés,del Senat o de les Corts Generals.","isCorrect":false,"rationale":"És competència del president del Govern."},
+     {"text":"B. Plantejar davant el Congrés dels Diputats la qüestió de confiança.","isCorrect":false,"rationale":"Correspon al president del Govern."},
+     {"text":"C. Aprovar la convocatòria d'un referèndum consultiu.","isCorrect":false,"rationale":"És competència del Rei a proposta del president amb autorització del Congrés."},
+     {"text":"D. Aprovar els reials decrets llei i els reials decrets legislatius.","isCorrect":true,"rationale":"Funció pròpia del Consell de Ministres."}
+    ]
+    },
+    {
+        "guid": "f912b0f4-a624-4c30-a8db-abd9f8b4ad9b",
+        "subjectId": "T02",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "9. Segons l'article 97 de la Constitució espanyola, el govern de l'Estat:",
+        "answerOptions": [
+     {"text":"A. Dirigeix la política interior i l'exterior,l'Administració civil i militar i la defensa de l'Estat.","isCorrect":true,"rationale":"És la redacció literal de l’article 97 CE."},
+     {"text":"B. Dirigeix la política interior i l'exterior,l'Administració civil,però no l'Administració militar ni la defensa de l'Estat,que corresponen al rei/na.","isCorrect":false,"rationale":"La defensa també correspon al Govern."},
+     {"text":"C. Dirigeix la política interior i l'exterior,i l'Administració civil i militar,però no la defensa de l'Estat,que correspon a l'exèrcit.","isCorrect":false,"rationale":"La defensa no correspon a l’exèrcit com a òrgan autònom."},
+     {"text":"D. Dirigeix la política interior i l'exterior,l'Administració civil i militar i militar,la defensa de l'Estat i l'activitat parlamentària.","isCorrect":false,"rationale":"L’activitat parlamentària no és dirigida pel Govern."}
+    ]
+    },
+    {
+        "guid": "d5f035a6-dd19-42a3-9b2a-ff379d992d98",
+        "subjectId": "T03",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "10. El Tribunal de Comptes és:",
+        "answerOptions": [
+     {"text":"A. L’òrgan fiscalitzador suprem dels comptes i de la gestió econòmica de l’Estat,i,alhora,del sector públic.","isCorrect":true,"rationale":"Art. 136 CE."},
+     {"text":"B. Una Sala del Tribunal Suprem a qui correspon l’exercici de la jurisdicció comptable.","isCorrect":false,"rationale":"És un òrgan constitucional independent."},
+     {"text":"C. Un òrgan especialitzat de la jurisdicció economicoadministrativa.","isCorrect":false,"rationale":"No forma part d’aquesta jurisdicció."},
+     {"text":"D. Un òrgan especialitzat de la jurisdicció contenciosa administrativa.","isCorrect":false,"rationale":"No és un òrgan contenciós-administratiu."}
+    ]
+    },
+    {
+        "guid": "3817427d-0433-4964-9b45-c0cc8fed7548",
+        "subjectId": "T04",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "11. El Consell General del Poder Judicial està integrat per:",
+        "answerOptions": [
+     {"text":"A. Vint membres,d’entre els quals trien un president/a que també ho serà del Tribunal Suprem.","isCorrect":false,"rationale":"Són 20 vocals més el president."},
+     {"text":"B. Dotze membres,nomenats entre jutges/jutgesses i tribunals a proposta del Congrés i del Senat per majoria de tres cinquenes parts.","isCorrect":false,"rationale":"El nombre total no és correcte."},
+     {"text":"C. Vint-i-un membres:onze a proposta del Congrés dels Diputats i deu a proposta del Senat,entre jutges,magistrats/ades i altres juristes.","isCorrect":false,"rationale":"La distribució no és correcta."},
+     {"text":"D. El president/a del Tribunal Suprem i vint membres nomenats pel rei/na per un període de cinc anys.","isCorrect":true,"rationale":"Art. 122 CE."}
+    ]
+    },
+    {
+        "guid": "1c475e68-852d-474c-b718-8ab7beb7056f",
+        "subjectId": "T04",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "12. El Tribunal Superior de Justícia (TSJ) de Catalunya és un òrgan:",
+        "answerOptions": [
+     {"text":"A. Previst a l’Estatut d’autonomia com a culminació de l’organització judicial de Catalunya.","isCorrect":true,"rationale":"És l’òrgan jurisdiccional superior a Catalunya segons l’Estatut."},
+     {"text":"B. Integrat en el Departament de Justícia de la Generalitat de Catalunya.","isCorrect":false,"rationale":"No depèn administrativament de la Generalitat."},
+     {"text":"C. Que no està integrat a la planta judicial prevista a la Llei orgànica del poder judicial,com cap altre TSJ,sinó que és una peculiaritat prevista a l’Estatut d’autonomia de Catalunya.","isCorrect":false,"rationale":"Sí que està integrat a la LOPJ."},
+     {"text":"D. Jurisdiccional de caràcter especial.","isCorrect":false,"rationale":"És un òrgan ordinari dins del sistema judicial."}
+    ]
+    },
+    {
+        "guid": "df38280e-633b-4bfe-b87a-0af33faba0de",
+        "subjectId": "T05",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "13. El dret de llibertat sindical s’ha de regular mitjançant:",
+        "answerOptions": [
+     {"text":"A. Llei de bases.","isCorrect":false,"rationale":"La llibertat sindical és un dret fonamental i el seu desenvolupament exigeix llei orgànica."},
+     {"text":"B. Llei ordinària.","isCorrect":false,"rationale":"La regulació del desenvolupament dels drets fonamentals no es fa per llei ordinària."},
+     {"text":"C. Llei orgànica.","isCorrect":true,"rationale":"L’article 81 CE reserva a llei orgànica el desenvolupament dels drets fonamentals i llibertats públiques."},
+     {"text":"D. Llei marc.","isCorrect":false,"rationale":"La llei marc serveix per atribuir a les comunitats autònomes la facultat de dictar normes legislatives en matèries de competència estatal."}
+    ]
+    },
+    {
+        "guid": "e124d7c3-8a65-4219-9210-d950bfda6070",
+        "subjectId": "T05",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "14. Mitjançant les anomenades “lleis marc”, les Corts Generals:",
+        "answerOptions": [
+     {"text":"A. Delimiten el marc competencial en què les comunitats autònomes poden desenvolupar les seves competències sobre una o diverses matèries determinades.","isCorrect":false,"rationale":"Aquesta formulació no correspon al concepte constitucional de llei marc."},
+     {"text":"B. Estableixen els principis necessaris per harmonitzar les disposicions normatives de les comunitats autònomes,fins i tot en el cas de matèries de la seva competència.","isCorrect":false,"rationale":"Això correspon a les lleis d’harmonització de l’article 150.3 CE."},
+     {"text":"C. Atribueixen a totes o algunes comunitats autònomes la facultat de dictar normes legislatives en matèries de competència estatal.","isCorrect":true,"rationale":"És la definició de llei marc de l’article 150.1 CE."},
+     {"text":"D. Regulen el marc normatiu competencial en el qual les comunitats autònomes poden desenvolupar la seva potestat legislativa pròpia.","isCorrect":false,"rationale":"No és la definició tècnica de llei marc prevista a la Constitució."}
+    ]
+    },
+    {
+        "guid": "94a61128-ff01-4fba-9a31-556b92d23140",
+        "subjectId": "T05",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "15. Segons l’article 81 de la Constitució espanyola, les lleis orgàniques es poden modificar:",
+        "answerOptions": [
+     {"text":"A. D’acord amb els mecanismes previstos a la mateixa llei.","isCorrect":false,"rationale":"La Constitució fixa un requisit específic de majoria absoluta del Congrés en votació final sobre el conjunt."},
+     {"text":"B. Per majoria absoluta del Congrés,en una votació final sobre el conjunt del projecte.","isCorrect":true,"rationale":"És el requisit literal de l’article 81.2 CE."},
+     {"text":"C. Per majoria de dos terços al Congrés i Senat.","isCorrect":false,"rationale":"La Constitució no exigeix aquesta majoria reforçada."},
+     {"text":"D. Per majoria absoluta del Congrés i del Senat,en una votació final sobre el conjunt del projecte.","isCorrect":false,"rationale":"L’exigència constitucional es refereix al Congrés,no a ambdues cambres en aquests termes."}
+    ]
+    },
+    {
+        "guid": "3ede2483-aa04-46cf-a477-026d8073bf98",
+        "subjectId": "T05",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "16. Quin títol reben les disposicions del Govern que contenen legislació delegada?",
+        "answerOptions": [
+     {"text":"A. Decrets legislatius.","isCorrect":true,"rationale":"Segons l’article 85 CE,les disposicions del Govern que contenen legislació delegada reben el títol de decrets legislatius."},
+     {"text":"B. Decrets llei.","isCorrect":false,"rationale":"El decret llei és una norma amb rang de llei dictada en cas d’extraordinària i urgent necessitat,no una legislació delegada."},
+     {"text":"C. Reials decrets.","isCorrect":false,"rationale":"El reial decret és una forma reglamentària o formal,però no identifica específicament la legislació delegada."},
+     {"text":"D. Lleis de bases.","isCorrect":false,"rationale":"La llei de bases és la norma habilitant de la delegació,no el resultat aprovat pel Govern."}
+    ]
+    },
+    {
+        "guid": "4cb91aa2-406c-4d20-8f9b-5dff528c80c2",
+        "subjectId": "T08",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "17. El Parlament de Catalunya exerceix potestats legislatives?",
+        "answerOptions": [
+     {"text":"A. Sí,d’acord amb l’Estatut d’autonomia de Catalunya.","isCorrect":true,"rationale":"Les comunitats autònomes tenen potestat legislativa dins del seu àmbit competencial segons la CE i l’Estatut."},
+     {"text":"B. No,perquè la Constitució espanyola reserva aquestes potestats en exclusiva a les Corts Generals,formades pel Congrés dels Diputats i el Senat.","isCorrect":false,"rationale":"La CE reconeix potestat legislativa a les CCAA."},
+     {"text":"C. Només en aquelles matèries que hagin estat objecte de delegació per part de l’Estat.","isCorrect":false,"rationale":"També tenen competències pròpies,no només delegades."},
+     {"text":"D. Sí,perquè es tracta d’una nacionalitat històrica.","isCorrect":false,"rationale":"La potestat legislativa no depèn d’aquesta qualificació."}
+    ]
+    },
+    {
+        "guid": "bdebf21c-2cdc-4785-8f9d-e2e69785a20c",
+        "subjectId": "T07",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "18. D'acord amb la Llei 40/2015, d'1 d'octubre, els organismes públics vinculats o dependents de l'Administració General de l'Estat es classifiquen en:",
+        "answerOptions": [
+     {"text":"A. Societats mercantils estatals i fundacions del sector públic.","isCorrect":false,"rationale":"Aquestes formen part del sector públic institucional però no són la classificació principal dels organismes públics."},
+     {"text":"B. Organismes autònoms,entitats públiques empresarials i universitats públiques.","isCorrect":false,"rationale":"Les universitats no formen part d’aquesta classificació."},
+     {"text":"C. Organismes autònoms,entitats públiques empresarials i fundacions dels sector públic.","isCorrect":false,"rationale":"Les fundacions no formen part d’aquesta classificació."},
+     {"text":"D. Organismes autònoms,entitats públiques empresarials i agències estatals.","isCorrect":true,"rationale":"És la classificació correcta segons la Llei 40/2015."}
+    ]
+    },
+    {
+        "guid": "dd27c6d3-3ed7-4cad-9b9a-a81dde001098",
+        "subjectId": "T07",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "19. Segons la Llei 40/2015, d'1 d'octubre, els organismes autònoms:",
+        "answerOptions": [
+     {"text":"A. Són entitats de dret públic que es regeixen pel dret privat.","isCorrect":false,"rationale":"No es regeixen pel dret privat com a regla general."},
+     {"text":"B. Són entitats de dret públic que es regeixen pel dret públic.","isCorrect":true,"rationale":"Els organismes autònoms es regeixen principalment pel dret públic."},
+     {"text":"C. Són entitats de dret públic que es regeixen pel dret públic o pel dret privat,segons quina sigui l'activitat que desenvolupin en cada cas.","isCorrect":false,"rationale":"Aquesta característica correspon a les entitats públiques empresarials."},
+     {"text":"D. Són entitats de dret privat que es regeixen pel dret privat,llevat per tractar-se d'activitats desenvolupades en el mercat,o així ho disposin els seus estatuts.","isCorrect":false,"rationale":"No són entitats de dret privat."}
+    ]
+    },
+    {
+        "guid": "889b8c52-2c28-45db-bab8-b7cde2850574",
+        "subjectId": "T06",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "20. Segons l'article 103 de la Constitució espanyola, és un principi d'actuació de l'Administració pública:",
+        "answerOptions": [
+     {"text":"A. El principi de jerarquia.","isCorrect":true,"rationale":"És un dels principis recollits a l’article 103 CE."},
+     {"text":"B. El principi d'igualtat.","isCorrect":false,"rationale":"És un principi constitucional general però no específic d’actuació administrativa a l’art. 103."},
+     {"text":"C. El principi de suficiència financera.","isCorrect":false,"rationale":"És un principi relacionat amb el finançament,no amb l’actuació administrativa."},
+     {"text":"D. El principi d'autonomia local.","isCorrect":false,"rationale":"És un principi organitzatiu territorial,no d’actuació administrativa directa."}
+    ]
+    },
+    {
+        "guid": "c5ca911c-9849-4b1e-b5ba-3fda18b0233e",
+        "subjectId": "T08",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "21. D’acord amb l’article 147 de la Constitució espanyola, els estatuts d’autonomia són:",
+        "answerOptions": [
+     {"text":"A. Una norma autonòmica.","isCorrect":false,"rationale":"És una norma amb rang especial,no simplement autonòmica ordinària."},
+     {"text":"B. Una norma institucional bàsica de cada comunitat autònoma.","isCorrect":true,"rationale":"Definició literal de l’art. 147 CE."},
+     {"text":"C. Una norma de funcionament de cada comunitat autònoma.","isCorrect":false,"rationale":"No és només una norma de funcionament."},
+     {"text":"D. Una norma que regula els drets fonamentals.","isCorrect":false,"rationale":"Els drets fonamentals es regulen a la Constitució."}
+    ]
+    },
+    {
+        "guid": "68bea834-943a-4b80-94d6-e47bd8f8831a",
+        "subjectId": "T07",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "22. D’acord amb l’article 81 de la Llei 40/2015 de règim jurídic del sector públic, els principis generals d’actuació de les entitats que integren el Sector Públic Institucional són:",
+        "answerOptions": [
+     {"text":"A. Legalitat,eficiència,excel·lència i estabilitat pressupostària i sostenibilitat financera.","isCorrect":false,"rationale":"El terme 'excel·lència' no forma part del redactat legal."},
+     {"text":"B. Legalitat,eficiència,transparència en la gestió i estabilitat pressupostària i sostenibilitat financera.","isCorrect":true,"rationale":"És el redactat correcte segons la Llei 40/2015."},
+     {"text":"C. Legalitat,eficiència,simplicitat,claredat i estabilitat pressupostària i sostenibilitat financera.","isCorrect":false,"rationale":"Aquests termes no són els recollits literalment."},
+     {"text":"D. Legalitat,racionalització i agilitat dels procediments,transparència en la gestió i estabilitat pressupostària i sostenibilitat financera.","isCorrect":false,"rationale":"No és la formulació exacta de la llei."}
+    ]
+    },
+    {
+        "guid": "4a8760a3-4552-499b-b9b9-e68cd7cb6a80",
+        "subjectId": "T11",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "23. La Carta Municipal defineix els consorcis legals com ens associatius, creats per llei, entre la Generalitat de Catalunya i l'Ajuntament de Barcelona, per a la gestió conjunta de funcions, activitats o serveis. Quin/s consorci/s legal/s crea la Carta Municipal?",
+        "answerOptions": [
+     {"text":"A. Educació,Habitatge i Serveis Socials.","isCorrect":true,"rationale":"Són els consorcis legals previstos a la Carta Municipal de Barcelona."},
+     {"text":"B. Esports i Cultura.","isCorrect":false,"rationale":"No són els consorcis legals definits per la Carta."},
+     {"text":"C. Transports urbans de viatgers.","isCorrect":false,"rationale":"No correspon als consorcis legals de la Carta."},
+     {"text":"D. Urbanisme i Infraestructures.","isCorrect":false,"rationale":"No són els previstos com a consorcis legals."}
+    ]
+    },
+    {
+        "guid": "1e4c675d-cf76-4597-86e5-4a74bdaa8978",
+        "subjectId": "T11",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "24. El Consell Tributari:",
+        "answerOptions": [
+     {"text":"A. Està regulat a la Llei 7/1985,de 2 d’abril,reguladora de les Bases del Règim Local.","isCorrect":false,"rationale":"No és la norma específica que el regula."},
+     {"text":"B. Està regulat a la Llei 1/2006,de 13 de març,per la qual es regula el règim especial del municipi de Barcelona.","isCorrect":true,"rationale":"És la norma que regula el règim especial de Barcelona."},
+     {"text":"C. Està regulat a la Llei 40/2015,d’1 d’octubre,de règim jurídic del sector públic.","isCorrect":false,"rationale":"No regula aquest òrgan específic."},
+     {"text":"D. Està regulat a la Llei 22/1998,de 30 de desembre,de la Carta Municipal de Barcelona.","isCorrect":false,"rationale":"Tot i estar relacionat,la regulació específica és la Llei 1/2006."}
+    ]
+    },
+    {
+        "guid": "ca35fc56-d107-4757-96b7-84398bd84984",
+        "subjectId": "T10",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "25. D'acord amb l'article 7 de l'Estatut d'autonomia de Catalunya, quines persones gaudeixen de la condició política de catalans/anes o ciutadans/anes de Catalunya?",
+        "answerOptions": [
+     {"text":"A. Els ciutadans/anes espanyols/oles que tenen veïnatge administratiu a Catalunya.","isCorrect":true,"rationale":"És la definició literal de ciutadania catalana segons l’Estatut."},
+     {"text":"B. Els ciutadans/anes de qualsevol estat membre de la Unió Europa que tenen una empresa a Catalunya.","isCorrect":false,"rationale":"No és criteri suficient per adquirir la condició política."},
+     {"text":"C. Els ciutadans/anes de qualsevol estat llatinoamericà que siguin parella de fet d'una persona que viu a Catalunya.","isCorrect":false,"rationale":"No és un supòsit previst a l’Estatut."},
+     {"text":"D. Els ciutadans/anes del Principat d'Andorra que passin les vacances d'estiu a Catalunya durant,com a mínim,5 anys seguits.","isCorrect":false,"rationale":"No és un criteri jurídic vàlid."}
+    ]
+    },
+    {
+        "guid": "ecbae749-1271-439b-842a-3baa1d541f88",
+        "subjectId": "T10",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "26. La proposta de reforma de l'Estatut d'autonomia de Catalunya que afecta els títols I i II requereix:",
+        "answerOptions": [
+     {"text":"A. El vot favorable de les dues terceres parts del Parlament,la remissió i consulta a les Corts Generals,la ratificació per mitjà d'una llei orgànica i el referèndum positiu dels electors/ores de Catalunya.","isCorrect":true,"rationale":"És el procediment reforçat de reforma de l’Estatut."},
+     {"text":"B. El vot favorable de les tres quartes parts del Parlament,la remissió i consulta a les Corts Generals,la ratificació per mitjà d'una llei orgànica i el referèndum positiu dels electors/ores de Catalunya.","isCorrect":false,"rationale":"No es requereix majoria de tres quartes parts."},
+     {"text":"C. El vot favorable de les dues terceres parts del Parlament,l'aprovació de les Corts Generals per mitjà d'una llei orgànica,i finalment el referèndum positiu dels electors/ores.","isCorrect":false,"rationale":"Falta el tràmit de remissió i consulta formal."},
+     {"text":"D. El vot favorable de les dues terceres parts del Parlament,l'aprovació de les Corts Generals per mitjà de llei ordinària,i finalment el referèndum positiu dels electors/ores de Catalunya.","isCorrect":false,"rationale":"La ratificació ha de ser per llei orgànica."}
+    ]
+    },
+    {
+        "guid": "4acc0a64-c4a2-4e2b-a391-307906eaf8f7",
+        "subjectId": "T10",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "27. L'Estatut d'autonomia de Catalunya de 2006 determina que:",
+        "answerOptions": [
+     {"text":"A. El català és la llengua d'ús normal i preferent de les administracions públiques i dels mitjans de comunicació públics de Catalunya.","isCorrect":false,"rationale":"El terme 'preferent' ha estat matisat pel TC."},
+     {"text":"B. El català és la llengua d'ús exclusiu de les administracions públiques i dels mitjans de comunicació públics de Catalunya.","isCorrect":false,"rationale":"També ho és el castellà com a llengua oficial."},
+     {"text":"C. El català i el castellà és la llengua d'ús normal i preferent de les administracions públiques i dels mitjans de comunicació públics de Catalunya.","isCorrect":false,"rationale":"La formulació no és correcta."},
+     {"text":"D. El català és la llengua d'ús normal de les administracions públiques i dels mitjans de comunicació públics de Catalunya.","isCorrect":true,"rationale":"És la formulació conforme a l’Estatut després de la interpretació constitucional."}
+    ]
+    },
+    {
+        "guid": "d47db6ed-f917-42f3-a61f-56936e554226",
+        "subjectId": "T10",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "28. D'acord amb el que estableix l’article 2.2 de l'Estatut d'autonomia de Catalunya del 2006 NO forma part de la Generalitat:",
+        "answerOptions": [
+     {"text":"A. El Parlament.","isCorrect":false,"rationale":"Forma part de la Generalitat."},
+     {"text":"B. La Presidència de la Generalitat i el Govern.","isCorrect":false,"rationale":"També en formen part."},
+     {"text":"C. El Defensor del Poble.","isCorrect":true,"rationale":"És una institució estatal,no de la Generalitat."},
+     {"text":"D. El Síndic de Greuges.","isCorrect":false,"rationale":"És una institució pròpia de la Generalitat."}
+    ]
+    },
+    {
+        "guid": "b86120d8-3eb0-4280-b830-827276e74031",
+        "subjectId": "T10",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "29. Quin Títol de l'Estatut d'autonomia de Catalunya del 2006 regula el poder judicial?",
+        "answerOptions": [
+     {"text":"A. El Títol VI.","isCorrect":false,"rationale":"No és el títol correcte segons l’Estatut."},
+     {"text":"B. El Títol III.","isCorrect":true,"rationale":"El poder judicial es regula al Títol III de l’Estatut."},
+     {"text":"C. El Títol II.","isCorrect":false,"rationale":"Aquest títol no regula el poder judicial."},
+     {"text":"D. El Títol II i III.","isCorrect":false,"rationale":"Només el Títol III regula aquesta matèria."}
+    ]
+    },
+    {
+        "guid": "708c6aba-979c-44dd-9a91-bccea1bd95bf",
+        "subjectId": "T10",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "30. D’acord amb el que diu l’article 52 de l’Estatut, i pel que fa al principi rector dels mitjans de comunicació social, en el cas dels mitjans de comunicació de titularitat pública, la informació també ha de ser:",
+        "answerOptions": [
+     {"text":"A. Extensa.","isCorrect":false,"rationale":"No és un requisit jurídic establert."},
+     {"text":"B. Neutral.","isCorrect":true,"rationale":"L’Estatut estableix el principi de neutralitat informativa."},
+     {"text":"C. Indiferent.","isCorrect":false,"rationale":"No és un principi jurídic reconegut."},
+     {"text":"D. Completa.","isCorrect":false,"rationale":"No és el terme utilitzat per la norma."}
+    ]
+    },
+    {
+        "guid": "d086d26c-2741-4912-8ae3-08f775fd03e7",
+        "subjectId": "T11",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "31. D'acord amb la Carta Municipal de Barcelona, la competència per dictar bans de l'alcalde o alcaldessa:",
+        "answerOptions": [
+     {"text":"A. És indelegable.","isCorrect":true,"rationale":"És una competència pròpia de l’alcaldia no delegable."},
+     {"text":"B. Es pot delegar a la Comissió de Govern.","isCorrect":false,"rationale":"No és delegable."},
+     {"text":"C. Es pot delegar a la Comissió de Govern,als regidors/ores i als òrgans i als càrrecs directius de l'Administració executiva.","isCorrect":false,"rationale":"No es permet aquesta delegació."},
+     {"text":"D. Es pot delegar a la Comissió de Govern i al Consell Municipal.","isCorrect":false,"rationale":"No és delegable."}
+    ]
+    },
+    {
+        "guid": "fcaf8bc0-3d6d-4819-9988-7f39bae2d8c3",
+        "subjectId": "T11",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "32. D'acord amb la Carta Municipal de Barcelona, poden participar en referèndums i d'altres procediments consultius:",
+        "answerOptions": [
+     {"text":"A. Els estrangers/eres empadronats/ades.","isCorrect":true,"rationale":"La Carta Municipal permet la participació dels estrangers empadronats en processos consultius."},
+     {"text":"B. Els estrangers/eres que es trobin a la ciutat en el moment de celebrar el referèndum o altre procediment consultiu.","isCorrect":false,"rationale":"Cal empadronament."},
+     {"text":"C. Els estrangers/eres que siguin nacionals de països amb qui l'Estat tingui signat tractats de reciprocitat.","isCorrect":false,"rationale":"Aquest criteri és propi d’eleccions,no de consultes municipals."},
+     {"text":"D. Els estrangers/eres no poden participar en cap cas en referèndums o processos consultius.","isCorrect":false,"rationale":"Sí que poden participar en determinats supòsits."}
+    ]
+    },
+    {
+        "guid": "a6669898-7e40-4f3d-9533-54fbde9c2bb1",
+        "subjectId": "T11",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "33. Els districtes són:",
+        "answerOptions": [
+     {"text":"A. Òrgans territorials per a la desconcentració de la gestió i la descentralització de la participació ciutadana.","isCorrect":true,"rationale":"Definició correcta segons la Carta Municipal de Barcelona."},
+     {"text":"B. Òrgans de participació territorial gestionats descentralitzadament.","isCorrect":false,"rationale":"No recull correctament la doble funció (gestió i participació)."},
+     {"text":"C. Òrgans territorials per a la descentralització de la gestió i la desconcentració de la participació ciutadana.","isCorrect":false,"rationale":"Els conceptes estan invertits respecte la definició correcta."},
+     {"text":"D. Són únicament òrgans de participació.","isCorrect":false,"rationale":"També tenen funcions de gestió."}
+    ]
+    },
+    {
+        "guid": "285f176a-7b6b-4ccc-9ade-7ad83ec83aea",
+        "subjectId": "T11",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "34. És competència del Plenari del Consell Municipal:",
+        "answerOptions": [
+     {"text":"A. Aprovar de manera provisional el Pla general i les seves revisions i modificacions,en l'àmbit del seu terme municipal.","isCorrect":true,"rationale":"És una competència pròpia del Plenari."},
+     {"text":"B. Acordar la declaració de lesivitat dels actes de l'Ajuntament.","isCorrect":false,"rationale":"No correspon al Plenari."},
+     {"text":"C. Aprovar els instruments de gestió urbanística previstos en el planejament.","isCorrect":false,"rationale":"No és competència directa del Plenari en aquests termes."},
+     {"text":"D. Organitzar l'administració municipal executiva i nomenar els tinents/tinentes d'alcalde i els regidors/ores de districte.","isCorrect":false,"rationale":"Correspon a l’alcaldia."}
+    ]
+    },
+    {
+        "guid": "06b6d39c-8abc-4a69-91fc-efe96a3cc45c",
+        "subjectId": "T11",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "35. Segons la Carta Municipal de Barcelona les disposicions de caràcter general dictades en situacions excepcionals o de necessitat urgent són:",
+        "answerOptions": [
+     {"text":"A. Decrets d'alcaldia.","isCorrect":false,"rationale":"No són la figura específica per a aquestes situacions."},
+     {"text":"B. Bans.","isCorrect":true,"rationale":"Els bans són disposicions generals dictades per l’alcaldia en situacions excepcionals o urgents."},
+     {"text":"C. Decrets de la Comissió de Govern.","isCorrect":false,"rationale":"No és la figura adequada segons la Carta."},
+     {"text":"D. Ordenances.","isCorrect":false,"rationale":"Les ordenances segueixen un procediment ordinari."}
+    ]
+    },
+    {
+        "guid": "02b71386-6409-4bb6-9fa7-bb99d6544af0",
+        "subjectId": "T11",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "36. D’acord amb la Carta Municipal, els reglaments són:",
+        "answerOptions": [
+     {"text":"A. Disposicions de caràcter general que pot dictar el Consell Municipal en l'exercici de la potestat normativa inherent a l'autonomia municipal,i que tenen com a finalitat l'ordenació social.","isCorrect":false,"rationale":"Aquesta definició correspon més a ordenances."},
+     {"text":"B. Disposicions de caràcter general que pot dictar el Consell Municipal en exercici de la potestat d'autoorganització municipal.","isCorrect":true,"rationale":"És la definició correcta de reglament en l’àmbit municipal."},
+     {"text":"C. Disposicions de caràcter general que només pot dictar l'alcaldia,que poden dictar-se en situacions excepcionals o de necessitat urgent,i també en ocasió de circumstàncies o esdeveniments de significació o rellevància especials.","isCorrect":false,"rationale":"Aquesta definició correspon als bans."},
+     {"text":"D. En tot cas són disposicions de caràcter concret dictades per l’Alcaldia.","isCorrect":false,"rationale":"Els reglaments tenen caràcter general,no concret."}
+    ]
+    },
+    {
+        "guid": "fdd3c039-e5a1-4947-9baf-167fe92d305d",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "37. Quina d’aquestes respostes sobre l’acte administratiu és la CORRECTA?",
+        "answerOptions": [
+     {"text":"A. L’acte administratiu és una declaració intel·lectual i,per tant,inclou l’activitat tècnica de l’Administració i les execucions coactives de resolucions judicials.","isCorrect":false,"rationale":"L’activitat tècnica i execucions materials no són actes administratius."},
+     {"text":"B. El contingut de l’acte administratiu s’ha d’ajustar al que disposa l’ordenament jurídic i s’ha de determinar i adequar a les seves finalitats.","isCorrect":true,"rationale":"Principi de legalitat i finalitat de l’acte administratiu."},
+     {"text":"C. L’acte administratiu innova l’ordenament jurídic i crea normes que passen a formar-ne part.","isCorrect":false,"rationale":"Això correspon als reglaments,no als actes administratius."},
+     {"text":"D. Els actes administratius no es poden produir a través de mitjans electrònics.","isCorrect":false,"rationale":"La normativa permet plenament els actes electrònics."}
+    ]
+    },
+    {
+        "guid": "83fc7215-80e9-4f09-af01-7c27ecbf0777",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "38. El silenci administratiu té efecte estimatori:",
+        "answerOptions": [
+     {"text":"A. En els procediments que impliquin l’exercici d’activitats que puguin danyar el medi ambient.","isCorrect":false,"rationale":"En aquests casos el silenci és desestimatori."},
+     {"text":"B. En els procediments de responsabilitat patrimonial.","isCorrect":false,"rationale":"El silenci és desestimatori."},
+     {"text":"C. En els procediments que transfereixin facultats de domini públic.","isCorrect":false,"rationale":"El silenci és desestimatori."},
+     {"text":"D. En els procediments de recursos d’alçada interposats contra una desestimació per silenci administratiu.","isCorrect":true,"rationale":"En aquest cas es produeix silenci estimatori segons la Llei 39/2015."}
+    ]
+    },
+    {
+        "guid": "6650053e-05e3-4599-98f1-34163f2c8505",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "39. Quins actes administratius NO s’han de motivar?",
+        "answerOptions": [
+     {"text":"A. Els que se separin del criteri seguit en actuacions precedents.","isCorrect":false,"rationale":"Aquests actes sí que s’han de motivar."},
+     {"text":"B. Els que rebutgin proves proposades per les persones interessades.","isCorrect":false,"rationale":"També s’han de motivar."},
+     {"text":"C. Els actes que no limitin drets subjectius o interessos legítims.","isCorrect":true,"rationale":"Només és obligatòria la motivació en determinats supòsits,com quan limiten drets."},
+     {"text":"D. Els que limitin drets subjectius o interessos legítims.","isCorrect":false,"rationale":"Aquests sí que s’han de motivar obligatòriament."}
+    ]
+    },
+    {
+        "guid": "82e6048b-6431-4770-9e30-93b17630c6e0",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "40. NO és un acte administratiu nul de ple dret:",
+        "answerOptions": [
+     {"text":"A. El que sigui constitutiu d'infracció penal.","isCorrect":false,"rationale":"Aquests actes són nuls de ple dret."},
+     {"text":"B. El dictat prescindint totalment i absolutament del procediment legalment establert.","isCorrect":false,"rationale":"També és causa de nul·litat de ple dret."},
+     {"text":"C. El dictat per un òrgan incompetent per raons de jerarquia.","isCorrect":true,"rationale":"Això genera anul·labilitat,no nul·litat de ple dret."},
+     {"text":"D. El que té un contingut impossible.","isCorrect":false,"rationale":"És causa de nul·litat de ple dret."}
+    ]
+    },
+    {
+        "guid": "e7f10405-1db2-450d-bcc6-da5660e5c84b",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "41. De quin termini disposa la persona interessada per interposar un recurs d'alçada contra un acte administratiu exprés?",
+        "answerOptions": [
+     {"text":"A. No hi ha termini,el pot interposar en qualsevol moment.","isCorrect":false,"rationale":"El recurs d’alçada té termini legalment establert."},
+     {"text":"B. Un mes.","isCorrect":true,"rationale":"Segons la Llei 39/2015,el termini és d’un mes si l’acte és exprés."},
+     {"text":"C. Dos mesos.","isCorrect":false,"rationale":"Aquest termini no és correcte per al recurs d’alçada."},
+     {"text":"D. Tres mesos.","isCorrect":false,"rationale":"No correspon a aquest recurs."}
+    ]
+    },
+    {
+        "guid": "ab0bab93-8900-4eee-93e4-129bdcbec764",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "42. Els actes administratius que posen fi a la via administrativa poden ser recorreguts potestativament mitjançant:",
+        "answerOptions": [
+     {"text":"A. Recurs de reposició davant l’òrgan superior jeràrquic que l’ha dictat.","isCorrect":false,"rationale":"El recurs de reposició es presenta davant el mateix òrgan,no el superior."},
+     {"text":"B. Recurs de reposició davant el mateix òrgan que l’ha dictat.","isCorrect":true,"rationale":"És el recurs potestatiu contra actes que posen fi a la via administrativa."},
+     {"text":"C. Recurs d’alçada davant l’òrgan superior jeràrquic que l’ha dictat.","isCorrect":false,"rationale":"El recurs d’alçada no procedeix si l’acte posa fi a la via administrativa."},
+     {"text":"D. Recurs d’alçada davant el mateix òrgan que l’ha dictat.","isCorrect":false,"rationale":"No existeix aquesta configuració."}
+    ]
+    },
+    {
+        "guid": "a5b1892f-e827-454e-9e72-b8ffcce57889",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "43. Les administracions públiques poden rectificar en qualsevol moment d’ofici o a instància de part:",
+        "answerOptions": [
+     {"text":"A. Els actes nuls.","isCorrect":false,"rationale":"Els actes nuls segueixen un procediment de revisió d’ofici específic."},
+     {"text":"B. Els actes anul·lables.","isCorrect":false,"rationale":"No es rectifiquen directament,sinó que es poden anul·lar."},
+     {"text":"C. Els errors materials,de fet o aritmètics,existents en els seus actes.","isCorrect":true,"rationale":"És un mecanisme de correcció immediata previst a la Llei 39/2015."},
+     {"text":"D. Els actes de contingut impossible.","isCorrect":false,"rationale":"Aquests són nuls de ple dret."}
+    ]
+    },
+    {
+        "guid": "2f64e2a8-dcf7-4ca6-a138-4e910f123e9c",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "44. La base imposable de les contribucions especials, està constituïda:",
+        "answerOptions": [
+     {"text":"A. Pel 70%,com a màxim,del cost que l’Ajuntament suporti per a la realització de les obres o per a l’establiment o ampliació dels serveis.","isCorrect":false,"rationale":"El límit legal és superior."},
+     {"text":"B. Únicament per l’import de les obres a realitzar o dels treballs de l’establiment o ampliació dels serveis.","isCorrect":false,"rationale":"No és només l’import íntegre sense límit."},
+     {"text":"C. Pel 90%,com a màxim,del cost que l’Ajuntament suporti per a la realització de les obres o per a l’establiment o ampliació dels serveis.","isCorrect":true,"rationale":"Segons la normativa d’hisendes locals."},
+     {"text":"D. Únicament per les indemnitzacions que resultin procedents als arrendataris/àries dels béns que hagin de ser ocupats.","isCorrect":false,"rationale":"No defineix correctament la base imposable."}
+    ]
+    },
+    {
+        "guid": "6f801a80-6cb6-4097-9781-28416448922e",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "45. En quina/quines matèria/es el Decret legislatiu 2/2004 atribueix als municipis el poder de delegar les funcions dels seus propis tributs a la comunitat autònoma o altres ens locals?",
+        "answerOptions": [
+     {"text":"A. Es poden delegar les funcions de gestió,liquidació,inspecció i recaptació.","isCorrect":true,"rationale":"La normativa permet delegar totes aquestes funcions."},
+     {"text":"B. Únicament es poden delegar les funcions de gestió i liquidació.","isCorrect":false,"rationale":"També es poden delegar inspecció i recaptació."},
+     {"text":"C. Únicament es pot delegar la funció de la inspecció.","isCorrect":false,"rationale":"No és l’única funció delegable."},
+     {"text":"D. Únicament es pot delegar la funció de la recaptació.","isCorrect":false,"rationale":"Es poden delegar més funcions."}
+    ]
+    },
+    {
+        "guid": "d4a53da3-d01e-4476-95d7-dbbc4dd49594",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "46. Les operacions de capital dels Pressupostos de les entitats locals es recullen en:",
+        "answerOptions": [
+     {"text":"A. Els capítols 1 i 2.","isCorrect":false,"rationale":"Aquests corresponen a despeses corrents."},
+     {"text":"B. Els capítols 3,4 i 5.","isCorrect":false,"rationale":"No són operacions de capital."},
+     {"text":"C. Els capítols 8 i 9.","isCorrect":false,"rationale":"Són operacions financeres."},
+     {"text":"D. Els capítols 6 i 7.","isCorrect":true,"rationale":"Corresponen a inversions reals i transferències de capital."}
+    ]
+    },
+    {
+        "guid": "7f2d70a1-3ab4-4930-8b19-e68cf88ba8f8",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "47. D’acord amb l’article 164 de la Llei d’hisendes locals, l'exercici pressupostari:",
+        "answerOptions": [
+     {"text":"A. Tindrà vigència durant un any a comptar des de l’endemà de la darrera publicació del pressupost,un cop hagi estat definitivament aprovat.","isCorrect":false,"rationale":"No és la definició legal."},
+     {"text":"B. Coincidirà amb l’any natural.","isCorrect":true,"rationale":"L’exercici pressupostari coincideix amb l’any natural."},
+     {"text":"C. Tindrà vigència durant un any a comptar des de l’endemà de la seva aprovació definitiva.","isCorrect":false,"rationale":"No es computa així."},
+     {"text":"D. Coincidirà amb la vigència del pressupost aprovat més,si s’escau,la de la seva pròrroga.","isCorrect":false,"rationale":"La definició legal és més estricta."}
+    ]
+    },
+    {
+        "guid": "61d1c3d4-4ee8-4a5a-9edc-7d9495a2ccea",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "48. El pressupost general ha de contenir, per a cadascun dels pressupostos que s’hi integrin:",
+        "answerOptions": [
+     {"text":"A. Els estats de despeses sense especificar els crèdits necessaris per atendre el compliment de les obligacions.","isCorrect":false,"rationale":"Els crèdits s’han d’especificar obligatòriament."},
+     {"text":"B. Els estats de despeses,d'ingressos i les bases d'execució.","isCorrect":true,"rationale":"És el contingut obligatori del pressupost."},
+     {"text":"C. Els estats d’ingressos en què han de figurar les estimacions dels recursos econòmics a liquidar durant un termini de quatre anys.","isCorrect":false,"rationale":"El pressupost és anual."},
+     {"text":"D. Únicament els estats de despeses i ingressos.","isCorrect":false,"rationale":"També inclou bases d’execució."}
+    ]
+    },
+    {
+        "guid": "753ed36b-93de-4c36-a7eb-4ae27d5f03e9",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "49. El càrrec que paga un usuari/ària en inscriure's en un taller en un centre cívic correspon a:",
+        "answerOptions": [
+     {"text":"A. Una taxa.","isCorrect":false,"rationale":"Les taxes responen a serveis obligatoris o d’interès general."},
+     {"text":"B. Un impost directe.","isCorrect":false,"rationale":"No és un impost."},
+     {"text":"C. Un preu públic.","isCorrect":true,"rationale":"És un servei voluntari,per tant preu públic."},
+     {"text":"D. Una contribució especial.","isCorrect":false,"rationale":"No hi ha benefici especial derivat d’una obra pública."}
+    ]
+    },
+    {
+        "guid": "fd8a9e25-8383-454a-bda2-55d1074889ab",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "50. L’impost sobre béns immobles:",
+        "answerOptions": [
+     {"text":"A. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles urbans i en cap cas sobre els béns immobles rústics.","isCorrect":false,"rationale":"És obligatori i inclou rústics i urbans."},
+     {"text":"B. És un tribut d’exacció obligatòria per als ajuntaments,que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i en cap cas sobre els béns immobles urbans.","isCorrect":false,"rationale":"Inclou també immobles urbans."},
+     {"text":"C. És un tribut d’exacció obligatòria per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.","isCorrect":true,"rationale":"Definició correcta de l’IBI."},
+     {"text":"D. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.","isCorrect":false,"rationale":"No és voluntari."}
+    ]
+    },
+    {
+        "guid": "6e6f42de-f009-4dd7-917d-57d51d0fc576",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "51. D'acord amb la Llei reguladora de les hisendes locals, són tributs propis:",
+        "answerOptions": [
+     {"text":"A. Ingressos procedents del patrimoni municipal.","isCorrect":false,"rationale":"Són ingressos patrimonials,no tributs."},
+     {"text":"B. Impostos,taxes i contribucions especials.","isCorrect":true,"rationale":"Són les tres categories de tributs locals."},
+     {"text":"C. Multes i preus públics.","isCorrect":false,"rationale":"No tenen naturalesa tributària."},
+     {"text":"D. Subvencions i operacions de crèdit.","isCorrect":false,"rationale":"Són fonts de finançament,no tributs."}
+    ]
+    },
+    {
+        "guid": "f9e3b247-d3d8-42e5-baf2-7fe67a306aef",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "52. Segons l'article 74 de l'Estatut bàsic de l’empleat públic, les administracions públiques estructuren la seva organització a través de:",
+        "answerOptions": [
+     {"text":"A. La relació de llocs de treball.","isCorrect":true,"rationale":"És l’instrument bàsic d’organització del personal."},
+     {"text":"B. L’oferta pública.","isCorrect":false,"rationale":"Serveix per planificar l’accés,no l’organització."},
+     {"text":"C. Els plans sectorials de recursos humans.","isCorrect":false,"rationale":"Són instruments complementaris."},
+     {"text":"D. El registre de personal.","isCorrect":false,"rationale":"És un instrument de control,no d’organització."}
+    ]
+    },
+    {
+        "guid": "0c3739a6-9649-4dad-b12f-1e6c0939b848",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "49. El càrrec que paga un usuari/ària en inscriure's en un taller en un centre cívic correspon a:",
+        "answerOptions": [
+     {"text":"A. Una taxa.","isCorrect":false,"rationale":"Les taxes responen a serveis obligatoris o d’interès general."},
+     {"text":"B. Un impost directe.","isCorrect":false,"rationale":"No és un impost."},
+     {"text":"C. Un preu públic.","isCorrect":true,"rationale":"És un servei voluntari,per tant preu públic."},
+     {"text":"D. Una contribució especial.","isCorrect":false,"rationale":"No hi ha benefici especial derivat d’una obra pública."}
+    ]
+    },
+    {
+        "guid": "720d0abb-5aaa-40aa-b02f-ea3c9c1f1eac",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "50. L’impost sobre béns immobles:",
+        "answerOptions": [
+     {"text":"A. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles urbans i en cap cas sobre els béns immobles rústics.","isCorrect":false,"rationale":"És obligatori i inclou rústics i urbans."},
+     {"text":"B. És un tribut d’exacció obligatòria per als ajuntaments,que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i en cap cas sobre els béns immobles urbans.","isCorrect":false,"rationale":"Inclou també immobles urbans."},
+     {"text":"C. És un tribut d’exacció obligatòria per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.","isCorrect":true,"rationale":"Definició correcta de l’IBI."},
+     {"text":"D. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.","isCorrect":false,"rationale":"No és voluntari."}
+    ]
+    },
+    {
+        "guid": "5b893986-9cf3-4c0e-b564-20181fbe230c",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "51. D'acord amb la Llei reguladora de les hisendes locals, són tributs propis:",
+        "answerOptions": [
+     {"text":"A. Ingressos procedents del patrimoni municipal.","isCorrect":false,"rationale":"Són ingressos patrimonials,no tributs."},
+     {"text":"B. Impostos,taxes i contribucions especials.","isCorrect":true,"rationale":"Són les tres categories de tributs locals."},
+     {"text":"C. Multes i preus públics.","isCorrect":false,"rationale":"No tenen naturalesa tributària."},
+     {"text":"D. Subvencions i operacions de crèdit.","isCorrect":false,"rationale":"Són fonts de finançament,no tributs."}
+    ]
+    },
+    {
+        "guid": "61893c69-e5d6-4c5d-9ec8-6360350e7b99",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "52. Segons l'article 74 de l'Estatut bàsic de l’empleat públic, les administracions públiques estructuren la seva organització a través de:",
+        "answerOptions": [
+     {"text":"A. La relació de llocs de treball.","isCorrect":true,"rationale":"És l’instrument bàsic d’organització del personal."},
+     {"text":"B. L’oferta pública.","isCorrect":false,"rationale":"Serveix per planificar l’accés,no l’organització."},
+     {"text":"C. Els plans sectorials de recursos humans.","isCorrect":false,"rationale":"Són instruments complementaris."},
+     {"text":"D. El registre de personal.","isCorrect":false,"rationale":"És un instrument de control,no d’organització."}
+    ]
+    },
+    {
+        "guid": "15b91f8b-78fe-437c-8b24-23797aa6eea8",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "53. Segons l’art. 97 de l'Estatut bàsic de l'empleat públic, el termini de prescripció de les faltes disciplinàries comença a comptar-se:",
+        "answerOptions": [
+     {"text":"A. Des del moment que s'hagin comès.","isCorrect":true,"rationale":"El còmput s’inicia des de la comissió de la falta."},
+     {"text":"B. Des de la data de la resolució sancionadora.","isCorrect":false,"rationale":"Això correspon al còmput de prescripció de sancions."},
+     {"text":"C. Des de la fermesa de la resolució sancionadora.","isCorrect":false,"rationale":"No és el moment inicial de la falta."},
+     {"text":"D. Des de la notificació de la resolució sancionadora.","isCorrect":false,"rationale":"No aplica a la prescripció de faltes."}
+    ]
+    },
+    {
+        "guid": "5eb519d8-aa21-4ad7-930e-e4fcb41f1013",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "54. Segons l’article 97 de l'Estatut bàsic de l'empleat públic, el termini de prescripció de les sancions de faltes lleus és de:",
+        "answerOptions": [
+     {"text":"A. Sis mesos.","isCorrect":false,"rationale":"No és el termini correcte."},
+     {"text":"B. Un any.","isCorrect":true,"rationale":"Termini de prescripció correcte segons EBEP."},
+     {"text":"C. Dos anys.","isCorrect":false,"rationale":"No correspon a faltes lleus."},
+     {"text":"D. Tres anys.","isCorrect":false,"rationale":"És excessiu per faltes lleus."}
+    ]
+    },
+    {
+        "guid": "accc0734-3365-448c-8a84-30cbfc2ce77e",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "55. D'acord amb l’article 15 de l'Estatut bàsic de l'empleat públic, quin dels següents drets NO és un dret individual que s’exerceix de forma col·lectiva?",
+        "answerOptions": [
+     {"text":"A. La llibertat sindical.","isCorrect":false,"rationale":"És un dret individual d’exercici col·lectiu."},
+     {"text":"B. La vaga.","isCorrect":false,"rationale":"També és un dret individual d’exercici col·lectiu."},
+     {"text":"C. La negociació col·lectiva.","isCorrect":false,"rationale":"Forma part dels drets col·lectius."},
+     {"text":"D. La llibertat d’expressió.","isCorrect":true,"rationale":"És un dret individual que no requereix exercici col·lectiu."}
+    ]
+    },
+    {
+        "guid": "936fa19c-2a47-43d1-be0d-a38bf987a517",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "56. Quina de les següents activitats està exceptuada del règim d’incompatibilitats de la Llei 53/1984, de 26 de desembre?",
+        "answerOptions": [
+     {"text":"A. L’exercici d’un lloc de treball en l’esfera docent com a professor/a universitari/ària associat/ada en règim de dedicació no superior a la de temps parcial i amb durada determinada.","isCorrect":false,"rationale":"Pot ser compatible amb autorització,però no està exempta automàticament."},
+     {"text":"B. La participació ocasional en col·loquis i programes en qualsevol mitjà de comunicació social.","isCorrect":true,"rationale":"Està expressament exceptuada per la llei."},
+     {"text":"C. L’exercici de càrrecs en empreses o societats concessionàries,contractistes d’obres,serveis o subministraments,arrendatàries o administradores de monopolis,o amb participació o aval del sector públic,qualsevol que sigui la configuració jurídica d’aquelles.","isCorrect":false,"rationale":"És incompatible."},
+     {"text":"D. L’exercici com a membres de les corporacions locals,excepte que desenvolupin els mateixos càrrecs retribuïts en règim de dedicació exclusiva.","isCorrect":false,"rationale":"No és una excepció general."}
+    ]
+    },
+    {
+        "guid": "1dd875df-33c8-4dce-bc3e-a6f4c73654e7",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "57. D’acord amb la Llei de bases de règim local, els llocs de treball a l’Administració local seran ocupats:",
+        "answerOptions": [
+     {"text":"A. Amb caràcter general per personal funcionari.","isCorrect":true,"rationale":"La regla general és que els llocs es cobreixin per funcionaris."},
+     {"text":"B. Per personal funcionari o laboral indistintament.","isCorrect":false,"rationale":"El règim general prioritza personal funcionari."},
+     {"text":"C. Amb caràcter general per personal laboral.","isCorrect":false,"rationale":"No és la regla general."},
+     {"text":"D. Amb caràcter general per personal eventual.","isCorrect":false,"rationale":"El personal eventual és excepcional."}
+    ]
+    },
+    {
+        "guid": "7eae8d37-762a-4100-8a5a-5ad3455b8fbe",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "58. Es pot accedir a la condició de funcionari/ària sense cap titulació de les previstes en el sistema educatiu:",
+        "answerOptions": [
+     {"text":"A. Als cossos i escales dels grups A,B i C i de les agrupacions professionals de funcionaris/àries.","isCorrect":false,"rationale":"Els grups A,B i C requereixen titulació."},
+     {"text":"B. A les agrupacions professionals de funcionaris/àries.","isCorrect":true,"rationale":"Aquestes agrupacions no exigeixen titulació acadèmica formal."},
+     {"text":"C. Només als cossos i escales del grup B.","isCorrect":false,"rationale":"El grup B requereix titulació."},
+     {"text":"D. Als cossos i escales del grup C.","isCorrect":false,"rationale":"El grup C també exigeix titulació."}
+    ]
+    },
+    {
+        "guid": "6a98f135-d3ce-442f-881e-abb385d5b4bc",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "59. En quin dels següents casos el personal funcionari NO està en situació de servei actiu?",
+        "answerOptions": [
+     {"text":"A. Quan està de vacances.","isCorrect":false,"rationale":"Continua en servei actiu."},
+     {"text":"B. Quan està en comissió de serveis.","isCorrect":false,"rationale":"Segueix en servei actiu."},
+     {"text":"C. Quan està de permís per assumptes propis.","isCorrect":false,"rationale":"També és situació de servei actiu."},
+     {"text":"D. Quan està suspès de funcions amb caràcter provisional amb motiu de la tramitació d’un procediment judicial o expedient disciplinari.","isCorrect":true,"rationale":"En aquest cas no està en servei actiu."}
+    ]
+    },
+    {
+        "guid": "09e462ae-4a79-41db-8332-13c6c5b93aa9",
+        "subjectId": "T15",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "60. D’acord amb l’article 56 de l’Estatut bàsic de l’empleat públic, els requisits generals per poder participar en els processos selectius són:",
+        "answerOptions": [
+     {"text":"A. Ser major de 18 anys i no excedir l’edat de jubilació forçosa.","isCorrect":false,"rationale":"És un requisit,però no és l’única resposta correcta completa."},
+     {"text":"B. Tenir sempre el permís de conduir.","isCorrect":false,"rationale":"No és un requisit general."},
+     {"text":"C. Posseir la titulació exigida.","isCorrect":true,"rationale":"És un requisit essencial establert per l’EBEP."},
+     {"text":"D. Tenir sempre la nacionalitat espanyola.","isCorrect":false,"rationale":"Hi ha supòsits d’accés per a ciutadans de la UE."}
+    ]
+    },
+    {
+        "guid": "b59bd6e9-c5ed-41e9-96e6-c739b6f6aaa4",
+        "subjectId": "T15",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "61. A l'Ajuntament de Barcelona i, d'acord amb la Carta Municipal de Barcelona, qui té atribuïda la competència per a l'aprovació de l'oferta pública d'ocupació?",
+        "answerOptions": [
+     {"text":"A. El Consell Municipal.","isCorrect":false,"rationale":"No és l’òrgan competent en aquest cas."},
+     {"text":"B. L'alcalde o alcaldessa.","isCorrect":true,"rationale":"Segons la Carta Municipal,és competència de l’alcaldia."},
+     {"text":"C. La Comissió de Govern.","isCorrect":false,"rationale":"No té atribuïda aquesta competència."},
+     {"text":"D. El/la gerent municipal.","isCorrect":false,"rationale":"No és l’òrgan competent."}
+    ]
+    },
+    {
+        "guid": "003c6529-a91e-4a83-ac5a-9399dbb097c0",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "62. El personal funcionari que passi a ocupar un càrrec electe i de dedicació exclusiva en una corporació local serà declarat en la situació administrativa següent:",
+        "answerOptions": [
+     {"text":"A. Excedència forçosa.","isCorrect":false,"rationale":"No és la situació aplicable."},
+     {"text":"B. Serveis especials.","isCorrect":true,"rationale":"És la situació prevista per exercir càrrecs públics electes."},
+     {"text":"C. Serveis en altres administracions.","isCorrect":false,"rationale":"No correspon a aquest supòsit."},
+     {"text":"D. Excedència per incompatibilitat.","isCorrect":false,"rationale":"No és la qualificació correcta."}
+    ]
+    },
+    {
+        "guid": "0a6e7955-eb77-42a2-bf5a-1eed4f5b9979",
+        "subjectId": "T16",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "63. Pel que fa als tractaments de dades personals amb fins de videovigilància, tret que hagin de ser conservats per acreditar la comissió d'actes que atemptin contra la integritat de persones, béns o instal·lacions, les dades seran suprimides en:",
+        "answerOptions": [
+     {"text":"A. El termini màxim d'1 mes des de la seva captació.","isCorrect":true,"rationale":"És el termini general establert per la normativa de protecció de dades."},
+     {"text":"B. El termini màxim de 2 mesos des de la seva captació.","isCorrect":false,"rationale":"No és el termini legal."},
+     {"text":"C. El termini màxim de 3 mesos des de la seva captació.","isCorrect":false,"rationale":"No és el termini general aplicable."},
+     {"text":"D. El termini màxim de 6 mesos des de la seva captació.","isCorrect":false,"rationale":"És un termini excessiu."}
+    ]
+    },
+    {
+        "guid": "f125028d-b3a2-4e6a-94c4-19a4903c6cd0",
+        "subjectId": "T16",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "64. La infracció “el tractament de dades personals d'un/a menor d'edat sense demanar el seu consentiment, quan tingui capacitat per a això, o el del/la titular de la seva pàtria potestat o tutela, de conformitat amb l'article 8 del Reglament (UE) 2016/679” és considerada:",
+        "answerOptions": [
+     {"text":"A. Una infracció molt greu.","isCorrect":false,"rationale":"No està tipificada com a molt greu."},
+     {"text":"B. Una infracció lleu.","isCorrect":false,"rationale":"No és una infracció de menor entitat."},
+     {"text":"C. Una infracció greu.","isCorrect":true,"rationale":"Així ho estableix la normativa de protecció de dades."},
+     {"text":"D. No es regula aquest supòsit entre les infraccions regulades en matèria de protecció de dades.","isCorrect":false,"rationale":"Sí que està expressament regulat."}
+    ]
+    },
+    {
+        "guid": "a2c59f83-fccd-49dd-a4d3-b081f8a29ba6",
+        "subjectId": "T16",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "65. És un objectiu estratègic del Pla d'igualtat d'oportunitats entre dones i homes:",
+        "answerOptions": [
+     {"text":"A. Garantir la igualtat retributiva entre dones i homes.","isCorrect":true,"rationale":"És un objectiu estratègic directe dels plans d’igualtat."},
+     {"text":"B. Reduir la bretxa salarial.","isCorrect":false,"rationale":"És una conseqüència,però l’objectiu es formula en termes de garantir la igualtat."},
+     {"text":"C. Elaborar un nou informe de bretxa salarial de gènere l'any 2022.","isCorrect":false,"rationale":"És una acció concreta,no un objectiu estratègic."},
+     {"text":"D. Reduir el nombre de factors que afavoreixen les diferències retributives entre dones i homes.","isCorrect":false,"rationale":"És una línia d’actuació,no la formulació estratègica principal."}
+    ]
+    },
+    {
+        "guid": "09c4b886-1804-4a7e-a087-3f61c259b39d",
+        "subjectId": "T16",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "66. Al III Pla d’igualtat d’oportunitats entre dones i homes de l’Ajuntament de Barcelona, s’entén per Segregació horitzontal de les dones:",
+        "answerOptions": [
+     {"text":"A. La concentració de dones en determinades ocupacions que,generalment,es caracteritzen per una remuneració,un reconeixement i un valor social inferiors.","isCorrect":true,"rationale":"Definició correcta de segregació horitzontal."},
+     {"text":"B. La concentració de dones en determinats llocs de treball que generalment es caracteritzen per ser els de responsabilitat més baixa i menys remuneració.","isCorrect":false,"rationale":"Això s’apropa a segregació vertical."},
+     {"text":"C. La concentració de dones en determinats llocs de treball que generalment es caracteritzen per ser els de responsabilitat més baixa i més alta remuneració.","isCorrect":false,"rationale":"No és una definició correcta."},
+     {"text":"D. Les circumstàncies originades per les responsabilitats i càrregues familiars que mantenen moltes dones atrapades a la base de la piràmide econòmica.","isCorrect":false,"rationale":"Descriu factors,no el concepte."}
+    ]
+    },
+    {
+        "guid": "bb4be4ed-da1d-4888-a226-dad03a95a77b",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "67. Les notificacions per mitjans electrònics es consideraran practicades:",
+        "answerOptions": [
+     {"text":"A. En el moment que l'Administració les diposita a la plataforma de notificació electrònica.","isCorrect":false,"rationale":"No és el moment jurídicament rellevant."},
+     {"text":"B. En el moment que l'Administració les posa a disposició de la persona interessada a través de l'adreça electrònica habilitada única.","isCorrect":false,"rationale":"Només es considera practicada amb accés."},
+     {"text":"C. En el moment en què es produeix l’accés al seu contingut.","isCorrect":true,"rationale":"És el moment de pràctica de la notificació segons la Llei 39/2015."},
+     {"text":"D. En el moment que la persona interessada rep un avís de l’Administració que pot accedir a la notificació.","isCorrect":false,"rationale":"L’avís no equival a notificació."}
+    ]
+    },
+    {
+        "guid": "534bb9ee-42d3-4a06-820b-db073a71d166",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "68. Segons la Llei 39/2015, del procediment administratiu, quina d’aquestes persones o entitats NO té l’obligació de relacionar-se amb les administracions públiques a través de mitjans electrònics, per a la realització de qualsevol tràmit d’un procediment administratiu?",
+        "answerOptions": [
+     {"text":"A. Les persones físiques que no es trobin compreses en cap dels supòsits previstos a l’art. 14.2 de la Llei 39/2015.","isCorrect":true,"rationale":"Aquestes persones poden optar per mitjans no electrònics."},
+     {"text":"B. Les persones jurídiques.","isCorrect":false,"rationale":"Estan obligades a relacionar-se electrònicament."},
+     {"text":"C. Els qui exerceixen una activitat professional per la qual es requereixi col·legiació obligatòria,per als tràmits i actuacions que portin a terme amb les administracions públiques en exercici d’aquesta activitat professional.","isCorrect":false,"rationale":"També estan obligats."},
+     {"text":"D. Les entitats sense personalitat jurídica.","isCorrect":false,"rationale":"També estan obligades."}
+    ]
+    },
+    {
+        "guid": "8bc9e56d-5192-414e-9e33-5f6b9401f00a",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "69. Segons l'Ordenança reguladora de l'administració electrònica, quin dels següents continguts NO forma part de la Seu Electrònica?",
+        "answerOptions": [
+     {"text":"A. L’oferta pública d'ocupació.","isCorrect":false,"rationale":"Forma part de la informació accessible."},
+     {"text":"B. Informació sobre protecció de dades.","isCorrect":false,"rationale":"És contingut obligatori."},
+     {"text":"C. La guia d'equipaments de la ciutat.","isCorrect":true,"rationale":"No forma part dels continguts essencials de la Seu Electrònica."},
+     {"text":"D. La gaseta municipal.","isCorrect":false,"rationale":"Forma part de la informació institucional."}
+    ]
+    },
+    {
+        "guid": "7223c916-6087-48ea-a796-e8a7ac6cab34",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "70. La Llei 39/2015 assenyala que els expedients han de tenir format electrònic i s’han de formar mitjançant l’agregació ordenada de:",
+        "answerOptions": [
+     {"text":"A. Els informes,les notes,els acords i les notificacions.","isCorrect":false,"rationale":"És incomplet."},
+     {"text":"B. Informes,esborranys,resums i acords.","isCorrect":false,"rationale":"No recull tots els elements exigits."},
+     {"text":"C. Els documents,proves,dictàmens,informes,acords,notificacions,diligències,així com un índex numerat.","isCorrect":true,"rationale":"Definició completa segons la Llei 39/2015."},
+     {"text":"D. Els informes,judicis de valor,opinions,acords i notificacions.","isCorrect":false,"rationale":"No és la formulació legal."}
+    ]
+    },
+    {
+        "guid": "ddc9a95d-f8d6-4cb2-9307-831c635e51aa",
+        "subjectId": "T18",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "71. Segons el Codi ètic i de conducta de l'Ajuntament de Barcelona, les persones que hagin tingut responsabilitats executives en l’àmbit municipal:",
+        "answerOptions": [
+     {"text":"A. No poden prestar serveis en entitats privades que hagin resultat afectades per decisions en què hagin participat durant el termini de 5 anys des de la data del seu cessament.","isCorrect":false,"rationale":"El termini no és de 5 anys."},
+     {"text":"B. No poden prestar serveis en entitats privades que hagin resultat afectades per decisions en què hagin participat durant el termini d'1 any des de la data del seu cessament.","isCorrect":false,"rationale":"El termini és superior."},
+     {"text":"C. No poden prestar serveis en entitats privades que hagin resultats afectades per decisions en què hagin participat durant un termini de 3 anys des de la data del seu cessament.","isCorrect":false,"rationale":"No és el termini establert."},
+     {"text":"D. No poden prestar serveis en entitats privades que hagin resultat afectades per decisions en què hagin participat durant el termini de 2 anys des de la data del seu cessament.","isCorrect":true,"rationale":"És el termini establert pel Codi ètic."}
+    ]
+    },
+    {
+        "guid": "65e6f189-7222-4fa9-b838-dad21ae097f7",
+        "subjectId": "T18",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "72. Quin és el termini de resolució de les sol·licituds d'accés a la informació pública establert amb caràcter general a la Llei 19/2014, de 29 de desembre, de transparència, accés a la informació pública i bon govern?",
+        "answerOptions": [
+     {"text":"A. 2 mesos.","isCorrect":false,"rationale":"És superior al termini general."},
+     {"text":"B. 10 dies.","isCorrect":false,"rationale":"És inferior al termini legal."},
+     {"text":"C. 15 dies.","isCorrect":false,"rationale":"No és el termini general."},
+     {"text":"D. 1 mes.","isCorrect":true,"rationale":"És el termini general establert per la Llei 19/2014."}
+    ]
+    },
+    {
+        "guid": "44a25dcb-d265-479f-8bb5-bc11b42accc5",
+        "subjectId": "T18",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "73. D'acord amb la Llei 19/2014, de 29 de desembre, de transparència, accés a la informació pública i bon govern, és informació pública:",
+        "answerOptions": [
+     {"text":"A. Tota la informació elaborada per l'Administració i la que aquesta té en el seu poder com a conseqüència de la seva activitat o l'exercici de les seves funcions.","isCorrect":true,"rationale":"És la definició legal d’informació pública."},
+     {"text":"B. Tota informació elaborada per l'Administració com a conseqüència de la seva activitat o l'exercici de les seves funcions,exclusivament.","isCorrect":false,"rationale":"També inclou la que està en el seu poder encara que no l’hagi elaborat."},
+     {"text":"C. Tota informació que proporcionen les persones interessades en el marc d'un procediment administratiu,exclusivament.","isCorrect":false,"rationale":"És només una part de la informació possible."},
+     {"text":"D. Tota informació que consta en els arxius municipals i que és lliurement accessible per la ciutadania,exclusivament.","isCorrect":false,"rationale":"La definició és més àmplia."}
+    ]
+    },
+    {
+        "guid": "1678ecfc-d705-46cd-8283-6f5ccc7abb4c",
+        "subjectId": "T18",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "74. Segons les normes reguladores de la bústia ètica de l'Ajuntament de Barcelona, la persona que presenta una comunicació:",
+        "answerOptions": [
+     {"text":"A. Té dret a la protecció eficaç del seu anonimat en tot cas.","isCorrect":true,"rationale":"La normativa garanteix la protecció de l’anonimat."},
+     {"text":"B. Té dret a la protecció eficaç del seu anonimat mentre es comproven els fets comunicats.","isCorrect":false,"rationale":"La protecció no és limitada temporalment així."},
+     {"text":"C. Té dret a la protecció eficaç del seu anonimat si l'acte comunicat afecta una persona del seu mateix Servei.","isCorrect":false,"rationale":"No depèn d’aquesta condició."},
+     {"text":"D. No té dret a la protecció eficaç del seu anonimat en cap cas.","isCorrect":false,"rationale":"És contrari a la normativa."}
+    ]
+    },
+    {
+        "guid": "c2142f1e-0a8d-4a37-8f22-eb0186779651",
+        "subjectId": "T18",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "75. L'accés a la informació pública s'ha de denegar directament quan:",
+        "answerOptions": [
+     {"text":"A. La informació a la qual es vol accedir fa referència a expedients administratius en tràmit.","isCorrect":false,"rationale":"Pot limitar-se però no denegar-se automàticament."},
+     {"text":"B. La informació a la qual es vol accedir conté dades personals relatives a la ideologia,afiliació sindical i religió.","isCorrect":true,"rationale":"Són dades especialment protegides."},
+     {"text":"C. La informació a la qual es vol accedir conté dades merament identificatives relatives a l'organització,el funcionament o l’activitat de l'administració.","isCorrect":false,"rationale":"Aquestes dades són accessibles."},
+     {"text":"D. La informació a la qual es vol accedir conté dades personals no especialment protegides.","isCorrect":false,"rationale":"Es poden ponderar i facilitar."}
+    ]
+    },
+    {
+        "guid": "9560023d-b983-43bf-b40d-a2796ba5cd30",
+        "subjectId": "T01",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "76. Quina és la forma política de l'Estat espanyol?",
+        "answerOptions": [
+     {"text":"A. La monarquia democràtica.","isCorrect":false,"rationale":"No és la denominació constitucional exacta."},
+     {"text":"B. La monarquia constitucional.","isCorrect":false,"rationale":"No és la formulació literal de la CE."},
+     {"text":"C. La monarquia hereditària.","isCorrect":false,"rationale":"No defineix la forma política completa."},
+     {"text":"D. La monarquia parlamentària.","isCorrect":true,"rationale":"Art. 1.3 CE."}
+    ]
+    },
+    {
+        "guid": "e8185b26-5c64-49f0-93b5-3299f61b51d4",
+        "subjectId": "T01",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "77. El deure d’inscriure en un registre les associacions constituïdes a l'empara de l'article 22 de la Constitució espanyola s’estableix únicament a efectes:",
+        "answerOptions": [
+     {"text":"A. Econòmics.","isCorrect":false,"rationale":"No és la finalitat del registre."},
+     {"text":"B. De publicitat.","isCorrect":true,"rationale":"Art. 22 CE:registre a efectes de publicitat."},
+     {"text":"C. Tributaris.","isCorrect":false,"rationale":"No és la finalitat constitucional."},
+     {"text":"D. Electorals.","isCorrect":false,"rationale":"No té relació amb processos electorals."}
+    ]
+    },
+    {
+        "guid": "627aa7c9-e008-46d3-ba5b-0e2ede52d75c",
+        "subjectId": "T04",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "78. D'acord amb el que preveu la Constitució espanyola, el Ministeri Fiscal exerceix les seves funcions:",
+        "answerOptions": [
+     {"text":"A. Seguint les instruccions que aprova el Govern de l’Estat com a superior jeràrquic.","isCorrect":false,"rationale":"No depèn jeràrquicament del Govern."},
+     {"text":"B. Segons els principis d’independència i autonomia.","isCorrect":false,"rationale":"No és independent,sinó sotmès a principis concrets."},
+     {"text":"C. Conforme als principis d’unitat d’actuació i dependència jeràrquica amb subjecció,en tot cas,als principis de legalitat i imparcialitat.","isCorrect":true,"rationale":"Art. 124 CE."},
+     {"text":"D. D’acord amb les indicacions rebudes per part del Jutjat o Tribunal al qual està adscrit.","isCorrect":false,"rationale":"No depèn funcionalment dels jutges."}
+    ]
+    },
+    {
+        "guid": "4dc6dbd2-e16f-4b41-a28d-01e1bf2f8490",
+        "subjectId": "T13",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "79. Els ajuntaments poden exigir el pagament d’un preu públic:",
+        "answerOptions": [
+     {"text":"A. Pel servei de recollida de residus sòlids urbans.","isCorrect":false,"rationale":"És una taxa,no preu públic."},
+     {"text":"B. Pels serveis de prevenció i extinció d’incendis.","isCorrect":false,"rationale":"És servei obligatori → taxa."},
+     {"text":"C. Per l’entrada en un espectacle públic municipal.","isCorrect":true,"rationale":"És servei voluntari → preu públic."},
+     {"text":"D. Per l’atorgament de llicències urbanístiques exigides per la Llei.","isCorrect":false,"rationale":"És taxa."}
+    ]
+    },
+    {
+        "guid": "4313cb85-3590-4533-98ee-051ace96c282",
+        "subjectId": "T14",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "80. Segons l'article 39 de l’Estatut bàsic de l’empleat públic, les juntes de personal en entitats locals de més de 1.001 funcionaris, tenen la següent composició:",
+        "answerOptions": [
+     {"text":"A. Dos representants per cada 1.000 o fracció,amb un màxim de 75.","isCorrect":true,"rationale":"És la composició establerta per l’EBEP."},
+     {"text":"B. Dos representants per dada 1.000 o fracció,amb un màxim de 100.","isCorrect":false,"rationale":"El màxim no és correcte."},
+     {"text":"C. Tres representants per cada 1.000 o fracció,amb un màxim de 75.","isCorrect":false,"rationale":"No és el nombre establert."},
+     {"text":"D. Tres representants per cada 1.000 o fracció,amb un màxim de 100.","isCorrect":false,"rationale":"No és correcte."}
+    ]
+    },
+    {
+        "guid": "e6fba9ae-446a-47bd-b70b-2383a7c26faf",
+        "subjectId": "T15",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "81. D’acord amb l’Estatut bàsic de l’empleat públic, han de ser objecte de l’oferta d’ocupació pública:",
+        "answerOptions": [
+     {"text":"A. Les necessitats de recursos humans,amb assignació pressupostària,que s’hagin de proveir mitjançant la incorporació de personal de nou ingrés.","isCorrect":true,"rationale":"Definició correcta segons EBEP."},
+     {"text":"B. Les necessitats de recursos humans,sense assignació pressupostària,que s’hagin de proveir mitjançant la incorporació de personal de nou ingrés.","isCorrect":false,"rationale":"Cal assignació pressupostària."},
+     {"text":"C. Les necessitats de recursos humans,amb o sense assignació pressupostària,que s’hagin de proveir mitjançant la incorporació de personal de nou ingrés.","isCorrect":false,"rationale":"No és correcte."},
+     {"text":"D. Les necessitats de recursos humans,amb o sense assignació pressupostària,que s’hagin de proveir mitjançant la incorporació només de personal funcionari de carrera de nou ingrés.","isCorrect":false,"rationale":"No es limita només a funcionaris."}
+    ]
+    },
+    {
+        "guid": "94493d9c-e329-4f29-8a56-7fad426138c0",
+        "subjectId": "T16",
+        "difficulty": 1,
+        "origin": "A1-2021.pdf",
+        "type": "test",
+        "question": "82. El resultat estratègic de l’àmbit d’intervenció relatiu a “Cultura Institucional “del III Pla d’igualtat d’oportunitats entre dones i homes de l’Ajuntament de Barcelona és:",
+        "answerOptions": [
+     {"text":"A. Integració de la igualtat de gènere en els processos de presa de decisions,de la gestió de persones i de les accions que afecten el personal municipal.","isCorrect":true,"rationale":"És el resultat estratègic definit."},
+     {"text":"B. Disminució de la segregació horitzontal i la segregació vertical.","isCorrect":false,"rationale":"És un objectiu específic,no aquest àmbit."},
+     {"text":"C. Millora de la carrera professional de les dones en el seu sentit més ampli i la formació.","isCorrect":false,"rationale":"Correspon a altres línies."},
+     {"text":"D. Reducció de la bretxa salarial de gènere.","isCorrect":false,"rationale":"És un objectiu global,no específic d’aquest àmbit."}
+    ]
+    }
 ]
