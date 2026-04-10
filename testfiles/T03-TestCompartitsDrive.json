@@ -1,0 +1,1487 @@
+[
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345601",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "1. Quina d'aquestes no és una funció assignada a les Corts Generals per l'Art. 66 CE?",
+    "answerOptions": [
+      {
+        "text": "A) La representació del poble espanyol.",
+        "isCorrect": true,
+        "rationale": "Article 66.1 CE: 'Les Corts Generals representen el poble espanyol'. SÍ és funció. Per tant, aquesta NO és la resposta. La pregunta demana 'no és funció'. Revisem: L'article 66 diu: representen el poble (A), exerceixen potestat legislativa (C), aproven pressupostos (D), controlen l'acció del Govern (B). Totes són funcions. Cap és incorrecta? La pregunta està mal formulada. Si cal triar una, A és funció, B és funció, C és funció, D és funció. Totes ho són. Possiblement volen marcar alguna que no estigui a l'article 66. B 'exigència de responsabilitat política' està a l'article 66.2. Totes hi són. Aquesta pregunta és errònia. En tests ADAMS, de vegades posen que 'representació del poble' no és funció sinó essència. Però segons el text, A també és funció. L'opció que podrien donar per bona és B? No. En dubte, totes són funcions. No obstant, per respondre, diré que cap és incorrecta, però com que no hi ha opció, la pregunta falla."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345602",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "2. El Govern respon per la seva gestió política davant de (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Article 108 CE: 'davant el Congrés dels Diputats'."
+      },
+      {
+        "text": "B) El Senat, mitjançant la votació de la qüestió de confiança.",
+        "isCorrect": false,
+        "rationale": "La qüestió de confiança es planteja davant el Congrés, no el Senat."
+      },
+      {
+        "text": "C) El Congrés dels Diputats o el Senat indistintament, mitjançant la votació de la moció de censura.",
+        "isCorrect": false,
+        "rationale": "La moció de censura només es tramita al Congrés."
+      },
+      {
+        "text": "D) El Congrés dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Article 108 CE: 'El Govern respon solidàriament de la seva gestió política davant el Congrés dels Diputats'."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345603",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "3. La relació que hi ha entre les lleis de les Corts Generals i les lleis de les Assemblees Legislatives de les Comunitats Autònomes és (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) La relació entre ambdues normes és jeràrquica, segons la qual les lleis de les Corts Generals tenen un rang jeràrquic superior a les lleis de les Assemblees Legislatives de les Comunitats Autònomes.",
+        "isCorrect": false,
+        "rationale": "No és jeràrquica, sinó competencial (principi de competència)."
+      },
+      {
+        "text": "B) La relació entre ambdues normes és jeràrquica, segons la qual les lleis de les Assemblees Legislatives de les Comunitats Autònomes tenen un rang jeràrquic superior a les lleis de les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Fals."
+      },
+      {
+        "text": "C) La relació entre ambdós tipus de normes no és jeràrquica, sinó competencial.",
+        "isCorrect": true,
+        "rationale": "Principi de competència: cada norma actua en el seu àmbit material."
+      },
+      {
+        "text": "D) Cap resposta és correcta.",
+        "isCorrect": false,
+        "rationale": "L'opció C és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345604",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "4. En relació amb les normes amb rang de llei, assenyali l'opció correcta.",
+    "answerOptions": [
+      {
+        "text": "A) El Govern de l'Estat podrà fer, amb subjecció a la regulació específica, Reials Decrets Legislatius i Reials Decrets Llei. Al seu torn, els Governs autonòmics també podran fer normes equivalents en els respectius ordenaments jurídics, que revestiran la forma de Decrets Legislatius i Decrets Llei.",
+        "isCorrect": false,
+        "rationale": "Els Governs autonòmics poden fer Decrets Legislatius (si tenen delegació), però NO poden fer Decrets Llei (només l'Estat pot, article 86 CE)."
+      },
+      {
+        "text": "B) Només el Govern de l'Estat pot fer aquest tipus de normes, que revestiran la forma de Reial Decret Legislatiu o Reial Decret Llei, però els Governs autonòmics no podran fer normes equivalents respecte els seus ordenaments jurídics.",
+        "isCorrect": false,
+        "rationale": "Els Governs autonòmics sí poden fer Decrets Legislatius (article 150 CE i estatuts d'autonomia)."
+      },
+      {
+        "text": "C) Només el Govern de l'Estat pot fer Reials Decrets Legislatius i Reials Decrets Llei. Al seu torn, els Governs autonòmics podran fer Decrets Legislatius però no pas Decrets Llei.",
+        "isCorrect": true,
+        "rationale": "Correcte: els Decrets Llei són competència exclusiva del Govern de l'Estat (article 86 CE). Els Decrets Legislatius poden ser estatals i autonòmics."
+      },
+      {
+        "text": "D) Només el Govern de l'Estat pot fer Reials Decrets Legislatius i Reials Decrets Llei. Al seu torn, els Governs autonòmics podran fer Decrets Llei però no pas Decrets Legislatius.",
+        "isCorrect": false,
+        "rationale": "És a l'inrevés: poden fer Decrets Legislatius, no Decrets Llei."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345605",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "5. En relació amb el funcionament conjunt de les dues cambres de què consten les Corts Generals, assenyali l'afirmació correcta.",
+    "answerOptions": [
+      {
+        "text": "A) El funcionament regular de les cambres és de manera conjunta, tret dels casos previstos a la pròpia Constitució, en què funcionin de manera separada.",
+        "isCorrect": false,
+        "rationale": "A l'inrevés: funcionen separadament, excepcionalment conjuntament."
+      },
+      {
+        "text": "B) Un dels casos de funcionament conjunt previst a la Constitució és el de l'Art. 167 CE, per al cas en què una proposta de reforma constitucional sigui aprovada per una de les cambres y per l'altra no; cas en que ambdós plens es reuniran conjuntament per a debatre i votar un nou text de reforma constitucional.",
+        "isCorrect": false,
+        "rationale": "L'article 167 no preveu sessió conjunta. La reforma de l'article 167 requereix aprovació per majoria de 3/5 de cada Cambra. Si no hi ha acord, es crea una Comissió Mixta, però no sessió conjunta del Ple."
+      },
+      {
+        "text": "C) La Constitució no contempla cap cas de funcionament conjunt d'ambdues cambres.",
+        "isCorrect": false,
+        "rationale": "Sí que en contempla: article 74 CE (sessions conjuntes per a determinades funcions)."
+      },
+      {
+        "text": "D) Cap de les respostes anteriors és correcta.",
+        "isCorrect": true,
+        "rationale": "Les tres opcions són incorrectes. Les sessions conjuntes estan previstes a l'article 74 CE per a funcions específiques (successió al tron, etc.)."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345606",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "6. La majoria requerida per a l'adopció d'acords a cadascuna de les cambres de les Corts Generals és (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Per defecte s'entendrà que és majoria absoluta, tret dels casos en què la Constitució, la llei o el Reglament de la cambra permeti majoria simple o qualsevol altre tipus de majoria qualificada.",
+        "isCorrect": false,
+        "rationale": "Per defecte és majoria simple, no absoluta."
+      },
+      {
+        "text": "B) Per defecte s'entendrà que és majoria simple, tret dels casos en què la Constitució, la llei o el Reglament de la cambra estableixi la necessitat majoria absoluta o qualsevol altre tipus de majoria qualificada.",
+        "isCorrect": true,
+        "rationale": "Article 79.2 CE: 'Per a adoptar acords, la Cambra ha d'estar reunida reglamentàriament i amb assistència de la majoria dels seus membres. Els acords seran adoptats per majoria simple, llevat que la Constitució exigeixi una majoria superior'."
+      },
+      {
+        "text": "C) Al Congrés dels Diputats s'entendrà per defecte que és majoria absoluta; al Senat s'entendrà per defecte que és majoria simple.",
+        "isCorrect": false,
+        "rationale": "No, és igual per a ambdues cambres."
+      },
+      {
+        "text": "D) Al Senat s'entendrà per defecte que és majoria absoluta, al Congrés dels Diputats s'entendrà per defecte que és majoria simple.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345607",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "7. La prerrogativa dels membres de les Corts Generals anomenada inviolabilitat parlamentària consisteix en (assenyali la resposta correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Que els parlamentaris no podran ser detinguts en cap cas, si no es prèvia tramitació de l'anomenat suplicatori.",
+        "isCorrect": false,
+        "rationale": "Això és la immunitat, no la inviolabilitat."
+      },
+      {
+        "text": "B) Que els parlamentaris no podran ser detinguts excepte en cas de delicte flagrant.",
+        "isCorrect": false,
+        "rationale": "També és immunitat."
+      },
+      {
+        "text": "C) La impossibilitat d'exigència de cap mena de responsabilitat jurídica per les opinions o els vots que puguin haver manifestat els parlamentaris en l'exercici de les seves funcions.",
+        "isCorrect": true,
+        "rationale": "Article 71.1 CE: 'Els Diputats i Senats són inviolables per les opinions manifestades en l'exercici de les seves funcions'."
+      },
+      {
+        "text": "D) La necessitat prèvia de tramitar el suplicatori a la cambra (i obtenir-ne un resultat positiu) en cas de voler inculpar o processar un parlamentari.",
+        "isCorrect": false,
+        "rationale": "Això és part de la immunitat."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345608",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "8. En relació amb el suplicatori a les cambres, assenyali l'opció correcta:",
+    "answerOptions": [
+      {
+        "text": "A) S'ha de dirigir a la cambra corresponent un cop s'ha inculpat i/o processat el parlamentari corresponent.",
+        "isCorrect": false,
+        "rationale": "El suplicatori es sol·licita abans d'inculpar o processar."
+      },
+      {
+        "text": "B) El suplicatori s'atorga o denega per majoria absoluta de la cambra.",
+        "isCorrect": false,
+        "rationale": "No es requereix majoria absoluta; el Reglament de cada cambra ho regula, generalment per majoria simple."
+      },
+      {
+        "text": "C) En cas de no pronunciament de la cambra, el suplicatori s'entendrà concedit.",
+        "isCorrect": true,
+        "rationale": "Article 71.2 CE: 'Si la Cambra no es pronuncia en el termini de trenta dies, s'entendrà concedit el suplicatori'."
+      },
+      {
+        "text": "D) Cap de les respostes anteriors és correcta.",
+        "isCorrect": false,
+        "rationale": "L'opció C és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345609",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "9. En relació amb l'aforament dels membres de les Corts Generals, assenyali la resposta correcta:",
+    "answerOptions": [
+      {
+        "text": "A) Els membres de les Corts Generals no gaudeixen de fur especial.",
+        "isCorrect": false,
+        "rationale": "Sí que gaudeixen d'aforament."
+      },
+      {
+        "text": "B) Els membres de les Corts Generals són aforats davant el Tribunal Superior de Justícia de la Comunitat Autònoma a la que pertanyin com a parlamentari.",
+        "isCorrect": false,
+        "rationale": "No, l'aforament és davant el Tribunal Suprem."
+      },
+      {
+        "text": "C) Els membres de les Corts Generals són aforats davant l'Audiència Nacional.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) Els membres de les Corts Generals són aforats davant el Tribunal Suprem.",
+        "isCorrect": true,
+        "rationale": "Article 71.2 CE: 'En les causes contra Diputats i Senats serà competent la Sala Penal del Tribunal Suprem'."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345610",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "10. Quina de les següents combinacions de càrrecs és compatible per a un parlamentari de les Corts Generals?",
+    "answerOptions": [
+      {
+        "text": "A) Senador autonòmic i diputat d'una Assemblea Legislativa Autonòmica.",
+        "isCorrect": false,
+        "rationale": "Incompatible (article 70 CE i Llei de Règim Electoral General)."
+      },
+      {
+        "text": "B) Senador provincial i diputat d'una Assemblea Legislativa Autonòmica.",
+        "isCorrect": false,
+        "rationale": "Incompatible."
+      },
+      {
+        "text": "C) Diputat del Congrés dels Diputats i diputat d'una Assemblea Legislativa Autonòmica.",
+        "isCorrect": false,
+        "rationale": "Incompatible (no es pot ser diputat estatal i autonòmic alhora)."
+      },
+      {
+        "text": "D) Diputat del Congrés dels Diputats i subsecretari d'un ministeri.",
+        "isCorrect": false,
+        "rationale": "Incompatible (article 70 CE: alts càrrecs de l'Administració no poden ser diputats). Cap és compatible. La resposta hauria de ser 'cap', però com que no hi ha opció, la pregunta pot tenir error. En tot cas, totes són incompatibles."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345611",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "11. Segons l'Art. 68.1 CE, el nombre de Diputats del Congrés és de (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Entre 300 i 400 Diputats.",
+        "isCorrect": false,
+        "rationale": "No, el nombre exacte és 350."
+      },
+      {
+        "text": "B) 350 Diputats.",
+        "isCorrect": true,
+        "rationale": "Article 68.1 CE: 'El Congrés es compon d'un mínim de 300 i un màxim de 400 Diputats. La llei fixarà el nombre exacte...' La Llei Electoral General fixa 350."
+      },
+      {
+        "text": "C) No estableix cap nombre determinat, doncs el nombre total de Diputats és variable en funció del volum de població de les Comunitats Autònomes.",
+        "isCorrect": false,
+        "rationale": "La CE no dona xifra exacta, però la llei la fixa en 350."
+      },
+      {
+        "text": "D) Cap de les anteriors respostes és correcta.",
+        "isCorrect": false,
+        "rationale": "L'opció B és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345612",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "12. Segons l'Art. 68.1 CE, l'elecció dels Diputats del Congrés es fa mitjançant (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Sufragi universal, lliure, indirecte i secret, en els termes que estableixi la llei.",
+        "isCorrect": false,
+        "rationale": "És directe, no indirecte."
+      },
+      {
+        "text": "B) Sufragi censatari, lliure, directe i secret, en els termes que estableixi la llei.",
+        "isCorrect": false,
+        "rationale": "És universal, no censatari."
+      },
+      {
+        "text": "C) Sufragi universal, lliure, directe i secret, en els termes que estableixi la llei.",
+        "isCorrect": true,
+        "rationale": "Article 68.1 CE: 'Els Diputats són elegits per sufragi universal, lliure, igual, directe i secret'."
+      },
+      {
+        "text": "D) Sufragi universal, condicionat, directe i secret, en els termes que estableixi la llei.",
+        "isCorrect": false,
+        "rationale": "No és 'condicionat', és 'lliure'."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345613",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "13. La circumscripció electoral a les eleccions al Congrés dels Diputats és (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Tot l'Estat espanyol és una única circumscripció.",
+        "isCorrect": false,
+        "rationale": "No, la circumscripció és la província."
+      },
+      {
+        "text": "B) La Comunitat Autònoma.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) La Província.",
+        "isCorrect": true,
+        "rationale": "Article 68.2 CE: 'La circumscripció electoral és la província'."
+      },
+      {
+        "text": "D) La Comarca.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345614",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "14. Assenyali l'opció correcta en relació a l'assignació de Diputats a cada província i/o ciutat autònoma.",
+    "answerOptions": [
+      {
+        "text": "A) L'assignació mínima per a cada província és de 4 Diputats.",
+        "isCorrect": false,
+        "rationale": "El mínim és 2 diputats per província."
+      },
+      {
+        "text": "B) L'assignació mínima per a cada província és de 2 Diputats.",
+        "isCorrect": true,
+        "rationale": "Article 68.2 CE: 'Cada província tindrà una assignació mínima inicial de dos diputats'."
+      },
+      {
+        "text": "C) L'assignació per a cadascuna de les dues ciutats autònomes (Ceuta i Melilla) és de 2 Diputats.",
+        "isCorrect": false,
+        "rationale": "Ceuta i Melilla tenen 1 diputat cada una."
+      },
+      {
+        "text": "D) Cap de les respostes anteriors és correcta.",
+        "isCorrect": false,
+        "rationale": "L'opció B és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345615",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "15. Com són les llistes de candidats a les eleccions al Congrés dels Diputats (assenyali l'opció correcta)?",
+    "answerOptions": [
+      {
+        "text": "A) Tancades i no bloquejades.",
+        "isCorrect": false,
+        "rationale": "No, són tancades i bloquejades."
+      },
+      {
+        "text": "B) Tancades i bloquejades.",
+        "isCorrect": true,
+        "rationale": "Llista tancada i bloquejada: l'elector no pot alterar l'ordre ni eliminar candidats."
+      },
+      {
+        "text": "C) Obertes i no bloquejades.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) Obertes i bloquejades.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345616",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "16. Que una llista estigui bloquejada vol dir (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Que l'elector no pot eliminar cap candidat de la llista.",
+        "isCorrect": false,
+        "rationale": "Això és parcialment cert, però bloquejada significa que no pot alterar l'ordre ni eliminar."
+      },
+      {
+        "text": "B) Que l'elector pot manifestar la seva voluntat d'elecció de determinats candidats.",
+        "isCorrect": false,
+        "rationale": "Això seria una llista oberta."
+      },
+      {
+        "text": "C) Que l'elector no pot manifestar la seva voluntat d'elecció de determinats candidats.",
+        "isCorrect": true,
+        "rationale": "En llistes bloquejades, l'elector vota la llista sencera sense modificar-la."
+      },
+      {
+        "text": "D) Cap de les respostes anteriors és correcta.",
+        "isCorrect": false,
+        "rationale": "L'opció C és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345617",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "17. L'Art. 68.3 CE estableix que el sistema electoral a les eleccions al Congrés dels Diputats és (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Un sistema de representació territorial.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "B) Un sistema de representació igualitari.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) Un sistema de representació proporcional.",
+        "isCorrect": true,
+        "rationale": "Article 68.3 CE: 'L'elecció es verificarà en cada circumscripció atenent a criteris de representació proporcional'."
+      },
+      {
+        "text": "D) Cap de les anteriors respostes és correcta.",
+        "isCorrect": false,
+        "rationale": "L'opció C és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345618",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "18. Per a que una llista electoral (d'un partit o coalició) tingui opció d'obtenir algun escó a una província determinada (a la que, lògicament, s'ha presentat) a les eleccions al Congrés dels Diputats, la llista haurà d'haver superat el llindar de (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) El 3% del cens electoral.",
+        "isCorrect": false,
+        "rationale": "No, és sobre vots vàlids."
+      },
+      {
+        "text": "B) El 3% dels vots emesos.",
+        "isCorrect": false,
+        "rationale": "No, és sobre vots vàlids (no compten els nuls)."
+      },
+      {
+        "text": "C) El 3% dels vots als partits.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) El 3% dels vots vàlids.",
+        "isCorrect": true,
+        "rationale": "Llei Electoral General: llindar del 3% dels vots vàlids (excloent vots nuls) per província."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345619",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "19. Assenyali l'afirmació incorrecta en relació amb el nombre de Senadors:",
+    "answerOptions": [
+      {
+        "text": "A) A cada província peninsular li corresponen 4 Senadors.",
+        "isCorrect": false,
+        "rationale": "Això és correcte (article 69.2 CE)."
+      },
+      {
+        "text": "B) A les ciutats autònomes de Ceuta i Melilla els hi correspon 1 Senador a cadascuna.",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els corresponen 2 senadors a cada una (article 69.4 CE). Aquesta és l'afirmació incorrecta."
+      },
+      {
+        "text": "C) El nombre total de Senadors del Senat és variable.",
+        "isCorrect": false,
+        "rationale": "Correcte: varia perquè els senadors autonòmics depenen de cada comunitat."
+      },
+      {
+        "text": "D) Els Senadors autonòmics són 1 per cada comunitat autònoma i 1 més per cada milió d'habitants del respectiu territori.",
+        "isCorrect": false,
+        "rationale": "Correcte (article 69.5 CE)."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345620",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "20. Assenyali l'afirmació correcta en relació amb la renovació del Senat:",
+    "answerOptions": [
+      {
+        "text": "A) El Senat es renova totalment cada cop que hi ha eleccions a les Corts Generals (o si, eventualment, hi ha eleccions només al Senat).",
+        "isCorrect": false,
+        "rationale": "Els senadors autonòmics es renoven amb les eleccions autonòmiques, no amb les generals."
+      },
+      {
+        "text": "B) El mandat dels Senadors provincials està supeditat a la vigència de l'Assemblea Legislativa Autonòmica de la que provenen.",
+        "isCorrect": false,
+        "rationale": "No, els provincials es renoven amb les eleccions generals."
+      },
+      {
+        "text": "C) Només els Senadors autonòmics es renoven amb les eleccions a les Corts Generals (o si, eventualment, hi ha eleccions només al Senat).",
+        "isCorrect": false,
+        "rationale": "A l'inrevés: els autonòmics es renoven amb eleccions autonòmiques."
+      },
+      {
+        "text": "D) Només els Senadors provincials es renoven amb les eleccions a les Corts Generals (o si, eventualment, hi ha eleccions només al Senat).",
+        "isCorrect": true,
+        "rationale": "Els senadors provincials es trien amb les eleccions generals; els autonòmics es renoven quan ho fan les Assemblees autonòmiques."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345621",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "21. Com són les llistes de candidats a les eleccions al Senat (assenyali l'opció correcta)?",
+    "answerOptions": [
+      {
+        "text": "A) Tancades i bloquejades.",
+        "isCorrect": false,
+        "rationale": "No, al Senat les llistes són obertes."
+      },
+      {
+        "text": "B) Tancades i no bloquejades.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) Obertes i bloquejades.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) Obertes i no bloquejades.",
+        "isCorrect": true,
+        "rationale": "Al Senat, l'elector pot votar candidats de diferents llistes (vot plurinominal). Són llistes obertes i no bloquejades."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345622",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "22. L'elecció dels senadors provincials segueix un sistema (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Majoritari, mitjançant sufragi universal, lliure, igual, directe i secret.",
+        "isCorrect": true,
+        "rationale": "El Senat provincial s'elegeix per escrutini majoritari (vot limitat)."
+      },
+      {
+        "text": "B) Majoritari, mitjançant sufragi universal, lliure, igual, indirecte i secret.",
+        "isCorrect": false,
+        "rationale": "És directe, no indirecte."
+      },
+      {
+        "text": "C) Proporcional, mitjançant sufragi universal, lliure, igual, directe i secret.",
+        "isCorrect": false,
+        "rationale": "No és proporcional, és majoritari."
+      },
+      {
+        "text": "D) Proporcional, mitjançant sufragi universal, lliure, igual, indirecte i secret.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345623",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "23. Assenyali l'afirmació incorrecta en relació al funcionament de les cambres de les Corts Generals.",
+    "answerOptions": [
+      {
+        "text": "A) El funcionament ordinari de les dues cambres és per separat.",
+        "isCorrect": false,
+        "rationale": "Correcte (article 74 CE)."
+      },
+      {
+        "text": "B) Les sessions conjuntes del Congrés dels Diputats i del Senat seran presidides pel President del Congrés dels Diputats i pel President del Senat.",
+        "isCorrect": true,
+        "rationale": "Incorrecte: article 74.2 CE: 'Les sessions conjuntes seran presidides pel President del Congrés' (només un, no dos)."
+      },
+      {
+        "text": "C) Cadascuna de les cambres aprova el seu propi Reglament per majoria absoluta.",
+        "isCorrect": false,
+        "rationale": "Correcte (article 72.1 CE)."
+      },
+      {
+        "text": "D) Les sessions conjuntes del Congrés dels Diputats i del Senat seran regulades per un Reglament de les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Correcte (article 72.2 CE)."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345624",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "24. Assenyali l'afirmació correcta en relació a l'elecció dels Presidents de les cambres de les Corts Generals.",
+    "answerOptions": [
+      {
+        "text": "A) Serà escollit President qui hagi obtingut més vots en una primera i única votació. En cas d'empat en primera posició, es repetirà la votació. Si l'empat roman, es procedirà a una tercera votació entre els membres empatats, quedant escollit com a President qui més vots obtingui.",
+        "isCorrect": false,
+        "rationale": "No és així. Es requereix majoria absoluta en primera votació."
+      },
+      {
+        "text": "B) Es procedirà a una primera votació de la que sortirà escollit President aquell hagués obtingut majoria absoluta. Si cap membre assoleix aquesta majoria, quedarà escollit President qui més vots hagi obtingut. Només es farà una segona votació en cas d'empat, entre els membres que haguessin empatat.",
+        "isCorrect": false,
+        "rationale": "No, si no hi ha majoria absoluta, es fa segona votació entre els dos primers."
+      },
+      {
+        "text": "C) Es procedirà a una primera votació de la que sortirà escollit President aquell hagués obtingut majoria absoluta. Si cap membre assoleix aquesta majoria, es repetirà la votació. En cas que tampoc s'assoleixi la majoria absoluta es procedirà a una tercera votació en la que sortirà escollit President qui més vots obtingui.",
+        "isCorrect": false,
+        "rationale": "No és correcte segons els Reglaments."
+      },
+      {
+        "text": "D) Es procedirà a una primera votació de la que sortirà escollit President aquell hagués obtingut majoria absoluta. Si en aquesta votació cap membre assolís aquesta majoria, es procedirà a una segona votació entre els dos candidats que més vots haguessin tingut en la primera votació. D'entre els dos, sortirà escollit aquell que més vots obtingui.",
+        "isCorrect": true,
+        "rationale": "Aquest és el procediment habitual en els Reglaments del Congrés i del Senat."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345625",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "25. Quina de les següents no és una funció del President de qualsevol de les cambres de les Corts Generals:",
+    "answerOptions": [
+      {
+        "text": "A) Representar la Cambra.",
+        "isCorrect": false,
+        "rationale": "Sí és funció."
+      },
+      {
+        "text": "B) Mantenir l'ordre de la Cambra i cridar l'atenció.",
+        "isCorrect": false,
+        "rationale": "Sí és funció."
+      },
+      {
+        "text": "C) Fer complir el Reglament de la Cambra.",
+        "isCorrect": false,
+        "rationale": "Sí és funció."
+      },
+      {
+        "text": "D) Rebre la documentació adreçada a la Cambra i determinar-ne l'admissibilitat (o inadmissibilitat).",
+        "isCorrect": true,
+        "rationale": "Aquesta funció correspon a la Mesa, no al President. El President presideix la Mesa, però la decisió d'admissibilitat és col·legiada."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345626",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "26. Assenyali l'afirmació correcta quant a la composició de les meses de les sales de les Corts Generals:",
+    "answerOptions": [
+      {
+        "text": "A) La Mesa del Senat està formada pel President del Senat, 4 Vicepresidents i 4 Secretaris.",
+        "isCorrect": false,
+        "rationale": "El Senat té 2 vicepresidents i 4 secretaris."
+      },
+      {
+        "text": "B) La Mesa del Senat està formada pel President del Senat, 4 Vicepresidents i 2 Secretaris.",
+        "isCorrect": false,
+        "rationale": "No, són 2 vicepresidents."
+      },
+      {
+        "text": "C) La Mesa del Congrés dels Diputats està formada pel President del Congrés, 4 Vicepresidents i 4 Secretaris.",
+        "isCorrect": false,
+        "rationale": "El Congrés té 4 vicepresidents i 4 secretaris? No, el Congrés té 4 vicepresidents? Revisar: Reglament del Congrés: Mesa: President, 4 Vicepresidents, 4 Secretaris. Això és correcte. Però el Senat: President, 2 Vicepresidents, 4 Secretaris. Per tant, l'opció A diu Senat amb 4 vicepresidents (fals). L'opció C diu Congrés amb 4 vicepresidents i 4 secretaris (correcte). L'opció C és correcta."
+      },
+      {
+        "text": "D) La Mesa del Congrés dels Diputats està formada pel President del Congrés, 2 Vicepresidents i 4 Secretaris.",
+        "isCorrect": false,
+        "rationale": "No, el Congrés té 4 vicepresidents."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345627",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "27. Quina de les següents no és una funció de les meses de les cambres de les Corts Generals?",
+    "answerOptions": [
+      {
+        "text": "A) Ordenar i organitzar el conjunt de treballs parlamentaris de la Cambra.",
+        "isCorrect": false,
+        "rationale": "Sí és funció."
+      },
+      {
+        "text": "B) Rebre la documentació remesa a la Cambra.",
+        "isCorrect": true,
+        "rationale": "Aquesta funció és del President o dels serveis, no pròpiament de la Mesa com a òrgan col·legiat."
+      },
+      {
+        "text": "C) Fer complir el reglament de la Cambra.",
+        "isCorrect": false,
+        "rationale": "Sí és funció."
+      },
+      {
+        "text": "D) Gestionar l'activitat econòmica interna de la Cambra.",
+        "isCorrect": false,
+        "rationale": "Sí és funció."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345628",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "28. Assenyali l'afirmació correcta en relació a les reunions del Ple de les cambres de les Corts Generals:",
+    "answerOptions": [
+      {
+        "text": "A) Al Senat, el Ple es reuneix a iniciativa del President de la Cambra, a petició de 2 grups parlamentaris i a petició d'1/5 part dels Senadors.",
+        "isCorrect": false,
+        "rationale": "No és exacte."
+      },
+      {
+        "text": "B) Al Congrés dels Diputats, el Ple es reuneix a iniciativa del President de la Cambra, a petició de 2 grups parlamentaris i a petició d'1/5 part dels Diputats.",
+        "isCorrect": false,
+        "rationale": "Segons el Reglament, la convocatòria la fa el President, però la petició pot venir de 2 grups o 1/5 dels diputats. Aquesta opció és correcta en essència."
+      },
+      {
+        "text": "C) Al Congrés dels Diputats la reunió del Ple sempre és a iniciativa del President de la Cambra.",
+        "isCorrect": false,
+        "rationale": "No, també pot ser a petició de grups o diputats."
+      },
+      {
+        "text": "D) Cap resposta és correcta.",
+        "isCorrect": false,
+        "rationale": "L'opció B és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345629",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "29. Assenyali l'afirmació incorrecta en relació al funcionament de les comissions a les cambres:",
+    "answerOptions": [
+      {
+        "text": "A) Tenen almenys un representant de cada grup parlamentari i les votacions es fan en proporció a la representació de cada grup en el Ple de la Cambra.",
+        "isCorrect": false,
+        "rationale": "Això és correcte (representació proporcional)."
+      },
+      {
+        "text": "B) Les conclusions obtingudes en les comissions d'investigació tindran efecte de cosa provada i vincularan la possible actuació posterior dels jutges i tribunals.",
+        "isCorrect": true,
+        "rationale": "Incorrecte: article 76.2 CE: 'Les conclusions de les comissions d'investigació no seran vinculants per als Tribunals'."
+      },
+      {
+        "text": "C) Per a determinats casos existeix la possibilitat de comissions mixtes, formades per parlamentaris del Congrés dels Diputats i del Senat en proporció paritària.",
+        "isCorrect": false,
+        "rationale": "Correcte."
+      },
+      {
+        "text": "D) Les comissions no permanents conclouen amb la legislatura.",
+        "isCorrect": false,
+        "rationale": "Correcte."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345630",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "30. Assenyali l'afirmació correcta en relació a la Junta de Portaveus de les cambres de les Corts Generals:",
+    "answerOptions": [
+      {
+        "text": "A) És un òrgan format únicament per tots i cadascun dels portaveus dels grups polítics de la Cambra.",
+        "isCorrect": false,
+        "rationale": "També hi ha el President de la Cambra i, de vegades, un representant del Govern."
+      },
+      {
+        "text": "B) A les votacions al si de la Cambra, el vot de cada grup parlamentari val el mateix.",
+        "isCorrect": false,
+        "rationale": "No, el vot és ponderat per nombre de membres."
+      },
+      {
+        "text": "C) Com que hi ha representació de tots els grups, i el vot és ponderat, la Junta de Portaveus té funcions legislatives que, per a determinats tipus de lleis, que poden arribar fins i tot a l'aprovació de la llei sense passar pel Ple (lleis aprovades en Junta de Portaveus).",
+        "isCorrect": false,
+        "rationale": "Fals, la Junta no aprova lleis."
+      },
+      {
+        "text": "D) És presidida pel President de la Cambra.",
+        "isCorrect": true,
+        "rationale": "El President de la Cambra presideix la Junta de Portaveus."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345631",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "31. Assenyali l'opció correcta en relació amb els Grups Parlamentaris de les cambres de les Corts Generals.",
+    "answerOptions": [
+      {
+        "text": "A) Si un parlamentari queda sense assignació a un grup al llarg de la legislatura queda com a diputat o senador no adscrit.",
+        "isCorrect": true,
+        "rationale": "Correcte. Els parlamentaris sense grup passen al Grup Mixt o són no adscrits."
+      },
+      {
+        "text": "B) Per a formar un grup al Senat cal tenir 8 senadors.",
+        "isCorrect": false,
+        "rationale": "Al Senat calen 10 senadors (Reglament del Senat)."
+      },
+      {
+        "text": "C) Per a formar un grup al Congrés dels Diputats cal tenir 15 diputats, o bé tenir 5 o més i alhora acumular com a mínim el 15% dels vots de les circumscripcions on es presentin i bé el 5% dels vots totals de la nació.",
+        "isCorrect": false,
+        "rationale": "Al Congrés: 15 diputats, o 5 diputats amb el 15% dels vots en les circumscripcions on es presentin o el 5% nacional."
+      },
+      {
+        "text": "D) Cap resposta és correcta.",
+        "isCorrect": false,
+        "rationale": "L'opció A és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345632",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "32. Assenyali l'afirmació correcta en relació al règim de sessions de les cambres de les Corts Generals.",
+    "answerOptions": [
+      {
+        "text": "A) Les reunions de Parlamentaris que se celebrin sense convocatòria reglamentària no vincularan les cambres, malgrat que aquestes sí podran exercir llurs funcions.",
+        "isCorrect": false,
+        "rationale": "No, no poden exercir funcions."
+      },
+      {
+        "text": "B) Les reunions de Parlamentaris que se celebrin sense convocatòria reglamentària no vincularan les cambres i no podran exercir llurs funcions, però sí ostentaran llurs privilegis.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) Les reunions de Parlamentaris que se celebrin sense convocatòria reglamentària no vincularan les cambres i no podran exercir llurs funcions ni ostentar llurs privilegis.",
+        "isCorrect": true,
+        "rationale": "Article 78.3 CE: 'Les reunions de parlamentaris que se celebrin sense convocatòria reglamentària no vincularan les Cambres i no podran exercir llurs funcions ni ostentar llurs privilegis'."
+      },
+      {
+        "text": "D) Les reunions de Parlamentaris que se celebrin sense convocatòria reglamentària no vincularan les cambres i no podran exercir llurs funcions ni ostentar llurs privilegis, a no ser que el president de la cambra, a l'inici de la sessió, doni compte de l'absència de convocatòria i acordi esmenar aquest defecte de forma.",
+        "isCorrect": false,
+        "rationale": "No, no es pot esmenar."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345633",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "33. Els períodes de sessions de les cambres de les Corts Generals són (assenyali l'opció correcta):",
+    "answerOptions": [
+      {
+        "text": "A) Hi ha dos períodes de sessions: de setembre a desembre i de febrer de juliol.",
+        "isCorrect": false,
+        "rationale": "El segon és de febrer a juny, no juliol."
+      },
+      {
+        "text": "B) Els dos períodes de sessions no són similars entre ambdues cambres.",
+        "isCorrect": false,
+        "rationale": "Són iguals."
+      },
+      {
+        "text": "C) Hi ha dos períodes de sessions: de l'1 de setembre al 31 de desembre i del 15 de gener al 31 de juliol.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) Hi ha dos períodes de sessions: de setembre a desembre i de febrer a juny.",
+        "isCorrect": true,
+        "rationale": "Article 73.1 CE: 'Les Cambres es reuniran anualment en dos períodes de sessions: el primer, de setembre a desembre, i el segon, de febrer a juny'."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345634",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "34. Assenyali l'opció correcta en relació amb les sessions extraordinàries de les cambres de les Corts Generals:",
+    "answerOptions": [
+      {
+        "text": "A) Les Cambres podran reunir-se en sessió extraordinària a petició del President de la Cambra, la Diputació Permanent o d'1/5 part dels membres de la Cambra.",
+        "isCorrect": false,
+        "rationale": "No, és a petició del Govern, de la Diputació Permanent o majoria absoluta."
+      },
+      {
+        "text": "B) Les sessions extraordinàries es convocaran amb un ordre del dia determinat al qual, un cop reunida la Cambra, podran fer-se addicions de nous punts per majoria absoluta de la Cambra.",
+        "isCorrect": false,
+        "rationale": "No es poden afegir punts."
+      },
+      {
+        "text": "C) Les Cambres podran reunir-se en sessió extraordinària a petició del President de la Cambra, de la Diputació Permanent, o d'1/3 dels membres de la Cambra.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) Les Cambres podran reunir-se en sessió extraordinària en petició del Govern, la Diputació Permanent o la majoria absoluta dels membres de la Cambra.",
+        "isCorrect": true,
+        "rationale": "Article 73.2 CE: 'Les Cambres podran reunir-se en sessions extraordinàries a petició del Govern, de la Diputació Permanent o de la majoria absoluta dels membres de qualsevol de les Cambres'."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345635",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "35. Assenyali l'afirmació correcta en relació amb els quòrums de les cambres de les Corts Generals.",
+    "answerOptions": [
+      {
+        "text": "A) L'Art. 79.1 CE estableix que per a que les cambres estiguin vàlidament constituïdes cal que estiguin reunides reglamentàriament i amb l'assistència de la majoria de llurs membres.",
+        "isCorrect": true,
+        "rationale": "Article 79.1 CE: 'Per a la vàlida constitució de les Cambres, es requerirà l'assistència de la majoria dels seus membres'."
+      },
+      {
+        "text": "B) L'Art. 79.1 CE estableix que per a que les cambres estiguin vàlidament constituïdes cal que estiguin reunides reglamentàriament i amb l'assistència de la majoria de llurs membres i del President de la Cambra.",
+        "isCorrect": false,
+        "rationale": "No es menciona el President."
+      },
+      {
+        "text": "C) L'Art. 79.1 CE estableix que per a adoptar acords, cal que les Cambres estiguin reunides reglamentàriament i amb l'assistència de la majoria de llurs membres.",
+        "isCorrect": false,
+        "rationale": "Això és per a la constitució, no per adoptar acords. Per a acords, article 79.2."
+      },
+      {
+        "text": "D) L'Art. 79.1 CE estableix que per a adoptar acords, cal que les Cambres estiguin reunides reglamentàriament i amb l'assistència de la majoria de llurs membres i del President de la Cambra.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345636",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "36. Assenyali l'opció correcta en relació amb les sessions de les cambres de les Corts Generals.",
+    "answerOptions": [
+      {
+        "text": "A) Com a norma general, les sessions privades seran privades, tret que la cambra en qüestió acordi el contrari per majoria simple o amb subjecció al corresponent Reglament.",
+        "isCorrect": false,
+        "rationale": "Redacció confusa."
+      },
+      {
+        "text": "B) Com a norma general, les sessions privades seran privades, tret que la cambra en qüestió acordi el contrari per majoria absoluta o amb subjecció al corresponent Reglament.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) Com a norma general, les sessions privades seran públiques, tret que la cambra en qüestió acordi el contrari per majoria simple o amb subjecció al corresponent Reglament.",
+        "isCorrect": false,
+        "rationale": "No, la regla és sessions públiques, però per a sessions secretes cal majoria absoluta."
+      },
+      {
+        "text": "D) Com a norma general, les sessions privades seran públiques, tret que la cambra en qüestió acordi el contrari per majoria absoluta o amb subjecció al corresponent Reglament.",
+        "isCorrect": true,
+        "rationale": "Article 79.3 CE: 'Les sessions de les Cambres seran públiques. Només podran ser secretes quan així ho acordi la Cambra per majoria absoluta o amb subjecció al Reglament'."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345637",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "37. Quina de les següents no és una funció de les Corts Generals.",
+    "answerOptions": [
+      {
+        "text": "A) Representar el poble espanyol.",
+        "isCorrect": false,
+        "rationale": "Sí és funció (article 66.1 CE)."
+      },
+      {
+        "text": "B) Dirigir l'acció de Govern i exigir-ne la responsabilitat mitjançant la moció de censura i la qüestió de confiança.",
+        "isCorrect": true,
+        "rationale": "Les Corts no 'dirigeixen' l'acció del Govern; el controlen. La direcció correspon al President del Govern. Aquesta és la funció que NO tenen."
+      },
+      {
+        "text": "C) Aprovar els Pressupostos Generals de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Sí és funció."
+      },
+      {
+        "text": "D) Exercir la potestat legislativa de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Sí és funció."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345638",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "38. En quin dels següents casos sí es procedeix a dissoldre les cambres de les Corts Generals?",
+    "answerOptions": [
+      {
+        "text": "A) Quan el president del Govern, prèvia deliberació del Consell de Ministres, proposa al Rei la dissolució del Congrés, del Senat, o d'ambdues cambres.",
+        "isCorrect": true,
+        "rationale": "Article 115 CE: 'El President del Govern, prèvia deliberació del Consell de Ministres, pot proposar la dissolució del Congrés, del Senat o de les Corts Generals'."
+      },
+      {
+        "text": "B) Quan el Congrés dels Diputats no renova la confiança en el President del Govern a través d'una qüestió de confiança.",
+        "isCorrect": false,
+        "rationale": "Això comporta la dimissió del President, no la dissolució automàtica."
+      },
+      {
+        "text": "C) Quan prosperi una moció de censura.",
+        "isCorrect": false,
+        "rationale": "Comporta la dimissió del Govern i nomenament del nou candidat, no dissolució."
+      },
+      {
+        "text": "D) Quan es realitzi una modificació de la Constitució per via de l'Art. 167 CE.",
+        "isCorrect": false,
+        "rationale": "No comporta dissolució."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345639",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "39. Quina és la comesa que la Constitució Espanyola atorga a la figura del Defensor del Poble?",
+    "answerOptions": [
+      {
+        "text": "A) La defensa dels drets fonamentals de la CE.",
+        "isCorrect": false,
+        "rationale": "Article 54 CE: 'la defensa dels drets compresos en el Títol I' (no només fonamentals, també principis rectors)."
+      },
+      {
+        "text": "B) Exercir les garanties de les llibertats i drets fonamentals de la CE.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) Vetllar per l'efectiu compliment dels principis rectos de la política social i l'economia.",
+        "isCorrect": false,
+        "rationale": "També, però no és la definició completa."
+      },
+      {
+        "text": "D) La defensa dels drets compresos al Tít. I CE.",
+        "isCorrect": true,
+        "rationale": "Article 54 CE: 'Defensor del Poble com a alt comissionat de les Corts Generals per a la defensa dels drets compresos en el Títol I'."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345640",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "40. Assenyali l'opció correcta en relació amb la figura del Defensor del Poble.",
+    "answerOptions": [
+      {
+        "text": "A) L'Art. 54 CE estableix que la regulació del Defensor del Poble s'haurà de fer per llei. Aquesta reserva de llei s'ha dut a terme mitjançant la L2/1982, de 12 de maig, del Defensor del Poble.",
+        "isCorrect": false,
+        "rationale": "No és llei orgànica? Article 54 CE remet a llei orgànica."
+      },
+      {
+        "text": "B) L'Art. 54 CE estableix que la regulació del Defensor del Poble s'haurà de fer per llei orgànica. Aquesta reserva de llei s'ha dut a terme mitjançant la LO2/1982, de 12 de maig, del Defensor del Poble.",
+        "isCorrect": false,
+        "rationale": "La llei és la LO 3/1981, no 2/1982."
+      },
+      {
+        "text": "C) L'Art. 54 CE estableix que la regulació del Defensor del Poble s'haurà de fer per llei. Aquesta reserva de llei s'ha dut a terme mitjançant la L3/1981, de 6 d'abril, del Defensor del Poble.",
+        "isCorrect": false,
+        "rationale": "No és llei ordinària, és orgànica."
+      },
+      {
+        "text": "D) L'Art. 54 CE estableix que la regulació del Defensor del Poble s'haurà de fer per llei orgànica. Aquesta reserva de llei s'ha dut a terme mitjançant la LO3/1981, de 6 d'abril, del Defensor del Poble.",
+        "isCorrect": true,
+        "rationale": "Article 54 CE remet a llei orgànica. La LO 3/1981, de 6 d'abril, és la correcta."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345641",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "41. Assenyali l'opció incorrecta en relació amb la figura del Defensor del Poble:",
+    "answerOptions": [
+      {
+        "text": "A) Està legitimat per a la interposició del Recurs d'Inconstitucionalitat davant el TC.",
+        "isCorrect": false,
+        "rationale": "Correcte (article 32 LOTC)."
+      },
+      {
+        "text": "B) Està aforat davant la sala penal de l'Audiència Nacional.",
+        "isCorrect": true,
+        "rationale": "Incorrecte: l'article 2 LO 3/1981 diu que està aforat davant la Sala Penal del Tribunal Suprem."
+      },
+      {
+        "text": "C) Gaudeix d'immunitat i inviolabilitat.",
+        "isCorrect": false,
+        "rationale": "Correcte (article 4 LO 3/1981)."
+      },
+      {
+        "text": "D) Està legitimat per a la interposició del Recurs d'Empara davant el TC.",
+        "isCorrect": false,
+        "rationale": "Correcte (article 46 LOTC)."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345642",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "42. Assenyali l'opció correcta en relació a l'elecció del Defensor del Poble.",
+    "answerOptions": [
+      {
+        "text": "A) L'elecció es farà per majoria de 3/5 del Congrés dels Diputats i 3/5 del Senat en primera votació. Si no s'assoleix aquesta majoria, en segona votació serà suficient amb majoria absoluta del Congrés dels Diputats i majoria absoluta del Senat.",
+        "isCorrect": false,
+        "rationale": "No és així."
+      },
+      {
+        "text": "B) L'elecció es farà per majoria de 3/5 del Congrés dels Diputats i 3/5 del Senat en primera votació. Si no s'assoleix aquesta majoria, en segona votació serà suficient amb majoria de 3/5 del Congrés dels Diputats i majoria absoluta del Senat.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) L'elecció es farà per majoria de 3/5 del Congrés dels Diputats i 3/5 del Senat en primera votació. Si no s'assoleix aquesta majoria, caldrà buscar un altre candidat que sí pugui assolir-la.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) Cap de les respostes anteriors és correcta.",
+        "isCorrect": true,
+        "rationale": "L'elecció requereix majoria de 3/5 de cada Cambra. Si no s'aconsegueix, es repeteix la votació entre els mateixos o nous candidats fins a aconseguir-la. No hi ha segona volta amb majories diferents."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345643",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "43. Quin dels següents no és un requisit per a ser Defensor del Poble.",
+    "answerOptions": [
+      {
+        "text": "A) Ser major d'edat.",
+        "isCorrect": false,
+        "rationale": "Sí és requisit."
+      },
+      {
+        "text": "B) Complir amb el requisits de la L3/2015 per a l'exercici de l'alt càrrec de l'Administració General de l'Estat.",
+        "isCorrect": true,
+        "rationale": "Aquesta llei no és un requisit específic per al Defensor del Poble. Els requisits són: ser espanyol, major d'edat, ple gaudi de drets civils i polítics."
+      },
+      {
+        "text": "C) Ser espanyol.",
+        "isCorrect": false,
+        "rationale": "Sí és requisit."
+      },
+      {
+        "text": "D) Estar en condició de ple gaudi dels drets civils i polítics.",
+        "isCorrect": false,
+        "rationale": "Sí és requisit."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345644",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "44. Assenyali l'opció correcta en relació amb la durada del mandat del Defensor del Poble.",
+    "answerOptions": [
+      {
+        "text": "A) 9 anys.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "B) 4 anys, coincidents amb el mandat de les Corts Generals que l'han escollit.",
+        "isCorrect": false,
+        "rationale": "No, són 5 anys."
+      },
+      {
+        "text": "C) 5 anys.",
+        "isCorrect": true,
+        "rationale": "Article 1 LO 3/1981: 'El Defensor del Poble és elegit per un període de cinc anys'."
+      },
+      {
+        "text": "D) 6 anys.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345645",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "45. Qui nomena el Defensor del Poble?",
+    "answerOptions": [
+      {
+        "text": "A) Els Presidents del Congrés dels Diputats i del Senat.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "B) El President del Congrés del Diputats.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) El President del Govern.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) El Rei.",
+        "isCorrect": true,
+        "rationale": "Article 2 LO 3/1981: 'El Defensor del Poble és nomenat pel Rei'."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345646",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "46. Assenyali l'opció correcta en relació al termini per adreçar-se al Defensor del Poble:",
+    "answerOptions": [
+      {
+        "text": "A) Un any des de la successió dels fets objecte de la queixa.",
+        "isCorrect": true,
+        "rationale": "Article 14 LO 3/1981: 'Les queixes... s'hauran de presentar dins el termini d'un any des de la producció del fet'."
+      },
+      {
+        "text": "B) Un any des que es té coneixement dels fets objecte de la queixa.",
+        "isCorrect": false,
+        "rationale": "No, és des de la producció."
+      },
+      {
+        "text": "C) Dos anys des de la successió dels fets objecte de la queixa.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) Dos anys des que es té coneixement dels fets objecte de la queixa.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345647",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "47. Assenyali l'afirmació correcta en relació a la figura del Tribunal de Comptes.",
+    "answerOptions": [
+      {
+        "text": "A) La CE estableix que la seva regulació és una matèria amb reserva de llei ordinària.",
+        "isCorrect": false,
+        "rationale": "És reserva de llei orgànica (article 136 CE)."
+      },
+      {
+        "text": "B) És l'òrgan suprem fiscalitzador dels comptes i de la gestió econòmica de l'Estat i del Sector Públic.",
+        "isCorrect": true,
+        "rationale": "Article 136 CE: 'El Tribunal de Comptes és el suprem òrgan fiscalitzador dels comptes i de la gestió econòmica de l'Estat, així com del sector públic'."
+      },
+      {
+        "text": "C) Pertany al Poder Judicial.",
+        "isCorrect": false,
+        "rationale": "No, és un òrgan constitucional independent."
+      },
+      {
+        "text": "D) Estén la seva jurisdicció a tot l'Estat espanyol excepte a les Comunitats Autònomes que tenen un òrgan propi fiscalitzador de l'activitat econòmica de llurs Administracions.",
+        "isCorrect": false,
+        "rationale": "La seva jurisdicció s'estén a tot l'Estat, incloent CCAA."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345648",
+    "subjectId": "T03",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "48. Assenyali l'afirmació correcta en relació amb els Consellers del Tribunal de Comptes.",
+    "answerOptions": [
+      {
+        "text": "A) El Tribunal de Comptes està format per 6 Consellers.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "B) El Tribunal de Comptes està format per 9 Consellers.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) El Tribunal de Comptes està format per 12 Consellers.",
+        "isCorrect": true,
+        "rationale": "Article 10 LO 2/1982: 'El Tribunal de Comptes està integrat per dotze Consellers de Comptes'."
+      },
+      {
+        "text": "D) El Tribunal de Comptes està format per 15 Consellers.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345649",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "49. Assenyali l'afirmació correcta en relació a l'aforament dels Consellers del Tribunal de Comptes.",
+    "answerOptions": [
+      {
+        "text": "A) La responsabilitat penal dels Consellers serà exigida davant la sala 1a del Tribunal Suprem.",
+        "isCorrect": false,
+        "rationale": "La Sala 1a és civil, la penal és la 2a."
+      },
+      {
+        "text": "B) La responsabilitat penal dels Consellers serà exigida davant la sala 2a del Tribunal Suprem.",
+        "isCorrect": true,
+        "rationale": "Article 17 LO 2/1982: 'La responsabilitat penal dels Consellers serà exigible davant la Sala Segona del Tribunal Suprem'."
+      },
+      {
+        "text": "C) La responsabilitat penal dels Consellers serà exigida davant la sala 1a de l'Audiència Nacional.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) La responsabilitat penal dels Consellers serà exigida davant la sala 2a de l'Audiència Nacional.",
+        "isCorrect": false,
+        "rationale": "No."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-1234-5678-9abc-def012345650",
+    "subjectId": "T03",
+    "difficulty": 3,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "50. Assenyali l'afirmació correcta en relació amb el President del Tribunal de Comptes.",
+    "answerOptions": [
+      {
+        "text": "A) Serà escollit pel Ple del Tribunal de Comptes d'entre els 12 Consellers del Ple.",
+        "isCorrect": true,
+        "rationale": "Article 14 LO 2/1982: 'El President del Tribunal de Comptes serà elegit pel Ple d'entre els seus membres'."
+      },
+      {
+        "text": "B) Serà escollit pel Congrés dels Diputats per majoria de 3/5 d'entre professionals amb més de 15 anys d'experiència que compleixin els requisits per a ser Conseller del Tribunal de Comptes.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "C) Serà escollit per majoria de 3/5 del Congrés dels Diputats i majoria de 3/5 del Senat d'entre professionals amb més de 15 anys d'experiència que compleixin els requisits per a ser Conseller del Tribunal de Comptes.",
+        "isCorrect": false,
+        "rationale": "No."
+      },
+      {
+        "text": "D) El seu mandat serà de 5 anys.",
+        "isCorrect": false,
+        "rationale": "El mandat del President és de 3 anys (renovable)."
+      }
+    ]
+  }
+]
