@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "959cb470-fe10-410d-bc54-89c6ba87a0ad",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué año reaparecen las Cortes con carácter unicameral tras la crisis del Estado moderno, siendo reguladas posteriormente por la Constitución de 1812?",
+    "answerOptions": [
+      {
+        "text": "1810",
+        "rationale": "Las Cortes de Cádiz se convocaron en este año recuperando la tradición representativa con una sola cámara.",
+        "isCorrect": true
+      },
+      {
+        "text": "1834",
+        "rationale": "En esta fecha se promulgó el Estatuto Real, que introdujo el carácter bicameral en lugar del unicameral.",
+        "isCorrect": false
+      },
+      {
+        "text": "1814",
+        "rationale": "Este año marca el inicio de un periodo de vicisitudes políticas tras el regreso de Fernando VII, no la aparición unicameral.",
+        "isCorrect": false
+      },
+      {
+        "text": "1931",
+        "rationale": "Aunque la Constitución de este año volvió al sistema unicameral, no fue la primera aparición tras el Estado moderno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el contexto de la Guerra de la Independencia y las Cortes de Cádiz."
+  },
+  {
+    "guid": "2b8a7908-9db9-4424-b843-31dd741c4d31",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo $66.2$ de la Constitución, ¿cuál de las siguientes funciones NO se atribuye explícitamente a las Cortes Generales?",
+    "answerOptions": [
+      {
+        "text": "Dirigir la política interior y exterior",
+        "rationale": "Esta función corresponde al Gobierno según el artículo 97, mientras que las Cortes representan, legislan, presupuestan y controlan.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ejercer la potestad legislativa del Estado",
+        "rationale": "Esta es la función primordial de las Cortes como poder legislativo según la definición constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprobar los Presupuestos del Estado",
+        "rationale": "La función financiera es una atribución esencial para el sostenimiento de las cargas públicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Controlar la acción del Gobierno",
+        "rationale": "El sistema parlamentario exige que el ejecutivo responda ante las cámaras representativas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre la función de representación y legislación frente a la función ejecutiva de dirección política."
+  },
+  {
+    "guid": "e6ebf0a2-ad4a-443f-b304-3b7dac5850cf",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el carácter de órgano deliberante, ¿cuál es la finalidad principal del proceso de discusión en las Cortes?",
+    "answerOptions": [
+      {
+        "text": "Dar un mayor grado de racionalidad a sus acuerdos",
+        "rationale": "La deliberación permite que las diversas tendencias participen, fundamentando las decisiones en el debate político.",
+        "isCorrect": true
+      },
+      {
+        "text": "Garantizar la rapidez en la aprobación de leyes",
+        "rationale": "El debate suele ralentizar el proceso en favor de la pluralidad, no de la celeridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Impedir que la oposición presente enmiendas",
+        "rationale": "El carácter deliberante busca precisamente la participación de todas las tendencias, no su exclusión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustituir la soberanía popular por la parlamentaria",
+        "rationale": "Las Cortes participan de la soberanía pero esta reside en el pueblo; el debate no altera este origen.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el valor que aporta el contraste de opiniones antes de tomar una decisión formal."
+  },
+  {
+    "guid": "7074bc48-422f-47d1-835a-56a199fd6789",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según la LOREG, ¿cuántos diputados integran actualmente el Congreso de los Diputados?",
+    "answerOptions": [
+      {
+        "text": "$350$",
+        "rationale": "Aunque la Constitución permite un rango entre 300 y 400, la ley electoral vigente ha fijado esta cifra exacta.",
+        "isCorrect": true
+      },
+      {
+        "text": "$300$",
+        "rationale": "Este es el mínimo constitucional permitido, pero no es la cifra fijada por la ley actual.",
+        "isCorrect": false
+      },
+      {
+        "text": "$400$",
+        "rationale": "Este es el máximo constitucional permitido, no la composición real establecida por la LOREG.",
+        "isCorrect": false
+      },
+      {
+        "text": "$325$",
+        "rationale": "Esta cifra se encuentra dentro del rango constitucional pero no coincide con la disposición legal vigente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La Constitución marca un intervalo, pero la Ley Orgánica de Régimen Electoral General concreta el número."
+  },
+  {
+    "guid": "0f39ae4d-f6a9-4b43-8392-9f39184595ba",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la asignación mínima inicial de diputados que corresponde a cada provincia, exceptuando Ceuta y Melilla?",
+    "answerOptions": [
+      {
+        "text": "$2$",
+        "rationale": "La LOREG establece este mínimo para garantizar una representación base antes del reparto proporcional por población.",
+        "isCorrect": true
+      },
+      {
+        "text": "$1$",
+        "rationale": "Un solo diputado es la representación asignada específicamente a Ceuta y Melilla, no al resto de provincias.",
+        "isCorrect": false
+      },
+      {
+        "text": "$3$",
+        "rationale": "Esta cifra supera el mínimo legal establecido para el inicio del reparto de los 248 diputados restantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "$4$",
+        "rationale": "Este número corresponde al número de senadores que se eligen generalmente por provincia, no a los diputados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que tras este mínimo, el resto de los $248$ diputados se distribuyen proporcionalmente."
+  },
+  {
+    "guid": "de7929be-2295-476b-86c5-a793eefa55ec",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Si tras dos meses desde la primera votación de investidura ningún candidato obtiene la confianza del Congreso, ¿qué consecuencia se deriva según el artículo $99$?",
+    "answerOptions": [
+      {
+        "text": "El Rey disolverá ambas Cámaras y convocará nuevas elecciones con el refrendo del Presidente del Congreso",
+        "rationale": "Este es el mecanismo automático para evitar el bloqueo institucional cuando no se logra nombrar un Presidente del Gobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente del Gobierno en funciones debe dimitir inmediatamente",
+        "rationale": "El Gobierno en funciones permanece hasta la toma de posesión del nuevo, independientemente de la repetición electoral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se nombra automáticamente al candidato de la lista más votada",
+        "rationale": "Nuestro sistema requiere una votación de investidura positiva; no existe el nombramiento automático por ser la lista más votada.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Diputación Permanente asume las funciones de la Cámara",
+        "rationale": "La Diputación Permanente actúa en periodos inter-parlamentarios, pero no sustituye el proceso de investidura.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la solución constitucional ante la falta de acuerdo para formar gobierno."
+  },
+  {
+    "guid": "37058f8d-f2d5-4b2f-bb35-ec5a0ce0f5c0",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el Senado, ¿cuántos senadores corresponden a cada una de las islas mayores (Gran Canaria, Mallorca y Tenerife)?",
+    "answerOptions": [
+      {
+        "text": "$3$",
+        "rationale": "La Constitución otorga una representación superior a las islas con mayor población y estructura administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "$4$",
+        "rationale": "Cuatro es el número de senadores asignado a las circunscripciones provinciales peninsulares.",
+        "isCorrect": false
+      },
+      {
+        "text": "$2$",
+        "rationale": "Esta cifra corresponde a la representación de Ceuta y Melilla en la Cámara Alta.",
+        "isCorrect": false
+      },
+      {
+        "text": "$1$",
+        "rationale": "Un solo senador es la representación para las islas menores o agrupaciones como Ibiza-Formentera.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre la representación de las provincias continentales y la especificidad insular."
+  },
+  {
+    "guid": "dd959ff4-12a9-4db1-9293-bf1585d02656",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se determina el número de senadores que una Comunidad Autónoma designa por cada millón de habitantes de su territorio?",
+    "answerOptions": [
+      {
+        "text": "Se designa un senador fijo y otro más por cada millón de habitantes",
+        "rationale": "Este es el criterio de representación territorial adicional para compensar la población de las regiones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se designan dos senadores por cada millón de habitantes",
+        "rationale": "El sistema parte de una base fija de un senador antes de sumar los proporcionales a la población.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se designan en proporción directa a los escaños del Congreso",
+        "rationale": "La representación en el Senado es territorial y no depende de los resultados electorales al Congreso.",
+        "isCorrect": false
+      },
+      {
+        "text": "La cifra es fija para todas las Comunidades independientemente de su población",
+        "rationale": "Existe una parte variable que depende estrictamente del censo poblacional de cada Comunidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una combinación de una representación mínima autonómica y un factor demográfico."
+  },
+  {
+    "guid": "0e91cb05-497c-42b8-b32d-32c969bfc413",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de las siguientes situaciones es compatible con el cargo de Diputado al Congreso?",
+    "answerOptions": [
+      {
+        "text": "Ser Miembro del Gobierno",
+        "rationale": "El artículo $70$ exceptúa expresamente a los miembros del Gobierno de la causa de inelegibilidad por ser altos cargos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ser Magistrado o Juez en activo",
+        "rationale": "La Constitución prohíbe la pertenencia al legislativo de miembros del judicial para preservar la separación de poderes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser Miembro de una Asamblea de Comunidad Autónoma",
+        "rationale": "El artículo $67.1$ prohíbe acumular el acta de diputado al Congreso con la de una asamblea autonómica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser Militar profesional en activo",
+        "rationale": "Los militares en activo son inelegibles para garantizar la neutralidad política de las Fuerzas Armadas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la excepción única que permite que el poder ejecutivo y el legislativo compartan miembros."
+  },
+  {
+    "guid": "7eb34118-2549-48be-9118-7662e9a4d1ee",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "La imposibilidad de ser perseguido o juzgado por las opiniones manifestadas en el ejercicio de sus funciones parlamentarias se denomina:",
+    "answerOptions": [
+      {
+        "text": "Inviolabilidad",
+        "rationale": "Esta prerrogativa protege la libertad de expresión y la formación de voluntad de la Cámara de forma permanente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inmunidad",
+        "rationale": "La inmunidad se refiere a la protección frente a detenciones o procesos por actos ajenos a la función parlamentaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fuero especial",
+        "rationale": "El fuero especial es el derecho a ser juzgado por un tribunal específico, no la exención de responsabilidad penal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suplicatorio",
+        "rationale": "El suplicatorio es el trámite para levantar la inmunidad, no la prerrogativa de libertad de opinión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Esta protección cubre específicamente el 'voto y la palabra' dentro de la Cámara."
+  },
+  {
+    "guid": "f482e8d6-cf72-4247-8209-c06a2a6962ba",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Ante qué órgano judicial se tramitan las causas penales contra Diputados y Senadores?",
+    "answerOptions": [
+      {
+        "text": "Sala de lo Penal del Tribunal Supremo",
+        "rationale": "El fuero especial garantiza que los parlamentarios sean juzgados por la más alta instancia judicial del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tribunal Constitucional",
+        "rationale": "El Tribunal Constitucional no tiene competencias en materia penal ordinaria contra individuos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Audiencia Nacional",
+        "rationale": "Aunque juzga delitos graves, no es el órgano previsto para el fuero de los miembros de las Cortes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tribunal Superior de Justicia de su Comunidad",
+        "rationale": "Este fuero suele corresponder a parlamentarios autonómicos, no a los nacionales de las Cortes Generales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de la máxima instancia en el orden jurisdiccional penal."
+  },
+  {
+    "guid": "ce2176f7-dc9f-43f7-89eb-323a1491e6f5",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién ostenta la representación colegiada de cada Cámara en los actos a que asista?",
+    "answerOptions": [
+      {
+        "text": "La Mesa",
+        "rationale": "Como órgano rector, la Mesa asume la representación institucional del órgano parlamentario.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente de forma exclusiva",
+        "rationale": "Aunque el Presidente tiene funciones clave, la representación colegiada recae en la Mesa en su conjunto.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Junta de Portavoces",
+        "rationale": "La Junta de Portavoces es un órgano de dirección política, no de representación colegiada institucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Diputación Permanente",
+        "rationale": "Este órgano garantiza la continuidad, pero no ostenta la representación ordinaria de la Cámara.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano rector que incluye a vicepresidentes y secretarios."
+  },
+  {
+    "guid": "b81d78e9-a5fc-4d2d-8fb2-3afa9b89f337",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la diferencia en la composición de la Mesa entre el Congreso y el Senado?",
+    "answerOptions": [
+      {
+        "text": "El Congreso tiene cuatro vicepresidentes y el Senado dos",
+        "rationale": "La Mesa del Congreso es más numerosa debido al mayor tamaño de la cámara baja y su carga de trabajo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Senado tiene cuatro secretarios y el Congreso dos",
+        "rationale": "Ambas cámaras coinciden en tener cuatro secretarios en sus respectivas Mesas.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Mesa del Senado no incluye al Presidente",
+        "rationale": "El Presidente es el miembro principal de la Mesa en ambas cámaras parlamentarias.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congreso tiene dos secretarios adicionales",
+        "rationale": "Ambas cámaras disponen de cuatro secretarios; la diferencia radica en las vicepresidencias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Fíjese en el número de vicepresidentes asignados a cada cámara."
+  },
+  {
+    "guid": "dd6f50c0-fa72-4e65-a33e-88a69411e181",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de leyes NO pueden ser delegadas por el Pleno para su aprobación en las Comisiones Legislativas Permanentes?",
+    "answerOptions": [
+      {
+        "text": "Leyes Orgánicas",
+        "rationale": "Debido a su importancia y requerimiento de mayoría absoluta, el artículo $75.3$ prohíbe su delegación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Leyes Ordinarias",
+        "rationale": "Las leyes ordinarias son el objeto principal de la delegación legislativa para agilizar el trabajo parlamentario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decretos Legislativos",
+        "rationale": "Los decretos legislativos son normas del Gobierno, no proyectos de ley del Pleno delegables a comisiones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Proposiciones de Ley de iniciativa popular",
+        "rationale": "No están excluidas por su origen, sino por la materia si esta fuera orgánica, lo cual ya está prohibido para la iniciativa popular.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en materias que requieren una mayoría reforzada o que afectan a la estructura del Estado."
+  },
+  {
+    "guid": "8d663cd9-c87f-4bb8-8ecc-545a643ecf84",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el número mínimo de miembros que debe tener la Diputación Permanente de cada Cámara?",
+    "answerOptions": [
+      {
+        "text": "$21$",
+        "rationale": "La Constitución establece este mínimo para asegurar una representación proporcional de los grupos parlamentarios.",
+        "isCorrect": true
+      },
+      {
+        "text": "$15$",
+        "rationale": "Esta cifra es el número mínimo de diputados necesarios para formar un grupo parlamentario ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "$25$",
+        "rationale": "Este número de senadores es necesario para presentar una proposición de ley en el Senado, no para la Diputación.",
+        "isCorrect": false
+      },
+      {
+        "text": "$10$",
+        "rationale": "Diez es el número mínimo de senadores para formar un grupo parlamentario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número impar que garantiza la representatividad en periodos de vacaciones o disolución."
+  },
+  {
+    "guid": "7b32cc7e-5171-4947-998a-040897a4dd29",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere en el Congreso para autorizar la celebración de un referéndum consultivo?",
+    "answerOptions": [
+      {
+        "text": "Mayoría Absoluta",
+        "rationale": "El artículo $92$ exige esta mayoría reforzada para decisiones de especial trascendencia política.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría Simple",
+        "rationale": "Una decisión de tal envergadura política requiere más que el apoyo de los presentes en la sesión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría de dos tercios",
+        "rationale": "Esta mayoría se reserva para reformas constitucionales o casos muy específicos, no para el referéndum.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad",
+        "rationale": "La unanimidad no se exige en los procedimientos parlamentarios para permitir el juego democrático.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se necesita el voto favorable de la mitad más uno de todos los miembros de la Cámara."
+  },
+  {
+    "guid": "2f49d394-60f4-4d06-b552-a7b8f20345ca",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo para constituir los grupos parlamentarios tras la sesión constitutiva de las Cámaras?",
+    "answerOptions": [
+      {
+        "text": "$5$ días hábiles",
+        "rationale": "Tanto el Reglamento del Congreso como el del Senado establecen este breve plazo para organizar la actividad parlamentaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "$15$ días naturales",
+        "rationale": "El reglamento utiliza días hábiles y un periodo más corto para asegurar el inicio rápido de las funciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "$20$ días hábiles",
+        "rationale": "Este plazo es excesivo para la formación de grupos, coincidiendo más bien con trámites de urgencia legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "$10$ días naturales",
+        "rationale": "No coincide con el estándar fijado en los reglamentos de las cámaras españolas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un plazo inferior a una semana de actividad laboral parlamentaria."
+  },
+  {
+    "guid": "4355c9bc-bd9a-4b03-8415-0b2b3e7ed317",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántos senadores se necesitan, como mínimo, para constituir un grupo territorial dentro del Senado?",
+    "answerOptions": [
+      {
+        "text": "$3$",
+        "rationale": "El Reglamento del Senado permite esta subdivisión interna para reflejar la realidad de las Comunidades Autónomas.",
+        "isCorrect": true
+      },
+      {
+        "text": "$10$",
+        "rationale": "Diez es el mínimo para el grupo parlamentario general, pero el territorial requiere menos componentes.",
+        "isCorrect": false
+      },
+      {
+        "text": "$5$",
+        "rationale": "Esta cifra no está contemplada como umbral para los grupos territoriales del Senado.",
+        "isCorrect": false
+      },
+      {
+        "text": "$15$",
+        "rationale": "Es el umbral para formar grupo en el Congreso, no para las subdivisiones del Senado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un número reducido de representantes elegidos en una misma Comunidad."
+  },
+  {
+    "guid": "4f544683-c898-4376-b741-965f01aa15e4",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Los periodos ordinarios de sesiones de las Cámaras son:",
+    "answerOptions": [
+      {
+        "text": "De septiembre a diciembre y de febrero a junio",
+        "rationale": "La Constitución fija estos dos periodos, dejando enero, julio y agosto como meses fuera del periodo ordinario.",
+        "isCorrect": true
+      },
+      {
+        "text": "De octubre a enero y de marzo a julio",
+        "rationale": "Enero y julio son tradicionalmente meses de vacaciones parlamentarias u ordinarias.",
+        "isCorrect": false
+      },
+      {
+        "text": "De septiembre a enero y de febrero a julio",
+        "rationale": "Aunque se pueden convocar sesiones extraordinarias, el periodo ordinario termina en diciembre y junio respectivamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Todo el año natural excepto agosto",
+        "rationale": "El funcionamiento parlamentario se divide en dos ciclos para permitir el trabajo en los territorios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se dividen en dos cuatrimestres principales separados por el mes de enero."
+  },
+  {
+    "guid": "6c158140-3114-4de1-81bc-7c71b431b411",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es un requisito indispensable para que las Cámaras adopten acuerdos válidamente?",
+    "answerOptions": [
+      {
+        "text": "Estar reunidas reglamentariamente con asistencia de la mayoría de sus miembros",
+        "rationale": "El quórum de asistencia (mitad más uno) es esencial para la validez de las votaciones según el artículo $79$.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el voto sea delegado en el portavoz del grupo",
+        "rationale": "El voto es personal e indelegable, por lo que cada parlamentario debe ejercerlo por sí mismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que esté presente el Presidente del Gobierno",
+        "rationale": "Las Cámaras son independientes y pueden sesionar y acordar sin presencia del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los acuerdos se aprueben siempre por mayoría absoluta",
+        "rationale": "La regla general es la mayoría simple, salvo que la Constitución exija una mayoría cualificada.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la necesidad de un quórum mínimo de presencia física."
+  },
+  {
+    "guid": "696d9e15-e1c5-46d1-b211-bca504524523",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué materia queda excluida de la regulación mediante leyes orgánicas?",
+    "answerOptions": [
+      {
+        "text": "Los Presupuestos Generales del Estado",
+        "rationale": "Los Presupuestos se aprueban mediante ley ordinaria anual y no pueden ser objeto de delegación ni son leyes orgánicas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los Estatutos de Autonomía",
+        "rationale": "Forman parte del bloque de la constitucionalidad y se aprueban necesariamente como leyes orgánicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Régimen Electoral General",
+        "rationale": "La regulación de las elecciones es una materia reservada a ley orgánica por el artículo $81$.",
+        "isCorrect": false
+      },
+      {
+        "text": "El desarrollo de los derechos fundamentales",
+        "rationale": "Es la materia principal que define el ámbito de las leyes orgánicas en nuestra Constitución.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en una ley con una vigencia temporal estrictamente anual."
+  },
+  {
+    "guid": "ef9653d2-31ec-4475-9a90-870f07260da6",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué nombre recibe la iniciativa legislativa cuando es ejercida por el Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Proyecto de ley",
+        "rationale": "Los textos enviados por el Consejo de Ministros tienen prioridad en la tramitación y se denominan proyectos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Proposición de ley",
+        "rationale": "Este término se reserva para las iniciativas que nacen en las Cámaras, las CCAA o por iniciativa popular.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decreto-Ley",
+        "rationale": "Es una norma con rango de ley dictada por urgencia, no una iniciativa para el procedimiento ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Real Decreto Legislativo",
+        "rationale": "Es el resultado de una delegación previa de las Cortes, no una iniciativa legislativa inicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se diferencia de las iniciativas parlamentarias por su prioridad en la tramitación."
+  },
+  {
+    "guid": "bb98d203-7b0e-4823-8160-92de13944d8b",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántas firmas de electores se requieren para ejercer la iniciativa legislativa popular?",
+    "answerOptions": [
+      {
+        "text": "$500.000$",
+        "rationale": "Es el número establecido constitucionalmente para asegurar que la propuesta tiene un respaldo social significativo.",
+        "isCorrect": true
+      },
+      {
+        "text": "$100.000$",
+        "rationale": "Esta cifra es insuficiente según los requisitos de la Constitución Española y la Ley Orgánica $3/1984$.",
+        "isCorrect": false
+      },
+      {
+        "text": "$1.000.000$",
+        "rationale": "Aunque daría mayor legitimidad, la exigencia legal se queda en la mitad de esta cifra.",
+        "isCorrect": false
+      },
+      {
+        "text": "$250.000$",
+        "rationale": "Es la mitad de lo exigido por el ordenamiento jurídico para que la Mesa del Congreso la tome en consideración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Representa exactamente medio millón de ciudadanos."
+  },
+  {
+    "guid": "35025b90-c734-49f7-aecf-fe39ce43cb5a",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo ordinario del que dispone el Senado para vetar o enmendar un proyecto de ley aprobado por el Congreso?",
+    "answerOptions": [
+      {
+        "text": "$2$ meses",
+        "rationale": "Es el tiempo que tiene la cámara de representación territorial para estudiar y posicionarse sobre el texto enviado.",
+        "isCorrect": true
+      },
+      {
+        "text": "$15$ días",
+        "rationale": "Quince días es el plazo para la sanción real de la ley, no para el debate en el Senado.",
+        "isCorrect": false
+      },
+      {
+        "text": "$1$ mes",
+        "rationale": "Este plazo no existe como estándar ordinario en la tramitación bicameral española.",
+        "isCorrect": false
+      },
+      {
+        "text": "$20$ días naturales",
+        "rationale": "Este es el plazo reducido para proyectos declarados urgentes, no el plazo ordinario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Equivale a unos sesenta días de calendario."
+  },
+  {
+    "guid": "2eb97c57-e049-4b13-b5c4-54b21ce96fc7",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En caso de veto del Senado, ¿cómo puede el Congreso levantar dicho veto de forma inmediata?",
+    "answerOptions": [
+      {
+        "text": "Ratificando el texto por mayoría absoluta",
+        "rationale": "La mayoría absoluta permite al Congreso imponer su voluntad original sin esperar plazos adicionales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Esperando dos meses y ratificando por mayoría simple",
+        "rationale": "Esta es la opción si no se alcanza la mayoría absoluta inicial, pero no es 'inmediata'.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mediante el voto favorable de la Mesa del Congreso",
+        "rationale": "La Mesa no tiene competencias para sustituir la voluntad del Pleno en el levantamiento de vetos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El veto del Senado es definitivo y no se puede levantar",
+        "rationale": "Nuestro sistema es un bicameralismo imperfecto donde el Congreso tiene la última palabra.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requiere el apoyo de la mitad más uno del total de los diputados de la Cámara."
+  },
+  {
+    "guid": "13567413-e9bb-4bc8-b7e3-7e3dbbde4d0f",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede si el Gobierno no manifiesta su disconformidad a una proposición de ley del Congreso en un plazo determinado?",
+    "answerOptions": [
+      {
+        "text": "Si pasan $30$ días sin respuesta, la proposición se debate para su toma en consideración",
+        "rationale": "El silencio del Gobierno se interpreta como ausencia de oposición al gasto o presupuesto que la ley implique.",
+        "isCorrect": true
+      },
+      {
+        "text": "La proposición queda automáticamente aprobada",
+        "rationale": "Toda proposición debe seguir el trámite de debate y votación en el Pleno; el silencio solo permite continuar.",
+        "isCorrect": false
+      },
+      {
+        "text": "La proposición se envía directamente al Senado",
+        "rationale": "Debe ser tomada en consideración y tramitada primero en la cámara de origen (Congreso).",
+        "isCorrect": false
+      },
+      {
+        "text": "Se entiende que el Gobierno ejerce su derecho de veto",
+        "rationale": "La disconformidad debe ser expresa; el silencio administrativo en este caso es positivo para la tramitación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un plazo de un mes para que el ejecutivo evalúe el impacto económico."
+  },
+  {
+    "guid": "293cdb8f-5a2d-4968-bd69-2e15ca5b73a6",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quiénes pueden defender una proposición de ley remitida por una Asamblea de Comunidad Autónoma ante la Mesa del Congreso?",
+    "answerOptions": [
+      {
+        "text": "Una delegación de hasta tres miembros de la propia Asamblea autonómica",
+        "rationale": "La Constitución permite esta participación directa de representantes regionales en el proceso legislativo nacional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier Diputado del Congreso elegido por esa circunscripción",
+        "rationale": "La defensa corresponde específicamente a los delegados nombrados por la Asamblea que tomó la iniciativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente de la Comunidad Autónoma",
+        "rationale": "Aunque es la figura más alta de la región, la ley prevé una delegación de la cámara legislativa autonómica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los Senadores designados por esa Comunidad Autónoma",
+        "rationale": "Los senadores actúan en el Senado; en el Congreso debe acudir la delegación específica de la Asamblea.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un pequeño grupo de parlamentarios regionales autorizados para intervenir en la cámara baja."
+  },
+  {
+    "guid": "e17dfcaa-03bb-4c40-be7b-fab85ded4514",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función de las comisiones de investigación según el artículo $76$?",
+    "answerOptions": [
+      {
+        "text": "Investigar asuntos de interés público sin que sus conclusiones vinculen a los tribunales",
+        "rationale": "Su fin es político y no judicial, aunque deben comunicar sus hallazgos al Ministerio Fiscal si hay indicios de delito.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dictar sentencias sobre la responsabilidad civil de los políticos",
+        "rationale": "La función jurisdiccional es exclusiva de los jueces y tribunales; las Cortes no pueden juzgar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Anular resoluciones judiciales previas",
+        "rationale": "Las conclusiones de estas comisiones no pueden afectar a las resoluciones judiciales firmes ni en curso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustituir al Ministerio Fiscal en la instrucción de delitos",
+        "rationale": "Su labor es complementaria y política, debiendo remitir lo actuado al Fiscal si es necesario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tienen un alcance de control político sobre temas de relevancia social."
+  },
+  {
+    "guid": "a808b378-7bdc-493b-9fc9-f17a19fead2b",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el procedimiento legislativo del Senado, ¿cuántos senadores deben suscribir una proposición de ley para que sea admitida?",
+    "answerOptions": [
+      {
+        "text": "$25$ senadores o un grupo parlamentario",
+        "rationale": "Este requisito asegura que la iniciativa cuenta con un respaldo mínimo dentro de la Cámara Alta.",
+        "isCorrect": true
+      },
+      {
+        "text": "$10$ senadores o el Presidente del Senado",
+        "rationale": "Diez senadores forman un grupo, pero si no se actúa como tal, se requiere una firma colectiva superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "$50$ senadores",
+        "rationale": "Esta cifra es superior a la exigida por el Reglamento del Senado para la iniciativa legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "$15$ senadores",
+        "rationale": "Quince es el número de firmas para proposiciones en el Congreso, no en el Senado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un cuarto de centenar de miembros de la Cámara Territorial."
+  },
+  {
+    "guid": "61401813-398c-4132-ad70-cfe69d0aa44e",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con un proyecto de ley si el Congreso no aprueba las enmiendas introducidas por el Senado?",
+    "answerOptions": [
+      {
+        "text": "Se somete al Rey para sanción el texto original del Congreso si este rechaza las enmiendas por mayoría simple",
+        "rationale": "El Congreso tiene la facultad de aceptar o rechazar las modificaciones del Senado antes de la sanción final.",
+        "isCorrect": true
+      },
+      {
+        "text": "El proyecto queda anulado automáticamente",
+        "rationale": "El desacuerdo no anula el proyecto, sino que devuelve la decisión final a la cámara baja.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se convoca una comisión mixta obligatoria",
+        "rationale": "Las comisiones mixtas se reservan para otros supuestos (como tratados), no para el procedimiento legislativo ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe volver a tramitarse desde el principio en el Gobierno",
+        "rationale": "El proceso legislativo ya está en sede parlamentaria y el Gobierno no interviene en esta fase de decisión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que el Congreso ostenta la preeminencia en la decisión final sobre el articulado."
+  }
+]
