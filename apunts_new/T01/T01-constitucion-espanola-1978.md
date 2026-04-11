@@ -151,10 +151,10 @@ Este derecho no podrá ser limitado por motivos políticos o ideológicos.
 ##### Artículo 20
 
 1. Se reconocen y protegen los derechos:
-.. A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.
-.. A la producción y creación literaria, artística, científica y técnica.
-.. A la libertad de cátedra.
-.. A comunicar o recibir libremente información veraz por cualquier medio de difusión.
+- A expresar y difundir libremente los pensamientos, ideas y opiniones mediante la palabra, el escrito o cualquier otro medio de reproducción.
+- A la producción y creación literaria, artística, científica y técnica.
+- A la libertad de cátedra.
+- A comunicar o recibir libremente información veraz por cualquier medio de difusión.
 La ley regulará el derecho a la cláusula de conciencia y al secreto profesional en el ejercicio de estas libertades.
 2. El ejercicio de estos derechos no puede restringirse mediante ningún tipo de censura previa.
 3. La ley regulará la organización y el control parlamentario de los medios de comunicación social dependientes del Estado o de cualquier ente público y garantizará el acceso a dichos medios de los grupos sociales y políticos significativos, respetando el pluralismo de la sociedad y de las diversas lenguas de España.
@@ -184,7 +184,7 @@ El ejercicio de este derecho no necesitará autorización previa.
 
 1. Todas las personas tienen derecho a obtener la tutela efectiva de los jueces y tribunales en el ejercicio de sus derechos e intereses legítimos, sin que, en ningún caso, pueda producirse indefensión.
 2. Asimismo, todos tienen derecho al Juez ordinario predeterminado por la ley, a la defensa y a la asistencia de letrado, a ser informados de la acusación formulada contra ellos, a un proceso público sin dilaciones indebidas y con todas las garantías, a utilizar los medios de prueba pertinentes para su defensa, a no declarar contra sí mismos, a no confesarse culpables y a la presunción de inocencia.
-+
+
 La ley regulará los casos en que, por razón de parentesco o de secreto profesional, no se estará obligado a declarar sobre hechos presuntamente delictivos.
 
 ##### Artículo 25
@@ -392,7 +392,7 @@ De la suspensión de los derechos y libertades
 1. Los derechos reconocidos en los artículos 17, 18, apartados 2 y 3, artículos 19, 20, apartados 1, a) y d), y 5, artículos 21, 28, apartado 2, y artículo 37, apartado 2, podrán ser suspendidos cuando se acuerde la declaración del estado de excepción o de sitio en los términos previstos en la Constitución.
 Se exceptúa de lo establecido anteriormente el apartado 3 del artículo 17 para el supuesto de declaración de estado de excepción.
 2. Una ley orgánica podrá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario, los derechos reconocidos en los artículos 17, apartado 2, y 18, apartados 2 y 3, pueden ser suspendidos para personas determinadas, en relación con las investigaciones correspondientes a la actuación de bandas armadas o elementos terroristas.
-+
+
 La utilización injustificada o abusiva de las facultades reconocidas en dicha ley orgánica producirá responsabilidad penal, como violación de los derechos y libertades reconocidos por las leyes.
 
 ## TÍTULO II
@@ -445,7 +445,6 @@ En su defecto, lo nombrarán las Cortes Generales, pero no podrán acumularse lo
 
 Corresponde al Rey:
 
-[loweralpha]
 1. Sancionar y promulgar las leyes.
 1. Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.
 1. Convocar a referéndum en los casos previstos en la Constitución.
@@ -506,7 +505,6 @@ La ley distribuirá el número total de Diputados, asignando una representación
 4. El Congreso es elegido por cuatro años.
 El mandato de los Diputados termina cuatro años después de su elección o el día de la disolución de la Cámara.
 5. Son electores y elegibles todos los españoles que estén en pleno uso de sus derechos políticos.
-+
 La ley reconocerá y el Estado facilitará el ejercicio del derecho de sufragio a los españoles que se encuentren fuera del territorio de España.
 6. Las elecciones tendrán lugar entre los treinta días y sesenta días desde la terminación del mandato.
 El Congreso electo deberá ser convocado dentro de los veinticinco días siguientes a la celebración de las elecciones.
@@ -525,13 +523,15 @@ El mandato de los Senadores termina cuatro años después de su elección o el d
 ##### Artículo 70
 
 1. La ley electoral determinará las causas de inelegibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán, en todo caso:
-.. A los componentes del Tribunal Constitucional.
-.. A los altos cargos de la Administración del Estado que determine la ley, con la excepción de los miembros del Gobierno.
-.. Al Defensor del Pueblo.
-.. A los Magistrados, Jueces y Fiscales en activo.
-.. A los militares profesionales y miembros de las Fuerzas y Cuerpos de Seguridad y Policía en activo.
-.. A los miembros de las Juntas Electorales.
+    - A los componentes del Tribunal Constitucional.
+    - A los altos cargos de la Administración del Estado que determine la ley, con la excepción de los miembros del Gobierno.
+    - Al Defensor del Pueblo.
+    - A los Magistrados, Jueces y Fiscales en activo.
+    - A los militares profesionales y miembros de las Fuerzas y Cuerpos de Seguridad y Policía en activo.
+    - A los miembros de las Juntas Electorales.
+
 2. La validez de las actas y credenciales de los miembros de ambas Cámaras estará sometida al control judicial, en los términos que establezca la ley electoral.
+
 
 ##### Artículo 71
 
@@ -627,7 +627,7 @@ Tampoco podrá permitir la subdelegación a autoridades distintas del propio Gob
 
 Las leyes de bases no podrán en ningún caso:
 
-[loweralpha]
+
 1. Autorizar la modificación de la propia ley de bases.
 1. Facultar para dictar normas con carácter retroactivo.
 
@@ -695,11 +695,11 @@ Corresponde a las Cortes Generales o al Gobierno, según los casos, la garantía
 ##### Artículo 94
 
 1. La prestación del consentimiento del Estado para obligarse por medio de tratados o convenios requerirá la previa autorización de las Cortes Generales, en los siguientes casos:
-.. Tratados de carácter político.
-.. Tratados o convenios de carácter militar.
-.. Tratados o convenios que afecten a la integridad territorial del Estado o a los derechos y deberes fundamentales establecidos en el Título I.
-.. Tratados o convenios que impliquen obligaciones financieras para la Hacienda Pública.
-.. Tratados o convenios que supongan modificación o derogación de alguna ley o exijan medidas legislativas para su ejecución.
+- Tratados de carácter político.
+- Tratados o convenios de carácter militar.
+- Tratados o convenios que afecten a la integridad territorial del Estado o a los derechos y deberes fundamentales establecidos en el Título I.
+- Tratados o convenios que impliquen obligaciones financieras para la Hacienda Pública.
+- Tratados o convenios que supongan modificación o derogación de alguna ley o exijan medidas legislativas para su ejecución.
 2. El Congreso y el Senado serán inmediatamente informados de la conclusión de los restantes tratados o convenios.
 
 ##### Artículo 95
@@ -770,7 +770,7 @@ Los demás miembros del Gobierno serán nombrados y separados por el Rey, a prop
 
 La ley regulará:
 
-[loweralpha]
+
 1. La audiencia de los ciudadanos, directamente o a través de las organizaciones y asociaciones reconocidas por la ley, en el procedimiento de elaboración de las disposiciones administrativas que les afecten.
 1. El acceso de los ciudadanos a los archivos y registros administrativos, salvo en lo que afecte a la seguridad y defensa del Estado, la averiguación de los delitos y la intimidad de las personas.
 1. El procedimiento a través del cual deben producirse los actos administrativos, garantizando, cuando proceda, la audiencia del interesado.
@@ -846,7 +846,6 @@ La autorización y proclamación del estado de excepción deberá determinar exp
 El Congreso determinará su ámbito territorial, duración y condiciones.
 5. No podrá procederse a la disolución del Congreso mientras estén declarados algunos de los estados comprendidos en el presente artículo, quedando automáticamente convocadas las Cámaras si no estuvieren en período de sesiones.
 Su funcionamiento, así como el de los demás poderes constitucionales del Estado, no podrán interrumpirse durante la vigencia de estos estados.
-+
 Disuelto el Congreso o expirado su mandato, si se produjere alguna de las situaciones que dan lugar a cualquiera de dichos estados, las competencias del Congreso serán asumidas por su Diputación Permanente.
 6. La declaración de los estados de alarma, de excepción y de sitio no modificarán el principio de responsabilidad del Gobierno y de sus agentes reconocidos en la Constitución y en las leyes.
 
@@ -972,36 +971,46 @@ Podrá modificarlos cuando una ley tributaria sustantiva así lo prevea.
 
 ##### Artículo 135
 
-1. Todas las Administraciones Públicas adecuarán sus actuaciones al principio de estabilidad presupuestaria.
-2. El Estado y las Comunidades Autónomas no podrán incurrir en un déficit estructural que supere los márgenes establecidos, en su caso, por la Unión Europea para sus Estados Miembros.
-+
-Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto.
-Las Entidades Locales deberán presentar equilibrio presupuestario.
-3. El Estado y las Comunidades Autónomas habrán de estar autorizados por ley para emitir deuda pública o contraer crédito.
-+
-Los créditos para satisfacer los intereses y el capital de la deuda pública de las Administraciones se entenderán siempre incluidos en el estado de gastos de sus presupuestos y su pago gozará de prioridad absoluta.
-Estos créditos no podrán ser objeto de enmienda o modificación, mientras se ajusten a las condiciones de la ley de emisión.
-+
-El volumen de deuda pública del conjunto de las Administraciones Públicas en relación con el producto interior bruto del Estado no podrá superar el valor de referencia establecido en el Tratado de Funcionamiento de la Unión Europea.
-4. Los límites de déficit estructural y de volumen de deuda pública sólo podrán superarse en caso de catástrofes naturales, recesión económica o situaciones de emergencia extraordinaria que escapen al control del Estado y perjudiquen considerablemente la situación financiera o la sostenibilidad económica o social del Estado, apreciadas por la mayoría absoluta de los miembros del Congreso de los Diputados.
-5. Una ley orgánica desarrollará los principios a que se refiere este artículo, así como la participación, en los procedimientos respectivos, de los órganos de coordinación institucional entre las Administraciones Públicas en materia de política fiscal y financiera.
-En todo caso, regulará:
-[loweralpha]
-.. La distribución de los límites de déficit y de deuda entre las distintas Administraciones Públicas, los supuestos excepcionales de superación de los mismos y la forma y plazo de corrección de las desviaciones que sobre uno y otro pudieran producirse.
-.. La metodología y el procedimiento para el cálculo del déficit estructural.
-.. La responsabilidad de cada Administración Pública en caso de incumplimiento de los objetivos de estabilidad presupuestaria.
-6. Las Comunidades Autónomas, de acuerdo con sus respectivos Estatutos y dentro de los límites a que se refiere este artículo, adoptarán las disposiciones que procedan para la aplicación efectiva del principio de estabilidad en sus normas y decisiones presupuestarias.
+*(Este artículo incluye la segunda reforma constitucional promulgada el 27 de septiembre de 2011. B.O.E., núm. 233, de 27 de septiembre de 2011)* https://www.boe.es/boe/dias/2011/09/27/pdfs/BOE-A-2011-15210.pdf
+
+1. **Todas las Administraciones Públicas** adecuarán sus actuaciones al principio de estabilidad presupuestaria.
+
+2. **El Estado y las Comunidades Autónomas** no podrán incurrir en un déficit estructural que supere los márgenes establecidos, en su caso, por la Unión Europea para sus Estados Miembros.
+
+   Una ley orgánica fijará el déficit estructural máximo permitido al Estado y a las Comunidades Autónomas, en relación con su producto interior bruto. Las Entidades Locales deberán presentar equilibrio presupuestario.
+
+3. **El Estado y las Comunidades Autónomas** habrán de estar autorizados por ley para emitir deuda pública o contraer crédito.
+
+   Los créditos para satisfacer los intereses y el capital de la deuda pública de las Administraciones se entenderán siempre incluidos en el estado de gastos de sus presupuestos y su pago gozará de prioridad absoluta. Estos créditos no podrán ser objeto de enmienda o modificación, mientras se ajusten a las condiciones de la ley de emisión.
+
+   El volumen de deuda pública del conjunto de las Administraciones Públicas en relación con el producto interior bruto del Estado no podrá superar el valor de referencia establecido en el Tratado de Funcionamiento de la Unión Europea.
+
+4. **Los límites de déficit estructural y de volumen de deuda pública** solo podrán superarse en caso de catástrofes naturales, recesión económica o situaciones de emergencia extraordinaria que escapen al control del Estado y perjudiquen considerablemente la situación financiera o la sostenibilidad económica o social del Estado, apreciadas por la mayoría absoluta de los miembros del Congreso de los Diputados.
+
+5. **Una ley orgánica** desarrollará los principios a que se refiere este artículo, así como la participación, en los procedimientos respectivos, de los órganos de coordinación institucional entre las Administraciones Públicas en materia de política fiscal y financiera. En todo caso, regulará:
+
+   a) La distribución de los límites de déficit y de deuda entre las distintas Administraciones Públicas, los supuestos excepcionales de superación de los mismos y la forma y plazo de corrección de las desviaciones que sobre uno y otro pudieran producirse.
+
+   b) La metodología y el procedimiento para el cálculo del déficit estructural.
+
+   c) La responsabilidad de cada Administración Pública en caso de incumplimiento de los objetivos de estabilidad presupuestaria.
+
+6. **Las Comunidades Autónomas**, de acuerdo con sus respectivos Estatutos y dentro de los límites a que se refiere este artículo, adoptarán las disposiciones que procedan para la aplicación efectiva del principio de estabilidad en sus normas y decisiones presupuestarias.
+
 
 ##### Artículo 136
 
-1. El Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y de la gestión económica de Estado, así como del sector público.
-+
+**El Tribunal de Cuentas** es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado, así como del sector público.
+
 Dependerá directamente de las Cortes Generales y ejercerá sus funciones por delegación de ellas en el examen y comprobación de la Cuenta General del Estado.
-2. Las cuentas del Estado y del sector público estatal se rendirán al Tribunal de Cuentas y serán censuradas por éste.
-+
+
+Las cuentas del Estado y del sector público estatal se rendirán al Tribunal de Cuentas y serán censuradas por este.
+
 El Tribunal de Cuentas, sin perjuicio de su propia jurisdicción, remitirá a las Cortes Generales un informe anual en el que, cuando proceda, comunicará las infracciones o responsabilidades en que, a su juicio, se hubiere incurrido.
-3. Los miembros del Tribunal de Cuentas gozarán de la misma independencia e inamovilidad y estarán sometidos a las mismas incompatibilidades que los Jueces.
-4. Una ley orgánica regulará la composición, organización y funciones del Tribunal de Cuentas.
+
+Los miembros del Tribunal de Cuentas gozarán de la misma independencia e inamovilidad y estarán sometidos a las mismas incompatibilidades que los Jueces.
+
+Una ley orgánica regulará la composición, organización y funciones del Tribunal de Cuentas.
 
 ## TÍTULO VIII
 
@@ -1069,7 +1078,7 @@ Estos requisitos deberán ser cumplidos en el plazo de seis meses desde el prime
 
 Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional:
 
-[loweralpha]
+
 1. Autorizar la constitución de una comunidad autónoma cuando su ámbito territorial no supere el de una provincia y no reúna las condiciones del apartado 1 del artículo 143.
 1. Autorizar o acordar, en su caso, un Estatuto de autonomía para territorios que no estén integrados en la organización provincial.
 1. Sustituir la iniciativa de las Corporaciones locales a que se refiere el apartado 2 del artículo 143.
@@ -1088,85 +1097,135 @@ El proyecto de Estatuto será elaborado por una asamblea compuesta por los miemb
 
 1. Dentro de los términos de la presente Constitución, los Estatutos serán la norma institucional básica de cada Comunidad Autónoma y el Estado los reconocerá y amparará como parte integrante de su ordenamiento jurídico.
 2. Los Estatutos de autonomía deberán contener:
-.. La denominación de la Comunidad que mejor corresponda a su identidad histórica.
-.. La delimitación de su territorio.
-.. La denominación, organización y sede de las instituciones autónomas propias.
-.. Las competencias asumidas dentro del marco establecido en la Constitución y las bases para el traspaso de los servicios correspondientes a las mismas.
+- La denominación de la Comunidad que mejor corresponda a su identidad histórica.
+- La delimitación de su territorio.
+- La denominación, organización y sede de las instituciones autónomas propias.
+- Las competencias asumidas dentro del marco establecido en la Constitución y las bases para el traspaso de los servicios correspondientes a las mismas.
 3. La reforma de los Estatutos se ajustará al procedimiento establecido en los mismos y requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley orgánica.
 
 ##### Artículo 148
 
+# Artículo 148
+
 1. Las Comunidades Autónomas podrán asumir competencias en las siguientes materias:
-[arabic]
-.. ª Organización de sus instituciones de autogobierno.
-.. ª Las alteraciones de los términos municipales comprendidos en su territorio y, en general, las funciones que correspondan a la Administración del Estado sobre las Corporaciones locales y cuya transferencia autorice la legislación sobre Régimen Local.
-.. ª Ordenación del territorio, urbanismo y vivienda.
-.. ª Las obras públicas de interés de la Comunidad Autónoma en su propio territorio.
-.. ª Los ferrocarriles y carreteras cuyo itinerario se desarrolle íntegramente en el territorio de la Comunidad Autónoma y, en los mismos términos, el transporte desarrollado por estos medios o por cable.
-.. ª Los puertos de refugio, los puertos y aeropuertos deportivos y, en general, los que no desarrollen actividades comerciales.
-.. ª La agricultura y ganadería, de acuerdo con la ordenación general de la economía.
-.. ª Los montes y aprovechamientos forestales.
-.. ª La gestión en materia de protección del medio ambiente.
-.. ª Los proyectos, construcción y explotación de los aprovechamientos hidráulicos, canales y regadíos de interés de la Comunidad Autónoma; las aguas minerales y termales.
-.. ª La pesca en aguas interiores, el marisqueo y la acuicultura, la caza y la pesca fluvial.
-.. ª Ferias interiores.
-.. ª El fomento del desarrollo económico de la Comunidad Autónoma dentro de los objetivos marcados por la política económica nacional.
-.. ª La artesanía.
-.. ª Museos, bibliotecas y conservatorios de música de interés para la Comunidad Autónoma.
-.. ª Patrimonio monumental de interés de la Comunidad Autónoma.
-.. ª El fomento de la cultura, de la investigación y, en su caso, de la enseñanza de la lengua de la Comunidad Autónoma.
-.. ª Promoción y ordenación del turismo en su ámbito territorial.
-.. ª Promoción del deporte y de la adecuada utilización del ocio.
-.. ª Asistencia social.
-.. ª Sanidad e higiene.
-.. ª La vigilancia y protección de sus edificios e instalaciones.
-La coordinación y demás facultades en relación con las policías locales en los términos que establezca una ley orgánica.
+
+    1. ª Organización de sus instituciones de autogobierno.
+
+    2. ª Las alteraciones de los términos municipales comprendidos en su territorio y, en general, las funciones que correspondan a la Administración del Estado sobre las Corporaciones locales y cuya transferencia autorice la legislación sobre Régimen Local.
+
+    3. ª Ordenación del territorio, urbanismo y vivienda.
+
+    4. ª Las obras públicas de interés de la Comunidad Autónoma en su propio territorio.
+
+    5. ª Los ferrocarriles y carreteras cuyo itinerario se desarrolle íntegramente en el territorio de la Comunidad Autónoma y, en los mismos términos, el transporte desarrollado por estos medios o por cable.
+
+    6. ª Los puertos de refugio, los puertos y aeropuertos deportivos y, en general, los que no desarrollen actividades comerciales.
+
+    7. ª La agricultura y ganadería, de acuerdo con la ordenación general de la economía.
+
+    8. ª Los montes y aprovechamientos forestales.
+
+    9. ª La gestión en materia de protección del medio ambiente.
+
+    10. ª Los proyectos, construcción y explotación de los aprovechamientos hidráulicos, canales y regadíos de interés de la Comunidad Autónoma; las aguas minerales y termales.
+
+    11. ª La pesca en aguas interiores, el marisqueo y la acuicultura, la caza y la pesca fluvial.
+
+    12. ª Ferias interiores.
+
+    13. ª El fomento del desarrollo económico de la Comunidad Autónoma dentro de los objetivos marcados por la política económica nacional.
+
+    14. ª La artesanía.
+
+    15. ª Museos, bibliotecas y conservatorios de música de interés para la Comunidad Autónoma.
+
+    16. ª Patrimonio monumental de interés de la Comunidad Autónoma.
+
+    17. ª El fomento de la cultura, de la investigación y, en su caso, de la enseñanza de la lengua de la Comunidad Autónoma.
+
+    18. ª Promoción y ordenación del turismo en su ámbito territorial.
+
+    19. ª Promoción del deporte y de la adecuada utilización del ocio.
+
+    20. ª Asistencia social.
+
+    21. ª Sanidad e higiene.
+
+    22. ª La vigilancia y protección de sus edificios e instalaciones. La coordinación y demás facultades en relación con las policías locales en los términos que establezca una ley orgánica.
+
 2. Transcurridos cinco años, y mediante la reforma de sus Estatutos, las Comunidades Autónomas podrán ampliar sucesivamente sus competencias dentro del marco establecido en el artículo 149.
 
 ##### Artículo 149
 
 1. El Estado tiene competencia exclusiva sobre las siguientes materias:
-[arabic]
-.. ª La regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales.
-.. ª Nacionalidad, inmigración, emigración, extranjería y derecho de asilo.
-.. ª Relaciones internacionales.
-.. ª Defensa y Fuerzas Armadas.
-.. ª Administración de Justicia.
-.. ª Legislación mercantil, penal y penitenciaria; legislación procesal, sin perjuicio de las necesarias especialidades que en este orden se deriven de las particularidades del derecho sustantivo de las Comunidades Autónomas.
-.. ª Legislación laboral; sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas.
-.. ª Legislación civil, sin perjuicio de la conservación, modificación y desarrollo por las Comunidades Autónomas de los derechos civiles, forales o especiales, allí donde existan.
-En todo caso, las reglas relativas a la aplicación y eficacia de las normas jurídicas, relaciones jurídico-civiles relativas a las formas de matrimonio, ordenación de los registros e instrumentos públicos, bases de las obligaciones contractuales, normas para resolver los conflictos de leyes y determinación de las fuentes del Derecho, con respeto, en este último caso, a las normas de derecho foral o especial.
-.. ª Legislación sobre propiedad intelectual e industrial.
-.. ª Régimen aduanero y arancelario; comercio exterior.
-.. ª Sistema monetario: divisas, cambio y convertibilidad; bases de la ordenación de crédito, banca y seguros.
-.. ª Legislación sobre pesas y medidas, determinación de la hora oficial.
-.. ª Bases y coordinación de la planificación general de la actividad económica.
-.. ª Hacienda general y Deuda del Estado.
-.. ª Fomento y coordinación general de la investigación científica y técnica.
-.. ª Sanidad exterior.
-Bases y coordinación general de la sanidad.
-Legislación sobre productos farmacéuticos.
-.. ª Legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las Comunidades Autónomas.
-.. ª Las bases del régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios que, en todo caso, garantizarán a los administrados un tratamiento común ante ellas; el procedimiento administrativo común, sin perjuicio de las especialidades derivadas de la organización propia de las Comunidades Autónomas; legislación sobre expropiación forzosa; legislación básica sobre contratos y concesiones administrativas y el sistema de responsabilidad de todas las Administraciones públicas.
-.. ª Pesca marítima, sin perjuicio de las competencias que en la ordenación del sector se atribuyan a las Comunidades Autónomas.
-.. ª Marina mercante y abanderamiento de buques; iluminación de costas y señales marítimas; puertos de interés general; aeropuertos de interés general; control del espacio aéreo, tránsito y transporte aéreo, servicio meteorológico y matriculación de aeronaves.
-.. ª Ferrocarriles y transportes terrestres que transcurran por el territorio de más de una Comunidad Autónoma; régimen general de comunicaciones; tráfico y circulación de vehículos a motor; correos y telecomunicaciones; cables aéreos, submarinos y radiocomunicación.
-.. ª La legislación, ordenación y concesión de recursos y aprovechamientos hidráulicos cuando las aguas discurran por más de una Comunidad Autónoma, y la autorización de las instalaciones eléctricas cuando su aprovechamiento afecte a otra Comunidad o el transporte de energía salga de su ámbito territorial.
-.. ª Legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las Comunidades Autónomas de establecer normas adicionales de protección.
-La legislación básica sobre montes, aprovechamientos forestales y vías pecuarias.
-.. ª Obras públicas de interés general o cuya realización afecte a más de una Comunidad Autónoma.
-.. ª Bases de régimen minero y energético.
-.. ª Régimen de producción, comercio, tenencia y uso de armas y explosivos.
-.. ª Normas básicas del régimen de prensa, radio y televisión y, en general, de todos los medios de comunicación social, sin perjuicio de las facultades que en su desarrollo y ejecución correspondan a las Comunidades Autónomas.
-.. ª Defensa del patrimonio cultural, artístico y monumental español contra la exportación y la expoliación; museos, bibliotecas y archivos de titularidad estatal, sin perjuicio de su gestión por parte de las Comunidades Autónomas.
-.. ª Seguridad pública, sin perjuicio de la posibilidad de creación de policías por las Comunidades Autónomas en la forma que se establezca en los respectivos Estatutos en el marco de lo que disponga una ley orgánica.
-.. ª Regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales y normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.
-.. ª Estadística para fines estatales.
-.. ª Autorización para la convocatoria de consultas populares por vía de referéndum.
+
+    1. ª La regulación de las condiciones básicas que garanticen la igualdad de todos los españoles en el ejercicio de los derechos y en el cumplimiento de los deberes constitucionales.
+
+    2. ª Nacionalidad, inmigración, emigración, extranjería y derecho de asilo.
+
+    3. ª Relaciones internacionales.
+
+    4. ª Defensa y Fuerzas Armadas.
+
+    5. ª Administración de Justicia.
+
+    6. ª Legislación mercantil, penal y penitenciaria; legislación procesal, sin perjuicio de las necesarias especialidades que en este orden se deriven de las particularidades del derecho sustantivo de las Comunidades Autónomas.
+
+    7. ª Legislación laboral; sin perjuicio de su ejecución por los órganos de las Comunidades Autónomas.
+
+    8. ª Legislación civil, sin perjuicio de la conservación, modificación y desarrollo por las Comunidades Autónomas de los derechos civiles, forales o especiales, allí donde existan. En todo caso, las reglas relativas a la aplicación y eficacia de las normas jurídicas, relaciones jurídico-civiles relativas a las formas de matrimonio, ordenación de los registros e instrumentos públicos, bases de las obligaciones contractuales, normas para resolver los conflictos de leyes y determinación de las fuentes del derecho, con respeto, en este último caso, a las normas de derecho foral o especial.
+
+    9. ª Legislación sobre propiedad intelectual e industrial.
+
+    10. ª Régimen aduanero y arancelario; comercio exterior.
+
+    11. ª Sistema monetario: divisas, cambio y convertibilidad; bases de la ordenación de crédito, banca y seguros.
+
+    12. ª Legislación sobre pesas y medidas, determinación de la hora oficial.
+
+    13. ª Bases y coordinación de la planificación general de la actividad económica.
+
+    14. ª Hacienda general y Deuda del Estado.
+
+    15. ª Fomento y coordinación general de la investigación científica y técnica.
+
+    16. ª Sanidad exterior. Bases y coordinación general de la sanidad. Legislación sobre productos farmacéuticos.
+
+    17. ª Legislación básica y régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las Comunidades Autónomas.
+
+    18. ª Las bases del régimen jurídico de las Administraciones públicas y del régimen estatutario de sus funcionarios que, en todo caso, garantizarán a los administrados un tratamiento común ante ellas; el procedimiento administrativo común, sin perjuicio de las especialidades derivadas de la organización propia de las Comunidades Autónomas; legislación sobre expropiación forzosa; legislación básica sobre contratos y concesiones administrativas y el sistema de responsabilidad de todas las Administraciones públicas.
+
+    19. ª Pesca marítima, sin perjuicio de las competencias que en la ordenación del sector se atribuyan a las Comunidades Autónomas.
+
+    20. ª Marina mercante y abanderamiento de buques; iluminación de costas y señales marítimas; puertos de interés general; aeropuertos de interés general; control del espacio aéreo, tránsito y transporte aéreo, servicio meteorológico y matriculación de aeronaves.
+
+    21. ª Ferrocarriles y transportes terrestres que transcurran por el territorio de más de una Comunidad Autónoma; régimen general de comunicaciones; tráfico y circulación de vehículos a motor; correos y telecomunicaciones; cables aéreos, submarinos y radiocomunicación.
+
+    22. ª La legislación, ordenación y concesión de recursos y aprovechamientos hidráulicos cuando las aguas discurran por más de una Comunidad Autónoma, y la autorización de las instalaciones eléctricas cuando su aprovechamiento afecte a otra Comunidad o el transporte de energía salga de su ámbito territorial.
+
+    23. ª Legislación básica sobre protección del medio ambiente, sin perjuicio de las facultades de las Comunidades Autónomas de establecer normas adicionales de protección. La legislación básica sobre montes, aprovechamientos forestales y vías pecuarias.
+
+    24. ª Obras públicas de interés general o cuya realización afecte a más de una Comunidad Autónoma.
+
+    25. ª Bases de régimen minero y energético.
+
+    26. ª Régimen de producción, comercio, tenencia y uso de armas y explosivos.
+
+    27. ª Normas básicas del régimen de prensa, radio y televisión y, en general, de todos los medios de comunicación social, sin perjuicio de las facultades que en su desarrollo y ejecución correspondan a las Comunidades Autónomas.
+
+    28. ª Defensa del patrimonio cultural, artístico y monumental español contra la exportación y la expoliación; museos, bibliotecas y archivos de titularidad estatal, sin perjuicio de su gestión por parte de las Comunidades Autónomas.
+
+    29. ª Seguridad pública, sin perjuicio de la posibilidad de creación de policías por las Comunidades Autónomas en la forma que se establezca en los respectivos Estatutos en el marco de lo que disponga una ley orgánica.
+
+    30. ª Regulación de las condiciones de obtención, expedición y homologación de títulos académicos y profesionales y normas básicas para el desarrollo del artículo 27 de la Constitución, a fin de garantizar el cumplimiento de las obligaciones de los poderes públicos en esta materia.
+
+    31. ª Estadística para fines estatales.
+
+    32. ª Autorización para la convocatoria de consultas populares por vía de referéndum.
+
 2. Sin perjuicio de las competencias que podrán asumir las Comunidades Autónomas, el Estado considerará el servicio de la cultura como deber y atribución esencial y facilitará la comunicación cultural entre las Comunidades Autónomas, de acuerdo con ellas.
-3. Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos.
-La competencia sobre las materias que no se hayan asumido por los Estatutos de Autonomía corresponderá al Estado, cuyas normas prevalecerán, en caso de conflicto, sobre las de las Comunidades Autónomas en todo lo que no esté atribuido a la exclusiva competencia de éstas.
-El derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas.
+
+3. Las materias no atribuidas expresamente al Estado por esta Constitución podrán corresponder a las Comunidades Autónomas, en virtud de sus respectivos Estatutos. La competencia sobre las materias que no se hayan asumido por los Estatutos de Autonomía corresponderá al Estado, cuyas normas prevalecerán, en caso de conflicto, sobre las de las Comunidades Autónomas en todo lo que no esté atribuido a la exclusiva competencia de éstas. El derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas.
 
 ##### Artículo 150
 
@@ -1181,14 +1240,13 @@ Corresponde a las Cortes Generales, por mayoría absoluta de cada Cámara, la ap
 
 1. No será preciso dejar transcurrir el plazo de cinco años, a que se refiere el apartado 2 del artículo 148, cuando la iniciativa del proceso autonómico sea acordada dentro del plazo del artículo 143.2, además de por las Diputaciones o los órganos interinsulares correspondientes, por las tres cuartas partes de los municipios de cada una de las provincias afectadas que representen, al menos, la mayoría del censo electoral de cada una de ellas y dicha iniciativa sea ratificada mediante referéndum por el voto afirmativo de la mayoría absoluta de los electores de cada provincia en los términos que establezca una ley orgánica.
 2. En el supuesto previsto en el apartado anterior, el procedimiento para la elaboración del Estatuto será el siguiente:
-[arabic]
-.. º El Gobierno convocará a todos los Diputados y Senadores elegidos en las circunscripciones comprendidas en el ámbito territorial que pretenda acceder al autogobierno, para que se constituyan en Asamblea, a los solos efectos de elaborar el correspondiente proyecto de Estatuto de autonomía, mediante el acuerdo de la mayoría absoluta de sus miembros.
-.. º Aprobado el proyecto de Estatuto por la Asamblea de Parlamentarios, se remitirá a la Comisión Constitucional del Congreso, la cual, dentro del plazo de dos meses, lo examinará con el concurso y asistencia de una delegación de la Asamblea proponente para determinar de común acuerdo su formulación definitiva.
-.. º Si se alcanzare dicho acuerdo, el texto resultante será sometido a referéndum del cuerpo electoral de las provincias comprendidas en el ámbito territorial del proyectado Estatuto.
-.. º Si el proyecto de Estatuto es aprobado en cada provincia por la mayoría de los votos válidamente emitidos, será elevado a las Cortes Generales.
-Los plenos de ambas Cámaras decidirán sobre el texto mediante un voto de ratificación.
-Aprobado el Estatuto, el Rey lo sancionará y lo promulgará como ley.
-.. º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.
+    1. º El Gobierno convocará a todos los Diputados y Senadores elegidos en las circunscripciones comprendidas en el ámbito territorial que pretenda acceder al autogobierno, para que se constituyan en Asamblea, a los solos efectos de elaborar el correspondiente proyecto de Estatuto de autonomía, mediante el acuerdo de la mayoría absoluta de sus miembros.
+    2. º Aprobado el proyecto de Estatuto por la Asamblea de Parlamentarios, se remitirá a la Comisión Constitucional del Congreso, la cual, dentro del plazo de dos meses, lo examinará con el concurso y asistencia de una delegación de la Asamblea proponente para determinar de común acuerdo su formulación definitiva.
+    3. º Si se alcanzare dicho acuerdo, el texto resultante será sometido a referéndum del cuerpo electoral de las provincias comprendidas en el ámbito territorial del proyectado Estatuto.
+    4. º Si el proyecto de Estatuto es aprobado en cada provincia por la mayoría de los votos válidamente emitidos, será elevado a las Cortes Generales.
+    Los plenos de ambas Cámaras decidirán sobre el texto mediante un voto de ratificación.
+    Aprobado el Estatuto, el Rey lo sancionará y lo promulgará como ley.
+    5. º De no alcanzarse el acuerdo a que se refiere el apartado 2 de este número, el proyecto de Estatuto será tramitado como proyecto de ley ante las Cortes Generales.
 El texto aprobado por éstas será sometido a referéndum del cuerpo electoral de las provincias comprendidas en el ámbito territorial del proyectado Estatuto.
 En caso de ser aprobado por la mayoría de los votos válidamente emitidos en cada provincia, procederá su promulgación en los términos del párrafo anterior.
 3. En los casos de los párrafos 4.º y 5.º del apartado anterior, la no aprobación del proyecto de Estatuto por una o varias provincias no impedirá la constitución entre las restantes de la Comunidad Autónoma proyectada, en la forma que establezca la ley orgánica prevista en el apartado 1 de este artículo.
@@ -1197,11 +1255,9 @@ En caso de ser aprobado por la mayoría de los votos válidamente emitidos en ca
 
 1. En los Estatutos aprobados por el procedimiento a que se refiere el artículo anterior, la organización institucional autonómica se basará en una Asamblea Legislativa, elegida por sufragio universal, con arreglo a un sistema de representación proporcional que asegure, además, la representación de las diversas zonas del territorio; un Consejo de Gobierno con funciones ejecutivas y administrativas y un Presidente, elegido por la Asamblea, de entre sus miembros, y nombrado por el Rey, al que corresponde la dirección del Consejo de Gobierno, la suprema representación de la respectiva Comunidad y la ordinaria del Estado en aquélla.
 El Presidente y los miembros del Consejo de Gobierno serán políticamente responsables ante la Asamblea.
-+
 Un Tribunal Superior de Justicia, sin perjuicio de la jurisdicción que corresponde al Tribunal Supremo, culminará la organización judicial en el ámbito territorial de la Comunidad Autónoma.
 En los Estatutos de las Comunidades Autónomas podrán establecerse los supuestos y las formas de participación de aquéllas en la organización de las demarcaciones judiciales del territorio.
 Todo ello de conformidad con lo previsto en la ley orgánica del poder judicial y dentro de la unidad e independencia de éste.
-+
 Sin perjuicio de lo dispuesto en el artículo 123, las sucesivas instancias procesales, en su caso, se agotarán ante órganos judiciales radicados en el mismo territorio de la Comunidad Autónoma en que esté el órgano competente en primera instancia.
 2. Una vez sancionados y promulgados los respectivos Estatutos, solamente podrán ser modificados mediante los procedimientos en ellos establecidos y con referéndum entre los electores inscritos en los censos correspondientes.
 3. Mediante la agrupación de municipios limítrofes, los Estatutos podrán establecer circunscripciones territoriales propias, que gozarán de plena personalidad jurídica.
@@ -1209,7 +1265,7 @@ Sin perjuicio de lo dispuesto en el artículo 123, las sucesivas instancias proc
 ##### Artículo 153
 
 El control de la actividad de los órganos de las Comunidades Autónomas se ejercerá:
-[loweralpha]
+
 1. Por el Tribunal Constitucional, el relativo a la constitucionalidad de sus disposiciones normativas con fuerza de ley.
 1. Por el Gobierno, previo dictamen del Consejo de Estado, el del ejercicio de funciones delegadas a que se refiere el apartado 2 del artículo 150.
 1. Por la jurisdicción contencioso-administrativa, el de la administración autónoma y sus normas reglamentarias.
@@ -1232,11 +1288,11 @@ Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en 
 ##### Artículo 157
 
 1. Los recursos de las Comunidades Autónomas estarán constituidos por:
-.. Impuestos cedidos total o parcialmente por el Estado; recargos sobre impuestos estatales y otras participaciones en los ingresos del Estado.
-.. Sus propios impuestos, tasas y contribuciones especiales.
-.. Transferencias de un Fondo de Compensación interterritorial y otras asignaciones con cargo a los Presupuestos Generales del Estado.
-.. Rendimientos procedentes de su patrimonio e ingresos de derecho privado.
-.. El producto de las operaciones de crédito.
+- Impuestos cedidos total o parcialmente por el Estado; recargos sobre impuestos estatales y otras participaciones en los ingresos del Estado.
+- Sus propios impuestos, tasas y contribuciones especiales.
+- Transferencias de un Fondo de Compensación interterritorial y otras asignaciones con cargo a los Presupuestos Generales del Estado.
+- Rendimientos procedentes de su patrimonio e ingresos de derecho privado.
+- El producto de las operaciones de crédito.
 2. Las Comunidades Autónomas no podrán en ningún caso adoptar medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios.
 3. Mediante ley orgánica podrá regularse el ejercicio de las competencias financieras enumeradas en el precedente apartado 1, las normas para resolver los conflictos que pudieran surgir y las posibles formas de colaboración financiera entre las Comunidades Autónomas y el Estado.
 
@@ -1257,7 +1313,6 @@ Del Tribunal Constitucional
 2. Los miembros del Tribunal Constitucional deberán ser nombrados entre Magistrados y Fiscales, Profesores de Universidad, funcionarios públicos y Abogados, todos ellos juristas de reconocida competencia con más de quince años de ejercicio profesional.
 3. Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres.
 4. La condición de miembro del Tribunal Constitucional es incompatible: con todo mandato representativo; con los cargos políticos o administrativos; con el desempeño de funciones directivas en un partido político o en un sindicato y con el empleo al servicio de los mismos; con el ejercicio de las carreras judicial y fiscal, y con cualquier actividad profesional o mercantil.
-+
 En lo demás los miembros del Tribunal Constitucional tendrán las incompatibilidades propias de los miembros del poder judicial.
 5. Los miembros del Tribunal Constitucional serán independientes e inamovibles en el ejercicio de su mandato.
 
@@ -1268,19 +1323,19 @@ El Presidente del Tribunal Constitucional será nombrado entre sus miembros por 
 ##### Artículo 161
 
 1. El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer:
-.. Del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley.
-La declaración de inconstitucionalidad de una norma jurídica con rango de ley, interpretada por la jurisprudencia, afectará a ésta, si bien la sentencia o sentencias recaídas no perderán el valor de cosa juzgada.
-.. Del recurso de amparo por violación de los derechos y libertades referidos en el artículo 53, 2, de esta Constitución, en los casos y formas que la ley establezca.
-.. De los conflictos de competencia entre el Estado y las Comunidades Autónomas o de los de éstas entre sí.
-.. De las demás materias que le atribuyan la Constitución o las leyes orgánicas.
+    1. Del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley.
+    La declaración de inconstitucionalidad de una norma jurídica con rango de ley, interpretada por la jurisprudencia, afectará a ésta, si bien la sentencia o sentencias recaídas no perderán el valor de cosa juzgada.
+    2. Del recurso de amparo por violación de los derechos y libertades referidos en el artículo 53, 2, de esta Constitución, en los casos y formas que la ley establezca.
+    3. De los conflictos de competencia entre el Estado y las Comunidades Autónomas o de los de éstas entre sí.
+    4. De las demás materias que le atribuyan la Constitución o las leyes orgánicas.
 2. El Gobierno podrá impugnar ante el Tribunal Constitucional las disposiciones y resoluciones adoptadas por los órganos de las Comunidades Autónomas.
 La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo no superior a cinco meses.
 
 ##### Artículo 162
 
 1. Están legitimados:
-.. Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.
-.. Para interponer el recurso de amparo, toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal.
+    1. Para interponer el recurso de inconstitucionalidad, el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las Comunidades Autónomas y, en su caso, las Asambleas de las mismas.
+    2. Para interponer el recurso de amparo, toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal.
 2. En los demás casos, la ley orgánica determinará las personas y órganos legitimados.
 
 ##### Artículo 163
@@ -1376,7 +1431,7 @@ Cuando se remitieran a la Comisión Constitucional del Congreso varios proyectos
 ### Séptima.
 
 Los organismos provisionales autonómicos se considerarán disueltos en los siguientes casos:
-[loweralpha]
+
 1. Una vez constituidos los órganos que establezcan los Estatutos de Autonomía aprobados conforme a esta Constitución.
 1. En el supuesto de que la iniciativa del proceso autonómico no llegara a prosperar por no cumplir los requisitos previstos en el artículo 143.
 1. Si el organismo no hubiera ejercido el derecho que le reconoce la disposición transitoria primera en el plazo de tres años.
@@ -1386,7 +1441,6 @@ Los organismos provisionales autonómicos se considerarán disueltos en los sigu
 1. Las Cámaras que han aprobado la presente Constitución asumirán, tras la entrada en vigor de la misma, las funciones y competencias que en ella se señalan, respectivamente, para el Congreso y el Senado, sin que en ningún caso su mandato se extienda más allá del 15 de junio de 1981.
 2. A los efectos de lo establecido en el artículo 99, la promulgación de la Constitución se considerará como supuesto constitucional en el que procede su aplicación.
 A tal efecto, a partir de la citada promulgación se abrirá un período de treinta días para la aplicación de lo dispuesto en dicho artículo.
-+
 Durante este período, el actual Presidente del Gobierno, que asumirá las funciones y competencias que para dicho cargo establece la Constitución, podrá optar por utilizar la facultad que le reconoce el artículo 115 o dar paso, mediante la dimisión, a la aplicación de lo establecido en el artículo 99, quedando en este último caso en la situación prevista en el apartado 2 del artículo 101.
 3. En caso de disolución, de acuerdo con lo previsto en el artículo 115, y si no se hubiera desarrollado legalmente lo previsto en los artículos 68 y 69, serán de aplicación en las elecciones las normas vigentes con anterioridad, con las solas excepciones de que en lo referente a inelegibilidades e incompatibilidades se aplicará directamente lo previsto en el inciso segundo de la letra b) del apartado 1 del artículo 70 de la Constitución, así como lo dispuesto en la misma respecto a la edad para el voto y lo establecido en el artículo 69,3.
 
@@ -1401,7 +1455,6 @@ A partir de entonces se estará a lo establecido en el número 3 del artículo 1
 
 1. Queda derogada la Ley 1/1977, de 4 de enero, para la Reforma Política, así como, en tanto en cuanto no estuvieran ya derogadas por la anteriormente mencionada Ley, la de Principios del Movimiento Nacional, de 17 de mayo de 1958; el Fuero de los Españoles, de 17 de julio de 1945; el del Trabajo, de 9 de marzo de 1938; la Ley Constitutiva de las Cortes, de 17 de julio de 1942; la Ley de Sucesión en la Jefatura del Estado, de 26 de julio de 1947, todas ellas modificadas por la Ley Orgánica del Estado, de 10 de enero de 1967, y en los mismos términos esta última y la de Referéndum Nacional de 22 de octubre de 1945.
 2. En tanto en cuanto pudiera conservar alguna vigencia, se considera definitivamente derogada la Ley de 25 de octubre de 1839 en lo que pudiera afectar a las provincias de Álava, Guipúzcoa y Vizcaya.
-+
 En los mismos términos se considera definitivamente derogada la Ley de 21 de julio de 1876.
 3. Asimismo quedan derogadas cuantas disposiciones se opongan a lo establecido en esta Constitución.
 
