@@ -1,0 +1,684 @@
+[
+   {
+      "guid":"8f1c5c3e-2d3a-4c21-9f5c-1c5e7f0f7c1a",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Segons l'article 9.3 de la Constitució Espanyola, quin principi garanteix l'ordenació escalonada de les normes jurídiques?",
+      "answerOptions":[
+         {
+            "text":"El principi de jerarquia normativa.",
+            "isCorrect":true,
+            "rationale":"Aquest principi estableix que les normes de rang inferior no poden contradir les de rang superior, garantint l'ordre del sistema jurídic."
+         },
+         {
+            "text":"El principi de reserva de llei.",
+            "isCorrect":false,
+            "rationale":"La reserva de llei determina quines matèries han de ser regulades per llei, però no ordena la relació jeràrquica entre normes."
+         },
+         {
+            "text":"El principi de publicitat normativa.",
+            "isCorrect":false,
+            "rationale":"La publicitat normativa exigeix que les normes es publiquin perquè siguin conegudes, no regula la seva posició en l'ordenament."
+         },
+         {
+            "text":"El principi de seguretat jurídica.",
+            "isCorrect":false,
+            "rationale":"La seguretat jurídica és un principi general, però l'ordenació vertical entre normes correspon a la jerarquia normativa."
+         }
+      ],
+      "hint":"Pensa en l'estructura piramidal de l'ordenament jurídic."
+   },
+   {
+      "guid":"a1e2b7d4-ff37-4f02-9bb9-c9d8594a88dc",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quina és la naturalesa de la potestat legislativa del Govern en el sistema constitucional espanyol?",
+      "answerOptions":[
+         {
+            "text":"És originària i equivalent a la de les Corts Generals.",
+            "isCorrect":false,
+            "rationale":"La potestat legislativa originària correspon a les Corts Generals, no al Govern."
+         },
+         {
+            "text":"És derivada o excepcional, segons existeixi delegació o urgent necessitat.",
+            "isCorrect":true,
+            "rationale":"El Govern només pot dictar normes amb rang de llei mitjançant decret legislatiu, per delegació, o decret-llei, per extraordinària i urgent necessitat."
+         },
+         {
+            "text":"És merament reglamentària i mai pot tenir rang de llei.",
+            "isCorrect":false,
+            "rationale":"A més de la potestat reglamentària, el Govern pot aprovar decrets legislatius i decrets-llei."
+         },
+         {
+            "text":"És permanent en matèries reservades a llei ordinària.",
+            "isCorrect":false,
+            "rationale":"La delegació legislativa no és permanent; ha de ser expressa, concreta i amb termini."
+         }
+      ],
+      "hint":"Recorda les figures del decret legislatiu i del decret-llei."
+   },
+   {
+      "guid":"6c6d0f2f-546d-4d55-a2ba-a021d45af0ea",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Sobre quines matèries no es pot delegar en el Govern la potestat de dictar normes amb rang de llei?",
+      "answerOptions":[
+         {
+            "text":"Sobre matèries pròpies de llei orgànica.",
+            "isCorrect":true,
+            "rationale":"L'article 82.1 de la Constitució prohibeix expressament la delegació legislativa en matèries reservades a llei orgànica."
+         },
+         {
+            "text":"Sobre qualsevol matèria de llei ordinària.",
+            "isCorrect":false,
+            "rationale":"Precisament les matèries de llei ordinària poden ser objecte de delegació legislativa."
+         },
+         {
+            "text":"Sobre normes tributàries en qualsevol cas.",
+            "isCorrect":false,
+            "rationale":"La prohibició constitucional expressa es refereix a les matèries de llei orgànica, no a totes les tributàries."
+         },
+         {
+            "text":"Sobre matèries autonòmiques per raó territorial.",
+            "isCorrect":false,
+            "rationale":"La limitació constitucional principal és material, no territorial."
+         }
+      ],
+      "hint":"Relaciona-ho amb les matèries reservades a un tipus especial de llei."
+   },
+   {
+      "guid":"7d91d6f5-9f97-4a7e-8b88-fb4bdf9df894",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quan la delegació legislativa té per objecte la formació d'un text articulat, quin instrument l'ha d'atorgar?",
+      "answerOptions":[
+         {
+            "text":"Una llei de bases.",
+            "isCorrect":true,
+            "rationale":"L'article 82.2 de la Constitució estableix que la delegació per formar textos articulats s'ha de concedir mitjançant una llei de bases."
+         },
+         {
+            "text":"Una llei orgànica.",
+            "isCorrect":false,
+            "rationale":"La delegació no pot recaure en matèries de llei orgànica."
+         },
+         {
+            "text":"Un reial decret.",
+            "isCorrect":false,
+            "rationale":"El reial decret és una norma reglamentària o formal de govern, no l'instrument legislatiu de delegació."
+         },
+         {
+            "text":"Una ordre ministerial.",
+            "isCorrect":false,
+            "rationale":"Les ordres ministerials tenen rang reglamentari i no poden atorgar delegació legislativa."
+         }
+      ],
+      "hint":"Aquest instrument fixa criteris i principis perquè el Govern redacti els articles."
+   },
+   {
+      "guid":"7ce19f8d-5cde-4f2f-a384-f0a7bf26415f",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Si el Govern ha de refondre diversos textos legals en un de sol, la delegació de les Corts s'ha de fer mitjançant:",
+      "answerOptions":[
+         {
+            "text":"Una llei ordinària.",
+            "isCorrect":true,
+            "rationale":"L'article 82.2 preveu que la delegació per refondre textos legals s'atorgui mitjançant una llei ordinària."
+         },
+         {
+            "text":"Una llei de bases.",
+            "isCorrect":false,
+            "rationale":"La llei de bases s'utilitza per a la formació de textos articulats, no per a la refosa."
+         },
+         {
+            "text":"Un decret-llei.",
+            "isCorrect":false,
+            "rationale":"El decret-llei és una norma aprovada pel Govern en cas d'urgència, no un instrument de delegació de les Corts."
+         },
+         {
+            "text":"Una moció del Congrés.",
+            "isCorrect":false,
+            "rationale":"La delegació legislativa s'ha de fer per llei, no per moció parlamentària."
+         }
+      ],
+      "hint":"No es tracta de crear un text nou des de zero, sinó de fusionar-ne diversos."
+   },
+   {
+      "guid":"f4d4cd08-cc0e-4d58-85da-ecc4e97cce24",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quina de les afirmacions següents sobre la delegació legislativa és falsa?",
+      "answerOptions":[
+         {
+            "text":"Ha de ser expressa.",
+            "isCorrect":false,
+            "rationale":"Aquesta afirmació és correcta: la delegació legislativa no es presumeix."
+         },
+         {
+            "text":"Ha de fixar un termini per al seu exercici.",
+            "isCorrect":false,
+            "rationale":"També és correcta: la Constitució exigeix un termini determinat."
+         },
+         {
+            "text":"Es pot concedir de manera indeterminada fins que el Govern consideri complerta la seva finalitat.",
+            "isCorrect":true,
+            "rationale":"Això és fals perquè la delegació ha de concedir-se de forma expressa, per a matèria concreta i amb termini fixat."
+         },
+         {
+            "text":"Ha de recaure sobre una matèria concreta.",
+            "isCorrect":false,
+            "rationale":"Aquesta afirmació és correcta: no s'admeten delegacions genèriques."
+         }
+      ],
+      "hint":"Fixa't en el límit temporal que exigeix la Constitució."
+   },
+   {
+      "guid":"9808ff7a-2c74-4dbe-ab6f-a9170c55544e",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Com es denominen les disposicions del Govern que contenen legislació delegada?",
+      "answerOptions":[
+         {
+            "text":"Decrets legislatius.",
+            "isCorrect":true,
+            "rationale":"L'article 85 de la Constitució estableix que les disposicions del Govern que continguin legislació delegada rebran el títol de decrets legislatius."
+         },
+         {
+            "text":"Reials decrets d'execució.",
+            "isCorrect":false,
+            "rationale":"Aquesta denominació correspon a normes reglamentàries, no a legislació delegada."
+         },
+         {
+            "text":"Decrets-llei.",
+            "isCorrect":false,
+            "rationale":"El decret-llei és una norma dictada en cas d'extraordinària i urgent necessitat, no per delegació parlamentària."
+         },
+         {
+            "text":"Reglaments de bases.",
+            "isCorrect":false,
+            "rationale":"No existeix aquesta categoria com a norma amb rang de llei derivada de la delegació."
+         }
+      ],
+      "hint":"Combina la idea de decret amb la d'activitat legislativa."
+   },
+   {
+      "guid":"1dc7f959-a660-4f65-a748-f85f673739c1",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quina és la diferència principal entre projecte de llei i proposició de llei?",
+      "answerOptions":[
+         {
+            "text":"El projecte de llei prové del Govern i la proposició de llei d'altres subjectes amb iniciativa legislativa.",
+            "isCorrect":true,
+            "rationale":"La diferència essencial és l'origen de la iniciativa: el Govern presenta projectes de llei i la resta de subjectes legitimats presenten proposicions de llei."
+         },
+         {
+            "text":"El projecte de llei només es pot aprovar per majoria absoluta i la proposició per majoria simple.",
+            "isCorrect":false,
+            "rationale":"La majoria exigida depèn del tipus de llei, no de si és projecte o proposició."
+         },
+         {
+            "text":"La proposició de llei no pot ser objecte d'esmenes.",
+            "isCorrect":false,
+            "rationale":"Les proposicions de llei poden ser esmenades durant la tramitació parlamentària."
+         },
+         {
+            "text":"El projecte de llei el presenta sempre el Senat.",
+            "isCorrect":false,
+            "rationale":"El projecte de llei és remès pel Govern al Congrés."
+         }
+      ],
+      "hint":"La clau és qui exerceix la iniciativa."
+   },
+   {
+      "guid":"2546ae3a-36de-437d-91b6-6272f2fae53e",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quin nombre mínim de signatures acreditades exigeix la Constitució per a una iniciativa legislativa popular?",
+      "answerOptions":[
+         {
+            "text":"100.000 signatures.",
+            "isCorrect":false,
+            "rationale":"La Constitució exigeix un nombre superior."
+         },
+         {
+            "text":"250.000 signatures.",
+            "isCorrect":false,
+            "rationale":"Aquesta xifra no arriba al mínim constitucional."
+         },
+         {
+            "text":"500.000 signatures.",
+            "isCorrect":true,
+            "rationale":"L'article 87.3 de la Constitució fixa en 500.000 les signatures acreditades necessàries."
+         },
+         {
+            "text":"1.000.000 signatures.",
+            "isCorrect":false,
+            "rationale":"La xifra constitucional és inferior a un milió."
+         }
+      ],
+      "hint":"És mig milió."
+   },
+   {
+      "guid":"48af575a-c9c8-4685-b654-2f01998c1ebb",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"En quina de les següents matèries és admissible la iniciativa legislativa popular?",
+      "answerOptions":[
+         {
+            "text":"En matèria tributària.",
+            "isCorrect":false,
+            "rationale":"La Constitució exclou les matèries tributàries de la iniciativa legislativa popular."
+         },
+         {
+            "text":"En matèria internacional.",
+            "isCorrect":false,
+            "rationale":"També estan excloses les matèries de caràcter internacional."
+         },
+         {
+            "text":"En matèria relativa al dret de gràcia.",
+            "isCorrect":false,
+            "rationale":"La prerrogativa de gràcia està expressament exclosa."
+         },
+         {
+            "text":"En una matèria ordinària com la protecció del medi ambient.",
+            "isCorrect":true,
+            "rationale":"Si no és matèria pròpia de llei orgànica ni està dins de les exclusions constitucionals, és admissible."
+         }
+      ],
+      "hint":"Busca una matèria no exclosa per l'article 87.3."
+   },
+   {
+      "guid":"d2e33b25-36fb-4baa-9c66-a7b93a27df6c",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quin requisit de votació exigeix l'article 81.2 de la Constitució per aprovar una llei orgànica?",
+      "answerOptions":[
+         {
+            "text":"Majoria simple del Congrés.",
+            "isCorrect":false,
+            "rationale":"La majoria simple no és suficient per a una llei orgànica."
+         },
+         {
+            "text":"Majoria absoluta del Congrés en una votació final sobre el conjunt del projecte.",
+            "isCorrect":true,
+            "rationale":"Aquesta és la fórmula constitucional exacta per a l'aprovació, modificació o derogació de les lleis orgàniques."
+         },
+         {
+            "text":"Majoria absoluta del Senat.",
+            "isCorrect":false,
+            "rationale":"El requisit reforçat es refereix al Congrés dels Diputats."
+         },
+         {
+            "text":"Majoria de dos terços de les Corts Generals.",
+            "isCorrect":false,
+            "rationale":"Aquesta majoria és pròpia d'altres procediments, com certes reformes constitucionals."
+         }
+      ],
+      "hint":"La majoria reforçada recau sobre la cambra baixa."
+   },
+   {
+      "guid":"4c1faa72-df6d-44cb-ab26-57819b27c5da",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quina matèria ha de ser regulada necessàriament per llei orgànica segons l'article 81.1 de la Constitució?",
+      "answerOptions":[
+         {
+            "text":"El règim electoral general.",
+            "isCorrect":true,
+            "rationale":"L'article 81.1 inclou expressament el règim electoral general entre les matèries reservades a llei orgànica."
+         },
+         {
+            "text":"Els pressupostos generals de l'Estat.",
+            "isCorrect":false,
+            "rationale":"Els pressupostos s'aproven per llei ordinària amb procediment especial."
+         },
+         {
+            "text":"L'organització ministerial.",
+            "isCorrect":false,
+            "rationale":"L'organització administrativa ordinària no és matèria de llei orgànica."
+         },
+         {
+            "text":"La regulació general dels contractes civils.",
+            "isCorrect":false,
+            "rationale":"Aquesta matèria no està reservada constitucionalment a llei orgànica."
+         }
+      ],
+      "hint":"Pensa en una peça clau del sistema democràtic representatiu."
+   },
+   {
+      "guid":"39b8e0cf-6ea7-44d3-8c31-dc75f9dc30d8",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"La relació entre llei orgànica i llei ordinària és principalment una relació de:",
+      "answerOptions":[
+         {
+            "text":"Jerarquia formal.",
+            "isCorrect":false,
+            "rationale":"No hi ha una superioritat jeràrquica general de la llei orgànica sobre l'ordinària."
+         },
+         {
+            "text":"Competència material o reserva de matèria.",
+            "isCorrect":true,
+            "rationale":"La diferència entre ambdues rau sobretot en les matèries que la Constitució reserva a la llei orgànica."
+         },
+         {
+            "text":"Temporalitat.",
+            "isCorrect":false,
+            "rationale":"La relació no depèn del moment en què s'aproven."
+         },
+         {
+            "text":"Subordinació reglamentària.",
+            "isCorrect":false,
+            "rationale":"Totes dues són lleis i no reglaments."
+         }
+      ],
+      "hint":"No es tracta tant de rang com de quins assumptes pot regular cadascuna."
+   },
+   {
+      "guid":"2ab2c8f9-3cf0-460f-a2ba-9e84fe3ab7ee",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quina és la finalitat de les lleis marc previstes a l'article 150.1 de la Constitució?",
+      "answerOptions":[
+         {
+            "text":"Permetre a les comunitats autònomes dictar normes legislatives en matèries de competència estatal dins del marc fixat per una llei estatal.",
+            "isCorrect":true,
+            "rationale":"Les lleis marc atribueixen a les comunitats autònomes la facultat de dictar normes legislatives dins dels principis, bases i directrius fixats per una llei estatal."
+         },
+         {
+            "text":"Modificar la Constitució en matèries territorials.",
+            "isCorrect":false,
+            "rationale":"La reforma constitucional segueix altres procediments i no es fa mitjançant lleis marc."
+         },
+         {
+            "text":"Substituir els estatuts d'autonomia.",
+            "isCorrect":false,
+            "rationale":"Les lleis marc no alteren la naturalesa ni el contingut dels estatuts."
+         },
+         {
+            "text":"Harmonitzar les disposicions autonòmiques per raons d'interès general.",
+            "isCorrect":false,
+            "rationale":"Aquesta funció correspon a les lleis d'harmonització de l'article 150.3."
+         }
+      ],
+      "hint":"L'Estat fixa directrius i la comunitat autònoma legisla dins d'aquest marc."
+   },
+   {
+      "guid":"5ce4d8cf-e05d-48b8-9773-8c8577db64eb",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quina majoria exigeix la Constitució perquè les Corts Generals apreciïn la necessitat d'una llei d'harmonització?",
+      "answerOptions":[
+         {
+            "text":"Majoria simple de cada cambra.",
+            "isCorrect":false,
+            "rationale":"La Constitució exigeix una majoria reforçada."
+         },
+         {
+            "text":"Majoria absoluta de cada cambra.",
+            "isCorrect":true,
+            "rationale":"L'article 150.3 requereix la majoria absoluta del Congrés i del Senat per apreciar la necessitat d'harmonització."
+         },
+         {
+            "text":"Dos terços del Congrés.",
+            "isCorrect":false,
+            "rationale":"Aquesta no és la majoria prevista a l'article 150.3."
+         },
+         {
+            "text":"Unanimitat de les Corts Generals.",
+            "isCorrect":false,
+            "rationale":"La unanimitat no és exigida en aquest supòsit."
+         }
+      ],
+      "hint":"És una majoria reforçada, però no tan alta com dos terços."
+   },
+   {
+      "guid":"147d3347-3d17-4553-a9a6-bf6b03ecb829",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quin és el pressupòsit habilitant per a l'aprovació d'un decret-llei?",
+      "answerOptions":[
+         {
+            "text":"L'autorització prèvia del Senat.",
+            "isCorrect":false,
+            "rationale":"El decret-llei no requereix autorització prèvia del Senat."
+         },
+         {
+            "text":"La delegació expressa de les Corts Generals.",
+            "isCorrect":false,
+            "rationale":"La delegació és pròpia del decret legislatiu, no del decret-llei."
+         },
+         {
+            "text":"Un cas d'extraordinària i urgent necessitat.",
+            "isCorrect":true,
+            "rationale":"L'article 86.1 de la Constitució exigeix aquesta circumstància habilitant."
+         },
+         {
+            "text":"La declaració d'estat d'alarma.",
+            "isCorrect":false,
+            "rationale":"L'estat d'alarma no és requisit per dictar un decret-llei."
+         }
+      ],
+      "hint":"És una fórmula constitucional molt concreta."
+   },
+   {
+      "guid":"1a09d553-d86f-4f1f-a6d8-fb571c8f3c56",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quina de les següents matèries no pot ser afectada per un decret-llei?",
+      "answerOptions":[
+         {
+            "text":"El règim de les institucions bàsiques de l'Estat.",
+            "isCorrect":true,
+            "rationale":"L'article 86.1 prohibeix que els decrets-llei afectin el règim de les institucions bàsiques de l'Estat."
+         },
+         {
+            "text":"La regulació del mercat energètic.",
+            "isCorrect":false,
+            "rationale":"Aquesta matèria pot ser objecte de decret-llei si es dona el pressupòsit habilitant i no afecta àmbits vedats."
+         },
+         {
+            "text":"La política de transports.",
+            "isCorrect":false,
+            "rationale":"No és una matèria constitucionalment exclosa de manera general."
+         },
+         {
+            "text":"L'organització interna d'un ministeri.",
+            "isCorrect":false,
+            "rationale":"No forma part dels límits materials específics de l'article 86.1."
+         }
+      ],
+      "hint":"Busca un dels límits materials expressos del decret-llei."
+   },
+   {
+      "guid":"ef572993-85d3-49bf-9e05-55451b2d982a",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"En quin termini s'ha de sotmetre un decret-llei a debat i votació de totalitat al Congrés dels Diputats?",
+      "answerOptions":[
+         {
+            "text":"En el termini de 15 dies següents a la seva publicació.",
+            "isCorrect":false,
+            "rationale":"El termini constitucional és superior."
+         },
+         {
+            "text":"En el termini de 30 dies següents a la seva promulgació.",
+            "isCorrect":true,
+            "rationale":"L'article 86.2 estableix un termini màxim de trenta dies per a la convalidació o derogació."
+         },
+         {
+            "text":"En el termini de 45 dies següents a la seva entrada en vigor.",
+            "isCorrect":false,
+            "rationale":"Aquest termini no és el previst per la Constitució."
+         },
+         {
+            "text":"En el termini de 60 dies següents a la seva aprovació pel Govern.",
+            "isCorrect":false,
+            "rationale":"El termini constitucional és de trenta dies."
+         }
+      ],
+      "hint":"Pensa en el termini aproximat d'un mes."
+   },
+   {
+      "guid":"eb96e690-34bc-4110-b6b3-db4e666d0932",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Durant el termini de convalidació d'un decret-llei, el Congrés dels Diputats pot:",
+      "answerOptions":[
+         {
+            "text":"Tramitar-lo com a projecte de llei pel procediment d'urgència.",
+            "isCorrect":true,
+            "rationale":"L'article 86.3 preveu expressament aquesta possibilitat."
+         },
+         {
+            "text":"Modificar directament el text sense cap tramitació parlamentària.",
+            "isCorrect":false,
+            "rationale":"Per modificar-lo cal tramitar-lo com a projecte de llei."
+         },
+         {
+            "text":"Remetre'l al Senat perquè el derogi.",
+            "isCorrect":false,
+            "rationale":"La convalidació o derogació correspon al Congrés."
+         },
+         {
+            "text":"Suspendre'l automàticament fins a nova votació.",
+            "isCorrect":false,
+            "rationale":"La Constitució no preveu aquesta suspensió automàtica."
+         }
+      ],
+      "hint":"Aquesta opció permet introduir esmenes al text governamental."
+   },
+   {
+      "guid":"2d5e1761-ad0f-42f6-a8c4-e0eb9246a83f",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Quin article de la Constitució atribueix al Govern la potestat reglamentària?",
+      "answerOptions":[
+         {
+            "text":"L'article 66.",
+            "isCorrect":false,
+            "rationale":"L'article 66 regula les funcions de les Corts Generals."
+         },
+         {
+            "text":"L'article 86.",
+            "isCorrect":false,
+            "rationale":"L'article 86 regula el decret-llei."
+         },
+         {
+            "text":"L'article 97.",
+            "isCorrect":true,
+            "rationale":"L'article 97 disposa que el Govern exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i les lleis."
+         },
+         {
+            "text":"L'article 103.",
+            "isCorrect":false,
+            "rationale":"L'article 103 estableix els principis d'actuació de l'Administració pública."
+         }
+      ],
+      "hint":"És el precepte que resumeix les funcions del Govern."
+   },
+   {
+      "guid":"86a83743-127a-48ad-8e1f-7cf46f04fcff",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Com s'anomenen els reglaments que desenvolupen una llei prèvia?",
+      "answerOptions":[
+         {
+            "text":"Reglaments executius.",
+            "isCorrect":true,
+            "rationale":"Reben aquest nom perquè executen o desenvolupen el contingut d'una llei."
+         },
+         {
+            "text":"Reglaments independents.",
+            "isCorrect":false,
+            "rationale":"Els reglaments independents no desenvolupen una llei concreta."
+         },
+         {
+            "text":"Reglaments legislatius.",
+            "isCorrect":false,
+            "rationale":"Aquesta expressió no és correcta; la legislació delegada té forma de decret legislatiu."
+         },
+         {
+            "text":"Reglaments constitucionals.",
+            "isCorrect":false,
+            "rationale":"No és una categoria habitual del dret públic espanyol."
+         }
+      ],
+      "hint":"El seu nom indica que fan efectiva l'execució d'una llei."
+   },
+   {
+      "guid":"f13c104c-1a14-42fe-b595-9427a0f2d1cb",
+      "subjectId":"T05",
+      "difficulty":1,
+      "origin":"chatgpt2026",
+      "type":"test",
+      "question":"Pot un reglament contradir una llei ordinària?",
+      "answerOptions":[
+         {
+            "text":"Sí, si el reglament és posterior en el temps.",
+            "isCorrect":false,
+            "rationale":"La norma posterior de rang inferior no pot derogar ni contradir una de rang superior."
+         },
+         {
+            "text":"Sí, si ho aprova el Consell de Ministres.",
+            "isCorrect":false,
+            "rationale":"Ni tan sols el Consell de Ministres pot aprovar reglaments contra legem."
+         },
+         {
+            "text":"No, pel principi de jerarquia normativa.",
+            "isCorrect":true,
+            "rationale":"El reglament està subordinat a la llei i no pot oposar-s'hi."
+         },
+         {
+            "text":"Només si es tracta d'un reglament independent.",
+            "isCorrect":false,
+            "rationale":"Els reglaments independents tampoc poden contradir una llei."
+         }
+      ],
+      "hint":"La resposta es troba en un dels principis de l'article 9.3."
+   }
+]
