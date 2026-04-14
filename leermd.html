@@ -325,6 +325,76 @@
     #content blockquote p:last-child {
       margin-bottom: 0;
     }
+
+    .markdown-alert {
+      margin: 1.5em 0;
+      padding: 14px 18px;
+      border: 1px solid #27304a;
+      border-left-width: 5px;
+      border-radius: 10px;
+      background: #141a2a;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    }
+
+    .markdown-alert-title {
+      margin-bottom: 0.7em;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      font-size: 0.9em;
+    }
+
+    .markdown-alert p:last-child,
+    .markdown-alert ul:last-child,
+    .markdown-alert ol:last-child,
+    .markdown-alert pre:last-child {
+      margin-bottom: 0;
+    }
+
+    .markdown-alert-note {
+      border-left-color: #4cb3ff;
+      background: #111d31;
+    }
+
+    .markdown-alert-note .markdown-alert-title {
+      color: #7bc7ff;
+    }
+
+    .markdown-alert-tip {
+      border-left-color: #2aebad;
+      background: #10241f;
+    }
+
+    .markdown-alert-tip .markdown-alert-title {
+      color: #6ae0a7;
+    }
+
+    .markdown-alert-important {
+      border-left-color: #b68cff;
+      background: #1a1630;
+    }
+
+    .markdown-alert-important .markdown-alert-title {
+      color: #d0b3ff;
+    }
+
+    .markdown-alert-warning {
+      border-left-color: #f2b84b;
+      background: #2c2110;
+    }
+
+    .markdown-alert-warning .markdown-alert-title {
+      color: #ffd37a;
+    }
+
+    .markdown-alert-caution {
+      border-left-color: #ff6b81;
+      background: #2d1419;
+    }
+
+    .markdown-alert-caution .markdown-alert-title {
+      color: #ff9eac;
+    }
     
     #content table {
       border-collapse: collapse;
@@ -369,6 +439,20 @@
       height: auto;
       border-radius: 8px;
       margin: 1em 0;
+    }
+
+    .embedded-image-warning {
+      margin: 1em 0;
+      padding: 14px 16px;
+      border: 1px solid #5a3940;
+      border-left: 5px solid #ff6b81;
+      border-radius: 10px;
+      background: #241218;
+      color: #ffd6dc;
+    }
+
+    .embedded-image-warning strong {
+      color: #ff9eac;
     }
 
     #content hr {
@@ -593,13 +677,124 @@
       return urlParams.get(name);
     }
 
+    function getAlertTitle(type) {
+      const titles = {
+        note: 'Nota',
+        tip: 'Consell',
+        important: 'Important',
+        warning: 'Avís',
+        caution: 'Precaució'
+      };
+
+      return titles[type] || type.charAt(0).toUpperCase() + type.slice(1);
+    }
+
+    function renderAlertHtml(type, title, bodyLines) {
+      const normalizedType = type.toLowerCase();
+      const innerMarkdown = bodyLines.join('\n').trim();
+      const innerHtml = innerMarkdown
+        ? marked.parse(transformGitHubAlerts(innerMarkdown)).trim()
+        : '';
+
+      return [
+        `<div class="markdown-alert markdown-alert-${normalizedType}">`,
+        `<p class="markdown-alert-title">${title}</p>`,
+        innerHtml,
+        '</div>'
+      ].join('\n');
+    }
+
+    function transformGitHubAlerts(mdText) {
+      const lines = mdText.split(/\r?\n/);
+      const output = [];
+
+      for (let index = 0; index < lines.length; index += 1) {
+        const match = lines[index].match(/^>\s*\[!([A-Z]+)\](?:\s+(.*))?\s*$/i);
+
+        if (!match) {
+          output.push(lines[index]);
+          continue;
+        }
+
+        const type = match[1].toLowerCase();
+        const title = (match[2] || '').trim() || getAlertTitle(type);
+        const bodyLines = [];
+
+        index += 1;
+        while (index < lines.length) {
+          const line = lines[index];
+
+          if (/^>\s?(.*)$/.test(line)) {
+            bodyLines.push(line.replace(/^>\s?/, ''));
+            index += 1;
+            continue;
+          }
+
+          if (line.trim() === '') {
+            bodyLines.push('');
+            index += 1;
+            continue;
+          }
+
+          break;
+        }
+
+        output.push(renderAlertHtml(type, title, bodyLines));
+        index -= 1;
+      }
+
+      return output.join('\n');
+    }
+
+    function getEmbeddedImageMimeType(src) {
+      const match = src.match(/^data:([^;,]+)[;,]/i);
+      return match ? match[1].toLowerCase() : null;
+    }
+
+    function isRenderableEmbeddedImage(mimeType) {
+      return [
+        'image/png',
+        'image/jpeg',
+        'image/jpg',
+        'image/gif',
+        'image/webp',
+        'image/avif',
+        'image/svg+xml',
+        'image/bmp'
+      ].includes(mimeType);
+    }
+
+    function replaceUnsupportedEmbeddedImages(container) {
+      const images = container.querySelectorAll('img[src^="data:image/"]');
+
+      images.forEach(img => {
+        const mimeType = getEmbeddedImageMimeType(img.getAttribute('src') || '');
+
+        if (!mimeType || isRenderableEmbeddedImage(mimeType)) {
+          return;
+        }
+
+        const warning = document.createElement('div');
+        warning.className = 'embedded-image-warning';
+        warning.innerHTML = `
+          <strong>Imatge incrustada no compatible</strong><br>
+          El visor accepta imatges base64, però aquest format no el pot renderitzar el navegador: <code>${mimeType}</code>.<br>
+          Converteix-la a <code>image/png</code>, <code>image/jpeg</code>, <code>image/webp</code> o <code>image/svg+xml</code>.
+        `.trim();
+
+        img.replaceWith(warning);
+      });
+    }
+
     function mdToHtmlWithMermaid(mdText) {
       // Render básico a HTML
-      const html = marked.parse(mdText);
+      const html = marked.parse(transformGitHubAlerts(mdText));
 
       // Inyecta en el DOM primero
       const container = document.getElementById("content");
       container.innerHTML = html;
+
+      replaceUnsupportedEmbeddedImages(container);
 
       // Busca bloques de código "mermaid" y reemplázalos por <div class="mermaid">...</div>
       const codeBlocks = container.querySelectorAll('pre > code.language-mermaid, pre > code.lang-mermaid, pre > code[class*="mermaid"]');
