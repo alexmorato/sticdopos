@@ -750,7 +750,8 @@
               recursos.urls.push({
                 name: urlData.name || 'Enllaç',
                 url: urlData.url,
-                type: urlData.type || 'web' // Añadir tipo (web, youtube, etc.)
+                type: urlData.type || 'web', // Añadir tipo (web, youtube, etc.)
+                newTab: urlData.newTab === true || urlData.newTab === 'true'
               });
             });
           }
@@ -989,11 +990,12 @@
               ${tema.recursos.urls.map((urlData, idx) => {
                 const icon = urlData.type === 'youtube' ? '🎥' : '🌐';
                 const btnClass = urlData.type === 'youtube' ? 'btn-youtube' : 'btn-url';
+                const newTabIcon = urlData.newTab ? ' ↗️' : '';
                 return `
                   <div class="recurso-item" id="recurso-url-${tema.tema}-${idx}" onclick="abrirURL('${tema.tema}', '${encodeURIComponent(urlData.url)}', '${encodeURIComponent(urlData.name)}', ${idx})">
                     <div class="recurso-name">${urlData.name}</div>
                     <button class="recurso-btn ${btnClass}" onclick="event.stopPropagation(); abrirURL('${tema.tema}', '${encodeURIComponent(urlData.url)}', '${encodeURIComponent(urlData.name)}', ${idx})">
-                      ${icon} ${urlData.type === 'youtube' ? 'Veure' : 'Obrir'}
+                      ${icon} ${urlData.type === 'youtube' ? 'Veure' : 'Obrir'}${newTabIcon}
                     </button>
                   </div>
                 `;
@@ -1064,6 +1066,12 @@
       const temaData = todosLosDatos.find(t => t.tema === temaId);
       const urlData = temaData && temaData.recursos.urls[idx];
       const type = urlData && urlData.type ? urlData.type : 'web';
+      const shouldOpenNewTab = Boolean(urlData && urlData.newTab);
+
+      if (shouldOpenNewTab) {
+        window.open(url, '_blank', 'noopener,noreferrer');
+        return;
+      }
       
       localStorage.setItem('sTICdOpos_iframe_url', url);
       localStorage.setItem('sTICdOpos_iframe_name', name);
