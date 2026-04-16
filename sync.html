@@ -455,6 +455,7 @@
   <script src="assets/js/localstorage-utils.js"></script>
   <script src="assets/js/login.js"></script>
   <script src="assets/js/loading.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
   <link rel="stylesheet" href="assets/styles/loading.css">
 </head>
 <body>
@@ -761,6 +762,7 @@
     import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-storage.js";
 
     const MAX_INTERACCIONES_DIA = 20;
+    const FIREBASE_SITE_ID_BCRYPT_HASH = "$2a$12$Qz45jwP3glG9qREgEX3Q0uUY4sAr2R/YhdPshaOXFqppamVHxDtmy";
 
     // Variables globales - expuestas en window para acceso desde funciones onclick
     window.storage = null;
@@ -785,8 +787,41 @@
       interaccionesApi: {}
     };
 
+    function getBcryptLib() {
+      return window.dcodeIO && window.dcodeIO.bcrypt
+        ? window.dcodeIO.bcrypt
+        : (window.bcryptjs || window.bcrypt);
+    }
+
+    async function validarSiteId(siteId) {
+      const normalizedSiteId = (siteId || '').trim();
+      if (!normalizedSiteId) {
+        return false;
+      }
+
+      if (!FIREBASE_SITE_ID_BCRYPT_HASH) {
+        console.warn('FIREBASE_SITE_ID_BCRYPT_HASH no está configurado; se omite la validación bcrypt.');
+        return true;
+      }
+
+      const bcrypt = getBcryptLib();
+      if (!bcrypt || typeof bcrypt.compare !== 'function') {
+        throw new Error('bcrypt no està disponible');
+      }
+
+      return new Promise((resolve, reject) => {
+        bcrypt.compare(normalizedSiteId, FIREBASE_SITE_ID_BCRYPT_HASH, (error, result) => {
+          if (error) {
+            reject(error);
+            return;
+          }
+          resolve(Boolean(result));
+        });
+      });
+    }
+
     // Inicialización
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', async function() {
       const userName = localStorage.getItem(LS_KEYS.USER_NAME);
       const userPass = localStorage.getItem(LS_KEYS.USER_PASS);
       login.checkUserAuth(userName, userPass);
@@ -818,17 +853,45 @@
 
       // Verificar si viene siteid por parámetro URL
       const urlParams = new URLSearchParams(window.location.search);
-      const siteIdFromUrl = urlParams.get('siteid');
-      
+      const siteIdFromUrl = (urlParams.get('siteid') || '').trim();
+
       if (siteIdFromUrl) {
-        localStorage.setItem(LS_KEYS.FIREBASE_SITE_ID, siteIdFromUrl);
-        toast.showToast('Site ID guardat des de la URL!');
+        try {
+          const siteIdValido = await validarSiteId(siteIdFromUrl);
+          if (siteIdValido) {
+            localStorage.setItem(LS_KEYS.FIREBASE_SITE_ID, siteIdFromUrl);
+            toast.showToast('Site ID guardat des de la URL!');
+          } else {
+            localStorage.removeItem(LS_KEYS.FIREBASE_SITE_ID);
+            toast.showToast('El Site ID de la URL no és vàlid');
+          }
+        } catch (error) {
+          console.error('Error validando Site ID desde la URL:', error);
+          toast.showToast('Error validant el Site ID');
+        }
+
         // Limpiar la URL sin recargar
         window.history.replaceState({}, document.title, window.location.pathname);
       }
 
       let firebaseSiteId = localStorage.getItem(LS_KEYS.FIREBASE_SITE_ID);
       let apiKey = localStorage.getItem(LS_KEYS.FIREBASE_APIKEY);
+
+      if (firebaseSiteId) {
+        try {
+          const siteIdValido = await validarSiteId(firebaseSiteId);
+          if (!siteIdValido) {
+            localStorage.removeItem(LS_KEYS.FIREBASE_SITE_ID);
+            firebaseSiteId = null;
+            toast.showToast('El Site ID guardat no és vàlid');
+          }
+        } catch (error) {
+          console.error('Error validando Site ID guardado:', error);
+          localStorage.removeItem(LS_KEYS.FIREBASE_SITE_ID);
+          firebaseSiteId = null;
+          toast.showToast('Error validant el Site ID guardat');
+        }
+      }
 
       // Si no hay Site ID, mostrar modal
       if (!firebaseSiteId) {
@@ -838,10 +901,24 @@
 
         modal.style.display = 'flex';
 
-        const guardarSiteId = () => {
+        const guardarSiteId = async () => {
           const newSiteId = input.value.trim();
           if (!newSiteId) {
             toast.showToast('El Site ID no pot estar buit');
+            return;
+          }
+
+          let siteIdValido = false;
+          try {
+            siteIdValido = await validarSiteId(newSiteId);
+          } catch (error) {
+            console.error('Error validando Site ID introducido manualmente:', error);
+            toast.showToast('Error validant el Site ID');
+            return;
+          }
+
+          if (!siteIdValido) {
+            toast.showToast('El Site ID introduït no és correcte');
             return;
           }
 
