@@ -197,6 +197,29 @@
       transform: translateY(-1px);
     }
 
+    .btn-pausar-youtube {
+      width: 100%;
+      padding: 12px;
+      background: #e63946;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      transition: all 0.2s;
+      display: none;
+    }
+
+    .btn-pausar-youtube:hover {
+      background: #ff5566;
+      transform: translateY(-1px);
+    }
+
+    .btn-pausar-youtube.visible {
+      display: block;
+    }
+
     /* Label del nombre */
     .info-label {
       position: fixed;
@@ -349,6 +372,9 @@
     <button class="btn-tornar" id="menuIndexBtn">
       👨‍💻 Menu
     </button>
+    <button class="btn-pausar-youtube" id="pausarYoutubeBtn">
+      ⏸️ Pausar estudi YouTube
+    </button>
   </div>
 
   <!-- Label fijo arriba a la izquierda con el nombre -->
@@ -366,13 +392,14 @@
 
   <!-- YouTube IFrame Player API -->
   <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
 
   <script>
     // Obtener datos desde localStorage
-    const url = localStorage.getItem('sTICdOpos_iframe_url');
-    const name = localStorage.getItem('sTICdOpos_iframe_name');
-    const tema = localStorage.getItem('sTICdOpos_iframe_tema');
-    const type = localStorage.getItem('sTICdOpos_iframe_type') || 'web';
+    const url = localStorage.getItem(LS_KEYS.IFRAME_URL);
+    const name = localStorage.getItem(LS_KEYS.IFRAME_NAME);
+    const tema = localStorage.getItem(LS_KEYS.IFRAME_TEMA);
+    const type = localStorage.getItem(LS_KEYS.IFRAME_TYPE) || 'web';
 
     const infoLabel = document.getElementById('infoLabel');
     const iframeContainer = document.getElementById('iframeContainer');
@@ -384,8 +411,23 @@
     const fullscreenBtn = document.getElementById('fullscreenBtn');
     const tornarBtn = document.getElementById('tornarBtn');
     const menuIndexBtn = document.getElementById('menuIndexBtn');
+    const pausarYoutubeBtn = document.getElementById('pausarYoutubeBtn');
 
     let youtubePlayer = null;
+    let esVideoYouTube = false;
+
+    // Verificar si hay datos de continuar estudio YouTube
+    const continueYoutube = localStorage.getItem(LS_KEYS.YOUTUBE_CONTINUE);
+    let tiempoInicio = null;
+    if (continueYoutube === 'true') {
+      const datosGuardados = localStorage.getItem(LS_KEYS.YOUTUBE_PAUSADO);
+      if (datosGuardados) {
+        const datos = JSON.parse(datosGuardados);
+        tiempoInicio = datos.segundos;
+      }
+      // Limpiar flag de continuar
+      localStorage.removeItem(LS_KEYS.YOUTUBE_CONTINUE);
+    }
 
     // Actualizar label con el nombre
     infoLabel.textContent = name || 'Recurs web';
@@ -423,8 +465,12 @@
 
       // Detectar si es YouTube automáticamente o por tipo
       if (type === 'youtube' || esYouTube(url)) {
+        esVideoYouTube = true;
+        pausarYoutubeBtn.classList.add('visible');
         cargarYouTubePlayer();
       } else {
+        esVideoYouTube = false;
+        pausarYoutubeBtn.classList.remove('visible');
         cargarIframeNormal();
       }
     }
@@ -518,6 +564,12 @@
 
     // Cuando el reproductor está listo
     function onPlayerReady(event) {
+      // Si hay tiempo de inicio guardado, hacer seek
+      if (tiempoInicio !== null && tiempoInicio > 0) {
+        youtubePlayer.seekTo(tiempoInicio, true);
+        youtubePlayer.playVideo();
+      }
+
       // Configurar botones de velocidad
       const speedBtns = document.querySelectorAll('.speed-btn');
       speedBtns.forEach(btn => {
@@ -631,6 +683,34 @@
     // Botón menu principal
     menuIndexBtn.addEventListener('click', () => {
       window.location.href = 'index.html';
+    });
+
+    // Botón pausar estudio YouTube
+    pausarYoutubeBtn.addEventListener('click', () => {
+      if (youtubePlayer && esVideoYouTube) {
+        // Pausar el video
+        youtubePlayer.pauseVideo();
+        
+        // Obtener tiempo actual en segundos
+        const tiempoActual = youtubePlayer.getCurrentTime();
+        const minutos = Math.floor(tiempoActual / 60);
+        const segundos = Math.floor(tiempoActual % 60);
+        
+        // Guardar datos en localStorage
+        const datosYouTube = {
+          url: url,
+          name: name,
+          tema: tema,
+          segundos: tiempoActual,
+          tiempoFormateado: `${minutos}:${segundos.toString().padStart(2, '0')}`,
+          fechaPausado: new Date().toISOString()
+        };
+        localStorage.setItem(LS_KEYS.YOUTUBE_PAUSADO, JSON.stringify(datosYouTube));
+        
+        // Cerrar menú y mostrar confirmación
+        menuPanel.classList.remove('visible');
+        alert(`Estudi pausat a ${datosYouTube.tiempoFormateado}. Pots continuar des del menú principal.`);
+      }
     });
 
     // Capturar tecla Backspace para volver atrás

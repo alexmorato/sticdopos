@@ -22,7 +22,13 @@ const LS_KEYS = {
   USER_PASS: 'sTICdOpos_userPass',
   INTERACCIONES_API: 'sTICdOpos_apiInteracciones',
   FIREBASE_SITE_ID: 'sTICdOpos_firebaseSiteId',
-  ADMIN_DEBUG: 'sTICdOpos_debugadm'
+  ADMIN_DEBUG: 'sTICdOpos_debugadm',
+  YOUTUBE_PAUSADO: 'sTICdOpos_youtubePausado',
+  YOUTUBE_CONTINUE: 'sTICdOpos_youtubeContinue',
+  IFRAME_URL: 'sTICdOpos_iframe_url',
+  IFRAME_NAME: 'sTICdOpos_iframe_name',
+  IFRAME_TEMA: 'sTICdOpos_iframe_tema',
+  IFRAME_TYPE: 'sTICdOpos_iframe_type'
 };
 
 // Método para borrar el estado guardado de estudio

@@ -1073,10 +1073,10 @@
         return;
       }
       
-      localStorage.setItem('sTICdOpos_iframe_url', url);
-      localStorage.setItem('sTICdOpos_iframe_name', name);
-      localStorage.setItem('sTICdOpos_iframe_tema', temaId);
-      localStorage.setItem('sTICdOpos_iframe_type', type);
+      localStorage.setItem(LS_KEYS.IFRAME_URL, url);
+      localStorage.setItem(LS_KEYS.IFRAME_NAME, name);
+      localStorage.setItem(LS_KEYS.IFRAME_TEMA, temaId);
+      localStorage.setItem(LS_KEYS.IFRAME_TYPE, type);
       // Abrir página con iframe (la crearemos después)
       window.open('iframe_viewer.html', '_self');
     };

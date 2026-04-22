@@ -103,6 +103,9 @@
       <button id="continuaEstudi" class="menu-btn" disabled onclick="continuaEstudi()">
         🔄 Continua estudi
       </button>
+      <button id="continuaYoutubeBtn" class="menu-btn" disabled onclick="continuaYoutube()">
+        ▶️ Continua YouTube
+      </button>
       <button class="menu-btn"  onclick="window.location.href='cargarManual.html'">
         ✂️ Estudiar CopyPaste
       </button>
@@ -216,12 +219,31 @@
 
     document.addEventListener('DOMContentLoaded', function() {
       const continuaEstudiBtn = document.getElementById('continuaEstudi');
+      const continuaYoutubeBtn = document.getElementById('continuaYoutubeBtn');
       
-      // Verificar si existe el item en localStorage
+      // Verificar si existe el item en localStorage para continuar estudio
       if (!localStorage.getItem(LS_KEYS.ESTUDIO_WIP)) {
         continuaEstudiBtn.disabled = true;
       } else {
         continuaEstudiBtn.disabled = false;
+      }
+
+      // Verificar si existe estudio YouTube pausado
+      const datosYouTube = localStorage.getItem(LS_KEYS.YOUTUBE_PAUSADO);
+      if (datosYouTube) {
+        continuaYoutubeBtn.disabled = false;
+        try {
+          const datos = JSON.parse(datosYouTube);
+          const tiempo = datos.tiempoFormateado || '';
+          const nombre = datos.name || 'Video';
+          // Mostrar info en el botón
+          continuaYoutubeBtn.innerHTML = `▶️ Continua YouTube (${tiempo})`;
+          continuaYoutubeBtn.title = `${nombre} - ${tiempo}`;
+        } catch (e) {
+          console.error('Error parsing YouTube data:', e);
+        }
+      } else {
+        continuaYoutubeBtn.disabled = true;
       }
     });
 
@@ -257,7 +279,26 @@
       localStorage.setItem(LS_KEYS.ESTUDIO_WIP_CONTINUE, 'true');
       window.location.href = 'estudiar.html';
     }
-
+    // Continuar estudio de YouTube pausado
+    function continuaYoutube() {
+      const datosYouTube = localStorage.getItem(LS_KEYS.YOUTUBE_PAUSADO);
+      if (datosYouTube) {
+        try {
+          const datos = JSON.parse(datosYouTube);
+          // Establecer datos para iframe_viewer
+          localStorage.setItem(LS_KEYS.IFRAME_URL, datos.url);
+          localStorage.setItem(LS_KEYS.IFRAME_NAME, datos.name || 'Video YouTube');
+          localStorage.setItem(LS_KEYS.IFRAME_TEMA, datos.tema || '');
+          localStorage.setItem(LS_KEYS.IFRAME_TYPE, 'youtube');
+          // Flag para indicar que debe continuar desde tiempo guardado
+          localStorage.setItem(LS_KEYS.YOUTUBE_CONTINUE, 'true');
+          window.location.href = 'iframe_viewer.html';
+        } catch (e) {
+          console.error('Error al continuar YouTube:', e);
+          alert('Error al carregar les dades del vídeo guardat.');
+        }
+      }
+    }
     // Borrar el último error del historial
     function logout() {
       localStorage.removeItem(LS_KEYS.USER_NAME);
