@@ -162,6 +162,60 @@
       transform: translateY(-1px);
     }
 
+    .btn-pausar-diapos {
+      width: 100%;
+      padding: 12px;
+      background: #e63946;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      transition: all 0.2s;
+    }
+
+    .btn-pausar-diapos:hover {
+      background: #ff5566;
+      transform: translateY(-1px);
+    }
+
+    /* Indicador de continuar */
+    .continue-indicator {
+      position: absolute;
+      top: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #e63946;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 12px rgba(230, 57, 70, 0.4);
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .continue-indicator::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #e63946;
+    }
+
+    .continue-indicator .fecha {
+      font-size: 0.8rem;
+      opacity: 0.9;
+    }
+
     /* Label del directorio */
     .info-label {
       position: fixed;
@@ -240,6 +294,9 @@
     <button class="btn-tornar" id="menuIndexBtn">
       👨‍💻 Menu
     </button>
+    <button class="btn-pausar-diapos" id="pausarDiaposBtn">
+      ⏸️ Pausar diapos
+    </button>
   </div>
 
   <!-- Label fijo arriba a la izquierda con el nombre del directorio -->
@@ -249,6 +306,7 @@
 
   <div id="slidesContainer"></div>
 
+  <script src="assets/js/localstorage-utils.js"></script>
   <script>
     // Leer parámetros de la URL
     const urlParams = new URLSearchParams(window.location.search);
@@ -260,6 +318,21 @@
     // Parsear lista de imágenes
     const imgs = imgsParam.split(',').filter(img => img.trim() !== '');
 
+    // Verificar si hay datos de continuar diapos
+    const continueDiapos = localStorage.getItem(LS_KEYS.DIAPOS_CONTINUE);
+    let slideInicioContinuar = null;
+    let fechaPausado = null;
+    if (continueDiapos === 'true') {
+      const datosGuardados = localStorage.getItem(LS_KEYS.DIAPOS_PAUSADO);
+      if (datosGuardados) {
+        const datos = JSON.parse(datosGuardados);
+        slideInicioContinuar = datos.slideIndex;
+        fechaPausado = datos.fechaPausado;
+      }
+      // Limpiar flag de continuar
+      localStorage.removeItem(LS_KEYS.DIAPOS_CONTINUE);
+    }
+
     // Generar dinámicamente los slides
     const container = document.getElementById('slidesContainer');
     
@@ -270,6 +343,18 @@
         const slideDiv = document.createElement('div');
         slideDiv.className = 'slide';
         slideDiv.style.position = 'relative';
+        slideDiv.dataset.index = index;
+        
+        // Si es la diapositiva donde se pausó, añadir indicador
+        if (slideInicioContinuar !== null && index === slideInicioContinuar) {
+          const indicatorDiv = document.createElement('div');
+          indicatorDiv.className = 'continue-indicator';
+          indicatorDiv.innerHTML = `
+            <span>▼ Continuar diapos</span>
+            <span class="fecha">${fechaPausado ? new Date(fechaPausado).toLocaleDateString('ca-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : ''}</span>
+          `;
+          slideDiv.appendChild(indicatorDiv);
+        }
         
         // Contador de diapositiva (1 de N)
         const counterDiv = document.createElement('div');
@@ -286,6 +371,16 @@
         slideDiv.appendChild(imgElement);
         container.appendChild(slideDiv);
       });
+
+      // Si hay continuar, hacer scroll a la diapositiva
+      if (slideInicioContinuar !== null) {
+        setTimeout(() => {
+          const targetSlide = container.querySelector(`[data-index="${slideInicioContinuar}"]`);
+          if (targetSlide) {
+            targetSlide.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        }, 300);
+      }
     }
 
     // Actualizar label con el nombre del directorio
@@ -299,6 +394,31 @@
     const fullscreenBtn = document.getElementById('fullscreenBtn');
     const tornarBtn = document.getElementById('tornarBtn');
     const menuIndexBtn = document.getElementById('menuIndexBtn');
+    const pausarDiaposBtn = document.getElementById('pausarDiaposBtn');
+
+    // Función para obtener la diapositiva más visible
+    function getVisibleSlideIndex() {
+      const slides = container.querySelectorAll('.slide');
+      let maxVisibleIndex = 0;
+      let maxVisibleArea = 0;
+
+      slides.forEach((slide, index) => {
+        const rect = slide.getBoundingClientRect();
+        const viewportHeight = window.innerHeight;
+        
+        // Calcular cuánto del slide es visible
+        const visibleTop = Math.max(0, rect.top);
+        const visibleBottom = Math.min(viewportHeight, rect.bottom);
+        const visibleArea = Math.max(0, visibleBottom - visibleTop);
+        
+        if (visibleArea > maxVisibleArea) {
+          maxVisibleArea = visibleArea;
+          maxVisibleIndex = index;
+        }
+      });
+
+      return maxVisibleIndex;
+    }
 
     // Toggle menú
     menuBtn.addEventListener('click', () => {
@@ -369,6 +489,29 @@
     // Botón menu principal
     menuIndexBtn.addEventListener('click', () => {
       window.location.href = 'index.html';
+    });
+
+    // Botón pausar diapos
+    pausarDiaposBtn.addEventListener('click', () => {
+      const slideIndex = getVisibleSlideIndex();
+      
+      // Guardar datos en localStorage
+      const datosDiapos = {
+        root: root,
+        dir: dir,
+        tema: tema,
+        imgs: imgsParam,
+        slideIndex: slideIndex,
+        slideNumber: slideIndex + 1,
+        totalSlides: imgs.length,
+        fechaPausado: new Date().toISOString(),
+        urlCompleta: window.location.href
+      };
+      localStorage.setItem(LS_KEYS.DIAPOS_PAUSADO, JSON.stringify(datosDiapos));
+      
+      // Cerrar menú y mostrar confirmación
+      menuPanel.classList.remove('visible');
+      alert(`Diapos pausades a la ${slideIndex + 1} de ${imgs.length}. Pots continuar des del menú principal.`);
     });
 
   </script>

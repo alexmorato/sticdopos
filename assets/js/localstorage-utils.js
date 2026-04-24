@@ -28,7 +28,9 @@ const LS_KEYS = {
   IFRAME_URL: 'sTICdOpos_iframe_url',
   IFRAME_NAME: 'sTICdOpos_iframe_name',
   IFRAME_TEMA: 'sTICdOpos_iframe_tema',
-  IFRAME_TYPE: 'sTICdOpos_iframe_type'
+  IFRAME_TYPE: 'sTICdOpos_iframe_type',
+  DIAPOS_PAUSADO: 'sTICdOpos_diaposPausado',
+  DIAPOS_CONTINUE: 'sTICdOpos_diaposContinue'
 };
 
 // Método para borrar el estado guardado de estudio
