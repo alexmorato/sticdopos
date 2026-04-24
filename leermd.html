@@ -183,6 +183,56 @@
       transform: translateY(-1px);
     }
 
+    .btn-pausar-md {
+      width: 100%;
+      padding: 12px;
+      background: #e63946;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      transition: all 0.2s;
+    }
+
+    .btn-pausar-md:hover {
+      background: #ff5566;
+      transform: translateY(-1px);
+    }
+
+    /* Indicador de continuar */
+    .continue-indicator-md {
+      position: fixed;
+      top: 80px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #e63946;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 12px rgba(230, 57, 70, 0.4);
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .continue-indicator-md:hover {
+      background: #ff5566;
+      transform: translateX(-50%) scale(1.05);
+    }
+
+    .continue-indicator-md .fecha {
+      font-size: 0.8rem;
+      opacity: 0.9;
+    }
+
     .menu-separator {
       height: 1px;
       background: #27304a;
@@ -621,6 +671,9 @@
     <button class="btn-tornar" id="btnToggleToc">
       📑 Índex
     </button>
+    <button class="btn-pausar-md" id="pausarMdBtn">
+      ⏸️ Pausar apuntes
+    </button>
   </div>
 
   <!-- Label fijo arriba a la izquierda con el nombre del fichero -->
@@ -637,6 +690,7 @@
     </div>
   </div>
 
+  <script src="assets/js/localstorage-utils.js"></script>
   <script>
     // 1) Configura Mermaid (NO auto-start; lo hacemos tras insertar el HTML)
     mermaid.initialize({
@@ -670,6 +724,22 @@
     const btnToggleToc = document.getElementById('btnToggleToc');
     const btnFontIncrease = document.getElementById('btnFontIncrease');
     const btnFontDecrease = document.getElementById('btnFontDecrease');
+    const pausarMdBtn = document.getElementById('pausarMdBtn');
+
+    // Verificar si hay datos de continuar MD
+    const continueMd = localStorage.getItem(LS_KEYS.MD_CONTINUE);
+    let scrollPosicionInicio = null;
+    let fechaPausadoMd = null;
+    if (continueMd === 'true') {
+      const datosGuardados = localStorage.getItem(LS_KEYS.MD_PAUSADO);
+      if (datosGuardados) {
+        const datos = JSON.parse(datosGuardados);
+        scrollPosicionInicio = datos.scrollPosition;
+        fechaPausadoMd = datos.fechaPausado;
+      }
+      // Limpiar flag de continuar
+      localStorage.removeItem(LS_KEYS.MD_CONTINUE);
+    }
 
     // Obtener parámetro de la URL
     function getUrlParameter(name) {
@@ -940,6 +1010,26 @@
         
         const text = await resp.text();
         mdToHtmlWithMermaid(text);
+
+        // Si hay posición de continuar, hacer scroll y mostrar indicador
+        if (scrollPosicionInicio !== null) {
+          setTimeout(() => {
+            mainPanel.scrollTop = scrollPosicionInicio;
+            
+            // Crear indicador de continuar
+            const indicator = document.createElement('div');
+            indicator.className = 'continue-indicator-md';
+            indicator.innerHTML = `
+              <span>▼ Continuar apuntes</span>
+              <span class="fecha">${fechaPausadoMd ? new Date(fechaPausadoMd).toLocaleDateString('ca-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : ''}</span>
+            `;
+            indicator.onclick = () => indicator.remove();
+            document.body.appendChild(indicator);
+            
+            // Auto-ocultar después de 5 segundos
+            setTimeout(() => indicator.remove(), 5000);
+          }, 500);
+        }
       } catch (e) {
         document.getElementById("content").innerHTML = `
           <blockquote>
@@ -1044,6 +1134,30 @@
         currentFontSize -= 2;
         contentDiv.style.fontSize = `${currentFontSize}px`;
       }
+    });
+
+    // Botón pausar apuntes MD
+    pausarMdBtn.addEventListener('click', () => {
+      const root = getUrlParameter('root') || 'apunts_new';
+      const fitxer = getUrlParameter('fitxer');
+      const tema = getUrlParameter('tema');
+      const scrollPosition = mainPanel.scrollTop;
+      
+      // Guardar datos en localStorage
+      const datosMd = {
+        root: root,
+        fitxer: fitxer,
+        tema: tema,
+        scrollPosition: scrollPosition,
+        fileName: fitxer ? fitxer.replace(/\.[^/.]+$/, '') : 'Apuntes',
+        fechaPausado: new Date().toISOString(),
+        urlCompleta: window.location.href
+      };
+      localStorage.setItem(LS_KEYS.MD_PAUSADO, JSON.stringify(datosMd));
+      
+      // Cerrar menú y mostrar confirmación
+      menuPanel.classList.remove('visible');
+      alert(`Apuntes pausats. Pots continuar des del menú principal.`);
     });
 
     // Cargar al iniciar
