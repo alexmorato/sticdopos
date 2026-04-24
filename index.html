@@ -85,6 +85,27 @@
       .menu-btn { font-size: 1.3rem; padding: 6px; }
     }
 
+    /* Animación de pulso/latido para resaltar botones */
+    @keyframes pulse-highlight {
+      0% {
+        box-shadow: 0 0 0 0 rgba(106, 224, 167, 0.7);
+        background: #1b223a;
+      }
+      50% {
+        box-shadow: 0 0 20px 10px rgba(106, 224, 167, 0.4);
+        background: #2a5f4a;
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(106, 224, 167, 0.7);
+        background: #1b223a;
+      }
+    }
+
+    .menu-btn.pulse-animation {
+      animation: pulse-highlight 1s ease-in-out 4;
+      border-color: #6ae0a7;
+    }
+
   </style>
 </head>
 <body>
@@ -288,6 +309,37 @@
         }
       } else {
         continuaApuntesBtn.disabled = true;
+      }
+
+      // Verificar si hay que resaltar algún botón (desde pausar YouTube/diapos/apuntes)
+      const urlParams = new URLSearchParams(window.location.search);
+      const highlight = urlParams.get('highlight');
+      if (highlight === 'youtube' && !continuaYoutubeBtn.disabled) {
+        continuaYoutubeBtn.classList.add('pulse-animation');
+        // Quitar animación después de 4 segundos
+        setTimeout(() => {
+          continuaYoutubeBtn.classList.remove('pulse-animation');
+        }, 4000);
+        // Limpiar URL sin recargar
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+      if (highlight === 'apuntes' && !continuaApuntesBtn.disabled) {
+        continuaApuntesBtn.classList.add('pulse-animation');
+        // Quitar animación después de 4 segundos
+        setTimeout(() => {
+          continuaApuntesBtn.classList.remove('pulse-animation');
+        }, 4000);
+        // Limpiar URL sin recargar
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+      if (highlight === 'diapos' && !continuaDiaposBtn.disabled) {
+        continuaDiaposBtn.classList.add('pulse-animation');
+        // Quitar animación después de 4 segundos
+        setTimeout(() => {
+          continuaDiaposBtn.classList.remove('pulse-animation');
+        }, 4000);
+        // Limpiar URL sin recargar
+        window.history.replaceState({}, document.title, window.location.pathname);
       }
     });
 

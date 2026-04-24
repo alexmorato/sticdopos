@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "87cf0c76-48a5-4085-b783-d537516c61ac",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el papel de la costumbre en el Derecho Administrativo según el material proporcionado?",
+    "answerOptions": [
+      {
+        "text": "Es una fuente directa y primaria siempre que no exista ley aplicable.",
+        "rationale": "La costumbre no tiene carácter primario en el ámbito administrativo y su aplicación es excepcional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo se considera fuente cuando una ley hace referencia expresa a ella.",
+        "rationale": "El Derecho Administrativo requiere una remisión legal para que la costumbre adquiera eficacia como fuente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es la fuente principal para regular la organización interna de las administraciones.",
+        "rationale": "La organización administrativa se rige fundamentalmente por normas escritas y reglamentos, no por costumbres.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vincula a la Administración siempre que sea notoria y probada por los ciudadanos.",
+        "rationale": "La notoriedad no otorga validez jurídica a la costumbre en este ámbito sin una habilitación legislativa previa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que la Administración actúa bajo el principio de legalidad y primacía del derecho escrito."
+  },
+  {
+    "guid": "545f268c-4778-4f45-b62f-5145cbe31c21",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Respecto al precedente administrativo, ¿cuál de las siguientes afirmaciones es correcta?",
+    "answerOptions": [
+      {
+        "text": "Vincula estrictamente la actuación futura de la Administración en casos idénticos.",
+        "rationale": "La Administración posee margen de discrecionalidad y puede modificar sus criterios de actuación.",
+        "isCorrect": false
+      },
+      {
+        "text": "No es fuente de derecho, pero un cambio de criterio debe ser motivado.",
+        "rationale": "Aunque no obliga a repetir actuaciones, la seguridad jurídica exige justificar por qué se abandona un criterio previo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tiene el mismo rango jerárquico que un reglamento administrativo.",
+        "rationale": "El precedente es una práctica o criterio aplicativo, careciendo de la naturaleza normativa de un reglamento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Su vulneración implica automáticamente la inconstitucionalidad del acto.",
+        "rationale": "La vulneración del precedente puede conllevar ilegalidad o arbitrariedad, pero no necesariamente inconstitucionalidad directa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la necesidad de explicar por qué se decide actuar de forma diferente a como se hizo antes."
+  },
+  {
+    "guid": "6f22fb61-09b1-4bbc-80f9-cfd3f422b0d6",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo general de la vacatio legis si la norma no especifica uno distinto?",
+    "answerOptions": [
+      {
+        "text": "15 días naturales.",
+        "rationale": "Este plazo coincide con el que tiene el Rey para sancionar, pero no con la entrada en vigor general.",
+        "isCorrect": false
+      },
+      {
+        "text": "20 días.",
+        "rationale": "Es el plazo supletorio establecido en el Código Civil para la entrada en vigor de las leyes y reglamentos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al día siguiente de su publicación en el BOE.",
+        "rationale": "Este es un supuesto frecuente, pero debe ser declarado expresamente por la propia norma.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un mes desde su aprobación en las Cortes.",
+        "rationale": "El cómputo para la entrada en vigor siempre se inicia con la publicación, no con la aprobación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Consulte la previsión general del Código Civil sobre la eficacia de las normas."
+  },
+  {
+    "guid": "c96aeda4-21b2-4aab-9907-edaeafbf232f",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué supuestos se permite excepcionalmente la retroactividad de los reglamentos?",
+    "answerOptions": [
+      {
+        "text": "En disposiciones sancionadoras no favorables.",
+        "rationale": "La Constitución prohíbe taxativamente la retroactividad de las normas sancionadoras restrictivas de derechos.",
+        "isCorrect": false
+      },
+      {
+        "text": "En normas de organización y de procedimiento.",
+        "rationale": "Se admite la retroactividad en aspectos procedimentales o de autoorganización al no afectar derechos individuales consolidados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuando el reglamento es de rango superior a la ley que desarrolla.",
+        "rationale": "Un reglamento nunca puede tener un rango superior a una ley en la jerarquía normativa española.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca se permite la retroactividad de un reglamento bajo ninguna circunstancia.",
+        "rationale": "Existen excepciones como las normas interpretativas o las favorables que permiten efectos retroactivos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en normas que no imponen cargas nuevas al ciudadano sino que aclaran o regulan el funcionamiento interno."
+  },
+  {
+    "guid": "44ef8309-e219-409e-97af-e5263a776cd2",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el proceso legislativo, ¿cómo se denomina la iniciativa que emana del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Proposición de ley.",
+        "rationale": "Este término se reserva para las iniciativas del Congreso, Senado, Comunidades Autónomas o populares.",
+        "isCorrect": false
+      },
+      {
+        "text": "Proyecto de ley.",
+        "rationale": "Es la denominación técnica de la iniciativa legislativa gubernamental enviada al Congreso con prioridad de trámite.",
+        "isCorrect": true
+      },
+      {
+        "text": "Decreto Legislativo.",
+        "rationale": "El Decreto Legislativo es el resultado de una delegación, no el inicio del proceso de una ley parlamentaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Anteproyecto de ley.",
+        "rationale": "El anteproyecto es el borrador interno del Ministerio antes de ser aprobado por el Consejo de Ministros.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este tipo de texto tiene prioridad en la tramitación parlamentaria."
+  },
+  {
+    "guid": "898cbdba-0062-4eef-a4ae-50e357d41417",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de las siguientes materias está excluida de la Iniciativa Legislativa Popular?",
+    "answerOptions": [
+      {
+        "text": "Medio ambiente.",
+        "rationale": "Las cuestiones ambientales son susceptibles de iniciativa popular al no tener reserva de ley orgánica obligatoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prerrogativa de gracia (indultos).",
+        "rationale": "La Constitución excluye las materias relativas al indulto de la participación directa de los ciudadanos en la iniciativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Vivienda social.",
+        "rationale": "Es un derecho del Título I que puede regularse por ley ordinaria, por lo que admite iniciativa popular.",
+        "isCorrect": false
+      },
+      {
+        "text": "Protección de animales.",
+        "rationale": "Al no ser materia internacional ni tributaria, es un objeto válido para la recogida de firmas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en decisiones que son competencia exclusiva del Estado en el ejercicio del perdón."
+  },
+  {
+    "guid": "255965d9-f4f7-432d-b609-19a6e841731d",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué número de firmas se requiere para presentar una Iniciativa Legislativa Popular en España?",
+    "answerOptions": [
+      {
+        "text": "100.000 firmas.",
+        "rationale": "Esta cantidad es insuficiente según los requisitos establecidos en el artículo 87.3 de la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "500.000 firmas.",
+        "rationale": "Es el umbral mínimo de firmas acreditadas exigido por la Constitución para tramitar este tipo de iniciativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "1.000.000 de firmas.",
+        "rationale": "Aunque daría mayor legitimidad, el requisito legal se sitúa en la mitad de esta cifra.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una cuarta parte del censo electoral.",
+        "rationale": "La ley establece una cifra fija y no un porcentaje variable del censo para este trámite.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de medio millón de apoyos ciudadanos."
+  },
+  {
+    "guid": "29e177e8-7b32-44bd-9093-5f04eb5e49ce",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién ostenta la facultad de sancionar y promulgar las leyes en el Estado español?",
+    "answerOptions": [
+      {
+        "text": "El Presidente del Gobierno.",
+        "rationale": "El Presidente refrenda algunos actos, pero la sanción es una facultad simbólica del Jefe del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey.",
+        "rationale": "Como autoridad suprema del Estado, el Rey sanciona y promulga las leyes en un plazo de 15 días.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente del Congreso de los Diputados.",
+        "rationale": "Su función es remitir el texto aprobado para su sanción, pero no sanciona la ley por sí mismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Constitucional.",
+        "rationale": "El Tribunal controla la legalidad de la ley a posteriori, pero no interviene en su perfeccionamiento formal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la figura que representa la unidad y permanencia del Estado en una monarquía parlamentaria."
+  },
+  {
+    "guid": "9077795e-5369-48fc-bda4-632947d459be",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Si el Senado veta un proyecto de ley, ¿qué mayoría necesita el Congreso para levantarlo inmediatamente?",
+    "answerOptions": [
+      {
+        "text": "Mayoría Simple.",
+        "rationale": "La mayoría simple solo sirve para levantar el veto una vez transcurridos dos meses desde su interposición.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría Absoluta.",
+        "rationale": "El Congreso puede ratificar el texto original por mayoría absoluta para ignorar el veto del Senado de forma inmediata.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría de dos tercios.",
+        "rationale": "Esta mayoría reforzada se reserva para reformas constitucionales, no para el trámite legislativo ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad de los grupos parlamentarios.",
+        "rationale": "El sistema parlamentario no exige unanimidad para la aprobación o ratificación de leyes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere el voto favorable de la mitad más uno de todos los miembros de la Cámara Baja."
+  },
+  {
+    "guid": "95d9b24d-3f58-431f-812f-4b24084213e2",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de las siguientes materias NO puede ser delegada en una Comisión Legislativa Permanente para su aprobación definitiva?",
+    "answerOptions": [
+      {
+        "text": "Fomento de la industria.",
+        "rationale": "Las leyes sectoriales ordinarias suelen ser delegables para agilizar el trabajo parlamentario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Leyes Orgánicas.",
+        "rationale": "La importancia de las leyes orgánicas exige que su debate y votación final se realicen siempre en el Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Regulación del tráfico marítimo.",
+        "rationale": "Al no estar entre las excepciones constitucionales, puede aprobarse en Comisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Protección del patrimonio histórico.",
+        "rationale": "Es una materia de ley ordinaria que admite la delegación legislativa plena en Comisión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere las leyes que regulan derechos fundamentales o instituciones básicas del Estado."
+  },
+  {
+    "guid": "9e17a896-b161-4a27-956a-aac220b9cb96",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el procedimiento de urgencia en el Congreso, ¿qué ocurre con los plazos ordinarios?",
+    "answerOptions": [
+      {
+        "text": "Se eliminan todos los trámites intermedios.",
+        "rationale": "El procedimiento de urgencia no suprime trámites, solo acelera su ejecución cronológica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se reducen a la mitad.",
+        "rationale": "La declaración de urgencia implica que los plazos de presentación de enmiendas y otros se dividen por dos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se mantienen iguales pero se trabaja en días inhábiles.",
+        "rationale": "La urgencia afecta a la duración de los plazos legales, no necesariamente al calendario laboral del Congreso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se amplían para permitir un debate más intenso.",
+        "rationale": "Esto sería contradictorio con la finalidad de rapidez que persigue el procedimiento de urgencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en una medida de simplificación temporal del proceso."
+  },
+  {
+    "guid": "0e4c819c-108e-44f7-a032-4b270e2a4974",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de mayoría se requiere en el Congreso para aprobar, modificar o derogar una Ley Orgánica?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple de los presentes.",
+        "rationale": "Esta es la mayoría para leyes ordinarias, insuficiente para materias de reserva orgánica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta en una votación final sobre el conjunto del proyecto.",
+        "rationale": "La Constitución exige el apoyo de la mitad más uno de todos los diputados debido a la relevancia de la materia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría simple en el Congreso y absoluta en el Senado.",
+        "rationale": "La mayoría absoluta se exige específicamente en el Congreso; en el Senado basta la simple si no hay veto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres quintas partes de la Cámara.",
+        "rationale": "Esta mayoría se asocia a la elección de ciertos cargos institucionales, no a la aprobación de leyes orgánicas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca un consenso que represente a la mayoría de la voluntad popular total de la cámara."
+  },
+  {
+    "guid": "555ff209-faa6-47f8-ae56-548ea8f21099",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal de una Ley Marco (art. 150.1 CE)?",
+    "answerOptions": [
+      {
+        "text": "Transferir la titularidad de una competencia estatal a una C.A.",
+        "rationale": "La titularidad sigue siendo estatal; solo se atribuye la facultad de dictar normas legislativas regionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Atribuir a las C.A. la facultad de dictar normas legislativas sobre materias estatales bajo principios y bases estatales.",
+        "rationale": "Permite que las autonomías legislen sobre competencias del Estado siguiendo unas directrices fijadas por ley estatal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Armonizar las leyes autonómicas que atentan contra el interés general.",
+        "rationale": "Esa es la función de las Leyes de Armonización del artículo 150.3 CE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Delegar en el Gobierno la creación de un texto refundido.",
+        "rationale": "Esa función se realiza mediante una ley ordinaria de delegación, no mediante una ley marco.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en una ley que establece 'directrices' para que otros legislen."
+  },
+  {
+    "guid": "5e03fa75-e79c-4d97-b55c-4b85949a6acf",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué instrumento debe utilizar el Estado para transferir facultades de titularidad estatal a las CC.AA. según el art. 150.2 CE?",
+    "answerOptions": [
+      {
+        "text": "Ley Ordinaria.",
+        "rationale": "La importancia de la transferencia de competencias estatales requiere un rango normativo superior al ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley Orgánica.",
+        "rationale": "El artículo 150.2 CE exige específicamente el uso de una ley orgánica para este fin.",
+        "isCorrect": true
+      },
+      {
+        "text": "Real Decreto-Ley.",
+        "rationale": "Los decretos-ley no pueden afectar al régimen de las Comunidades Autónomas según el artículo 86 CE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reglamento Administrativo.",
+        "rationale": "Un reglamento no tiene fuerza para alterar el reparto competencial fijado por la Constitución o los Estatutos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un tipo de ley que requiere mayoría absoluta en el Congreso."
+  },
+  {
+    "guid": "4a00bfa0-7161-4d4e-8e44-394b4c273c71",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Respecto a las Leyes de Armonización, ¿qué requisito previo de votación se exige para apreciar la necesidad de su dictado?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple en el Congreso de los Diputados.",
+        "rationale": "La apreciación del interés general requiere un consenso más amplio que la simple mayoría de los presentes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta de cada Cámara.",
+        "rationale": "Las Cortes Generales deben apreciar por mayoría absoluta que existe un interés general que justifica la armonización.",
+        "isCorrect": true
+      },
+      {
+        "text": "Unanimidad en el Senado.",
+        "rationale": "El sistema no prevé la unanimidad como requisito para este instrumento excepcional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Informe favorable previo del Tribunal Constitucional.",
+        "rationale": "El control del TC es posterior al dictado de la ley, no un requisito previo de votación parlamentaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la votación que deben realizar tanto el Congreso como el Senado antes de tramitar la ley."
+  },
+  {
+    "guid": "388d00c6-1530-4276-aa11-f25d082e41df",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué presupuesto de hecho justifica el dictado de un Decreto-Ley?",
+    "answerOptions": [
+      {
+        "text": "La delegación expresa de las Cortes Generales.",
+        "rationale": "La delegación previa es propia de los Decretos Legislativos, no de los Decretos-Leyes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Casos de extraordinaria y urgente necesidad.",
+        "rationale": "Es la circunstancia habilitante que permite al Gobierno legislar de forma provisional sin intervención previa del Parlamento.",
+        "isCorrect": true
+      },
+      {
+        "text": "La necesidad de unificar varios textos legales en uno solo.",
+        "rationale": "Esta es la finalidad de un texto refundido (Decreto Legislativo).",
+        "isCorrect": false
+      },
+      {
+        "text": "La aprobación de los Presupuestos Generales del Estado.",
+        "rationale": "Los presupuestos deben tramitarse siempre como ley parlamentaria, nunca como decreto-ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en situaciones imprevistas que requieren una respuesta normativa inmediata."
+  },
+  {
+    "guid": "3628eade-3034-480a-978e-78f9e9693a0b",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Un Decreto-Ley debe someterse a debate y votación de totalidad en el Congreso en un plazo máximo de:",
+    "answerOptions": [
+      {
+        "text": "15 días hábiles.",
+        "rationale": "El plazo constitucional es más amplio y se computa de forma distinta.",
+        "isCorrect": false
+      },
+      {
+        "text": "30 días desde su promulgación.",
+        "rationale": "El Congreso debe convalidar o derogar la norma en este plazo para que mantenga su vigencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "60 días naturales.",
+        "rationale": "Este plazo es excesivo para una norma que nace con carácter provisional y urgente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año.",
+        "rationale": "El control parlamentario sobre la legislación de urgencia debe ser casi inmediato.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un período de un mes aproximadamente."
+  },
+  {
+    "guid": "98138b19-445a-447e-9275-58d8724499d4",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué materia NO puede ser regulada por Decreto Legislativo?",
+    "answerOptions": [
+      {
+        "text": "Legislación sobre minas y energía.",
+        "rationale": "Son materias técnicas ordinarias que pueden ser objeto de delegación legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Materias reservadas a Ley Orgánica.",
+        "rationale": "La delegación legislativa al Gobierno tiene prohibido entrar en el ámbito de las leyes orgánicas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Régimen jurídico de la función pública.",
+        "rationale": "Aunque es reserva de ley, es ley ordinaria, por lo que permite la delegación para textos refundidos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Normas sobre propiedad intelectual.",
+        "rationale": "Al no ser reserva de ley orgánica, el Gobierno puede recibir la delegación para articular o refundir estas normas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde las materias que afectan a derechos fundamentales y libertades públicas."
+  },
+  {
+    "guid": "1f1d81e8-7ae4-4c37-91a3-3c3a11753512",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la delegación legislativa para la formación de un texto articulado, ¿cuál es el instrumento que utilizan las Cortes?",
+    "answerOptions": [
+      {
+        "text": "Ley de Bases.",
+        "rationale": "La ley de bases fija los principios y criterios que el Gobierno debe seguir para redactar el nuevo texto articulado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley de Transferencia.",
+        "rationale": "Esta ley se usa para ceder competencias a las CC.AA., no para delegar legislación al Gobierno estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Orden Ministerial.",
+        "rationale": "Una orden ministerial es una norma reglamentaria del propio Gobierno, no una ley parlamentaria de delegación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley de Armonización.",
+        "rationale": "Su fin es unificar criterios autonómicos, no habilitar al Gobierno para crear leyes desde cero.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una ley que marca los 'cimientos' sobre los que el Gobierno edificará la norma."
+  },
+  {
+    "guid": "f2cc2127-e100-4a31-919e-ff04e7d39172",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el principio de inderogabilidad singular de los reglamentos, ¿qué ocurre con un acto administrativo que contradice un reglamento?",
+    "answerOptions": [
+      {
+        "text": "Es válido si lo dicta un órgano superior al que aprobó el reglamento.",
+        "rationale": "Incluso la autoridad superior debe respetar la norma general mientras esta esté vigente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es nulo de ple de derecho.",
+        "rationale": "Las resoluciones administrativas particulares no pueden vulnerar lo establecido en una disposición de carácter general.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es anulable, pero puede ser convalidado por el Consejo de Ministros.",
+        "rationale": "La nulidad por vulnerar un reglamento es de pleno derecho y no admite convalidación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo es ilegal si el reglamento es posterior al acto.",
+        "rationale": "El principio se refiere a actos dictados bajo la vigencia de un reglamento previo que deben respetar.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La norma general siempre prima sobre la decisión para un caso concreto."
+  },
+  {
+    "guid": "b7b72eb1-f2f3-41a5-aa82-9d16f3a16d69",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la vía de impugnación ordinaria contra un reglamento administrativo?",
+    "answerOptions": [
+      {
+        "text": "Recurso de Alzada ante el superior jerárquico.",
+        "rationale": "Contra las disposiciones de carácter general no caben recursos en vía administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recurso contencioso-administrativo ante los Tribunales.",
+        "rationale": "Al no admitir recursos administrativos, el reglamento debe atacarse directamente ante la jurisdicción judicial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Recurso extraordinario de revisión.",
+        "rationale": "Este recurso se dirige contra actos firmes, no contra normas reglamentarias generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Petición de derogación al Congreso de los Diputados.",
+        "rationale": "El Congreso no deroga reglamentos; el control ordinario es judicial o la propia administración puede derogarlo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere que el control de la legalidad de la administración corresponde al poder judicial."
+  },
+  {
+    "guid": "05a764bd-5c8c-449c-acf5-c74863dd2bfa",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué consiste el recurso indirecto contra un reglamento?",
+    "answerOptions": [
+      {
+        "text": "En impugnar el reglamento el mismo día de su publicación en el BOE.",
+        "rationale": "Esa sería una impugnación directa, no basada en un acto de aplicación.",
+        "isCorrect": false
+      },
+      {
+        "text": "En impugnar un acto administrativo basándose en que el reglamento en que se apoya es ilegal.",
+        "rationale": "Se ataca el acto aplicativo para conseguir que el juez declare la ilegalidad de la norma que le sirve de base.",
+        "isCorrect": true
+      },
+      {
+        "text": "En solicitar al Gobierno la modificación de una ley de bases.",
+        "rationale": "Esto no tiene relación con el sistema de recursos contra la potestad reglamentaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "En interponer una queja ante el Defensor del Pueblo por mal funcionamiento.",
+        "rationale": "El Defensor del Pueblo no resuelve recursos jurídicos de anulación de normas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en una impugnación 'de rebote' a través de una sanción o resolución recibida."
+  },
+  {
+    "guid": "43e7fb4f-793b-475b-8abc-29b587557aaf",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si un juez ordinario considera que un reglamento es contrario a la Constitución o a la Ley?",
+    "answerOptions": [
+      {
+        "text": "Debe aplicarlo y luego elevar una consulta al Tribunal Supremo.",
+        "rationale": "Los jueces tienen la obligación de no aplicar normas que consideren ilegales.",
+        "isCorrect": false
+      },
+      {
+        "text": "No debe aplicarlo en el caso concreto que está juzgando.",
+        "rationale": "Según la LOPJ, los jueces no aplicarán los reglamentos contrarios a la Constitución, a la ley o al principio de jerarquía.",
+        "isCorrect": true
+      },
+      {
+        "text": "Debe suspender el juicio y esperar a que el Gobierno lo derogue.",
+        "rationale": "El juez tiene potestad propia para inaplicar la norma ilegal sin esperar la actuación del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Está obligado a aplicarlo si el reglamento ha sido dictado por el Consejo de Ministros.",
+        "rationale": "El rango del órgano dictante no obliga al juez a aplicar una norma que vulnere la ley superior.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde el deber de los jueces de sometimiento exclusivo al imperio de la ley."
+  },
+  {
+    "guid": "99a799aa-8468-49e3-b8bc-0972e0f81852",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En las relaciones entre Ley y Reglamento, ¿qué se entiende por 'deslegalización'?",
+    "answerOptions": [
+      {
+        "text": "Cuando una materia deja de estar regulada por cualquier tipo de norma.",
+        "rationale": "La deslegalización no supone un vacío normativo, sino un cambio en el rango de la norma que regula la materia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando una ley posterior retira la reserva de ley previa y permite que la materia sea regulada por reglamento.",
+        "rationale": "Es el proceso por el cual el legislador permite que el ejecutivo entre a regular un ámbito antes reservado a la ley.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuando el Tribunal Constitucional anula una ley por ser contraria al reglamento.",
+        "rationale": "Una ley nunca puede ser anulada por contradecir un reglamento de rango inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "La derogación de una ley por el paso del tiempo.",
+        "rationale": "Las leyes no caducan por el tiempo, sino que deben ser derogadas por otras normas de igual o superior rango.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el fenómeno inverso a la 'autorreserva de ley'."
+  },
+  {
+    "guid": "9ead01ce-6f67-4156-b5ab-0eacc83fac89",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la diferencia fundamental entre un reglamento ejecutivo y uno independiente?",
+    "answerOptions": [
+      {
+        "text": "El ejecutivo lo dicta el Rey y el independiente los Ministros.",
+        "rationale": "Ambos son dictados por la Administración; la diferencia radica en su vinculación con una ley previa.",
+        "isCorrect": false
+      },
+      {
+        "text": "El ejecutivo desarrolla una ley previa; el independiente regula materias no reservadas a ley sin ley anterior.",
+        "rationale": "El reglamento ejecutivo es un complemento necesario de la ley, mientras que el independiente opera en el ámbito organizativo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El ejecutivo es siempre de rango superior al independiente.",
+        "rationale": "El rango depende del órgano que lo dicta, no de si es ejecutivo o independiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El independiente puede contradecir la ley y el ejecutivo no.",
+        "rationale": "Ningún reglamento, sea cual sea su clase, puede contradecir nunca una ley escrita.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la existencia o no de una norma legal previa que el reglamento deba 'seguir'."
+  },
+  {
+    "guid": "7e1ac277-ca09-4a30-a6d2-e7a9ea14c923",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué es la 'cuestión de ilegalidad' en el ámbito de los reglamentos?",
+    "answerOptions": [
+      {
+        "text": "Un recurso que presentan los ciudadanos ante el Ayuntamiento.",
+        "rationale": "Se trata de un mecanismo judicial interno entre tribunales, no de un recurso ciudadano directo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un mecanismo por el cual un juez que estima un recurso indirecto solicita al tribunal competente la anulación general del reglamento.",
+        "rationale": "Sirve para evitar que un reglamento ilegal siga vigente tras haber sido inaplicado en un caso concreto.",
+        "isCorrect": true
+      },
+      {
+        "text": "La duda que tiene el Gobierno sobre si puede dictar un Decreto-Ley.",
+        "rationale": "El Gobierno no plantea cuestiones de ilegalidad sobre su propia potestad legislativa de urgencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El trámite de audiencia pública antes de aprobar un reglamento.",
+        "rationale": "Ese es un trámite del procedimiento de elaboración, no un mecanismo de control judicial posterior.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Ocurre cuando un juez de un recurso indirecto no tiene competencia para anular el reglamento con efectos generales."
+  },
+  {
+    "guid": "c36718d1-eccb-4124-be2b-f193bac22e32",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere para levantar un veto del Senado si han pasado más de dos meses desde su interposición?",
+    "answerOptions": [
+      {
+        "text": "Mayoría Absoluta.",
+        "rationale": "La mayoría absoluta solo es necesaria si el Congreso quiere levantar el veto de forma inmediata sin esperar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría Simple.",
+        "rationale": "Transcurrido el plazo de dos meses, el Congreso puede aprobar la ley por mayoría simple ignorando el veto senatorial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría de tres quintos.",
+        "rationale": "Esta mayoría no se aplica para la resolución de conflictos entre cámaras en el procedimiento legislativo ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se puede levantar el veto si han pasado dos meses.",
+        "rationale": "El sistema está diseñado para que la voluntad del Congreso prevalezca tras un periodo de reflexión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere que el paso del tiempo suaviza la exigencia de votos necesaria para confirmar la voluntad de la Cámara Baja."
+  },
+  {
+    "guid": "b29892e3-2417-4bae-9443-8cdcd47242c9",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la principal característica de las Leyes de Bases en relación con el Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Le permiten dictar reglamentos independientes.",
+        "rationale": "Los reglamentos independientes no necesitan habilitación por ley de bases; esta se usa para decretos legislativos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Habilitan al Gobierno para crear un texto articulado con rango de ley.",
+        "rationale": "Es el instrumento de delegación legislativa para que el ejecutivo desarrolle una materia siguiendo directrices parlamentarias.",
+        "isCorrect": true
+      },
+      {
+        "text": "Prohíben al Gobierno dictar Decretos-Leyes.",
+        "rationale": "Una ley de bases no altera la potestad constitucional del Gobierno para dictar decretos-leyes por urgencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obligan al Gobierno a dimitir si no aprueba la ley en un mes.",
+        "rationale": "Las consecuencias del incumplimiento de la delegación son jurídicas (caducidad), no implican cese político automático.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la formación de un 'texto articulado'."
+  },
+  {
+    "guid": "6e768339-bd78-4ae4-bb2d-8beccc0050a4",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el procedimiento de elaboración de reglamentos estatales, ¿cuándo es preceptivo el Dictamen del Consejo de Estado?",
+    "answerOptions": [
+      {
+        "text": "En todos los reglamentos sin excepción.",
+        "rationale": "Solo es obligatorio para ciertos tipos de reglamentos con impacto legislativo o de desarrollo.",
+        "isCorrect": false
+      },
+      {
+        "text": "En los reglamentos ejecutivos (de desarrollo de una ley).",
+        "rationale": "Se requiere su asesoramiento técnico para asegurar que el reglamento no excede lo dispuesto en la ley que desarrolla.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo cuando lo solicita el Rey.",
+        "rationale": "El dictamen es un requisito procedimental legal, no depende de la voluntad discrecional del monarca.",
+        "isCorrect": false
+      },
+      {
+        "text": "En los reglamentos de necesidad dictados por catástrofes.",
+        "rationale": "La urgencia de estos reglamentos suele excluir trámites consultivos pausados como el del Consejo de Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es necesario cuando la norma administrativa sirve de 'puente' para aplicar una ley del Parlamento."
+  },
+  {
+    "guid": "238f145e-8c81-46cd-9ee1-d9b72d0a8942",
+    "subjectId": "T05",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué relación jerárquica existe entre una ley estatal y una ley autonómica?",
+    "answerOptions": [
+      {
+        "text": "La ley estatal es siempre superior jerárquicamente.",
+        "rationale": "En España, la relación no es de jerarquía sino de distribución de competencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "No hay jerarquía, se rigen por el principio de competencia.",
+        "rationale": "Ambas tienen el mismo rango normativo; su validez depende de si el ente tiene la competencia sobre la materia.",
+        "isCorrect": true
+      },
+      {
+        "text": "La ley autonómica es superior en su territorio y la estatal en el resto.",
+        "rationale": "La territorialidad define dónde se aplica, pero no crea una jerarquía superior de la ley regional sobre la estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo son iguales si la ley estatal es una ley marco.",
+        "rationale": "Todas las leyes (ordinarias, orgánicas, estatales o autonómicas) comparten el mismo nivel jerárquico infraconstitucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en si una puede derogar a la otra simplemente por ser del Estado o de la Comunidad."
+  }
+]
