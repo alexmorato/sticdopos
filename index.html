@@ -341,6 +341,15 @@
         // Limpiar URL sin recargar
         window.history.replaceState({}, document.title, window.location.pathname);
       }
+      if (highlight === 'test' && !continuaEstudiBtn.disabled) {
+        continuaEstudiBtn.classList.add('pulse-animation');
+        // Quitar animación después de 4 segundos
+        setTimeout(() => {
+          continuaEstudiBtn.classList.remove('pulse-animation');
+        }, 4000);
+        // Limpiar URL sin recargar
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
     });
 
 
