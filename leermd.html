@@ -712,7 +712,7 @@
     });
 
     // Variables globales
-    let tocVisible = true;
+    let tocVisible = window.innerWidth > 768; // Oculto por defecto en móvil
     let currentFontSize = 16;
     const minFontSize = 10;
     const maxFontSize = 30;
@@ -730,6 +730,12 @@
     const btnFontIncrease = document.getElementById('btnFontIncrease');
     const btnFontDecrease = document.getElementById('btnFontDecrease');
     const pausarMdBtn = document.getElementById('pausarMdBtn');
+
+    // Aplicar estado inicial del TOC según tamaño de pantalla
+    if (!tocVisible) {
+      tocPanel.classList.add('hidden');
+      mainPanel.classList.add('full-width');
+    }
 
     // Verificar si hay datos de continuar MD
     const continueMd = localStorage.getItem(LS_KEYS.MD_CONTINUE);
