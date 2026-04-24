@@ -203,10 +203,6 @@
 
     /* Indicador de continuar */
     .continue-indicator-md {
-      position: fixed;
-      top: 80px;
-      left: 50%;
-      transform: translateX(-50%);
       background: #e63946;
       color: #fff;
       padding: 12px 24px;
@@ -214,18 +210,25 @@
       font-weight: 600;
       font-size: 0.95rem;
       box-shadow: 0 4px 12px rgba(230, 57, 70, 0.4);
-      z-index: 1000;
+      z-index: 100;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 4px;
-      cursor: pointer;
-      transition: all 0.3s;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .continue-indicator-md:hover {
-      background: #ff5566;
-      transform: translateX(-50%) scale(1.05);
+    .continue-indicator-md::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #e63946;
     }
 
     .continue-indicator-md .fecha {
@@ -280,6 +283,7 @@
     }
 
     #content {
+      position: relative;
       max-width: 900px;
       margin: 0 auto;
       line-height: 1.7;
@@ -1014,20 +1018,41 @@
         // Si hay posición de continuar, hacer scroll y mostrar indicador
         if (scrollPosicionInicio !== null) {
           setTimeout(() => {
-            mainPanel.scrollTop = scrollPosicionInicio;
+            // Buscar el elemento más cercano a la posición de scroll
+            const allElements = contentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li, table, pre');
+            let targetElement = null;
+            let closestDistance = Infinity;
+            
+            allElements.forEach(el => {
+              const elTop = el.offsetTop;
+              const distance = Math.abs(elTop - scrollPosicionInicio);
+              if (distance < closestDistance) {
+                closestDistance = distance;
+                targetElement = el;
+              }
+            });
             
             // Crear indicador de continuar
             const indicator = document.createElement('div');
             indicator.className = 'continue-indicator-md';
+            indicator.id = 'continueIndicator';
             indicator.innerHTML = `
-              <span>▼ Continuar apuntes</span>
+              <span>▼ Continuar apunts</span>
               <span class="fecha">${fechaPausadoMd ? new Date(fechaPausadoMd).toLocaleDateString('ca-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : ''}</span>
             `;
-            indicator.onclick = () => indicator.remove();
-            document.body.appendChild(indicator);
+            indicator.style.marginBottom = '20px';
             
-            // Auto-ocultar después de 5 segundos
-            setTimeout(() => indicator.remove(), 5000);
+            // Insertar antes del elemento encontrado o al principio
+            if (targetElement) {
+              targetElement.parentNode.insertBefore(indicator, targetElement);
+            } else {
+              contentDiv.insertBefore(indicator, contentDiv.firstChild);
+            }
+            
+            // Hacer scroll al indicador
+            setTimeout(() => {
+              indicator.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 100);
           }, 500);
         }
       } catch (e) {

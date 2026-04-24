@@ -707,9 +707,14 @@
         };
         localStorage.setItem(LS_KEYS.YOUTUBE_PAUSADO, JSON.stringify(datosYouTube));
         
-        // Cerrar menú y mostrar confirmación
+        // Cerrar menú
         menuPanel.classList.remove('visible');
-        alert(`Estudi pausat a ${datosYouTube.tiempoFormateado}. Pots continuar des del menú principal.`);
+        
+        // Esperar a que el video se pause antes de mostrar alert y redirigir
+        setTimeout(() => {
+          alert(`Estudi pausat a ${datosYouTube.tiempoFormateado}. Pots continuar des del menú principal.`);
+          window.location.href = 'index.html';
+        }, 100);
       }
     });
 

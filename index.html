@@ -101,7 +101,10 @@
         📚 Escull tema
       </button>
       <button id="continuaEstudi" class="menu-btn" disabled onclick="continuaEstudi()">
-        🔄 Continua estudi
+        📈 Continua Test
+      </button>
+      <button class="menu-btn" data-require-login="true" data-require-VIP="true" onclick="window.location.href='leerrecursos.html'">
+        💡Apunts Disponibles 
       </button>
       <button id="continuaYoutubeBtn" class="menu-btn" disabled onclick="continuaYoutube()">
         ▶️ Continua YouTube
@@ -110,16 +113,13 @@
         🖼️ Continua diapos
       </button>
       <button id="continuaApuntesBtn" class="menu-btn" disabled onclick="continuaApuntes()">
-        📝 Continua apuntes
+        📝 Continua apunts
       </button>
       <button class="menu-btn"  onclick="window.location.href='cargarManual.html'">
         ✂️ Estudiar CopyPaste
       </button>
       <button class="menu-btn" onclick="window.location.href='historialErrors.html'">
         📋 Historial d'errors
-      </button>
-      <button class="menu-btn" data-require-login="true" data-require-VIP="true" onclick="window.location.href='leerrecursos.html'">
-        💡Apunts Disponibles 
       </button>
       <button class="menu-btn" data-require-VIP="true" onclick="window.location.href='sync.html'">
         💾 Sincronitzar Historial
@@ -279,9 +279,9 @@
         continuaApuntesBtn.disabled = false;
         try {
           const datos = JSON.parse(datosMd);
-          const fileName = datos.fileName || 'Apuntes';
+          const fileName = datos.fileName || 'Apunts';
           // Mostrar info en el botón
-          continuaApuntesBtn.innerHTML = `📝 Continua apuntes`;
+          continuaApuntesBtn.innerHTML = `📝 Continua apunts`;
           continuaApuntesBtn.title = fileName;
         } catch (e) {
           console.error('Error parsing MD data:', e);
