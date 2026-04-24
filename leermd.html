@@ -694,6 +694,7 @@
     </div>
   </div>
 
+  <script src="assets/js/toast.js"></script>
   <script src="assets/js/localstorage-utils.js"></script>
   <script>
     // 1) Configura Mermaid (NO auto-start; lo hacemos tras insertar el HTML)
@@ -732,13 +733,13 @@
 
     // Verificar si hay datos de continuar MD
     const continueMd = localStorage.getItem(LS_KEYS.MD_CONTINUE);
-    let scrollPosicionInicio = null;
+    let headerIdInicio = null;
     let fechaPausadoMd = null;
     if (continueMd === 'true') {
       const datosGuardados = localStorage.getItem(LS_KEYS.MD_PAUSADO);
       if (datosGuardados) {
         const datos = JSON.parse(datosGuardados);
-        scrollPosicionInicio = datos.scrollPosition;
+        headerIdInicio = datos.headerId;
         fechaPausadoMd = datos.fechaPausado;
       }
       // Limpiar flag de continuar
@@ -1015,44 +1016,30 @@
         const text = await resp.text();
         mdToHtmlWithMermaid(text);
 
-        // Si hay posición de continuar, hacer scroll y mostrar indicador
-        if (scrollPosicionInicio !== null) {
+        // Si hay headerId de continuar, hacer scroll y mostrar indicador
+        if (headerIdInicio) {
           setTimeout(() => {
-            // Buscar el elemento más cercano a la posición de scroll
-            const allElements = contentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li, table, pre');
-            let targetElement = null;
-            let closestDistance = Infinity;
+            const targetHeader = document.getElementById(headerIdInicio);
             
-            allElements.forEach(el => {
-              const elTop = el.offsetTop;
-              const distance = Math.abs(elTop - scrollPosicionInicio);
-              if (distance < closestDistance) {
-                closestDistance = distance;
-                targetElement = el;
-              }
-            });
-            
-            // Crear indicador de continuar
-            const indicator = document.createElement('div');
-            indicator.className = 'continue-indicator-md';
-            indicator.id = 'continueIndicator';
-            indicator.innerHTML = `
-              <span>▼ Continuar apunts</span>
-              <span class="fecha">${fechaPausadoMd ? new Date(fechaPausadoMd).toLocaleDateString('ca-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : ''}</span>
-            `;
-            indicator.style.marginBottom = '20px';
-            
-            // Insertar antes del elemento encontrado o al principio
-            if (targetElement) {
-              targetElement.parentNode.insertBefore(indicator, targetElement);
-            } else {
-              contentDiv.insertBefore(indicator, contentDiv.firstChild);
+            if (targetHeader) {
+              // Crear indicador de continuar
+              const indicator = document.createElement('div');
+              indicator.className = 'continue-indicator-md';
+              indicator.id = 'continueIndicator';
+              indicator.innerHTML = `
+                <span>▼ Continuar apunts</span>
+                <span class="fecha">${fechaPausadoMd ? new Date(fechaPausadoMd).toLocaleDateString('ca-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : ''}</span>
+              `;
+              indicator.style.marginBottom = '20px';
+              
+              // Insertar antes del encabezado
+              targetHeader.parentNode.insertBefore(indicator, targetHeader);
+              
+              // Hacer scroll al indicador
+              setTimeout(() => {
+                indicator.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }, 100);
             }
-            
-            // Hacer scroll al indicador
-            setTimeout(() => {
-              indicator.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 100);
           }, 500);
         }
       } catch (e) {
@@ -1161,28 +1148,81 @@
       }
     });
 
+    // Modo selección para pausar apuntes
+    let modoSeleccionPausa = false;
+
     // Botón pausar apuntes MD
     pausarMdBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+      
+      // Activar modo selección
+      modoSeleccionPausa = true;
+      contentDiv.style.cursor = 'crosshair';
+      
+      // Mostrar toast informativo
+      if (window.toast && toast.showToast) {
+        toast.showToast('👆 Toca el títol o text on vols continuar la pròxima vegada', 5000);
+      } else {
+        alert('Toca el títol o text on vols continuar la pròxima vegada');
+      }
+    });
+
+    // Listener para capturar clic en modo selección
+    contentDiv.addEventListener('click', (e) => {
+      if (!modoSeleccionPausa) return;
+      
+      e.preventDefault();
+      e.stopPropagation();
+      
+      // Desactivar modo selección
+      modoSeleccionPausa = false;
+      contentDiv.style.cursor = '';
+      
+      // Buscar el encabezado más cercano (hacia arriba)
+      let targetElement = e.target;
+      let headerId = null;
+      
+      // Si el elemento clicado es un encabezado, usarlo directamente
+      if (/^H[1-6]$/.test(targetElement.tagName)) {
+        headerId = targetElement.id;
+      } else {
+        // Buscar el encabezado anterior más cercano
+        const allHeaders = Array.from(contentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6'));
+        const clickedRect = targetElement.getBoundingClientRect();
+        
+        let closestHeader = null;
+        for (const header of allHeaders) {
+          const headerRect = header.getBoundingClientRect();
+          // Solo considerar encabezados que estén antes o al mismo nivel del clic
+          if (headerRect.top <= clickedRect.top) {
+            closestHeader = header;
+          }
+        }
+        
+        if (closestHeader) {
+          headerId = closestHeader.id;
+        }
+      }
+      
+      // Guardar datos en localStorage
       const root = getUrlParameter('root') || 'apunts_new';
       const fitxer = getUrlParameter('fitxer');
       const tema = getUrlParameter('tema');
-      const scrollPosition = mainPanel.scrollTop;
       
-      // Guardar datos en localStorage
       const datosMd = {
         root: root,
         fitxer: fitxer,
         tema: tema,
-        scrollPosition: scrollPosition,
+        headerId: headerId,
         fileName: fitxer ? fitxer.replace(/\.[^/.]+$/, '') : 'Apuntes',
         fechaPausado: new Date().toISOString(),
         urlCompleta: window.location.href
       };
       localStorage.setItem(LS_KEYS.MD_PAUSADO, JSON.stringify(datosMd));
       
-      // Cerrar menú y mostrar confirmación
-      menuPanel.classList.remove('visible');
-      alert(`Apuntes pausats. Pots continuar des del menú principal.`);
+      // Mostrar confirmación y redirigir
+      const headerText = headerId ? document.getElementById(headerId)?.textContent?.substring(0, 30) + '...' : 'inici';
+      alert(`Apuntes pausats a: "${headerText}"\nPots continuar des del menú principal.`);
       window.location.href = 'index.html?highlight=apuntes';
     });
 
