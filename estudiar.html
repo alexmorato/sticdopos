@@ -66,6 +66,33 @@
       color: #e7ecff;
       white-space: pre-line;
     }
+    .question-image-wrapper {
+      margin: 0 0 22px 0;
+      padding: 12px;
+      background: #0f1525;
+      border: 1px solid #27304a;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .question-image {
+      display: block;
+      max-width: 100%;
+      max-height: 420px;
+      width: auto;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+    .question-image-warning {
+      margin: 0 0 22px 0;
+      padding: 12px 14px;
+      background: #2c2110;
+      border: 1px solid #6e5520;
+      border-left: 5px solid #f2b84b;
+      border-radius: 10px;
+      color: #ffd37a;
+      font-size: 0.95rem;
+    }
     .answer-option {
       background: #27304a;
       border: 2px solid #2a3554;
@@ -902,6 +929,54 @@
       return difficultyMap[difficulty] || 'D?';
     }
 
+    function escapeHtmlAttribute(value) {
+      return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function getEmbeddedImageMimeType(src) {
+      const match = String(src || '').match(/^data:([^;,]+)[;,]/i);
+      return match ? match[1].toLowerCase() : null;
+    }
+
+    function isRenderableQuestionImage(mimeType) {
+      return [
+        'image/png',
+        'image/jpeg',
+        'image/jpg',
+        'image/gif',
+        'image/webp',
+        'image/avif',
+        'image/svg+xml',
+        'image/bmp'
+      ].includes(mimeType);
+    }
+
+    function buildQuestionImageHtml(imageSrc) {
+      if (!imageSrc || typeof imageSrc !== 'string') {
+        return '';
+      }
+
+      const trimmedSrc = imageSrc.trim();
+      if (!/^data:image\/.+;base64,/i.test(trimmedSrc)) {
+        return '<div class="question-image-warning">La imatge de la pregunta no té un format base64 compatible.</div>';
+      }
+
+      const mimeType = getEmbeddedImageMimeType(trimmedSrc);
+      if (!mimeType || !isRenderableQuestionImage(mimeType)) {
+        return `<div class="question-image-warning">La imatge de la pregunta no es pot mostrar amb aquest format: ${escapeHtmlAttribute(mimeType || 'desconegut')}.</div>`;
+      }
+
+      return `
+        <div class="question-image-wrapper">
+          <img class="question-image" src="${escapeHtmlAttribute(trimmedSrc)}" alt="Imatge de la pregunta">
+        </div>
+      `;
+    }
+
   // ============================================================
   // CARGA Y PREPARACIÓN DE PREGUNTAS
   // ============================================================
@@ -1081,6 +1156,7 @@
             ${contestadaText}${fallosText}
           </div>
           <div class="question-text">${pregunta.pregunta || pregunta.question || 'Pregunta no disponible'}</div>
+          ${buildQuestionImageHtml(pregunta.img)}
       `;
 
       // Obtener opciones de respuesta (answerOptions)
