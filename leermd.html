@@ -201,6 +201,24 @@
       transform: translateY(-1px);
     }
 
+    .btn-marcar-estudi {
+      width: 100%;
+      padding: 12px;
+      background: #f5e7bf;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #5e4717;
+      transition: all 0.2s;
+    }
+
+    .btn-marcar-estudi:hover {
+      background: #f0db9c;
+      transform: translateY(-1px);
+    }
+
     /* Indicador de continuar */
     .continue-indicator-md {
       background: #e63946;
@@ -234,6 +252,32 @@
     .continue-indicator-md .fecha {
       font-size: 0.8rem;
       opacity: 0.9;
+    }
+
+    .study-mark-indicator {
+      background: #fff6d9;
+      color: #4a3a12;
+      padding: 12px 24px;
+      border-radius: 8px;
+      border: 1px solid #d4bc77;
+      border-left: 6px solid #e1b83f;
+      font-weight: 700;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 12px rgba(219, 188, 97, 0.35);
+      z-index: 99;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      width: fit-content;
+      margin: 0 auto 20px;
+    }
+
+    .study-mark-indicator .fecha {
+      font-size: 0.8rem;
+      font-weight: 600;
+      opacity: 0.85;
+      color: #6d5820;
     }
 
     .menu-separator {
@@ -675,6 +719,9 @@
     <button class="btn-tornar" id="btnToggleToc">
       📑 Índex
     </button>
+    <button class="btn-marcar-estudi" id="marcarEstudiBtn">
+      🟡 Marcar estudi actual
+    </button>
     <button class="btn-pausar-md" id="pausarMdBtn">
       ⏸️ Pausar apuntes
     </button>
@@ -729,6 +776,7 @@
     const btnToggleToc = document.getElementById('btnToggleToc');
     const btnFontIncrease = document.getElementById('btnFontIncrease');
     const btnFontDecrease = document.getElementById('btnFontDecrease');
+    const marcarEstudiBtn = document.getElementById('marcarEstudiBtn');
     const pausarMdBtn = document.getElementById('pausarMdBtn');
 
     // Aplicar estado inicial del TOC según tamaño de pantalla
@@ -737,19 +785,40 @@
       mainPanel.classList.add('full-width');
     }
 
+    const PAUSABLE_SELECTOR = 'h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, pre';
+    const STUDY_MARK_KEY = (typeof LS_KEYS !== 'undefined' && LS_KEYS.MD_ESTUDI_ACTUAL)
+      ? LS_KEYS.MD_ESTUDI_ACTUAL
+      : 'MD_ESTUDI_ACTUAL';
+
     // Verificar si hay datos de continuar MD
     const continueMd = localStorage.getItem(LS_KEYS.MD_CONTINUE);
     let headerIdInicio = null;
     let fechaPausadoMd = null;
+    let continueDataMd = null;
+    let studyMarkDataMd = null;
     if (continueMd === 'true') {
       const datosGuardados = localStorage.getItem(LS_KEYS.MD_PAUSADO);
       if (datosGuardados) {
-        const datos = JSON.parse(datosGuardados);
-        headerIdInicio = datos.headerId;
-        fechaPausadoMd = datos.fechaPausado;
+        try {
+          const datos = JSON.parse(datosGuardados);
+          continueDataMd = datos;
+          headerIdInicio = datos.headerId || null;
+          fechaPausadoMd = datos.fechaPausado || null;
+        } catch (err) {
+          console.warn('No se pudo parsear MD_PAUSADO:', err);
+        }
       }
       // Limpiar flag de continuar
       localStorage.removeItem(LS_KEYS.MD_CONTINUE);
+    }
+
+    const datosMarcaGuardados = localStorage.getItem(STUDY_MARK_KEY);
+    if (datosMarcaGuardados) {
+      try {
+        studyMarkDataMd = JSON.parse(datosMarcaGuardados);
+      } catch (err) {
+        console.warn('No se pudo parsear MD_ESTUDI_ACTUAL:', err);
+      }
     }
 
     // Obtener parámetro de la URL
@@ -967,6 +1036,188 @@
       }
     }
 
+    function normalizeResumeText(text) {
+      return String(text || '')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLowerCase()
+        .slice(0, 240);
+    }
+
+    function getElementFingerprint(element) {
+      return normalizeResumeText(element?.textContent || '');
+    }
+
+    function getPausableTargetElement(target) {
+      if (!(target instanceof Element)) {
+        return null;
+      }
+      return target.closest(PAUSABLE_SELECTOR);
+    }
+
+    function getClosestHeaderForElement(element) {
+      if (!element) {
+        return null;
+      }
+
+      if (/^H[1-6]$/.test(element.tagName)) {
+        return element;
+      }
+
+      const allHeaders = Array.from(contentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6'));
+      let closestHeader = null;
+
+      allHeaders.forEach((header) => {
+        if (header === element) {
+          closestHeader = header;
+          return;
+        }
+
+        if (header.compareDocumentPosition(element) & Node.DOCUMENT_POSITION_FOLLOWING) {
+          closestHeader = header;
+        }
+      });
+
+      return closestHeader;
+    }
+
+    function getSectionPausableElements(headerElement) {
+      const allPausable = Array.from(contentDiv.querySelectorAll(PAUSABLE_SELECTOR));
+      if (!headerElement) {
+        return allPausable;
+      }
+
+      const allHeaders = Array.from(contentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6'));
+      const headerIndex = allHeaders.indexOf(headerElement);
+      const nextHeader = headerIndex >= 0 ? allHeaders[headerIndex + 1] : null;
+
+      return allPausable.filter((el) => {
+        const isAfterHeader = el === headerElement || Boolean(headerElement.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING);
+        if (!isAfterHeader) {
+          return false;
+        }
+
+        if (!nextHeader) {
+          return true;
+        }
+
+        return el !== nextHeader && Boolean(el.compareDocumentPosition(nextHeader) & Node.DOCUMENT_POSITION_FOLLOWING);
+      });
+    }
+
+    function buildSimpleCssPath(element) {
+      if (!(element instanceof Element)) {
+        return null;
+      }
+
+      const segments = [];
+      let node = element;
+
+      while (node && node !== contentDiv) {
+        let segment = node.tagName.toLowerCase();
+
+        if (node.id) {
+          segment += `#${node.id.replace(/[^a-zA-Z0-9_-]/g, '')}`;
+          segments.unshift(segment);
+          break;
+        }
+
+        let position = 1;
+        let sibling = node.previousElementSibling;
+        while (sibling) {
+          if (sibling.tagName === node.tagName) {
+            position += 1;
+          }
+          sibling = sibling.previousElementSibling;
+        }
+
+        segment += `:nth-of-type(${position})`;
+        segments.unshift(segment);
+        node = node.parentElement;
+      }
+
+      return segments.join(' > ');
+    }
+
+    function findContinueTargetElement(datos) {
+      if (!datos) {
+        return null;
+      }
+
+      const header = datos.headerId ? document.getElementById(datos.headerId) : null;
+      const expectedTag = String(datos.targetTag || '').toUpperCase();
+      const expectedFingerprint = normalizeResumeText(datos.textFingerprint || '');
+
+      if (Number.isInteger(datos.sectionIndex) && datos.sectionIndex >= 0) {
+        const sectionElements = getSectionPausableElements(header);
+        const candidate = sectionElements[datos.sectionIndex];
+        if (candidate) {
+          const tagOk = !expectedTag || candidate.tagName === expectedTag;
+          const textOk = !expectedFingerprint || getElementFingerprint(candidate) === expectedFingerprint;
+          if (tagOk && textOk) {
+            return candidate;
+          }
+        }
+      }
+
+      if (datos.cssPathSimple) {
+        try {
+          const byPath = contentDiv.querySelector(datos.cssPathSimple);
+          if (byPath) {
+            return byPath;
+          }
+        } catch (err) {
+          console.warn('cssPathSimple inválido:', err);
+        }
+      }
+
+      if (expectedFingerprint) {
+        const allPausable = Array.from(contentDiv.querySelectorAll(PAUSABLE_SELECTOR));
+        const byFingerprint = allPausable.find((el) => {
+          const tagOk = !expectedTag || el.tagName === expectedTag;
+          return tagOk && getElementFingerprint(el) === expectedFingerprint;
+        });
+
+        if (byFingerprint) {
+          return byFingerprint;
+        }
+      }
+
+      return header;
+    }
+
+    function isSameMarkdownContext(datos, root, fitxer, tema) {
+      if (!datos) {
+        return false;
+      }
+      return datos.root === root && datos.fitxer === fitxer && (datos.tema || null) === (tema || null);
+    }
+
+    function removeStudyMarkIndicator() {
+      const existing = document.getElementById('studyMarkIndicator');
+      if (existing) {
+        existing.remove();
+      }
+    }
+
+    function placeStudyMarkIndicator(targetElement, fechaMarca) {
+      if (!targetElement) {
+        return;
+      }
+
+      removeStudyMarkIndicator();
+
+      const indicator = document.createElement('div');
+      indicator.className = 'study-mark-indicator';
+      indicator.id = 'studyMarkIndicator';
+      indicator.innerHTML = `
+        <span>🟡 Marca d'estudi actual</span>
+        <span class="fecha">${fechaMarca ? new Date(fechaMarca).toLocaleDateString('ca-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : ''}</span>
+      `;
+
+      targetElement.parentNode.insertBefore(indicator, targetElement);
+    }
+
     // Seguimiento activo del TOC
     function setupTocActiveTracking() {
       const headers = document.querySelectorAll('#content h1, #content h2, #content h3, #content h4, #content h5, #content h6');
@@ -1022,12 +1273,13 @@
         const text = await resp.text();
         mdToHtmlWithMermaid(text);
 
-        // Si hay headerId de continuar, hacer scroll y mostrar indicador
-        if (headerIdInicio) {
+        // Si hay datos de continuar, hacer scroll y mostrar indicador
+        if (continueDataMd || headerIdInicio) {
           setTimeout(() => {
-            const targetHeader = document.getElementById(headerIdInicio);
+            const fallbackData = continueDataMd || { headerId: headerIdInicio };
+            const targetElement = findContinueTargetElement(fallbackData);
             
-            if (targetHeader) {
+            if (targetElement) {
               // Crear indicador de continuar
               const indicator = document.createElement('div');
               indicator.className = 'continue-indicator-md';
@@ -1038,8 +1290,8 @@
               `;
               indicator.style.marginBottom = '20px';
               
-              // Insertar antes del encabezado
-              targetHeader.parentNode.insertBefore(indicator, targetHeader);
+              // Insertar antes del elemento destino
+              targetElement.parentNode.insertBefore(indicator, targetElement);
               
               // Hacer scroll al indicador
               setTimeout(() => {
@@ -1047,6 +1299,15 @@
               }, 100);
             }
           }, 500);
+        }
+
+        if (isSameMarkdownContext(studyMarkDataMd, root, fitxer, tema)) {
+          const targetMarkElement = findContinueTargetElement(studyMarkDataMd);
+          if (targetMarkElement) {
+            placeStudyMarkIndicator(targetMarkElement, studyMarkDataMd.fechaMarca);
+          }
+        } else {
+          removeStudyMarkIndicator();
         }
       } catch (e) {
         document.getElementById("content").innerHTML = `
@@ -1156,12 +1417,30 @@
 
     // Modo selección para pausar apuntes
     let modoSeleccionPausa = false;
+    let modoSeleccionMarca = false;
+
+    // Botón marcar estudi actual
+    marcarEstudiBtn.addEventListener('click', () => {
+      menuPanel.classList.remove('visible');
+
+      // Activar solo modo marca
+      modoSeleccionPausa = false;
+      modoSeleccionMarca = true;
+      contentDiv.style.cursor = 'crosshair';
+
+      if (window.toast && toast.showToast) {
+        toast.showToast('👆 Toca el punt on vols posar la marca d\'estudi actual', 5000);
+      } else {
+        alert('Toca el punt on vols posar la marca d\'estudi actual');
+      }
+    });
 
     // Botón pausar apuntes MD
     pausarMdBtn.addEventListener('click', () => {
       menuPanel.classList.remove('visible');
       
       // Activar modo selección
+      modoSeleccionMarca = false;
       modoSeleccionPausa = true;
       contentDiv.style.cursor = 'crosshair';
       
@@ -1175,40 +1454,25 @@
 
     // Listener para capturar clic en modo selección
     contentDiv.addEventListener('click', (e) => {
-      if (!modoSeleccionPausa) return;
+      if (!modoSeleccionPausa && !modoSeleccionMarca) return;
+      const isPauseMode = modoSeleccionPausa;
       
       e.preventDefault();
       e.stopPropagation();
       
       // Desactivar modo selección
       modoSeleccionPausa = false;
+      modoSeleccionMarca = false;
       contentDiv.style.cursor = '';
       
-      // Buscar el encabezado más cercano (hacia arriba)
-      let targetElement = e.target;
-      let headerId = null;
-      
-      // Si el elemento clicado es un encabezado, usarlo directamente
-      if (/^H[1-6]$/.test(targetElement.tagName)) {
-        headerId = targetElement.id;
-      } else {
-        // Buscar el encabezado anterior más cercano
-        const allHeaders = Array.from(contentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6'));
-        const clickedRect = targetElement.getBoundingClientRect();
-        
-        let closestHeader = null;
-        for (const header of allHeaders) {
-          const headerRect = header.getBoundingClientRect();
-          // Solo considerar encabezados que estén antes o al mismo nivel del clic
-          if (headerRect.top <= clickedRect.top) {
-            closestHeader = header;
-          }
-        }
-        
-        if (closestHeader) {
-          headerId = closestHeader.id;
-        }
-      }
+      const targetElement = getPausableTargetElement(e.target);
+      const headerElement = getClosestHeaderForElement(targetElement);
+      const headerId = headerElement ? headerElement.id : null;
+      const sectionElements = getSectionPausableElements(headerElement);
+      const sectionIndex = targetElement ? sectionElements.indexOf(targetElement) : -1;
+      const textFingerprint = targetElement ? getElementFingerprint(targetElement) : '';
+      const cssPathSimple = targetElement ? buildSimpleCssPath(targetElement) : null;
+      const targetTag = targetElement ? targetElement.tagName.toLowerCase() : null;
       
       // Guardar datos en localStorage
       const root = getUrlParameter('root') || 'apunts_new';
@@ -1220,16 +1484,40 @@
         fitxer: fitxer,
         tema: tema,
         headerId: headerId,
+        targetTag: targetTag,
+        sectionIndex: sectionIndex,
+        textFingerprint: textFingerprint,
+        cssPathSimple: cssPathSimple,
+        schemaVersion: 2,
         fileName: fitxer ? fitxer.replace(/\.[^/.]+$/, '') : 'Apuntes',
         fechaPausado: new Date().toISOString(),
         urlCompleta: window.location.href
       };
-      localStorage.setItem(LS_KEYS.MD_PAUSADO, JSON.stringify(datosMd));
-      
-      // Mostrar confirmación y redirigir
-      const headerText = headerId ? document.getElementById(headerId)?.textContent?.substring(0, 30) + '...' : 'inici';
-      alert(`Apuntes pausats a: "${headerText}"\nPots continuar des del menú principal.`);
-      window.location.href = 'index.html?highlight=apuntes';
+      const targetText = targetElement
+        ? (targetElement.textContent || '').replace(/\s+/g, ' ').trim().substring(0, 45)
+        : 'inici';
+
+      if (isPauseMode) {
+        localStorage.setItem(LS_KEYS.MD_PAUSADO, JSON.stringify(datosMd));
+
+        // Mostrar confirmación y redirigir
+        alert(`Apuntes pausats a: "${targetText}..."\nPots continuar des del menú principal.`);
+        window.location.href = 'index.html?highlight=apuntes';
+        return;
+      }
+
+      const datosMarca = {
+        ...datosMd,
+        fechaMarca: new Date().toISOString()
+      };
+      localStorage.setItem(STUDY_MARK_KEY, JSON.stringify(datosMarca));
+      placeStudyMarkIndicator(targetElement || document.getElementById(headerId), datosMarca.fechaMarca);
+
+      if (window.toast && toast.showToast) {
+        toast.showToast(`🟡 Marca d'estudi guardada: ${targetText}...`, 3200);
+      } else {
+        alert(`Marca d'estudi guardada a: "${targetText}..."`);
+      }
     });
 
     // Cargar al iniciar
