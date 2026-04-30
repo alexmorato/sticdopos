@@ -1,0 +1,303 @@
+[
+{
+"guid": "b1f28c7a-6d45-4f2a-8b19-2e4c9a7d0131",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "¿Quién aprueba una orden ministerial?",
+"answerOptions": [
+{
+"text": "El ministro competente",
+"isCorrect": true,
+"rationale": "La orden ministerial es aprobada por el ministro competente."
+},
+{
+"text": "El Congreso",
+"isCorrect": false,
+"rationale": "El Congreso aprueba leyes, no órdenes ministeriales."
+},
+{
+"text": "El Tribunal Constitucional",
+"isCorrect": false,
+"rationale": "No aprueba normas reglamentarias."
+},
+{
+"text": "El Consejo de Estado",
+"isCorrect": false,
+"rationale": "El Consejo de Estado tiene función consultiva."
+}
+]
+},
+{
+"guid": "c2a39d8b-7e56-4a3b-9c20-3f5d0b8e1242",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "En el ámbito local, las ordenanzas municipales se aprueban por:",
+"answerOptions": [
+{
+"text": "El alcalde",
+"isCorrect": false,
+"rationale": "El alcalde no aprueba definitivamente las ordenanzas."
+},
+{
+"text": "El Pleno municipal",
+"isCorrect": true,
+"rationale": "El Pleno es el órgano competente para aprobar ordenanzas."
+},
+{
+"text": "La Junta de Gobierno Local",
+"isCorrect": false,
+"rationale": "No es el órgano competente para la aprobación de ordenanzas."
+},
+{
+"text": "El secretario municipal",
+"isCorrect": false,
+"rationale": "El secretario ejerce funciones de fe pública y asesoramiento legal."
+}
+]
+},
+{
+"guid": "d3b40e9c-8f67-4b4c-8d31-4a6e1c9f2353",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "Los reglamentos no pueden vulnerar:",
+"answerOptions": [
+{
+"text": "Una circular interna",
+"isCorrect": false,
+"rationale": "La clave es la subordinación del reglamento a la ley."
+},
+{
+"text": "Una instrucción administrativa",
+"isCorrect": false,
+"rationale": "Las instrucciones no tienen rango superior a los reglamentos."
+},
+{
+"text": "La ley",
+"isCorrect": true,
+"rationale": "Por jerarquía normativa, el reglamento está subordinado a la ley."
+},
+{
+"text": "Un informe no vinculante",
+"isCorrect": false,
+"rationale": "Un informe no vinculante no impide por sí mismo aprobar el reglamento."
+}
+]
+},
+{
+"guid": "e4c51fad-9a78-4c5d-9e42-5b7f2d0a3464",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "La consulta pública previa tiene como finalidad principal:",
+"answerOptions": [
+{
+"text": "Nombrar al órgano competente",
+"isCorrect": false,
+"rationale": "No sirve para designar órganos."
+},
+{
+"text": "Publicar la norma aprobada",
+"isCorrect": false,
+"rationale": "La publicación es posterior a la aprobación."
+},
+{
+"text": "Sustituir todos los informes",
+"isCorrect": false,
+"rationale": "No sustituye los informes preceptivos."
+},
+{
+"text": "Recabar opiniones ciudadanas",
+"isCorrect": true,
+"rationale": "Busca conocer la opinión de ciudadanos y organizaciones afectadas."
+}
+]
+},
+{
+"guid": "f5d620be-0b89-4d6e-8f53-6c803e1b4575",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "Una norma reglamentaria de carácter organizativo:",
+"answerOptions": [
+{
+"text": "Puede quedar exceptuada de consulta previa",
+"isCorrect": true,
+"rationale": "Las normas organizativas pueden estar exceptuadas de la consulta pública previa."
+},
+{
+"text": "Debe aprobarse como ley orgánica",
+"isCorrect": false,
+"rationale": "No requiere ley orgánica por ser reglamento."
+},
+{
+"text": "Siempre exige referéndum",
+"isCorrect": false,
+"rationale": "No se exige referéndum para aprobar reglamentos."
+},
+{
+"text": "No necesita publicarse nunca",
+"isCorrect": false,
+"rationale": "La publicación es necesaria para la eficacia de las normas."
+}
+]
+},
+{
+"guid": "a6e731cf-1c90-4e7f-9a64-7d914f2c5686",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "La información pública permite:",
+"answerOptions": [
+{
+"text": "Suspender la jerarquía normativa",
+"isCorrect": false,
+"rationale": "La jerarquía normativa no se suspende por este trámite."
+},
+{
+"text": "Presentar alegaciones",
+"isCorrect": true,
+"rationale": "La información pública permite formular observaciones o alegaciones."
+},
+{
+"text": "Evitar la aprobación formal",
+"isCorrect": false,
+"rationale": "La aprobación formal sigue siendo necesaria."
+},
+{
+"text": "Convertir el reglamento en ley",
+"isCorrect": false,
+"rationale": "Un reglamento no se convierte en ley por someterse a información pública."
+}
+]
+},
+{
+"guid": "b7f842d0-2da1-4f80-8b75-8ea2503d6797",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "Los informes preceptivos son aquellos que:",
+"answerOptions": [
+{
+"text": "Deciden el contenido final",
+"isCorrect": false,
+"rationale": "Que sean preceptivos no significa que sean decisorios."
+},
+{
+"text": "Siempre vinculan al órgano",
+"isCorrect": false,
+"rationale": "Pueden ser preceptivos sin ser vinculantes."
+},
+{
+"text": "Deben solicitarse obligatoriamente",
+"isCorrect": true,
+"rationale": "Preceptivo significa obligatorio en el procedimiento."
+},
+{
+"text": "Sustituyen la publicación",
+"isCorrect": false,
+"rationale": "La publicación sigue siendo necesaria."
+}
+]
+},
+{
+"guid": "c80953e1-3eb2-4a91-9c86-9fb3614e78a8",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "El procedimiento de elaboración de reglamentos estatales se regula principalmente en:",
+"answerOptions": [
+{
+"text": "La Ley Orgánica del Poder Judicial",
+"isCorrect": false,
+"rationale": "Esta norma regula la organización judicial."
+},
+{
+"text": "La Ley Electoral General",
+"isCorrect": false,
+"rationale": "La LOREG regula el régimen electoral."
+},
+{
+"text": "El Código Penal",
+"isCorrect": false,
+"rationale": "El Código Penal regula delitos y penas."
+},
+{
+"text": "La Ley del Gobierno",
+"isCorrect": true,
+"rationale": "La Ley 50/1997 regula el procedimiento de elaboración normativa del Gobierno."
+}
+]
+},
+{
+"guid": "d91a64f2-4fc3-4ba2-8d97-0ac4725f89b9",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "La aprobación del reglamento se produce:",
+"answerOptions": [
+{
+"text": "Antes de la redacción",
+"isCorrect": false,
+"rationale": "Primero debe elaborarse el proyecto."
+},
+{
+"text": "Tras la tramitación procedente",
+"isCorrect": true,
+"rationale": "La aprobación llega después de los trámites exigidos."
+},
+{
+"text": "Antes de los informes",
+"isCorrect": false,
+"rationale": "Los informes se incorporan antes de la aprobación."
+},
+{
+"text": "Antes de la consulta previa",
+"isCorrect": false,
+"rationale": "La consulta previa se sitúa al inicio."
+}
+]
+},
+{
+"guid": "ea2b75a3-5ad4-4cb3-9ea8-1bd5836f90ca",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "La regla general de entrada en vigor a los veinte días se aplica:",
+"answerOptions": [
+{
+"text": "Aunque la norma diga otra fecha",
+"isCorrect": false,
+"rationale": "La propia norma puede establecer otra entrada en vigor."
+},
+{
+"text": "Solo a las leyes orgánicas",
+"isCorrect": false,
+"rationale": "No se limita a leyes orgánicas."
+},
+{
+"text": "Solo a las ordenanzas fiscales",
+"isCorrect": false,
+"rationale": "No es exclusiva de ordenanzas fiscales."
+},
+{
+"text": "Si no se dispone otra cosa",
+"isCorrect": true,
+"rationale": "La vacatio legis general rige salvo previsión distinta."
+}
+]
+}
+]
+

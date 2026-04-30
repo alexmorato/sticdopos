@@ -1,0 +1,333 @@
+[
+{
+"guid": "9f3c1a6e-5b44-4a7d-9c1a-1b2f9e8d3a11",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "¿Quién tiene la iniciativa para la elaboración de reglamentos?",
+"answerOptions": [
+{
+"text": "El Parlamento exclusivamente",
+"isCorrect": false,
+"rationale": "El Parlamento tiene potestad legislativa, no reglamentaria."
+},
+{
+"text": "El Gobierno o la Administración competente",
+"isCorrect": true,
+"rationale": "La iniciativa reglamentaria corresponde al poder ejecutivo."
+},
+{
+"text": "El poder judicial",
+"isCorrect": false,
+"rationale": "El poder judicial no elabora reglamentos."
+},
+{
+"text": "El Consejo de Estado",
+"isCorrect": false,
+"rationale": "El Consejo de Estado emite informes, no inicia reglamentos."
+}
+]
+},
+{
+"guid": "1d7e8c92-3b6e-4f8c-9f21-2a7b6c9d0e22",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "La consulta pública previa se realiza:",
+"answerOptions": [
+{
+"text": "Después de aprobar el reglamento",
+"isCorrect": false,
+"rationale": "Se realiza antes de la redacción del proyecto."
+},
+{
+"text": "Antes de redactar el proyecto normativo",
+"isCorrect": true,
+"rationale": "Forma parte de la fase inicial del procedimiento."
+},
+{
+"text": "Durante la publicación",
+"isCorrect": false,
+"rationale": "La publicación es posterior a la aprobación."
+},
+{
+"text": "Solo en reglamentos locales",
+"isCorrect": false,
+"rationale": "Aplica con carácter general."
+}
+]
+},
+{
+"guid": "2a8b9c3d-7e1f-4a2c-8b3e-3c4d5e6f7a33",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "¿Qué norma regula la consulta pública previa?",
+"answerOptions": [
+{
+"text": "Ley 39/2015",
+"isCorrect": true,
+"rationale": "El artículo 133 regula la participación ciudadana."
+},
+{
+"text": "Ley 40/2015",
+"isCorrect": false,
+"rationale": "Regula el régimen jurídico del sector público."
+},
+{
+"text": "Constitución Española",
+"isCorrect": false,
+"rationale": "No regula este procedimiento concreto."
+},
+{
+"text": "Ley del Gobierno",
+"isCorrect": false,
+"rationale": "Regula otros aspectos del procedimiento."
+}
+]
+},
+{
+"guid": "3c9d0e4f-8a2b-4c1d-9e4f-4d5e6f7a8b44",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "La memoria económica sirve para:",
+"answerOptions": [
+{
+"text": "Justificar el contenido jurídico",
+"isCorrect": false,
+"rationale": "Eso corresponde a la memoria justificativa."
+},
+{
+"text": "Aprobar el reglamento",
+"isCorrect": false,
+"rationale": "La aprobación corresponde al órgano competente."
+},
+{
+"text": "Evaluar el impacto económico",
+"isCorrect": true,
+"rationale": "Analiza costes y efectos financieros."
+},
+{
+"text": "Publicar la norma",
+"isCorrect": false,
+"rationale": "La publicación es una fase posterior."
+}
+]
+},
+{
+"guid": "4d0e1f5a-9b3c-4d2e-8f5a-5e6f7a8b9c55",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "El trámite de audiencia permite:",
+"answerOptions": [
+{
+"text": "Aprobar el reglamento",
+"isCorrect": false,
+"rationale": "La aprobación es posterior."
+},
+{
+"text": "Escuchar a los afectados",
+"isCorrect": true,
+"rationale": "Garantiza la participación de interesados."
+},
+{
+"text": "Publicar la norma",
+"isCorrect": false,
+"rationale": "Es una fase previa."
+},
+{
+"text": "Redactar el texto",
+"isCorrect": false,
+"rationale": "La redacción es anterior."
+}
+]
+},
+{
+"guid": "5e1f2a6b-0c4d-4e3f-9a6b-6f7a8b9c0d66",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "El Consejo de Estado:",
+"answerOptions": [
+{
+"text": "Aprueba reglamentos",
+"isCorrect": false,
+"rationale": "No tiene función decisoria."
+},
+{
+"text": "Emite informes",
+"isCorrect": true,
+"rationale": "Su función es consultiva."
+},
+{
+"text": "Publica normas",
+"isCorrect": false,
+"rationale": "La publicación corresponde al BOE u otros diarios."
+},
+{
+"text": "Redacta leyes",
+"isCorrect": false,
+"rationale": "No tiene potestad legislativa."
+}
+]
+},
+{
+"guid": "6f2a3b7c-1d5e-4f4a-8b7c-7a8b9c0d1e77",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "El dictamen del Consejo de Estado es:",
+"answerOptions": [
+{
+"text": "Siempre vinculante",
+"isCorrect": false,
+"rationale": "No tiene carácter vinculante."
+},
+{
+"text": "Preceptivo en algunos casos",
+"isCorrect": true,
+"rationale": "Debe solicitarse en determinados supuestos."
+},
+{
+"text": "Nunca necesario",
+"isCorrect": false,
+"rationale": "En muchos casos es obligatorio."
+},
+{
+"text": "Decisorio",
+"isCorrect": false,
+"rationale": "No decide, solo informa."
+}
+]
+},
+{
+"guid": "7a3b4c8d-2e6f-4a5b-9c8d-8b9c0d1e2f88",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "Un Real Decreto es aprobado por:",
+"answerOptions": [
+{
+"text": "El Parlamento",
+"isCorrect": false,
+"rationale": "El Parlamento aprueba leyes."
+},
+{
+"text": "El Consejo de Ministros",
+"isCorrect": true,
+"rationale": "Es el órgano competente."
+},
+{
+"text": "El Tribunal Supremo",
+"isCorrect": false,
+"rationale": "No tiene función normativa."
+},
+{
+"text": "El Consejo de Estado",
+"isCorrect": false,
+"rationale": "Solo informa."
+}
+]
+},
+{
+"guid": "8b4c5d9e-3f7a-4b6c-8d9e-9c0d1e2f3a99",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "La publicación de un reglamento:",
+"answerOptions": [
+{
+"text": "Es opcional",
+"isCorrect": false,
+"rationale": "Es obligatoria."
+},
+{
+"text": "No afecta a su validez",
+"isCorrect": false,
+"rationale": "Es requisito de eficacia."
+},
+{
+"text": "Es necesaria para su eficacia",
+"isCorrect": true,
+"rationale": "Sin publicación no produce efectos."
+},
+{
+"text": "Solo es informativa",
+"isCorrect": false,
+"rationale": "Tiene efectos jurídicos."
+}
+]
+},
+{
+"guid": "9c5d6e0f-4a8b-4c7d-9e0f-0d1e2f3a4b10",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "Sin publicación, el reglamento:",
+"answerOptions": [
+{
+"text": "Es válido pero ineficaz",
+"isCorrect": true,
+"rationale": "No produce efectos sin publicación."
+},
+{
+"text": "Es siempre válido y eficaz",
+"isCorrect": false,
+"rationale": "No produce efectos."
+},
+{
+"text": "Es una ley",
+"isCorrect": false,
+"rationale": "No es una ley."
+},
+{
+"text": "Es vinculante",
+"isCorrect": false,
+"rationale": "No produce efectos."
+}
+]
+},
+{
+"guid": "ad6e7f1a-5b9c-4d8e-8f1a-1e2f3a4b5c21",
+"subjectId": "T05",
+"difficulty": 1,
+"origin": "chatgpt2026",
+"type": "test",
+"question": "La entrada en vigor general es:",
+"answerOptions": [
+{
+"text": "10 días",
+"isCorrect": false,
+"rationale": "No es la regla general."
+},
+{
+"text": "20 días",
+"isCorrect": true,
+"rationale": "Vacatio legis general."
+},
+{
+"text": "30 días",
+"isCorrect": false,
+"rationale": "No es la regla general."
+},
+{
+"text": "Inmediata",
+"isCorrect": false,
+"rationale": "Solo si se establece."
+}
+]
+}
+]
+
