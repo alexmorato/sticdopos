@@ -1,0 +1,302 @@
+[
+  {
+    "guid": "f3b2c6a8-8d3a-4b7a-9a1f-1c2e4f6d7a91",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Què són les fonts materials del dret?",
+    "answerOptions": [
+      {
+        "text": "Les normes jurídiques aprovades pel Parlament",
+        "isCorrect": false,
+        "rationale": "Això són fonts formals, no materials."
+      },
+      {
+        "text": "Els factors socials, econòmics i polítics que influeixen en la creació del dret",
+        "isCorrect": true,
+        "rationale": "Les fonts materials són els elements que donen origen al contingut del dret."
+      },
+      {
+        "text": "Les sentències dels tribunals",
+        "isCorrect": false,
+        "rationale": "Això és jurisprudència, no font material."
+      },
+      {
+        "text": "Els reglaments administratius",
+        "isCorrect": false,
+        "rationale": "Els reglaments són fonts formals."
+      }
+    ]
+  },
+  {
+    "guid": "a9d4e7b2-3f6c-4c91-8c2e-7b1a5d9f0e22",
+    "subjectId": "T05",
+    "difficulty": 2,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Quina de les següents és una font formal directa del dret?",
+    "answerOptions": [
+      {
+        "text": "La doctrina científica",
+        "isCorrect": false,
+        "rationale": "La doctrina és una font indirecta."
+      },
+      {
+        "text": "La jurisprudència",
+        "isCorrect": false,
+        "rationale": "La jurisprudència és font indirecta segons el Codi Civil."
+      },
+      {
+        "text": "El costum",
+        "isCorrect": true,
+        "rationale": "El costum és font formal directa juntament amb la llei i els principis generals."
+      },
+      {
+        "text": "Els informes administratius",
+        "isCorrect": false,
+        "rationale": "No tenen valor com a font del dret."
+      }
+    ]
+  },
+  {
+    "guid": "b6c8f2a1-5e9d-4d7b-91f3-2a4c6e8b7d33",
+    "subjectId": "T05",
+    "difficulty": 2,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Quan s’aplica el costum com a font del dret?",
+    "answerOptions": [
+      {
+        "text": "Sempre amb preferència a la llei",
+        "isCorrect": false,
+        "rationale": "El costum no té preferència sobre la llei."
+      },
+      {
+        "text": "Només quan ho autoritza el Govern",
+        "isCorrect": false,
+        "rationale": "No depèn del Govern."
+      },
+      {
+        "text": "Quan no hi ha llei aplicable i no és contrari a la moral o ordre públic",
+        "isCorrect": true,
+        "rationale": "És una font subsidiària segons el Codi Civil."
+      },
+      {
+        "text": "Només si ho diu una sentència",
+        "isCorrect": false,
+        "rationale": "No cal sentència prèvia."
+      }
+    ]
+  },
+  {
+    "guid": "c1a9d5e7-8b3f-4e6c-92a1-6d3f7b2c4e44",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Quina és la norma suprema de l’ordenament jurídic espanyol?",
+    "answerOptions": [
+      {
+        "text": "La llei orgànica",
+        "isCorrect": false,
+        "rationale": "No és la norma suprema."
+      },
+      {
+        "text": "La Constitució Espanyola",
+        "isCorrect": true,
+        "rationale": "És la norma superior de tot l’ordenament."
+      },
+      {
+        "text": "Els reglaments",
+        "isCorrect": false,
+        "rationale": "Són normes inferiors."
+      },
+      {
+        "text": "Els decrets llei",
+        "isCorrect": false,
+        "rationale": "Tenen rang de llei però no supremacia."
+      }
+    ]
+  },
+  {
+    "guid": "d4b7a2c9-1f6e-4a3d-8c5b-9e2f7a1c5d55",
+    "subjectId": "T05",
+    "difficulty": 3,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Quina relació existeix entre llei orgànica i llei ordinària?",
+    "answerOptions": [
+      {
+        "text": "Jerarquia superior de la llei orgànica",
+        "isCorrect": false,
+        "rationale": "No hi ha jerarquia general sinó reserva de matèria."
+      },
+      {
+        "text": "Relació de competència material",
+        "isCorrect": true,
+        "rationale": "Cada tipus regula matèries diferents segons la Constitució."
+      },
+      {
+        "text": "Les lleis ordinàries poden modificar les orgàniques",
+        "isCorrect": false,
+        "rationale": "No poden modificar-les lliurement."
+      },
+      {
+        "text": "No hi ha cap diferència entre elles",
+        "isCorrect": false,
+        "rationale": "Sí que hi ha diferències materials i procedimentals."
+      }
+    ]
+  },
+  {
+    "guid": "e8c2d4f1-3b7a-4c9e-91d2-5a6c8e3f6b66",
+    "subjectId": "T05",
+    "difficulty": 2,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Quin requisit és necessari per aprovar un decret llei?",
+    "answerOptions": [
+      {
+        "text": "Aprovació del Senat",
+        "isCorrect": false,
+        "rationale": "No intervé en aquesta fase."
+      },
+      {
+        "text": "Extraordinària i urgent necessitat",
+        "isCorrect": true,
+        "rationale": "És el requisit essencial segons la CE."
+      },
+      {
+        "text": "Referèndum",
+        "isCorrect": false,
+        "rationale": "No és necessari."
+      },
+      {
+        "text": "Informe del Tribunal Constitucional",
+        "isCorrect": false,
+        "rationale": "No és previ."
+      }
+    ]
+  },
+  {
+    "guid": "f9a1c3e5-6b7d-4e2a-8c9f-3d1b6a7e8c77",
+    "subjectId": "T05",
+    "difficulty": 2,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Quin termini té el Congrés per convalidar un decret llei?",
+    "answerOptions": [
+      {
+        "text": "15 dies",
+        "isCorrect": false,
+        "rationale": "No és el termini correcte."
+      },
+      {
+        "text": "30 dies",
+        "isCorrect": true,
+        "rationale": "És el termini establert per la Constitució."
+      },
+      {
+        "text": "60 dies",
+        "isCorrect": false,
+        "rationale": "És incorrecte."
+      },
+      {
+        "text": "90 dies",
+        "isCorrect": false,
+        "rationale": "No és correcte."
+      }
+    ]
+  },
+  {
+    "guid": "a2b3c4d5-e6f7-4890-9abc-def123456789",
+    "subjectId": "T05",
+    "difficulty": 3,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Quina és la funció principal d’un text refós?",
+    "answerOptions": [
+      {
+        "text": "Crear dret nou",
+        "isCorrect": false,
+        "rationale": "Això és propi del text articulat."
+      },
+      {
+        "text": "Unificar i sistematitzar normes existents",
+        "isCorrect": true,
+        "rationale": "El text refós integra diverses normes en una sola."
+      },
+      {
+        "text": "Modificar la Constitució",
+        "isCorrect": false,
+        "rationale": "No té aquesta funció."
+      },
+      {
+        "text": "Crear reglaments",
+        "isCorrect": false,
+        "rationale": "No són reglaments."
+      }
+    ]
+  },
+  {
+    "guid": "b1c2d3e4-f5a6-4789-8abc-1234def56789",
+    "subjectId": "T05",
+    "difficulty": 4,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Com ha de ser la delegació legislativa?",
+    "answerOptions": [
+      {
+        "text": "Indefinida",
+        "isCorrect": false,
+        "rationale": "Ha de tenir límits temporals."
+      },
+      {
+        "text": "Implícita",
+        "isCorrect": false,
+        "rationale": "Ha de ser expressa."
+      },
+      {
+        "text": "Expressa, concreta i amb termini",
+        "isCorrect": true,
+        "rationale": "Així ho exigeix la Constitució."
+      },
+      {
+        "text": "Permanent",
+        "isCorrect": false,
+        "rationale": "No pot ser permanent."
+      }
+    ]
+  },
+  {
+    "guid": "c9d8e7f6-a5b4-4321-9abc-5678def12345",
+    "subjectId": "T05",
+    "difficulty": 4,
+    "origin": "chatgpt2026",
+    "type": "test",
+    "question": "Què passa si el Govern excedeix la delegació legislativa?",
+    "answerOptions": [
+      {
+        "text": "Es valida automàticament",
+        "isCorrect": false,
+        "rationale": "No és correcte."
+      },
+      {
+        "text": "És nul en la part excedida",
+        "isCorrect": true,
+        "rationale": "Suposa un vici d’ultra vires."
+      },
+      {
+        "text": "Es converteix en reglament",
+        "isCorrect": false,
+        "rationale": "No és així."
+      },
+      {
+        "text": "No té cap efecte",
+        "isCorrect": false,
+        "rationale": "Sí que té conseqüències jurídiques."
+      }
+    ]
+  }
+]
