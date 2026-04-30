@@ -268,6 +268,13 @@
     .btn-url:hover {
       background: #aa3a7f;
     }
+    .btn-tts {
+      background: #1f7a5a;
+      color: #e7ecff;
+    }
+    .btn-tts:hover {
+      background: #28916c;
+    }
     .btn-youtube {
       background: #c62828;
       color: #e7ecff;
@@ -699,6 +706,7 @@
           slides: [],
           infografies: [],
           apunts: [],
+          tts: [],
           tests: [],
           urls: []
         };
@@ -740,6 +748,16 @@
               recursos.apunts.push({
                 name: `Apunts ${idx + 1}`,
                 file: md
+              });
+            });
+          }
+
+          // Textos TTS (.tts)
+          if (temaData.tts && temaData.tts.length > 0) {
+            temaData.tts.forEach((tts, idx) => {
+              recursos.tts.push({
+                name: `Text TTS ${idx + 1}`,
+                file: tts
               });
             });
           }
@@ -858,6 +876,7 @@
         tema.recursos.slides.length + 
         tema.recursos.infografies.length + 
         tema.recursos.apunts.length + 
+        tema.recursos.tts.length + 
         tema.recursos.tests.length + 
         tema.recursos.urls.length;
 
@@ -865,6 +884,7 @@
       if (tema.recursos.slides.length > 0) summary.push(`📊 ${tema.recursos.slides.length} presentació${tema.recursos.slides.length > 1 ? 'ns' : ''}`);
       if (tema.recursos.infografies.length > 0) summary.push(`🖼️ ${tema.recursos.infografies.length} infografia${tema.recursos.infografies.length > 1 ? 'es' : ''}`);
       if (tema.recursos.apunts.length > 0) summary.push(`📝 ${tema.recursos.apunts.length} apunt${tema.recursos.apunts.length > 1 ? 's' : ''}`);
+      if (tema.recursos.tts.length > 0) summary.push(`🔊 ${tema.recursos.tts.length} text TTS${tema.recursos.tts.length > 1 ? 'os' : ''}`);
       if (tema.recursos.tests.length > 0) summary.push(`✅ ${tema.recursos.tests.length} test${tema.recursos.tests.length > 1 ? 's' : ''}`);
       if (tema.recursos.urls.length > 0) summary.push(`🔗 ${tema.recursos.urls.length} enllaç${tema.recursos.urls.length > 1 ? 'os' : ''}`);
 
@@ -962,6 +982,25 @@
         `;
       }
 
+      // Textos TTS
+      if (tema.recursos.tts.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">🔊 Textos TTS</div>
+            <div class="recursos-list">
+              ${tema.recursos.tts.map((tts, idx) => `
+                <div class="recurso-item" id="recurso-tts-${tema.tema}-${tts.file.replace(/[^a-zA-Z0-9]/g, '_')}" onclick="abrirTTS('${tema.tema}', '${tts.file}')">
+                  <div class="recurso-name">${tts.file}</div>
+                  <button class="recurso-btn btn-tts" onclick="event.stopPropagation(); abrirTTS('${tema.tema}', '${tts.file}')">
+                    🔊 Escoltar
+                  </button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
       // Tests
       if (tema.recursos.tests.length > 0) {
         html += `
@@ -1036,6 +1075,13 @@
       guardarUltimoRecursoClicado('apunts', temaId, md.replace(/[^a-zA-Z0-9]/g, '_'));
       // Abrir página de apunts
       window.open(`leermd.html?root=${encodeURIComponent(root)}&tema=${encodeURIComponent(temaId)}&fitxer=${encodeURIComponent(md)}`, '_self');
+    };
+
+    window.abrirTTS = function(temaId, ttsFile) {
+      // Guardar recurso clicado
+      guardarUltimoRecursoClicado('tts', temaId, ttsFile.replace(/[^a-zA-Z0-9]/g, '_'));
+      // Abrir lector TTS
+      window.open(`leertts.html?root=${encodeURIComponent(rootSinOpos)}&tema=${encodeURIComponent(temaId)}&fitxer=${encodeURIComponent(ttsFile)}`, '_self');
     };
 
     window.abrirTest = function(temaId, testFile) {

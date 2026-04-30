@@ -9,6 +9,7 @@ OUTPUT_FILE = "apunts_new/manifest.json"
 
 MD_EXT = ".md"
 IMG_EXT = ".jpg"
+TTS_EXT = ".tts"
 URL_MANIFEST = "manifest_url.json"
 
 # =========================
@@ -58,6 +59,11 @@ def generate_manifest(base_dir):
         img_files = list_files_with_ext(tema_path, IMG_EXT)
         if img_files:
             tema_data["info"] = img_files
+
+        # ---- TTS en root ----
+        tts_files = list_files_with_ext(tema_path, TTS_EXT)
+        if tts_files:
+            tema_data["tts"] = tts_files
 
         # ---- URLs desde manifest_url.json ----
         url_manifest_path = os.path.join(tema_path, URL_MANIFEST)

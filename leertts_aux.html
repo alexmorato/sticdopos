@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Prueba TTS - Web Speech API para estudio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f5f7fb;
+            margin: 0;
+            padding: 20px;
+            color: #1e293b;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.2s;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            border-left: 4px solid #3b82f6;
+            padding-left: 12px;
+        }
+        h3 {
+            font-size: 1.1rem;
+            margin: 0 0 0.5rem 0;
+            color: #0f172a;
+        }
+        button {
+            background: #3b82f6;
+            border: none;
+            color: white;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: 0.2s;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        button:hover {
+            background: #2563eb;
+            transform: scale(0.98);
+        }
+        .btn-outline {
+            background: transparent;
+            border: 1px solid #cbd5e1;
+            color: #1e293b;
+            box-shadow: none;
+        }
+        .btn-outline:hover {
+            background: #f1f5f9;
+            transform: none;
+        }
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0 10px;
+        }
+        .control-group {
+            background: #f8fafc;
+            padding: 12px 15px;
+            border-radius: 20px;
+            margin: 15px 0;
+        }
+        .slider-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 10px 0;
+        }
+        .slider-container label {
+            width: 70px;
+            font-weight: 500;
+        }
+        input[type="range"] {
+            flex: 1;
+            min-width: 150px;
+        }
+        select {
+            padding: 8px 12px;
+            border-radius: 30px;
+            border: 1px solid #cbd5e1;
+            background: white;
+            font-size: 0.9rem;
+            width: 100%;
+            max-width: 280px;
+        }
+        .theory-box, .test-box {
+            background: #fefce8;
+            padding: 15px;
+            border-radius: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #eab308;
+        }
+        .test-box {
+            background: #eff6ff;
+            border-left-color: #3b82f6;
+        }
+        .status {
+            font-size: 0.85rem;
+            background: #e2e8f0;
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 40px;
+            margin-top: 10px;
+        }
+        textarea {
+            width: 100%;
+            border-radius: 20px;
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            font-family: inherit;
+            margin-top: 8px;
+        }
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #e2e8f0;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #64748b;
+            margin-top: 2rem;
+        }
+        @media (max-width: 600px) {
+            body { padding: 12px; }
+            .card { padding: 1rem; }
+            .btn-group button { flex: 1; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h1>🔊 Prueba TTS · Web Speech API</h1>
+        <p>Lee cualquier texto de tu app de estudio: teoría, preguntas de test, notas en Markdown, etc.</p>
+        <div class="status" id="statusMsg">⚪ Esperando acción</div>
+    </div>
+
+    <!-- CONTROLES GLOBALES -->
+    <div class="card">
+        <h2>🎛️ Controles de voz</h2>
+        <div class="control-group">
+            <div class="slider-container">
+                <label>🗣️ Velocidad</label>
+                <input type="range" id="rateSlider" min="0.5" max="2" step="0.05" value="0.95">
+                <span id="rateValue">0.95</span>
+            </div>
+            <div class="slider-container">
+                <label>🎵 Tono</label>
+                <input type="range" id="pitchSlider" min="0" max="2" step="0.1" value="1">
+                <span id="pitchValue">1.0</span>
+            </div>
+            <div class="slider-container">
+                <label>🗣️ Voz</label>
+                <select id="voiceSelect"></select>
+            </div>
+            <div class="btn-group">
+                <button id="pauseBtn">⏸️ Pausar</button>
+                <button id="resumeBtn">▶️ Reanudar</button>
+                <button id="stopBtn">⏹️ Detener</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- EJEMPLO 1: TEORÍA (simula un bloque .md) -->
+    <div class="card">
+        <h2>📘 Teoría (contenido .md / texto largo)</h2>
+        <div id="teoriaContenido" class="theory-box">
+            <strong>🌱 La fotosíntesis</strong><br>
+            La fotosíntesis es el proceso mediante el cual las plantas convierten la luz solar, dióxido de carbono y agua en glucosa y oxígeno. Ocurre en los cloroplastos gracias a la clorofila. Es fundamental para la vida en la Tierra porque produce oxígeno y es la base de muchas cadenas alimenticias. <br><br>
+            <em>Ecuación resumida:</em> 6 CO₂ + 6 H₂O + luz solar → C₆H₁₂O₆ + 6 O₂.
+        </div>
+        <div class="btn-group">
+            <button id="leerTeoriaBtn">🔊 Leer teoría completa</button>
+            <button id="leerTeoriaPausadoBtn" class="btn-outline">📖 Leer + párrafos (con pausa)</button>
+        </div>
+        <small>💡 El botón "Leer + párrafos" divide el texto en frases/separadores y los reproduce secuencialmente.</small>
+    </div>
+
+    <!-- EJEMPLO 2: PREGUNTA DE TEST -->
+    <div class="card">
+        <h2>📝 Pregunta tipo test</h2>
+        <div class="test-box">
+            <p><strong>❓ Pregunta:</strong> ¿Cuál es el principal pigmento responsable de captar la luz en la fotosíntesis?</p>
+            <ul style="margin-top: 5px;">
+                <li><strong>A)</strong> Caroteno</li>
+                <li><strong>B)</strong> Xantofila</li>
+                <li><strong>C)</strong> Clorofila</li>
+                <li><strong>D)</strong> Antocianina</li>
+            </ul>
+            <p><strong>✅ Respuesta correcta:</strong> Clorofila (opción C).</p>
+        </div>
+        <div class="btn-group">
+            <button id="leerPreguntaBtn">📢 Leer pregunta y opciones</button>
+            <button id="leerRespuestaBtn">💡 Leer solo respuesta correcta</button>
+        </div>
+    </div>
+
+    <!-- EJEMPLO 3: TEXTO PERSONALIZADO (útil para notas o extractos .md) -->
+    <div class="card">
+        <h2>✏️ Texto personalizado</h2>
+        <textarea id="customText" rows="3" placeholder="Escribe o pega cualquier texto (ejemplo: extracto de un archivo .md, definición, etc.)">Las aplicaciones de estudio con TTS ayudan a retener información porque combinan lectura visual y auditiva. Puedes repasar mientras caminas o cocinas.</textarea>
+        <div class="btn-group" style="margin-top: 12px;">
+            <button id="leerCustomBtn">🔊 Leer este texto</button>
+        </div>
+    </div>
+
+    <!-- INFO ADICIONAL -->
+    <div class="card">
+        <h2>💡 ¿Cómo funciona?</h2>
+        <p>✅ Esta demo usa la <strong>Web Speech API</strong> nativa del navegador.<br>
+        ✅ No requiere conexión a internet (una vez cargada la página, las voces están en tu SO).<br>
+        ✅ Puedes elegir distintas voces en español o inglés.<br>
+        ✅ Ideal para leer <strong>tests, teoría en markdown, anotaciones</strong>.<br>
+        ⚠️ En iOS Safari es necesario que el usuario <strong>toque un botón</strong> antes de la primera reproducción (todos los botones funcionan).</p>
+    </div>
+    <footer>Prueba completa de TTS para app de estudio — Ajusta velocidad, tono y voz</footer>
+</div>
+
+<script>
+    // --------------------------------------------------------------
+    // 1. Elementos del DOM
+    // --------------------------------------------------------------
+    const statusDiv = document.getElementById('statusMsg');
+    const rateSlider = document.getElementById('rateSlider');
+    const rateValue = document.getElementById('rateValue');
+    const pitchSlider = document.getElementById('pitchSlider');
+    const pitchValue = document.getElementById('pitchValue');
+    const voiceSelect = document.getElementById('voiceSelect');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const resumeBtn = document.getElementById('resumeBtn');
+    const stopBtn = document.getElementById('stopBtn');
+
+    // Contenido de ejemplo
+    const teoriaDiv = document.getElementById('teoriaContenido');
+    const leerTeoriaBtn = document.getElementById('leerTeoriaBtn');
+    const leerTeoriaPausadoBtn = document.getElementById('leerTeoriaPausadoBtn');
+    const leerPreguntaBtn = document.getElementById('leerPreguntaBtn');
+    const leerRespuestaBtn = document.getElementById('leerRespuestaBtn');
+    const customTextarea = document.getElementById('customText');
+    const leerCustomBtn = document.getElementById('leerCustomBtn');
+
+    // Variables globales de control
+    let currentUtterance = null;
+    let voicesList = [];
+    let isSpeaking = false;
+
+    // --------------------------------------------------------------
+    // 2. Funciones auxiliares para estado y mensajes
+    // --------------------------------------------------------------
+    function setStatus(text, isError = false) {
+        statusDiv.innerHTML = text;
+        statusDiv.style.backgroundColor = isError ? '#fee2e2' : '#e2e8f0';
+        if (!isError) setTimeout(() => {
+            if (statusDiv.innerHTML === text) statusDiv.style.backgroundColor = '#e2e8f0';
+        }, 2000);
+    }
+
+    // Detener cualquier reproducción actual
+    function stopSpeaking() {
+        if (window.speechSynthesis) {
+            window.speechSynthesis.cancel();
+        }
+        isSpeaking = false;
+        setStatus('⏹️ Reproducción detenida');
+    }
+
+    // Función principal para hablar un texto
+    function speakText(text, options = {}) {
+        if (!text || text.trim() === '') {
+            setStatus('⚠️ El texto está vacío', true);
+            return;
+        }
+        // Detener lo que se esté reproduciendo
+        stopSpeaking();
+
+        const utterance = new SpeechSynthesisUtterance(text);
+        // Aplicar parámetros globales
+        utterance.rate = parseFloat(rateSlider.value);
+        utterance.pitch = parseFloat(pitchSlider.value);
+        utterance.lang = 'es-ES';  // por defecto español, pero la voz elegida puede cambiarlo
+
+        // Seleccionar voz elegida en el dropdown
+        const selectedVoiceName = voiceSelect.value;
+        if (selectedVoiceName && voicesList.length) {
+            const selectedVoice = voicesList.find(voice => voice.name === selectedVoiceName);
+            if (selectedVoice) {
+                utterance.voice = selectedVoice;
+                utterance.lang = selectedVoice.lang;
+            }
+        }
+
+        // Eventos para actualizar estado
+        utterance.onstart = () => {
+            isSpeaking = true;
+            setStatus(`🔊 Reproduciendo: "${text.substring(0, 60)}${text.length > 60 ? '…' : ''}"`);
+        };
+        utterance.onend = () => {
+            isSpeaking = false;
+            setStatus('✅ Reproducción finalizada');
+            currentUtterance = null;
+        };
+        utterance.onerror = (event) => {
+            console.error('TTS Error:', event);
+            isSpeaking = false;
+            setStatus(`❌ Error al reproducir: ${event.error || 'desconocido'}`, true);
+            currentUtterance = null;
+        };
+
+        currentUtterance = utterance;
+        window.speechSynthesis.speak(utterance);
+    }
+
+    // --------------------------------------------------------------
+    // 3. CARGAR VOCES disponibles (asíncrono)
+    // --------------------------------------------------------------
+    function loadVoices() {
+        return new Promise((resolve) => {
+            let voices = window.speechSynthesis.getVoices();
+            if (voices.length) {
+                updateVoiceList(voices);
+                resolve(voices);
+            } else {
+                window.speechSynthesis.onvoiceschanged = () => {
+                    voices = window.speechSynthesis.getVoices();
+                    updateVoiceList(voices);
+                    resolve(voices);
+                };
+            }
+        });
+    }
+
+    function updateVoiceList(voices) {
+        voicesList = voices;
+        const previousSelection = voiceSelect.value;
+        voiceSelect.innerHTML = '';
+        // Filtrar para mostrar voces útiles (opcional: mostrar español primero)
+        const spanishVoices = voices.filter(v => v.lang.startsWith('es'));
+        const otherVoices = voices.filter(v => !v.lang.startsWith('es'));
+        const sortedVoices = [...spanishVoices, ...otherVoices];
+        
+        if (sortedVoices.length === 0) {
+            voiceSelect.innerHTML = '<option>No se detectaron voces</option>';
+            return;
+        }
+        sortedVoices.forEach(voice => {
+            const option = document.createElement('option');
+            option.value = voice.name;
+            option.textContent = `${voice.name} (${voice.lang})`;
+            if (voice.default && previousSelection === '') option.selected = true;
+            voiceSelect.appendChild(option);
+        });
+        // Intentar restaurar selección previa
+        if (previousSelection && Array.from(voiceSelect.options).some(opt => opt.value === previousSelection)) {
+            voiceSelect.value = previousSelection;
+        } else {
+            // seleccionar primera voz en español si existe
+            const firstSpanish = sortedVoices.find(v => v.lang.startsWith('es'));
+            if (firstSpanish) voiceSelect.value = firstSpanish.name;
+        }
+    }
+
+    // --------------------------------------------------------------
+    // 4. Actualizar sliders de velocidad y tono
+    // --------------------------------------------------------------
+    rateSlider.addEventListener('input', () => {
+        rateValue.textContent = parseFloat(rateSlider.value).toFixed(2);
+    });
+    pitchSlider.addEventListener('input', () => {
+        pitchValue.textContent = parseFloat(pitchSlider.value).toFixed(1);
+    });
+
+    // --------------------------------------------------------------
+    // 5. Botones de control global (pausa, reanudar, detener)
+    // --------------------------------------------------------------
+    pauseBtn.addEventListener('click', () => {
+        if (window.speechSynthesis && window.speechSynthesis.speaking) {
+            window.speechSynthesis.pause();
+            setStatus('⏸️ Pausado');
+        } else {
+            setStatus('No hay nada reproduciéndose para pausar');
+        }
+    });
+    resumeBtn.addEventListener('click', () => {
+        if (window.speechSynthesis && window.speechSynthesis.paused) {
+            window.speechSynthesis.resume();
+            setStatus('▶️ Reanudado');
+        } else {
+            setStatus('No hay nada pausado para reanudar');
+        }
+    });
+    stopBtn.addEventListener('click', () => {
+        stopSpeaking();
+    });
+
+    // --------------------------------------------------------------
+    // 6. LECTURA DE CONTENIDOS ESPECÍFICOS DE LA APP DE ESTUDIO
+    // --------------------------------------------------------------
+    // Leer teoría completa (div entero)
+    leerTeoriaBtn.addEventListener('click', () => {
+        const textoTeoria = teoriaDiv.innerText || teoriaDiv.textContent;
+        speakText(textoTeoria);
+    });
+
+    // Leer teoría con pausas entre párrafos (simula lectura más natural para textos largos)
+    leerTeoriaPausadoBtn.addEventListener('click', () => {
+        const textoCompleto = teoriaDiv.innerText;
+        // Dividir por saltos de línea o puntos y aparte (simple)
+        const parrafos = textoCompleto.split(/\n+/).filter(p => p.trim().length > 0);
+        if (parrafos.length === 0) return;
+        stopSpeaking(); // cancelar pendiente
+        let index = 0;
+        function speakNext() {
+            if (index >= parrafos.length) {
+                setStatus('✅ Teoría con pausas finalizada');
+                isSpeaking = false;
+                return;
+            }
+            const utterance = new SpeechSynthesisUtterance(parrafos[index]);
+            // aplicar mismos ajustes de velocidad/tono/voz
+            utterance.rate = parseFloat(rateSlider.value);
+            utterance.pitch = parseFloat(pitchSlider.value);
+            const selectedVoiceName = voiceSelect.value;
+            const selectedVoice = voicesList.find(v => v.name === selectedVoiceName);
+            if (selectedVoice) utterance.voice = selectedVoice;
+            
+            utterance.onend = () => {
+                index++;
+                // pequeña pausa de 400ms entre párrafos
+                setTimeout(speakNext, 400);
+            };
+            utterance.onerror = () => {
+                setStatus('Error en lectura secuencial', true);
+                isSpeaking = false;
+            };
+            window.speechSynthesis.speak(utterance);
+        }
+        speakNext();
+    });
+
+    // Leer pregunta y opciones de test (extrae texto del bloque .test-box)
+    leerPreguntaBtn.addEventListener('click', () => {
+        const testBlock = document.querySelector('.test-box');
+        if (testBlock) {
+            const textoPregunta = testBlock.innerText;
+            speakText(textoPregunta);
+        } else {
+            setStatus('No se encontró la pregunta del test', true);
+        }
+    });
+
+    // Leer solo la respuesta correcta (último párrafo del bloque test-box que empieza con ✅)
+    leerRespuestaBtn.addEventListener('click', () => {
+        const respuestaElement = document.querySelector('.test-box p:last-child');
+        if (respuestaElement && respuestaElement.innerText.includes('✅')) {
+            speakText(respuestaElement.innerText);
+        } else {
+            // fallback
+            const allText = document.querySelector('.test-box')?.innerText || '';
+            const match = allText.match(/✅.*/);
+            if (match) speakText(match[0]);
+            else setStatus('No se pudo extraer la respuesta correcta', true);
+        }
+    });
+
+    // Texto personalizado
+    leerCustomBtn.addEventListener('click', () => {
+        const customText = customTextarea.value.trim();
+        if (customText === '') {
+            setStatus('Escribe algo en el área de texto personalizado', true);
+        } else {
+            speakText(customText);
+        }
+    });
+
+    // --------------------------------------------------------------
+    // 7. Inicialización: cargar voces y configurar sliders
+    // --------------------------------------------------------------
+    loadVoices().then(() => {
+        setStatus('✅ Voces cargadas. Listo para leer textos.');
+        // Ajustar valores visuales iniciales
+        rateValue.textContent = rateSlider.value;
+        pitchValue.textContent = pitchSlider.value;
+    }).catch(err => {
+        console.warn(err);
+        setStatus('⚠️ Alerta: Web Speech API no es totalmente compatible en este navegador', true);
+    });
+
+    // Pequeña ayuda: cancelar reproducción al recargar página (opcional)
+    window.addEventListener('beforeunload', () => {
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+    });
+</script>
+</body>
+</html>

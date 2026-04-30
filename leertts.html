@@ -1,521 +1,812 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Prueba TTS - Web Speech API para estudio</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-            background: #f5f7fb;
-            margin: 0;
-            padding: 20px;
-            color: #1e293b;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .card {
-            background: white;
-            border-radius: 24px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            transition: all 0.2s;
-        }
-        h1 {
-            font-size: 1.8rem;
-            margin-top: 0;
-            margin-bottom: 0.5rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        h2 {
-            font-size: 1.3rem;
-            margin-top: 0;
-            margin-bottom: 1rem;
-            border-left: 4px solid #3b82f6;
-            padding-left: 12px;
-        }
-        h3 {
-            font-size: 1.1rem;
-            margin: 0 0 0.5rem 0;
-            color: #0f172a;
-        }
-        button {
-            background: #3b82f6;
-            border: none;
-            color: white;
-            font-weight: 500;
-            padding: 8px 16px;
-            border-radius: 40px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            transition: 0.2s;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-        }
-        button:hover {
-            background: #2563eb;
-            transform: scale(0.98);
-        }
-        .btn-outline {
-            background: transparent;
-            border: 1px solid #cbd5e1;
-            color: #1e293b;
-            box-shadow: none;
-        }
-        .btn-outline:hover {
-            background: #f1f5f9;
-            transform: none;
-        }
-        .btn-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin: 15px 0 10px;
-        }
-        .control-group {
-            background: #f8fafc;
-            padding: 12px 15px;
-            border-radius: 20px;
-            margin: 15px 0;
-        }
-        .slider-container {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            flex-wrap: wrap;
-            margin: 10px 0;
-        }
-        .slider-container label {
-            width: 70px;
-            font-weight: 500;
-        }
-        input[type="range"] {
-            flex: 1;
-            min-width: 150px;
-        }
-        select {
-            padding: 8px 12px;
-            border-radius: 30px;
-            border: 1px solid #cbd5e1;
-            background: white;
-            font-size: 0.9rem;
-            width: 100%;
-            max-width: 280px;
-        }
-        .theory-box, .test-box {
-            background: #fefce8;
-            padding: 15px;
-            border-radius: 20px;
-            margin: 15px 0;
-            border-left: 4px solid #eab308;
-        }
-        .test-box {
-            background: #eff6ff;
-            border-left-color: #3b82f6;
-        }
-        .status {
-            font-size: 0.85rem;
-            background: #e2e8f0;
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 40px;
-            margin-top: 10px;
-        }
-        textarea {
-            width: 100%;
-            border-radius: 20px;
-            border: 1px solid #cbd5e1;
-            padding: 12px;
-            font-family: inherit;
-            margin-top: 8px;
-        }
-        hr {
-            margin: 20px 0;
-            border: none;
-            border-top: 1px solid #e2e8f0;
-        }
-        footer {
-            text-align: center;
-            font-size: 0.8rem;
-            color: #64748b;
-            margin-top: 2rem;
-        }
-        @media (max-width: 600px) {
-            body { padding: 12px; }
-            .card { padding: 1rem; }
-            .btn-group button { flex: 1; }
-        }
-    </style>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lector TTS - sTIC d'Opos</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+
+  <script src="assets/js/login.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0b1020;
+      color: #e7ecff;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding-top: 36px;
+    }
+
+    .card {
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      color: #6ae0a7;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      color: #a0a8c0;
+      font-size: 0.95rem;
+    }
+
+    .status {
+      margin-top: 10px;
+      display: inline-block;
+      background: #27304a;
+      color: #e7ecff;
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 0.9rem;
+    }
+
+    .controls-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    .control-row {
+      display: grid;
+      grid-template-columns: 120px 1fr 70px;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .control-row label {
+      font-weight: 600;
+      color: #c6cee7;
+    }
+
+    .control-row input[type="range"],
+    .control-row select {
+      width: 100%;
+      background: #0b1020;
+      color: #e7ecff;
+      border: 1px solid #27304a;
+      border-radius: 8px;
+      padding: 8px 10px;
+    }
+
+    .control-value {
+      text-align: right;
+      color: #a0a8c0;
+      font-weight: 600;
+    }
+
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .btn {
+      border: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: 700;
+      transition: all 0.2s;
+      color: #e7ecff;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-play {
+      background: #2aebad;
+      color: #032217;
+    }
+
+    .btn-play:hover {
+      background: #21c08d;
+    }
+
+    .btn-neutral {
+      background: #27304a;
+    }
+
+    .btn-neutral:hover {
+      background: #3a4a6a;
+    }
+
+    .btn-warn {
+      background: #8a2a2a;
+    }
+
+    .btn-warn:hover {
+      background: #aa3a3a;
+    }
+
+    .text-block {
+      white-space: pre-wrap;
+      line-height: 1.55;
+      font-size: 1rem;
+      color: #e7ecff;
+      background: #0b1020;
+      border: 1px solid #27304a;
+      border-radius: 10px;
+      padding: 16px;
+      max-height: 62vh;
+      overflow: auto;
+    }
+
+    .empty-state,
+    .error-state {
+      text-align: center;
+      color: #a0a8c0;
+      padding: 30px 12px;
+    }
+
+    .error-state {
+      color: #ff8b8b;
+    }
+
+    .info-label {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 999;
+      background: #27304a;
+      color: #e7ecff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      opacity: 0.9;
+      max-width: 60vw;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .menu-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      z-index: 1000;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .menu-btn:hover {
+      background: #21c08d;
+      transform: scale(1.05);
+    }
+
+    .menu-btn span {
+      width: 28px;
+      height: 3px;
+      background: #032217;
+      border-radius: 2px;
+    }
+
+    .menu-panel {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      padding: 15px;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1001;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+      min-width: 190px;
+    }
+
+    .menu-panel.visible {
+      display: flex;
+    }
+
+    .menu-close-btn,
+    .btn-fullscreen,
+    .btn-menu-tornar {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e7ecff;
+      transition: all 0.2s;
+    }
+
+    .menu-close-btn {
+      background: #2aebad;
+      color: #032217;
+      font-weight: 700;
+    }
+
+    .menu-close-btn:hover {
+      background: #21c08d;
+    }
+
+    .btn-fullscreen {
+      background: #2a5f8a;
+    }
+
+    .btn-fullscreen:hover {
+      background: #3a7faa;
+    }
+
+    .btn-menu-tornar {
+      background: #27304a;
+    }
+
+    .btn-menu-tornar:hover {
+      background: #3a4a6a;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 12px;
+      }
+
+      .page {
+        padding-top: 24px;
+      }
+
+      .control-row {
+        grid-template-columns: 1fr;
+      }
+
+      .control-value {
+        text-align: left;
+      }
+
+      .menu-btn {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+      }
+
+      .menu-btn span {
+        width: 24px;
+      }
+
+      .menu-panel {
+        top: 15px;
+        right: 15px;
+        min-width: 150px;
+      }
+
+      .info-label {
+        top: 15px;
+        left: 15px;
+        max-width: calc(100vw - 80px);
+        font-size: 0.86rem;
+      }
+
+      .btn {
+        flex: 1 1 auto;
+      }
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-    <div class="card">
-        <h1>🔊 Prueba TTS · Web Speech API</h1>
-        <p>Lee cualquier texto de tu app de estudio: teoría, preguntas de test, notas en Markdown, etc.</p>
-        <div class="status" id="statusMsg">⚪ Esperando acción</div>
-    </div>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-    <!-- CONTROLES GLOBALES -->
-    <div class="card">
-        <h2>🎛️ Controles de voz</h2>
-        <div class="control-group">
-            <div class="slider-container">
-                <label>🗣️ Velocidad</label>
-                <input type="range" id="rateSlider" min="0.5" max="2" step="0.05" value="0.95">
-                <span id="rateValue">0.95</span>
-            </div>
-            <div class="slider-container">
-                <label>🎵 Tono</label>
-                <input type="range" id="pitchSlider" min="0" max="2" step="0.1" value="1">
-                <span id="pitchValue">1.0</span>
-            </div>
-            <div class="slider-container">
-                <label>🗣️ Voz</label>
-                <select id="voiceSelect"></select>
-            </div>
-            <div class="btn-group">
-                <button id="pauseBtn">⏸️ Pausar</button>
-                <button id="resumeBtn">▶️ Reanudar</button>
-                <button id="stopBtn">⏹️ Detener</button>
-            </div>
-        </div>
-    </div>
+  <button class="menu-btn" id="menuBtn" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 
-    <!-- EJEMPLO 1: TEORÍA (simula un bloque .md) -->
-    <div class="card">
-        <h2>📘 Teoría (contenido .md / texto largo)</h2>
-        <div id="teoriaContenido" class="theory-box">
-            <strong>🌱 La fotosíntesis</strong><br>
-            La fotosíntesis es el proceso mediante el cual las plantas convierten la luz solar, dióxido de carbono y agua en glucosa y oxígeno. Ocurre en los cloroplastos gracias a la clorofila. Es fundamental para la vida en la Tierra porque produce oxígeno y es la base de muchas cadenas alimenticias. <br><br>
-            <em>Ecuación resumida:</em> 6 CO₂ + 6 H₂O + luz solar → C₆H₁₂O₆ + 6 O₂.
-        </div>
-        <div class="btn-group">
-            <button id="leerTeoriaBtn">🔊 Leer teoría completa</button>
-            <button id="leerTeoriaPausadoBtn" class="btn-outline">📖 Leer + párrafos (con pausa)</button>
-        </div>
-        <small>💡 El botón "Leer + párrafos" divide el texto en frases/separadores y los reproduce secuencialmente.</small>
-    </div>
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close-btn" id="menuCloseBtn">☰ Tancar</button>
+    <button class="btn-fullscreen" id="fullscreenBtn">⛶ Pantalla completa</button>
+    <button class="btn-menu-tornar" id="menuTornarBtn">⬅️ Tornar</button>
+    <button class="btn-menu-tornar" id="menuIndexBtn">👨‍💻 Menu</button>
+  </div>
 
-    <!-- EJEMPLO 2: PREGUNTA DE TEST -->
-    <div class="card">
-        <h2>📝 Pregunta tipo test</h2>
-        <div class="test-box">
-            <p><strong>❓ Pregunta:</strong> ¿Cuál es el principal pigmento responsable de captar la luz en la fotosíntesis?</p>
-            <ul style="margin-top: 5px;">
-                <li><strong>A)</strong> Caroteno</li>
-                <li><strong>B)</strong> Xantofila</li>
-                <li><strong>C)</strong> Clorofila</li>
-                <li><strong>D)</strong> Antocianina</li>
-            </ul>
-            <p><strong>✅ Respuesta correcta:</strong> Clorofila (opción C).</p>
-        </div>
-        <div class="btn-group">
-            <button id="leerPreguntaBtn">📢 Leer pregunta y opciones</button>
-            <button id="leerRespuestaBtn">💡 Leer solo respuesta correcta</button>
-        </div>
-    </div>
+  <div id="infoLabel" class="info-label">fitxer tts</div>
 
-    <!-- EJEMPLO 3: TEXTO PERSONALIZADO (útil para notas o extractos .md) -->
-    <div class="card">
-        <h2>✏️ Texto personalizado</h2>
-        <textarea id="customText" rows="3" placeholder="Escribe o pega cualquier texto (ejemplo: extracto de un archivo .md, definición, etc.)">Las aplicaciones de estudio con TTS ayudan a retener información porque combinan lectura visual y auditiva. Puedes repasar mientras caminas o cocinas.</textarea>
-        <div class="btn-group" style="margin-top: 12px;">
-            <button id="leerCustomBtn">🔊 Leer este texto</button>
+  <div class="page">
+    <section class="card">
+      <div class="title">Lector de text TTS</div>
+      <div class="subtitle" id="subtitle">Preparant fitxer...</div>
+      <div class="status" id="statusMsg">Esperant</div>
+    </section>
+
+    <section class="card">
+      <div class="controls-grid">
+        <div class="control-row">
+          <label for="languageSelect">Idioma</label>
+          <select id="languageSelect"></select>
+          <span class="control-value" id="languageValue">-</span>
         </div>
-    </div>
 
-    <!-- INFO ADICIONAL -->
-    <div class="card">
-        <h2>💡 ¿Cómo funciona?</h2>
-        <p>✅ Esta demo usa la <strong>Web Speech API</strong> nativa del navegador.<br>
-        ✅ No requiere conexión a internet (una vez cargada la página, las voces están en tu SO).<br>
-        ✅ Puedes elegir distintas voces en español o inglés.<br>
-        ✅ Ideal para leer <strong>tests, teoría en markdown, anotaciones</strong>.<br>
-        ⚠️ En iOS Safari es necesario que el usuario <strong>toque un botón</strong> antes de la primera reproducción (todos los botones funcionan).</p>
-    </div>
-    <footer>Prueba completa de TTS para app de estudio — Ajusta velocidad, tono y voz</footer>
-</div>
+        <div class="control-row">
+          <label for="voiceSelect">Veu</label>
+          <select id="voiceSelect"></select>
+          <span class="control-value" id="voiceValue">-</span>
+        </div>
 
-<script>
-    // --------------------------------------------------------------
-    // 1. Elementos del DOM
-    // --------------------------------------------------------------
-    const statusDiv = document.getElementById('statusMsg');
-    const rateSlider = document.getElementById('rateSlider');
-    const rateValue = document.getElementById('rateValue');
-    const pitchSlider = document.getElementById('pitchSlider');
-    const pitchValue = document.getElementById('pitchValue');
+        <div class="control-row">
+          <label for="rateSlider">Velocitat</label>
+          <input type="range" id="rateSlider" min="0.5" max="2" step="0.05" value="1">
+          <span class="control-value" id="rateValue">1.00</span>
+        </div>
+
+        <div class="control-row">
+          <label for="pitchSlider">To</label>
+          <input type="range" id="pitchSlider" min="0" max="2" step="0.1" value="1">
+          <span class="control-value" id="pitchValue">1.0</span>
+        </div>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn btn-play" id="playAllBtn">▶ Reproduir tot</button>
+        <button class="btn btn-neutral" id="playSelectionBtn">▶ Reproduir seleccio</button>
+        <button class="btn btn-warn" id="stopBtn">⏹ Aturar</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="text-block" id="ttsTextContainer">
+        <div class="empty-state">Carregant contingut...</div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const STORAGE = {
+      rate: 'sTICdOpos_tts_rate',
+      pitch: 'sTICdOpos_tts_pitch',
+      lang: 'sTICdOpos_tts_lang',
+      voice: 'sTICdOpos_tts_voice'
+    };
+
+    const statusMsg = document.getElementById('statusMsg');
+    const subtitle = document.getElementById('subtitle');
+    const ttsTextContainer = document.getElementById('ttsTextContainer');
+
+    const languageSelect = document.getElementById('languageSelect');
     const voiceSelect = document.getElementById('voiceSelect');
-    const pauseBtn = document.getElementById('pauseBtn');
-    const resumeBtn = document.getElementById('resumeBtn');
+    const languageValue = document.getElementById('languageValue');
+    const voiceValue = document.getElementById('voiceValue');
+
+    const rateSlider = document.getElementById('rateSlider');
+    const pitchSlider = document.getElementById('pitchSlider');
+    const rateValue = document.getElementById('rateValue');
+    const pitchValue = document.getElementById('pitchValue');
+
+    const playAllBtn = document.getElementById('playAllBtn');
+    const playSelectionBtn = document.getElementById('playSelectionBtn');
     const stopBtn = document.getElementById('stopBtn');
 
-    // Contenido de ejemplo
-    const teoriaDiv = document.getElementById('teoriaContenido');
-    const leerTeoriaBtn = document.getElementById('leerTeoriaBtn');
-    const leerTeoriaPausadoBtn = document.getElementById('leerTeoriaPausadoBtn');
-    const leerPreguntaBtn = document.getElementById('leerPreguntaBtn');
-    const leerRespuestaBtn = document.getElementById('leerRespuestaBtn');
-    const customTextarea = document.getElementById('customText');
-    const leerCustomBtn = document.getElementById('leerCustomBtn');
+    const menuBtn = document.getElementById('menuBtn');
+    const menuPanel = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const menuTornarBtn = document.getElementById('menuTornarBtn');
+    const menuIndexBtn = document.getElementById('menuIndexBtn');
+    const infoLabel = document.getElementById('infoLabel');
 
-    // Variables globales de control
-    let currentUtterance = null;
-    let voicesList = [];
-    let isSpeaking = false;
+    const urlParams = new URLSearchParams(window.location.search);
+    const root = urlParams.get('root') || 'apunts_new';
+    const tema = urlParams.get('tema') || '';
+    const fitxer = urlParams.get('fitxer') || '';
 
-    // --------------------------------------------------------------
-    // 2. Funciones auxiliares para estado y mensajes
-    // --------------------------------------------------------------
-    function setStatus(text, isError = false) {
-        statusDiv.innerHTML = text;
-        statusDiv.style.backgroundColor = isError ? '#fee2e2' : '#e2e8f0';
-        if (!isError) setTimeout(() => {
-            if (statusDiv.innerHTML === text) statusDiv.style.backgroundColor = '#e2e8f0';
-        }, 2000);
+    let loadedText = '';
+    let voices = [];
+    let isSequentialReading = false;
+
+    function setStatus(text, isError) {
+      statusMsg.textContent = text;
+      statusMsg.style.background = isError ? '#8a2a2a' : '#27304a';
     }
 
-    // Detener cualquier reproducción actual
     function stopSpeaking() {
-        if (window.speechSynthesis) {
-            window.speechSynthesis.cancel();
-        }
-        isSpeaking = false;
-        setStatus('⏹️ Reproducción detenida');
+      isSequentialReading = false;
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      setStatus('Aturat', false);
     }
 
-    // Función principal para hablar un texto
-    function speakText(text, options = {}) {
-        if (!text || text.trim() === '') {
-            setStatus('⚠️ El texto está vacío', true);
-            return;
-        }
-        // Detener lo que se esté reproduciendo
-        stopSpeaking();
+    function splitTextForTTS(text, maxLen) {
+      const normalized = text.replace(/\s+/g, ' ').trim();
+      if (!normalized) return [];
 
-        const utterance = new SpeechSynthesisUtterance(text);
-        // Aplicar parámetros globales
-        utterance.rate = parseFloat(rateSlider.value);
-        utterance.pitch = parseFloat(pitchSlider.value);
-        utterance.lang = 'es-ES';  // por defecto español, pero la voz elegida puede cambiarlo
+      const sentences = normalized.split(/(?<=[.!?])\s+/);
+      const chunks = [];
+      let buffer = '';
 
-        // Seleccionar voz elegida en el dropdown
-        const selectedVoiceName = voiceSelect.value;
-        if (selectedVoiceName && voicesList.length) {
-            const selectedVoice = voicesList.find(voice => voice.name === selectedVoiceName);
-            if (selectedVoice) {
-                utterance.voice = selectedVoice;
-                utterance.lang = selectedVoice.lang;
-            }
+      for (const sentence of sentences) {
+        if ((buffer + ' ' + sentence).trim().length <= maxLen) {
+          buffer = (buffer + ' ' + sentence).trim();
+          continue;
         }
 
-        // Eventos para actualizar estado
-        utterance.onstart = () => {
-            isSpeaking = true;
-            setStatus(`🔊 Reproduciendo: "${text.substring(0, 60)}${text.length > 60 ? '…' : ''}"`);
-        };
+        if (buffer) {
+          chunks.push(buffer);
+          buffer = '';
+        }
+
+        if (sentence.length <= maxLen) {
+          buffer = sentence;
+          continue;
+        }
+
+        let start = 0;
+        while (start < sentence.length) {
+          chunks.push(sentence.slice(start, start + maxLen));
+          start += maxLen;
+        }
+      }
+
+      if (buffer) chunks.push(buffer);
+      return chunks;
+    }
+
+    function getSelectedVoice() {
+      const selectedName = voiceSelect.value;
+      if (!selectedName) return null;
+      return voices.find(v => v.name === selectedName) || null;
+    }
+
+    function speakSequentially(text) {
+      if (!('speechSynthesis' in window)) {
+        setStatus('Web Speech API no disponible al navegador', true);
+        return;
+      }
+
+      const chunks = splitTextForTTS(text, 220);
+      if (!chunks.length) {
+        setStatus('No hi ha text per reproduir', true);
+        return;
+      }
+
+      stopSpeaking();
+      isSequentialReading = true;
+      setStatus('Reproduint...', false);
+
+      let idx = 0;
+      const voice = getSelectedVoice();
+      const rate = parseFloat(rateSlider.value);
+      const pitch = parseFloat(pitchSlider.value);
+      const selectedLang = languageSelect.value || 'ca-ES';
+
+      const playNext = () => {
+        if (!isSequentialReading) return;
+        if (idx >= chunks.length) {
+          isSequentialReading = false;
+          setStatus('Reproduccio finalitzada', false);
+          return;
+        }
+
+        const utterance = new SpeechSynthesisUtterance(chunks[idx]);
+        utterance.rate = rate;
+        utterance.pitch = pitch;
+        utterance.lang = selectedLang;
+        if (voice) utterance.voice = voice;
+
         utterance.onend = () => {
-            isSpeaking = false;
-            setStatus('✅ Reproducción finalizada');
-            currentUtterance = null;
+          idx += 1;
+          setTimeout(playNext, 120);
         };
+
         utterance.onerror = (event) => {
-            console.error('TTS Error:', event);
-            isSpeaking = false;
-            setStatus(`❌ Error al reproducir: ${event.error || 'desconocido'}`, true);
-            currentUtterance = null;
+          console.error('Error TTS:', event);
+          isSequentialReading = false;
+          setStatus('Error en reproduccio TTS', true);
         };
 
-        currentUtterance = utterance;
         window.speechSynthesis.speak(utterance);
+      };
+
+      playNext();
     }
 
-    // --------------------------------------------------------------
-    // 3. CARGAR VOCES disponibles (asíncrono)
-    // --------------------------------------------------------------
+    function saveSetting(key, value) {
+      localStorage.setItem(key, String(value));
+    }
+
+    function loadSavedSettings() {
+      const savedRate = localStorage.getItem(STORAGE.rate);
+      const savedPitch = localStorage.getItem(STORAGE.pitch);
+      if (savedRate) rateSlider.value = savedRate;
+      if (savedPitch) pitchSlider.value = savedPitch;
+
+      rateValue.textContent = Number(rateSlider.value).toFixed(2);
+      pitchValue.textContent = Number(pitchSlider.value).toFixed(1);
+    }
+
+    function updateLanguageList() {
+      const langs = Array.from(new Set(voices.map(v => v.lang))).sort((a, b) => a.localeCompare(b));
+      languageSelect.innerHTML = '';
+
+      if (!langs.length) {
+        const opt = document.createElement('option');
+        opt.value = '';
+        opt.textContent = 'Sense idiomes detectats';
+        languageSelect.appendChild(opt);
+        languageValue.textContent = '-';
+        return;
+      }
+
+      langs.forEach(lang => {
+        const opt = document.createElement('option');
+        opt.value = lang;
+        opt.textContent = lang;
+        languageSelect.appendChild(opt);
+      });
+
+      const preferred = localStorage.getItem(STORAGE.lang);
+      const hasPreferred = preferred && langs.includes(preferred);
+      const fallback = langs.find(l => l.startsWith('ca')) || langs.find(l => l.startsWith('es')) || langs[0];
+
+      languageSelect.value = hasPreferred ? preferred : fallback;
+      languageValue.textContent = languageSelect.value || '-';
+      saveSetting(STORAGE.lang, languageSelect.value || '');
+    }
+
+    function updateVoiceList() {
+      const selectedLang = languageSelect.value;
+      const filtered = voices.filter(v => !selectedLang || v.lang === selectedLang);
+      voiceSelect.innerHTML = '';
+
+      if (!filtered.length) {
+        const opt = document.createElement('option');
+        opt.value = '';
+        opt.textContent = 'Sense veus disponibles';
+        voiceSelect.appendChild(opt);
+        voiceValue.textContent = '-';
+        return;
+      }
+
+      filtered.forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v.name;
+        opt.textContent = v.name + ' (' + v.lang + ')';
+        voiceSelect.appendChild(opt);
+      });
+
+      const preferred = localStorage.getItem(STORAGE.voice);
+      const hasPreferred = preferred && filtered.some(v => v.name === preferred);
+      const defaultVoice = filtered.find(v => v.default) || filtered[0];
+      voiceSelect.value = hasPreferred ? preferred : defaultVoice.name;
+      voiceValue.textContent = voiceSelect.value || '-';
+      saveSetting(STORAGE.voice, voiceSelect.value || '');
+    }
+
     function loadVoices() {
-        return new Promise((resolve) => {
-            let voices = window.speechSynthesis.getVoices();
-            if (voices.length) {
-                updateVoiceList(voices);
-                resolve(voices);
-            } else {
-                window.speechSynthesis.onvoiceschanged = () => {
-                    voices = window.speechSynthesis.getVoices();
-                    updateVoiceList(voices);
-                    resolve(voices);
-                };
-            }
-        });
+      const assign = () => {
+        voices = window.speechSynthesis.getVoices();
+        updateLanguageList();
+        updateVoiceList();
+      };
+
+      assign();
+      window.speechSynthesis.onvoiceschanged = assign;
     }
 
-    function updateVoiceList(voices) {
-        voicesList = voices;
-        const previousSelection = voiceSelect.value;
-        voiceSelect.innerHTML = '';
-        // Filtrar para mostrar voces útiles (opcional: mostrar español primero)
-        const spanishVoices = voices.filter(v => v.lang.startsWith('es'));
-        const otherVoices = voices.filter(v => !v.lang.startsWith('es'));
-        const sortedVoices = [...spanishVoices, ...otherVoices];
-        
-        if (sortedVoices.length === 0) {
-            voiceSelect.innerHTML = '<option>No se detectaron voces</option>';
-            return;
-        }
-        sortedVoices.forEach(voice => {
-            const option = document.createElement('option');
-            option.value = voice.name;
-            option.textContent = `${voice.name} (${voice.lang})`;
-            if (voice.default && previousSelection === '') option.selected = true;
-            voiceSelect.appendChild(option);
-        });
-        // Intentar restaurar selección previa
-        if (previousSelection && Array.from(voiceSelect.options).some(opt => opt.value === previousSelection)) {
-            voiceSelect.value = previousSelection;
-        } else {
-            // seleccionar primera voz en español si existe
-            const firstSpanish = sortedVoices.find(v => v.lang.startsWith('es'));
-            if (firstSpanish) voiceSelect.value = firstSpanish.name;
-        }
+    function getSelectedTextFromContainer() {
+      const selection = window.getSelection();
+      if (!selection || selection.rangeCount === 0) return '';
+      const selected = selection.toString().trim();
+      if (!selected) return '';
+
+      const range = selection.getRangeAt(0);
+      const containerNode = ttsTextContainer;
+      if (!containerNode.contains(range.commonAncestorContainer)) return '';
+      return selected;
     }
 
-    // --------------------------------------------------------------
-    // 4. Actualizar sliders de velocidad y tono
-    // --------------------------------------------------------------
-    rateSlider.addEventListener('input', () => {
-        rateValue.textContent = parseFloat(rateSlider.value).toFixed(2);
-    });
-    pitchSlider.addEventListener('input', () => {
-        pitchValue.textContent = parseFloat(pitchSlider.value).toFixed(1);
-    });
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
 
-    // --------------------------------------------------------------
-    // 5. Botones de control global (pausa, reanudar, detener)
-    // --------------------------------------------------------------
-    pauseBtn.addEventListener('click', () => {
-        if (window.speechSynthesis && window.speechSynthesis.speaking) {
-            window.speechSynthesis.pause();
-            setStatus('⏸️ Pausado');
-        } else {
-            setStatus('No hay nada reproduciéndose para pausar');
+    async function cargarTexto() {
+      if (!fitxer) {
+        subtitle.textContent = 'Falta fitxer TTS a la URL';
+        ttsTextContainer.innerHTML = '<div class="error-state">No s\'ha especificat cap fitxer TTS.</div>';
+        setStatus('Parametres invalids', true);
+        return;
+      }
+
+      let adjustedRoot = root;
+      if (location.pathname.includes('/opos/') && root.startsWith('opos/')) {
+        adjustedRoot = root.substring(5);
+      }
+
+      const textPath = tema ? adjustedRoot + '/' + tema + '/' + fitxer : adjustedRoot + '/' + fitxer;
+      const fileNameNoExt = fitxer.replace(/\.[^/.]+$/, '') || 'tts';
+      infoLabel.textContent = fileNameNoExt;
+      subtitle.textContent = textPath;
+
+      try {
+        const res = await fetch(textPath + '?v=' + Date.now());
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+
+        const rawText = await res.text();
+        loadedText = rawText.replace(/^\uFEFF/, '').trim();
+
+        if (!loadedText) {
+          ttsTextContainer.innerHTML = '<div class="empty-state">El fitxer TTS esta buit.</div>';
+          setStatus('Fitxer buit', true);
+          return;
         }
-    });
-    resumeBtn.addEventListener('click', () => {
-        if (window.speechSynthesis && window.speechSynthesis.paused) {
-            window.speechSynthesis.resume();
-            setStatus('▶️ Reanudado');
-        } else {
-            setStatus('No hay nada pausado para reanudar');
+
+        ttsTextContainer.innerHTML = escapeHtml(loadedText);
+        setStatus('Text carregat', false);
+      } catch (error) {
+        console.error(error);
+        ttsTextContainer.innerHTML = '<div class="error-state">Error carregant el fitxer TTS.<br>' + escapeHtml(textPath) + '</div>';
+        setStatus('Error de carrega', true);
+      }
+    }
+
+    function initMenu() {
+      menuBtn.addEventListener('click', () => {
+        menuPanel.classList.toggle('visible');
+      });
+
+      menuCloseBtn.addEventListener('click', () => {
+        menuPanel.classList.remove('visible');
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
+          menuPanel.classList.remove('visible');
         }
-    });
-    stopBtn.addEventListener('click', () => {
+      });
+
+      fullscreenBtn.addEventListener('click', () => {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().then(() => {
+            fullscreenBtn.textContent = '⛶ Sortir pantalla completa';
+            menuPanel.classList.remove('visible');
+          }).catch(err => {
+            console.error('Error al activar fullscreen:', err);
+          });
+        } else {
+          document.exitFullscreen().then(() => {
+            fullscreenBtn.textContent = '⛶ Pantalla completa';
+            menuPanel.classList.remove('visible');
+          });
+        }
+      });
+
+      document.addEventListener('fullscreenchange', () => {
+        if (!document.fullscreenElement) {
+          fullscreenBtn.textContent = '⛶ Pantalla completa';
+        }
+      });
+
+      menuTornarBtn.addEventListener('click', () => {
+        if (window.history.length > 1) {
+          window.history.back();
+        } else {
+          window.location.href = 'leerrecursos.html';
+        }
+      });
+
+      menuIndexBtn.addEventListener('click', () => {
+        window.location.href = 'index.html';
+      });
+    }
+
+    function initControls() {
+      rateSlider.addEventListener('input', () => {
+        const value = Number(rateSlider.value).toFixed(2);
+        rateValue.textContent = value;
+        saveSetting(STORAGE.rate, value);
+      });
+
+      pitchSlider.addEventListener('input', () => {
+        const value = Number(pitchSlider.value).toFixed(1);
+        pitchValue.textContent = value;
+        saveSetting(STORAGE.pitch, value);
+      });
+
+      languageSelect.addEventListener('change', () => {
+        languageValue.textContent = languageSelect.value || '-';
+        saveSetting(STORAGE.lang, languageSelect.value || '');
+        updateVoiceList();
+      });
+
+      voiceSelect.addEventListener('change', () => {
+        voiceValue.textContent = voiceSelect.value || '-';
+        saveSetting(STORAGE.voice, voiceSelect.value || '');
+      });
+
+      playAllBtn.addEventListener('click', () => {
+        speakSequentially(loadedText);
+      });
+
+      playSelectionBtn.addEventListener('click', () => {
+        const selected = getSelectedTextFromContainer();
+        if (!selected) {
+          setStatus('Selecciona text dins del bloc per reproduir-lo', true);
+          return;
+        }
+        speakSequentially(selected);
+      });
+
+      stopBtn.addEventListener('click', () => {
         stopSpeaking();
-    });
+      });
+    }
 
-    // --------------------------------------------------------------
-    // 6. LECTURA DE CONTENIDOS ESPECÍFICOS DE LA APP DE ESTUDIO
-    // --------------------------------------------------------------
-    // Leer teoría completa (div entero)
-    leerTeoriaBtn.addEventListener('click', () => {
-        const textoTeoria = teoriaDiv.innerText || teoriaDiv.textContent;
-        speakText(textoTeoria);
-    });
+    document.addEventListener('DOMContentLoaded', () => {
+      const userGuid = localStorage.getItem(LS_KEYS.USER_NAME);
+      const userPass = localStorage.getItem(LS_KEYS.USER_PASS);
+      login.checkUserAuth(userGuid, userPass, login.ROLES.VIP);
 
-    // Leer teoría con pausas entre párrafos (simula lectura más natural para textos largos)
-    leerTeoriaPausadoBtn.addEventListener('click', () => {
-        const textoCompleto = teoriaDiv.innerText;
-        // Dividir por saltos de línea o puntos y aparte (simple)
-        const parrafos = textoCompleto.split(/\n+/).filter(p => p.trim().length > 0);
-        if (parrafos.length === 0) return;
-        stopSpeaking(); // cancelar pendiente
-        let index = 0;
-        function speakNext() {
-            if (index >= parrafos.length) {
-                setStatus('✅ Teoría con pausas finalizada');
-                isSpeaking = false;
-                return;
-            }
-            const utterance = new SpeechSynthesisUtterance(parrafos[index]);
-            // aplicar mismos ajustes de velocidad/tono/voz
-            utterance.rate = parseFloat(rateSlider.value);
-            utterance.pitch = parseFloat(pitchSlider.value);
-            const selectedVoiceName = voiceSelect.value;
-            const selectedVoice = voicesList.find(v => v.name === selectedVoiceName);
-            if (selectedVoice) utterance.voice = selectedVoice;
-            
-            utterance.onend = () => {
-                index++;
-                // pequeña pausa de 400ms entre párrafos
-                setTimeout(speakNext, 400);
-            };
-            utterance.onerror = () => {
-                setStatus('Error en lectura secuencial', true);
-                isSpeaking = false;
-            };
-            window.speechSynthesis.speak(utterance);
-        }
-        speakNext();
-    });
+      initMenu();
+      loadSavedSettings();
+      if ('speechSynthesis' in window) {
+        loadVoices();
+      } else {
+        setStatus('Web Speech API no disponible', true);
+      }
+      initControls();
+      cargarTexto();
+    }, { once: true });
 
-    // Leer pregunta y opciones de test (extrae texto del bloque .test-box)
-    leerPreguntaBtn.addEventListener('click', () => {
-        const testBlock = document.querySelector('.test-box');
-        if (testBlock) {
-            const textoPregunta = testBlock.innerText;
-            speakText(textoPregunta);
-        } else {
-            setStatus('No se encontró la pregunta del test', true);
-        }
-    });
-
-    // Leer solo la respuesta correcta (último párrafo del bloque test-box que empieza con ✅)
-    leerRespuestaBtn.addEventListener('click', () => {
-        const respuestaElement = document.querySelector('.test-box p:last-child');
-        if (respuestaElement && respuestaElement.innerText.includes('✅')) {
-            speakText(respuestaElement.innerText);
-        } else {
-            // fallback
-            const allText = document.querySelector('.test-box')?.innerText || '';
-            const match = allText.match(/✅.*/);
-            if (match) speakText(match[0]);
-            else setStatus('No se pudo extraer la respuesta correcta', true);
-        }
-    });
-
-    // Texto personalizado
-    leerCustomBtn.addEventListener('click', () => {
-        const customText = customTextarea.value.trim();
-        if (customText === '') {
-            setStatus('Escribe algo en el área de texto personalizado', true);
-        } else {
-            speakText(customText);
-        }
-    });
-
-    // --------------------------------------------------------------
-    // 7. Inicialización: cargar voces y configurar sliders
-    // --------------------------------------------------------------
-    loadVoices().then(() => {
-        setStatus('✅ Voces cargadas. Listo para leer textos.');
-        // Ajustar valores visuales iniciales
-        rateValue.textContent = rateSlider.value;
-        pitchValue.textContent = pitchSlider.value;
-    }).catch(err => {
-        console.warn(err);
-        setStatus('⚠️ Alerta: Web Speech API no es totalmente compatible en este navegador', true);
-    });
-
-    // Pequeña ayuda: cancelar reproducción al recargar página (opcional)
     window.addEventListener('beforeunload', () => {
-        if (window.speechSynthesis) window.speechSynthesis.cancel();
+      stopSpeaking();
     });
-</script>
+  </script>
 </body>
 </html>
