@@ -9,6 +9,11 @@ const login = {
     VIP: 'VIP'
   },
 
+  async fetchUsersData() {
+    const cacheBuster = Date.now();
+    return fetch(`assets/users.json?v=${cacheBuster}`).then(r => r.json());
+  },
+
   /**
    * Comprueba si el usuario tiene el rol especificado
    * @param {string} username - Nombre de usuario
@@ -17,7 +22,7 @@ const login = {
    */
   async hasRole(username, roleId) {
     try {
-      const usersData = await fetch('assets/users.json').then(r => r.json());
+      const usersData = await this.fetchUsersData();
       if (!usersData || !Array.isArray(usersData.users)) return false;
       const user = usersData.users.find(u => u.name === username);
       if (!user || !Array.isArray(user.role)) return false;
@@ -41,7 +46,7 @@ const login = {
     }
     try {
       // Buscar usuario en users.json
-      const usersData = await fetch('assets/users.json').then(r => r.json());
+      const usersData = await this.fetchUsersData();
       if (!usersData || !Array.isArray(usersData.users)) throw new Error('No users');
       const user = usersData.users.find(u => u.name === user_name);
       if (!user) throw new Error('No user');
