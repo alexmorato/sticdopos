@@ -607,6 +607,7 @@
     <!-- Botón Guardar Local en Servidor -->
     <div class="btn-row hidden" id="botonSobreescribir">
       <button class="warning-btn" id="btnLocalAServidor" onclick="guardarLocalEnServidor()">⚠️⬆️ Guardar Local al Servidor</button>
+      <button class="warning-btn" id="btnServidorALocal" onclick="guardarServidorEnLocal()">⚠️⬇️ Guardar Servidor en Local</button>
     </div>
 
   </div>
@@ -786,6 +787,24 @@
       historialContestades: {},
       interaccionesApi: {}
     };
+
+    // Controla si hay una descarga real previa desde servidor
+    window.hayDescargaServidorPrevia = false;
+
+    function actualizarVisibilidadBotonServidorALocal() {
+      const btnServidorALocal = document.getElementById('btnServidorALocal');
+      if (!btnServidorALocal) return;
+
+      if (window.hayDescargaServidorPrevia) {
+        btnServidorALocal.classList.remove('hidden');
+        btnServidorALocal.disabled = false;
+      } else {
+        btnServidorALocal.classList.add('hidden');
+        btnServidorALocal.disabled = true;
+      }
+    }
+
+    actualizarVisibilidadBotonServidorALocal();
 
     function getBcryptLib() {
       return window.dcodeIO && window.dcodeIO.bcrypt
@@ -1107,6 +1126,10 @@
         }
 
         const data = await response.json();
+
+        // Solo consideramos descarga previa cuando llega JSON real del servidor
+        window.hayDescargaServidorPrevia = true;
+        actualizarVisibilidadBotonServidorALocal();
         
         // Parsear datos del servidor
         sesionServidor.historialFallos = data.sTICdOpos_historialFallos || [];
@@ -1143,6 +1166,10 @@
             sesionServidor.historialFallos = [...sesionLocal.historialFallos];
             sesionServidor.historialContestades = {...sesionLocal.historialContestades};
             sesionServidor.interaccionesApi = {...sesionLocal.interaccionesApi};
+
+            // No hubo descarga previa real de datos remotos
+            window.hayDescargaServidorPrevia = false;
+            actualizarVisibilidadBotonServidorALocal();
 
             mostrarResumenServidor();
             realizarMerge();
@@ -1271,6 +1298,7 @@
       document.getElementById('btnDescargarSyncSession').classList.add('hidden');
       document.getElementById('botonesGuardar').classList.remove('hidden');
       document.getElementById('botonSobreescribir').classList.remove('hidden');
+      actualizarVisibilidadBotonServidorALocal();
     }
 
     // ========================================
@@ -1361,6 +1389,31 @@
       } finally {
         if (typeof hideLoadingSpinner === 'function') hideLoadingSpinner();
         document.getElementById('btnLocalAServidor').disabled = false;
+      }
+    };
+
+    window.guardarServidorEnLocal = function() {
+      if (!confirm('⚠️ ATENCIÓ: Aquesta acció guardarà NOMÉS les dades del servidor en local, SOBREESCRIVINT la sessió local actual. Estàs segur?')) {
+        toast.showToast('Acció cancel·lada');
+        return;
+      }
+
+      try {
+        localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(sesionServidor.historialFallos || []));
+        localStorage.setItem(LS_KEYS.HISTORIAL_CONTESTADES, JSON.stringify(sesionServidor.historialContestades || {}));
+        localStorage.setItem(LS_KEYS.INTERACCIONES_API, JSON.stringify(sesionServidor.interaccionesApi || {}));
+
+        sesionLocal = JSON.parse(JSON.stringify(sesionServidor));
+        mostrarResumenLocal();
+
+        // Mantener merge alineado con el nuevo estado local/servidor
+        realizarMerge();
+        mostrarResumenMerge();
+
+        toast.showToast('Dades del servidor guardades en local!');
+      } catch (e) {
+        console.error('Error guardando servidor en local:', e);
+        toast.showToast('Error guardant dades del servidor en local');
       }
     };
   </script>
