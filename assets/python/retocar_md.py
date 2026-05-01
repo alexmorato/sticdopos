@@ -7,7 +7,10 @@ from pathlib import Path
 
 
 HEADING_RE = re.compile(r"^( {0,3})(#{1,6})\s+(.*?)\s*$")
-NUMBER_PREFIX_RE = re.compile(r"^\d+(?:\.\d+)*\.?\s+")
+NUMBER_PREFIX_RE = re.compile(
+	r"^(?:\d+(?:\.\d+)*\.?|[A-Z]+\))\s+",
+	re.IGNORECASE,
+)
 ANCHOR_SUFFIX_RE = re.compile(r"\s*<a id=\"[^\"]+\"></a>\s*$")
 PLACEHOLDER_RE = re.compile(r"^\s*INDICE INTERACTIVO\s*$", re.IGNORECASE)
 
@@ -55,8 +58,38 @@ def parse_number(text: str) -> list[int]:
 	return parts
 
 
+def number_to_letters(value: int) -> str:
+	if value <= 0:
+		raise ValueError(f"Valor no válido para letra: {value!r}")
+
+	letters: list[str] = []
+	remaining = value
+	while remaining > 0:
+		remaining -= 1
+		letters.append(chr(ord("A") + (remaining % 26)))
+		remaining //= 26
+	return "".join(reversed(letters))
+
+
+def letters_to_number(value: str) -> int:
+	cleaned = value.strip().upper().rstrip(")")
+	if not cleaned or not re.fullmatch(r"[A-Z]+", cleaned):
+		raise ValueError(f"Valor no válido para letra: {value!r}")
+
+	number = 0
+	for character in cleaned:
+		number = number * 26 + (ord(character) - ord("A") + 1)
+	return number
+
+
 def format_number(parts: list[int]) -> str:
 	return ".".join(str(part) for part in parts)
+
+
+def format_heading_prefix(number_parts: list[int], numbering_mode: str) -> str:
+	if numbering_mode == "alpha":
+		return f"{number_to_letters(number_parts[-1])})"
+	return format_number(number_parts)
 
 
 def strip_existing_number(title: str) -> str:
@@ -71,7 +104,13 @@ def build_candidate_number(
 	base_number: list[int],
 	accepted_numbers_by_level: dict[int, list[int]],
 	current_level: int,
+	numbering_mode: str,
 ) -> list[int]:
+	if numbering_mode == "alpha":
+		if current_level in accepted_numbers_by_level:
+			return [accepted_numbers_by_level[current_level][-1] + 1]
+		return [1]
+
 	if current_level in accepted_numbers_by_level:
 		candidate = accepted_numbers_by_level[current_level].copy()
 		candidate[-1] += 1
@@ -87,14 +126,18 @@ def build_candidate_number(
 	return candidate
 
 
-def apply_number_to_heading(line: str, number_parts: list[int]) -> str:
+def apply_number_to_heading(
+	line: str,
+	number_parts: list[int],
+	numbering_mode: str = "numeric",
+) -> str:
 	match = HEADING_RE.match(line)
 	if not match:
 		return line
 
 	indent, hashes, title = match.groups()
 	clean_title = strip_existing_number(strip_existing_anchor(title))
-	return f"{indent}{hashes} {format_number(number_parts)} {clean_title}"
+	return f"{indent}{hashes} {format_heading_prefix(number_parts, numbering_mode)} {clean_title}"
 
 
 def apply_heading_level_to_line(line: str, new_level: int) -> str:
@@ -110,22 +153,27 @@ def prompt_user(
 	line_number: int,
 	line: str,
 	candidate_number: list[int],
-) -> tuple[str, list[int] | None]:
-	new_line = apply_number_to_heading(line, candidate_number)
+	numbering_mode: str,
+) -> tuple[str, list[int] | None, str | None]:
+	new_line = apply_number_to_heading(line, candidate_number, numbering_mode)
 	print()
 	print(f"Línea {line_number}")
 	print(f"Actual   : {line}")
 	print(f"Propuesta: {new_line}")
-	answer = input("Enter=aceptar, s=saltar, o escribe un número: ").strip()
+	answer = input("Enter=aceptar, s=saltar, o escribe un número o letra: ").strip()
 
 	if answer == "":
-		return new_line, candidate_number
+		return new_line, candidate_number, numbering_mode
 
 	if answer.lower() == "s":
-		return line, None
+		return line, None, None
+
+	if re.fullmatch(r"[A-Za-z]+\)?", answer):
+		override_number = [letters_to_number(answer)]
+		return apply_number_to_heading(line, override_number, "alpha"), override_number, "alpha"
 
 	override_number = parse_number(answer)
-	return apply_number_to_heading(line, override_number), override_number
+	return apply_number_to_heading(line, override_number, "numeric"), override_number, "numeric"
 
 
 def prompt_header_correction(
@@ -225,6 +273,7 @@ def process_markdown_text(original_text: str, start_number: list[int]) -> str:
 
 	updated_lines: list[str] = []
 	accepted_numbers_by_level: dict[int, list[int]] = {}
+	numbering_modes_by_level: dict[int, str] = {}
 	inside_fenced_block = False
 
 	for line_number, line in enumerate(lines, start=1):
@@ -240,17 +289,20 @@ def process_markdown_text(original_text: str, start_number: list[int]) -> str:
 			continue
 
 		current_level = len(match.group(2))
+		numbering_mode = numbering_modes_by_level.get(current_level, "numeric")
 		candidate_number = build_candidate_number(
 			base_number=start_number,
 			accepted_numbers_by_level=accepted_numbers_by_level,
 			current_level=current_level,
+			numbering_mode=numbering_mode,
 		)
 
 		try:
-			updated_line, accepted_number = prompt_user(
+			updated_line, accepted_number, accepted_mode = prompt_user(
 				line_number=line_number,
 				line=line,
 				candidate_number=candidate_number,
+				numbering_mode=numbering_mode,
 			)
 		except ValueError as error:
 			print(f"Entrada inválida en la línea {line_number}: {error}")
@@ -261,8 +313,10 @@ def process_markdown_text(original_text: str, start_number: list[int]) -> str:
 		updated_lines.append(updated_line)
 		if accepted_number is not None:
 			accepted_numbers_by_level[current_level] = accepted_number
+			if accepted_mode is not None:
+				numbering_modes_by_level[current_level] = accepted_mode
 			for level in list(accepted_numbers_by_level):
-				if level > current_level:
+				if level > current_level and numbering_modes_by_level.get(level, "numeric") != "alpha":
 					del accepted_numbers_by_level[level]
 
 	new_text = "\n".join(updated_lines)
