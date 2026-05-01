@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gestio de Session i LocalStorage</title>
+	<style>
+		:root {
+			--bg: #f2efe8;
+			--card: #fffdf7;
+			--ink: #1f2a2e;
+			--muted: #5a676c;
+			--accent: #0f766e;
+			--accent-2: #0b4f4a;
+			--danger: #b42318;
+			--danger-2: #7a271a;
+			--line: #d8d2c6;
+			--ok: #1e7f41;
+			--warn: #915f00;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+			color: var(--ink);
+			background:
+				radial-gradient(circle at 10% 0%, #e5f5f2 0%, transparent 45%),
+				radial-gradient(circle at 90% 100%, #fef0d7 0%, transparent 38%),
+				var(--bg);
+			padding: 20px;
+		}
+
+		.shell {
+			max-width: 1100px;
+			margin: 0 auto;
+			background: var(--card);
+			border: 1px solid var(--line);
+			border-radius: 16px;
+			overflow: hidden;
+			box-shadow: 0 18px 32px rgba(31, 42, 46, 0.08);
+		}
+
+		.header {
+			padding: 18px 20px;
+			background: linear-gradient(120deg, #0f766e, #1f8d84);
+			color: #f7fffd;
+		}
+
+		.header h1 {
+			margin: 0;
+			font-size: 1.45rem;
+			letter-spacing: 0.2px;
+		}
+
+		.header p {
+			margin: 8px 0 0;
+			font-size: 0.95rem;
+			opacity: 0.9;
+		}
+
+		.controls {
+			padding: 16px 20px;
+			border-bottom: 1px solid var(--line);
+			display: grid;
+			grid-template-columns: 1fr auto auto auto;
+			gap: 10px;
+			align-items: center;
+		}
+
+		.controls input[type="search"] {
+			width: 100%;
+			padding: 10px 12px;
+			border: 1px solid #b8b2a5;
+			border-radius: 10px;
+			font-size: 0.95rem;
+			background: #fff;
+		}
+
+		button {
+			border: 0;
+			border-radius: 10px;
+			padding: 10px 14px;
+			font-weight: 600;
+			cursor: pointer;
+			transition: transform 120ms ease, opacity 120ms ease;
+		}
+
+		button:hover {
+			transform: translateY(-1px);
+			opacity: 0.95;
+		}
+
+		.btn-primary {
+			background: var(--accent);
+			color: #fff;
+		}
+
+		.btn-danger {
+			background: var(--danger);
+			color: #fff;
+		}
+
+		.btn-ghost {
+			background: #ece7dc;
+			color: #223036;
+			border: 1px solid #cfc6b8;
+		}
+
+		.meta {
+			padding: 12px 20px;
+			border-bottom: 1px solid var(--line);
+			color: var(--muted);
+			font-size: 0.9rem;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 16px;
+		}
+
+		.table-wrap {
+			width: 100%;
+			overflow-x: auto;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			min-width: 860px;
+		}
+
+		thead th {
+			text-align: left;
+			font-size: 0.86rem;
+			text-transform: uppercase;
+			letter-spacing: 0.4px;
+			color: var(--muted);
+			background: #faf7ef;
+			border-bottom: 1px solid var(--line);
+			padding: 11px 10px;
+		}
+
+		tbody td {
+			border-bottom: 1px solid #ece6d9;
+			padding: 10px;
+			vertical-align: top;
+			font-size: 0.93rem;
+		}
+
+		code {
+			font-family: "Consolas", "Cascadia Code", monospace;
+			font-size: 0.86rem;
+			color: #11343a;
+			background: #e6f3f2;
+			border: 1px solid #cde3e1;
+			border-radius: 6px;
+			padding: 2px 6px;
+			display: inline-block;
+			max-width: 370px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.value {
+			max-width: 480px;
+			white-space: pre-wrap;
+			word-break: break-word;
+			color: #2d3b41;
+		}
+
+		.actions {
+			display: flex;
+			gap: 8px;
+			flex-wrap: wrap;
+		}
+
+		.actions button {
+			font-size: 0.8rem;
+			padding: 7px 10px;
+			border-radius: 8px;
+		}
+
+		.status {
+			margin: 12px 20px 18px;
+			padding: 10px 12px;
+			border-radius: 10px;
+			font-size: 0.9rem;
+			border: 1px solid transparent;
+		}
+
+		.status.ok {
+			background: #ecf8f0;
+			color: var(--ok);
+			border-color: #caebd3;
+		}
+
+		.status.warn {
+			background: #fff8eb;
+			color: var(--warn);
+			border-color: #f3dfb7;
+		}
+
+		.status.error {
+			background: #ffefef;
+			color: var(--danger-2);
+			border-color: #f7cccc;
+		}
+
+		.pill {
+			display: inline-block;
+			border: 1px solid #d2e5e2;
+			border-radius: 999px;
+			padding: 2px 9px;
+			color: #11554e;
+			background: #ecf9f7;
+			font-size: 0.79rem;
+			margin-right: 6px;
+		}
+
+		@media (max-width: 920px) {
+			.controls {
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main class="shell">
+		<header class="header">
+			<h1>Gestio de LocalStorage</h1>
+			<p>
+				Vista segura para revisar, copiar y borrar claves utiles. Las claves sensibles
+				(por ejemplo password o token) no se muestran.
+			</p>
+		</header>
+
+		<section class="controls">
+			<input id="searchInput" type="search" placeholder="Filtrar por clave o valor..." />
+			<button id="refreshBtn" class="btn-primary" type="button">Refrescar</button>
+			<button id="copySelectedBtn" class="btn-ghost" type="button">Copiar seleccion</button>
+			<button id="deleteSelectedBtn" class="btn-danger" type="button">Borrar seleccion</button>
+		</section>
+
+		<section class="meta" id="meta"></section>
+
+		<div class="table-wrap">
+			<table>
+				<thead>
+					<tr>
+						<th><input id="selectAll" type="checkbox" aria-label="Seleccionar todo" /></th>
+						<th>Clave</th>
+						<th>Valor (preview)</th>
+						<th>Tamano</th>
+						<th>Acciones</th>
+					</tr>
+				</thead>
+				<tbody id="rows"></tbody>
+			</table>
+		</div>
+
+		<div id="status" class="status warn" role="status">Carga inicial...</div>
+	</main>
+
+	<script>
+		(function () {
+			"use strict";
+
+			const SENSITIVE_KEY_RE = /(pass(word)?|pwd|secret|token|bearer|authorization|auth|apikey|api_key|sessionid|cookie)/i;
+			const searchInput = document.getElementById("searchInput");
+			const refreshBtn = document.getElementById("refreshBtn");
+			const copySelectedBtn = document.getElementById("copySelectedBtn");
+			const deleteSelectedBtn = document.getElementById("deleteSelectedBtn");
+			const selectAll = document.getElementById("selectAll");
+			const rowsEl = document.getElementById("rows");
+			const statusEl = document.getElementById("status");
+			const metaEl = document.getElementById("meta");
+
+			let visibleEntries = [];
+
+			function setStatus(message, type) {
+				statusEl.textContent = message;
+				statusEl.className = "status " + type;
+			}
+
+			function readEntries() {
+				const all = [];
+				const hidden = [];
+
+				for (let i = 0; i < localStorage.length; i += 1) {
+					const key = localStorage.key(i);
+					if (key === null) {
+						continue;
+					}
+					const value = localStorage.getItem(key) ?? "";
+					if (SENSITIVE_KEY_RE.test(key)) {
+						hidden.push({ key, value });
+						continue;
+					}
+					all.push({ key, value });
+				}
+
+				return { all, hidden };
+			}
+
+			function formatBytes(bytes) {
+				if (bytes < 1024) {
+					return bytes + " B";
+				}
+				if (bytes < 1024 * 1024) {
+					return (bytes / 1024).toFixed(1) + " KB";
+				}
+				return (bytes / (1024 * 1024)).toFixed(2) + " MB";
+			}
+
+			function escapeHtml(text) {
+				return text
+					.replace(/&/g, "&amp;")
+					.replace(/</g, "&lt;")
+					.replace(/>/g, "&gt;")
+					.replace(/\"/g, "&quot;")
+					.replace(/'/g, "&#039;");
+			}
+
+			function previewValue(value) {
+				const compact = value.replace(/\s+/g, " ").trim();
+				if (compact.length <= 220) {
+					return compact;
+				}
+				return compact.slice(0, 220) + "...";
+			}
+
+			function createRow(entry) {
+				const tr = document.createElement("tr");
+				const bytes = new TextEncoder().encode(entry.value).length;
+
+				tr.innerHTML =
+					"<td><input type=\"checkbox\" data-key=\"" + escapeHtml(entry.key) + "\" /></td>" +
+					"<td><code title=\"" + escapeHtml(entry.key) + "\">" + escapeHtml(entry.key) + "</code></td>" +
+					"<td class=\"value\" title=\"" + escapeHtml(entry.value.slice(0, 1200)) + "\">" + escapeHtml(previewValue(entry.value)) + "</td>" +
+					"<td>" + formatBytes(bytes) + "</td>" +
+					"<td class=\"actions\">" +
+					"  <button class=\"btn-ghost\" type=\"button\" data-copy=\"" + escapeHtml(entry.key) + "\">Copiar</button>" +
+					"  <button class=\"btn-danger\" type=\"button\" data-delete=\"" + escapeHtml(entry.key) + "\">Borrar</button>" +
+					"</td>";
+
+				return tr;
+			}
+
+			function getSelectedKeys() {
+				const checks = rowsEl.querySelectorAll("input[type=checkbox][data-key]:checked");
+				return Array.from(checks).map((check) => check.getAttribute("data-key")).filter(Boolean);
+			}
+
+			async function copyToClipboard(text) {
+				if (navigator.clipboard && navigator.clipboard.writeText) {
+					await navigator.clipboard.writeText(text);
+					return;
+				}
+
+				const temp = document.createElement("textarea");
+				temp.value = text;
+				temp.style.position = "fixed";
+				temp.style.left = "-9999px";
+				document.body.appendChild(temp);
+				temp.select();
+				document.execCommand("copy");
+				document.body.removeChild(temp);
+			}
+
+			function refreshView() {
+				const query = (searchInput.value || "").trim().toLowerCase();
+				const { all, hidden } = readEntries();
+				visibleEntries = all
+					.sort((a, b) => a.key.localeCompare(b.key))
+					.filter((entry) => {
+						if (!query) {
+							return true;
+						}
+						return (
+							entry.key.toLowerCase().includes(query) ||
+							entry.value.toLowerCase().includes(query)
+						);
+					});
+
+				rowsEl.innerHTML = "";
+				for (const entry of visibleEntries) {
+					rowsEl.appendChild(createRow(entry));
+				}
+
+				const totalBytes = visibleEntries.reduce((sum, entry) => {
+					return sum + new TextEncoder().encode(entry.value).length;
+				}, 0);
+
+				metaEl.innerHTML =
+					"<span class=\"pill\">Visibles: " + visibleEntries.length + "</span>" +
+					"<span class=\"pill\">Ocultas (sensibles): " + hidden.length + "</span>" +
+					"<span class=\"pill\">Tamano visible: " + formatBytes(totalBytes) + "</span>";
+
+				if (visibleEntries.length === 0) {
+					setStatus("No hay elementos visibles para el filtro actual.", "warn");
+				} else {
+					setStatus("Listado actualizado.", "ok");
+				}
+
+				selectAll.checked = false;
+			}
+
+			rowsEl.addEventListener("click", async (event) => {
+				const target = event.target;
+				if (!(target instanceof HTMLElement)) {
+					return;
+				}
+
+				const copyKey = target.getAttribute("data-copy");
+				const deleteKey = target.getAttribute("data-delete");
+
+				if (copyKey) {
+					const value = localStorage.getItem(copyKey);
+					if (value === null) {
+						setStatus("La clave ya no existe.", "warn");
+						refreshView();
+						return;
+					}
+					try {
+						await copyToClipboard(value);
+						setStatus("Valor copiado: " + copyKey, "ok");
+					} catch (error) {
+						setStatus("No se pudo copiar al portapapeles.", "error");
+					}
+					return;
+				}
+
+				if (deleteKey) {
+					const confirmed = window.confirm("Quieres borrar la clave '" + deleteKey + "'?");
+					if (!confirmed) {
+						return;
+					}
+					localStorage.removeItem(deleteKey);
+					setStatus("Clave borrada: " + deleteKey, "ok");
+					refreshView();
+				}
+			});
+
+			refreshBtn.addEventListener("click", refreshView);
+			searchInput.addEventListener("input", refreshView);
+
+			selectAll.addEventListener("change", function () {
+				const checks = rowsEl.querySelectorAll("input[type=checkbox][data-key]");
+				for (const check of checks) {
+					check.checked = selectAll.checked;
+				}
+			});
+
+			copySelectedBtn.addEventListener("click", async function () {
+				const keys = getSelectedKeys();
+				if (keys.length === 0) {
+					setStatus("Selecciona al menos una clave para copiar.", "warn");
+					return;
+				}
+
+				const payload = {};
+				for (const key of keys) {
+					payload[key] = localStorage.getItem(key);
+				}
+
+				try {
+					await copyToClipboard(JSON.stringify(payload, null, 2));
+					setStatus("Seleccion copiada en JSON (" + keys.length + ").", "ok");
+				} catch (error) {
+					setStatus("No se pudo copiar la seleccion.", "error");
+				}
+			});
+
+			deleteSelectedBtn.addEventListener("click", function () {
+				const keys = getSelectedKeys();
+				if (keys.length === 0) {
+					setStatus("Selecciona al menos una clave para borrar.", "warn");
+					return;
+				}
+
+				const confirmed = window.confirm(
+					"Se van a borrar " + keys.length + " claves visibles. Continuar?"
+				);
+				if (!confirmed) {
+					return;
+				}
+
+				for (const key of keys) {
+					localStorage.removeItem(key);
+				}
+
+				setStatus("Claves borradas: " + keys.length, "ok");
+				refreshView();
+			});
+
+			window.addEventListener("storage", refreshView);
+
+			refreshView();
+		})();
+	</script>
+</body>
+</html>
