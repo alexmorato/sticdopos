@@ -33,6 +33,14 @@ def parse_args() -> argparse.Namespace:
 		action="store_true",
 		help="Genera o actualiza un índice clicable con enlaces internos.",
 	)
+	parser.add_argument(
+		"--corregirHeaders",
+		action="store_true",
+		help=(
+			"Detecta saltos inválidos en la jerarquía de encabezados, por ejemplo "
+			"de ## a ####, y propone corregirlos de forma interactiva."
+		),
+	)
 	return parser.parse_args()
 
 
@@ -89,6 +97,15 @@ def apply_number_to_heading(line: str, number_parts: list[int]) -> str:
 	return f"{indent}{hashes} {format_number(number_parts)} {clean_title}"
 
 
+def apply_heading_level_to_line(line: str, new_level: int) -> str:
+	match = HEADING_RE.match(line)
+	if not match:
+		return line
+
+	indent, _hashes, title = match.groups()
+	return f"{indent}{'#' * new_level} {title}"
+
+
 def prompt_user(
 	line_number: int,
 	line: str,
@@ -109,6 +126,97 @@ def prompt_user(
 
 	override_number = parse_number(answer)
 	return apply_number_to_heading(line, override_number), override_number
+
+
+def prompt_header_correction(
+	line_number: int,
+	line: str,
+	current_level: int,
+	expected_level: int,
+) -> tuple[str, int]:
+	new_line = apply_heading_level_to_line(line, expected_level)
+	print()
+	print(f"Línea {line_number}")
+	print(f"Jerarquía detectada: nivel {current_level} después de nivel {expected_level - 1}")
+	print(f"Actual   : {line}")
+	print(f"Propuesta: {new_line}")
+	print("La corrección se aplicará también a los encabezados dependientes hasta el siguiente nivel equivalente o superior.")
+	answer = input("Enter=aceptar, s=saltar, o escribe un nivel 1-6: ").strip()
+
+	if answer == "":
+		return new_line, expected_level
+
+	if answer.lower() == "s":
+		return line, current_level
+
+	if not answer.isdigit():
+		raise ValueError(f"Nivel no válido: {answer!r}")
+
+	override_level = int(answer)
+	if override_level < 1 or override_level > 6:
+		raise ValueError(f"Nivel no válido: {answer!r}")
+
+	return apply_heading_level_to_line(line, override_level), override_level
+
+
+def process_markdown_header_corrections(original_text: str) -> str:
+	lines = original_text.splitlines()
+	trailing_newline = original_text.endswith(("\n", "\r"))
+
+	updated_lines: list[str] = []
+	inside_fenced_block = False
+	last_heading_level = 0
+	active_level_shift = 0
+	active_boundary_level = 0
+
+	for line_number, line in enumerate(lines, start=1):
+		stripped = line.lstrip()
+		if stripped.startswith("```") or stripped.startswith("~~~"):
+			inside_fenced_block = not inside_fenced_block
+			updated_lines.append(line)
+			continue
+
+		match = HEADING_RE.match(line)
+		if inside_fenced_block or not match:
+			updated_lines.append(line)
+			continue
+
+		raw_level = len(match.group(2))
+		if active_level_shift and raw_level <= active_boundary_level:
+			active_level_shift = 0
+			active_boundary_level = 0
+
+		current_level = raw_level + active_level_shift if active_level_shift else raw_level
+		if last_heading_level and current_level > last_heading_level + 1:
+			expected_level = last_heading_level + 1
+			try:
+				updated_line, accepted_level = prompt_header_correction(
+					line_number=line_number,
+					line=line,
+					current_level=current_level,
+					expected_level=expected_level,
+				)
+			except ValueError as error:
+				print(f"Entrada inválida en la línea {line_number}: {error}")
+				print("Se deja el encabezado sin cambios.")
+				updated_lines.append(line)
+				last_heading_level = current_level
+				continue
+
+			updated_lines.append(updated_line)
+			active_level_shift = accepted_level - raw_level
+			active_boundary_level = accepted_level if active_level_shift else 0
+			last_heading_level = accepted_level
+			continue
+
+		updated_line = apply_heading_level_to_line(line, current_level) if current_level != raw_level else line
+		updated_lines.append(updated_line)
+		last_heading_level = current_level
+
+	new_text = "\n".join(updated_lines)
+	if trailing_newline:
+		new_text += "\n"
+	return new_text
 
 
 def process_markdown_text(original_text: str, start_number: list[int]) -> str:
@@ -277,11 +385,15 @@ def main() -> int:
 		return 1
 
 	if not args.start_number and not args.toc:
-		print("Debes indicar un número inicial o usar --toc.")
-		return 1
+		if not args.corregirHeaders:
+			print("Debes indicar un número inicial, usar --toc o usar --corregirHeaders.")
+			return 1
 
 	original_text = markdown_path.read_text(encoding="utf-8-sig")
 	updated_text = original_text
+
+	if args.corregirHeaders:
+		updated_text = process_markdown_header_corrections(updated_text)
 
 	if args.start_number:
 		try:

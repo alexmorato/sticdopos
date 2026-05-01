@@ -274,7 +274,7 @@
 
 ## L'Administració Pública
 
-#### Naixement i evolució històrica
+### Naixement i evolució històrica
 
 L'Administració Pública neix al s. XVIII amb el naixement dels règims constitucionals. Això no vol dir que anteriorment no existís, però responia a un concepte totalment diferent al de l'actualitat.
 
@@ -292,7 +292,7 @@ Posteriorment el concepte d'Administració Pública ha evolucionat al llarg dels
 
 El punt àlgid de transformació contemporània de l'Administració Pública fou la instauració de l'Estat social del benestar, el qual suposà una transformació radical de la mateixa, esdevenint una organització institucional de millora global de la societat. L'Administració Pública actual, en comparació amb el moment de la seva creació, mostra un augment de la intervenció d'aquesta en la societat tant a nivell social com econòmic.
 
-#### L'Administració Pública com a persona jurídica
+### L'Administració Pública com a persona jurídica
 
 En aquest apartat, quan parlem d'Administració Pública ho fem en un sentit ampli, referint-nos a totes les classes d'Administració que existeixen (i de les quals ja veurem la seva classificació més endavant).
 
@@ -309,7 +309,7 @@ Respecte al tema de la personalitat jurídica de les AAPP, l'Art. 3.4 L40/2015 e
 
 **L'actuació de les AAPP està sotmesa a Dret Administratiu com a norma general tot i que, excepcionalment, l'Administració també podrà actuar amb subjecció al Dret Privat quan aquesta actuï sense exercir cap de les seves potestats administratives**. Aquesta darrera afirmació, que pot semblar complicada d'entendre, realment no ho és pas. Un clar exemple és la contractació administrativa, amb la figura dels contractes privats. En ocasions, l'Administració actua com si fos un particular qualsevol.
 
-#### Les Administracions Públiques com a titulars de potestats públiques o administratives
+### Les Administracions Públiques com a titulars de potestats públiques o administratives
 
 Quan diem que les AAPP estan dotades de potestats públiques o administratives ens referim a que aquestes **són titulars d'un seguit d'aptituds específiques exclusives per a dur a terme determinats actes. Aquests poders els hi són atribuïts per a la consecució de les seves finalitats.** Són conseqüència del "poder d'imperi" de les AAPP. **Són poders de supremacia i superioritat respecte dels particulars.**
 
@@ -319,7 +319,7 @@ Així, per exemple, quan observem que l'Administració té la potestat sancionad
 
 A continuació veurem els principis constitucionals informadors de l'Activitat de l'Administració.
 
-#### L'Administració Pública està integrada al poder executiu
+### L'Administració Pública està integrada al poder executiu
 
 La Constitució Espanyola (Art 97 CE) estableix que **el Govern dirigeix la política interior i exterior de l'Estat, l'Administració civil i militar i la defensa de l'Estat**. Exerceix la funció executiva i la potestat reglamentària, d'acord amb la Constitució i les lleis.
 
@@ -327,11 +327,11 @@ La Constitució Espanyola (Art 97 CE) estableix que **el Govern dirigeix la pol�
 
 Seguint la doctrina més clàssica, es pot dir que **en el Poder executiu s'integren, doncs, l'Administració i el Govern**. Si bé, en l'aspecte orgànic, ambdós subjectes poden coincidir o confondre's, **el Govern** desenvolupa l'activitat política, subjecta bàsicament a un règim jurídic distint de l'Administració, però alhora **es constitueix en òrgan superior de l'Administració**.
 
-#### L'activitat de l'Administració Pública no és tan sols una activitat executiva
+### L'activitat de l'Administració Pública no és tan sols una activitat executiva
 
 **L'Administració pública**, a més d'efectuar funcions executives, **disposa també de la potestat reglamentària**, o capacitat de dictar reglaments, que com a normes jurídiques (d'obligat compliment però de rang jeràrquic inferior a la llei) dirigides a una col·lectivitat d'individus, pertanyen pròpiament al camp de les funcions legislatives. Ara bé, **els reglaments són dictats per l'Administració com a forma d'organitzar els serveis al seu càrrec i per disposar les estructures administratives cap a una millor prestació de serveis**.
 
-#### Subjectes que integren l'Administració Pública
+### Subjectes que integren l'Administració Pública
 
 **L'Administració pública no és un ens públic únic, sinó que es desglossa en diverses Administracions públiques: Administració de l'Estat (central i perifèrica), Administració autonòmica, Administració local (ajuntaments, diputacions provincials i altres) i Administració institucional.**
 
@@ -350,9 +350,9 @@ Al seu torn, la Llei Reguladora de les Bases del Règim Local (LRBRL; L7/1985), 
 
 També es fa esment a principis de funcionament i actuació a la L40/2015.
 
-#### Principis constitucionals
+### Principis constitucionals
 
-##### Legalitat i responsabilitat
+#### Legalitat i responsabilitat
 
 En aquest tema dedicarem un apartat al principi de legalitat íntegrament. Tot i així, ara en farem un petit avançament. La CE estableix la plena submissió de les AAPP a la llei i al dret i també reconeixen el dret dels tercers a rebre una indemnització per causa de danys com a conseqüència del funcionament dels serveis públics.
 
@@ -360,13 +360,13 @@ Els principis de legalitat i responsabilitat, com a principis d'actuació admini
 
 El segon dels aspectes indicats, el de la responsabilitat, ve consagrat en l'art. i 106 CE en els següents termes **"(...) Els particulars, en els termes establerts en la llei, tindran dret a ser indemnitzats per qualsevol lesió que pateixin en qualsevol dels seus béns i drets, llevat dels casos de força major, sempre que la lesió sigui conseqüència del funcionament dels serveis públics"**.
 
-##### Objectivitat
+#### Objectivitat
 
 L'Administració és una estructura organitzativa, al servei dels ciutadans, que realitza una gestió imprescindible per a la convivència, subordinada sempre als interessos públics. Aquesta afirmació d'actuació objectiva i en defensa dels interessos generals ve consagrada a l'Art. 103 CE en preveure que **l'Administració pública serveix amb objectivitat els interessos generals**.
 
 El principi d'objectivitat pot considerar-se **sinònim d'imparcialitat i apareix com una conseqüència de la interdicció de l'arbitrarietat dels poders públics establerta a l'Art. 9.3 CE**. Tanmateix, una conseqüència d'aquest principi és la **professionalització de l'Administració d'acord als postulats indicats a l'Art. 103.3 CE**, entre els quals destaca la necessitat **que la llei reguli el sistema d'incompatibilitats dels funcionaris i les garanties per a la imparcialitat en l'exercici de les seves funcions** **i que l'accés a la funció pública (a treballar com a funcionari) es realitzi mitjançant procediment que garanteixin els principis d'igualtat, mèrit i capacitat.**
 
-##### L'Administració Pública gestiona interessos col·lectius
+#### L'Administració Pública gestiona interessos col·lectius
 
 **L'Administració persegueix l'interès públic general que s'entén com aquell que ajuda a la plena integració dels ciutadans a la societat** (promovent els valors de llibertat i igualtat esmentats als Art. 1.1 i 9.2 CE).
 
@@ -374,7 +374,7 @@ L'Administració pública ha estat definida com "una organització integrada per
 
 Ara bé, **en la consecució de l'interès públic o general, l'Administració ha d'actuar sotmesa al dret i a la llei**, com qualsevol ciutadà o **com la resta dels poders públics de l'Estat**. Si no ajustés la seva actuació a la prossecució d'aquest interès públic i general es produiria el que administrativament s'anomena **desviació de poder**, cosa que permetria la revisió dels actes administratius que l'Administració ha dictat en l'ús de les prerrogatives que li són pròpies, però sense ajustar-se a la prossecució d'aquest interès públic i general que fonamenta la seva actuació, i permetria la disposició de prerrogatives especifiques en la seva gestió.
 
-##### Eficàcia
+#### Eficàcia
 
 El principi d'eficàcia, a l'igual que el de coordinació (de contingut obvi, a saber, que les diferents AAPP actuïn de manera coordinada) és, alhora, un principi d'actuació i d'organització.
 
@@ -382,7 +382,7 @@ El principi d'eficàcia, a l'igual que el de coordinació (de contingut obvi, a 
 
 Aquest principi està estretament lligat amb el principi organitzatiu d'eficiència. Com que **l'Art. 103 CE remarca que l'Administració ha d'actuar d'acord amb el principi d'eficàcia, l'obliga a obtenir resultats amb el màxim d'economia de tràmits i temps possible.** Ara bé, la seva realització pràctica no depèn de la seva proclamació constitucional, sinó de les actuacions concretes que es produeixin i dels mitjans personals i materials amb què compti l'Administració per al desenvolupament de les seves funcions.
 
-##### Participació
+#### Participació
 
 Aquest principi és una conseqüència del què disposa l'Art. 9.2 CE, ja que preveu que **correspon als poders públics facilitar la participació de tots els ciutadans en la vida política, econòmica, cultural i social**. A part d'aquest enunciat general, l'Art. 105 CE concreta les **formes de participació del ciutadà en l'Administració i preveu que la llei ha de regular les següents modalitats de participació:**
 
@@ -390,21 +390,21 @@ Aquest principi és una conseqüència del què disposa l'Art. 9.2 CE, ja que pr
 - **L'accés dels ciutadans als arxius i registres públics.**
 - **L'audiència de l'interessat, quan escaigui, en el procediment** a través del qual han de produir-se els actes administratius.
 
-##### ACTUACIÓ INTERVENCIONISTA
+#### ACTUACIÓ INTERVENCIONISTA
 
 Present a l'Art. 53.3 CE, aquest principi **estableix que l'Administració haurà de ser proactiva en la seva actuació envers la societat.** L'Art. 53.3 CE ho especifica dient que **"el reconeixement, respecte i protecció dels principis rectors de la política social i econòmica informarà l'actuació dels poders públics".** En aquesta frase, el verb informar no té el sentit habitual de reportat informació sinó que és més aviat com "inspirarà". És a dir, que **l'Administració haurà de promoure per si sola una actuació pròpia que tendeixi a protegir i garantir els principis de política econòmica i social propis d'un estat social i democràtic de dret.**
 
-##### TRACTACMENT COMÚ
+#### TRACTACMENT COMÚ
 
 **Tractament comú** **de tots els administrats davant totes les AAPP dins l'Estat Autonòmic** (present a l'Art. 149.1.18a CE). Com tots sabem Espanya és un estat d'autonomies. Aquestes Comunitats Autònomes poden fer lleis, les quals són igualment vàlides que les lleis del Congrés dels Diputats i les quals tindran eficàcia dins el territori de la Comunitat Autònoma en qüestió. Ara bé, aquesta potestat legislativa (capacitat de fer lleis) de les Comunitats Autònomes es veurà limitada per motiu de la matèria en concret que es pretengui regular. Així doncs, la CE estableix un repartiment de matèries dins les quals algunes d'elles sí es podran regular per lleis de les Comunitats Cutònomes i d'altres no (matèries de competència exclusiva de l'Estat). Aquest esquema competencial és força més complex del que acabo d'exposar i és objecte d'explicació detallada en altres temes.
 
 Ara bé, **el què ara hem d'entendre és que l'Estat té competència exclusiva en la regulació de les bases (d'allò que és bàsic) del règim jurídic de les AAPP i del procediment administratiu comú.** Per bàsic entenem allò que ha de ser denominador comú en totes les Comunitats Autònomes. És a dir que, tot i que les Comunitats Autònomes podran fer lleis sobre règim jurídic i procediment de les seves pròpies AAPP, aquestes lleis no podran regular aquelles coses que siguin bàsiques (és a dir, no podran entrar a regular allò que ha de ser igual per a totes les AAPP de totes les Comunitats Autònomes quant al seu funcionament) ja que la regulació d'aquests aspectes és competència exclusiva de l'Estat segons l'Art. 149.1.18a CE. Amb aquesta reserva constitucional d'exclusivitat es garanteix el tractament comú de tots els ciutadans per part de les AAPP independentment de la Comunitat Autònoma en què es trobin.
 
-##### FACILITACIÓ DE LA PARTICIPACIÓ DELS CIUTADANS
+#### FACILITACIÓ DE LA PARTICIPACIÓ DELS CIUTADANS
 
 Present en diversos articles CE com ara l'Art. 9.2 CE i 105 CE, trobem **diversos exemples de materialitzacions d'aquest principi com ara el tràmit d'audiència dels ciutadans en l'elaboració de les disposicions administratives (reglaments) que els afectin, el dret dels ciutadans d'accés a arxius i registres administratius (amb excepcions justificades) o el tràmit d'audiència dels interessats en els procediments administratius.**
 
-#### Principis que afecten l'actuació de l'Administració Pública segons la L40/2015
+### Principis que afecten l'actuació de l'Administració Pública segons la L40/2015
 
 L'Art. 3 L40/2015 estableix que **les Administracions Públiques serveixen amb objectivitat els interessos generals i actuen d'acord amb els principis d'eficàcia, jerarquia, descentralització, desconcentració i coordinació, amb submissió plena a la Constitució, a la llei i al dret**.
 
@@ -426,13 +426,13 @@ Al seu torn, l'Art. 4 L40/2015 parla del principi de proporcionalitat en les act
 
 ## Principis organitzatius de l'Administració Pública
 
-#### Principis constitucionals d'organització de l'activitat de l'Administració Pública
+### Principis constitucionals d'organització de l'activitat de l'Administració Pública
 
-##### PPRINCIPI DE JERARQUIA
+#### PPRINCIPI DE JERARQUIA
 
 Esmentat a l'Art. 103.1 CE, és de contingut bastant obvi. En ocasions existeix una gradació jeràrquica entre diferents AAPP. Per exemple, qualsevol dels Instituts Municipals de Barcelona (com ara l'Institut Municipal de Persones amb Discapacitat) és un Organisme Autònom Municipal creat per l'Ajuntament de Barcelona i té una subordinació jeràrquica envers aquest. Això ho entendrem molt millor quan estudiem les diferents tipologies d'Administració Pública.
 
-##### PRINCIPI DE DESCENTRALITZACIÓ
+#### PRINCIPI DE DESCENTRALITZACIÓ
 
 Esmentat a l'Art. 103.1 CE.
 
@@ -440,7 +440,7 @@ En un sentit **territorial**, el principi de descentralització implica que **le
 
 En un sentit **funcional o institucional**, la descentralització consisteix en el **reconeixement de la personalitat administrativa i financera de determinats serveis d'activitat pública, creant ens auxiliars o instrumentals (organismes autònoms, empreses públiques, etc.) per a la seva gestió.**
 
-##### PRINCIPI DE DESCONCENTRACIÓ
+#### PRINCIPI DE DESCONCENTRACIÓ
 
 Esmentat a l'Art. 103.1 CE i en d'altres com l'Art. 8.2 L40/2015.
 
@@ -448,15 +448,15 @@ Molt similar a l'anterior. Es materialitza també en la desconcentració (disper
 
 **Consisteix en la transferència de competències de forma permanent d'un òrgan superior a un altre d'inferior, sigui central o perifèric, dins d'un mateix ens públic**. Es tracta de descongestionar el treball dels òrgans superiors transvasant part de les seves competències als inferiors.
 
-##### PRINCIPI D'AUTONOMIA
+#### PRINCIPI D'AUTONOMIA
 
 Esmentat en diversos Art. CE com ara l'Art. 137 CE, 140 CE i 141 CE**. Promou l'autonomia (llibertat) de cada Administració en l'exercici de llurs competències** (sens menystenir, lògicament, el principi de jerarquia).
 
-##### PRINCIPI DE COORDINACIÓ
+#### PRINCIPI DE COORDINACIÓ
 
 De contingut obvi.
 
-##### LA SUBMISSIÓ DE L'ADMINISTRACIÓ A LA LLEI I AL DRET
+#### LA SUBMISSIÓ DE L'ADMINISTRACIÓ A LA LLEI I AL DRET
 
 L'Art. 1 CE estableix que l'Estat espanyol és un **Estat de dret**. Al seu torn, l'Art. 9.3 CE estableix que **els ciutadans i els poders públics (incloent-hi l'Administració) estan sotmesos a la CE i a la resta de l'ordenament jurídic, al temps que garanteix la interdicció de l'arbitrarietat dels poders públics.**
 
@@ -464,9 +464,9 @@ L'Art. 1 CE estableix que l'Estat espanyol és un **Estat de dret**. Al seu torn
 
 **Per tant, les lleis compleixen una funció de límit positiu a l'activitat administrativa i garantia per als ciutadans.**
 
-#### Principis d'organització interadministrativa
+### Principis d'organització interadministrativa
 
-##### PRINCIPIS GENERALS
+#### PRINCIPIS GENERALS
 
 L'Art. 140 L40/2015 estableix els **principis que han de regir en les relacions entre les AAPP**.
 
@@ -482,7 +482,7 @@ Les diferents AAPP actuen i es relacionen amb altres AAPP i entitats o organisme
 - Garantia i igualtat en l'exercici dels drets de tots els ciutadans en les seves relacions amb les diferents administracions.
 - Solidaritat interterritorial d'acord amb la Constitució.
 
-##### TÈCNIQUES ORGÀNIQUES DE COOPERACIÓ
+#### TÈCNIQUES ORGÀNIQUES DE COOPERACIÓ
 
 Es troben regulades als Art. 145 a 154 L40/2015.
 
@@ -492,11 +492,11 @@ Es troben regulades als Art. 145 a 154 L40/2015.
 - **Les Comissions bilaterals de cooperació:** són òrgans de cooperació bilateral i d'àmbit general que reuneixen membres del Govern, en representació de l'AGE, i membres del Consell de Govern, en representació de la respectiva Comunitat Autònoma.
 - **Les Comissions Territorials de Coordinació:** es podran crear quan la proximitat territorial o la concurrència de funcions administratives així ho requereixi.
 
-##### ELS ÒRGANS DE LES ADMINISTRACIONS PÚBLIQUES
+#### ELS ÒRGANS DE LES ADMINISTRACIONS PÚBLIQUES
 
 Els Art. 5 a 14 L40/2015 regulen els **principis generals en relació amb els òrgans administratius.**
 
-###### Creació d'òrgans administratius
+##### Creació d'òrgans administratius
 
 Correspon a cada Administració Pública delimitar, en el seu àmbit competencial respectiu, les unitats administratives que configuren els òrgans administratius propis de les especialitats derivades de la seva organització.
 
@@ -508,19 +508,19 @@ Correspon a cada Administració Pública delimitar, en el seu àmbit competencia
 
 **No es poden crear nous òrgans que suposin la duplicació d'altres de ja existents** si alhora no se suprimeix o restringeix degudament la competència d'aquests. Amb aquest objecte, només es pot crear un nou òrgan després d'haver comprovat que no n'hi hagi un altre a la mateixa Administració Pública que exerceixi la mateixa funció sobre el mateix territori i població.
 
-###### Competència de l'òrgan
+##### Competència de l'òrgan
 
 La competència **és irrenunciable i l'han d'exercir els òrgans administratius que la tinguin atribuïda com a pròpia, excepte en els casos de delegació o avocació, quan s'efectuïn en els termes que preveu la L40/2015 o d'altres. La delegació de competències, els encàrrecs de gestió, la delegació de signatura i la suplència no suposen l'alteració de la titularitat de la competència.**
 
-###### Delegació de competències
+##### Delegació de competències
 
 Es troba regulada a l'Art. 9 L40/2015. **Constitueix una transmissió temporal de competències d'un òrgan en favor d'un altre que, malgrat això, no afecta la seva titularitat**. L'òrgan delegant continua essent el titular de la competència. Els actes dictats per delegació s'entenen dictats per l'òrgan delegant.
 
-###### Avocació
+##### Avocació
 
 Es troba regulada a l'Art. 10 L40/2015. Constitueix la **tècnica mitjançant la qual un òrgan reclama o recupera el coneixement d'un assumpte la resolució del qual correspon, ordinàriament o per delegació, a un dels seus òrgans dependents**.
 
-###### Encàrrecs de gestió
+##### Encàrrecs de gestió
 
 La realització d'activitats de caràcter material o tècnic de la competència dels òrgans administratius o de les entitats de dret públic es pot encarregar a altres òrgans o entitats de dret públic de la mateixa Administració o d'una altra, sempre que entre les seves competències estiguin aquestes activitats, **per raons d'eficàcia o quan no es posseeixin els mitjans tècnics idonis per exercir-les.**
 
@@ -528,7 +528,7 @@ La realització d'activitats de caràcter material o tècnic de la competència 
 
 **La formalització dels encàrrecs de gestió s'ha d'ajustar a les regles legalment establertes** a l'Art. 11 L40/2015.
 
-###### Delegació de signatura
+##### Delegació de signatura
 
 Els titulars dels òrgans administratius poden, en matèries de la seva competència, que tinguin, bé per atribució, bé per delegació de competències, **delegar la signatura de les seves resolucions i actes administratius en els titulars dels òrgans o unitats administratives que depenguin d'ells**.
 
@@ -536,11 +536,11 @@ Els titulars dels òrgans administratius poden, en matèries de la seva competè
 
 **En les resolucions i els actes que se signin per delegació s'ha de fer constar aquesta circumstància i l'autoritat de procedència.**
 
-###### Suplència o substitució
+##### Suplència o substitució
 
 Aquesta figura està pensada per als **casos en què els titulars dels òrgans administratius hagin de ser substituïts temporalment en l'exercici de les seves funcions** (vacant, absència, malaltia, abstenció o recusació, etc.). Aquesta substitució **tampoc altera la titularitat de la competència.**
 
-###### Decisions sobre competència
+##### Decisions sobre competència
 
 **L'òrgan administratiu que es consideri incompetent per resoldre un afer ha de remetre directament les actuacions a l'òrgan que consideri competent, i ha de notificar aquesta circumstància als interessats.**
 
@@ -570,7 +570,7 @@ Aquest principi de legalitat i imperi del poder de la llei no entra pas en confl
 
 Altrament, la potestat reglamentària no és l'únic contrapunt al principi de legalitat. Existeixen altres figures que estudiarem en el seu moment que han suposat veritables fites en l'adquisició de potestats normatives per part de l'Administració, com ara l'existència dels Decrets Llei i Decrets Legislatius (legislació delegada) o la potestat reglamentària independent (deslegalització d'un seguit de matèries, la regulació de les quals no requereix cap llei, es poden regular íntegrament mitjançant reglaments).
 
-#### La vinculació positiva de l'Administració a la llei i al Dret
+### La vinculació positiva de l'Administració a la llei i al Dret
 
 En un primer estadi del principi de legalitat, l'Administració només podia actuar a l'empara de l'autoritat de la llei. És en aquest estadi que es forjà el concepte d'acte administratiu, el qual s'entenia com una declaració concreta en la que l'Administració particularitzava o aplicava una previsió general normativa.
 
@@ -609,7 +609,7 @@ Tanmateix, quant a l'àmbit d'actuació de la L40/2015 l'Art. 1 d'aquesta llei p
 
 ## Configuració de l'Administració General de l'Estat
 
-#### Caràcters de l'Administració de l'Estat
+### Caràcters de l'Administració de l'Estat
 
 Les **característiques fonamentals** que hem d'identificar de l'Administració de l'Estat són:
 
@@ -619,9 +619,9 @@ Les **característiques fonamentals** que hem d'identificar de l'Administració 
 - Té una **estructura departamental**, estructurada en ministeris amb competències sectorials.
 - És una **Administració territorial**, amb determinació d'un territori on exercir les seves funcions.
 
-#### Criteris generals d'actuació de l'Administració de l'Estat
+### Criteris generals d'actuació de l'Administració de l'Estat
 
-##### PRINCIPIS ORGANITZATIUS
+#### PRINCIPIS ORGANITZATIUS
 
 Tal i com hem comentat anteriorment en aquest mateix tema, l'Art. 3 L40/2015 preveu que **les Administracions Públiques serveixen amb objectivitat els interessos generals i actuen d'acord amb els principis d'eficàcia, jerarquia, descentralització, desconcentració i coordinació, amb ple sotmetiment a la CE, a la Llei i al Dret.**
 
@@ -639,17 +639,17 @@ Tal i com hem comentat anteriorment en aquest mateix tema, l'Art. 3 L40/2015 pre
 - Eficiència en l'assignació i utilització dels recursos públics.
 - Cooperació, col·laboració i coordinació entre les Administracions Públiques.
 
-##### ORGANITZACIÓ DE L'ADMINISTRACIÓ GENERAL DE L'ESTAT
+#### ORGANITZACIÓ DE L'ADMINISTRACIÓ GENERAL DE L'ESTAT
 
 L'Art. 55 L40/2015 estableix que **l'organització de l'Administració General de l'Estat respon als principis de divisió funcional en Departaments ministerials i de gestió territorial integrada en Delegacions del Govern a les Comunitats Autònomes,** tret de les excepcions previstes a la pròpia L40/2015.
 
-##### CLASSIFICACIÓ DEL ÒRGANS DE L'ADMINISTRACIÓ GENERAL DE L'ESTAT
+#### CLASSIFICACIÓ DEL ÒRGANS DE L'ADMINISTRACIÓ GENERAL DE L'ESTAT
 
 De l'examen de l'Art. 55 L40/2015, els òrgans de l'Administració General de l'Estat es classifiquen de la següent forma:
 
 <div class="joplin-table-wrapper"><table><tbody><tr><th rowspan="2"><p>CENTRAL</p></th><th><p>Òrgans superiors</p></th><th><ul><li>Ministres</li><li>Secretaris d'Estat</li></ul></th></tr><tr><td><p>Òrgans directius</p></td><td><ul><li>Sotssecretaris</li><li>Secretaris generals</li><li>Directors generals</li><li>Secretaris generals tècnics</li><li>Sotsdirectors generals</li></ul></td></tr><tr><td rowspan="2"><p>TERRITORIAL</p></td><td><p>Directius</p></td><td><ul><li>Delegats del Govern a les Comunitats Autònomes</li><li>Subdelegats del Govern a les Províncies</li></ul></td></tr><tr><td><p>Altres</p></td><td><ul><li>Directors insulars</li><li>Serveis territorials:<ul><li>Integrats a les delegacions del Govern</li><li>No integrats a les delegacions del Govern</li></ul></li></ul></td></tr><tr><td rowspan="2"><p>EXTERIOR</p></td><td><p>Directius</p></td><td><ul><li>Ambaixadors</li><li>Representants permanents davant d'organitzacions internacionals</li></ul></td></tr><tr><td><p>Altres</p></td><td><ul><li>Cònsols</li></ul></td></tr></tbody></table></div>
 
-##### UNITATS ADMINISTRATIVES
+#### UNITATS ADMINISTRATIVES
 
 Les unitats administratives en què s'estructura l'Administració **són elements organitzatius bàsics de les estructures orgàniques, però sols tindran la consideració d'òrgans en els supòsits què se'ls atribueixin funcions que tinguin efectes jurídics enfront de tercers o respecte a la que la seva actuació tinguí caràcter preceptiu** (Art. 5 L40/2015).
 
@@ -657,7 +657,7 @@ Les unitats administratives comprenen llocs de treball o dotacions de plantilla,
 
 Els caps de les unitats administratives són responsables del correcte funcionament de la unitat i de l'adequada execució de les funcions assignades.
 
-##### CREACIÓ, MODIFICACIÓ I SUPRESSIÓ D'ÒRGANS
+#### CREACIÓ, MODIFICACIÓ I SUPRESSIÓ D'ÒRGANS
 
 Els òrgans de l'Administració General de l'Estat i dels seus organismes públics es creen, modifiquen i suprimeixen conforme al que disposa la L40/2015 en el seu Art. 59 i que es resumeix a continuació:
 
@@ -670,7 +670,7 @@ Tanmateix, pel que fa a les **estructures orgàniques de les delegacions del Gov
 
 D'altra banda, **l'organització dels serveis territorials no integrats en les estructures de les delegacions del Govern** es determinaran per Reial Decret a proposta conjunta del titular del Ministeri del que depenguin i del titular del Ministeri que tingui atribuïda la competència per a la racionalització, anàlisi i avaluació de les estructures organitzatives de l'AGE i els seus organismes públics, quan es refereixin a unitats amb nivell de Subdirecció General o equivalents, o per Ordre conjunta quan afecti a òrgans inferiors (Art. 71.2 L40/2015).
 
-##### FUNCIONAMENT DELS ÒRGANS COL·LEGIATS
+#### FUNCIONAMENT DELS ÒRGANS COL·LEGIATS
 
 Per últim, convé fer referència als articles de la L40/2015 que regulen la constitució i funcionament dels òrgans col·legiats (Art. 15 a 22 L40/2015), i que es poden resumir en els següents paràgrafs i l'esquema adjunt.
 
@@ -694,21 +694,21 @@ Cal tenir en compte que aquest esquema, que no s'ha modificat des de la LOFAGE, 
 
 L'estructura d'un departament ministerial és similar a la dels altres departaments, existint poques variacions entre uns i altres. Abans d'entrar en l'anàlisi d'un departament en particular, però, realitzarem una referència al Consell de Ministres i a les comissions delegades del Govern, com dos ens administratius de caràcter superior al departament ministerial atesa la seva composició i les funcions que desenvolupen.
 
-#### El Consell de Ministres
+### El Consell de Ministres
 
-##### NATURALES JURÍDICA
+#### NATURALES JURÍDICA
 
 Ja s'ha indicat que **no es pot identificar el Govern amb el Consell de Ministres**, ja que el primer és un òrgan més ampli, del qual en forma part el segon. En aquest sentit és important ressaltar que l'Art. 5 LG el qualifica com a **òrgan col·legiat del Govern**, mentre l'Art. 1.3. LG estableix que **els membres del Govern es reuneixen en Consell de Ministres i en Comissions Delegades del Govern**.
 
-##### COMPOSICIÓ
+#### COMPOSICIÓ
 
 És evident que el Consell de Ministres **està integrat per tots els membres del Govern**, excepte en els casos d'absència d'algun d'ells. **No en formen part els Secretaris d'Estat**, encara que, segons l'Art. 5.2. LG, podran assistir a les reunions del Consell de Ministres quan siguin convocats.
 
-##### PRESIDÈNCIA DEL CONSELL DE MINISTRES
+#### PRESIDÈNCIA DEL CONSELL DE MINISTRES
 
 La presidència del Consell de Ministres **correspon al President del Govern**, o al vice-president en els casos previstos per la llei. Ja hem assenyalat que **el rei, quan assisteix al Consell a petició del president del Govern per ser informat dels afers d'Estat, presidirà el Consell**.
 
-##### FUNCIONAMENT
+#### FUNCIONAMENT
 
 Amb caràcter general, la preparació dels afers que tracta el Consell de Ministres s'encarrega a la **Comissió General de Secretaris d'Estat i Sotssecretaris**, com a òrgan especialitzat, però correspon essencialment al President del Govern la fixació de l'ordre del dia (Art. 2.2.g LG).
 
@@ -737,23 +737,23 @@ Per la seva banda, al Ministeri de la Presidència li correspon l'organització 
 - La tramitació dels actes i disposicions del Rei que hagin de ser ratificades pel President del Govern.
 - La tramitació dels actes i disposicions que l'ordenament jurídic atribueix a la competència del President del Govern.
 
-##### FUNCIONS
+#### FUNCIONS
 
 Les competències i funcions del Consell de Ministres són de naturalesa **política** (és un òrgan de Govern) **i administratives** (és un òrgan de l'Administració). La LG les enumera al seu Art. 5 i es poden classificar segons la seva naturalesa o matèria:
 
-###### Funcions de deliberació
+##### Funcions de deliberació
 
 Quan **no adopten la forma d'acords** (per exemple, la qüestió de confiança o la proposta de dissolució de les cambres). Són decisions que la CE fa recaure en el president del Govern, prèvia deliberació al Consell de Ministres.
 
-###### Funcions executives
+##### Funcions executives
 
 Quan **és necessària l'adopció d'acord**, que és el més corrent. Els acords més importants revesteixen la forma de decrets, que seran avalats pel president o ministeri que correspongui, i s'expediran amb la signatura del rei. En tot cas, **les resolucions del Consell de Ministres posen fi a la via administrativa.**
 
-###### Funcions polítiques
+##### Funcions polítiques
 
 Les funcions polítiques **són qüestions estrictament de Govern**, si bé com ja s'ha dit abans, el Consell de Ministres, com a òrgan administratiu, no és més que una de les possibles formes de reunió del Govern. L'altra forma és la d'una comissió delegada del Govern, que passarem a estudiar immediatament.
 
-###### Funcions normatives
+##### Funcions normatives
 
 **El Govern pot dictar normes amb rang de llei**, com són els **Reials Decrets Llei**, en casos d'extraordinària i urgent necessitat (Art. 86 CE), i exerceix les funcions que li atribueixen les delegacions legislatives de les Corts (Art. 82 CE), mitjançant els anomenats **Reials Decrets Legislatius**. En l'ordre legislatiu, **també col·labora aprovant els projectes de Llei que han de ser enviats al Congrés dels Diputats** (Art. 88 CE).
 
@@ -763,13 +763,13 @@ Les funcions polítiques **són qüestions estrictament de Govern**, si bé com 
 
 **El titular del departament proposant elevarà l'avantprojecte al Consell de Ministres** per tal que aquest decideixi sobre els tràmits posteriors i, en particular, sobre les consultes, dictàmens o informes que resultin convenients, així com sobre els terminis de la seva realització, sens perjudici dels legalment preceptius. Una vegada complerts aquests tràmits, el titular del departament proposant sotmetrà l'avantprojecte, novament, al Consell de Ministres per a la seva aprovació com a projecte de llei i la seva remissió al Congrés dels Diputats o, quan escaigui al Senat, acompanyant-lo d'una exposició de motius i de la memòria i altres antecedents necessaris per pronunciar-se sobre ell. Nogensmenys, quan raons d'urgència així ho aconsellin, el Consell de Ministres podrà prescindir dels tràmits no preceptius, i acordar l'aprovació d'un projecte de llei i la seva remissió al Congrés dels Diputats o, quan s'escaigui, al Senat.
 
-###### Funció reglamentària
+##### Funció reglamentària
 
 **EI Govern exerceix la potestat reglamentària, segons l'Art. 97 CE, però també pot delegar-ne l'exercici als ministres, en raó a la competència del seu departament**, per dictar disposicions de desenvolupament dels decrets (ordres ministerials).
 
 Per altra banda, la LG estableix que **correspon al Consell de Ministres aprovar els reglaments per al desenvolupament i l'execució de les lleis**, previ dictamen del Consell d'Estat, així com les altres disposicions reglamentàries que procedeixin.
 
-###### Funcions administratives
+##### Funcions administratives
 
 Aquestes tenen una gran importància per a l'Administració pública ja que **el Govern dirigeix l'Administració civil i militar.** Aquestes funcions poden ser delegades pel Consell a les Comissions Delegades del Govern. Com exemples més significatius d'aquestes competències administratives assenyalem:
 
@@ -779,7 +779,7 @@ Aquestes tenen una gran importància per a l'Administració pública ja que **el
 - Crear, modificar i suprimir els òrgans directius dels departaments ministerials.
 - Adoptar programes, plans i directrius vinculants per a tots els òrgans de l'Administració general de l'Estat.
 
-###### Llistat de funcions el Consell de Ministres de l'Art. 5.1 LG
+##### Llistat de funcions el Consell de Ministres de l'Art. 5.1 LG
 
 - Aprovar els projectes de llei i la seva remissió al Congrés dels Diputats o, en el seu cas, al Senat.
 - Aprovar el Projecte de Llei de Pressupostos Generals de l'Estat.
@@ -793,15 +793,15 @@ Aquestes tenen una gran importància per a l'Administració pública ja que **el
 - Adoptar programes, plans i directrius vinculants per a tots els òrgans de l'Administració General de l'Estat.
 - Exercir la resta d'atribucions que li confereixin la CE, les lleis i qualsevol altra disposició.
 
-#### Les comissions delegades del Govern
+### Les comissions delegades del Govern
 
 **El Govern es pot reunir no només en Consell de Ministres, sinó també en Comissions Delegades.** Aquestes estaran integrades únicament pels ministres directament interessats en les matèries pròpies de cada comissió, amb l'objecte de facilitar l'estudi dels assumptes i fer més àgils les deliberacions.
 
-##### CREACIÓ, MODIFICACIÓ I SUPRESSIÓ
+#### CREACIÓ, MODIFICACIÓ I SUPRESSIÓ
 
 La creació, modificació i supressió de les comissions delegades del Govern **seran acordades pel Consell de Ministres mitjançant Reial Decret, a proposta del president del Govern** (Art. 6.1 LG).
 
-##### COMPOSICIÓ I FUNCIONAMENT
+#### COMPOSICIÓ I FUNCIONAMENT
 
 **El Reial Decret de creació d'una comissió delegada haurà d'especificar**, en tot cas (Art. 6.2 LG):
 
@@ -815,7 +815,7 @@ No obstant allò disposat en l'apartat anterior, **podran ser convocats a les re
 
 Com es pot apreciar, la Llei del Govern no estableix regles generals relatives a la composició i funcionament de les comissions, havent-se de regular aquesta matèria per cada Reial Decret que creï una nova comissió.
 
-##### ATRIBUCIONS
+#### ATRIBUCIONS
 
 Correspon a les comissions delegades, com a òrgans col·legiats del Govern (Art. 6.4 LG):
 
@@ -826,17 +826,17 @@ Correspon a les comissions delegades, com a òrgans col·legiats del Govern (Art
 
 **Les deliberacions de les comissions delegades del Govern seran secretes.**
 
-#### El President del Govern, el Vicepresident
+### El President del Govern, el Vicepresident
 
 Atès que el seu estudi ja es va realitzar en un altre tema (TEMA 02), aquí en donem per reproduït el contingut en el seu aspecte administratiu, és a dir, el que es refereix a les competències merament administratives (no polítiques) d'aquests òrgans públics.
 
-#### Els Ministres
+### Els Ministres
 
 Els ministres són òrgans superiors de l'Administració General de l'Estat, alhora que es caracteritzen per tenir **una doble condició: política** (com a membres del Govern) i **administrativa** (com a directors d'un departament ministerial).
 
 L'estudi dels ministres es va realitzar també a un altre tema (TEMA 02), en analitzar el Govern. És per això que aquí es dóna per reproduïda tota l'explicació que fa referència a les seves funcions administratives.
 
-#### Els departaments ministerials
+### Els departaments ministerials
 
 Tal com s'ha esmentat, els ministres, excepte en el cas que siguin dels anomenats "sense cartera", **es troben al front de cadascuna de les grans branques en què es divideix l'Administració de l'Estat**, que duen el nom de ministeri o departaments ministerials.
 
@@ -857,9 +857,9 @@ Quant a **l'estructura interna dels ministeris**, destaquen aquestes regles:
 - **Els Ministres són els caps superiors del departament i superiors jeràrquics directes dels Secretaris d'Estat i Sotssecretaris** (Art. 60.1 L40/2015).
 - Els òrgans directius depenen d'algun dels anteriors i s'ordenen jeràrquicament entre ells de la forma següent: Sotssecretari, Director general i Sotsdirector General. Els Secretaris Generals tenen categoria de Sotssecretari i els Secretaris Generals Tècnics tenen categoria de Director General (Art. 60.2 L40/2015).
 
-#### Secretaris d'Estat
+### Secretaris d'Estat
 
-##### CONCEPTE
+#### CONCEPTE
 
 Els secretaris d'Estat estan emmarcats com a **òrgans superiors de l'Administració General de l'Estat i constitueixen el càrrec immediat després del Ministre** director de cada Departament Ministerial.
 
@@ -877,7 +877,7 @@ No formen part del Govern ni de les seves comissions delegades, però **poden as
 
 Finalment, **integren, juntament amb els sotssecretaris, l'anomenada Comissió General de Secretaris d'Estat i de Sotssecretaris**.
 
-##### NOMENAMENT, CESSAMENT, INCOMPATIBILITATS I SUBSTITUCIÓ
+#### NOMENAMENT, CESSAMENT, INCOMPATIBILITATS I SUBSTITUCIÓ
 
 Segons l'Art. 15 LG, els Secretaris d'Estat són **nomenats i separats per Reial Decret del Consell de Ministres, aprovat a proposta del president del Govern o del membre del Govern al departament del qual pertanyin**.
 
@@ -887,7 +887,7 @@ Els secretaris d'Estat dependents directament de la presidència del Govern sera
 
 Als Secretaris d'Estat els és d'aplicació el **règim d'incompatibilitats previst per als alts càrrecs de l'Administració General de l'Estat**.
 
-##### ATRIBUCIONS
+#### ATRIBUCIONS
 
 En general, les competències dels secretaris d'Estat vindran determinades pel decret que reguli l'estructura del Departament, establint les unitats que se'ls adscriuen.
 
@@ -905,9 +905,9 @@ La L40/2015, en el seu Art. 62.2, es refereix a aquesta matèria establint que *
 - Administrar els crèdits per a despeses dels pressupostos del Ministeri per la seva matèria propis de la Secretaria d'Estat, aprovar les modificacions pressupostàries dels mateixos, aprovar i comprometre les despeses a càrrec d'aquells crèdits i reconèixer les obligacions econòmiques i proposar el seu pagament en el marc del pla de disposició de fons del Tresor Públic. Tot això dins de la quantia que, en el seu cas, estableixi el Ministre a l'efecte i sempre que els referits actes no siguin competència del Consell de Ministres.
 - Qualsevols altres competències que li atribueixi la legislació en vigor.
 
-#### Sotssecretaris
+### Sotssecretaris
 
-##### CONCEPTE
+#### CONCEPTE
 
 Els sotssecretaris **no són òrgans superiors de l'Administració de l'Estat, sinó òrgans directius** de la mateixa Administració, segons la L40/2015 (Art. 55.3). La referida L40/2015 preveu que **n'existeixi un a cada Ministeri** (Art. 58.2 L40/2015).
 
@@ -917,15 +917,15 @@ Segons la L40/2015, **la creació, modificació o supressió de les sotssecretar
 
 **Es tracta d'un òrgan d'existència obligatòria dins el ministeri**, respecte del qual la L40/2015 intenta professionalitzar-lo perquè obliga a seleccionar els seus membres d'entre funcionaris amb titulació superior (Art. 63.3 L40/2015).
 
-##### NOMENAMENT I CESSAMENT
+#### NOMENAMENT I CESSAMENT
 
 **Per reial decret del Consell de Ministres a proposta del titular del ministeri, d'entre funcionaris de carrera de l'Estat, Comunitats Autònomes o les Entitats Locals, pertanyents al Subgrup A1**, i que hauran de reunir els criteris d'idoneïtat establerts a la Llei 3/2015, de 30 de març, reguladora de l'exercici de l'alt càrrec de l'Administració General de l'Estat (Art. 63.3 L40/2015).
 
-##### INCOMPATIBILITATS
+#### INCOMPATIBILITATS
 
 **Els afecta el mateix règim jurídic d'incompatibilitats que als ministres i a la resta. Són inelegibles per escons a les Corts Generals.**
 
-##### ATRIBUCIONS
+#### ATRIBUCIONS
 
 Segons l'Art. 63.1 L40/2015, **ostenten la representació ordinària del Ministeri, en dirigeixen els serveis comuns, exerceixen les competències corresponents a aquests serveis comuns**, i en tot cas, les següents:
 
@@ -950,7 +950,7 @@ Segons l'Art. 63.1 L40/2015, **ostenten la representació ordinària del Ministe
 
 La Sotssecretaria del Ministeri de la Presidència, en coordinació amb la Secretaria General de la Presidència del Govern, exercirà les competències pròpies dels serveis comuns dels Departaments en relació amb l'àrea de la Presidència del Govern.
 
-#### Secretaris generals amb rang de sotssecretaris
+### Secretaris generals amb rang de sotssecretaris
 
 Els secretaris generals amb rang de sotssecretaris són òrgans superiors d'un departament ministerial (del departament, no de l'Administració de l'Estat en el seu conjunt). **Són d'existència potestativa** en no existir en tots el ministeris, sinó únicament en aquells en què la complexitat del ministeri i la necessitat de racionalitzar millor les funcions que han de portar a terme els sotssecretaris, n'aconsellin la seva existència.
 
@@ -963,7 +963,7 @@ La dependència orgànica dels secretaris generals amb rang de sotssecretari és
 - Impulsar la consecució d'objectius i l'execució dels projectes d'organització, controlant-ne el compliment.
 - Supervisar l'activitat dels òrgans directius que en depenguin i impartir instruccions als seus titulars.
 
-#### La Comissió General de Secretaris d'Estat i Sotssecretaris
+### La Comissió General de Secretaris d'Estat i Sotssecretaris
 
 Es troba regulada a l'Art. 8 LG.
 
@@ -978,7 +978,7 @@ Quant a les seves **funcions**, li correspon:
 - **L'examen de tots els assumptes que hagin de ser sotmesos a aprovació del Consell de Ministres**, excepte els nomenaments, cessaments, ascensos a qualsevol dels llocs de treball de la categoria d'oficials generals i aquells que, excepcionalment i per raons d'urgència, hagin de ser sotmesos directament al Consell de Ministres.
 - **L'anàlisi o discussió d'aquells assumptes que, sense ser competència del Consell de Ministres o les seves Comissions Delegades, afecten a diversos Ministeris i siguin sotmesos a la Comissió pel seu President.**
 
-#### Els directors generals
+### Els directors generals
 
 Les direccions generals (al capdavant de les quals hi ha un director general) són unitats administratives bàsiques en l'organització d'un departament ministerial. La seva creació respon a la **necessitat d'organitzar el treball en el departament ministerial segons els criteris d'especialitat i diversitat de matèries**. En un departament ministerial poden existir múltiples direccions generals i la seva dependència orgànica pot dependre tant d'un secretari d'Estat com d'un sotssecretari. La L40/2015 els defineix al seu Art. 66 en els següents termes: són els **titulars dels òrgans directius encarregats de la gestió d'una o més àrees funcionalment homogènies d'un ministeri**.
 
@@ -992,7 +992,7 @@ Els directors generals són els titulars dels òrgans directius encarregats de l
 - Impulsar i supervisar les activitats que formen part de la gestió ordinària de l'òrgan directiu i vetllar pel bon funcionament dels òrgans i les unitats independents i del seu personal.
 - La resta d'atribucions que li confereixin les lleis i els reglaments.
 
-#### Els secretaris generals tècnics
+### Els secretaris generals tècnics
 
 Els secretaris generals tècnics, que **es troben sota la immediata dependència del sotssecretari**, tenen les competències que els atribueixi el reial decret d'estructuració del departament i, en tot cas, les relatives a la **producció normativa, assistència jurídica i publicacions**.
 
@@ -1000,7 +1000,7 @@ Els secretaris generals tècnics tenen **categoria de director general i seran n
 
 **La creació, modificació o supressió dels secretaris generals tècnics es realitzarà per Reial decret del Consell de Ministres, a iniciativa del ministre interessat i a proposta del Ministre d'Hisenda i Administracions Públiques** (Art. 59.1 L40/2015).
 
-#### Altres òrgans
+### Altres òrgans
 
 **Cadascun dels diversos Departaments Ministerials** dels quals es compon l'Administració central de l'Estat (i les altres Administracions) estan servits per un **cos de funcionaris de carrera** que s'estructura sota el principi de jerarquia de la manera que analitzarem en el present epígraf.
 
@@ -1026,7 +1026,7 @@ La L40/2015 anomena en el seu Cap. III del Tít. I (Art. 69 a 79) **òrgans terr
 
 ## El Delegat del Govern a la Comunitat Autònoma
 
-#### Concepte
+### Concepte
 
 **Els Delegats del Govern són els òrgans directius de l'Administració perifèrica de l'Estat a les Comunitats Autònomes. Representen el Govern de la Nació al territori de la respectiva Comunitat Autònoma, sens perjudici de la representació ordinària de l'Estat a les mateixes, a través dels seus respectius Presidents**.
 
@@ -1038,59 +1038,59 @@ Tal i com hem vist anteriorment, **són òrgans directius, nomenats atenent a cr
 
 **Els Delegats del Govern (persona)** **depenen orgànicament del President del Govern, y funcionalment del Ministeri corresponent per raó de matèria** **(Art. 72.3 L40/2015). Per contra, les Delegacions de Govern (òrgan, dependència) estan adscrites orgànicament al Ministeri d'Hisenda i Administracions Públiques (Art. 69.3 L40/2015).**
 
-#### Nomenament i cessament
+### Nomenament i cessament
 
 **Els Delegats del Govern seran nomenats i separats lliurement per Reial Decret del Consell de Ministres, a proposta del President del Govern**. El seu nomenament atendrà a criteris de competència professional i experiència i hauran de reunir **els requisits d'idoneïtat establerts a la Llei 3/2015 de 30 de març, per a l'exercici de l'alt càrrec de l'Administració General de l'Estat** (Art. 72.4 L40/2015).
 
-#### Incompatibilitats
+### Incompatibilitats
 
 **Els afecta el mateix règim jurídic d'incompatibilitats que a la resta d'alts càrrecs de l'Administració de l'Estat, a més a més de ser inelegibles per les Corts Generals.**
 
-#### Seu i substitució
+### Seu i substitució
 
 L'Art. 72.5 L40/2015 preveu que en cas **d'absència, vacant o malaltia del Delegat del Govern, aquest serà suplert temporalment pel Subdelegat del Govern** que el Delegat designi, i en defecte d'aquest, el de la província en què la Delegació tingui la seva seu. A les Comunitats **Autònomes uniprovincials a les que no existeixi Subdelegat, la suplència correspondrà al Secretari General.**
 
 Al seu torn, l'Art. 69.2 L40/2015 estableix que les Delegacions del Govern tindran la seva **seu** **a la localitat on radiqui el Consell de Govern de la comunitat Autònoma, tret que el Consell de Ministres acordi ubicar-la en una altra distinta** i sens perjudici d'allò que disposen expressament els Estatuts d'Autonomia.
 
-#### Atribucions
+### Atribucions
 
 Es troben regulades a l'Art. 73 L40/2015.
 
 **Els Delegats del Govern a les Comunitats Autònomes són els titulars de les corresponents Delegacions del Govern i tenen, en els termes establerts a la L40/2015, les següents competències:**
 
-##### DIRECCIÓ I COORDINACIÓ DE L'ADMINISTRACIÓ GENERAL DE L'ESTAT I ELS SEUS ORGANISMES PÚBLICS
+#### DIRECCIÓ I COORDINACIÓ DE L'ADMINISTRACIÓ GENERAL DE L'ESTAT I ELS SEUS ORGANISMES PÚBLICS
 
 - **Impulsar, coordinar i supervisar amb caràcter general la seva activitat en el territori de la Comunitat Autònoma**, i, quan es tracti de serveis integrats, dirigir-la, directament o a través dels Subdelegats del Govern, d'acord amb els objectius i, en el seu cas, instruccions dels òrgans superiors dels respectius Ministeris.
 - **Nomenar els Subdelegats del Govern a les províncies del seu àmbit d'actuació i, en el seu cas, als Directors Insulars, i com a superior jeràrquic, dirigir i coordinar la seva activitat**.
 - **Informar, amb caràcter preceptiu, les propostes de nomenament** dels titulars dels òrgans territorials de l'Administració General de l'Estat i dels Organismes Públics estatals d'àmbit autonòmic i provincial a la Delegació del Govern.
 
-##### INFORMACIÓ DE L'ACCIÓ DE GOVERN I INFORMACIÓ ALS CIUTADANS
+#### INFORMACIÓ DE L'ACCIÓ DE GOVERN I INFORMACIÓ ALS CIUTADANS
 
 - **Coordinar la informació sobre els programes i activitats** del Govern i l'Administració General de l'Estat i els seus Organismes Públics a la Comunitat Autònoma.
 - **Promoure la col·laboració amb la resta d'Administracions** Públiques en matèria d'informació al ciutadà.
 - **Rebre informació els diferents Ministeris dels plans i programes** que hagin d'executar els seus respectius serveis territorials i Organismes Públics en el seu àmbit territorial.
 - Elevar al Govern, amb caràcter anual, a través del titular del Ministeri d'Hisenda i Administracions Públiques, un **informe sobre el funcionament dels serveis públics estatals en l'àmbit autonòmic**.
 
-##### COORDINACIÓ I COL·LABORACIÓ AMB ALTRES ADMINISTRACIONS PÚBLIQUES
+#### COORDINACIÓ I COL·LABORACIÓ AMB ALTRES ADMINISTRACIONS PÚBLIQUES
 
 - **Comunicar i rebre quanta informació necessiti el Govern i l'òrgan de Govern de la Comunitat Autònoma**. Realitzarà també aquestes funcions amb les Entitats Locals en el seu àmbit territorial, a través dels seus respectius Presidents.
 - **Mantenir les necessàries relacions de coordinació i cooperació de l'Administració General de l'Estat i els seus Organismes públics amb la Comunitat Autònoma i amb les corresponents Entitats Locals**. Amb aquesta finalitat, promourà la celebració de convenis amb la Comunitat Autònoma i amb les Entitats Locals, en particular, en relació als programes de finançament estatal, participant en el seguiment de l'execució i compliment dels mateixos.
 - **Participar en les Comissions mixtes de transferències i a les Comissions bilaterals de cooperació**, així com en la resta d'òrgans de cooperació de naturalesa similar quan es determini.
 
-##### CONTROL DE LEGALITAT
+#### CONTROL DE LEGALITAT
 
 - **Resoldre els recursos en via administrativa interposats contra les resolucions i actes dictats pels òrgans de la Delegació**, previ informe, en tot cas, del Ministeri competent per raó de la matèria. Les impugnacions de resolucions i actes del Delegat del Govern susceptibles de recurs administratiu i que no posin fi a la via administrativa, seran resoltes pels òrgans corresponents del Ministeri competent per raó de matèria. Les reclamacions per responsabilitat patrimonial de les Administracions Públiques es tramitaran pel Ministeri competent per raó de matèria i es resoldran pel titular de l'esmentat Departament.
 - **Suspendre l'execució dels actes impugnats dictats pels òrgans de la Delegació del Govern, quan correspongui resoldre el recurs**, d'acord amb l'Art. 117.2 L39/2015, i proposar la suspensió dels restants casos, així com respecte dels actes impugnats dictats pels serveis no integrats a la Delegació de Govern.
 - **Vetllar pel compliment de les competències atribuïdes constitucionalment a l'Estat** i per la correcta aplicació de la seva normativa, promovent o interposant, segons correspongui, conflictes de jurisdicció, conflictes d'atribucions, recursos i demés accions legalment procedents.
 
-##### POLÍTIQUES PÚBLIQUES
+#### POLÍTIQUES PÚBLIQUES
 
 - **Formular als Ministeris competents, en cada cas, les propostes que estimi convenients sobre els objectius** continguts en els plans i programes que hagin d'executar els serveis territorials i els dels Organismes Públics, i informar, regularment i periòdica, els Ministeris competents sobre la gestió dels seus serveis territorials.
 - **Proposar davant del Ministre d'Hisenda i Administracions Públiques les mesures precises per tal d'evitar la duplicitat d'estructures administratives**, tant a la pròpia Administració General de l'Estat com amb altres Administracions Públiques, conforme als principis d'eficàcia i eficiència.
 - **Proposar al Ministeri d'Hisenda i Administracions Públiques mesures per a incloure en els plans de recursos humans** de l'Administració General de l'Estat.
 - **Informar les mesures d'optimització de recursos humans i materials en el seu àmbit territorial**, especialment les que afectin a més d'un Departament. En particular, correspon als Delegats del Govern, en els termes establerts a la L33/2003, de 3 de novembre, del Patrimoni de les Administracions Públiques, la coordinació de la utilització dels edificis d'ús administratiu per l'organització territorial de l'Administració General de l'Estat i dels Organismes Públics que depenguin d'ella en el seu àmbit territorial, d'acord amb les directrius establertes pel Ministeri d'Hisenda i Administracions Públiques i de la Direcció General del Patrimoni de l'Estat.
 
-##### ALTRES ATRIBUCIONS
+#### ALTRES ATRIBUCIONS
 
 Així mateix, els Delegats del Govern exerciran la **potestat sancionadora, expropiatòria i qualsevol altres que li confereixin** les normes o que li siguin desconcentrades o delegades.
 
@@ -1104,29 +1104,29 @@ Des del 1833 fins el 1997 la direcció administrativa perifèrica de l'Estat a l
 
 Han passat de ser càrrecs polítics de confiança amb competències en l'ordre públic, a ser **funcionaris tècnics encarregats de la direcció administrativa de l'Administració perifèrica de l'Estat a la província** i sense competències en l'ordre públic, llevat que li siguin delegades pel Delegat del Govern a la Comunitat Autònoma, figura que va assumir més importància i significació després de la reforma introduïda per la LOFAGE. Actualment, els Art. 74 i següents L40/2015 regulen el règim normatiu bàsic dels Subdelegats del Govern a la província.
 
-#### Concepte
+### Concepte
 
 Arran de la publicació de la LOFAGE es va desnaturalitzar i despolititzar la figura del Subdelegat del Govern a la província (antic governador civil), ja que se'l va privar de matèries pròpies d'ordre polític o públic i se'l configurà com un **subordinat del Delegat del Govern**, del qual exerceix les funcions per delegació a la província. **Té nivell de subdirector general**. La seva existència és preceptiva a cada província, segons l'Art. 74 L40/2015.
 
-#### Nomenament i cessament
+### Nomenament i cessament
 
 El nomenament i el cessament del càrrec de Subdelegat del Govern a la província es portarà a terme **pel Delegat del Govern a la respectiva Comunitat Autònoma mitjançant resolució que es publicarà al BOE i procediment de lliure designació entre funcionaris de carrera de l'Estat, de les Comunitats Autònomes o de les Entitats Locals, pertanyents a Cossos o Escales classificats com Subgrup A1** (Art. 74 L40/2015).
 
 A les **Comunitats Autònomes uniprovincials no hi haurà Subdelegat, i el Delegat del Govern assumirà les competències que la L40/2015 atribueix als Subdelegats del Govern a les províncies.**
 
-#### Responsabilitats i incompatibilitats
+### Responsabilitats i incompatibilitats
 
 Ens remetem a allò explicat per a la resta d'alts càrrecs de l'Administració de l'Estat.
 
-#### Substitució o suplència
+### Substitució o suplència
 
 En els supòsits de vacant, absència o malaltia del Subdelegat del Govern, serà suplert pel **secretari general de la Subdelegació** **o, si de cas no hi és, per qui designi el Delegat del Govern. El suplent designat haurà de reunir els mateixos requisits que els exigits per ser nomenat Subdelegat del Govern.**
 
-#### Organització de la Subdelegació del Govern a la província
+### Organització de la Subdelegació del Govern a la província
 
 Segons l'Art. 76 L40/2015, l'estructura de les Delegacions i Subdelegacions del Govern s'establirà per **Reial Decret del Consell de Ministres** a proposta del Ministeri d'Hisenda i Administracions Públiques, per raó de la dependència orgànica de les Delegacions del Govern, i **comptarà, en tot cas, amb una** **Secretaria General** com a òrgan de gestió dels serveis comuns, de la qual dependran els diferents serveis integrats en la mateixa així com aquells altres serveis i unitats que es determinin en la relació de llocs de treball.
 
-#### Atribucions
+### Atribucions
 
 Segons l'Art. 75 L40/2015, als Subdelegats del Govern els correspon:
 
@@ -1141,17 +1141,17 @@ Segons l'Art. 75 L40/2015, als Subdelegats del Govern els correspon:
 
 ## Altres òrgans territorials de l'Administració perifèrica de l'Estat
 
-#### Delegats territorials ministerials
+### Delegats territorials ministerials
 
 Les delegacions provincials ministerials estan constituïdes per les delegacions dels departaments ministerials a la província. Els serveis centrals de l'Administració (ministeris) disposen de delegacions dels seus departaments a cadascuna de les diferents províncies d'Espanya. Ara bé, moltes d'aquestes delegacions provincials ministerials han desaparegut en algunes Comunitats Autònomes, a les quals els seus òrgans de Govern han assumit competències sobre determinades matèries que fins ara eren exercides pels departaments ministerials i, a través seu, les delegacions provincials ministerials. Per això, a les Comunitats Autònomes de via ràpida o de més competències, aquestes delegacions no existeixen respecte a tots els ministeris de l'Administració central de l'Estat.
 
 Per la seva banda, el Reial Decret 1330/1997, d'1 d'agost, integrà en les delegacions del Govern les Direccions Provincials dels Ministeris de Foment, Industria i Energia, i Agricultura, Pesca i Alimentació, a més dels serveis d'Alta Inspecció d'Educació i les unitats perifèriques de l'extint (a la data de l'esmentat reial decret) Ministeri de Cultura.
 
-#### Delegats d'Economia i Hisenda
+### Delegats d'Economia i Hisenda
 
 Els delegats d'Economia i Hisenda són delegats del Ministeri d'Economia i Hisenda, i s'inclouen de manera separada a les delegacions provincials ministerials per la seva multiplicitat i extensió territorial a la majoria de municipis de l'Estat i no només a les capitals de província, com acostuma a succeir amb les delegacions provincials ministerials.
 
-#### Directors insulars de l'Administració General de l'Estat
+### Directors insulars de l'Administració General de l'Estat
 
 Conforme a l'Art. 70 L40/2015, **es determinarà reglamentàriament les illes en què existirà un Director Insular de l'Administració General de l'Estat**, amb el nivell que es determini a la RLT.
 
@@ -1161,7 +1161,7 @@ Els Directors Insulars **depenen jeràrquicament del Delegat del Govern a la Com
 
 **En els supòsits de vacant, absència o malaltia, el Director Insular serà suplert pel Secretari General de la Direcció Insular o, en el seu defecte, per qui designi el Delegat del Govern**, de qui dependrà jeràrquicament el Director Insular, tret que hi hagi Subdelegat del Govern.
 
-#### La Comissió Territorial d'Assistència al delegat del Govern
+### La Comissió Territorial d'Assistència al delegat del Govern
 
 La L40/2015 (Art. 79.1) preveu la creació d'una **Comissió Interterritorial d'Assistència al Delegat del Govern** amb les següents característiques:
 
@@ -1177,11 +1177,11 @@ La L40/2015 (Art. 79.1) preveu la creació d'una **Comissió Interterritorial d'
 
 **A cada Subdelegació del Govern existirà una Comissió d'assistència al Subdelegat del Govern** presidida per ell mateix i integrada pel Secretari General i els titulars dels òrgans i serveis territorials, tant integrats com no integrats, que el Subdelegat del Govern consideri oportú, **amb les funcions assenyalades als apartats anteriors, referides a l'àmbit provincial.**
 
-#### Comissió interministerial de coordinació de l'Administració perifèrica de l'Estat
+### Comissió interministerial de coordinació de l'Administració perifèrica de l'Estat
 
 Segons l'Art. 78 L40/2015 es tracta d'un **òrgan col·legiat, adscrit al Ministeri d'Hisenda i Administracions Públiques, i s'encarrega de coordinar l'actuació de l'Administració perifèrica de l'Estat amb els diferents Departaments ministerials**. Les seves atribucions, composició i funcionament es regularan mitjançant Reial Decret.
 
-#### Els serveis territorials
+### Els serveis territorials
 
 Es troben regulats a l'Art. 71 L40/2015.
 
@@ -1250,14 +1250,14 @@ Per a poder parlar dels Ens de l'Administració Local cal que fem referència a 
 
 ## L'Administració Institucional i Corporativa
 
-#### Consideracions generals
+### Consideracions generals
 
 Es tracta d'ens diversos que **serveixen d'instrument d'actuació dels Ens Públics territorials dels que en depenen o als que es troben vinculats. No tenen una competència general sinó específica i concreta** (no són Administració Pública territorial). Es divideixen en dos grans grups:
 
 - **Ens de base institucional o instrumental:** creats per l'Estat, les Comunitats Autònomes o els Ens Locals per a una determinada finalitat.
 - **Ens de base corporativa:** d'origen privat però als quals se'ls hi deleguen determinades funcions administratives públiques en règim d'auto-administració.
 
-#### Ens públics institucionals
+### Ens públics institucionals
 
 Són els **agrupats sota el nom genèric d'ORGANISMES PÚBLICS**. Són creats per un Ens territorial per tal de dur a terme determinades finalitats que en principi li correspondrien a aquesta (naturalesa instrumental). Es troben sota la direcció i control de l'ens territorial. L'ens territorial acompanya l'organisme públic al llarg de tota la seva existència i el sosté econòmicament. En la seva fundació, l'ens territorial matriu disposa quins mitjans materials i personals s'hi afectaran.
 
@@ -1282,7 +1282,7 @@ En el cas de la Generalitat de Catalunya, trobem diversos tipus d'Organismes Pú
 - Entitats de Dret Públic que han d'ajustar la seva activitat al Dret Privat (ICF, INCASOL...).
 - Societats amb participació majoritària i societats vinculades (TVCat, SEM, EFIENSA).
 
-#### Ens públics corporatius
+### Ens públics corporatius
 
 Es tracta d'associacions per a la defensa dels interessos comuns dels seus membres però que, simultàniament, compleixen algunes funcions públiques que justifiquen el seu enquadrament dins l'Administració. Es tracta d'organitzacions representatives ja que els seus interessos són els mateixos que els de la comunitat a la que han de servir.
 
