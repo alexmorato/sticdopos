@@ -769,7 +769,9 @@
                 name: urlData.name || 'Enllaç',
                 url: urlData.url,
                 type: urlData.type || 'web', // Añadir tipo (web, youtube, etc.)
-                newTab: urlData.newTab === true || urlData.newTab === 'true'
+                newTab: urlData.newTab === true || urlData.newTab === 'true',
+                origin: urlData.origin || '',
+                notes: urlData.notes || ''
               });
             });
           }
@@ -1112,6 +1114,8 @@
       const temaData = todosLosDatos.find(t => t.tema === temaId);
       const urlData = temaData && temaData.recursos.urls[idx];
       const type = urlData && urlData.type ? urlData.type : 'web';
+      const origin = urlData && urlData.origin ? urlData.origin : '';
+      const notes = urlData && urlData.notes ? urlData.notes : '';
       const shouldOpenNewTab = Boolean(urlData && urlData.newTab);
 
       if (shouldOpenNewTab) {
@@ -1123,6 +1127,8 @@
       localStorage.setItem(LS_KEYS.IFRAME_NAME, name);
       localStorage.setItem(LS_KEYS.IFRAME_TEMA, temaId);
       localStorage.setItem(LS_KEYS.IFRAME_TYPE, type);
+      localStorage.setItem(LS_KEYS.IFRAME_ORIGIN, origin);
+      localStorage.setItem(LS_KEYS.IFRAME_NOTES, notes);
       // Abrir página con iframe (la crearemos después)
       window.open('iframe_viewer.html', '_self');
     };

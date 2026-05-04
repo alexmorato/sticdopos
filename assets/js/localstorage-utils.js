@@ -29,6 +29,8 @@ const LS_KEYS = {
   IFRAME_NAME: 'sTICdOpos_iframe_name',
   IFRAME_TEMA: 'sTICdOpos_iframe_tema',
   IFRAME_TYPE: 'sTICdOpos_iframe_type',
+  IFRAME_ORIGIN: 'sTICdOpos_iframe_origin',
+  IFRAME_NOTES: 'sTICdOpos_iframe_notes',
   DIAPOS_PAUSADO: 'sTICdOpos_diaposPausado',
   DIAPOS_CONTINUE: 'sTICdOpos_diaposContinue',
   MD_PAUSADO: 'sTICdOpos_mdPausado',
