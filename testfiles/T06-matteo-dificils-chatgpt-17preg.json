@@ -1,0 +1,529 @@
+[
+  {
+    "guid": "6f8f8b0e-6b7c-4f5a-9b0e-9d1df6e53d7a",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina afirmació és correcta sobre els Secretaris d’Estat?",
+    "answerOptions": [
+      {
+        "text": "Formen part del Govern",
+        "isCorrect": false,
+        "rationale": "Els Secretaris d’Estat no formen part del Govern en sentit estricte."
+      },
+      {
+        "text": "Són membres del Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "El Consell de Ministres està integrat pel President, els Vicepresidents, si n’hi ha, i els Ministres."
+      },
+      {
+        "text": "Són òrgans superiors de l’Administració",
+        "isCorrect": true,
+        "rationale": "Els Secretaris d’Estat tenen la consideració d’òrgans superiors de l’Administració General de l’Estat."
+      },
+      {
+        "text": "Són òrgans directius",
+        "isCorrect": false,
+        "rationale": "No són òrgans directius, sinó òrgans superiors."
+      }
+    ],
+    "hint": "Distingueix entre òrgans superiors i òrgans directius de l’AGE."
+  },
+  {
+    "guid": "b3f3c465-5e71-44a1-a940-7d7a9a1fbd90",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "En relació amb les unitats administratives, quan es consideren òrgans administratius?",
+    "answerOptions": [
+      {
+        "text": "Quan exerceixen funcions amb efectes jurídics externs",
+        "isCorrect": true,
+        "rationale": "Les unitats administratives tenen la consideració d’òrgans quan exerceixen funcions amb efectes jurídics davant tercers o tenen actuació preceptiva."
+      },
+      {
+        "text": "Quan estan integrades en una administració pública",
+        "isCorrect": false,
+        "rationale": "La simple integració dins d’una administració no converteix automàticament una unitat en òrgan administratiu."
+      },
+      {
+        "text": "Quan realitzen funcions internes sense efectes jurídics",
+        "isCorrect": false,
+        "rationale": "Les funcions purament internes no són suficients per atribuir la condició d’òrgan administratiu."
+      },
+      {
+        "text": "Quan depenen d’un òrgan superior",
+        "isCorrect": false,
+        "rationale": "La dependència jeràrquica no determina per si sola la condició d’òrgan administratiu."
+      }
+    ],
+    "hint": "La clau és l’efecte jurídic extern."
+  },
+  {
+    "guid": "a7f60c3b-0b6d-47ae-ae4e-10c16e3c26e9",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina afirmació NO és correcta sobre el Consell de Ministres?",
+    "answerOptions": [
+      {
+        "text": "És un òrgan col·legiat del Govern",
+        "isCorrect": false,
+        "rationale": "El Consell de Ministres és l’òrgan col·legiat principal del Govern."
+      },
+      {
+        "text": "Inclou els Secretaris d’Estat",
+        "isCorrect": true,
+        "rationale": "Els Secretaris d’Estat poden assistir-hi quan siguin convocats, però no en formen part com a membres ordinaris."
+      },
+      {
+        "text": "Està format pel President i els Ministres",
+        "isCorrect": false,
+        "rationale": "El Consell de Ministres està format pel President, els Vicepresidents si n’hi ha, i els Ministres."
+      },
+      {
+        "text": "Forma part del Govern",
+        "isCorrect": false,
+        "rationale": "És un òrgan del Govern."
+      }
+    ],
+    "hint": "No confonguis assistència amb pertinença."
+  },
+  {
+    "guid": "ce57f046-3f2f-49df-b2e9-47fd5f0b2a55",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina afirmació NO és correcta sobre la Comissió General de Secretaris d’Estat i Subsecretaris?",
+    "answerOptions": [
+      {
+        "text": "Prepara les reunions del Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "Una de les seves funcions principals és preparar els assumptes que s’han de sotmetre al Consell de Ministres."
+      },
+      {
+        "text": "Està presidida per un membre del Govern",
+        "isCorrect": false,
+        "rationale": "La presidència correspon a un membre del Govern, habitualment un Vicepresident o Ministre."
+      },
+      {
+        "text": "Té capacitat per adoptar decisions executives",
+        "isCorrect": true,
+        "rationale": "La Comissió General prepara i examina assumptes, però no adopta decisions que corresponguin al Consell de Ministres."
+      },
+      {
+        "text": "Està integrada per Secretaris d’Estat i Subsecretaris",
+        "isCorrect": false,
+        "rationale": "La seva composició inclou Secretaris d’Estat i Subsecretaris."
+      }
+    ],
+    "hint": "La seva funció és preparatòria, no decisòria."
+  },
+  {
+    "guid": "2b238cb6-b9cc-4f6e-9d82-25b5bd76c4cf",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina és la funció del Consell de Ministres en relació amb els projectes de llei?",
+    "answerOptions": [
+      {
+        "text": "Aprovar-los i remetre’ls a les Corts Generals",
+        "isCorrect": true,
+        "rationale": "El Consell de Ministres aprova els projectes de llei i els remet a les Corts Generals per a la seva tramitació parlamentària."
+      },
+      {
+        "text": "Aprovar-los definitivament com a llei",
+        "isCorrect": false,
+        "rationale": "L’aprovació definitiva de les lleis correspon a les Corts Generals."
+      },
+      {
+        "text": "Elaborar-los sense intervenció de ministeris",
+        "isCorrect": false,
+        "rationale": "Els avantprojectes solen ser elaborats pels departaments ministerials competents."
+      },
+      {
+        "text": "Sancionar-los i promulgar-los",
+        "isCorrect": false,
+        "rationale": "La sanció i promulgació de les lleis correspon al Rei."
+      }
+    ],
+    "hint": "El Govern impulsa, però les Corts aproven la llei."
+  },
+  {
+    "guid": "68a51d76-1d75-4a35-a0b3-d6e741c516d3",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina afirmació és correcta sobre els avantprojectes de llei?",
+    "answerOptions": [
+      {
+        "text": "Són aprovats per les Corts Generals",
+        "isCorrect": false,
+        "rationale": "Les Corts Generals tramiten i aproven projectes o proposicions de llei, no avantprojectes."
+      },
+      {
+        "text": "Tenen rang de llei des del primer moment",
+        "isCorrect": false,
+        "rationale": "Un avantprojecte no té rang normatiu de llei."
+      },
+      {
+        "text": "Són elaborats pels ministeris abans de ser projectes de llei",
+        "isCorrect": true,
+        "rationale": "Els avantprojectes són elaborats pels departaments ministerials competents abans de ser elevats al Consell de Ministres com a projectes de llei."
+      },
+      {
+        "text": "Són aprovats directament pel Rei",
+        "isCorrect": false,
+        "rationale": "El Rei no aprova avantprojectes de llei."
+      }
+    ],
+    "hint": "És una fase prèvia al projecte de llei."
+  },
+  {
+    "guid": "4a7cb783-582a-49f5-8a15-c16d37b56b89",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina de les següents és una funció normativa del Govern?",
+    "answerOptions": [
+      {
+        "text": "Aprovar sentències judicials",
+        "isCorrect": false,
+        "rationale": "Les sentències corresponen al poder judicial, no al Govern."
+      },
+      {
+        "text": "Aprovar reglaments mitjançant decrets",
+        "isCorrect": true,
+        "rationale": "El Govern exerceix la potestat reglamentària i pot aprovar reglaments mitjançant reials decrets."
+      },
+      {
+        "text": "Interpretar la Constitució amb caràcter vinculant",
+        "isCorrect": false,
+        "rationale": "La interpretació constitucional amb efectes vinculants correspon al Tribunal Constitucional."
+      },
+      {
+        "text": "Aprovar lleis orgàniques sense les Corts",
+        "isCorrect": false,
+        "rationale": "Les lleis orgàniques han de ser aprovades per les Corts Generals."
+      }
+    ],
+    "hint": "Pensa en la potestat reglamentària."
+  },
+  {
+    "guid": "157a60ef-8142-4943-9f2e-9e4a3f236e6a",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina afirmació és correcta sobre les deliberacions del Consell de Ministres?",
+    "answerOptions": [
+      {
+        "text": "Són públiques i accessibles als ciutadans",
+        "isCorrect": false,
+        "rationale": "Les deliberacions del Consell de Ministres no tenen caràcter públic."
+      },
+      {
+        "text": "Són secretes i no es poden fer públiques",
+        "isCorrect": true,
+        "rationale": "Les deliberacions del Consell de Ministres són secretes."
+      },
+      {
+        "text": "Han de ser publicades íntegrament al BOE",
+        "isCorrect": false,
+        "rationale": "Al BOE es publiquen les disposicions i actes que corresponguin, però no les deliberacions íntegres."
+      },
+      {
+        "text": "Poden ser impugnades directament pels ciutadans",
+        "isCorrect": false,
+        "rationale": "El que pot ser objecte de control són els actes o disposicions, no les deliberacions internes."
+      }
+    ],
+    "hint": "Diferencia deliberació interna i decisió formal."
+  },
+  {
+    "guid": "24e224bb-d320-451c-8c02-6d34a51f5e41",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quin dels següents càrrecs dins d’un departament ministerial té caràcter potestatiu?",
+    "answerOptions": [
+      {
+        "text": "Ministre",
+        "isCorrect": false,
+        "rationale": "El Ministre és necessari com a titular del departament ministerial."
+      },
+      {
+        "text": "Subsecretari",
+        "isCorrect": false,
+        "rationale": "El Subsecretari és un òrgan directiu necessari en els ministeris."
+      },
+      {
+        "text": "Director general",
+        "isCorrect": false,
+        "rationale": "Les direccions generals formen part de l’estructura ordinària dels departaments ministerials."
+      },
+      {
+        "text": "Secretari d’Estat",
+        "isCorrect": true,
+        "rationale": "L’existència de Secretaries d’Estat és potestativa i depèn de l’organització de cada ministeri."
+      }
+    ],
+    "hint": "No tots els ministeris han de tenir Secretaria d’Estat."
+  },
+  {
+    "guid": "2cc91d07-6a4b-48bb-9e23-a32ef83d6e63",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina afirmació és correcta sobre la compatibilitat entre el càrrec de Secretari d’Estat i el de Senador?",
+    "answerOptions": [
+      {
+        "text": "Són incompatibles per la condició d’alt càrrec de l’Administració General de l’Estat",
+        "isCorrect": true,
+        "rationale": "La condició de Secretari d’Estat és incompatible amb la de parlamentari per tractar-se d’un alt càrrec de l’Administració General de l’Estat."
+      },
+      {
+        "text": "Són compatibles perquè ambdós són càrrecs públics",
+        "isCorrect": false,
+        "rationale": "El fet que siguin càrrecs públics no implica compatibilitat."
+      },
+      {
+        "text": "Són incompatibles només si ho autoritza el Senat",
+        "isCorrect": false,
+        "rationale": "La incompatibilitat deriva de la normativa aplicable, no d’una autorització del Senat."
+      },
+      {
+        "text": "Són compatibles perquè el Secretari d’Estat no forma part del Govern",
+        "isCorrect": false,
+        "rationale": "Tot i que el Secretari d’Estat no forma part del Govern en sentit estricte, la incompatibilitat es produeix per la seva condició d’alt càrrec."
+      }
+    ],
+    "hint": "La clau no és formar part del Govern, sinó ser alt càrrec."
+  },
+  {
+    "guid": "dece6424-31c2-4cdd-85d2-64b9383a43e4",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina de les següents persones és inelegible per a les Corts Generals mentre ocupa el càrrec?",
+    "answerOptions": [
+      {
+        "text": "Un Ministre del Govern",
+        "isCorrect": false,
+        "rationale": "La pregunta busca identificar específicament un alt càrrec administratiu inclòs entre les causes d’inelegibilitat."
+      },
+      {
+        "text": "Un Secretari d’Estat",
+        "isCorrect": true,
+        "rationale": "Els Secretaris d’Estat es troben entre els alts càrrecs que no poden ser elegits mentre ocupen el càrrec."
+      },
+      {
+        "text": "Un Senador autonòmic",
+        "isCorrect": false,
+        "rationale": "La condició de senador autonòmic no és, per si sola, una causa general d’inelegibilitat per a les Corts Generals."
+      },
+      {
+        "text": "Un Regidor municipal",
+        "isCorrect": false,
+        "rationale": "La condició de regidor municipal no constitueix per si sola una causa general d’inelegibilitat per a les Corts Generals."
+      }
+    ],
+    "hint": "Fixa’t en els alts càrrecs de l’Administració de l’Estat."
+  },
+  {
+    "guid": "7223c4d0-bbff-4bc5-88ac-4779976f4422",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Qui ostenta la representació ordinària de l’Estat a les Comunitats Autònomes?",
+    "answerOptions": [
+      {
+        "text": "El President de la Comunitat Autònoma",
+        "isCorrect": true,
+        "rationale": "El President de la Comunitat Autònoma ostenta la representació ordinària de l’Estat en el territori autonòmic."
+      },
+      {
+        "text": "El Delegat del Govern",
+        "isCorrect": false,
+        "rationale": "El Delegat del Govern representa el Govern de l’Estat, no la representació ordinària de l’Estat."
+      },
+      {
+        "text": "El Ministre territorial",
+        "isCorrect": false,
+        "rationale": "No existeix amb caràcter general un ministre territorial amb aquesta funció."
+      },
+      {
+        "text": "El Subdelegat",
+        "isCorrect": false,
+        "rationale": "El Subdelegat del Govern actua en l’àmbit provincial, sota la dependència del Delegat del Govern."
+      }
+    ],
+    "hint": "Diferencia Estat i Govern de l’Estat."
+  },
+  {
+    "guid": "4de27d72-8285-4a26-a1f4-c29e2a60f8d4",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina afirmació és correcta sobre el Delegat del Govern?",
+    "answerOptions": [
+      {
+        "text": "Representa el Govern de l’Estat",
+        "isCorrect": true,
+        "rationale": "El Delegat del Govern representa el Govern de l’Estat en el territori de la Comunitat Autònoma."
+      },
+      {
+        "text": "Representa ordinàriament l’Estat",
+        "isCorrect": false,
+        "rationale": "La representació ordinària de l’Estat correspon al President de la Comunitat Autònoma."
+      },
+      {
+        "text": "És elegit pels ciutadans",
+        "isCorrect": false,
+        "rationale": "El Delegat del Govern és nomenat pel Govern, no elegit directament pels ciutadans."
+      },
+      {
+        "text": "Forma part del govern autonòmic",
+        "isCorrect": false,
+        "rationale": "El Delegat del Govern forma part de l’organització perifèrica de l’Administració General de l’Estat."
+      }
+    ],
+    "hint": "És una figura estatal, no autonòmica."
+  },
+  {
+    "guid": "8f9fc1b3-0a4c-4308-a35a-50b98f9a5a91",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quina afirmació és correcta sobre la representació en l’Administració pública?",
+    "answerOptions": [
+      {
+        "text": "El Delegat del Govern ostenta la representació ordinària de l’Estat",
+        "isCorrect": false,
+        "rationale": "El Delegat del Govern representa el Govern de l’Estat, no la representació ordinària de l’Estat."
+      },
+      {
+        "text": "El Subsecretari ostenta la representació ordinària del Ministeri",
+        "isCorrect": true,
+        "rationale": "El Subsecretari exerceix la representació ordinària del Ministeri i dirigeix els serveis comuns."
+      },
+      {
+        "text": "El President de la Comunitat Autònoma representa el Govern de l’Estat",
+        "isCorrect": false,
+        "rationale": "El President autonòmic ostenta la representació ordinària de l’Estat, però no representa el Govern de l’Estat."
+      },
+      {
+        "text": "El Ministre no exerceix funcions de representació",
+        "isCorrect": false,
+        "rationale": "El Ministre exerceix la direcció i representació superior del departament ministerial."
+      }
+    ],
+    "hint": "Cada figura representa una realitat diferent: Estat, Govern o Ministeri."
+  },
+  {
+    "guid": "13da38a1-f8f4-4e44-baf2-b84fef67d7e2",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "En relació amb l’organització perifèrica de l’Estat, quin dels següents càrrecs no és necessari en una Comunitat Autònoma uniprovincial?",
+    "answerOptions": [
+      {
+        "text": "Delegat del Govern a la Comunitat Autònoma",
+        "isCorrect": false,
+        "rationale": "El Delegat del Govern existeix a totes les Comunitats Autònomes."
+      },
+      {
+        "text": "Subdelegat del Govern a la província",
+        "isCorrect": true,
+        "rationale": "En les Comunitats Autònomes uniprovincials no és necessari que existeixi Subdelegat del Govern, ja que les seves funcions poden ser assumides pel Delegat del Govern."
+      },
+      {
+        "text": "Director insular de l’Administració General de l’Estat",
+        "isCorrect": false,
+        "rationale": "Els directors insulars existeixen només en determinades illes, no com a regla general en qualsevol comunitat uniprovincial."
+      },
+      {
+        "text": "Cap d’àrea funcional",
+        "isCorrect": false,
+        "rationale": "Les àrees funcionals poden existir dins de les delegacions o subdelegacions segons l’organització administrativa."
+      }
+    ],
+    "hint": "En una comunitat uniprovincial es pot simplificar l’estructura provincial."
+  },
+  {
+    "guid": "c34b1a55-7358-40d3-9f5c-96d4bda6f9d1",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Dins de l’estructura jeràrquica de l’Administració General de l’Estat, quin dels següents càrrecs depèn directament del Delegat del Govern?",
+    "answerOptions": [
+      {
+        "text": "El Ministre",
+        "isCorrect": false,
+        "rationale": "El Ministre és un òrgan superior de l’Administració central i no depèn del Delegat del Govern."
+      },
+      {
+        "text": "El Subdelegat del Govern",
+        "isCorrect": true,
+        "rationale": "Els Subdelegats del Govern a les províncies depenen jeràrquicament del Delegat del Govern."
+      },
+      {
+        "text": "El Secretari d’Estat",
+        "isCorrect": false,
+        "rationale": "El Secretari d’Estat és un òrgan superior de l’Administració central."
+      },
+      {
+        "text": "El Director General",
+        "isCorrect": false,
+        "rationale": "El Director General és un òrgan directiu integrat en l’organització central o perifèrica, però no és el càrrec que depèn directament del Delegat en aquest esquema."
+      }
+    ],
+    "hint": "Pensa en l’estructura territorial: Delegat i Subdelegat."
+  },
+  {
+    "guid": "30f821a8-9a5a-4eb9-a24c-b0da409f6416",
+    "subjectId": "T06",
+    "difficulty": 4,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quin dels següents càrrecs forma part de l’organització perifèrica de l’Administració General de l’Estat?",
+    "answerOptions": [
+      {
+        "text": "Secretari d’Estat",
+        "isCorrect": false,
+        "rationale": "El Secretari d’Estat forma part de l’organització central de l’Administració General de l’Estat."
+      },
+      {
+        "text": "Subsecretari",
+        "isCorrect": false,
+        "rationale": "El Subsecretari és un òrgan directiu dels departaments ministerials, dins l’organització central."
+      },
+      {
+        "text": "Delegat del Govern",
+        "isCorrect": true,
+        "rationale": "El Delegat del Govern forma part de l’organització perifèrica de l’Administració General de l’Estat a les Comunitats Autònomes."
+      },
+      {
+        "text": "Director General",
+        "isCorrect": false,
+        "rationale": "El Director General és, amb caràcter general, un òrgan directiu de l’organització central dels ministeris."
+      }
+    ],
+    "hint": "Busca el càrrec que actua territorialment a la Comunitat Autònoma."
+  }
+]
