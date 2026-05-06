@@ -1032,10 +1032,13 @@
                 const icon = urlData.type === 'youtube' ? '🎥' : '🌐';
                 const btnClass = urlData.type === 'youtube' ? 'btn-youtube' : 'btn-url';
                 const newTabIcon = urlData.newTab ? ' ↗️' : '';
+                const safeTemaId = String(tema.tema).replace(/'/g, "\\'");
+                const safeEncodedUrl = encodeURIComponent(urlData.url).replace(/'/g, '%27');
+                const safeEncodedName = encodeURIComponent(urlData.name).replace(/'/g, '%27');
                 return `
-                  <div class="recurso-item" id="recurso-url-${tema.tema}-${idx}" onclick="abrirURL('${tema.tema}', '${encodeURIComponent(urlData.url)}', '${encodeURIComponent(urlData.name)}', ${idx})">
+                  <div class="recurso-item" id="recurso-url-${tema.tema}-${idx}" onclick="abrirURL('${safeTemaId}', '${safeEncodedUrl}', '${safeEncodedName}', ${idx})">
                     <div class="recurso-name">${urlData.name}</div>
-                    <button class="recurso-btn ${btnClass}" onclick="event.stopPropagation(); abrirURL('${tema.tema}', '${encodeURIComponent(urlData.url)}', '${encodeURIComponent(urlData.name)}', ${idx})">
+                    <button class="recurso-btn ${btnClass}" onclick="event.stopPropagation(); abrirURL('${safeTemaId}', '${safeEncodedUrl}', '${safeEncodedName}', ${idx})">
                       ${icon} ${urlData.type === 'youtube' ? 'Veure' : 'Obrir'}${newTabIcon}
                     </button>
                   </div>
