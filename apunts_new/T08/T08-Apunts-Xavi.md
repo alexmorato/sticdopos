@@ -8,10 +8,84 @@
 - **RELACIONS ENTRE L'ESTAT I LES COMUNITATS AUTÒNOMES:**
 - **COORDINACIÓ I CONTROL.**
 
+<!-- TOC START -->
+**INDICE INTERACTIVO**
 
-# EL PROCÉS DE CONFIGURACIÓ DE L'ESTAT AUTONÒMIC
+- [8.1 EL PROCÉS DE CONFIGURACIÓ DE L'ESTAT AUTONÒMIC](#8-1-el-proces-de-configuracio-de-l-estat-autonomic)
+  - [8.1.1 Orígens històrics](#8-1-1-origens-historics)
+  - [8.1.2 Els principis de l'Estat Autonòmic](#8-1-2-els-principis-de-l-estat-autonomic)
+    - [8.1.2.1 Trets generals](#8-1-2-1-trets-generals)
+    - [8.1.2.2 El principi d'unitat](#8-1-2-2-el-principi-d-unitat)
+    - [8.1.2.3 El principi d'autonomia](#8-1-2-3-el-principi-d-autonomia)
+      - [A) CONCEPTE D'AUTONOMIA](#a-concepte-d-autonomia)
+      - [B) AUTONOMIA LOCAL](#b-autonomia-local)
+      - [C) ELS SUBJECTES DE L'AUTONOMIA](#c-els-subjectes-de-l-autonomia)
+    - [8.1.2.4 El principi de solidaritat](#8-1-2-4-el-principi-de-solidaritat)
+    - [8.1.2.5 El principi de cooperació](#8-1-2-5-el-principi-de-cooperacio)
+    - [8.1.2.6 El principi d'igualtat](#8-1-2-6-el-principi-d-igualtat)
+  - [8.1.3 El procés autonòmic](#8-1-3-el-proces-autonomic)
+    - [8.1.3.1 Àmbit territorial](#8-1-3-1-ambit-territorial)
+      - [A) SUPÒSIT GENERAL](#a-suposit-general)
+      - [B) SUPÒSITS PARTICULARS](#b-suposits-particulars)
+    - [8.1.3.2 La iniciativa autonòmica](#8-1-3-2-la-iniciativa-autonomica)
+      - [A) SUPÒSIT GENERAL](#a-suposit-general-2)
+      - [B) SUPÒSITS ESPECIALS](#b-suposits-especials)
+      - [C) SUPÒSITS PARTICULARS](#c-suposits-particulars)
+    - [8.1.3.3 El procediment d'elaboració dels Estatuts d'Autonomia](#8-1-3-3-el-procediment-d-elaboracio-dels-estatuts-d-autonomia)
+      - [A) SUPÒSIT GENERAL](#a-suposit-general-3)
+      - [B) SUPÒSIT ESPECIAL](#b-suposit-especial)
+      - [C) SUPÒSIT PARTICULAR](#c-suposit-particular)
+- [8.2 ELS ESTATUTS D'AUTONOMIA DE LES COMUNITATS AUTÒNOMES: NATURALESA JURÍDICA I CONTINGUT](#8-2-els-estatuts-d-autonomia-de-les-comunitats-autonomes-naturalesa-juridica-i-contingut)
+  - [8.2.1 Concepte i naturalesa dels Estatuts d'Autonomia](#8-2-1-concepte-i-naturalesa-dels-estatuts-d-autonomia)
+    - [8.2.1.1 Els Estatuts d'Autonomia són Lleis Orgàniques pactades o paccionades](#8-2-1-1-els-estatuts-d-autonomia-son-lleis-organiques-pactades-o-paccionades)
+    - [8.2.1.2 Els Estatuts d'Autonomia són norma institucional bàsica de la Comunitat Autònoma](#8-2-1-2-els-estatuts-d-autonomia-son-norma-institucional-basica-de-la-comunitat-autonoma)
+    - [8.2.1.3 Els Estatuts d'Autonomia són normes integrades a l'ordenament jurídic espanyol](#8-2-1-3-els-estatuts-d-autonomia-son-normes-integrades-a-l-ordenament-juridic-espanyol)
+  - [8.2.2 Contingut](#8-2-2-contingut)
+  - [8.2.3 Reforma dels Estatuts d'Autonomia](#8-2-3-reforma-dels-estatuts-d-autonomia)
+    - [8.2.3.1 Regla general](#8-2-3-1-regla-general)
+    - [8.2.3.2 Especialitats](#8-2-3-2-especialitats)
+      - [A) ESTATUTS D'AUTONOMIA ELABORATS PER LES COMUNITATS AUTÒNOMES QUE VAN ACCEDIR A L'AUTOGOVERN PER LA VIA COMUNA DE L'ART. 143 CE](#a-estatuts-d-autonomia-elaborats-per-les-comunitats-autonomes-que-van-accedir-a-l-autogovern-per-la-via-comuna-de-l-art-143-ce)
+      - [B) ESTATUTS D'AUTONOMIA ELABORATS PER LES COMUNITATS AUTÒNOMES QUE VAN ACCEDIR A L'AUTOGOVERN PER LA VIA ESPECIAL DE L'ART. 151 CE](#b-estatuts-d-autonomia-elaborats-per-les-comunitats-autonomes-que-van-accedir-a-l-autogovern-per-la-via-especial-de-l-art-151-ce)
+- [8.3 ELS ÒRGANS DE LES COMUNITATS AUTÒNOMES](#8-3-els-organs-de-les-comunitats-autonomes)
+  - [8.3.1 El sistema institucional de les Comunitats Autònomes](#8-3-1-el-sistema-institucional-de-les-comunitats-autonomes)
+  - [8.3.2 Classificació de les institucions autonòmiques](#8-3-2-classificacio-de-les-institucions-autonomiques)
+    - [8.3.2.1 Els òrgans legislatius, l'Assemblea Legislativa de les Comunitats Autònomes](#8-3-2-1-els-organs-legislatius-l-assemblea-legislativa-de-les-comunitats-autonomes)
+    - [8.3.2.2 Els òrgans executius](#8-3-2-2-els-organs-executius)
+      - [A) EL PRESIDENT](#a-el-president)
+      - [B) EL CONSELL DE GOVERN](#b-el-consell-de-govern)
+    - [8.3.2.3 L'Administració de les Comunitats Autònomes](#8-3-2-3-l-administracio-de-les-comunitats-autonomes)
+    - [8.3.2.4 Els òrgans judicials](#8-3-2-4-els-organs-judicials)
+    - [8.3.2.5 Altres institucions autonòmiques](#8-3-2-5-altres-institucions-autonomiques)
+      - [A) DEFENSOR DEL POBLE AUTONÒMIC](#a-defensor-del-poble-autonomic)
+      - [B) TRIBUNAL DE COMPTES AUTONÒMIC](#b-tribunal-de-comptes-autonomic)
+      - [C) ELS CONSELLS DE JUSTÍCIA](#c-els-consells-de-justicia)
+  - [8.3.3 El control dels òrgans](#8-3-3-el-control-dels-organs)
+- [8.4 LES COMPETÈNCIES DE LES COMUNITATS AUTÒNOMES](#8-4-les-competencies-de-les-comunitats-autonomes)
+  - [8.4.1 Trets generals](#8-4-1-trets-generals)
+  - [8.4.2 El repartiment de competències](#8-4-2-el-repartiment-de-competencies)
+    - [8.4.2.1 Els conceptes de matèria i competència](#8-4-2-1-els-conceptes-de-materia-i-competencia)
+    - [8.4.2.2 Les diferents tècniques de repartiment competencial](#8-4-2-2-les-diferents-tecniques-de-repartiment-competencial)
+      - [A) COMPETÈNCIES MÍNIMES](#a-competencies-minimes)
+      - [B) COMPETÈNCIES DERIVADES DE L'ART. 149.1 CE](#b-competencies-derivades-de-l-art-149-1-ce)
+      - [C) COMPETÈNCIES ROMANENTS O RESIDUALS](#c-competencies-romanents-o-residuals)
+      - [D) LA NOCIÓ DE BASES](#d-la-nocio-de-bases)
+      - [E) ELS CONCEPTES DE LEGISLACIÓ I EXECUCIÓ](#e-els-conceptes-de-legislacio-i-execucio)
+      - [F) LA PLURALITAT dE TÍTOLS COMPETENCIALS I ELS ANOMENATS TÍTOLS COMPETENCIALS HORITZONTALS](#f-la-pluralitat-de-titols-competencials-i-els-anomenats-titols-competencials-horitzontals)
+  - [8.4.3 El repartiment estatutari de competències](#8-4-3-el-repartiment-estatutari-de-competencies)
+  - [8.4.4 L'assumpció extraestatutària de competències](#8-4-4-l-assumpcio-extraestatutaria-de-competencies)
+    - [8.4.4.1 El sistema de lleis marc (Art. 150.1 CE)](#8-4-4-1-el-sistema-de-lleis-marc-art-150-1-ce)
+    - [8.4.4.2 El sistema de lleis d'harmonització (Art. 150.3 CE)](#8-4-4-2-el-sistema-de-lleis-d-harmonitzacio-art-150-3-ce)
+    - [8.4.4.3 El sistema de lleis de transferència i delegació (Art. 150.2 CE)](#8-4-4-3-el-sistema-de-lleis-de-transferencia-i-delegacio-art-150-2-ce)
+  - [8.4.5 Les relacions d'integració entre els ordenaments estatal i autonòmic](#8-4-5-les-relacions-d-integracio-entre-els-ordenaments-estatal-i-autonomic)
+    - [8.4.5.1 La clàusula de prevalença del Dret Estatal](#8-4-5-1-la-clausula-de-prevalenca-del-dret-estatal)
+    - [8.4.5.2 El principi de supletorietat](#8-4-5-2-el-principi-de-supletorietat)
+<!-- TOC END -->
 
-## Orígens històrics
+---
+
+# 8.1 EL PROCÉS DE CONFIGURACIÓ DE L'ESTAT AUTONÒMIC <a id="8-1-el-proces-de-configuracio-de-l-estat-autonomic"></a>
+
+## 8.1.1 Orígens històrics <a id="8-1-1-origens-historics"></a>
 
 El procés centralitzador de l'Estat Espanyol es remunta a l'època dels Reis Catòlics i es veié enfortit amb l'arribada dels Borbons a través dels Decrets de Nova Planta de Felip V els quals van suposar l'eliminació de totes les institucions de Dret Públic dels diferents regnes.
 
@@ -19,9 +93,9 @@ Tot i així, el manteniment d'aquest Estat centralista convisqué amb diversos i
 
 Amb la Transició política es van reconèixer els "règims preautonòmics", de tal manera que entre els anys 1977 i 1978 es va anar creant el mapa preautonòmic espanyol. Pràcticament tot el territori espanyol es va dotar d'un "règim provisional d'autonomia" que, en teoria, havia de servir per a preparar amb temps la infraestructura organitzativa i la mobilització tècnica necessària per a què, al dia següent que la zona en qüestió es constituís com a Comunitat Autònoma, aquesta comencés a funcionar el més correctament possible.
 
-## Els principis de l'Estat Autonòmic
+## 8.1.2 Els principis de l'Estat Autonòmic <a id="8-1-2-els-principis-de-l-estat-autonomic"></a>
 
-#### Trets generals
+### 8.1.2.1 Trets generals <a id="8-1-2-1-trets-generals"></a>
 
 El procés de centralització va servir, entre d'altres coses, per a la liquidació de l'Antic Règim i la instauració d'un sistema liberal burgés (facilitant la formació dels mercats nacionals i la consolidació del capitalisme). Però avui dia aquest objectiu ja està complert i de fet, el centralisme pot suposar un fre a la instauració i desenvolupament de la democràcia ja que resulta generalment admès que **la descentralització és quelcom consubstancial a la democràcia i a l'Estat social**.
 
@@ -33,7 +107,7 @@ El procés de centralització va servir, entre d'altres coses, per a la liquidac
 
 Per a entrar ara en profunditat en els principis informadors del nostre model autonòmic, cal que recordem primer l'Art. 2 CE el qual afirma que la CE es fonamenta en la **indissoluble unitat de la nació espanyola**, pàtria comuna i indivisible de tots els espanyols, i reconeix i garanteix el **dret a l'autonomia** de les nacionalitats i regions que l'integren i la **solidaritat** entre totes elles. Ara bé, aquests tres principis (unitat, dret a l'autonomia i solidaritat) no són pas els únics ja que n'existeixen d'altres també recollits a la CE o de creació jurisprudencial.
 
-#### El principi d'unitat
+### 8.1.2.2 El principi d'unitat <a id="8-1-2-2-el-principi-d-unitat"></a>
 
 Es tracta d'un **principi prevalent sobre la resta** ja que és l'únic principi que **serveix com a fonament de la CE**. De fet, la resta de principis s'ha d'entendre sobre la base del principi d'unitat (el dret d'autonomia de les nacionalitats i regions, que porta com a corol·lari la solidaritat entre totes elles, es dona sobre la base de la unitat nacional).
 
@@ -45,11 +119,11 @@ La CE reconeix diverses **manifestacions del principi d'unitat**, la més import
 
 Aquest principi d'unitat és el que **impedeix el reconeixement constitucional del dret d'autodeterminació**, malgrat que aquest estigui reconegut en diversos pactes internacionals subscrits per Espanya. Això es fonamenta en dos límits, a saber, per una banda el rebuig directe al _ius secessionis_, i per altra l'afirmació que el titular del poder constituent és únicament el poble espanyol i no pas els possibles pobles o nacions que poguessin integrar-s'hi. **L'Estat Autonòmic s'assenta en el principi fonamental de que la CE fa residir la sobirania nacional en el poble espanyol, pel que aquesta no és el resultat d'un pacte entre territoris amb drets anteriors a la CE i superiors a aquesta, sinó una norma del poder constituent amb força vinculant general.**
 
-#### El principi d'autonomia
+### 8.1.2.3 El principi d'autonomia <a id="8-1-2-3-el-principi-d-autonomia"></a>
 
 **L'autonomia és un dret reconegut (que no pas concedit) i garantit per la CE.**
 
-##### CONCEPTE D'AUTONOMIA
+#### A) CONCEPTE D'AUTONOMIA <a id="a-concepte-d-autonomia"></a>
 
 **La CE no conté una noció clara d'autonomia**. L'Art. 137 CE disposa que l'Estat s'organitza territorialment en municipis, províncies i en les Comunitats Autònomes que es constitueixin. Totes aquestes entitats gaudeixen d'autonomia per a la gestió de llurs respectius interessos.
 
@@ -61,19 +135,19 @@ Però autonomia no és pas sobirania, motiu pel qual **es fixen un seguit de lí
 
 En resum, el principi d'autonomia prefigura una distribució (per part de la CE) vertical del poder públic entre entitats de diferent nivell, que són fonamentalment l'Estat, titular de la sobirania; les Comunitats Autònomes, caracteritzades per una autonomia política; i les províncies i municipis, dotats d'autonomia administrativa de diferent àmbit. **Les Comunitats Autònomes gaudeixen d'una autonomia qualitativament superior a l'administrativa que correspon als ens locals, ja que s'hi afegeixen potestats legislatives i governamentals que la configuren com naturalesa d'autonomia política.**
 
-##### AUTONOMIA LOCAL
+#### B) AUTONOMIA LOCAL <a id="b-autonomia-local"></a>
 
 Es tracta del **dret de la comunitat local a participar, a través d'òrgans propis, en el govern i l'administració de tants assumptes com li concerneixin, constituint en tot cas un poder limitat que no pot oposar-se al principi d'unitat estatal.**
 
 L'autonomia local es tradueix en una **garantia institucional dels elements essencials o nucli primari de l'autogovern dels ens locals territorials, i que ha de ser respectat pel legislador** (estatal o autonòmic, general o sectorial) per a que aquestes Administracions siguin recognoscibles en tant que ens dotats d'autogovern. De fet, el legislador no pot entrar a regular res que afecti la capacitat decisòria dels ens locals respecte les matèries del seu interès i que es situï per sota del llindar mínim que els garanteix la seva participació efectiva en els assumptes que els concerneixen. **El contingut de l'autonomia local és indisponible. La intromissió del legislador en aquesta autonomia local seria inconstitucional** i declarada com a tal per part del TC, el qual coneix del **conflicte en defensa de l'autonomia local**. La llei que tracta el règim local és la L7/1985, de 2 d'abril, reguladora de les Bases del Règim Local (LRBRL).
 
-##### ELS SUBJECTES DE L'AUTONOMIA
+#### C) ELS SUBJECTES DE L'AUTONOMIA <a id="c-els-subjectes-de-l-autonomia"></a>
 
 La CE reconeix el **dret d'autonomia a les nacionalitats i regions** (Art. 2 CE). Aquesta nomenclatura ha estat objecte de crítiques i controvèrsies respecte a la seva interpretació ja que la CE no ofereix una definició del concepte de nacionalitat. En principi els constituents semblaven preveure la denominació "nacionalitat" per als 3 territoris teòricament dotats de major consciència autonòmica (Catalunya, País Basc i Galicia) i el terme "regió" per a la resta. Però no hi ha cap transcendència jurídica constitucional pel fet d'adoptar una o altra denominació.
 
 **Diferent és el terme nació.** Les reformes estatutàries que han volgut implantar aquesta denominació (Pla Ibarretxe i reforma de l'EAC del 2006) han fracassat i, o bé s'ha eliminat el terme nació, o bé s'ha traslladat a part dels EAs que no tenen efectes jurídics ni eficàcia jurídica interpretativa (com al Preàmbul de l'EAC). A aquest efecte, **el TC considera que en un sentit jurídic constitucional només hi ha una nació, l'espanyola, que és la única titular de la sobirania.**
 
-#### El principi de solidaritat
+### 8.1.2.4 El principi de solidaritat <a id="8-1-2-4-el-principi-de-solidaritat"></a>
 
 Aquest principi es troba esmentat a l'Art. 2 CE, que en proclama l'existència i el garanteix, però no el desenvolupa (això ho trobem a d'altres preceptes constitucionals).
 
@@ -88,7 +162,7 @@ L'Art. 138 CE recull **dues modalitats de realització efectiva d'aquest princip
 
 El reconeixement del principi de solidaritat **implica un seguit de deures com ara l'auxili recíproc, el deure de suport i la lleialtat constitucional.**
 
-#### El principi de cooperació
+### 8.1.2.5 El principi de cooperació <a id="8-1-2-5-el-principi-de-cooperacio"></a>
 
 L'establiment d'un sistema de relacions de cooperació és quelcom consubstancial a qualsevol model de descentralització política.
 
@@ -111,18 +185,18 @@ Com a **principis i tècniques d'aplicació del principi de cooperació** trobem
 - **El principi de lleialtat institucional.**
 - **Tècniques de col·laboració interadministrativa** com ara les conferències sectorials, les comissions bilaterals de cooperació, els convenis de col·laboració, els encàrrecs de gestió, l'elaboració de plans i programes conjunts, la delegació de competències, etc.
 
-#### El principi d'igualtat
+### 8.1.2.6 El principi d'igualtat <a id="8-1-2-6-el-principi-d-igualtat"></a>
 
 Aquest principi es troba recollit a l'Art. 139 CE i engloba **dues modalitats**:
 
 - **Una general que afecta tots els drets i obligacions dels espanyols** (Art. 139.1 CE). Però aquesta igualtat de drets i obligacions arreu del territori espanyol **no pot ser entesa com a una rigorosa i monolítica uniformitat de l'ordenament jurídic** de la que resulti que, en igualtat de circumstàncies, en qualsevol part del territori espanyol, es tinguin els mateixos drets i obligacions, ja que la posició jurídica dels ciutadans pot ser distinta a les diferents parts del territori nacional. **Però qualsevol desigualtat haurà d'estar justificada i no podrà ser discriminatòria ni podrà afectar les condicions bàsiques que garanteixen la igualtat de tots els espanyols en l'exercici dels seus drets constitucionals.**
 - **Una altra més específica que afecta únicament a determinats drets tals com la llibertat de circulació i establiment de les persones, així com la lliure circulació de béns** (Art. 139.2 CE). Precepte que el TC també ha interpretat de manera flexible.
 
-## El procés autonòmic
+## 8.1.3 El procés autonòmic <a id="8-1-3-el-proces-autonomic"></a>
 
-#### Àmbit territorial
+### 8.1.3.1 Àmbit territorial <a id="8-1-3-1-ambit-territorial"></a>
 
-##### SUPÒSIT GENERAL
+#### A) SUPÒSIT GENERAL <a id="a-suposit-general"></a>
 
 L'Art. 143.1 CE engloba **diversos supòsits d'àmbit territorial per a la constitució de Comunitats Autònomes:**
 
@@ -130,7 +204,7 @@ L'Art. 143.1 CE engloba **diversos supòsits d'àmbit territorial per a la const
 - **Territoris insulars.**
 - **Una o varies províncies amb entitat regional històrica** (singularitat històrica institucionalitzada).
 
-##### SUPÒSITS PARTICULARS
+#### B) SUPÒSITS PARTICULARS <a id="b-suposits-particulars"></a>
 
 - L'Art. 144.a CE estableix la **possibilitat que les Corts Generals, mitjançant LO i per motius d'interès nacional, autoritzin la constitució d'una Comunitat Autònoma quan l'àmbit territorial de la mateixa sigui igual o inferior al d'una província i manqui d'entitat regional històrica**.
 
@@ -144,17 +218,17 @@ Això es va fer pensant en l'hipotètic futur de Gibraltar.
 
 Però les Ciutats Autònomes de Ceuta i Melilla no es van constituir com a Comunitats Autònomes, sinó que van assolir un Estatut d'Autonomia a l'empara de la via de l'Art. 144.b CE.
 
-#### La iniciativa autonòmica
+### 8.1.3.2 La iniciativa autonòmica <a id="8-1-3-2-la-iniciativa-autonomica"></a>
 
 **La iniciativa autonòmica és la manifestació de voluntat d'accés a l'autonomia i consisteix en el primer tràmit a superar per part dels territoris que pretenen accedir a la condició de Comunitat Autònoma.**
 
 Es tracta d'un acte d'inici, d'impuls del procés autonòmic que esgota els seus efectes quan s'entra a la següent fase.
 
-##### SUPÒSIT GENERAL
+#### A) SUPÒSIT GENERAL <a id="a-suposit-general-2"></a>
 
 L'Art. 143.2 CE estableix que **la iniciativa del procés autonòmic correspon a totes les Diputacions interessades o a l'òrgan interinsular corresponent i a les dues terceres parts dels municipis la població dels quals representi, com a mínim, la majoria del cens electoral de cada província o illa**. Aquests requisits han de ser complerts en el termini de 6 mesos des del primer acord adoptat al respecte per alguna de les Corporacions Locals interessades.
 
-##### SUPÒSITS ESPECIALS
+#### B) SUPÒSITS ESPECIALS <a id="b-suposits-especials"></a>
 
 - L'Art. 144.c CE estableix que **les Corts Generals, a través de LO i per motius d'interès general podran substituir la iniciativa de les Corporacions Locals a què es refereix l'Art. 143.2 CE.** Això va ser emprat en els casos d'Almeria i Segovia.
 - La Disp. Trans. 1a CE estableix que en **els territoris dotats d'un règim provisional d'autonomia, mitjançant acord adoptat per majoria absoluta dels seus membres, podran substituir la iniciativa que l'Art. 143.2 CE atribueix a les Diputacions Provincials o als òrgans interinsulars corresponents**. El que va passar és que aquesta excepció a la via de l'Art. 143.2 CE es va convertir en la regla general d'aplicació ja que gairebé tots els territoris tenien règims provisionals d'autonomia.
@@ -162,59 +236,61 @@ L'Art. 143.2 CE estableix que **la iniciativa del procés autonòmic correspon a
 
 **Tot i així, la Disp. Trans. 2a CE estableix que els territoris que haguessin plebiscitat afirmativament projectes d'Estatut d'Autonomia i comptin, en el moment de promulgar-se la CE, amb règims provisionals d'autonomia podran procedir immediatament en la forma que preveu l'Art. 148.2 CE (assolir el màxim nivell competencial), quan així ho acordin, per majoria absoluta, els seus òrgans preautonomics col·legiats superiors, comunicant-ho al Govern. També en aquests casos es tramitarà el projecte d'Estatut segons el procediment de l'Art. 151.2 CE. Catalunya, Galicia i el País Basc van optar per aquesta via.**
 
-##### SUPÒSITS PARTICULARS
+#### C) SUPÒSITS PARTICULARS <a id="c-suposits-particulars"></a>
 
 Els supòsits particulars dels titulars de la iniciativa del procés autonòmic són Navarra, Ceuta i Melilla. Navarra es va acollir a l'Amillorament del Fur (LO 13/1982), cosa que impedeix classificar-la com a Comunitat Autònoma tot i tenir la denominació de Comunitat Foral. En el cas de Ceuta i Mellilla, com ja hem comentat, van seguir la via de l'Art. 144.b CE constituint-se com a Ciutats Autònomes amb Estatut d'Autonomia.
 
-| Mínima dotació competencial<br><br>"Via lenta" | Art. 143.2 CE                                               | Astúries, Cantabria, Aragó, Castella Lleó, La Rioja, Comunitat Valenciana, Castella la Manxa, Murcia, Extremadura, Illes Balears i Illes Canàries |
-| ---------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Màxima dotació competencial "Via ràpida"       | Art. 151.1 CE                                               | Andalusia (amb aplicació de l'Art. 144.c CE per al referèndum d'Almeria)                                                                          |
-| Disp. Trans. 2a CE                             | Catalunya, País Basc i Galicia                              |
-| Per Llei Orgànica                              | Art. 144.a CE                                               | Madrid                                                                                                                                            |
-| Casos especials (no són Comunitats Autònomes)  | Disp. Add. 1a i LO 13/82                                    | Navarra (amillorament del règim foral)                                                                                                            |
-| Art. 144.b CE                                  | Ceuta i Melilla (Ciutats Autònomes amb Estatut d'Autonomia) |
+| Categoría                                         | Base jurídica            | Comunidades / casos                                                                                                                               |
+| ------------------------------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mínima dotació competencial** (“Via lenta”)     | Art. 143.2 CE            | Astúries, Cantabria, Aragó, Castella Lleó, La Rioja, Comunitat Valenciana, Castella la Manxa, Murcia, Extremadura, Illes Balears i Illes Canàries |
+| **Màxima dotació competencial** (“Via ràpida”)    | Art. 151.1 CE            | Andalusia (amb aplicació de l’Art. 144.c CE per al referèndum d’Almeria)                                                                          |
+|                                                   | Disp. Trans. 2a CE       | Catalunya, País Basc i Galícia                                                                                                                    |
+| **Per Llei Orgànica**                             | Art. 144.a CE            | Madrid                                                                                                                                            |
+| **Casos especials (no són Comunitats Autònomes)** | Disp. Add. 1a i LO 13/82 | Navarra (amillorament del règim foral)                                                                                                            |
+|                                                   | Art. 144.b CE            | Ceuta i Melilla (Ciutats Autònomes amb Estatut d’Autonomia)                                                                                       |
 
-#### El procediment d'elaboració dels Estatuts d'Autonomia
+
+### 8.1.3.3 El procediment d'elaboració dels Estatuts d'Autonomia <a id="8-1-3-3-el-procediment-d-elaboracio-dels-estatuts-d-autonomia"></a>
 
 Les Comunitats Autònomes no existeixen com a tals fins que no s'aprova el respectiu Estatut d'Autonomia. La seva aprovació és l'últim pas del procés autonòmic. La CE **contempla 3 supòsits d'elaboració dels Estatuts d'Autonomia.**
 
-##### SUPÒSIT GENERAL
+#### A) SUPÒSIT GENERAL <a id="a-suposit-general-3"></a>
 
 Es troba recollit a l'Art. 146 CE segons el qual **el projecte d'Estatut serà aprovat per una assemblea composada pels membres de la Diputació o òrgan interinsular de les províncies afectades i pels Diputats i Senadors escollits en elles i serà elevat a les Corts Generals per a la seva tramitació com a llei (orgànica).** Aquesta es la via pensada per a les Comunitats Autònomes de la via de l'Art.143.2.
 
-##### SUPÒSIT ESPECIAL
+#### B) SUPÒSIT ESPECIAL <a id="b-suposit-especial"></a>
 
 Es troba recollit a l'Art. 151.2 CE **per a aquells territoris que van accedir a l'autonomia per la via de l'Art. 151.1 CE o la Disp. Trans. 2a CE**. El precepte és una mena de cursa d'obstacles que han d'anar superant els territoris afectats, essent la **necessitat d'un referèndum el requisit més característic, per al qual es requereix l'aprovació a cadascuna de les províncies per la majoria de vots vàlidament emesos** (i posteriorment es requereix el vot de ratificació de les Corts Generals).
 
 Hi ha una fase comuna d'elaboració d'un projecte per part d'una assemblea de parlamentaris, i una alta que ve determinada per l'existència, o no, d'acord entre la Comissió Constitucional del Congrés dels Diputats i la delegació de l'assemblea de parlamentaris. Si hi ha acord, el text és remès a referèndum i, un cop aprovat, a un vot de ratificació per les Corts Generals. En cas que no hi hagi acord, el projecte d'Estatut haurà de ser sotmès com a projecte de llei a les Corts Generals i, un cop aprovat per aquestes, a referèndum del cos electoral afectat.
 
-##### SUPÒSIT PARTICULAR
+#### C) SUPÒSIT PARTICULAR <a id="c-suposit-particular"></a>
 
 És el que ja hem comentat de la Disp. Trans. 2a CE.
 
-# ELS ESTATUTS D'AUTONOMIA DE LES COMUNITATS AUTÒNOMES: NATURALESA JURÍDICA I CONTINGUT
+# 8.2 ELS ESTATUTS D'AUTONOMIA DE LES COMUNITATS AUTÒNOMES: NATURALESA JURÍDICA I CONTINGUT <a id="8-2-els-estatuts-d-autonomia-de-les-comunitats-autonomes-naturalesa-juridica-i-contingut"></a>
 
-## Concepte i naturalesa dels Estatuts d'Autonomia
+## 8.2.1 Concepte i naturalesa dels Estatuts d'Autonomia <a id="8-2-1-concepte-i-naturalesa-dels-estatuts-d-autonomia"></a>
 
 Dels EAs se'n sol dir que són **Lleis Orgàniques pactades o paccionades** de l'ordenament jurídic. **Formen part de bloc de constitucionalitat** **i són la norma institucional bàsica de la Comunitat Autònoma en qüestió.**
 
 Actualment hi ha 19 EAs (17 de les Comunitats Autònomes, incloent-hi també la LO13/82 de Reintegrament i Amillorament del Règim Foral de Navarra, més els EA de les Ciutats Autònomes de Ceuta i Melilla).
 
-#### Els Estatuts d'Autonomia són Lleis Orgàniques pactades o paccionades
+### 8.2.1.1 Els Estatuts d'Autonomia són Lleis Orgàniques pactades o paccionades <a id="8-2-1-1-els-estatuts-d-autonomia-son-lleis-organiques-pactades-o-paccionades"></a>
 
 L'Art. 81.1 CE estableix que **els EAs són Lleis Orgàniques**. Però la seva elaboració no segueix les vies normals d'iniciativa parlamentària. **S'inicien segons el procediment que correspongui segons els Art. 146 o 151.2 CE, però després passen per les Corts Generals per a la seva aprovació com a Lleis Orgàniques.**
 
 **També tenen un sistema especial de reforma** (**aquell que contempli el propi EA) i una funció especial quant al contingut (regulen les institucions bàsiques de la Comunitat Autònoma en qüestió).**
 
-#### Els Estatuts d'Autonomia són norma institucional bàsica de la Comunitat Autònoma
+### 8.2.1.2 Els Estatuts d'Autonomia són norma institucional bàsica de la Comunitat Autònoma <a id="8-2-1-2-els-estatuts-d-autonomia-son-norma-institucional-basica-de-la-comunitat-autonoma"></a>
 
 Dins l'ordenament jurídic estatal són una Llei Orgànica més (tot i que forma part del bloc de constitucionalitat), però **a la Comunitat Autònoma són norma suprema bàsica a la qual està subordinada tota la producció normativa autonòmica**.
 
-#### Els Estatuts d'Autonomia són normes integrades a l'ordenament jurídic espanyol
+### 8.2.1.3 Els Estatuts d'Autonomia són normes integrades a l'ordenament jurídic espanyol <a id="8-2-1-3-els-estatuts-d-autonomia-son-normes-integrades-a-l-ordenament-juridic-espanyol"></a>
 
 Són Lleis Orgàniques de l'ordenament jurídic estatal amb la protecció i empara corresponent (Art. 147.1 CE).
 
-## Contingut
+## 8.2.2 Contingut <a id="8-2-2-contingut"></a>
 
 L'Art. 147.2 CE recull **els punts que ha d'incloure tot EA** com a mínim:
 
@@ -225,28 +301,28 @@ L'Art. 147.2 CE recull **els punts que ha d'incloure tot EA** com a mínim:
 
 Tot això, lògicament, dins els límits establerts a la CE i sense poder contradir-la.
 
-## Reforma dels Estatuts d'Autonomia
+## 8.2.3 Reforma dels Estatuts d'Autonomia <a id="8-2-3-reforma-dels-estatuts-d-autonomia"></a>
 
-#### Regla general
+### 8.2.3.1 Regla general <a id="8-2-3-1-regla-general"></a>
 
 Els Estatuts d'Autonomia es reformen **segons el procediment establert al propi EA i amb aprovació de les Corts Generals com a Llei Orgànica** (Art. 147.3 CE). Ara bé, existeixen **especialitats.**
 
-#### Especialitats
+### 8.2.3.2 Especialitats <a id="8-2-3-2-especialitats"></a>
 
-##### ESTATUTS D'AUTONOMIA ELABORATS PER LES COMUNITATS AUTÒNOMES QUE VAN ACCEDIR A L'AUTOGOVERN PER LA VIA COMUNA DE L'ART. 143 CE
+#### A) ESTATUTS D'AUTONOMIA ELABORATS PER LES COMUNITATS AUTÒNOMES QUE VAN ACCEDIR A L'AUTOGOVERN PER LA VIA COMUNA DE L'ART. 143 CE <a id="a-estatuts-d-autonomia-elaborats-per-les-comunitats-autonomes-que-van-accedir-a-l-autogovern-per-la-via-comuna-de-l-art-143-ce"></a>
 
 La iniciativa correspon al Govern autonòmic, al Parlament autonòmic i a les Corts Generals. L'aprovació correspon al Parlament autonòmic i posteriorment tramitar-ho com a projecte de Llei Orgànica a les Corts Generals.
 
-##### ESTATUTS D'AUTONOMIA ELABORATS PER LES COMUNITATS AUTÒNOMES QUE VAN ACCEDIR A L'AUTOGOVERN PER LA VIA ESPECIAL DE L'ART. 151 CE
+#### B) ESTATUTS D'AUTONOMIA ELABORATS PER LES COMUNITATS AUTÒNOMES QUE VAN ACCEDIR A L'AUTOGOVERN PER LA VIA ESPECIAL DE L'ART. 151 CE <a id="b-estatuts-d-autonomia-elaborats-per-les-comunitats-autonomes-que-van-accedir-a-l-autogovern-per-la-via-especial-de-l-art-151-ce"></a>
 
 Existeix un doble tràmit en funció del que es vulgui reformar:
 
 - Procediment complex o ordinari: és similar a l'anterior però amb un referèndum posterior a l'aprovació per part de les Corts Generals (Art. 152.2 CE).
 - Procediment especial o simple: és per a reformes de l'organització interna de la Comunitat Autònoma, que no afecten a l'Estat. S'ha de fer una consulta a les Corts Generals per a que confirmin que no els hi afecta. Si sí els afecta, s'aplica el procediment ordinari. Si no els hi afecta, cal el vot de ratificació de les Corts Generals a través de Llei Orgànica i posterior referèndum.
 
-# ELS ÒRGANS DE LES COMUNITATS AUTÒNOMES
+# 8.3 ELS ÒRGANS DE LES COMUNITATS AUTÒNOMES <a id="8-3-els-organs-de-les-comunitats-autonomes"></a>
 
-## El sistema institucional de les Comunitats Autònomes
+## 8.3.1 El sistema institucional de les Comunitats Autònomes <a id="8-3-1-el-sistema-institucional-de-les-comunitats-autonomes"></a>
 
 Per una banda l'Art. 147.2 CE estableix que **la denominació, organització i seu de les institucions autonòmiques ha de formar part del contingut necessari dels Estatuts d'Autonomia**. Al seu torn, l'Art.148.1.1 CE estableix que **l'organització de les institucions d'autogovern és una competència exclusiva de les Comunitats Autònomes dins els límits constitucionals**.
 
@@ -254,7 +330,7 @@ L'Art. 152.1 CE enumera **determinades institucions autonòmiques que hauran d'e
 
 El tema de l'organització és el segon aspecte més important després de les competències.
 
-## Classificació de les institucions autonòmiques
+## 8.3.2 Classificació de les institucions autonòmiques <a id="8-3-2-classificacio-de-les-institucions-autonomiques"></a>
 
 En aquest apartat farem un breu resum de l'esquema institucional de les Comunitats Autònomes, que posteriorment serà desenvolupat als corresponents subapartats.
 
@@ -262,7 +338,7 @@ Per una banda trobem l'**Assemblea Legislativa** de la Comunitat Autònoma en q�
 
 Dins els **òrgans executius** tenim el **President** i el **Consell de Govern**. També haurem de fer un cop d'ull a **l'Administració de les Comunitats Autònomes**. **En l'àmbit judicial** veurem el **Tribunal Superior de Justícia de les Comunitats Autònomes**. Per últim, farem un breu esment a **d'altres institucions com el Defensor del Poble autonòmic, els Tribunals de Comptes autonòmics, els Consells de Justícia, etc**.
 
-#### Els òrgans legislatius, l'Assemblea Legislativa de les Comunitats Autònomes
+### 8.3.2.1 Els òrgans legislatius, l'Assemblea Legislativa de les Comunitats Autònomes <a id="8-3-2-1-els-organs-legislatius-l-assemblea-legislativa-de-les-comunitats-autonomes"></a>
 
 L'Assemblea Legislativa de les Comunitats Autònomes és un **parlament unicameral** (així ho han entès tots els EAs en interpretació de la difusa i defectuosa regulació que en fa l'Art. 152.1 CE), **els membres del qual són escollits per sufragi universal** (es sobreentenen les notes de lliure, igual, directe i secret, malgrat que l'Art. 152.1 CE no les hi atribueix com sí ho fa a l'Art. 68.1 CE en relació al Congrés dels Diputats) i exerceixen les seves funcions mitjançant un sistema de **representació proporcional** (que no pas lineal, recordem que els escons no tenen el mateix preu en vots a totes les circumscripcions electorals) en el que **la circumscripció electoral sol coincidir amb la província** (tot i que hi ha indrets amb circumscripcions infraprovincials, com ara Astúries, Múrcia, Balears i Canàries).
 
@@ -280,13 +356,13 @@ La seva funció més important és la **legislativa**. Aquesta es realitza dins 
 
 La resta de funcions són la **pressupostària, l'elecció del President de la Comunitat Autònoma (d'entre els membre de l'Assemblea Legislativa), el control al President i a la resta de membres del Consell de Govern** (amb eines similars a les emprades al Congrés dels Diputats, a saber, la moció de censura i la qüestió de confiança), **la designació dels senadors representants de la Comunitat Autònoma** en els termes de l'Art. 69.5 CE, **la iniciativa legislativa en l'àmbit estatal** segons allò establert a l'Art. 87.3 CE, **la iniciativa de la reforma constitucional, la possibilitat d'interposar recurs d'inconstitucionalitat davant el TC** en els termes previstos a l'Art. 162 CE i, per últim, les **funcions en relació amb el Dret Comunitari**.
 
-#### Els òrgans executius
+### 8.3.2.2 Els òrgans executius <a id="8-3-2-2-els-organs-executius"></a>
 
 L'Art. 155 CE contempla l'existència d'un **President de la Comunitat Autònoma**, mentre que els Art. 69.5 i 162.1 CE es refereixen respectivament als òrgans col·legiats superiors i òrgans col·legiats executius, en referència als **Consells de Govern** que esmenta l'Art. 152 CE.
 
 Pel que fa a la forma de Govern, se segueix un mimetisme amb la forma estatal amb poques peculiaritats.
 
-##### EL PRESIDENT
+#### A) EL PRESIDENT <a id="a-el-president"></a>
 
 La figura del President de la Comunitat Autònoma té un **triple caràcter:**
 
@@ -305,7 +381,7 @@ Pel que fa a les seves **funcions**:
 
 La **responsabilitat penal i civil** del President podrà ser exigida davant el **Tribunal Superior de Justícia de la respectiva Comunitat Autònoma**.
 
-##### EL CONSELL DE GOVERN
+#### B) EL CONSELL DE GOVERN <a id="b-el-consell-de-govern"></a>
 
 **És** **l'òrgan col·legiat superior executiu de la Comunitat Autònoma. Està format pel President del Govern autonòmic (que presideix el Consell de Govern) i els diferents Consellers.** **Depèn del President del Govern Autonòmic i respon políticament davant l'Assemblea Legislativa.**
 
@@ -317,7 +393,7 @@ Aquest òrgan té una **doble vessant, a saber, política-executiva i administra
 
 Alguns EAs es refereixen, dins aquest òrgan, a la figura del **vicepresident i vicepresidents** (i en alguns casos també s'exigeix que ostenti la condició de parlamentari autonòmic) o del **Conseller en Cap. Altres EAs** (com el nostre, per exemple) parlen de la **possibilitat de delegar determinades funcions** en els consellers.
 
-#### L'Administració de les Comunitats Autònomes
+### 8.3.2.3 L'Administració de les Comunitats Autònomes <a id="8-3-2-3-l-administracio-de-les-comunitats-autonomes"></a>
 
 **La CE no fa una regulació expressa de l'Administració de les Comunitats Autònomes**, malgrat que l'Art. 154 CE en fa esment (tot afirmant que **haurà d'estar coordinada amb l'Administració de l'Estat, a través de la figura del Delegat del Govern a la Comunitat Autònoma**). L'Administració autonòmica està intrínsecament relacionada amb l'existència de l'Administració perifèrica de l'Estat a les Comunitats Autònomes.
 
@@ -358,7 +434,7 @@ Les reclamacions per responsabilitat patrimonial de les Administracions Públiqu
   - **Proposar al Ministeri d'Hisenda i Administracions Públiques mesures a incloure en els plans de recursos humans de l'Administració General de l'Estat.**
   - **Informar les mesures d'optimització dels recursos humans i materials en els seu àmbit territorial**, especialment les que afectin a més d'un Departament. En particular, correspon als Delegats del Govern, en els termes establerts a la L33/2003, de 3 de novembre, del Patrimoni de les Administracions Públiques, la coordinació de la utilització dels edificis d'ús administratiu per l'organització territorial de l'Administració General de l'Estat i dels Organismes Públics que en depenguin en llur àmbit territorial, d'acord amb les directrius establertes pel Ministeri d'Hisenda i Administracions Públiques i la Direcció General del Patrimoni de l'Estat.
 
-#### Els òrgans judicials
+### 8.3.2.4 Els òrgans judicials <a id="8-3-2-4-els-organs-judicials"></a>
 
 En principi cal afirmar que **no existeixen òrgans judicials propis de les Comunitats Autònomes, doncs el poder judicial és únic per a tot el territori de l'Estat** (és per això que diversos Art. d'EAs, com ara el català, han estat declarats inconstitucionals pel TC, per un intent de territorialització del poder judicial). Però això no vol dir que les Comunitats Autònomes no puguin assumir competències en aquesta matèria. Sí hi ha una important funció competencial de les Comunitats Autònomes en mitjans personals i materials, administració penitenciària, protecció i tutela de menors, informatització i formalització lingüística, policia judicial, etc. Però en cap cas assumeix la Comunitat Autònoma competències judicials.
 
@@ -366,7 +442,7 @@ En principi cal afirmar que **no existeixen òrgans judicials propis de les Comu
 
 **Els TSJ s'estructuren en 3 sales: una civil i penal, una altra contenciosa-administrativa i una tercera social. Els assumptes dels que coneix cada sala estan especificats, respectivament, als Art. 73, 74 i 75 LOPJ**.
 
-#### Altres institucions autonòmiques
+### 8.3.2.5 Altres institucions autonòmiques <a id="8-3-2-5-altres-institucions-autonomiques"></a>
 
 Els EAs preveuen, juntament amb les institucions bàsiques d'autogovern, **altres òrgans que es podrien qualificar com de "rellevància estatutària"** (malgrat que en algunes Comunitats Autònomes puguin estar regulats extraestatutàriament, mitjançant lleis autonòmiques).
 
@@ -377,19 +453,19 @@ D'aquestes institucions poden destacar-se **dues notes característiques**:
 
 Passem ara a comentar els trets bàsics característics de 3 d'elles, a saber, **el Defensor del Poble autonòmic, el Tribunal de Comptes autonòmic i els Consells de Justícia**, si bé n'hi pot haver molts més, com ara els Consells Jurídics Consultius (en el cas català, el Consell de Garanties Estatutàries, que serà objecte d'estudi en un altre tema), les Acadèmies de la Llengua, els Consells de l'Audiovisual, les Comissions Arbitrals, els Consells de Cultura, les Agències Autonòmiques de Protecció de Dades, els Consells de Cooperació Local, els Consells de l'Aigua, etc.
 
-##### DEFENSOR DEL POBLE AUTONÒMIC
+#### A) DEFENSOR DEL POBLE AUTONÒMIC <a id="a-defensor-del-poble-autonomic"></a>
 
 És una figura que es repeteix a moltes Comunitats Autònomes, amb noms diversos (Ararteko al País Basc, Diputat del Comú a Canàries, Síndic de Greuges a Catalunya, etc.). **És una figura que imita al Defensor del Poble estatal** (el qual és objecte d'estudi en un dels temes del bloc de Dret Constitucional). La L36/1985 regula les relacions entre el Defensor del Poble estatal i les figures similars de les diferents Comunitats Autònomes.
 
-##### TRIBUNAL DE COMPTES AUTONÒMIC
+#### B) TRIBUNAL DE COMPTES AUTONÒMIC <a id="b-tribunal-de-comptes-autonomic"></a>
 
 **És també similar al Tribunal de Comptes estatal (òrgan fiscalitzador dels comptes de les Administracions Públiques)** i també existeix a diverses Comunitats Autònomes (a Catalunya rep el nom de Sindicatura de Comptes). La L7/88 estableix que les institucions equivalents de les Comunitats Autònomes actuaran en coordinació amb el Tribunal de Comptes estatal. Aquest també els hi podrà requerir actuacions concretes.
 
-##### ELS CONSELLS DE JUSTÍCIA
+#### C) ELS CONSELLS DE JUSTÍCIA <a id="c-els-consells-de-justicia"></a>
 
 Són òrgans col·legiats del poder judicial a les Comunitats Autònomes i actuen desconcentradament respecte del CGPJ, sens perjudici de les competències d'aquest. Han d'estar previstos als EAs (com és el cas català, malgrat que molts dels Art. que el regulaven van ser declarats inconstitucionals per la STC 31/2010).
 
-## El control dels òrgans
+## 8.3.3 El control dels òrgans <a id="8-3-3-el-control-dels-organs"></a>
 
 Quan parlem de control dels òrgans de les Comunitats Autònomes ho fem des d'una doble perspectiva. Per una banda, l'Art. 153 CE estableix que **el control de l'activitat dels òrgans de les Comunitats Autònomes s'exercirà:**
 
@@ -410,9 +486,9 @@ Malgrat que l'Art. 155 CE manca d'una referència expressa a la **possibilitat d
 
 Aquest control és excepcional i ha d'aplicar-se quan es produeixin els supòsits establerts a l'Art. 155 CE, doncs **per a altres tipus de circumstàncies el Govern pot acudir a la via de l'Art. 161.2 CE que li atribueix el dret de vet temporal sobre les disposicions i resolucions dels òrgans de la Comunitat Autònoma**. Aquesta suspensió haurà de ser ratificada o aixecada pel TC en un termini no superior a 5 mesos.
 
-# LES COMPETÈNCIES DE LES COMUNITATS AUTÒNOMES
+# 8.4 LES COMPETÈNCIES DE LES COMUNITATS AUTÒNOMES <a id="8-4-les-competencies-de-les-comunitats-autonomes"></a>
 
-## Trets generals
+## 8.4.1 Trets generals <a id="8-4-1-trets-generals"></a>
 
 Ens centrarem en l'estudi dels Art. 148, 149 i 150 CE així com en la delimitació competencial efectuada pels EAs, que permeten establir com a **caràcters generals del sistema**:
 
@@ -422,9 +498,9 @@ Ens centrarem en l'estudi dels Art. 148, 149 i 150 CE així com en la delimitaci
 
 També podem destacar un seguit de **deficiències tècniques i imprecisions conceptuals**, **com ara l'acumulació de títols competencials en favor de l'Estat** que impedeix a les Comunitats Autònomes l'assumpció plena d'àmbits materials concrets i l'elaboració de polítiques públiques pròpies, i d'altres que ara no caldria esmentar.
 
-## El repartiment de competències
+## 8.4.2 El repartiment de competències <a id="8-4-2-el-repartiment-de-competencies"></a>
 
-#### Els conceptes de matèria i competència
+### 8.4.2.1 Els conceptes de matèria i competència <a id="8-4-2-1-els-conceptes-de-materia-i-competencia"></a>
 
 Espanya és, com hem dit anteriorment, un Estat d'autonomies, és a dir, amb un cert grau de descentralització. Els òrgans estatals i els autonòmics han de participar en l'exercici de la potestat normativa i per a això cal un repartiment de competències que esgoti i comprengui el camp sencer de la normació.
 
@@ -445,7 +521,7 @@ El cert és que la doctrina jurídica mateixa no s'acaba de posar d'acord en la 
 
 Una altra distinció doctrinal és aquella que divideix les competències exclusives entre **absolutes i relatives**. Les competències exclusives absolutes són aquelles sobre les que, per correspondre a la pròpia essència de l'Estat, les Comunitats Autònomes no poden assumir cap tipus de competència, ni tan sols per via extraestatutària (Art. 150 CE). Les competències exclusives relatives són aquelles que, malgrat que també s'atribueixen a l'Estat, són susceptibles d'algun tipus de participació, estatutàriament o extraestatutària, per part de les Comunitats Autònomes, doncs no s'afecta la pròpia essència de l'Estat.
 
-#### Les diferents tècniques de repartiment competencial
+### 8.4.2.2 Les diferents tècniques de repartiment competencial <a id="8-4-2-2-les-diferents-tecniques-de-repartiment-competencial"></a>
 
 Com ja hem comentat en més d'una ocasió, l'Art. 148 CE estableix les possibles competències de les Comunitats Autònomes, mentre que l'Art. 149 CE enumera les matèries sobre les quals s'estén la competència exclusiva de l'Estat. Per últim, per motiu de que poden existir (i existeixen) matèries no compreses en cap de les dues llistes, l'Art. 149.3 CE conté una clàusula residual per establir-ne la titularitat, tot indicant que les matèries no atribuïdes expressament a l'Estat per la CE podran correspondre a les Comunitats Autònomes si així s'estableix pels EAs (en cas que no siguin assumides pels EAs, correspondran a l'Estat).
 
@@ -453,7 +529,7 @@ Aquest sistema de doble llista no és pas un sistema de repartiment de competèn
 
 Per últim, cal que no perdem de vista l'Art. 150 CE segons els qual les competències de l'Estat podran ser atribuïdes, transferides o delegades a les Comunitats Autònomes.
 
-##### COMPETÈNCIES MÍNIMES
+#### A) COMPETÈNCIES MÍNIMES <a id="a-competencies-minimes"></a>
 
 **Són les recollides a l'Art. 148.1 CE**, on s'estableix una llista de **matèries sobre les que les Comunitats Autònomes podran assumir competències**. Les Comunitats Autònomes no tenen perquè assumir en bloc totes les competències sobre les matèries enumerades. **La majoria de les competències que les Comunitats Autònomes han assumit en virtut d'aquest Art. tenen la consideració d'exclusives**, doncs aquest primer bloc de matèries apareix concedit com el bloc competencial mínim que les Comunitats Autònomes poden assumir. Respecte les competències enumerades, **només podran considerar-se com a compartides quan aquestes matèries apareguin condicionades d'alguna manera per allò disposat a l'Art. 149.1 CE, bé perquè també apareguin enumerades en aquest precepte, bé perquè hagin de considerar-se limitades per determinats principis** tals com l'ordenació general de l'economia, la unitat del mercat nacional, etc. És a dir, les Comunitats Autònomes podran exercir competències sobre les matèries enumerades a l'Art. 148.1 CE, però això no vol dir que n'assumeixin la totalitat de la matèria en qüestió.
 
@@ -461,7 +537,7 @@ L'Art. 148.1 CE no estableix quina classe de competències han de posseir les Co
 
 Per últim l'Art. 148.2 CE estableix dos requisits per a **l'ampliació de les competències de les Comunitats Autònomes**: el transcurs de 5 anys i la reforma dels EAs. Aquesta possible ampliació fa referència a totes les competències residuals o romanents a que fa referència l'Art. 149.3 CE així com totes aquelles que permeti l'Art. 149.1 CE sense necessitat d'emprar les eines de l'Art. 150 CE.
 
-##### COMPETÈNCIES DERIVADES DE L'ART. 149.1 CE
+#### B) COMPETÈNCIES DERIVADES DE L'ART. 149.1 CE <a id="b-competencies-derivades-de-l-art-149-1-ce"></a>
 
 L'Art. 149.1 CE estableix la segona llista de matèries, **les de competència exclusiva de l'Estat**. Però aquesta és una llista molt heterogènia ja que, malgrat que pugui costar una mica entendre-ho, **no totes les matèries enumerades corresponen a la competència exclusiva de l'Estat, sinó també a la competència de les Comunitats Autònomes**. Per tant, l'exclusivitat predicada per aquest Art. és relativa, ja que empra una sèrie de tècniques (reserva de matèria, reserva de potestats concretes, etc.) per determinar les competències de l'Estat.
 
@@ -478,7 +554,7 @@ Per tant, el que s'ha de fer és mirar, per a cada matèria, quin és el grau de
   - Matèries concurrents amb competències legislatives exclusives estatals i competències administratives exclusives per part de les Comunitats Autònomes.
   - Competències compartides de regulació en què l'Estat se'n reserva la legislació bàsica, podent correspondre, malgrat que no es digui expressament, a les Comunitats Autònomes, el desenvolupament legislatiu de la legislació bàsica.
 
-##### COMPETÈNCIES ROMANENTS O RESIDUALS
+#### C) COMPETÈNCIES ROMANENTS O RESIDUALS <a id="c-competencies-romanents-o-residuals"></a>
 
 **Són aquelles competències susceptibles d'assumpció per part de les Comunitats Autònomes segons allò establert a l'Art. 149.3 CE**. Aquest precepte té un doble contingut: per una banda, **la clàusula residual o de tancament** i, per l'altra, **la clàusula de prevalença del Dret estatal en tot allò que no estigui atribuït a l'exclusiva competència de les Comunitats Autònomes.**
 
@@ -488,7 +564,7 @@ L'Art. 149.3 CE no és pas una clàusula atributiva de competències per a legis
 
 A més, aquest mateix Art. 149.3 CE estableix que **el Dret estatal serà, en tot cas, supletori del Dret de les Comunitats Autònomes** (per tal de superar les possibles llacunes existents, això és, absència de regulació d'algun aspecte de la matèria). Ara bé, també cal tenir present que si una matèria ha estat assumida com a competència exclusiva per totes i cadascuna de les Comunitats Autònomes, l'Estat no podrà dictar Dret Supletori (ja que manca de títol competencial propi). La supletorietat serà predicable de les normes dictades per l'Estat en matèries de la seva competència i mai podrà produir normes jurídiques merament supletòries (és a dir, creades directament amb vocació de supletorietat) ja que suposaria una vulneració de l'ordre constitucional de competències, en les matèries en què ostenta competència compartida.
 
-##### LA NOCIÓ DE BASES
+#### D) LA NOCIÓ DE BASES <a id="d-la-nocio-de-bases"></a>
 
 Un altre dels problemes que planteja l'Art. 149.1 CE és que en el repartiment de competències que s'estableix, unes vegades es parla de legislació bàsica i altres de bases, normes bàsiques, condicions bàsiques, etc. La jurisprudència ha interpretat que el concepte de bases és més ampli que el de legislació bàsica.
 
@@ -498,7 +574,7 @@ Els EAs no poden interpretar, ni positivament ni negativa, què entra i que no e
 
 **En principi, l'instrument per fixar normativa bàsica és la llei. Tot i així, poden haver alguns aspectes en què el Govern pugui fer ús de la seva potestat reglamentària per a regular per Reial Decret, i de manera complementària, alguns dels aspectes bàsics d'una determinada matèria (i, excepcionalment, en un acte administratiu).** En aquests casos, els reglaments hauran d'indicar expressament la seva pretesa naturalesa bàsica (o que resulti així sense cap mena de dubtes de la seva pròpia estructura normativa en tant que complement indispensable de les normes bàsiques legals) de manera que no manqui de garanties formals. És a dir, hi ha la possibilitat de que les lleis de les Comunitats Autònomes, dictades en desenvolupament de la normativa bàsica estatal, estiguin jeràrquicament supeditades a un reglament estatal (i fins i tot, excepcionalment, un acte administratiu).
 
-##### ELS CONCEPTES DE LEGISLACIÓ I EXECUCIÓ
+#### E) ELS CONCEPTES DE LEGISLACIÓ I EXECUCIÓ <a id="e-els-conceptes-de-legislacio-i-execucio"></a>
 
 **Hi ha determinades matèries de l'Art. 149.1 CE respecte de les quals l'Estat té la competència exclusiva no pas de tota la matèria sinó únicament sobre l'exercici de la funció de legislar sobre la mateixa** (legislació laboral, sobre propietat intel·lectual i industrial, sobre productes farmacèutics, etc.). Aquesta atribució suposa que les Comunitats Autònomes, a través dels respectius EAs, poden assumir competències, diferents de la legislació, sobre les mateixes matèries (execució). **Respecte d'aquestes matèries**, el Tribunal Constitucional en la seva jurisprudència ha entès que **les Comunitats Autònomes estan mancades de tota potestat normativa, ni tan sols dels reglaments executius** (els que es dicten en desenvolupament de la llei) ni aquells altres actes reglamentaris que tinguin un caràcter complementari de la llei.
 
@@ -518,7 +594,7 @@ El TC ha admès **tres casos excepcionals en què l'Estat podrà incidir sobre l
 - **En cas de risc per a la seguretat pública**, per raons de seguretat i urgència, el TC admet l'activitat executiva de l'Estat (amb proporcionalitat i amb l'obligació d'entregar la qüestió seguidament a la Comunitat Autònoma).
 - **Quan les execucions hagin de realitzar-se des de criteris o valoracions nacionals,** l'Estat serà l'únic que pot decidir.
 
-##### LA PLURALITAT dE TÍTOLS COMPETENCIALS I ELS ANOMENATS TÍTOLS COMPETENCIALS HORITZONTALS
+#### F) LA PLURALITAT dE TÍTOLS COMPETENCIALS I ELS ANOMENATS TÍTOLS COMPETENCIALS HORITZONTALS <a id="f-la-pluralitat-de-titols-competencials-i-els-anomenats-titols-competencials-horitzontals"></a>
 
 Tal i com hem assenyalat anteriorment, el repartiment competencial a la CE es realitza a través dels Art. 148 i 149 CE. Però cal tenir present altres aspectes que també afecten a aquest repartiment. Per exemple, analitzant els casos del **País Basc i Navarra en relació amb la Disp. Add. 1a CE**, s'aprecia que aquesta disposició reconeix un **règim foral**, la qual cosa no vol dir que es garanteixin tots i cadascun dels drets històrics que l'hagin caracteritzat. Els drets històrics obtenen i conserven la seva validesa i vigència, no en virtut de la seva legitimació històrica sinó per allò disposat a la pròpia Disp. Add. 1a CE. Aquests règims forals han d'estar recollits als corresponents EAs, i aquests, al seu torn, han d'acomodar-se al nou ordre territorial.
 
@@ -534,7 +610,7 @@ També hem d'analitzar la figura dels **"interessos generals" com a factor de de
 
 Per últim, pel que fa als **drets històrics de territoris que no estan a l'empara de la Disp. Add. 1a CE** (la qual només fa referència a Àlava, Biscaia, Guipúscoa i Navarra), aquests **no constitueixen pas un títol competencial propi. No són font de legitimitat alternativa o pròpia a la CE** ja que, com ja hem assenyalat, la CE no és el resultat d'un pacte entre instàncies territorials històriques que conservin drets anteriors i superiors a ella, sinó una norma del poder constituent que s'imposa amb força vinculant general en el seu àmbit.
 
-## El repartiment estatutari de competències
+## 8.4.3 El repartiment estatutari de competències <a id="8-4-3-el-repartiment-estatutari-de-competencies"></a>
 
 **Els EAs són la norma ordinària (encara que no la única) de delimitació competencial entre l'Estat i les Comunitats Autònomes**, i aquest és un dels motius pel qual formen part del bloc de constitucionalitat (són un dels paràmetres a tenir en compte per a apreciar la constitucionalitat de la resta de lleis).
 
@@ -550,9 +626,9 @@ Dins del respecte a les matèries i competències que l'Art. 149 CE estableix co
 
 Com ja sabem, l'EAC, amb la seva reforma del 2006 va ser objecte de la STC 31/2010 en la qual el TC realitza un seguit d'argumentacions per a declarar inconstitucionals determinats preceptes que feien referència al repartiment competencial, els quals arguments podríem resumir en l'establiment de la següent línia vermella infranquejable: **els EAs no poden condicionar les competències estatals, doncs el legislador estatal té plena llibertat de configuració normativa.**
 
-## L'assumpció extraestatutària de competències
+## 8.4.4 L'assumpció extraestatutària de competències <a id="8-4-4-l-assumpcio-extraestatutaria-de-competencies"></a>
 
-#### El sistema de lleis marc (Art. 150.1 CE)
+### 8.4.4.1 El sistema de lleis marc (Art. 150.1 CE) <a id="8-4-4-1-el-sistema-de-lleis-marc-art-150-1-ce"></a>
 
 Ens remetem al TEMA 05. Com a coses a afegir o recordar, assenyalem el següent.
 
@@ -570,7 +646,7 @@ Les llei marc poden fer referència a qualsevol competència de l'Art. 149.1 CE 
 
 **Per últim, hem de tenir present que les Corts Generals podran recuperar, mitjançant el mateix procediment, les competències atribuïdes per llei marc.**
 
-#### El sistema de lleis d'harmonització (Art. 150.3 CE)
+### 8.4.4.2 El sistema de lleis d'harmonització (Art. 150.3 CE) <a id="8-4-4-2-el-sistema-de-lleis-d-harmonitzacio-art-150-3-ce"></a>
 
 Ens remetem al TEMA 05. Com a coses a afegir o recordar, assenyalem el següent.
 
@@ -587,7 +663,7 @@ A l'igual que les lleis marc, també **formen part del bloc de constitucionalita
 
 **Mitjançant una llei d'harmonització no es pot modificar el contingut d'un EA, sinó únicament les disposicions normatives de les Comunitats Autònomes.**
 
-#### El sistema de lleis de transferència i delegació (Art. 150.2 CE)
+### 8.4.4.3 El sistema de lleis de transferència i delegació (Art. 150.2 CE) <a id="8-4-4-3-el-sistema-de-lleis-de-transferencia-i-delegacio-art-150-2-ce"></a>
 
 Ens remetem al TEMA 05. Com a coses a afegir o recordar, assenyalem el següent.
 
@@ -601,14 +677,14 @@ Un cop més, aquestes lleis orgàniques de transferència i delegació **formen 
 
 Les competències transferides o delegades han de ser corresponents a matèries de titularitat estatal. El problema sorgeix a l'hora d'interpretar què vol dir la CE quan apunta que aquestes hauran de ser, per la seva pròpia naturalesa, susceptibles de transferència o delegació, ja que dona a entendre, doncs, que hi haurà que sí es poden transferir/delegar, i d'altres que no.
 
-## Les relacions d'integració entre els ordenaments estatal i autonòmic
+## 8.4.5 Les relacions d'integració entre els ordenaments estatal i autonòmic <a id="8-4-5-les-relacions-d-integracio-entre-els-ordenaments-estatal-i-autonomic"></a>
 
-#### La clàusula de prevalença del Dret Estatal
+### 8.4.5.1 La clàusula de prevalença del Dret Estatal <a id="8-4-5-1-la-clausula-de-prevalenca-del-dret-estatal"></a>
 
 Aquesta clàusula es troba recollida a l'Art. 149.3 CE i afirma que **el Dret de l'Estat espanyol preval sobre el de les regions autònomes en tot allò que no estigui atribuït a l'exclusiva competència d'aquestes en el seu respectiu estatut**.
 
 Aquesta norma de prevalença no és sempre automàtica ja que també depèn en part de quina norma (estatal o autonòmica) sigui anterior, etc. En alguns casos, el jutges i tribunals, davant una contradicció, no podran aplicar directament la regla de prevalença i hauran d'anar al TC mitjançant la qüestió d'inconstitucionalitat recollit a l'Art. 163 CE. **En cap cas es pot entendre la clàusula de prevalença com una regla privilegiada en favor de l'Estat, que empari les possible vulneracions del sistema de distribució competencial configurat per la CE i els EAs.**
 
-#### El principi de supletorietat
+### 8.4.5.2 El principi de supletorietat <a id="8-4-5-2-el-principi-de-supletorietat"></a>
 
 Aquest principi també ve recollit a l'Art. 149.3 CE i afirma que **el Dret Estatal serà, en tot cas, supletori del Dret de les Comunitats Autònomes.** Ara bé, tal i com hem comentat anteriorment en aquest tema, l'Estat ha de tenir qualsevol tipus de títol competencial propi per tal de crear Dret (no ho pot fer amb la única finalitat de que actuï supletòriament sobre matèries que hagin estat assumides de manera exclusiva per totes i cadascuna de les Comunitats Autònomes).
