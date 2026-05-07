@@ -25,6 +25,33 @@
     body { font-family: system-ui, sans-serif; background: #0b1020; color: #e7ecff; margin: 0; padding: 0; }
     .center { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; }
     .msg { font-size: 1.3rem; color: #6ae0a7; margin: 40px 0 18px 0; letter-spacing: 0.5px; }
+    .filter-wrap {
+      width: 90vw;
+      max-width: 700px;
+      margin: 10px 0 8px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .filter-wrap label {
+      color: #9fb0ff;
+      font-size: 0.98rem;
+    }
+    #temaFilterInput {
+      width: 100%;
+      box-sizing: border-box;
+      background: #141a2a;
+      color: #e7ecff;
+      border: 1.5px solid #27304a;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 1rem;
+      outline: none;
+    }
+    #temaFilterInput:focus {
+      border-color: #6ae0a7;
+      box-shadow: 0 0 0 2px #6ae0a744;
+    }
     .logbox {
       width: 90vw; max-width: 700px; min-height: 320px; background: #141a2a; color: #e7ecff;
       border: 1.5px solid #27304a; border-radius: 10px; font-family: monospace; font-size: 1.05rem;
@@ -71,6 +98,10 @@
 
   <h1>👨‍💻 Selecció fitxers</h1>
   <div class="center">
+    <div class="filter-wrap">
+      <label for="temaFilterInput">Filtrar per tema (subjectid, ex: T03 o T03 T04)</label>
+      <input id="temaFilterInput" type="text" placeholder="Exemple: T03 T04 o T03,T04" maxlength="120" autocomplete="off">
+    </div>
     <div class="logbox" id="logbox"></div>
     <button id="comencarBtn" disabled>començar!</button>
     <button id="tornarBtn">⬅️ Tornar</button>
@@ -254,6 +285,12 @@
       // Borrar estado anterior de estudio
       if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
 
+      const temaFilterInput = document.getElementById('temaFilterInput');
+      const temaFilterRaw = (temaFilterInput && temaFilterInput.value ? temaFilterInput.value : '').trim().toUpperCase();
+      const temaFilters = temaFilterRaw
+        ? [...new Set(temaFilterRaw.replace(/[^A-Z0-9]+/g, ' ').split(/\s+/).map(t => t.trim()).filter(Boolean))]
+        : [];
+
       // Leer ficheros seleccionados y concatenar preguntas
       let fitxers = [];
       try {
@@ -313,6 +350,13 @@
             // Filtrar por origen si está definido y no nulo
             if (origen) {
               preguntas = preguntas.filter(q => (q.origin || '') === origen);
+            }
+            // Filtrar por tema (subjectid) admitiendo múltiples valores separados por espacios o comas
+            if (temaFilters.length > 0) {
+              preguntas = preguntas.filter(q => {
+                const subjectValue = (q.subjectId || q.subjectid || q.subjectID || '').toString().trim().toUpperCase();
+                return temaFilters.includes(subjectValue);
+              });
             }
             preguntesTot = preguntesTot.concat(preguntas);
             filesLoaded++;
