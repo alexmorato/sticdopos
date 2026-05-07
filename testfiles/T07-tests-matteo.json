@@ -1,0 +1,622 @@
+[
+{
+"guid": "2c7a4776-04bd-4d50-9f1d-1c6e6e4b5d01",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "D’acord amb la Llei 40/2015, l’Administració General de l’Estat comprèn:",
+"answerOptions": [
+{
+"text": "L’organització central, l’organització territorial i l’Administració General de l’Estat a l’exterior.",
+"isCorrect": true,
+"rationale": "És correcte. L’AGE s’estructura en organització central, territorial i exterior."
+},
+{
+"text": "Només els ministeris i les delegacions del Govern.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè redueix l’AGE a només alguns òrgans i omet l’organització exterior i altres elements."
+},
+{
+"text": "L’organització central, les comunitats autònomes i l’administració local.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè les comunitats autònomes i l’administració local no formen part de l’Administració General de l’Estat."
+},
+{
+"text": "Els ministeris, les Corts Generals i el Tribunal de Comptes.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè les Corts Generals i el Tribunal de Comptes no formen part de l’AGE."
+}
+],
+"hint": "Recorda la triple estructura de l’AGE: central, territorial i exterior."
+},
+{
+"guid": "3d0a8853-cfcb-4bb2-9f04-037fdf902204",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "L’organització central de l’Administració General de l’Estat integra:",
+"answerOptions": [
+{
+"text": "Els ministeris i els serveis comuns.",
+"isCorrect": true,
+"rationale": "És correcte. L’organització central de l’AGE s’estructura bàsicament en ministeris i serveis comuns."
+},
+{
+"text": "Les delegacions i subdelegacions del Govern.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè les delegacions i subdelegacions formen part de l’organització territorial."
+},
+{
+"text": "Els organismes públics i les societats mercantils estatals.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè aquests formen part del sector públic institucional, no de l’organització central estricta de l’AGE."
+},
+{
+"text": "Les comunitats autònomes i les entitats locals.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè són administracions territorials diferents de l’Estat."
+}
+],
+"hint": "No confonguis organització central amb organització territorial."
+},
+{
+"guid": "4b354cf4-4c34-4260-95b5-e259ad860f56",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Són òrgans superiors de l’organització central de l’AGE:",
+"answerOptions": [
+{
+"text": "Els ministres i els secretaris d’Estat.",
+"isCorrect": true,
+"rationale": "És correcte. La Llei 40/2015 considera òrgans superiors els ministres i els secretaris d’Estat."
+},
+{
+"text": "Els subsecretaris i els directors generals.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè aquests són òrgans directius, no òrgans superiors."
+},
+{
+"text": "Els subdelegats del Govern i els directors insulars.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè pertanyen a l’organització territorial i no són òrgans superiors de l’organització central."
+},
+{
+"text": "Els ministres, subsecretaris i subdirectors generals.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè barreja òrgans superiors amb òrgans directius."
+}
+],
+"hint": "Els òrgans superiors són els de direcció política més alta dins dels ministeris."
+},
+{
+"guid": "e87d4517-3b61-41c6-82cf-7172f58640ae",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Quin dels següents és un òrgan directiu de l’organització central de l’AGE?",
+"answerOptions": [
+{
+"text": "El ministre.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el ministre és un òrgan superior."
+},
+{
+"text": "El secretari d’Estat.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el secretari d’Estat és un òrgan superior."
+},
+{
+"text": "El subsecretari.",
+"isCorrect": true,
+"rationale": "És correcte. Els subsecretaris tenen la consideració d’òrgans directius."
+},
+{
+"text": "El president del Govern.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el president del Govern forma part del Govern, no és un òrgan directiu de l’organització central de l’AGE."
+}
+],
+"hint": "Els subsecretaris, secretaris generals, secretaris generals tècnics i directors generals són òrgans directius."
+},
+{
+"guid": "791ba090-4b86-45aa-98d7-71678707a1e0",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Els subdirectors generals tenen la consideració de:",
+"answerOptions": [
+{
+"text": "Òrgans superiors.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els òrgans superiors són els ministres i secretaris d’Estat."
+},
+{
+"text": "Òrgans directius.",
+"isCorrect": true,
+"rationale": "És correcte. Els subdirectors generals tenen la consideració d’òrgans directius."
+},
+{
+"text": "Òrgans constitucionals.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè no són òrgans previstos com a òrgans constitucionals."
+},
+{
+"text": "Òrgans consultius independents.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els subdirectors generals formen part de l’estructura administrativa jeràrquica."
+}
+],
+"hint": "Tot i estar per sota dels directors generals, continuen dins la categoria d’òrgans directius."
+},
+{
+"guid": "b48d88ad-c4f1-4f75-92ff-a69e3a0fc786",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "En l’organització territorial de l’AGE, els Delegats del Govern a les comunitats autònomes tenen rang de:",
+"answerOptions": [
+{
+"text": "Director general.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè aquest nivell correspon a altres òrgans directius, però no als Delegats del Govern."
+},
+{
+"text": "Subdirector general.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè aquest nivell és inferior al rang atribuït als Delegats del Govern."
+},
+{
+"text": "Subsecretari.",
+"isCorrect": true,
+"rationale": "És correcte. Els Delegats del Govern tenen rang de subsecretari."
+},
+{
+"text": "Secretari d’Estat.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els Delegats del Govern no tenen rang de secretari d’Estat."
+}
+],
+"hint": "El rang dels Delegats del Govern és superior al dels Subdelegats."
+},
+{
+"guid": "d64c30fe-6edc-41e7-836a-b94194f692b2",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Els Subdelegats del Govern a les províncies tenen nivell de:",
+"answerOptions": [
+{
+"text": "Ministre.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el ministre és un òrgan superior de l’organització central."
+},
+{
+"text": "Secretari d’Estat.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el nivell de secretari d’Estat és superior i no correspon als Subdelegats del Govern."
+},
+{
+"text": "Director general.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els Subdelegats del Govern no tenen nivell de director general."
+},
+{
+"text": "Subdirector general.",
+"isCorrect": true,
+"rationale": "És correcte. Els Subdelegats del Govern tenen nivell de subdirector general."
+}
+],
+"hint": "Delegat del Govern: subsecretari. Subdelegat del Govern: subdirector general."
+},
+{
+"guid": "8dded798-45f3-4a97-8221-3d1d89ad86be",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "L’organització de l’Administració General de l’Estat respon, entre altres, al principi de:",
+"answerOptions": [
+{
+"text": "Divisió funcional en departaments ministerials.",
+"isCorrect": true,
+"rationale": "És correcte. L’AGE s’organitza funcionalment en departaments ministerials."
+},
+{
+"text": "Separació absoluta respecte del Govern.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè l’AGE actua sota la direcció del Govern."
+},
+{
+"text": "Dependència orgànica de les comunitats autònomes.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè l’AGE depèn de l’Estat, no de les comunitats autònomes."
+},
+{
+"text": "Elecció directa dels seus òrgans directius.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els òrgans directius no són elegits per sufragi directe."
+}
+],
+"hint": "Pensa en com s’estructura l’administració central: ministeris i àrees funcionals."
+},
+{
+"guid": "4609c882-dbd5-456e-a5a9-388dbd64f4bd",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "La gestió territorial integrada de l’AGE es duu a terme principalment a través de:",
+"answerOptions": [
+{
+"text": "Els ajuntaments.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els ajuntaments formen part de l’administració local, no de l’AGE."
+},
+{
+"text": "Les Delegacions del Govern a les comunitats autònomes.",
+"isCorrect": true,
+"rationale": "És correcte. Les Delegacions del Govern són els òrgans bàsics de l’organització territorial estatal a les comunitats autònomes."
+},
+{
+"text": "Els parlaments autonòmics.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els parlaments autonòmics són òrgans legislatius de les comunitats autònomes."
+},
+{
+"text": "Les diputacions provincials.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè les diputacions formen part de l’administració local provincial."
+}
+],
+"hint": "A cada comunitat autònoma hi ha una Delegació del Govern."
+},
+{
+"guid": "d2cb0d9a-1ba6-49d0-b123-0ec9964717e8",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Els òrgans superiors de l’AGE tenen com a funció principal:",
+"answerOptions": [
+{
+"text": "Establir els plans d’actuació de l’organització sota la seva responsabilitat.",
+"isCorrect": true,
+"rationale": "És correcte. Els òrgans superiors dirigeixen i fixen els plans d’actuació."
+},
+{
+"text": "Executar exclusivament resolucions judicials.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè aquesta no és la funció principal dels òrgans superiors."
+},
+{
+"text": "Fiscalitzar els pressupostos generals de l’Estat.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè aquesta funció correspon a òrgans de control com el Tribunal de Comptes, no als òrgans superiors de l’AGE."
+},
+{
+"text": "Substituir els òrgans de les comunitats autònomes.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè l’AGE no substitueix ordinàriament els òrgans autonòmics."
+}
+],
+"hint": "Els òrgans superiors dirigeixen; els directius executen."
+},
+{
+"guid": "8b56a225-5e46-4144-bc2c-45194e003690",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Els òrgans directius de l’AGE tenen com a funció principal:",
+"answerOptions": [
+{
+"text": "Elaborar lleis orgàniques.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè l’elaboració i aprovació de lleis orgàniques correspon a les Corts Generals."
+},
+{
+"text": "Desenvolupar i executar els plans d’actuació fixats pels òrgans superiors.",
+"isCorrect": true,
+"rationale": "És correcte. Els òrgans directius desenvolupen i executen les directrius establertes pels òrgans superiors."
+},
+{
+"text": "Aprovar els pressupostos generals de l’Estat.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè l’aprovació dels pressupostos generals de l’Estat correspon a les Corts Generals."
+},
+{
+"text": "Nomenar el president del Govern.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el nomenament del president del Govern correspon al Rei, d’acord amb el procediment constitucional."
+}
+],
+"hint": "La clau és diferenciar direcció política i execució administrativa."
+},
+{
+"guid": "7056da6d-53e3-48cf-ac79-c6c89eeefb2a",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Tenen la condició d’alt càrrec els òrgans superiors i directius de l’AGE, excepte:",
+"answerOptions": [
+{
+"text": "Els ministres.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els ministres sí que tenen la condició d’alt càrrec."
+},
+{
+"text": "Els secretaris d’Estat.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els secretaris d’Estat sí que tenen la condició d’alt càrrec."
+},
+{
+"text": "Els directors generals.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els directors generals tenen la condició d’òrgan directiu i alt càrrec."
+},
+{
+"text": "Els subdirectors generals i assimilats.",
+"isCorrect": true,
+"rationale": "És correcte. Els subdirectors generals i assimilats no tenen la condició d’alt càrrec."
+}
+],
+"hint": "És una excepció típica de test."
+},
+{
+"guid": "499333cd-dfd3-43c8-8588-31a84dca06d6",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Els Delegats del Govern a les comunitats autònomes són:",
+"answerOptions": [
+{
+"text": "Representants ordinaris de la comunitat autònoma davant l’Estat.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè representen el Govern de l’Estat en el territori de la comunitat autònoma, no la comunitat autònoma davant l’Estat."
+},
+{
+"text": "Titulars de les corresponents Delegacions del Govern.",
+"isCorrect": true,
+"rationale": "És correcte. Els Delegats del Govern són titulars de les Delegacions del Govern."
+},
+{
+"text": "Òrgans dependents dels parlaments autonòmics.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè depenen de l’Administració General de l’Estat."
+},
+{
+"text": "Membres obligatoris dels governs autonòmics.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè no formen part dels governs autonòmics."
+}
+],
+"hint": "El Delegat del Govern representa l’Estat en la comunitat autònoma."
+},
+{
+"guid": "06ef9d55-119b-4755-a1ee-97a405248195",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Una competència dels Delegats del Govern és:",
+"answerOptions": [
+{
+"text": "Nomenar el president de la comunitat autònoma.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el president de la comunitat autònoma és nomenat segons el procediment previst a l’Estatut i la normativa autonòmica."
+},
+{
+"text": "Impulsar, coordinar i supervisar l’activitat de l’AGE i dels seus organismes públics en el territori de la comunitat autònoma.",
+"isCorrect": true,
+"rationale": "És correcte. Aquesta és una funció característica dels Delegats del Govern."
+},
+{
+"text": "Aprovar les lleis autonòmiques.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè les lleis autonòmiques les aproven els parlaments autonòmics."
+},
+{
+"text": "Resoldre tots els recursos contra actes dels ajuntaments.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els Delegats del Govern no tenen una competència general per resoldre tots els recursos contra actes locals."
+}
+],
+"hint": "El Delegat coordina l’AGE dins del territori autonòmic."
+},
+{
+"guid": "b6a5df46-fb81-4f4e-9ca6-e6abdcff1aa1",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Els Delegats del Govern poden nomenar:",
+"answerOptions": [
+{
+"text": "Els ministres.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els ministres són nomenats pel Rei a proposta del president del Govern."
+},
+{
+"text": "Els secretaris d’Estat.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els secretaris d’Estat no són nomenats pels Delegats del Govern."
+},
+{
+"text": "Els subdelegats del Govern a les províncies del seu àmbit d’actuació.",
+"isCorrect": true,
+"rationale": "És correcte. Els Subdelegats del Govern són nomenats pel Delegat del Govern corresponent."
+},
+{
+"text": "Els presidents dels tribunals superiors de justícia.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els presidents dels tribunals superiors de justícia pertanyen a l’àmbit judicial."
+}
+],
+"hint": "El Delegat del Govern té una funció clau respecte dels Subdelegats del Govern."
+},
+{
+"guid": "a742acdf-02b0-4117-b6cf-cda919d9f650",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "En les comunitats autònomes uniprovincials:",
+"answerOptions": [
+{
+"text": "Mai pot existir Delegació del Govern.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè també hi ha Delegació del Govern a les comunitats autònomes uniprovincials."
+},
+{
+"text": "Pot no existir Subdelegació del Govern, llevat que sigui creada reglamentàriament.",
+"isCorrect": true,
+"rationale": "És correcte. En les comunitats autònomes uniprovincials, amb caràcter general, no hi ha Subdelegació del Govern, tret que es creï reglamentàriament."
+},
+{
+"text": "Sempre hi ha dues Subdelegacions del Govern.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè en una comunitat uniprovincial no hi ha diverses províncies que justifiquin dues subdelegacions."
+},
+{
+"text": "La Delegació del Govern depèn orgànicament de l’ajuntament de la capital.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè la Delegació del Govern depèn de l’Administració General de l’Estat."
+}
+],
+"hint": "La Subdelegació del Govern està vinculada a l’àmbit provincial."
+},
+{
+"guid": "8ff7af2c-579e-46b1-89f8-436b9d85efc8",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "L’Administració General de l’Estat a l’exterior inclou com a òrgans directius:",
+"answerOptions": [
+{
+"text": "Els alcaldes dels municipis estrangers amb presència espanyola.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els alcaldes estrangers no formen part de l’AGE."
+},
+{
+"text": "Els ambaixadors i representants permanents davant organitzacions internacionals.",
+"isCorrect": true,
+"rationale": "És correcte. Els ambaixadors i representants permanents són òrgans directius de l’AGE a l’exterior."
+},
+{
+"text": "Els cònsols honoraris únicament.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè l’AGE a l’exterior no es redueix als cònsols honoraris."
+},
+{
+"text": "Els presidents de les comunitats autònomes a l’exterior.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els presidents autonòmics no són òrgans de l’AGE a l’exterior."
+}
+],
+"hint": "Pensa en representació diplomàtica de l’Estat."
+},
+{
+"guid": "a48d37a8-e643-4f7c-b0bb-2070ea74e595",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Els ministeris són creats, modificats i suprimits per:",
+"answerOptions": [
+{
+"text": "Llei orgànica aprovada per les Corts Generals.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè la creació, modificació i supressió dels ministeris no exigeix llei orgànica."
+},
+{
+"text": "Reial decret del president del Govern.",
+"isCorrect": true,
+"rationale": "És correcte. Els ministeris es creen, modifiquen i suprimeixen mitjançant reial decret del president del Govern."
+},
+{
+"text": "Resolució del Defensor del Poble.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el Defensor del Poble no té competència per crear ministeris."
+},
+{
+"text": "Ordre ministerial del Ministeri d’Hisenda.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè una ordre ministerial no és l’instrument adequat per crear, modificar o suprimir ministeris."
+}
+],
+"hint": "No és una llei: és una norma reglamentària del president del Govern."
+},
+{
+"guid": "aee68d25-8812-4bc3-8975-a2703a94ef26",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Segons la Llei 40/2015, tots els òrgans de l’AGE que no siguin superiors o directius:",
+"answerOptions": [
+{
+"text": "Actuen amb independència absoluta.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè l’AGE funciona d’acord amb el principi de jerarquia."
+},
+{
+"text": "Depenen sempre del Tribunal Constitucional.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè el Tribunal Constitucional no dirigeix orgànicament l’AGE."
+},
+{
+"text": "Es troben sota la dependència o direcció d’un òrgan superior o directiu.",
+"isCorrect": true,
+"rationale": "És correcte. Els òrgans que no són superiors o directius depenen d’un òrgan superior o directiu."
+},
+{
+"text": "Són elegits directament per sufragi universal.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els òrgans administratius no són elegits per sufragi universal."
+}
+],
+"hint": "Recorda el principi de jerarquia administrativa."
+},
+{
+"guid": "3e10c2e1-87f6-4821-856f-d3df82ae4dd2",
+"subjectId": "T07",
+"difficulty": 1,
+"origin": "chatgpt",
+"type": "test",
+"question": "Quin enunciat és correcte sobre l’AGE?",
+"answerOptions": [
+{
+"text": "Els ministres són òrgans directius, però no superiors.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els ministres són òrgans superiors."
+},
+{
+"text": "Els secretaris d’Estat són òrgans superiors.",
+"isCorrect": true,
+"rationale": "És correcte. Els secretaris d’Estat són òrgans superiors de l’AGE."
+},
+{
+"text": "Els subdelegats del Govern tenen rang de ministre.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els Subdelegats del Govern tenen nivell de subdirector general."
+},
+{
+"text": "Els delegats del Govern no formen part de l’organització territorial.",
+"isCorrect": false,
+"rationale": "És incorrecte perquè els Delegats del Govern són peces essencials de l’organització territorial de l’AGE."
+}
+],
+"hint": "Els secretaris d’Estat comparteixen categoria d’òrgan superior amb els ministres."
+}
+]
