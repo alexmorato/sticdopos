@@ -110,11 +110,11 @@ Totes les Comunitats Autònomes s'organitzen al voltant d'un **sistema instituci
 ```mermaid
 graph TB
     subgram[Òrgans de la Comunitat Autònoma]
-    subgram --> A[Assemblea Legislativa<br>unicameral, 4 anys, sufragi universal]
+    subgram --> A[Assemblea Legislativa<br>unicameral, 4 anys,s<br>sufragi universal]
     subgram --> B[President<br>- Cap del Govern autonòmic<br>- Representant suprem de la CCAA<br>- Representant ordinari de l'Estat]
-    subgram --> C[Consell de Govern<br>President + Consellers<br>doble vessant política i administrativa]
-    subgram --> D[Administració autonòmica]
-    subgram --> E[Tribunal Superior de Justícia<br>culmina l'organització judicial]
+    subgram --> C[Consell de Govern<br>President + Consellers<br>doble vessants<br>política i administrativa]
+    subgram --> D[Administraciós<br>autonòmica]
+    subgram --> E[Tribunal Superiors<br>de Justícia<br>culminas<br>l'organització judicial]
     
     F[Delegat del Govern<br>coordinació Estat-CCAA] -.-> B
     F -.-> D
@@ -178,8 +178,8 @@ Aquest diagrama aplega els diferents **mecanismes de control** als quals estan s
 
 ```mermaid
 flowchart LR
-    Control[Control de l'activitat autonòmica<br>Art. 153 CE i altres] --> TC[Tribunal Constitucional<br>Constitucionalitat de normes amb rang de llei<br>i altres processos]
-    Control --> Contenciós[Jurisdicció contenciosa<br>Actes i reglaments de l'Administració autonòmica]
+    Control[Control de l'activitat autonòmica<br>Art. 153 CE i altres] --> TC[Tribunal Constitucional<br>Constitucionalitats<br>de normes amb rang de llei<br>i altres processos]
+    Control --> Contenciós[Jurisdicció contenciosa<br>Actes i reglaments<br>de l'Administració autonòmica]
     Control --> TribunalComptes[Tribunal de Comptes<br>Control econòmic i pressupostari]
     Control --> Govern[Govern de l'Estat<br>Control sobre funcions delegades<br>art. 150.2<br>previ dictamen Consell d'Estat]
     
