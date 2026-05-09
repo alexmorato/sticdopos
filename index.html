@@ -127,13 +127,13 @@
       <button class="menu-btn" data-require-login="true" data-require-VIP="true" onclick="window.location.href='leerrecursos.html'">
         💡Apunts Disponibles 
       </button>
-      <button id="continuaYoutubeBtn" class="menu-btn" disabled onclick="continuaYoutube()">
+      <button id="continuaYoutubeBtn" data-require-VIP="true" class="menu-btn" disabled onclick="continuaYoutube()">
         ▶️ Continua YouTube
       </button>
-      <button id="continuaDiaposBtn" class="menu-btn" disabled onclick="continuaDiapos()">
+      <button id="continuaDiaposBtn" data-require-VIP="true" class="menu-btn" disabled onclick="continuaDiapos()">
         🖼️ Continua diapos
       </button>
-      <button id="continuaApuntesBtn" class="menu-btn" disabled onclick="continuaApuntes()">
+      <button id="continuaApuntesBtn" data-require-VIP="true" class="menu-btn" disabled onclick="continuaApuntes()">
         📝 Continua apunts
       </button>
       <button class="menu-btn"  onclick="window.location.href='cargarManual.html'">
@@ -147,6 +147,9 @@
       </button>
       <button class="menu-btn" onclick="window.location.href='test_ultimos_updates.html'">
         🗓️ Últims tests afegits
+      </button>
+      <button class="menu-btn" onclick="window.location.href='pined.html'">
+        📌 Accesos directes
       </button>
       <button class="menu-btn" onclick="window.location.href='generarJsonTest.html'">
         ⚗️ Generar JSON

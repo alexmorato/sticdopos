@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Accesos directes - sTIC d'Opos</title>
+	<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+	<link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
+	<link rel="stylesheet" href="assets/styles_lite.css">
+	<style>
+		.container {
+			max-width: 900px;
+			width: 100%;
+			margin: 0 16px;
+			background: #141a2a;
+			border: 1px solid #27304a;
+			border-radius: 16px;
+			padding: 28px 22px;
+			box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+		}
+		.subtitle {
+			text-align: center;
+			color: #9fb0ff;
+			margin: 0 0 20px;
+			font-size: 1rem;
+		}
+		.links-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+			gap: 16px;
+		}
+		.link-card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			min-height: 88px;
+			gap: 8px;
+			padding: 18px 16px;
+			border-radius: 14px;
+			background: #1b223a;
+			border: 1px solid #2a3554;
+			color: #e7ecff;
+			text-decoration: none;
+			text-align: center;
+			font-size: 1.08rem;
+			font-weight: 700;
+			transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease, background 0.2s ease;
+		}
+		.link-icon {
+			font-size: 1.7rem;
+			line-height: 1;
+		}
+		.link-title {
+			line-height: 1.2;
+		}
+		.link-card:hover {
+			transform: translateY(-2px);
+			border-color: #6ae0a7;
+			color: #6ae0a7;
+			background: #27304a;
+			box-shadow: 0 4px 12px rgba(106, 224, 167, 0.2);
+		}
+		.empty-state,
+		.error-state {
+			text-align: center;
+			padding: 24px 16px;
+			color: #9fb0ff;
+			font-size: 1rem;
+		}
+		.error-state {
+			color: #ff9d9d;
+		}
+		.top-actions {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 18px;
+		}
+		.back-btn {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			padding: 12px 18px;
+			border-radius: 999px;
+			background: #1b223a;
+			color: #e7ecff;
+			text-decoration: none;
+			border: 1px solid #2a3554;
+			font-weight: 700;
+			transition: all 0.2s ease;
+		}
+		.back-btn:hover {
+			border-color: #6ae0a7;
+			color: #6ae0a7;
+			transform: translateY(-1px);
+		}
+		@media (max-width: 600px) {
+			.container {
+				margin: 0 10px;
+				padding: 20px 12px;
+			}
+			.links-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1 id="headerTitle">📌 Accesos directes</h1>
+	<div class="top-actions">
+		<a class="back-btn" href="index.html">← Tornar al menú</a>
+	</div>
+	<div class="container">
+		<p class="subtitle">Enllaços ràpids configurats des de assets/pined.json</p>
+		<div id="linksGrid" class="links-grid" aria-live="polite"></div>
+		<div id="emptyState" class="empty-state" style="display:none;">No hi ha accesos directes configurats.</div>
+		<div id="errorState" class="error-state" style="display:none;">No s'ha pogut carregar el fitxer pined.json.</div>
+	</div>
+
+	<script>
+		function normalizeItems(data) {
+			if (Array.isArray(data)) {
+				return data;
+			}
+			if (data && Array.isArray(data.items)) {
+				return data.items;
+			}
+			return [];
+		}
+
+		function createLinkCard(item) {
+			const link = document.createElement('a');
+			link.className = 'link-card';
+			link.href = item.url;
+			const icon = document.createElement('span');
+			icon.className = 'link-icon';
+			icon.textContent = item.icon || '🔗';
+
+			const title = document.createElement('span');
+			title.className = 'link-title';
+			title.textContent = item.title;
+
+			link.appendChild(icon);
+			link.appendChild(title);
+			link.target = item.url.startsWith('http://') || item.url.startsWith('https://') ? '_blank' : '_self';
+			link.rel = link.target === '_blank' ? 'noopener noreferrer' : '';
+			return link;
+		}
+
+		async function renderLinks() {
+			const linksGrid = document.getElementById('linksGrid');
+			const emptyState = document.getElementById('emptyState');
+			const errorState = document.getElementById('errorState');
+
+			try {
+				const response = await fetch('assets/pined.json', { cache: 'no-store' });
+				if (!response.ok) {
+					throw new Error(`HTTP ${response.status}`);
+				}
+				const data = await response.json();
+				const items = normalizeItems(data).filter(item => item && item.title && item.url);
+
+				linksGrid.innerHTML = '';
+				if (items.length === 0) {
+					emptyState.style.display = 'block';
+					return;
+				}
+
+				items.forEach(item => {
+					linksGrid.appendChild(createLinkCard(item));
+				});
+			} catch (error) {
+				console.error('Error carregant pined.json:', error);
+				linksGrid.innerHTML = '';
+				errorState.style.display = 'block';
+			}
+		}
+
+		renderLinks();
+	</script>
+</body>
+</html>
