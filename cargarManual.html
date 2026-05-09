@@ -207,9 +207,10 @@
       }
       const modo = document.getElementById('modoEstudio').value;
       if (modo === '1_estudiar') {
+        if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+        localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(['Estudiar Copy-Paste']));
         localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(nuevasPreguntas));
         toast.showToast('Preguntes guardades! Redirigint...');
-        if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
         setTimeout(function() {
           window.location.href = 'estudiar.html';
         }, 900);

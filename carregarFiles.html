@@ -300,6 +300,7 @@
         alert('No hi ha fitxers seleccionats.');
         return;
       }
+      localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(fitxers));
       let preguntesTot = [];
       let filesLoaded = 0;
 

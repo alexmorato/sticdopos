@@ -409,6 +409,7 @@
       if (!output) return;
       try {
         if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+        localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(['quick converter']));
         localStorage.setItem(LS_KEYS.PREGUNTES, output);
         window.location.href = 'estudiar.html';
       } catch (e) {
@@ -432,6 +433,7 @@
         // Borrar estado anterior de estudio
         if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
 
+        localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(['quick converter']));
         localStorage.setItem(LS_KEYS.PREGUNTES, output);
         window.location.href = 'estudiar.html';
       } catch (e) {

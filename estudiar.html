@@ -1576,12 +1576,21 @@
       const totalQuestions = preguntes.length;
       const percentage = totalQuestions ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
       const topics = Object.values(summaryByTopic).sort((a, b) => a.topicId.localeCompare(b.topicId, undefined, { numeric: true }));
+      let sourceFiles = [];
+      try {
+        const sourceRaw = localStorage.getItem(LS_KEYS.FITXERS_ESTUDIANT);
+        const parsed = sourceRaw ? JSON.parse(sourceRaw) : [];
+        sourceFiles = Array.isArray(parsed) ? parsed.filter(Boolean) : [];
+      } catch (e) {
+        sourceFiles = [];
+      }
 
       return {
         percentage,
         correctAnswers,
         totalQuestions,
-        topics
+        topics,
+        sourceFiles
       };
     }
 
@@ -1631,7 +1640,7 @@
         lines: wrapCanvasText(context, `Tema ${topic.topicId}: ${topic.correct}/${topic.total}`, contentWidth - 60)
       }));
       const topicLineCount = topicEntries.reduce((sum, entry) => sum + entry.lines.length, 0);
-      const height = Math.max(680, 480 + (topicLineCount * (topicLineHeight + 15)));
+      const height = Math.max(680, 480 + (topicLineCount * (topicLineHeight + 12)));
 
       canvas.width = width;
       canvas.height = height;
@@ -1687,8 +1696,27 @@
       context.lineTo(width - padding, y);
       context.stroke();
 
+      if (Array.isArray(summary.sourceFiles) && summary.sourceFiles.length) {
+        y += 44;
+        context.textAlign = 'left';
+        context.font = '24px system-ui, sans-serif';
+        context.fillStyle = '#9fb0ff';
+        context.fillText('Fonts:', padding, y);
 
-      y += 80;
+        y += 34;
+        context.font = '22px system-ui, sans-serif';
+        summary.sourceFiles.forEach(sourceFile => {
+          const sourceLines = wrapCanvasText(context, String(sourceFile), contentWidth - 20);
+          sourceLines.forEach((line, lineIndex) => {
+            const prefix = lineIndex === 0 ? '• ' : '  ';
+            context.fillText(`${prefix}${line}`, padding + 10, y);
+            y += 28;
+          });
+        });
+      }
+
+
+      y += 30;
       context.fillStyle = '#6ae0a7';
       context.font = 'bold 24px system-ui, sans-serif';
       context.textAlign = 'left';

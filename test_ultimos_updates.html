@@ -339,6 +339,7 @@
       }));
 
       // Guardar preguntas concatenadas y navegar
+      localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(selectedFiles));
       localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntesTot));
       window.location.href = 'estudiar.html';
     });

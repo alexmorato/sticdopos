@@ -1097,6 +1097,7 @@
         .then(res => res.json())
         .then(preguntas => {
           if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+          localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify([testFile]));
           localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntas));
           window.location.href = 'estudiar.html';
         })

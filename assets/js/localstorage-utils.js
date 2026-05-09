@@ -7,6 +7,7 @@ const LS_KEYS = {
   DIFICULTAT: 'sTICdOpos_dificultat',
   ORIGIN: 'sTICdOpos_origin',
   FITXER: 'sTICdOpos_fitxer',
+  FITXERS_ESTUDIANT: 'sTICdOpos_fitxersEstudiant',
   PREGUNTA_POSITION: 'sTICdOpos_preguntaPosition',
   PREGUNTES_BARREJADES: 'sTICdOpos_preguntesBarrejades',
   ANSWERS: 'sTICdOpos_answers',
@@ -44,4 +45,5 @@ function borrarEstudioEnProgreso() {
   localStorage.removeItem(LS_KEYS.CRONOMETRO);
   localStorage.removeItem(LS_KEYS.PREGUNTA_POSITION);
   localStorage.removeItem(LS_KEYS.REPASAR_FALLOS);
+  localStorage.removeItem(LS_KEYS.FITXERS_ESTUDIANT);
 }
