@@ -207,6 +207,13 @@
       text-align: center;
       padding: 40px 20px;
     }
+    .results-actions {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
     .score {
       font-size: 3rem;
       font-weight: bold;
@@ -461,6 +468,45 @@
       transform: translateY(-1px);
     }
 
+    /* Modal de previsualització del resultat */
+    #resultPreviewModal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 9000;
+      background: rgba(0,0,0,0.75);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    #resultPreviewModal.visible {
+      display: flex;
+    }
+    .result-preview-box {
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 14px;
+      padding: 20px;
+      max-width: 95vw;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.7);
+      overflow: auto;
+    }
+    .result-preview-box img {
+      max-width: 100%;
+      border-radius: 10px;
+      border: 1px solid #27304a;
+    }
+    .result-preview-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     @media (max-width: 768px) {
       .menu-btn {
         width: 45px;
@@ -536,6 +582,17 @@
   <div id="removeFromHistoryContainer" style="text-align:center;margin:10px 0; display:none;">
     <button class="historial-btn remove-btn" id="removeFromHistoryBtn" onclick="eliminarDelHistorial()" disabled>✅ Eliminar encertada (tecla "E")</button>
   </div>
+  <!-- Modal previsualització resultat -->
+  <div id="resultPreviewModal">
+    <div class="result-preview-box">
+      <img id="resultPreviewImg" src="" alt="Resultat del test">
+      <div class="result-preview-actions">
+        <button class="nav-btn" id="copyResultBtn">📋 Copiar al porta-retalls</button>
+        <button class="nav-btn secondary" onclick="tancarPreviewResultat()">Tancar</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Cronómetro anclado -->
   <div id="cronometroAnchor">
     <div id="cronometroBox">00:00</div>
@@ -607,6 +664,22 @@
     document.addEventListener('fullscreenchange', () => {
       if (!document.fullscreenElement) {
         fullscreenBtn.innerHTML = '⛶ Pantalla completa';
+      }
+    });
+
+    // Tancar modal de previsualització al clicar el backdrop
+    document.getElementById('resultPreviewModal').addEventListener('click', function(e) {
+      if (e.target === this) tancarPreviewResultat();
+    });
+
+    // Tancar modal de previsualització amb Escape
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        const modal = document.getElementById('resultPreviewModal');
+        if (modal.classList.contains('visible')) {
+          tancarPreviewResultat();
+          e.preventDefault();
+        }
       }
     });
 
@@ -1466,6 +1539,234 @@
       mostrarHint();
     }
 
+    function isQuestionAnsweredCorrectly(pregunta, answer) {
+      const opciones = pregunta.answerOptions || [];
+      const correctIndices = opciones
+        .map((opt, idx) => opt.isCorrect ? idx : -1)
+        .filter(idx => idx !== -1);
+
+      if (correctIndices.length > 1) {
+        const selectedIndices = Array.isArray(answer) ? [...answer].sort((a, b) => a - b) : [];
+        return JSON.stringify(selectedIndices) === JSON.stringify([...correctIndices].sort((a, b) => a - b));
+      }
+
+      const selectedOption = opciones[answer];
+      return !!(selectedOption && selectedOption.isCorrect);
+    }
+
+    function getResultSummary() {
+      const summaryByTopic = {};
+      let correctAnswers = 0;
+
+      preguntes.forEach((pregunta, index) => {
+        const topicId = String(pregunta.subjectId || '??');
+        const isCorrect = isQuestionAnsweredCorrectly(pregunta, answers[index]);
+
+        if (!summaryByTopic[topicId]) {
+          summaryByTopic[topicId] = { topicId, correct: 0, total: 0 };
+        }
+
+        summaryByTopic[topicId].total++;
+        if (isCorrect) {
+          correctAnswers++;
+          summaryByTopic[topicId].correct++;
+        }
+      });
+
+      const totalQuestions = preguntes.length;
+      const percentage = totalQuestions ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
+      const topics = Object.values(summaryByTopic).sort((a, b) => a.topicId.localeCompare(b.topicId, undefined, { numeric: true }));
+
+      return {
+        percentage,
+        correctAnswers,
+        totalQuestions,
+        topics
+      };
+    }
+
+    function createCanvasBlob(canvas) {
+      return new Promise((resolve, reject) => {
+        canvas.toBlob(blob => {
+          if (blob) {
+            resolve(blob);
+            return;
+          }
+          reject(new Error('No s\'ha pogut generar la imatge del resultat.'));
+        }, 'image/png');
+      });
+    }
+
+    function wrapCanvasText(context, text, maxWidth) {
+      const words = String(text || '').split(/\s+/).filter(Boolean);
+      if (!words.length) return [''];
+
+      const lines = [];
+      let currentLine = words[0];
+
+      for (let i = 1; i < words.length; i++) {
+        const candidate = `${currentLine} ${words[i]}`;
+        if (context.measureText(candidate).width <= maxWidth) {
+          currentLine = candidate;
+        } else {
+          lines.push(currentLine);
+          currentLine = words[i];
+        }
+      }
+
+      lines.push(currentLine);
+      return lines;
+    }
+
+    async function buildResultSummaryImageBlob(summary) {
+      const canvas = document.createElement('canvas');
+      const context = canvas.getContext('2d');
+      const width = 800;
+      const padding = 70;
+      const contentWidth = width - (padding * 2);
+      const topicLineHeight = 40;
+      context.font = '28px system-ui, sans-serif';
+      const topicEntries = summary.topics.map(topic => ({
+        topicId: topic.topicId,
+        lines: wrapCanvasText(context, `Tema ${topic.topicId}: ${topic.correct}/${topic.total}`, contentWidth - 60)
+      }));
+      const topicLineCount = topicEntries.reduce((sum, entry) => sum + entry.lines.length, 0);
+      const height = Math.max(780, 480 + (topicLineCount * topicLineHeight));
+
+      canvas.width = width;
+      canvas.height = height;
+
+      const background = context.createLinearGradient(0, 0, width, height);
+      background.addColorStop(0, '#0b1020');
+      background.addColorStop(1, '#141a2a');
+      context.fillStyle = background;
+      context.fillRect(0, 0, width, height);
+
+      context.fillStyle = 'rgba(106, 224, 167, 0.10)';
+      context.fillRect(40, 40, width - 80, height - 80);
+      context.strokeStyle = '#27304a';
+      context.lineWidth = 3;
+      context.strokeRect(40, 40, width - 80, height - 80);
+
+      let y = padding + 30;
+
+      // Nom de l'app
+      context.font = 'bold 58px system-ui, sans-serif';
+      context.fillStyle = '#2aebad';
+      context.fillText('👨‍💻 sTIC d\'Opos ☕', padding, y);
+
+      //y += 55;
+      //context.fillStyle = '#6ae0a7';
+      //context.font = 'bold 52px system-ui, sans-serif';
+      //context.fillText('Resultat del test', padding, y);
+      y += 30;
+      context.strokeStyle = '#2aebad';
+      context.lineWidth = 6;
+      context.beginPath();
+      context.moveTo(padding, y);
+      context.lineTo(width - padding, y);
+      context.stroke();
+
+      y += 140;
+      context.fillStyle = '#e7ecff';
+      context.font = 'bold 132px system-ui, sans-serif';
+      context.fillText(`${summary.percentage}%`, padding, y);
+
+      y += 70;
+      context.font = '32px system-ui, sans-serif';
+      context.fillStyle = '#9fb0ff';
+      context.fillText(`Encerts: ${summary.correctAnswers} de ${summary.totalQuestions}`, padding, y);
+
+      y += 30;
+      context.strokeStyle = '#2aebad';
+      context.lineWidth = 6;
+      context.beginPath();
+      context.moveTo(padding, y);
+      context.lineTo(width - padding, y);
+      context.stroke();
+
+
+      y += 80;
+      context.fillStyle = '#6ae0a7';
+      context.font = 'bold 34px system-ui, sans-serif';
+      context.fillText('Preguntes per tema', padding, y);
+
+      y += 30;
+      context.strokeStyle = '#27304a';
+      context.lineWidth = 2;
+      context.beginPath();
+      context.moveTo(padding, y);
+      context.lineTo(width - padding, y);
+      context.stroke();
+
+      y += 55;
+      context.fillStyle = '#e7ecff';
+      context.font = '28px system-ui, sans-serif';
+      topicEntries.forEach(entry => {
+        entry.lines.forEach((line, lineIndex) => {
+          const prefix = lineIndex === 0 ? '• ' : '  ';
+          context.fillText(`${prefix}${line}`, padding, y);
+          y += topicLineHeight;
+        });
+      });
+
+      const footerText = new Date().toLocaleString('ca-ES');
+      context.fillStyle = '#9fb0ff';
+      context.font = '24px system-ui, sans-serif';
+      context.fillText(footerText, padding, height - 55);
+
+      return createCanvasBlob(canvas);
+    }
+
+    let _resultPreviewBlob = null;
+
+    function tancarPreviewResultat() {
+      const modal = document.getElementById('resultPreviewModal');
+      modal.classList.remove('visible');
+      const img = document.getElementById('resultPreviewImg');
+      if (img.src.startsWith('blob:')) URL.revokeObjectURL(img.src);
+      img.src = '';
+      _resultPreviewBlob = null;
+    }
+
+    async function compartirResultat() {
+      if (!showingResults) return;
+
+      try {
+        const summary = getResultSummary();
+        const imageBlob = await buildResultSummaryImageBlob(summary);
+        _resultPreviewBlob = imageBlob;
+
+        const objectUrl = URL.createObjectURL(imageBlob);
+        const img = document.getElementById('resultPreviewImg');
+        img.src = objectUrl;
+
+        const modal = document.getElementById('resultPreviewModal');
+        modal.classList.add('visible');
+
+        const copyBtn = document.getElementById('copyResultBtn');
+        copyBtn.onclick = async function() {
+          if (!navigator.clipboard || typeof navigator.clipboard.write !== 'function' || typeof ClipboardItem === 'undefined') {
+            toast.showToast('El navegador no permet copiar imatges al portapapers en aquest context.');
+            return;
+          }
+          try {
+            await navigator.clipboard.write([
+              new ClipboardItem({ 'image/png': _resultPreviewBlob })
+            ]);
+            toast.showToast('Resultat copiat al porta-retalls!');
+            tancarPreviewResultat();
+          } catch (err) {
+            console.error('Error copiant al portapapers:', err);
+            toast.showToast('No s\'ha pogut copiar la imatge.');
+          }
+        };
+      } catch (error) {
+        console.error('Error generant la previsualització:', error);
+        toast.showToast('No s\'ha pogut generar la imatge del resultat.');
+      }
+    }
+
 
     // ============================================================
     // RESULTADOS Y NAVEGACIÓN
@@ -1477,42 +1778,20 @@
     function showResults() {
       localStorage.removeItem(LS_KEYS.ESTUDIO_WIP);
       showingResults = true;
-      
-      let correctAnswers = 0;
-      
-      preguntes.forEach((pregunta, index) => {
-        const opciones = pregunta.answerOptions || [];
-        const correctIndices = opciones
-          .map((opt, idx) => opt.isCorrect ? idx : -1)
-          .filter(idx => idx !== -1);
-        
-        // Comprobar si es pregunta con múltiples respuestas
-        if (correctIndices.length > 1) {
-          // Respuesta múltiple: verificar que coincidan exactamente
-          const selectedIndices = Array.isArray(answers[index]) ? answers[index].sort() : [];
-          if (JSON.stringify(selectedIndices) === JSON.stringify(correctIndices.sort())) {
-            correctAnswers++;
-          }
-        } else {
-          // Respuesta única
-          const selectedOption = opciones[answers[index]];
-          if (selectedOption && selectedOption.isCorrect) {
-            correctAnswers++;
-          }
-        }
-      });
-      
-      const percentage = Math.round((correctAnswers / preguntes.length) * 100);
+      const summary = getResultSummary();
       
       const container = document.getElementById('questionContainer');
       container.innerHTML = `
         <div class="question-card results">
-          <div class="score">${percentage}%</div>
+          <div class="score">${summary.percentage}%</div>
           <div class="score-text">
-            Has encertat ${correctAnswers} de ${preguntes.length} preguntes
+            Has encertat ${summary.correctAnswers} de ${summary.totalQuestions} preguntes
           </div>
-          <button class="nav-btn" onclick="reviewAnswers()">Revisar respostes</button>
-          <button class="nav-btn secondary" onclick="restartTest()" style="margin-left: 15px;">Tornar a començar</button>
+          <div class="results-actions">
+            <button class="nav-btn" onclick="reviewAnswers()">Revisar respostes</button>
+            <button class="nav-btn" onclick="compartirResultat()">Compartir resultat</button>
+            <button class="nav-btn secondary" onclick="restartTest()">Tornar a començar</button>
+          </div>
         </div>
       `;
       
