@@ -1624,14 +1624,14 @@
       const width = 800;
       const padding = 70;
       const contentWidth = width - (padding * 2);
-      const topicLineHeight = 40;
+      const topicLineHeight = 25;
       context.font = '28px system-ui, sans-serif';
       const topicEntries = summary.topics.map(topic => ({
         topicId: topic.topicId,
         lines: wrapCanvasText(context, `Tema ${topic.topicId}: ${topic.correct}/${topic.total}`, contentWidth - 60)
       }));
       const topicLineCount = topicEntries.reduce((sum, entry) => sum + entry.lines.length, 0);
-      const height = Math.max(780, 480 + (topicLineCount * topicLineHeight));
+      const height = Math.max(680, 480 + (topicLineCount * (topicLineHeight + 15)));
 
       canvas.width = width;
       canvas.height = height;
@@ -1649,11 +1649,13 @@
       context.strokeRect(40, 40, width - 80, height - 80);
 
       let y = padding + 30;
+      const centerX = Math.round(width / 2);
 
       // Nom de l'app
       context.font = 'bold 58px system-ui, sans-serif';
       context.fillStyle = '#2aebad';
-      context.fillText('👨‍💻 sTIC d\'Opos ☕', padding, y);
+      context.textAlign = 'center';
+      context.fillText('👨‍💻 sTIC d\'Opos ☕', centerX, y);
 
       //y += 55;
       //context.fillStyle = '#6ae0a7';
@@ -1670,12 +1672,12 @@
       y += 140;
       context.fillStyle = '#e7ecff';
       context.font = 'bold 132px system-ui, sans-serif';
-      context.fillText(`${summary.percentage}%`, padding, y);
+      context.fillText(`${summary.percentage}%`, centerX, y);
 
       y += 70;
       context.font = '32px system-ui, sans-serif';
       context.fillStyle = '#9fb0ff';
-      context.fillText(`Encerts: ${summary.correctAnswers} de ${summary.totalQuestions}`, padding, y);
+      context.fillText(`Encerts: ${summary.correctAnswers} de ${summary.totalQuestions}`, centerX, y);
 
       y += 30;
       context.strokeStyle = '#2aebad';
@@ -1688,20 +1690,22 @@
 
       y += 80;
       context.fillStyle = '#6ae0a7';
-      context.font = 'bold 34px system-ui, sans-serif';
-      context.fillText('Preguntes per tema', padding, y);
+      context.font = 'bold 24px system-ui, sans-serif';
+      context.textAlign = 'left';
+      context.fillText('Preguntes per tema:', padding, y);
 
-      y += 30;
-      context.strokeStyle = '#27304a';
-      context.lineWidth = 2;
-      context.beginPath();
-      context.moveTo(padding, y);
-      context.lineTo(width - padding, y);
-      context.stroke();
+      //y += 30;
+      //context.strokeStyle = '#27304a';
+      //context.lineWidth = 2;
+      //context.beginPath();
+      //context.moveTo(padding, y);
+      //context.lineTo(width - padding, y);
+      //context.stroke();
 
-      y += 55;
+      y += 40;
+      context.textAlign = 'left';
       context.fillStyle = '#e7ecff';
-      context.font = '28px system-ui, sans-serif';
+      context.font = '18px system-ui, sans-retoserif';
       topicEntries.forEach(entry => {
         entry.lines.forEach((line, lineIndex) => {
           const prefix = lineIndex === 0 ? '• ' : '  ';
@@ -1713,7 +1717,9 @@
       const footerText = new Date().toLocaleString('ca-ES');
       context.fillStyle = '#9fb0ff';
       context.font = '24px system-ui, sans-serif';
-      context.fillText(footerText, padding, height - 55);
+      context.textAlign = 'center';
+      context.fillText(footerText, centerX, height - 55);
+      context.textAlign = 'left';
 
       return createCanvasBlob(canvas);
     }
