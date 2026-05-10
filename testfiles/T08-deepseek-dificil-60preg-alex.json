@@ -1,212 +1,902 @@
 [
     {
-        "guid": "0b3bb601-ad1a-4c49-a754-9088729a6bc7",
+        "guid": "b6c70a96-51d1-468a-b6bb-9efeba3cb8d2",
         "subjectId": "T08",
         "difficulty": 1,
-        "origin": "CEF-2021",
+        "origin": "deepseek",
         "type": "test",
-        "question": "Segons l'article 2 de la Constitució, quina de les següents afirmacions és incorrecta?",
-        "hint": "Article 2 CE: 'La Constitució es fonamenta en la indissoluble unitat de la Nació espanyola, pàtria comuna i indivisible de tots els espanyols, i reconeix i garanteix el dret a l'autonomia de les nacionalitats i regions que la integren i la solidaritat entre totes elles.'\nTemari 8.1.2.2 El principi d'unitat: 'Es tracta d'un principi prevalent... la proclamació de la indissoluble unitat...' L'afirmació incorrecta diu 'dissoluble unitat'.",
+        "question": "Quin article de la Constitució Espanyola reconeix i garanteix el dret a l'autonomia de les nacionalitats i regions?",
         "answerOptions": [
-     {"text":"La Constitució es fonamenta en la dissoluble unitat de la nació espanyola.","isCorrect":true,"rationale":"L'article 2 CE diu 'indissoluble unitat',no 'dissoluble'. Aquesta és la incorrecta."},
-     {"text":"La nació espanyola és pàtria comuna de tots els espanyols.","isCorrect":false,"rationale":"Afirmació correcta segons l'article 2 CE."},
-     {"text":"La Constitució reconeix i garanteix el dret a l'autonomia de les nacionalitats i regions que la integren.","isCorrect":false,"rationale":"Afirmació correcta segons l'article 2 CE."},
-     {"text":"La Constitució reconeix i garanteix la solidaritat entre totes elles.","isCorrect":false,"rationale":"Afirmació correcta segons l'article 2 CE."}
-    ]
+     {"text":"Article 2","isCorrect":true,"rationale":"Correcte. L'article 2 CE proclama la indissoluble unitat de la Nació espanyola i reconeix i garanteix el dret a l'autonomia de les nacionalitats i regions que l'integren."},
+     {"text":"Article 137","isCorrect":false,"rationale":"Incorrecte. L'article 137 CE estableix l'organització territorial de l'Estat en municipis,províncies i Comunitats Autònomes,però no reconeix el dret a l'autonomia."},
+     {"text":"Article 143","isCorrect":false,"rationale":"Incorrecte. L'article 143 CE regula la iniciativa del procés autonòmic,no conté el reconeixement general del dret a l'autonomia."},
+     {"text":"Article 148","isCorrect":false,"rationale":"Incorrecte. L'article 148 CE enumera les matèries sobre les quals les Comunitats Autònomes poden assumir competències,però no és la seu del reconeixement del dret a l'autonomia."}
+    ],
+        "hint": "Article 2 CE: 'La Constitució es fonamenta en la indissoluble unitat de la Nació espanyola, pàtria comuna i indivisible de tots els espanyols, i reconeix i garanteix el dret a l'autonomia de les nacionalitats i regions que la integren i la solidaritat entre totes elles.' (Font: Apunts T08, apartat 8.1.2.1)"
     },
     {
-        "guid": "d64ccd85-fe5e-49ed-a163-999a5b92935f",
+        "guid": "e7034176-23e4-47b8-b629-04537fe82f77",
         "subjectId": "T08",
         "difficulty": 1,
-        "origin": "CEF-2021",
+        "origin": "deepseek",
         "type": "test",
-        "question": "Segons la Constitució, l'autonomia de les nacionalitats i regions que integren Espanya és un/una:",
-        "hint": "Article 2 CE: '... reconeix i garanteix el dret a l'autonomia de les nacionalitats i regions...'\nTemari 8.1.2.3 El principi d'autonomia: 'L'autonomia és un dret reconegut (que no pas concedit) i garantit per la CE.'",
+        "question": "Segons l'article 137 CE, com s'organitza territorialment l'Estat?",
         "answerOptions": [
-     {"text":"Deure.","isCorrect":false,"rationale":"La Constitució no la defineix com a deure sinó com a dret (article 2)."},
-     {"text":"Obligació.","isCorrect":false,"rationale":"No és una obligació,és un dret reconegut."},
-     {"text":"Dret.","isCorrect":true,"rationale":"L'article 2 CE 'reconeix i garanteix el dret a l'autonomia'."},
-     {"text":"Possibilitat.","isCorrect":false,"rationale":"Més que una simple possibilitat,és un dret garantit."}
-    ]
+     {"text":"En municipis,províncies i Comunitats Autònomes.","isCorrect":true,"rationale":"Correcte. L'article 137 CE estableix que l'Estat s'organitza territorialment en municipis,en províncies i en les Comunitats Autònomes que es constitueixin."},
+     {"text":"En regions,departaments i col·lectivitats d'ultramar.","isCorrect":false,"rationale":"Incorrecte. Aquesta és una organització pròpia d'estats com França,no d'Espanya."},
+     {"text":"En estats federats,territoris i districtes.","isCorrect":false,"rationale":"Incorrecte. Espanya no és un estat federal,sinó un estat autonòmic."},
+     {"text":"En províncies,comarques i municipis.","isCorrect":false,"rationale":"Incorrecte. L'article 137 esmenta municipis,províncies i Comunitats Autònomes; les comarques no són una divisió obligatòria."}
+    ],
+        "hint": "Article 137 CE: 'L'Estat s'organitza territorialment en municipis, en províncies i en les Comunitats Autònomes que es constitueixin. Totes aquestes entitats gaudeixen d'autonomia per a la gestió dels seus respectius interessos.' (Font: Apunts T08, apartat 8.1.2.3.A; CEF 2021, apartat 1)"
     },
     {
-        "guid": "edb3eb97-37ef-4f55-b90c-448f210b8f33",
+        "guid": "8af985f7-4e3b-456f-84e9-943a648310ae",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 2,
+        "origin": "deepseek",
         "type": "test",
-        "question": "L'autonomia de les nacionalitats i regions que integren Espanya significa que aquestes es poden regir per elles mateixes i establir normes. Això implica:",
-        "hint": "Temari 8.1.2.3 A) CONCEPTE D'AUTONOMIA: 'El concepte d'autonomia... implica un poder limitat que no pot oposar-se al principi d'unitat... capacitat normativa o legislativa, autogovern... L'autonomia implica un poder limitat per la Constitució, pels estatuts d'autonomia i les lleis.' A més, 'autonomia no és pas sobirania'. Per tant, les tres característiques són certes.",
+        "question": "Quin principi, segons la Constitució, impedeix el reconeixement del dret d'autodeterminació?",
         "answerOptions": [
-     {"text":"Capacitat normativa o legislativa.","isCorrect":false,"rationale":"És una de les implicacions,però no l'única."},
-     {"text":"Autogovern.","isCorrect":false,"rationale":"També és cert,però hi ha més."},
-     {"text":"Un poder limitat per la Constitució,pels estatuts d'autonomia i les lleis.","isCorrect":false,"rationale":"Correcte,però incomplet."},
-     {"text":"Les 3 respostes anteriors són correctes.","isCorrect":true,"rationale":"L'autonomia implica capacitat normativa,autogovern i poder limitat (no sobirania)."}
-    ]
+     {"text":"El principi d'unitat.","isCorrect":true,"rationale":"Correcte. El principi d'unitat (art. 2 CE) proclama la indissoluble unitat de la Nació espanyola i la sobirania nacional exclusiva del poble espanyol,la qual cosa impedeix el dret d'autodeterminació o ius secessionis."},
+     {"text":"El principi d'autonomia.","isCorrect":false,"rationale":"Incorrecte. L'autonomia és un dret reconegut,però no inclou la sobirania ni la secessió."},
+     {"text":"El principi de solidaritat.","isCorrect":false,"rationale":"Incorrecte. La solidaritat actua com a límit competencial però no impedeix per si sola l'autodeterminació."},
+     {"text":"El principi de cooperació.","isCorrect":false,"rationale":"Incorrecte. La cooperació regula les relacions interadministratives,no la unitat nacional."}
+    ],
+        "hint": "El principi d'unitat (art. 2 CE) és prevalent sobre la resta. La sobirania nacional resideix en el poble espanyol, no en les nacionalitats o regions. L'Estat autonòmic s'assenta en el rebuig directe al ius secessionis. (Font: Apunts T08, apartat 8.1.2.2)"
     },
     {
-        "guid": "6f86daa9-087b-4a88-a785-21111d53c01a",
+        "guid": "3a839524-36ad-4cff-b944-75d4ce3d8c87",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 2,
+        "origin": "deepseek",
         "type": "test",
-        "question": "De conformitat amb l'establert a l'article 148.1 de la Constitució, les Comunitats Autònomes poden assumir competències en la matèria següent:",
-        "hint": "Article 148.1.20a CE: 'Assistència social.'\nTemari 8.4.2.2 A) COMPETÈNCIES MÍNIMES: 'L'Art. 148.1 CE estableix una llista de matèries sobre les que les Comunitats Autònomes podran assumir competències... assistència social.' Les altres opcions (Administració de justícia, legislació bàsica medi ambient, legislació laboral) són competències exclusives de l'Estat per l'art. 149.1 CE.",
+        "question": "Quina diferència qualitativa existeix entre l'autonomia de les Comunitats Autònomes i l'autonomia local?",
         "answerOptions": [
-     {"text":"Administració de justícia.","isCorrect":false,"rationale":"L'Administració de Justícia és competència exclusiva de l'Estat (art. 149.1.5)."},
-     {"text":"Legislació bàsica sobre protecció del medi ambient.","isCorrect":false,"rationale":"La legislació bàsica en medi ambient és estatal (art. 149.1.23)."},
-     {"text":"Legislació laboral.","isCorrect":false,"rationale":"La legislació laboral és competència estatal (art. 149.1.7)."},
-     {"text":"Assistència social.","isCorrect":true,"rationale":"L'article 148.1.20a CE inclou l'assistència social com a matèria assumible per les CCAA."}
-    ]
+     {"text":"Les Comunitats Autònomes gaudeixen d'autonomia política (potestats legislatives i governamentals),mentre que els ens locals tenen autonomia administrativa.","isCorrect":true,"rationale":"Correcte. La doctrina i el TC distingeixen:les CCAA tenen autonomia política (poden dictar lleis),mentre que municipis i províncies tenen autonomia administrativa (gestió d'interessos sense potestat legislativa)."},
+     {"text":"L'autonomia local és il·limitada,mentre que l'autonomia autonòmica està sotmesa a controls més estrictes.","isCorrect":false,"rationale":"Incorrecte. Ambdues autonomies són poder limitat,però l'autonomia local és administrativa i l'autonòmica política."},
+     {"text":"Les Comunitats Autònomes no tenen autonomia,només descentralització administrativa.","isCorrect":false,"rationale":"Incorrecte. Les CCAA tenen autonomia política reconeguda a l'art. 2 CE."},
+     {"text":"L'autonomia local inclou potestat legislativa plena en matèries d'interès local.","isCorrect":false,"rationale":"Incorrecte. Els ens locals no tenen potestat legislativa; els seus reglaments són de rang inferior a la llei."}
+    ],
+        "hint": "Les Comunitats Autònomes gaudeixen d'una autonomia qualitativament superior a l'administrativa que correspon als ens locals, ja que s'hi afegeixen potestats legislatives i governamentals que la configuren com naturalesa d'autonomia política. (Font: Apunts T08, apartat 8.1.2.3.A)"
     },
     {
-        "guid": "8b255301-5593-48a7-80f5-b8eb2c36c1d3",
+        "guid": "4ae0b642-17fe-4ca5-a4ec-8d1a5d53a2a5",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 2,
+        "origin": "deepseek",
         "type": "test",
-        "question": "La constitució de les Comunitats Autònomes per la via d'accés ordinària a comuna de l'article 143 de la Constitució permetia, únicament, l'adquisició de les competències mínimes previstes a l'article següent de la Constitució:",
-        "hint": "Article 143.2 CE: '... les Comunitats Autònomes només podran assumir les competències assenyalades a l'article 148 d'aquesta Constitució.'\nTemari 8.1.3.2 A) SUPÒSIT GENERAL i 8.4.2.2 A): 'La via lenta de l'art. 143.2 permet només les competències mínimes de l'art. 148.'",
+        "question": "Què estableix l'article 138 CE en relació amb el principi de solidaritat?",
         "answerOptions": [
-     {"text":"148","isCorrect":true,"rationale":"L'article 148 CE llista les competències que podien assumir inicialment per la via de l'art. 143."},
-     {"text":"156","isCorrect":false,"rationale":"L'article 156 regula la Hisenda autonòmica,no les competències mínimes."},
-     {"text":"123","isCorrect":false,"rationale":"L'article 123 regula el Tribunal Suprem,no és aplicable."},
-     {"text":"139","isCorrect":false,"rationale":"L'article 139 regula la igualtat de drets i lliure circulació,no competències."}
-    ]
+     {"text":"L'establiment d'un equilibri econòmic adequat i just entre les diferents parts del territori i la prohibició de privilegis entre Comunitats Autònomes.","isCorrect":true,"rationale":"Correcte. L'article 138 CE conté dues modalitats del principi de solidaritat:l'equilibri econòmic interterritorial i la prohibició de diferències de tracte que comportin privilegis econòmics o socials."},
+     {"text":"La creació d'un Fons de Compensació obligatori per a totes les Comunitats Autònomes.","isCorrect":false,"rationale":"Incorrecte. El Fons de Compensació es preveu a l'article 158.2 CE,no al 138,i no és obligatori per a totes sinó per a corregir desequilibris."},
+     {"text":"La prioritat de les lleis estatals sobre les autonòmiques en tot cas.","isCorrect":false,"rationale":"Incorrecte. Això és la clàusula de prevalença (art. 149.3),no el principi de solidaritat."},
+     {"text":"El deure de les Comunitats Autònomes de cedir competències a l'Estat.","isCorrect":false,"rationale":"Incorrecte. La solidaritat no implica cessió de competències,sinó cooperació i equilibri econòmic."}
+    ],
+        "hint": "Article 138 CE: 'L'Estat garanteix la realització efectiva del principi de solidaritat, vetllant per l'establiment d'un equilibri econòmic, adequat i just, entre les diverses parts del territori espanyol, i atendrà en particular les circumstàncies del fet insular.' A més, 'no es podran adoptar mesures que directament o indirectament obstacleixin la llibertat de circulació i establiment de les persones i la lliure circulació de béns a tot el territori espanyol.' (Font: Apunts T08, apartat 8.1.2.4)"
     },
     {
-        "guid": "ec59315a-e484-4551-a875-b53dc48a8cf5",
+        "guid": "e79a486d-11fd-42de-b941-ae30a8fda18a",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 2,
+        "origin": "deepseek",
         "type": "test",
-        "question": "El principi general de supletorietat establert a l'article 149.3 de la Constitució comporta que:",
-        "hint": "Article 149.3 CE: 'El dret estatal serà, en tot cas, supletori del dret de les Comunitats Autònomes.'\nTemari 8.4.5.2 El principi de supletorietat: 'Aquest principi ve recollit a l'Art. 149.3 CE i afirma que el Dret Estatal serà, en tot cas, supletori del Dret de les Comunitats Autònomes.'",
+        "question": "Quina és la principal manifestació del principi d'unitat en l'àmbit econòmic segons la Constitució?",
         "answerOptions": [
-     {"text":"El dret estatal serà,en tot cas,supletori del dret internacional públic.","isCorrect":false,"rationale":"La supletorietat es refereix a la relació entre dret estatal i autonòmic,no internacional."},
-     {"text":"El dret autonòmic serà,en tot cas,supletori del dret estatal.","isCorrect":false,"rationale":"És al revés:l'estatal supletori de l'autonòmic."},
-     {"text":"El dret estatal serà,en tot cas,supletori del dret de les Comunitats Autònomes.","isCorrect":true,"rationale":"Literalment l'article 149.3 CE:'El dret estatal serà,en tot cas,supletori del dret de les Comunitats Autònomes'."},
-     {"text":"El dret autonòmic serà,en tot cas,supletori del dret internacional públic.","isCorrect":false,"rationale":"No és correcte,la supletorietat opera entre dret estatal i autonòmic."}
-    ]
+     {"text":"La llibertat de circulació sense traves per tot el territori nacional i la igualtat de condicions bàsiques per a l'exercici de l'activitat econòmica.","isCorrect":true,"rationale":"Correcte. El principi d'unitat en el camp econòmic (arts. 131.1,138.2 i 139.2 CE) implica la lliure circulació de persones i béns,i la igualtat de condicions bàsiques."},
+     {"text":"L'absència de qualsevol poder tributari per part de les Comunitats Autònomes.","isCorrect":false,"rationale":"Incorrecte. Les CCAA tenen autonomia financera i poden establir tributs (art. 157)."},
+     {"text":"La centralització de totes les decisions econòmiques en el Govern de l'Estat.","isCorrect":false,"rationale":"Incorrecte. L'Estat té competències en ordenació general de l'economia,però no centralitza totes les decisions."},
+     {"text":"La prohibició de qualsevol diferència salarial entre treballadors de diferents comunitats.","isCorrect":false,"rationale":"Incorrecte. No hi ha una prohibició absoluta; l'empresa pot fixar salaris dins del marc laboral comú."}
+    ],
+        "hint": "El principi d'unitat en el camp econòmic implica, com a mínim, la llibertat de circulació sense traves per tot el territori nacional, i la igualtat de condicions bàsiques per a l'exercici de l'activitat econòmica. (Font: Apunts T08, apartat 8.1.2.2)"
     },
     {
-        "guid": "86189936-1714-4f33-8024-fd1fcd4210e6",
+        "guid": "daacb135-3928-49fb-9bd9-61b491338b5e",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 3,
+        "origin": "deepseek",
         "type": "test",
-        "question": "Segons l'article 137 de la Constitució, l'Estat s'organitza territorialment en:",
-        "hint": "Article 137 CE: 'L'Estat s'organitza territorialment en municipis, províncies i en les Comunitats Autònomes que es constitueixin.'\nTemari 8.1.2.3 A): 'L'Art. 137 CE disposa que l'Estat s'organitza territorialment en municipis, províncies i en les Comunitats Autònomes que es constitueixin.'",
+        "question": "Segons l'article 143.2 CE, quins requisits ha de complir la iniciativa del procés autonòmic en la via ordinària?",
         "answerOptions": [
-     {"text":"Municipis i províncies.","isCorrect":false,"rationale":"L'article 137 també inclou les Comunitats Autònomes."},
-     {"text":"Municipis,províncies i comunitats autònomes.","isCorrect":true,"rationale":"Text literal de l'article 137 CE."},
-     {"text":"Municipis,províncies,comarques i comunitats autònomes.","isCorrect":false,"rationale":"Les comarques no són esmentades a l'article 137."},
-     {"text":"Municipis,províncies,comarques,ens locals i ens autonòmics.","isCorrect":false,"rationale":"L'article 137 només esmenta municipis,províncies i Comunitats Autònomes."}
-    ]
+     {"text":"Correspon a totes les Diputacions interessades o òrgan interinsular i a les dues terceres parts dels municipis que representin la majoria del cens electoral de cada província o illa,en un termini de 6 mesos.","isCorrect":true,"rationale":"Correcte. Aquests són els requisits de l'article 143.2 CE per iniciar el procés de constitució en Comunitat Autònoma per la via comuna."},
+     {"text":"Només cal l'acord de les dues terceres parts dels municipis,sense intervenció de les diputacions.","isCorrect":false,"rationale":"Incorrecte. L'article 143.2 CE exigeix conjuntament l'impuls de les diputacions (o òrgan interinsular) i dels municipis."},
+     {"text":"La iniciativa pot ser presa per un sol municipi sempre que sigui capital de província.","isCorrect":false,"rationale":"Incorrecte. La iniciativa requereix una base territorial àmplia,no un sol municipi."},
+     {"text":"Els requisits s'han de complir en un termini de 2 anys des del primer acord.","isCorrect":false,"rationale":"Incorrecte. El termini és de 6 mesos (art. 143.2 CE)."}
+    ],
+        "hint": "Article 143.2 CE: 'La iniciativa del procés autonòmic correspon a totes les Diputacions interessades o a l'òrgan interinsular corresponent i a les dues terceres parts dels municipis la població dels quals representi, com a mínim, la majoria del cens electoral de cada província o illa. Aquests requisits hauran de ser complerts en el termini de sis mesos des del primer acord adoptat al respecte per alguna de les Corporacions locals interessades.' (Font: Apunts T08, apartat 8.1.3.2.A; CEF 2021, apartat 2)"
     },
     {
-        "guid": "799f6500-7c14-4482-8d45-1f73c6ce948a",
+        "guid": "8bb870ac-390d-4370-9334-36218c6f445a",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 3,
+        "origin": "deepseek",
         "type": "test",
-        "question": "El sistema d'accés a l'autogovern previst a la Constitució per a Catalunya es troba a:",
-        "hint": "Disposició transitòria 2a CE: 'Els territoris que haguessin plebiscitat afirmativament projectes d'Estatut d'Autonomia i comptin, en el moment de promulgar-se la CE, amb règims provisionals d'autonomia (Catalunya, País Basc i Galícia) podran procedir immediatament...'\nTemari 8.1.3.2 B): 'La Disp. Trans. 2a CE estableix que... Catalunya, Galicia i el País Basc van optar per aquesta via.'",
+        "question": "Quines comunitats autònomes van accedir a l'autogovern per la via especial de l'article 151.1 CE o la Disposició Transitòria 2a CE?",
         "answerOptions": [
-     {"text":"L'article 149.","isCorrect":false,"rationale":"L'article 149 regula competències,no l'accés per a Catalunya."},
-     {"text":"La disposició transitòria 4ª.","isCorrect":false,"rationale":"La DT 4a fa referència a Navarra,no a Catalunya."},
-     {"text":"L'article 144.","isCorrect":false,"rationale":"L'article 144 preveu casos excepcionals (Madrid,Ceuta,Melilla)."},
-     {"text":"La disposició transitòria 2ª.","isCorrect":true,"rationale":"La DT 2a CE va permetre a Catalunya,País Basc i Galícia accedir a la via ràpida (art. 151)."}
-    ]
+     {"text":"Catalunya,País Basc,Galícia i Andalusia.","isCorrect":true,"rationale":"Correcte. Catalunya,País Basc i Galícia es van acollir a la DT 2a CE (règims preautonòmics). Andalusia va seguir la via de l'art. 151.1 CE (iniciativa reforçada i referèndum)."},
+     {"text":"Només Catalunya i País Basc.","isCorrect":false,"rationale":"Incorrecte. Galícia i Andalusia també van accedir per vies que permeten el màxim nivell competencial."},
+     {"text":"Andalusia,Canàries i València.","isCorrect":false,"rationale":"Incorrecte. Canàries i València van seguir la via comuna de l'art. 143 CE (via lenta)."},
+     {"text":"Madrid,Ceuta i Melilla.","isCorrect":false,"rationale":"Incorrecte. Madrid va accedir per l'art. 144.a CE; Ceuta i Melilla per l'art. 144.b CE."}
+    ],
+        "hint": "Les comunitats que van assolir directament el màxim nivell competencial són: Andalusia (art. 151.1 CE) i Catalunya, País Basc, Galícia (DT 2a CE). (Font: Apunts T08, apartat 8.1.3.2.B, taula; CEF 2021, apartat 2)"
     },
     {
-        "guid": "bd471892-7a72-4a3f-ad97-e28b0cf838d7",
+        "guid": "848c1b14-856f-4390-b03d-8a42667e79c4",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 3,
+        "origin": "deepseek",
         "type": "test",
-        "question": "Segons l'article 138.1 de la Constitució, qui garanteix la realització efectiva del principi de solidaritat consagrat a l'article 2 de la Constitució?",
-        "hint": "Article 138.1 CE: 'L'Estat garanteix la realització efectiva del principi de solidaritat consagrat en l'article 2.'\nTemari 8.1.2.4 El principi de solidaritat: 'L'Art. 138 CE recull dues modalitats... L'establiment d'un equilibri econòmic... La proclamació de la inexistència de privilegis... I l'Estat és qui el garanteix.'",
+        "question": "Quina comunitat autònoma es va constituir mitjançant l'article 144.a CE?",
         "answerOptions": [
-     {"text":"Els poders públics.","isCorrect":false,"rationale":"L'article 138.1 esmenta expressament 'L'Estat'."},
-     {"text":"El Poder Judicial.","isCorrect":false,"rationale":"No és la institució garant del principi de solidaritat."},
-     {"text":"L'Estat.","isCorrect":true,"rationale":"Article 138.1 CE:'L'Estat garanteix la realització efectiva del principi de solidaritat...'"},
-     {"text":"L'Administració Pública.","isCorrect":false,"rationale":"La garantia correspon a l'Estat com a poder públic general."}
-    ]
+     {"text":"La Comunitat de Madrid.","isCorrect":true,"rationale":"Correcte. L'article 144.a CE permet la constitució d'una CA quan l'àmbit territorial sigui igual o inferior al d'una província i manqui d'entitat regional històrica. Aquest supòsit només s'aplicà a Madrid (LO 6/82)."},
+     {"text":"La Rioja.","isCorrect":false,"rationale":"Incorrecte. La Rioja es va constituir per la via comuna de l'art. 143."},
+     {"text":"Cantàbria.","isCorrect":false,"rationale":"Incorrecte. Cantàbria va seguir la via de l'art. 143."},
+     {"text":"Navarra.","isCorrect":false,"rationale":"Incorrecte. Navarra es va constituir per l'amillorament del fur (LO 13/82)."}
+    ],
+        "hint": "Article 144.a CE: 'Les Corts Generals, mitjançant llei orgànica, per motius d'interès nacional, podran: a) Autoritzar la constitució d'una comunitat autònoma quan el seu àmbit territorial no superi el d'una província i no reuneixi les condicions de l'apartat 1 de l'article 143.' (Font: Apunts T08, apartat 8.1.3.1.B)"
     },
     {
-        "guid": "157b7f79-cb80-4e23-b1b7-e58a040e6227",
+        "guid": "280c33cb-97d8-4aad-81e8-24b6173560e3",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 3,
+        "origin": "deepseek",
         "type": "test",
-        "question": "La clàusula residual negativa d'atribució de competències establerta a l'article 149.3 de la Constitució, estableix que la competencia sobre les matèries que no s'hagin assumit:",
-        "hint": "Article 149.3 CE: 'La competència sobre les matèries que no s'hagin assumit pels Estatuts d'Autonomia correspondrà a l'Estat.' Cap de les opcions literals (les opcions parlaven de 'a les lleis estatals', 'als estatuts', 'a les lleis autonòmiques') és correcta, perquè la norma atribueix directament a l'Estat. Temari 8.4.2.2 C): 'L'Art. 149.3 CE conté una clàusula residual... les matèries no atribuïdes expressament a l'Estat podran correspondre a les CCAA si així s'estableix pels EAs; en cas que no siguin assumides, correspondran a l'Estat.'",
+        "question": "Quina particularitat presenta Navarra en el mapa autonòmic espanyol?",
         "answerOptions": [
-     {"text":"A les lleis estatals correspondrà a les Comunitats Autònomes.","isCorrect":false,"rationale":"És incorrecte:la competència sobre matèries no assumides correspon a l'Estat."},
-     {"text":"Als estatuts d'autonomia correspondrà a l'Estat.","isCorrect":false,"rationale":"Els estatuts no reben competència; la clàusula diu que la competència és de l'Estat."},
-     {"text":"A les lleis autonòmiques correspondrà a l'Estat.","isCorrect":false,"rationale":"No és una atribució a lleis,sinó a l'Estat com a titular."},
-     {"text":"Cap és correcta.","isCorrect":true,"rationale":"La redacció exacta de l'article 149.3 diu:'La competència sobre les matèries que no s'hagin assumit pels Estatuts d'Autonomia correspondrà a l'Estat'. No apareix cap de les opcions literalment."}
-    ]
+     {"text":"Es va constituir mitjançant la Llei Orgànica de Reintegració i Amillorament del Règim Foral (LO 13/1982),sense seguir estrictament les vies dels articles 143 o 151.","isCorrect":true,"rationale":"Correcte. Navarra es va acollir a la disposició addicional primera CE i a la seva pròpia tradició foral. No és una comunitat autònoma ordinària sinó una comunitat foral amb règim especial."},
+     {"text":"Navarra no té Estatut d'Autonomia,sinó un simple reglament intern.","isCorrect":false,"rationale":"Incorrecte. Té la Llei Orgànica 13/1982,que compleix la funció d'Estatut."},
+     {"text":"Navarra és una província amb autonomia però no comunitat autònoma.","isCorrect":false,"rationale":"Incorrecte. Es considera comunitat autònoma a efectes pràctics,però amb la denominació de 'Comunitat Foral'."},
+     {"text":"Navarra va intentar constituir-se per l'article 151 però va fracassar en el referèndum.","isCorrect":false,"rationale":"Incorrecte. Navarra no va intentar la via de l'article 151; es va optar pel respecte als furs."}
+    ],
+        "hint": "La disposició addicional primera CE respecta els drets històrics dels territoris forals. Navarra es va dotar de la 'Ley Orgánica de Reintegración y Amejoramiento del Régimen Foral de Navarra' (LO 13/1982). (Font: Apunts T08, apartat 8.1.3.2.C; CEF 2021, apartat 2, 5ª via)"
     },
     {
-        "guid": "f0de94f7-37b8-4fd9-96d7-d28b63843b40",
+        "guid": "c3187e7e-b6b0-4753-91fe-4357ed53a8c9",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 4,
+        "origin": "deepseek",
         "type": "test",
-        "question": "De conformitat amb l'article 150.2 de la Constitució, l'Estat podrà transferir o delegar a les Comunitats Autònomes facultats corresponents a una materia estatal mitjançant:",
-        "hint": "Article 150.2 CE: 'L'Estat podrà transferir o delegar a les Comunitats Autònomes, mitjançant llei orgànica, facultats corresponents a matèria de titularitat estatal.'\nTemari 8.4.4.3: 'El sistema de lleis de transferència i delegació (Art. 150.2 CE)... s'ha de fer per llei orgànica.'",
+        "question": "Quin procediment d'elaboració de l'Estatut d'Autonomia estableix l'article 151.2 CE per als territoris que accedeixen per la via reforçada?",
         "answerOptions": [
-     {"text":"Llei orgánica.","isCorrect":true,"rationale":"Article 150.2 CE:'mitjançant llei orgànica'."},
-     {"text":"Llei ordinària.","isCorrect":false,"rationale":"La Constitució exigeix llei orgànica per a aquesta transferència."},
-     {"text":"Reial decret llei.","isCorrect":false,"rationale":"No és l'instrument adequat,requereix llei orgànica."},
-     {"text":"Reial decret.","isCorrect":false,"rationale":"El Reial decret no té rang suficient per transferir competències estatals."}
-    ]
+     {"text":"El projecte s'elabora per una assemblea de parlamentaris,es discuteix amb la Comissió Constitucional del Congrés; si hi ha acord,es sotmet a referèndum i després a vot de ratificació de les Corts Generals.","isCorrect":true,"rationale":"Correcte. Aquest és el procediment especial de l'article 151.2 CE,que requereix referèndum i posterior ratificació per les Corts Generals sense possibilitat d'esmenes si l'acord és previ."},
+     {"text":"El projecte l'elabora directament el Govern i el tramita com a projecte de llei ordinària.","isCorrect":false,"rationale":"Incorrecte. L'article 151.2 preveu una assemblea de parlamentaris,no el Govern."},
+     {"text":"Només cal l'aprovació per majoria absoluta del Congrés,sense referèndum.","isCorrect":false,"rationale":"Incorrecte. El referèndum és obligatori en la via de l'art. 151 (a diferència de la via de l'art. 146)."},
+     {"text":"El projecte es presenta directament a les Corts Generals i,un cop aprovat,s'entén automàticament ratificat sense referèndum.","isCorrect":false,"rationale":"Incorrecte. L'article 151.2 exigeix referèndum en el territori afectat."}
+    ],
+        "hint": "Article 151.2 CE: 'El projecte d'Estatut serà elaborat per una assemblea composta pels membres de la Diputació o òrgan interinsular de les províncies afectades i pels Diputats i Senadors escollits en elles, i serà elevat a les Corts Generals per a la seva tramitació com a llei. (...) Si hi ha acord, el text resultant serà sotmès a referèndum (...) i si és aprovat, serà remès a les Corts Generals per a la seva ratificació.' (Font: Apunts T08, apartat 8.1.3.3.B)"
     },
     {
-        "guid": "cce93b7c-3d48-488c-866e-18a677abd434",
+        "guid": "1275b823-1c4a-4399-8847-ffeb84d6f991",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 2,
+        "origin": "deepseek",
         "type": "test",
-        "question": "Segons l'article 150.3 de la Constitució, l'Estat podrà dictar lleis d'harmonització sempre que ho demani l'interès general i correspon apreciar aquesta necessitat a:",
-        "hint": "Article 150.3 CE: 'L'Estat podrà dictar lleis que estableixin els principis necessaris per a harmonitzar les disposicions normatives de les Comunitats Autònomes, fins i tot en el cas de matèries atribuïdes a la competència d'aquestes, quan així ho exigeixi l'interès general. Correspon a les Corts Generals, per majoria absoluta de cada Cambra, apreciar aquesta necessitat.'\nTemari 8.4.4.2: 'Es tracta de lleis estatals ordinàries... per a l'aprovació cal, prèviament, l'apreciació d'un motiu d'interès general per majoria absoluta d'ambdues cambres.'",
+        "question": "Què són els Estatuts d'Autonomia segons l'article 147 CE?",
         "answerOptions": [
-     {"text":"Les Corts Generals per majoria absoluta de cada cambra.","isCorrect":true,"rationale":"Article 150.3 CE:'Correspon a les Corts Generals,per majoria absoluta de cada Cambra,apreciar aquesta necessitat'."},
-     {"text":"El Congrés per majoria de 2/3 parts.","isCorrect":false,"rationale":"No és la majoria requerida; és majoria absoluta de cada cambra."},
-     {"text":"El Senat per majoria absoluta.","isCorrect":false,"rationale":"Cal la majoria absoluta de les dues cambres,no només del Senat."},
-     {"text":"El President del Govern.","isCorrect":false,"rationale":"La decisió correspon a les Corts Generals,no al President."}
-    ]
+     {"text":"La norma institucional bàsica de cada Comunitat Autònoma,que l'Estat reconeix i empara com a part integrant del seu ordenament jurídic.","isCorrect":true,"rationale":"Correcte. L'article 147.1 CE estableix aquesta definició."},
+     {"text":"Un tractat entre l'Estat i la Comunitat Autònoma que no requereix aprovació de les Corts.","isCorrect":false,"rationale":"Incorrecte. No són tractats sinó lleis orgàniques aprovades per les Corts Generals."},
+     {"text":"Un reglament intern de la Comunitat Autònoma,aprovat pel seu parlament.","isCorrect":false,"rationale":"Incorrecte. Tenen rang de llei orgànica,no de reglament."},
+     {"text":"Un conjunt de costums i tradicions sense valor normatiu escrit.","isCorrect":false,"rationale":"Incorrecte. Els estatuts són normes escrites i amb força vinculant."}
+    ],
+        "hint": "Article 147.1 CE: 'Els Estatuts d'Autonomia són la norma institucional bàsica de cada Comunitat Autònoma i l'Estat els reconeix i empara com a part integrant del seu ordenament jurídic.' (Font: Apunts T08, apartat 8.2.1; CEF 2021, apartat 3)"
     },
     {
-        "guid": "4e1276a4-8632-47c5-9cdd-359015e2d94c",
+        "guid": "354c018b-d5f6-4f44-a281-a65014381dc1",
         "subjectId": "T08",
-        "difficulty": 1,
-        "origin": "CEF-2021",
+        "difficulty": 2,
+        "origin": "deepseek",
         "type": "test",
-        "question": "Les Comunitats Autònomes no tenen competència, per estar atribuïda exclusivament a l'Estat, en matèria de:",
-        "hint": "Article 149.1.4 CE: 'L'Estat té competència exclusiva sobre Defensa i Forces Armades.'\nTemari 8.4.2.2 B) COMPETÈNCIES DERIVADES DE L'ART. 149.1 CE: 'Hi ha matèries atribuïdes a l'Estat en la seva totalitat, com ara Defensa i Forces Armades.' Assistència social (art. 148.1.20a), organització d'institucions d'autogovern (art. 148.1.1) i sanitat (competència compartida) sí que són o poden ser competència autonòmica.",
+        "question": "Quin és el contingut mínim que ha de tenir tot Estatut d'Autonomia segons l'article 147.2 CE?",
         "answerOptions": [
-     {"text":"Assistència social.","isCorrect":false,"rationale":"L'assistència social pot ser assumida per les CCAA (art. 148.1.20a)."},
-     {"text":"Organització de les seves institucions d'autogovern.","isCorrect":false,"rationale":"És competència exclusiva de les CCAA (art. 148.1.1)."},
-     {"text":"Defensa i Forces Armades.","isCorrect":true,"rationale":"Article 149.1.4 CE:'Defensa i Forces Armades' és competència exclusiva de l'Estat."},
-     {"text":"Sanitat i higiene.","isCorrect":false,"rationale":"La sanitat és una competència compartida (bases estatals i desenvolupament autonòmic)."}
-    ]
+     {"text":"La denominació de la Comunitat,la delimitació del seu territori,la denominació i organització de les institucions autonòmiques,i les competències assumides.","isCorrect":true,"rationale":"Correcte. Aquests són els quatre apartats de l'article 147.2 CE."},
+     {"text":"Només la llista de competències i el pressupost anual.","isCorrect":false,"rationale":"Incorrecte. L'article 147.2 exigeix també denominació,territori i institucions."},
+     {"text":"Els símbols de la comunitat,la capitalitat i el règim electoral.","isCorrect":false,"rationale":"Incorrecte. No són contingut mínim exigit per la CE,tot i que poden incloure's."},
+     {"text":"La declaració de drets fonamentals específics per als ciutadans de la comunitat.","isCorrect":false,"rationale":"Incorrecte. Els drets fonamentals són competència exclusiva de l'Estat (art. 149.1.1a)."}
+    ],
+        "hint": "Article 147.2 CE: 'Els Estatuts d'Autonomia hauran de contenir: a) La denominació de la Comunitat que millor respongui a la seva identitat històrica. b) La delimitació del seu territori. c) La denominació, organització i seu de les institucions autonòmiques pròpies. d) Les competències assumides dins el marc establert per la Constitució i les bases per al traspàs dels serveis corresponents.' (Font: Apunts T08, apartat 8.2.2; CEF 2021, apartat 3)"
     },
     {
-        "guid": "c4f25b74-5ea4-4307-96ee-98508dbc368d",
+        "guid": "6b39e7b9-4fbc-4d33-8029-7c92010fd0d1",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Com es reformen els Estatuts d'Autonomia?",
+        "answerOptions": [
+     {"text":"Segons el procediment establert al propi Estatut i amb aprovació final de les Corts Generals com a Llei Orgànica.","isCorrect":true,"rationale":"Correcte. L'article 147.3 CE ho estableix. A més,per a les comunitats de l'article 151,pot requerir referèndum."},
+     {"text":"Mitjançant una llei ordinària del Parlament autonòmic,sense intervenció de l'Estat.","isCorrect":false,"rationale":"Incorrecte. La reforma requereix Llei Orgànica de les Corts Generals."},
+     {"text":"Només per referèndum convocat pel President de la Comunitat.","isCorrect":false,"rationale":"Incorrecte. El referèndum pot ser necessari en alguns casos,però la llei orgànica és sempre exigible."},
+     {"text":"Per decisió del Tribunal Constitucional si ho sol·licita el Govern.","isCorrect":false,"rationale":"Incorrecte. El TC no reforma estatuts,només en controla la constitucionalitat."}
+    ],
+        "hint": "Article 147.3 CE: 'La reforma dels Estatuts d'Autonomia s'ajustarà al procediment establert en els mateixos i requerirà, en tot cas, l'aprovació per les Corts Generals mitjançant llei orgànica.' (Font: Apunts T08, apartat 8.2.3; CEF 2021, apartat 3)"
+    },
+    {
+        "guid": "63527de5-6592-4223-9290-22ee447a3100",
         "subjectId": "T08",
         "difficulty": 1,
-        "origin": "CEF-2021",
+        "origin": "deepseek",
         "type": "test",
-        "question": "De conformitat amb l'article 150 de la Constitució, en matèries de competència estatal, qui podrà atribuir a les Comunitats Autònomes la facultad de dictar normes legislatives en el marc fixat per una llei estatal?:",
-        "hint": "Article 150.1 CE: 'Les Corts Generals, en matèries de competència estatal, podran atribuir a totes o a alguna de les Comunitats Autònomes la facultat de dictar, per a si mateixes, normes legislatives en el marc dels principis, bases i directrius fixats per una llei estatal.'\nTemari 8.4.4.1: 'El sistema de lleis marc (Art. 150.1 CE)... es fa a través d'una llei estatal ordinària aprovada per les Corts Generals.'",
+        "question": "Quin tipus d'Assemblea Legislativa tenen totes les Comunitats Autònomes?",
         "answerOptions": [
-     {"text":"El Congrés.","isCorrect":false,"rationale":"L'article 150.1 parla de 'Les Corts Generals' en el seu conjunt."},
-     {"text":"El Senat.","isCorrect":false,"rationale":"No és només el Senat,sinó les dues cambres."},
-     {"text":"El President del Govern.","isCorrect":false,"rationale":"Correspon al poder legislatiu,no a l'executiu."},
-     {"text":"Les Corts Generals.","isCorrect":true,"rationale":"Article 150.1 CE:'Les Corts Generals ... podran atribuir a totes o a alguna de les Comunitats Autònomes la facultat de dictar normes legislatives'."}
-    ]
+     {"text":"Unicameral.","isCorrect":true,"rationale":"Correcte. Tots els parlaments autonòmics són unicamerals (una sola cambra)."},
+     {"text":"Bicameral (consell i assemblea).","isCorrect":false,"rationale":"Incorrecte. Cap comunitat autònoma té bicameralisme; només les Corts Generals són bicamerals."},
+     {"text":"Tricameral (ple,comissions i consell de garanties).","isCorrect":false,"rationale":"Incorrecte. No existeix aquesta estructura."},
+     {"text":"Depèn de l'Estatut,n'hi ha d'ambdues classes.","isCorrect":false,"rationale":"Incorrecte. Totes les CCAA han optat per l'unicameralisme."}
+    ],
+        "hint": "L'Assemblea Legislativa de les Comunitats Autònomes és un parlament unicameral (així ho han entès tots els EAs en interpretació de l'article 152.1 CE). (Font: Apunts T08, apartat 8.3.2.1)"
+    },
+    {
+        "guid": "857ecc96-d4e2-4aff-97d7-ff3fe0f8593a",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la duració del mandat de les assemblees legislatives autonòmiques?",
+        "answerOptions": [
+     {"text":"4 anys.","isCorrect":true,"rationale":"Correcte. El mandat és de quatre anys,igual que el Congrés dels Diputats."},
+     {"text":"5 anys.","isCorrect":false,"rationale":"Incorrecte. El Senat té 4 anys,però les autonòmiques també 4."},
+     {"text":"6 anys.","isCorrect":false,"rationale":"Incorrecte. Cap parlament a Espanya té mandat de 6 anys."},
+     {"text":"Indefinit,dissolible només pel President.","isCorrect":false,"rationale":"Incorrecte. El mandat és de 4 anys,encara que el president pugui dissoldre anticipadament."}
+    ],
+        "hint": "El mandat d'aquests parlaments és de 4 anys. (Font: Apunts T08, apartat 8.3.2.1)"
+    },
+    {
+        "guid": "adce4236-5c8c-4843-84bf-d45f95b1bcbf",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quines funcions corresponen a l'Assemblea Legislativa autonòmica?",
+        "answerOptions": [
+     {"text":"Legislar,aprovar pressupostos,elegir el president,controlar el consell de govern,designar senadors,i interposar recurs d'inconstitucionalitat.","isCorrect":true,"rationale":"Correcte. Són funcions similars a les de les Corts Generals,en l'àmbit autonòmic."},
+     {"text":"Només legislar,la resta de funcions corresponen al Consell de Govern.","isCorrect":false,"rationale":"Incorrecte. L'assemblea té funcions de control i pressupostàries."},
+     {"text":"Controlar el Govern central i nomenar el President del Govern estatal.","isCorrect":false,"rationale":"Incorrecte. Això correspon al Congrés dels Diputats."},
+     {"text":"Ratificar tractats internacionals i declarar la guerra.","isCorrect":false,"rationale":"Incorrecte. Són competències exclusives de l'Estat."}
+    ],
+        "hint": "Les funcions de l'assemblea legislativa autonòmica inclouen la legislativa, pressupostària, l'elecció del president, el control al president i consell de govern, la designació dels senadors autonòmics, la iniciativa legislativa estatal, la iniciativa de reforma constitucional i la interposició del recurs d'inconstitucionalitat. (Font: Apunts T08, apartat 8.3.2.1)"
+    },
+    {
+        "guid": "8958e1db-cb2f-46c9-a9a3-96132060392a",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quin triple caràcter té el President de la Comunitat Autònoma?",
+        "answerOptions": [
+     {"text":"Representant suprem de la Comunitat,representant ordinari de l'Estat a la Comunitat,i cap del govern autonòmic.","isCorrect":true,"rationale":"Correcte. Aquesta és la definició clàssica del president autonòmic."},
+     {"text":"President del Parlament,cap de l'oposició i delegat del Govern.","isCorrect":false,"rationale":"Incorrecte. Són funcions diferents; el president no és cap de l'oposició ni delegat del Govern."},
+     {"text":"Cap de l'Estat a la comunitat,president del Tribunal Superior i alcalde de la capital.","isCorrect":false,"rationale":"Incorrecte. No acumula aquests càrrecs."},
+     {"text":"President de la Diputació,president del Consell de Govern i delegat del Govern.","isCorrect":false,"rationale":"Incorrecte. El president autonòmic no és president de la diputació (òrgan local)."}
+    ],
+        "hint": "La figura del President de la Comunitat Autònoma té un triple caràcter: és el representant suprem de la Comunitat Autònoma, és representant ordinari de l'Estat a la Comunitat Autònoma, i és el cap del govern a la Comunitat Autònoma. (Font: Apunts T08, apartat 8.3.2.2.A)"
+    },
+    {
+        "guid": "385e27f6-2b71-405e-8952-466084551ad7",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Qui nomena el President d'una Comunitat Autònoma?",
+        "answerOptions": [
+     {"text":"El Rei,a proposta de l'Assemblea Legislativa,després de la seva elecció per aquesta.","isCorrect":true,"rationale":"Correcte. El president és elegit per l'assemblea entre els seus membres (requisit explícit per a CA de l'art. 151) i nomenat pel Rei mitjançant reial decret."},
+     {"text":"El President del Govern estatal,per decret lliure.","isCorrect":false,"rationale":"Incorrecte. No intervé el President del Govern en el nomenament dels presidents autonòmics."},
+     {"text":"El Tribunal Superior de Justícia de la Comunitat.","isCorrect":false,"rationale":"Incorrecte. El poder judicial no intervé."},
+     {"text":"El Delegat del Govern a la Comunitat.","isCorrect":false,"rationale":"Incorrecte. El delegat és un òrgan de l'administració perifèrica,no té funcions de nomenament del president."}
+    ],
+        "hint": "El President de la Comunitat Autònoma és triat per l'Assemblea Legislativa, d'entre els seus membres, i nomenat pel Rei (acte degut). (Font: Apunts T08, apartat 8.3.2.2.A)"
+    },
+    {
+        "guid": "476cc15e-6cad-4fae-9a63-dadf3427eefe",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Davant de quin òrgan judicial és exigible la responsabilitat penal i civil del President d'una Comunitat Autònoma?",
+        "answerOptions": [
+     {"text":"Davant el Tribunal Superior de Justícia de la respectiva Comunitat Autònoma.","isCorrect":true,"rationale":"Correcte. Així ho estableixen els Estatuts d'Autonomia i la Llei Orgànica del Poder Judicial."},
+     {"text":"Davant el Tribunal Suprem.","isCorrect":false,"rationale":"Incorrecte. El Tribunal Suprem només coneix de la responsabilitat penal del President del Govern i dels ministres,no dels presidents autonòmics (excepte aforaments especials)."},
+     {"text":"Davant el Tribunal Constitucional.","isCorrect":false,"rationale":"Incorrecte. El TC no té jurisdicció penal."},
+     {"text":"Davant el Jutjat de Primera Instància de la capital.","isCorrect":false,"rationale":"Incorrecte. Per aforament,correspon al TSJ."}
+    ],
+        "hint": "La responsabilitat penal i civil del President podrà ser exigida davant el Tribunal Superior de Justícia de la respectiva Comunitat Autònoma. (Font: Apunts T08, apartat 8.3.2.2.A)"
+    },
+    {
+        "guid": "c9f15829-c95c-49fa-bfec-57060f27287b",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Qui és el Delegat del Govern a una Comunitat Autònoma i de qui depèn?",
+        "answerOptions": [
+     {"text":"És un òrgan de l'administració perifèrica de l'Estat,depèn del President del Govern i rep instruccions dels Ministeris.","isCorrect":true,"rationale":"Correcte. L'article 154 CE i la Llei 40/2015 defineixen el Delegat del Govern com a representant del Govern central a la CA,dependent del President del Govern."},
+     {"text":"Depèn del President de la Comunitat Autònoma i coordina l'administració autonòmica.","isCorrect":false,"rationale":"Incorrecte. El delegat depèn de l'Estat,no de la CA."},
+     {"text":"És nomenat pel President de la Comunitat Autònoma,per coordinar les polítiques autonòmiques amb l'Estat.","isCorrect":false,"rationale":"Incorrecte. El nomenament correspon al Govern central per Reial Decret."},
+     {"text":"És el cap de la policia autonòmica i depèn del Ministeri de l'Interior.","isCorrect":false,"rationale":"Incorrecte. No és cap de policia,sinó representant del Govern."}
+    ],
+        "hint": "El Delegat del Govern a la Comunitat Autònoma depèn del President del Govern de l'Estat i rep instruccions dels diferents Ministeris per tal de coordinar l'actuació de l'Administració de l'Estat amb la de la Comunitat Autònoma. (Font: Apunts T08, apartat 8.3.2.3)"
+    },
+    {
+        "guid": "ea12c44f-33a8-4489-b71a-5fd7a466e046",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la màxima instància judicial dins d'una Comunitat Autònoma?",
+        "answerOptions": [
+     {"text":"El Tribunal Superior de Justícia (TSJ) de la Comunitat Autònoma.","isCorrect":true,"rationale":"Correcte. L'article 152.1 CE i la LOPJ estableixen que el TSJ culmina l'organització judicial a la CA,sense perjudici de la unitat del poder judicial."},
+     {"text":"El Tribunal Constitucional autonòmic.","isCorrect":false,"rationale":"Incorrecte. No existeix un TC autonòmic; el control de constitucionalitat és únic del TC estatal."},
+     {"text":"L'Audiència Provincial.","isCorrect":false,"rationale":"Incorrecte. L'Audiència Provincial és un òrgan dins del TSJ,però no és la màxima instància a la CA."},
+     {"text":"El Tribunal Suprem,que té seu a Madrid però actua territorialment.","isCorrect":false,"rationale":"Incorrecte. El TS és superior als TSJ,però no està dins de cada CA; la màxima instància 'dins' la CA és el TSJ."}
+    ],
+        "hint": "L'organització judicial de les Comunitats Autònomes culmina en els Tribunals Superiors de Justícia, en els quals s'esgoten les successives instàncies processals. (Font: Apunts T08, apartat 8.3.2.4; article 152 CE)"
+    },
+    {
+        "guid": "946db0fd-4e4b-45ca-8ab6-2f58d98d5316",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la funció del Fons de Compensació previst a l'article 158.2 CE?",
+        "answerOptions": [
+     {"text":"Corregir els desequilibris econòmics interterritorials i fer efectiu el principi de solidaritat.","isCorrect":true,"rationale":"Correcte. El Fons de Compensació és un instrument financer per redistribuir recursos i garantir l'equilibri entre territoris."},
+     {"text":"Finançar les despeses corrents de les Comunitats Autònomes sense cap condició.","isCorrect":false,"rationale":"Incorrecte. El fons es destina a inversions per corregir desequilibris,no a despesa corrent."},
+     {"text":"Premiar les comunitats que més creixement econòmic tenen.","isCorrect":false,"rationale":"Incorrecte. El fons té finalitat correctora (ajuda a les menys desenvolupades),no premi."},
+     {"text":"Substituir el sistema de finançament autonòmic general.","isCorrect":false,"rationale":"Incorrecte. El Fons de Compensació és complementari al sistema de finançament."}
+    ],
+        "hint": "L'article 158.2 CE preveu l'existència d'un Fons de Compensació per a corregir els desequilibris econòmics interterritorials. (Font: Apunts T08, apartat 8.1.2.4)"
+    },
+    {
+        "guid": "d9e43c35-c054-40a7-9981-3e00e219c698",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què és el principi dispositiu en l'Estat autonòmic?",
+        "answerOptions": [
+     {"text":"La capacitat de les entitats territorials per a proposar i decidir (conjuntament) la creació i modificació del seu propi autogovern,dins del marc constitucional.","isCorrect":true,"rationale":"Correcte. El principi dispositiu significa que la Constitució no tanca el mapa autonòmic sinó que el deixa obert a la voluntat dels territoris,subjecte a procediments."},
+     {"text":"La facultat de l'Estat per dissoldre unilateralment una Comunitat Autònoma.","isCorrect":false,"rationale":"Incorrecte. No existeix aquesta facultat; el procediment de l'article 155 requereix controls."},
+     {"text":"La possibilitat que les Comunitats Autònomes modifiquin la Constitució sense intervenció estatal.","isCorrect":false,"rationale":"Incorrecte. La reforma constitucional és competència exclusiva de les Corts Generals."},
+     {"text":"L'obligació de l'Estat de consultar les Comunitats Autònomes abans de dictar qualsevol llei.","isCorrect":false,"rationale":"Incorrecte. No és un principi general; existeixen òrgans de cooperació però no és un deure universal."}
+    ],
+        "hint": "El model d'Estat de la CE és certament i deliberada indefinit, la qual cosa proclama el seu caràcter obert. Això és el conegut com a principi dispositiu, segons el qual es confereix a les entitats territorials una capacitat per a proposar i decidir (conjuntament) la creació i modificació del seu propi autogovern. (Font: Apunts T08, apartat 8.1.2.1)"
+    },
+    {
+        "guid": "24fd7e59-b20c-4ab1-8289-c89461315a4e",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Segons la jurisprudència constitucional, un Estatut d'Autonomia pot anomenar 'nació' a la comunitat?",
+        "answerOptions": [
+     {"text":"Pot fer-ho en el preàmbul o en parts sense efectes jurídics,però el Tribunal Constitucional considera que en sentit jurídic constitucional només hi ha una nació,l'espanyola,titular de la sobirania.","isCorrect":true,"rationale":"Correcte. Aquesta és la doctrina de la STC 31/2010 (sobre l'Estatut de Catalunya de 2006). El terme 'nació' en el preàmbul no té eficàcia jurídica interpretativa."},
+     {"text":"No pot utilitzar el terme 'nació' en cap cas,ni tan sols en el preàmbul,perquè és inconstitucional.","isCorrect":false,"rationale":"Incorrecte. El TC va admetre la presència de 'nació' al preàmbul perquè no té valor jurídic vinculant. Si aparegués en un article,seria inconstitucional."},
+     {"text":"Pot utilitzar lliurement el terme 'nació' perquè l'article 2 CE reconeix nacionalitats.","isCorrect":false,"rationale":"Incorrecte. La CE distingeix entre 'nacionalitat' (concepte sociològic) i 'nació' (titular de sobirania). El TC exclou aquest darrer per a les CCAA."},
+     {"text":"Només poden usar el terme 'nació' les comunitats amb llengua pròpia.","isCorrect":false,"rationale":"Incorrecte. No hi ha aquesta vinculació."}
+    ],
+        "hint": "El TC considera que en un sentit jurídic constitucional només hi ha una nació, l'espanyola, que és l'única titular de la sobirania. Les reformes estatutàries que han volgut implantar la denominació 'nació' han fracassat o s'han traslladat a parts sense eficàcia jurídica com el preàmbul. (Font: Apunts T08, apartat 8.1.2.3.C; STC 31/2010)"
+    },
+    {
+        "guid": "2c054bc8-b023-4b95-9695-a2fdb02308c1",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quin òrgan controla la constitucionalitat de les disposicions normatives amb rang de llei de les Comunitats Autònomes?",
+        "answerOptions": [
+     {"text":"El Tribunal Constitucional.","isCorrect":true,"rationale":"Correcte. L'article 153.a CE atribueix al TC el control de constitucionalitat de les disposicions normatives amb força de llei de les CCAA."},
+     {"text":"El Tribunal Suprem,en Sala Contenciosa-Administrativa.","isCorrect":false,"rationale":"Incorrecte. El TS controla reglaments (art. 153.c) i actes,però no lleis autonòmiques."},
+     {"text":"El Govern,amb dictamen del Consell d'Estat.","isCorrect":false,"rationale":"Incorrecte. El Govern controla les funcions delegades (art. 150.2),no la constitucionalitat de les lleis."},
+     {"text":"El Tribunal de Comptes.","isCorrect":false,"rationale":"Incorrecte. El Tribunal de Comptes fa control econòmic i pressupostari (art. 153.d)."}
+    ],
+        "hint": "L'article 153 CE estableix que el control de l'activitat dels òrgans de les Comunitats Autònomes s'exercirà: a) Pel Tribunal Constitucional, el relatiu a la constitucionalitat de les seves disposicions normatives amb força de llei. (Font: Apunts T08, apartat 8.3.3; CEF 2021, apartat 6)"
+    },
+    {
+        "guid": "aa0d09ac-88e4-4500-b10f-3dd4166fc198",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què preveu l'article 155 CE per al cas que una Comunitat Autònoma incompleixi les seves obligacions o atempti greument a l'interès general d'Espanya?",
+        "answerOptions": [
+     {"text":"El Govern,després de requerir el president de la CA i amb autorització del Senat per majoria absoluta,pot adoptar mesures forçoses,incloent donar instruccions a totes les autoritats autonòmiques.","isCorrect":true,"rationale":"Correcte. Aquest és el procediment de coerció estatal previst a l'article 155 CE,mai aplicat fins al cas català de 2017."},
+     {"text":"L'Estat pot dissoldre immediatament el parlament autonòmic i convocar eleccions sense cap requeriment previ.","isCorrect":false,"rationale":"Incorrecte. L'article 155 no preveu la dissolució directa; les mesures han de ser proporcionades i aprovades pel Senat."},
+     {"text":"Correspon al Tribunal Constitucional suspendre l'autonomia i nomenar un gestor provisional.","isCorrect":false,"rationale":"Incorrecte. El TC no té aquesta funció; pot suspendre disposicions (art. 161.2) però no assumir el govern."},
+     {"text":"El Govern pot aplicar l'article 155 sense necessitat de majoria del Senat si ho considera urgent.","isCorrect":false,"rationale":"Incorrecte. La majoria absoluta del Senat és un requisit constitucional inexcusable."}
+    ],
+        "hint": "Article 155.1 CE: 'Si una Comunitat Autònoma no complís les obligacions que la Constitució o altres lleis li imposin, o actués de forma que atemptés greument a l'interès general d'Espanya, el Govern, previ requeriment al President de la Comunitat Autònoma, i en el cas de no ser atès, amb l'aprovació per majoria absoluta del Senat, podrà adoptar les mesures necessàries per obligar-la al compliment forçós ... Per a l'execució d'aquestes mesures, el Govern podrà donar instruccions a totes les autoritats de les Comunitats Autònomes.' (Font: Apunts T08, apartat 8.3.3; CEF 2021, apartat 6)"
+    },
+    {
+        "guid": "b006895c-b5ff-446b-8355-e47f4dfb0d31",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què són les competències exclusives absolutes o integrals de l'Estat?",
+        "answerOptions": [
+     {"text":"Matèries que corresponen a la pròpia essència de l'Estat i sobre les quals les Comunitats Autònomes no poden assumir cap tipus de competència,ni tan sols per via extraestatutària.","isCorrect":true,"rationale":"Correcte. Per exemple,relacions internacionals,defensa,nacionalitat. Són matèries de l'article 149.1 CE on la reserva és total."},
+     {"text":"Matèries que l'Estat pot transferir lliurement a les CCAA mitjançant llei ordinària.","isCorrect":false,"rationale":"Incorrecte. Les 'absolutes' no es poden transferir; les relatives sí que poden ser objecte de delegació (art. 150.2)."},
+     {"text":"Competències que pertanyen a les CCAA però que l'Estat pot exercir supletòriament.","isCorrect":false,"rationale":"Incorrecte. Això és la supletorietat,no l'exclusiva absoluta."},
+     {"text":"Competències que requereixen llei orgànica per al seu exercici.","isCorrect":false,"rationale":"Incorrecte. Moltes competències estatals es regulen per llei ordinària; no és aquest el criteri."}
+    ],
+        "hint": "Les competències exclusives absolutes són aquelles sobre les que, per correspondre a la pròpia essència de l'Estat, les Comunitats Autònomes no poden assumir cap tipus de competència, ni tan sols per via extraestatutària (art. 150 CE). (Font: Apunts T08, apartat 8.4.2.1)"
+    },
+    {
+        "guid": "2e9e1118-177b-47ed-aa01-12008bf078ef",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la diferència entre la clàusula de prevalença (art. 149.3 CE) i el principi de supletorietat?",
+        "answerOptions": [
+     {"text":"La prevalença resol conflictes entre normes coexistents (preferència aplicativa),mentre que la supletorietat omple llacunes en absència de norma autonòmica.","isCorrect":true,"rationale":"Correcte. La prevalença és una regla de conflicte (quan dues normes discrepen,s'aplica l'estatal si no és competència exclusiva autonòmica). La supletorietat supleix l'absència de regulació autonòmica,sempre que l'Estat tingui títol competencial."},
+     {"text":"Són sinònims; ambdues signifiquen que la norma estatal sempre deroga la norma autonòmica.","isCorrect":false,"rationale":"Incorrecte. No són sinònims i la prevalença no és una derogació automàtica."},
+     {"text":"La supletorietat només s'aplica en matèries de competència exclusiva estatal,i la prevalença en matèries compartides.","isCorrect":false,"rationale":"Incorrecte. La supletorietat pot operar en qualsevol matèria on la CA no hagi legislat,però l'Estat ha de tenir competència."},
+     {"text":"La prevalença la decideix el Tribunal Constitucional,mentre que la supletorietat l'apliquen els jutges ordinàriament.","isCorrect":false,"rationale":"Incorrecte. Ambdues poden ser aplicades pels jutges,però davant dubte de constitucionalitat han de plantejar qüestió d'inconstitucionalitat."}
+    ],
+        "hint": "Article 149.3 CE: 'Les normes de l'Estat prevaldran, en cas de conflicte, sobre les de les Comunitats Autònomes en tot allò que no estigui atribuït a l'exclusiva competència d'aquestes. El dret estatal serà, en tot cas, supletori del dret de les Comunitats Autònomes.' La prevalença és norma de conflicte; la supletorietat, norma d'integració de llacunes. (Font: Apunts T08, apartats 8.4.2.1 i 8.4.5; CEF 2021, apartat 4)"
+    },
+    {
+        "guid": "a2a5bf47-f67e-4cc4-b703-332c57705bab",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què són les lleis marc (art. 150.1 CE)?",
+        "answerOptions": [
+     {"text":"Lleis estatals ordinàries que atribueixen a les Comunitats Autònomes la facultat de dictar normes legislatives dins dels principis,bases i directrius fixats per la llei,en matèries de competència estatal.","isCorrect":true,"rationale":"Correcte. L'article 150.1 CE permet aquesta tècnica de descentralització 'extraestatutària'."},
+     {"text":"Lleis orgàniques que transfereixen competències estatals a les CCAA amb caràcter irreversible.","isCorrect":false,"rationale":"Incorrecte. La transferència de competències es fa per llei orgànica (art. 150.2),no per llei marc. A més,la llei marc és ordinària."},
+     {"text":"Lleis d'harmonització que unifiquen disposicions autonòmiques divergents.","isCorrect":false,"rationale":"Incorrecte. Les lleis d'harmonització són l'article 150.3 CE,diferents de les lleis marc."},
+     {"text":"Lleis que estableixen els principis bàsics de la hisenda autonòmica.","isCorrect":false,"rationale":"Incorrecte. La hisenda autonòmica es regula per Llei Orgànica de Finançament de les Comunitats Autònomes (LOFCA)."}
+    ],
+        "hint": "Article 150.1 CE: 'Les Corts Generals, en matèries de competència estatal, podran atribuir a totes o a alguna de les Comunitats Autònomes la facultat de dictar normes legislatives en el marc dels principis, bases i directrius fixats per una llei estatal.' (Font: Apunts T08, apartat 8.4.4.1; CEF 2021, apartat 5)"
+    },
+    {
+        "guid": "6e4a885a-750b-4a0f-a0ee-299d35df98f4",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quins requisits addicionals exigeix l'article 150.3 CE per a les lleis d'harmonització respecte d'una llei ordinària?",
+        "answerOptions": [
+     {"text":"L'apreciació de la necessitat d'harmonització per interès general,per majoria absoluta de cada cambra de les Corts Generals.","isCorrect":true,"rationale":"Correcte. L'article 150.3 CE exigeix que l'interès general sigui apreciat per majoria absoluta del Congrés i del Senat. Malgrat això,la llei resultant és ordinària."},
+     {"text":"Que siguin aprovades per majoria qualificada de 2/3 de cada cambra i referèndum posterior.","isCorrect":false,"rationale":"Incorrecte. No requereixen referèndum ni majoria qualificada,sinó majoria absoluta per apreciar l'interès general."},
+     {"text":"Que el Govern suspengui prèviament les normes autonòmiques que es volen harmonitzar.","isCorrect":false,"rationale":"Incorrecte. Això és l'article 161.2 CE,que permet la suspensió unilateral pel Govern."},
+     {"text":"Que les Corts Generals decideixin per majoria simple,però amb informe previ del Consell d'Estat.","isCorrect":false,"rationale":"Incorrecte. La majoria absoluta és exigida per la Constitució."}
+    ],
+        "hint": "Article 150.3 CE: 'L'Estat podrà dictar lleis que estableixin els principis necessaris per harmonitzar les disposicions normatives de les Comunitats Autònomes, fins i tot en el cas de matèries atribuïdes a la seva competència, quan ho demani l'interès general. Correspon a les Corts Generals, per majoria absoluta de cada cambra, l'apreciació d'aquesta necessitat.' (Font: Apunts T08, apartat 8.4.4.2; CEF 2021, apartat 4)"
+    },
+    {
+        "guid": "dcd25945-f78e-4dce-b3f4-c95866306b1d",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quin tipus de llei s'ha d'utilitzar per transferir o delegar facultats de l'Estat a una Comunitat Autònoma segons l'article 150.2 CE?",
+        "answerOptions": [
+     {"text":"Llei orgànica.","isCorrect":true,"rationale":"Correcte. L'article 150.2 CE requereix llei orgànica per a la transferència o delegació de facultats estatals a les CCAA. A més,ha de preveure els mitjans financers i les formes de control."},
+     {"text":"Llei ordinària,perquè el procediment és el mateix que el de les lleis marc.","isCorrect":false,"rationale":"Incorrecte. Les lleis marc són ordinàries (art. 150.1),però les de transferència/delegació (art. 150.2) exigeixen llei orgànica."},
+     {"text":"Reial decret llei,per raons d'urgència.","isCorrect":false,"rationale":"Incorrecte. Un reial decret llei no pot regular aquesta matèria perquè afecta el repartiment competencial i requereix llei orgànica."},
+     {"text":"Decret legislatiu del Govern,prèvia habilitació de les Corts.","isCorrect":false,"rationale":"Incorrecte. La delegació legislativa no pot alterar l'ordre competencial."}
+    ],
+        "hint": "Article 150.2 CE: 'L'Estat podrà transferir o delegar a les Comunitats Autònomes, mitjançant llei orgànica, facultats corresponents a matèries de titularitat estatal que per la seva naturalesa siguin susceptibles de transferència o delegació.' (Font: Apunts T08, apartat 8.4.4.3; CEF 2021, apartat 5)"
+    },
+    {
+        "guid": "3c025331-74c4-42f8-9257-536b3b0faf02",
+        "subjectId": "T08",
+        "difficulty": 5,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Segons el Tribunal Constitucional, pot l'Estat dictar normes bàsiques mitjançant reglament en matèries compartides?",
+        "answerOptions": [
+     {"text":"Sí,de manera complementària i excepcional,sempre que el reglament indiqui expressament la seva naturalesa bàsica o sigui indispensable per a l'eficàcia de la llei bàsica.","isCorrect":true,"rationale":"Correcte. El TC ha admès que,excepcionalment,el Govern pugui regular aspectes bàsics mitjançant Reial Decret,sempre que hi hagi habilitació legal o sigui complement indispensable de la llei bàsica."},
+     {"text":"No,mai,perquè la noció de bases requereix llei formal per garantir el control parlamentari.","isCorrect":false,"rationale":"Incorrecte. La jurisprudència admet reglaments bàsics en casos concrets (ex.:reglaments organitzatius o tècnics)."},
+     {"text":"Sí,sense cap limitació,ja que el Govern té potestat reglamentària originària.","isCorrect":false,"rationale":"Incorrecte. La potestat reglamentària del Govern no pot substituir la llei en la fixació de bases quan la Constitució reserva la llei."},
+     {"text":"Només mitjançant un Reial decret llei que després sigui convalidat pel Congrés.","isCorrect":false,"rationale":"Incorrecte. El Reial decret llei no és l'instrument adequat per regular bases de manera estable."}
+    ],
+        "hint": "En principi, l'instrument per fixar normativa bàsica és la llei. Tot i així, el TC admet que el Govern pugui fer ús de la potestat reglamentària per regular, de manera complementària i excepcional, aspectes bàsics, sempre que s'indiqui expressament la seva naturalesa bàsica o sigui complement indispensable de les normes bàsiques legals. (Font: Apunts T08, apartat 8.4.2.2.D)"
+    },
+    {
+        "guid": "45f75ab1-3796-4a1a-b6ff-a159e8e44c4f",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quins són els tres casos excepcionals admesos pel Tribunal Constitucional en què l'Estat pot incidir sobre l'execució reservada a les Comunitats Autònomes?",
+        "answerOptions": [
+     {"text":"Execució intercomunitària o supracomunitària,risc per a la seguretat pública,i necessitat de criteris o valoracions nacionals.","isCorrect":true,"rationale":"Correcte. Aquests supòsits permeten a l'Estat actuar en execució de manera subsidiària o concurrent,d'acord amb la doctrina constitucional."},
+     {"text":"Crisi econòmica,pandèmia i desastre natural.","isCorrect":false,"rationale":"Incorrecte. Són situacions que poden activar altres mecanismes (estat d'alarma,etc.),però no són els tres casos admesos per al desplaçament de l'execució autonòmica."},
+     {"text":"Incompliment del calendari de traspàs de serveis,duplicitat d'estructures i mala gestió financera.","isCorrect":false,"rationale":"Incorrecte. Aquests aspectes es poden abordar per altres vies (art. 155,control econòmic)."},
+     {"text":"Manca de desenvolupament legislatiu autonòmic,retard en l'execució i vulneració de drets fonamentals.","isCorrect":false,"rationale":"Incorrecte. La supletorietat cobreix la manca de legislació,però no desplaça l'execució."}
+    ],
+        "hint": "El TC ha admès tres casos excepcionals en què l'Estat podrà incidir sobre l'execució reservada a les Comunitats Autònomes: quan l'execució tingui un abast intercomunitari o supracomunitari, en cas de risc per a la seguretat pública, i quan les execucions hagin de realitzar-se des de criteris o valoracions nacionals. (Font: Apunts T08, apartat 8.4.2.2.E)"
+    },
+    {
+        "guid": "e144c716-64ba-4b68-acba-b63f64f549e8",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què són els títols competencials horitzontals?",
+        "answerOptions": [
+     {"text":"Competències estatals que afecten una pluralitat de matèries (ex.:bases de l'activitat econòmica,medi ambient,etc.) i permeten a l'Estat incidir en àmbits assumits per les CCAA.","isCorrect":true,"rationale":"Correcte. Exemples típics són l'article 149.1.13 (bases i coordinació de la planificació general de l'economia) o el 149.1.23 (bases de la protecció del medi ambient)."},
+     {"text":"Competències que les CCAA exerceixen horitzontalment en el seu territori.","isCorrect":false,"rationale":"Incorrecte. L'horitzontalitat es refereix a la capacitat de la competència estatal de 'travessar' diverses matèries verticals."},
+     {"text":"Competències compartides entre l'Estat i les CA en igualtat de condicions.","isCorrect":false,"rationale":"Incorrecte. No és un sinònim de competència compartida,sinó una tècnica de reserva transversal."},
+     {"text":"Competències que només poden ser exercides per l'Estat si les CA no les assumeixen.","isCorrect":false,"rationale":"Incorrecte. Això és la clàusula residual (art. 149.3)."}
+    ],
+        "hint": "Els títols competencials horitzontals (ex.: art. 149.1.13 CE) estableixen una reserva competencial exclusiva en favor de l'Estat en termes tan amplis que afecten una pluralitat de matèries, fins i tot en el cas que aquestes hagin estat assumides com a exclusives pels EAs. (Font: Apunts T08, apartat 8.4.2.2.F)"
+    },
+    {
+        "guid": "3f714d5c-a08d-414d-881a-d6ff65882a1d",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Segons l'article 148 CE, quines competències poden assumir les Comunitats Autònomes?",
+        "answerOptions": [
+     {"text":"Una llista de matèries mínimes,com ara organització de les seves institucions,ordenació del territori,agricultura,transport per ferrocarrils d'àmbit autonòmic,etc.","isCorrect":true,"rationale":"Correcte. Article 148.1 CE:22 matèries entre les quals destaquen l'organització institucional,urbanisme,medi ambient,agricultura,etc."},
+     {"text":"Qualsevol matèria no reservada a l'Estat per l'article 149.","isCorrect":false,"rationale":"Incorrecte. L'article 148 és un límit mínim i màxim per a les CA de via lenta; només les de via ràpida poden assumir matèries de l'article 149."},
+     {"text":"Només matèries de caràcter exclusivament local,com ara el subministrament d'aigua o l'enllumenat.","isCorrect":false,"rationale":"Incorrecte. Aquestes són competències municipals,no autonòmiques."},
+     {"text":"Les mateixes que l'article 149,però amb limitacions temporals.","isCorrect":false,"rationale":"Incorrecte. L'article 148 és una llista autònoma,no una còpia reduïda de l'article 149."}
+    ],
+        "hint": "Article 148.1 CE: 'Les Comunitats Autònomes podran assumir competències en les següents matèries: 1a. Organització de les seves institucions d'autogovern. 2a. Alteració dels termes municipals. 3a. Ordenació del territori, urbanisme i habitatge. ...' (Font: Apunts T08, apartat 8.4.2.2.A; CEF 2021, apartat 4)"
+    },
+    {
+        "guid": "6f4e69da-0740-49fa-ac3d-f664d58545f6",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la posició dels Estatuts d'Autonomia dins l'ordenament jurídic autonòmic?",
+        "answerOptions": [
+     {"text":"Són norma suprema,a la qual està subordinada tota la producció normativa autonòmica (lleis,reglaments,etc.).","isCorrect":true,"rationale":"Correcte. Dins la Comunitat Autònoma,l'Estatut actua com a 'constitució' interna,per sobre de la resta de normes autonòmiques."},
+     {"text":"Estan al mateix nivell que les lleis autonòmiques,sense jerarquia.","isCorrect":false,"rationale":"Incorrecte. L'Estatut és superior jeràrquicament a les lleis autonòmiques (norma institucional bàsica)."},
+     {"text":"Estan subordinats als reglaments autonòmics perquè aquests els desenvolupen.","isCorrect":false,"rationale":"Incorrecte. Els reglaments estan subordinats a la llei i a l'Estatut."},
+     {"text":"No tenen rang normatiu,són només textos descriptius.","isCorrect":false,"rationale":"Incorrecte. Tenen rang de llei orgànica i són plenament vinculants."}
+    ],
+        "hint": "Dins l'ordenament jurídic estatal, els Estatuts d'Autonomia són una Llei Orgànica més (tot i que forma part del bloc de constitucionalitat), però a la Comunitat Autònoma són norma suprema bàsica a la qual està subordinada tota la producció normativa autonòmica. (Font: Apunts T08, apartat 8.2.1.2)"
+    },
+    {
+        "guid": "5a020c1d-6c46-40ee-9182-088ef430305f",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què són les conferències sectorials?",
+        "answerOptions": [
+     {"text":"Òrgans de cooperació i col·laboració entre l'Estat i les Comunitats Autònomes,generalment integrades per ministres i consellers autonòmics de la mateixa àrea.","isCorrect":true,"rationale":"Correcte. Les conferències sectorials són el principal instrument de cooperació multilateral,on es discuteixen polítiques públiques o es coordinen accions."},
+     {"text":"Tribunals arbitrals per resoldre conflictes competencials entre CCAA.","isCorrect":false,"rationale":"Incorrecte. Els conflictes competencials es resolen davant el Tribunal Constitucional,no en conferències sectorials."},
+     {"text":"Reunions dels presidents autonòmics amb el President del Govern sense ordre del dia.","isCorrect":false,"rationale":"Incorrecte. Aquestes són les conferències de presidents (conferències de Caps d'Executiu)."},
+     {"text":"Assemblees legislatives unicamerals de les CCAA.","isCorrect":false,"rationale":"Incorrecte. No tenen relació amb els òrgans legislatius."}
+    ],
+        "hint": "Les tècniques de col·laboració interadministrativa inclouen les conferències sectorials, les comissions bilaterals de cooperació, els convenis de col·laboració, etc. (Font: Apunts T08, apartat 8.1.2.5)"
+    },
+    {
+        "guid": "55b01091-68c4-4d45-9f80-5ba478ef7893",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la conseqüència de la declaració d'inconstitucionalitat d'un precepte d'un Estatut d'Autonomia per part del Tribunal Constitucional?",
+        "answerOptions": [
+     {"text":"El precepte queda sense efectes,però l'Estatut continua vigent en la resta. La reforma de l'Estatut per adaptar-lo a la sentència requereix el procediment ordinari de reforma estatutària.","isCorrect":true,"rationale":"Correcte. El TC declara la nul·litat del precepte,no de tot l'Estatut. La reforma per substituir-lo ha de seguir el procediment de l'article 147.3 CE."},
+     {"text":"L'Estatut queda automàticament derogat i la Comunitat Autònoma ha de redactar-ne un de nou per la via més ràpida.","isCorrect":false,"rationale":"Incorrecte. Només el precepte impugnat és nul; la resta de l'Estatut roman vigent."},
+     {"text":"L'Estat pot modificar l'Estatut mitjançant una llei ordinària per esmenar la inconstitucionalitat.","isCorrect":false,"rationale":"Incorrecte. La reforma estatutària sempre requereix llei orgànica i el procediment propi de l'Estatut."},
+     {"text":"La Comunitat Autònoma pot ignorar la declaració i mantenir el precepte perquè l'Estatut és la seva norma suprema.","isCorrect":false,"rationale":"Incorrecte. Les resolucions del TC són vinculants i no es poden ignorar."}
+    ],
+        "hint": "El TC exerceix el control de constitucionalitat dels Estatuts d'Autonomia. Una declaració d'inconstitucionalitat expulsa el precepte del ordenament. La reforma per a substituir-lo requereix el procediment establert a l'Estatut i l'aprovació per llei orgànica (art. 147.3 CE). (Font: Apunts T08, apartats 8.2.3 i 8.3.3)"
+    },
+    {
+        "guid": "d49ff80f-f0f7-4f99-b048-9facb48865d5",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina institució defensa els drets fonamentals dels ciutadans davant l'administració autonòmica, de manera similar al Defensor del Poble estatal?",
+        "answerOptions": [
+     {"text":"El Defensor del Poble autonòmic (Síndic de Greuges,Ararteko,etc.).","isCorrect":true,"rationale":"Correcte. Moltes CCAA tenen la seva pròpia institució del defensor,que actua en coordinació amb el Defensor del Poble estatal (Llei 36/1985)."},
+     {"text":"El Tribunal de Comptes autonòmic.","isCorrect":false,"rationale":"Incorrecte. Aquest fiscalitza els comptes,no els drets fonamentals."},
+     {"text":"El Consell de Justícia autonòmic.","isCorrect":false,"rationale":"Incorrecte. S'ocupa de la gestió del poder judicial,no de la defensa dels ciutadans."},
+     {"text":"La Sindicatura de Comptes.","isCorrect":false,"rationale":"Incorrecte. A Catalunya,la Sindicatura de Comptes és òrgan fiscalitzador,no defensor del poble."}
+    ],
+        "hint": "Hi ha la figura del Defensor del Poble autonòmic (Ararteko al País Basc, Diputat del Comú a Canàries, Síndic de Greuges a Catalunya, etc.). (Font: Apunts T08, apartat 8.3.2.5.A)"
+    },
+    {
+        "guid": "726f60fd-e23c-4561-93e9-1fc51101344d",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quines són les competències del Delegat del Govern respecte de la coordinació amb l'Administració autonòmica?",
+        "answerOptions": [
+     {"text":"Mantenir relacions de cooperació,comunicar i rebre informació,promoure convenis,participar en comissions mixtes i bilaterals.","isCorrect":true,"rationale":"Correcte. Aquestes funcions estan detallades a l'article 73.1 de la Llei 40/2015 i als apunts."},
+     {"text":"Nomenar i cessar el president de la Comunitat Autònoma.","isCorrect":false,"rationale":"Incorrecte. Aquesta és una funció de l'assemblea legislativa i el Rei."},
+     {"text":"Dictar lleis autonòmiques en cas d'urgència.","isCorrect":false,"rationale":"Incorrecte. El delegat no té potestat legislativa."},
+     {"text":"Controlar la constitucionalitat de les lleis autonòmiques.","isCorrect":false,"rationale":"Incorrecte. Això correspon al TC."}
+    ],
+        "hint": "Les funcions del Delegat del Govern inclouen: mantenir relacions de cooperació i coordinació, comunicar i rebre informació, promoure convenis, participar a les Comissions mixtes de transferències i a les Comissions bilaterals de cooperació. (Font: Apunts T08, apartat 8.3.2.3)"
+    },
+    {
+        "guid": "78d45853-bf77-40a1-8440-b7862b852a0c",
+        "subjectId": "T08",
+        "difficulty": 5,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina posició va adoptar el Tribunal Constitucional en relació amb l'intent de l'Estatut de Catalunya de 2006 de crear un Consell de Justícia propi?",
+        "answerOptions": [
+     {"text":"Va declarar inconstitucionals diversos articles que atribuïen competències executives sobre justícia a la Generalitat,perquè el poder judicial és únic i la seva organització és competència de l'Estat (art. 149.1.5a).","isCorrect":true,"rationale":"Correcte. STC 31/2010 va anul·lar parts del Consell de Justícia de Catalunya perquè vulnerava la unitat del poder judicial i la competència estatal sobre l'Administració de Justícia."},
+     {"text":"Va admetre el Consell de Justícia com a òrgan descentralitzat del CGPJ,amb plenes competències executives.","isCorrect":false,"rationale":"Incorrecte. El TC va limitar dràsticament les competències del Consell de Justícia català,declarant inconstitucionals els preceptes més rellevants."},
+     {"text":"Va declarar que els Consells de Justícia autonòmics són constitucionals si no interfereixen en la funció jurisdiccional,només en la gestió de mitjans materials.","isCorrect":false,"rationale":"Això és parcialment cert,però en el cas català la major part del Consell va ser anul·lat perquè excedia aquesta funció."},
+     {"text":"Va avalar íntegrament el Consell de Justícia perquè no té competències jurisdiccionals.","isCorrect":false,"rationale":"Incorrecte. La sentència va tombar diversos articles."}
+    ],
+        "hint": "Els Consells de Justícia són òrgans col·legiats del poder judicial a les Comunitats Autònomes i actuen desconcentradament respecte del CGPJ. Malgrat això, la STC 31/2010 va declarar inconstitucionals molts dels articles de l'EAC que regulaven el Consell de Justícia de Catalunya, per un intent de territorialització del poder judicial. (Font: Apunts T08, apartat 8.3.2.5.C)"
+    },
+    {
+        "guid": "45ee2dba-e0c1-408e-9abf-02e0f8424668",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Qui designa els senadors que representen la Comunitat Autònoma al Senat?",
+        "answerOptions": [
+     {"text":"L'Assemblea Legislativa de la Comunitat Autònoma.","isCorrect":true,"rationale":"Correcte. Segons l'article 69.5 CE,les Comunitats Autònomes designen un senador i un altre per cada milió d'habitants,i la designació correspon a l'assemblea legislativa."},
+     {"text":"El President de la Comunitat Autònoma.","isCorrect":false,"rationale":"Incorrecte. El president no té aquesta facultat; és competència del parlament."},
+     {"text":"El Govern de l'Estat,a proposta del Consell de Ministres.","isCorrect":false,"rationale":"Incorrecte. Això seria una ingerència en l'autonomia."},
+     {"text":"Els ciutadans mitjançant elecció directa en circumscripció autonòmica.","isCorrect":false,"rationale":"Incorrecte. Els senadors autonòmics són designats pels parlaments,no elegits directament pels ciutadans (a diferència dels senadors provincials)."}
+    ],
+        "hint": "Article 69.5 CE: 'Les Comunitats Autònomes designaran a més un Senador i un altre per cada milió d'habitants del seu respectiu territori. La designació correspondrà a l'Assemblea Legislativa.' (Font: Apunts T08, apartat 8.3.2.1)"
+    },
+    {
+        "guid": "875e680d-f80d-4276-a83b-cea8230889c9",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina diferència hi ha entre la competència de desenvolupament legislatiu i la competència d'execució en el sistema autonòmic?",
+        "answerOptions": [
+     {"text":"El desenvolupament legislatiu permet dictar normes amb rang de llei (desenvolupar la legislació bàsica estatal); l'execució és només activitat administrativa i reglaments organitzatius.","isCorrect":true,"rationale":"Correcte. En les competències compartides de regulació (ex.:educació),la CA pot legislar desenvolupant les bases. En les competències d'execució (ex.:trànsit),la CA només aplica la llei estatal i pot dictar reglaments d'organització interna."},
+     {"text":"Són equivalents; totes dues permeten dictar lleis.","isCorrect":false,"rationale":"Incorrecte. L'execució no inclou potestat legislativa,només administrativa."},
+     {"text":"La competència d'execució inclou la facultat de modificar les lleis estatals mitjançant decret llei.","isCorrect":false,"rationale":"Incorrecte. Les CCAA no poden modificar lleis estatals."},
+     {"text":"El desenvolupament legislatiu és una competència exclusiva de l'Estat,no de les CCAA.","isCorrect":false,"rationale":"Incorrecte. El desenvolupament legislatiu és una competència autonòmica en matèries compartides."}
+    ],
+        "hint": "En els supòsits en què la CE reserva a l'Estat la legislació bàsica, correspon a les CCAA el desenvolupament normatiu (potestat legislativa) i l'execució (activitat administrativa). Quan la CE reserva a l'Estat la legislació (plena), a les CCAA només els correspon l'execució, que no inclou potestat reglamentària substantiva, només reglaments organitzatius. (Font: Apunts T08, apartat 8.4.2.2.E)"
+    },
+    {
+        "guid": "719836fb-e9ad-4529-b3b5-4f453467a176",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què són els 'règims preautonòmics' a què es refereix la Disposició Transitòria 1a CE?",
+        "answerOptions": [
+     {"text":"Règims provisionals d'autonomia establerts durant la transició (1977-1978) per preparar l'organització de les futures Comunitats Autònomes.","isCorrect":true,"rationale":"Correcte. Abans de la CE,molts territoris van rebre règims preautonòmics. La DT 1a permet que aquests òrgans preautonòmics substitueixin la iniciativa de les diputacions per accelerar el procés."},
+     {"text":"Els Estatuts d'Autonomia redactats durant la Segona República.","isCorrect":false,"rationale":"Incorrecte. Els preautonòmics són de finals dels 70."},
+     {"text":"Les disposicions legals del franquisme que concedien autonomies limitades.","isCorrect":false,"rationale":"Incorrecte. El franquisme era centralista."},
+     {"text":"Els acords bilaterals entre el Govern i les diputacions per a la transferència de serveis.","isCorrect":false,"rationale":"Incorrecte. No és exacte; els règims preautonòmics tenien òrgans propis."}
+    ],
+        "hint": "Durant la Transició política, entre 1977 i 1978 es va anar creant el mapa preautonòmic espanyol. Pràcticament tot el territori espanyol es va dotar d'un 'règim provisional d'autonomia'. La DT 1a CE va permetre que aquests òrgans preautonòmics poguessin exercir la iniciativa autonòmica. (Font: Apunts T08, apartat 8.1.1 i 8.1.3.2.B)"
+    },
+    {
+        "guid": "b26ec743-2389-496b-be9b-8e95f41745dd",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la clàusula de tancament del sistema de repartiment de competències segons l'article 149.3 CE?",
+        "answerOptions": [
+     {"text":"Les matèries no atribuïdes expressament a l'Estat per la CE podran correspondre a les CCAA si els seus Estatuts les assumeixen; en cas contrari,correspondran a l'Estat.","isCorrect":true,"rationale":"Correcte. Aquesta és la clàusula residual. El segon incís estableix la prevalença i la supletorietat."},
+     {"text":"Totes les competències no incloses en l'article 148 són automàticament de l'Estat.","isCorrect":false,"rationale":"Incorrecte. Les CCAA poden assumir matèries no enumerades a l'art. 148 a través dels seus Estatuts,sempre que no estiguin reservades a l'Estat per l'art. 149."},
+     {"text":"L'Estat pot assumir qualsevol competència no exercida per les CCAA mitjançant llei orgànica.","isCorrect":false,"rationale":"Incorrecte. La clàusula residual no requereix llei orgànica; opera directament."},
+     {"text":"Les CCAA tenen competència exclusiva sobre tot allò no previst a la CE.","isCorrect":false,"rationale":"Incorrecte. Això seria el contrari del principi d'unitat."}
+    ],
+        "hint": "Article 149.3 CE: 'Les matèries no atribuïdes expressament a l'Estat per aquesta Constitució podran correspondre a les Comunitats Autònomes en virtut dels seus respectius Estatuts. La competència sobre les matèries que no s'hagin assumit pels Estatuts d'Autonomia correspondrà a l'Estat.' (Font: Apunts T08, apartat 8.4.2.2.C)"
+    },
+    {
+        "guid": "4fe67483-f4df-454d-babb-7a74749e2baf",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quines ciutats es van constituir com a 'Ciutats Autònomes' sense assolir la categoria de Comunitat Autònoma?",
+        "answerOptions": [
+     {"text":"Ceuta i Melilla.","isCorrect":true,"rationale":"Correcte. Malgrat que la DT 5a CE preveia la possibilitat de constituir-se en CCAA,finalment ho van fer com a Ciutats Autònomes amb Estatut d'Autonomia propi mitjançant Lleis Orgàniques 1/1995 i 2/1995,amb un règim competencial reduït."},
+     {"text":"Madrid i Barcelona.","isCorrect":false,"rationale":"Incorrecte. Madrid és Comunitat Autònoma; Barcelona és capital de Catalunya."},
+     {"text":"Cadis i Màlaga.","isCorrect":false,"rationale":"Incorrecte. Són municipis andalusos."},
+     {"text":"Palma i Santa Cruz de Tenerife.","isCorrect":false,"rationale":"Incorrecte. Són capitals de les Illes Balears i Canàries,respectivament,ambdós comunitats autònomes."}
+    ],
+        "hint": "Disposició Transitòria 5a CE: 'Les ciutats de Ceuta i Melilla es podran constituir en Comunitats Autònomes si així ho decideixen els seus respectius Ajuntaments ...' Finalment es van constituir com a Ciutats Autònomes (LO 1/1995 i 2/1995). (Font: Apunts T08, apartat 8.1.3.1.B; CEF 2021, apartat 2)"
+    },
+    {
+        "guid": "8ed23842-8ba4-4ba2-86bd-d8cec2373293",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "En què consisteix el control de l'activitat de les Comunitats Autònomes per part de la jurisdicció contenciosa administrativa?",
+        "answerOptions": [
+     {"text":"Controla els actes administratius i les disposicions reglamentàries de les CCAA,però no les lleis autonòmiques.","isCorrect":true,"rationale":"Correcte. L'article 153.c CE atribueix a la jurisdicció contenciosa el control de l'administració autònoma i les seves normes reglamentàries. Les lleis autonòmiques són controlades pel TC."},
+     {"text":"Controla les lleis autonòmiques i pot declarar la seva inconstitucionalitat.","isCorrect":false,"rationale":"Incorrecte. Això és funció del TC."},
+     {"text":"Només pot conèixer dels recursos contra actes del President autonòmic,no contra reglaments.","isCorrect":false,"rationale":"Incorrecte. La contenciosa controla tota l'activitat administrativa,inclosos reglaments."},
+     {"text":"Controla el finançament de les CCAA i pot suspendre les transferències.","isCorrect":false,"rationale":"Incorrecte. Això és funció del Tribunal de Comptes."}
+    ],
+        "hint": "Article 153.c CE: 'El control de l'activitat dels òrgans de les Comunitats Autònomes s'exercirà: ... c) Per la jurisdicció contenciosa-administrativa, el de l'administració autònoma i les seves normes reglamentàries.' (Font: Apunts T08, apartat 8.3.3; CEF 2021, apartat 6)"
+    },
+    {
+        "guid": "f152e8a4-6d1d-431b-81c0-bdabba26c4a4",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què és el bloc de constitucionalitat i quin paper hi tenen els Estatuts d'Autonomia?",
+        "answerOptions": [
+     {"text":"És el conjunt de normes que el Tribunal Constitucional utilitza com a paràmetre de control de constitucionalitat,incloent els Estatuts d'Autonomia a més de la Constitució.","isCorrect":true,"rationale":"Correcte. El bloc de constitucionalitat està integrat per la CE,els Estatuts d'Autonomia,les lleis marc,les lleis d'harmonització,etc.,que serveixen de paràmetre per jutjar la constitucionalitat de les lleis."},
+     {"text":"És la part de la Constitució que no pot ser reformada,on els Estatuts no tenen cabuda.","isCorrect":false,"rationale":"Incorrecte. No existeix un bloc immutable; a més,els Estatuts formen part del bloc de constitucionalitat segons la doctrina del TC."},
+     {"text":"Només inclou la Constitució,no els Estatuts,perquè aquests són normes subconstitucionals.","isCorrect":false,"rationale":"Incorrecte. El TC inclou els Estatuts com a paràmetre de constitucionalitat en els recursos d'inconstitucionalitat contra lleis autonòmiques."},
+     {"text":"És una categoria doctrinal sense efectes pràctics.","isCorrect":false,"rationale":"Incorrecte. Té efectes rellevants:els Estatuts vinculen el legislador estatal en matèria de competències."}
+    ],
+        "hint": "Els Estatuts d'Autonomia formen part del bloc de constitucionalitat, és a dir, són paràmetre de control de constitucionalitat al costat de la Constitució. (Font: Apunts T08, apartat 8.2.1; CEF 2021, apartat 3)"
+    },
+    {
+        "guid": "c293c866-1c11-47c2-816e-ca6274d393fe",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la funció de la Comissió Mixta de Transferències en el procés de traspàs de serveis de l'Estat a les CCAA?",
+        "answerOptions": [
+     {"text":"És un òrgan bilateral (Estat-CA) que determina el calendari,els mitjans materials i personals,i el finançament dels traspassos derivats de l'assumpció de competències per l'Estatut o per lleis orgàniques.","isCorrect":true,"rationale":"Correcte. Les Comissions Mixtes de Transferències són el mecanisme ordinari per concretar els traspassos un cop l'Estatut atribueix una competència."},
+     {"text":"És un tribunal arbitral que resol conflictes entre l'Estat i la CA sobre competències.","isCorrect":false,"rationale":"Incorrecte. Això no existeix; els conflictes competencials es resolen pel TC."},
+     {"text":"És una comissió parlamentària del Congrés que supervisa les transferències.","isCorrect":false,"rationale":"Incorrecte. Les comissions mixtes solen estar integrades per representants del Govern central i de la CA,no del Parlament."},
+     {"text":"S'encarrega de reformar l'Estatut d'Autonomia quan sigui necessari per a la transferència.","isCorrect":false,"rationale":"Incorrecte. La reforma estatutària requereix un procediment diferent (art. 147.3)."}
+    ],
+        "hint": "El Delegat del Govern participa a les Comissions mixtes de transferències i a les Comissions bilaterals de cooperació. Aquestes comissions, juntament amb les conferències sectorials, són òrgans de cooperació per als traspassos. (Font: Apunts T08, apartat 8.3.2.3)"
+    },
+    {
+        "guid": "e93a4170-abf8-46a6-8da3-8b8bb27ee65b",
+        "subjectId": "T08",
+        "difficulty": 5,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "En el supòsit de conflicte entre una llei autonòmica dictada en matèria de la seva competència exclusiva i una llei estatal que invoca un títol horitzontal (ex. bases de l'economia), quin criteri aplica el Tribunal Constitucional?",
+        "answerOptions": [
+     {"text":"Exerceix una ponderació cas per cas,comprovant si la llei estatal respecta el nucli de la competència autonòmica i si la mesura és necessària per a l'interès general,sense desplaçar automàticament la llei autonòmica.","isCorrect":true,"rationale":"Correcte. El TC ha establert que els títols horitzontals no són 'xecs en blanc'; cal ponderar si l'Estat excedeix la seva competència invadint competències autonòmiques sense justificació suficient."},
+     {"text":"Sempre preval la llei estatal per la clàusula de prevalença de l'article 149.3.","isCorrect":false,"rationale":"Incorrecte. La prevalença no és automàtica quan es tracta de competències exclusives autonòmiques. El TC ha matisat que els títols horitzontals tenen límits."},
+     {"text":"La llei autonòmica sempre preval perquè és exclusiva.","isCorrect":false,"rationale":"Incorrecte. L'Estat pot intervenir si realment hi ha un interès general que afecti la unitat de mercat o l'ordenació de l'economia."},
+     {"text":"Correspon al Govern central suspendre la llei autonòmica (art. 161.2) fins que el TC es pronunciï,i generalment dona la raó a l'Estat.","isCorrect":false,"rationale":"Incorrecte. La suspensió és una mesura cautelar,però la decisió de fons requereix ponderació i no sempre dóna la raó a l'Estat."}
+    ],
+        "hint": "La jurisprudència constitucional ha establert que malgrat l'amplitud dels títols competencials horitzontals, aquests no poden ser concebuts com un xec en blanc en favor de l'Estat, havent-se de fer, en cada cas, l'oportuna ponderació. (Font: Apunts T08, apartat 8.4.2.2.F)"
+    },
+    {
+        "guid": "989b698f-4b81-4126-983d-e4628c764958",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina institució exerceix el control econòmic i pressupostari de les Comunitats Autònomes a nivell estatal?",
+        "answerOptions": [
+     {"text":"El Tribunal de Comptes.","isCorrect":true,"rationale":"Correcte. L'article 153.d CE i la Llei 7/1988 atribueixen al Tribunal de Comptes el control econòmic i pressupostari de les CCAA,sense perjudici de les sindicatures de comptes autonòmiques."},
+     {"text":"El Ministeri d'Hisenda.","isCorrect":false,"rationale":"Incorrecte. El Ministeri d'Hisenda té funcions de coordinació financera,però el control extern correspon al Tribunal de Comptes."},
+     {"text":"El Consell d'Estat.","isCorrect":false,"rationale":"Incorrecte. El Consell d'Estat és òrgan consultiu del Govern,no fiscalitzador."},
+     {"text":"El Defensor del Poble.","isCorrect":false,"rationale":"Incorrecte. El Defensor tracta de drets fonamentals,no de comptes."}
+    ],
+        "hint": "Article 153.d CE: 'El control de l'activitat dels òrgans de les Comunitats Autònomes s'exercirà: ... d) Pel Tribunal de Comptes, el control econòmic i pressupostari.' (Font: Apunts T08, apartat 8.3.3; CEF 2021, apartat 6)"
+    },
+    {
+        "guid": "42ba8488-0ba0-4db6-851e-f6f148768300",
+        "subjectId": "T08",
+        "difficulty": 2,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la circumscripció electoral més habitual per a les eleccions a l'Assemblea Legislativa autonòmica?",
+        "answerOptions": [
+     {"text":"La província.","isCorrect":true,"rationale":"Correcte. Encara que hi ha excepcions (Astúries,Múrcia,Balears,Canàries amb circumscripcions infraprovincials),la majoria de CCAA utilitzen la província com a circumscripció."},
+     {"text":"El municipi de la capital.","isCorrect":false,"rationale":"Incorrecte. No és habitual; només en casos singulars."},
+     {"text":"La comarca.","isCorrect":false,"rationale":"Incorrecte. La comarca no és circumscripció electoral autonòmica."},
+     {"text":"El partit judicial.","isCorrect":false,"rationale":"Incorrecte. No té rellevància electoral."}
+    ],
+        "hint": "La circumscripció electoral sol coincidir amb la província (tot i que hi ha indrets amb circumscripcions infraprovincials, com ara Astúries, Múrcia, Balears i Canàries). (Font: Apunts T08, apartat 8.3.2.1)"
+    },
+    {
+        "guid": "edbfb67b-1d2c-4ff7-a05a-249d33616d93",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què regula la Llei 7/1985, de 2 d'abril, reguladora de les Bases del Règim Local (LRBRL)?",
+        "answerOptions": [
+     {"text":"El règim jurídic dels municipis,províncies i altres ens locals,garantint l'autonomia local.","isCorrect":true,"rationale":"Correcte. Aquesta llei desenvolupa els principis constitucionals relatius a l'administració local (arts. 140-142 CE)."},
+     {"text":"L'organització de les Comunitats Autònomes.","isCorrect":false,"rationale":"Incorrecte. Les CCAA es regulen pels seus Estatuts i per lleis orgàniques."},
+     {"text":"El finançament de les Comunitats Autònomes.","isCorrect":false,"rationale":"Incorrecte. Aquest àmbit es regula per la LOFCA (Llei Orgànica de Finançament de les Comunitats Autònomes)."},
+     {"text":"La cooperació entre l'Estat i les CCAA.","isCorrect":false,"rationale":"Incorrecte. La LRBRL tracta sobre govern local,no sobre relacions Estat-CCAA."}
+    ],
+        "hint": "La llei que tracta el règim local és la L 7/1985, de 2 d'abril, reguladora de les Bases del Règim Local (LRBRL). (Font: Apunts T08, apartat 8.1.2.3.B)"
+    },
+    {
+        "guid": "6717db42-844f-4f28-8838-484e52830c17",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quin és el procediment perquè una Comunitat Autònoma de via lenta (art. 143) pugui ampliar les seves competències més enllà de l'article 148?",
+        "answerOptions": [
+     {"text":"Transcorreguts 5 anys des de l'aprovació de l'Estatut,pot reformar l'Estatut per assumir noves competències no reservades a l'Estat per l'article 149.1.","isCorrect":true,"rationale":"Correcte. L'article 148.2 CE estableix que 'transcorreguts 5 anys,i mitjançant la reforma dels seus Estatuts,les Comunitats Autònomes podran ampliar successivament les seves competències dins del marc de l'article 149'."},
+     {"text":"Pot fer-ho immediatament mitjançant una llei marc (art. 150.1),sense necessitat de reforma estatutària.","isCorrect":false,"rationale":"Incorrecte. La llei marc és una via extraestatutària per a matèries estatals,però per a competències residuals no assumides,cal reforma de l'Estatut."},
+     {"text":"No pot ampliar mai les competències,estan tancades a l'article 148.","isCorrect":false,"rationale":"Incorrecte. L'article 148.2 permet l'ampliació després de 5 anys."},
+     {"text":"Pot fer-ho per acord bilateral entre el Govern i la Comunitat Autònoma,sense intervenció de les Corts Generals.","isCorrect":false,"rationale":"Incorrecte. L'ampliació requereix reforma estatutària i aprovació per llei orgànica."}
+    ],
+        "hint": "Article 148.2 CE: 'Transcorreguts cinc anys, i mitjançant la reforma dels seus Estatuts, les Comunitats Autònomes podran ampliar successivament les seves competències dins el marc establert a l'apartat 1 de l'article 149.' (Font: Apunts T08, apartat 8.4.2.2.A)"
+    },
+    {
+        "guid": "77425744-1459-4f30-83d4-14b2f4fc37df",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quin és l'efecte de l'article 161.2 CE en relació amb les decisions de les Comunitats Autònomes?",
+        "answerOptions": [
+     {"text":"Permet al Govern suspendre les disposicions i resolucions autonòmiques que impugni davant el TC,amb ratificació o aixecament per part del TC en un termini màxim de 5 mesos.","isCorrect":true,"rationale":"Correcte. Aquesta és la via de suspensió automàtica de les normes autonòmiques quan el Govern interposa un recurs d'inconstitucionalitat o un conflicte de competències."},
+     {"text":"Dóna al President del Govern la facultat de dissoldre el parlament autonòmic.","isCorrect":false,"rationale":"Incorrecte. La dissolució anticipada només la pot fer el president autonòmic (si l'Estatut ho preveu),no el Govern central."},
+     {"text":"Permet al TC suspendre les lleis autonòmiques sense demora.","isCorrect":false,"rationale":"Incorrecte. La suspensió la pot sol·licitar el Govern; el TC després la ratifica o l'aixeca."},
+     {"text":"No té cap efecte pràctic,és una declaració simbòlica.","isCorrect":false,"rationale":"Incorrecte. S'ha utilitzat en diverses ocasions,per exemple per suspendre lleis autonòmiques sobre consultes populars."}
+    ],
+        "hint": "Per a circumstàncies que no arribin a l'article 155, el Govern pot acudir a la via de l'article 161.2 CE que li atribueix el dret de veto temporal sobre les disposicions i resolucions dels òrgans de la Comunitat Autònoma. Aquesta suspensió haurà de ser ratificada o aixecada pel TC en un termini no superior a 5 mesos. (Font: Apunts T08, apartat 8.3.3)"
+    },
+    {
+        "guid": "2e76e0e7-d852-4ce2-a2a9-64ba7751e447",
+        "subjectId": "T08",
+        "difficulty": 4,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quin és el significat constitucional del terme 'nacionalitat' a l'article 2 CE?",
+        "answerOptions": [
+     {"text":"La Constitució no en dóna una definició clara; és un concepte sociològic que fa referència a territoris amb identitat col·lectiva diferenciada,però sense transcendència jurídica concreta en termes de sobirania.","isCorrect":true,"rationale":"Correcte. El TC ha declarat que el terme 'nacionalitats' no té valor jurídic preceptiu ni atribueix cap dret d'autodeterminació; és una expressió històrica o cultural."},
+     {"text":"És sinònim de nació i implica el dret a la independència.","isCorrect":false,"rationale":"Incorrecte. El TC ha rebutjat aquesta interpretació."},
+     {"text":"És un concepte que només pot aplicar-se a Catalunya,País Basc i Galícia,amb caràcter d'exclusivitat.","isCorrect":false,"rationale":"Incorrecte. Altres comunitats (Comunitat Valenciana,Andalusia,etc.) també poden ser considerades nacionalitats,segons els seus Estatuts."},
+     {"text":"Atorga a les nacionalitats la facultat de redactar el seu propi Estatut sense aprovació de les Corts Generals.","isCorrect":false,"rationale":"Incorrecte. Tots els Estatuts requereixen llei orgànica de les Corts."}
+    ],
+        "hint": "La CE no ofereix una definició del concepte de nacionalitat. En principi els constituents semblaven preveure la denominació 'nacionalitat' per als 3 territoris teòricament dotats de major consciència autonòmica (Catalunya, País Basc i Galícia) i el terme 'regió' per a la resta. Però no hi ha cap transcendència jurídica constitucional pel fet d'adoptar una o altra denominació. (Font: Apunts T08, apartat 8.1.2.3.C)"
+    },
+    {
+        "guid": "4b6643cf-6268-4baa-8f78-772acd90e926",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Què és la Llei Orgànica 13/1982, de 10 d'agost?",
+        "answerOptions": [
+     {"text":"La Llei de Reintegració i Amillorament del Règim Foral de Navarra,que actualitza els furs i constitueix Navarra com a Comunitat Foral.","isCorrect":true,"rationale":"Correcte. Aquesta llei orgànica és l'equivalent a l'Estatut d'Autonomia per a Navarra,respectant la seva tradició foral."},
+     {"text":"L'Estatut d'Autonomia de la Comunitat de Madrid.","isCorrect":false,"rationale":"Incorrecte. L'Estatut de Madrid és la LO 6/1982."},
+     {"text":"La Llei d'harmonització del procés autonòmic.","isCorrect":false,"rationale":"Incorrecte. No és una llei d'harmonització."},
+     {"text":"La Llei de transferència de competències a Ceuta i Melilla.","isCorrect":false,"rationale":"Incorrecte. Les lleis de Ceuta i Melilla són de 1995 (LO 1/1995 i 2/1995)."}
+    ],
+        "hint": "Navarra es va constituir en CA mitjançant el mecanisme de la Llei de 'Mejora del Fuero', on s'actualitzaven i reconeixien els furs tradicionals del poble navarrès - Llei Orgànica 13/1982, de 10 d'Agost, de reintegració i millora del règim foral de Navarra. (Font: Apunts T08, apartat 8.1.3.2.C; CEF 2021, apartat 2)"
+    },
+    {
+        "guid": "dfdf870d-6072-441a-80e2-be02ef9425e6",
+        "subjectId": "T08",
+        "difficulty": 3,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina institució autonòmica té la facultat d'interposar recurs d'inconstitucionalitat davant el Tribunal Constitucional?",
+        "answerOptions": [
+     {"text":"El Consell de Govern (Govern autonòmic) i l'Assemblea Legislativa.","isCorrect":true,"rationale":"Correcte. L'article 162.1 CE i la LOTC admeten que els òrgans col·legiats executius (Consells de Govern) i les Assemblees Legislatives autonòmiques poden interposar recurs d'inconstitucionalitat contra lleis estatals que afectin les seves competències."},
+     {"text":"Només el President de la Comunitat,en representació del Consell de Govern.","isCorrect":false,"rationale":"Incorrecte. És l'òrgan col·legiat qui pot acordar el recurs,no el president individualment."},
+     {"text":"El Tribunal Superior de Justícia.","isCorrect":false,"rationale":"Incorrecte. El TSJ no té legitimació per a recursos d'inconstitucionalitat,només pot plantejar qüestions d'inconstitucionalitat en processos judicials."},
+     {"text":"El Defensor del Poble autonòmic.","isCorrect":false,"rationale":"Incorrecte. El Defensor pot interposar recurs d'empara davant el TC,però no recurs d'inconstitucionalitat."}
+    ],
+        "hint": "El Consell de Govern també pot interposar el recurs d'inconstitucionalitat davant el TC. També ho pot fer l'Assemblea Legislativa. (Font: Apunts T08, apartats 8.3.2.1 i 8.3.2.2.B; art. 162 CE)"
+    },
+    {
+        "guid": "854cb88a-578f-45c3-98b2-eebb581f25a3",
+        "subjectId": "T08",
+        "difficulty": 5,
+        "origin": "deepseek",
+        "type": "test",
+        "question": "Quina és la doctrina del Tribunal Constitucional sobre la 'clàusula de prevalença' continguda a l'article 149.3 CE?",
+        "answerOptions": [
+     {"text":"És una norma de conflicte que resol la preferència aplicativa de les normes en cas de col·lisió,però no atribueix supremacia jeràrquica al Dret estatal sobre l'autonòmic,ni pot ser aplicada pels jutges sense comprovar prèviament si la norma estatal envaeix competències autonòmiques (en cas dubtós,han de plantejar qüestió d'inconstitucionalitat).","isCorrect":true,"rationale":"Correcte. El TC ha reiterat que la prevalença no és una regla de jerarquia sinó de competència; si el jutge té dubtes raonables sobre l'encavalcament competencial,ha d'elevar qüestió d'inconstitucionalitat."},
+     {"text":"Significa que qualsevol jutge pot inaplicar una llei autonòmica quan xoqui amb una llei estatal,sense necessitat de plantejar qüestió d'inconstitucionalitat.","isCorrect":false,"rationale":"Incorrecte. La inaplicació directa d'una llei autonòmica per part d'un jutge sense control previ del TC no està permesa; només pot inaplicar si la llei estatal és de rang superior (cosa que no és,perquè ambdues tenen rang de llei)."},
+     {"text":"Només és aplicable per part del Tribunal Constitucional,no pels jutges ordinaris.","isCorrect":false,"rationale":"Incorrecte. Els jutges ordinaris poden aplicar la prevalença,però si el conflicte és competencial han de plantejar qüestió d'inconstitucionalitat abans d'inaplicar la llei autonòmica."},
+     {"text":"Té efectes derogatoris:la norma estatal deroga automàticament la norma autonòmica contradictòria.","isCorrect":false,"rationale":"Incorrecte. No és una derogació,sinó una preferència aplicativa que cessa un cop el TC anul·la la norma autonòmica si és inconstitucional,o la norma estatal si envaeix competències."}
+    ],
+        "hint": "La clàusula de prevalença del Dret estatal (art. 149.3) no és una regla de jerarquia sinó de solució de conflictes. Els jutges i tribunals, davant una contradicció, no podran aplicar directament la regla de prevalença si el conflicte afecta la distribució competencial, i hauran d'anar al TC mitjançant la qüestió d'inconstitucionalitat. (Font: Apunts T08, apartat 8.4.5.1)"
     }
 ]
