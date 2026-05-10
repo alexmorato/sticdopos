@@ -1,8 +1,8 @@
 
 <small>
 
-[🗂️ Carpeta DRIVE Temari](https://drive.google.com/drive/folders/1sSKkc5-HJ1vZNYgBjIAD2KNVp6jhLD9a)
-FITXER: Tècnic Superior Ajuntament de Barcelona - Temari Comú - Tema 09 - Apunts.docx
+- [🗂️ Carpeta DRIVE Temari](https://drive.google.com/drive/folders/1sSKkc5-HJ1vZNYgBjIAD2KNVp6jhLD9a)
+- FITXER: Tècnic Superior Ajuntament de Barcelona - Temari Comú - Tema 09 - Apunts.docx
 
 </small>
 

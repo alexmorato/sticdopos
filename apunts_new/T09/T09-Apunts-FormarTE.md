@@ -1,9 +1,85 @@
+<small>
 
-# TEMA 9
+- [🗂️ Carpeta DRIVE Temari](https://drive.google.com/drive/folders/1qPoRiRdlzObrKQcU3sVF8MpyUkILdEP-?usp=drive_link)
+- FITXER: 09 TEMA 9.pdf
+
+</small>
+
+---
+
+<!-- TOC START -->
+**INDICE INTERACTIVO**
+
+- [TEMA 9](#tema-9)
+  - [EL MUNICIPIO: CONCEPTO Y ELEMENTOS.](#el-municipio-concepto-y-elementos)
+  - [→ EL TERRITORIO:](#el-territorio)
+    - [→ La población:](#la-poblacion)
+      - [– Obligatoriedad de la inscripción y efectos de la inscripción en el Padrón: Art. 39](#obligatoriedad-de-la-inscripcion-y-efectos-de-la-inscripcion-en-el-padron-art-39)
+      - [– Contenido y certificaciones del Padrón Arts. 40 y 41:](#contenido-y-certificaciones-del-padron-arts-40-y-41)
+      - [– Derechos y deberes de los vecinos: los efectos de la inscripción en el Padrón (Art. 43 y 44)](#derechos-y-deberes-de-los-vecinos-los-efectos-de-la-inscripcion-en-el-padron-art-43-y-44)
+      - [* Información a los ciudadanos: Artículo 155. Publicidad de las actuaciones locales.](#informacion-a-los-ciudadanos-articulo-155-publicidad-de-las-actuaciones-locales)
+      - [* Derecho de Petición](#derecho-de-peticion)
+      - [* Asociaciones de vecinos](#asociaciones-de-vecinos)
+      - [* Consultas populares:](#consultas-populares)
+    - [→ LA ORGANIZACIÓN:](#la-organizacion)
+  - [LA AUTONOMÍA LOCAL DESPUÉS DE LA CONSTITUCIÓN DE 1978.](#la-autonomia-local-despues-de-la-constitucion-de-1978)
+    - [Artículo 67. Servicios mínimos.](#articulo-67-servicios-minimos)
+    - [Artículo 68. Dispensa de prestación de servicios.](#articulo-68-dispensa-de-prestacion-de-servicios)
+    - [Artículo 69. Supuestos de no necesidad de instruir expediente.](#articulo-69-supuestos-de-no-necesidad-de-instruir-expediente)
+    - [Artículo 70. Delegación de competencias de la Generalidad.](#articulo-70-delegacion-de-competencias-de-la-generalidad)
+  - [RÉGIMEN JURÍDICO DE LA ORGANIZACIÓN Y COMPETENCIAS DEL AYUNTAMIENTO DE BARCELONA.](#regimen-juridico-de-la-organizacion-y-competencias-del-ayuntamiento-de-barcelona)
+    - [Ley 27/2013, de 27 de diciembre, de racionalización y sostenibilidad de la Administración Local.](#ley-27-2013-de-27-de-diciembre-de-racionalizacion-y-sostenibilidad-de-la-administracion-local)
+  - [ÓRGANOS DEL AYUNTAMIENTO: LA ORGANIZACIÓN POLÍTICA Y LA ORGANIZACIÓN EJECUTIVA](#organos-del-ayuntamiento-la-organizacion-politica-y-la-organizacion-ejecutiva)
+      - [→ Órganos necesarios, es decir, que han de existir en todos los municipios (Art. 48):](#organos-necesarios-es-decir-que-han-de-existir-en-todos-los-municipios-art-48)
+      - [→ Órganos complementarios:](#organos-complementarios)
+    - [🏛️ El Gobierno Municipal (Junio 2025 - Actualidad)](#el-gobierno-municipal-junio-2025-actualidad)
+    - [🗣️ Otros Cargos de Relevancia](#otros-cargos-de-relevancia)
+    - [LA ORGANIZACIÓN POLÍTICA](#la-organizacion-politica)
+      - [El CONSEJO MUNICIPAL:](#el-consejo-municipal)
+      - [→ LOS CONCEJALES. - ELS REGIDORS.](#los-concejales-els-regidors)
+      - [→ LAS COMISIONES DEL CONSEJO MUNICIPAL](#las-comisiones-del-consejo-municipal)
+      - [→ La JUNTA DE PORTAVOCES.](#la-junta-de-portavoces)
+      - [EL ALCALDE](#el-alcalde)
+      - [TENIENTES DE ALCALDE: Art. 14 CMB](#tenientes-de-alcalde-art-14-cmb)
+      - [– LA COMISIÓN DE GOBIERNO. Arts. 15 y 16 CMB](#la-comision-de-gobierno-arts-15-y-16-cmb)
+      - [– El Comité de gobierno:](#el-comite-de-gobierno)
+    - [EL ÁMBITO EJECUTIVO](#el-ambito-ejecutivo)
+      - [→ El Gerente Municipal](#el-gerente-municipal)
+      - [→ La administración municipal ejecutiva](#la-administracion-municipal-ejecutiva)
+      - [→ El Comité Ejecutivo](#el-comite-ejecutivo)
+  - [III. LOS DISTRITOS Y LOS SECTORES.](#iii-los-distritos-y-los-sectores)
+    - [→ Consejo de Distrito:](#consejo-de-distrito)
+    - [→ El Presidente:](#el-presidente)
+    - [→ El concejal de distrito:](#el-concejal-de-distrito)
+    - [→ Concejales adscritos al distrito:](#concejales-adscritos-al-distrito)
+    - [→ Los consejeros del Distrito:](#los-consejeros-del-distrito)
+    - [→ La Comisión de Gobierno del Distrito:](#la-comision-de-gobierno-del-distrito)
+    - [→ Las Comisiones consultivas:](#las-comisiones-consultivas)
+    - [Como órganos de Participación ciudadana del Distrito se regulan los siguientes:](#como-organos-de-participacion-ciudadana-del-distrito-se-regulan-los-siguientes)
+      - [– El Consejo Ciudadano](#el-consejo-ciudadano)
+      - [– Foro Ciudadano o Audiencia Pública, de ámbito de distrito:](#foro-ciudadano-o-audiencia-publica-de-ambito-de-distrito)
+      - [– Consejos sectoriales:](#consejos-sectoriales)
+      - [– Consejo de Barrio:](#consejo-de-barrio)
+      - [– Consejos de equipamientos:](#consejos-de-equipamientos)
+      - [– Consejos de Centros Deportivos:](#consejos-de-centros-deportivos)
+  - [IV. ORGANISMOS AUTÓNOMOS Y ENTIDADES PÚBLICAS EMPRESARIALES. SOCIEDADES MERCANTILES Y FUNDACIONES PÚBLICAS.](#iv-organismos-autonomos-y-entidades-publicas-empresariales-sociedades-mercantiles-y-fundaciones-publicas)
+    - [• Organismos autónomos locales](#organismos-autonomos-locales)
+    - [• Entidades públicas empresariales.](#entidades-publicas-empresariales)
+    - [• Sociedades mercantiles municipales](#sociedades-mercantiles-municipales)
+    - [• Sociedades mercantiles con participación minoritaria](#sociedades-mercantiles-con-participacion-minoritaria)
+    - [Fundaciones en que el Ayuntamiento participa](#fundaciones-en-que-el-ayuntamiento-participa)
+  - [V. OTROS TIPOS DE ENTIDADES PÚBLICAS PARA LA GESTIÓN DE LOS SERVICIOS PÚBLICOS.](#v-otros-tipos-de-entidades-publicas-para-la-gestion-de-los-servicios-publicos)
+    - [CLASIFICACIÓN DE LAS FORMAS O SISTEMAS DE GESTIÓN DE LOS SERVICIOS PÚBLICOS DESPUÉS DE LA LEY DE CONTRATOS DEL SECTOR PÚBLICO, LEY DE 19 DE OCTUBRE DE 2017:](#clasificacion-de-las-formas-o-sistemas-de-gestion-de-los-servicios-publicos-despues-de-la-ley-de-contratos-del-sector-publico-ley-de-19-de-octubre-de-2017)
+      - [A) GESTIÓN DIRECTA](#a-gestion-directa)
+      - [B) GESTIÓN INDIRECTA:](#b-gestion-indirecta)
+<!-- TOC END -->
+
+
+# TEMA 9 <a id="tema-9"></a>
 
 **EL MUNICIPIO: CONCEPTO Y ELEMENTOS. LA AUTONOMÍA LOCAL DESPUÉS DE LA CONSTITUCIÓN DE 1978. LA REGULACIÓN DE LAS COMPETENCIAS EN LA LEY DE BASES DE RÉGIMEN LOCAL. LA ORGANIZACIÓN MUNICIPAL: EL RÉGIMEN ESPECIAL DEL MUNICIPIO DE BARCELONA. LA ORGANIZACIÓN POLÍTICA Y LA ORGANIZACIÓN EJECUTIVA. LOS DISTRITOS. ORGANISMOS AUTÓNOMOS Y ENTIDADES PÚBLICAS EMPRESARIALES. SOCIEDADES MERCANTILES Y FUNDACIONES PÚBLICAS. OTROS TIPOS DE ENTIDADES PÚBLICAS PARA LA GESTIÓN DE LOS SERVICIOS PÚBLICOS**
 
-## EL MUNICIPIO: CONCEPTO Y ELEMENTOS.
+## EL MUNICIPIO: CONCEPTO Y ELEMENTOS. <a id="el-municipio-concepto-y-elementos"></a>
 
 Podemos definir al municipio como un **Ente público territorial de carácter primario**. A partir de esta definición se desprenden las siguientes notas:
 
@@ -27,7 +103,7 @@ En el ámbito autonómico, el Decreto Legislativo 2/2003, de 28 de abril, que ap
 
 El art. 11.2 LRBRL establece que son **elementos del Municipio: “el territorio, la población y la organización”.**
 
-## → EL TERRITORIO:
+## → EL TERRITORIO: <a id="el-territorio"></a>
 
 Con respecto al territorio, el art. 12 LRBRL y el art. 1 del Reglamento de Población y Demarcación Territorial señalan que “el término municipal es el territorio en que el Ayuntamiento ejerce sus competencias”, y estará formado por territorios continuos, aunque se pueden mantener las situaciones de discontinuidad reconocidas en la actualidad, siendo, por lo demás, competencia del Ayuntamiento su división en distritos y en barrios y las variaciones de los mismos.
 
@@ -82,7 +158,7 @@ El TRLMYRLC, bajo la rúbrica del Título I, **“Del territorio, la denominaci�
 
 - **Delimitación, deslinde y amojonamiento (Art. 25):** Los ayuntamientos tienen la facultad de promover la delimitación, el deslinde y el amojonamiento de sus términos municipales, de acuerdo con el procedimiento establecido por reglamento. Los conflictos que pueden plantearse entre municipios en relación con la delimitación y el deslinde de sus términos tienen que ser resueltos por el Departamento de Gobernación y Relaciones Institucionales, con informe previo de la Comisión de Delimitación Territorial y dictamen previo de la Comisión Jurídica Asesora.
 
-### → La población:
+### → La población: <a id="la-poblacion"></a>
 
 En cuanto a la población del municipio, el art. 15 de la LRBRL señala que toda persona que viva en España está **obligada a inscribirse en el Padrón del municipio en el que resida habitualmente, y quien viva en varios municipios deberá inscribirse en el que habite durante más tiempo al año**. La inscripción en el Padrón municipal otorga la condición de vecino desde el mismo momento de su inscripción en el padrón.
 
@@ -94,14 +170,14 @@ Finalmente, la inscripción en el Padrón Municipal de personas que residiendo e
 
 El TRLMYRLC se ocupa de este elemento del municipio en el Título III, arts. 38 a 45.
 
-#### – Obligatoriedad de la inscripción y efectos de la inscripción en el Padrón: Art. 39
+#### – Obligatoriedad de la inscripción y efectos de la inscripción en el Padrón: Art. 39 <a id="obligatoriedad-de-la-inscripcion-y-efectos-de-la-inscripcion-en-el-padron-art-39"></a>
 
 1. Toda persona que viva en Cataluña está obligada a inscribirse en el padrón del municipio en el que reside habitualmente. Los ciudadanos que residen en diversos municipios tienen que inscribirse exclusivamente en el padrón del municipio donde pasen más tiempo durante el año. El conjunto de personas inscritas en el padrón municipal constituye la población del municipio.
 2. Las personas inscritas en el padrón municipal son los vecinos del municipio. La condición de vecino o vecina se adquiere en el mismo momento de la inscripción en el padrón correspondiente.
 3. Las **personas inscritas en el padrón de españoles residentes en el extranjero** se consideran vecinas del municipio de Cataluña que figure en los datos de su inscripción, **únicamente a efectos del derecho de sufragio, sin que en ningún caso constituyan población del municipio.**
 4. Todas las personas que, de acuerdo con lo que establecen los apartados 1, 2 y 3 tienen vecindad administrativa en un municipio de Cataluña, tienen la condición política de catalanes.
 
-#### – Contenido y certificaciones del Padrón Arts. 40 y 41:
+#### – Contenido y certificaciones del Padrón Arts. 40 y 41: <a id="contenido-y-certificaciones-del-padron-arts-40-y-41"></a>
 
 El padrón municipal es el registro administrativo donde constan los vecinos de un municipio. Los datos que constan en el padrón constituyen una prueba en lo que concierne a la residencia en el municipio y en el domicilio habitual. Las certificaciones expedidas por los ayuntamientos sobre estos datos tienen carácter de documento público y, en consecuencia, disfrutan de la presunción de veracidad y constituyen prueba de los datos que se consignan, a todos los efectos administrativos.
 
@@ -115,7 +191,7 @@ La inscripción en el padrón municipal tiene que contener, con carácter obliga
 - g) El certificado o el título escolar o académico.
 - h) Los datos necesarios a los efectos de la elaboración del censo electoral, siempre que se garantice el respeto a los derechos fundamentales reconocidos por la Constitución.
 
-#### – Derechos y deberes de los vecinos: los efectos de la inscripción en el Padrón (Art. 43 y 44)
+#### – Derechos y deberes de los vecinos: los efectos de la inscripción en el Padrón (Art. 43 y 44) <a id="derechos-y-deberes-de-los-vecinos-los-efectos-de-la-inscripcion-en-el-padron-art-43-y-44"></a>
 
 Son derechos y deberes de los vecinos:
 - a) Ser elector y elegible, de acuerdo con lo que dispone la legislación electoral.
@@ -135,7 +211,7 @@ En cuanto a la efectividad de los derechos que derivan para los vecinos de la in
 
 De los derechos enumerados cabe destacar por la trascendencia que tiene en el ámbito municipal, el de participación que luego desarrolla el Título XIV (arts. 154 a 158) del TRLMYRLC:
 
-#### * Información a los ciudadanos: Artículo 155. Publicidad de las actuaciones locales.
+#### * Información a los ciudadanos: Artículo 155. Publicidad de las actuaciones locales. <a id="informacion-a-los-ciudadanos-articulo-155-publicidad-de-las-actuaciones-locales"></a>
 
 1. La corporación, por acuerdo del pleno, tiene que determinar los medios necesarios para dar publicidad a los acuerdos adoptados por la corporación y las convocatorias de los órganos cuyas sesiones sean públicas, con el fin de garantizar el derecho de los ciudadanos a la más amplia información sobre las actividades del ente local.
 2. Todos los ciudadanos tienen derecho a:
@@ -148,7 +224,7 @@ De los derechos enumerados cabe destacar por la trascendencia que tiene en el á
 7. Las peticiones tienen que formalizarse siempre por escrito.
 8. Los requisitos y la tramitación de las peticiones tienen que ajustarse a lo que dispone la legislación que despliega el artículo 29 de la Constitución y, en su caso, la de procedimiento administrativo.
 
-#### * Derecho de Petición
+#### * Derecho de Petición <a id="derecho-de-peticion"></a>
 
 **Artículo 157. Derecho de petición.**
 
@@ -156,7 +232,7 @@ De los derechos enumerados cabe destacar por la trascendencia que tiene en el á
 2. Las peticiones tienen que formalizarse siempre por escrito.
 3. Los requisitos y la tramitación de las peticiones tienen que ajustarse a lo que dispone la legislación que despliega el artículo 29 de la Constitución y, en su caso, la de procedimiento administrativo.
 
-#### * Asociaciones de vecinos
+#### * Asociaciones de vecinos <a id="asociaciones-de-vecinos"></a>
 
 **Artículo 158. Carácter y derechos.**
 
@@ -170,11 +246,11 @@ De los derechos enumerados cabe destacar por la trascendencia que tiene en el á
 4. Sin perjuicio del Registro general de asociaciones de la Generalidad, los municipios tienen que establecer un registro propio a efectos de lo que dispone este artículo, en el cual tienen que inscribirse las asociaciones en el plazo de veinte días desde la petición, transcurrido el cual sin resolución expresa, se entienden inscritas.
 5. A petición del ente local interesado y de las mismas entidades, la Generalidad, de acuerdo con lo que dispone el Real decreto 1786/1996, de 19 de julio, tiene que solicitar al Estado la declaración de utilidad pública de las entidades a que se refiere este artículo.
 
-#### * Consultas populares:
+#### * Consultas populares: <a id="consultas-populares"></a>
 
 Esta figura estaba regulada en los artículos 159 a 161 del TRLMYRLC que fueron derogados por la actual regulación contenida en la Ley 4/2010, de 17 de marzo.
 
-### → LA ORGANIZACIÓN:
+### → LA ORGANIZACIÓN: <a id="la-organizacion"></a>
 
 La organización constituye el tercero de los elementos del Municipio, la cual está constituida por una serie de **medios personales simples o complejos e institucionales** (los órganos de gobierno propiamente dichos) o burocráticos (el personal al servicio de cada Corporación) **que desarrollan las actividades propias del Municipio para que éste cumpla los fines que le son propios.**
 
@@ -213,7 +289,7 @@ Para finalizar este apartado señalaremos que el TRLMYRLC contiene normativa esp
 - Régimen especial de Barcelona Art. 78
 - Municipios de gran población Art. 121 LRBRL.
 
-## LA AUTONOMÍA LOCAL DESPUÉS DE LA CONSTITUCIÓN DE 1978.
+## LA AUTONOMÍA LOCAL DESPUÉS DE LA CONSTITUCIÓN DE 1978. <a id="la-autonomia-local-despues-de-la-constitucion-de-1978"></a>
 
 El **artículo 137 de la Constitución española de 1978** reconoce autonomía para la gestión de sus intereses a municipios, provincias y Comunidades Autónomas. Son los tres tipos de entidades territoriales que dentro del Estado tienen autonomía constitucionalmente garantizada. Supone el reconocimiento de una "*garantía institucional*" como "*elementos arquitecturales indispensables del orden constitucional*" (Sentencia del Tribunal Constitucional **104/2000**). Ello supone la indisponibilidad para el legislador ordinario que no puede eliminar la institución garantizada en la Constitución ni tampoco vaciar o desconocer su contenido esencial.
 
@@ -227,7 +303,7 @@ La Constitución atribuye la competencia para su regulación tanto al Estado com
 
 El **TRLMYRLC** después de enumerar en el **apartado 3° del artículo 66 las competencias del municipio** impone a éstos en el artículo 67 la obligación de prestar a sus ciudadanos determinados servicios públicos. El ámbito prestacional es directamente proporcional al número de habitantes del municipio.
 
-### Artículo 67. Servicios mínimos.
+### Artículo 67. Servicios mínimos. <a id="articulo-67-servicios-minimos"></a>
 
 Los municipios, independientemente o asociados, tienen que prestar, como mínimo, los servicios siguientes:
 
@@ -239,7 +315,7 @@ Los municipios, independientemente o asociados, tienen que prestar, como mínimo
 
 No obstante lo anterior, la norma prevé la posibilidad de que los municipios puedan solicitar al Gobierno de la Generalidad la dispensa de la obligación de prestarlos.
 
-### Artículo 68. Dispensa de prestación de servicios.
+### Artículo 68. Dispensa de prestación de servicios. <a id="articulo-68-dispensa-de-prestacion-de-servicios"></a>
 
 1. Si el establecimiento o la prestación de servicios a que se refiere el artículo 67 resulta imposible o de muy difícil cumplimiento, los municipios pueden solicitar al Gobierno de la Generalidad la dispensa de la obligación de prestarlos.
 2. En este caso, corresponde a la comarca prestar los servicios municipales obligatorios, de acuerdo con lo que establece esta Ley.
@@ -253,7 +329,7 @@ La resolución del Gobierno tiene que producirse en el plazo de tres meses desde
 
 La necesidad de instruir expediente de dispensa se excluye en los supuestos previstos en el artículo 69.
 
-### Artículo 69. Supuestos de no necesidad de instruir expediente.
+### Artículo 69. Supuestos de no necesidad de instruir expediente. <a id="articulo-69-supuestos-de-no-necesidad-de-instruir-expediente"></a>
 
 1. No es necesaria la instrucción de expediente de dispensa de prestación de servicios mínimos si concurren algunos de los supuestos siguientes:
    - a) Municipios que, por insuficiencia de capacidad financiera, por la especial estructura del territorio y de los asentamientos de la población o por otras causas técnicas, no pueden establecer o prestar adecuada o eficientemente los servicios mínimos de su competencia.
@@ -264,7 +340,7 @@ La necesidad de instruir expediente de dispensa se excluye en los supuestos prev
 
 Por su parte, el artículo 70 prevé la posibilidad de que los municipios puedan ejercer competencias por delegación de otras Administraciones, tanto la estatal como la autonómica.
 
-### Artículo 70. Delegación de competencias de la Generalidad.
+### Artículo 70. Delegación de competencias de la Generalidad. <a id="articulo-70-delegacion-de-competencias-de-la-generalidad"></a>
 
 1. El municipio puede ejercer competencias delegadas por la Administración de la Generalidad en los términos establecidos por las leyes.
 2. De acuerdo con lo que establece el apartado 1, los municipios de más de cincuenta mil habitantes, los municipios turísticos que alcanzan esta población al sumar la media ponderada anual de población turística y los otros municipios con una población inferior que lo soliciten y que justifiquen una capacidad suficiente de gestión técnica, pueden ejercer por delegación del Gobierno las competencias sancionadoras y las establecidas por los apartados 2 y 3 del artículo 5 de la Ley 10/1990, del 15 de junio, sobre policía del espectáculo, las actividades recreativas y los establecimientos públicos.
@@ -283,7 +359,7 @@ Finalmente, el artículo 71 prevé la posibilidad de que el municipio para la ge
 
 2. Para la realización de estas actividades, los municipios pueden ejercer las potestades de ejecución que no estén atribuidas por la legislación a otras administraciones públicas, incluida, en su caso, la de dictar reglamentos internos de organización de los servicios correspondientes.
 
-## RÉGIMEN JURÍDICO DE LA ORGANIZACIÓN Y COMPETENCIAS DEL AYUNTAMIENTO DE BARCELONA.
+## RÉGIMEN JURÍDICO DE LA ORGANIZACIÓN Y COMPETENCIAS DEL AYUNTAMIENTO DE BARCELONA. <a id="regimen-juridico-de-la-organizacion-y-competencias-del-ayuntamiento-de-barcelona"></a>
 
 Bajo esta expresión se incluye el conjunto de **normas a través de las cuales se establece la organización y competencias de un ente local, el municipio**. Éstas, ordenadas desde las más genéricas hasta las específicas y particulares del propio municipio, son las siguientes:
 
@@ -299,7 +375,7 @@ Bajo esta expresión se incluye el conjunto de **normas a través de las cuales 
 
 Antes de entrar en el análisis de la concreta estructura del Ayuntamiento es preciso hacer una pequeña referencia, por su gran trascendencia, a dos de las normas que acabamos de citar y que inciden, en mayor o menor medida, en lo que se denomina “régimen especial del municipio de Barcelona o Carta municipal de Barcelona,” utilizando esta última expresión en un sentido amplio:
 
-### Ley 27/2013, de 27 de diciembre, de racionalización y sostenibilidad de la Administración Local.
+### Ley 27/2013, de 27 de diciembre, de racionalización y sostenibilidad de la Administración Local. <a id="ley-27-2013-de-27-de-diciembre-de-racionalizacion-y-sostenibilidad-de-la-administracion-local"></a>
 
 La Ley 27/2013, de 27 de diciembre, persigue la consecución de los siguientes objetivos básicos: clarificar las competencias municipales para evitar duplicidades con las competencias de otras Administraciones de forma que se haga efectivo el principio “una Administración una competencia”; racionalizar la estructura organizativa de la Administración local de acuerdo con los principios de eficiencia, estabilidad y sostenibilidad financiera; garantizar un control financiero y presupuestario más riguroso y favorecer la iniciativa económica privada evitando intervenciones administrativas desproporcionadas. Así, con carácter general a través de la citada reforma se pretende ahorrar un total de 3.500 millones de euros, evitando duplicidades y clarificando las competencias de los Ayuntamientos. En este sentido **se fija la competencia exclusiva e íntegra de la sanidad, la educación y los servicios sociales en las Comunidades Autónomas (CC.AA.) al objeto de desligarlas con una mayor precisión de las competencias locales.**
 
@@ -313,7 +389,7 @@ La **Disposición Adicional Quinta** dispone que la norma será de aplicación a
 
 Los artículos 5 y 6 de la CMB establecen, de un lado, que la Carta se configura como norma básica del ordenamiento jurídico propio del gobierno local de la ciudad de Barcelona de modo que en todo lo que no esté previsto en la presente Carta son aplicables las normas generales sobre régimen local y las normas reguladoras de los diferentes sectores de la acción pública; de otra parte **atribuye al Ayuntamiento de Barcelona el desarrollo reglamentario de la Carta en los ámbitos de la organización (Reglamento Orgánico de 16/02/2001), obras, actividades y servicios municipales.**
 
-## ÓRGANOS DEL AYUNTAMIENTO: LA ORGANIZACIÓN POLÍTICA Y LA ORGANIZACIÓN EJECUTIVA
+## ÓRGANOS DEL AYUNTAMIENTO: LA ORGANIZACIÓN POLÍTICA Y LA ORGANIZACIÓN EJECUTIVA <a id="organos-del-ayuntamiento-la-organizacion-politica-y-la-organizacion-ejecutiva"></a>
 
 En primer lugar, el **artículo 47 del Decreto Legislativo 2/2003, de 28 de abril, de Texto Refundido de la Ley municipal y régimen local de Cataluña**, con carácter general y bajo la rúbrica “Gobierno y administración municipales”, establece que:
 
@@ -323,13 +399,13 @@ En primer lugar, el **artículo 47 del Decreto Legislativo 2/2003, de 28 de abri
 
 A continuación, el **artículo 48** aborda la enumeración y definición de los órganos municipales y lo hace sobre la base de la siguiente distinción:
 
-#### → Órganos necesarios, es decir, que han de existir en todos los municipios (Art. 48):
+#### → Órganos necesarios, es decir, que han de existir en todos los municipios (Art. 48): <a id="organos-necesarios-es-decir-que-han-de-existir-en-todos-los-municipios-art-48"></a>
 - **Alcalde/esa, tenientes de alcalde y el Pleno**
 - **Comisión de Gobierno** (en los municipios con una población de derecho superior a cinco mil habitantes y en los de menos cuando lo acuerda el pleno del ayuntamiento o lo establece el reglamento orgánico de éste. En cualquier caso, la comisión de gobierno existe en todos los municipios que sean capital de comarca, con independencia del número de habitantes) o Junta de Gobierno Local (*Ley 57/2003, de 16 de diciembre de medidas para la modernización del gobierno local, modifica la Ley 7/1985, en el sentido de “modernizar” la denominación de este órgano.)*
 
  La **Comisión especial de Cuentas**
 
-#### → Órganos complementarios:
+#### → Órganos complementarios: <a id="organos-complementarios"></a>
 - Las comisiones de estudio, informe o consulta.
 - Los órganos de participación ciudadana.
 - **El síndico o la síndica municipal de *greuges*,** si lo acuerda el pleno por mayoría absoluta, a propuesta de un grupo municipal.
@@ -345,7 +421,7 @@ Pasamos a analizar la organización que estas normas prevén para el Ayuntamient
 
 Como ya sabemos, la Carta Municipal de Barcelona, formada esencialmente por la Ley 22/1998, de 30 de diciembre, aprobada por el Parlament de Catalunya, es el régimen jurídico especial que refuerza la autonomía de la ciudad al servicio de una gestión administrativa eficaz y próxima a la ciudadanía, amplía la descentralización, potencia las competencias municipales en el marco de la colaboración institucional y consolida los mecanismos de participación ciudadana. Regula, por tanto, la organización del Gobierno Municipal, los distritos, la potestad normativa municipal, la participación ciudadana, y las competencias municipales. De acuerdo con su articulado, y en coherencia con el Reglamento Orgánico Municipal de 16/02/2001, en julio de 2011 se dictó una resolución sobre la organización política y administrativa de la Administración Municipal que estructuró **la organización política en cinco áreas de Gobierno.** Con posterioridad, en 2017, la actual dirección del Ayuntamiento las ha reorganizado, reducido a **cuatro**, y cambiado su denominación. En la actualidad, estas áreas son las que aparecen en el siguiente organigrama del Gobierno municipal:
 
-### 🏛️ El Gobierno Municipal (Junio 2025 - Actualidad)
+### 🏛️ El Gobierno Municipal (Junio 2025 - Actualidad) <a id="el-gobierno-municipal-junio-2025-actualidad"></a>
 
 Esta tabla organiza el equipo de gobierno según las responsabilidades actuales, extrayendo parte de la información de la web municipal.
 
@@ -358,7 +434,7 @@ Esta tabla organiza el equipo de gobierno según las responsabilidades actuales,
 | **4ª Tenencia de Alcaldía**: Economía, Hacienda, Turismo, Vivienda y Transición Digital | **Jordi Valls** | Unifica la política económica con la de vivienda, asumiendo tanto los presupuestos como el desarrollo de nuevas viviendas. |
 | **5ª Tenencia de Alcaldía** (nueva): Promoción Económica, Acción Social, Trabajo, Feminismos y Memoria Democrática | **Raquel Gil** | Coordina las áreas de **Promoción Económica** (Nadia Quevedo) y **Acción Social** (Sonia Fuertes), entre otras. |
 
-### 🗣️ Otros Cargos de Relevancia
+### 🗣️ Otros Cargos de Relevancia <a id="otros-cargos-de-relevancia"></a>
 
 Además de las tenencias de alcaldía, existen otras figuras importantes en el organigrama municipal:
 
@@ -367,7 +443,7 @@ Además de las tenencias de alcaldía, existen otras figuras importantes en el o
 
 Según la Carta Municipal de Barcelona, uno de los criterios esenciales de la organización de la ciudad es que las **funciones deliberantes** de ordenación, programación y control **deben diferenciarse claramente de las funciones ejecutivas de gobierno y las de administración**. Por este motivo, se pueden diferenciar en el Ayuntamiento de Barcelona **dos niveles de organización: el político y el ejecutivo**. El primero lo integran miembros electos o concejales, que pueden ejercer funciones de carácter decisorio, informativo y/o consultivo; el segundo lo forman diferentes sectores o ramas de intervención directa a través de los cuales se gestionan los programas y ejecutan las resoluciones aprobadas por la **organización política**.
 
-### LA ORGANIZACIÓN POLÍTICA
+### LA ORGANIZACIÓN POLÍTICA <a id="la-organizacion-politica"></a>
 
 El ámbito político lo forman los miembros electos, esto es, los concejales, que, según el **artículo 9 CMB**, integran los diferentes órganos de gobierno, tanto de la ciudad como territoriales (Distritos):
 
@@ -378,7 +454,7 @@ El ámbito político lo forman los miembros electos, esto es, los concejales, qu
 > d) Los Presidentes y Concejales de Distrito, si procede.
 > e) Los Consejos de Distrito.”
 
-#### El CONSEJO MUNICIPAL:
+#### El CONSEJO MUNICIPAL: <a id="el-consejo-municipal"></a>
 
 A la regulación del Consejo Municipal dedica la CMB el Capítulo II del Título I (Arts. 10 y ss) configurándolo como el órgano de máxima representación política de los ciudadanos en el gobierno de la ciudad. Está integrado por la totalidad de los concejales (41) y presidido por el alcalde y le corresponden las funciones que le atribuye la Carta municipal, que pueden concretarse en las siguientes:
 
@@ -427,7 +503,7 @@ Corresponde al Pleno el ejercicio de todas aquellas funciones que no estén atri
 
 El acuerdo de delegación del Pleno ha de indicar la materia y las funciones que se delegan así como, cuándo existan, las condiciones específicas del ejercicio de la potestad delegada. El acuerdo se adopta por mayoría simple y se ha de publicar en el BOPB y en la Gaseta.
 
-#### → LOS CONCEJALES. - ELS REGIDORS.
+#### → LOS CONCEJALES. - ELS REGIDORS. <a id="los-concejales-els-regidors"></a>
 
 El ROM establece que “*son miembros del Ayuntamiento de Barcelona los que resulten elegidos concejales de acuerdo con lo previsto en la legislación electoral general y, con las formalidades previas exigidas en la misma, tomen posesión del cargo*” (Art. 7 ROM)
 
@@ -463,7 +539,7 @@ Además de tenientes de alcalde, en el ayuntamiento de Barcelona, los concejales
 - **PRESIDENTES DE CONSEJO MUNICIPAL DE DISTRITO:** Asumen funciones representativas.
 - **CONCEJALES DE DISTRITO:** Asumen funciones ejecutivas.
 
-#### → LAS COMISIONES DEL CONSEJO MUNICIPAL
+#### → LAS COMISIONES DEL CONSEJO MUNICIPAL <a id="las-comisiones-del-consejo-municipal"></a>
 
 Asumen competencias decisorias y de control además de las propiamente informativas. El número de concejales que puede designar cada grupo municipal para integrar las comisiones del Consejo Municipal debe ser proporcional al que le corresponde en la composición del Pleno.
 
@@ -496,7 +572,7 @@ Las comisiones del Consejo municipal son pues grupos de trabajo que se encargan 
 - Comisión de Presidencia, Derechos de Ciudadanía, Participación, Seguridad y Prevención
 - Comisión de Ecología, Urbanismo y Movilidad
 
-#### → La JUNTA DE PORTAVOCES.
+#### → La JUNTA DE PORTAVOCES. <a id="la-junta-de-portavoces"></a>
 
 Cada grupo municipal designa el portavoz que debe representarlo en sus relaciones con todos los órganos municipales. Cada grupo puede designar también un portavoz adjunto.
 
@@ -506,7 +582,7 @@ Los acuerdos de la Junta de Portavoces deben adoptarse por voto ponderado. Corre
 
 Corresponde a la Junta de Portavoces debatir el orden del día de las sesiones ordinarias del Consejo Municipal propuesto por el Alcalde o Alcaldesa y, si procede, modificarlo.
 
-#### EL ALCALDE
+#### EL ALCALDE <a id="el-alcalde"></a>
 
 es el presidente de la Corporación Municipal. La elección del alcalde se realiza en sesión del Pleno **dentro de los veinte días siguientes** a la celebración de las **elecciones** municipales. **Son candidatos a alcalde todos los concejales que encabezan las listas de los distintos grupos políticos que han obtenido representación en el ayuntamiento**. Es proclamado electo el candidato que obtiene la mayoría absoluta de los votos. Si ninguno de ellos obtiene dicha mayoría es proclamado alcalde el concejal que encabece la lista más votada.
 
@@ -531,13 +607,13 @@ El tratamiento que se otorga al alcalde en las ciudades de Madrid y Barcelona es
 
 Las atribuciones del Alcalde o Alcaldesa consistentes en nombrar a los tenientes de alcalde y Concejales de Distrito y dictar Decretos y Bandos son indelegables. Las demás atribuciones pueden ser delegadas o desconcentradas en la Comisión de Gobierno, los Concejales y los órganos y cargos directivos de la Administración Ejecutiva. La delegación se ha de publicar en el BOP y en la Gaseta municipal.
 
-#### TENIENTES DE ALCALDE: Art. 14 CMB
+#### TENIENTES DE ALCALDE: Art. 14 CMB <a id="tenientes-de-alcalde-art-14-cmb"></a>
 
 En la actualidad son cuatro, cada uno de los cuales está al frente de una de las cuatro grandes áreas del gobierno municipal. Son nombrados y cesados libremente por el alcalde entre los concejales. Sustituyen al alcalde cuando está ausente y ejercen las funciones que expresamente les delegue.
 
 Cuando se produzca la ausencia, enfermedad o vacante de la Alcaldía sin que el alcalde/sa haya aprobado ninguna disposición específica al respecto le sustituirá el teniente de alcalde a quien corresponda por orden de nombramiento.
 
-#### – LA COMISIÓN DE GOBIERNO. Arts. 15 y 16 CMB
+#### – LA COMISIÓN DE GOBIERNO. Arts. 15 y 16 CMB <a id="la-comision-de-gobierno-arts-15-y-16-cmb"></a>
 
 La Comisión de Gobierno está integrada por el Alcalde o Alcaldesa, los Tenientes de Alcalde y los Concejales a los que nombre el Alcalde o Alcaldesa en número no superior a 1/3 del número total de éstos, debiendo dar cuenta al Consejo Municipal de dichos nombramientos. En la actualidad la Comisión de gobierno está compuesta por once miembros (10 más el alcalde).
 
@@ -565,17 +641,17 @@ La Comisión de Gobierno tiene las siguientes atribuciones:
 - Acordar la declaración de lesividad de los actos del Ayuntamiento.
 - Las que le delegue el Alcalde o Alcaldesa.
 
-#### – El Comité de gobierno:
+#### – El Comité de gobierno: <a id="el-comite-de-gobierno"></a>
 
 Recibe este nombre el órgano compuesto por el alcalde y los cuatro tenientes de alcalde cuya misión es la coordinación y dirección política, estudio y análisis antes de someter a la Comisión de Gobierno, de los siguientes asuntos: PAM, inversiones y supervisión de la gestión municipal.
 
-### EL ÁMBITO EJECUTIVO
+### EL ÁMBITO EJECUTIVO <a id="el-ambito-ejecutivo"></a>
 
 La organización ejecutiva de la ciudad de Barcelona, dirigida por el gerente municipal, la forman, por una parte, divisiones y órganos integrados en la personalidad jurídica única del Ayuntamiento y, por otra parte, entes dotados de personalidad jurídica propia diferenciada. En el primer caso, las divisiones y órganos tienen un modelo de dirección gerencial y están sometidos a las normas reglamentarias y de procedimiento propias de las Administraciones Públicas. En el segundo caso, los entes con personalidad jurídica diferenciada se han creado o están participados por el consistorio por razones de eficacia en la gestión de los servicios o actividades. Estos entes son los organismos públicos locales, organismos autónomos, entes públicos empresariales y sociedades municipales, en función de las diferentes modalidades de descentralización funcional.
 
 Cada sector y cada distrito tienen como responsable un gerente que trabaja con una estructura organizativa de soporte de su gestión y dispone de los recursos necesarios para desarrollar su función. La dirección ejecutiva superior de la Administración municipal ejecutiva se atribuye al Gerente Municipal que asume funciones de impulso, coordinación y seguimiento del comité ejecutivo.
 
-#### → El Gerente Municipal
+#### → El Gerente Municipal <a id="el-gerente-municipal"></a>
 
 Es el máximo responsable dentro de la estructura ejecutiva. Tiene atribuida la **dirección ejecutiva superior de las gerencias municipales así como de los organismos autónomos y empresas que forman el grupo empresarial municipal del Ayuntamiento de Barcelona. Es el máximo responsable dentro de la estructura ejecutiva de que los servicios prestados por el Ayuntamiento a los ciudadanos sean eficaces, eficientes y respondan a las necesidades de la ciudad. Sus funciones son:**
 - **Dirección superior de la planificación, organización y prestación de los servicios públicos**, para garantizar el cumplimiento de los objetivos definidos por el Gobierno Municipal.
@@ -586,7 +662,7 @@ Es el máximo responsable dentro de la estructura ejecutiva. Tiene atribuida la 
 - Seguimiento de la calidad y rendimiento en la prestación de los diferentes servicios.
 - Asiste a las sesiones de la Comisión de Gobierno y del Comité de Gobierno.
 
-#### → La administración municipal ejecutiva
+#### → La administración municipal ejecutiva <a id="la-administracion-municipal-ejecutiva"></a>
 
 Se organiza a través de su Consejo de Dirección, presidido por el primer teniente de alcalde y coordinado por el gerente municipal.
 
@@ -605,7 +681,7 @@ Y **4 gerencias sectoriales** vinculadas a alguna de las anteriores:
 - Gerencia de Política económica y desarrollo local vinculada a la Gerencia de Presidencia y Economía
 - Gerencia de Turismo, comercio y mercados vinculada a la Gerencia de Presidencia y Economía
 
-#### → El Comité Ejecutivo
+#### → El Comité Ejecutivo <a id="el-comite-ejecutivo"></a>
 
 También presidido por el primer teniente de alcalde y por el gerente municipal, como vicepresidente, reúne el conjunto de las gerencias sectoriales y territoriales para preparar las medidas, proyectos y planes que se presentarán en alguna de las comisiones permanentes del Consejo Municipal, y para hacer el seguimiento y control de la ejecución financiera y presupuestaria municipal.
 
@@ -632,7 +708,7 @@ Por otra parte, la base territorial de la administración municipal ejecutiva es
 - Sant Andreu
 - Sant Martí
 
-## III. LOS DISTRITOS Y LOS SECTORES.
+## III. LOS DISTRITOS Y LOS SECTORES. <a id="iii-los-distritos-y-los-sectores"></a>
 
 La base territorial de la Administración municipal ejecutiva está formada por diez distritos en los que se divide territorialmente la ciudad y que están gestionados por un gerente nombrado por la Alcaldía. El Título II de la CMB bajo el título “Los distritos” en su primer artículo, el 2, establece:
 
@@ -646,7 +722,7 @@ La organización en distritos se extiende a todo el término municipal si bien, 
 
 Son **órganos de gobierno** de los distritos los siguientes:
 
-### → Consejo de Distrito:
+### → Consejo de Distrito: <a id="consejo-de-distrito"></a>
 
 En cuanto a este órgano la CMB se limita a enumerar sus competencias y a remitir al Reglamento Orgánico su composición y elección de sus miembros, al establecer que *“El Reglamento orgánico municipal debe regular la composición de los consejos de distrito y la elección de sus miembros. El régimen jurídico relativo a sus derechos económicos y prestaciones sociales es el mismo que el relativo a los miembros electos del Ayuntamiento*”, siendo el Reglamento del 16/02/2001 el que establece que estará formado por los miembros que representan a los diferentes grupos políticos del Distrito.
 
@@ -666,7 +742,7 @@ En cuanto a las competencias, corresponde a los Consejos de Distrito:
   - Los presupuestos municipales.
 - El control y fiscalización de los órganos cuando el ámbito territorial de actuación sea el del distrito.
 
-### → El Presidente:
+### → El Presidente: <a id="el-presidente"></a>
 
 El presidente es nombrado y separado por el Alcalde de entre los concejales, a propuesta del Consejo de Distrito. Solo puede ejercer su derecho de voto en caso de empate.
 
@@ -678,7 +754,7 @@ El presidente es nombrado y separado por el Alcalde de entre los concejales, a p
 - Someter al Consejo de Distrito la propuesta de plan y programa de Actuación.
 - Elevar a los órganos municipales las propuestas e informes del Consejo de Distrito.
 
-### → El concejal de distrito:
+### → El concejal de distrito: <a id="el-concejal-de-distrito"></a>
 
 El Alcalde o Alcaldesa debe delegar en un Concejal o Concejala, que recibe la denominación de Concejal o Concejala de Distrito, sus atribuciones para que puedan ser ejercidas en el ámbito territorial del distrito, sin perjuicio de las correspondientes a sus órganos de gobierno. En dicho supuesto, le corresponden a dicho Concejal o Concejala, como mínimo, las siguientes atribuciones:
 - Dirigir la administración del distrito y ejercer la dirección del personal adscrito.
@@ -689,11 +765,11 @@ El Alcalde o Alcaldesa debe delegar en un Concejal o Concejala, que recibe la de
 - Asegurar la relación constante del distrito con los distintos sectores de la Administración Municipal.
 - Las demás que le delegue el Alcalde o Alcaldesa.
 
-### → Concejales adscritos al distrito:
+### → Concejales adscritos al distrito: <a id="concejales-adscritos-al-distrito"></a>
 
 Con la finalidad de garantizar un mejor conocimiento de la realidad de las demandas ciudadanas todos los concejales asumen responsabilidad sobre un determinado territorio (distrito). Con esta finalidad, el alcalde/esa podrá nombrar uno o más concejales adscritos al distrito a propuesta de los grupos municipales. Estos concejales gozarán de voz pero no de voto en los órganos del Distrito en los que participen.
 
-### → Los consejeros del Distrito:
+### → Los consejeros del Distrito: <a id="los-consejeros-del-distrito"></a>
 
 Son nombrados y separados por el Alcalde/sa a propuesta de los presidentes de los grupos municipales. El número de consejeros propuesto por cada grupo municipal ha de ser proporcional a los resultados obtenidos en el Distrito en las elecciones municipales por cada uno de los partidos o coaliciones que se hayan presentado en el territorio de cada uno de los distritos y que hayan obtenido como mínimo el 5% de los votos del Distrito.
 
@@ -706,12 +782,12 @@ Son funciones del/los Consejeros de Distrito las siguientes:
 - Favorecer el diálogo con los ciudadanos.
 - Ejercer las funciones que le delegue expresamente el concejal/a de Distrito o el Presidente del Consell de Distrito.
 
-### → La Comisión de Gobierno del Distrito:
+### → La Comisión de Gobierno del Distrito: <a id="la-comision-de-gobierno-del-distrito"></a>
 Es el órgano ejecutivo que asiste al concejal del Distrito en la dirección el gobierno del Distrito. La Comisión emite informes sobre los asuntos que son competencia del Consejo de Distrito y ejerce las que le deleguen.
 La Comisión de Gobierno propone el orden del día del Consejo de Distrito y fija el de las Comisiones consultivas del gobierno.
 Está formada por el concejal/a de Distrito que actuará de presidente y un mínimo de cinco consejeros. El nombramiento y separación de los consejeros miembros de la Comisión de Gobierno de Distrito corresponde al concejal de Distrito que los designará de entre los consejeros del distrito, dando cuenta al Consejo. Puede asistir a las sesiones de la Comisión de Gobierno, con voz pero sin voto, el/la Gerente del Distrito.
 
-### → Las Comisiones consultivas:
+### → Las Comisiones consultivas: <a id="las-comisiones-consultivas"></a>
 Las comisiones consultivas tienen una función de carácter informativo y de participación ciudadana. Pueden ser permanentes o especiales en función de los asuntos a tratar.
 
 Cada Distrito, en función de sus necesidades y prioridades, tiene un número determinado, habitualmente tres comisiones, aunque se pueden crear otras especiales según los asuntos que deban tratarse. Estas comisiones se reúnen de manera ordinaria antes de la convocatoria de cada consejo de distrito y están abiertas a la ciudadanía.
@@ -723,9 +799,9 @@ El número concreto y las funciones de cada una de ellas viene establecido por e
 
 Estarán integradas por un representante de cada grupo municipal de distrito con voto ponderado y por los concejales adscritos con voz y sin voto.
 
-### Como órganos de Participación ciudadana del Distrito se regulan los siguientes:
+### Como órganos de Participación ciudadana del Distrito se regulan los siguientes: <a id="como-organos-de-participacion-ciudadana-del-distrito-se-regulan-los-siguientes"></a>
 
-#### – El Consejo Ciudadano
+#### – El Consejo Ciudadano <a id="el-consejo-ciudadano"></a>
 
 Es el máximo órgano consultivo y de participación del Distrito. Está formado por representantes de entidades y asociaciones, de los consejos sectoriales del Distrito y de los consejos de barrio, así como ciudadanos a título individual.
 
@@ -734,13 +810,13 @@ Tiene las funciones siguientes:
 - Conocer y debatir el Programa de actuación del distrito, las ordenanzas y los reglamentos generales del distrito, los presupuestos municipales, los resultados de los indicadores de gestión del distrito y los grandes proyectos del distrito.
 - También ejerce la función de dar apoyo a los consejos sectoriales y de barrio del distrito.
 
-#### – Foro Ciudadano o Audiencia Pública, de ámbito de distrito:
+#### – Foro Ciudadano o Audiencia Pública, de ámbito de distrito: <a id="foro-ciudadano-o-audiencia-publica-de-ambito-de-distrito"></a>
 
 El Foro Ciudadano o Audiencia Pública, de ámbito de distrito, es el encuentro en una fecha determinada de los responsables municipales con la ciudadanía para que esta pueda recibir información y presentar y debatir propuestas en relación con una determinada actuación pública, actividad o programa de actuación. En el caso de los distritos, está regulada por las normas reguladoras del funcionamiento de los distritos y por los reglamentos de cada Distrito.
 El desarrollo de las audiencias públicas facilita el trabajo en grupo de todos los implicados y mejora las relaciones entre la ciudadanía, los políticos y los técnicos municipales, lo que se traduce en una resolución positiva de los conflictos y las demandas vecinales.
 Las convocatorias de las audiencias públicas tienen periodicidad bimensual y se celebran en diferentes espacios y equipamientos de los diversos barrios que forman el distrito.
 
-#### – Consejos sectoriales:
+#### – Consejos sectoriales: <a id="consejos-sectoriales"></a>
 
 Los consejos sectoriales son órganos de participación en los que el Distrito y la ciudadanía debaten sobre un ámbito concreto que puede ser sectorial o temático.
 
@@ -752,7 +828,7 @@ Los consejos sectoriales tienen las funciones siguientes:
 - c) Elaborar informes o dictámenes sobre proyectos de actuación o sobre actuaciones ya desarrolladas.
 - d) Colaborar en el desarrollo de alguna actuación (coproducción).
 
-#### – Consejo de Barrio:
+#### – Consejo de Barrio: <a id="consejo-de-barrio"></a>
 
 El Consejo de Barrio es un órgano de participación territorial para todas las cuestiones referentes al barrio. Un punto de encuentro para mejorar la calidad de vida urbana de nuestra ciudad y aumentar la cohesión social. El Consejo de Barrio está formado por los concejales de distrito, los representantes de los grupos políticos, servicios, entidades y asociaciones y, evidentemente, por los ciudadanos. Para participar hay que inscribirse en la convocatoria pública.
 
@@ -764,19 +840,19 @@ Son Miembros con voz y voto:
 - Un concejal/a de cada grupo político del Distrito.
 - Las asociaciones de vecinos del barrio inscritas en el Fichero General de Entidades Ciudadanas del Ayuntamiento de Barcelona.
 
-#### – Consejos de equipamientos:
+#### – Consejos de equipamientos: <a id="consejos-de-equipamientos"></a>
 
 Los consejos de equipamiento y las comisiones de trabajo son otros órganos de participación que tienen como finalidad elaborar estudios, organizar actividades y hacer el seguimiento de estos en ámbitos de distrito, barrio, sector o equipamiento. Cada Distrito determina cuáles serán sus órganos de participación a través de la aprobación de su equipo de gobierno.
 
-#### – Consejos de Centros Deportivos:
+#### – Consejos de Centros Deportivos: <a id="consejos-de-centros-deportivos"></a>
 
 El Consejo está presidido por el concejal o la concejala de distrito o el consejero o la consejera en quien delegue. También forman parte un consejero o consejera de cada grupo político, representantes de la entidad gestora de cada equipamiento, la asociación de vecinos del barrio y representantes de usuarios y usuarias a título individual.
 
 Tienen la función básica de seguimiento de la gestión y de la programación de los centros deportivos.
 
-## IV. ORGANISMOS AUTÓNOMOS Y ENTIDADES PÚBLICAS EMPRESARIALES. SOCIEDADES MERCANTILES Y FUNDACIONES PÚBLICAS.
+## IV. ORGANISMOS AUTÓNOMOS Y ENTIDADES PÚBLICAS EMPRESARIALES. SOCIEDADES MERCANTILES Y FUNDACIONES PÚBLICAS. <a id="iv-organismos-autonomos-y-entidades-publicas-empresariales-sociedades-mercantiles-y-fundaciones-publicas"></a>
 
-### • Organismos autónomos locales
+### • Organismos autónomos locales <a id="organismos-autonomos-locales"></a>
 
 Son organismos públicos municipales con personalidad jurídica propia y autonomía de gestión. Se rigen por el derecho administrativo y se les encomienda, en régimen de descentralización administrativa funcional, la realización de actividades de fomento, de actividades prestacionales o la gestión de servicios públicos.
 
@@ -798,7 +874,7 @@ Tienen este carácter en el ámbito municipal de Barcelona los siguientes:
 - Instituto Municipal de Personas con Discapacidad
 - Instituto Municipal de Servicios Sociales de Barcelona
 
-### • Entidades públicas empresariales.
+### • Entidades públicas empresariales. <a id="entidades-publicas-empresariales"></a>
 
 Son organismos públicos municipales a los que se puede encomendar la realización de actividades, la gestión de servicios o la producción de bienes de interés público, susceptibles de contraprestación. Se rigen por el derecho privado, excepto en el funcionamiento de sus órganos de gobierno, en el ejercicio de las potestades administrativas que tengan atribuidas y en los aspectos específicamente regulados en la ley.
 
@@ -808,7 +884,7 @@ Son organismos públicos municipales a los que se puede encomendar la realizaci�
 - Instituto Municipal de la Vivienda y Rehabilitación
 - Instituto Municipal de Urbanismo
 
-### • Sociedades mercantiles municipales
+### • Sociedades mercantiles municipales <a id="sociedades-mercantiles-municipales"></a>
 
 Son empresas de capital íntegramente municipal. Se trata de sociedades mercantiles creadas por el Ayuntamiento y dotadas de un capital social exclusivamente municipal, para la gestión (en régimen descentralizado de derecho privado) de servicios. Son sociedades regidas íntegramente por el derecho mercantil. Estas sociedades, a través de las cuales la Administración pública gestiona, asimismo, servicios públicos, operan en el mercado en igualdad de condiciones respecto de las sociedades mercantiles estrictamente privadas. Las sociedades mercantiles mayoritariamente municipales son las empresas participadas por el Ayuntamiento de Barcelona en un porcentaje superior al 50 %.
 
@@ -838,7 +914,7 @@ El TRLMYRLC incluye las sociedades mercantiles en el artículo 249 entre las for
 2. El capital social tiene que ser desembolsado totalmente desde el momento de la constitución de la sociedad.
 3. La sociedad tiene que adoptar una de las formas de responsabilidad limitada y actuar con sujeción a las normas del derecho mercantil, sin perjuicio de las materias exceptuadas por el acuerdo de creación y de la aplicación de las normas especiales sobre las empresas públicas.
 
-### • Sociedades mercantiles con participación minoritaria
+### • Sociedades mercantiles con participación minoritaria <a id="sociedades-mercantiles-con-participacion-minoritaria"></a>
 
 Sociedades mercantiles participadas por el Ayuntamiento, directamente o a través de otras sociedades mercantiles, en un porcentaje inferior al 50 %.
 
@@ -863,7 +939,7 @@ Sociedades mercantiles participadas por el Ayuntamiento, directamente o a travé
 - 5% Port Fòrum Sant Adrià, SL
 - 4,78% Nauta Tech Invest III, SC
 
-### Fundaciones en que el Ayuntamiento participa
+### Fundaciones en que el Ayuntamiento participa <a id="fundaciones-en-que-el-ayuntamiento-participa"></a>
 
 Fundaciones que la Intervención General de la Administración del Estado ha clasificado como dependientes del Ayuntamiento de Barcelona. La asignación se basa en diversos criterios, como el número de miembros en los órganos de gobierno o las aportaciones realizadas, y comporta que los presupuestos de estos entes se tengan que consolidar con los del grupo municipal.
 
@@ -875,11 +951,11 @@ Fundaciones que la Intervención General de la Administración del Estado ha cla
 - Fundación Museo Picasso de Barcelona
 - Fundación Barcelona Institute of Technology for the Habitat
 
-## V. OTROS TIPOS DE ENTIDADES PÚBLICAS PARA LA GESTIÓN DE LOS SERVICIOS PÚBLICOS.
+## V. OTROS TIPOS DE ENTIDADES PÚBLICAS PARA LA GESTIÓN DE LOS SERVICIOS PÚBLICOS. <a id="v-otros-tipos-de-entidades-publicas-para-la-gestion-de-los-servicios-publicos"></a>
 
-### CLASIFICACIÓN DE LAS FORMAS O SISTEMAS DE GESTIÓN DE LOS SERVICIOS PÚBLICOS DESPUÉS DE LA LEY DE CONTRATOS DEL SECTOR PÚBLICO, LEY DE 19 DE OCTUBRE DE 2017:
+### CLASIFICACIÓN DE LAS FORMAS O SISTEMAS DE GESTIÓN DE LOS SERVICIOS PÚBLICOS DESPUÉS DE LA LEY DE CONTRATOS DEL SECTOR PÚBLICO, LEY DE 19 DE OCTUBRE DE 2017: <a id="clasificacion-de-las-formas-o-sistemas-de-gestion-de-los-servicios-publicos-despues-de-la-ley-de-contratos-del-sector-publico-ley-de-19-de-octubre-de-2017"></a>
 
-#### A) GESTIÓN DIRECTA
+#### A) GESTIÓN DIRECTA <a id="a-gestion-directa"></a>
 
 **a) POR UNA SOLA ADMINISTRACIÓN PÚBLICA.**
 - a.1) Gestión por la propia entidad
@@ -901,7 +977,7 @@ Los consorcios son, por lo tanto, entidades de derecho público, de carácter as
 - b.3) Sociedad mercantil con capital social público y participación de varias administraciones
 - b.4) **Convenio** entre Administraciones: delegación, encomienda de gestión y otras actuaciones cooperativas
 
-#### B) GESTIÓN INDIRECTA:
+#### B) GESTIÓN INDIRECTA: <a id="b-gestion-indirecta"></a>
 - B.1) GESTIÓN CONTRACTUAL
 	- a) Concesión (transferencia del riesgo operacional al contratista).
 	- b) Contrato de servicios que contienen prestaciones directas a favor de la ciudadanía (no transferencia del riesgo operacional al contratista).
