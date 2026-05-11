@@ -1,0 +1,622 @@
+[
+  {
+    "guid": "adba9619-4ce4-46cb-a1f1-83848f222d1f",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la distinción técnica fundamental entre el 'control' y la 'responsabilidad' del Gobierno según la Constitución Española?",
+    "answerOptions": [
+      {
+        "text": "Ambas cámaras ejercen el control, pero la responsabilidad se exige únicamente ante el Congreso de los Diputados.",
+        "rationale": "El control es una función inspectora de ambas cámaras, mientras que la responsabilidad implica la capacidad de destituir al Gobierno mediante mecanismos específicos del Congreso.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Senado controla la acción política mientras que el Congreso asume la responsabilidad jurídica de los actos gubernamentales.",
+        "rationale": "La responsabilidad en el sistema parlamentario español no es jurídica-penal en este contexto, sino política y vinculada a la confianza de la cámara baja.",
+        "isCorrect": false
+      },
+      {
+        "text": "El control se realiza mediante mociones de censura y la responsabilidad mediante preguntas e interpelaciones.",
+        "rationale": "Las preguntas e interpelaciones son herramientas de control, mientras que la moción de censura es el instrumento por excelencia para exigir responsabilidad política.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tanto el Congreso como el Senado pueden hacer caer al Gobierno si este pierde una votación de responsabilidad.",
+        "rationale": "El Senado carece de la prerrogativa constitucional para retirar la confianza al Presidente del Gobierno mediante mecanismos de responsabilidad política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde qué cámara tiene la potestad exclusiva de otorgar o retirar la confianza en la investidura."
+  },
+  {
+    "guid": "78afd4a3-ef88-4022-a995-6adcddd775e2",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el sistema electoral para el Congreso de los Diputados, ¿qué función cumple el 'umbral' o barrera electoral establecida por la LOREG?",
+    "answerOptions": [
+      {
+        "text": "Excluir del reparto de escaños a las candidaturas que no obtengan al menos el 3% de los votos válidos en la circunscripción.",
+        "rationale": "Este límite legal busca evitar una fragmentación excesiva en la cámara baja, condicionando la entrada al sistema de reparto D'Hondt.",
+        "isCorrect": true
+      },
+      {
+        "text": "Garantizar que solo los partidos con implantación nacional puedan obtener representación parlamentaria.",
+        "rationale": "El umbral del 3% se aplica a nivel de circunscripción provincial, lo que permite que partidos regionales con mucha fuerza local obtengan representación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Determinar el número mínimo de votos necesarios para que una lista sea considerada bloqueada y cerrada.",
+        "rationale": "El carácter bloqueado y cerrado de las listas es una característica estructural del sistema, no depende del porcentaje de votos obtenido.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obligar a los partidos a obtener un mínimo del 5% de los votos emitidos para poder formar un grupo parlamentario propio.",
+        "rationale": "La formación de grupos parlamentarios se rige por el Reglamento del Congreso y suele requerir un número de escaños o porcentajes distintos al umbral de representación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un filtro aplicado durante el proceso de escrutinio antes de asignar los escaños."
+  },
+  {
+    "guid": "2a602f83-89b2-401a-b926-0db9611e7071",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Respecto a la inviolabilidad parlamentaria, ¿cuál es su alcance jurídico exacto según el artículo 71.1 de la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Impide la exigencia de responsabilidad jurídica por las opiniones manifestadas o los votos emitidos en el ejercicio de sus funciones.",
+        "rationale": "Esta prerrogativa protege la libertad de expresión y decisión del parlamentario para asegurar el funcionamiento autónomo de las cámaras.",
+        "isCorrect": true
+      },
+      {
+        "text": "Permite que los diputados y senadores no puedan ser procesados por delitos cometidos fuera del recinto parlamentario.",
+        "rationale": "La protección frente a procesos por actos ajenos a la función parlamentaria corresponde a la inmunidad, no a la inviolabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Otorga libertad absoluta de movimiento y expresión incluso tras la finalización del mandato parlamentario por actos privados.",
+        "rationale": "La inviolabilidad se circunscribe exclusivamente a la actividad oficial (votos y opiniones) y no a la vida privada del sujeto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Faculta al parlamentario para ignorar citaciones judiciales en calidad de testigo en cualquier procedimiento penal.",
+        "rationale": "La inviolabilidad no exime de las obligaciones ciudadanas generales ante la justicia, salvo que interfieran directamente con sus votos u opiniones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la protección específica que garantiza que un diputado no sea juzgado por lo que dice en una tribuna."
+  },
+  {
+    "guid": "64f09285-b461-4746-bcf9-6f239bf4fbad",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con un 'suplicatorio' presentado ante el Congreso si la Cámara no llega a pronunciarse de forma expresa en el plazo previsto?",
+    "answerOptions": [
+      {
+        "text": "Se entiende que el suplicatorio ha sido denegado.",
+        "rationale": "Según el Reglamento del Congreso, el silencio parlamentario en esta materia opera como una denegación tácita de la autorización para procesar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se aplica el silencio administrativo positivo y se considera concedido automáticamente.",
+        "rationale": "En las prerrogativas parlamentarias, la falta de acuerdo protege al diputado, requiriéndose una voluntad expresa de la cámara para levantar la protección.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Supremo puede proceder al procesamiento sin necesidad de esperar más tiempo.",
+        "rationale": "El órgano judicial no puede actuar motu proprio sin la autorización previa y expresa (o el vencimiento con denegación) de la cámara respectiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se debe repetir la votación en el Pleno por mayoría absoluta de forma obligatoria.",
+        "rationale": "La denegación por silencio no obliga a una nueva votación, sino que cierra la vía de procesamiento en esa instancia legislativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Reflexione sobre cómo protege el sistema la autonomía de la Cámara frente a la presión judicial externa."
+  },
+  {
+    "guid": "3ec55146-4dde-4b5a-a557-098efca0690e",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el marco de la composición del Senado, ¿cómo se determina el número de senadores designados por las Comunidades Autónomas?",
+    "answerOptions": [
+      {
+        "text": "Uno por cada Comunidad Autónoma y otro más por cada millón de habitantes de su respectivo territorio.",
+        "rationale": "Este sistema combina una base fija igualitaria con un componente demográfico para asegurar la representación proporcional de la población autonómica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dos por cada provincia que integre la Comunidad Autónoma, independientemente de su población total.",
+        "rationale": "La representación por provincias en el Senado es la que se elige por sufragio directo, no la designada por las asambleas legislativas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un número fijo de cuatro senadores por cada Comunidad, siguiendo el modelo de las provincias peninsulares.",
+        "rationale": "El número de senadores autonómicos es variable y depende directamente del censo poblacional actualizado de cada región.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son elegidos directamente por los ciudadanos en las elecciones autonómicas mediante una lista separada.",
+        "rationale": "Estos senadores son designados por la Asamblea Legislativa de la Comunidad Autónoma, no elegidos directamente por el cuerpo electoral en esa condición.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este cálculo asegura que comunidades más pobladas como Cataluña o Andalucía tengan más representantes que las uniprovinciales."
+  },
+  {
+    "guid": "92b7051d-8055-4275-aa7a-2ef3ff367751",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Al hablar de los 'Decretos-Leyes' (Art. 86 CE), ¿cuál es el papel del Congreso de los Diputados tras su promulgación por el Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Debe someterlos a debate y votación de totalidad para su convalidación o derogación en el plazo de 30 días.",
+        "rationale": "Esta es la garantía parlamentaria necesaria ante una norma con rango de ley que emana del ejecutivo por razones de extraordinaria y urgente necesidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Debe remitirlos al Senado para que la Cámara Alta ejerza su derecho de veto antes de entrar en vigor.",
+        "rationale": "El Senado no interviene en la fase de convalidación de los Decretos-Leyes; es una competencia exclusiva del Congreso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiene la obligación de tramitarlos como proyectos de ley por el procedimiento de urgencia de forma simultánea.",
+        "rationale": "La tramitación como proyecto de ley es una opción facultativa tras la convalidación, no un paso obligatorio previo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo puede intervenir si el Tribunal Constitucional declara previamente la existencia de un presupuesto de hecho habilitante.",
+        "rationale": "El control político del Congreso es inmediato y posterior a la promulgación, sin perjuicio del posterior control de constitucionalidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el mecanismo de control parlamentario sobre las normas provisionales dictadas por el Ejecutivo."
+  },
+  {
+    "guid": "7196c435-f627-4aa4-8b19-c21b2f3e815a",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Sobre el Defensor del Pueblo, ¿cuál es la mayoría requerida para su designación por las Cortes Generales?",
+    "answerOptions": [
+      {
+        "text": "Se requiere una mayoría de tres quintos de los miembros de cada una de las Cámaras.",
+        "rationale": "Esta mayoría cualificada asegura un amplio consenso político para una figura que debe actuar con independencia de los partidos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Basta con una mayoría simple en el Congreso y una mayoría absoluta en el Senado.",
+        "rationale": "Una mayoría simple sería insuficiente para garantizar la legitimidad y neutralidad que requiere el cargo de Alto Comisionado de las Cortes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe ser elegido por mayoría absoluta en sesión conjunta de ambas cámaras presidida por el Rey.",
+        "rationale": "La elección se realiza por las cámaras de forma separada y la intervención del Rey es meramente formal para el nombramiento, no en la deliberación.",
+        "isCorrect": false
+      },
+      {
+        "text": "La propuesta debe ser aprobada por dos tercios del Congreso de los Diputados únicamente.",
+        "rationale": "El Senado también debe participar en el proceso de designación con la misma mayoría cualificada que el Congreso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una mayoría reforzada, superior a la absoluta, diseñada para forzar el acuerdo entre Gobierno y oposición."
+  },
+  {
+    "guid": "eae1d7f2-8ae8-407a-99e4-456ded988218",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué característica define la función jurisdiccional del Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "El enjuiciamiento de la responsabilidad contable de quienes manejan fondos públicos.",
+        "rationale": "Además de su labor fiscalizadora, el Tribunal tiene potestad para juzgar y hacer ejecutar lo juzgado en materia de menoscabo de caudales públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La imposición de penas privativas de libertad a los funcionarios que cometan malversación.",
+        "rationale": "La responsabilidad penal es competencia exclusiva de la jurisdicción ordinaria (tribunales penales), no del Tribunal de Cuentas.",
+        "isCorrect": false
+      },
+      {
+        "text": "La resolución de recursos de amparo interpuestos por ciudadanos contra la gestión económica del Estado.",
+        "rationale": "El recurso de amparo es competencia exclusiva del Tribunal Constitucional para la protección de derechos fundamentales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El arbitraje vinculante en conflictos de competencias entre el Ministerio de Hacienda y las Autonomías.",
+        "rationale": "El Tribunal de Cuentas fiscaliza y juzga cuentas, pero no resuelve conflictos competenciales orgánicos entre administraciones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de determinar la responsabilidad civil/patrimonial por el mal uso del dinero público."
+  },
+  {
+    "guid": "8fd24d9c-9918-4f97-9e9a-f951fb4fcdfa",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En relación con la iniciativa legislativa popular, ¿cuál de las siguientes materias está expresamente excluida de su ámbito de actuación?",
+    "answerOptions": [
+      {
+        "text": "Las materias propias de ley orgánica, tributarias o de carácter internacional.",
+        "rationale": "La Constitución reserva estas áreas sensibles a los representantes directos o al Gobierno para evitar el populismo legislativo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier reforma que afecte al funcionamiento de los Ayuntamientos y Diputaciones.",
+        "rationale": "La administración local no figura entre las exclusiones generales de la iniciativa popular siempre que no afecte a leyes orgánicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las leyes ordinarias relativas a la protección del medio ambiente o la salud pública.",
+        "rationale": "Estas materias son perfectamente válidas para ser impulsadas mediante la recogida de 500.000 firmas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las propuestas de modificación del Reglamento del Congreso de los Diputados.",
+        "rationale": "Aunque técnicamente difícil, la exclusión constitucional no menciona los reglamentos de las cámaras si no tocan materias reservadas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en las áreas que requieren mayor rigor técnico o consenso diplomático y financiero."
+  },
+  {
+    "guid": "d39074df-c390-4496-9faa-32957c38ec4d",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Si el Senado introduce enmiendas a un proyecto de ley remitido por el Congreso, ¿cuál es el procedimiento para la aprobación definitiva de la norma?",
+    "answerOptions": [
+      {
+        "text": "El Congreso puede aceptar o rechazar las enmiendas por mayoría simple.",
+        "rationale": "El Congreso tiene la última palabra; puede ratificar el texto original o incorporar las mejoras del Senado mediante una votación sencilla.",
+        "isCorrect": true
+      },
+      {
+        "text": "El texto debe someterse a una comisión mixta paritaria que elabore un documento de consenso.",
+        "rationale": "Las comisiones mixtas se reservan principalmente para cuando el Congreso rechaza un veto del Senado, no necesariamente para enmiendas simples.",
+        "isCorrect": false
+      },
+      {
+        "text": "El proyecto de ley queda automáticamente anulado y debe volver a iniciarse desde la fase de anteproyecto.",
+        "rationale": "El sistema legislativo bicameral está diseñado para la colaboración; la anulación automática bloquearía el poder legislativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey debe actuar como árbitro y decidir cuál de las dos versiones de la ley debe prevalecer.",
+        "rationale": "El Rey no tiene funciones arbitrales legislativas; su papel es la sanción y promulgación obligatoria del texto aprobado por las Cortes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la primacía del Congreso sobre el Senado en el procedimiento legislativo ordinario."
+  },
+  {
+    "guid": "19958805-5be2-4e0f-a201-84785b16a845",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función principal de las Diputaciones Permanentes de las Cámaras?",
+    "answerOptions": [
+      {
+        "text": "Velar por los poderes de las Cámaras cuando estas no están reunidas, se han disuelto o ha expirado su mandato.",
+        "rationale": "Garantizan la continuidad del poder legislativo como órgano permanente del Estado, asumiendo funciones críticas en periodos de interregno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dirigir los debates parlamentarios y decidir el orden del día en sustitución del Presidente de la Cámara.",
+        "rationale": "Esa es una función de la Mesa y de la Junta de Portavoces mientras la cámara está en periodo ordinario de sesiones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Supervisar exclusivamente la actividad económica y presupuestaria interna del Congreso y del Senado.",
+        "rationale": "Sus funciones son políticas y legislativas de emergencia, no meramente administrativas o contables.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tramitar las denuncias de ciudadanos contra el Defensor del Pueblo durante las vacaciones parlamentarias.",
+        "rationale": "Aunque pueden recibir información, su papel constitucional es mucho más amplio, incluyendo la convalidación de Decretos-Leyes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde el concepto de 'acción continuada' del órgano legislativo."
+  },
+  {
+    "guid": "fbe98304-901f-471e-9d36-428599c9a21c",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto de la inmunidad parlamentaria, ¿en qué único caso puede ser detenido un Diputado o Senador sin autorización previa?",
+    "answerOptions": [
+      {
+        "text": "En caso de delito flagrante.",
+        "rationale": "La flagrancia anula temporalmente la protección frente a la detención para permitir la acción inmediata de la justicia ante un hecho evidente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuando exista una orden de busca y captura internacional emitida por la Interpol.",
+        "rationale": "Incluso con órdenes internacionales, el procedimiento interno requiere respetar las prerrogativas constitucionales del representante.",
+        "isCorrect": false
+      },
+      {
+        "text": "Si el parlamentario renuncia voluntariamente a su acta tras ser imputado por el Tribunal Supremo.",
+        "rationale": "Si renuncia al acta, deja de ser parlamentario y pierde la inmunidad, por lo que la pregunta sobre la detención 'del parlamentario' ya no aplicaría.",
+        "isCorrect": false
+      },
+      {
+        "text": "En delitos de terrorismo o rebelión, independientemente de si se está cometiendo el acto en ese momento.",
+        "rationale": "La gravedad del delito no sustituye el requisito de flagrancia para la detención inmediata sin suplicatorio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a situaciones donde el delincuente es sorprendido en el momento de cometer el crimen."
+  },
+  {
+    "guid": "8484f2f3-3ad2-473d-9d1e-32f5fda48a49",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el número mínimo de Diputados que, según la LOREG, debe asignarse inicialmente a cada provincia peninsular?",
+    "answerOptions": [
+      {
+        "text": "Dos diputados.",
+        "rationale": "Este mínimo asegura una representación base para todas las provincias antes de repartir el resto de escaños de forma proporcional a la población.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres diputados.",
+        "rationale": "El número tres es el máximo de votos que puede emitir un elector para el Senado en las provincias peninsulares, pero no el mínimo de escaños al Congreso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un diputado.",
+        "rationale": "Un solo diputado es la cifra asignada a Ceuta y a Melilla, pero las provincias peninsulares tienen un mínimo de partida superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco diputados, para garantizar el pluralismo político en las circunscripciones pequeñas.",
+        "rationale": "Un mínimo tan alto reduciría drásticamente el peso demográfico de las provincias grandes en el reparto total de los 350 escaños.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una cifra que garantiza una representación mínima pero permite que la mayoría del Congreso sea proporcional."
+  },
+  {
+    "guid": "87b40414-4065-47d5-8ed0-fb2ed2200c43",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Respecto a las sesiones conjuntas de las Cortes Generales, ¿quién ostenta la presidencia de dichas reuniones según la Constitución?",
+    "answerOptions": [
+      {
+        "text": "El Presidente del Congreso de los Diputados.",
+        "rationale": "La primacía del Congreso se refleja también en la dirección de las sesiones conjuntas, aunque el Reglamento a aplicar sea el de las Cortes Generales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Rey, en su función de moderador y árbitro de las instituciones.",
+        "rationale": "El Rey preside formalmente la apertura de la legislatura, pero la dirección efectiva de las sesiones parlamentarias corresponde a los órganos de las cámaras.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Senado, por ser la Cámara de representación territorial.",
+        "rationale": "Aunque el Senado es la 'Cámara Alta', el orden jerárquico constitucional sitúa al Presidente del Congreso a la cabeza de las sesiones conjuntas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se establece una presidencia rotatoria entre los presidentes de ambas cámaras cada seis meses.",
+        "rationale": "La Constitución no prevé rotación, sino que asigna la función de forma estable a la presidencia del Congreso para evitar inestabilidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en qué autoridad firma las leyes una vez aprobadas y dirige la Cámara Baja."
+  },
+  {
+    "guid": "af309670-fe2d-496a-8dbb-d62bff17769d",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la duración máxima permitida para el mandato del Defensor del Pueblo antes de requerir una nueva elección?",
+    "answerOptions": [
+      {
+        "text": "Cinco años.",
+        "rationale": "Este periodo es superior a la legislatura ordinaria (4 años) para desvincular parcialmente el cargo de los ciclos electorales del Gobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuatro años, coincidiendo con la duración natural de las Cortes Generales.",
+        "rationale": "Si coincidiera exactamente con la legislatura, el cargo estaría demasiado expuesto a los cambios de mayorías parlamentarias inmediatas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis años, con posibilidad de prórroga automática por otros dos.",
+        "rationale": "La ley establece un mandato cerrado de cinco años para favorecer la renovación periódica de la institución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ocho años, sin posibilidad de reelección alguna.",
+        "rationale": "Ocho años es el mandato de los magistrados del Tribunal de Cuentas (que en realidad es de 9), no el del Defensor del Pueblo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un lustro de servicio."
+  },
+  {
+    "guid": "af341150-7afc-4c6f-bf46-949152eb7961",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el ejercicio de sus funciones, ¿qué tipo de resoluciones NO puede emitir el Defensor del Pueblo?",
+    "answerOptions": [
+      {
+        "text": "Sentencias anulatorias de actos administrativos ilegales.",
+        "rationale": "El Defensor del Pueblo no tiene potestad ejecutiva ni judicial; sus facultades se limitan a la supervisión y recomendación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Advertencias y recomendaciones a las autoridades competentes.",
+        "rationale": "Estas son, precisamente, sus herramientas principales para corregir las deficiencias detectadas en la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recordatorios de deberes legales a los funcionarios implicados.",
+        "rationale": "Esta función pedagógica y de control es parte esencial de su misión de protección de derechos fundamentales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sugerencias para la adopción de nuevas medidas normativas.",
+        "rationale": "Puede proponer cambios legales si considera que una norma vigente perjudica injustamente a los ciudadanos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su función es persuasiva y de denuncia, no tiene capacidad de mando sobre la validez de los actos."
+  },
+  {
+    "guid": "90d48ff3-ba3d-4a9c-81da-e503aadfb7c4",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿De qué órgano depende directamente el Tribunal de Cuentas para el ejercicio de sus funciones?",
+    "answerOptions": [
+      {
+        "text": "De las Cortes Generales.",
+        "rationale": "La Constitución establece que el Tribunal ejerce sus funciones por delegación de las Cortes en el examen del Cuenta General del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Del Ministerio de Hacienda y Función Pública.",
+        "rationale": "Para garantizar su independencia en la fiscalización, el Tribunal no puede depender del mismo Gobierno al que debe controlar económicamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Del Consejo General del Poder Judicial.",
+        "rationale": "Aunque tiene funciones jurisdiccionales, su origen y dependencia orgánica son parlamentarios, no judiciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Del Presidente del Gobierno a través del Consejo de Ministros.",
+        "rationale": "La dependencia del Ejecutivo anularía su capacidad de control externo sobre la gestión económica del sector público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un órgano de control externo que informa anualmente al Parlamento."
+  },
+  {
+    "guid": "cf1f273c-bd23-4dc8-839e-82e69ecc684e",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el sistema electoral del Senado para las provincias peninsulares, ¿cuántos candidatos puede marcar un elector en su papeleta?",
+    "answerOptions": [
+      {
+        "text": "Un máximo de tres candidatos.",
+        "rationale": "Este sistema de voto limitado (N-1) busca facilitar la representación de las minorías en la cámara alta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuatro candidatos, coincidiendo con el número de escaños a elegir.",
+        "rationale": "Si se votara a cuatro, la lista mayoritaria se llevaría siempre todos los escaños, eliminando el pluralismo político.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos candidatos, para asegurar que el tercer y cuarto senador sean de partidos distintos.",
+        "rationale": "El número de dos votos se aplica en circunscripciones menores (como ciertas islas), no en las provincias peninsulares generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Voto único a una lista cerrada y bloqueada de partido.",
+        "rationale": "Las listas del Senado son abiertas o 'no bloqueadas', permitiendo al elector elegir personas individuales de diferentes listas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se vota a uno menos de los representantes que le corresponden a la provincia."
+  },
+  {
+    "guid": "c60e19d7-929b-49cf-bb7b-99ca8808b2e2",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Al referirnos a la 'moción de censura' en España, ¿qué requisito indispensable la define como 'constructiva'?",
+    "answerOptions": [
+      {
+        "text": "Debe incluir la propuesta de un candidato a la Presidencia del Gobierno.",
+        "rationale": "El objetivo es evitar vacíos de poder; si la moción prospera, el candidato propuesto queda automáticamente investido.",
+        "isCorrect": true
+      },
+      {
+        "text": "Debe ser aprobada por el voto favorable de dos tercios de los diputados presentes.",
+        "rationale": "La mayoría requerida es la absoluta de los miembros del Congreso, no una mayoría reforzada de dos tercios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe ser ratificada por el Senado mediante votación nominal y secreta en un plazo de 5 días.",
+        "rationale": "El Senado no tiene ninguna intervención en el proceso de la moción de censura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exige la dimisión previa del Rey antes de que el nuevo presidente tome posesión.",
+        "rationale": "La Corona es ajena a la responsabilidad política y no se ve afectada estructuralmente por los cambios de gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "No solo se trata de derribar al Gobierno actual, sino de tener un recambio listo."
+  },
+  {
+    "guid": "b55f0f73-37e0-4502-91b9-c03b36d41aaf",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo máximo que tiene la Administración para responder por escrito a las investigaciones del Defensor del Pueblo?",
+    "answerOptions": [
+      {
+        "text": "Un mes.",
+        "rationale": "La ley establece este plazo para garantizar que la supervisión del Defensor sea ágil y eficaz frente a la burocracia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Quince días naturales.",
+        "rationale": "Quince días es el plazo para la remisión de informes iniciales en ciertos procedimientos, pero la respuesta final es de un mes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos meses prorrogables si la materia es declarada secreta.",
+        "rationale": "El carácter secreto no amplía el plazo de respuesta, sino que condiciona la forma en que se transmite la información al interesado.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe un plazo legal fijo, dependiendo de la buena voluntad del Ministro afectado.",
+        "rationale": "La obligación de auxilio preferente y urgente al Defensor está tasada por ley para evitar la obstrucción administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el tiempo estándar en derecho administrativo para muchas gestiones de respuesta."
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "guid": "663ab7d1-fc68-4c57-a5d0-d610b45c7f8b",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la base de la organización y funcionamiento de los Tribunales según el artículo 117 de la Constitución Española?",
+    "answerOptions": [
+      {
+        "text": "El principio de unidad jurisdiccional.",
+        "rationale": "La Constitución establece explícitamente que este principio es la base de la estructura y operatividad del sistema judicial en todo el territorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "La jerarquía orgánica entre jueces.",
+        "rationale": "En el ejercicio de la potestad jurisdiccional, los jueces no están sometidos a jerarquía, sino únicamente a la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "La descentralización autonómica de la justicia.",
+        "rationale": "El Poder Judicial es competencia exclusiva del Estado, por lo que existe una unidad territorial y no poderes judiciales autonómicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El principio de especialización por materias.",
+        "rationale": "Aunque existen órganos especializados, la base constitucional fundamental citada en el artículo 117.5 es la unidad jurisdiccional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el concepto que garantiza que la potestad de juzgar se ejerza mediante Tribunales Ordinarios bajo un sistema estatal único."
+  },
+  {
+    "guid": "7e23bb83-7f58-4b90-b9e7-6024154f1c5d",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Tras la última reforma de la LOPJ, ¿cómo se exige la responsabilidad civil por daños causados por jueces en el ejercicio de sus funciones?",
+    "answerOptions": [
+      {
+        "text": "Mediante la responsabilidad patrimonial del Estado, que luego puede repetir contra el juez.",
+        "rationale": "Se ha suprimido la responsabilidad civil directa, estableciendo que el Estado responde inicialmente y luego puede reclamar al juez en caso de dolo o culpa grave.",
+        "isCorrect": true
+      },
+      {
+        "text": "A través de una demanda civil directa contra el patrimonio personal del magistrado.",
+        "rationale": "Esta vía de responsabilidad directa fue eliminada en las reformas recientes de la Ley Orgánica del Poder Judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente a través de sanciones disciplinarias impuestas por el CGPJ.",
+        "rationale": "La responsabilidad disciplinaria es independiente de la responsabilidad por daños patrimoniales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mediante un fondo de garantía gestionado por el Consejo General del Poder Judicial.",
+        "rationale": "No existe tal fondo; la indemnización corresponde al Estado bajo el régimen de responsabilidad patrimonial de la Administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en quién es el primer sujeto obligado a indemnizar al ciudadano y qué acción puede tomar este sujeto posteriormente contra el causante."
+  },
+  {
+    "guid": "fedc6912-6b22-4c74-82fd-f45925d8e809",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién propone el nombramiento del Fiscal General del Estado?",
+    "answerOptions": [
+      {
+        "text": "El Gobierno.",
+        "rationale": "Según el artículo 124 de la Constitución, el Rey nombra al Fiscal General a propuesta del Gobierno, previo informe del CGPJ.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Congreso de los Diputados.",
+        "rationale": "El Congreso participa en la elección de vocales del CGPJ, pero no propone directamente al Fiscal General.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Pleno del Tribunal Supremo.",
+        "rationale": "El Tribunal Supremo es un órgano jurisdiccional y no tiene la potestad de proponer al jefe del Ministerio Fiscal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo General del Poder Judicial.",
+        "rationale": "El CGPJ debe ser oído o emitir un informe previo, pero la propuesta formal de nombramiento es facultad del Ejecutivo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un órgano que pertenece al poder ejecutivo y que decide la dirección de la política criminal del Estado."
+  },
+  {
+    "guid": "f4a11ccd-f33f-4b6e-a268-4f5d15bce14f",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la duración del mandato de los vocales del Consejo General del Poder Judicial?",
+    "answerOptions": [
+      {
+        "text": "Cinco años.",
+        "rationale": "El artículo 122.3 de la Constitución establece un periodo de cinco años para los veinte miembros que integran el Consejo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuatro años, coincidiendo con la legislatura política.",
+        "rationale": "El mandato del CGPJ es independiente de las legislaturas de las Cortes para garantizar su estabilidad e independencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis años, renovables por periodos iguales.",
+        "rationale": "El texto constitucional fija el plazo en cinco años y prohíbe explícitamente la reelección para el Consejo saliente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nueve años, renovándose por tercios cada tres años.",
+        "rationale": "Este sistema de renovación es propio de otros órganos como el Tribunal Constitucional, no del CGPJ.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este periodo es un año superior a la duración ordinaria de una legislatura en España."
+  },
+  {
+    "guid": "f556c37e-cad1-482c-b723-13f7f3905ca2",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué nota define la potestad jurisdiccional al establecer que todos tienen la obligación de acatar las resoluciones judiciales?",
+    "answerOptions": [
+      {
+        "text": "Eficacia \"erga omnes\".",
+        "rationale": "Este término latino indica que la potestad se ejerce frente a todos, vinculando a ciudadanos y poderes públicos al cumplimiento de lo juzgado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de legalidad.",
+        "rationale": "Aunque es un principio del Poder Judicial, la obligatoriedad general de cumplimiento se define específicamente por su carácter vinculante universal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de gratuidad.",
+        "rationale": "La gratuidad se refiere al coste del acceso a la justicia para quienes carecen de recursos, no a la obligatoriedad de las sentencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Potestad de autoorganización.",
+        "rationale": "Este concepto se refiere a la capacidad de los órganos para estructurarse internamente, no al efecto de sus fallos sobre terceros.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque la expresión latina que significa 'frente a todos'."
+  },
+  {
+    "guid": "0b5bdfc9-5673-422a-afb2-a6a40e51bcd9",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Bajo qué principios fundamentales se rige la actuación del Ministerio Fiscal según la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Unidad de actuación y dependencia jerárquica.",
+        "rationale": "A diferencia de los jueces, los fiscales operan bajo una estructura piramidal para asegurar criterios uniformes en todo el Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Independencia orgánica e inamovilidad absoluta.",
+        "rationale": "Estos principios son característicos de los Jueces y Magistrados, mientras que el Fiscal es un órgano dependiente y jerarquizado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Soberanía popular y elección directa.",
+        "rationale": "La justicia emana del pueblo, pero los miembros del Ministerio Fiscal no son elegidos por sufragio directo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jerarquía normativa y responsabilidad civil directa.",
+        "rationale": "La jerarquía normativa rige para el ordenamiento jurídico, mientras que el Fiscal se rige por la dependencia jerárquica interna.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que esta institución debe actuar como un cuerpo único bajo las órdenes de sus superiores."
+  },
+  {
+    "guid": "81bba247-b00e-43d8-9991-3d1d3f2e43fe",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En la composición del CGPJ, ¿cuántos vocales deben ser abogados o juristas de reconocida competencia con más de 15 años de ejercicio?",
+    "answerOptions": [
+      {
+        "text": "Ocho vocales.",
+        "rationale": "De los 20 vocales, 12 proceden de la carrera judicial y 8 son juristas de reconocido prestigio (4 a propuesta del Congreso y 4 del Senado).",
+        "isCorrect": true
+      },
+      {
+        "text": "Doce vocales.",
+        "rationale": "Este número corresponde al turno de Jueces y Magistrados de todas las categorías judiciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuatro vocales.",
+        "rationale": "Cuatro es el número que cada Cámara (Congreso o Senado) propone individualmente para este turno de juristas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez vocales.",
+        "rationale": "No existe un reparto paritario de diez y diez; el bloque judicial es mayoritario (12).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Reste el número de vocales de procedencia judicial (12) al total de vocales del Consejo (20)."
+  },
+  {
+    "guid": "3f5fec34-27d6-418e-807e-f7c258a83b3f",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué comisión del CGPJ es la encargada de resolver expedientes por infracciones graves y muy graves, excepto si la sanción propuesta es la separación del servicio?",
+    "answerOptions": [
+      {
+        "text": "Comisión Disciplinaria.",
+        "rationale": "Es el órgano especializado en el régimen sancionador de los jueces, aunque la expulsión definitiva de la carrera está reservada al Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Comisión Permanente.",
+        "rationale": "La Comisión Permanente tiene funciones ejecutivas generales, pero la potestad sancionadora específica recae en la Disciplinaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comisión de Asuntos Económicos.",
+        "rationale": "Esta comisión se centra en el control financiero, contable y presupuestario del Consejo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comisión de Igualdad.",
+        "rationale": "Su función es asesorar sobre la integración del principio de igualdad y el seguimiento de la violencia de género.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el nombre que recibe la actividad de corregir conductas contrarias a las normas profesionales."
+  },
+  {
+    "guid": "94968c5b-93f7-4bba-9eaa-d83837ea9c3b",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es un requisito constitucional para ser nombrado Fiscal General del Estado?",
+    "answerOptions": [
+      {
+        "text": "Ser un jurista español de reconocido prestigio con más de 15 años de ejercicio efectivo.",
+        "rationale": "El Estatuto Orgánico del Ministerio Fiscal especifica estas condiciones de nacionalidad, prestigio y veteranía profesional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Pertenecer obligatoriamente a la carrera judicial con categoría de Magistrado del Supremo.",
+        "rationale": "Aunque a menudo se eligen magistrados, el cargo está abierto a otros juristas que cumplan los años de ejercicio requeridos.",
+        "isCorrect": false
+      },
+      {
+        "text": "No haber desempeñado cargos políticos en los últimos diez años.",
+        "rationale": "Aunque es un debate recurrente, el texto legal citado en el material no establece esta prohibición temporal específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Haber sido vocal del Consejo General del Poder Judicial previamente.",
+        "rationale": "No existe una vinculación obligatoria entre haber sido vocal del CGPJ y la jefatura de la Fiscalía.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere una experiencia mínima de una década y media en el ámbito del Derecho."
+  },
+  {
+    "guid": "5971b913-1f50-48aa-86af-d482fe376f7f",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿De qué manera pueden participar los ciudadanos en la Administración de Justicia según el artículo 125 de la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Mediante la institución del Jurado y el ejercicio de la acción popular.",
+        "rationale": "La Constitución permite la intervención directa de ciudadanos en procesos penales específicos y el inicio de acciones en defensa de la legalidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "A través de la elección directa de los magistrados del Tribunal Supremo.",
+        "rationale": "Los magistrados del Tribunal Supremo son nombrados por el Rey a propuesta del CGPJ, no por voto popular.",
+        "isCorrect": false
+      },
+      {
+        "text": "Formando parte de los tribunales de honor en la Administración civil.",
+        "rationale": "El artículo 26 de la Constitución prohíbe expresamente los Tribunales de Honor en el ámbito de la Administración civil.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mediante el voto en el referéndum de aprobación de sentencias de especial relevancia.",
+        "rationale": "Las sentencias no se someten a referéndum; la potestad jurisdiccional es exclusiva de Jueces y Tribunales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere los mecanismos de participación en procesos penales y el derecho a ser parte en un proceso sin ser la víctima directa."
+  }
+]

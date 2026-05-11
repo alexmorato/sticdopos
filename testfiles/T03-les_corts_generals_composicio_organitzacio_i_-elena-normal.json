@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "3feed853-ad58-46b1-8b4d-6e973e388d8e",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el número exacto de Diputados que componen el Congreso según la Ley Orgánica del Régimen Electoral General (LOREG)?",
+    "answerOptions": [
+      {
+        "text": "300",
+        "rationale": "Este es el límite mínimo establecido por la Constitución, pero no es la cifra fijada por la ley orgánica actual.",
+        "isCorrect": false
+      },
+      {
+        "text": "350",
+        "rationale": "El artículo 162.1 de la LOREG concreta el rango constitucional estableciendo esta cifra fija para la Cámara Baja.",
+        "isCorrect": true
+      },
+      {
+        "text": "400",
+        "rationale": "Representa el límite máximo que permite la Constitución, no la cantidad real establecida por la LOREG.",
+        "isCorrect": false
+      },
+      {
+        "text": "325",
+        "rationale": "Aunque se encuentra dentro del rango de 300 a 400, no es la cifra específica que determina la normativa electoral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la cifra intermedia que se menciona frecuentemente en las elecciones generales españolas."
+  },
+  {
+    "guid": "9b6f00a5-185b-4c96-a696-c5c7189257b4",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Ante qué órgano responde políticamente el Gobierno de forma exclusiva?",
+    "answerOptions": [
+      {
+        "text": "Las Corts Generals",
+        "rationale": "Aunque ambas cámaras ejercen control, la responsabilidad política que puede hacer caer al Gobierno se exige solo ante una de ellas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congreso de los Diputados",
+        "rationale": "Es la única cámara con capacidad para utilizar herramientas de exigencia de responsabilidad como la moción de censura.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Senado",
+        "rationale": "El Senado ejerce control a través de preguntas e interpelaciones, pero no puede derribar al Gobierno mediante responsabilidad política.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey",
+        "rationale": "En una monarquía parlamentaria, el Gobierno responde ante la representación popular, no ante la Corona.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en qué cámara tiene la potestad de votar una moción de censura."
+  },
+  {
+    "guid": "85a4a68f-23a8-4385-86d7-f6058c0be683",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sistema electoral se aplica para la elección de los Senadores en las provincias peninsulares?",
+    "answerOptions": [
+      {
+        "text": "Sistema proporcional",
+        "rationale": "Este sistema se asocia al Congreso de los Diputados, no a la elección directa de senadores provinciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sistema mayoritario",
+        "rationale": "En el Senado, los candidatos más votados de cada circunscripción obtienen el acta directamente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sistema mixto",
+        "rationale": "La Constitución española no contempla un sistema híbrido para la elección directa de los senadores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley D'Hondt",
+        "rationale": "Este método de reparto es característico de los sistemas proporcionales como el del Congreso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en otorgar el puesto a quienes obtienen el mayor número de apoyos individuales."
+  },
+  {
+    "guid": "6ff633b0-8cf0-4cf3-b32d-d2677af2c2bf",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿De cuántos miembros se compone la Mesa del Senado?",
+    "answerOptions": [
+      {
+        "text": "Un Presidente, 4 Vicepresidentes y 4 Secretarios",
+        "rationale": "Esta es la composición específica de la Mesa del Congreso de los Diputados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un Presidente, 2 Vicepresidentes y 4 Secretarios",
+        "rationale": "La estructura del órgano rector del Senado reduce el número de vicepresidencias en comparación con la Cámara Baja.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un Presidente, 2 Vicepresidentes y 2 Secretarios",
+        "rationale": "El número de secretarios es igual en ambas cámaras, independientemente de la diferencia en las vicepresidencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un Presidente y 4 Secretarios",
+        "rationale": "Toda Mesa de una cámara legislativa en España requiere la presencia de vicepresidentes para sustituir al titular.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La diferencia principal con el Congreso reside en el número de vicepresidentes."
+  },
+  {
+    "guid": "720533cb-4e52-48cf-abfe-f45635cc53df",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la duración del mandato de un Defensor del Pueblo?",
+    "answerOptions": [
+      {
+        "text": "4 años",
+        "rationale": "Este es el período estándar de una legislatura, pero la institución del Defensor busca una estabilidad que exceda el ciclo electoral.",
+        "isCorrect": false
+      },
+      {
+        "text": "5 años",
+        "rationale": "La Ley Orgánica del Defensor del Pueblo establece este plazo para garantizar su independencia respecto a la alternancia de las Cortes.",
+        "isCorrect": true
+      },
+      {
+        "text": "9 años",
+        "rationale": "Este plazo de mandato tan extenso corresponde a los miembros del Tribunal de Cuentas y del Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "6 años",
+        "rationale": "No existe ningún órgano de relevancia constitucional mencionado en el texto que tenga un mandato de seis años.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su mandato es un año más largo que el de una legislatura ordinaria de las Cortes."
+  },
+  {
+    "guid": "130e8f53-7526-417b-8df0-4e5288d8f33a",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere en cada Cámara para la designación del Defensor del Pueblo?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta",
+        "rationale": "Esta mayoría es suficiente para leyes ordinarias, pero para este cargo se busca un consenso mayor entre las fuerzas políticas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría simple",
+        "rationale": "La mayoría de los presentes no garantiza el respaldo institucional necesario para un alto comisionado de las Cortes.",
+        "isCorrect": false
+      },
+      {
+        "text": "$\\frac{3}{5}$",
+        "rationale": "Tanto el Congreso como el Senado deben ratificar el nombramiento con esta mayoría cualificada para asegurar un perfil de consenso.",
+        "isCorrect": true
+      },
+      {
+        "text": "$\\frac{2}{3}$",
+        "rationale": "Aunque es una mayoría cualificada muy alta, la normativa específica exige el quórum de tres quintos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma mayoría cualificada que se exige habitualmente para renovar los órganos constitucionales."
+  },
+  {
+    "guid": "9e9be09c-79b9-483c-81a9-8ca1b9aa9b37",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántos Consejeros componen el Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "8",
+        "rationale": "Este número no coincide con la composición paritaria que se divide entre Congreso y Senado según la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "rationale": "La ley establece una cifra ligeramente superior para cubrir todas las secciones del tribunal.",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "rationale": "El órgano se compone de doce consejeros, designados a partes iguales por el Congreso y el Senado.",
+        "isCorrect": true
+      },
+      {
+        "text": "15",
+        "rationale": "Una composición tan amplia no se ajusta a la estructura colegiada descrita para la fiscalización suprema.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una docena, repartida equitativamente entre las dos cámaras."
+  },
+  {
+    "guid": "836558a8-d021-4a9a-b479-6ac925be6173",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la iniciativa para convocar el Ple en el Senado?",
+    "answerOptions": [
+      {
+        "text": "El Presidente de la Cámara",
+        "rationale": "A diferencia del Congreso, donde otros grupos pueden solicitarlo, en el Senado es una potestad exclusiva de su presidencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un grupo parlamentario",
+        "rationale": "Esta es una facultad que existe en el Congreso de los Diputados, pero no se menciona como tal para el Senado en el material.",
+        "isCorrect": false
+      },
+      {
+        "text": "$\\frac{1}{5}$ de los Senadores",
+        "rationale": "Nuevamente, esta es una regla de convocatoria específica del Congreso, no de la cámara de representación territorial.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey",
+        "rationale": "El Rey sanciona las leyes y convoca elecciones, pero no interviene en el funcionamiento interno de las cámaras.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "En esta cámara, la facultad recae únicamente en la autoridad unipersonal más alta."
+  },
+  {
+    "guid": "5a149b70-34de-4e0c-9bbc-6663bef33ff8",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué nombre recibe el texto legal propuesto por el Gobierno ante las Cortes?",
+    "answerOptions": [
+      {
+        "text": "Proposición de Ley",
+        "rationale": "Este término se reserva para las iniciativas legislativas que nacen del Congreso, el Senado o la iniciativa popular.",
+        "isCorrect": false
+      },
+      {
+        "text": "Proyecto de Ley",
+        "rationale": "Los textos aprobados en Consejo de Ministros y remitidos a las cámaras se denominan técnicamente proyectos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Decreto-ley",
+        "rationale": "Es una norma con rango de ley dictada por el Gobierno por urgente necesidad, no una iniciativa ordinaria para debate parlamentario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Anteproyecto de Ley",
+        "rationale": "Es la fase previa interna del Gobierno antes de ser aprobado como texto definitivo para enviar a las Cortes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un término que sugiere una planificación acabada enviada por el ejecutivo."
+  },
+  {
+    "guid": "16443549-8447-4f3c-9bd4-c44c8433cc90",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el número mínimo de miembros que debe tener la Diputación Permanente de cada Cámara?",
+    "answerOptions": [
+      {
+        "text": "15",
+        "rationale": "Esta cifra es el mínimo para formar un grupo parlamentario en el Congreso, pero es insuficiente para la representación de la cámara en vacaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "21",
+        "rationale": "El artículo 78 de la Constitución fija este número mínimo para garantizar la proporcionalidad de los grupos parlamentarios.",
+        "isCorrect": true
+      },
+      {
+        "text": "25",
+        "rationale": "Aunque es una cifra común en la administración, el mínimo constitucionalmente exigido es ligeramente inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "35",
+        "rationale": "El tamaño de la Diputación Permanente se mantiene reducido para facilitar su operatividad en períodos no ordinarios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Coincide con la mayoría de edad legal en muchos contextos históricos, aunque aquí se refiere a parlamentarios."
+  },
+  {
+    "guid": "d67a5cd7-13c6-42cd-b55b-2e90309d9fde",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué circunscripciones se eligen únicamente 2 Senadores?",
+    "answerOptions": [
+      {
+        "text": "Ceuta y Melilla",
+        "rationale": "La Constitución otorga a cada una de estas ciudades autónomas dos representantes en la Cámara Alta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las provincias insulares",
+        "rationale": "Las islas mayores eligen 3 y las menores 1, pero no existe una agrupación insular que elija exactamente dos según el texto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las provincias con menos de 100.000 habitantes",
+        "rationale": "La representación en el Senado es fija por provincia peninsular (4), independientemente de su población.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las Comunidades Autónomas uniprovinciales",
+        "rationale": "Estas siguen la regla general de 4 senadores por provincia, más los que les correspondan por designación autonómica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son los dos enclaves españoles situados en el continente africano."
+  },
+  {
+    "guid": "f3969438-0b82-4809-ac07-c1dc454d85c5",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién preside las sesiones conjuntas del Congreso y el Senado?",
+    "answerOptions": [
+      {
+        "text": "El Rey",
+        "rationale": "El Rey preside el acto formal de apertura, pero la dirección técnica y parlamentaria de la sesión no le corresponde.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Senado",
+        "rationale": "Aunque el Senado sea la 'Cámara Alta', su presidente no ostenta la primacía en las sesiones conjuntas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Congreso",
+        "rationale": "Según el artículo 72 de la Constitución, el Presidente de la Cámara Baja asume la dirección de las Cortes en reunión conjunta.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Defensor del Poble",
+        "rationale": "Es un comisionado de las Cortes, no un miembro de las mismas con capacidad de presidencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la máxima autoridad de la denominada 'Cámara Baja'."
+  },
+  {
+    "guid": "84755b42-0580-4b87-8427-83d64b6a7a08",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuánto tiempo dura el mandato de los Consejeros del Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "4 años",
+        "rationale": "La fiscalización externa requiere una estabilidad que no puede estar ligada al ciclo corto de las elecciones generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "9 años",
+        "rationale": "Este mandato prolongado busca asegurar la independencia y la experiencia técnica en la supervisión de fondos públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "5 años",
+        "rationale": "Este es el período del Defensor del Pueblo, pero los consejeros de cuentas tienen un encargo aún más extenso.",
+        "isCorrect": false
+      },
+      {
+        "text": "3 años",
+        "rationale": "Este es el mandato del Presidente del Tribunal de Cuentas, pero no de sus consejeros individuales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mandato más largo mencionado en el temario, casi una década."
+  },
+  {
+    "guid": "d0fceac0-b14e-4b49-9a67-5600cbb7a163",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano del Tribunal de Cuentas es nombrado directamente por el Gobierno?",
+    "answerOptions": [
+      {
+        "text": "El Presidente",
+        "rationale": "El Presidente es nombrado por el Rey a propuesta del propio Pleno del Tribunal.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Fiscalía del Tribunal",
+        "rationale": "Este órgano, integrado en el tribunal para la acción de responsabilidad, depende del Ejecutivo en su designación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los Consejeros",
+        "rationale": "Los consejeros son elegidos por las Cortes Generales (Congreso y Senado) por mayoría cualificada.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Secretaría General",
+        "rationale": "Es un órgano técnico cuya designación no corresponde a la esfera política del Consejo de Ministros.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con el Ministerio Fiscal y la defensa de la legalidad."
+  },
+  {
+    "guid": "7dee4652-c55d-4b8e-a42e-b963404564ef",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de las siguientes es una función exclusiva del Congreso de los Diputados?",
+    "answerOptions": [
+      {
+        "text": "Aprobar los Presupuestos Generales del Estado",
+        "rationale": "Esta es una función de las Cortes Generales en su conjunto, participando ambas cámaras.",
+        "isCorrect": false
+      },
+      {
+        "text": "Convalidar Decretos-leyes",
+        "rationale": "La Constitución otorga exclusivamente al Congreso la potestad de decidir sobre la permanencia de estas normas de urgencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Autorizar tratados internacionales",
+        "rationale": "Tanto el Congreso como el Senado deben intervenir en la autorización de los tratados que obligan al Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nombrar al Defensor del Pueblo",
+        "rationale": "Es una función compartida que requiere la aprobación de ambas cámaras por mayoría de tres quintos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la tramitación de normas de 'extraordinaria y urgente necesidad'."
+  },
+  {
+    "guid": "b95ecf68-a870-4648-ab96-7e5dc671e843",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué caracteriza a las 'Comisiones Permanentes Legislativas'?",
+    "answerOptions": [
+      {
+        "text": "Se disuelven al finalizar el debate de una ley concreta",
+        "rationale": "Esa descripción corresponde a las comisiones no permanentes o de investigación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pueden aprobar proyectos de ley por delegación del Pleno",
+        "rationale": "El artículo 75.2 CE permite que estas comisiones actúen con pleno poder legislativo salvo en materias reservadas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Están formadas solo por miembros del Gobierno",
+        "rationale": "Las comisiones son órganos parlamentarios compuestos por diputados o senadores, no por el poder ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sus sesiones son siempre públicas por televisión",
+        "rationale": "Aunque se permite la prensa, habitualmente trabajan a puerta cerrada en comparación con la solemnidad del Ple.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tienen la capacidad de descargar de trabajo al Pleno en la elaboración de normas."
+  },
+  {
+    "guid": "baf263ab-f360-4146-a8af-1909b0821340",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué materia está excluida de la delegación en Comisión Legislativa?",
+    "answerOptions": [
+      {
+        "text": "Ley de Pesca",
+        "rationale": "Las leyes ordinarias sectoriales pueden tramitarse perfectamente en comisión sin pasar por el Pleno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Presupuestos Generales del Estado",
+        "rationale": "Dada su importancia económica y política, los presupuestos deben ser debatidos y aprobados necesariamente en el Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Leyes de fomento del empleo",
+        "rationale": "No forman parte del núcleo duro de materias reservadas al Pleno (reforma constitucional, orgánica, presupuestos, etc.).",
+        "isCorrect": false
+      },
+      {
+        "text": "Tratados sobre comercio",
+        "rationale": "Muchos tratados pueden ser dictaminados en comisión, a diferencia de los presupuestos o las leyes orgánicas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la ley anual más importante que marca la política económica del Gobierno."
+  },
+  {
+    "guid": "b6c69792-2189-4c00-98ad-aceefdf1fe5b",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el sistema de elección del Congreso, ¿qué implica que las listas sean 'cerradas y bloqueadas'?",
+    "answerOptions": [
+      {
+        "text": "El elector puede cambiar el orden de los candidatos",
+        "rationale": "Esto sería una lista desbloqueada, lo cual no ocurre en las elecciones al Congreso en España.",
+        "isCorrect": false
+      },
+      {
+        "text": "El elector no puede intervenir en la modificación de la lista",
+        "rationale": "Se vota a la sigla o partido en su conjunto, respetando el orden de candidatos preestablecido por la formación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo se puede votar a un único candidato individual",
+        "rationale": "Este es el sistema de listas uninominales, contrario al sistema de representación proporcional por provincias.",
+        "isCorrect": false
+      },
+      {
+        "text": "La lista solo contiene candidatos de un único municipio",
+        "rationale": "La circunscripción es la provincia, por lo que la lista abarca a candidatos de toda esa demarcación territorial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Significa que el ciudadano recibe el paquete de candidatos tal cual lo decidió el partido."
+  },
+  {
+    "guid": "c01020e9-eb7d-4a2d-8c76-20fc86653fdf",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal de la Junta de Portavoces?",
+    "answerOptions": [
+      {
+        "text": "Dictar sentencias sobre la responsabilidad de los diputados",
+        "rationale": "Esa es una función judicial. La Junta de Portavoces es un órgano político de dirección.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fijar el orden del día de las sesiones del Pleno",
+        "rationale": "Es el órgano donde los representantes de los grupos parlamentarios coordinan el trabajo político de la cámara.",
+        "isCorrect": true
+      },
+      {
+        "text": "Redactar el borrador de los Presupuestos del Estado",
+        "rationale": "La elaboración de los presupuestos es competencia exclusiva del Gobierno, no de los portavoces parlamentarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Elegir al Rey en caso de vacante",
+        "rationale": "La sucesión de la Corona está regulada constitucionalmente y corresponde a las Cortes Generales en sesión conjunta.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con la agenda y organización del trabajo en el salón de sesiones."
+  },
+  {
+    "guid": "3df0eee1-90df-4ed5-9db9-6c0d0fe113ee",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A quién debe rendir cuentas el Defensor del Pueblo?",
+    "answerOptions": [
+      {
+        "text": "Al Presidente del Gobierno",
+        "rationale": "El Defensor supervisa a la administración que dirige el Gobierno, por lo que debe ser independiente de él.",
+        "isCorrect": false
+      },
+      {
+        "text": "A las Cortes Generales",
+        "rationale": "Como alto comisionado de las mismas, tiene la obligación de informar anualmente a través de un informe de gestión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Tribunal Supremo",
+        "rationale": "Aunque colabora con la justicia, su dependencia institucional es del poder legislativo, no del judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Consejo de Estado",
+        "rationale": "El Consejo de Estado es un órgano consultivo del Gobierno, sin relación de jerarquía con el Defensor.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano que lo elige y del cual es 'comisionado'."
+  },
+  {
+    "guid": "950958ab-5961-4fbf-82d7-659943dbee66",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si un ciudadano presenta una queja al Defensor del Pueblo fuera del plazo de un año?",
+    "answerOptions": [
+      {
+        "text": "Se admite si la causa es muy grave",
+        "rationale": "La ley establece plazos de caducidad para la seguridad jurídica de las actuaciones administrativas.",
+        "isCorrect": false
+      },
+      {
+        "text": "La queja es rechazada por extemporánea",
+        "rationale": "El plazo de un año desde la sucesión de los hechos es un requisito formal insalvable para su intervención.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se deriva automáticamente al Tribunal Constitucional",
+        "rationale": "El Tribunal Constitucional tiene sus propios recursos y plazos mucho más breves (como el de amparo).",
+        "isCorrect": false
+      },
+      {
+        "text": "El Defensor debe tramitarla de oficio",
+        "rationale": "Aunque puede actuar de oficio, no puede saltarse las restricciones temporales impuestas por la normativa para las quejas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el efecto que tiene el paso del tiempo sobre el derecho a reclamar."
+  },
+  {
+    "guid": "236b7594-c750-497e-8502-b5aa9bba1835",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién preside el Pleno y la Comisión de Gobierno del Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "El Fiscal Jefe",
+        "rationale": "El Fiscal forma parte del Pleno y es oído, pero no ostenta la presidencia del órgano.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Tribunal de Cuentas",
+        "rationale": "Es el cargo encargado de convocar y dirigir las reuniones de estos órganos colegiados.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Consejero de mayor edad",
+        "rationale": "Este criterio se usa solo para constituir la cámara o el tribunal inicialmente, no para su funcionamiento ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministro de Hacienda",
+        "rationale": "El Tribunal de Cuentas es independiente del Gobierno para poder fiscalizar sus cuentas objetivamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la máxima autoridad unipersonal dentro de la institución fiscalizadora."
+  },
+  {
+    "guid": "12b6f0e5-c95d-4e55-a9db-29abe787eed1",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué facultad tiene el Tribunal de Cuentas respecto a los partidos políticos?",
+    "answerOptions": [
+      {
+        "text": "Puede ilegalizar un partido por sus ideas",
+        "rationale": "La ilegalización es competencia exclusiva del Poder Judicial en aplicación de la Ley de Partidos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiscaliza su actividad económico-financiera",
+        "rationale": "El tribunal controla el origen y uso de los fondos públicos y privados que reciben las formaciones políticas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nombra a los tesoreros de cada partido",
+        "rationale": "La organización interna de los partidos es libre y soberana dentro de los límites de la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprueba sus programas electorales",
+        "rationale": "El tribunal no tiene funciones de control político o ideológico sobre las propuestas de los partidos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el control del 'dinero' que manejan estas entidades."
+  },
+  {
+    "guid": "650d2836-3edd-4e5d-9986-6aaea671ae83",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la consecuencia si una cámara no alcanza el quórum de constitución?",
+    "answerOptions": [
+      {
+        "text": "Se puede votar válidamente si hay acuerdo",
+        "rationale": "El quórum es una garantía constitucional irrenunciable para la validez de los actos parlamentarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se pueden adoptar acuerdos válidos",
+        "rationale": "Se requiere la presencia de la mayoría de los miembros (mitad más uno) para que la sesión tenga efectos legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente asume todos los poderes",
+        "rationale": "La democracia parlamentaria requiere deliberación colegiada, no poderes dictatoriales por falta de asistencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se convoca automáticamente a la Diputación Permanente",
+        "rationale": "La Diputación solo actúa en vacaciones o disolución, no por falta de quórum en una sesión ordinaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la necesidad de que esté presente al menos la mitad más uno de los miembros."
+  },
+  {
+    "guid": "1848ade5-592f-41a8-91f1-c6ab9070262c",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la potestad para declarar la guerra previa autorización de las Cortes?",
+    "answerOptions": [
+      {
+        "text": "El Presidente del Gobierno",
+        "rationale": "El Presidente dirige la política de defensa, pero el acto formal de declaración corresponde a la Jefatura del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey",
+        "rationale": "Es una función simbólica y constitucional del Monarca como Jefe de las Fuerzas Armadas.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro de Defensa",
+        "rationale": "Es un mando político-administrativo sin capacidad para realizar actos de soberanía internacional de este tipo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Jefe del Estado Mayor",
+        "rationale": "Es una autoridad técnica militar que ejecuta órdenes, no un órgano de representación política o soberana.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la figura que encarna la Jefatura del Estado según la Constitución."
+  },
+  {
+    "guid": "c0c4e32c-f01e-4712-8c60-407ee2966a69",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre con el Defensor del Pueblo si es condenado por sentencia firme por delito doloso?",
+    "answerOptions": [
+      {
+        "text": "Debe esperar a que las Cortes lo destituyan",
+        "rationale": "Para condenas penales de este tipo, el cese es una causa automática de pérdida de la condición.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se produce el cese automático en el cargo",
+        "rationale": "La pérdida de honorabilidad por sentencia firme por dolo es incompatible con la defensa de los derechos ciudadanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Puede continuar si el delito no es contra la administración",
+        "rationale": "Cualquier delito doloso con sentencia firme es causa de cese, independientemente de la materia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se le suspende solo el sueldo durante un año",
+        "rationale": "Las garantías de integridad del cargo no permiten sanciones parciales ante infracciones penales graves.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la causa de 'cesamiento' inmediata mencionada en la ley."
+  },
+  {
+    "guid": "7e0ecaca-4d84-488a-b285-e0c843950294",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se denominan a los senadores que no son elegidos directamente por los ciudadanos en las provincias?",
+    "answerOptions": [
+      {
+        "text": "Senadores de libre designación real",
+        "rationale": "Esta figura existió en el pasado, pero no en la Constitución de 1978.",
+        "isCorrect": false
+      },
+      {
+        "text": "Senadores designados por las Comunidades Autónomas",
+        "rationale": "Las Asambleas legislativas regionales nombran un senador fijo y otro por cada millón de habitantes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Senadores vitalicios",
+        "rationale": "En España no existen los cargos parlamentarios de por vida.",
+        "isCorrect": false
+      },
+      {
+        "text": "Senadores por cuota gubernamental",
+        "rationale": "El Gobierno no tiene capacidad para nombrar miembros de la cámara legislativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Refuerzan el carácter de representación 'territorial' de la Cámara Alta."
+  },
+  {
+    "guid": "d29d8dd3-0c28-4ff8-97f4-dacad3d26058",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué prerrogativa parlamentaria impide que un diputado sea perseguido por sus opiniones en el ejercicio del cargo?",
+    "answerOptions": [
+      {
+        "text": "Inmunidad",
+        "rationale": "La inmunidad protege contra detenciones y procesamientos arbitrarios, no específicamente sobre la libertad de expresión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inviolabilidad",
+        "rationale": "Garantiza que el parlamentario pueda hablar y votar libremente sin temor a represalias legales futuras.",
+        "isCorrect": true
+      },
+      {
+        "text": "Fuero especial",
+        "rationale": "El fuero determina ante qué tribunal se juzga al diputado, pero no impide que sea juzgado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exención de impuestos",
+        "rationale": "Los parlamentarios están sujetos a las leyes tributarias como cualquier otro ciudadano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un concepto que también se aplica a las propias Cortes como institución."
+  },
+  {
+    "guid": "717a9e12-00f4-46f3-b648-5c717d689a95",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién resuelve los recursos contra las resoluciones administrativas del Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "El Pleno del Tribunal",
+        "rationale": "Es el órgano colegiado supremo que tiene la competencia de revisar los actos de sus propios órganos inferiores.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Audiencia Nacional",
+        "rationale": "Aunque es un tribunal de justicia, el control interno de legalidad del Tribunal de Cuentas se ejerce primero en su Pleno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congreso de los Diputados",
+        "rationale": "Las Cortes ejercen control político, pero no resuelven recursos administrativos internos de otros órganos constitucionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Defensor del Pueblo",
+        "rationale": "El Defensor supervisa pero no tiene potestad para resolver recursos administrativos o jurisdiccionales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano del Tribunal donde se sientan los 12 consejeros y el fiscal."
+  },
+  {
+    "guid": "c5bcb6b7-373f-48ba-917b-274c57a7ad27",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué consiste el 'suplicatorio'?",
+    "answerOptions": [
+      {
+        "text": "En una petición de indulto del Rey a las Cortes",
+        "rationale": "El indulto es una medida de gracia del Gobierno, no una relación entre el Rey y las Cortes.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la autorización que pide el Tribunal Supremo a la Cámara para procesar a un parlamentario",
+        "rationale": "Es el mecanismo necesario para levantar la inmunidad parlamentaria y poder juzgar a un diputado o senador.",
+        "isCorrect": true
+      },
+      {
+        "text": "En la solicitud de un ciudadano para ser atendido por el Defensor",
+        "rationale": "Esa comunicación se denomina técnicamente 'queja'.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la petición del Gobierno para prorrogar el estado de sitio",
+        "rationale": "Eso es una solicitud de autorización constitucional, no un suplicatorio judicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la protección judicial especial que tienen los representantes del pueblo."
+  },
+  {
+    "guid": "fe1be046-6241-48a2-a7ac-3898c2d098c1",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la principal diferencia entre una 'Ley Orgánica' y una 'Ley Ordinaria' respecto a las Cortes?",
+    "answerOptions": [
+      {
+        "text": "La Ley Orgánica la redacta el Rey",
+        "rationale": "El Rey no redacta leyes; todas emanan de la voluntad popular a través de las Cortes.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Ley Orgánica requiere mayoría absoluta en una votación final sobre el conjunto",
+        "rationale": "Es un requisito de quórum reforzado debido a la importancia de las materias que regula (derechos fundamentales, estatutos, etc.).",
+        "isCorrect": true
+      },
+      {
+        "text": "La Ley Ordinaria solo se aplica en una Comunidad Autónoma",
+        "rationale": "Tanto las leyes orgánicas como las ordinarias del Estado tienen aplicación en todo el territorio nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Ley Orgánica no puede ser modificada nunca",
+        "rationale": "Todas las leyes pueden ser modificadas siguiendo el procedimiento y las mayorías correspondientes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el tipo de consenso o mayoría que se exige en el Congreso."
+  },
+  {
+    "guid": "d533e1dd-156b-4fca-8adc-cbaf0525608f",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano asume las funciones de las Cámaras durante los períodos de vacaciones parlamentarias?",
+    "answerOptions": [
+      {
+        "text": "La Mesa de la Cámara",
+        "rationale": "La Mesa ordena el trabajo, pero no tiene funciones sustitutivas del Pleno en períodos inhábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Diputación Permanente",
+        "rationale": "Es el órgano de guardia que garantiza la continuidad del poder legislativo cuando este no está reunido.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Consejo de Ministros",
+        "rationale": "El poder ejecutivo no puede asumir las funciones del legislativo por el mero hecho de que este esté de vacaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Supremo",
+        "rationale": "El poder judicial es independiente y no asume competencias legislativas en ningún supuesto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre indica que su misión es hacer que la cámara nunca deje de estar presente."
+  },
+  {
+    "guid": "3f05acc7-7721-4cf8-8b35-755dca704832",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué número de adjuntos tiene el Defensor del Pueblo?",
+    "answerOptions": [
+      {
+        "text": "Uno",
+        "rationale": "La ley prevé una estructura de auxilio más amplia para cubrir las diversas áreas de supervisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos",
+        "rationale": "Se denominan Adjunto Primero y Adjunto Segundo, y asumen las funciones del Defensor en caso de vacante.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres",
+        "rationale": "La estructura oficial se limita a un primer y segundo escalafón por debajo del titular.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuatro, uno por cada poder del Estado",
+        "rationale": "No existe esa distribución por poderes; su labor es técnica y de supervisión administrativa única.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son su mano derecha y su mano izquierda en la gestión."
+  },
+  {
+    "guid": "b24cb900-729c-4ee2-9290-a6a1a635f361",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la dirección superior del personal del Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "El Secretario General",
+        "rationale": "El Secretario General realiza funciones administrativas, pero la autoridad superior recae en la presidencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Tribunal",
+        "rationale": "Como jefe superior del personal, le corresponden las facultades de nombramiento y administración.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Pleno del Tribunal",
+        "rationale": "El Pleno es un órgano de decisión colegiada sobre fiscalización, no de gestión de recursos humanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Fiscal del Estado",
+        "rationale": "Su función es jurídica y de defensa de la legalidad presupuestaria, no de gestión de personal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma figura que preside las reuniones del Pleno."
+  },
+  {
+    "guid": "0ab7b16c-0ef4-448c-bb66-bcb72373a54b",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué casos se reúnen las dos cámaras en sesión conjunta?",
+    "answerOptions": [
+      {
+        "text": "Para aprobar la Ley de Presupuestos",
+        "rationale": "Cada cámara debate y vota los presupuestos por separado siguiendo el procedimiento legislativo ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Para actos relacionados con la Corona (Juramentos, Sucesión)",
+        "rationale": "La Constitución reserva la reunión conjunta para las funciones no legislativas que afectan a la Jefatura del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Para elegir al Presidente del Gobierno",
+        "rationale": "La investidura es una competencia exclusiva del Congreso de los Diputados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Para declarar el estado de alarma",
+        "rationale": "El estado de alarma es competencia del Gobierno, dando cuenta al Congreso (no en sesión conjunta).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en situaciones solemnes que involucran a la Monarquía."
+  },
+  {
+    "guid": "96d9ca0a-e2f2-4deb-a3e1-0640eab4ece4",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sistema de voto se utiliza en las comisiones parlamentarias?",
+    "answerOptions": [
+      {
+        "text": "Voto igualitario para cada partido presente",
+        "rationale": "Los grupos pequeños tendrían el mismo peso que los grandes, lo cual rompería el principio representativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Voto ponderado en proporción a la representación en el Pleno",
+        "rationale": "Asegura que el equilibrio de fuerzas políticas en la comisión refleje fielmente la voluntad popular del Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Voto secreto siempre",
+        "rationale": "La transparencia exige que los votos sean públicos, salvo en elecciones de personas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo vota el Presidente de la comisión",
+        "rationale": "La comisión es un órgano colegiado; el presidente solo dirige el debate.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El peso del voto de cada grupo depende de cuántos escaños tengan en el hemiciclo grande."
+  },
+  {
+    "guid": "bf2e6173-9799-441f-a780-efe93a0d7167",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede si el Senado aprueba una enmienda a un proyecto de ley enviado por el Congreso?",
+    "answerOptions": [
+      {
+        "text": "El proyecto queda anulado automáticamente",
+        "rationale": "El desacuerdo entre cámaras no detiene el proceso legislativo, solo lo ralentiza.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congreso debe pronunciarse de nuevo sobre la enmienda",
+        "rationale": "Como cámara de primera lectura, el Congreso tiene la última palabra para aceptar o rechazar los cambios del Senado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se somete a referéndum popular",
+        "rationale": "El referéndum es excepcional y no se aplica por meras discrepancias técnicas entre cámaras.",
+        "isCorrect": false
+      },
+      {
+        "text": "Interviene el Rey para desempatar",
+        "rationale": "El monarca no tiene funciones arbitrales legislativas en el sistema constitucional español.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde qué cámara tiene la primacía en el proceso legislativo."
+  },
+  {
+    "guid": "818fbc53-fc40-41ff-923a-733dc2a40b3b",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién decide sobre la inhabilitación del Rey?",
+    "answerOptions": [
+      {
+        "text": "El Gobierno",
+        "rationale": "Una decisión de tal calado institucional no puede recaer en el poder ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las Cortes Generales",
+        "rationale": "Es una de las funciones específicas en relación con la Corona que deben ejercer las cámaras en sesión conjunta.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal Constitucional",
+        "rationale": "El TC se ocupa de la legalidad de las normas, no de la capacidad física o mental del Jefe del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Familia Real por mayoría",
+        "rationale": "La Constitución otorga la soberanía al pueblo a través de sus representantes, no a la esfera privada de la familia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano que representa al pueblo español."
+  },
+  {
+    "guid": "4d9bee53-d7d8-4dab-8614-9926bb861833",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué meses se desarrollan los períodos ordinarios de sesiones de las cámaras?",
+    "answerOptions": [
+      {
+        "text": "De enero a diciembre sin interrupción",
+        "rationale": "Las cámaras tienen períodos de vacaciones parlamentarias establecidos en la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "De septiembre a diciembre y de febrero a junio",
+        "rationale": "Son los dos períodos anuales fijados por el artículo 73.1 de la Constitución.",
+        "isCorrect": true
+      },
+      {
+        "text": "De marzo a julio y de octubre a enero",
+        "rationale": "Estos meses no coinciden con la distribución tradicional y legal del trabajo parlamentario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo durante el verano",
+        "rationale": "Tradicionalmente, el mes de agosto es inhábil para el trabajo parlamentario ordinario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Hay un período en otoño y otro que abarca la primavera."
+  },
+  {
+    "guid": "9f08e9be-a99f-4e3a-a85c-54387daa3710",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la competencia para proponer el nombramiento del Presidente del Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "El Congreso en solitario",
+        "rationale": "La elección es interna del órgano fiscalizador una vez que sus miembros han sido designados.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Pleno del propio Tribunal",
+        "rationale": "Los 12 consejeros eligen de entre ellos a quién proponer al Rey para la presidencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Fiscal General del Estado",
+        "rationale": "Aunque hay un fiscal en el tribunal, no tiene poder sobre la estructura de mando del mismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Tribunal Supremo",
+        "rationale": "No existe vinculación jerárquica entre la cúpula judicial y el Tribunal de Cuentas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una decisión de carácter interno tomada por sus consejeros."
+  },
+  {
+    "guid": "e3af6864-e8ae-4b99-85a7-27fe4d9e37b2",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función jurisdiccional del Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "Juzgar delitos de corrupción política",
+        "rationale": "Eso corresponde a la jurisdicción penal ordinaria de los tribunales de justicia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Enjuiciar la responsabilidad contable de quienes manejan fondos públicos",
+        "rationale": "Se limita a reclamar el reintegro de caudales cuando ha habido perjuicio económico por negligencia o dolo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Anular leyes de presupuestos ilegales",
+        "rationale": "La anulación de leyes es competencia exclusiva del Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sancionar a los funcionarios por faltas de puntualidad",
+        "rationale": "Ese es un régimen disciplinario interno de cada administración, no una función del Tribunal de Cuentas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la obligación de 'devolver' el dinero público mal gestionado."
+  },
+  {
+    "guid": "c3af78ee-5c94-410e-8964-1598e6991dce",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántas vicepresidencias tiene la Mesa del Congreso?",
+    "answerOptions": [
+      {
+        "text": "Una",
+        "rationale": "Un número tan bajo no permitiría la representación de la diversidad de grupos mayoritarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos",
+        "rationale": "Dos es el número que tiene el Senado, pero el Congreso requiere más por su tamaño.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuatro",
+        "rationale": "El reglamento establece cuatro vicepresidentes para asegurar que las fuerzas políticas principales estén presentes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis",
+        "rationale": "La estructura está fijada en nueve miembros totales (1P, 4V, 4S), no siendo posible llegar a seis vicepresidencias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el doble de las que tiene el Senado."
+  },
+  {
+    "guid": "41bc713e-2dbd-4cea-987b-fd6eb4776a0b",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué recurso puede interponer el Defensor del Pueblo ante el Tribunal Constitucional?",
+    "answerOptions": [
+      {
+        "text": "Recurso de apelación",
+        "rationale": "La apelación se usa en la justicia ordinaria contra sentencias de órganos inferiores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recurso de inconstitucionalidad",
+        "rationale": "La Constitución le otorga legitimación para impugnar leyes que vulneren derechos fundamentales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Recurso de casación",
+        "rationale": "Es un recurso extraordinario ante el Tribunal Supremo, no ante el Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recurso de alzada",
+        "rationale": "Es un recurso administrativo jerárquico que no se aplica en la esfera del Tribunal Constitucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la herramienta para cuestionar la validez de una Ley de las Cortes."
+  },
+  {
+    "guid": "922ed129-31db-4847-ae0d-bec70d73cf21",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el quórum necesario para que las cámaras puedan adoptar acuerdos?",
+    "answerOptions": [
+      {
+        "text": "La mayoría simple de los presentes",
+        "rationale": "Esto es la regla para que el acuerdo sea aprobado, pero para poder votar se requiere un número mínimo previo de asistentes.",
+        "isCorrect": false
+      },
+      {
+        "text": "La mayoría de sus miembros",
+        "rationale": "Deben estar presentes al menos la mitad más uno de los integrantes legales de la cámara.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres quintos de los diputados",
+        "rationale": "Esta es una mayoría cualificada para decisiones especiales, no un requisito general de presencia diaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier número de asistentes si hay urgencia",
+        "rationale": "La Constitución no admite excepciones al quórum de presencia para la validez de las sesiones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a cuántos parlamentarios deben 'estar ahí' para que la sesión sea válida."
+  },
+  {
+    "guid": "b59b562b-ad95-48e3-91b7-e5bc3a10d9c9",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con las 'Comisiones No Permanentes' al finalizar el asunto que motivó su creación?",
+    "answerOptions": [
+      {
+        "text": "Pasan a ser legislativas permanentes",
+        "rationale": "Las comisiones permanentes están fijadas en el reglamento por su materia constante.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se extinguen o concluyen sus funciones",
+        "rationale": "Son órganos creados para un fin concreto que desaparecen una vez cumplido el objetivo o la legislatura.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se integran en el Gobierno",
+        "rationale": "Los órganos parlamentarios nunca se integran en la estructura del poder ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sus miembros pierden el escaño",
+        "rationale": "La pertenencia a una comisión es una tarea del cargo, su fin no afecta a la condición de diputado o senador.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Como su nombre indica, no tienen vocación de durar siempre."
+  },
+  {
+    "guid": "dd020fc0-7b5a-44d4-8915-f157d56e48e0",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la iniciativa para proponer a los miembros de la Mesa de cada Cámara?",
+    "answerOptions": [
+      {
+        "text": "El Gobierno",
+        "rationale": "La autonomía parlamentaria exige que las cámaras elijan a sus propios órganos sin interferencia del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los propios Diputados o Senadores",
+        "rationale": "Cada cámara escoge libremente entre sus miembros a quienes han de formar su órgano rector.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Rey tras consultar a los partidos",
+        "rationale": "El Rey consulta para proponer al Presidente del Gobierno, no para los órganos internos de las Cortes.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Constitucional",
+        "rationale": "El poder judicial no interviene en la organización política del poder legislativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una manifestación de la autonomía de cada cámara."
+  },
+  {
+    "guid": "c6a8bf67-1682-48b9-8a4f-28a3b7d1fe80",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se llama el órgano del Tribunal de Cuentas que verifica la contabilidad del sector público?",
+    "answerOptions": [
+      {
+        "text": "Sección de Enjudiciamiento",
+        "rationale": "Esta sección se ocupa de la fase jurisdiccional, es decir, de castigar y cobrar el perjuicio económico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sección de Fiscalización",
+        "rationale": "Es la encargada de la revisión técnica y examen de las cuentas propiamente dicho.",
+        "isCorrect": true
+      },
+      {
+        "text": "Comisión de Gobierno",
+        "rationale": "Este órgano tiene funciones de organización interna y régimen disciplinario del personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiscalía del Tribunal",
+        "rationale": "La fiscalía ejercita acciones legales, pero la revisión técnica de los libros contables es de la sección técnica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el término que describe la acción de supervisar las cuentas."
+  },
+  {
+    "guid": "3c306646-ea87-46b8-8ea0-05af50a888ff",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién resuelve en primera instancia los juicios de cuentas en el Tribunal de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "El Presidente del Tribunal",
+        "rationale": "El Presidente tiene funciones de representación y dirección, no de resolución de expedientes individuales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los Consejeros de Cuentas",
+        "rationale": "A cada consejero le corresponde la resolución de estos expedientes en la fase inicial del proceso.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Pleno por unanimidad",
+        "rationale": "El Pleno resuelve recursos de alzada, es decir, actúa en una fase posterior a la primera instancia.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Secretaría General",
+        "rationale": "Es un órgano de apoyo administrativo, carente de funciones jurisdiccionales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las 12 personas que forman el núcleo del tribunal."
+  },
+  {
+    "guid": "7e1edbbf-87f2-4b56-84ac-4a2cd94120bf",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio rige la composición de las comisiones parlamentarias?",
+    "answerOptions": [
+      {
+        "text": "Principio de antigüedad",
+        "rationale": "Los puestos no se asignan por años en el cargo, sino por peso político.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de proporcionalidad",
+        "rationale": "Asegura que todos los grupos parlamentarios estén representados según su número de escaños en el Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de paridad de género obligatoria por ley",
+        "rationale": "Aunque se busca la igualdad, el principio técnico parlamentario de formación es la representatividad de los grupos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de rotación mensual",
+        "rationale": "Las comisiones son estables para permitir la especialización de sus miembros en la materia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca que la comisión sea un 'espejo' reducido de lo que es el Pleno."
+  },
+  {
+    "guid": "c04bc567-eec5-4b09-8433-2e8f3472590e",
+    "subjectId": "T03",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A qué edad adquieren los españoles el derecho a ser electores y elegibles para las Cortes?",
+    "answerOptions": [
+      {
+        "text": "16 años",
+        "rationale": "A los 16 años se pueden tener ciertas capacidades laborales, pero no el derecho de sufragio activo o pasivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "18 años",
+        "rationale": "Es la mayoría de edad establecida en la Constitución para el pleno ejercicio de los derechos políticos.",
+        "isCorrect": true
+      },
+      {
+        "text": "21 años",
+        "rationale": "Aunque es una edad relevante para algunos órganos, para el Congreso y Senado basta con la mayoría de edad general.",
+        "isCorrect": false
+      },
+      {
+        "text": "25 años",
+        "rationale": "Esta edad no se exige para ser representante en las cámaras nacionales en el sistema actual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la mayoría de edad legal en España."
+  }
+]

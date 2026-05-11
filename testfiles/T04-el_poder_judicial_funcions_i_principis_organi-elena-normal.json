@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "3e22371d-9326-4e5a-afd9-cced1f18c00f",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la duración del mandato del Fiscal General del Estado según la normativa vigente?",
+    "answerOptions": [
+      {
+        "text": "4 años",
+        "rationale": "El cargo es designado por el Gobierno y está sujeto a una temporalidad de cuatro años, coincidiendo habitualmente con la legislatura.",
+        "isCorrect": true
+      },
+      {
+        "text": "5 años",
+        "rationale": "Este periodo suele corresponder al mandato de los vocales del Consejo General del Poder Judicial, no al del Fiscal General.",
+        "isCorrect": false
+      },
+      {
+        "text": "6 años",
+        "rationale": "Aunque algunos órganos constitucionales tienen mandatos de seis años, el Estatuto Orgánico del Ministerio Fiscal establece un límite inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitalicio",
+        "rationale": "Dada la naturaleza democrática del Estado y la dependencia del Gobierno para su cese, un cargo vitalicio sería contrario a los principios de temporalidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Relaciona este periodo con la duración estándar de una legislatura en España."
+  },
+  {
+    "guid": "2fefd334-3cfb-4079-819d-6ac9ed83db0a",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién ostenta la presidencia del Consejo General del Poder Judicial?",
+    "answerOptions": [
+      {
+        "text": "El Presidente del Tribunal Supremo",
+        "rationale": "Por disposición legal, la persona que preside el Tribunal Supremo ejerce simultáneamente la presidencia del órgano de gobierno de los jueces.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro de Justicia",
+        "rationale": "El Ministro forma parte del poder ejecutivo y su presidencia vulneraría la independencia judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "El vocal de mayor antigüedad",
+        "rationale": "Aunque la antigüedad es relevante para otros cargos, la presidencia está vinculada constitucionalmente a la jefatura del Tribunal Supremo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Fiscal General del Estado",
+        "rationale": "El Ministerio Fiscal es un órgano cooperador de la justicia pero con autonomía funcional, separado del gobierno del Poder Judicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una figura que encabeza tanto el órgano jurisdiccional superior como el órgano de gobierno."
+  },
+  {
+    "guid": "50c5eebc-9687-45cd-a33a-d372cbb046fd",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de los siguientes es un principio fundamental de actuación del Ministerio Fiscal?",
+    "answerOptions": [
+      {
+        "text": "Unidad de actuación",
+        "rationale": "Este principio asegura que el Ministerio Fiscal actúe como un cuerpo único bajo criterios comunes en todo el territorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inamovibilidad",
+        "rationale": "La inamovibilidad es un principio propio de jueces y magistrados, mientras que los fiscales están sujetos a un régimen de dependencia jerárquica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Independencia orgánica total del Gobierno",
+        "rationale": "El Fiscal General es propuesto por el Gobierno, existiendo una relación de dependencia jerárquica y de colaboración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Autonomía presupuestaria absoluta",
+        "rationale": "Aunque tiene autonomía funcional, su presupuesto depende de las partidas generales del Estado destinadas a la Administración de Justicia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este principio evita que cada fiscal interprete la ley de forma contradictoria a sus compañeros."
+  },
+  {
+    "guid": "9752e553-3489-4d3c-a5fa-acbf975f4043",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué requisito de ejercicio profesional es necesario para ser nombrado Fiscal General del Estado?",
+    "answerOptions": [
+      {
+        "text": "Más de 15 años de ejercicio profesional",
+        "rationale": "La ley exige que sea un jurista de reconocido prestigio con una trayectoria superior a tres lustros en el ámbito del derecho.",
+        "isCorrect": true
+      },
+      {
+        "text": "Más de 10 años de ejercicio profesional",
+        "rationale": "Este plazo es común para otros cargos jurídicos, pero para el Fiscal General se requiere una experiencia más dilatada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Haber sido Magistrado del Tribunal Supremo",
+        "rationale": "Aunque es frecuente que provengan de la carrera judicial, no es un requisito indispensable ser magistrado del Supremo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser Catedrático de Derecho Penal",
+        "rationale": "Ser catedrático cumple el criterio de jurista de prestigio, pero no es la única vía de acceso al cargo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere una experiencia que sume tres periodos de cinco años."
+  },
+  {
+    "guid": "8854a5d6-49dd-4ff2-971a-12e7a4ccd3b8",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Ante qué órgano presta juramento o promesa el Fiscal General del Estado una vez nombrado?",
+    "answerOptions": [
+      {
+        "text": "Ante el Rey",
+        "rationale": "Al ser un cargo de alta relevancia estatal nombrado por el monarca a propuesta del Gobierno, el acto de juramento se realiza ante el Jefe del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ante el Pleno del Congreso",
+        "rationale": "El Fiscal comparece ante la Comisión del Congreso para su evaluación, pero el juramento formal sigue otros protocolos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ante el Consejo General del Poder Judicial",
+        "rationale": "El CGPJ emite un informe previo al nombramiento, pero no recibe el juramento del cargo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ante el Ministro de la Presidencia",
+        "rationale": "El juramento es un acto solemne que vincula al cargo con la Corona y la Constitución, no con un ministerio específico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el Jefe del Estado quien formaliza los nombramientos de las más altas autoridades."
+  },
+  {
+    "guid": "4509fd05-c757-4e81-84ef-89258492648b",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sala del Tribunal Supremo conoce de los recursos de casación en materia penal?",
+    "answerOptions": [
+      {
+        "text": "Sala Segunda",
+        "rationale": "La Sala de lo Penal del Tribunal Supremo es la encargada de la instrucción y enjuiciamiento de aforados y de resolver recursos de casación penal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sala Primera",
+        "rationale": "Esta sala se ocupa exclusivamente de los asuntos de orden civil.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sala Tercera",
+        "rationale": "Su competencia se limita al orden contencioso-administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sala Especial del artículo 61",
+        "rationale": "Esta sala tiene competencias muy específicas como la ilegalización de partidos políticos, pero no la casación ordinaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "En el Tribunal Supremo, las salas se numeran y esta es la siguiente a la de lo civil."
+  },
+  {
+    "guid": "d5c7bef1-246f-4fa8-9978-08330245446e",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántos vocales integran el Consejo General del Poder Judicial, sin contar a su presidente?",
+    "answerOptions": [
+      {
+        "text": "20 vocales",
+        "rationale": "La Constitución establece que el Consejo se compone del Presidente y de veinte miembros nombrados por un periodo de cinco años.",
+        "isCorrect": true
+      },
+      {
+        "text": "12 vocales",
+        "rationale": "Doce es el número de vocales que deben pertenecer obligatoriamente a la carrera judicial, pero no el total del órgano.",
+        "isCorrect": false
+      },
+      {
+        "text": "8 vocales",
+        "rationale": "Ocho es el número de vocales que se eligen entre abogados y otros juristas, completando el resto con jueces y magistrados.",
+        "isCorrect": false
+      },
+      {
+        "text": "15 vocales",
+        "rationale": "Este número no corresponde a la composición legal del órgano de gobierno de los jueces.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número par que resulta de sumar los 12 del turno judicial y los 8 del turno de juristas."
+  },
+  {
+    "guid": "4886ee08-8f00-4de6-8e43-dde69b234d66",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué municipio existe un Juzgado de Paz?",
+    "answerOptions": [
+      {
+        "text": "En aquellos donde no exista un Juzgado de Primera Instancia e Instrucción",
+        "rationale": "Los Juzgados de Paz son órganos unipersonales situados en municipios menores para acercar la justicia básica al ciudadano.",
+        "isCorrect": true
+      },
+      {
+        "text": "En todas las capitales de provincia",
+        "rationale": "En las capitales de provincia siempre existen órganos judiciales de carrera (Primera Instancia), por lo que no hay Juzgado de Paz.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo en municipios de más de 50.000 habitantes",
+        "rationale": "Al contrario, estos municipios suelen tener juzgados profesionales; los de paz son para localidades más pequeñas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente en las sedes de los partidos judiciales",
+        "rationale": "La sede del partido judicial alberga los juzgados de primera instancia; el juzgado de paz existe en el resto de municipios del partido.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su función es suplir la ausencia de jueces de carrera en localidades pequeñas."
+  },
+  {
+    "guid": "ce1c243e-3b3b-473f-81bb-09de76504934",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano es competente para el enjuiciamiento de delitos de terrorismo a nivel nacional?",
+    "answerOptions": [
+      {
+        "text": "La Audiencia Nacional",
+        "rationale": "Debido a su especialización y jurisdicción en toda España, la Audiencia Nacional conoce de delitos con gran trascendencia social o criminalidad organizada.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal Supremo",
+        "rationale": "El Tribunal Supremo suele actuar como tribunal de casación, no como tribunal de enjuiciamiento ordinario salvo para aforados.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Audiencia Provincial",
+        "rationale": "Las Audiencias Provinciales conocen de delitos graves, pero el terrorismo está reservado por ley a un órgano de ámbito nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Superior de Justicia",
+        "rationale": "Su competencia penal se limita mayoritariamente a delitos cometidos por autoridades autonómicas o recursos de apelación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca el tribunal que tiene su sede en Madrid y cuya jurisdicción abarca todo el Estado."
+  },
+  {
+    "guid": "e2001d78-2410-4e6f-963c-8fc689b78b21",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal de los Juzgados de Vigilancia Penitenciaria?",
+    "answerOptions": [
+      {
+        "text": "Controlar la ejecución de las penas privativas de libertad",
+        "rationale": "Estos juzgados velan por los derechos de los internos y supervisan el cumplimiento de las penas y los beneficios penitenciarios.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dictar sentencias en juicios por delitos graves",
+        "rationale": "La función de enjuiciamiento corresponde a los Juzgados de lo Penal o a las Audiencias, no a los de vigilancia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Instruir las causas de corrupción política",
+        "rationale": "La instrucción de causas criminales es competencia de los Juzgados de Instrucción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gestionar el mantenimiento físico de las prisiones",
+        "rationale": "El mantenimiento de las instalaciones es una tarea administrativa que corresponde a Instituciones Penitenciarias (Ministerio del Interior).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre indica que supervisan lo que ocurre después de que una persona entra en prisión."
+  },
+  {
+    "guid": "450fdad9-7126-4404-bdfe-fefc054e2c22",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio impide que un juez sea trasladado de su puesto sin una causa legalmente prevista?",
+    "answerOptions": [
+      {
+        "text": "Inamovibilidad",
+        "rationale": "Este principio garantiza que los jueces no puedan ser removidos ni jubilados sino por las causas y con las garantías establecidas en la ley.",
+        "isCorrect": true
+      },
+      {
+        "text": "Imparcialidad",
+        "rationale": "La imparcialidad se refiere a la ausencia de interés personal en el pleito, no a la permanencia en el cargo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exclusividad",
+        "rationale": "La exclusividad significa que solo los jueces ejercen jurisdicción y que no pueden realizar otras funciones públicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Responsabilidad",
+        "rationale": "La responsabilidad implica que los jueces responden por sus actos ilegales, pero no protege su permanencia en el puesto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la 'fijeza' o estabilidad del juez en su plaza judicial."
+  },
+  {
+    "guid": "e3011d66-b023-4776-9dbc-42c0fb6c4417",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién elige a los Jueces de Paz?",
+    "answerOptions": [
+      {
+        "text": "El Pleno del Ayuntamiento por mayoría absoluta",
+        "rationale": "Al ser figuras vinculadas a la comunidad local, la corporación municipal propone a la persona, aunque el nombramiento formal sea del TSJ.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministerio de Justicia",
+        "rationale": "El ejecutivo no interviene directamente en la elección de estas figuras para preservar la separación de funciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los ciudadanos mediante sufragio directo",
+        "rationale": "En el sistema español no existe la elección directa de jueces por voto popular, a diferencia de otros países.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Tribunal Superior de Justicia",
+        "rationale": "La Sala de Gobierno del TSJ los nombra, pero la elección o propuesta recae en el ámbito municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una decisión tomada en el órgano máximo de representación de los vecinos."
+  },
+  {
+    "guid": "f3351a7c-0b12-4996-a435-381f51e79b67",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con el mandato del Fiscal General del Estado si cesa el Gobierno que lo propuso?",
+    "answerOptions": [
+      {
+        "text": "El Fiscal General también cesa en sus funciones",
+        "rationale": "Es una de las causas específicas de cese contempladas para asegurar la confianza del nuevo ejecutivo en la dirección de la política criminal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Permanece hasta completar los 4 años",
+        "rationale": "A diferencia de los jueces, la vinculación del Fiscal General con la confianza del Gobierno hace que su mandato decaiga con este.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se convierte automáticamente en Magistrado del Supremo",
+        "rationale": "Aunque pueda reincorporarse a su carrera previa, no hay un ascenso automático por el mero cese en el cargo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe ser ratificado por el Congreso",
+        "rationale": "La normativa establece el cese directo, sin un proceso intermedio de ratificación parlamentaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Existe una vinculación política y de confianza temporal con el Poder Ejecutivo."
+  },
+  {
+    "guid": "6448ee32-0433-4e1a-b5dc-c319de858e79",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la edad mínima de responsabilidad penal que tratan los Juzgados de Menores?",
+    "answerOptions": [
+      {
+        "text": "14 años",
+        "rationale": "La ley establece que los menores de 14 años son inimputables penalmente (se les aplican medidas de protección), mientras que de 14 a 18 actúan estos juzgados.",
+        "isCorrect": true
+      },
+      {
+        "text": "12 años",
+        "rationale": "Aunque en otros países la edad es menor, en España el límite se fijó en catorce tras diversas reformas legislativas.",
+        "isCorrect": false
+      },
+      {
+        "text": "16 años",
+        "rationale": "A los 16 años ya se tiene responsabilidad penal ante estos juzgados, pero el inicio de la misma es anterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "18 años",
+        "rationale": "A los 18 años se alcanza la mayoría de edad penal y se responde ante los juzgados ordinarios de adultos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la edad que marca el inicio de la adolescencia legal para el derecho penal juvenil."
+  },
+  {
+    "guid": "9d1eae12-75d9-4429-bd1b-f94ee9b59b87",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano fiscaliza la actividad económico-financiera del sector público en toda España?",
+    "answerOptions": [
+      {
+        "text": "El Tribunal de Cuentas",
+        "rationale": "Es el órgano supremo encargado de auditar las cuentas del Estado y de las entidades públicas, reportando directamente a las Cortes Generales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Banco de España",
+        "rationale": "El Banco de España supervisa el sistema financiero y la política monetaria, pero no realiza la fiscalización contable del sector público.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Agencia Tributaria",
+        "rationale": "Su función es la recaudación de impuestos, no la fiscalización del gasto público ya realizado.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Sala de lo Social del Tribunal Supremo",
+        "rationale": "Esta sala se ocupa de conflictos laborales, no de la contabilidad estatal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Aunque se llame 'Tribunal', tiene funciones administrativas y de auditoría muy marcadas."
+  },
+  {
+    "guid": "a3cf0c7b-40dc-413c-89c5-4632d9d9d344",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se denomina la participación ciudadana en la administración de justicia para determinados procesos penales?",
+    "answerOptions": [
+      {
+        "text": "Tribunal del Jurado",
+        "rationale": "La Constitución española reconoce el derecho de los ciudadanos a participar directamente en la justicia a través de esta institución.",
+        "isCorrect": true
+      },
+      {
+        "text": "Acción Popular",
+        "rationale": "La acción popular es el derecho a ser parte acusadora en un proceso, no a dictar el veredicto como juez lego.",
+        "isCorrect": false
+      },
+      {
+        "text": "Justicia de Proximidad",
+        "rationale": "Este concepto se refiere a la resolución de pequeños conflictos locales, a menudo por mediación o juzgados menores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Asistencia Jurídica Gratuita",
+        "rationale": "Es un derecho prestacional para quienes carecen de recursos, no una forma de participación en la toma de decisiones judiciales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una institución donde ciudadanos comunes deciden sobre la culpabilidad o inocencia."
+  },
+  {
+    "guid": "186db78a-c1c8-4853-a586-95e3c7aa8d70",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A quién corresponde la competencia para ordenar los servicios de justicia gratuita en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "A la Generalitat de Catalunya",
+        "rationale": "El Estatuto de Autonomía atribuye a la Generalitat la competencia sobre la gestión y organización de la justicia gratuita en su territorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Consejo General del Poder Judicial",
+        "rationale": "El CGPJ se encarga del gobierno de los jueces, pero la gestión de medios materiales y servicios prestacionales corresponde a la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Colegio de Abogados de Madrid",
+        "rationale": "Cada territorio gestiona sus servicios a través de sus propias instituciones y colegios profesionales locales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Tribunal Supremo",
+        "rationale": "El Tribunal Supremo es un órgano jurisdiccional y no tiene competencias en la gestión administrativa de la defensa de oficio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la institución autonómica que gestiona las competencias transferidas en materia de justicia."
+  },
+  {
+    "guid": "77a9139d-df9c-47a3-8182-758284225405",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio rige la relación entre los distintos órganos del Ministerio Fiscal?",
+    "answerOptions": [
+      {
+        "text": "Dependencia jerárquica",
+        "rationale": "A diferencia de los jueces, los fiscales deben seguir las instrucciones de sus superiores, culminando en el Fiscal General del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Independencia de criterio",
+        "rationale": "Los fiscales tienen autonomía para informar, pero están sujetos a las directrices de la jefatura para mantener la unidad de actuación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inamovibilidad absoluta",
+        "rationale": "Los fiscales pueden ser trasladados o removidos de sus funciones siguiendo el estatuto orgánico, no gozan de la fijeza judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Colegialidad obligatoria",
+        "rationale": "Aunque existen órganos colegiados (como la Junta de Fiscales), la estructura de mando es individual y vertical.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una estructura piramidal donde las órdenes fluyen de arriba hacia abajo."
+  },
+  {
+    "guid": "8ca93585-8fb5-4959-8414-b7e4ab56ec92",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la sede oficial del Tribunal Supremo?",
+    "answerOptions": [
+      {
+        "text": "Madrid",
+        "rationale": "La villa de Madrid es la sede constitucional y legal de los órganos superiores del Estado, incluido el Tribunal Supremo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Barcelona",
+        "rationale": "Barcelona alberga el Tribunal Superior de Justicia de Cataluña, pero no la sede del órgano nacional superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sevilla",
+        "rationale": "Aunque es una ciudad importante con sedes judiciales relevantes, no es la capital donde reside el Supremo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estrasburgo",
+        "rationale": "Estrasburgo es sede del Tribunal Europeo de Derechos Humanos, un órgano internacional fuera de la estructura nacional española.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se ubica en la capital del Reino."
+  },
+  {
+    "guid": "8c043c17-1db1-4700-b9d3-7f331bac57aa",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sala de la Audiencia Nacional se encarga de los procesos relativos a convenios colectivos de ámbito superior a una Comunidad Autónoma?",
+    "answerOptions": [
+      {
+        "text": "Sala de lo Social",
+        "rationale": "Esta sala tiene competencia para resolver conflictos laborales que afectan a trabajadores en más de una comunidad autónoma.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sala de lo Penal",
+        "rationale": "El ámbito penal se dedica al castigo de delitos, no a la regulación o interpretación de contratos laborales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sala de lo Contencioso-Administrativo",
+        "rationale": "Esta sala revisa actos de la administración pública, no conflictos entre empresas y trabajadores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sala de Apelación",
+        "rationale": "Su función es revisar las sentencias dictadas en primera instancia por otras salas de la propia Audiencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la sala especializada en el ámbito del derecho del trabajo."
+  },
+  {
+    "guid": "c5f1e83a-9f07-4cda-92c5-04db45f61d99",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de los siguientes NO es un principio del Poder Judicial enunciado en la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Supremacía del Poder Ejecutivo",
+        "rationale": "El Poder Judicial es independiente y no está supeditado al ejecutivo; de hecho, controla la legalidad de sus actos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Independencia",
+        "rationale": "Es el pilar básico que asegura que los jueces actúen sin presiones externas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Responsabilidad",
+        "rationale": "Los jueces son responsables por sus infracciones, lo que equilibra su amplia independencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sumisión a la ley",
+        "rationale": "Los jueces no son arbitrarios; su única obediencia es al imperio de la ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la opción que contradiga la separación de poderes."
+  },
+  {
+    "guid": "74953cc1-aad0-4373-9ccb-5d29d0b5cbd4",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de juzgado se encarga de los concursos de acreedores y materia de propiedad intelectual?",
+    "answerOptions": [
+      {
+        "text": "Juzgado de lo Mercantil",
+        "rationale": "Estos juzgados especializados dentro del orden civil gestionan asuntos de empresas, quiebras y derechos de propiedad industrial y comercial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Juzgado de lo Social",
+        "rationale": "Aunque el concurso pueda afectar a trabajadores, la gestión principal del proceso concursal es mercantil.",
+        "isCorrect": false
+      },
+      {
+        "text": "Juzgado de Primera Instancia",
+        "rationale": "Los de primera instancia son generalistas; para estas materias existe una especialización legal obligatoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Audiencia Provincial",
+        "rationale": "La Audiencia es un órgano colegiado de segunda instancia, no el juzgado donde se inician estos procesos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un juzgado especializado en el tráfico comercial y empresarial."
+  },
+  {
+    "guid": "2cf629db-8be4-40e5-8777-12ca0c59988e",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué nombre recibe el derecho a obtener una indemnización por daños causados por un error judicial?",
+    "answerOptions": [
+      {
+        "text": "Responsabilidad patrimonial del Estado",
+        "rationale": "La Constitución garantiza que el Estado responda económicamente por el funcionamiento anormal de la administración de justicia o errores probados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Beneficio de excusión",
+        "rationale": "Este es un concepto del derecho civil relativo a las fianzas, sin relación con el error judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho de amparo",
+        "rationale": "El amparo es un recurso ante el Tribunal Constitucional para proteger derechos fundamentales, no una indemnización directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Justicia gratuita",
+        "rationale": "Se refiere a la exención de costes procesales, no al pago de daños y perjuicios por parte del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de que la administración pública asuma el coste de sus fallos graves."
+  },
+  {
+    "guid": "d8790756-dc69-4f6c-8c23-5f45b67af328",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sala del Tribunal Supremo resuelve los incidentes de recusación contra el Presidente del propio Tribunal?",
+    "answerOptions": [
+      {
+        "text": "Sala Especial (Art. 61 LOPJ)",
+        "rationale": "Esta sala, compuesta por los presidentes de las cinco salas y magistrados antiguos y modernos, decide sobre asuntos internos de máxima relevancia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sala de lo Penal",
+        "rationale": "No tiene competencia sobre el régimen disciplinario o de recusación de la presidencia del tribunal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sala de Gobierno",
+        "rationale": "La Sala de Gobierno tiene funciones administrativas y organizativas, pero no jurisdiccionales para resolver recusaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tribunal Constitucional",
+        "rationale": "El TC no forma parte del Poder Judicial ordinario y no interviene en la recusación de magistrados del Supremo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una sala formada por 'lo más granado' del tribunal: presidentes de sala y magistrados veteranos."
+  },
+  {
+    "guid": "c6291cbe-4409-4c0c-adb7-40db3db540a1",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la competencia principal de los Juzgados de Instrucción?",
+    "answerOptions": [
+      {
+        "text": "Investigar los delitos para preparar el juicio oral",
+        "rationale": "Su labor fundamental es la fase sumarial, reuniendo pruebas para determinar si hay indicios suficientes para juzgar a alguien.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dictar sentencias definitivas por asesinatos",
+        "rationale": "Los asesinatos son juzgados por el Tribunal del Jurado o la Audiencia Provincial, no por el juez de instrucción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resolver recursos contra las multas de tráfico",
+        "rationale": "Las multas administrativas se recurren ante los Juzgados de lo Contencioso-Administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Casar y separar matrimonios civilmente",
+        "rationale": "Esta es una competencia de los Juzgados de Primera Instancia (o de Familia), no de los de instrucción criminal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre proviene de la acción de 'instruir' o preparar el caso."
+  },
+  {
+    "guid": "3fdd813e-8de4-4817-b7e9-f1cf1e39bd8a",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A quién debe acreditar su conocimiento del catalán un juez que quiera ocupar una plaza en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "A la administración competente según determine la ley",
+        "rationale": "El Estatuto exige que los jueces en Cataluña acrediten conocimiento de la lengua y el derecho propios para garantizar los derechos de los ciudadanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "No es necesario acreditarlo por ser funcionario estatal",
+        "rationale": "Aunque sean de cuerpo nacional, el Estatuto de Autonomía impone este requisito específico para el destino en esa comunidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Instituto Cervantes",
+        "rationale": "El Instituto Cervantes se ocupa de la difusión del español en el extranjero, no de las lenguas cooficiales en España.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo se acredita si el juicio se celebra en catalán",
+        "rationale": "El requisito es previo para obtener la plaza en el concurso de traslados, no depende del caso concreto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un requisito lingüístico específico para trabajar en un territorio con lengua propia."
+  },
+  {
+    "guid": "ad46d1f2-7571-4a99-8099-5efe6ca331f7",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio del Ministerio Fiscal establece que deben actuar con objetividad e independencia?",
+    "answerOptions": [
+      {
+        "text": "Imparcialidad",
+        "rationale": "La imparcialidad obliga a los fiscales a actuar en defensa de la legalidad sin favorecer intereses particulares, incluso contra la propia acusación si procede.",
+        "isCorrect": true
+      },
+      {
+        "text": "Jerarquía",
+        "rationale": "La jerarquía se refiere a la obediencia interna, no a la objetividad frente a las partes del proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Legalidad",
+        "rationale": "La legalidad implica actuar conforme a las normas, mientras que la imparcialidad se centra en la actitud neutral del fiscal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unidad",
+        "rationale": "La unidad busca la coherencia interna de la institución, no necesariamente la objetividad individual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Asegura que el fiscal no tome partido injustificadamente por ninguna de las partes."
+  },
+  {
+    "guid": "30abc9bc-0547-4b2a-83a7-ad96cd26ebe0",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano de la jurisdicción militar se sitúa justo por debajo de la Sala Quinta del Tribunal Supremo?",
+    "answerOptions": [
+      {
+        "text": "Tribunal Militar Central",
+        "rationale": "El Tribunal Militar Central tiene jurisdicción nacional y sus resoluciones son recurribles en casación ante la Sala Quinta del Supremo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tribunal de Cuentas",
+        "rationale": "El Tribunal de Cuentas no pertenece a la jurisdicción militar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Audiencia Nacional",
+        "rationale": "La Audiencia Nacional es jurisdicción ordinaria, no castrense.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estado Mayor de la Defensa",
+        "rationale": "Este es un órgano de mando operativo militar, no un órgano jurisdiccional (juzgado).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano intermedio de la justicia militar con sede en Madrid."
+  },
+  {
+    "guid": "4643ff4f-fee9-4211-a773-c6ac49527333",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere en el Pleno del Ayuntamiento para elegir a un Juez de Paz?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta",
+        "rationale": "La ley exige un respaldo amplio de la corporación local (mitad más uno de los miembros) para asegurar el consenso en la figura del juez lego.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría simple",
+        "rationale": "Una mayoría simple podría no representar adecuadamente el consenso vecinal requerido para esta institución judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad",
+        "rationale": "La unanimidad es casi imposible de alcanzar en órganos políticos y bloquearía el funcionamiento de la justicia local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres quintos",
+        "rationale": "Esta mayoría reforzada se reserva para órganos constitucionales de nivel estatal, como los vocales del CGPJ.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Necesitas más de la mitad de los votos totales, no solo de los presentes."
+  },
+  {
+    "guid": "6b846d36-daea-40c0-94f5-a751978889df",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se accede normalmente a la condición de Juez de Paz?",
+    "answerOptions": [
+      {
+        "text": "No es necesario ser jurista de carrera",
+        "rationale": "Los jueces de paz son ciudadanos legos (no profesionales del derecho) que resuelven por equidad o conforme a la ley en casos menores.",
+        "isCorrect": true
+      },
+      {
+        "text": "A través de una oposición estatal",
+        "rationale": "Las oposiciones son para la carrera judicial profesional (jueces y magistrados).",
+        "isCorrect": false
+      },
+      {
+        "text": "Por designación directa del Rey",
+        "rationale": "El Rey nombra a los jueces de carrera, pero los de paz siguen un proceso de elección municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Habiendo sido previamente Alcalde",
+        "rationale": "No existe tal requisito; de hecho, el cargo de juez de paz suele ser incompatible con la política activa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de 'jueces legos', lo que define su formación."
+  },
+  {
+    "guid": "5c90c0b4-a156-40bd-a0ef-1bcc1fa585d9",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sala del Tribunal Supremo se denomina 'Sala de lo Social'?",
+    "answerOptions": [
+      {
+        "text": "Sala Cuarta",
+        "rationale": "La estructura del TS establece que la cuarta sala es la especializada en los recursos de casación laboral y seguridad social.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sala Tercera",
+        "rationale": "La tercera es la de lo Contencioso-Administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sala Quinta",
+        "rationale": "La quinta es la de lo Militar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sala Segunda",
+        "rationale": "La segunda es la de lo Penal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la sala que sigue a la de lo Contencioso-Administrativo."
+  },
+  {
+    "guid": "fd9bf304-487d-4dd8-8f60-6fce610e7ed0",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la cuantía máxima en materia civil para que un asunto sea competencia de un Juzgado de Paz?",
+    "answerOptions": [
+      {
+        "text": "90 €",
+        "rationale": "Su competencia civil está limitada a reclamaciones de ínfima cuantía para no sobrecargar de complejidad a un juez no profesional.",
+        "isCorrect": true
+      },
+      {
+        "text": "600 €",
+        "rationale": "Este era el límite antiguo para los juicios verbales rápidos, pero no la competencia del juez de paz.",
+        "isCorrect": false
+      },
+      {
+        "text": "3.000 €",
+        "rationale": "Cantidades de este nivel ya requieren la intervención de un Juzgado de Primera Instancia profesional.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tienen competencia civil",
+        "rationale": "Sí la tienen, aunque sea muy reducida y para asuntos muy sencillos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una cifra inferior a los cien euros."
+  },
+  {
+    "guid": "ba376cc3-df35-4a03-9985-ff0b969ee7d3",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué institución ejerce la soberanía popular en la administración de justicia permitiendo a cualquier ciudadano ser parte de un proceso penal?",
+    "answerOptions": [
+      {
+        "text": "Acción Popular",
+        "rationale": "La acción popular permite que ciudadanos que no son víctimas directas defiendan la legalidad en delitos públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Defensor del Pueblo",
+        "rationale": "El Defensor protege derechos ante la administración, pero no es una parte procesal penal general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ministerio Fiscal",
+        "rationale": "El fiscal es un funcionario del Estado, no una manifestación directa de la iniciativa ciudadana particular.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jurado Popular",
+        "rationale": "El jurado juzga, pero no 'inicia' la acción procesal como parte acusadora.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un derecho que permite a asociaciones o partidos políticos denunciar y personarse en juicios."
+  },
+  {
+    "guid": "06804cc7-fc4c-438f-9b24-8db3f5f778a5",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función de la Sala de lo Contencioso-Administrativo de la Audiencia Nacional en relación con los Ministros?",
+    "answerOptions": [
+      {
+        "text": "Conocer de los recursos contra sus actos y disposiciones",
+        "rationale": "Controla la legalidad de las decisiones de los miembros del Gobierno (salvo que por ley correspondan al Supremo).",
+        "isCorrect": true
+      },
+      {
+        "text": "Juzgarlos por delitos de corrupción",
+        "rationale": "El enjuiciamiento penal de Ministros (aforados) corresponde siempre a la Sala Segunda del Tribunal Supremo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nombrarlos y cesarlos",
+        "rationale": "Esta es una potestad política del Presidente del Gobierno y del Rey.",
+        "isCorrect": false
+      },
+      {
+        "text": "Auditar sus gastos personales",
+        "rationale": "La auditoría de fondos públicos es tarea del Tribunal de Cuentas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encarga de la revisión de la legalidad de la actividad administrativa del Estado."
+  },
+  {
+    "guid": "3a774422-ef35-44f0-89d4-b38d1fcbb456",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio impide que los tribunales españoles apliquen normas dictadas por la Iglesia Católica en procesos civiles ordinarios?",
+    "answerOptions": [
+      {
+        "text": "Exclusividad jurisdiccional",
+        "rationale": "Este principio establece que solo los juzgados y tribunales previstos en las leyes del Estado pueden ejercer potestad jurisdiccional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inamovibilidad",
+        "rationale": "No guarda relación con la fuente del derecho o la jurisdicción eclesiástica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unidad de acción",
+        "rationale": "Es un principio del Ministerio Fiscal, no del Poder Judicial en su conjunto frente a otras instituciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de jerarquía",
+        "rationale": "La jerarquía rige internamente en algunas instituciones, pero no define el monopolio estatal de la justicia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El Estado tiene el monopolio de decir qué es derecho y quién lo aplica."
+  },
+  {
+    "guid": "57e3c972-38cf-4196-870c-bc986a22c96b",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano del Ministerio Fiscal se sitúa jerárquicamente justo por debajo del Fiscal General del Estado?",
+    "answerOptions": [
+      {
+        "text": "Teniente Fiscal del Tribunal Supremo",
+        "rationale": "Es el segundo cargo en la jerarquía, que dirige la Fiscalía ante el Tribunal Supremo y sustituye al Fiscal General.",
+        "isCorrect": true
+      },
+      {
+        "text": "Presidente del Tribunal Supremo",
+        "rationale": "Pertenece a un poder distinto (Judicial) y no tiene relación de mando sobre el Ministerio Fiscal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fiscal Jefe de la Audiencia Nacional",
+        "rationale": "Es un cargo importante, pero su ámbito está limitado a las competencias de la Audiencia Nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ministro de Justicia",
+        "rationale": "Aunque propone al Fiscal General, no forma parte de la escala jerárquica interna del Ministerio Fiscal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su título incluye la denominación de 'Teniente' para indicar su posición subordinada inmediata."
+  },
+  {
+    "guid": "eb5f0ec4-cd9e-4afa-81fa-5c73d9f5c95c",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el ámbito territorial de competencia de un Tribunal Superior de Justicia?",
+    "answerOptions": [
+      {
+        "text": "La Comunidad Autónoma",
+        "rationale": "Como su nombre indica, es el máximo órgano judicial en el territorio de cada autonomía, culminando allí la organización judicial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Toda la Nación",
+        "rationale": "La competencia nacional está reservada al Tribunal Supremo y a la Audiencia Nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Provincia",
+        "rationale": "Para el ámbito provincial existen las Audiencias Provinciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Partido Judicial",
+        "rationale": "El partido judicial es la unidad básica para los juzgados de primera instancia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el tribunal que lleva el nombre de la región autonómica."
+  },
+  {
+    "guid": "bde0800f-852c-4a17-a60b-ee81d40ac112",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué materia es competencia exclusiva de la Sala Quinta del Tribunal Supremo?",
+    "answerOptions": [
+      {
+        "text": "Jurisdicción Militar",
+        "rationale": "Esta sala se rige por su legislación específica para juzgar delitos militares y disciplinarios dentro de las Fuerzas Armadas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Propiedad Intelectual",
+        "rationale": "Esto se resuelve en la Sala Primera (Civil) tras pasar por los Juzgados de lo Mercantil.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conflictos de Jurisdicción entre Ministerios",
+        "rationale": "Estos conflictos se resuelven por órganos específicos de resolución de conflictos, no por la sala militar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ilegalización de Partidos Políticos",
+        "rationale": "Es competencia de la Sala Especial del artículo 61.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encarga de los asuntos relacionados con el estamento castrense."
+  },
+  {
+    "guid": "4ab0516d-fd22-4ef1-b990-f5ba236694ee",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién preside el Consejo Fiscal?",
+    "answerOptions": [
+      {
+        "text": "El Fiscal General del Estado",
+        "rationale": "Como jefe superior del Ministerio Fiscal, preside el órgano encargado de asistirle y asesorarle en sus funciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente del Gobierno",
+        "rationale": "El Presidente del Gobierno no preside órganos internos del Ministerio Fiscal para respetar su autonomía funcional.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey",
+        "rationale": "El Rey no desempeña funciones ejecutivas ni de dirección en los consejos de los órganos del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Fiscal de Sala más antiguo",
+        "rationale": "La antigüedad determina el orden de precedencia, pero la presidencia es nata del Fiscal General.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma persona que dirige toda la Fiscalía a nivel nacional."
+  },
+  {
+    "guid": "50eb44f3-05bb-4dea-a686-0d4a3fa5b2de",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de delitos juzgan los Juzgados de Violencia sobre la Mujer?",
+    "answerOptions": [
+      {
+        "text": "Delitos cometidos contra quien sea o haya sido esposa o mujer ligada por análoga relación",
+        "rationale": "Estos juzgados tienen una competencia integral (civil y penal) centrada en la protección de la mujer en el ámbito de la pareja.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier delito cometido por una mujer",
+        "rationale": "El género del agresor no define este juzgado; se define por ser delitos de género contra la mujer.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo delitos económicos cometidos en el hogar",
+        "rationale": "Su competencia es mucho más amplia, abarcando agresiones, amenazas y protección civil.",
+        "isCorrect": false
+      },
+      {
+        "text": "Delitos de agresiones sexuales cometidos por desconocidos en la vía pública",
+        "rationale": "Si no hay relación afectiva previa o actual, suelen ser competencia de los juzgados de instrucción ordinarios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se centran en la violencia que ocurre dentro de una relación de pareja o expareja."
+  },
+  {
+    "guid": "d1eb13f8-dc8d-4d28-81c0-201cc5d39159",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el órgano de gobierno del Poder Judicial en España?",
+    "answerOptions": [
+      {
+        "text": "Consejo General del Poder Judicial",
+        "rationale": "Es el órgano constitucional que garantiza la independencia de los jueces, encargándose de nombramientos, ascensos y régimen disciplinario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ministerio de Justicia",
+        "rationale": "El Ministerio provee medios materiales, pero el gobierno de la carrera judicial está separado del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pleno del Tribunal Supremo",
+        "rationale": "El Pleno del Supremo tiene funciones jurisdiccionales de máxima relevancia, pero no gobierna administrativamente a todos los jueces.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cortes Generales",
+        "rationale": "Las Cortes ejercen el poder legislativo, no el gobierno interno de los tribunales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sus siglas son CGPJ."
+  },
+  {
+    "guid": "1b8ffcd9-907b-4e3b-9871-a551c8567267",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio jurídico establece que 'la justicia emana del pueblo'?",
+    "answerOptions": [
+      {
+        "text": "Origen popular de la justicia",
+        "rationale": "Este principio democrático fundamenta que el poder judicial se ejerce en nombre de la sociedad soberana.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de legalidad",
+        "rationale": "La legalidad se refiere al sometimiento a la norma escrita, no necesariamente a la fuente de legitimidad del poder.",
+        "isCorrect": false
+      },
+      {
+        "text": "Monopolio estatal",
+        "rationale": "El monopolio indica que solo el Estado juzga, pero el origen popular explica por qué el Estado tiene ese derecho.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unidad de jurisdicción",
+        "rationale": "Se refiere a la organización única de los tribunales, no al origen del mandato judicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la primera frase del artículo 117 de la Constitución Española."
+  },
+  {
+    "guid": "c7cd992d-3349-4d0b-9f0d-675992c99f9e",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede si el Fiscal General del Estado incurre en una incompatibilidad grave?",
+    "answerOptions": [
+      {
+        "text": "Puede ser cesado por el Gobierno",
+        "rationale": "Las incompatibilidades graves o reiteradas apreciadas por el Gobierno son causa legal de destitución del cargo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es juzgado por el Tribunal Constitucional",
+        "rationale": "El TC no tiene competencia para resolver causas de cese administrativo o estatutario del Fiscal General.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo puede cesar a petición propia",
+        "rationale": "Aunque es una causa de cese, existen otras causas forzosas como la enfermedad o el incumplimiento legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pierde automáticamente su título de abogado",
+        "rationale": "El cese en el cargo público no conlleva necesariamente la inhabilitación profesional privada, salvo sentencia penal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un motivo de terminación forzosa del mandato antes de los 4 años."
+  },
+  {
+    "guid": "4127acd2-a63e-49a9-943f-6e74c5dbb152",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función de la Junta de Fiscales de Sala?",
+    "answerOptions": [
+      {
+        "text": "Asistir al Fiscal General en materia doctrinal y técnica",
+        "rationale": "Este órgano técnico ayuda a unificar criterios de interpretación legal para que todo el Ministerio Fiscal actúe igual.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nombrar a los Jueces de Instrucción",
+        "rationale": "El nombramiento de jueces es competencia del CGPJ, no del Ministerio Fiscal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Investigar delitos de terrorismo internacional",
+        "rationale": "La investigación la realizan fiscales concretos y la policía judicial, no una junta asesora colegiada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprobar el presupuesto del Ministerio de Justicia",
+        "rationale": "El presupuesto se aprueba en las Cortes Generales como parte de los Presupuestos Generales del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su labor es asegurar que todos los fiscales 'digan lo mismo' ante leyes complejas."
+  },
+  {
+    "guid": "5d5ba8ca-7ce3-4ce6-a06b-0a5850bbcb7f",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué característica define al procedimiento judicial, especialmente en materia criminal?",
+    "answerOptions": [
+      {
+        "text": "Oralidad",
+        "rationale": "La Constitución establece que el procedimiento será predominantemente oral para garantizar la inmediación y publicidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Secreto absoluto",
+        "rationale": "El secreto de sumario es una excepción temporal; la regla general es la publicidad de las actuaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Escrituración obligatoria de todo el juicio",
+        "rationale": "Aunque se levante acta, el debate y las pruebas se practican de palabra ante el juez.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pago previo de tasas para acusar",
+        "rationale": "En materia penal, el acceso a la justicia para el ejercicio de la acción penal no puede estar limitado por tasas disuasorias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a que los juicios se hacen hablando ante el juez y el público."
+  },
+  {
+    "guid": "5b29bf9e-61c9-4ae6-bb5c-da87ff1fc5a6",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué ciudad se encuentra el Tribunal Superior de Justicia de Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Barcelona",
+        "rationale": "Como capital de la comunidad autónoma, Barcelona es la sede de las instituciones de autogobierno y del TSJ correspondiente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tarragona",
+        "rationale": "Tarragona tiene su propia Audiencia Provincial, pero no la sede del Tribunal Superior regional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Girona",
+        "rationale": "Al igual que otras capitales de provincia, cuenta con órganos judiciales importantes pero no la jefatura autonómica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Lleida",
+        "rationale": "Lleida es sede de un partido judicial y audiencia provincial, pero no el centro del TSJ.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la sede de las máximas instituciones de Cataluña."
+  },
+  {
+    "guid": "1c0a5777-e5c5-483f-8055-dd26af534bdf",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano es competente para tramitar las demandas de responsabilidad civil contra el Presidente del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "La Sala Primera del Tribunal Supremo",
+        "rationale": "Debido a su condición de aforado, las demandas civiles contra altos cargos del Estado se dirimen directamente en el Supremo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Juzgado de Primera Instancia de Madrid",
+        "rationale": "Aunque el Presidente resida en Madrid, su aforamiento impide que sea juzgado por un juez de rango inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Audiencia Nacional",
+        "rationale": "La Audiencia Nacional no tiene competencias en demandas de responsabilidad civil contra miembros del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Constitucional",
+        "rationale": "El TC no juzga demandas de responsabilidad civil por actos personales o del cargo de gobernantes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano superior en el orden civil, situado en Madrid."
+  },
+  {
+    "guid": "7e277699-df67-4495-9d98-e850854619b5",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la potestad de proponer al Gobierno los nombramientos de los Fiscales de Sala?",
+    "answerOptions": [
+      {
+        "text": "El Fiscal General del Estado",
+        "rationale": "El Fiscal General propone los ascensos y destinos de la cúpula fiscal, previo informe del Consejo Fiscal.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Consejo General del Poder Judicial",
+        "rationale": "El CGPJ nombra jueces, pero no interviene en la estructura de mando del Ministerio Fiscal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey por iniciativa propia",
+        "rationale": "El Rey firma los decretos, pero siempre a propuesta de la autoridad competente del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Defensor del Pueblo",
+        "rationale": "No tiene ninguna facultad de intervención en el nombramiento de autoridades judiciales o fiscales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la autoridad máxima dentro del Ministerio Fiscal."
+  },
+  {
+    "guid": "f81b6be5-ce2d-49ad-9f9a-b658fe6a9999",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A quién corresponde la inspección de los tribunales en España?",
+    "answerOptions": [
+      {
+        "text": "Al Consejo General del Poder Judicial",
+        "rationale": "A través de su Servicio de Inspección, el CGPJ controla el buen funcionamiento y cumplimiento de plazos en los juzgados.",
+        "isCorrect": true
+      },
+      {
+        "text": "A la Policía Nacional",
+        "rationale": "La policía es fuerza auxiliar de seguridad, no tiene potestad para inspeccionar el funcionamiento de los jueces.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los ciudadanos mediante encuestas",
+        "rationale": "Aunque existe la queja ciudadana, la inspección técnica y profesional es interna del órgano de gobierno judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Ministerio de Hacienda",
+        "rationale": "Hacienda controla el gasto, pero no la actividad jurisdiccional ni el régimen disciplinario de jueces.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una de las funciones clave del órgano de gobierno de los jueces."
+  },
+  {
+    "guid": "7fe6e9aa-7a28-495f-866d-dbabe0a3078e",
+    "subjectId": "T04",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sala del Tribunal Supremo se ocupa de la ilegalización de partidos políticos?",
+    "answerOptions": [
+      {
+        "text": "Sala Especial del artículo 61",
+        "rationale": "Esta sala tiene reservada por la LOPJ esta competencia de enorme calado político y constitucional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sala Segunda (Penal)",
+        "rationale": "La ilegalización no es una pena criminal ordinaria, sino un proceso de naturaleza especial ante la Sala del 61.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sala Tercera (Contencioso-Administrativo)",
+        "rationale": "Aunque afecte al registro de partidos, la ley atribuye esta decisión a la Sala Especial por su relevancia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pleno de la Sala Primera",
+        "rationale": "La Sala Primera se ocupa de asociaciones en general, pero los partidos políticos tienen este fuero especial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Lleva el número de un artículo de la Ley Orgánica del Poder Judicial."
+  }
+]

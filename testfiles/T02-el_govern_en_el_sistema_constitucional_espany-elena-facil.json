@@ -1,0 +1,312 @@
+[
+  {
+    "guid": "49eafd0b-7d22-4a25-8715-a45fb074848e",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quiénes integran obligatoriamente el Gobierno de España según el artículo 98 de la Constitución?",
+    "answerOptions": [
+      {
+        "text": "El Presidente, los Vicepresidentes y los Ministros.",
+        "rationale": "Aunque es la composición habitual, la existencia de Vicepresidentes es potestativa y no obligatoria según la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente y los Ministros.",
+        "rationale": "La Constitución establece que el Gobierno se compone del Presidente, de los Ministros y, en su caso, de los Vicepresidentes y demás miembros que establezca la ley.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente, los Ministros y los Secretarios de Estado.",
+        "rationale": "Los Secretarios de Estado son órganos superiores de la Administración, pero no forman parte del Gobierno propiamente dicho.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente, los Ministros y el Consejo de Estado.",
+        "rationale": "El Consejo de Estado es el supremo órgano consultivo del Gobierno, pero es una institución distinta al Poder Ejecutivo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere qué figuras son imprescindibles para la existencia del órgano y cuáles dependen de la decisión del Presidente."
+  },
+  {
+    "guid": "2f593f6a-c638-46c4-9d06-f6099b0d371d",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Para ser nombrado miembro del Gobierno, ¿es requisito indispensable ostentar la condición de Diputado o Senador?",
+    "answerOptions": [
+      {
+        "text": "Sí, el Presidente debe ser elegido de entre los miembros del Congreso.",
+        "rationale": "Aunque es la práctica habitual por razones políticas, legalmente no existe tal obligación para el Presidente ni para los Ministros.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, no es necesario ser miembro de las Cortes Generales.",
+        "rationale": "Los requisitos legales son ser español, mayor de edad, disfrutar del sufragio y no estar inhabilitado; la pertenencia a las Cámaras es compatible pero no obligatoria.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, pero solo para los Ministros titulares de un departamento.",
+        "rationale": "La ley permite que cualquier ciudadano que cumpla los requisitos de idoneidad sea nombrado Ministro, sea o no parlamentario.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, salvo en el caso del Presidente del Gobierno.",
+        "rationale": "A diferencia de lo que ocurre en muchas Comunidades Autónomas, a nivel estatal el Presidente no tiene por qué ser Diputado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise si la Constitución o la Ley del Gobierno imponen una restricción sobre la procedencia parlamentaria de los cargos."
+  },
+  {
+    "guid": "9d526358-712f-4f66-bafb-28277370852a",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Ante qué órgano se exige la responsabilidad criminal del Presidente y demás miembros del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Ante la Sala de lo Penal de la Audiencia Nacional.",
+        "rationale": "La Audiencia Nacional tiene competencias específicas, pero el aforamiento de los miembros del Gobierno corresponde al Tribunal Supremo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ante la Sala Segunda del Tribunal Supremo.",
+        "rationale": "El artículo 102 de la Constitución establece el fuero especial de los miembros del Gobierno ante la Sala de lo Penal del Tribunal Supremo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ante el Pleno del Tribunal Constitucional.",
+        "rationale": "El Tribunal Constitucional no juzga delitos penales, sino la constitucionalidad de las normas y la protección de derechos fundamentales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ante el Tribunal Jurado en la capital del Estado.",
+        "rationale": "El sistema de aforamiento constitucional excluye la posibilidad de que los miembros del Gobierno sean juzgados por un tribunal con jurado popular.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el órgano judicial de mayor jerarquía en el ámbito penal para las altas instituciones del Estado."
+  },
+  {
+    "guid": "313ddfed-5f45-4f58-bf82-8457c770254a",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el procedimiento ordinario de investidura, ¿qué mayoría se requiere para que el candidato sea nombrado Presidente en la primera votación?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple de los miembros del Congreso.",
+        "rationale": "La mayoría simple solo es suficiente en la segunda votación, realizada 48 horas después de la primera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta de los miembros del Congreso.",
+        "rationale": "El artículo 99 de la Constitución exige el voto de la mitad más uno de los miembros de la Cámara para la investidura directa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría de dos tercios de las Cortes Generales.",
+        "rationale": "La investidura es una competencia exclusiva del Congreso de los Diputados, no de ambas cámaras, y no requiere una mayoría tan cualificada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta del Congreso y del Senado.",
+        "rationale": "El Senado no participa en la votación de investidura del Presidente del Gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre la mayoría requerida en el primer intento y la permitida tras un plazo de 48 horas."
+  },
+  {
+    "guid": "8e229724-22d8-4ea7-98f9-9a2829b5a472",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál de estos mecanismos de control parlamentario permite a las Cámaras manifestar su posición política sin obligar a la dimisión del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "La moción de censura.",
+        "rationale": "La moción de censura es un mecanismo de exigencia de responsabilidad que, si prospera, obliga a la dimisión inmediata.",
+        "isCorrect": false
+      },
+      {
+        "text": "La cuestión de confianza.",
+        "rationale": "Si se pierde una cuestión de confianza, el Presidente está constitucionalmente obligado a presentar su dimisión al Rey.",
+        "isCorrect": false
+      },
+      {
+        "text": "La moción derivada de una interpelación.",
+        "rationale": "Las mociones ordinarias expresan el sentir de la Cámara o un mandato de actuación, pero su aprobación no conlleva el cese del Ejecutivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El recurso de inconstitucionalidad.",
+        "rationale": "Este es un mecanismo de control jurídico-constitucional de las leyes, no un instrumento de control político parlamentario ordinario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque un instrumento que sirva para fiscalizar y debatir pero que no tenga efectos 'destitutorios' automáticos."
+  },
+  {
+    "guid": "cffac82d-3a50-4eb5-84c5-fa8e5093e5c4",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Si el Congreso adopta una moción de censura, ¿qué sucede con el candidato incluido en la misma?",
+    "answerOptions": [
+      {
+        "text": "Debe someterse a una sesión de investidura ordinaria en un plazo de cinco días.",
+        "rationale": "No es necesario un nuevo proceso, ya que la confianza se considera otorgada mediante la votación de la propia moción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se entiende investido de la confianza de la Cámara y es nombrado Presidente por el Rey.",
+        "rationale": "Debido al carácter constructivo de la moción en España, la caída del Gobierno anterior implica la investidura automática del candidato alternativo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Asume el cargo de forma interina hasta la celebración de nuevas elecciones.",
+        "rationale": "El candidato nombrado tras una moción de censura es Presidente con plenas facultades por el resto de la legislatura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es nombrado Vicepresidente con funciones de coordinación hasta el nuevo nombramiento.",
+        "rationale": "La moción de censura está diseñada para sustituir al titular de la Presidencia del Gobierno de forma directa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde el concepto de 'moción de censura constructiva' y cómo afecta al relevo en el poder."
+  },
+  {
+    "guid": "37592282-5e57-49ac-ac27-865f3872cf05",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según la Ley del Gobierno, ¿quién tiene la competencia exclusiva para crear, modificar o suprimir los Departamentos Ministeriales?",
+    "answerOptions": [
+      {
+        "text": "El Rey mediante Real Decreto.",
+        "rationale": "El Rey firma los decretos, pero la decisión política y la potestad corresponden al Presidente del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las Cortes Generales mediante Ley Orgánica.",
+        "rationale": "La estructura de los ministerios no se fija por ley, sino por una norma reglamentaria de rango real decreto.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Gobierno mediante Real Decreto.",
+        "rationale": "La organización del Gobierno es una facultad discrecional del Presidente para estructurar su equipo de trabajo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Consejo de Ministros tras deliberación preceptiva.",
+        "rationale": "Aunque puede consultarse, es una competencia atribuida específicamente a la figura del Presidente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Identifique a qué miembro del Gobierno se le reconoce la dirección de la organización departamental."
+  },
+  {
+    "guid": "5751f47e-318d-4f09-8441-c396e55b4605",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función principal de las Comisiones Delegadas del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Sustituir al Consejo de Ministros en periodos de vacaciones parlamentarias.",
+        "rationale": "Su función no es de sustitución temporal, sino de coordinación técnica y resolución de asuntos interministeriales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resolver asuntos que afecten a más de un ministerio y que no requieran ser elevados al Consejo de Ministros.",
+        "rationale": "Actúan como órganos colegiados para agilizar la gestión de temas transversales que no necesitan la presencia de todo el Gabinete.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ejercer el control político de la Administración General del Estado en nombre del Parlamento.",
+        "rationale": "El control político lo ejercen las Cortes, no órganos internos del propio Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Redactar los proyectos de ley antes de su aprobación por el Congreso.",
+        "rationale": "La redacción de proyectos de ley suele iniciarse en los ministerios técnicos y ser aprobada por el Consejo de Ministros.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la necesidad de coordinar ministerios con intereses comunes sin saturar la agenda del Consejo de Ministros."
+  },
+  {
+    "guid": "f2412d03-cee2-45b9-af6a-a8fe62feab76",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ocurre si el Presidente del Gobierno fallece durante el ejercicio de su cargo?",
+    "answerOptions": [
+      {
+        "text": "Se convocan elecciones generales automáticamente para el domingo siguiente.",
+        "rationale": "La muerte del Presidente no disuelve las Cámaras, sino que inicia el procedimiento para nombrar un sucesor.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gobierno cesa, pero continúa en funciones hasta que se designe un nuevo Presidente.",
+        "rationale": "El fallecimiento del Presidente provoca el cese del Gobierno completo (art. 101 CE), abriéndose el proceso de investidura ordinaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Vicepresidente primero se convierte automáticamente en Presidente por el resto de la legislatura.",
+        "rationale": "El Vicepresidente asume la suplencia temporal, pero el nombramiento de un nuevo Presidente requiere el procedimiento del artículo 99 CE.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey asume la dirección de la política interior y exterior de forma excepcional.",
+        "rationale": "El Rey es un árbitro y moderador, carece de funciones ejecutivas propias incluso en situaciones de vacante en la Presidencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere si la caída del jefe del Ejecutivo arrastra o no al resto del equipo ministerial según la Constitución."
+  },
+  {
+    "guid": "f93f84f8-961d-4c0c-8cce-cfd4f346bd37",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En relación con las interpelaciones parlamentarias, ¿cuál es su objeto principal?",
+    "answerOptions": [
+      {
+        "text": "Obtener datos técnicos muy específicos sobre una partida presupuestaria concreta.",
+        "rationale": "Este tipo de consultas detalladas suelen vehicularse a través de preguntas parlamentarias ordinarias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debatir sobre los motivos o propósitos de la conducta del Ejecutivo en cuestiones de política general.",
+        "rationale": "Las interpelaciones tienen una mayor trascendencia política que las preguntas y permiten un debate más amplio entre los grupos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exigir la responsabilidad civil de un Ministro por daños patrimoniales.",
+        "rationale": "La responsabilidad civil se exige ante los tribunales de justicia (Sala 1ª del Supremo), no en sede parlamentaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitar al Rey la disolución anticipada de las Cámaras.",
+        "rationale": "La disolución de las Cámaras es una prerrogativa del Presidente del Gobierno, no una consecuencia de una interpelación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie el grado de importancia política entre una pregunta puntual y un debate sobre la orientación del Gobierno."
+  }
+]

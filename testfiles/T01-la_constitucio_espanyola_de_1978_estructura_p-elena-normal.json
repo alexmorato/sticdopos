@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "2eaf30c0-cf86-4c99-a02c-fd02352acb83",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué fecha exacta fue sancionada y promulgada la Constitución Española por el Rey Juan Carlos I?",
+    "answerOptions": [
+      {
+        "text": "27 de diciembre de 1978",
+        "rationale": "Esta es la fecha en la que el monarca firmó el texto constitucional ante las Cortes Generales.",
+        "isCorrect": true
+      },
+      {
+        "text": "6 de diciembre de 1978",
+        "rationale": "En esta fecha el pueblo español ratificó el texto en referéndum, pero no fue el día de la sanción real.",
+        "isCorrect": false
+      },
+      {
+        "text": "29 de diciembre de 1978",
+        "rationale": "Esta fecha corresponde a la publicación en el BOE y su entrada en vigor, no a la sanción por el Rey.",
+        "isCorrect": false
+      },
+      {
+        "text": "31 de octubre de 1978",
+        "rationale": "Ese día las Cortes aprobaron el texto constitucional en sesiones separadas de ambas Cámaras.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda el acto oficial que precede inmediatamente a la publicación en el Boletín Oficial del Estado."
+  },
+  {
+    "guid": "4ba910fb-7b1d-4b25-b7c4-e018b478ff10",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántos artículos componen el texto de la Constitución Española de 1978?",
+    "answerOptions": [
+      {
+        "text": "169",
+        "rationale": "La estructura constitucional se divide en un total de 169 artículos distribuidos en diversos títulos.",
+        "isCorrect": true
+      },
+      {
+        "text": "175",
+        "rationale": "Aunque es una cifra cercana, excede el número real de preceptos del articulado constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "158",
+        "rationale": "Este número corresponde al artículo final del Título VIII, pero no es el total de la norma.",
+        "isCorrect": false
+      },
+      {
+        "text": "165",
+        "rationale": "Esta cifra coincide con el final del Título IX, dedicado al Tribunal Constitucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número impar que termina en nueve."
+  },
+  {
+    "guid": "164593e8-4e42-4a5b-a621-1c738eee51c4",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 1.1, ¿cuál de los siguientes no es un valor superior del ordenamiento jurídico español?",
+    "answerOptions": [
+      {
+        "text": "La seguridad jurídica",
+        "rationale": "La seguridad jurídica es un principio recogido en el artículo 9.3, no un valor superior según el 1.1.",
+        "isCorrect": true
+      },
+      {
+        "text": "La libertad",
+        "rationale": "La libertad es el primero de los cuatro valores superiores enunciados en el artículo 1.1.",
+        "isCorrect": false
+      },
+      {
+        "text": "La igualdad",
+        "rationale": "Este valor es fundamental y se menciona expresamente junto a la libertad y la justicia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El pluralismo político",
+        "rationale": "Es el valor que fundamenta la existencia de diversos partidos políticos en el sistema democrático.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca un concepto que, aunque fundamental, aparece desarrollado como principio en el artículo 9."
+  },
+  {
+    "guid": "e0667c02-8112-4747-b929-0ef76f8afcfa",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué parte de la Constitución comprende el Título Preliminar y el Título I?",
+    "answerOptions": [
+      {
+        "text": "Parte Dogmática",
+        "rationale": "Esta sección recoge los principios fundamentales y el catálogo de derechos y deberes del ciudadano.",
+        "isCorrect": true
+      },
+      {
+        "text": "Parte Orgánica",
+        "rationale": "La parte orgánica regula los poderes e instituciones del Estado y comienza a partir del Título II.",
+        "isCorrect": false
+      },
+      {
+        "text": "Preámbulo",
+        "rationale": "El preámbulo es una declaración de intenciones previa al articulado y carece de fuerza vinculante.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disposiciones Finales",
+        "rationale": "Estas se encuentran al final del texto y no incluyen los títulos iniciales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la sección que define la ideología y los derechos básicos del Estado."
+  },
+  {
+    "guid": "109b23a2-923f-476d-af3a-4d0a3100ea11",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántas disposiciones transitorias tiene la Constitución Española?",
+    "answerOptions": [
+      {
+        "text": "9",
+        "rationale": "El texto incluye específicamente nueve disposiciones destinadas a regular el paso del régimen anterior al nuevo.",
+        "isCorrect": true
+      },
+      {
+        "text": "4",
+        "rationale": "Cuatro es el número de disposiciones adicionales, no transitorias.",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "rationale": "Solo existe una disposición derogatoria y una disposición final.",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "rationale": "Esta cifra podría confundirse con el número total de títulos (incluyendo el preliminar).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo número que el de artículos del Título Preliminar."
+  },
+  {
+    "guid": "3f8532c1-2c98-4404-a913-dffa536db1a9",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el artículo 1.2, ¿dónde reside la soberanía nacional?",
+    "answerOptions": [
+      {
+        "text": "En el pueblo español",
+        "rationale": "La Constitución establece que del pueblo emanan todos los poderes del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "En las Cortes Generales",
+        "rationale": "Las Cortes representan al pueblo, pero la soberanía no reside en ellas como órgano.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la Corona",
+        "rationale": "El Rey es el Jefe del Estado, pero no es el titular de la soberanía nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el Gobierno de la Nación",
+        "rationale": "El Gobierno ejerce el poder ejecutivo, pero su legitimidad deriva de la voluntad popular.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considera el concepto democrático de quién es el origen último del poder."
+  },
+  {
+    "guid": "ba4c0c4d-59d1-41da-bb4f-0447deefe2f9",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la forma política del Estado español según el artículo 1.3?",
+    "answerOptions": [
+      {
+        "text": "Monarquía parlamentaria",
+        "rationale": "Es la definición específica que combina la institución monárquica con el sistema democrático parlamentario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Estado social y democrático",
+        "rationale": "Esta es la definición de la naturaleza del Estado (art. 1.1), no su forma política específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Monarquía absoluta",
+        "rationale": "Esta forma es incompatible con un Estado democrático de derecho.",
+        "isCorrect": false
+      },
+      {
+        "text": "República democrática",
+        "rationale": "Aunque es una forma democrática, la Constitución de 1978 optó por la monarquía parlamentaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Combina la figura del Rey con el papel central de las Cámaras representativas."
+  },
+  {
+    "guid": "37121057-04af-4e7d-9d6c-6f81ae9cb840",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué artículo de la Constitución proclama la igualdad de todos los españoles ante la ley sin discriminación?",
+    "answerOptions": [
+      {
+        "text": "Artículo 14",
+        "rationale": "Este artículo encabeza el Capítulo II del Título I y es el pilar del derecho a la igualdad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Artículo 1",
+        "rationale": "El artículo 1 menciona la igualdad como valor superior, pero no desarrolla el derecho subjetivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 10",
+        "rationale": "Este artículo se centra en la dignidad de la persona como fundamento del orden político.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 9",
+        "rationale": "El artículo 9 obliga a los poderes públicos a promover la igualdad, pero el derecho individual es el 14.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encuentra justo antes de la Sección Primera del Capítulo Segundo del Título Primero."
+  },
+  {
+    "guid": "13dca518-f34d-4fc6-9c5c-f23ed4488c5d",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál fue el motivo de la primera reforma constitucional en agosto de 1992?",
+    "answerOptions": [
+      {
+        "text": "Permitir el sufragio pasivo de extranjeros en elecciones municipales",
+        "rationale": "Se añadió el término 'y pasivo' al artículo 13.2 para cumplir con el Tratado de Maastricht.",
+        "isCorrect": true
+      },
+      {
+        "text": "Establecer el principio de estabilidad presupuestaria",
+        "rationale": "Este cambio correspondió a la segunda reforma constitucional realizada en 2011.",
+        "isCorrect": false
+      },
+      {
+        "text": "Modificar el orden de sucesión a la Corona",
+        "rationale": "Esta es una reforma pendiente y debatida, pero nunca se ha llevado a cabo formalmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Abolir la pena de muerte en tiempos de guerra",
+        "rationale": "Aunque la pena de muerte está abolida, no fue mediante una reforma del texto constitucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con el derecho de los ciudadanos europeos residentes en España a ser elegidos."
+  },
+  {
+    "guid": "657eba65-6c6f-47ef-a71d-d366fbb8c1ea",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué disposición de la Constitución declara la derogación del sistema político del franquismo?",
+    "answerOptions": [
+      {
+        "text": "Disposición Derogatoria",
+        "rationale": "Enumera explícitamente la derogación de las Leyes Fundamentales del régimen anterior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Disposición Final",
+        "rationale": "Esta disposición se ocupa únicamente de la entrada en vigor y publicación del texto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título Preliminar",
+        "rationale": "El título preliminar establece las bases nuevas, pero no es el mecanismo técnico de derogación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 169",
+        "rationale": "Este artículo prohíbe iniciar reformas constitucionales en tiempos de guerra o estados de alarma.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la sección que pone fin a la vigencia de las normas anteriores."
+  },
+  {
+    "guid": "847ccdc8-1b42-477f-98c6-1166a19af8ca",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo máximo de la detención preventiva según el artículo 17?",
+    "answerOptions": [
+      {
+        "text": "72 horas",
+        "rationale": "Es el límite máximo establecido antes de que el detenido sea puesto en libertad o a disposición judicial.",
+        "isCorrect": true
+      },
+      {
+        "text": "48 horas",
+        "rationale": "Aunque es un plazo común en otros trámites, el límite constitucional general es superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "24 horas",
+        "rationale": "Este plazo es demasiado corto para las diligencias policiales complejas previstas en la norma.",
+        "isCorrect": false
+      },
+      {
+        "text": "96 horas",
+        "rationale": "Solo es posible alcanzar este tiempo mediante prórrogas judiciales en casos de terrorismo, no de forma general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Equivale a tres días completos."
+  },
+  {
+    "guid": "4a1aa1fd-d226-4875-bdc0-3e42edc0ee4b",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El procedimiento de 'Habeas Corpus' tiene como finalidad:",
+    "answerOptions": [
+      {
+        "text": "La inmediata puesta a disposición judicial de cualquier persona detenida ilegalmente",
+        "rationale": "Garantiza que un juez revise la legalidad de una privación de libertad de forma urgente.",
+        "isCorrect": true
+      },
+      {
+        "text": "La protección del domicilio ante registros sin autorización",
+        "rationale": "Esto está relacionado con la inviolabilidad del domicilio, no con el 'Habeas Corpus'.",
+        "isCorrect": false
+      },
+      {
+        "text": "El secreto de las comunicaciones postales",
+        "rationale": "El secreto de las comunicaciones es un derecho independiente regulado en el artículo 18.",
+        "isCorrect": false
+      },
+      {
+        "text": "La revisión de sentencias firmes",
+        "rationale": "La revisión de sentencias es un proceso judicial ordinario ajeno a la detención preventiva.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se centra en la legalidad de la detención física de una persona."
+  },
+  {
+    "guid": "51de0874-d8eb-429a-9962-126f74104af5",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de estos derechos puede ser suspendido de forma individual en investigaciones sobre bandas armadas o terrorismo?",
+    "answerOptions": [
+      {
+        "text": "Inviolabilidad del domicilio y secreto de las comunicaciones",
+        "rationale": "El artículo 55.2 permite estas excepciones con la necesaria intervención judicial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho a la huelga",
+        "rationale": "La suspensión del derecho a la huelga suele ser colectiva durante el estado de sitio, no individual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Libertad de expresión",
+        "rationale": "Este derecho no figura entre los que pueden suspenderse de forma individualizada por terrorismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho de asociación",
+        "rationale": "El derecho de asociación no se ve afectado por la suspensión individual del artículo 55.2.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son derechos del ámbito privado que requieren autorización judicial para ser intervenidos."
+  },
+  {
+    "guid": "91e45ff1-7e3d-4e07-8c00-fc0c293259dc",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere normalmente para aprobar un proyecto de reforma constitucional según el procedimiento ordinario (art. 167)?",
+    "answerOptions": [
+      {
+        "text": "3/5 de cada una de las Cámaras",
+        "rationale": "Es la mayoría cualificada estándar exigida tanto para el Congreso como para el Senado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría absoluta",
+        "rationale": "La mayoría absoluta es insuficiente para la rigidez requerida en una modificación constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "2/3 de cada una de las Cámaras",
+        "rationale": "Esta mayoría se reserva para el procedimiento agravado de revisión total o secciones protegidas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad",
+        "rationale": "No se exige unanimidad en ninguna fase del procedimiento de reforma.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una fracción superior a la mitad pero inferior a los dos tercios."
+  },
+  {
+    "guid": "18a2e564-0abb-40a6-9569-a0dd4e799c84",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 4, ¿cómo es la franja amarilla de la bandera de España?",
+    "answerOptions": [
+      {
+        "text": "De doble anchura que cada una de las rojas",
+        "rationale": "La proporción establecida es de 1:2:1 para garantizar su diseño histórico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Igual que las franjas rojas",
+        "rationale": "Si fueran iguales, no se cumpliría la descripción técnica del artículo 4 de la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Triple que cada una de las rojas",
+        "rationale": "Esta proporción excedería el diseño oficial reconocido constitucionalmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "De la mitad de anchura que las rojas",
+        "rationale": "El diseño real da protagonismo visual al color amarillo en el centro.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en la proporción central en relación con los bordes."
+  },
+  {
+    "guid": "1896cc30-11fc-4954-9eca-abcc40765ea8",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué título de la Constitución regula los derechos fundamentales y las libertades públicas con mayor nivel de protección?",
+    "answerOptions": [
+      {
+        "text": "Título I, Capítulo II, Sección 1ª",
+        "rationale": "Contiene los artículos 15 al 29, que gozan de garantías como el Recurso de Amparo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Título Preliminar",
+        "rationale": "Recoge principios básicos del Estado, pero no el catálogo de libertades públicas protegidas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título II",
+        "rationale": "El Título II está dedicado exclusivamente a la institución de la Corona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título I, Capítulo III",
+        "rationale": "Este capítulo contiene los principios rectores, que tienen el menor nivel de protección.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere al núcleo duro de derechos comprendido entre los artículos 15 y 29."
+  },
+  {
+    "guid": "09c6b674-8048-40d1-9218-a53e62a18250",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal de las Fuerzas Armadas según el artículo 8?",
+    "answerOptions": [
+      {
+        "text": "Garantizar la soberanía, independencia e integridad territorial de España",
+        "rationale": "Es la misión constitucional asignada para defender el ordenamiento constitucional y el territorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ejercer el control del orden público interno",
+        "rationale": "El orden público interno es competencia primordial de las Fuerzas y Cuerpos de Seguridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Representar al Estado en el extranjero",
+        "rationale": "La representación internacional corresponde principalmente al Rey y al Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Elaborar las leyes de defensa nacional",
+        "rationale": "La potestad legislativa es exclusiva de las Cortes Generales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se centra en la protección de la nación frente a amenazas externas y la defensa de la Constitución."
+  },
+  {
+    "guid": "24e0ec67-9396-44aa-8675-4950e909429e",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué establece el artículo 3 sobre las lenguas de España?",
+    "answerOptions": [
+      {
+        "text": "El castellano es la lengua oficial del Estado y todos tienen el deber de conocerla",
+        "rationale": "Establece la oficialidad nacional y el derecho/deber respecto al castellano.",
+        "isCorrect": true
+      },
+      {
+        "text": "Todas las lenguas de España son oficiales en todo el territorio",
+        "rationale": "La oficialidad de otras lenguas se limita a sus respectivas Comunidades Autónomas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo se permite el uso del castellano en actos oficiales",
+        "rationale": "La Constitución reconoce y protege la riqueza de las distintas modalidades lingüísticas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El conocimiento del castellano es opcional para los ciudadanos",
+        "rationale": "El artículo 3 especifica explícitamente el deber de conocer la lengua oficial del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencia entre la lengua de todo el Estado y la de los territorios con lenguas propias."
+  },
+  {
+    "guid": "637dcb65-13e9-44dc-a50b-b13787ad87fd",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el contexto del artículo 9.3, ¿qué significa la 'interdicción de la arbitrariedad'?",
+    "answerOptions": [
+      {
+        "text": "La prohibición de que los poderes públicos actúen por capricho o sin fundamento legal",
+        "rationale": "Impide que las autoridades tomen decisiones irracionales o injustificadas.",
+        "isCorrect": true
+      },
+      {
+        "text": "La obligación de que todas las leyes sean publicadas",
+        "rationale": "Esa es la definición del principio de publicidad de las normas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que las leyes no pueden tener efectos retroactivos",
+        "rationale": "Eso corresponde al principio de irretroactividad de las disposiciones sancionadoras.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a ser indemnizado por errores judiciales",
+        "rationale": "Ese es el principio de responsabilidad de los poderes públicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere al control sobre el posible abuso de poder por parte de la administración."
+  },
+  {
+    "guid": "d0cfb108-9626-432d-9231-a8f2044cbea4",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A qué edad se alcanza la mayoría de edad según el artículo 12?",
+    "answerOptions": [
+      {
+        "text": "18 años",
+        "rationale": "Es el límite de edad uniforme establecido por la Constitución para la plena capacidad de obrar.",
+        "isCorrect": true
+      },
+      {
+        "text": "16 años",
+        "rationale": "A esta edad se pueden adquirir ciertos derechos laborales, pero no la mayoría de edad legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "21 años",
+        "rationale": "Era la edad de mayoría en legislaciones antiguas, pero fue rebajada en 1978.",
+        "isCorrect": false
+      },
+      {
+        "text": "14 años",
+        "rationale": "Esta edad marca hitos en responsabilidad penal de menores, pero no la mayoría de edad civil.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la edad estándar para el derecho al voto y la plena responsabilidad legal."
+  },
+  {
+    "guid": "9c99e570-8a42-4bbb-b54c-9ef82f0a8a59",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene el mando supremo de las Fuerzas Armadas según la Constitución?",
+    "answerOptions": [
+      {
+        "text": "El Rey",
+        "rationale": "El artículo 62 atribuye esta función específicamente al Jefe del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro de Defensa",
+        "rationale": "El Ministro ejerce la dirección administrativa y política, pero no ostenta el mando supremo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Gobierno",
+        "rationale": "Dirige la política de defensa, pero la jefatura simbólica y suprema es del monarca.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Jefe del Estado Mayor de la Defensa",
+        "rationale": "Es un mando técnico-militar, no el mando supremo constitucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la figura que representa la unidad del Estado y la Jefatura Suprema."
+  },
+  {
+    "guid": "f267da78-8f18-420e-95d9-eb175cfbe729",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué establece el artículo 135 tras su reforma en 2011?",
+    "answerOptions": [
+      {
+        "text": "El principio de estabilidad presupuestaria para todas las administraciones",
+        "rationale": "La reforma buscó limitar el déficit estructural de acuerdo con las normativas europeas.",
+        "isCorrect": true
+      },
+      {
+        "text": "El derecho al trabajo para todos los españoles",
+        "rationale": "El derecho al trabajo está recogido en el artículo 35, no en el 135.",
+        "isCorrect": false
+      },
+      {
+        "text": "La creación de un fondo de pensiones garantizado",
+        "rationale": "Las pensiones se mencionan en el artículo 50, dentro de los principios rectores.",
+        "isCorrect": false
+      },
+      {
+        "text": "La prohibición de emitir deuda pública",
+        "rationale": "La norma no prohíbe la deuda, sino que regula sus límites y su autorización por ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está relacionado con el control del déficit y la economía del Estado."
+  },
+  {
+    "guid": "f41fabe2-72e8-4ed4-bcb8-fe96e7b36cc0",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la capital del Estado según el artículo 5?",
+    "answerOptions": [
+      {
+        "text": "La villa de Madrid",
+        "rationale": "La Constitución designa explícitamente a Madrid como sede de la capitalidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "La ciudad de Toledo",
+        "rationale": "Aunque fue capital histórica, no es la reconocida en el texto de 1978.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cádiz",
+        "rationale": "Cádiz fue sede de las Cortes de 1812, pero no es la capital actual.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se especifica una ciudad concreta",
+        "rationale": "A diferencia de otros países, la Constitución española sí nombra una capital específica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la sede principal de las instituciones centrales del Estado."
+  },
+  {
+    "guid": "6f49dbb5-9b86-4e32-b505-1c16a0ac3f77",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué misión tienen los sindicatos de trabajadores y asociaciones empresariales según el artículo 7?",
+    "answerOptions": [
+      {
+        "text": "La defensa y promoción de los intereses económicos y sociales que les son propios",
+        "rationale": "Se les reconoce como piezas clave para el equilibrio en las relaciones laborales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dictar los decretos-leyes en materia de trabajo",
+        "rationale": "La potestad de dictar decretos-leyes es exclusiva del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Organizar las elecciones generales",
+        "rationale": "La organización electoral es una función administrativa estatal regulada por ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gestionar exclusivamente la Seguridad Social",
+        "rationale": "La Seguridad Social es un sistema público bajo la responsabilidad del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca su papel como intermediarios sociales en el ámbito de la economía y el empleo."
+  },
+  {
+    "guid": "caadd1e3-0b58-4510-a1ae-11b48afafbef",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué derecho reconoce el artículo 15 de la Constitución Española?",
+    "answerOptions": [
+      {
+        "text": "Derecho a la vida y a la integridad física y moral",
+        "rationale": "Es el derecho fundamental básico que prohíbe además la tortura y tratos degradantes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho a la libertad de cátedra",
+        "rationale": "Este derecho se encuentra dentro de la libertad de expresión en el artículo 20.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho al honor",
+        "rationale": "El derecho al honor está regulado en el artículo 18.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a la propiedad privada",
+        "rationale": "La propiedad privada se reconoce en el artículo 33, fuera de los derechos fundamentales estrictos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata del primer derecho enumerado tras el principio de igualdad."
+  },
+  {
+    "guid": "b9f0e5db-8a44-4bc2-a93a-7a89012ad31a",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En cuanto a la libertad religiosa (art. 16), ¿cuál es la confesión oficial del Estado?",
+    "answerOptions": [
+      {
+        "text": "Ninguna confesión tendrá carácter estatal",
+        "rationale": "España se define como un Estado aconfesional, aunque mantiene cooperación con la Iglesia Católica.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Católica, únicamente",
+        "rationale": "La Constitución menciona a la Iglesia Católica para colaborar, pero no como religión oficial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Todas las que tengan un número mínimo de fieles",
+        "rationale": "No existe una oficialidad plural; el Estado simplemente no tiene religión propia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Estado es ateo por ley",
+        "rationale": "La Constitución garantiza la libertad de culto, por lo que el Estado no es ateo sino neutral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda el concepto de 'aconfesionalidad' del Estado."
+  },
+  {
+    "guid": "e991e397-e156-41e7-b3db-5d31c2933354",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El derecho a la libertad ideológica tiene como único límite según el artículo 16.1:",
+    "answerOptions": [
+      {
+        "text": "El mantenimiento del orden público protegido por la ley",
+        "rationale": "Es el límite externo necesario para la convivencia en sociedad.",
+        "isCorrect": true
+      },
+      {
+        "text": "La opinión de la mayoría parlamentaria",
+        "rationale": "La libertad ideológica protege precisamente el pluralismo frente a la mayoría.",
+        "isCorrect": false
+      },
+      {
+        "text": "Lo que dispongan los tratados internacionales de comercio",
+        "rationale": "Los tratados de comercio no regulan los límites de las libertades ideológicas individuales.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene ningún límite bajo ninguna circunstancia",
+        "rationale": "Casi todos los derechos tienen límites cuando colisionan con otros derechos o el orden público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca un concepto relacionado con la paz social y la convivencia."
+  },
+  {
+    "guid": "edad9d67-9c68-43f7-aceb-d0116341a611",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué establece el artículo 18.2 sobre el domicilio?",
+    "answerOptions": [
+      {
+        "text": "El domicilio es inviolable y no se puede entrar sin consentimiento o resolución judicial",
+        "rationale": "Es una garantía fundamental de la privacidad del espacio personal.",
+        "isCorrect": true
+      },
+      {
+        "text": "La policía puede entrar libremente en caso de sospecha leve",
+        "rationale": "Se requiere una sospecha grave de delito flagrante o los requisitos antes mencionados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier autoridad administrativa puede registrarlo por motivos de impuestos",
+        "rationale": "Incluso las inspecciones administrativas requieren autorización judicial si el titular se opone.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo es inviolable si es propiedad del residente",
+        "rationale": "La protección se refiere al uso del espacio como vivienda, independientemente del título de propiedad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca las tres excepciones: consentimiento, delito flagrante o mandato de un juez."
+  },
+  {
+    "guid": "c2e0ed98-c53e-461c-9799-e73780ed57ec",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué derecho protege el secreto de las comunicaciones según el artículo 18.3?",
+    "answerOptions": [
+      {
+        "text": "Se garantiza salvo resolución judicial",
+        "rationale": "Abarca comunicaciones postales, telegráficas y telefónicas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se garantiza en todos los casos sin excepción",
+        "rationale": "El juez puede levantar este secreto en el curso de una investigación criminal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo protege las cartas escritas a mano",
+        "rationale": "La Constitución incluye expresamente las comunicaciones telefónicas y telegráficas.",
+        "isCorrect": false
+      },
+      {
+        "text": "La policía puede intervenir teléfonos sin avisar al juez",
+        "rationale": "Salvo casos excepcionales de terrorismo con control posterior, se exige autorización judicial previa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Menciona la intervención necesaria de un órgano del Poder Judicial para romper la privacidad."
+  },
+  {
+    "guid": "889ac35a-1654-422d-8fcb-3faf8018ae31",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 19, los españoles tienen derecho a:",
+    "answerOptions": [
+      {
+        "text": "Elegir libremente su residencia y circular por el territorio nacional",
+        "rationale": "Es la base de la libertad de movimiento dentro del país.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tener una vivienda gratuita proporcionada por el Estado",
+        "rationale": "El artículo 47 promueve el acceso a la vivienda, pero no otorga el derecho a la gratuidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Viajar al extranjero sin necesidad de pasaporte",
+        "rationale": "El derecho a entrar y salir de España está sujeto a las limitaciones legales y de seguridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ocupar cualquier terreno público para residir",
+        "rationale": "La libertad de residencia no ampara la ocupación ilegal de espacios no habilitados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la movilidad y el lugar donde uno decide establecer su hogar."
+  },
+  {
+    "guid": "70981921-ed7e-4aa5-bfe4-de48722065e2",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué requisito exige el artículo 21 para el ejercicio del derecho de reunión en lugares de tránsito público?",
+    "answerOptions": [
+      {
+        "text": "Comunicación previa a la autoridad",
+        "rationale": "No es una autorización, sino un aviso para que la autoridad garantice la seguridad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Autorización expresa del Alcalde",
+        "rationale": "El derecho de reunión no depende de una concesión administrativa previa.",
+        "isCorrect": false
+      },
+      {
+        "text": "El pago de una fianza de responsabilidad civil",
+        "rationale": "No se puede exigir un pago previo para ejercer un derecho fundamental.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los asistentes vayan uniformados",
+        "rationale": "No existe tal requisito; al contrario, las reuniones no deben ser ilícitas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "No es un permiso, sino un aviso obligatorio para prevenir desórdenes."
+  },
+  {
+    "guid": "8e652415-211f-432e-8a10-406533d92793",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de asociaciones están prohibidas por el artículo 22?",
+    "answerOptions": [
+      {
+        "text": "Las secretas y las de carácter paramilitar",
+        "rationale": "Se prohíben por su potencial peligro para el orden democrático y la seguridad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las que tengan fines de lucro",
+        "rationale": "Esas son sociedades mercantiles, perfectamente legales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las formadas exclusivamente por extranjeros",
+        "rationale": "Los extranjeros también gozan del derecho de asociación según la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las que critiquen al Gobierno",
+        "rationale": "La crítica política es parte esencial de la libertad de asociación y expresión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca características que impliquen ocultación o uso de estructura militar privada."
+  },
+  {
+    "guid": "ef683f57-1d00-44b7-b499-c58c10bfbc5c",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El derecho de participación en los asuntos públicos (art. 23) incluye:",
+    "answerOptions": [
+      {
+        "text": "El derecho de sufragio activo y pasivo",
+        "rationale": "Incluye tanto votar como ser votado en elecciones democráticas.",
+        "isCorrect": true
+      },
+      {
+        "text": "El derecho a heredar cargos públicos",
+        "rationale": "Los cargos públicos se acceden mediante mérito, capacidad o elección popular, no por herencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "La obligación de pertenecer a un partido político",
+        "rationale": "La afiliación es libre y voluntaria, no obligatoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a decidir los impuestos individualmente",
+        "rationale": "La política tributaria es competencia de las Cortes y el Gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se relaciona con las elecciones y el acceso a funciones públicas."
+  },
+  {
+    "guid": "b426bd86-f744-4d6a-a6cc-1117a43bc758",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué garantiza el artículo 24 de la Constitución?",
+    "answerOptions": [
+      {
+        "text": "La tutela efectiva de los jueces y tribunales",
+        "rationale": "Asegura que todos puedan defender sus derechos ante la justicia sin indefensión.",
+        "isCorrect": true
+      },
+      {
+        "text": "El acceso a la sanidad gratuita",
+        "rationale": "La protección de la salud se encuentra en el artículo 43.",
+        "isCorrect": false
+      },
+      {
+        "text": "La libertad de prensa",
+        "rationale": "La libertad de prensa se regula en el artículo 20.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a una pensión digna",
+        "rationale": "Las pensiones están reguladas en el artículo 50.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el pilar fundamental del sistema judicial para el ciudadano."
+  },
+  {
+    "guid": "59a13daa-8f2b-44bb-b321-88675bb7cf41",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El artículo 27 reconoce el derecho a la educación y la libertad de:",
+    "answerOptions": [
+      {
+        "text": "Enseñanza",
+        "rationale": "Permite la creación de centros docentes y la elección del tipo de educación por los padres.",
+        "isCorrect": true
+      },
+      {
+        "text": "Circulación",
+        "rationale": "La libertad de circulación es el derecho del artículo 19.",
+        "isCorrect": false
+      },
+      {
+        "text": "Huelga educativa",
+        "rationale": "Aunque existe el derecho de huelga, el artículo 27 se centra en la libertad de enseñanza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sindicación",
+        "rationale": "La libertad de sindicación es el derecho del artículo 28.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la posibilidad de ofrecer y recibir formación bajo distintos idearios."
+  },
+  {
+    "guid": "1656bffa-ee23-4029-923d-737765ca37c7",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría de los ciudadanos ratificó la Constitución en 1978?",
+    "answerOptions": [
+      {
+        "text": "Más del 88%",
+        "rationale": "El respaldo popular fue masivo, superando el 88% de los votos afirmativos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exactamente el 50%",
+        "rationale": "Un resultado tan ajustado habría dificultado el consenso necesario para el nuevo régimen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Alrededor del 67%",
+        "rationale": "Esta cifra fue la tasa de participación en el referéndum, no el porcentaje de votos a favor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Menos de la mitad",
+        "rationale": "Si hubiera sido así, la Constitución no habría sido aprobada democráticamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca un porcentaje de aprobación muy alto, cercano al 90%."
+  },
+  {
+    "guid": "137512dc-8dce-429b-ab8f-6b20b38a9e96",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el órgano encargado de interpretar la Constitución y resolver recursos de amparo?",
+    "answerOptions": [
+      {
+        "text": "Tribunal Constitucional",
+        "rationale": "Es el intérprete supremo de la Carta Magna y órgano independiente de los demás.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tribunal Supremo",
+        "rationale": "Es el órgano superior en todos los órdenes judiciales, salvo en materia constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congreso de los Diputados",
+        "rationale": "El Congreso legisla, pero no tiene funciones jurisdiccionales de interpretación de la norma.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo General del Poder Judicial",
+        "rationale": "Es el órgano de gobierno de los jueces, no un tribunal que dicte sentencias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la institución protagonista del Título IX de la Constitución."
+  },
+  {
+    "guid": "f10babb3-30b1-432c-8be0-0626bd3eaa1f",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la estructura de la Constitución, ¿qué título se dedica a la 'Reforma Constitucional'?",
+    "answerOptions": [
+      {
+        "text": "Título X",
+        "rationale": "Es el último título del texto y establece cómo puede modificarse la propia Constitución.",
+        "isCorrect": true
+      },
+      {
+        "text": "Título VIII",
+        "rationale": "El Título VIII regula la organización territorial del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título I",
+        "rationale": "El Título I se dedica a los derechos y deberes fundamentales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título III",
+        "rationale": "El Título III regula las Cortes Generales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el que cierra el cuerpo principal del articulado (arts. 166-169)."
+  },
+  {
+    "guid": "0ffe7e7e-a06f-4068-9a9e-8d7b6d888ea2",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué derecho reconoce el artículo 28.2?",
+    "answerOptions": [
+      {
+        "text": "El derecho a la huelga de los trabajadores",
+        "rationale": "Se reconoce para la defensa de sus intereses, con garantía de servicios esenciales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El derecho al matrimonio",
+        "rationale": "El derecho al matrimonio se reconoce en el artículo 32.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a la propiedad",
+        "rationale": "La propiedad es un derecho del artículo 33.",
+        "isCorrect": false
+      },
+      {
+        "text": "La libertad de empresa",
+        "rationale": "La libertad de empresa está en el artículo 38.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una medida de presión colectiva en el ámbito laboral."
+  },
+  {
+    "guid": "d5b8aad0-5982-4a2d-96f3-7533c666d080",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 11, ¿puede un español de origen ser privado de su nacionalidad?",
+    "answerOptions": [
+      {
+        "text": "No, en ningún caso",
+        "rationale": "La Constitución protege la nacionalidad de origen de forma absoluta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, si comete traición",
+        "rationale": "Ni siquiera por delitos graves se puede retirar la nacionalidad a un español de origen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, si adquiere otra nacionalidad sin avisar",
+        "rationale": "Existen tratados de doble nacionalidad, pero no conllevan la privación forzosa de la de origen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, por decisión del Gobierno",
+        "rationale": "El poder ejecutivo no tiene potestad para retirar la nacionalidad de origen.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una protección blindada para quienes nacen con la condición de españoles."
+  },
+  {
+    "guid": "c5ac15b3-2ff7-4358-9dbc-fcb35cfa67c0",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué establece el artículo 10 sobre la interpretación de los derechos fundamentales?",
+    "answerOptions": [
+      {
+        "text": "Se interpretarán conforme a la Declaración Universal de Derechos Humanos",
+        "rationale": "Vincula la interpretación nacional con los estándares y tratados internacionales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo se pueden interpretar según el diccionario de la RAE",
+        "rationale": "Aunque el lenguaje es importante, el criterio legal es el marco internacional de derechos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cada juez puede interpretarlos como desee libremente",
+        "rationale": "Existen criterios de interpretación obligatorios para garantizar la seguridad jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo el Rey puede dar la interpretación definitiva",
+        "rationale": "La interpretación definitiva corresponde al Tribunal Constitucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca una referencia a un documento internacional de 1948."
+  },
+  {
+    "guid": "6f999c0c-f8ea-4d4e-823f-cf9deae57138",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántas disposiciones adicionales contiene la Constitución?",
+    "answerOptions": [
+      {
+        "text": "4",
+        "rationale": "El texto se cierra con cuatro disposiciones de este tipo, relativas a fueros y regímenes especiales.",
+        "isCorrect": true
+      },
+      {
+        "text": "9",
+        "rationale": "Nueve es el número de disposiciones transitorias.",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "rationale": "No coincide con el número de disposiciones adicionales recogidas.",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "rationale": "Es una cifra inferior a la realidad del texto promulgado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la mitad de las disposiciones transitorias redondeada hacia abajo (o simplemente el número tras el 3)."
+  },
+  {
+    "guid": "49f51f8e-8cb3-482d-875e-faa805d36cef",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué día del año 1977 se celebraron las primeras elecciones generales democráticas tras la dictadura?",
+    "answerOptions": [
+      {
+        "text": "15 de junio",
+        "rationale": "Estas elecciones dieron lugar a las Cortes Constituyentes que redactaron la Constitución.",
+        "isCorrect": true
+      },
+      {
+        "text": "15 de diciembre",
+        "rationale": "Esa fecha corresponde al referéndum de la Ley para la Reforma Política de 1976.",
+        "isCorrect": false
+      },
+      {
+        "text": "20 de noviembre",
+        "rationale": "Es una fecha simbólica por la muerte de Franco, pero no de estas elecciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "4 de enero",
+        "rationale": "Es la fecha de aprobación de la Ley para la Reforma Política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Fue a mediados de año, antes del inicio del verano de 1977."
+  },
+  {
+    "guid": "e8516c42-0197-4bdd-af6a-20db834f5bf3",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio del artículo 9 garantiza que las normas se den a conocer a los ciudadanos?",
+    "answerOptions": [
+      {
+        "text": "Publicidad de las normas",
+        "rationale": "Asegura que nadie sea sancionado por una norma que no ha tenido oportunidad de conocer.",
+        "isCorrect": true
+      },
+      {
+        "text": "Jerarquía normativa",
+        "rationale": "Establece que las normas superiores prevalecen sobre las inferiores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seguridad jurídica",
+        "rationale": "Es el marco general, pero la difusión específica es el principio de publicidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Legalidad",
+        "rationale": "Implica el sometimiento a la ley, pero no se centra en su difusión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se relaciona directamente con la publicación en diarios oficiales como el BOE."
+  },
+  {
+    "guid": "afddc859-1aaa-4e42-82cc-a26ab0ff28b0",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo define la doctrina a la parte de la Constitución que regula los órganos del Estado (Títulos II al X)?",
+    "answerOptions": [
+      {
+        "text": "Parte Orgánica",
+        "rationale": "Define la estructura, competencias y funcionamiento de las instituciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Parte Teórica",
+        "rationale": "No es un término jurídico utilizado para describir esta sección constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Parte Dogmática",
+        "rationale": "La parte dogmática se refiere a los principios y derechos (Título Preliminar y Título I).",
+        "isCorrect": false
+      },
+      {
+        "text": "Preámbulo",
+        "rationale": "El preámbulo es la introducción literaria y no contiene la regulación de órganos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Deriva de la palabra 'órgano', refiriéndose a las piezas del motor estatal."
+  },
+  {
+    "guid": "a7c7a3a9-a764-4e91-bc96-1106bebcfaea",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El artículo 2 reconoce el derecho a la autonomía de:",
+    "answerOptions": [
+      {
+        "text": "Las nacionalidades y regiones que integran la nación española",
+        "rationale": "Equilibra la unidad indisoluble con la descentralización política.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo las provincias históricas",
+        "rationale": "El artículo habla de nacionalidades y regiones, un concepto más amplio que la provincia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cada ciudadano individualmente",
+        "rationale": "La autonomía individual es un concepto del Título I, no de la organización territorial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las colonias de ultramar",
+        "rationale": "España no tiene colonias de ultramar según el modelo constitucional actual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Menciona los dos componentes territoriales que forman las actuales Comunidades Autónomas."
+  },
+  {
+    "guid": "15ffd9ff-cddc-443a-ab58-22c69b11f4e3",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A quién corresponde promover las condiciones para que la libertad y la igualdad sean reales y efectivas (art. 9.2)?",
+    "answerOptions": [
+      {
+        "text": "A los poderes públicos",
+        "rationale": "Se les impone la obligación de remover los obstáculos que impidan su plenitud.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo a las ONGs",
+        "rationale": "Las ONGs colaboran, pero el mandato constitucional es para el Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "A cada ciudadano por su cuenta",
+        "rationale": "Aunque los ciudadanos contribuyen, el artículo 9.2 señala específicamente a la autoridad pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Rey exclusivamente",
+        "rationale": "El Rey arbitra y modera, pero la gestión política de estas condiciones es del Gobierno y administraciones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una responsabilidad de las instituciones del Estado."
+  },
+  {
+    "guid": "945374e2-e60b-4e78-a902-25fc3e3776f8",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con las leyes que se oponen a la Constitución según la Disposición Derogatoria?",
+    "answerOptions": [
+      {
+        "text": "Quedan derogadas automáticamente",
+        "rationale": "La Constitución tiene supremacía jerárquica y anula cualquier norma anterior incompatible.",
+        "isCorrect": true
+      },
+      {
+        "text": "Siguen vigentes hasta que un juez las anule una por una",
+        "rationale": "La derogación es general para todo lo que se oponga al texto constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se mantienen si son más antiguas que 1931",
+        "rationale": "No hay límite temporal; cualquier norma anterior contraria queda fuera del ordenamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben ser reescritas por el Senado en un año",
+        "rationale": "No existe tal obligación de reescritura, la derogación es directa por la propia Constitución.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la consecuencia de la supremacía de la 'norma de normas'."
+  },
+  {
+    "guid": "183f97ae-d010-442d-80bd-7c2fcd854cc5",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El Título I se divide en capítulos. ¿De qué trata el Capítulo III?",
+    "answerOptions": [
+      {
+        "text": "De los principios rectores de la política social y económica",
+        "rationale": "Contiene directrices para los poderes públicos, como la protección de la salud o el medio ambiente.",
+        "isCorrect": true
+      },
+      {
+        "text": "De los españoles y extranjeros",
+        "rationale": "Ese es el contenido del Capítulo I.",
+        "isCorrect": false
+      },
+      {
+        "text": "De los derechos y libertades",
+        "rationale": "Ese es el contenido del Capítulo II.",
+        "isCorrect": false
+      },
+      {
+        "text": "De la suspensión de los derechos",
+        "rationale": "Ese es el contenido del Capítulo V.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a las normas que guían la acción del Estado en bienestar y economía."
+  },
+  {
+    "guid": "789f7456-047f-4c5e-a588-2d54df63775f",
+    "subjectId": "T01",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el título que regula al 'Gobierno y la Administración'?",
+    "answerOptions": [
+      {
+        "text": "Título IV",
+        "rationale": "Comprende los artículos 97 al 107 y define las funciones del poder ejecutivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Título VI",
+        "rationale": "El Título VI se encarga del Poder Judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título II",
+        "rationale": "El Título II regula la Corona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título V",
+        "rationale": "El Título V regula las relaciones entre el Gobierno y las Cortes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el número romano que sigue al dedicado a las Cortes Generales."
+  }
+]

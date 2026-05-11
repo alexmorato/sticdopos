@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "689f0f57-4594-46a1-845d-d04b73db73fb",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la principal distinción funcional entre el 'Gobierno' y el 'Consejo de Ministros' según el material proporcionado?",
+    "answerOptions": [
+      {
+        "text": "El Gobierno es el órgano de dirección política, mientras que el Consejo de Ministros ejerce funciones administrativas.",
+        "rationale": "Aunque están formados por las mismas personas, el Gobierno tiene una dimensión política constitucional y el Consejo de Ministros una dimensión administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Gobierno incluye a los Secretarios de Estado, mientras que el Consejo de Ministros no.",
+        "rationale": "El material define al Gobierno por el artículo 98 CE, que no incluye obligatoriamente a los Secretarios de Estado como miembros nucleares.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Ministros es el órgano colegiado que asume la responsabilidad criminal, mientras que el Gobierno asume la política.",
+        "rationale": "La responsabilidad criminal es individual de los miembros y la política es solidaria del Gobierno ante el Congreso.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe distinción alguna; son términos sinónimos en todos los órdenes jurídicos.",
+        "rationale": "El texto aclara explícitamente que son órganos con matices funcionales diferentes (político vs. administrativo).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la dualidad entre la dirección política del país y la cúspide de la administración pública."
+  },
+  {
+    "guid": "3089b3c5-8b62-437a-a73e-06453b329de6",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 98.1 de la Constitución Española, ¿qué figura tiene carácter facultativo en la composición del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Los Ministros.",
+        "rationale": "Los Ministros son componentes esenciales y obligatorios del órgano colegiado según la CE.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente.",
+        "rationale": "El Presidente es la pieza clave del Gobierno, encargado de dirigir su acción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los Vicepresidentes.",
+        "rationale": "La existencia de Vicepresidentes depende de la voluntad del Presidente al configurar su gabinete.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Secretario General del Gobierno.",
+        "rationale": "Aunque existe, la pregunta se refiere a los cargos citados explícitamente como eventuales en el artículo 98.1 CE.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde qué cargo se menciona con la coletilla 'cuando existan'."
+  },
+  {
+    "guid": "6659bb65-5d5a-4a99-b356-1bd61b211c66",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de los siguientes NO es un requisito legal de acceso para ser miembro del Gobierno de España?",
+    "answerOptions": [
+      {
+        "text": "Ser español y mayor de edad.",
+        "rationale": "Estos son requisitos básicos de capacidad civil y nacionalidad establecidos por la Ley del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ostentar la condición de Diputado en el Congreso de los Diputados.",
+        "rationale": "A diferencia de los presidentes autonómicos, el Presidente del Gobierno de la nación no necesita ser miembro de las Cámaras.",
+        "isCorrect": true
+      },
+      {
+        "text": "Gozar de los derechos de sufragio activo y pasivo.",
+        "rationale": "Es necesario tener plenitud de derechos políticos para acceder a un alto cargo ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "No estar inhabilitado para empleo o cargo público por sentencia judicial firme.",
+        "rationale": "La ausencia de causas de inhabilitación penal es un requisito de idoneidad legal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la diferencia de requisitos entre el sistema estatal y el sistema de las Comunidades Autónomas."
+  },
+  {
+    "guid": "cf0f5c84-106b-4f69-9dd3-517aac7405b0",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el proceso de investidura (Art. 99 CE), si el candidato no obtiene mayoría absoluta en la primera votación, ¿qué mayoría se requiere en la segunda?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta de nuevo.",
+        "rationale": "La segunda votación está diseñada para facilitar la formación de gobierno con un umbral menor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría simple.",
+        "rationale": "Tras 48 horas de la primera votación, el candidato solo necesita más votos a favor que en contra.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dos tercios de la cámara.",
+        "rationale": "Esta mayoría reforzada se usa para reformas constitucionales, no para la investidura ordinaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría de tres quintos.",
+        "rationale": "Este quórum no está previsto en el artículo 99 de la Constitución para la elección del Presidente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La segunda votación ocurre 48 horas después y busca desbloquear la elección."
+  },
+  {
+    "guid": "07df5328-f21e-4b0f-981f-930ab4b8c002",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué ocurre con las delegaciones legislativas otorgadas por las Cortes cuando el Gobierno entra 'en funciones' por la celebración de elecciones?",
+    "answerOptions": [
+      {
+        "text": "Se mantienen plenamente vigentes hasta que el nuevo Gobierno tome posesión.",
+        "rationale": "El estatus de interinidad del Gobierno afecta a sus capacidades normativas delegadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Quedan en suspenso durante todo el tiempo que el Gobierno esté en funciones.",
+        "rationale": "El material indica expresamente que las delegaciones legislativas se suspenden en este periodo de transición.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se transfieren automáticamente a la Diputación Permanente.",
+        "rationale": "La Diputación Permanente tiene otras funciones, pero no asume delegaciones legislativas del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son revocadas definitivamente y deben tramitarse como leyes ordinarias.",
+        "rationale": "No se revocan, simplemente su ejercicio queda paralizado temporalmente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en cómo se limita la capacidad del Gobierno para legislar por delegación durante un periodo electoral."
+  },
+  {
+    "guid": "0fe34560-ee11-442b-95dd-49b42f97c189",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Ante qué órgano es exigible la responsabilidad criminal del Presidente y demás miembros del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Ante la Sala de lo Penal del Tribunal Supremo.",
+        "rationale": "Se trata de un privilegio de fuero constitucional establecido en el artículo 102.1 de la CE.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ante el Pleno del Congreso de los Diputados mediante juicio político.",
+        "rationale": "El Congreso puede iniciar el proceso en casos de traición, pero el juicio penal es competencia judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ante la Audiencia Nacional por delitos cometidos en el ejercicio de su cargo.",
+        "rationale": "El fuero especial del Gobierno eleva la competencia directamente al máximo tribunal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ante el Tribunal Constitucional.",
+        "rationale": "El Tribunal Constitucional no juzga responsabilidades penales ordinarias de personas físicas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la importancia del fuero especial (aforamiento) para los altos cargos del Estado."
+  },
+  {
+    "guid": "6f633010-104d-4072-86b6-1f9013dd866a",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la moción de censura española, ¿qué requisito fundamental la define como 'constructiva'?",
+    "answerOptions": [
+      {
+        "text": "La obligación de proponer un programa de gobierno alternativo antes del debate.",
+        "rationale": "Aunque se debate el programa, el requisito formal 'constructivo' se refiere a la persona del sucesor.",
+        "isCorrect": false
+      },
+      {
+        "text": "La necesidad de que sea aprobada por mayoría absoluta del Senado.",
+        "rationale": "El Senado no participa en la exigencia de responsabilidad política mediante moción de censura.",
+        "isCorrect": false
+      },
+      {
+        "text": "La inclusión obligatoria de un candidato a la Presidencia del Gobierno en la propia propuesta.",
+        "rationale": "Este mecanismo asegura que no se caiga en un vacío de poder; al caer un presidente, nace otro automáticamente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el Presidente censurado deba convocar elecciones inmediatamente.",
+        "rationale": "Si la moción prospera, no hay elecciones, sino que el candidato de la moción es investido directamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en qué debe acompañar a la firma de los diputados para que la moción sea admitida a trámite."
+  },
+  {
+    "guid": "2b09f663-6bca-42fe-93c0-4649a594e7d9",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué mayoría se requiere para que el Congreso de los Diputados otorgue su confianza en una 'Cuestión de Confianza' planteada por el Presidente?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta de los miembros de la Cámara.",
+        "rationale": "La mayoría absoluta se exige para la investidura en primera ronda o para la moción de censura, pero no aquí.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría simple de los Diputados presentes.",
+        "rationale": "La confianza se entiende otorgada si el Presidente obtiene más votos a favor que en contra en la sesión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dos tercios de los votos emitidos.",
+        "rationale": "Este requisito es excesivo y no está contemplado para la continuidad del Gobierno en el artículo 112 CE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un tercio de los votos positivos es suficiente si no hay oposición frontal.",
+        "rationale": "Se requiere una votación formal donde los 'síes' superen a los 'noes'.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma mayoría que se requiere en la segunda vuelta de una investidura."
+  },
+  {
+    "guid": "9b85b6a3-79e3-47d8-a084-9f67bebe6e66",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué limitación temporal existe para la votación de una moción de censura desde su presentación?",
+    "answerOptions": [
+      {
+        "text": "Debe votarse de forma inmediata en la siguiente sesión ordinaria.",
+        "rationale": "La Constitución impone un 'periodo de enfriamiento' para evitar decisiones precipitadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "No podrá ser votada hasta que transcurran cinco días desde su presentación.",
+        "rationale": "Este plazo permite la reflexión y la posible presentación de mociones alternativas en los dos primeros días.",
+        "isCorrect": true
+      },
+      {
+        "text": "Debe votarse en un plazo máximo de 48 horas.",
+        "rationale": "48 horas es el plazo entre votaciones de investidura, pero la moción de censura requiere más tiempo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El plazo es de quince días para permitir la comparecencia del candidato.",
+        "rationale": "El plazo constitucional es más breve para evitar una parálisis prolongada del ejecutivo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el tiempo otorgado para que otros grupos presenten candidatos alternativos."
+  },
+  {
+    "guid": "18106ad8-9fd3-4a22-b78c-61e959e0db42",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el material, ¿cuál es el papel del Senado en la exigencia de responsabilidad política del Gobierno mediante moción de censura?",
+    "answerOptions": [
+      {
+        "text": "Debe ratificar la decisión del Congreso por mayoría simple.",
+        "rationale": "El Senado no tiene competencias en este mecanismo de control extraordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiene la facultad de vetar al candidato propuesto en la moción.",
+        "rationale": "El proceso de moción de censura se tramita íntegramente y de forma exclusiva en el Congreso de los Diputados.",
+        "isCorrect": false
+      },
+      {
+        "text": "No participa en absoluto; el procedimiento se tramita íntegramente en el Congreso.",
+        "rationale": "La relación de confianza parlamentaria que sostiene al Gobierno reside únicamente en el Congreso de los Diputados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inicia el proceso si el Congreso se encuentra disuelto.",
+        "rationale": "Si el Congreso está disuelto, no se pueden presentar mociones de censura.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde ante qué cámara responde solidariamente el Gobierno según el artículo 108 CE."
+  },
+  {
+    "guid": "ec86ee2a-f10c-46cf-9f85-0e70c8ae696b",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién tiene la competencia exclusiva para proponer al Rey la disolución anticipada de las Cortes Generales?",
+    "answerOptions": [
+      {
+        "text": "El Consejo de Ministros por acuerdo unánime.",
+        "rationale": "El Consejo de Ministros delibera, pero la decisión y responsabilidad son individuales del Presidente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Gobierno, previa deliberación del Consejo de Ministros.",
+        "rationale": "Es una facultad personalísima del Presidente, aunque la deliberación previa en el Consejo es un requisito formal obligatorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Rey, tras consultar a los líderes de los partidos políticos.",
+        "rationale": "El Rey solo firma el decreto; no tiene la iniciativa política para disolver las cámaras por voluntad propia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Congreso de los Diputados.",
+        "rationale": "El Presidente del Congreso solo refrenda la disolución en el caso específico del artículo 99.5 CE (fracaso de investidura).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un acto bajo la 'exclusiva responsabilidad' de la cabeza del ejecutivo."
+  },
+  {
+    "guid": "7e2c4699-8ac0-46a9-a68a-fa8a3b7689ad",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función principal del Consejo de Estado según el artículo 107 de la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Ejercer el control jurisdiccional de la potestad reglamentaria.",
+        "rationale": "Esa función corresponde a los Tribunales de Justicia ordinarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Actuar como el supremo órgano consultivo del Gobierno.",
+        "rationale": "Su misión es emitir dictámenes sobre los asuntos que el Gobierno someta a su consulta, velando por la legalidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dirigir la Administración civil y militar en ausencia del Ministro.",
+        "rationale": "El Consejo de Estado es un órgano consultivo, no ejecutivo ni de gestión administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Coordinar las relaciones entre el Estado y las Comunidades Autónomas.",
+        "rationale": "Esta función suele recaer en el Ministerio de Política Territorial o en el propio Gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "No tiene poder de decisión, sino de asesoramiento jurídico al ejecutivo."
+  },
+  {
+    "guid": "c1248053-281e-4e1a-b90d-64303712b5f5",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué diferencia fundamental existe entre una 'pregunta' y una 'interpelación' parlamentaria?",
+    "answerOptions": [
+      {
+        "text": "Las preguntas son orales y las interpelaciones siempre escritas.",
+        "rationale": "Ambas pueden tener modalidades orales en el pleno o comisiones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las preguntas versan sobre temas concretos; las interpelaciones sobre la política general o de un departamento.",
+        "rationale": "La interpelación tiene mayor calado político y puede dar lugar a una moción posterior de la Cámara.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo las interpelaciones pueden ser formuladas por Diputados individuales.",
+        "rationale": "Cualquier parlamentario puede formular preguntas; las interpelaciones también están abiertas a los miembros de las cámaras.",
+        "isCorrect": false
+      },
+      {
+        "text": "La pregunta obliga a la dimisión del Ministro si la respuesta es insatisfactoria.",
+        "rationale": "Ni la pregunta ni la interpelación son mecanismos de exigencia de responsabilidad política que fuercen el cese.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la amplitud del tema tratado y en la posibilidad de generar un debate con votación posterior."
+  },
+  {
+    "guid": "79035848-865e-45fc-93f3-be861ec4be19",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En caso de que el Congreso deniegue la confianza en una 'Cuestión de Confianza', ¿qué procedimiento debe seguirse inmediatamente?",
+    "answerOptions": [
+      {
+        "text": "Disolución automática de las Cortes y convocatoria de elecciones.",
+        "rationale": "La pérdida de una cuestión de confianza no implica elecciones directas, sino la dimisión del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente debe dimitir y el Rey inicia consultas para proponer un nuevo candidato según el Art. 99.",
+        "rationale": "Se abre un nuevo proceso de investidura para buscar un sucesor parlamentario sin necesidad de ir a urnas.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Gobierno puede someterse a una segunda votación pasadas 48 horas.",
+        "rationale": "A diferencia de la investidura, si la mayoría simple vota 'no' a la confianza, el Gobierno debe cesar.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Vicepresidente asume las funciones hasta el final de la legislatura.",
+        "rationale": "El cese del Presidente arrastra a todo su Gobierno, impidiendo que el Vicepresidente continúe por sí solo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que el fracaso de este mecanismo abre la vía del artículo 99 de la Constitución."
+  },
+  {
+    "guid": "55ccbba0-fc7c-4fd3-9de1-f40b7bf3ee4c",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la mayoría necesaria para que prospere una moción de censura?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple de los presentes.",
+        "rationale": "Una mayoría simple sería insuficiente para derribar un gobierno y elegir a otro simultáneamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta de los miembros del Congreso de los Diputados.",
+        "rationale": "Se requiere el apoyo de al menos la mitad más uno de la totalidad de los diputados (176).",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres quintos de la Cámara.",
+        "rationale": "Esta mayoría es para órganos como el CGPJ o el Defensor del Pueblo, no para la censura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta en el Congreso y mayoría simple en el Senado.",
+        "rationale": "El Senado no tiene voz ni voto en la aprobación de la moción de censura.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma mayoría exigida para la investidura en la primera votación."
+  },
+  {
+    "guid": "8b390ff0-2c61-4798-8450-ac7e5f79ce08",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 103.1 de la CE, ¿qué principio asegura que la Administración no actúe de forma arbitraria?",
+    "answerOptions": [
+      {
+        "text": "El principio de eficacia.",
+        "rationale": "La eficacia se refiere a la obtención de resultados con economía de medios, no al control de la legalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El principio de jerarquía.",
+        "rationale": "La jerarquía organiza los órganos, pero no garantiza per se la legalidad frente al ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "El principio de sometimiento pleno a la Ley y al Derecho.",
+        "rationale": "Este principio (y el de interdicción de la arbitrariedad del Art. 9) obliga a la Administración a actuar bajo parámetros legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El principio de descentralización.",
+        "rationale": "La descentralización es un criterio territorial de reparto de poder, no de control de arbitrariedad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el principio que vincula la actividad administrativa con el ordenamiento jurídico."
+  },
+  {
+    "guid": "6f4dde6d-f137-43d7-8965-452de494d1d5",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué restricción específica tiene el Gobierno en funciones respecto a los Presupuestos Generales del Estado?",
+    "answerOptions": [
+      {
+        "text": "No puede ejecutar los gastos ya aprobados en el ejercicio anterior.",
+        "rationale": "El Gobierno debe continuar con el despacho ordinario, lo que incluye la ejecución presupuestaria básica.",
+        "isCorrect": false
+      },
+      {
+        "text": "No puede aprobar el Proyecto de Ley de Presupuestos Generales del Estado.",
+        "rationale": "Esta es una de las facultades legislativas de alto calado político prohibidas expresamente para un gobierno interino.",
+        "isCorrect": true
+      },
+      {
+        "text": "Está obligado a prorrogarlos automáticamente por dos años adicionales.",
+        "rationale": "La prórroga es anual y deriva de la no aprobación de unos nuevos, no de una obligación por estar en funciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe someter cada gasto individual a la autorización del Rey.",
+        "rationale": "El Rey no tiene funciones de intervención o fiscalización de gastos públicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una limitación en su fase de elaboración y envío a las Cortes."
+  },
+  {
+    "guid": "51cac4c2-b227-47d1-9b16-9d27469d25b4",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se denominan las reuniones restringidas de miembros del Gobierno para resolver problemas de coordinación y descongestión?",
+    "answerOptions": [
+      {
+        "text": "Gabinete de Crisis.",
+        "rationale": "Este término es político/periodístico, no es la denominación técnica de la Ley del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comisiones Delegadas del Gobierno.",
+        "rationale": "Son órganos colegiados del Gobierno con competencias específicas para temas transversales o de coordinación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Consejo de Estado en Comisión.",
+        "rationale": "El Consejo de Estado es un órgano consultivo externo al ejecutivo central.",
+        "isCorrect": false
+      },
+      {
+        "text": "Secretariado del Gobierno.",
+        "rationale": "El Secretariado es un órgano de apoyo administrativo y técnico, no formado por Ministros para decidir políticas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La Ley 50/1997 las cita como la otra forma, además del Consejo de Ministros, en la que se reúne el Gobierno."
+  },
+  {
+    "guid": "0a75ba5d-4d0a-4acb-b8fc-d3ca13d4536e",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién tiene la facultad de plantear un conflicto de atribuciones entre diferentes departamentos ministeriales?",
+    "answerOptions": [
+      {
+        "text": "El Tribunal Supremo.",
+        "rationale": "El Supremo resuelve litigios, pero el conflicto interno de administración lo resuelve el jefe del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Gobierno.",
+        "rationale": "Como director y coordinador de la acción del Gobierno, le corresponde dirimir las discrepancias entre sus Ministros.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro de la Presidencia.",
+        "rationale": "Aunque apoya en la gestión, la competencia resolutiva final es una atribución presidencial.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Estado.",
+        "rationale": "El Consejo de Estado puede ser consultado, pero no tiene potestad ejecutiva para resolver el conflicto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la figura encargada de coordinar las funciones de los demás miembros del Gobierno."
+  },
+  {
+    "guid": "41ffe43c-9ffc-445d-b0d1-1fe26e720360",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo de prescripción para las acciones de responsabilidad civil contra el Presidente del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "No prescriben mientras el Presidente esté en el cargo.",
+        "rationale": "Los plazos de prescripción corren según la normativa civil ordinaria, sin perjuicio del fuero especial.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilidad civil no está sujeta a plazos de prescripción especiales en el material, sino al fuero ante la Sala 1ª del TS.",
+        "rationale": "El material destaca el fuero (Sala de lo Civil del Supremo), no establece plazos de prescripción distintos a los generales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cinco años desde el cese en el cargo.",
+        "rationale": "Esta es una regla que no aparece en la normativa constitucional ni legal del Gobierno citada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año, al tratarse de responsabilidad extracontractual en la mayoría de los casos.",
+        "rationale": "Aunque es el plazo civil general, el material se centra en la competencia judicial (fuero).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El material proporcionado se enfoca en el 'dónde' (competencia) más que en el 'cuándo' (prescripción)."
+  },
+  {
+    "guid": "64a1e2af-eca4-4c10-a9f5-18648e466d2e",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Puede un Ministro ser simultáneamente Diputado o Senador?",
+    "answerOptions": [
+      {
+        "text": "No, es una causa de incompatibilidad absoluta establecida en el Art. 98.3 CE.",
+        "rationale": "La Constitución prohíbe funciones representativas que no pertenezcan al mandato parlamentario, por lo que ser parlamentario es compatible.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, es compatible, aunque solo puede percibir una remuneración.",
+        "rationale": "Es una práctica común y permitida por la ley, limitando la percepción de sueldo a uno de los dos cargos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo si es un Ministro 'sin cartera'.",
+        "rationale": "La compatibilidad se aplica a todos los miembros del Gobierno por igual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, pero pierde su derecho a voto en la Cámara para mantener la separación de poderes.",
+        "rationale": "Los Ministros que son Diputados mantienen su derecho a voto plenamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise las excepciones a la regla de incompatibilidades de los miembros del Gobierno."
+  },
+  {
+    "guid": "9024ff81-15eb-47fa-a0d9-dd6889b0bd11",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto del control parlamentario, ¿qué es el 'derecho de información' de las Cámaras (Art. 109 CE)?",
+    "answerOptions": [
+      {
+        "text": "La facultad de los ciudadanos de acceder a las actas del Consejo de Ministros.",
+        "rationale": "El artículo 109 se refiere a una relación entre instituciones (Cortes y Gobierno), no al acceso ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "La potestad de las Cámaras de recabar del Gobierno y sus departamentos los datos y ayuda que precisen.",
+        "rationale": "Es un instrumento básico para que el Legislativo pueda fiscalizar la acción del ejecutivo con conocimiento de causa.",
+        "isCorrect": true
+      },
+      {
+        "text": "La obligación del Gobierno de publicar un informe semanal en el BOE.",
+        "rationale": "El derecho de información es a requerimiento de las Cámaras, no una publicación periódica obligatoria general.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho del Presidente a censurar la información parlamentaria sensible.",
+        "rationale": "Es un derecho a favor de las Cámaras, no una prerrogativa de censura del Gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se ejerce a través de los Presidentes de las Cámaras para obtener documentación o auxilio."
+  },
+  {
+    "guid": "4006373a-600b-477e-8e0d-58cd1fb31e78",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Si una moción de censura no es aprobada, ¿qué restricción se impone a sus firmantes?",
+    "answerOptions": [
+      {
+        "text": "No pueden presentarse a las siguientes elecciones generales.",
+        "rationale": "Esta sanción sería contraria a los derechos políticos fundamentales de los parlamentarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "No pueden firmar otra moción de censura durante el mismo periodo de sesiones.",
+        "rationale": "Esta regla constitucional evita el uso abusivo o reiterativo de este instrumento de desestabilización política.",
+        "isCorrect": true
+      },
+      {
+        "text": "Deben dimitir de sus cargos en las Comisiones Parlamentarias.",
+        "rationale": "No existe tal sanción disciplinaria por el fracaso de una moción de censura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pierden su asignación económica por gastos de representación durante un mes.",
+        "rationale": "El fracaso de la moción no conlleva multas económicas a los diputados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La restricción busca evitar el bloqueo constante mediante el mismo mecanismo de control extraordinario."
+  },
+  {
+    "guid": "3029beb5-c8d0-4d32-a3db-76f828633da0",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué rango normativo tiene la norma que regula la composición y competencias del Consejo de Estado?",
+    "answerOptions": [
+      {
+        "text": "Ley Ordinaria.",
+        "rationale": "La Constitución exige un quórum de aprobación más alto para este órgano constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley Orgánica.",
+        "rationale": "El artículo 107 de la CE establece una reserva de ley orgánica para la regulación de este supremo órgano consultivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Real Decreto-Ley.",
+        "rationale": "Un decreto-ley no puede regular órganos constitucionales básicos de esta naturaleza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reglamento del Congreso.",
+        "rationale": "El Consejo de Estado es un órgano del ejecutivo, no una dependencia interna del legislativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Muchos órganos constitucionales comparten esta exigencia de rango normativo para su desarrollo."
+  },
+  {
+    "guid": "a856d313-03ff-4a2b-9aaf-76753be29fa4",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el quórum mínimo de Diputados necesario para proponer una moción de censura?",
+    "answerOptions": [
+      {
+        "text": "Un cuarto de los Diputados.",
+        "rationale": "Esta es la cifra para iniciar la responsabilidad criminal por traición, no para la moción de censura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al menos la décima parte de los Diputados (35).",
+        "rationale": "Es el umbral mínimo de firmas requerido para que la moción sea admitida a trámite por la Mesa del Congreso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cincuenta Diputados.",
+        "rationale": "Cincuenta es el número para el recurso de inconstitucionalidad, no para la moción de censura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un quinto de la Cámara.",
+        "rationale": "El artículo 113 de la Constitución especifica claramente la décima parte.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la proporción de $\\frac{1}{10}$ aplicada al total de escaños del Congreso."
+  },
+  {
+    "guid": "6e18ace3-f705-4301-b374-0e9c7908155e",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién refrenda la propuesta del Rey para el nombramiento del Presidente del Gobierno tras las consultas?",
+    "answerOptions": [
+      {
+        "text": "El Presidente saliente.",
+        "rationale": "El presidente saliente ya ha cesado y no interviene en la propuesta formal de su sucesor.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Congreso de los Diputados.",
+        "rationale": "Es una de las funciones de refrendo constitucional que no corresponden al propio Gobierno, dada la ausencia de un Presidente investido.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro de Justicia como Notario Mayor del Reino.",
+        "rationale": "Aunque da fe en otros actos, el refrendo de la propuesta de candidato es una función parlamentaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "No necesita refrendo al ser un acto de prerrogativa regia absoluta.",
+        "rationale": "Ningún acto del Rey es válido sin refrendo, salvo los relativos a su Casa y familia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde quién es la máxima autoridad de la Cámara que debe otorgar la confianza."
+  },
+  {
+    "guid": "e440988e-220f-490e-a9eb-46863f870ac5",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el material, ¿qué sucede si pasan dos meses desde la primera votación de investidura y ningún candidato obtiene la confianza?",
+    "answerOptions": [
+      {
+        "text": "El Rey nombra al líder del partido más votado por decreto.",
+        "rationale": "El sistema español no contempla el nombramiento directo por el monarca sin apoyo parlamentario.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey disuelve ambas Cámaras y convoca nuevas elecciones con el refrendo del Presidente del Congreso.",
+        "rationale": "Es el mecanismo de salida constitucional para evitar el bloqueo institucional permanente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se prorroga el mandato del Gobierno anterior por un año más.",
+        "rationale": "El Gobierno anterior sigue en funciones, pero la falta de investidura obliga a consultar de nuevo al pueblo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Diputación Permanente asume las funciones legislativas por tiempo indefinido.",
+        "rationale": "La Diputación Permanente tiene poderes muy limitados y no sustituye al Pleno indefinidamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la situación de bloqueo que ocurrió en España en 2016 y 2019."
+  },
+  {
+    "guid": "10cf990c-f88a-488a-9b52-0728c3b42e26",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la consecuencia jurídica inmediata si el Congreso adopta una moción de censura?",
+    "answerOptions": [
+      {
+        "text": "El Gobierno cesante debe convocar elecciones en 54 días.",
+        "rationale": "La moción de censura constructiva evita las elecciones al investir a un nuevo presidente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gobierno presenta su dimisión al Rey y el candidato incluido en la moción se entiende investido.",
+        "rationale": "El cese y la nueva investidura ocurren en un solo acto jurídico-político tras la votación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se inicia un periodo de gobierno de coalición obligatorio entre censurados y censores.",
+        "rationale": "No existe tal figura de coalición forzosa tras una moción de censura exitosa.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente censurado mantiene sus funciones hasta que el Rey nombre a otro tras nuevas consultas.",
+        "rationale": "No hay nuevas consultas; el Rey está obligado a nombrar al candidato que figuraba en la moción.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la eficacia directa del carácter 'constructivo' del mecanismo."
+  },
+  {
+    "guid": "b03c8c73-6c7c-4e10-96e3-ff236d728a25",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué principio administrativo implica que los órganos superiores pueden transmitir el ejercicio de competencias a los inferiores?",
+    "answerOptions": [
+      {
+        "text": "Descentralización.",
+        "rationale": "La descentralización ocurre entre administraciones distintas, no entre órganos de la misma jerarquía.",
+        "isCorrect": false
+      },
+      {
+        "text": "Desconcentración.",
+        "rationale": "Se produce dentro de la misma organización para mejorar el reparto de tareas y la agilidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Coordinación.",
+        "rationale": "La coordinación busca armonizar actuaciones, no necesariamente trasladar la titularidad o ejercicio de competencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eficacia.",
+        "rationale": "La eficacia es un principio finalista, no una técnica de traslación competencial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferéncielo de la transferencia de competencias a administraciones autonómicas."
+  },
+  {
+    "guid": "5ed707ea-f606-49cb-be3f-4df0bbafa471",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de las siguientes es una función específica del Presidente del Gobierno y NO del Consejo de Ministros como cuerpo colegiado?",
+    "answerOptions": [
+      {
+        "text": "Aprobar los Reales Decretos-leyes.",
+        "rationale": "La aprobación de normas con rango de ley es una competencia colegiada del Consejo de Ministros.",
+        "isCorrect": false
+      },
+      {
+        "text": "Interponer el recurso de inconstitucionalidad.",
+        "rationale": "La Constitución otorga esta legitimación activa individualmente al Presidente del Gobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aprobar el proyecto de Ley de Presupuestos.",
+        "rationale": "El proyecto de presupuestos debe ser aprobado en Consejo de Ministros antes de su remisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Declarar los estados de alarma y excepción.",
+        "rationale": "Estas declaraciones se realizan mediante decreto acordado en Consejo de Ministros.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere las facultades de control de constitucionalidad mencionadas en el artículo 162 de la CE."
+  },
+  {
+    "guid": "35619fe9-67e4-4b73-82a2-463b48286660",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué consiste el 'principio de dirección presidencial' según la Ley 50/1997?",
+    "answerOptions": [
+      {
+        "text": "En que el Presidente puede vetar cualquier ley aprobada por el Parlamento.",
+        "rationale": "El Presidente no tiene derecho de veto legislativo en el sistema constitucional español.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la competencia del Presidente para fijar las directrices políticas que deben seguir el Gobierno y los Ministerios.",
+        "rationale": "Este principio establece la preeminencia del Presidente sobre los demás miembros, garantizando la unidad de acción.",
+        "isCorrect": true
+      },
+      {
+        "text": "En la obligación del Presidente de presidir todas las comisiones del Congreso.",
+        "rationale": "El Presidente del Gobierno no preside órganos del poder legislativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la elección directa del Presidente por los ciudadanos en listas separadas.",
+        "rationale": "España tiene un sistema parlamentario; la elección del Presidente es mediata a través del Congreso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la primacía jerárquica y política dentro del gabinete ejecutivo."
+  },
+  {
+    "guid": "874ce78f-f28a-4380-ad11-2689d92e621b",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con las deliberaciones del Consejo de Ministros según la normativa vigente?",
+    "answerOptions": [
+      {
+        "text": "Son públicas y se retransmiten por canales oficiales del Estado.",
+        "rationale": "La publicidad solo alcanza a los acuerdos finales, no al proceso de debate interno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son secretas.",
+        "rationale": "El deber de secreto protege la libertad de debate y la unidad de criterio del órgano colegiado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se publican íntegramente en el BOE en un plazo de 30 días.",
+        "rationale": "En el BOE solo se publican las disposiciones y actos, no las actas de deliberación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo son secretas si afectan a la seguridad nacional.",
+        "rationale": "El secreto es la regla general para todas las sesiones del Consejo de Ministros.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una obligación de reserva que vincula a todos sus miembros."
+  },
+  {
+    "guid": "3f7525bf-17c7-4cba-b963-be6627689218",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué mayoría se requiere para que el Congreso autorice la celebración de un 'referéndum consultivo' propuesto por el Presidente?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta.",
+        "rationale": "El artículo 92 CE no especifica una mayoría reforzada, por lo que rige la regla general parlamentaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría simple.",
+        "rationale": "Es el requisito estándar para la autorización de esta consulta política por parte del Congreso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres quintos de cada Cámara.",
+        "rationale": "Esta mayoría no se exige para el referéndum consultivo ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "No requiere autorización si el tema es de especial trascendencia política.",
+        "rationale": "La autorización previa del Congreso es un requisito constitucional imperativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la mayoría ordinaria para la toma de acuerdos en la cámara baja."
+  },
+  {
+    "guid": "114813f8-fe6f-4499-9581-d8e6d78eb223",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se estructuran los departamentos ministeriales según el material?",
+    "answerOptions": [
+      {
+        "text": "Su creación y modificación se realiza por Ley de las Cortes.",
+        "rationale": "La estructura ministerial es una facultad de autoorganización del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son creados, modificados o suprimidos por Real Decreto del Presidente del Gobierno.",
+        "rationale": "El Presidente tiene la potestad de decidir cuántos y qué ministerios forman su Gobierno al inicio o durante su mandato.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo pueden existir los 12 ministerios citados en la Constitución.",
+        "rationale": "La Constitución no fija un número ni una lista cerrada de ministerios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Requieren informe vinculante previo del Tribunal Cuentas.",
+        "rationale": "El Tribunal de Cuentas fiscaliza el gasto posterior, pero no interviene en la decisión política de organización.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise las atribuciones presidenciales relativas a la estructura orgánica de la Presidencia y el Gabinete."
+  },
+  {
+    "guid": "7e9fa4fa-33c5-46c8-b197-b5dfb7c14a93",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el objetivo real de la 'Cuestión de Confianza' planteada por iniciativa del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Destituir a un Ministro que no cuenta con apoyo popular.",
+        "rationale": "El Presidente puede cesar ministros directamente sin recurrir a la Cámara.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comprobar el estado de apoyo al programa o a una declaración de política general para reforzar la posición del Gobierno.",
+        "rationale": "Es una herramienta de reafirmación política ante situaciones de debilidad o decisiones de gran calado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Prorrogar automáticamente la legislatura dos años más.",
+        "rationale": "La duración de la legislatura es constitucional y no se altera por este mecanismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Validar un Decreto-ley que ha sido rechazado por el Congreso.",
+        "rationale": "La convalidación de decretos-leyes tiene su propio procedimiento separado en el artículo 86 CE.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la necesidad del ejecutivo de ratificar que la confianza inicial de la investidura aún persiste."
+  },
+  {
+    "guid": "dfafceb0-7ae2-4d87-b56a-effbc005a5b3",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con el Gobierno si el Presidente fallece?",
+    "answerOptions": [
+      {
+        "text": "El Vicepresidente primero se convierte automáticamente en Presidente titular por el resto del mandato.",
+        "rationale": "El sistema español no tiene sucesión automática en la titularidad como el presidencialismo estadounidense.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gobierno cesa en bloque y queda en funciones hasta la investidura de un nuevo Presidente.",
+        "rationale": "La suerte de los Ministros está ligada a la del Presidente; su muerte abre el proceso del artículo 99 CE.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se convocan elecciones generales en un plazo máximo de 15 días.",
+        "rationale": "Antes de las elecciones, se intenta una nueva investidura con la actual composición de las Cámaras.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey asume la dirección del Consejo de Ministros de forma excepcional.",
+        "rationale": "El Rey nunca asume funciones ejecutivas de dirección de política ordinaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que el nombramiento y cese de los miembros del Gobierno es prerrogativa del Presidente."
+  },
+  {
+    "guid": "e34a9734-284f-43d2-9387-abdcb5cbfdd7",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué principio administrativo corresponde la afirmación: 'obtención de resultados con la máxima economía de trámites y tiempo'?",
+    "answerOptions": [
+      {
+        "text": "Jerarquía.",
+        "rationale": "La jerarquía se refiere a la ordenación de mandos, no a la gestión del tiempo y recursos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eficacia.",
+        "rationale": "Es la definición clásica del principio de eficacia operativa en la actuación administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Coordinación.",
+        "rationale": "La coordinación busca que los órganos no actúen de forma contradictoria, independientemente de la rapidez.",
+        "isCorrect": false
+      },
+      {
+        "text": "Legalidad.",
+        "rationale": "La legalidad obliga a seguir el procedimiento, lo que a veces puede chocar con la rapidez extrema.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un principio finalista orientado a la optimización de los servicios públicos."
+  },
+  {
+    "guid": "b55acc75-434a-4bf6-b9cc-595aa0972cdb",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el Consejo de Estado, ¿quiénes son los miembros que asumen el cargo por derecho propio tras haber ocupado ciertos puestos relevantes (como ex-Presidentes del Gobierno)?",
+    "answerOptions": [
+      {
+        "text": "Consejeros Permanentes.",
+        "rationale": "Los permanentes son inamovibles pero no acceden por el mero hecho de haber sido presidentes anteriormente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consejeros Natos.",
+        "rationale": "Son aquellos que ostentan la condición por razón del cargo que desempeñan o desempeñaron (como ex-presidentes o jefes de Estado Mayor).",
+        "isCorrect": true
+      },
+      {
+        "text": "Consejeros Electivos.",
+        "rationale": "Los electivos son nombrados por el Gobierno por un periodo determinado entre personas de prestigio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consejeros de Honor.",
+        "rationale": "Esta categoría no es la principal descrita para ex-altos cargos en el material normativo básico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre sugiere que su pertenencia al Consejo nace de su cargo anterior o actual."
+  },
+  {
+    "guid": "968b87c2-28d5-46c5-abb2-dedc5f82ca84",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la diferencia de mayorías exigida entre una investidura (Art. 99) y una moción de censura (Art. 113)?",
+    "answerOptions": [
+      {
+        "text": "Ninguna; ambas requieren siempre mayoría absoluta.",
+        "rationale": "La investidura puede lograrse por mayoría simple en segunda ronda, la censura no.",
+        "isCorrect": false
+      },
+      {
+        "text": "La investidura puede resolverse por mayoría simple en segunda vuelta; la moción de censura requiere siempre mayoría absoluta.",
+        "rationale": "La exigencia para derribar a un gobierno es más rígida que para formar uno nuevo tras unas elecciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "La moción de censura requiere solo mayoría simple si es la segunda que se presenta.",
+        "rationale": "La mayoría para la moción de censura es invariable según la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "La investidura requiere tres quintos y la moción de censura mayoría absoluta.",
+        "rationale": "Los tres quintos no se aplican a ninguno de estos dos procesos de confianza.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Compare las posibilidades de éxito de cada mecanismo en una segunda votación."
+  },
+  {
+    "guid": "7bc0cdd3-0e97-4e2d-8b02-f42e5735b550",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué tipo de dictámenes emite el Consejo de Estado sobre asuntos que las leyes le obligan a informar?",
+    "answerOptions": [
+      {
+        "text": "Dictámenes facultativos.",
+        "rationale": "Los facultativos son aquellos que el Gobierno pide voluntariamente, no por obligación legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dictámenes preceptivos.",
+        "rationale": "Se llaman así porque su solicitud es obligatoria por ley, aunque su contenido no suele ser vinculante.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dictámenes vinculantes.",
+        "rationale": "Aunque sean preceptivos (de obligada petición), el Gobierno rara vez está obligado a seguir su criterio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resoluciones de obligado cumplimiento.",
+        "rationale": "El Consejo de Estado asesora, no tiene poder de imperio para obligar al Gobierno a actuar de una forma.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El término se refiere a la obligatoriedad de 'pedir' el consejo, no de 'seguirlo'."
+  },
+  {
+    "guid": "99f671e6-6734-4239-9f06-c56302f70ab4",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Puede presentarse una propuesta de disolución de las Cámaras si hay una moción de censura en trámite?",
+    "answerOptions": [
+      {
+        "text": "Sí, el Presidente tiene prioridad absoluta en sus facultades.",
+        "rationale": "La Constitución protege la tramitación de la censura frente a la disolución para evitar que el ejecutivo escape al control.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, está prohibido expresamente por el artículo 115.2 de la CE.",
+        "rationale": "Se impide así que el Presidente use la disolución como arma para anular un proceso de censura ya iniciado contra él.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo si la moción de censura no tiene candidato alternativo.",
+        "rationale": "Toda moción de censura válida en España debe tener obligatoriamente un candidato alternativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, pero requiere la autorización previa del Presidente del Congreso.",
+        "rationale": "No es una cuestión de autorización, sino de prohibición constitucional directa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un límite temporal a la facultad de disolución anticipada del Presidente."
+  },
+  {
+    "guid": "260a1ee7-a14d-434d-ad1d-b248108781ea",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se califica el tiempo que los Reglamentos de las Cámaras deben dedicar a preguntas e interpelaciones?",
+    "answerOptions": [
+      {
+        "text": "Un tiempo máximo de dos horas al mes.",
+        "rationale": "El espíritu constitucional es garantizar el control frecuente, no limitarlo tan drásticamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un tiempo mínimo semanal.",
+        "rationale": "El artículo 111.1 CE exige que se reserve un tiempo mínimo cada semana para estos debates de control.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo se realizan en sesiones extraordinarias a petición de la oposición.",
+        "rationale": "Son instrumentos de control ordinario que forman parte del calendario habitual de las Cámaras.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un día completo al final de cada legislatura.",
+        "rationale": "El control debe ser constante a lo largo de todo el mandato del Gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la periodicidad establecida en el artículo 111 de la Constitución."
+  },
+  {
+    "guid": "275a5dc3-1b0f-4a02-8483-e73e3986f2c6",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién preside el Consejo de Estado en sus sesiones de Pleno?",
+    "answerOptions": [
+      {
+        "text": "El Presidente del Gobierno.",
+        "rationale": "El Presidente del Gobierno no preside órganos consultivos ajenos a su gabinete ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Consejo de Estado.",
+        "rationale": "Es un cargo específico nombrado por Real Decreto acordado en Consejo de Ministros.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Rey, en su condición de jefe supremo de los órganos consultivos.",
+        "rationale": "El Rey puede asistir y presidir excepcionalmente, pero la presidencia ordinaria es de un titular técnico.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministro de la Presidencia.",
+        "rationale": "El Ministro es miembro del Gobierno y el Consejo de Estado es un órgano autónomo en su funcionamiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un cargo distinto al del Presidente del Ejecutivo."
+  },
+  {
+    "guid": "4cfdf6ef-8eb9-499d-85d3-660c39e11530",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el material, ¿qué tipo de impugnación puede interponer el Gobierno contra disposiciones de las CCAA ante el TC (Art. 161.2 CE)?",
+    "answerOptions": [
+      {
+        "text": "Recurso de amparo.",
+        "rationale": "El recurso de amparo es para proteger derechos fundamentales de los ciudadanos, no competencias estatales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Impugnación con suspensión automática de la disposición por un plazo de 5 meses.",
+        "rationale": "Es un privilegio del Gobierno estatal que el TC debe ratificar o levantar antes de que expire dicho plazo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Conflicto de intereses corporativos.",
+        "rationale": "Este no es un procedimiento previsto en la LOTC para las relaciones Estado-CCAA.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuestión de inconstitucionalidad.",
+        "rationale": "La cuestión la plantean los jueces cuando dudan de la ley aplicable a un caso, no el Gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la prerrogativa del ejecutivo central que 'paraliza' la norma autonómica temporalmente al ser recurrida."
+  },
+  {
+    "guid": "43d59ba6-30d7-44ca-a086-d25a5395b405",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién propone al Rey el nombramiento del Fiscal General del Estado?",
+    "answerOptions": [
+      {
+        "text": "El Consejo General del Poder Judicial.",
+        "rationale": "El CGPJ emite un informe previo, pero la propuesta política es del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gobierno.",
+        "rationale": "Es el Gobierno quien elige al candidato y lo propone al Monarca para su nombramiento oficial.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Congreso de los Diputados por mayoría de tres quintos.",
+        "rationale": "El Parlamento no elige al Fiscal General; su origen es puramente gubernamental.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Supremo entre sus magistrados más antiguos.",
+        "rationale": "El Fiscal General no tiene por qué ser magistrado del Supremo, aunque sí jurista de prestigio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque la relación del Ministerio Fiscal con la política criminal del Ejecutivo."
+  },
+  {
+    "guid": "2546fb37-0920-4724-93c7-572bd0e72315",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué caso el decreto de disolución de las Cortes debe fijar obligatoriamente la fecha de las elecciones?",
+    "answerOptions": [
+      {
+        "text": "Solo en caso de disolución por moción de censura.",
+        "rationale": "La moción de censura no conlleva disolución de cámaras ni elecciones generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "En todos los supuestos de disolución anticipada según el Art. 115 CE.",
+        "rationale": "Es una garantía para evitar periodos de vacío representativo sin fecha de retorno a las urnas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo si lo solicita el Presidente del Senado.",
+        "rationale": "La fijación de la fecha es un requisito formal del propio decreto presidencial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca, la fecha la fija la Junta Electoral Central con posterioridad.",
+        "rationale": "La ley electoral y la Constitución vinculan la disolución con la convocatoria inmediata de comicios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un elemento esencial del decreto firmado por el Rey y propuesto por el Presidente."
+  },
+  {
+    "guid": "0f4fa6cb-cf24-4d91-a6ab-0ce8831aceea",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De las siguientes funciones, ¿cuál corresponde al Gobierno según el artículo 97 de la CE?",
+    "answerOptions": [
+      {
+        "text": "Ejercer la potestad legislativa originaria.",
+        "rationale": "La potestad legislativa reside en las Cortes Generales; el Gobierno solo tiene potestad delegada o de urgencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dirigir la defensa del Estado.",
+        "rationale": "La dirección de la defensa y la política militar es una atribución constitucional núcleo del Gobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Juzgar y hacer ejecutar lo juzgado.",
+        "rationale": "Esta es la definición de la potestad jurisdiccional, propia de los Jueces y Tribunales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sancionar y promulgar las leyes.",
+        "rationale": "Esta función corresponde formalmente al Rey.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque una función de carácter ejecutivo o de alta dirección política estatal."
+  },
+  {
+    "guid": "e4cdb8c6-d010-4ce6-8ea2-b6ca6c5691b3",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué principio corresponde la obligación de elegir la 'medida menos restrictiva' al limitar derechos individuales?",
+    "answerOptions": [
+      {
+        "text": "Principio de proporcionalidad y favor libertatis.",
+        "rationale": "Aunque el material no use el nombre latino, describe la obligación de motivar la necesidad y adecuación de medidas restrictivas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de jerarquía normativa.",
+        "rationale": "La jerarquía ordena las normas, pero no dicta el contenido de la restricción de derechos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de desconcentración funcional.",
+        "rationale": "Se refiere a la eficacia operativa, no a la protección de derechos civiles frente a la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de publicidad de los actos.",
+        "rationale": "La publicidad permite conocer la medida, pero no obliga a que sea la menos restrictiva.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la protección del interés público sin causar sacrificios innecesarios a los ciudadanos."
+  },
+  {
+    "guid": "2b4967d0-55f5-42c6-a54c-dac7819258f2",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué requisito de la LOPJ (Art. 56.2) se cita para la responsabilidad civil del Presidente del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Juicio previo ante el Tribunal de Cuentas.",
+        "rationale": "El Tribunal de Cuentas ve responsabilidad contable, no civil ordinaria por daños.",
+        "isCorrect": false
+      },
+      {
+        "text": "El conocimiento de la demanda por la Sala de lo Civil (Sala 1ª) del Tribunal Supremo.",
+        "rationale": "Se establece un fuero especial ante el órgano jurisdiccional superior para estas demandas de responsabilidad civil.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inmunidad total mientras dure el mandato.",
+        "rationale": "El Presidente no goza de inmunidad civil, solo de un fuero judicial específico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Autorización previa de las tres cuartas partes del Congreso.",
+        "rationale": "La responsabilidad civil no requiere de suplicatorio ni autorización parlamentaria previa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un privilegio procesal de aforamiento civil."
+  },
+  {
+    "guid": "fc3bacc9-12fd-4166-bd20-c1331a97e309",
+    "subjectId": "T02",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la consecuencia de que una interpelación dé lugar a una 'moción' en la Cámara?",
+    "answerOptions": [
+      {
+        "text": "La dimisión obligatoria del Ministro interpelado.",
+        "rationale": "La moción es una expresión de la posición de la Cámara, no tiene fuerza de destitución ejecutiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que la Cámara manifieste su posición política sobre el asunto debatido.",
+        "rationale": "Es una forma de control ordinario que permite al Parlamento señalar errores o fijar directrices políticas al Gobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "La anulación inmediata de la norma que causó la interpelación.",
+        "rationale": "La anulación de normas requiere procesos judiciales o legislativos específicos, no basta con una moción.",
+        "isCorrect": false
+      },
+      {
+        "text": "El inicio automático de una Comisión de Investigación.",
+        "rationale": "Las Comisiones de Investigación tienen su propio régimen de creación y no derivan automáticamente de una moción.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque la función de 'fiscalización' y 'manifestación de voluntad' del legislativo."
+  }
+]
