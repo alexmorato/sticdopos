@@ -217,8 +217,10 @@
           encontrados.forEach(ficheroObj => {
             const fichero = ficheroObj.file;
             const fecha = ficheroObj.updated;
+            const hits = typeof obtenerHitsTestIniciado === 'function' ? obtenerHitsTestIniciado(fichero) : 0;
+            const hitsHtml = hits > 0 ? `<span style="display:inline-block;margin-left:8px;padding:2px 7px;border-radius:999px;background:#6ae0a7;color:#032217;font-weight:700;font-size:0.82em;">#${hits}</span>` : '';
             const btn = document.createElement('button');
-            btn.innerHTML = `<span style="font-weight:bold;">${fichero}</span> <span style="color:#9fb0ff;font-size:0.95em;float:right;">${fecha}</span>`;
+            btn.innerHTML = `<span style="font-weight:bold;">${fichero}${hitsHtml}</span> <span style="color:#9fb0ff;font-size:0.95em;float:right;">${fecha}</span>`;
             btn.style.display = 'block';
             btn.style.width = '100%';
             btn.style.margin = '8px 0';
@@ -284,6 +286,12 @@
     document.getElementById('comencarBtn').onclick = function() {
       // Borrar estado anterior de estudio
       if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+
+      function finalizarInicioEstudio(fitxersIniciados, preguntes) {
+        if (typeof registrarInicioTests === 'function') registrarInicioTests(fitxersIniciados);
+        localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntes));
+        window.location.href = 'estudiar.html';
+      }
 
       const temaFilterInput = document.getElementById('temaFilterInput');
       const temaFilterRaw = (temaFilterInput && temaFilterInput.value ? temaFilterInput.value : '').trim().toUpperCase();
@@ -363,15 +371,13 @@
             filesLoaded++;
             if (filesLoaded === fitxers.length) {
               // Guardar preguntas concatenadas y navegar
-              localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntesTot));
-              window.location.href = 'estudiar.html';
+              finalizarInicioEstudio(fitxers, preguntesTot);
             }
           })
           .catch(() => {
             filesLoaded++;
             if (filesLoaded === fitxers.length) {
-              localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntesTot));
-              window.location.href = 'estudiar.html';
+              finalizarInicioEstudio(fitxers, preguntesTot);
             }
           });
       });

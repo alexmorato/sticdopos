@@ -17,6 +17,7 @@ const LS_KEYS = {
   ESTUDIO_WIP_CONTINUE: 'sTICdOpos_estudioWipContinue',
   HISTORIAL_FALLOS: 'sTICdOpos_historialFallos',
   HISTORIAL_CONTESTADES: 'sTICdOpos_historialContestades',
+  HISTORIAL_TESTS_INICIADOS: 'sTICdOpos_historialTestsIniciados',
   REPASAR_FALLOS: 'sTICdOpos_repasarFallos',
   JSON_COPYPASTE: 'sTICdOpos_jsonCopypaste', //lo quiero eliminar
   USER_NAME: 'sTICdOpos_userName',
@@ -46,4 +47,37 @@ function borrarEstudioEnProgreso() {
   localStorage.removeItem(LS_KEYS.PREGUNTA_POSITION);
   localStorage.removeItem(LS_KEYS.REPASAR_FALLOS);
   localStorage.removeItem(LS_KEYS.FITXERS_ESTUDIANT);
+}
+
+function obtenerHistorialTestsIniciados() {
+  try {
+    const data = JSON.parse(localStorage.getItem(LS_KEYS.HISTORIAL_TESTS_INICIADOS) || '{}');
+    if (!data || typeof data !== 'object' || Array.isArray(data)) return {};
+    return data;
+  } catch (e) {
+    return {};
+  }
+}
+
+function obtenerHitsTestIniciado(fileName) {
+  if (!fileName) return 0;
+  const historial = obtenerHistorialTestsIniciados();
+  const rawValue = historial[fileName];
+  const count = Number(rawValue);
+  return Number.isFinite(count) && count > 0 ? Math.floor(count) : 0;
+}
+
+function registrarInicioTests(fileNames) {
+  if (!Array.isArray(fileNames) || fileNames.length === 0) return;
+
+  const historial = obtenerHistorialTestsIniciados();
+  const filesUnicos = [...new Set(fileNames.filter(Boolean))];
+
+  filesUnicos.forEach(fileName => {
+    const current = Number(historial[fileName]);
+    const currentSafe = Number.isFinite(current) && current > 0 ? Math.floor(current) : 0;
+    historial[fileName] = currentSafe + 1;
+  });
+
+  localStorage.setItem(LS_KEYS.HISTORIAL_TESTS_INICIADOS, JSON.stringify(historial));
 }

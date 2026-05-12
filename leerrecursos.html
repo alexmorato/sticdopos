@@ -261,6 +261,19 @@
     .btn-test:hover {
       background: #21c08d;
     }
+    .test-hit-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 8px;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      color: #032217;
+      background: #6ae0a7;
+      font-weight: 700;
+      vertical-align: middle;
+    }
     .btn-url {
       background: #8a2a5f;
       color: #e7ecff;
@@ -1009,14 +1022,18 @@
           <div class="recursos-section">
             <div class="recursos-title">✅ Tests</div>
             <div class="recursos-list">
-              ${tema.recursos.tests.map((test, idx) => `
+              ${tema.recursos.tests.map((test, idx) => {
+                const hits = typeof obtenerHitsTestIniciado === 'function' ? obtenerHitsTestIniciado(test.file) : 0;
+                const hitsHtml = hits > 0 ? `<span class="test-hit-badge">#${hits}</span>` : '';
+                return `
                 <div class="recurso-item" id="recurso-test-${tema.tema}-${test.file.replace(/[^a-zA-Z0-9]/g, '_')}" onclick="abrirTest('${tema.tema}', '${test.file}')">
-                  <div class="recurso-name">${test.name}</div>
+                  <div class="recurso-name">${test.name}${hitsHtml}</div>
                   <button class="recurso-btn btn-test" onclick="event.stopPropagation(); abrirTest('${tema.tema}', '${test.file}')">
                     ▶️ Fer test
                   </button>
                 </div>
-              `).join('')}
+              `;
+              }).join('')}
             </div>
           </div>
         `;
@@ -1097,6 +1114,7 @@
         .then(res => res.json())
         .then(preguntas => {
           if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+          if (typeof registrarInicioTests === 'function') registrarInicioTests([testFile]);
           localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify([testFile]));
           localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntas));
           window.location.href = 'estudiar.html';
