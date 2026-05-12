@@ -20,6 +20,7 @@
       font-family: system-ui, sans-serif;
       margin: 0;
       padding: 0;
+      min-height: 100vh;
     }
     .menu-btn {
       position: fixed;
@@ -115,12 +116,13 @@
       width: 100%;
     }
     .container {
-      max-width: 700px;
-      margin: 100px auto 40px auto;
+      width: min(900px, calc(100% - 24px));
+      margin: 96px auto 32px auto;
       background: #23284a;
       padding: 36px 30px 30px 30px;
       border-radius: 16px;
       box-shadow: 0 2px 12px #0003;
+      box-sizing: border-box;
     }
     h1 {
       text-align: center;
@@ -136,10 +138,11 @@
     .file-item {
       display: flex;
       align-items: center;
+      gap: 8px;
       margin-bottom: 10px;
       background: #1b223a;
       border-radius: 8px;
-      padding: 8px 14px;
+      padding: 10px 14px;
       box-shadow: 0 2px 8px #0002;
       transition: background 0.2s;
     }
@@ -151,7 +154,9 @@
       cursor: pointer;
       font-size: 1.08em;
       color: #e7ecff;
-      padding-left: 8px;
+      padding-left: 4px;
+      line-height: 1.3;
+      word-break: break-word;
     }
     .file-date {
       font-size: 0.98em;
@@ -160,16 +165,50 @@
       min-width: 140px;
       text-align: right;
     }
+    .start-test-btn {
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(180deg, #2aebad, #21c08d);
+      color: #032217;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 8px 10px;
+      cursor: pointer;
+      white-space: nowrap;
+      min-width: 74px;
+      transition: transform 0.15s ease, filter 0.15s ease;
+    }
+    .start-test-btn:hover {
+      filter: brightness(0.96);
+      transform: translateY(-1px);
+    }
+    .start-test-btn:active {
+      transform: translateY(0);
+      filter: brightness(0.92);
+    }
     .file-item input[type="checkbox"] {
       accent-color: #6ae0a7;
       width: 18px;
       height: 18px;
-      margin-right: 8px;
+      margin-right: 4px;
+      flex-shrink: 0;
+    }
+    @media (max-width: 980px) {
+      .container {
+        width: calc(100% - 16px);
+        margin: 84px auto 24px auto;
+        padding: 24px 16px 18px 16px;
+      }
+      .file-date {
+        min-width: 120px;
+      }
     }
     @media (max-width: 768px) {
       .container {
-        margin: 80px 8px 24px 8px;
-        padding: 18px 8px 18px 8px;
+        width: calc(100% - 12px);
+        margin: 72px auto 16px auto;
+        padding: 16px 10px 14px 10px;
+        border-radius: 12px;
       }
       .menu-btn {
         top: 12px;
@@ -187,9 +226,45 @@
         font-size: 1.3em;
         margin-bottom: 18px;
       }
+      .file-item {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 10px;
+      }
+      .file-item input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+      }
+      .file-item label {
+        min-width: 0;
+        flex: 1 1 calc(100% - 40px);
+      }
+      .start-test-btn {
+        margin-left: auto;
+        font-size: 0.84rem;
+        padding: 7px 9px;
+      }
       .file-date {
-        min-width: 90px;
+        min-width: 0;
+        width: 100%;
+        margin-left: 32px;
+        margin-top: 2px;
+        text-align: left;
         font-size: 0.92em;
+      }
+    }
+    @media (max-width: 420px) {
+      .menu-panel {
+        left: 10px;
+        right: 10px;
+        min-width: 0;
+      }
+      .menu-btn {
+        width: 40px;
+        height: 40px;
+      }
+      h1 {
+        font-size: 1.15em;
       }
     }
   </style>
@@ -253,8 +328,18 @@
           const dateSpan = document.createElement('span');
           dateSpan.className = 'file-date';
           dateSpan.textContent = item.updated;
+          const startBtn = document.createElement('button');
+          startBtn.type = 'button';
+          startBtn.className = 'start-test-btn';
+          startBtn.textContent = 'Iniciar';
+          startBtn.addEventListener('click', (ev) => {
+            ev.preventDefault();
+            ev.stopPropagation();
+            iniciarTests([item.file]);
+          });
           div.appendChild(checkbox);
           div.appendChild(label);
+          div.appendChild(startBtn);
           div.appendChild(dateSpan);
           fileList.appendChild(div);
         });
@@ -308,12 +393,8 @@
       });
     });
 
-    // Nuevo botón: Hacer esos test
-    const menuHacerTestBtn = document.getElementById('menuHacerTestBtn');
-    menuHacerTestBtn.addEventListener('click', async () => {
-      const checked = Array.from(document.querySelectorAll('.file-item input[type="checkbox"]:checked'));
-      const selectedFiles = checked.map(cb => cb.value);
-      if (selectedFiles.length === 0) return;
+    async function iniciarTests(selectedFiles) {
+      if (!Array.isArray(selectedFiles) || selectedFiles.length === 0) return;
 
       // Borrar estado anterior de estudio
       if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
@@ -342,6 +423,14 @@
       localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(selectedFiles));
       localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntesTot));
       window.location.href = 'estudiar.html';
+    }
+
+    // Nuevo botón: Hacer esos test
+    const menuHacerTestBtn = document.getElementById('menuHacerTestBtn');
+    menuHacerTestBtn.addEventListener('click', async () => {
+      const checked = Array.from(document.querySelectorAll('.file-item input[type="checkbox"]:checked'));
+      const selectedFiles = checked.map(cb => cb.value);
+      await iniciarTests(selectedFiles);
     });
   </script>
 </body>
