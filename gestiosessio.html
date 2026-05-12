@@ -264,6 +264,7 @@
 
 		<div id="status" class="status warn" role="status">Carga inicial...</div>
 	</main>
+	<script src="assets/js/localstorage-utils.js"></script>
 
 	<script>
 		(function () {
@@ -290,14 +291,22 @@
 				const all = [];
 				const hidden = [];
 
-				for (let i = 0; i < localStorage.length; i += 1) {
-					const key = localStorage.key(i);
-					if (key === null) {
+				const lsKeysValues =
+					typeof LS_KEYS === "object" && LS_KEYS
+						? Object.values(LS_KEYS)
+						: [];
+				const keysToInspect = Array.from(
+					new Set(lsKeysValues.filter((key) => typeof key === "string" && key.trim() !== ""))
+				);
+
+				for (const key of keysToInspect) {
+					if (SENSITIVE_KEY_RE.test(key)) {
+						hidden.push({ key, value: "" });
 						continue;
 					}
-					const value = localStorage.getItem(key) ?? "";
-					if (SENSITIVE_KEY_RE.test(key)) {
-						hidden.push({ key, value });
+
+					const value = localStorage.getItem(key);
+					if (value === null) {
 						continue;
 					}
 					all.push({ key, value });
