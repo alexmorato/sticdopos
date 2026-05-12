@@ -856,43 +856,57 @@
       ].join('\n');
     }
 
+    function collectQuotedBodyLines(lines, startIndex) {
+      const bodyLines = [];
+      let index = startIndex;
+
+      while (index < lines.length) {
+        const line = lines[index];
+
+        if (/^>\s?(.*)$/.test(line)) {
+          bodyLines.push(line.replace(/^>\s?/, ''));
+          index += 1;
+          continue;
+        }
+
+        if (line.trim() === '') {
+          bodyLines.push('');
+          index += 1;
+          continue;
+        }
+
+        break;
+      }
+
+      return { bodyLines, nextIndex: index };
+    }
+
     function transformGitHubAlerts(mdText) {
       const lines = mdText.split(/\r?\n/);
       const output = [];
 
       for (let index = 0; index < lines.length; index += 1) {
-        const match = lines[index].match(/^>\s*\[!([A-Z]+)\](?:\s+(.*))?\s*$/i);
+        const alertMatch = lines[index].match(/^>\s*\[!([A-Z]+)\](?:\s+(.*))?\s*$/i);
 
-        if (!match) {
-          output.push(lines[index]);
+        if (alertMatch) {
+          const type = alertMatch[1].toLowerCase();
+          const title = (alertMatch[2] || '').trim() || getAlertTitle(type);
+          const { bodyLines, nextIndex } = collectQuotedBodyLines(lines, index + 1);
+
+          output.push(renderAlertHtml(type, title, bodyLines));
+          index = nextIndex - 1;
           continue;
         }
 
-        const type = match[1].toLowerCase();
-        const title = (match[2] || '').trim() || getAlertTitle(type);
-        const bodyLines = [];
+        if (/^>\s?(.*)$/.test(lines[index])) {
+          const { bodyLines, nextIndex } = collectQuotedBodyLines(lines, index);
 
-        index += 1;
-        while (index < lines.length) {
-          const line = lines[index];
-
-          if (/^>\s?(.*)$/.test(line)) {
-            bodyLines.push(line.replace(/^>\s?/, ''));
-            index += 1;
-            continue;
-          }
-
-          if (line.trim() === '') {
-            bodyLines.push('');
-            index += 1;
-            continue;
-          }
-
-          break;
+          output.push(renderAlertHtml('note', getAlertTitle('note'), bodyLines));
+          index = nextIndex - 1;
+          continue;
         }
 
-        output.push(renderAlertHtml(type, title, bodyLines));
-        index -= 1;
+        output.push(lines[index]);
       }
 
       return output.join('\n');
