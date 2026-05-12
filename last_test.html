@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Últims tests afegits</title>
+  <script src="assets/js/localstorage-utils.js"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      background: #181c2a;
+      color: #e7ecff;
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+
+    /* ── Hamburger button ── */
+    .hamburger {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      z-index: 1000;
+      width: 50px;
+      height: 50px;
+      background: #2aebad;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(42,235,173,0.3);
+      transition: background 0.2s, transform 0.2s;
+    }
+    .hamburger:hover { background: #21c08d; transform: scale(1.05); }
+    .hamburger span {
+      width: 26px; height: 3px;
+      background: #032217;
+      border-radius: 2px;
+    }
+
+    /* ── Slide-in menu panel ── */
+    .menu-panel {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      z-index: 1001;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 14px;
+      padding: 16px 14px 12px;
+      display: none;
+      flex-direction: column;
+      gap: 8px;
+      min-width: 230px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+      animation: slideIn 0.25s ease-out;
+    }
+    .menu-panel.visible { display: flex; }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .menu-close {
+      background: #2aebad;
+      color: #032217;
+      border: none;
+      border-radius: 8px;
+      padding: 12px;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      text-align: center;
+      transition: background 0.2s;
+    }
+    .menu-close:hover { background: #21c08d; }
+
+    .menu-action {
+      background: #27304a;
+      color: #e7ecff;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: left;
+      transition: background 0.2s;
+    }
+    .menu-action:hover { background: #3a4560; }
+    .menu-action.primary {
+      background: linear-gradient(180deg, #2aebad, #21c08d);
+      color: #032217;
+    }
+    .menu-action.primary:hover { background: linear-gradient(180deg, #21c08d, #1a9970); }
+
+    .menu-sep {
+      border: none;
+      border-top: 1px solid #3a4560;
+      margin: 4px 0;
+    }
+
+    /* ── Page container ── */
+    .container {
+      width: min(860px, calc(100% - 16px));
+      margin: 86px auto 36px;
+      padding: 28px 24px 24px;
+      background: #1e2440;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      text-align: center;
+      color: #6ae0a7;
+      font-size: 1.9em;
+      font-weight: 700;
+      margin: 0 0 24px;
+      letter-spacing: 0.3px;
+    }
+
+    /* ── Test card ── */
+    .test-card {
+      display: flex;
+      flex-direction: row;
+      background: #141a2a;
+      border: 2px solid #27304a;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+    }
+    .test-card:hover {
+      border-color: #3a4a6a;
+    }
+    .test-card.selected {
+      border-color: #6ae0a7;
+      background: #162b23;
+      box-shadow: 0 0 0 2px rgba(106,224,167,0.18);
+    }
+
+    /* Left info section ~80% */
+    .card-info {
+      flex: 4;
+      padding: 14px 16px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+    }
+    .card-name {
+      font-size: 1em;
+      font-weight: 600;
+      color: #e7ecff;
+      line-height: 1.4;
+      word-break: break-word;
+    }
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hits-badge {
+      background: #6ae0a7;
+      color: #032217;
+      font-size: 0.78em;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .card-date {
+      color: #9fb0ff;
+      font-size: 0.88em;
+      white-space: nowrap;
+    }
+
+    /* Right action section ~20% */
+    .card-actions {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 14px 12px;
+      justify-content: center;
+      border-left: 1.5px solid #27304a;
+      min-width: 86px;
+    }
+    .btn-fer {
+      background: linear-gradient(180deg, #2aebad, #21c08d);
+      color: #032217;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 6px;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      width: 100%;
+      transition: filter 0.15s, transform 0.1s;
+    }
+    .btn-fer:hover  { filter: brightness(0.94); }
+    .btn-fer:active { transform: scale(0.97); }
+
+    .btn-sel {
+      background: #1e2a3a;
+      color: #9fb0ff;
+      border: 2px solid #3a4a60;
+      border-radius: 8px;
+      padding: 10px 6px;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      width: 100%;
+      transition: all 0.15s;
+    }
+    .btn-sel:hover { background: #27304a; border-color: #6ae0a7; color: #6ae0a7; }
+    .btn-sel.actiu {
+      background: #1a3a2a;
+      border-color: #6ae0a7;
+      color: #6ae0a7;
+    }
+
+    /* ── Veure més ── */
+    .veure-mes-btn {
+      display: none;
+      width: 100%;
+      padding: 14px;
+      margin-top: 4px;
+      background: #141a2a;
+      color: #9fb0ff;
+      border: 2px dashed #3a4560;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+      transition: background 0.2s, border-color 0.2s, color 0.2s;
+    }
+    .veure-mes-btn:hover {
+      background: #1e2440;
+      border-color: #6ae0a7;
+      color: #6ae0a7;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      body { font-size: 17px; }
+
+      .container {
+        width: calc(100% - 10px);
+        margin: 76px auto 24px;
+        padding: 16px 10px 14px;
+        border-radius: 12px;
+      }
+
+      h1 { font-size: 1.45em; margin-bottom: 18px; }
+
+      .hamburger { width: 48px; height: 48px; top: 12px; right: 12px; }
+
+      .menu-panel { top: 12px; right: 12px; min-width: 210px; }
+      .menu-close, .menu-action { min-height: 46px; font-size: 1rem; }
+
+      /* Mobile card: vertical split */
+      .test-card { flex-direction: column; }
+
+      .card-info { padding: 14px 14px 10px; }
+      .card-name  { font-size: 1.05em; }
+      .card-date  { font-size: 0.9em; }
+
+      .card-actions {
+        flex-direction: row;
+        border-left: none;
+        border-top: 1.5px solid #27304a;
+        padding: 12px 14px;
+        min-width: 0;
+        gap: 10px;
+      }
+
+      .btn-fer, .btn-sel {
+        flex: 1;
+        padding: 13px 8px;
+        font-size: 1rem;
+      }
+
+      .veure-mes-btn { font-size: 1.05rem; padding: 16px; }
+    }
+
+    @media (max-width: 380px) {
+      body { font-size: 18px; }
+      h1   { font-size: 1.3em; }
+      .menu-panel { left: 8px; right: 8px; min-width: 0; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- Hamburger -->
+  <button class="hamburger" id="menuBtn" aria-label="Obrir menú">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- Menu panel -->
+  <div class="menu-panel" id="menuPanel">
+    <button class="menu-close" id="menuCloseBtn">☰ Tancar</button>
+    <button class="menu-action" id="menuAtrasBtn">⬅️ Atrás</button>
+    <button class="menu-action" id="menuIndexBtn">👨‍💻 Menu</button>
+    <hr class="menu-sep">
+    <button class="menu-action" id="menuCopiarBtn">📋 Copiar <span id="copiarCount">0</span></button>
+    <button class="menu-action primary" id="menuFerTestBtn">📝 Fer <span id="ferTestCount">0</span> test</button>
+  </div>
+
+  <!-- Main -->
+  <div class="container">
+    <h1>Últims tests afegits</h1>
+    <div id="cardList"></div>
+    <button type="button" id="vereMesBtn" class="veure-mes-btn">Veure més</button>
+  </div>
+
+  <script>
+    const PAGE_SIZE = 10;
+    let allFiles    = [];
+    let shownCount  = 0;
+    const selectedFiles = new Set();
+
+    const cardList  = document.getElementById('cardList');
+    const vereMesBtn = document.getElementById('vereMesBtn');
+
+    /* ── Selecció ── */
+    function toggleSelect(file, card, selBtn) {
+      if (selectedFiles.has(file)) {
+        selectedFiles.delete(file);
+        card.classList.remove('selected');
+        selBtn.classList.remove('actiu');
+        selBtn.textContent = 'Sel';
+      } else {
+        selectedFiles.add(file);
+        card.classList.add('selected');
+        selBtn.classList.add('actiu');
+        selBtn.textContent = '✓ Sel';
+      }
+      updateCounters();
+    }
+
+    function updateCounters() {
+      const n = selectedFiles.size;
+      document.getElementById('copiarCount').textContent  = n;
+      document.getElementById('ferTestCount').textContent = n;
+    }
+
+    /* ── Crear card ── */
+    function crearCard(item, idx) {
+      const file = item.file;
+      const hits = typeof obtenerHitsTestIniciado === 'function'
+        ? obtenerHitsTestIniciado(file) : 0;
+
+      const card = document.createElement('div');
+      card.className = 'test-card';
+      card.dataset.file = file;
+
+      /* Info (esquerra) */
+      const info = document.createElement('div');
+      info.className = 'card-info';
+
+      const name = document.createElement('div');
+      name.className = 'card-name';
+      name.textContent = file;
+
+      const meta = document.createElement('div');
+      meta.className = 'card-meta';
+
+      if (hits > 0) {
+        const badge = document.createElement('span');
+        badge.className = 'hits-badge';
+        badge.textContent = `#${hits}`;
+        meta.appendChild(badge);
+      }
+
+      const date = document.createElement('span');
+      date.className = 'card-date';
+      date.textContent = item.updated;
+      meta.appendChild(date);
+
+      info.appendChild(name);
+      info.appendChild(meta);
+
+      /* Actions (dreta) */
+      const actions = document.createElement('div');
+      actions.className = 'card-actions';
+
+      const btnFer = document.createElement('button');
+      btnFer.className = 'btn-fer';
+      btnFer.textContent = 'Fer';
+      btnFer.addEventListener('click', () => iniciarTests([file]));
+
+      const btnSel = document.createElement('button');
+      btnSel.className = 'btn-sel';
+      btnSel.textContent = 'Select';
+      btnSel.addEventListener('click', () => toggleSelect(file, card, btnSel));
+
+      actions.appendChild(btnFer);
+      actions.appendChild(btnSel);
+
+      card.appendChild(info);
+      card.appendChild(actions);
+      return card;
+    }
+
+    /* ── Paginació ── */
+    function renderPage() {
+      const page = allFiles.slice(shownCount, shownCount + PAGE_SIZE);
+      page.forEach((item, i) => cardList.appendChild(crearCard(item, shownCount + i)));
+      shownCount += page.length;
+      const remaining = allFiles.length - shownCount;
+      if (remaining > 0) {
+        vereMesBtn.style.display = 'block';
+        vereMesBtn.textContent = `Veure més (${remaining} restants)`;
+      } else {
+        vereMesBtn.style.display = 'none';
+      }
+    }
+
+    /* ── Iniciar tests ── */
+    async function iniciarTests(files) {
+      if (!Array.isArray(files) || files.length === 0) return;
+
+      if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
+      localStorage.setItem(LS_KEYS.FITXER, JSON.stringify(files));
+
+      let preguntes = [];
+      await Promise.all(files.map(f =>
+        fetch('testfiles/' + f)
+          .then(r => r.json())
+          .then(data => {
+            if (Array.isArray(data))              preguntes = preguntes.concat(data);
+            else if (Array.isArray(data.preguntes)) preguntes = preguntes.concat(data.preguntes);
+          })
+          .catch(() => {})
+      ));
+
+      if (typeof registrarInicioTests === 'function') registrarInicioTests(files);
+      localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(files));
+      localStorage.setItem(LS_KEYS.PREGUNTES, JSON.stringify(preguntes));
+      window.location.href = 'estudiar.html';
+    }
+
+    /* ── Càrrega inicial ── */
+    fetch('./testfiles/manifest_date.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(data => { allFiles = data.files || []; renderPage(); });
+
+    vereMesBtn.addEventListener('click', renderPage);
+
+    /* ── Menú hamburguesa ── */
+    const menuBtn      = document.getElementById('menuBtn');
+    const menuPanel    = document.getElementById('menuPanel');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+
+    menuBtn.addEventListener('click', () => menuPanel.classList.toggle('visible'));
+    menuCloseBtn.addEventListener('click', () => menuPanel.classList.remove('visible'));
+    document.addEventListener('click', e => {
+      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target))
+        menuPanel.classList.remove('visible');
+    });
+
+    document.getElementById('menuAtrasBtn').addEventListener('click', () => {
+      window.history.length > 1 ? window.history.back() : window.location.href = 'index.html';
+    });
+    document.getElementById('menuIndexBtn').addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    document.getElementById('menuCopiarBtn').addEventListener('click', async () => {
+      if (selectedFiles.size === 0) return;
+      const text = [...selectedFiles].join('\n');
+      try {
+        await navigator.clipboard.writeText(text);
+        const btn = document.getElementById('menuCopiarBtn');
+        const orig = btn.innerHTML;
+        btn.textContent = `📋 Copiat (${selectedFiles.size})`;
+        setTimeout(() => { btn.innerHTML = orig; }, 1400);
+      } catch (_) {}
+    });
+
+    document.getElementById('menuFerTestBtn').addEventListener('click', () => {
+      iniciarTests([...selectedFiles]);
+    });
+  </script>
+</body>
+</html>
