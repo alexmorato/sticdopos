@@ -76,27 +76,48 @@
 
     function playTone(ctx, freq, start, duration) {
       const osc = ctx.createOscillator();
+      const vibrato = ctx.createOscillator();
+      const vibratoDepth = ctx.createGain();
+      const filter = ctx.createBiquadFilter();
       const gain = ctx.createGain();
 
-      osc.type = "sine";
-      osc.frequency.value = freq;
+      // Base suave con algo de armónicos para acercarlo a flauta
+      osc.type = "triangle";
+      osc.frequency.setValueAtTime(freq, start);
 
-      // pequeño fade para evitar clicks
+      // Vibrato sutil (expresividad típica de flauta)
+      vibrato.type = "sine";
+      vibrato.frequency.setValueAtTime(5.2, start);
+      vibratoDepth.gain.setValueAtTime(2.4, start);
+      vibrato.connect(vibratoDepth);
+      vibratoDepth.connect(osc.frequency);
+
+      // Filtro para suavizar brillo excesivo
+      filter.type = "lowpass";
+      filter.frequency.setValueAtTime(2200, start);
+      filter.Q.setValueAtTime(0.7, start);
+
+      // Envolvente más "soplada": ataque suave + release corto
       gain.gain.setValueAtTime(0.0001, start);
-      gain.gain.exponentialRampToValueAtTime(0.08, start + 0.01);
-      gain.gain.exponentialRampToValueAtTime(
-        0.0001,
-        start + duration
-      );
+      gain.gain.exponentialRampToValueAtTime(0.065, start + 0.05);
+      gain.gain.exponentialRampToValueAtTime(0.04, start + 0.18);
+      gain.gain.setValueAtTime(0.04, start + Math.max(0.18, duration - 0.08));
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
 
-      osc.connect(gain);
+      osc.connect(filter);
+      filter.connect(gain);
       gain.connect(ctx.destination);
 
       osc.start(start);
+      vibrato.start(start);
       osc.stop(start + duration);
+      vibrato.stop(start + duration);
 
       osc.onended = () => {
+        vibrato.disconnect();
+        vibratoDepth.disconnect();
         osc.disconnect();
+        filter.disconnect();
         gain.disconnect();
       };
     }
