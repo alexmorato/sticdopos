@@ -573,6 +573,23 @@
           <td class="col-servidor" id="servidorContestadesTotal">-</td>
           <td class="col-merge" id="mergeContestadesTotal">-</td>
         </tr>
+
+        <!-- Historial Tests Iniciats -->
+        <tr>
+          <td colspan="4" class="section-header">Historial Tests Iniciats</td>
+        </tr>
+        <tr>
+          <td class="col-field">Fitxers amb inici</td>
+          <td class="col-local" id="localTestsIniciadosArchivos">0</td>
+          <td class="col-servidor" id="servidorTestsIniciadosArchivos">-</td>
+          <td class="col-merge" id="mergeTestsIniciadosArchivos">-</td>
+        </tr>
+        <tr>
+          <td class="col-field">Total inicis acumulats</td>
+          <td class="col-local" id="localTestsIniciadosTotal">0</td>
+          <td class="col-servidor" id="servidorTestsIniciadosTotal">-</td>
+          <td class="col-merge" id="mergeTestsIniciadosTotal">-</td>
+        </tr>
         
         <!-- Interaccions API -->
         <tr hidden>
@@ -692,6 +709,7 @@
       const sesionParaGuardar = {
         historialFallos: window.sesionLocal.historialFallos,
         historialContestades: window.sesionLocal.historialContestades,
+        historialTestsIniciados: window.sesionLocal.historialTestsIniciados,
         interaccionesApi: window.sesionLocal.interaccionesApi
       };
       const jsonStr = JSON.stringify(sesionParaGuardar, null, 2);
@@ -732,13 +750,18 @@
             if (!Array.isArray(data.historialFallos) || typeof data.historialContestades !== 'object' || typeof data.interaccionesApi !== 'object') {
               throw new Error('El fitxer no conté una sessió vàlida.');
             }
+            const historialTestsIniciadosImportat = (data.historialTestsIniciados && typeof data.historialTestsIniciados === 'object' && !Array.isArray(data.historialTestsIniciados))
+              ? data.historialTestsIniciados
+              : {};
             // Sobrescribir localStorage
             localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(data.historialFallos));
             localStorage.setItem(LS_KEYS.HISTORIAL_CONTESTADES, JSON.stringify(data.historialContestades));
+            localStorage.setItem(LS_KEYS.HISTORIAL_TESTS_INICIADOS, JSON.stringify(historialTestsIniciadosImportat));
             localStorage.setItem(LS_KEYS.INTERACCIONES_API, JSON.stringify(data.interaccionesApi));
             // Actualizar variables globales
             window.sesionLocal.historialFallos = data.historialFallos;
             window.sesionLocal.historialContestades = data.historialContestades;
+            window.sesionLocal.historialTestsIniciados = historialTestsIniciadosImportat;
             window.sesionLocal.interaccionesApi = data.interaccionesApi;
             window.mostrarResumenLocal();
             if (window.toast && typeof window.toast.showToast === 'function') {
@@ -775,16 +798,19 @@
     window.sesionLocal = {
       historialFallos: [],
       historialContestades: {},
+      historialTestsIniciados: {},
       interaccionesApi: {}
     };
     window.sesionServidor = {
       historialFallos: [],
       historialContestades: {},
+      historialTestsIniciados: {},
       interaccionesApi: {}
     };
     window.sesionMerge = {
       historialFallos: [],
       historialContestades: {},
+      historialTestsIniciados: {},
       interaccionesApi: {}
     };
 
@@ -995,6 +1021,10 @@
         const contestadesData = localStorage.getItem(LS_KEYS.HISTORIAL_CONTESTADES);
         sesionLocal.historialContestades = contestadesData ? JSON.parse(contestadesData) : {};
 
+        // Historial Tests Iniciados
+        const testsIniciadosData = localStorage.getItem(LS_KEYS.HISTORIAL_TESTS_INICIADOS);
+        sesionLocal.historialTestsIniciados = testsIniciadosData ? JSON.parse(testsIniciadosData) : {};
+
         // Interacciones API
         const apiData = localStorage.getItem(LS_KEYS.INTERACCIONES_API);
         sesionLocal.interaccionesApi = apiData ? JSON.parse(apiData) : {};
@@ -1018,6 +1048,11 @@
       const resumenContestades = calcularResumenContestades(window.sesionLocal.historialContestades);
       document.getElementById('localContestadesPreguntas').textContent = resumenContestades.preguntas;
       document.getElementById('localContestadesTotal').textContent = resumenContestades.totalRespuestas;
+
+      // Historial Tests Iniciados
+      const resumenTestsIniciados = calcularResumenTestsIniciados(window.sesionLocal.historialTestsIniciados);
+      document.getElementById('localTestsIniciadosArchivos').textContent = resumenTestsIniciados.archivos;
+      document.getElementById('localTestsIniciadosTotal').textContent = resumenTestsIniciados.totalInicios;
 
       // Interacciones API
       const resumenApi = calcularResumenApi(window.sesionLocal.interaccionesApi, true);
@@ -1082,6 +1117,27 @@
       };
     }
 
+    function calcularResumenTestsIniciados(historialTestsIniciados) {
+      const data = (historialTestsIniciados && typeof historialTestsIniciados === 'object' && !Array.isArray(historialTestsIniciados))
+        ? historialTestsIniciados
+        : {};
+
+      const archivos = Object.keys(data).length;
+      let totalInicios = 0;
+
+      Object.values(data).forEach(value => {
+        const count = Number(value);
+        if (Number.isFinite(count) && count > 0) {
+          totalInicios += Math.floor(count);
+        }
+      });
+
+      return {
+        archivos,
+        totalInicios
+      };
+    }
+
     function calcularResumenApi(interaccionesApi, calcularRestantes = false) {
       let fecha = '-';
       let restantes = '-';
@@ -1134,6 +1190,7 @@
         // Parsear datos del servidor
         sesionServidor.historialFallos = data.sTICdOpos_historialFallos || [];
         sesionServidor.historialContestades = data.sTICdOpos_historialContestades || {};
+        sesionServidor.historialTestsIniciados = data.sTICdOpos_historialTestsIniciados || {};
         sesionServidor.interaccionesApi = data.sTICdOpos_apiInteracciones || {};
 
         mostrarResumenServidor();
@@ -1154,6 +1211,7 @@
             const dataToUpload = {
               sTICdOpos_historialFallos: sesionLocal.historialFallos,
               sTICdOpos_historialContestades: sesionLocal.historialContestades,
+              sTICdOpos_historialTestsIniciados: sesionLocal.historialTestsIniciados,
               sTICdOpos_apiInteracciones: sesionLocal.interaccionesApi
             };
 
@@ -1165,6 +1223,7 @@
             // Ahora el servidor tiene los mismos datos que local
             sesionServidor.historialFallos = [...sesionLocal.historialFallos];
             sesionServidor.historialContestades = {...sesionLocal.historialContestades};
+            sesionServidor.historialTestsIniciados = {...sesionLocal.historialTestsIniciados};
             sesionServidor.interaccionesApi = {...sesionLocal.interaccionesApi};
 
             // No hubo descarga previa real de datos remotos
@@ -1202,6 +1261,11 @@
       const resumenContestades = calcularResumenContestades(sesionServidor.historialContestades);
       document.getElementById('servidorContestadesPreguntas').textContent = resumenContestades.preguntas;
       document.getElementById('servidorContestadesTotal').textContent = resumenContestades.totalRespuestas;
+
+      // Historial Tests Iniciados
+      const resumenTestsIniciados = calcularResumenTestsIniciados(sesionServidor.historialTestsIniciados);
+      document.getElementById('servidorTestsIniciadosArchivos').textContent = resumenTestsIniciados.archivos;
+      document.getElementById('servidorTestsIniciadosTotal').textContent = resumenTestsIniciados.totalInicios;
 
       // Interacciones API
       const resumenApi = calcularResumenApi(sesionServidor.interaccionesApi, false);
@@ -1255,6 +1319,23 @@
         sesionMerge.historialContestades[key] = Math.max(valorLocal, valorServidor);
       });
 
+      // Merge Historial Tests Iniciados
+      sesionMerge.historialTestsIniciados = {};
+
+      // Copiar del local
+      Object.keys(sesionLocal.historialTestsIniciados || {}).forEach(key => {
+        sesionMerge.historialTestsIniciados[key] = sesionLocal.historialTestsIniciados[key];
+      });
+
+      // Merge con servidor
+      Object.keys(sesionServidor.historialTestsIniciados || {}).forEach(key => {
+        const valorServidor = Number(sesionServidor.historialTestsIniciados[key]);
+        const valorLocal = Number(sesionMerge.historialTestsIniciados[key] || 0);
+        const valorServidorSeguro = Number.isFinite(valorServidor) && valorServidor > 0 ? Math.floor(valorServidor) : 0;
+        const valorLocalSeguro = Number.isFinite(valorLocal) && valorLocal > 0 ? Math.floor(valorLocal) : 0;
+        sesionMerge.historialTestsIniciados[key] = Math.max(valorLocalSeguro, valorServidorSeguro);
+      });
+
       // Merge Interacciones API
       const fechaLocal = sesionLocal.interaccionesApi.fecha || '';
       const fechaServidor = sesionServidor.interaccionesApi.fecha || '';
@@ -1288,6 +1369,11 @@
       document.getElementById('mergeContestadesPreguntas').textContent = resumenContestades.preguntas;
       document.getElementById('mergeContestadesTotal').textContent = resumenContestades.totalRespuestas;
 
+      // Historial Tests Iniciados
+      const resumenTestsIniciados = calcularResumenTestsIniciados(sesionMerge.historialTestsIniciados);
+      document.getElementById('mergeTestsIniciadosArchivos').textContent = resumenTestsIniciados.archivos;
+      document.getElementById('mergeTestsIniciadosTotal').textContent = resumenTestsIniciados.totalInicios;
+
       // Interacciones API
       const resumenApi = calcularResumenApi(sesionMerge.interaccionesApi, false);
       document.getElementById('mergeApiData').textContent = resumenApi.fecha;
@@ -1309,6 +1395,7 @@
       try {
         localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(sesionMerge.historialFallos));
         localStorage.setItem(LS_KEYS.HISTORIAL_CONTESTADES, JSON.stringify(sesionMerge.historialContestades));
+        localStorage.setItem(LS_KEYS.HISTORIAL_TESTS_INICIADOS, JSON.stringify(sesionMerge.historialTestsIniciados || {}));
         localStorage.setItem(LS_KEYS.INTERACCIONES_API, JSON.stringify(sesionMerge.interaccionesApi));
 
         sesionLocal = JSON.parse(JSON.stringify(sesionMerge));
@@ -1330,6 +1417,7 @@
         const dataToUpload = {
           sTICdOpos_historialFallos: sesionMerge.historialFallos,
           sTICdOpos_historialContestades: sesionMerge.historialContestades,
+          sTICdOpos_historialTestsIniciados: sesionMerge.historialTestsIniciados || {},
           sTICdOpos_apiInteracciones: sesionMerge.interaccionesApi
         };
 
@@ -1366,6 +1454,7 @@
         const dataToUpload = {
           sTICdOpos_historialFallos: sesionLocal.historialFallos,
           sTICdOpos_historialContestades: sesionLocal.historialContestades,
+          sTICdOpos_historialTestsIniciados: sesionLocal.historialTestsIniciados || {},
           sTICdOpos_apiInteracciones: sesionLocal.interaccionesApi
         };
 
@@ -1401,6 +1490,7 @@
       try {
         localStorage.setItem(LS_KEYS.HISTORIAL_FALLOS, JSON.stringify(sesionServidor.historialFallos || []));
         localStorage.setItem(LS_KEYS.HISTORIAL_CONTESTADES, JSON.stringify(sesionServidor.historialContestades || {}));
+        localStorage.setItem(LS_KEYS.HISTORIAL_TESTS_INICIADOS, JSON.stringify(sesionServidor.historialTestsIniciados || {}));
         localStorage.setItem(LS_KEYS.INTERACCIONES_API, JSON.stringify(sesionServidor.interaccionesApi || {}));
 
         sesionLocal = JSON.parse(JSON.stringify(sesionServidor));
