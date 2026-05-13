@@ -713,6 +713,9 @@
     <button class="btn-tornar" id="tornarBtn">
       ⬅️ Tornar
     </button>
+    <button class="btn-tornar" id="menuHomeBtn">
+      👨‍💻 Menú
+    </button>
     <div class="menu-separator"></div>
     <div class="font-size-controls">
       <button class="btn-font" id="btnFontDecrease">A-</button>
@@ -775,6 +778,7 @@
     const menuCloseBtn = document.getElementById('menuCloseBtn');
     const fullscreenBtn = document.getElementById('fullscreenBtn');
     const tornarBtn = document.getElementById('tornarBtn');
+    const menuHomeBtn = document.getElementById('menuHomeBtn');
     const btnToggleToc = document.getElementById('btnToggleToc');
     const btnFontIncrease = document.getElementById('btnFontIncrease');
     const btnFontDecrease = document.getElementById('btnFontDecrease');
@@ -952,6 +956,92 @@
       });
     }
 
+    function parseImageAttributeBlock(text) {
+      const match = String(text || '').trim().match(/^\{:\s*([^}]+)\s*\}$/);
+      if (!match) {
+        return null;
+      }
+
+      const attrs = {};
+      const attrRegex = /([\w-]+)\s*=\s*"([^"]*)"/g;
+      let attrMatch;
+
+      while ((attrMatch = attrRegex.exec(match[1])) !== null) {
+        attrs[attrMatch[1].toLowerCase()] = attrMatch[2].trim();
+      }
+
+      return Object.keys(attrs).length ? attrs : null;
+    }
+
+    function applyImageSizeAttrs(img, attrs) {
+      if (!img || !attrs) {
+        return;
+      }
+
+      const widthValue = attrs.width;
+      const heightValue = attrs.height;
+
+      if (widthValue) {
+        img.style.width = widthValue;
+        img.removeAttribute('width');
+      }
+
+      if (heightValue) {
+        img.style.height = heightValue;
+        img.removeAttribute('height');
+      }
+    }
+
+    function applyMarkdownImageAttributes(container) {
+      // Caso 1: ![...](...){: width="..."}
+      const inlineCandidates = Array.from(container.querySelectorAll('p'));
+      inlineCandidates.forEach((p) => {
+        const img = p.querySelector('img');
+        if (!img) {
+          return;
+        }
+
+        const attrs = parseImageAttributeBlock(p.textContent);
+        if (!attrs) {
+          return;
+        }
+
+        applyImageSizeAttrs(img, attrs);
+
+        // Si el párrafo solo contenía la imagen y el bloque de atributos, limpiamos el texto residual.
+        if (p.childElementCount === 1 && p.firstElementChild === img) {
+          p.textContent = '';
+          p.appendChild(img);
+        }
+      });
+
+      // Caso 2: ![...](...) en una línea y {: width="..."} en la siguiente.
+      const attrParagraphs = Array.from(container.querySelectorAll('p'));
+      attrParagraphs.forEach((p) => {
+        if (p.querySelector('*')) {
+          return;
+        }
+
+        const attrs = parseImageAttributeBlock(p.textContent);
+        if (!attrs) {
+          return;
+        }
+
+        let previous = p.previousElementSibling;
+        while (previous && previous.tagName === 'BR') {
+          previous = previous.previousElementSibling;
+        }
+
+        const prevImg = previous ? previous.querySelector('img') : null;
+        if (!prevImg) {
+          return;
+        }
+
+        applyImageSizeAttrs(prevImg, attrs);
+        p.remove();
+      });
+    }
+
     function mdToHtmlWithMermaid(mdText) {
       // Render básico a HTML
       const html = marked.parse(transformGitHubAlerts(mdText));
@@ -960,6 +1050,7 @@
       const container = document.getElementById("content");
       container.innerHTML = html;
 
+      applyMarkdownImageAttributes(container);
       replaceUnsupportedEmbeddedImages(container);
 
       // Busca bloques de código "mermaid" y reemplázalos por <div class="mermaid">...</div>
@@ -1380,6 +1471,11 @@
     // Botón tornar
     tornarBtn.addEventListener('click', () => {
       tiraPaAtras();
+    });
+
+    // Botón menú (home)
+    menuHomeBtn.addEventListener('click', () => {
+      window.location.href = 'index.html';
     });
 
     // Capturar tecla Backspace para volver atrás
