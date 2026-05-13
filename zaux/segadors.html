@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Melodía Web Audio API</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    button {
+      padding: 14px 28px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      background: #4caf50;
+      color: white;
+    }
+
+    button:hover {
+      background: #66bb6a;
+    }
+
+    pre {
+      margin-top: 20px;
+      background: #222;
+      padding: 12px;
+      border-radius: 8px;
+      color: #9cff9c;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎵 Prueba de Melodía</h1>
+
+  <button onclick="playMelody()">
+    Reproducir
+  </button>
+
+  <pre id="info"></pre>
+
+  <script>
+    // Frecuencias de notas
+    const NOTES = {
+      G4: 392.00,
+      A4: 440.00,
+      Bb4: 466.16,
+      C5: 523.25
+    };
+
+    // Melodía basada en tu imagen
+    const melody = [
+      ["G4", 0.40],
+      ["A4", 0.20],
+      ["Bb4", 0.50],
+      ["C5", 0.30],
+      ["A4", 0.30],
+      ["Bb4", 0.30],
+      ["G4", 0.80]
+    ];
+
+    document.getElementById("info").textContent =
+      JSON.stringify(melody, null, 2);
+
+    function playTone(ctx, freq, start, duration) {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = "sine";
+      osc.frequency.value = freq;
+
+      // pequeño fade para evitar clicks
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(0.08, start + 0.01);
+      gain.gain.exponentialRampToValueAtTime(
+        0.0001,
+        start + duration
+      );
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(start);
+      osc.stop(start + duration);
+
+      osc.onended = () => {
+        osc.disconnect();
+        gain.disconnect();
+      };
+    }
+
+    function playMelody() {
+      const ctx = new (
+        window.AudioContext ||
+        window.webkitAudioContext
+      )();
+
+      let time = ctx.currentTime;
+
+      for (const [note, duration] of melody) {
+        const freq = NOTES[note];
+
+        if (freq) {
+          playTone(ctx, freq, time, duration);
+        }
+
+        time += duration;
+      }
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Grabador de Melodías</title>
+
+<style>
+  body{
+    font-family: Arial, sans-serif;
+    background:#111;
+    color:white;
+    padding:20px;
+    max-width:900px;
+    margin:auto;
+  }
+
+  textarea{
+    width:100%;
+    height:120px;
+    margin-top:10px;
+    background:#222;
+    color:#0f0;
+    border:1px solid #555;
+    padding:10px;
+    font-size:16px;
+  }
+
+  button{
+    padding:10px 16px;
+    margin:5px;
+    font-size:16px;
+    cursor:pointer;
+  }
+
+  .current{
+    font-size:48px;
+    margin:30px 0;
+    color:#ffd54f;
+  }
+
+  .small{
+    opacity:0.7;
+    font-size:14px;
+  }
+
+  pre{
+    background:#222;
+    padding:10px;
+    border-radius:8px;
+    overflow:auto;
+  }
+</style>
+</head>
+<body>
+
+<h1>🎵 Grabador de melodías</h1>
+
+<p>
+Pega notas separadas por espacios.<br>
+Cada vez que pulses <b>ENTER</b>:
+</p>
+
+<ul>
+  <li>suena la nota</li>
+  <li>se registra el tiempo desde la nota anterior</li>
+  <li>avanza a la siguiente</li>
+</ul>
+
+<textarea id="notesInput">
+LA SI DO RE SI DO LA
+DO RE MI MI SOL MI RE DO
+</textarea>
+
+<br>
+
+<button onclick="start()">Iniciar</button>
+<button onclick="playJson()">▶ Reproducir JSON</button>
+
+<div class="current" id="current">-</div>
+
+<div class="small">
+ENTER = siguiente nota
+</div>
+
+<h2>JSON grabado</h2>
+
+<textarea id="output"></textarea>
+
+<script>
+
+///////////////////////////////////////////////////////////
+// FRECUENCIAS
+///////////////////////////////////////////////////////////
+
+const NOTES = {
+  DO: 261.63,
+  RE: 293.66,
+  MI: 329.63,
+  FA: 349.23,
+  SOL: 392.00,
+  LA: 440.00,
+  SI: 493.88
+};
+
+///////////////////////////////////////////////////////////
+// ESTADO
+///////////////////////////////////////////////////////////
+
+let notes = [];
+let currentIndex = 0;
+let lastTime = 0;
+let melody = [];
+
+///////////////////////////////////////////////////////////
+// AUDIO
+///////////////////////////////////////////////////////////
+
+const audioCtx =
+  new (window.AudioContext || window.webkitAudioContext)();
+
+function playFreq(freq, duration = 0.35){
+
+  const osc = audioCtx.createOscillator();
+  const gain = audioCtx.createGain();
+
+  osc.type = "triangle";
+  osc.frequency.value = freq;
+
+  gain.gain.setValueAtTime(0.0001, audioCtx.currentTime);
+  gain.gain.exponentialRampToValueAtTime(
+    0.08,
+    audioCtx.currentTime + 0.01
+  );
+
+  gain.gain.exponentialRampToValueAtTime(
+    0.0001,
+    audioCtx.currentTime + duration
+  );
+
+  osc.connect(gain);
+  gain.connect(audioCtx.destination);
+
+  osc.start();
+  osc.stop(audioCtx.currentTime + duration);
+}
+
+///////////////////////////////////////////////////////////
+// INICIAR
+///////////////////////////////////////////////////////////
+
+function start(){
+
+  const txt =
+    document.getElementById("notesInput").value;
+
+  notes = txt
+    .replace(/\n/g, " ")
+    .split(/\s+/)
+    .filter(Boolean);
+
+  currentIndex = 0;
+  melody = [];
+
+  lastTime = performance.now();
+
+  updateCurrent();
+
+  console.log(notes);
+}
+
+///////////////////////////////////////////////////////////
+// UI
+///////////////////////////////////////////////////////////
+
+function updateCurrent(){
+
+  if(currentIndex >= notes.length){
+    document.getElementById("current").innerText =
+      "FIN";
+
+    return;
+  }
+
+  document.getElementById("current").innerText =
+    notes[currentIndex];
+}
+
+///////////////////////////////////////////////////////////
+// ENTER
+///////////////////////////////////////////////////////////
+
+document.addEventListener("keydown", (e)=>{
+
+  if(e.key !== "Enter") return;
+
+  e.preventDefault();
+
+  if(currentIndex >= notes.length) return;
+
+  const note = notes[currentIndex];
+
+  const now = performance.now();
+
+  const delta =
+    (now - lastTime) / 1000;
+
+  lastTime = now;
+
+  const freq = NOTES[note];
+
+  if(freq){
+    playFreq(freq);
+  }
+
+  melody.push({
+    note,
+    time: Number(delta.toFixed(3))
+  });
+
+  document.getElementById("output").value =
+    JSON.stringify(melody, null, 2);
+
+  currentIndex++;
+
+  updateCurrent();
+
+});
+
+///////////////////////////////////////////////////////////
+// REPRODUCIR JSON
+///////////////////////////////////////////////////////////
+
+function playJson(){
+
+  const txt =
+    document.getElementById("output").value;
+
+  if(!txt.trim()) return;
+
+  const data = JSON.parse(txt);
+
+  let t = audioCtx.currentTime;
+
+  for(const item of data){
+
+    const freq = NOTES[item.note];
+
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+
+    osc.type = "triangle";
+    osc.frequency.value = freq;
+
+    gain.gain.setValueAtTime(0.0001, t);
+    gain.gain.exponentialRampToValueAtTime(
+      0.08,
+      t + 0.01
+    );
+
+    gain.gain.exponentialRampToValueAtTime(
+      0.0001,
+      t + item.time
+    );
+
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+
+    osc.start(t);
+    osc.stop(t + item.time);
+
+    t += item.time;
+  }
+}
+
+</script>
+
+</body>
+</html>

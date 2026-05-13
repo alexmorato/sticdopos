@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>🎼 Lector de Partituras JSON | Reproductor Web Audio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: radial-gradient(circle at 10% 20%, #0a0f1e, #03060c);
+            font-family: 'Inter', system-ui, 'Segoe UI', 'Roboto', sans-serif;
+            padding: 2rem 1.5rem;
+            color: #eef4ff;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* header */
+        .header {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            border-bottom: 1px solid #2e3a5e;
+            padding-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 700;
+            background: linear-gradient(120deg, #ffffff, #b2cdff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .sub {
+            color: #98a9dd;
+            font-size: 0.85rem;
+        }
+
+        /* tarjetas */
+        .card {
+            background: rgba(12, 17, 29, 0.75);
+            backdrop-filter: blur(4px);
+            border-radius: 1.8rem;
+            border: 1px solid #293150;
+            padding: 1.4rem 1.8rem;
+            margin-bottom: 1.8rem;
+            transition: 0.2s;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border-left: 4px solid #5d7dfa;
+            padding-left: 12px;
+        }
+
+        .flex-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        button, .file-label {
+            background: #1f2642;
+            border: none;
+            padding: 0.5rem 1.2rem;
+            border-radius: 2.2rem;
+            font-weight: 500;
+            font-size: 0.85rem;
+            color: #eef4ff;
+            cursor: pointer;
+            transition: 0.1s linear;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            border-bottom: 1px solid #35416e;
+        }
+
+        button.primary {
+            background: #4c6ef5;
+            color: white;
+            box-shadow: 0 2px 8px #4c6ef570;
+        }
+
+        button.warning {
+            background: #c97e2c;
+        }
+
+        button.danger {
+            background: #b13e4b;
+        }
+
+        button.success {
+            background: #2a8c5e;
+        }
+
+        button:active {
+            transform: translateY(1px);
+        }
+
+        textarea {
+            width: 100%;
+            background: #070c1a;
+            border: 1px solid #2b345a;
+            border-radius: 1.2rem;
+            padding: 0.9rem;
+            color: #e0eaff;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.8rem;
+            resize: vertical;
+        }
+
+        .info-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        .info-badge {
+            background: #10162c;
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+        }
+
+        /* partitura (score) */
+        .score-container {
+            max-height: 320px;
+            overflow-y: auto;
+            background: #03060f;
+            border-radius: 1.2rem;
+            padding: 0.8rem;
+        }
+
+        .measure-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: start;
+        }
+
+        .measure-card {
+            background: #0b1022;
+            border-radius: 1rem;
+            padding: 0.8rem;
+            min-width: 180px;
+            border-left: 3px solid #4c6ef5;
+            transition: all 0.1s;
+        }
+
+        .measure-card.active-measure {
+            background: #1c264a;
+            border-left: 4px solid #ffb347;
+            box-shadow: 0 0 8px #ffb34740;
+        }
+
+        .measure-header {
+            font-weight: 700;
+            font-size: 0.8rem;
+            color: #b9cdff;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .note-chip-score {
+            display: inline-block;
+            background: #19203e;
+            border-radius: 20px;
+            padding: 0.2rem 0.6rem;
+            margin: 0.2rem 0.3rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            font-family: monospace;
+        }
+
+        .note-chip-score.highlight {
+            background: #f0a34b;
+            color: #0a0f1e;
+            box-shadow: 0 0 5px orange;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #242a48;
+            border-radius: 10px;
+            margin: 0.6rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, #5d7dfa, #b877f0);
+            border-radius: 10px;
+        }
+
+        .transport-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .json-preview {
+            background: #070b17;
+            padding: 0.7rem;
+            border-radius: 1rem;
+            font-size: 0.7rem;
+            font-family: monospace;
+            overflow-x: auto;
+            max-height: 200px;
+        }
+
+        .current-playing {
+            font-size: 1rem;
+            background: #00000055;
+            padding: 0.2rem 0.8rem;
+            border-radius: 30px;
+            display: inline-block;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.7rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div>
+            <h1>📖 lectorPartituraJSON</h1>
+            <div class="sub">🎵 reproduce fielmente duraciones · compases · notas · Web Audio</div>
+        </div>
+        <div class="info-badge">🎚️ AudioContext · osciladores sine</div>
+    </div>
+
+    <!-- Carga de JSON -->
+    <div class="card">
+        <div class="card-title">📂 1. Cargar partitura (JSON)</div>
+        <div class="flex-row" style="margin-bottom: 12px;">
+            <input type="file" id="jsonFileInput" accept=".json" style="display:none;">
+            <button id="uploadBtn" class="primary">📁 Subir archivo .json</button>
+            <button id="loadExampleBtn" class="success">🎼 Cargar ejemplo (G major)</button>
+        </div>
+        <textarea id="jsonRawInput" rows="4" placeholder="Pega aquí tu JSON ..."></textarea>
+        <div style="margin-top: 12px;">
+            <button id="parseJsonBtn">📌 Analizar y renderizar partitura</button>
+        </div>
+    </div>
+
+    <!-- Info obra y metadatos -->
+    <div class="card" id="metadataPanel" style="display: none;">
+        <div class="card-title">🎶 Metadatos</div>
+        <div id="metaContent" class="info-grid"></div>
+    </div>
+
+    <!-- Reproductor -->
+    <div class="card">
+        <div class="card-title">🎹 Reproductor · timing real</div>
+        <div class="progress-bar">
+            <div id="playProgressFill" class="progress-fill"></div>
+        </div>
+        <div class="flex-row" style="justify-content: space-between;">
+            <span id="currentTimeLabel">0:00.0</span>
+            <span id="totalDurationLabel">0:00.0</span>
+        </div>
+        <div class="transport-buttons">
+            <button id="playBtn" class="primary">▶️ Play (desde inicio)</button>
+            <button id="pauseBtn" class="warning">⏸️ Pausa</button>
+            <button id="resumeBtn" class="success">🔄 Reanudar (desde pausa)</button>
+            <button id="stopBtn" class="danger">⏹️ Stop</button>
+        </div>
+        <div class="current-playing" id="nowPlayingInfo">⚡ Esperando reproducción</div>
+    </div>
+
+    <!-- Score Visual (partitura) -->
+    <div class="card">
+        <div class="card-title">🎼 Partitura · compases y notas</div>
+        <div id="scoreVisual" class="score-container">
+            <div style="text-align:center; opacity:0.6;">Carga un JSON para ver la partitura</div>
+        </div>
+    </div>
+
+    <!-- Vista resumen JSON cargado -->
+    <div class="card">
+        <div class="card-title">📄 Extracto JSON (estructura)</div>
+        <div id="jsonPreviewBlock" class="json-preview">—</div>
+    </div>
+</div>
+<footer>✔️ Usa duraciones en ms (duration_ms) · Programación precisa con Web Audio · Soporta FA#, alteraciones y cualquier frecuencia</footer>
+
+<script>
+    // ---------- Global Audio ----------
+    let audioCtx = null;
+    let activeOscillators = [];     // osciladores actualmente sonando (o programados)
+    let playbackScheduled = false;
+    let playbackInterval = null;     // para actualizar barra
+    let flatNotes = [];              // lista plana { note, freq, durationMs, startMs, measureIdx, noteIdx }
+    let totalDurationMs = 0;
+    let currentElapsedMs = 0;        // tiempo transcurrido en pausa/stop
+    let isPlaying = false;
+    let playbackStartTime = 0;       // audioCtx.currentTime cuando comenzó la reproducción (base)
+    let scheduledEventsArray = [];    // guardar referencias para limpieza (no crítico pero útil)
+    let currentHighlightIndex = -1;
+    let measuresData = [];            // almacenar medidas originales para render
+    let currentJsonData = null;       // objeto json activo
+
+    // auxiliares
+    function initAudio() {
+        if (!audioCtx) {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+        if (audioCtx.state === 'suspended') {
+            audioCtx.resume();
+        }
+    }
+
+    // Detener todos los sonidos y cancelar programación
+    function killAllSounds() {
+        for (let osc of activeOscillators) {
+            try { osc.stop(); } catch(e) {}
+            try { osc.disconnect(); } catch(e) {}
+        }
+        activeOscillators = [];
+        if (playbackInterval) {
+            clearInterval(playbackInterval);
+            playbackInterval = null;
+        }
+        isPlaying = false;
+        playbackScheduled = false;
+        // remover highlight visual
+        removeHighlightFromScore();
+    }
+
+    function removeHighlightFromScore() {
+        document.querySelectorAll('.note-chip-score').forEach(el => {
+            el.classList.remove('highlight');
+        });
+        document.querySelectorAll('.measure-card').forEach(card => {
+            card.classList.remove('active-measure');
+        });
+    }
+
+    function highlightNoteAndMeasure(globalNoteIndex) {
+        if (!flatNotes.length || globalNoteIndex < 0 || globalNoteIndex >= flatNotes.length) return;
+        removeHighlightFromScore();
+        const note = flatNotes[globalNoteIndex];
+        const measureIdx = note.measureIdx;
+        // resaltar compás
+        const measureDiv = document.getElementById(`measure-${measureIdx}`);
+        if (measureDiv) measureDiv.classList.add('active-measure');
+        // resaltar nota específica dentro del compás
+        const noteId = `note-${measureIdx}-${note.noteIdx}`;
+        const noteSpan = document.getElementById(noteId);
+        if (noteSpan) noteSpan.classList.add('highlight');
+        // mostrar info
+        const nowPlayingDiv = document.getElementById('nowPlayingInfo');
+        nowPlayingDiv.innerHTML = `🎵 Nota: ${note.note} (${note.freq.toFixed(1)} Hz) · compás ${measureIdx+1} · duración ${note.durationMs}ms`;
+    }
+
+    // Renderizar la partitura visual con compases y notas
+    function renderScoreFromMeasures(measures, keyInfo) {
+        if (!measures || !measures.length) {
+            document.getElementById('scoreVisual').innerHTML = '<div style="text-align:center; opacity:0.6;">No hay compases para mostrar</div>';
+            return;
+        }
+        let html = '<div class="measure-grid">';
+        measures.forEach((measure, idx) => {
+            const timeSig = measure.time_signature || '?/?';
+            html += `<div class="measure-card" id="measure-${idx}" data-measure="${idx}">
+                        <div class="measure-header">
+                            <span>📌 Compás ${measure.measure || idx+1}</span>
+                            <span>${timeSig}</span>
+                        </div>
+                        <div>`;
+            measure.notes.forEach((note, nidx) => {
+                const noteName = note.note || '?';
+                const durName = note.duration || '';
+                html += `<span class="note-chip-score" id="note-${idx}-${nidx}" data-measure="${idx}" data-noteidx="${nidx}" data-note="${noteName}">
+                            ${noteName} ${durName ? `(${durName})` : ''}
+                         </span>`;
+            });
+            html += `</div></div>`;
+        });
+        html += '</div>';
+        document.getElementById('scoreVisual').innerHTML = html;
+    }
+
+    // Construir flatNotes desde medidas
+    function buildFlatNotes(measures) {
+        const flat = [];
+        let accumulatedStart = 0;
+        for (let mIdx = 0; mIdx < measures.length; mIdx++) {
+            const measure = measures[mIdx];
+            const notesArr = measure.notes;
+            for (let nIdx = 0; nIdx < notesArr.length; nIdx++) {
+                const n = notesArr[nIdx];
+                const durationMs = n.duration_ms;
+                if (!durationMs || typeof durationMs !== 'number') continue;
+                const freq = n.freq || (() => { throw new Error('freq missing'); })();
+                flat.push({
+                    note: n.note,
+                    freq: freq,
+                    durationMs: durationMs,
+                    startMs: accumulatedStart,
+                    measureIdx: mIdx,
+                    noteIdx: nIdx,
+                    rawDurationName: n.duration || ''
+                });
+                accumulatedStart += durationMs;
+            }
+        }
+        totalDurationMs = accumulatedStart;
+        return flat;
+    }
+
+    // programar reproducción desde un offsetMs (milisegundos)
+    function scheduleFromOffset(offsetMs) {
+        if (!audioCtx) initAudio();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        killAllSounds(); // limpia todo lo anterior
+        if (!flatNotes.length) return false;
+
+        // encontrar primera nota a partir de offsetMs
+        let startIndex = 0;
+        while (startIndex < flatNotes.length && flatNotes[startIndex].startMs + flatNotes[startIndex].durationMs <= offsetMs) {
+            startIndex++;
+        }
+        if (startIndex >= flatNotes.length) {
+            // ya terminó
+            isPlaying = false;
+            document.getElementById('nowPlayingInfo').innerHTML = '🏁 Reproducción finalizada.';
+            return false;
+        }
+
+        const firstNote = flatNotes[startIndex];
+        let baseOffset = offsetMs;
+        // si offset está dentro de una nota (reprogramamos desde el inicio de esa nota, simple pero funcional)
+        if (offsetMs > firstNote.startMs && offsetMs < firstNote.startMs + firstNote.durationMs) {
+            // empezamos desde el comienzo de esa nota (evitamos corte brusco)
+            baseOffset = firstNote.startMs;
+            startIndex = startIndex; // reajustar
+        } else {
+            // si offset justo al inicio o entre notas, empezamos desde la nota que corresponda
+            if (offsetMs > firstNote.startMs) baseOffset = firstNote.startMs;
+        }
+
+        const nowAudio = audioCtx.currentTime;
+        const startBaseTime = nowAudio + 0.05; // pequeño offset de seguridad
+        let scheduledCount = 0;
+        for (let i = startIndex; i < flatNotes.length; i++) {
+            const note = flatNotes[i];
+            const relativeStartSec = (note.startMs - baseOffset) / 1000.0;
+            if (relativeStartSec < 0) continue; // seguridad
+            const absStartTime = startBaseTime + relativeStartSec;
+            const absEndTime = absStartTime + (note.durationMs / 1000.0);
+            // crear oscilador
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = 'sine';
+            osc.frequency.value = note.freq;
+            gain.gain.value = 0;
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            // envelope suave
+            const startEnv = absStartTime;
+            gain.gain.setValueAtTime(0, startEnv);
+            gain.gain.linearRampToValueAtTime(0.55, startEnv + 0.008);
+            gain.gain.setValueAtTime(0.55, absEndTime - 0.03);
+            gain.gain.linearRampToValueAtTime(0, absEndTime);
+            osc.start(absStartTime);
+            osc.stop(absEndTime + 0.02);
+            activeOscillators.push(osc);
+            // guardar metadata para highlight (callback)
+            const noteIndexGlobal = i;
+            // setTimeout para resaltar visualmente durante la nota (usando la duración)
+            const highlightTimeout = setTimeout(() => {
+                if (isPlaying && noteIndexGlobal === currentHighlightIndex) return;
+                currentHighlightIndex = noteIndexGlobal;
+                highlightNoteAndMeasure(noteIndexGlobal);
+            }, relativeStartSec * 1000);
+            // liberar timeout después de la nota
+            const clearHighlightTimer = setTimeout(() => {
+                if (currentHighlightIndex === noteIndexGlobal && isPlaying) {
+                    // no eliminar hasta que pase
+                }
+            }, (relativeStartSec + note.durationMs/1000) * 1000);
+            scheduledEventsArray.push(highlightTimeout, clearHighlightTimer);
+            // evento opcional para terminar
+            osc.onended = () => {
+                const idx = activeOscillators.indexOf(osc);
+                if (idx !== -1) activeOscillators.splice(idx,1);
+            };
+        }
+        // calcular duracion total programada
+        const lastNote = flatNotes[flatNotes.length-1];
+        const totalPlaySec = (lastNote.startMs + lastNote.durationMs - baseOffset) / 1000;
+        // tiempo final natural
+        const finishTimer = setTimeout(() => {
+            if (isPlaying) {
+                isPlaying = false;
+                document.getElementById('nowPlayingInfo').innerHTML = '✅ Reproducción completada.';
+                removeHighlightFromScore();
+                if (playbackInterval) clearInterval(playbackInterval);
+                playbackInterval = null;
+            }
+        }, totalPlaySec * 1000 + 200);
+        scheduledEventsArray.push(finishTimer);
+        // actualizar barra progreso
+        if (playbackInterval) clearInterval(playbackInterval);
+        playbackInterval = setInterval(() => {
+            if (!isPlaying) return;
+            const nowReal = audioCtx.currentTime;
+            const elapsedFromStart = (nowReal - startBaseTime) * 1000 + baseOffset;
+            let elapsed = Math.min(Math.max(elapsedFromStart, 0), totalDurationMs);
+            currentElapsedMs = elapsed;
+            updateProgressUI(elapsed);
+            // buscar nota actual para highlight
+            let foundIdx = -1;
+            for (let i=0; i<flatNotes.length; i++) {
+                if (elapsed >= flatNotes[i].startMs && elapsed < flatNotes[i].startMs+flatNotes[i].durationMs) {
+                    foundIdx = i;
+                    break;
+                }
+            }
+            if (foundIdx !== -1 && foundIdx !== currentHighlightIndex) {
+                currentHighlightIndex = foundIdx;
+                highlightNoteAndMeasure(foundIdx);
+            }
+            if (elapsed >= totalDurationMs - 10) {
+                // finalizar
+                if (isPlaying) {
+                    isPlaying = false;
+                    clearInterval(playbackInterval);
+                    playbackInterval = null;
+                    document.getElementById('nowPlayingInfo').innerHTML = '🏁 Fin de la pieza';
+                    removeHighlightFromScore();
+                }
+            }
+        }, 30);
+        isPlaying = true;
+        playbackScheduled = true;
+        return true;
+    }
+
+    function updateProgressUI(msElapsed) {
+        const percent = totalDurationMs ? (msElapsed / totalDurationMs) * 100 : 0;
+        document.getElementById('playProgressFill').style.width = `${Math.min(percent,100)}%`;
+        const currentSec = msElapsed / 1000;
+        const totalSec = totalDurationMs / 1000;
+        document.getElementById('currentTimeLabel').innerText = formatTime(currentSec);
+        document.getElementById('totalDurationLabel').innerText = formatTime(totalSec);
+    }
+
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = (seconds % 60).toFixed(1);
+        return `${mins}:${secs.padStart(4,'0')}`;
+    }
+
+    function stopPlayback() {
+        killAllSounds();
+        isPlaying = false;
+        playbackScheduled = false;
+        currentElapsedMs = 0;
+        updateProgressUI(0);
+        document.getElementById('nowPlayingInfo').innerHTML = '⏹️ Detenido.';
+        removeHighlightFromScore();
+        currentHighlightIndex = -1;
+        if (playbackInterval) { clearInterval(playbackInterval); playbackInterval = null; }
+        // limpiar timeouts pendientes
+        for (let t of scheduledEventsArray) clearTimeout(t);
+        scheduledEventsArray = [];
+    }
+
+    function pausePlayback() {
+        if (!isPlaying) return;
+        // guardamos elapsed actual
+        if (playbackInterval) clearInterval(playbackInterval);
+        playbackInterval = null;
+        // matar sonido y timers
+        for (let osc of activeOscillators) {
+            try { osc.stop(); } catch(e) {}
+            try { osc.disconnect(); } catch(e) {}
+        }
+        activeOscillators = [];
+        for (let t of scheduledEventsArray) clearTimeout(t);
+        scheduledEventsArray = [];
+        isPlaying = false;
+        playbackScheduled = false;
+        document.getElementById('nowPlayingInfo').innerHTML = `⏸️ Pausado en ${formatTime(currentElapsedMs/1000)}`;
+        removeHighlightFromScore();
+    }
+
+    function resumeFromPause() {
+        if (isPlaying) return;
+        if (!flatNotes.length) return;
+        if (currentElapsedMs >= totalDurationMs) {
+            // si terminó reiniciar
+            currentElapsedMs = 0;
+            updateProgressUI(0);
+        }
+        initAudio();
+        scheduleFromOffset(currentElapsedMs);
+    }
+
+    function playFromStart() {
+        stopPlayback();
+        currentElapsedMs = 0;
+        updateProgressUI(0);
+        if (!flatNotes.length) return;
+        initAudio();
+        scheduleFromOffset(0);
+    }
+
+    // Parsear JSON y cargar todo
+    function loadJsonData(jsonObj) {
+        try {
+            if (!jsonObj.measures || !Array.isArray(jsonObj.measures)) throw new Error('El JSON debe contener "measures" array');
+            currentJsonData = jsonObj;
+            measuresData = jsonObj.measures;
+            // construir flat notes
+            flatNotes = buildFlatNotes(measuresData);
+            if (!flatNotes.length) throw new Error('No se encontraron notas con duration_ms válidos');
+            // mostrar metadatos
+            const meta = jsonObj.meta || {};
+            const keySig = jsonObj.key_signature || jsonObj.key || 'Desconocida';
+            const tempo = meta.tempo_bpm || '120';
+            document.getElementById('metadataPanel').style.display = 'block';
+            document.getElementById('metaContent').innerHTML = `
+                <div class="info-badge">🎼 Tonalidad: ${jsonObj.key || '?'} (${keySig})</div>
+                <div class="info-badge">🎚️ Tempo sugerido: ${tempo} BPM</div>
+                <div class="info-badge">📊 Compases: ${jsonObj.measures.length}</div>
+                <div class="info-badge">🎵 Notas totales: ${flatNotes.length}</div>
+                <div class="info-badge">⏱️ Duración total: ${(totalDurationMs/1000).toFixed(1)} seg</div>
+            `;
+            // render partitura
+            renderScoreFromMeasures(measuresData, keySig);
+            // actualizar preview JSON
+            document.getElementById('jsonPreviewBlock').innerHTML = `<pre style="margin:0;">${JSON.stringify({
+                key: jsonObj.key,
+                measures_count: jsonObj.measures.length,
+                total_notes: flatNotes.length,
+                total_ms: totalDurationMs
+            }, null, 2)}</pre>`;
+            // resetear reproductor
+            stopPlayback();
+            currentElapsedMs = 0;
+            updateProgressUI(0);
+            document.getElementById('nowPlayingInfo').innerHTML = '✅ Partitura cargada. Dale Play.';
+            return true;
+        } catch (err) {
+            alert(`Error al procesar JSON: ${err.message}`);
+            console.error(err);
+            return false;
+        }
+    }
+
+    // ejemplo precargado (datos del enunciado)
+    function loadExample() {
+        const exampleJSON = {
+  "key": "G major",
+  "key_signature": "1 sharp (F#)",
+  "measures": [
+    { "measure": 1,"time_signature": "3/4","notes": [{ "note": "SI","octave": 4,"freq": 493.88,"duration": "corchea_con_puntillo","duration_ms": 450},{ "note": "LA","octave": 4,"freq": 440.00,"duration": "semicorchea","duration_ms": 150},{ "note": "SOL","octave": 4,"freq": 392.00,"duration": "corchea","duration_ms": 300},{ "note": "FA#","octave": 4,"freq": 369.99,"duration": "corchea","duration_ms": 300}] },
+    { "measure": 2,"time_signature": "3/4","notes": [{ "note": "SOL","octave": 4,"freq": 392.00,"duration": "blanca","duration_ms": 1200},{ "note": "SI","octave": 4,"freq": 493.88,"duration": "corchea_con_puntillo","duration_ms": 450},{ "note": "LA","octave": 4,"freq": 440.00,"duration": "semicorchea","duration_ms": 150}] },
+    { "measure": 3,"time_signature": "3/4","notes": [{ "note": "SOL","octave": 4,"freq": 392.00,"duration": "corchea_con_puntillo","duration_ms": 450},{ "note": "FA#","octave": 4,"freq": 369.99,"duration": "semicorchea","duration_ms": 150},{ "note": "MI","octave": 4,"freq": 329.63,"duration": "corchea","duration_ms": 300},{ "note": "RE","octave": 4,"freq": 293.66,"duration": "corchea","duration_ms": 300}] },
+    { "measure": 4,"time_signature": "3/4","notes": [{ "note": "MI","octave": 4,"freq": 329.63,"duration": "corchea_con_puntillo","duration_ms": 450},{ "note": "RE","octave": 4,"freq": 293.66,"duration": "semicorchea","duration_ms": 150},{ "note": "DO","octave": 5,"freq": 523.25,"duration": "corchea","duration_ms": 300},{ "note": "SI","octave": 4,"freq": 493.88,"duration": "corchea","duration_ms": 300}] },
+    { "measure": 5,"time_signature": "3/4","notes": [{ "note": "LA","octave": 4,"freq": 440.00,"duration": "corchea_con_puntillo","duration_ms": 450},{ "note": "SOL","octave": 4,"freq": 392.00,"duration": "semicorchea","duration_ms": 150},{ "note": "FA#","octave": 4,"freq": 369.99,"duration": "corchea","duration_ms": 300},{ "note": "MI","octave": 4,"freq": 329.63,"duration": "corchea","duration_ms": 300}] }
+          ],
+  "meta": { "tempo_bpm": 120, "negra_ms": 500, "corchea_ms": 250, "semicorchea_ms": 125, "blanca_ms": 1000 }
+        };
+        // extender con más measures para fidelidad (aunque el ejemplo inicial es reducido pero funcional)
+        // usamos el JSON completo mostrado en el prompt (corto)
+        // reemplazar por version completa? incluimos más compases importantes
+        const fullExample = {
+  "key": "G major","key_signature": "1 sharp (F#)",
+  "measures": [
+    {"measure":1,"time_signature":"3/4","notes":[{"note":"SI","freq":493.88,"duration_ms":450},{"note":"LA","freq":440.00,"duration_ms":150},{"note":"SOL","freq":392.00,"duration_ms":300},{"note":"FA#","freq":369.99,"duration_ms":300}]},
+    {"measure":2,"time_signature":"3/4","notes":[{"note":"SOL","freq":392.00,"duration_ms":1200},{"note":"SI","freq":493.88,"duration_ms":450},{"note":"LA","freq":440.00,"duration_ms":150}]},
+    {"measure":3,"time_signature":"3/4","notes":[{"note":"SOL","freq":392.00,"duration_ms":450},{"note":"FA#","freq":369.99,"duration_ms":150},{"note":"MI","freq":329.63,"duration_ms":300},{"note":"RE","freq":293.66,"duration_ms":300}]},
+    {"measure":4,"time_signature":"3/4","notes":[{"note":"MI","freq":329.63,"duration_ms":450},{"note":"RE","freq":293.66,"duration_ms":150},{"note":"DO","freq":523.25,"duration_ms":300},{"note":"SI","freq":493.88,"duration_ms":300}]},
+    {"measure":5,"time_signature":"3/4","notes":[{"note":"LA","freq":440.00,"duration_ms":450},{"note":"SOL","freq":392.00,"duration_ms":150},{"note":"FA#","freq":369.99,"duration_ms":300},{"note":"MI","freq":329.63,"duration_ms":300}]},
+    {"measure":6,"time_signature":"2/4","notes":[{"note":"RE","freq":293.66,"duration_ms":450},{"note":"MI","freq":329.63,"duration_ms":150}]},
+    {"measure":7,"time_signature":"2/4","notes":[{"note":"FA#","freq":369.99,"duration_ms":300},{"note":"SOL","freq":392.00,"duration_ms":300}]},
+    {"measure":8,"time_signature":"3/4","notes":[{"note":"LA","freq":440.00,"duration_ms":1800}]},
+    {"measure":9,"time_signature":"3/4","notes":[{"note":"SI","freq":493.88,"duration_ms":450},{"note":"DO","freq":523.25,"duration_ms":150},{"note":"SI","freq":493.88,"duration_ms":300},{"note":"LA","freq":440.00,"duration_ms":300}]}
+  ],
+  "meta":{"tempo_bpm":120,"total_measures":9}
+        };
+        loadJsonData(fullExample);
+        document.getElementById('jsonRawInput').value = JSON.stringify(fullExample, null, 2);
+    }
+
+    // Manejo de archivo
+    document.getElementById('uploadBtn').addEventListener('click', () => {
+        document.getElementById('jsonFileInput').click();
+    });
+    document.getElementById('jsonFileInput').addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (ev) => {
+            try {
+                const json = JSON.parse(ev.target.result);
+                loadJsonData(json);
+                document.getElementById('jsonRawInput').value = ev.target.result;
+            } catch(err) { alert('JSON inválido'); }
+        };
+        reader.readAsText(file);
+    });
+    document.getElementById('parseJsonBtn').addEventListener('click', () => {
+        try {
+            const raw = document.getElementById('jsonRawInput').value;
+            const parsed = JSON.parse(raw);
+            loadJsonData(parsed);
+        } catch(e) { alert('Error en JSON: '+e.message); }
+    });
+    document.getElementById('loadExampleBtn').addEventListener('click', loadExample);
+    document.getElementById('playBtn').addEventListener('click', playFromStart);
+    document.getElementById('pauseBtn').addEventListener('click', pausePlayback);
+    document.getElementById('resumeBtn').addEventListener('click', resumeFromPause);
+    document.getElementById('stopBtn').addEventListener('click', stopPlayback);
+    // Inicial
+    loadExample();
+</script>
+</body>
+</html>
