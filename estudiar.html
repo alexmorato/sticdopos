@@ -844,6 +844,7 @@
       if (cronometroSaveInterval) clearInterval(cronometroSaveInterval);
       cronometroSaveInterval = setInterval(saveCronometroToLocalStorage, 20000);
       updateCronometroDisplay();
+      resetInactivityTimer();
     }
     function stopCronometro() {
       if (!cronometroRunning) return;
@@ -861,6 +862,7 @@
       } else {
         startCronometro();
       }
+      resetInactivityTimer();
     });
     updateCronometroDisplay();
     // ============================================================
@@ -1837,6 +1839,7 @@
      */
     function showResults() {
       localStorage.removeItem(LS_KEYS.ESTUDIO_WIP);
+      stopCronometro();
       showingResults = true;
       const summary = getResultSummary();
       
