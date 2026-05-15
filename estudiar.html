@@ -1877,6 +1877,13 @@
      * Reiniciar test desde cero
      */
     function restartTest() {
+      //stopCronometro();
+      cronometroElapsed = 0;
+      cronometroStart = null;
+      localStorage.setItem(LS_KEYS.CRONOMETRO, 0);
+      updateCronometroDisplay();
+      startCronometro();
+
       currentQuestion = 0;
       answers = new Array(preguntes.length).fill(null);
       showingResults = false;
