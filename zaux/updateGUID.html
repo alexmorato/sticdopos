@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Actualizar GUID JSON</title>
+</head>
+<body>
+	<h1>Actualizar GUID JSON</h1>
+
+	<textarea id="jsonInput" rows="22" cols="100" placeholder="Pega aquí tu JSON..."></textarea>
+	<br>
+	<button id="btnActualizar" type="button">Actualizar guid aleatorio</button>
+	<button id="btnCopiar" type="button">Copiar JSON actualizado</button>
+
+	<p id="mensaje"></p>
+
+	<script>
+		const jsonInput = document.getElementById('jsonInput');
+		const btnActualizar = document.getElementById('btnActualizar');
+		const btnCopiar = document.getElementById('btnCopiar');
+		const mensaje = document.getElementById('mensaje');
+
+		function generarGuid() {
+			if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+				return window.crypto.randomUUID();
+			}
+
+			return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+				const r = Math.random() * 16 | 0;
+				const v = c === 'x' ? r : (r & 0x3 | 0x8);
+				return v.toString(16);
+			});
+		}
+
+		function actualizarGuidRecursivo(valor) {
+			if (Array.isArray(valor)) {
+				valor.forEach(actualizarGuidRecursivo);
+				return;
+			}
+
+			if (!valor || typeof valor !== 'object') {
+				return;
+			}
+
+			if (Object.prototype.hasOwnProperty.call(valor, 'guid')) {
+				valor.guid = generarGuid();
+			}
+
+			Object.keys(valor).forEach(function(clave) {
+				actualizarGuidRecursivo(valor[clave]);
+			});
+		}
+
+		btnActualizar.addEventListener('click', function() {
+			try {
+				const data = JSON.parse(jsonInput.value);
+				actualizarGuidRecursivo(data);
+				jsonInput.value = JSON.stringify(data, null, 2);
+				mensaje.textContent = 'GUID actualizados correctamente.';
+			} catch (error) {
+				mensaje.textContent = 'JSON no válido: ' + error.message;
+			}
+		});
+
+		btnCopiar.addEventListener('click', async function() {
+			const contenido = jsonInput.value;
+			if (!contenido.trim()) {
+				mensaje.textContent = 'No hay contenido para copiar.';
+				return;
+			}
+
+			try {
+				if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+					await navigator.clipboard.writeText(contenido);
+				} else {
+					jsonInput.focus();
+					jsonInput.select();
+					document.execCommand('copy');
+				}
+
+				mensaje.textContent = 'JSON copiado al portapapeles.';
+			} catch (error) {
+				mensaje.textContent = 'No se pudo copiar el JSON.';
+			}
+		});
+	</script>
+</body>
+</html>
