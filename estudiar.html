@@ -1631,6 +1631,26 @@
       return lines;
     }
 
+    function getCronometroActualMs() {
+      let ms = cronometroElapsed;
+      if (cronometroRunning && cronometroStart) {
+        ms += Date.now() - cronometroStart;
+      }
+      return Math.max(0, ms);
+    }
+
+    function formatElapsedForFooter(ms) {
+      const totalSec = Math.floor(ms / 1000);
+      const hours = Math.floor(totalSec / 3600);
+      const minutes = Math.floor((totalSec % 3600) / 60);
+      const seconds = totalSec % 60;
+
+      const hh = String(hours).padStart(2, '0');
+      const mm = String(minutes).padStart(2, '0');
+      const ss = String(seconds).padStart(2, '0');
+      return `${hh}:${mm}:${ss}`;
+    }
+
     async function buildResultSummaryImageBlob(summary) {
       const canvas = document.createElement('canvas');
       const context = canvas.getContext('2d');
@@ -1746,9 +1766,11 @@
         });
       });
 
-      const footerText = new Date().toLocaleString('ca-ES');
+      const username = "👤 " + localStorage.getItem(LS_KEYS.USER_NAME) || 'sense usuari';
+      const elapsedText = formatElapsedForFooter(getCronometroActualMs());
+      const footerText = `${new Date().toLocaleString('ca-ES')} - ${username} - ${elapsedText}`;
       context.fillStyle = '#9fb0ff';
-      context.font = '24px system-ui, sans-serif';
+      context.font = '20px system-ui, sans-serif';
       context.textAlign = 'center';
       context.fillText(footerText, centerX, height - 55);
       context.textAlign = 'left';
