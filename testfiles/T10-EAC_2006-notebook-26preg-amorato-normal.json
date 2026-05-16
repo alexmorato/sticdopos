@@ -1,0 +1,808 @@
+[
+  {
+    "guid": "4c97ac8e-2474-4af9-9c53-5b80e63d593a",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la naturaleza jurídica del Estatuto de Autonomía de Cataluña (EAC) dentro del ordenamiento estatal?",
+    "answerOptions": [
+      {
+        "text": "Es una Ley Orgánica pactada.",
+        "rationale": "Los Estatutos de Autonomía requieren la aprobación de las Cortes Generales mediante Ley Orgánica, pero su elaboración y reforma implican un pacto entre la comunidad y el Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es una Ley Ordinaria de carácter básico.",
+        "rationale": "La Constitución exige específicamente el rango de Ley Orgánica para la aprobación y reforma de los Estatutos de Autonomía según el artículo 81.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es una norma constitucional de rango superior a la Ley Orgánica.",
+        "rationale": "Aunque es la norma institucional básica de la comunidad, jerárquicamente se subordina a la Constitución Española.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es un Decreto Legislativo transferido por el Estado.",
+        "rationale": "Un Decreto Legislativo es una norma dictada por el Gobierno bajo delegación, no el procedimiento pactado propio de un Estatuto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la categoría de ley necesaria para aprobar estatutos según la Constitución Española."
+  },
+  {
+    "guid": "09f295d9-076c-4acd-8cdb-142212468b0c",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 1 del EAC, ¿cómo se define a Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Como una nacionalidad.",
+        "rationale": "El artículo 1 establece que Cataluña, como nacionalidad, ejerce su autogobierno constituida en comunidad autónoma.",
+        "isCorrect": true
+      },
+      {
+        "text": "Como una nación soberana.",
+        "rationale": "Aunque el Preámbulo menciona el sentimiento de nación, el articulado normativo utiliza el término constitucional de nacionalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Como una región administrativa.",
+        "rationale": "El término nacionalidad implica un reconocimiento de identidad histórica y voluntad de autogobierno superior al de una simple región administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Como un Estado federado.",
+        "rationale": "España se organiza en un Estado de las Autonomías, no en un sistema de estados federados bajo la actual Constitución.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise el término que utiliza la Constitución en su artículo 2 para referirse a territorios con identidad histórica."
+  },
+  {
+    "guid": "b535839b-5b0c-4ba4-8520-4d08380ea0c5",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué se fundamenta el autogobierno de Cataluña según el Título Preliminar?",
+    "answerOptions": [
+      {
+        "text": "En la Constitución y en los derechos históricos del pueblo catalán.",
+        "rationale": "El EAC integra tanto el marco constitucional como la tradición jurídica e institucional secular de Cataluña.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exclusivamente en los tratados de la Unión Europea.",
+        "rationale": "Aunque Cataluña participa en el proyecto europeo, el fundamento legal primario es la Constitución Española.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente en el derecho de autodeterminación.",
+        "rationale": "El Estatuto se fundamenta en el marco de la Constitución, que garantiza la indisoluble unidad de la nación española.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la voluntad discrecional de las Cortes Generales.",
+        "rationale": "El autogobierno es un derecho reconocido constitucionalmente, no una concesión discrecional arbitraria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la combinación de la norma suprema estatal y la memoria histórica del territorio."
+  },
+  {
+    "guid": "d5771f40-593b-4df7-a204-d388e1d3cde2",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el estatus del castellano en Cataluña según el Estatuto de 2006?",
+    "answerOptions": [
+      {
+        "text": "Es lengua oficial en Cataluña junto con el catalán.",
+        "rationale": "El castellano es la lengua oficial del Estado y, por tanto, cooficial en todo el territorio de la comunidad autónoma.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es una lengua de uso facultativo pero no oficial.",
+        "rationale": "La Constitución obliga a que el castellano sea oficial en todo el Estado español.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es la lengua preferente de la Administración catalana.",
+        "rationale": "El Estatuto intentó otorgar preferencia al catalán, pero el Tribunal Constitucional dictaminó que no puede haber preferencia entre lenguas cooficiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es oficial únicamente en las relaciones con el Estado central.",
+        "rationale": "La oficialidad del castellano se extiende a todas las administraciones y ciudadanos dentro de Cataluña.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el deber de conocimiento que tienen todos los españoles sobre esta lengua."
+  },
+  {
+    "guid": "5bc7b6ac-b10a-4669-87d6-1fd13c870a99",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué institución de la Generalitat tiene la función de proteger y defender los derechos y libertades de la ciudadanía frente a la Administración?",
+    "answerOptions": [
+      {
+        "text": "El Síndic de Greuges.",
+        "rationale": "Esta figura actúa como el defensor del pueblo en el ámbito autonómico, supervisando la actividad administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Consell de Garanties Estatutàries.",
+        "rationale": "Esta institución vela por la adecuación de las leyes al Estatuto y la Constitución, no supervisa quejas ciudadanas individuales sobre la gestión.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Sindicatura de Comptes.",
+        "rationale": "Su función es fiscalizar la gestión económica y financiera del sector público catalán.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Superior de Justicia de Cataluña.",
+        "rationale": "Es un órgano jurisdiccional que resuelve pleitos, no una institución de mediación y defensa frente a abusos administrativos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el equivalente autonómico al Defensor del Pueblo."
+  },
+  {
+    "guid": "9d400e73-0ce2-4185-83be-a5ca9da7b0ba",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el requisito determinante para tener la condición política de catalán según el artículo 7?",
+    "answerOptions": [
+      {
+        "text": "Tener la vecindad administrativa en Cataluña.",
+        "rationale": "La condición de catalán se adquiere por el empadronamiento (vecindad administrativa) en un municipio del territorio catalán.",
+        "isCorrect": true
+      },
+      {
+        "text": "Haber nacido en el territorio de Cataluña.",
+        "rationale": "El lugar de nacimiento define la vecindad civil en algunos casos, pero la condición política se basa en la residencia actual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Acreditar el conocimiento del nivel C1 de catalán.",
+        "rationale": "El idioma es un derecho y deber, pero no es un requisito legal para la condición política de ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tener antepasados catalanes hasta tercer grado.",
+        "rationale": "Aunque existe un reconocimiento para descendientes en el extranjero, la norma general se basa en la residencia administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se relaciona con el acto formal de inscripción en el padrón municipal."
+  },
+  {
+    "guid": "970c6674-1932-45d9-8585-2773a2f3cd0c",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el sistema institucional de la Generalitat, ¿quién ostenta la representación ordinaria del Estado en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "El Presidente o Presidenta de la Generalitat.",
+        "rationale": "El Presidente ejerce una doble función: la más alta representación de la Generalitat y la representación ordinaria del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Delegado del Gobierno en Cataluña.",
+        "rationale": "El Delegado representa al Gobierno central, pero la representación institucional ordinaria del Estado recae constitucionalmente en el Presidente autonómico.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Parlamento de Cataluña.",
+        "rationale": "Su representación se limita al ámbito del poder legislativo de la comunidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Conseller Primer.",
+        "rationale": "Es un miembro del Gobierno con funciones delegadas, pero no ostenta la representación estatal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Esta autoridad preside el Consejo Ejecutivo y es elegida por el Parlamento."
+  },
+  {
+    "guid": "723072f9-1856-4e65-b451-29c0572e0672",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere para la investidura del Presidente de la Generalitat en la primera votación?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta.",
+        "rationale": "En la primera votación de investidura, el candidato debe obtener el apoyo de la mitad más uno de los miembros de la cámara.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría de dos tercios.",
+        "rationale": "Esta mayoría reforzada se usa para reformas estatutarias o leyes de desarrollo básico, no para la investidura inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría simple.",
+        "rationale": "La mayoría simple solo es suficiente a partir de la segunda votación, celebrada dos días después de la primera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad de la Mesa del Parlamento.",
+        "rationale": "La investidura es una decisión del Pleno del Parlamento, no de su órgano rector.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de la mayoría estándar para decisiones de especial relevancia institucional en su primer intento."
+  },
+  {
+    "guid": "3bf588e4-8b2a-4c6b-beda-f4f94ad615c4",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Si tras dos meses desde la primera votación de investidura no se elige a ningún candidato, ¿qué sucede?",
+    "answerOptions": [
+      {
+        "text": "El Parlamento queda disuelto automáticamente.",
+        "rationale": "El artículo 67 establece la disolución automática y la convocatoria inmediata de elecciones si se agota el plazo de dos meses sin investidura.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Gobierno en funciones asume plenos poderes legislativos.",
+        "rationale": "Un gobierno en funciones tiene sus competencias limitadas y no puede sustituir la potestad legislativa del Parlamento.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey nombra un Presidente de forma interina.",
+        "rationale": "El sistema parlamentario español no permite el nombramiento regio sin la previa confianza de la cámara legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se prorroga el plazo por un mes adicional mediante Decreto-Ley.",
+        "rationale": "Los plazos de investidura son constitucionales y estatutarios, no pueden ser modificados por normas de rango inferior.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una medida de desbloqueo institucional que devuelve la palabra a los ciudadanos."
+  },
+  {
+    "guid": "494352bb-c27f-4f85-b024-0c40d19a5492",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el número actual de diputados que integran el Parlamento de Cataluña?",
+    "answerOptions": [
+      {
+        "text": "135 diputados.",
+        "rationale": "Aunque el EAC permite un rango entre 100 y 150, la disposición transitoria fija actualmente la cifra en 135 miembros.",
+        "isCorrect": true
+      },
+      {
+        "text": "150 diputados.",
+        "rationale": "Este es el límite máximo permitido por el Estatuto, pero no la cifra establecida por la normativa electoral vigente.",
+        "isCorrect": false
+      },
+      {
+        "text": "100 diputados.",
+        "rationale": "Este es el límite mínimo legal, insuficiente para la actual distribución por circunscripciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "350 diputados.",
+        "rationale": "Este es el número de miembros del Congreso de los Diputados a nivel estatal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la suma de los representantes de Barcelona (85), Tarragona (18), Gerona (17) y Lérida (15)."
+  },
+  {
+    "guid": "daa41c6a-1d29-4a94-9182-1db3de5aef0f",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué prerrogativa parlamentaria impide que un diputado sea detenido salvo en caso de flagrante delito?",
+    "answerOptions": [
+      {
+        "text": "La inmunidad.",
+        "rationale": "La inmunidad protege a los parlamentarios frente a detenciones arbitrarias durante su mandato por actos cometidos en Cataluña.",
+        "isCorrect": true
+      },
+      {
+        "text": "La inviolabilidad.",
+        "rationale": "La inviolabilidad se refiere exclusivamente a la libertad de expresión por las opiniones y votos emitidos en el ejercicio del cargo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El aforamiento.",
+        "rationale": "El aforamiento es el derecho a ser juzgado por un tribunal específico (TSJC), pero no se refiere al acto de la detención inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilidad solidaria.",
+        "rationale": "Este es un concepto aplicable al Gobierno frente al Parlamento, no una protección individual de los diputados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre la protección de lo que el diputado dice y la protección de su libertad física."
+  },
+  {
+    "guid": "d4ba2a7d-2e03-40f9-888e-991be1f0fa11",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se denominan las normas dictadas por el Gobierno bajo delegación expresa del Parlamento para una materia concreta?",
+    "answerOptions": [
+      {
+        "text": "Decretos legislativos.",
+        "rationale": "Los decretos legislativos son el resultado de la delegación del Parlamento al Gobierno, ya sea mediante leyes de bases o de refundición.",
+        "isCorrect": true
+      },
+      {
+        "text": "Decretos-leyes.",
+        "rationale": "El decreto-ley es dictado por el Gobierno en casos de extraordinaria y urgente necesidad, sin delegación previa del Parlamento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reglamentos orgánicos.",
+        "rationale": "Los reglamentos son normas de rango inferior a la ley y no requieren delegación de la potestad legislativa, sino ejecutiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Leyes de bases.",
+        "rationale": "Las leyes de bases son las que dicta el Parlamento para delegar en el Gobierno, no la norma resultante dictada por este último.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una técnica legislativa para textos refundidos o articulados."
+  },
+  {
+    "guid": "8274f2b0-fccb-4a35-939f-e1e75398f280",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de competencia permite a la Generalitat ejercer la potestad legislativa, reglamentaria y la función ejecutiva de forma íntegra?",
+    "answerOptions": [
+      {
+        "text": "Competencias exclusivas.",
+        "rationale": "En las competencias exclusivas, la Generalitat tiene plena autonomía para establecer políticas propias sin límites fijados por las bases estatales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Competencias compartidas.",
+        "rationale": "En estas competencias, la Generalitat legisla pero siempre dentro del marco de las bases mínimas que establece el Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Competencias ejecutivas.",
+        "rationale": "Aquí la Generalitat solo tiene la función ejecutiva y la reglamentación para aplicar la legislación dictada por el Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Competencias extraestatutarias.",
+        "rationale": "Estas son competencias delegadas mediante el artículo 150 de la Constitución, no las propias definidas en el EAC.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el grado máximo de capacidad de autogobierno sobre una materia."
+  },
+  {
+    "guid": "cb33057c-c7f1-4f08-98ae-6def324c1ca1",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el órgano de gobierno y administración autónoma de una Veguería según el Estatuto?",
+    "answerOptions": [
+      {
+        "text": "El Consell de Vegueria.",
+        "rationale": "El Consell de Vegueria es la institución que ejerce el gobierno de esta división territorial, sustituyendo a las diputaciones provinciales.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Diputación Provincial.",
+        "rationale": "Aunque existen en el marco estatal, el EAC prevé que los Consells de Vegueria asuman sus funciones en el sistema institucional catalán.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Conselh Generau d'Aran.",
+        "rationale": "Este es el órgano de gobierno específico y singular de la entidad territorial de Arán, no de las veguerías generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Asamblea de Alcaldes.",
+        "rationale": "No existe esta denominación como órgano rector de la veguería en el articulado del EAC.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Esta figura sustituye a la tradicional Diputación en el diseño territorial catalán."
+  },
+  {
+    "guid": "8cf1245d-ae82-4d67-ba9e-6bd1d9390d37",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere en el Parlamento para aprobar la reforma del Estatuto según los artículos 222 y 223?",
+    "answerOptions": [
+      {
+        "text": "Dos tercios de los miembros.",
+        "rationale": "La reforma del EAC es una decisión de especial trascendencia que requiere una mayoría cualificada de 2/3 del Parlamento de Cataluña.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría absoluta.",
+        "rationale": "La mayoría absoluta es suficiente para leyes de desarrollo básico, pero el Estatuto exige un consenso mayor para su propia modificación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres quintas partes.",
+        "rationale": "Esta mayoría se utiliza para la designación de ciertos cargos institucionales, como el Síndic de Greuges, pero no para la reforma estatutaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría simple en dos sesiones consecutivas.",
+        "rationale": "La importancia del Estatuto impide que sea modificado por una mayoría precaria y cambiante.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la proporción de 90 diputados sobre 135."
+  },
+  {
+    "guid": "2ce8bcca-e553-4a94-b915-265f32b39eac",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el marco de la organización territorial, ¿cómo se define al Municipio?",
+    "answerOptions": [
+      {
+        "text": "Como el ente local básico de la organización territorial de Cataluña.",
+        "rationale": "El municipio es la base primaria del sistema y el medio esencial de participación de la comunidad local.",
+        "isCorrect": true
+      },
+      {
+        "text": "Como una delegación administrativa de la Veguería.",
+        "rationale": "El municipio goza de autonomía propia garantizada constitucional y estatutariamente, no es una mera sucursal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Como un órgano consultivo del Parlamento.",
+        "rationale": "Los municipios son entes territoriales con personalidad jurídica, no órganos de asesoramiento legislativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Como la circunscripción electoral única de Cataluña.",
+        "rationale": "La circunscripción electoral para las elecciones al Parlamento es la provincia, no el municipio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la institución más cercana al ciudadano en la jerarquía territorial."
+  },
+  {
+    "guid": "78f29a0e-6c4e-4cf9-a84b-7fe539713d11",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la iniciativa para proponer la reforma del Estatuto de Autonomía?",
+    "answerOptions": [
+      {
+        "text": "El Parlamento, el Gobierno de la Generalitat y las Cortes Generales.",
+        "rationale": "Dependiendo del título a reformar, la iniciativa puede partir de ambas cámaras legislativas y de los ejecutivos correspondientes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exclusivamente el pueblo de Cataluña mediante referéndum.",
+        "rationale": "El referéndum es la fase final de ratificación, no el mecanismo de iniciativa técnica inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente el Presidente de la Generalitat.",
+        "rationale": "Aunque el Gobierno tiene iniciativa, el Parlamento como sede de la soberanía popular también la ostenta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo los Ayuntamientos que representen el 50% de la población.",
+        "rationale": "Los ayuntamientos pueden proponer al Parlamento que este inicie la reforma, pero no tienen la iniciativa directa ante el Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere tanto las instituciones autonómicas como las estatales."
+  },
+  {
+    "guid": "2c71a970-3da0-4a2e-ab88-db7efa25c710",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal de la Comisión Bilateral Generalitat-Estado?",
+    "answerOptions": [
+      {
+        "text": "Es el marco general de relación para tramitar la participación de la Generalitat en las decisiones estatales.",
+        "rationale": "Este órgano busca resolver conflictos, coordinar políticas y canalizar la participación catalana en asuntos estatales que le afecten.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es el tribunal que resuelve los conflictos de competencias.",
+        "rationale": "La resolución jurídica de conflictos de competencias corresponde al Tribunal Constitucional, no a una comisión política.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es el órgano encargado de aprobar el presupuesto de Cataluña.",
+        "rationale": "La aprobación de los presupuestos es una potestad exclusiva del Parlamento de Cataluña.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es la secretaría técnica del Consejo de Ministros.",
+        "rationale": "Es una comisión de cooperación entre dos administraciones, no un órgano interno del Gobierno de España.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un foro de diálogo político y administrativo entre dos gobiernos."
+  },
+  {
+    "guid": "7f20a691-0448-4118-ba2e-4e1015515e4f",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué institución sustituyó al antiguo 'Consell Consultiu' tras la aprobación del EAC 2006?",
+    "answerOptions": [
+      {
+        "text": "El Consell de Garanties Estatutàries.",
+        "rationale": "Esta nueva institución asumió las funciones de velar por la adecuación de las normas al Estatuto y a la Constitución.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal de Cuentas de Cataluña.",
+        "rationale": "La fiscalización económica corresponde a la Sindicatura de Comptes, no a un órgano llamado Tribunal de Cuentas.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Mesa del Parlamento.",
+        "rationale": "La Mesa es el órgano rector interno de la cámara, mientras que el Consell de Garanties es un órgano consultivo externo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consell de Governs Locals.",
+        "rationale": "Este es un órgano de representación de municipios y veguerías, no un órgano de control jurídico-estatutario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre indica su labor de protección de la norma institucional básica."
+  },
+  {
+    "guid": "44e88c28-d9d0-4f30-a964-22678db7edf9",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién preside la Junta de Seguridad de Cataluña?",
+    "answerOptions": [
+      {
+        "text": "El Presidente o Presidenta de la Generalitat.",
+        "rationale": "La Junta de Seguridad es paritaria pero la presidencia corresponde a la máxima autoridad de la Generalitat.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro del Interior.",
+        "rationale": "Aunque el Estado participa, la presidencia estatutaria está asignada al Presidente de la Generalitat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Mayor de los Mossos d'Esquadra.",
+        "rationale": "Este es un cargo operativo policial, no una autoridad política institucional encargada de la coordinación de políticas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Delegado del Gobierno.",
+        "rationale": "El Delegado participa en la coordinación, pero no ostenta la presidencia de este órgano específico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de la misma persona que representa ordinariamente al Estado en el territorio."
+  },
+  {
+    "guid": "37493d1e-eaf2-44d0-b6c1-5ae7efa5473e",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué derecho otorga el artículo 20 del EAC respecto al final de la vida?",
+    "answerOptions": [
+      {
+        "text": "Derecho a vivir con dignidad el proceso de la muerte y a las voluntades anticipadas.",
+        "rationale": "El EAC reconoce el derecho a cuidados paliativos integrales y a dejar instrucciones sobre el tratamiento médico futuro.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho a la eutanasia activa sin regulación estatal.",
+        "rationale": "El Estatuto garantiza la dignidad y el tratamiento del dolor, pero la regulación penal de la eutanasia es competencia del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a la resurrección civil tras muerte clínica.",
+        "rationale": "Este concepto no existe en el ordenamiento jurídico ni en el texto estatutario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho al entierro gratuito en cementerios municipales.",
+        "rationale": "Aunque existen servicios sociales, el artículo 20 se centra en el proceso médico y ético de la muerte, no en el sepelio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la autonomía del paciente para decidir sobre su tratamiento en momentos críticos."
+  },
+  {
+    "guid": "58fa8df3-ab7d-44a2-afff-bc1425a641f1",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se llama la ley que el Parlamento debe aprobar por mayoría de dos tercios para regular su propio sistema electoral?",
+    "answerOptions": [
+      {
+        "text": "Ley del Régimen Electoral de Cataluña.",
+        "rationale": "Es una de las leyes de desarrollo básico que requiere una mayoría muy amplia para garantizar el consenso democrático.",
+        "isCorrect": true
+      },
+      {
+        "text": "Estatuto de los Diputados.",
+        "rationale": "El estatuto personal regula derechos y deberes individuales, no el procedimiento de elección de la cámara.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley de Partidos Catalanes.",
+        "rationale": "La regulación de los partidos políticos es una materia de competencia estatal según la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reglamento General de Elecciones.",
+        "rationale": "La norma que regula las elecciones debe tener rango de ley, no de reglamento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Esta ley aún no ha sido aprobada, aplicándose de forma transitoria la normativa estatal."
+  },
+  {
+    "guid": "35303364-55e2-4953-91f4-7552331d8de7",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la última instancia jurisdiccional de todos los procesos iniciados en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "El Tribunal Superior de Justicia de Cataluña (TSJC).",
+        "rationale": "El TSJC culmina la organización judicial en la comunidad, sin perjuicio de las competencias del Tribunal Supremo para la unificación de doctrina.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal Supremo.",
+        "rationale": "El Tribunal Supremo es el órgano superior en todos los órdenes en España, pero en el ámbito autonómico, la instancia final ordinaria es el TSJC.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Audiencia Provincial de Barcelona.",
+        "rationale": "Este es un órgano judicial de ámbito provincial, por debajo del Tribunal Superior de Justicia de la comunidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Justicia de Cataluña.",
+        "rationale": "Este órgano fue declarado inconstitucional y, en cualquier caso, era un órgano de gobierno, no un tribunal de sentencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano que tiene su sede en el Palacio de Justicia de Barcelona y corona el sistema judicial catalán."
+  },
+  {
+    "guid": "424cdb91-d84d-400a-9d25-9dfd91975b3f",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere para aprobar una moción de censura contra el Presidente de la Generalitat?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta del Parlamento.",
+        "rationale": "Al ser una moción constructiva, requiere que la mayoría de los diputados apoyen el cambio de gobierno y el nuevo candidato.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría simple de los presentes.",
+        "rationale": "Dada la gravedad de destituir a un Presidente, no basta con una mayoría precaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría de dos tercios.",
+        "rationale": "Esta mayoría es demasiado elevada para el control político ordinario, bloquearía la capacidad de la oposición de formar alternativas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad de los grupos de la oposición.",
+        "rationale": "La votación es individual por diputados y se rige por la regla de la mayoría absoluta del total de la cámara.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma mayoría que se exige para la investidura en el primer intento."
+  },
+  {
+    "guid": "34512971-bba8-4e17-afd5-d2405c30f91b",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A qué institución corresponde la gestión, recaudación e inspección de los tributos propios de la Generalitat?",
+    "answerOptions": [
+      {
+        "text": "A la Agencia Tributaria de Cataluña.",
+        "rationale": "El Título VI prevé la creación de esta agencia para gestionar tanto los tributos propios como los cedidos totalmente por el Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "A la Agencia Estatal de Administración Tributaria (AEAT).",
+        "rationale": "La AEAT gestiona los tributos estatales, pero Cataluña tiene su propia agencia para sus competencias fiscales específicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Banco de España.",
+        "rationale": "El Banco de España es el banco central nacional y supervisor bancario, no un recaudador de impuestos autonómicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "A la Sindicatura de Comptes.",
+        "rationale": "La Sindicatura controla cómo se gasta el dinero, pero no se encarga de recaudarlo de los ciudadanos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el organismo que constituye la 'hacienda propia' de la Generalitat."
+  },
+  {
+    "guid": "c6140a84-f2e1-4e99-8b84-69b54c41cb45",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué entidad territorial singular dentro de Cataluña tiene un régimen jurídico especial por su identidad occitana?",
+    "answerOptions": [
+      {
+        "text": "Arán.",
+        "rationale": "El Valle de Arán es reconocido por su singularidad histórica, lingüística (aranés) y cultural, con instituciones propias como el Conselh Generau.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Comarca del Penedès.",
+        "rationale": "Aunque es una veguería y comarca reconocida, no tiene el estatus de entidad territorial singular occitana que tiene Arán.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Área Metropolitana de Barcelona.",
+        "rationale": "Es una entidad local supramunicipal para la gestión de servicios urbanos, pero no se basa en una identidad nacional u occitana diferenciada.",
+        "isCorrect": false
+      },
+      {
+        "text": "L'Ampurdán.",
+        "rationale": "Es una zona con gran identidad cultural, pero no posee un régimen jurídico de autogobierno específico en el Estatuto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se sitúa en el Pirineo y su lengua propia es una variedad del occitano."
+  }
+]
