@@ -1,0 +1,312 @@
+[
+  {
+    "guid": "b824f15f-a5a9-4854-a874-9910a84933d7",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Segons l’article 147.1 de la Constitució Espanyola, què és l’Estatut d’autonomia?",
+    "answerOptions": [
+      {
+        "text": "Una llei ordinària aprovada exclusivament pel Parlament autonòmic.",
+        "isCorrect": false,
+        "rationale": "L’Estatut no és una simple llei ordinària autonòmica, sinó la norma institucional bàsica de la Comunitat Autònoma i s’aprova com a llei orgànica."
+      },
+      {
+        "text": "La norma institucional bàsica de cada Comunitat Autònoma.",
+        "isCorrect": true,
+        "rationale": "L’article 147.1 CE estableix que els Estatuts són la norma institucional bàsica de cada Comunitat Autònoma."
+      },
+      {
+        "text": "Un reglament executiu dictat pel Govern autonòmic.",
+        "isCorrect": false,
+        "rationale": "L’Estatut no és un reglament, sinó una norma amb rang de llei orgànica."
+      },
+      {
+        "text": "Una norma estatal sense participació autonòmica.",
+        "isCorrect": false,
+        "rationale": "L’Estatut no és una norma estatal unilateral, ja que expressa l’autonomia política de la Comunitat Autònoma dins del marc constitucional."
+      }
+    ],
+    "hint": "Recorda la fórmula literal de l’article 147.1 CE."
+  },
+  {
+    "guid": "d96805f6-75eb-4ad1-93ce-69578c703547",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quin contingut ha d’incloure obligatòriament un Estatut d’autonomia segons l’article 147.2 de la Constitució Espanyola?",
+    "answerOptions": [
+      {
+        "text": "Només la denominació de la Comunitat Autònoma.",
+        "isCorrect": false,
+        "rationale": "La denominació és un dels continguts obligatoris, però no l’únic."
+      },
+      {
+        "text": "Només la seva organització institucional.",
+        "isCorrect": false,
+        "rationale": "L’organització institucional forma part del contingut mínim, però l’Estatut també ha d’incloure altres elements."
+      },
+      {
+        "text": "La denominació, el territori, les institucions pròpies i les competències assumides.",
+        "isCorrect": true,
+        "rationale": "L’article 147.2 CE exigeix que l’Estatut inclogui la denominació, la delimitació territorial, la denominació, organització i seu de les institucions pròpies, i les competències assumides."
+      },
+      {
+        "text": "Exclusivament el règim electoral autonòmic.",
+        "isCorrect": false,
+        "rationale": "El règim electoral pot aparèixer regulat, però no és l’únic contingut mínim exigit per l’article 147.2 CE."
+      }
+    ],
+    "hint": "Pensa en els quatre blocs mínims: nom, territori, institucions i competències."
+  },
+  {
+    "guid": "095d094b-72a0-4712-b8b9-857fc0655247",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Les competències assumides per una Comunitat Autònoma en el seu Estatut han de respectar:",
+    "answerOptions": [
+      {
+        "text": "Només la voluntat del Parlament autonòmic.",
+        "isCorrect": false,
+        "rationale": "El Parlament autonòmic no pot assumir competències al marge dels límits constitucionals."
+      },
+      {
+        "text": "Només les lleis ordinàries autonòmiques.",
+        "isCorrect": false,
+        "rationale": "Les lleis autonòmiques han de respectar l’Estatut i la Constitució, no són el marc superior de distribució competencial."
+      },
+      {
+        "text": "El marc establert per la Constitució.",
+        "isCorrect": true,
+        "rationale": "L’article 147.2 CE indica que les competències assumides s’han d’establir dins del marc de la Constitució."
+      },
+      {
+        "text": "Les decisions dels municipis afectats.",
+        "isCorrect": false,
+        "rationale": "Els municipis no determinen el marc constitucional de les competències autonòmiques."
+      }
+    ],
+    "hint": "Les competències autonòmiques no poden contradir la Constitució."
+  },
+  {
+    "guid": "c14d3017-5d43-47c4-b719-7a583e483539",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quan l’article 147 de la Constitució Espanyola parla de les bases per al traspàs dels serveis corresponents, a què es refereix?",
+    "answerOptions": [
+      {
+        "text": "A la transferència pràctica dels serveis vinculats a les competències assumides.",
+        "isCorrect": true,
+        "rationale": "L’Estatut ha d’incloure les bases que permeten traspassar els serveis necessaris perquè la Comunitat Autònoma pugui exercir les competències assumides."
+      },
+      {
+        "text": "A la creació de nous municipis dins la Comunitat Autònoma.",
+        "isCorrect": false,
+        "rationale": "La creació o alteració de municipis és una qüestió diferent del traspàs de serveis vinculats a competències autonòmiques."
+      },
+      {
+        "text": "A la cessió automàtica de totes les competències estatals.",
+        "isCorrect": false,
+        "rationale": "No hi ha una cessió automàtica de totes les competències estatals; només es poden assumir competències dins del marc constitucional."
+      },
+      {
+        "text": "A l’elecció directa dels membres del Tribunal Constitucional.",
+        "isCorrect": false,
+        "rationale": "El Tribunal Constitucional és un òrgan constitucional estatal i no està relacionat amb el traspàs de serveis autonòmics."
+      }
+    ],
+    "hint": "Competència assumida i servei traspassat no són exactament el mateix."
+  },
+  {
+    "guid": "0b9adbb7-c9cd-428b-9e24-391788231d37",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Una Comunitat Autònoma pot assumir qualsevol competència que vulgui en el seu Estatut?",
+    "answerOptions": [
+      {
+        "text": "Sí, sempre que ho aprovi el seu Parlament.",
+        "isCorrect": false,
+        "rationale": "L’aprovació del Parlament autonòmic no és suficient si la competència queda fora del marc constitucional."
+      },
+      {
+        "text": "Sí, si ho aprova el seu Govern.",
+        "isCorrect": false,
+        "rationale": "El Govern autonòmic no pot atribuir-se competències lliurement al marge de la Constitució i l’Estatut."
+      },
+      {
+        "text": "No, només pot assumir competències dins del marc de la Constitució.",
+        "isCorrect": true,
+        "rationale": "Les competències autonòmiques s’han d’assumir respectant la distribució competencial establerta per la Constitució."
+      },
+      {
+        "text": "No, les Comunitats Autònomes no poden assumir competències.",
+        "isCorrect": false,
+        "rationale": "Les Comunitats Autònomes sí que poden assumir competències a través dels seus Estatuts, però dins del marc constitucional."
+      }
+    ],
+    "hint": "La clau és el límit constitucional."
+  },
+  {
+    "guid": "4df7daf9-fac6-4a87-81bd-3883561d27e9",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quin article de la Constitució Espanyola defineix l’Estatut com a norma institucional bàsica de la Comunitat Autònoma?",
+    "answerOptions": [
+      {
+        "text": "Article 137 CE.",
+        "isCorrect": false,
+        "rationale": "L’article 137 CE regula l’organització territorial de l’Estat en municipis, províncies i Comunitats Autònomes."
+      },
+      {
+        "text": "Article 143 CE.",
+        "isCorrect": false,
+        "rationale": "L’article 143 CE regula la iniciativa autonòmica per accedir a l’autonomia."
+      },
+      {
+        "text": "Article 147 CE.",
+        "isCorrect": true,
+        "rationale": "L’article 147 CE defineix l’Estatut com la norma institucional bàsica de cada Comunitat Autònoma."
+      },
+      {
+        "text": "Article 149 CE.",
+        "isCorrect": false,
+        "rationale": "L’article 149 CE regula les competències exclusives de l’Estat."
+      }
+    ],
+    "hint": "És l’article que regula directament els Estatuts d’autonomia."
+  },
+  {
+    "guid": "20e4d97a-3b8e-44b3-b21a-4597252a7be0",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Si una competència està assumida en l’Estatut d’autonomia, això significa que:",
+    "answerOptions": [
+      {
+        "text": "La Comunitat Autònoma pot exercir-la en els termes previstos constitucionalment i estatutàriament.",
+        "isCorrect": true,
+        "rationale": "L’assumpció estatutària permet exercir la competència, però sempre d’acord amb la Constitució i l’Estatut."
+      },
+      {
+        "text": "L’Estat perd sempre tota capacitat d’intervenció sobre aquella matèria.",
+        "isCorrect": false,
+        "rationale": "En moltes matèries l’Estat pot conservar competències, especialment en les competències compartides o en les bases estatals."
+      },
+      {
+        "text": "Els municipis passen a exercir-la automàticament.",
+        "isCorrect": false,
+        "rationale": "L’assumpció de competències per una Comunitat Autònoma no implica que els municipis les exerceixin automàticament."
+      },
+      {
+        "text": "El Tribunal Constitucional ja no pot controlar aquella matèria.",
+        "isCorrect": false,
+        "rationale": "El Tribunal Constitucional pot controlar la constitucionalitat de les normes i els conflictes competencials."
+      }
+    ],
+    "hint": "Assumir una competència no elimina els límits constitucionals."
+  },
+  {
+    "guid": "b59a564d-4c97-4ba4-add0-335960ee7521",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quin dels elements següents no forma part del contingut mínim de l’Estatut d’autonomia segons l’article 147.2 de la Constitució Espanyola?",
+    "answerOptions": [
+      {
+        "text": "La denominació de la Comunitat Autònoma.",
+        "isCorrect": false,
+        "rationale": "La denominació de la Comunitat Autònoma forma part del contingut mínim de l’Estatut."
+      },
+      {
+        "text": "La delimitació del territori.",
+        "isCorrect": false,
+        "rationale": "La delimitació territorial és un dels elements obligatoris de l’Estatut."
+      },
+      {
+        "text": "Les competències assumides.",
+        "isCorrect": false,
+        "rationale": "Les competències assumides dins del marc constitucional formen part del contingut mínim de l’Estatut."
+      },
+      {
+        "text": "La composició del Tribunal Constitucional.",
+        "isCorrect": true,
+        "rationale": "La composició del Tribunal Constitucional no forma part del contingut mínim dels Estatuts d’autonomia."
+      }
+    ],
+    "hint": "Busca l’element que pertany a un òrgan constitucional estatal."
+  },
+  {
+    "guid": "017bfa96-af28-47a5-b7c9-9dec84689f92",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Les competències d’una Comunitat Autònoma es recullen principalment:",
+    "answerOptions": [
+      {
+        "text": "En el Codi Civil.",
+        "isCorrect": false,
+        "rationale": "El Codi Civil no és la norma principal de distribució de competències autonòmiques."
+      },
+      {
+        "text": "En el seu Estatut d’autonomia.",
+        "isCorrect": true,
+        "rationale": "L’Estatut d’autonomia és la norma que recull les competències assumides per la Comunitat Autònoma dins del marc constitucional."
+      },
+      {
+        "text": "En els reglaments municipals.",
+        "isCorrect": false,
+        "rationale": "Els reglaments municipals regulen matèries locals, però no determinen les competències autonòmiques."
+      },
+      {
+        "text": "En les ordenances fiscals locals.",
+        "isCorrect": false,
+        "rationale": "Les ordenances fiscals locals regulen tributs locals, no el repartiment de competències autonòmiques."
+      }
+    ],
+    "hint": "Pensa en la norma institucional bàsica de la Comunitat Autònoma."
+  },
+  {
+    "guid": "c0056e1c-e6b2-428d-95ec-b89c64322e0c",
+    "subjectId": "T10",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quin és el paper de l’Estatut respecte de les competències autonòmiques?",
+    "answerOptions": [
+      {
+        "text": "Només enumera drets simbòlics sense valor jurídic.",
+        "isCorrect": false,
+        "rationale": "L’Estatut té valor jurídic i regula aspectes essencials de l’autogovern, incloses les competències assumides."
+      },
+      {
+        "text": "Determina les competències assumides per la Comunitat Autònoma dins del marc constitucional.",
+        "isCorrect": true,
+        "rationale": "L’Estatut concreta les competències de la Comunitat Autònoma respectant la Constitució."
+      },
+      {
+        "text": "Substitueix completament la Constitució dins del territori autonòmic.",
+        "isCorrect": false,
+        "rationale": "L’Estatut no substitueix la Constitució; hi està subordinat."
+      },
+      {
+        "text": "Atribueix competències exclusivament als ajuntaments.",
+        "isCorrect": false,
+        "rationale": "L’Estatut regula principalment l’autogovern de la Comunitat Autònoma, no atribueix exclusivament competències als ajuntaments."
+      }
+    ],
+    "hint": "L’Estatut concreta l’autogovern, però no pot contradir la Constitució."
+  }
+]

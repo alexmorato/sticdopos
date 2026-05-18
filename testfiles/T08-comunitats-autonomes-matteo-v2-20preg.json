@@ -1,0 +1,602 @@
+[
+  {
+    "guid": "28ef6e51-1509-4d2d-97a6-9628af4fff27",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Segons la Constitució, l’Estat s’organitza territorialment en:",
+    "answerOptions": [
+      {
+        "text": "Municipis, comarques i comunitats autònomes",
+        "isCorrect": false,
+        "rationale": "La Constitució no inclou les comarques com a element necessari de l’organització territorial de l’Estat."
+      },
+      {
+        "text": "Municipis, províncies i comunitats autònomes",
+        "isCorrect": true,
+        "rationale": "L’article 137 de la Constitució estableix que l’Estat s’organitza territorialment en municipis, províncies i comunitats autònomes."
+      },
+      {
+        "text": "Províncies, vegueries i comunitats autònomes",
+        "isCorrect": false,
+        "rationale": "Les vegueries no apareixen a l’article 137 de la Constitució com a estructura territorial bàsica de l’Estat."
+      },
+      {
+        "text": "Municipis, províncies i regions administratives",
+        "isCorrect": false,
+        "rationale": "La Constitució parla de comunitats autònomes, no de regions administratives."
+      }
+    ]
+  },
+  {
+    "guid": "339e2a9d-b813-494e-b1fd-b5a36f1322c7",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quin principi reconeix l’article 2 de la Constitució juntament amb la unitat de la nació espanyola?",
+    "answerOptions": [
+      {
+        "text": "El dret d’autodeterminació",
+        "isCorrect": false,
+        "rationale": "La Constitució no reconeix un dret d’autodeterminació de les comunitats autònomes."
+      },
+      {
+        "text": "El dret a l’autonomia de les nacionalitats i regions",
+        "isCorrect": true,
+        "rationale": "L’article 2 reconeix i garanteix el dret a l’autonomia de les nacionalitats i regions que integren Espanya."
+      },
+      {
+        "text": "La sobirania de les comunitats autònomes",
+        "isCorrect": false,
+        "rationale": "La sobirania nacional resideix en el poble espanyol, no en les comunitats autònomes."
+      },
+      {
+        "text": "La independència política dels territoris històrics",
+        "isCorrect": false,
+        "rationale": "La Constitució reconeix autonomia, no independència política dels territoris."
+      }
+    ]
+  },
+  {
+    "guid": "5c750569-256b-49c6-a603-3dd1b0227a24",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "La via ordinària d’accés a l’autonomia està regulada principalment a l’article:",
+    "answerOptions": [
+      {
+        "text": "143 CE",
+        "isCorrect": true,
+        "rationale": "L’article 143 CE regula la via ordinària d’accés a l’autonomia."
+      },
+      {
+        "text": "144 CE",
+        "isCorrect": false,
+        "rationale": "L’article 144 CE regula supòsits especials d’autorització per les Corts Generals."
+      },
+      {
+        "text": "151 CE",
+        "isCorrect": false,
+        "rationale": "L’article 151 CE regula la via reforçada o especial d’accés a l’autonomia."
+      },
+      {
+        "text": "155 CE",
+        "isCorrect": false,
+        "rationale": "L’article 155 CE regula un mecanisme de control extraordinari de l’Estat sobre les comunitats autònomes."
+      }
+    ]
+  },
+  {
+    "guid": "1d663019-7412-4df2-b3e1-a14a56d77982",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "La via reforçada o especial d’accés a l’autonomia està prevista principalment a l’article:",
+    "answerOptions": [
+      {
+        "text": "137 CE",
+        "isCorrect": false,
+        "rationale": "L’article 137 CE estableix l’organització territorial general de l’Estat."
+      },
+      {
+        "text": "143 CE",
+        "isCorrect": false,
+        "rationale": "L’article 143 CE regula la via ordinària d’accés a l’autonomia."
+      },
+      {
+        "text": "151 CE",
+        "isCorrect": true,
+        "rationale": "L’article 151 CE estableix la via reforçada o especial d’accés a l’autonomia."
+      },
+      {
+        "text": "158 CE",
+        "isCorrect": false,
+        "rationale": "L’article 158 CE tracta aspectes de finançament autonòmic, no la via d’accés a l’autonomia."
+      }
+    ]
+  },
+  {
+    "guid": "95b1b0d1-a458-4b89-a8cc-7ef64cf02005",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Per la via de l’article 143 CE, la iniciativa autonòmica correspon, amb caràcter general:",
+    "answerOptions": [
+      {
+        "text": "Només al Govern de l’Estat",
+        "isCorrect": false,
+        "rationale": "La iniciativa autonòmica no correspon exclusivament al Govern de l’Estat."
+      },
+      {
+        "text": "A les diputacions interessades o òrgans interinsulars i a dues terceres parts dels municipis afectats",
+        "isCorrect": true,
+        "rationale": "L’article 143 CE atribueix la iniciativa a les diputacions interessades o òrgans interinsulars i a dues terceres parts dels municipis afectats."
+      },
+      {
+        "text": "Al Tribunal Constitucional",
+        "isCorrect": false,
+        "rationale": "El Tribunal Constitucional no inicia el procés autonòmic."
+      },
+      {
+        "text": "Exclusivament al Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "El Congrés no té atribuïda en exclusiva la iniciativa autonòmica ordinària."
+      }
+    ]
+  },
+  {
+    "guid": "9f84fa1d-f6f3-49db-b64a-066b2242a9b4",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Quin article permet a les Corts Generals autoritzar la constitució d’una comunitat autònoma quan el seu àmbit territorial no superi el d’una província i no reuneixi les condicions ordinàries?",
+    "answerOptions": [
+      {
+        "text": "Article 144 CE",
+        "isCorrect": true,
+        "rationale": "L’article 144 CE permet a les Corts Generals autoritzar, per motius d’interès nacional, determinats supòsits especials de constitució autonòmica."
+      },
+      {
+        "text": "Article 145 CE",
+        "isCorrect": false,
+        "rationale": "L’article 145 CE regula la prohibició de federació entre comunitats autònomes i els convenis entre elles."
+      },
+      {
+        "text": "Article 150 CE",
+        "isCorrect": false,
+        "rationale": "L’article 150 CE regula lleis marc, transferències o delegacions i lleis d’harmonització."
+      },
+      {
+        "text": "Article 155 CE",
+        "isCorrect": false,
+        "rationale": "L’article 155 CE regula un mecanisme de control extraordinari de l’Estat."
+      }
+    ]
+  },
+  {
+    "guid": "c9c76c0d-c478-48d8-bbb7-bbeff955f3bc",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Segons l’article 145 CE, les comunitats autònomes:",
+    "answerOptions": [
+      {
+        "text": "Poden federar-se entre elles lliurement",
+        "isCorrect": false,
+        "rationale": "La Constitució prohibeix expressament la federació de comunitats autònomes."
+      },
+      {
+        "text": "No poden federar-se entre elles",
+        "isCorrect": true,
+        "rationale": "L’article 145.1 CE estableix que en cap cas s’admetrà la federació de comunitats autònomes."
+      },
+      {
+        "text": "Només poden federar-se amb autorització del Tribunal Constitucional",
+        "isCorrect": false,
+        "rationale": "La federació entre comunitats autònomes està prohibida, encara que hi hagués autorització."
+      },
+      {
+        "text": "Poden federar-se si ho aprova el Senat per majoria simple",
+        "isCorrect": false,
+        "rationale": "El Senat no pot autoritzar una federació prohibida per la Constitució."
+      }
+    ]
+  },
+  {
+    "guid": "2867cabd-6dd8-4685-a669-df8562652777",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Els convenis entre comunitats autònomes per a la gestió i prestació de serveis propis han de ser:",
+    "answerOptions": [
+      {
+        "text": "Aprovats sempre per referèndum",
+        "isCorrect": false,
+        "rationale": "La Constitució no exigeix referèndum per als convenis entre comunitats autònomes."
+      },
+      {
+        "text": "Comunicats a les Corts Generals, en els termes previstos als estatuts",
+        "isCorrect": true,
+        "rationale": "L’article 145.2 CE preveu que els estatuts regulin els supòsits, requisits i termes en què els convenis han de ser comunicats a les Corts Generals."
+      },
+      {
+        "text": "Autoritzats pel Tribunal Suprem",
+        "isCorrect": false,
+        "rationale": "El Tribunal Suprem no autoritza aquests convenis."
+      },
+      {
+        "text": "Aprovats pel Defensor del Poble",
+        "isCorrect": false,
+        "rationale": "El Defensor del Poble no té funcions d’autorització de convenis entre comunitats autònomes."
+      }
+    ]
+  },
+  {
+    "guid": "f9b7624f-946b-44f6-965d-fe689ee9c742",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "El control de l’activitat dels òrgans de les comunitats autònomes pot correspondre al Tribunal Constitucional quan es tracta de:",
+    "answerOptions": [
+      {
+        "text": "La constitucionalitat de les seves disposicions normatives amb força de llei",
+        "isCorrect": true,
+        "rationale": "El Tribunal Constitucional controla la constitucionalitat de les disposicions normatives autonòmiques amb força de llei."
+      },
+      {
+        "text": "La gestió ordinària dels serveis municipals",
+        "isCorrect": false,
+        "rationale": "La gestió ordinària dels serveis municipals no és objecte de control directe pel Tribunal Constitucional."
+      },
+      {
+        "text": "La contractació del personal laboral dels ajuntaments",
+        "isCorrect": false,
+        "rationale": "Aquesta matèria correspon ordinàriament al control administratiu o jurisdiccional corresponent, no al Tribunal Constitucional."
+      },
+      {
+        "text": "La recaptació de tributs locals",
+        "isCorrect": false,
+        "rationale": "La recaptació de tributs locals no és, com a regla general, una qüestió de control constitucional directe."
+      }
+    ]
+  },
+  {
+    "guid": "d0050f0c-d372-47c8-ade8-53364f856572",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "El Govern de l’Estat pot impugnar davant el Tribunal Constitucional disposicions i resolucions adoptades pels òrgans de les comunitats autònomes. Aquesta impugnació produeix:",
+    "answerOptions": [
+      {
+        "text": "La seva anul·lació definitiva automàtica",
+        "isCorrect": false,
+        "rationale": "La impugnació no comporta l’anul·lació definitiva automàtica; correspon al Tribunal Constitucional resoldre."
+      },
+      {
+        "text": "La seva suspensió automàtica, que el Tribunal haurà de ratificar o aixecar en un termini determinat",
+        "isCorrect": true,
+        "rationale": "L’article 161.2 CE estableix que la impugnació pel Govern produeix la suspensió de la disposició o resolució recorreguda, i el Tribunal ha de ratificar-la o aixecar-la."
+      },
+      {
+        "text": "La dissolució immediata del Parlament autonòmic",
+        "isCorrect": false,
+        "rationale": "La impugnació no provoca la dissolució del Parlament autonòmic."
+      },
+      {
+        "text": "La substitució directa del Govern autonòmic",
+        "isCorrect": false,
+        "rationale": "La impugnació constitucional no implica automàticament la substitució del Govern autonòmic."
+      }
+    ]
+  },
+  {
+    "guid": "93eab002-89ff-436f-b847-430b0bf64f1c",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Si una comunitat autònoma no compleix les obligacions constitucionals o legals, o actua de manera greument contrària a l’interès general d’Espanya, el Govern pot acudir al mecanisme de:",
+    "answerOptions": [
+      {
+        "text": "Article 150.1 CE",
+        "isCorrect": false,
+        "rationale": "L’article 150.1 CE regula les lleis marc, no el mecanisme de control extraordinari."
+      },
+      {
+        "text": "Article 151 CE",
+        "isCorrect": false,
+        "rationale": "L’article 151 CE regula la via reforçada d’accés a l’autonomia."
+      },
+      {
+        "text": "Article 155 CE",
+        "isCorrect": true,
+        "rationale": "L’article 155 CE preveu les mesures necessàries quan una comunitat autònoma incompleix obligacions constitucionals o legals o actua greument contra l’interès general d’Espanya."
+      },
+      {
+        "text": "Article 158 CE",
+        "isCorrect": false,
+        "rationale": "L’article 158 CE tracta aspectes de finançament i solidaritat interterritorial."
+      }
+    ]
+  },
+  {
+    "guid": "c7bb809f-23da-4c4d-882e-135b3332bbba",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Abans d’adoptar mesures de l’article 155 CE, el Govern ha de:",
+    "answerOptions": [
+      {
+        "text": "Convocar eleccions autonòmiques",
+        "isCorrect": false,
+        "rationale": "La convocatòria d’eleccions autonòmiques no és el requisit previ establert per l’article 155 CE."
+      },
+      {
+        "text": "Requerir el president de la comunitat autònoma i, si no és atès, obtenir l’aprovació per majoria absoluta del Senat",
+        "isCorrect": true,
+        "rationale": "L’article 155 CE exigeix requeriment previ al president de la comunitat autònoma i, si no és atès, aprovació per majoria absoluta del Senat."
+      },
+      {
+        "text": "Sol·licitar dictamen vinculant del Tribunal Suprem",
+        "isCorrect": false,
+        "rationale": "L’article 155 CE no exigeix un dictamen vinculant del Tribunal Suprem."
+      },
+      {
+        "text": "Aprovar una llei orgànica de suspensió autonòmica",
+        "isCorrect": false,
+        "rationale": "L’article 155 CE no exigeix aprovar una llei orgànica de suspensió autonòmica."
+      }
+    ]
+  },
+  {
+    "guid": "ae14a243-3d49-49dd-8f73-18b4ce05dd10",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "En les comunitats autònomes constituïdes per la via de l’article 151 CE, l’organització institucional autonòmica es basa en:",
+    "answerOptions": [
+      {
+        "text": "Una assemblea legislativa, un consell de govern i un president",
+        "isCorrect": true,
+        "rationale": "L’article 152 CE preveu una assemblea legislativa, un consell de govern amb funcions executives i administratives i un president."
+      },
+      {
+        "text": "Un governador civil i una diputació provincial",
+        "isCorrect": false,
+        "rationale": "Aquesta estructura no correspon a l’organització institucional autonòmica de l’article 152 CE."
+      },
+      {
+        "text": "Un delegat del Govern i un tribunal administratiu",
+        "isCorrect": false,
+        "rationale": "El delegat del Govern representa l’Estat a la comunitat autònoma, però no forma part de l’organització institucional autonòmica pròpia."
+      },
+      {
+        "text": "Un ple municipal i una junta de govern local",
+        "isCorrect": false,
+        "rationale": "Aquesta és una estructura pròpia de l’organització municipal, no autonòmica."
+      }
+    ]
+  },
+  {
+    "guid": "62931e2d-7cba-4d26-8e75-344c1d2d1d80",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "L’assemblea legislativa autonòmica és elegida mitjançant:",
+    "answerOptions": [
+      {
+        "text": "Sufragi universal, d’acord amb un sistema de representació proporcional",
+        "isCorrect": true,
+        "rationale": "L’article 152 CE estableix que l’assemblea legislativa és elegida per sufragi universal segons un sistema de representació proporcional."
+      },
+      {
+        "text": "Designació directa pel Govern de l’Estat",
+        "isCorrect": false,
+        "rationale": "L’assemblea legislativa autonòmica no és designada pel Govern de l’Estat."
+      },
+      {
+        "text": "Elecció indirecta pels ajuntaments",
+        "isCorrect": false,
+        "rationale": "La Constitució preveu sufragi universal, no elecció indirecta pels ajuntaments."
+      },
+      {
+        "text": "Sorteig entre els ciutadans majors d’edat",
+        "isCorrect": false,
+        "rationale": "No existeix elecció per sorteig de l’assemblea legislativa autonòmica."
+      }
+    ]
+  },
+  {
+    "guid": "035305da-c5e3-4265-8a02-00031e85339e",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "El president de la comunitat autònoma és elegit per:",
+    "answerOptions": [
+      {
+        "text": "El Rei directament",
+        "isCorrect": false,
+        "rationale": "El Rei nomena el president autonòmic, però no l’elegeix directament."
+      },
+      {
+        "text": "L’assemblea legislativa autonòmica i nomenat pel Rei",
+        "isCorrect": true,
+        "rationale": "L’article 152 CE estableix que el president és elegit per l’assemblea legislativa d’entre els seus membres i nomenat pel Rei."
+      },
+      {
+        "text": "El Senat",
+        "isCorrect": false,
+        "rationale": "El Senat no elegeix els presidents autonòmics."
+      },
+      {
+        "text": "El Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "El Congrés dels Diputats no elegeix els presidents de les comunitats autònomes."
+      }
+    ]
+  },
+  {
+    "guid": "58a68d70-3265-4ed1-ac04-7743855feeae",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "El president de la comunitat autònoma té, entre altres funcions:",
+    "answerOptions": [
+      {
+        "text": "La direcció del consell de govern i la suprema representació de la comunitat autònoma",
+        "isCorrect": true,
+        "rationale": "El president autonòmic dirigeix el consell de govern, ostenta la suprema representació de la comunitat autònoma i la representació ordinària de l’Estat en aquesta."
+      },
+      {
+        "text": "La presidència del Tribunal Constitucional",
+        "isCorrect": false,
+        "rationale": "El president autonòmic no presideix el Tribunal Constitucional."
+      },
+      {
+        "text": "La direcció de les Forces Armades",
+        "isCorrect": false,
+        "rationale": "La direcció de les Forces Armades no correspon als presidents autonòmics."
+      },
+      {
+        "text": "La potestat exclusiva per reformar la Constitució",
+        "isCorrect": false,
+        "rationale": "La reforma constitucional segueix els procediments establerts al Títol X de la Constitució i no correspon en exclusiva a cap president autonòmic."
+      }
+    ]
+  },
+  {
+    "guid": "468c13cb-ed24-4d13-9005-60bc69841865",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "El control de l’Administració autonòmica i de les seves normes reglamentàries correspon ordinàriament:",
+    "answerOptions": [
+      {
+        "text": "A la jurisdicció contenciosa administrativa",
+        "isCorrect": true,
+        "rationale": "La jurisdicció contenciosa administrativa controla l’activitat administrativa i les normes reglamentàries de les administracions públiques."
+      },
+      {
+        "text": "Al Defensor del Poble exclusivament",
+        "isCorrect": false,
+        "rationale": "El Defensor del Poble pot supervisar l’activitat administrativa, però no substitueix el control jurisdiccional."
+      },
+      {
+        "text": "Al Tribunal de Comptes en tots els casos",
+        "isCorrect": false,
+        "rationale": "El Tribunal de Comptes exerceix control econòmic i comptable, no el control ordinari de tota l’activitat administrativa."
+      },
+      {
+        "text": "Al Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "El Congrés no exerceix el control ordinari jurisdiccional de l’Administració autonòmica."
+      }
+    ]
+  },
+  {
+    "guid": "9af66b01-5011-4678-88c5-aded1954e809",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "El control econòmic i pressupostari de les comunitats autònomes pot correspondre:",
+    "answerOptions": [
+      {
+        "text": "Només als ajuntaments",
+        "isCorrect": false,
+        "rationale": "Els ajuntaments no exerceixen el control econòmic i pressupostari general de les comunitats autònomes."
+      },
+      {
+        "text": "Al Tribunal de Comptes, sens perjudici dels òrgans autonòmics equivalents",
+        "isCorrect": true,
+        "rationale": "El Tribunal de Comptes és l’òrgan fiscalitzador suprem, sens perjudici dels òrgans autonòmics de control extern que puguin existir."
+      },
+      {
+        "text": "Exclusivament al Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "El control econòmic i pressupostari no correspon exclusivament al Consell de Ministres."
+      },
+      {
+        "text": "Només al Banc d’Espanya",
+        "isCorrect": false,
+        "rationale": "El Banc d’Espanya no és l’òrgan general de control pressupostari de les comunitats autònomes."
+      }
+    ]
+  },
+  {
+    "guid": "3b143833-ad6b-4bd5-a3e9-1900f2cbca93",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "L’article 150.2 CE permet que l’Estat:",
+    "answerOptions": [
+      {
+        "text": "Suprimeixi competències autonòmiques sense cap límit",
+        "isCorrect": false,
+        "rationale": "L’article 150.2 CE no permet suprimir competències autonòmiques sense límits."
+      },
+      {
+        "text": "Transfereixi o delegui a les comunitats autònomes facultats corresponents a matèries de titularitat estatal que per la seva naturalesa siguin susceptibles de transferència o delegació",
+        "isCorrect": true,
+        "rationale": "L’article 150.2 CE permet transferir o delegar facultats de titularitat estatal susceptibles de transferència o delegació mitjançant llei orgànica."
+      },
+      {
+        "text": "Aprovi estatuts municipals",
+        "isCorrect": false,
+        "rationale": "L’article 150.2 CE no regula estatuts municipals."
+      },
+      {
+        "text": "Substitueixi les lleis autonòmiques per reglaments locals",
+        "isCorrect": false,
+        "rationale": "L’article 150.2 CE no permet substituir lleis autonòmiques per reglaments locals."
+      }
+    ]
+  },
+  {
+    "guid": "40629531-99e2-4df4-86fb-dc1f24a9468f",
+    "subjectId": "T08",
+    "difficulty": 1,
+    "origin": "chatgpt",
+    "type": "test",
+    "question": "Les lleis d’harmonització de l’article 150.3 CE tenen com a finalitat:",
+    "answerOptions": [
+      {
+        "text": "Harmonitzar disposicions normatives autonòmiques quan ho exigeixi l’interès general",
+        "isCorrect": true,
+        "rationale": "L’article 150.3 CE permet a l’Estat dictar lleis que estableixin els principis necessaris per harmonitzar disposicions normatives autonòmiques, fins i tot en matèries atribuïdes a la competència autonòmica, quan així ho exigeixi l’interès general."
+      },
+      {
+        "text": "Regular exclusivament els tributs municipals",
+        "isCorrect": false,
+        "rationale": "Les lleis d’harmonització no tenen com a objecte exclusiu els tributs municipals."
+      },
+      {
+        "text": "Aprovar els pressupostos generals de l’Estat",
+        "isCorrect": false,
+        "rationale": "Els pressupostos generals de l’Estat s’aproven mitjançant la seva llei específica, no per lleis d’harmonització."
+      },
+      {
+        "text": "Crear noves províncies sense llei orgànica",
+        "isCorrect": false,
+        "rationale": "La modificació dels límits provincials exigeix llei orgànica, i no és l’objecte de les lleis d’harmonització."
+      }
+    ]
+  }
+]
