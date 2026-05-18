@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualitzador de subjectId en JSON de temari</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 1.8rem;
+            color: #1e3c72;
+            margin-bottom: 0.25rem;
+        }
+        .sub {
+            color: #2c5282;
+            margin-bottom: 2rem;
+            border-left: 4px solid #2c5282;
+            padding-left: 1rem;
+        }
+        .flex-panels {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .panel {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .panel h2 {
+            font-size: 1.3rem;
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+            color: #1a202c;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+        textarea {
+            width: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 13px;
+            padding: 10px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            resize: vertical;
+            background: #fefefe;
+        }
+        #jsonInput, #subjectIdsInput {
+            flex: 1;
+            min-height: 300px;
+        }
+        #outputArea {
+            min-height: 350px;
+            background: #f8fafc;
+        }
+        .button-bar {
+            display: flex;
+            gap: 12px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        button {
+            background: #2c5282;
+            border: none;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 40px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.2s;
+            font-size: 0.9rem;
+        }
+        button:hover {
+            background: #1a3a5f;
+            transform: scale(1.02);
+        }
+        button.secondary {
+            background: #4a5568;
+        }
+        button.secondary:hover {
+            background: #2d3748;
+        }
+        button.warning {
+            background: #b91c1c;
+        }
+        button.warning:hover {
+            background: #991b1b;
+        }
+        .status {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            background: #e6fffa;
+            color: #234e52;
+            font-weight: 500;
+        }
+        .error {
+            background: #fff5f5;
+            color: #9b2c2c;
+            border-left: 4px solid #e53e3e;
+        }
+        .success {
+            background: #f0fff4;
+            color: #22543d;
+            border-left: 4px solid #38a169;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #4a5568;
+        }
+        .copy-btn {
+            background: #2b6cb0;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📝 Actualitzador massiu de <code>subjectId</code></h1>
+    <div class="sub">Pega el teu array JSON i, a continuació, els nous subjectId (un per línia) en el mateix ordre que els elements.</div>
+
+    <div class="flex-panels">
+        <div class="panel">
+            <h2>📄 1. JSON original (array d'objectes)</h2>
+            <textarea id="jsonInput" placeholder='Exemple:
+[
+  {
+    "guid": "...",
+    "subjectId": "T1",
+    "question": "..."
+  }
+]'></textarea>
+        </div>
+        <div class="panel">
+            <h2>🔢 2. Nous subjectId (1 per línia)</h2>
+            <textarea id="subjectIdsInput" placeholder="T1
+T1
+T2
+T3
+... (exactament tantes línies com objectes hi hagi al JSON)"></textarea>
+        </div>
+    </div>
+
+    <div class="button-bar">
+        <button id="updateBtn">🔄 Actualitzar subjectId</button>
+        <button id="clearBtn" class="secondary">🧹 Netejar tot</button>
+        <button id="loadExampleBtn" class="secondary">📋 Carregar exemple</button>
+        <button id="copyOutputBtn" class="copy-btn">📑 Copiar JSON resultant</button>
+    </div>
+
+    <div class="panel" style="margin-top: 20px;">
+        <h2>✅ 3. JSON actualitzat</h2>
+        <textarea id="outputArea" readonly placeholder="Aquí apareixerà el JSON modificat..."></textarea>
+    </div>
+
+    <div id="statusMsg" class="status"></div>
+    <footer>
+        ⚡ Assegura't que el nombre de línies del segon textarea coincideixi exactament amb el nombre d'objectes del JSON.<br>
+        Es mantindran tots els altres camps. Només es modifica la propietat <code>subjectId</code> de cada element.
+    </footer>
+</div>
+
+<script>
+    (function() {
+        const jsonInput = document.getElementById('jsonInput');
+        const subjectIdsInput = document.getElementById('subjectIdsInput');
+        const outputArea = document.getElementById('outputArea');
+        const statusDiv = document.getElementById('statusMsg');
+        const updateBtn = document.getElementById('updateBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const loadExampleBtn = document.getElementById('loadExampleBtn');
+        const copyOutputBtn = document.getElementById('copyOutputBtn');
+
+        function showMessage(text, isError = false) {
+            statusDiv.textContent = text;
+            statusDiv.classList.remove('success', 'error');
+            statusDiv.classList.add(isError ? 'error' : 'success');
+            setTimeout(() => {
+                if (statusDiv.textContent === text) {
+                    // leave message but no auto-clear if needed
+                }
+            }, 4000);
+        }
+
+        function clearStatus() {
+            statusDiv.textContent = '';
+            statusDiv.classList.remove('success', 'error');
+        }
+
+        function updateSubjectIds() {
+            clearStatus();
+            const jsonRaw = jsonInput.value.trim();
+            const idsRaw = subjectIdsInput.value;
+
+            if (!jsonRaw) {
+                showMessage('❌ Si us plau, introdueix el JSON al primer camp.', true);
+                return;
+            }
+
+            let data;
+            try {
+                data = JSON.parse(jsonRaw);
+            } catch(e) {
+                showMessage('❌ JSON invàlid. Revisa la sintaxi: ' + e.message, true);
+                return;
+            }
+
+            if (!Array.isArray(data)) {
+                showMessage('❌ El JSON ha de ser un array (línia d\'objectes).', true);
+                return;
+            }
+
+            const idsLines = idsRaw.split(/\r?\n/).filter(line => line !== ''); // keep empty? We want to allow empty strings? Usually subjectId can be empty? But we keep all non-empty lines? Better: consider all lines even empty because user might want empty. But typical usage: each line contains a new subjectId even if empty string? Safer: we keep all lines, including empty ones, to match length.
+            // Actually we need exact length: if user has trailing newline we might have extra empty line. Better: split but keep all items (including empty strings) and then trim? No, preserve exactly lines count.
+            let lines = idsRaw.split(/\r?\n/);
+            // But if last line is empty due to trailing newline, it's still an element. We'll keep as is and warn.
+            // Remove the very last element if it's empty AND the raw string ends with newline? But we'll compare lengths directly.
+            const lineCount = lines.length;
+            const objCount = data.length;
+
+            if (lineCount !== objCount) {
+                showMessage(`❌ Incoherència: el JSON té ${objCount} objecte(s), però has proporcionat ${lineCount} línia(es) de subjectId. Han de coincidir exactament.`, true);
+                return;
+            }
+
+            // Create a copy and update subjectId
+            const updatedData = data.map((item, index) => {
+                const newId = lines[index]; // keep exactly as written (including empty string if that's the line)
+                return {
+                    ...item,
+                    subjectId: newId
+                };
+            });
+
+            // Format output pretty JSON
+            const outputJson = JSON.stringify(updatedData, null, 2);
+            outputArea.value = outputJson;
+            showMessage(`✅ Actualització correcta! S'han actualitzat ${objCount} elements.`);
+        }
+
+        function clearAll() {
+            jsonInput.value = '';
+            subjectIdsInput.value = '';
+            outputArea.value = '';
+            clearStatus();
+            showMessage('🧹 Tots els camps s\'han netejat.');
+        }
+
+        function loadExample() {
+            // Exemple amb les primeres preguntes del teu fitxer (adaptat)
+            const exampleJson = [
+                {
+                    "guid": "216694b2-4e42-480f-b7ef-5425d34fc727",
+                    "subjectId": "T1",
+                    "difficulty": 2,
+                    "origin": "2023_278_OP_3pl_TM_del_SPCPEIS_Questionari_Solucionari_Temari_General.pdf",
+                    "type": "test",
+                    "question": "1. Quin dels següents drets és susceptible de recurs d’empara davant del Tribunal Constitucional:",
+                    "hint": "Identifica el bloc constitucional o autonòmic al qual pertany la pregunta abans de fixar la resposta correcta.",
+                    "answerOptions": [
+                        { "text": "Dret a la propietat privada i la herència.", "isCorrect": false, "rationale": "No és la resposta correcta..." },
+                        { "text": "Dret al medi ambient.", "isCorrect": false, "rationale": "No és la resposta correcta..." },
+                        { "text": "Dret a la producció i a la creació literària, artística, científica i tècnica.", "isCorrect": true, "rationale": "És un dret fonamental..." },
+                        { "text": "Dret a l’habitatge.", "isCorrect": false, "rationale": "No és la resposta correcta..." }
+                    ]
+                },
+                {
+                    "guid": "02c05c2d-7342-4bcf-b0d9-d28eb47c5abd",
+                    "subjectId": "T1",
+                    "difficulty": 2,
+                    "origin": "2023_278_OP_3pl_TM_del_SPCPEIS_Questionari_Solucionari_Temari_General.pdf",
+                    "type": "test",
+                    "question": "2. Segons l’article 22 de la Constitució Espanyola, quina de les següents afirmacions sobre les associacions és correcta:",
+                    "hint": "Identifica el bloc constitucional o autonòmic al qual pertany la pregunta abans de fixar la resposta correcta.",
+                    "answerOptions": [
+                        { "text": "No s’han d’inscriure en cap registre a efectes de publicitat.", "isCorrect": false, "rationale": "No és la resposta correcta..." },
+                        { "text": "Només podran ser dissoltes en virtut d’una resolució administrativa motivada.", "isCorrect": false, "rationale": "No és la resposta correcta..." },
+                        { "text": "Poden ser secretes.", "isCorrect": false, "rationale": "No és la resposta correcta..." },
+                        { "text": "Són il·legals si fan servir mitjans tipificats com a delicte.", "isCorrect": true, "rationale": "Les associacions que utilitzin..." }
+                    ]
+                }
+            ];
+            jsonInput.value = JSON.stringify(exampleJson, null, 2);
+            // Exemple de subjectIds (2 línies: volem canviar T1 per T2 i T1 per T3 per demostració)
+            subjectIdsInput.value = "T2\nT3";
+            outputArea.value = '';
+            clearStatus();
+            showMessage('📋 Exemple carregat. Prem "Actualitzar" per veure la modificació.');
+        }
+
+        function copyOutput() {
+            if (!outputArea.value.trim()) {
+                showMessage('No hi ha JSON resultant per copiar.', true);
+                return;
+            }
+            outputArea.select();
+            navigator.clipboard.writeText(outputArea.value).then(() => {
+                showMessage('📋 JSON copiat al portapapers!');
+            }).catch(() => {
+                showMessage('❌ No s’ha pogut copiar automàticament. Selecciona manualment i ctrl+C.', true);
+            });
+        }
+
+        updateBtn.addEventListener('click', updateSubjectIds);
+        clearBtn.addEventListener('click', clearAll);
+        loadExampleBtn.addEventListener('click', loadExample);
+        copyOutputBtn.addEventListener('click', copyOutput);
+    })();
+</script>
+</body>
+</html>
