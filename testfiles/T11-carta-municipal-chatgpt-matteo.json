@@ -1,0 +1,873 @@
+[
+{
+"guid": "b0d22075-0560-4d70-99ad-4d9778b080c0",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quines normes integren principalment el règim especial del municipi de Barcelona?",
+"answerOptions": [
+{
+"text": "La Constitució espanyola, el Codi civil i el Reglament del Senat.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquestes normes no constitueixen específicament el règim especial del municipi de Barcelona."
+},
+{
+"text": "La Llei 22/1998, de la Carta Municipal, i la Llei 1/2006, del règim especial del municipi de Barcelona.",
+"isCorrect": true,
+"rationale": "Correcta. El règim especial de Barcelona s’integra pel tram autonòmic de la Carta Municipal i pel tram estatal aprovat per les Corts Generals."
+},
+{
+"text": "La Llei de bases de règim local, el Reglament orgànic del Congrés i la Llei electoral general.",
+"isCorrect": false,
+"rationale": "Incorrecta. La legislació bàsica local és aplicable, però no és la identificació específica del règim especial de Barcelona."
+},
+{
+"text": "L’Estatut dels treballadors, la Llei de contractes del sector públic i el Reglament de districtes.",
+"isCorrect": false,
+"rationale": "Incorrecta. Són normes que poden incidir en àmbits concrets, però no defineixen el règim especial municipal."
+}
+]
+},
+{
+"guid": "48e2c1a2-e2c3-4075-9e1d-2d0c5096ae2f",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quan es parla del tram autonòmic de la Carta Municipal de Barcelona, a quina norma es fa referència?",
+"answerOptions": [
+{
+"text": "A la Llei 1/2006, aprovada per les Corts Generals, sobre règim especial de Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Llei 1/2006 és el tram estatal, no el tram autonòmic."
+},
+{
+"text": "A la Llei 22/1998, aprovada pel Parlament de Catalunya, de la Carta Municipal de Barcelona.",
+"isCorrect": true,
+"rationale": "Correcta. El tram autonòmic és la Llei 22/1998, aprovada pel Parlament de Catalunya."
+},
+{
+"text": "Al Reglament orgànic municipal, aprovat per l’Ajuntament com a norma interna d’organització.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Reglament orgànic municipal desenvolupa l’organització municipal, però no és el tram autonòmic de la Carta."
+},
+{
+"text": "A la Llei reguladora de les bases del règim local, com a norma estatal bàsica.",
+"isCorrect": false,
+"rationale": "Incorrecta. La LBRL és legislació bàsica estatal de règim local, no la Carta Municipal autonòmica."
+}
+]
+},
+{
+"guid": "81284456-1d41-4f10-8a8b-79132c0116df",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quan es parla del tram estatal de la Carta Municipal de Barcelona, quina afirmació és correcta?",
+"answerOptions": [
+{
+"text": "Són totes les reformes autonòmiques de la Carta Municipal aprovades des de l’any 1998.",
+"isCorrect": false,
+"rationale": "Incorrecta. El tram estatal no equival al conjunt de reformes de la Carta Municipal."
+},
+{
+"text": "És la Llei de les Corts Generals que regula especialitats aplicables exclusivament al municipi de Barcelona.",
+"isCorrect": true,
+"rationale": "Correcta. El tram estatal és la Llei 1/2006, aprovada per les Corts Generals, sobre el règim especial de Barcelona."
+},
+{
+"text": "És el títol competencial de la Carta Municipal, format només pels articles sobre serveis públics.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol competencial és una part material, però no defineix el tram estatal."
+},
+{
+"text": "És tota la legislació estatal general que pot aplicar-se ordinàriament a qualsevol ajuntament.",
+"isCorrect": false,
+"rationale": "Incorrecta. El tram estatal fa referència a una norma específica sobre Barcelona, no a tota la legislació estatal general."
+}
+]
+},
+{
+"guid": "de3903ea-82c9-4f92-8a7e-2667e2e3d4d6",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin article de l’Estatut d’autonomia de Catalunya reconeix el règim especial del municipi de Barcelona?",
+"answerOptions": [
+{
+"text": "L’article 84, dedicat a les competències locals i als governs locals de Catalunya.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’article 84 regula competències locals, però el règim especial de Barcelona es reconeix específicament en un altre article."
+},
+{
+"text": "L’article 89, relatiu al règim especial del municipi de Barcelona.",
+"isCorrect": true,
+"rationale": "Correcta. L’article 89 EAC reconeix el règim especial del municipi de Barcelona."
+},
+{
+"text": "L’article 137, sobre organització territorial de l’Estat en municipis, províncies i comunitats autònomes.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’article 137 és de la Constitució espanyola, no de l’Estatut d’autonomia de Catalunya."
+},
+{
+"text": "L’article 140, que garanteix l’autonomia dels municipis i la seva personalitat jurídica plena.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’article 140 també és constitucional i regula l’autonomia municipal en general."
+}
+]
+},
+{
+"guid": "74075136-b5ea-4751-97ab-75bfe2dc6cd9",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons la Carta Municipal, Barcelona és definida expressament com:",
+"answerOptions": [
+{
+"text": "La capital de Catalunya i una ciutat amb règim especial garantit estatutàriament.",
+"isCorrect": true,
+"rationale": "Correcta. La Carta Municipal parteix de Barcelona com a capital de Catalunya i municipi amb règim especial."
+},
+{
+"text": "La capital administrativa de l’Estat i seu permanent de totes les institucions constitucionals.",
+"isCorrect": false,
+"rationale": "Incorrecta. La capital de l’Estat és Madrid, no Barcelona."
+},
+{
+"text": "Una província amb capacitat legislativa pròpia i potestat per aprovar lleis orgàniques.",
+"isCorrect": false,
+"rationale": "Incorrecta. Barcelona no és una província amb potestat legislativa ni pot aprovar lleis orgàniques."
+},
+{
+"text": "Una comunitat autònoma uniprovincial amb competències estatutàries pròpies.",
+"isCorrect": false,
+"rationale": "Incorrecta. Barcelona és un municipi amb règim especial, no una comunitat autònoma."
+}
+]
+},
+{
+"guid": "c373c81d-4d6d-43a0-b792-f09e4747388e",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin òrgan té la iniciativa per proposar la modificació del règim especial del municipi de Barcelona?",
+"answerOptions": [
+{
+"text": "El Govern de l’Estat, mitjançant acord del Consell de Ministres i sense intervenció municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. El règim especial reconeix una intervenció pròpia de l’Ajuntament de Barcelona."
+},
+{
+"text": "L’Ajuntament de Barcelona, d’acord amb el règim especial reconegut per l’Estatut.",
+"isCorrect": true,
+"rationale": "Correcta. L’Ajuntament de Barcelona té iniciativa per proposar la modificació del seu règim especial."
+},
+{
+"text": "El Tribunal Constitucional, quan resol conflictes en defensa de l’autonomia local.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Tribunal Constitucional resol conflictes, però no té la iniciativa política de modificació del règim especial."
+},
+{
+"text": "La Diputació de Barcelona, com a ens supramunicipal de cooperació i assistència local.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Diputació no és l’òrgan titular de la iniciativa de reforma del règim especial de Barcelona."
+}
+]
+},
+{
+"guid": "f2e06308-ee2b-44e9-9690-87c76f94a08d",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina és una finalitat essencial de la Carta Municipal de Barcelona?",
+"answerOptions": [
+{
+"text": "Reduir l’autonomia municipal per uniformar Barcelona amb la resta de municipis catalans.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta reforça l’autonomia i el règim singular de Barcelona, no els redueix."
+},
+{
+"text": "Reforçar l’autonomia municipal, la descentralització i la proximitat en la gestió de la ciutat.",
+"isCorrect": true,
+"rationale": "Correcta. La Carta busca reforçar l’autonomia de Barcelona, la descentralització i la qualitat dels serveis."
+},
+{
+"text": "Substituir íntegrament la Constitució i l’Estatut en l’àmbit territorial de Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta no substitueix normes superiors; s’integra en l’ordenament jurídic."
+},
+{
+"text": "Convertir els districtes en municipis independents amb potestat legislativa pròpia.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els districtes són òrgans territorials de Barcelona, no municipis independents."
+}
+]
+},
+{
+"guid": "c97d2a3b-5dfa-46f6-a8a5-3b3d8f818245",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin òrgan és el màxim representant polític dels ciutadans en el govern de la ciutat de Barcelona?",
+"answerOptions": [
+{
+"text": "La Comissió de Govern, perquè exerceix funcions executives i de direcció administrativa ordinària.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Comissió de Govern és un òrgan de govern, però no és el màxim òrgan de representació política ciutadana."
+},
+{
+"text": "El Consell Municipal, format pels regidors i presidit per l’alcalde o alcaldessa.",
+"isCorrect": true,
+"rationale": "Correcta. El Consell Municipal és l’òrgan de màxima representació política dels ciutadans en el govern de la ciutat."
+},
+{
+"text": "La Gerència Municipal, perquè coordina l’estructura executiva de l’Ajuntament.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Gerència Municipal pertany a l’estructura executiva, no a la representació política ciutadana."
+},
+{
+"text": "El Consell de Ciutat, com a òrgan de participació general de les entitats i ciutadania.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Consell de Ciutat és un òrgan de participació, no el màxim òrgan representatiu municipal."
+}
+]
+},
+{
+"guid": "53217698-ff93-4c0f-b19b-e71b71e7b937",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "A qui correspon dirigir el govern i l’administració municipals de Barcelona?",
+"answerOptions": [
+{
+"text": "Al Consell Econòmic i Social, mitjançant dictàmens vinculants sobre l’acció municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Consell Econòmic i Social és consultiu i no dirigeix el govern municipal."
+},
+{
+"text": "A l’alcalde o alcaldessa, com a president o presidenta de la corporació municipal.",
+"isCorrect": true,
+"rationale": "Correcta. L’alcalde o alcaldessa dirigeix el govern i l’administració municipals."
+},
+{
+"text": "Als consells de districte, de manera conjunta i substituint l’Alcaldia.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els consells de districte són òrgans territorials, però no substitueixen l’Alcaldia."
+},
+{
+"text": "A la Sindicatura de Greuges, quan actua en defensa dels drets dels veïns.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Sindicatura supervisa i defensa drets, però no dirigeix el govern municipal."
+}
+]
+},
+{
+"guid": "03f1cb9f-ff7e-4e0f-84e2-9874e51cf425",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons la Carta Municipal, quin d’aquests òrgans forma part del govern del municipi de Barcelona?",
+"answerOptions": [
+{
+"text": "El Tribunal Superior de Justícia de Catalunya, com a òrgan judicial superior.",
+"isCorrect": false,
+"rationale": "Incorrecta. És un òrgan judicial, no un òrgan de govern municipal."
+},
+{
+"text": "El Consell Municipal, juntament amb l’alcalde o alcaldessa i la Comissió de Govern.",
+"isCorrect": true,
+"rationale": "Correcta. El Consell Municipal, l’Alcaldia i la Comissió de Govern formen part dels òrgans de govern municipal."
+},
+{
+"text": "El Parlament de Catalunya, perquè aprova la normativa autonòmica sobre Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Parlament aprova lleis, però no és un òrgan de govern del municipi."
+},
+{
+"text": "El Tribunal de Comptes, perquè fiscalitza l’activitat econòmica del sector públic.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Tribunal de Comptes és un òrgan fiscalitzador estatal, no municipal."
+}
+]
+},
+{
+"guid": "1c33c9fc-51fe-41cb-9d44-dcae8097a084",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin principi organitzatiu inspira especialment la regulació dels districtes a la Carta Municipal?",
+"answerOptions": [
+{
+"text": "La concentració de totes les decisions en els òrgans centrals de l’Ajuntament.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta aposta per descentralitzar i desconcentrar, no per concentrar tota la gestió."
+},
+{
+"text": "La descentralització territorial i la participació ciutadana de proximitat.",
+"isCorrect": true,
+"rationale": "Correcta. Els districtes responen a la descentralització territorial i a l’apropament de la participació ciutadana."
+},
+{
+"text": "La supressió de l’organització territorial interna per evitar duplicitats administratives.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta no suprimeix l’organització territorial interna, sinó que reforça els districtes."
+},
+{
+"text": "La substitució dels regidors per funcionaris de carrera en tots els òrgans territorials.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els districtes tenen dimensió política i participativa, no substitueixen els càrrecs electes per funcionaris."
+}
+]
+},
+{
+"guid": "5fdd8fcf-189d-4214-beb1-ff8a3b2f340c",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Els districtes de Barcelona són principalment:",
+"answerOptions": [
+{
+"text": "Òrgans territorials per a la desconcentració de la gestió i la descentralització de la participació ciutadana.",
+"isCorrect": true,
+"rationale": "Correcta. Aquesta és la fórmula clàssica d’examen sobre la naturalesa dels districtes."
+},
+{
+"text": "Municipis independents integrats dins l’àrea metropolitana i dotats de potestat legislativa.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els districtes no són municipis independents ni tenen potestat legislativa."
+},
+{
+"text": "Òrgans judicials de proximitat encarregats de resoldre conflictes veïnals i administratius.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els districtes no són òrgans judicials."
+},
+{
+"text": "Delegacions de la Generalitat per executar competències autonòmiques dins de Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els districtes formen part de l’organització municipal de l’Ajuntament de Barcelona."
+}
+]
+},
+{
+"guid": "7757ed9c-00a2-4cd9-9f8e-c58f458d11dc",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin percentatge mínim dels recursos ordinaris del pressupost municipal han de gestionar els districtes?",
+"answerOptions": [
+{
+"text": "El 5%, com a percentatge mínim per a serveis territorials ordinaris.",
+"isCorrect": false,
+"rationale": "Incorrecta. El percentatge mínim previst no és el 5%."
+},
+{
+"text": "El 10%, sempre que el Consell Municipal ho autoritzi anualment.",
+"isCorrect": false,
+"rationale": "Incorrecta. El mínim no és el 10% ni depèn d’una autorització anual amb aquest contingut."
+},
+{
+"text": "El 15% dels recursos ordinaris del pressupost municipal.",
+"isCorrect": true,
+"rationale": "Correcta. La Carta Municipal preveu que els districtes gestionin com a mínim el 15% dels recursos ordinaris."
+},
+{
+"text": "El 25%, incloent obligatòriament totes les inversions territorialitzades.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta no fixa aquest percentatge com a mínim general."
+}
+]
+},
+{
+"guid": "e9455e35-dfe7-4b0d-90cc-5d81fb71d5f4",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "La potestat normativa municipal de Barcelona pot expressar-se, entre altres formes, mitjançant:",
+"answerOptions": [
+{
+"text": "Reglaments, ordenances, decrets de la Comissió de Govern, decrets d’Alcaldia i bans.",
+"isCorrect": true,
+"rationale": "Correcta. Aquestes són formes normatives pròpies del règim municipal de Barcelona."
+},
+{
+"text": "Lleis orgàniques, lleis ordinàries, decrets legislatius i tractats internacionals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquests instruments no són formes normatives pròpies de l’Ajuntament."
+},
+{
+"text": "Sentències, interlocutòries, providències i acords dels òrgans jurisdiccionals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Són resolucions judicials, no normes municipals."
+},
+{
+"text": "Estatuts d’autonomia, lleis marc, lleis d’harmonització i reglaments parlamentaris.",
+"isCorrect": false,
+"rationale": "Incorrecta. Són instruments normatius d’altres nivells institucionals, no de l’Ajuntament."
+}
+]
+},
+{
+"guid": "a75ab2fe-fb2f-4dc3-a73e-9056bb3be392",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "D’acord amb la Carta Municipal, els bans de l’alcalde o alcaldessa són:",
+"answerOptions": [
+{
+"text": "Resolucions judicials dictades en situacions excepcionals pels jutjats contenciosos administratius.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els bans no són resolucions judicials."
+},
+{
+"text": "Disposicions generals dictades en situacions excepcionals, de necessitat urgent o d’especial rellevància.",
+"isCorrect": true,
+"rationale": "Correcta. Els bans són disposicions generals de l’Alcaldia per a supòsits excepcionals, urgents o especialment rellevants."
+},
+{
+"text": "Ordenances fiscals aprovades pel Consell Municipal per regular tributs locals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Les ordenances fiscals són una categoria diferent de norma municipal."
+},
+{
+"text": "Dictàmens consultius emesos pels òrgans de participació ciutadana dels districtes.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els bans són disposicions de l’Alcaldia, no dictàmens participatius."
+}
+]
+},
+{
+"guid": "1b4802a6-47b8-42c0-bd26-c24c3e8de02c",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin instrument de participació permet als administrats proposar acords o rebre informació de l’actuació municipal?",
+"answerOptions": [
+{
+"text": "El recurs contenciós administratiu, com a via jurisdiccional de control dels actes locals.",
+"isCorrect": false,
+"rationale": "Incorrecta. El recurs contenciós és una via judicial, no un instrument ordinari de participació municipal."
+},
+{
+"text": "L’audiència pública, com a mecanisme de participació ciutadana municipal.",
+"isCorrect": true,
+"rationale": "Correcta. L’audiència pública permet proposar acords o rebre informació sobre l’actuació municipal."
+},
+{
+"text": "La moció de censura, com a mecanisme de substitució de l’alcalde o alcaldessa.",
+"isCorrect": false,
+"rationale": "Incorrecta. La moció de censura és un instrument de responsabilitat política, no de participació ciutadana ordinària."
+},
+{
+"text": "La qüestió de confiança, com a mecanisme de control del Consell Municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. La qüestió de confiança no és l’instrument de participació descrit a la pregunta."
+}
+]
+},
+{
+"guid": "08e21376-4ee6-4d6f-b759-8a2b07217723",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons la Carta Municipal, la iniciativa ciutadana per proposar una disposició municipal de caràcter general exigeix:",
+"answerOptions": [
+{
+"text": "La signatura de qualsevol veí major d’edat, sense percentatge mínim ni requisits territorials.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta exigeix uns llindars mínims de suport ciutadà."
+},
+{
+"text": "El suport mínim de l’1% dels empadronats majors de setze anys, o més del 3% en tres districtes com a mínim.",
+"isCorrect": true,
+"rationale": "Correcta. Aquest és el llindar específic que acostuma a aparèixer en preguntes de test."
+},
+{
+"text": "L’acord previ del Parlament de Catalunya i la posterior ratificació del Consell Municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. La iniciativa ciutadana municipal no requereix aquest procediment parlamentari."
+},
+{
+"text": "La petició exclusiva de les associacions inscrites al registre autonòmic d’entitats locals.",
+"isCorrect": false,
+"rationale": "Incorrecta. No és una iniciativa reservada només a aquestes associacions."
+}
+]
+},
+{
+"guid": "7adf8df4-6776-408b-a6ee-6766c7c67a2a",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina funció té el Consell Econòmic i Social de Barcelona dins la Carta Municipal?",
+"answerOptions": [
+{
+"text": "Exercir la potestat legislativa municipal i aprovar definitivament les lleis de Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’Ajuntament no aprova lleis i el Consell Econòmic i Social no és un òrgan legislatiu."
+},
+{
+"text": "Actuar com a òrgan consultiu general amb participació dels agents socials i econòmics.",
+"isCorrect": true,
+"rationale": "Correcta. El Consell Econòmic i Social és un òrgan consultiu i de participació dels agents socials i econòmics."
+},
+{
+"text": "Substituir la Comissió de Govern en l’exercici de les funcions executives ordinàries.",
+"isCorrect": false,
+"rationale": "Incorrecta. No substitueix la Comissió de Govern ni exerceix funcions executives ordinàries."
+},
+{
+"text": "Resoldre recursos administratius contra els actes dictats pels districtes municipals.",
+"isCorrect": false,
+"rationale": "Incorrecta. No és un òrgan de resolució de recursos administratius."
+}
+]
+},
+{
+"guid": "bd144fa9-34cc-4050-9333-968fb26b9251",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina llei va incorporar a la Carta Municipal el títol relatiu al Consell Econòmic i Social de Barcelona?",
+"answerOptions": [
+{
+"text": "La Llei 7/2010, de modificació de la Carta Municipal de Barcelona.",
+"isCorrect": true,
+"rationale": "Correcta. La Llei 7/2010 va afegir el títol dedicat al Consell Econòmic i Social de Barcelona."
+},
+{
+"text": "La Llei 18/2014, que va incorporar exclusivament el règim de la Sindicatura de Greuges.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Llei 18/2014 s’associa al títol de la Sindicatura de Greuges, no al Consell Econòmic i Social."
+},
+{
+"text": "La Llei orgànica 6/2006, de reforma de l’Estatut d’autonomia de Catalunya.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’Estatut reconeix el règim especial, però no és la norma que afegeix aquest títol a la Carta."
+},
+{
+"text": "La Llei 7/1985, reguladora de les bases del règim local.",
+"isCorrect": false,
+"rationale": "Incorrecta. La LBRL és normativa bàsica estatal de règim local i no afegeix aquest títol a la Carta."
+}
+]
+},
+{
+"guid": "92197a50-cf2e-45d9-baa3-94d0154f4e78",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin títol de la Carta Municipal regula la Sindicatura de Greuges de Barcelona?",
+"answerOptions": [
+{
+"text": "El títol VI, dedicat a les competències municipals sectorials.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol VI regula les competències municipals, no la Sindicatura."
+},
+{
+"text": "El títol VII, sobre el procediment arbitral en matèria de consum.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol VII regula el procediment arbitral de consum."
+},
+{
+"text": "El títol IX, dedicat a la Sindicatura de Greuges de Barcelona.",
+"isCorrect": true,
+"rationale": "Correcta. La Sindicatura de Greuges de Barcelona es regula en el títol IX de la Carta."
+},
+{
+"text": "El títol III, relatiu a la potestat normativa municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol III regula la potestat normativa municipal."
+}
+]
+},
+{
+"guid": "378be5c4-729e-45fa-a40e-2658cce98944",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina llei va afegir a la Carta Municipal el títol dedicat a la Sindicatura de Greuges de Barcelona?",
+"answerOptions": [
+{
+"text": "La Llei 7/2010, que va incorporar el Consell Econòmic i Social de Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Llei 7/2010 va incorporar el Consell Econòmic i Social, no la Sindicatura."
+},
+{
+"text": "La Llei 18/2014, que va incorporar el títol IX sobre la Sindicatura de Greuges.",
+"isCorrect": true,
+"rationale": "Correcta. La Llei 18/2014 va afegir el títol IX de la Carta Municipal."
+},
+{
+"text": "La Llei 1/2006, sobre el règim especial estatal del municipi de Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Llei 1/2006 és el tram estatal del règim especial, però no és la reforma que afegeix aquest títol."
+},
+{
+"text": "La Llei 22/1998, en la seva redacció inicial sense modificacions posteriors.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol IX és fruit d’una modificació posterior de la Carta."
+}
+]
+},
+{
+"guid": "b6e71ae2-7894-4664-bd8a-f677b075878c",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina és la funció bàsica de la Sindicatura de Greuges de Barcelona?",
+"answerOptions": [
+{
+"text": "Defensar els drets fonamentals i les llibertats públiques davant les Corts Generals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta formulació s’aproxima al Defensor del Poble estatal, no a la Sindicatura municipal."
+},
+{
+"text": "Supervisar l’actuació municipal i defensar els drets dels veïns davant l’administració municipal.",
+"isCorrect": true,
+"rationale": "Correcta. La Sindicatura actua com a òrgan de defensa dels drets de la ciutadania davant l’actuació municipal."
+},
+{
+"text": "Dictar sentències sobre conflictes entre particulars i administracions públiques.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Sindicatura no és un òrgan judicial i no dicta sentències."
+},
+{
+"text": "Aprovar el pressupost municipal i fiscalitzar la gestió econòmica dels districtes.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’aprovació pressupostària correspon als òrgans municipals competents, no a la Sindicatura."
+}
+]
+},
+{
+"guid": "1cf88a8f-900a-4fbd-a77f-250d81f66598",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin títol de la Carta Municipal concentra el gruix de les competències municipals sectorials?",
+"answerOptions": [
+{
+"text": "El títol I, relatiu a l’organització del govern municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol I regula l’organització del govern municipal."
+},
+{
+"text": "El títol IV, sobre participació ciutadana i drets dels veïns.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol IV regula participació i drets veïnals, no el conjunt principal de competències sectorials."
+},
+{
+"text": "El títol VI, dedicat a les competències municipals.",
+"isCorrect": true,
+"rationale": "Correcta. El títol VI és el gran bloc de competències municipals de la Carta."
+},
+{
+"text": "El títol VIII, relatiu al Consell Econòmic i Social de Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol VIII regula un òrgan consultiu, no el bloc competencial municipal."
+}
+]
+},
+{
+"guid": "c66c866e-6cd2-42c0-b3ef-0b18cf1ec4c4",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina de les matèries següents apareix com a competència municipal en la Carta Municipal de Barcelona?",
+"answerOptions": [
+{
+"text": "Urbanisme, habitatge, mobilitat, medi ambient, serveis socials, cultura, esport i educació.",
+"isCorrect": true,
+"rationale": "Correcta. La Carta regula un ampli conjunt de competències municipals en àmbits sectorials diversos."
+},
+{
+"text": "Defensa nacional, forces armades, nacionalitat, immigració exterior i relacions diplomàtiques.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquestes matèries són competències estatals, no competències municipals de Barcelona."
+},
+{
+"text": "Administració de justícia ordinària, nomenament de jutges i organització del Tribunal Suprem.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’organització judicial no correspon a la Carta Municipal."
+},
+{
+"text": "Aprovació de lleis orgàniques, autorització de tractats internacionals i reforma constitucional.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquestes funcions corresponen a institucions estatals, no a l’Ajuntament."
+}
+]
+},
+{
+"guid": "6d5fa356-51f9-4ddc-8afa-b768ef708331",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin títol de la Carta Municipal regula la participació ciutadana i els drets dels veïns?",
+"answerOptions": [
+{
+"text": "El títol II, dedicat als districtes i al seu règim jurídic.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol II regula els districtes."
+},
+{
+"text": "El títol III, sobre potestat normativa municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol III regula la potestat normativa."
+},
+{
+"text": "El títol IV, relatiu a la participació ciutadana i als drets dels veïns.",
+"isCorrect": true,
+"rationale": "Correcta. El títol IV és el bloc de participació ciutadana i drets dels veïns."
+},
+{
+"text": "El títol V, sobre organització municipal executiva i personal al servei de l’Ajuntament.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol V regula l’organització executiva i el personal."
+}
+]
+},
+{
+"guid": "93d79f68-789f-47ce-8a26-20e60ddcf2d2",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "El títol V de la Carta Municipal de Barcelona tracta principalment sobre:",
+"answerOptions": [
+{
+"text": "La potestat legislativa de les Corts Generals i l’aprovació de lleis orgàniques.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta matèria no correspon a la Carta Municipal."
+},
+{
+"text": "L’organització municipal executiva i les formes de gestió de serveis i activitats municipals.",
+"isCorrect": true,
+"rationale": "Correcta. El títol V regula l’organització executiva i les formes d’organització per gestionar serveis i activitats."
+},
+{
+"text": "La composició del Parlament de Catalunya i les funcions del president de la Generalitat.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta matèria correspon al règim institucional de la Generalitat, no a la Carta."
+},
+{
+"text": "L’organització del poder judicial i les funcions del Tribunal Superior de Justícia.",
+"isCorrect": false,
+"rationale": "Incorrecta. El poder judicial no es regula en el títol V de la Carta."
+}
+]
+},
+{
+"guid": "745e09a0-07bd-4af0-be2c-22fb34d421df",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons la Carta Municipal, els serveis i activitats municipals es poden gestionar mitjançant:",
+"answerOptions": [
+{
+"text": "Gestió directa i gestió indirecta, d’acord amb les formes previstes per la normativa aplicable.",
+"isCorrect": true,
+"rationale": "Correcta. La Carta preveu formes de gestió directa i indirecta dels serveis i activitats municipals."
+},
+{
+"text": "Només gestió directa indiferenciada, sense possibilitat d’organismes o entitats instrumentals.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta admet diverses formes de gestió, incloent fórmules descentralitzades i indirectes."
+},
+{
+"text": "Només empreses privades concessionàries, sense intervenció organitzativa de l’Ajuntament.",
+"isCorrect": false,
+"rationale": "Incorrecta. La gestió indirecta és possible, però no és l’única via ni exclou l’Ajuntament."
+},
+{
+"text": "Exclusivament per llei del Parlament en cada servei municipal concret.",
+"isCorrect": false,
+"rationale": "Incorrecta. No cal una llei individual per a cada servei municipal en aquests termes."
+}
+]
+},
+{
+"guid": "a9a8d470-a79e-410d-9607-18e93cf838ff",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina afirmació descriu millor l’estructura executiva de l’Ajuntament de Barcelona en clau de test?",
+"answerOptions": [
+{
+"text": "S’organitza en tinències d’alcaldia, regidories polítiques i grups municipals del Consell.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquests elements pertanyen sobretot a l’organització política, no a l’estructura executiva estricta."
+},
+{
+"text": "S’organitza en gerències, com a model de gestió gerencial de l’organització municipal.",
+"isCorrect": true,
+"rationale": "Correcta. En preguntes de test, la resposta esperada és que l’estructura executiva s’organitza en gerències."
+},
+{
+"text": "S’organitza en el Parlament, el Govern de la Generalitat i els òrgans estatutaris.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta és una estructura institucional autonòmica, no municipal executiva."
+},
+{
+"text": "S’organitza només en Ajuntament central i deu districtes, sense gerències sectorials.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta és una formulació territorial-administrativa incompleta per a la resposta de test sobre estructura executiva."
+}
+]
+},
+{
+"guid": "f075f1f0-6a9a-4a4f-983a-a648d62519aa",
+"subjectId": "T11",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina seqüència resumeix l’estructura formal de la Carta Municipal de Barcelona?",
+"answerOptions": [
+{
+"text": "Un preàmbul, un títol preliminar, nou títols numerats i disposicions finals.",
+"isCorrect": true,
+"rationale": "Correcta. La Carta s’estructura amb preàmbul, títol preliminar, títols I a IX i disposicions finals o complementàries."
+},
+{
+"text": "Un preàmbul, dos títols preliminars, quinze títols numerats i cap disposició transitòria.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta no té dos títols preliminars ni quinze títols numerats."
+},
+{
+"text": "Una exposició de motius, quatre llibres, vint capítols i una disposició constitucional.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta no és l’estructura formal de la Carta Municipal."
+},
+{
+"text": "Un llibre preliminar, deu llibres sectorials i tres annexos competencials obligatoris.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta no s’organitza en llibres ni annexos competencials amb aquesta estructura."
+}
+]
+}
+]
+
