@@ -1,0 +1,753 @@
+[
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f001",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Són òrgans superiors dels departaments ministerials?",
+    "answerOptions": [
+      {
+        "text": "Els secretaris d’Estat.",
+        "isCorrect": true,
+        "rationale": "Els ministres i els secretaris d’Estat són òrgans superiors de l’Administració General de l’Estat."
+      },
+      {
+        "text": "Els sotssecretaris.",
+        "isCorrect": false,
+        "rationale": "Els sotssecretaris són òrgans directius, no òrgans superiors."
+      },
+      {
+        "text": "Els secretaris generals tècnics.",
+        "isCorrect": false,
+        "rationale": "Els secretaris generals tècnics són òrgans directius amb rang de director general."
+      },
+      {
+        "text": "Els directors generals.",
+        "isCorrect": false,
+        "rationale": "Els directors generals són òrgans directius."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f002",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "La Comissió de Secretaris d’Estat i Sotssecretaris serà presidida actualment per:",
+    "answerOptions": [
+      {
+        "text": "El vicepresident segon del Govern, per delegació del president del Govern.",
+        "isCorrect": false,
+        "rationale": "No correspon específicament al vicepresident segon."
+      },
+      {
+        "text": "El ministre portaveu del Govern.",
+        "isCorrect": false,
+        "rationale": "El ministre portaveu no presideix ordinàriament aquesta comissió."
+      },
+      {
+        "text": "El vicepresident primer del Govern.",
+        "isCorrect": true,
+        "rationale": "En el context del test, la presidència s’atribueix al vicepresident primer del Govern."
+      },
+      {
+        "text": "El president del Govern.",
+        "isCorrect": false,
+        "rationale": "El president del Govern no n’és el president ordinari."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f003",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "No són entitats públiques empresarials:",
+    "answerOptions": [
+      {
+        "text": "Les universitats públiques transferides.",
+        "isCorrect": false,
+        "rationale": "Les universitats públiques tenen règim específic dins del sector públic institucional, però l’opció més característica que no és una entitat pública empresarial és la societat mercantil estatal."
+      },
+      {
+        "text": "Les societats mercantils estatals.",
+        "isCorrect": true,
+        "rationale": "Les societats mercantils estatals són societats de capital públic, però no entitats públiques empresarials."
+      },
+      {
+        "text": "Les fundacions del sector públic.",
+        "isCorrect": false,
+        "rationale": "Les fundacions del sector públic són una categoria diferenciada, però la resposta esperada en aquest test és la societat mercantil estatal."
+      },
+      {
+        "text": "Els consorcis.",
+        "isCorrect": false,
+        "rationale": "Els consorcis són entitats amb personalitat jurídica pròpia, però no són l’opció esperada com a resposta principal."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f004",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Dels següents òrgans, quin posseeix rang jeràrquic inferior?",
+    "answerOptions": [
+      {
+        "text": "Secretari general.",
+        "isCorrect": false,
+        "rationale": "El secretari general té rang de sotssecretari."
+      },
+      {
+        "text": "Secretari d’Estat.",
+        "isCorrect": false,
+        "rationale": "El secretari d’Estat és un òrgan superior."
+      },
+      {
+        "text": "Director general.",
+        "isCorrect": true,
+        "rationale": "El director general té rang inferior al de ministre, secretari d’Estat i secretari general."
+      },
+      {
+        "text": "Ministre.",
+        "isCorrect": false,
+        "rationale": "El ministre és el titular superior del departament ministerial."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f005",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Assistir el ministre en el control d’eficàcia del Ministeri correspon a:",
+    "answerOptions": [
+      {
+        "text": "El secretari general.",
+        "isCorrect": false,
+        "rationale": "El secretari general dirigeix àrees sectorials determinades."
+      },
+      {
+        "text": "El director general.",
+        "isCorrect": false,
+        "rationale": "El director general gestiona una àrea funcional concreta."
+      },
+      {
+        "text": "El sotssecretari.",
+        "isCorrect": true,
+        "rationale": "El sotssecretari assisteix el ministre en el control d’eficàcia del ministeri i dels seus organismes públics."
+      },
+      {
+        "text": "El secretari d’Estat.",
+        "isCorrect": false,
+        "rationale": "El secretari d’Estat dirigeix i coordina sectors específics de l’activitat administrativa."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f006",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Els sotssecretaris es nomenen:",
+    "answerOptions": [
+      {
+        "text": "Per llei.",
+        "isCorrect": false,
+        "rationale": "El nomenament no es fa per llei."
+      },
+      {
+        "text": "Per reial decret llei.",
+        "isCorrect": false,
+        "rationale": "El reial decret llei no és l’instrument de nomenament dels sotssecretaris."
+      },
+      {
+        "text": "Pel Consell de Ministres, a proposta del president del Govern.",
+        "isCorrect": false,
+        "rationale": "La proposta correspon al ministre titular del departament, no al president del Govern."
+      },
+      {
+        "text": "Cap resposta és correcta.",
+        "isCorrect": true,
+        "rationale": "Els sotssecretaris són nomenats i separats per reial decret del Consell de Ministres, a proposta del titular del ministeri."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f007",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Els consorcis:",
+    "answerOptions": [
+      {
+        "text": "Desenvolupen activitats d’interès general dels diferents òrgans.",
+        "isCorrect": false,
+        "rationale": "Aquesta formulació no defineix correctament els consorcis."
+      },
+      {
+        "text": "Són entitats amb personalitat jurídica pròpia i diferenciada.",
+        "isCorrect": true,
+        "rationale": "Els consorcis tenen personalitat jurídica pròpia i diferenciada, creada per diverses administracions o entitats."
+      },
+      {
+        "text": "Són creats per una única Administració pública o entitat del sector públic institucional.",
+        "isCorrect": false,
+        "rationale": "Els consorcis impliquen la participació de diverses entitats o administracions."
+      },
+      {
+        "text": "Sempre hi ha participació d’entitats privades.",
+        "isCorrect": false,
+        "rationale": "La participació privada pot existir, però no és obligatòria."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f008",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "La creació dels organismes autònoms i de les entitats públiques empresarials s’efectuarà:",
+    "answerOptions": [
+      {
+        "text": "Per resolució del ministeri al qual s’adscriguin.",
+        "isCorrect": false,
+        "rationale": "Una resolució ministerial no és suficient per crear aquests organismes."
+      },
+      {
+        "text": "Per ordre del ministre d’adscripció.",
+        "isCorrect": false,
+        "rationale": "Una ordre ministerial no és l’instrument de creació."
+      },
+      {
+        "text": "Per reial decret.",
+        "isCorrect": false,
+        "rationale": "Els estatuts es poden aprovar per reial decret, però la creació requereix llei."
+      },
+      {
+        "text": "Per llei.",
+        "isCorrect": true,
+        "rationale": "Els organismes autònoms i les entitats públiques empresarials es creen per llei."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f009",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "El vicepresident del Govern no podrà assumir en cap cas:",
+    "answerOptions": [
+      {
+        "text": "La presidència del Consell de Ministres.",
+        "isCorrect": false,
+        "rationale": "Pot presidir el Consell de Ministres en determinats supòsits o per delegació."
+      },
+      {
+        "text": "La presidència de la Comissió General de Secretaris d’Estat i Sotssecretaris.",
+        "isCorrect": false,
+        "rationale": "Pot assumir aquesta presidència segons l’organització del Govern."
+      },
+      {
+        "text": "La presidència d’una comissió delegada del Govern.",
+        "isCorrect": false,
+        "rationale": "Pot presidir comissions delegades del Govern."
+      },
+      {
+        "text": "La presidència del Tribunal Constitucional.",
+        "isCorrect": true,
+        "rationale": "La presidència del Tribunal Constitucional correspon a un membre del Tribunal Constitucional, no al vicepresident del Govern."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f010",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Actualment la modificació o supressió d’un ministeri es fa per:",
+    "answerOptions": [
+      {
+        "text": "Llei.",
+        "isCorrect": false,
+        "rationale": "No cal una llei formal per modificar o suprimir ministeris."
+      },
+      {
+        "text": "Reial decret del president del Govern.",
+        "isCorrect": true,
+        "rationale": "La creació, modificació i supressió dels departaments ministerials es fa per reial decret del president del Govern."
+      },
+      {
+        "text": "Ordre del ministre de les Administracions Públiques.",
+        "isCorrect": false,
+        "rationale": "Una ordre ministerial no pot modificar l’estructura ministerial."
+      },
+      {
+        "text": "Llei orgànica.",
+        "isCorrect": false,
+        "rationale": "No és matèria reservada a llei orgànica."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f011",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Indicar quina de les competències següents no correspon als ministres:",
+    "answerOptions": [
+      {
+        "text": "Resoldre els conflictes d’atribucions entre autoritats administratives dependents del departament.",
+        "isCorrect": false,
+        "rationale": "Aquesta és una competència pròpia dels ministres dins del seu departament."
+      },
+      {
+        "text": "Preparar i presentar al Govern els avantprojectes de llei i projectes de decret.",
+        "isCorrect": false,
+        "rationale": "Els ministres poden elevar al Govern avantprojectes de llei i projectes normatius."
+      },
+      {
+        "text": "Exercir la potestat reglamentària a les matèries pròpies del seu departament.",
+        "isCorrect": false,
+        "rationale": "Els ministres exerceixen potestat reglamentària en les matèries pròpies del seu departament."
+      },
+      {
+        "text": "Interposar recurs d’inconstitucionalitat contra lleis i disposicions normatives amb força de llei, de l’àmbit del seu departament.",
+        "isCorrect": true,
+        "rationale": "La interposició del recurs d’inconstitucionalitat no correspon individualment als ministres."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f012",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Segons la LRJSP, les entitats públiques empresarials:",
+    "answerOptions": [
+      {
+        "text": "Són entitats de dret privat.",
+        "isCorrect": false,
+        "rationale": "Són entitats de dret públic, encara que en part de la seva activitat se sotmetin al dret privat."
+      },
+      {
+        "text": "Tenen personalitat jurídica i patrimoni propi però dependència en la seva gestió.",
+        "isCorrect": false,
+        "rationale": "Tenen personalitat jurídica pròpia, patrimoni propi i autonomia de gestió."
+      },
+      {
+        "text": "El seu personal són funcionaris.",
+        "isCorrect": false,
+        "rationale": "El personal de les entitats públiques empresarials es regeix habitualment pel dret laboral, amb excepcions."
+      },
+      {
+        "text": "El seu règim de contractació es regirà per la legislació de contractes de les administracions públiques.",
+        "isCorrect": true,
+        "rationale": "La contractació de les entitats públiques empresarials queda sotmesa a la normativa de contractes del sector públic."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f013",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Els estatuts dels organismes públics:",
+    "answerOptions": [
+      {
+        "text": "Són la seva norma de creació.",
+        "isCorrect": false,
+        "rationale": "La creació dels organismes públics es fa per llei; els estatuts en regulen l’organització i funcionament."
+      },
+      {
+        "text": "Són aprovats per reial decret del ministeri d’adscripció.",
+        "isCorrect": false,
+        "rationale": "No els aprova el ministeri d’adscripció de manera unilateral."
+      },
+      {
+        "text": "Són proposats pel ministre d’Administracions Públiques.",
+        "isCorrect": false,
+        "rationale": "La proposta correspon als ministeris competents segons el procediment establert."
+      },
+      {
+        "text": "Són aprovats pel reial decret del Consell de Ministres.",
+        "isCorrect": true,
+        "rationale": "Els estatuts dels organismes públics s’aproven per reial decret del Consell de Ministres."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f014",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Podran crear organismes autònoms:",
+    "answerOptions": [
+      {
+        "text": "Només l’Administració de l’Estat.",
+        "isCorrect": false,
+        "rationale": "No és una possibilitat exclusiva de l’Administració de l’Estat."
+      },
+      {
+        "text": "L’Administració de l’Estat i les comunitats autònomes.",
+        "isCorrect": false,
+        "rationale": "També poden existir organismes autònoms en l’àmbit local."
+      },
+      {
+        "text": "L’Administració de l’Estat, l’Administració autonòmica i l’Administració local.",
+        "isCorrect": true,
+        "rationale": "Els organismes autònoms poden ser creats pels diferents nivells territorials d’administració."
+      },
+      {
+        "text": "L’Administració de l’Estat i l’Administració local.",
+        "isCorrect": false,
+        "rationale": "Omet l’Administració autonòmica."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f015",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Els secretaris generals tenen categoria de:",
+    "answerOptions": [
+      {
+        "text": "Director general.",
+        "isCorrect": false,
+        "rationale": "Els secretaris generals tenen rang de sotssecretari, no de director general."
+      },
+      {
+        "text": "Sotsdirector general.",
+        "isCorrect": false,
+        "rationale": "El rang de sotsdirector general és inferior."
+      },
+      {
+        "text": "Sotssecretari.",
+        "isCorrect": true,
+        "rationale": "Els secretaris generals tenen categoria de sotssecretari."
+      },
+      {
+        "text": "Secretari d’Estat.",
+        "isCorrect": false,
+        "rationale": "El secretari d’Estat és un òrgan superior diferent."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f016",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Assenyali la resposta incorrecta en relació amb els ministres:",
+    "answerOptions": [
+      {
+        "text": "Són titulars del departament sobre el qual exerceixen les seves competències.",
+        "isCorrect": false,
+        "rationale": "Aquesta afirmació és correcta."
+      },
+      {
+        "text": "Exerceixen la potestat legislativa en les matèries pròpies del seu departament.",
+        "isCorrect": true,
+        "rationale": "La potestat legislativa correspon a les Corts Generals; els ministres poden exercir potestat reglamentària."
+      },
+      {
+        "text": "Aproven les propostes dels estats de despeses del seu ministeri.",
+        "isCorrect": false,
+        "rationale": "Aquesta és una funció pròpia del ministre en relació amb el seu departament."
+      },
+      {
+        "text": "Nomenen i separen els titulars dels òrgans directius del ministeri i dels organismes públics o entitats de dret públic dependents del mateix, quan la competència no estigui atribuïda al Consell de Ministres, a un altre òrgan o al propi organisme.",
+        "isCorrect": false,
+        "rationale": "Aquesta afirmació és correcta dins dels límits competencials corresponents."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f017",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Les competències estatals en matèria de seguretat pública, en les comunitats autònomes que tinguin cossos de policia propis, corresponen en l’àmbit de la província a:",
+    "answerOptions": [
+      {
+        "text": "El delegat del Govern.",
+        "isCorrect": false,
+        "rationale": "El delegat del Govern exerceix la direcció en l’àmbit de la comunitat autònoma."
+      },
+      {
+        "text": "El sotsdelegat del Govern.",
+        "isCorrect": true,
+        "rationale": "En l’àmbit provincial, aquestes competències corresponen al sotsdelegat del Govern."
+      },
+      {
+        "text": "El conseller d’Interior de la comunitat autònoma.",
+        "isCorrect": false,
+        "rationale": "El conseller d’Interior exerceix competències autonòmiques, no les estatals provincials."
+      },
+      {
+        "text": "El president de la comunitat autònoma.",
+        "isCorrect": false,
+        "rationale": "No és l’òrgan competent en l’àmbit provincial de l’Administració General de l’Estat."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f018",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Com s’anomenen les entitats públiques amb personalitat jurídica pròpia que, per llei, han d’actuar regulades pel dret privat?",
+    "answerOptions": [
+      {
+        "text": "Cooperatives.",
+        "isCorrect": false,
+        "rationale": "Les cooperatives no són la categoria administrativa descrita."
+      },
+      {
+        "text": "Societats públiques.",
+        "isCorrect": true,
+        "rationale": "En el context del test, les societats públiques són entitats amb personalitat jurídica pròpia que actuen subjectes al dret privat."
+      },
+      {
+        "text": "Organismes autònoms administratius.",
+        "isCorrect": false,
+        "rationale": "Els organismes autònoms es regeixen principalment pel dret administratiu."
+      },
+      {
+        "text": "Societats anònimes públiques, si en el seu capital hi participa minoritàriament l’Administració de l’Estat.",
+        "isCorrect": false,
+        "rationale": "La participació minoritària de l’Estat no defineix una societat pública."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f019",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "El delegat del Govern tindrà la seva seu, generalment, a:",
+    "answerOptions": [
+      {
+        "text": "La localitat on la tingui el Parlament o assemblea legislativa.",
+        "isCorrect": false,
+        "rationale": "No és aquest el criteri general."
+      },
+      {
+        "text": "La localitat on la tingui el Govern de la comunitat autònoma.",
+        "isCorrect": true,
+        "rationale": "La seu del delegat del Govern és, generalment, a la localitat on té la seu el Govern autonòmic."
+      },
+      {
+        "text": "En qualsevol lloc dins de la comunitat autònoma.",
+        "isCorrect": false,
+        "rationale": "Existeix un criteri general de localització."
+      },
+      {
+        "text": "Fora de la comunitat autònoma.",
+        "isCorrect": false,
+        "rationale": "La seu ha d’estar dins de la comunitat autònoma corresponent."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f020",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Els sotssecretaris:",
+    "answerOptions": [
+      {
+        "text": "Ostenten la representació ordinària del ministeri.",
+        "isCorrect": false,
+        "rationale": "Aquesta afirmació és correcta, però no és l’única."
+      },
+      {
+        "text": "Dirigeixen els serveis comuns.",
+        "isCorrect": false,
+        "rationale": "Aquesta afirmació és correcta, però no és l’única."
+      },
+      {
+        "text": "Estableixen els programes d’inspecció dels serveis del ministeri.",
+        "isCorrect": false,
+        "rationale": "Aquesta afirmació és correcta, però no és l’única."
+      },
+      {
+        "text": "Totes són correctes.",
+        "isCorrect": true,
+        "rationale": "Els sotssecretaris exerceixen totes aquestes funcions."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f021",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "El sector públic institucional s’integra per:",
+    "answerOptions": [
+      {
+        "text": "L’Administració General de l’Estat, l’Administració de les comunitats autònomes i les entitats que integren l’Administració local.",
+        "isCorrect": false,
+        "rationale": "Aquesta opció descriu administracions territorials, no el sector públic institucional."
+      },
+      {
+        "text": "Qualssevol organismes públics i entitats de dret públic vinculats o dependents de les administracions públiques.",
+        "isCorrect": true,
+        "rationale": "Aquesta és una de les categories essencials que integren el sector públic institucional."
+      },
+      {
+        "text": "Les entitats de dret privat no dependents de les administracions públiques quan exerceixen potestats administratives.",
+        "isCorrect": false,
+        "rationale": "Han d’estar vinculades o dependents de les administracions públiques."
+      },
+      {
+        "text": "Totes són correctes.",
+        "isCorrect": false,
+        "rationale": "No totes les opcions són correctes, perquè la primera i la tercera no descriuen adequadament el sector públic institucional."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f022",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Els secretaris generals tècnics tenen la categoria de:",
+    "answerOptions": [
+      {
+        "text": "Director general.",
+        "isCorrect": true,
+        "rationale": "Els secretaris generals tècnics tenen rang de director general."
+      },
+      {
+        "text": "Sotssecretari.",
+        "isCorrect": false,
+        "rationale": "Els secretaris generals, no els secretaris generals tècnics, tenen rang de sotssecretari."
+      },
+      {
+        "text": "Sotsdirector general.",
+        "isCorrect": false,
+        "rationale": "El rang de sotsdirector general és inferior al de director general."
+      },
+      {
+        "text": "Cap és correcte.",
+        "isCorrect": false,
+        "rationale": "Sí que hi ha una opció correcta: director general."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f023",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "En l’Administració General de l’Estat són òrgans directius:",
+    "answerOptions": [
+      {
+        "text": "Els delegats del Govern.",
+        "isCorrect": false,
+        "rationale": "Són òrgans directius, però no és l’única resposta correcta."
+      },
+      {
+        "text": "Els sotsdelegats del Govern.",
+        "isCorrect": false,
+        "rationale": "Són òrgans directius, però no és l’única resposta correcta."
+      },
+      {
+        "text": "Els ambaixadors.",
+        "isCorrect": false,
+        "rationale": "Són òrgans directius de l’Administració General de l’Estat a l’exterior."
+      },
+      {
+        "text": "Tots tres són òrgans directius.",
+        "isCorrect": true,
+        "rationale": "Els delegats del Govern, els sotsdelegats del Govern i els ambaixadors tenen la consideració d’òrgans directius."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f024",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "Són òrgans superiors de l’Administració General de l’Estat:",
+    "answerOptions": [
+      {
+        "text": "Els ministres i els secretaris generals.",
+        "isCorrect": false,
+        "rationale": "Els secretaris generals són òrgans directius, no superiors."
+      },
+      {
+        "text": "Els ministres i els sotssecretaris generals tècnics.",
+        "isCorrect": false,
+        "rationale": "Els sotssecretaris i els secretaris generals tècnics són òrgans directius."
+      },
+      {
+        "text": "Els secretaris d’Estat.",
+        "isCorrect": false,
+        "rationale": "Els secretaris d’Estat són òrgans superiors, però també ho són els ministres; l’opció és incompleta."
+      },
+      {
+        "text": "Els ministres, els secretaris d’Estat i els secretaris generals.",
+        "isCorrect": false,
+        "rationale": "Aquesta opció inclou els secretaris generals, que no són òrgans superiors."
+      }
+    ]
+  },
+  {
+    "guid": "a4c0f31e-2b47-4f34-9df8-4a2b07b8f025",
+    "subjectId": "T09",
+    "difficulty": 1,
+    "origin": "ADAMS",
+    "type": "test",
+    "question": "El característic dels ens que componen l’Administració institucional és:",
+    "answerOptions": [
+      {
+        "text": "Que tenen finalitats generals.",
+        "isCorrect": false,
+        "rationale": "Les finalitats generals són pròpies de les administracions territorials."
+      },
+      {
+        "text": "El territori, que és l’element essencial delimitador en l’exercici de les seves competències.",
+        "isCorrect": false,
+        "rationale": "El territori és característic de les administracions territorials, no de la institucional."
+      },
+      {
+        "text": "El servei públic o fi que compleixen.",
+        "isCorrect": true,
+        "rationale": "L’Administració institucional es caracteritza pel servei públic o finalitat específica que té encomanada."
+      },
+      {
+        "text": "El seu pressupost il·limitat.",
+        "isCorrect": false,
+        "rationale": "No existeix un pressupost il·limitat com a tret característic d’aquests ens."
+      }
+    ]
+  }
+]
+
