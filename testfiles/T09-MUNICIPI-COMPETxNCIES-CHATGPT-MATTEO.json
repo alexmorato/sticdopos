@@ -1,0 +1,753 @@
+[
+{
+"guid": "251277b3-d804-42b2-921c-71a8475f7b25",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "D’acord amb l’article 103 de la Constitució espanyola, quin dels principis següents NO és un principi d’actuació de l’Administració pública?",
+"answerOptions": [
+{
+"text": "Eficàcia administrativa orientada a la satisfacció objectiva dels interessos generals.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’eficàcia és expressament un principi d’actuació de l’Administració pública."
+},
+{
+"text": "Jerarquia entre òrgans administratius dins d’una mateixa estructura organitzativa.",
+"isCorrect": false,
+"rationale": "Incorrecta. La jerarquia és un principi constitucional d’organització i actuació administrativa."
+},
+{
+"text": "Centralització administrativa com a regla general de funcionament de totes les administracions.",
+"isCorrect": true,
+"rationale": "Correcta. L’article 103 CE no recull la centralització; recull, entre altres, la descentralització i la desconcentració."
+},
+{
+"text": "Coordinació entre òrgans i administracions per evitar duplicitats i actuacions contradictòries.",
+"isCorrect": false,
+"rationale": "Incorrecta. La coordinació sí que és un principi constitucional d’actuació administrativa."
+}
+]
+},
+{
+"guid": "2240d322-55c1-4e04-94d2-1aac0501f22d",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin títol de la Constitució espanyola regula l’organització territorial de l’Estat?",
+"answerOptions": [
+{
+"text": "El títol III, que regula les Corts Generals i l’elaboració de les lleis estatals.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol III regula les Corts Generals, no l’organització territorial de l’Estat."
+},
+{
+"text": "El títol VIII, dedicat a l’organització territorial de l’Estat.",
+"isCorrect": true,
+"rationale": "Correcta. El títol VIII regula municipis, províncies i comunitats autònomes."
+},
+{
+"text": "El títol IV, relatiu al Govern i a l’Administració pública de l’Estat.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol IV regula el Govern i l’Administració, no l’organització territorial."
+},
+{
+"text": "El títol IX, referit al Tribunal Constitucional i al seu funcionament bàsic.",
+"isCorrect": false,
+"rationale": "Incorrecta. El títol IX regula el Tribunal Constitucional."
+}
+]
+},
+{
+"guid": "12c0b0cd-0421-4d6c-98e8-c09bcb7237f8",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quina de les funcions següents correspon a les Corts Generals?",
+"answerOptions": [
+{
+"text": "Exercir la potestat legislativa de l’Estat i controlar políticament l’acció del Govern.",
+"isCorrect": true,
+"rationale": "Correcta. Les Corts Generals representen el poble espanyol, exerceixen la potestat legislativa, aproven els pressupostos i controlen el Govern."
+},
+{
+"text": "Dirigir la política interior i exterior i exercir la funció executiva ordinària.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta és una funció pròpia del Govern, no de les Corts Generals."
+},
+{
+"text": "Administrar justícia en nom del rei mitjançant jutges i magistrats independents.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’administració de justícia correspon al poder judicial."
+},
+{
+"text": "Nomenar directament els alcaldes i aprovar l’organització interna dels ajuntaments i consells comarcals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els alcaldes són elegits segons el règim electoral local, no nomenats per les Corts Generals."
+}
+]
+},
+{
+"guid": "d3f0eb5b-f588-48a1-8332-ff270adcc9e5",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "D’acord amb la Constitució espanyola, qui escull el Defensor del Poble?",
+"answerOptions": [
+{
+"text": "El Rei, mitjançant nomenament lliure després de consultar els grups parlamentaris.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Rei no escull lliurement el Defensor del Poble."
+},
+{
+"text": "El Govern, mitjançant acord del Consell de Ministres i publicació posterior al BOE.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Govern no és l’òrgan que designa el Defensor del Poble."
+},
+{
+"text": "Les Corts Generals, com a alt comissionat per a la defensa dels drets constitucionals.",
+"isCorrect": true,
+"rationale": "Correcta. El Defensor del Poble és designat per les Corts Generals."
+},
+{
+"text": "El Tribunal Constitucional, entre juristes de reconeguda competència i amb mandat constitucional propi.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Tribunal Constitucional no designa el Defensor del Poble."
+}
+]
+},
+{
+"guid": "d967bbde-1bfb-416a-80c0-1226c018cbce",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Els decrets llei són disposicions legislatives provisionals dictades pel Govern en casos de:",
+"answerOptions": [
+{
+"text": "Desenvolupament ordinari de lleis orgàniques quan calgui completar-ne el contingut reglamentari.",
+"isCorrect": false,
+"rationale": "Incorrecta. El decret llei no és l’instrument ordinari de desenvolupament de lleis orgàniques."
+},
+{
+"text": "Extraordinària i urgent necessitat apreciada pel Govern i sotmesa a control parlamentari.",
+"isCorrect": true,
+"rationale": "Correcta. El decret llei exigeix una situació d’extraordinària i urgent necessitat."
+},
+{
+"text": "Reforma constitucional parcial quan no afecti drets fonamentals ni la Corona.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Constitució no es pot reformar mitjançant decret llei."
+},
+{
+"text": "Delegació permanent de les Corts Generals per aprovar textos articulats sense límits materials.",
+"isCorrect": false,
+"rationale": "Incorrecta. La delegació legislativa dona lloc a decrets legislatius, no a decrets llei."
+}
+]
+},
+{
+"guid": "6120aef8-f5f6-4541-9043-ee75f83d6b08",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons l’article 81 de la Constitució espanyola, l’aprovació, modificació o derogació de les lleis orgàniques exigeix:",
+"answerOptions": [
+{
+"text": "Majoria simple del Congrés en una votació ordinària de tramitació parlamentària.",
+"isCorrect": false,
+"rationale": "Incorrecta. Les lleis orgàniques exigeixen una majoria reforçada."
+},
+{
+"text": "Majoria absoluta del Congrés en una votació final sobre el conjunt del projecte.",
+"isCorrect": true,
+"rationale": "Correcta. Aquesta és la majoria exigida per l’article 81 CE."
+},
+{
+"text": "Majoria absoluta del Congrés i del Senat en dues votacions separades i successives.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’article 81 CE exigeix majoria absoluta del Congrés, no de totes dues cambres."
+},
+{
+"text": "Majoria de dos terços de les Corts Generals i referèndum obligatori posterior.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquest esquema correspon a procediments constitucionals agreujats, no a la llei orgànica ordinària."
+}
+]
+},
+{
+"guid": "56ed31a8-a2a3-43c1-a6da-e80e7f87c13c",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "D’acord amb l’article 108 de la Constitució espanyola, el Govern respon políticament:",
+"answerOptions": [
+{
+"text": "Davant el Senat, que actua com a cambra de control general de l’executiu.",
+"isCorrect": false,
+"rationale": "Incorrecta. La responsabilitat política solidària no és davant el Senat."
+},
+{
+"text": "Solidàriament davant el Congrés dels Diputats.",
+"isCorrect": true,
+"rationale": "Correcta. L’article 108 CE estableix aquesta responsabilitat solidària davant el Congrés."
+},
+{
+"text": "Davant el Tribunal Suprem, mitjançant el procediment contenciós administratiu.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Tribunal Suprem no exerceix el control polític ordinari del Govern."
+},
+{
+"text": "Davant el Consell General del Poder Judicial, com a òrgan constitucional de garantia.",
+"isCorrect": false,
+"rationale": "Incorrecta. El CGPJ no és l’òrgan davant el qual respon políticament el Govern."
+}
+]
+},
+{
+"guid": "80f60016-a668-459d-ad24-b33c8eccf740",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "D’acord amb l’article 147 de la Constitució espanyola, els estatuts d’autonomia són:",
+"answerOptions": [
+{
+"text": "Lleis ordinàries autonòmiques aprovades pel Govern de cada comunitat autònoma.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els estatuts no són simples lleis ordinàries autonòmiques ni els aprova el Govern autonòmic."
+},
+{
+"text": "La norma institucional bàsica de cada comunitat autònoma.",
+"isCorrect": true,
+"rationale": "Correcta. L’article 147 CE defineix així els estatuts d’autonomia."
+},
+{
+"text": "Reglaments executius dictats pel Govern autonòmic per organitzar els municipis.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els estatuts no són reglaments executius."
+},
+{
+"text": "Normes dictades per les diputacions provincials per coordinar els serveis locals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Les diputacions provincials no dicten estatuts d’autonomia."
+}
+]
+},
+{
+"guid": "01cdaaf0-9a4c-406b-a2cd-a61133c252c1",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons l’Estatut d’autonomia de Catalunya, la Generalitat és integrada per:",
+"answerOptions": [
+{
+"text": "El Parlament, el Govern i les diputacions provincials com a òrgans territorials ordinaris de Catalunya.",
+"isCorrect": false,
+"rationale": "Incorrecta. Les diputacions no integren la Generalitat com a institucions estatutàries."
+},
+{
+"text": "El Parlament, la Presidència de la Generalitat, el Govern i les altres institucions estatutàries.",
+"isCorrect": true,
+"rationale": "Correcta. Aquesta és la formulació institucional pròpia de l’Estatut."
+},
+{
+"text": "El Parlament, els ajuntaments, els consells comarcals i les entitats metropolitanes.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquests són ens locals o supramunicipals, no la composició institucional de la Generalitat."
+},
+{
+"text": "El Govern, el Tribunal Constitucional, el Síndic de Greuges i el Consell de Ministres.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Tribunal Constitucional i el Consell de Ministres són institucions estatals."
+}
+]
+},
+{
+"guid": "4ccd9ed3-41db-4942-8725-38c6388dcbf0",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin és un dels símbols nacionals de Catalunya segons l’Estatut d’autonomia?",
+"answerOptions": [
+{
+"text": "La bandera quarterada amb la creu de Sant Jordi i quatre pals vermells alternats.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta descripció s’aproxima a la bandera de Barcelona, no a la de Catalunya."
+},
+{
+"text": "La bandera de quatre barres grogues sobre fons vermell, juntament amb l’escut municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. Inverteix els colors de la bandera catalana i hi afegeix un element municipal."
+},
+{
+"text": "La bandera tradicional de quatre barres vermelles sobre fons groc.",
+"isCorrect": true,
+"rationale": "Correcta. Aquesta és la bandera de Catalunya."
+},
+{
+"text": "La bandera blanca amb creu vermella i els símbols històrics de la ciutat comtal.",
+"isCorrect": false,
+"rationale": "Incorrecta. No correspon a la bandera nacional de Catalunya."
+}
+]
+},
+{
+"guid": "ba4ec963-5b8f-43c2-b296-c93abbe82560",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons la Carta Municipal de Barcelona, el govern del municipi correspon, entre d’altres, a:",
+"answerOptions": [
+{
+"text": "El Parlament de Catalunya, l’alcalde i la Comissió de Govern com a òrgans mixtos.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Parlament de Catalunya no és un òrgan de govern municipal."
+},
+{
+"text": "La Diputació de Barcelona, els regidors i els consells comarcals de l’entorn metropolità.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Diputació i els consells comarcals no formen el govern municipal de Barcelona."
+},
+{
+"text": "El Consell Municipal, l’alcalde o alcaldessa, la Comissió de Govern i els òrgans de districte.",
+"isCorrect": true,
+"rationale": "Correcta. Són òrgans previstos en el govern municipal de Barcelona."
+},
+{
+"text": "El Consell de Ministres, el Consell Municipal i els districtes en règim de cooperació estatal.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Consell de Ministres és un òrgan estatal, no municipal."
+}
+]
+},
+{
+"guid": "6a24c4af-ac4f-4f85-8b1f-964f40dfae0d",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "El Consell Municipal de Barcelona és:",
+"answerOptions": [
+{
+"text": "L’òrgan de màxima representació política dels ciutadans en el govern de la ciutat.",
+"isCorrect": true,
+"rationale": "Correcta. Així el defineix la Carta Municipal de Barcelona."
+},
+{
+"text": "Un òrgan consultiu integrat només per entitats veïnals i associacions ciutadanes.",
+"isCorrect": false,
+"rationale": "Incorrecta. No és un òrgan merament consultiu ni està format només per entitats."
+},
+{
+"text": "L’òrgan executiu superior de la Generalitat per exercir competències locals a Barcelona.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Consell Municipal és un òrgan municipal, no de la Generalitat."
+},
+{
+"text": "Un òrgan dependent de la Diputació de Barcelona per coordinar serveis supramunicipals.",
+"isCorrect": false,
+"rationale": "Incorrecta. No depèn de la Diputació de Barcelona."
+}
+]
+},
+{
+"guid": "1d4f0d6e-9141-44a7-8125-e25aa5516018",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons l’article 1 de la Carta Municipal, l’alteració del terme municipal de Barcelona correspon:",
+"answerOptions": [
+{
+"text": "Al Govern de l’Estat, mitjançant reial decret aprovat pel Consell de Ministres.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta no atribueix aquesta competència al Govern de l’Estat."
+},
+{
+"text": "A l’alcalde o alcaldessa, mitjançant ban dictat per raons d’interès municipal urgent.",
+"isCorrect": false,
+"rationale": "Incorrecta. Un ban no pot alterar el terme municipal."
+},
+{
+"text": "Al Parlament de Catalunya, mitjançant llei, a iniciativa de l’Ajuntament de Barcelona.",
+"isCorrect": true,
+"rationale": "Correcta. Aquesta és la regla prevista a la Carta Municipal."
+},
+{
+"text": "A la Comissió de Govern, mitjançant decret i posterior ratificació del Consell Municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Comissió de Govern no pot alterar el terme municipal per decret."
+}
+]
+},
+{
+"guid": "75c59cf7-17b0-411d-a361-4364c2f1eb41",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Els districtes de Barcelona són òrgans territorials destinats principalment a:",
+"answerOptions": [
+{
+"text": "La desconcentració de la gestió i la descentralització de la participació ciutadana.",
+"isCorrect": true,
+"rationale": "Correcta. Els districtes apropen la gestió municipal i la participació al territori."
+},
+{
+"text": "La substitució del Consell Municipal en l’aprovació de normes generals i pressupostos.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els districtes no substitueixen el Consell Municipal en aquestes funcions."
+},
+{
+"text": "L’exercici de competències autonòmiques en matèria judicial i de seguretat pública.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els districtes no són òrgans judicials ni exerceixen competències autonòmiques generals."
+},
+{
+"text": "La gestió exclusiva dels tributs municipals i la inspecció tributària de tota la ciutat.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta no és la funció principal dels districtes."
+}
+]
+},
+{
+"guid": "017a161a-3753-4e74-92f2-b6d69a2d67da",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons la Carta Municipal, el pressupost municipal ha de garantir que, com a mínim, sigui gestionat pels districtes:",
+"answerOptions": [
+{
+"text": "El 5% dels recursos ordinaris del pressupost municipal consolidat anual.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquest percentatge és inferior al mínim previst."
+},
+{
+"text": "El 10% dels recursos ordinaris aprovats pel Consell Municipal cada exercici.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquest percentatge tampoc coincideix amb el mínim establert."
+},
+{
+"text": "El 12% dels recursos ordinaris destinats a serveis territorials de proximitat.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta no fixa aquest percentatge com a mínim general."
+},
+{
+"text": "El 15% dels recursos ordinaris del pressupost municipal.",
+"isCorrect": true,
+"rationale": "Correcta. La Carta Municipal estableix aquest percentatge mínim de gestió pels districtes."
+}
+]
+},
+{
+"guid": "ed3e92cb-3bc6-47bf-bb75-8fbe97c040ef",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons la Carta Municipal, les normes dictades per l’Ajuntament de Barcelona poden adoptar, entre d’altres, la forma de:",
+"answerOptions": [
+{
+"text": "Reglaments, ordenances, decrets de la Comissió de Govern, decrets d’Alcaldia i bans.",
+"isCorrect": true,
+"rationale": "Correcta. Aquestes són formes normatives municipals previstes per la Carta."
+},
+{
+"text": "Lleis orgàniques, decrets llei, decrets legislatius, ordres ministerials i instruccions estatals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Són instruments normatius estatals o no municipals."
+},
+{
+"text": "Sentències, interlocutòries, providències, acords judicials i resolucions processals municipals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Són resolucions judicials o processals, no normes municipals."
+},
+{
+"text": "Estatuts d’autonomia, lleis de bases, lleis marc, reglaments parlamentaris i tractats internacionals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquests instruments no són normes dictades per l’Ajuntament."
+}
+]
+},
+{
+"guid": "3a4e2306-1eb6-49f8-8d76-d3d488252796",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Els bans de l’alcalde o alcaldessa són:",
+"answerOptions": [
+{
+"text": "Disposicions de caràcter general dictades en situacions excepcionals, urgents o d’especial rellevància.",
+"isCorrect": true,
+"rationale": "Correcta. Els bans serveixen per ordenar o comunicar mesures generals en aquests supòsits."
+},
+{
+"text": "Disposicions aprovades pel Parlament de Catalunya per regular el règim especial municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els bans els dicta l’alcaldia, no el Parlament."
+},
+{
+"text": "Resolucions judicials dictades en matèria municipal per jutjats contenciosos administratius.",
+"isCorrect": false,
+"rationale": "Incorrecta. Els bans no són resolucions judicials."
+},
+{
+"text": "Ordenances fiscals aprovades pel Consell Municipal per establir tributs, taxes, preus públics i recàrrecs locals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Les ordenances fiscals són una categoria diferent."
+}
+]
+},
+{
+"guid": "e8d98d53-9717-4718-b0a2-cb5f205858f9",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "L’audiència pública, segons la Carta Municipal de Barcelona, és:",
+"answerOptions": [
+{
+"text": "Un procediment judicial per impugnar ordenances davant la jurisdicció contenciosa.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’audiència pública no és un procediment judicial d’impugnació."
+},
+{
+"text": "Una forma de participació perquè els administrats proposin acords o rebin informació municipal.",
+"isCorrect": true,
+"rationale": "Correcta. És un instrument de participació ciutadana en l’actuació municipal."
+},
+{
+"text": "Una reunió interna de la Comissió de Govern per preparar les sessions ordinàries i extraordinàries del Consell Municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. No és una reunió interna del govern municipal."
+},
+{
+"text": "Un mecanisme reservat als regidors per sol·licitar informes als òrgans executius municipals.",
+"isCorrect": false,
+"rationale": "Incorrecta. No està reservada exclusivament als regidors."
+}
+]
+},
+{
+"guid": "72c6e91e-bf13-40c8-bcbb-b8bc63e65f11",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Segons la Carta Municipal, la iniciativa ciutadana per proposar l’aprovació d’una disposició municipal de caràcter general pot ser exercida per:",
+"answerOptions": [
+{
+"text": "Qualsevol persona resident a Barcelona, sense cap mínim de signatures ni requisit d’edat.",
+"isCorrect": false,
+"rationale": "Incorrecta. La Carta exigeix uns mínims de suport i requisits de participació."
+},
+{
+"text": "Només les entitats inscrites en registres autonòmics i amb implantació acreditada en tots els districtes municipals.",
+"isCorrect": false,
+"rationale": "Incorrecta. No queda limitada a aquest tipus d’entitats."
+},
+{
+"text": "Un mínim de l’1% dels empadronats majors de setze anys, o més del 3% en tres districtes com a mínim.",
+"isCorrect": true,
+"rationale": "Correcta. Aquests són els llindars previstos per exercir la iniciativa ciutadana."
+},
+{
+"text": "Només els membres del Consell de Ciutat, si actuen amb acord previ del Consell Municipal.",
+"isCorrect": false,
+"rationale": "Incorrecta. No és una iniciativa reservada al Consell de Ciutat."
+}
+]
+},
+{
+"guid": "b4b5d547-d9fc-4ab6-8cf7-68e89a765585",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin dels conjunts següents correspon als serveis mínims que han de prestar tots els municipis?",
+"answerOptions": [
+{
+"text": "Transport col·lectiu urbà de viatgers, protecció del medi, transport adaptat, servei de lectura pública descentralitzada i oficina municipal d’habitatge.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquests serveis corresponen a municipis de població superior o a supòsits específics."
+},
+{
+"text": "Enllumenat públic, cementiri, recollida de residus, neteja viària, aigua potable, clavegueram, accés als nuclis, pavimentació i conservació de vies, i control d’aliments i begudes.",
+"isCorrect": true,
+"rationale": "Correcta. Aquest és el conjunt de serveis mínims exigible a tots els municipis."
+},
+{
+"text": "Biblioteca pública, mercat municipal, tractament de residus, parc públic, instal·lacions esportives, servei de lectura pública descentralitzada, protecció civil i serveis socials municipals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Barreja serveis vinculats a municipis amb llindars de població superiors."
+},
+{
+"text": "Protecció civil, serveis socials, prevenció i extinció d’incendis, instal·lacions esportives, transport urbà, protecció del medi i transport adaptat.",
+"isCorrect": false,
+"rationale": "Incorrecta. Són serveis exigibles només a partir de determinats nivells de població."
+}
+]
+},
+{
+"guid": "38fa8c57-4ceb-4987-896b-9a2ae67875cf",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "En municipis de més de 20.000 habitants, a més dels serveis mínims anteriors, cal prestar:",
+"answerOptions": [
+{
+"text": "Transport adaptat, protecció del medi, servei de lectura pública descentralitzada i habitatge públic municipal de promoció directa.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquesta combinació correspon a altres llindars o a matèries que no són aquest paquet mínim."
+},
+{
+"text": "Protecció civil, serveis socials, prevenció i extinció d’incendis i instal·lacions esportives d’ús públic.",
+"isCorrect": true,
+"rationale": "Correcta. Aquests serveis són exigibles als municipis de més de 20.000 habitants."
+},
+{
+"text": "Mercat, biblioteca pública, tractament de residus i parc públic com a únics serveis addicionals.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquests serveis corresponen al llindar de més de 5.000 habitants."
+},
+{
+"text": "Transport col·lectiu urbà, protecció del medi i transport adaptat per a persones amb mobilitat reduïda en tots els barris.",
+"isCorrect": false,
+"rationale": "Incorrecta. Aquests serveis corresponen al llindar de més de 50.000 habitants o a supòsits específics."
+}
+]
+},
+{
+"guid": "28f229ba-7d95-452d-a246-131e69de2fb2",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "La dispensa de prestació d’un servei mínim pot sol·licitar-se quan:",
+"answerOptions": [
+{
+"text": "El municipi prefereixi destinar els recursos disponibles a polítiques públiques diferents.",
+"isCorrect": false,
+"rationale": "Incorrecta. La preferència política o pressupostària no justifica per si sola una dispensa."
+},
+{
+"text": "El servei sigui gestionat indirectament per una entitat privada concessionària.",
+"isCorrect": false,
+"rationale": "Incorrecta. La forma de gestió no és causa general de dispensa."
+},
+{
+"text": "L’establiment o la prestació del servei sigui impossible o de molt difícil compliment.",
+"isCorrect": true,
+"rationale": "Correcta. Aquesta és la causa que permet sol·licitar la dispensa."
+},
+{
+"text": "El servei no hagi tingut demanda ciutadana suficient durant un període mensual.",
+"isCorrect": false,
+"rationale": "Incorrecta. La manca de demanda durant un mes no és la causa legal general."
+}
+]
+},
+{
+"guid": "2c6c104f-188a-469c-9e97-a8ff0e5fe8e1",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "En relació amb els serveis mínims, no cal instruir expedient de dispensa en determinats supòsits, com ara:",
+"answerOptions": [
+{
+"text": "Quan el municipi tingui superàvit pressupostari però decideixi reordenar prioritats i reduir serveis obligatoris.",
+"isCorrect": false,
+"rationale": "Incorrecta. El superàvit no és un supòsit que permeti prescindir de l’expedient."
+},
+{
+"text": "Quan el municipi tingui més de 50.000 habitants i disposi d’organització administrativa pròpia, pressupost suficient i estructura tècnica consolidada.",
+"isCorrect": false,
+"rationale": "Incorrecta. La població elevada no justifica no instruir expedient."
+},
+{
+"text": "Quan es tracti de municipis de població disseminada o formats per diversos nuclis, sense cap nucli de més de 50 habitants.",
+"isCorrect": true,
+"rationale": "Correcta. Aquest és un dels supòsits previstos."
+},
+{
+"text": "Quan el servei es presti en horari nocturn o mitjançant conveni amb una entitat privada concessionària.",
+"isCorrect": false,
+"rationale": "Incorrecta. L’horari o la gestió per conveni no són supòsits de no instrucció."
+}
+]
+},
+{
+"guid": "19ecc5f5-b684-4af6-9398-284f40879887",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Els municipis poden exercir competències delegades per la Generalitat:",
+"answerOptions": [
+{
+"text": "En els termes establerts per les lleis.",
+"isCorrect": true,
+"rationale": "Correcta. La delegació de competències s’ha d’ajustar al marc legal aplicable."
+},
+{
+"text": "Només si ho autoritza prèviament el Tribunal Constitucional en un procediment específic.",
+"isCorrect": false,
+"rationale": "Incorrecta. El Tribunal Constitucional no autoritza ordinàriament delegacions de competències."
+},
+{
+"text": "Només en matèria penal i sempre sota direcció funcional del Ministeri Fiscal.",
+"isCorrect": false,
+"rationale": "Incorrecta. Les competències delegades no es limiten a matèria penal."
+},
+{
+"text": "Sense límits materials, financers ni controls jurídics de cap administració pública.",
+"isCorrect": false,
+"rationale": "Incorrecta. La delegació està sotmesa a condicions, límits i controls previstos per la normativa."
+}
+]
+},
+{
+"guid": "cfd8aed7-aeda-4531-908b-b4e3b223b6c5",
+"subjectId": "T09",
+"difficulty": 1,
+"origin": "Chatgpt",
+"type": "test",
+"question": "Quin és el concepte doctrinal d’acte administratiu?",
+"answerOptions": [
+{
+"text": "Una disposició normativa amb rang de llei aprovada pel Govern en exercici de potestat legislativa delegada i amb capacitat d’innovar l’ordenament jurídic.",
+"isCorrect": false,
+"rationale": "Incorrecta. Això s’aproxima a un decret legislatiu, no a un acte administratiu."
+},
+{
+"text": "Un contracte privat subscrit entre particulars sense intervenció d’una administració pública.",
+"isCorrect": false,
+"rationale": "Incorrecta. Un contracte privat entre particulars no és un acte administratiu."
+},
+{
+"text": "Una resolució judicial dictada per un jutjat contenciós administratiu en exercici de potestat jurisdiccional.",
+"isCorrect": false,
+"rationale": "Incorrecta. Les resolucions judicials pertanyen al poder judicial."
+},
+{
+"text": "Una declaració de voluntat, judici, coneixement o desig emesa per l’Administració en exercici d’una potestat no reglamentària.",
+"isCorrect": true,
+"rationale": "Correcta. Aquesta és la definició doctrinal clàssica d’acte administratiu."
+}
+]
+}
+]
+
