@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "596e151c-8bc1-42f6-bee0-5179a01963e3",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el triple objetivo que persigue la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno?",
+    "answerOptions": [
+      {
+        "text": "Incrementar la transparencia, garantizar el acceso a la información y establecer obligaciones de buen gobierno.",
+        "rationale": "La ley articula su alcance en torno a la publicidad activa, el derecho de acceso y el cumplimiento ético de los responsables públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Centralizar la información autonómica, reducir el gasto público y eliminar la burocracia digital.",
+        "rationale": "Aunque la eficiencia es deseable, el marco de esta ley se centra específicamente en la rendición de cuentas y la transparencia institucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Regular únicamente la publicidad activa para evitar la demanda reactiva de información ciudadana.",
+        "rationale": "La ley tiene un alcance mayor que la simple publicidad activa, incluyendo el derecho subjetivo de acceso y las normas de conducta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustituir la Constitución en materia de libertades informativas para simplificar el marco jurídico.",
+        "rationale": "La ley se dicta al amparo de la Constitución, no para sustituirla, basándose en artículos como el $149.1.18^a$.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda los tres pilares que menciona la propia denominación de la ley estatal."
+  },
+  {
+    "guid": "24ff29c0-ef9b-4146-961c-ab1e9698d7d6",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con la Disposición final novena de la Ley 19/2013, ¿qué plazo máximo tenían las comunidades autónomas para adaptarse a las obligaciones de la ley?",
+    "answerOptions": [
+      {
+        "text": "Un año desde su publicación.",
+        "rationale": "Un año se consideró insuficiente dado el calado de las reformas necesarias en las estructuras administrativas locales y autonómicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos años.",
+        "rationale": "La ley estableció este margen temporal para que los órganos y entidades de las CA y entidades locales pudieran implementar los cambios necesarios.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cinco años debido a la complejidad técnica.",
+        "rationale": "Un plazo de cinco años retrasaría excesivamente el derecho fundamental de la ciudadanía a la transparencia administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se estableció un plazo fijo, dejando la adaptación a la voluntad de cada autonomía.",
+        "rationale": "La ley es un marco de mínimos de obligado cumplimiento, por lo que requiere un plazo de ejecución definido para asegurar la igualdad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca el número de años que suele otorgarse para grandes transiciones normativas en el ámbito local."
+  },
+  {
+    "guid": "b2ca980e-d7f5-4ece-b940-dd90575c25be",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 2.d) de la Ley 19/2014 de Cataluña, ¿cómo se define el 'Buen Gobierno'?",
+    "answerOptions": [
+      {
+        "text": "El conjunto de leyes que impiden la discrecionalidad técnica en el nombramiento de personal directivo.",
+        "rationale": "Esta es una visión muy limitada que solo afecta a la selección de personal y no al funcionamiento global de la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "La obligación de publicar mensualmente el estado de las cuentas públicas en el portal de transparencia.",
+        "rationale": "Esa actividad corresponde específicamente a la publicidad activa, que es una herramienta, no la definición de buen gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principios, obligaciones y reglas sobre la calidad de servicios y funcionamiento administrativo, y principios éticos de actuación del personal.",
+        "rationale": "Define un estándar de conducta y gestión orientado a la transparencia, calidad, equidad y rendición de cuentas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un sistema de sanciones exclusivo para los altos cargos que no responden a las solicitudes de información pública.",
+        "rationale": "El buen gobierno es proactivo y preventivo, no se limita únicamente a un régimen de castigos administrativos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en el equilibrio entre la calidad técnica de los servicios y la conducta ética de quienes los prestan."
+  },
+  {
+    "guid": "62fa2f0a-12a1-47c9-93f2-c8b8f689b08c",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué pilares básicos se sustenta el concepto de 'Gobierno Abierto' según la normativa analizada?",
+    "answerOptions": [
+      {
+        "text": "Eficiencia, digitalización y ahorro presupuestario.",
+        "rationale": "Estos son objetivos de la administración electrónica, pero no definen la esencia de la apertura gubernamental hacia el ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transparencia, colaboración y participación ciudadana.",
+        "rationale": "Estos tres elementos permiten establecer una relación y diálogo bidireccional permanente entre la administración y las personas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Secreto estadístico, jerarquía y unidad de acto.",
+        "rationale": "Estos conceptos son clásicos de la administración burocrática cerrada y se oponen directamente al espíritu del gobierno abierto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seguridad nacional, control de fronteras y vigilancia electrónica.",
+        "rationale": "Estos ámbitos pertenecen a la seguridad pública y suelen ser, de hecho, límites al ejercicio de la transparencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca los elementos que facilitan que el ciudadano no solo mire (transparencia), sino que también actúe."
+  },
+  {
+    "guid": "f52986d9-26b7-415b-9c77-20c7d819c4dc",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A qué edad se reconoce el ejercicio del derecho de acceso a la información pública en la Ley 19/2014 de Cataluña?",
+    "answerOptions": [
+      {
+        "text": "A partir de los 18 años, coincidiendo con la mayoría de edad legal.",
+        "rationale": "La ley de transparencia catalana busca fomentar la participación ciudadana desde etapas más tempranas de la vida civil.",
+        "isCorrect": false
+      },
+      {
+        "text": "A partir de los 16 años.",
+        "rationale": "El artículo 18 de la ley 19/2014 especifica que este derecho puede ejercerse desde los dieciséis años.",
+        "isCorrect": true
+      },
+      {
+        "text": "A cualquier edad, siempre que se cuente con un representante legal.",
+        "rationale": "Aunque es posible actuar mediante representante, la ley otorga capacidad de obrar propia para este derecho a partir de una edad específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los 14 años, para coincidir con la edad mínima para el tratamiento de datos personales.",
+        "rationale": "Aunque existe esa coincidencia en protección de datos, la ley de transparencia elevó el umbral para el acceso a la información pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma edad necesaria para poder trabajar legalmente en España con autorización."
+  },
+  {
+    "guid": "647eb2d6-ff88-4c19-af78-2c3cda4a7bca",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si una solicitud de acceso a la información pública contiene datos personales relativos a la ideología o la salud?",
+    "answerOptions": [
+      {
+        "text": "Se denegará la solicitud a menos que el afectado dé su consentimiento expreso por escrito.",
+        "rationale": "Estos datos son considerados 'especialmente protegidos' por la ley y requieren el consentimiento del titular para ser revelados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se entregará la información de inmediato, ya que la transparencia prevalece sobre la intimidad.",
+        "rationale": "La transparencia no es un derecho absoluto y debe equilibrarse con la protección de datos íntimos y sensibles.",
+        "isCorrect": false
+      },
+      {
+        "text": "La administración decidirá según su criterio si la información es de interés periodístico.",
+        "rationale": "El criterio no es discrecional de la administración, sino que está reglado por límites legales estrictos sobre datos protegidos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se publicará en el Portal de Transparencia omitiendo únicamente el nombre del interesado.",
+        "rationale": "La simple omisión del nombre a veces no garantiza el anonimato si el resto de datos de salud o ideología permiten identificar a la persona.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Estos datos pertenecen a la esfera más íntima de la persona y gozan de una protección reforzada."
+  },
+  {
+    "guid": "42741afe-c198-4320-8ee5-b4ef8b6fa63b",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Se define como la acción proactiva de la Administración de dar a conocer información de forma permanente y actualizada sin necesidad de solicitud previa:",
+    "answerOptions": [
+      {
+        "text": "Derecho de acceso reactivo.",
+        "rationale": "El acceso reactivo es precisamente aquel que se produce tras una petición específica del ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Publicidad activa.",
+        "rationale": "Es la obligación de las administraciones de publicar información relevante en portales web por iniciativa propia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Silencio administrativo positivo.",
+        "rationale": "Este es un efecto jurídico ante la falta de respuesta a una solicitud, no una acción de difusión de información.",
+        "isCorrect": false
+      },
+      {
+        "text": "Auditoría de cuentas externa.",
+        "rationale": "Una auditoría es un procedimiento de control, no el régimen general de difusión proactiva de la actividad pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El término subraya que la administración toma la iniciativa (es 'activa') en la difusión."
+  },
+  {
+    "guid": "a93b0054-f222-4ffc-aa3e-b22ec7b465a9",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué es la 'Bústia Ètica' del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Una oficina física para recoger quejas sobre el ruido y la limpieza de la ciudad.",
+        "rationale": "Esa función corresponde a otros canales de atención ciudadana (OAC) o al sistema IRIS, no a la gestión ética.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un canal de comunicación electrónica para comunicar conductas contrarias a los principios éticos y de buen gobierno.",
+        "rationale": "Su fin es facilitar la denuncia de malas prácticas para asegurar que la gestión municipal respete los valores democráticos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un sistema de votación electrónica para elegir al personal directivo municipal.",
+        "rationale": "La Bústia Ètica es un canal de integridad y supervisión, no una herramienta de procesos electorales internos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un registro obligatorio para que las empresas privadas publiquen sus beneficios trimestrales.",
+        "rationale": "Aunque se relaciona con proveedores, su objeto es la conducta de la administración municipal, no el balance contable privado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Funciona como un buzón de denuncias para proteger la integridad institucional."
+  },
+  {
+    "guid": "84c540e5-939e-4533-a49c-16f2c06313d7",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la gestión de la Bústia Ètica, ¿qué garantía se ofrece a la persona que realiza una comunicación?",
+    "answerOptions": [
+      {
+        "text": "Una compensación económica si la denuncia resulta ser cierta.",
+        "rationale": "El sistema se basa en la colaboración ética y no contempla incentivos financieros para los comunicantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a ocupar el puesto de trabajo de la persona denunciada.",
+        "rationale": "Esto supondría una vulneración de los principios de mérito y capacidad en el acceso a la función pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "El anonimato y la confidencialidad de la comunicación.",
+        "rationale": "Es una medida esencial para evitar represalias y fomentar que el personal y la ciudadanía informen sobre irregularidades.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inmunidad total frente a cualquier delito penal que el propio denunciante haya cometido.",
+        "rationale": "La protección se refiere a la identidad y a la indemnidad laboral, no supone una carta blanca para cometer ilícitos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca que el miedo a ser identificado no sea una barrera para la participación."
+  },
+  {
+    "guid": "0ea289f6-c330-4978-9a77-56be900a9916",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A quiénes se aplica subjetivamente el Código Ético del Ayuntamiento de Barcelona aprobado en 2017?",
+    "answerOptions": [
+      {
+        "text": "Únicamente a los funcionarios de carrera con más de 10 años de antigüedad.",
+        "rationale": "El código vincula a los cargos de responsabilidad y decisión, independientemente de su antigüedad como funcionarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo a las empresas externas que tienen contratos de mantenimiento con el ayuntamiento.",
+        "rationale": "Aunque los proveedores tienen relación con la administración, el código se dirige principalmente a los sujetos internos de la corporación.",
+        "isCorrect": false
+      },
+      {
+        "text": "A miembros electos, comisionados, personal directivo y personal eventual de confianza.",
+        "rationale": "El código cubre a todos los responsables públicos y cargos directivos que integran el sector público municipal.",
+        "isCorrect": true
+      },
+      {
+        "text": "A todos los ciudadanos residentes en el municipio de Barcelona.",
+        "rationale": "Los ciudadanos son beneficiarios del buen gobierno, pero no son los sujetos obligados por las normas de conducta del código.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Afecta a quienes ostentan poder de representación o de gestión política y técnica."
+  },
+  {
+    "guid": "6f9c7155-5838-487d-89d5-0bf3712989a9",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la naturaleza jurídica de los informes y recomendaciones que emite el Comité de Ética?",
+    "answerOptions": [
+      {
+        "text": "Son vinculantes y de obligado cumplimiento inmediato.",
+        "rationale": "Si fueran vinculantes, el Comité tendría funciones ejecutivas o judiciales que no le corresponden a un órgano consultivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tienen carácter meramente informativo y no se pueden publicar.",
+        "rationale": "Aunque no son vinculantes, su publicación es fundamental para la transparencia y la ejemplaridad del sistema.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tienen carácter vinculante.",
+        "rationale": "Es un órgano colegiado consultivo; sus propuestas guían la mejora pero la decisión final recae en los órganos competentes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tienen fuerza de ley en el ámbito del municipio de Barcelona.",
+        "rationale": "El Comité no tiene potestad legislativa; su función es el seguimiento y evaluación del cumplimiento ético.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda que su función es impulsar, seguir y evaluar, no sustituir la voluntad del Pleno."
+  },
+  {
+    "guid": "908c76cb-ee47-4f12-843b-451e69af8c61",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántas personas integran, como máximo, el Comité de Ética del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Siete personas elegidas por sorteo entre el personal municipal.",
+        "rationale": "La elección no es por sorteo, sino que se basa en el prestigio profesional y es ratificada por el Consejo Municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco personas.",
+        "rationale": "El reglamento establece un máximo de cinco profesionales de reconocido prestigio en los ámbitos de ética y transparencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres personas, una por cada partido político mayoritario.",
+        "rationale": "El Comité busca la independencia y el perfil técnico/profesional, no una representación por cuotas de partidos políticos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez personas para asegurar la representación de todos los distritos.",
+        "rationale": "Un número tan elevado dificultaría la agilidad de un órgano de carácter consultivo y especializado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número impar pequeño, lo habitual en órganos colegiados de expertos."
+  },
+  {
+    "guid": "b50d4a83-35b7-43af-95a9-763a8b52a64a",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el procedimiento de la Bústia Ètica, ¿qué sucede si se presenta una comunicación con pleno conocimiento de su falsedad?",
+    "answerOptions": [
+      {
+        "text": "Se investigará igualmente por si hubiera una parte de verdad oculta.",
+        "rationale": "La administración no debe gastar recursos públicos en investigar hechos que se saben falsos desde el inicio.",
+        "isCorrect": false
+      },
+      {
+        "text": "No será objeto de investigación y se promoverán las consecuencias civiles o penales correspondientes.",
+        "rationale": "El sistema protege la buena fe; la mala fe y la falsedad temeraria están sancionadas para proteger a los servidores públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se archivará de forma anónima sin que el denunciante sufra ninguna consecuencia.",
+        "rationale": "El anonimato no protege ante la comisión de delitos como la denuncia falsa o la calumnia ante la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se le otorgará una segunda oportunidad al denunciante para que rectifique sus datos.",
+        "rationale": "La falsedad temeraria es una falta grave de colaboración que invalida la relación de confianza con el canal ético.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El uso indebido y malintencionado de las herramientas de participación tiene reproche jurídico."
+  },
+  {
+    "guid": "cb19da51-38de-47df-a621-34483add8192",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué requisito es indispensable para realizar una comunicación de forma presencial en las oficinas de atención (OAC) en relación a la Bústia Ètica?",
+    "answerOptions": [
+      {
+        "text": "Presentar dos testigos que avalen la veracidad de los hechos.",
+        "rationale": "No se requiere una prueba previa tan estricta para la admisión, sino una descripción suficiente de la conducta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Realizar un depósito previo de tasas administrativas.",
+        "rationale": "La denuncia de irregularidades éticas es gratuita para no desincentivar la colaboración ciudadana.",
+        "isCorrect": false
+      },
+      {
+        "text": "La identificación personal del comunicante.",
+        "rationale": "A diferencia del canal telemático, en el canal presencial es necesaria la identificación, lo que limita la garantía de anonimato total.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aportar un informe jurídico firmado por un abogado en ejercicio.",
+        "rationale": "Cualquier persona puede comunicar hechos sin necesidad de asistencia letrada técnica previa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en la diferencia entre entrar en una oficina pública y usar una interfaz web cifrada."
+  },
+  {
+    "guid": "f74f4c03-1c21-4aa3-8456-d5f7dd239337",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según la normativa, el derecho de acceso a la información pública puede ser denegado si conlleva un perjuicio para:",
+    "answerOptions": [
+      {
+        "text": "La comodidad de los funcionarios encargados de buscar el expediente.",
+        "rationale": "La carga de trabajo no es un límite legal válido para restringir un derecho subjetivo de acceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "La seguridad pública o la investigación de infracciones penales.",
+        "rationale": "Son límites legales clásicos donde el interés general de la seguridad prevalece sobre el derecho a saber.",
+        "isCorrect": true
+      },
+      {
+        "text": "La imagen política del gobernante de turno.",
+        "rationale": "El posible daño a la reputación política no es una causa de denegación, sino precisamente un motivo para la transparencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El tiempo de respuesta medio de la administración pública.",
+        "rationale": "Los indicadores de gestión no pueden utilizarse como barrera para el ejercicio de derechos ciudadanos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Los límites suelen estar ligados a intereses superiores como el orden o la justicia penal."
+  },
+  {
+    "guid": "2d4df35a-e218-4cfa-8175-c3ff9385e853",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El principio de 'Dedicación absoluta' en las normas de conducta generales implica:",
+    "answerOptions": [
+      {
+        "text": "Trabajar 24 horas al día sin derecho a descanso semanal.",
+        "rationale": "Esto vulneraría los derechos laborales básicos; se refiere a la exclusividad y compatibilidad del cargo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La sujeción al régimen de incompatibilidades establecido.",
+        "rationale": "Los responsables públicos deben centrarse en su labor institucional, evitando intereses privados que interfieran.",
+        "isCorrect": true
+      },
+      {
+        "text": "La prohibición de tener cualquier tipo de afición o vida privada fuera del ayuntamiento.",
+        "rationale": "La dedicación absoluta es profesional y ética, no supone una renuncia a la vida personal del individuo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el sueldo debe ser el máximo permitido por la ley para compensar el esfuerzo.",
+        "rationale": "La dedicación es un deber de conducta, no una justificación automática para incrementos retributivos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está directamente relacionado con evitar el conflicto de intereses y las actividades paralelas."
+  },
+  {
+    "guid": "aac5c935-522d-4777-a6d1-2b9a2b1f8c8f",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal de la Comisión de Garantía del Derecho de Acceso a la Información Pública (GAIP)?",
+    "answerOptions": [
+      {
+        "text": "Sancionar penalmente a los ciudadanos que piden demasiada información.",
+        "rationale": "La GAIP no tiene competencias penales y su fin es proteger el derecho, no castigar al ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Redactar las noticias del Portal de Transparencia de la Generalitat.",
+        "rationale": "Esa es una labor de comunicación institucional, no de garantía de derechos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Velar por el cumplimiento del derecho de acceso y resolver reclamaciones contra denegaciones.",
+        "rationale": "Actúa como un órgano independiente para asegurar que las administraciones no restrinjan indebidamente el acceso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cobrar las tasas por la fotocopia de documentos públicos.",
+        "rationale": "La gestión de tasas es una labor administrativa ordinaria, no propia de un órgano de garantía de derechos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano al que acudes si una administración te deniega la información solicitada."
+  },
+  {
+    "guid": "421609fb-62a5-47d8-aca8-f198629761ac",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede si una solicitud de acceso a la información pública no es resuelta ni notificada en el plazo establecido por la Ley 19/2014?",
+    "answerOptions": [
+      {
+        "text": "Se entiende desestimada por silencio administrativo negativo en todos los casos.",
+        "rationale": "La ley de transparencia catalana busca favorecer el acceso, estableciendo una regla general distinta.",
+        "isCorrect": false
+      },
+      {
+        "text": "La solicitud se entiende estimada, salvo que una norma con rango de ley establezca lo contrario.",
+        "rationale": "El silencio administrativo en esta materia es generalmente positivo para incentivar la diligencia administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "El solicitante pierde el derecho a pedir esa información durante los siguientes dos años.",
+        "rationale": "El incumplimiento de la administración no puede castigar al ciudadano con la pérdida de sus derechos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El expediente se envía directamente a la Fiscalía por prevaricación.",
+        "rationale": "El retraso administrativo no implica automáticamente un delito, aunque pueda tener consecuencias disciplinarias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda que la ley quiere ser garantista y castigar la inactividad de la administración."
+  },
+  {
+    "guid": "057ddbbe-f447-467a-a8f3-78952db971e2",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué consiste el 'Acceso parcial' a la información pública?",
+    "answerOptions": [
+      {
+        "text": "En entregar solo las páginas pares de un informe para ahorrar papel.",
+        "rationale": "El ahorro de papel no justifica la entrega incompleta y arbitraria de un documento.",
+        "isCorrect": false
+      },
+      {
+        "text": "En permitir el acceso ocultando únicamente las partes afectadas por algún límite legal.",
+        "rationale": "Si un documento tiene datos protegidos, se tachan esos datos pero se entrega el resto para no anular el derecho de acceso.",
+        "isCorrect": true
+      },
+      {
+        "text": "En leer el documento por teléfono sin dejar que el ciudadano tome notas.",
+        "rationale": "El derecho de acceso implica obtener la información en un formato útil y duradero, no solo una lectura fugaz.",
+        "isCorrect": false
+      },
+      {
+        "text": "En denegar toda la información si una sola frase del documento es confidencial.",
+        "rationale": "Esto sería una aplicación desproporcionada de los límites; debe prevalecer la entrega de lo no confidencial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se aplica la técnica del 'tachado' o disociación de datos para salvar el resto de la información."
+  },
+  {
+    "guid": "3f816705-aee1-4183-bd95-1f838c82e45c",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Dentro de las obligaciones de los declarantes en el Registro de Grupos de Interés, se incluye:",
+    "answerOptions": [
+      {
+        "text": "Garantizar que la información proporcionada es completa y fidedigna.",
+        "rationale": "La veracidad es la base para que el control social sobre los 'lobbies' sea efectivo y real.",
+        "isCorrect": true
+      },
+      {
+        "text": "Pagar una cuota de afiliación al partido político mayoritario del ayuntamiento.",
+        "rationale": "Esto sería una práctica ilegal de financiación de partidos y vulneraría la neutralidad administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aceptar que sus reuniones con cargos públicos nunca serán hechas públicas.",
+        "rationale": "Precisamente el fin del registro es la publicidad de esas agendas y contactos por transparencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tener sede física obligatoriamente en el mismo edificio del ayuntamiento.",
+        "rationale": "Los grupos de interés son entidades externas y no requieren ubicación física en las dependencias municipales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La transparencia requiere que los datos declarados sobre clientes y gastos sean honestos."
+  },
+  {
+    "guid": "4e1d3585-797c-4397-a68b-f1c86a6a82e0",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El Comité de Ética del Ayuntamiento de Barcelona debe incluir obligatoriamente entre sus miembros a:",
+    "answerOptions": [
+      {
+        "text": "Un mínimo de dos personas provenientes del ámbito jurídico.",
+        "rationale": "La presencia de juristas asegura que las interpretaciones del código se ajusten al marco legal administrativo vigente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Alcalde o Alcaldesa de la ciudad por razón de su cargo.",
+        "rationale": "El Comité debe ser independiente y sus miembros no deben ocupar cargos de gobierno municipal para evitar conflictos.",
+        "isCorrect": false
+      },
+      {
+        "text": "A representantes de todos los sindicatos con representación en el comité de empresa.",
+        "rationale": "El perfil de los miembros es de profesionales independientes de reconocido prestigio, no representantes sindicales.",
+        "isCorrect": false
+      },
+      {
+        "text": "A un experto en marketing político para mejorar la imagen institucional.",
+        "rationale": "El objetivo es la integridad y la ética, no la cosmética o la propaganda política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca solvencia técnica en la interpretación de las normas."
+  },
+  {
+    "guid": "b46cf759-2074-434e-a8f4-a108d483b7d5",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de estos sujetos NO se considera 'Personal Directivo' a efectos del Código Ético según la Carta Municipal de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Gerentes.",
+        "rationale": "Las gerencias son la cúspide de la dirección profesional técnica y están plenamente sujetas al código.",
+        "isCorrect": false
+      },
+      {
+        "text": "Directores de servicios de niveles 28 y 30.",
+        "rationale": "Estos niveles de alta jerarquía administrativa tienen funciones directivas claras y por tanto obligaciones éticas reforzadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Auxiliares administrativos de atención al público.",
+        "rationale": "Aunque deben ser éticos, no entran en la categoría de 'personal directivo' que define el ámbito subjetivo del código.",
+        "isCorrect": true
+      },
+      {
+        "text": "Titulares de órganos directivos clasificados como tales en instrumentos municipales.",
+        "rationale": "Cualquier persona que ocupe una plaza formalmente directiva queda automáticamente vinculada por el código.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en quiénes tienen capacidad de mando y dirección estratégica en lugar de ejecución operativa."
+  },
+  {
+    "guid": "d305680d-cb83-4c25-acb8-d6531446d851",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué periodicidad mínima de reuniones establece el reglamento para el Comité de Ética?",
+    "answerOptions": [
+      {
+        "text": "Una vez a la semana de forma presencial.",
+        "rationale": "Una frecuencia semanal sería excesiva para profesionales externos y no siempre habría asuntos de tal urgencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al menos cuatro veces al año.",
+        "rationale": "Es una frecuencia trimestral que permite un seguimiento adecuado de la vida ética de la corporación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo cuando se produzca una denuncia grave confirmada por el juez.",
+        "rationale": "El comité debe actuar de forma preventiva y proactiva, no solo reaccionar ante escándalos judiciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una vez cada legislatura (cada 4 años).",
+        "rationale": "Una reunión cada cuatro años vaciaría de contenido cualquier función de control o evaluación continua.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una reunión por cada estación del año."
+  },
+  {
+    "guid": "82c640ae-7a40-4e62-88eb-6b23cb6c072d",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con los obsequios que reciben los altos cargos por razón de cortesía institucional?",
+    "answerOptions": [
+      {
+        "text": "Pasan a ser propiedad privada del alto cargo tras su cese.",
+        "rationale": "Los regalos de cortesía recibidos por el cargo no son personales, sino que pertenecen a la institución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se pueden aceptar siempre que su valor sea inferior a un mes de sueldo.",
+        "rationale": "El límite para regalos de cortesía suele ser mucho más bajo y nunca debe vincularse al salario del receptor.",
+        "isCorrect": false
+      },
+      {
+        "text": "En ningún caso serán para uso personal y deben hacerse públicos en el portal de transparencia.",
+        "rationale": "La transparencia en los regalos evita sospechas de trato de favor y asegura que la cortesía no se convierta en soborno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Deben ser subastados inmediatamente para financiar las fiestas populares.",
+        "rationale": "Aunque pueden tener fines sociales, la norma exige primero su registro y publicidad para control ciudadano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La clave es evitar el enriquecimiento personal y asegurar que la ciudadanía sepa qué se recibe."
+  },
+  {
+    "guid": "8d4e48ac-426a-40c6-88ce-bf3fe446e9ee",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En relación a las 'invitaciones a comidas', el modelo de código ético para entes locales señala que:",
+    "answerOptions": [
+      {
+        "text": "Se aceptarán solo si el menú incluye productos locales con denominación de origen.",
+        "rationale": "La calidad de la comida es irrelevante para la ética; lo importante es el contexto y el motivo de la invitación.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se pueden aceptar si no están relacionadas con el papel institucional del cargo.",
+        "rationale": "Las invitaciones de carácter privado o comercial pueden comprometer la imparcialidad del responsable público.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se aceptarán siempre que el alto cargo invite a la siguiente comida para compensar.",
+        "rationale": "El intercambio de favores personales no soluciona el problema de fondo del conflicto de intereses.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se pueden aceptar todas las que se deseen siempre que no se beban bebidas alcohólicas.",
+        "rationale": "La restricción no es sobre el contenido del menú, sino sobre el impacto de la invitación en la independencia del cargo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca el nexo entre el evento y la función pública oficial."
+  },
+  {
+    "guid": "d513a18d-20cd-4d86-a2ad-17fbd396d931",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la competencia para proponer a las personas que integrarán el Comité de Ética en Barcelona?",
+    "answerOptions": [
+      {
+        "text": "El Ministerio de Política Territorial y Función Pública.",
+        "rationale": "Es una competencia puramente municipal basada en la autonomía local para organizar su propia integridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión de Presidencia del Consejo Municipal.",
+        "rationale": "Es el órgano de trabajo político que selecciona los perfiles técnicos antes de llevarlos al Plenario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una asamblea vecinal elegida al azar por código postal.",
+        "rationale": "Aunque se fomenta la participación, la propuesta requiere un análisis de méritos profesionales que hace la comisión técnica-política.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Colegio de Abogados de Barcelona de forma exclusiva.",
+        "rationale": "Aunque hay juristas, el ayuntamiento mantiene la potestad de proponer perfiles de diversos ámbitos de la ética y transparencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la comisión municipal encargada de los temas transversales de gobierno y seguridad."
+  },
+  {
+    "guid": "6761de6b-142f-4c5a-ac54-9e48e09ff894",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la mayoría necesaria en el Plenario del Consejo Municipal para elegir a los miembros del Comité de Ética?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple (más votos a favor que en contra).",
+        "rationale": "Una mayoría simple no aseguraría el consenso necesario para un órgano que debe supervisar a todos los grupos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta (la mitad más uno del total de concejales).",
+        "rationale": "Se busca un respaldo aún más amplio para garantizar la máxima independencia y legitimidad de los expertos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría cualificada de dos tercios.",
+        "rationale": "Esta mayoría exige un gran acuerdo entre diferentes fuerzas políticas, reforzando la autonomía de los elegidos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Unanimidad de todos los grupos políticos sin excepción.",
+        "rationale": "La unanimidad daría derecho de veto a cualquier concejal individual, bloqueando posiblemente la renovación del órgano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una de las mayorías más reforzadas previstas en el derecho administrativo."
+  },
+  {
+    "guid": "357e56b9-8cdd-41b9-8134-5083721104a4",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué derecho NO asiste a la persona investigada a raíz de una comunicación en la Bústia Ètica?",
+    "answerOptions": [
+      {
+        "text": "A la confidencialidad mientras duren las investigaciones.",
+        "rationale": "Este derecho sí existe para proteger la presunción de inocencia y la reputación del investigado hasta que se prueben los hechos.",
+        "isCorrect": false
+      },
+      {
+        "text": "A conocer la identidad del denunciante de forma inmediata y automática.",
+        "rationale": "El sistema garantiza el anonimato del denunciante precisamente para que pueda informar sin miedo a represalias de la persona investigada.",
+        "isCorrect": true
+      },
+      {
+        "text": "A la preservación de su privacidad hasta la finalización de las pesquisas.",
+        "rationale": "Es un derecho fundamental de la persona investigada para evitar juicios paralelos antes de concluir el proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al respeto de sus derechos fundamentales durante el proceso de comprobación.",
+        "rationale": "Ningún procedimiento administrativo o ético puede suspender los derechos fundamentales del individuo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda que el anonimato es el pilar central de la protección del comunicante de buena fe."
+  },
+  {
+    "guid": "07365190-2026-4b81-82d7-09bd04466c59",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el contexto de la transparencia, ¿qué significa que la información sea 'interoperable'?",
+    "answerOptions": [
+      {
+        "text": "Que solo puede ser leída por un sistema informático específico de alto coste.",
+        "rationale": "Eso sería una barrera técnica; la interoperabilidad busca precisamente la apertura y compatibilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que permite la localización y el intercambio fluido de datos entre diferentes administraciones.",
+        "rationale": "La interoperabilidad asegura que los sistemas 'hablen' entre sí, facilitando el acceso ciudadano global.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que la información debe ser traducida a todos los idiomas de la Unión Europea.",
+        "rationale": "Eso es multilingüismo, que es un concepto distinto a la compatibilidad técnica de los datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los documentos deben estar impresos en papel reciclado para ser válidos.",
+        "rationale": "La interoperabilidad es un concepto digital relativo al formato y estructura de los datos electrónicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en la capacidad de diferentes sistemas informáticos para trabajar juntos."
+  },
+  {
+    "guid": "edb800ae-63ab-4231-9b92-1b3da279efb7",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo define la ley la relación entre la publicidad activa y el derecho de acceso?",
+    "answerOptions": [
+      {
+        "text": "Son conceptos opuestos: si hay publicidad activa no puede haber derecho de acceso.",
+        "rationale": "Son complementarios; el acceso cubre aquello que no ha sido publicado proactivamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "A mayor publicidad activa, menor necesidad hay de ejercer el derecho de acceso.",
+        "rationale": "Si la administración ya publica todo lo relevante de forma proactiva, el ciudadano no tiene que pedirlo individualmente.",
+        "isCorrect": true
+      },
+      {
+        "text": "El derecho de acceso es gratuito, mientras que la publicidad activa es de pago.",
+        "rationale": "Ambos son gratuitos por principio general, salvo tasas de reproducción física si se solicitan.",
+        "isCorrect": false
+      },
+      {
+        "text": "La publicidad activa es para empresas y el derecho de acceso es solo para individuos.",
+        "rationale": "Cualquier persona, física o jurídica, puede beneficiarse de ambos instrumentos de transparencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un equilibrio de 'oferta' de información frente a 'demanda' ciudadana."
+  }
+]

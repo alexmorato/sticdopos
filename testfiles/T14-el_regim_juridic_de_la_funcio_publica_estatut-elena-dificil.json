@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "4a73484f-d53b-4afb-bfff-608df658a7f9",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo máximo de permanencia de un funcionario interino nombrado por exceso o acumulación de tareas según el texto refundido consolidado del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Seis meses dentro de un periodo de doce meses.",
+        "rationale": "Este era el límite anterior, pero la normativa consolidada actual ha ampliado estos márgenes temporales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nueve meses dentro de un periodo de dieciocho meses.",
+        "rationale": "El artículo 10.1.d del texto consolidado establece este límite específico para evitar el encadenamiento abusivo en la acumulación de tareas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Doce meses dentro de un periodo de dos años.",
+        "rationale": "Aunque es un periodo lógico de prorrateo, no es el plazo previsto en la legislación básica para este supuesto de interinidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres años improrrogables.",
+        "rationale": "Este plazo de tres años se aplica generalmente a la ejecución de programas temporales o plazas vacantes, no a la acumulación de tareas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Reflexione sobre la actualización normativa que amplió los plazos de $6/12$ a una proporción mayor."
+  },
+  {
+    "guid": "fa491a82-836d-4b85-b740-46bb6b668627",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de funcionarios interinos que ocupan plazas vacantes, ¿qué ocurre si transcurren tres años desde su nombramiento sin que la plaza se haya cubierto?",
+    "answerOptions": [
+      {
+        "text": "El funcionario interino adquiere automáticamente la condición de funcionario de carrera.",
+        "rationale": "La condición de funcionario de carrera solo se adquiere mediante la superación de un proceso selectivo de libre concurrencia, nunca por el paso del tiempo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se produce el fin de la relación de interinidad y la vacante solo podrá ser ocupada por personal de carrera, salvo excepción por proceso desierto.",
+        "rationale": "El artículo 10.4 establece el cese a los tres años para incentivar la cobertura reglada, permitiendo un nuevo interino solo si el proceso selectivo falla.",
+        "isCorrect": true
+      },
+      {
+        "text": "La plaza se amortiza de forma obligatoria por ministerio de la ley.",
+        "rationale": "La amortización es una decisión organizativa de la Administración, no una consecuencia automática obligatoria del transcurso de este plazo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se prorroga automáticamente por otros tres años si el programa es de carácter estratégico.",
+        "rationale": "La ley no prevé prórrogas automáticas basadas en la estrategia del programa para plazas vacantes ordinarias una vez cumplido el trienio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere las medidas de lucha contra la temporalidad excesiva introducidas en el artículo 10."
+  },
+  {
+    "guid": "63edb3f1-d115-421c-9721-63dfe1fdf7a8",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué compensación económica corresponde a un funcionario interino cuyo cese se produce por el incumplimiento del plazo máximo de permanencia?",
+    "answerOptions": [
+      {
+        "text": "Treinta y tres días de retribuciones fijas por año de servicio.",
+        "rationale": "Esta cuantía es propia de indemnizaciones por despido improcedente en el ámbito laboral privado, no en la función pública interina.",
+        "isCorrect": false
+      },
+      {
+        "text": "Veinte días de sus retribuciones fijas por año de servicio, hasta un máximo de doce mensualidades.",
+        "rationale": "El apartado 4 del artículo 10 (según la disposición de responsabilidad) establece esta cuantía específica para los ceses derivados de irregularidades en la temporalidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una mensualidad de salario base por cada cinco años trabajados.",
+        "rationale": "La ley establece el cálculo basado en días por año de servicio, no en tramos quinquenales de salario base.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene derecho a compensación económica por tratarse de una relación de carácter temporal.",
+        "rationale": "Aunque tradicionalmente no existía, las reformas recientes han introducido compensaciones para penalizar el abuso de la temporalidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la cuantía estándar que se aplica en ceses por causas objetivas en el derecho laboral español."
+  },
+  {
+    "guid": "50a8500a-cd92-4699-9d07-a01670ef4442",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 9.2 del TREBEP, ¿qué funciones están reservadas exclusivamente a los funcionarios públicos?",
+    "answerOptions": [
+      {
+        "text": "Cualquier función de carácter administrativo o auxiliar en la Administración.",
+        "rationale": "Muchas funciones administrativas pueden ser desempeñadas por personal laboral si no implican ejercicio de autoridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las que impliquen participación directa o indirecta en el ejercicio de potestades públicas o salvaguardia de intereses generales.",
+        "rationale": "Esta es la reserva legal mínima que garantiza que las decisiones que afectan a la soberanía y seguridad jurídica las tomen agentes con relación estatutaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las funciones directivas de las agencias públicas con personalidad jurídica propia.",
+        "rationale": "El personal directivo puede ser laboral en ciertos casos, dependiendo de lo que establezcan las normas específicas de cada Administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente las tareas de seguridad ciudadana y justicia.",
+        "rationale": "El concepto de salvaguardia de intereses generales es mucho más amplio que la seguridad y la justicia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el criterio constitucional sobre el ejercicio del poder público."
+  },
+  {
+    "guid": "58b7a37b-7378-4b7b-9e67-64838c6e476c",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Para el acceso a los cuerpos o escalas del Grupo B, ¿cuál es la titulación mínima exigida por el artículo 76 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Título de Bachiller o Técnico.",
+        "rationale": "Esta titulación corresponde al Subgrupo C1, no al Grupo B.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título de Técnico Superior.",
+        "rationale": "El Grupo B es una categoría intermedia creada específicamente para las titulaciones de formación profesional de grado superior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Título universitario de Grado.",
+        "rationale": "El título de Grado es el requisito para el Grupo A (Subgrupos A1 y A2).",
+        "isCorrect": false
+      },
+      {
+        "text": "Título de Diplomado Universitario.",
+        "rationale": "Con el sistema de Bolonia, las diplomaturas se integran en el requisito de Grado para el Grupo A, no para el B.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un nivel de educación técnica que no llega al nivel universitario de grado."
+  },
+  {
+    "guid": "e604e400-9108-41f6-a114-17371bfdda7d",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué situación administrativa se declara a un funcionario de carrera que es nombrado para ocupar un puesto de personal eventual y decide no permanecer en servicio activo?",
+    "answerOptions": [
+      {
+        "text": "Excedencia por interés particular.",
+        "rationale": "Esta excedencia es voluntaria y no conlleva reserva de puesto, a diferencia del supuesto planteado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Servicios especiales.",
+        "rationale": "El artículo 87.1.i contempla expresamente que el nombramiento como personal eventual da lugar al pase a servicios especiales si el interesado lo opta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Suspensión de funciones.",
+        "rationale": "La suspensión es una medida sancionadora o cautelar, no una situación derivada de un nombramiento de confianza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Servicio en otras Administraciones Públicas.",
+        "rationale": "Esta situación se da cuando se obtiene un puesto por concurso o libre designación en otra AP, no para puestos eventuales de confianza.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una situación que protege los derechos del funcionario mientras desempeña cargos políticos o de confianza."
+  },
+  {
+    "guid": "c022d8cb-ed87-4bcc-9a6c-08bb52577e34",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 12 del TREBEP, ¿qué tareas tiene terminantemente prohibido realizar el personal eventual?",
+    "answerOptions": [
+      {
+        "text": "Funciones de asesoramiento especial.",
+        "rationale": "Precisamente, el asesoramiento especial es una de las dos funciones exclusivas que la ley atribuye a este personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Funciones de confianza.",
+        "rationale": "Las funciones de confianza política son la razón de ser del nombramiento del personal eventual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Funciones ordinarias de gestión o administrativas y funciones directivas.",
+        "rationale": "Para garantizar la profesionalidad, el personal de confianza no puede interferir en las tareas ordinarias de la Administración ni en la dirección profesional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Participar en las reuniones de los órganos de gobierno.",
+        "rationale": "Pueden participar para asesorar, siempre que no asuman funciones que la ley reserva a funcionarios de carrera.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El personal eventual no debe sustituir el trabajo técnico o burocrático permanente."
+  },
+  {
+    "guid": "6eab5f8f-ff04-4f2c-9288-43fd77593855",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la consecuencia inmediata del cese de la autoridad que nombró a un miembro del personal eventual?",
+    "answerOptions": [
+      {
+        "text": "El personal eventual pasa a ser personal laboral indefinido.",
+        "rationale": "No existe la conversión automática; el carácter del personal eventual es estrictamente no permanente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se produce el cese automático del personal eventual.",
+        "rationale": "Dada la naturaleza de confianza personal del nombramiento, la pérdida de condición de la autoridad conlleva la extinción del vínculo del asesor.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dispone de un plazo de seis meses para encontrar un nuevo puesto de confianza.",
+        "rationale": "La ley no otorga plazos de carencia; el cese debe producirse en todo caso cuando cese la autoridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se somete a una evaluación de desempeño para decidir su continuidad.",
+        "rationale": "La evaluación de desempeño se aplica al personal directivo o de carrera, no al eventual de libre nombramiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la relación de 'espejo' que existe entre la autoridad y su personal de confianza."
+  },
+  {
+    "guid": "a9fca215-e7a2-48db-ab4e-4426cf3da750",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se integran transitoriamente los funcionarios del antiguo Grupo D tras la entrada en vigor del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "En el Subgrupo C1.",
+        "rationale": "El Subgrupo C1 corresponde al antiguo Grupo C.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el Subgrupo C2.",
+        "rationale": "La Disposición Transitoria Tercera establece la equivalencia directa del antiguo Grupo D con el nuevo Subgrupo C2.",
+        "isCorrect": true
+      },
+      {
+        "text": "En las Agrupaciones Profesionales sin requisito de titulación.",
+        "rationale": "Estas agrupaciones están reservadas para el antiguo Grupo E.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el Grupo B.",
+        "rationale": "El Grupo B es una categoría de nueva creación que requiere título de Técnico Superior, ausente en el antiguo Grupo D.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el subgrupo inferior dentro de la categoría C, según la escala de titulaciones."
+  },
+  {
+    "guid": "eb65e4aa-267b-488d-9bf9-d9c59c577525",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué requisito es indispensable para que los funcionarios del Subgrupo C1 puedan promocionar al Grupo A sin pasar por el Grupo B?",
+    "answerOptions": [
+      {
+        "text": "Tener una antigüedad mínima de diez años en el servicio activo.",
+        "rationale": "La antigüedad necesaria general para promoción interna es de dos años; el factor clave aquí es la titulación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Poseer la titulación universitaria exigida para el Grupo A.",
+        "rationale": "La Disposición Transitoria Tercera permite este 'salto' siempre que se cumpla el requisito académico del grupo de destino.",
+        "isCorrect": true
+      },
+      {
+        "text": "Haber superado un curso de formación específico de 500 horas.",
+        "rationale": "La formación es un complemento, pero nunca sustituye al requisito legal de titulación académica oficial en este caso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que no existan plazas disponibles en el Grupo B en su Administración.",
+        "rationale": "La promoción es un derecho individual vinculado a la titulación y méritos, no a la carencia de plazas en grupos intermedios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise las condiciones especiales de la Disposición Transitoria Tercera, apartado 3."
+  },
+  {
+    "guid": "45cdf63f-eb8b-4b19-8543-937a756ecd5c",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el ámbito de las Entidades Locales, ¿qué funciones se reservan exclusivamente a los funcionarios de Administración Local con habilitación de carácter nacional?",
+    "answerOptions": [
+      {
+        "text": "Gestión de recursos humanos y urbanismo.",
+        "rationale": "Aunque son funciones importantes, pueden ser desempeñadas por funcionarios de carrera de la propia corporación sin habilitación nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Secretaría, intervención, tesorería y recaudación.",
+        "rationale": "Estas funciones garantizan la fe pública y el control económico independiente en todos los municipios, según el artículo 92 bis LRBRL.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mantenimiento de infraestructuras y protección civil.",
+        "rationale": "Estas tareas suelen ser desempeñadas por personal laboral o funcionarios técnicos específicos de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Representación política y defensa jurídica de la corporación.",
+        "rationale": "La representación política corresponde a los electos y la defensa jurídica puede recaer en letrados propios o externos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las funciones críticas de 'fe pública' y 'control económico-financiero'."
+  },
+  {
+    "guid": "3cbe33c0-a190-4a9d-95d5-5e8fe9aa85b6",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 57 del TREBEP, los nacionales de otros Estados miembros de la UE pueden acceder al empleo público excepto para:",
+    "answerOptions": [
+      {
+        "text": "Puestos de carácter docente o investigador.",
+        "rationale": "Estos puestos están plenamente abiertos a ciudadanos de la UE por el principio de libre circulación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Puestos que impliquen el ejercicio de poder público o salvaguardia de los intereses del Estado o las Administraciones Públicas.",
+        "rationale": "Esta es la excepción clásica de soberanía nacional que permite reservar ciertos puestos de alta responsabilidad exclusivamente a nacionales españoles.",
+        "isCorrect": true
+      },
+      {
+        "text": "Puestos en la Administración Local.",
+        "rationale": "Los ciudadanos de la UE pueden trabajar en la Administración Local en prácticamente todas las áreas técnicas y administrativas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Puestos de personal eventual.",
+        "rationale": "El personal eventual es de libre nombramiento y no tiene una restricción por nacionalidad de este tipo en la norma general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en las funciones que tocan el núcleo de la soberanía nacional."
+  },
+  {
+    "guid": "41ab79e6-eecf-4540-a579-5f146402810a",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la duración máxima improrrogable para los programas de carácter temporal desempeñados por funcionarios interinos?",
+    "answerOptions": [
+      {
+        "text": "Un año.",
+        "rationale": "Un año es un plazo demasiado corto para la mayoría de proyectos o programas estructurales temporales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres años, ampliables doce meses más por las leyes de Función Pública regionales.",
+        "rationale": "El artículo 10.1.c establece este marco de $3+1$ años para evitar la cronificación de programas que deberían ser plazas de carrera.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dos años prorrogables por otros dos.",
+        "rationale": "Aunque suma cuatro años, el esquema legal no es de prórroga binaria, sino de un bloque de tres con una extensión final única.",
+        "isCorrect": false
+      },
+      {
+        "text": "La duración total del mandato de la corporación local.",
+        "rationale": "La duración de los programas temporales no debe vincularse al ciclo político electoral, sino a la necesidad técnica del proyecto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la fórmula temporal de 'tres más uno'."
+  },
+  {
+    "guid": "659a4384-e75c-458a-aba3-791884a14e96",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Si un funcionario de carrera es destinado a una misión en un organismo internacional por un periodo de ocho meses, ¿en qué situación administrativa debe quedar?",
+    "answerOptions": [
+      {
+        "text": "Servicio activo.",
+        "rationale": "El servicio activo se reserva para el desempeño del puesto habitual o misiones de muy corta duración que no alteren la vinculación con el puesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Servicios especiales.",
+        "rationale": "El artículo 87.1.b especifica que las misiones internacionales superiores a seis meses motivan el pase a servicios especiales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Excedencia forzosa.",
+        "rationale": "La excedencia forzosa se aplica por falta de puesto tras cese o reasignación, no por misiones internacionales voluntarias u oficiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspensión provisional.",
+        "rationale": "Es una medida cautelar en procedimientos disciplinarios, sin relación con la cooperación internacional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El umbral temporal clave para esta situación en misiones internacionales son los seis meses."
+  },
+  {
+    "guid": "f0cd1829-b365-4384-99a9-c858ac579ac1",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la situación de servicios especiales, el funcionario tiene derecho al cómputo del tiempo pasado en dicha situación a efectos de:",
+    "answerOptions": [
+      {
+        "text": "Únicamente para el reconocimiento de trienios.",
+        "rationale": "El derecho es más amplio e incluye otros aspectos de la carrera administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ascensos, trienios, promoción interna y derechos en el régimen de Seguridad Social.",
+        "rationale": "La ley garantiza que el desempeño de funciones públicas de alta responsabilidad no perjudique la carrera administrativa del funcionario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Percepción del salario íntegro de su puesto de origen.",
+        "rationale": "En servicios especiales se perciben las retribuciones del puesto que se desempeña efectivamente, no las del puesto de origen (salvo trienios).",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguno, ya que no está prestando servicios efectivos en su Administración de origen.",
+        "rationale": "Precisamente la situación de servicios especiales se crea para no castigar al funcionario por prestar servicios en otras instituciones del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una situación de 'máxima protección' para la carrera administrativa."
+  },
+  {
+    "guid": "0b0f9b92-75f7-43d7-8cde-a1e52726b891",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con los trienios acumulados por un funcionario que se encuentra en situación de servicios especiales?",
+    "answerOptions": [
+      {
+        "text": "Quedan congelados hasta su reingreso al servicio activo.",
+        "rationale": "Los trienios son un derecho que se sigue devengando y percibiendo incluso fuera del servicio activo en este caso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los percibe la Administración de origen, pero no el funcionario.",
+        "rationale": "Es el funcionario quien tiene el derecho personal a la percepción económica de su antigüedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tiene derecho a seguir percibiendo los trienios que tenga reconocidos en cada momento.",
+        "rationale": "El artículo 87.2 establece explícitamente que se perciben las retribuciones del nuevo cargo 'sin perjuicio del derecho a percibir los trienios'.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se sustituyen por un complemento de antigüedad propio del cargo político desempeñado.",
+        "rationale": "El derecho al trienio consolidado como funcionario es independiente de los complementos que correspondan al nuevo cargo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el único concepto retributivo del puesto de origen que se mantiene en esta situación."
+  },
+  {
+    "guid": "83b53ac0-644b-4692-a9c3-0a384e7fe198",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 77 del TREBEP, ¿cuál es el criterio para clasificar al personal laboral al servicio de las Administraciones Públicas?",
+    "answerOptions": [
+      {
+        "text": "Los mismos grupos (A, B, C) que el personal funcionario.",
+        "rationale": "Aunque a veces se asimilan por convenio, la ley básica remite a un sistema normativo diferente para el personal laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "De conformidad con la legislación laboral.",
+        "rationale": "El personal laboral se rige por el Estatuto de los Trabajadores y los convenios colectivos, que definen sus propios grupos profesionales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exclusivamente por su nivel de titulación académica.",
+        "rationale": "En el ámbito laboral, el grupo profesional suele definirse por funciones y aptitudes, no solo por el título poseído.",
+        "isCorrect": false
+      },
+      {
+        "text": "Según el presupuesto asignado a su unidad administrativa.",
+        "rationale": "El presupuesto limita la contratación, pero no define la clasificación técnica del trabajador.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Reflexione sobre la dualidad de regímenes jurídicos en la Administración."
+  },
+  {
+    "guid": "e7c99ccb-be60-43ed-9e94-dc705a16cb46",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de funcionarios con dos lenguas oficiales en su Comunidad Autónoma, la Administración debe prever:",
+    "answerOptions": [
+      {
+        "text": "Que todos los procesos selectivos se realicen exclusivamente en la lengua autonómica.",
+        "rationale": "Ambas lenguas son oficiales y el sistema debe garantizar el equilibrio y la capacitación en ambas.",
+        "isCorrect": false
+      },
+      {
+        "text": "La selección de empleados públicos debidamente capacitados para cubrir los puestos de trabajo.",
+        "rationale": "El artículo 56.2 exige que la Administración garantice el derecho de los ciudadanos a ser atendidos en cualquiera de las lenguas oficiales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un aumento salarial automático del $10\\%$ por bilingüismo.",
+        "rationale": "La ley básica no impone incentivos retributivos automáticos, sino el deber de capacitación para el servicio.",
+        "isCorrect": false
+      },
+      {
+        "text": "La exención de pruebas de idiomas para los nacidos en dicha Comunidad.",
+        "rationale": "El conocimiento debe acreditarse de forma objetiva en el proceso selectivo, independientemente del lugar de nacimiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca garantizar el derecho lingüístico del ciudadano."
+  },
+  {
+    "guid": "dd228dea-58cd-4789-ae9b-ead37724126e",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "El personal directivo profesional se define por desarrollar funciones directivas en las Administraciones, pero ¿qué sucede si se trata de personal laboral?",
+    "answerOptions": [
+      {
+        "text": "Se rige por el convenio colectivo ordinario de la institución.",
+        "rationale": "Las funciones directivas exceden el ámbito de aplicación de los convenios colectivos generales de personal trabajador.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estará sometido a la relación laboral de carácter especial de alta dirección.",
+        "rationale": "El artículo 13 especifica que, de optarse por la vía laboral para directivos, se debe usar este marco legal específico.",
+        "isCorrect": true
+      },
+      {
+        "text": "No puede existir personal directivo con contrato laboral según el TREBEP.",
+        "rationale": "La ley permite expresamente que el personal directivo sea tanto funcionario como laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Adquiere la condición de funcionario interino de alta responsabilidad.",
+        "rationale": "Son figuras jurídicamente distintas; el directivo laboral no es un funcionario interino.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la modalidad de contrato específica para gerentes y directores en el derecho del trabajo."
+  },
+  {
+    "guid": "d787ce52-d2ad-498e-bab3-29b152bb98aa",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el periodo mínimo de antigüedad en el subgrupo inferior para poder participar en procesos de promoción interna?",
+    "answerOptions": [
+      {
+        "text": "Un año de servicio activo.",
+        "rationale": "Un año se considera insuficiente para consolidar la experiencia necesaria antes de ascender de grupo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos años de servicio activo.",
+        "rationale": "El artículo 18.2 establece este requisito temporal mínimo para garantizar la madurez profesional en el cuerpo de origen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cinco años, de los cuales tres deben ser en el puesto actual.",
+        "rationale": "Aunque algunas Administraciones puedan ser más exigentes, el mínimo básico estatal es de dos años.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se requiere antigüedad si se posee la titulación necesaria.",
+        "rationale": "La titulación es necesaria, pero la antigüedad es un requisito adicional e independiente para la promoción interna.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el plazo estándar de consolidación de experiencia en muchos ámbitos de la función pública."
+  },
+  {
+    "guid": "5c9c1b2b-258b-4858-bfa4-7f0d61f43ecf",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 10.6 del TREBEP, ¿dónde puede prestar servicios un funcionario interino nombrado por ejecución de programas temporales?",
+    "answerOptions": [
+      {
+        "text": "En cualquier unidad administrativa de la misma Administración.",
+        "rationale": "Su movilidad está limitada por la causa específica que justificó su nombramiento temporal.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la unidad donde se produjo el nombramiento o en otras que participen en el mismo programa temporal.",
+        "rationale": "La ley permite cierta flexibilidad funcional siempre que se mantenga dentro del ámbito del programa o proyecto que motiva la interinidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exclusivamente en el puesto de trabajo exacto descrito en su nombramiento.",
+        "rationale": "La reforma del TREBEP introdujo la posibilidad de prestar servicios en otras unidades relacionadas para mejorar la eficiencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "En cualquier programa de la misma naturaleza técnica, aunque no esté en su nombramiento.",
+        "rationale": "La unidad debe participar necesariamente en el programa específico autorizado para ese personal interino.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La clave está en la vinculación con el 'programa de carácter temporal'."
+  },
+  {
+    "guid": "14cfd6a7-e6f0-4b62-952f-e96601339d9b",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano es competente para determinar el número máximo de puestos de personal eventual en una corporación local?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde de forma discrecional por decreto.",
+        "rationale": "Aunque el Alcalde nombra, el número máximo de puestos debe ser una decisión colegiada y presupuestaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Pleno de la corporación al comenzar el mandato.",
+        "rationale": "La legislación local (Art. 304 DL 2/2003) exige que el Pleno fije estas estructuras al inicio para garantizar transparencia y control.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Junta de Gobierno Local mensualmente.",
+        "rationale": "La periodicidad no es mensual, sino que se vincula a la organización inicial del mandato o los presupuestos anuales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministerio de Hacienda para todas las entidades locales.",
+        "rationale": "El Estado fija límites generales en leyes de presupuestos, pero la determinación concreta es competencia propia de cada entidad local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano de máxima representación democrática en el ayuntamiento."
+  },
+  {
+    "guid": "62499e07-6847-45f1-8b67-4e3633124a7f",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de las siguientes afirmaciones sobre la relación estatutaria es correcta?",
+    "answerOptions": [
+      {
+        "text": "Se basa en un contrato negociado bilateralmente entre las partes.",
+        "rationale": "Esta descripción corresponde a la relación laboral, no a la estatutaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las condiciones laborales vienen definidas por normas legales y reglamentarias, no por contrato.",
+        "rationale": "En la relación estatutaria, el funcionario acepta un régimen ya definido objetivamente por la ley (Estatuto Funcionaral).",
+        "isCorrect": true
+      },
+      {
+        "text": "Puede ser modificada por acuerdos individuales entre el jefe de servicio y el funcionario.",
+        "rationale": "La inalterabilidad por actos concretos es una garantía del sistema de función pública para evitar el favoritismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es el vínculo que une al personal laboral fijo con la Administración.",
+        "rationale": "El personal laboral se une por contrato de trabajo, no por relación estatutaria administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la 'unilateralidad' de la ley frente a la 'bilateralidad' del contrato."
+  },
+  {
+    "guid": "4fb3ad68-6141-46b6-a2c7-a838a9bf021f",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el sistema de grupos del TREBEP, ¿qué titulación se exige para el Subgrupo C2?",
+    "answerOptions": [
+      {
+        "text": "Certificado de escolaridad.",
+        "rationale": "El certificado de escolaridad correspondía al antiguo Grupo E, no al C2.",
+        "isCorrect": false
+      },
+      {
+        "text": "Graduado en Educación Secundaria Obligatoria (ESO).",
+        "rationale": "La ESO es el requisito de titulación básica para el nivel de entrada en la escala de funcionarios del Grupo C.",
+        "isCorrect": true
+      },
+      {
+        "text": "Título de Técnico.",
+        "rationale": "El título de Técnico (FP Grado Medio) es requisito del Subgrupo C1.",
+        "isCorrect": false
+      },
+      {
+        "text": "Bachiller o equivalente.",
+        "rationale": "El Bachillerato también se integra en los requisitos del Subgrupo C1.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la titulación que se obtiene al finalizar la educación obligatoria en España."
+  },
+  {
+    "guid": "58c3ad80-c7bb-49b7-b58e-6d381110fa51",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 75 del TREBEP, los cuerpos y escalas de funcionarios se crean, modifican y suprimen por:",
+    "answerOptions": [
+      {
+        "text": "Orden Ministerial o Decreto de la Alcaldía.",
+        "rationale": "La creación de cuerpos es una materia sujeta a reserva de ley, no a potestad reglamentaria simple.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley de las Cortes Generales o de las Asambleas Legislativas de las CCAA.",
+        "rationale": "Al afectar a la estructura básica de la función pública, se exige el máximo rango normativo para su regulación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Acuerdo de la Mesa General de Negociación.",
+        "rationale": "La negociación colectiva puede tratar las condiciones, pero la creación de la estructura legal requiere una ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resolución del Director General de Función Pública.",
+        "rationale": "Se trata de un acto administrativo insuficiente para crear categorías de funcionarios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requiere el ejercicio de la potestad legislativa."
+  },
+  {
+    "guid": "2e3c0170-67a2-4dfb-afd8-039058577284",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Las plazas vacantes desempeñadas por funcionarios interinos deben incluirse en la oferta de empleo público:",
+    "answerOptions": [
+      {
+        "text": "Siempre en el plazo máximo de seis meses tras el nombramiento.",
+        "rationale": "El plazo de seis meses no coincide con el ciclo anual de las ofertas de empleo público.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el ejercicio en que se produce el nombramiento y, si no fuera posible, en el siguiente.",
+        "rationale": "El artículo 10.4 busca que la interinidad por vacante sea lo más breve posible forzando la convocatoria de la plaza.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo cuando la tasa de reposición lo permita de forma excepcional.",
+        "rationale": "Aunque la tasa de reposición influye, la obligación legal de incluir la plaza es general para todas las vacantes ocupadas por interinos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente si el funcionario interino solicita su consolidación.",
+        "rationale": "La oferta de empleo es una potestad y deber de la Administración, independiente de la voluntad del interino.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca la cobertura reglada en el plazo más breve de gestión presupuestaria."
+  },
+  {
+    "guid": "27252fd7-5174-4925-becb-68560c05c273",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con un funcionario de carrera que es elegido Diputado en el Congreso y percibe retribuciones periódicas por ello?",
+    "answerOptions": [
+      {
+        "text": "Debe solicitar la compatibilidad para cobrar ambos sueldos.",
+        "rationale": "Es incompatible percibir dos salarios públicos íntegros por funciones de dedicación plena.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pasa forzosamente a la situación de servicios especiales.",
+        "rationale": "El desempeño de cargos electivos retribuidos en cámaras legislativas es una causa tasada de servicios especiales (Art. 87.1.e).",
+        "isCorrect": true
+      },
+      {
+        "text": "Se le declara en excedencia voluntaria por incompatibilidad.",
+        "rationale": "La excedencia por incompatibilidad es para otros puestos en el sector público, no para cargos electivos protegidos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe renunciar a su plaza de funcionario de carrera.",
+        "rationale": "La ley protege la permanencia en la función pública permitiendo situaciones de reserva de plaza.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la situación administrativa que protege a los representantes políticos."
+  },
+  {
+    "guid": "8f35e834-0450-4f08-b05a-e175255d6a84",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "El personal laboral al servicio de las Administraciones Públicas se rige por el TREBEP en:",
+    "answerOptions": [
+      {
+        "text": "Todos sus preceptos de forma idéntica a los funcionarios.",
+        "rationale": "Gran parte del TREBEP es específico para funcionarios; para el personal laboral prima su propia legislación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo en los preceptos que el propio Estatuto disponga expresamente.",
+        "rationale": "El artículo 7 establece que el TREBEP se aplica al personal laboral de forma limitada y según se indique explícitamente en cada artículo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente en lo relativo al régimen disciplinario sancionador.",
+        "rationale": "También se les aplican principios de acceso, código de conducta y otros derechos si la ley lo indica.",
+        "isCorrect": false
+      },
+      {
+        "text": "En ningún caso, ya que tienen su propio convenio colectivo.",
+        "rationale": "El TREBEP tiene carácter de ley básica y sus preceptos específicos prevalecen incluso sobre convenios si así se indica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La aplicación es selectiva y condicionada por la letra de la ley."
+  },
+  {
+    "guid": "0b8d53c3-ebe1-4062-8ebd-f2ff26ab5d42",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la principal diferencia entre un funcionario interino por vacante y uno por programa temporal respecto a la movilidad?",
+    "answerOptions": [
+      {
+        "text": "El de vacante no puede ser trasladado nunca.",
+        "rationale": "Todos los empleados están sujetos a las necesidades organizativas razonables de la Administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "El de programa temporal puede prestar servicios en otras unidades vinculadas al mismo programa.",
+        "rationale": "El artículo 10.6 permite esta movilidad funcional específica para optimizar los recursos del programa temporal.",
+        "isCorrect": true
+      },
+      {
+        "text": "El de programa temporal tiene derecho a reserva de puesto en el sector privado.",
+        "rationale": "La condición de interino no genera derechos de reserva en ámbitos ajenos a la propia Administración pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "El de vacante debe pasar un examen cada seis meses para continuar.",
+        "rationale": "La continuidad depende de que no se cubra la plaza, no de exámenes periódicos tras el nombramiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la flexibilización introducida para la gestión de proyectos específicos."
+  },
+  {
+    "guid": "89a2381f-e3d3-499e-9894-0282cda36bda",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 52.1 del Reglamento del Ayuntamiento de Barcelona (CMB), el personal directivo se selecciona atendiendo a criterios de:",
+    "answerOptions": [
+      {
+        "text": "Afiliación política y confianza personal del Alcalde.",
+        "rationale": "La dirección profesional se diferencia de los asesores eventuales por requerir criterios técnicos de gestión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Competencia profesional y experiencia en puestos de responsabilidad.",
+        "rationale": "Se busca profesionalizar la gestión pública separándola de la discrecionalidad política pura.",
+        "isCorrect": true
+      },
+      {
+        "text": "Antigüedad exclusiva en el Ayuntamiento de Barcelona.",
+        "rationale": "Los puestos directivos suelen estar abiertos a funcionarios de otras Administraciones o incluso profesionales privados en casos motivados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sorteo público entre todos los funcionarios del Subgrupo A1.",
+        "rationale": "El sorteo no garantiza la competencia profesional necesaria para el cargo directivo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca un perfil de 'gerencia' técnica."
+  },
+  {
+    "guid": "2fa8d3cf-435e-46a8-873a-2a04ab98ff37",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto de la jerarquía normativa, las leyes de Función Pública que desarrollen el TREBEP podrán:",
+    "answerOptions": [
+      {
+        "text": "Eliminar el derecho a la huelga de los funcionarios.",
+        "rationale": "La huelga es un derecho fundamental que la ley de desarrollo debe respetar y garantizar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Regular situaciones administrativas no recogidas en el propio TREBEP.",
+        "rationale": "El artículo 85.2 permite expresamente que las leyes de desarrollo creen nuevas situaciones administrativas según sus necesidades.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reducir el salario base por debajo de lo fijado en la Ley de Presupuestos del Estado.",
+        "rationale": "Las retribuciones básicas son competencia exclusiva del Estado y deben ser comunes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eximir a ciertos grupos de cumplir el Código de Conducta.",
+        "rationale": "El Código de Conducta es de aplicación universal a todos los empleados públicos sin excepción.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el margen de maniobra organizativo que tienen las Comunidades Autónomas."
+  },
+  {
+    "guid": "236b7452-5474-40a2-a7ef-44b4152fcbed",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la equivalencia del antiguo Grupo E en la clasificación actual del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Subgrupo C2.",
+        "rationale": "El Subgrupo C2 equivale al antiguo Grupo D.",
+        "isCorrect": false
+      },
+      {
+        "text": "Agrupaciones Profesionales sin requisito de titulación.",
+        "rationale": "La Disposición Adicional Sexta integra a los funcionarios que accedían sin titulación académica del sistema educativo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Grupo B.",
+        "rationale": "El Grupo B requiere titulación técnica superior, nivel muy superior al antiguo Grupo E.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subgrupo C1.",
+        "rationale": "El Subgrupo C1 requiere Bachiller o Técnico, lo que no corresponde al Grupo E.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el nivel que no exige ninguna de las titulaciones previstas en el sistema educativo."
+  },
+  {
+    "guid": "9ea532b6-6e57-465a-ab2b-5c0e1eaaf365",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "La Relación de Puestos de Trabajo (RPT) debe comprender, como mínimo:",
+    "answerOptions": [
+      {
+        "text": "El nombre y apellidos del funcionario que ocupa cada plaza.",
+        "rationale": "La RPT define el puesto de forma objetiva, no a la persona concreta que lo desempeña.",
+        "isCorrect": false
+      },
+      {
+        "text": "Denominación, grupos de clasificación, cuerpos/escalas, sistemas de provisión y retribuciones complementarias.",
+        "rationale": "El artículo 74 exige estos datos mínimos para garantizar la transparencia y ordenación de los recursos humanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "El horario detallado de entrada y salida de cada empleado.",
+        "rationale": "Los horarios se regulan de forma general por jornada, no individualmente en la RPT.",
+        "isCorrect": false
+      },
+      {
+        "text": "La fotografía del despacho o lugar físico de trabajo.",
+        "rationale": "Es una información irrelevante para la estructura jurídica y retributiva del empleo público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son los elementos técnicos que definen la 'ficha' legal del puesto."
+  },
+  {
+    "guid": "94015d3b-a405-4583-9741-33a612dee3be",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué titulación universitaria se exige con carácter general para el acceso al Grupo A (A1 y A2)?",
+    "answerOptions": [
+      {
+        "text": "Doctorado.",
+        "rationale": "El doctorado puede ser un mérito o requisito para puestos específicos de investigación, pero no es la exigencia general del grupo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título universitario de Grado.",
+        "rationale": "Desde la implantación del Espacio Europeo de Educación Superior, el Grado es la titulación de referencia para todo el Grupo A.",
+        "isCorrect": true
+      },
+      {
+        "text": "Máster Oficial de al menos 60 créditos.",
+        "rationale": "El Máster no es el requisito de acceso básico, aunque se puede exigir para ciertos niveles de responsabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Licenciatura exclusivamente.",
+        "rationale": "Las licenciaturas son equivalentes a efectos de acceso, pero la denominación legal actual es Grado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la denominación actual de los títulos universitarios tras el plan Bolonia."
+  },
+  {
+    "guid": "d760626f-81af-4517-a2cd-4f52a7b8977f",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "El personal laboral 'indefinido no fijo' es una figura creada por la jurisprudencia para supuestos de:",
+    "answerOptions": [
+      {
+        "text": "Contratación temporal que ha superado los límites legales de duración o forma.",
+        "rationale": "Es una solución judicial para sancionar el fraude de ley en la contratación temporal administrativa sin otorgar fijeza automática.",
+        "isCorrect": true
+      },
+      {
+        "text": "Personal directivo con más de diez años de antigüedad.",
+        "rationale": "La antigüedad en cargos directivos no cambia la naturaleza del contrato de alta dirección.",
+        "isCorrect": false
+      },
+      {
+        "text": "Personal eventual que no ha sido cesado tras el cambio de Alcalde.",
+        "rationale": "El personal eventual cesa automáticamente por ley; su continuidad irregular no les convierte en indefinidos no fijos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Funcionarios de carrera que renuncian a su estatuto.",
+        "rationale": "Un funcionario que renuncia pierde su relación con la Administración; no se transforma en personal laboral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se asocia a la corrección de irregularidades en el uso de la temporalidad."
+  },
+  {
+    "guid": "557af7a9-f072-41a0-bd20-d7b4fadd22f7",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Para que un funcionario interino sea nombrado por ejecución de programas temporales, la necesidad debe ser:",
+    "answerOptions": [
+      {
+        "text": "De carácter permanente y estructural.",
+        "rationale": "Si la necesidad es estructural, debe crearse una plaza de funcionario de carrera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Expresamente justificada de necesidad y urgencia.",
+        "rationale": "Es el presupuesto habilitante general del artículo 10 para cualquier tipo de nombramiento interino.",
+        "isCorrect": true
+      },
+      {
+        "text": "Autorizada por el Ministerio de Hacienda en todo caso.",
+        "rationale": "La autorización depende de la propia Administración competente, dentro de su marco presupuestario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sugerida por el comité de empresa de la entidad.",
+        "rationale": "La iniciativa es potestad de la Administración como empleadora, no de los órganos de representación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son los dos adjetivos clave que definen la excepcionalidad de la interinidad."
+  },
+  {
+    "guid": "d728d396-0035-489d-9c21-01e663641c86",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Los funcionarios de carrera en situación de servicio activo están sujetos a:",
+    "answerOptions": [
+      {
+        "text": "Únicamente las órdenes directas de sus superiores políticos.",
+        "rationale": "Están sujetos al imperio de la ley y a los deberes derivados de su condición, no solo a órdenes políticas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los deberes y responsabilidades derivados de su condición y las normas del Estatuto.",
+        "rationale": "El artículo 86.2 define el marco de obligaciones del funcionario mientras desempeña su puesto.",
+        "isCorrect": true
+      },
+      {
+        "text": "La legislación laboral general en lo relativo a su jornada.",
+        "rationale": "Su jornada y permisos se regulan por el derecho administrativo y el TREBEP, no por el Estatuto de los Trabajadores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un régimen de plena disponibilidad horaria sin derecho a compensación.",
+        "rationale": "Tienen derecho a una jornada regulada y a percibir las gratificaciones que correspondan por servicios extraordinarios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Incluye tanto la protección de sus derechos como la exigencia de sus obligaciones legales."
+  },
+  {
+    "guid": "dee93d59-5eec-481c-8837-f68d7bf1e2d3",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué se diferencia la selección de un funcionario interino de la de un funcionario de carrera?",
+    "answerOptions": [
+      {
+        "text": "El interino no requiere cumplir los principios de mérito y capacidad.",
+        "rationale": "Todos los empleados públicos deben ser seleccionados bajo los principios de igualdad, mérito y capacidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los procedimientos para interinos deben ser, además, ágiles y con finalidad de cobertura inmediata.",
+        "rationale": "Dada la urgencia de la necesidad, se permiten sistemas más rápidos (como bolsas) siempre que respeten la publicidad y el mérito.",
+        "isCorrect": true
+      },
+      {
+        "text": "El interino es nombrado directamente por el Jefe de Área sin convocatoria.",
+        "rationale": "El nombramiento directo sin publicidad vulneraría el derecho fundamental de acceso al empleo público.",
+        "isCorrect": false
+      },
+      {
+        "text": "No hay diferencia; ambos deben superar exactamente la misma oposición con fase de prácticas.",
+        "rationale": "Aunque es posible, la ley permite procedimientos simplificados para la interinidad por razones de urgencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la necesidad de rapidez que motiva el nombramiento interino."
+  },
+  {
+    "guid": "eb8fd7af-8b69-4bf7-bf67-744ee5909acc",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Puede un funcionario interino solicitar una permuta con otro funcionario de carrera?",
+    "answerOptions": [
+      {
+        "text": "Sí, siempre que ambos pertenezcan al mismo grupo de titulación.",
+        "rationale": "La permuta es un sistema de provisión de puestos que requiere la titularidad de la plaza, algo que el interino no tiene.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, los sistemas de provisión de puestos por concurso o permuta están reservados a funcionarios de carrera.",
+        "rationale": "La inamovilidad y el derecho al puesto son exclusivos de la relación de carrera, por lo que el interino no puede 'permutar' su nombramiento temporal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, si el Alcalde lo autoriza expresamente por razones de interés público.",
+        "rationale": "La autoridad administrativa no puede contravenir la naturaleza jurídica de las plazas; una permuta con un interino sería nula.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si el interino lleva más de cinco años en el puesto.",
+        "rationale": "El tiempo no cambia la naturaleza temporal del nombramiento ni otorga derechos de provisión reservados a carrera.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere qué tipo de personal tiene el derecho a la 'propiedad' o fijeza del puesto."
+  },
+  {
+    "guid": "2fe6df79-61c3-4614-8287-f27292c7b702",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "El reingreso al servicio activo de un funcionario en servicios especiales debe producirse en:",
+    "answerOptions": [
+      {
+        "text": "Cualquier plaza vacante de la Administración General del Estado.",
+        "rationale": "El derecho de reingreso se ejerce en la Administración de origen donde se ostenta la plaza de carrera.",
+        "isCorrect": false
+      },
+      {
+        "text": "La misma localidad, en las condiciones y con las retribuciones de su categoría consolidada.",
+        "rationale": "El artículo 87.3 garantiza que el funcionario no pierda su arraigo geográfico ni sus derechos económicos consolidados tras el cargo público.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un puesto de nivel superior como premio por su servicio público.",
+        "rationale": "El reingreso se hace en la categoría consolidada; el ascenso requiere otros procedimientos de carrera o concurso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Situación de excedencia hasta que haya una vacante disponible.",
+        "rationale": "El funcionario en servicios especiales tiene derecho de reserva de puesto, por lo que el reingreso debe ser inmediato.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se protege tanto el nivel profesional como el lugar de residencia previa."
+  },
+  {
+    "guid": "32bd5a10-bc9c-418d-a7ce-064aa2505ac2",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso del personal laboral de los organismos autónomos municipales, su régimen jurídico deriva de:",
+    "answerOptions": [
+      {
+        "text": "Exclusivamente el Reglamento Orgánico del Ayuntamiento.",
+        "rationale": "Un reglamento municipal no puede desplazar a la ley laboral del Estado (Estatuto de los Trabajadores).",
+        "isCorrect": false
+      },
+      {
+        "text": "Legislación laboral general, normas estatutarias del organismo y acuerdos colectivos.",
+        "rationale": "Es una combinación de derecho laboral común con las especificidades propias de la gestión administrativa y los pactos sindicales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El mismo régimen que los funcionarios de la corporación local.",
+        "rationale": "Son regímenes jurídicos distintos; al personal laboral no se le aplica el derecho administrativo de forma principal.",
+        "isCorrect": false
+      },
+      {
+        "text": "La voluntad discrecional del Gerente del organismo autónomo.",
+        "rationale": "Toda relación laboral pública está sometida a normas de derecho necesario y convenios que limitan la discrecionalidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en las tres fuentes: ley del estado, norma interna y negociación."
+  },
+  {
+    "guid": "b2a9c0e4-73a4-4d09-b35e-ebd8426e9747",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 11 del TREBEP, el contrato de personal laboral puede ser:",
+    "answerOptions": [
+      {
+        "text": "Únicamente por tiempo indefinido para garantizar la estabilidad.",
+        "rationale": "La Administración también necesita contratar temporalmente para cubrir necesidades no permanentes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fijo, por tiempo indefinido o temporal.",
+        "rationale": "El precepto contempla todas las modalidades de duración permitidas por la legislación laboral para adaptarse a las necesidades del servicio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Siempre de carácter mercantil por servicios profesionales.",
+        "rationale": "La relación mercantil es externa; el personal laboral tiene una relación contractual de empleo con la Administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "De aprendizaje o formación hasta los 30 años de edad.",
+        "rationale": "Estas son modalidades contractuales específicas, no la clasificación general que hace el TREBEP.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Cubra todas las opciones de duración del vínculo contractual."
+  },
+  {
+    "guid": "7fc9f26c-0728-41b0-8fa1-5ba18ee0a6b4",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función del 'personal directivo profesional' en relación con los objetivos de la Administración?",
+    "answerOptions": [
+      {
+        "text": "Definir los objetivos políticos estratégicos del Gobierno.",
+        "rationale": "La definición de objetivos políticos corresponde a los cargos electos y órganos de gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "La gestión de resultados y el cumplimiento de objetivos fijados por los órganos de gobierno.",
+        "rationale": "El directivo profesional es un ejecutor técnico de alto nivel que rinde cuentas por la eficacia y eficiencia de su gestión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir a los funcionarios en la atención directa al público.",
+        "rationale": "Sus funciones son de gestión, control y responsabilidad, no de ejecución de tareas operativas ordinarias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Supervisar exclusivamente la legalidad de los actos administrativos.",
+        "rationale": "La supervisión de legalidad corresponde a secretarios e interventores, no es la función definitoria del directivo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la 'rendición de cuentas' por la gestión técnica."
+  },
+  {
+    "guid": "f2196471-1801-4681-9c70-d112f826dc43",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sanción prevé el artículo 10 del TREBEP para los actos que supongan el incumplimiento de los plazos máximos de interinidad?",
+    "answerOptions": [
+      {
+        "text": "Multa personal al funcionario interino que continúa trabajando.",
+        "rationale": "La responsabilidad recae sobre la Administración, no sobre el trabajador que sigue prestando el servicio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nulidad de pleno derecho de todo acto, pacto o acuerdo que suponga dicho incumplimiento.",
+        "rationale": "El apartado 3 del artículo 10 establece la nulidad radical para evitar que las Administraciones 'legalicen' situaciones de fraude temporal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inhabilitación inmediata del Alcalde por tres meses.",
+        "rationale": "Las responsabilidades personales requieren procedimientos administrativos o judiciales específicos, no son automáticas por ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obligación de convocar oposiciones en el plazo de una semana.",
+        "rationale": "Los procesos selectivos requieren plazos de gestión y publicación que exceden una semana; la sanción es la nulidad y responsabilidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la sanción jurídica más severa para un acto administrativo ilegal."
+  },
+  {
+    "guid": "be2fc72f-5995-40ea-88d1-0f2ddc604b9d",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el Subgrupo A1, la clasificación de los cuerpos y escalas se realiza en función de:",
+    "answerOptions": [
+      {
+        "text": "La antigüedad media de los opositores que aprueban.",
+        "rationale": "La antigüedad es una circunstancia personal, no un criterio legal de clasificación de cuerpos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nivel de responsabilidad de las funciones y características de las pruebas de acceso.",
+        "rationale": "El artículo 76 utiliza estos criterios técnicos para distinguir la complejidad entre diferentes cuerpos del mismo grupo de titulación.",
+        "isCorrect": true
+      },
+      {
+        "text": "El número de idiomas extranjeros que se exijan en la oposición.",
+        "rationale": "Los idiomas son un requisito específico de algunos puestos, no el criterio general de clasificación de subgrupos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El presupuesto total del cuerpo o escala en las cuentas públicas.",
+        "rationale": "La clasificación es técnica y funcional, no puramente financiera.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Depende de 'qué se hace' y 'cómo se entra'."
+  },
+  {
+    "guid": "4f8a119c-dc9e-4dc1-88bf-ce2438b26f0b",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con los funcionarios en situación de servicios especiales respecto al grado personal?",
+    "answerOptions": [
+      {
+        "text": "Pierden el derecho a consolidar grado durante su ausencia.",
+        "rationale": "Se les protege para que no pierdan oportunidades de progresión por desempeñar cargos públicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consolidan el grado como si estuvieran prestando servicios efectivos en su Administración.",
+        "rationale": "El artículo 87 garantiza el tratamiento de consolidación de grado para evitar el perjuicio en la carrera profesional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Consolidan automáticamente el nivel máximo (30) por el hecho de ser altos cargos.",
+        "rationale": "La consolidación sigue las reglas del sistema de carrera, a menudo asimilada a puestos de directores generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben realizar un examen al volver para que se les reconozca el grado consolidado.",
+        "rationale": "El reconocimiento es automático por ministerio de la ley, sin necesidad de nuevas pruebas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se aplica la ficción jurídica de que siguen en su puesto original a efectos de carrera."
+  },
+  {
+    "guid": "48152bf2-fa0d-4084-af34-8b906b291d1c",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "El personal laboral al servicio de las Administraciones puede ser despedido por causas:",
+    "answerOptions": [
+      {
+        "text": "Disciplinarias, económicas, técnicas, organizativas o de producción.",
+        "rationale": "Al regirse por el Estatuto de los Trabajadores, se les aplican las mismas causas de extinción que en el sector privado, con matices.",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente por condena penal firme.",
+        "rationale": "El despido laboral tiene un abanico de causas mucho más amplio que la simple condena penal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cambio en la ideología política del gobierno de turno.",
+        "rationale": "El despido por causas políticas es nulo y vulnera derechos fundamentales de los trabajadores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Finalización del presupuesto anual de la unidad administrativa.",
+        "rationale": "La falta de presupuesto debe articularse a través de causas económicas o técnicas justificadas, no es una causa de despido automática.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se rigen por el marco general del derecho del trabajo español."
+  },
+  {
+    "guid": "73db41b2-eb42-4c56-8cfb-5a7b740ac5c6",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el límite máximo de duración para un contrato laboral de interinidad por sustitución de titular?",
+    "answerOptions": [
+      {
+        "text": "Tres años improrrogables.",
+        "rationale": "Este límite es para vacantes sin titular claro; si hay un titular, el tiempo es el de su ausencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El tiempo que dure la ausencia del titular con derecho a reserva de puesto.",
+        "rationale": "La causa del contrato es la sustitución, por lo que este finaliza cuando el titular reingresa o pierde definitivamente su derecho.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis meses ampliables por otros seis.",
+        "rationale": "Este plazo es propio de contratos por circunstancias de la producción, no de sustitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hasta la finalización del ejercicio presupuestario corriente.",
+        "rationale": "El contrato de sustitución no depende del año natural, sino de la situación del trabajador sustituido.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La duración está vinculada directamente a la persona que se está sustituyendo."
+  },
+  {
+    "guid": "21b0a51b-615b-47b7-a550-5664800888a6",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 58 del TREBEP, los funcionarios españoles de Organismos Internacionales:",
+    "answerOptions": [
+      {
+        "text": "Pierden su nacionalidad española tras diez años de servicio fuera.",
+        "rationale": "La nacionalidad es un derecho constitucional que no se pierde por trabajar en organismos internacionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tienen derecho al acceso al empleo público en España mediante procedimientos específicos.",
+        "rationale": "Se facilita su integración en la función pública nacional reconociendo su experiencia internacional previa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Están exentos de cumplir el Código de Conducta de los empleados públicos españoles.",
+        "rationale": "Si acceden al empleo público en España, quedan sujetos a todas sus normas éticas y de conducta.",
+        "isCorrect": false
+      },
+      {
+        "text": "No pueden presentarse a oposiciones en España por conflicto de intereses.",
+        "rationale": "Al contrario, su experiencia es valorada y se les incentiva a volver a la Administración española.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca aprovechar el talento de los nacionales que han trabajado fuera."
+  },
+  {
+    "guid": "ba0cecaf-73fd-4c11-b5eb-136bb82da33f",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el Grupo A, ¿qué subgrupo tiene asignadas funciones con mayor nivel de responsabilidad?",
+    "answerOptions": [
+      {
+        "text": "Subgrupo A2.",
+        "rationale": "El A2 suele desempeñar funciones técnicas de apoyo o ejecución cualificada, pero de menor rango que el A1.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subgrupo A1.",
+        "rationale": "Es el nivel superior de la Administración, destinado a funciones de planeamiento, dirección y alta inspección.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ambos tienen exactamente las mismas responsabilidades por ley.",
+        "rationale": "Aunque ambos requieren Grado, la distinción entre subgrupos se basa precisamente en la diferencia de responsabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Depende de si el funcionario es laboral o interino.",
+        "rationale": "La clasificación por grupos es propia de los funcionarios de carrera e independientes de su situación transitoria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la cima de la pirámide de clasificación en la función pública."
+  }
+]

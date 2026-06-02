@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "f528b7ad-2077-4c08-aa4e-8b3c0c675f88",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la norma actual que aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales?",
+    "answerOptions": [
+      {
+        "text": "Real Decreto Legislativo 2/2004, de 5 de marzo.",
+        "rationale": "Este decreto unifica la normativa previa para dotar de mayor claridad al sistema tributario y financiero de las entidades locales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley 39/1988, de 28 de diciembre.",
+        "rationale": "Aunque fue la ley original reguladora, la normativa vigente actual es el texto refundido aprobado en 2004.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley 7/1985, de 2 de abril.",
+        "rationale": "Esta es la Ley Reguladora de las Bases del Régimen Local, no la específica de haciendas locales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Constitución Española de 1978.",
+        "rationale": "La Constitución establece los principios generales, pero no es la norma técnica reguladora de las haciendas locales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca una norma con rango de Real Decreto Legislativo del año 2004."
+  },
+  {
+    "guid": "9c028c98-086c-4bf8-9656-c20134224d74",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "De acuerdo con el artículo 2 del TRLRHL, ¿cuál de los siguientes se considera un recurso de las haciendas locales?",
+    "answerOptions": [
+      {
+        "text": "Los ingresos procedentes de su patrimonio.",
+        "rationale": "Los rendimientos de bienes patrimoniales constituyen ingresos de derecho privado contemplados en la ley.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Impuesto sobre la Renta de las Personas Físicas.",
+        "rationale": "Este es un impuesto estatal, no un recurso propio directo de la hacienda local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las donaciones de otros Estados extranjeros.",
+        "rationale": "La ley enumera recursos específicos como tributos, subvenciones y participaciones, pero no donaciones internacionales de forma genérica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los aranceles aduaneros.",
+        "rationale": "La gestión de aduanas es una competencia estatal y de la Unión Europea.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en los ingresos que derivan de la propiedad de bienes de la propia entidad."
+  },
+  {
+    "guid": "11c416d6-d4ce-4d3a-875d-da266333b12f",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál de estos impuestos municipales tiene carácter obligatorio para todos los ayuntamientos?",
+    "answerOptions": [
+      {
+        "text": "Impuesto sobre Bienes Inmuebles (IBI).",
+        "rationale": "El IBI es uno de los tres impuestos que los ayuntamientos deben exigir obligatoriamente según el artículo 59.1.",
+        "isCorrect": true
+      },
+      {
+        "text": "Impuesto sobre Construcciones, Instalaciones y Obras (ICIO).",
+        "rationale": "El ICIO es un impuesto de carácter potestativo o voluntario para el ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana.",
+        "rationale": "Este impuesto, comúnmente llamado plusvalía, es de establecimiento voluntario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Impuesto sobre Gastos Suntuarios.",
+        "rationale": "Este impuesto no figura en la lista de tributos obligatorios del artículo 59.1.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un tributo que grava la titularidad de casas y terrenos."
+  },
+  {
+    "guid": "a967029a-8654-49bf-97da-7eb91b262c17",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el periodo impositivo del Impuesto sobre Bienes Inmuebles?",
+    "answerOptions": [
+      {
+        "text": "El año natural.",
+        "rationale": "Según el artículo 75, el periodo impositivo del IBI coincide con el año natural.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un periodo de cuatro años según el catastro.",
+        "rationale": "Aunque los valores catastrales se revisan periódicamente, el impuesto se devenga anualmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El semestre fiscal.",
+        "rationale": "La ley establece una periodicidad anual coincidente con el calendario civil.",
+        "isCorrect": false
+      },
+      {
+        "text": "Variable según la ordenanza fiscal de cada municipio.",
+        "rationale": "El periodo impositivo está fijado por la ley estatal y no puede ser modificado por el municipio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Coincide con el inicio y fin del calendario civil estándar."
+  },
+  {
+    "guid": "45980ddd-fec5-4541-99b4-530e03c2c5cf",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué derecho NO constituye el hecho imponible del IBI sobre un inmueble?",
+    "answerOptions": [
+      {
+        "text": "El derecho de arrendamiento.",
+        "rationale": "Estar de alquiler no genera el hecho imponible; este se limita a derechos reales o concesiones.",
+        "isCorrect": true
+      },
+      {
+        "text": "El derecho de propiedad.",
+        "rationale": "Ser dueño del inmueble es el supuesto principal de sujeción al impuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho real de usufructo.",
+        "rationale": "La titularidad de un usufructo sobre el bien inmueble obliga al pago del impuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una concesión administrativa sobre servicios públicos afectos.",
+        "rationale": "Las concesiones administrativas sobre inmuebles están expresamente recogidas como hecho imponible.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El impuesto grava la titularidad de derechos reales, no los contratos de uso temporal personal."
+  },
+  {
+    "guid": "173af72a-ed44-4de7-bb33-8691849d2137",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el Impuesto sobre Actividades Económicas (IAE), ¿cuál es el importe neto de la cifra de negocios para estar exento?",
+    "answerOptions": [
+      {
+        "text": "Inferior a $1.000.000$ de euros.",
+        "rationale": "Los sujetos pasivos con una cifra de negocios por debajo de este umbral están exentos del pago del impuesto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inferior a $500.000$ de euros.",
+        "rationale": "Este umbral es inferior al establecido legalmente para la exención general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier importe, ya que todas las empresas pagan.",
+        "rationale": "La ley prevé exenciones específicas para pequeñas empresas y personas físicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Superior a $1.000.000$ de euros.",
+        "rationale": "Tener una cifra superior a un millón de euros es precisamente lo que obliga al pago.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una cifra redonda que marca el límite entre pequeña y gran empresa a efectos de este tributo."
+  },
+  {
+    "guid": "353db774-c1e3-4e8a-80de-2edaaff721ed",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién es el sujeto pasivo del Impuesto sobre Vehículos de Tracción Mecánica (IVTM)?",
+    "answerOptions": [
+      {
+        "text": "La persona a cuyo nombre conste el vehículo en el permiso de circulación.",
+        "rationale": "El artículo 94 identifica al titular administrativo del vehículo como el obligado tributario.",
+        "isCorrect": true
+      },
+      {
+        "text": "El conductor habitual del vehículo.",
+        "rationale": "El conductor no es necesariamente el titular, y el impuesto grava la titularidad, no el uso.",
+        "isCorrect": false
+      },
+      {
+        "text": "El fabricante del vehículo.",
+        "rationale": "El fabricante solo sería sujeto pasivo si el vehículo estuviera matriculado a su nombre para circular.",
+        "isCorrect": false
+      },
+      {
+        "text": "La compañía de seguros del automóvil.",
+        "rationale": "Las aseguradoras son ajenas a la titularidad dominical del vehículo gravada por el IVTM.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Fíjate en quién figura legalmente en la documentación de Tráfico."
+  },
+  {
+    "guid": "649b1499-d153-4dde-b9b4-d38ce6b3f8ea",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la naturaleza del Impuesto sobre Construcciones, Instalaciones y Obras (ICIO)?",
+    "answerOptions": [
+      {
+        "text": "Es un tributo indirecto.",
+        "rationale": "El ICIO se clasifica como impuesto indirecto al gravar una manifestación indirecta de capacidad económica (la realización de una obra).",
+        "isCorrect": true
+      },
+      {
+        "text": "Es un tributo directo de carácter real.",
+        "rationale": "A diferencia del IBI, el ICIO no recae directamente sobre la titularidad patrimonial estática.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es una tasa por servicio administrativo.",
+        "rationale": "Aunque suele gestionarse junto a la tasa por licencia, el ICIO es un impuesto independiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es una contribución especial obligatoria.",
+        "rationale": "Las contribuciones especiales tienen un hecho imponible distinto basado en el beneficio por obras públicas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "No grava la propiedad de forma directa, sino el gasto o inversión realizado en una actividad constructiva."
+  },
+  {
+    "guid": "06a843eb-a881-4ee4-a9d8-e845ba03ddde",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio presupuestario establece que los recursos de la entidad local se destinan a satisfacer el conjunto de sus obligaciones?",
+    "answerOptions": [
+      {
+        "text": "Principio de no afectación.",
+        "rationale": "Este principio impide que ingresos específicos se reserven para gastos específicos, salvo excepciones legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de anualidad.",
+        "rationale": "Este principio se refiere a la duración temporal del presupuesto, no al destino de los fondos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de unidad.",
+        "rationale": "La unidad implica que todos los ingresos y gastos deben figurar en un único presupuesto general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de especialidad temporal.",
+        "rationale": "Se refiere a que las obligaciones deben contraerse y realizarse dentro del ejercicio presupuestario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Significa que los ingresos no tienen una 'etiqueta' previa para un gasto determinado."
+  },
+  {
+    "guid": "8a5c93cf-d770-4136-9d58-7b69ba182d9d",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "De acuerdo con el principio de equilibrio presupuestario, ¿cómo debe aprobarse inicialmente el presupuesto?",
+    "answerOptions": [
+      {
+        "text": "Sin déficit inicial.",
+        "rationale": "La ley exige que los gastos previstos no superen los ingresos estimados en el momento de la aprobación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Con un déficit máximo del $10\\%$.",
+        "rationale": "El presupuesto debe nacer equilibrado o con superávit; no se permite déficit inicial programado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo se puede aprobar si hay superávit previo.",
+        "rationale": "No es necesario tener superávit; basta con que ingresos y gastos estén igualados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Depende de si el municipio tiene más de $75.000$ habitantes.",
+        "rationale": "El principio de equilibrio es universal para todas las entidades locales independientemente de su tamaño.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Los gastos no pueden ser mayores que los ingresos en la foto inicial del año."
+  },
+  {
+    "guid": "a3b1888f-85d9-4dd6-a1ef-2f16c60c86bb",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué documento del presupuesto contiene la adaptación de las normas generales a la organización de la propia entidad?",
+    "answerOptions": [
+      {
+        "text": "Las Bases de ejecución.",
+        "rationale": "Son normas internas que detallan cómo se debe gestionar y ejecutar el presupuesto en ese municipio específico.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Estado de ingresos.",
+        "rationale": "Este documento es meramente numérico y contiene las estimaciones de recaudación.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Plan de inversiones.",
+        "rationale": "Se limita a detallar los proyectos de obras y su financiación a largo plazo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Memoria de alcaldía.",
+        "rationale": "Es un documento explicativo político y técnico, pero no es la norma de ejecución.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la parte 'reglamentaria' que acompaña a las cifras del presupuesto."
+  },
+  {
+    "guid": "b1e0ab93-59d5-4f2e-9bca-c4790332853e",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ocurre si un ayuntamiento no aprueba una ordenanza fiscal para un impuesto obligatorio como el IBI?",
+    "answerOptions": [
+      {
+        "text": "Se aplican los tipos de gravamen supletorios previstos en la ley.",
+        "rationale": "La ley permite la exigencia del impuesto mediante tipos mínimos fijados estatalmente si no hay norma local.",
+        "isCorrect": true
+      },
+      {
+        "text": "El impuesto no puede ser exigido.",
+        "rationale": "Esto solo ocurre con los impuestos potestativos; los obligatorios se exigen siempre.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Estado recauda el impuesto y se queda con el dinero.",
+        "rationale": "El beneficiario sigue siendo el municipio, aunque se aplique la norma estatal supletoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se debe aplicar automáticamente el tipo máximo legal.",
+        "rationale": "La ley establece tipos supletorios mínimos para no perjudicar en exceso al contribuyente por falta de regulación local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Existen unos valores por defecto en la normativa nacional para estos casos."
+  },
+  {
+    "guid": "7eba1768-85f4-4451-97e5-0e04ee6f7f96",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio presupuestario prohíbe compensar gastos e ingresos, obligando a que figuren por su importe íntegro?",
+    "answerOptions": [
+      {
+        "text": "Principio de no compensación.",
+        "rationale": "Garantiza la transparencia al mostrar el coste total de los servicios y la recaudación bruta total.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de unidad de caja.",
+        "rationale": "Este principio se refiere a la centralización de fondos, no a la forma de contabilizarlos en el presupuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de especialidad cuantitativa.",
+        "rationale": "Se refiere al límite máximo de gasto, no a la prohibición de netear cifras.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de publicidad.",
+        "rationale": "Es el deber de dar a conocer el presupuesto a la ciudadanía.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Evita que se resten deudas de créditos antes de anotarlos en el libro de cuentas."
+  },
+  {
+    "guid": "6394c8bc-1ee8-451f-952f-544cf2ef3770",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el límite máximo de duración de la prestación personal en municipios de menos de $5.000$ habitantes?",
+    "answerOptions": [
+      {
+        "text": "15 días al año.",
+        "rationale": "La ley establece este límite máximo anual, con un tope de tres días consecutivos.",
+        "isCorrect": true
+      },
+      {
+        "text": "30 días al año.",
+        "rationale": "Es un periodo excesivo que duplicaría el límite legal permitido.",
+        "isCorrect": false
+      },
+      {
+        "text": "5 días al año.",
+        "rationale": "Este es el límite para la prestación de transporte con vehículos mecánicos, no la personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene límite mientras dure la obra.",
+        "rationale": "La ley protege al ciudadano estableciendo límites temporales estrictos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es aproximadamente el equivalente a dos semanas de trabajo."
+  },
+  {
+    "guid": "ea3b549b-350b-4885-87ca-40c1064133cf",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En las contribuciones especiales por servicios de extinción de incendios, ¿quiénes son sujetos pasivos además de los propietarios?",
+    "answerOptions": [
+      {
+        "text": "Las compañías de seguros que operen en el municipio.",
+        "rationale": "Al verse beneficiadas por la reducción de siniestros, la ley las incluye como obligadas al pago.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los fabricantes de extintores.",
+        "rationale": "No obtienen un beneficio directo y medible por el servicio público municipal de bomberos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las personas que han sufrido un incendio en el último año.",
+        "rationale": "El tributo se basa en el beneficio potencial para todos los bienes afectados, no en el uso real del servicio.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Estado central.",
+        "rationale": "El Estado goza de inmunidad fiscal general salvo en casos muy específicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en entidades privadas que ahorran dinero si los incendios se apagan rápido."
+  },
+  {
+    "guid": "e8bde9eb-23ef-46d1-8aec-1fe84e844ede",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué recurso financiero local consiste en el cobro por el uso privado de un bien de dominio público?",
+    "answerOptions": [
+      {
+        "text": "Tasas.",
+        "rationale": "Las tasas se exigen por el aprovechamiento especial o uso privativo del dominio público (ej. terrazas de bares).",
+        "isCorrect": true
+      },
+      {
+        "text": "Precios públicos.",
+        "rationale": "Los precios públicos se refieren a servicios que también presta el sector privado y son voluntarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Impuestos.",
+        "rationale": "Los impuestos se pagan sin recibir una contraprestación o beneficio directo e inmediato.",
+        "isCorrect": false
+      },
+      {
+        "text": "Multas.",
+        "rationale": "Las multas son sanciones por incumplir normas, no un pago por un uso permitido.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el nombre técnico para pagos por vados, puestos de mercado o mesas en la calle."
+  },
+  {
+    "guid": "db8f7785-4230-4b36-a33d-d4894eefe692",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según el principio de especialidad cualitativa, ¿a qué deben destinarse los créditos?",
+    "answerOptions": [
+      {
+        "text": "Exclusivamente a la finalidad específica para la que fueron autorizados.",
+        "rationale": "Impide que el dinero aprobado para 'Educación' se gaste en 'Festejos' sin una modificación formal.",
+        "isCorrect": true
+      },
+      {
+        "text": "A cualquier gasto mientras no se supere la cantidad total.",
+        "rationale": "Esto violaría la voluntad del Pleno que aprobó el destino concreto de los fondos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo a inversiones en infraestructuras.",
+        "rationale": "El crédito puede ser para gasto corriente o inversión, pero siempre debe respetar su nombre y destino.",
+        "isCorrect": false
+      },
+      {
+        "text": "A cubrir el déficit del año anterior prioritariamente.",
+        "rationale": "El destino de cada crédito viene fijado en el estado de gastos aprobado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la 'calidad' o naturaleza del gasto decidido."
+  },
+  {
+    "guid": "e1221347-890f-4889-be24-710e0619e3dc",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la principal característica del Impuesto sobre Actividades Económicas (IAE)?",
+    "answerOptions": [
+      {
+        "text": "Se exige por el mero ejercicio de una actividad empresarial o profesional.",
+        "rationale": "No requiere que haya beneficios, solo que se realice la actividad en territorio nacional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Grava únicamente si la empresa tiene beneficios anuales.",
+        "rationale": "Eso sería propio del Impuesto sobre Sociedades; el IAE es independiente del resultado económico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo se paga si se dispone de un local abierto al público.",
+        "rationale": "La ley especifica que se debe pagar se ejerza o no en un local determinado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es un impuesto que solo pagan los trabajadores autónomos.",
+        "rationale": "De hecho, las personas físicas (autónomos) están exentas de este impuesto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Grava el hecho de 'hacer algo' productivo, no el éxito de esa acción."
+  },
+  {
+    "guid": "b268e6b5-bc6d-43da-900c-31f391689cdb",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué entidad local NO puede exigir impuestos ni recargos según el TRLRHL?",
+    "answerOptions": [
+      {
+        "text": "Las Comarcas.",
+        "rationale": "El artículo 155 establece que las comarcas no pueden exigir tributos propios ni recargos estatales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las Provincias.",
+        "rationale": "Las provincias tienen recursos propios como el recargo en el IAE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las Áreas Metropolitanas.",
+        "rationale": "Estas pueden establecer, por ejemplo, un recargo sobre el IBI.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los Municipios.",
+        "rationale": "Los municipios son las entidades con mayor potestad tributaria local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una entidad supramunicipal común en algunas Comunidades Autónomas."
+  },
+  {
+    "guid": "2a152d44-d98f-4024-a65a-c7c145c53997",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A quién corresponde la gestión y recaudación del IVTM?",
+    "answerOptions": [
+      {
+        "text": "Al ayuntamiento del domicilio que conste en el permiso de circulación.",
+        "rationale": "El artículo 97 vincula la competencia tributaria a la dirección administrativa del vehículo.",
+        "isCorrect": true
+      },
+      {
+        "text": "A la Dirección General de Tráfico directamente.",
+        "rationale": "La DGT gestiona los registros, pero el impuesto es de competencia municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al ayuntamiento donde se compró el vehículo.",
+        "rationale": "El lugar de compra es irrelevante; lo que importa es el domicilio del titular.",
+        "isCorrect": false
+      },
+      {
+        "text": "A la Agencia Tributaria estatal.",
+        "rationale": "Se trata de un tributo local, por lo que su gestión es municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se determina por la dirección que figura en los papeles del coche."
+  },
+  {
+    "guid": "3fad1d67-a119-4733-b6ad-dbdee1ea661b",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio presupuestario obliga a que los ingresos no financieros sean iguales o superiores a los gastos no financieros?",
+    "answerOptions": [
+      {
+        "text": "Principio de estabilidad presupuestaria.",
+        "rationale": "Es un requisito legal para asegurar la salud financiera de las administraciones públicas a largo plazo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de sostenibilidad financiera.",
+        "rationale": "Este se refiere más a la capacidad de pagar deudas y compromisos futuros.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de transparencia.",
+        "rationale": "Se refiere a la claridad y acceso a la información presupuestaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de unidad de presupuesto.",
+        "rationale": "Implica que todos los presupuestos de entes dependientes deben estar juntos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con no gastar más de lo que se tiene 'limpio' de deudas."
+  },
+  {
+    "guid": "8f8e8f8b-b294-4556-9ac1-cf33ae5ca0a6",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el IBI, ¿qué ocurre si un inmueble está ubicado en varios términos municipales?",
+    "answerOptions": [
+      {
+        "text": "Pertenece a cada uno por la superficie que ocupe en su término.",
+        "rationale": "El artículo 61.4 establece que la tributación se reparte proporcionalmente al territorio ocupado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Paga todo el impuesto al municipio donde esté la puerta principal.",
+        "rationale": "La ley no usa el criterio del acceso, sino el de la superficie física.",
+        "isCorrect": false
+      },
+      {
+        "text": "El propietario elige a qué ayuntamiento pagar.",
+        "rationale": "Las obligaciones tributarias son impuestas por ley y no dependen de la voluntad del contribuyente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Está exento de pagar por conflicto de competencias.",
+        "rationale": "La ley resuelve el conflicto dividiendo la cuota entre los municipios afectados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se aplica un criterio de proporcionalidad geográfica."
+  },
+  {
+    "guid": "6542dd1a-3780-46b9-a86b-a6a3e1cc27ca",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el recargo máximo que pueden imponer las Provincias sobre el IAE?",
+    "answerOptions": [
+      {
+        "text": "$40\\%$.",
+        "rationale": "El artículo 134 del TRLRHL fija el tope máximo del recargo provincial en este porcentaje.",
+        "isCorrect": true
+      },
+      {
+        "text": "$100\\%$.",
+        "rationale": "Duplicar la cuota municipal sería una carga excesiva no permitida por ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "$10\\%$.",
+        "rationale": "Es un porcentaje inferior al máximo legal permitido para la financiación provincial.",
+        "isCorrect": false
+      },
+      {
+        "text": "$0,2\\%$.",
+        "rationale": "Este porcentaje suele estar relacionado con recargos de áreas metropolitanas sobre el IBI.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una cifra inferior a la mitad del total."
+  },
+  {
+    "guid": "8accd083-a2a5-4e02-8eff-c3cde841bcaf",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué recurso financiero local consiste en sanciones pecuniarias por infracciones administrativas?",
+    "answerOptions": [
+      {
+        "text": "Multas y sanciones.",
+        "rationale": "Es un recurso previsto en el artículo 2 para cuando la entidad ejerce sus potestades de control.",
+        "isCorrect": true
+      },
+      {
+        "text": "Precios públicos.",
+        "rationale": "Los precios públicos son voluntarios y por servicios, no por castigos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Operaciones de crédito.",
+        "rationale": "Estas consisten en pedir dinero prestado a bancos u otras entidades.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subvenciones.",
+        "rationale": "Las subvenciones son fondos recibidos de otras administraciones para fines concretos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es lo que pagas si aparcas mal o incumples una ordenanza de ruidos."
+  },
+  {
+    "guid": "20c762b4-c150-457c-ae82-f4cd1c57501b",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién tiene la potestad ORIGINARIA para establecer tributos según la Constitución?",
+    "answerOptions": [
+      {
+        "text": "El Estado.",
+        "rationale": "La soberanía reside en el Estado; las entidades locales tienen una potestad 'derivada' sujeta a la ley estatal.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ayuntamiento.",
+        "rationale": "Su potestad tributaria nace de lo que le permite la ley nacional, no es originaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comunidad Autónoma.",
+        "rationale": "Aunque tiene autonomía, su potestad tributaria también debe respetar el marco constitucional y estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde.",
+        "rationale": "Las personas no tienen potestad tributaria; esta reside en los órganos legislativos o administraciones públicas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en el nivel administrativo más alto de la nación."
+  },
+  {
+    "guid": "ed7a0b26-4897-4b7d-b340-bbda6fe5cfbe",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué documento presupuestario incluye las 'estimaciones' de recursos a liquidar?",
+    "answerOptions": [
+      {
+        "text": "Estado de ingresos.",
+        "rationale": "Al ser previsiones de futuro, se denominan estimaciones de recaudación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Estado de gastos.",
+        "rationale": "En gastos no son estimaciones, sino créditos limitativos máximos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Anexo de personal.",
+        "rationale": "Detalla las plazas y salarios de los trabajadores, pero no los ingresos globales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Liquidación del presupuesto.",
+        "rationale": "La liquidación ocurre al final del año y recoge datos reales, no estimaciones iniciales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la parte del presupuesto que mira cuánto dinero va a entrar en caja."
+  },
+  {
+    "guid": "c39bfffa-2355-48b0-8835-0195654c27ca",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio impide gastar más de lo autorizado en cada partida?",
+    "answerOptions": [
+      {
+        "text": "Especialidad cuantitativa.",
+        "rationale": "Establece que el importe de los créditos autorizados es el límite máximo de obligaciones a contraer.",
+        "isCorrect": true
+      },
+      {
+        "text": "Especialidad cualitativa.",
+        "rationale": "Este se refiere al tipo de gasto (el qué), no al importe (el cuánto).",
+        "isCorrect": false
+      },
+      {
+        "text": "Especialidad temporal.",
+        "rationale": "Se centra en que el gasto se realice en el año correspondiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de publicidad.",
+        "rationale": "No limita el gasto, sino que obliga a informar sobre él.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La palabra clave tiene que ver con 'cantidad'."
+  },
+  {
+    "guid": "338d1746-1543-4785-8f0a-95e31e5dcf63",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se llama el impuesto que grava el incremento de valor de los terrenos urbanos al venderlos?",
+    "answerOptions": [
+      {
+        "text": "IIVTNU.",
+        "rationale": "Es el Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana, conocido como plusvalía.",
+        "isCorrect": true
+      },
+      {
+        "text": "IBI.",
+        "rationale": "El IBI grava la propiedad del bien en sí, no el beneficio obtenido por su venta.",
+        "isCorrect": false
+      },
+      {
+        "text": "IAE.",
+        "rationale": "El IAE grava el ejercicio de actividades económicas, no las transacciones inmobiliarias.",
+        "isCorrect": false
+      },
+      {
+        "text": "ICIO.",
+        "rationale": "El ICIO grava la realización de obras y construcciones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Usa las siglas que incluyen 'Incremento de Valor'."
+  },
+  {
+    "guid": "b80b7e7c-f0b0-46e8-9901-982a1ffc5612",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué remolques están exentos de pagar el IVTM?",
+    "answerOptions": [
+      {
+        "text": "Los de carga útil no superior a $750$ kilogramos.",
+        "rationale": "La ley establece esta exención por su pequeño tamaño y menor impacto en la vía pública.",
+        "isCorrect": true
+      },
+      {
+        "text": "Todos los remolques agrícolas.",
+        "rationale": "Solo algunos tractores o remolques específicos están exentos, no todos los agrícolas de forma general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los que tienen más de $10$ años de antigüedad.",
+        "rationale": "La antigüedad puede dar derecho a bonificaciones, pero no a una exención por peso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguno, todos deben pagar según su peso.",
+        "rationale": "Existe un límite mínimo de carga por debajo del cual no están sujetos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el límite de peso común para remolques ligeros."
+  },
+  {
+    "guid": "adc3f355-b71c-4d62-9550-391b3108b95c",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio presupuestario obliga a imputar al presupuesto los derechos liquidados durante el ejercicio?",
+    "answerOptions": [
+      {
+        "text": "Principio de anualidad.",
+        "rationale": "Establece que cada presupuesto se refiere a un año y en él se anotan los derechos y obligaciones de ese periodo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de unidad de presupuesto.",
+        "rationale": "Se refiere a que no puede haber varios presupuestos paralelos para la misma entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de transparencia financiera.",
+        "rationale": "Es una norma de conducta informativa, no una regla de imputación temporal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de sostenibilidad.",
+        "rationale": "Busca la viabilidad de la deuda a largo plazo, no la gestión del calendario anual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con el ciclo de $12$ meses del calendario."
+  },
+  {
+    "guid": "48cd29cf-319b-49f2-b5ce-61fc52ebbe9f",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el IAE, ¿qué actividades NO constituyen hecho imponible?",
+    "answerOptions": [
+      {
+        "text": "Las actividades agrícolas y forestales.",
+        "rationale": "La ley las excluye expresamente para no gravar sectores primarios básicos a nivel local.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las actividades industriales.",
+        "rationale": "La industria es uno de los pilares del hecho imponible del IAE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las actividades comerciales al por menor.",
+        "rationale": "Cualquier comercio es, por definición, una actividad empresarial sujeta al impuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "La prestación de servicios de peluquería.",
+        "rationale": "Los servicios profesionales o empresariales están sujetos al impuesto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son actividades relacionadas con el cultivo de la tierra y los bosques."
+  },
+  {
+    "guid": "094ce215-74a9-4aa4-8bc1-74893cc2afce",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué plazo tiene un ciudadano para impugnar una Ordenanza Fiscal tras su publicación?",
+    "answerOptions": [
+      {
+        "text": "Dos meses.",
+        "rationale": "Es el plazo estándar para interponer el recurso contencioso-administrativo contra disposiciones generales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Quince días.",
+        "rationale": "Es un plazo demasiado breve para un recurso judicial de esta naturaleza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año.",
+        "rationale": "Los actos administrativos y normas deben ganar firmeza mucho antes para garantizar seguridad jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se pueden impugnar, son de obligado cumplimiento.",
+        "rationale": "Toda norma de la administración está sujeta al control de legalidad por parte de los jueces.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el periodo habitual para recursos administrativos ante el juzgado."
+  },
+  {
+    "guid": "1e4a6585-4b70-4959-a160-8731e400e501",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el tipo de gravamen mínimo para bienes inmuebles urbanos en el IBI?",
+    "answerOptions": [
+      {
+        "text": "$0,4\\%$.",
+        "rationale": "Es el tipo mínimo y supletorio fijado por el artículo 72 para inmuebles de naturaleza urbana.",
+        "isCorrect": true
+      },
+      {
+        "text": "$0,3\\%$.",
+        "rationale": "Este es el tipo mínimo para bienes inmuebles rústicos, no urbanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "$1,10\\%$.",
+        "rationale": "Este es el límite máximo general que puede aplicar un ayuntamiento para urbanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "$4\\%$.",
+        "rationale": "Es una cifra muy superior a los márgenes permitidos en la ley reguladora.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un porcentaje inferior al medio punto porcentual."
+  },
+  {
+    "guid": "d5e233fc-4f31-4dc5-a081-50520bdb2d0c",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué se entiende por 'sostenibilidad financiera'?",
+    "answerOptions": [
+      {
+        "text": "Capacidad para financiar compromisos de gasto presentes y futuros sin exceder límites de deuda.",
+        "rationale": "Asegura que la entidad no entre en quiebra y pueda seguir prestando servicios mañana.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el ayuntamiento solo gaste en proyectos ecológicos.",
+        "rationale": "Aunque el término 'sostenible' se usa en medio ambiente, en hacienda se refiere a solvencia económica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tener dinero ahorrado para imprevistos climáticos.",
+        "rationale": "Se refiere a la salud estructural de las cuentas, no a fondos de emergencia específicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los ingresos suban todos los años por encima del IPC.",
+        "rationale": "La sostenibilidad no exige crecimiento constante de ingresos, sino control del gasto y deuda.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Trata sobre la salud de las cuentas a largo plazo y la gestión de la deuda."
+  },
+  {
+    "guid": "7d85ad71-90e6-44f1-9345-1374fe1adc1b",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué caso se puede prorrogar el presupuesto del año anterior?",
+    "answerOptions": [
+      {
+        "text": "Si no se aprueba el nuevo presupuesto antes del primer día del ejercicio.",
+        "rationale": "Evita la paralización de la administración si no hay acuerdo político a tiempo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo si hay una guerra o catástrofe nacional.",
+        "rationale": "Es un mecanismo administrativo normal por falta de aprobación en plazo ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando el alcalde lo decide voluntariamente para ahorrar tiempo.",
+        "rationale": "La ley obliga a intentar aprobar uno nuevo; la prórroga es una solución de último recurso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca, es obligatorio aprobar uno nuevo cada diciembre sin excepción.",
+        "rationale": "Si no se aprueba, la ley prevé la prórroga automática para garantizar los servicios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Ocurre cuando llega el $1$ de enero y el Pleno no ha votado las nuevas cuentas."
+  },
+  {
+    "guid": "3c12626c-ebba-4075-a00c-554501dab3ea",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la naturaleza del Impuesto sobre Actividades Económicas?",
+    "answerOptions": [
+      {
+        "text": "Tributo directo de carácter real.",
+        "rationale": "Es directo porque grava la capacidad económica del titular y real porque se centra en la actividad objetiva.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tributo indirecto de carácter personal.",
+        "rationale": "No es indirecto, ya que recae sobre el titular de la actividad económica de forma directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Precio público obligatorio.",
+        "rationale": "Los precios públicos no son impuestos; son pagos por servicios voluntarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tasa por licencia de apertura.",
+        "rationale": "La tasa de apertura es un pago único por un trámite; el IAE es un impuesto periódico anual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Grava la capacidad económica del sujeto sin intermediarios y sobre el objeto de la actividad."
+  },
+  {
+    "guid": "71a5c5e3-e44c-4d17-b844-5e9e3e463653",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué entidad debe enviar el padrón catastral a los ayuntamientos antes del 1 de marzo?",
+    "answerOptions": [
+      {
+        "text": "La Dirección General del Catastro.",
+        "rationale": "Es el órgano estatal encargado de mantener actualizada la información física y económica de los inmuebles.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Registro de la Propiedad.",
+        "rationale": "El Registro se ocupa de la titularidad jurídica, no de la valoración fiscal catastral.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministerio de Defensa.",
+        "rationale": "No tiene competencias en materia de valoración de fincas civiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gobierno de la Comunidad Autónoma.",
+        "rationale": "El Catastro es una competencia exclusiva del Estado central.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un organismo dependiente del Ministerio de Hacienda."
+  },
+  {
+    "guid": "17aa8f86-6b7f-4a08-989a-caedd450fe35",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién es el contribuyente en el Impuesto sobre Construcciones, Instalaciones y Obras?",
+    "answerOptions": [
+      {
+        "text": "El dueño de la obra, quien soporte los gastos.",
+        "rationale": "La ley define al contribuyente como quien paga la construcción, sea o no el dueño del suelo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El arquitecto que firma el proyecto.",
+        "rationale": "El arquitecto es un profesional contratado, no el inversor o promotor de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "El albañil o empresa constructora.",
+        "rationale": "Ellos son los ejecutores materiales, pero el impuesto recae sobre quien encarga el trabajo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El vecino que solicitó la licencia en nombre de la comunidad.",
+        "rationale": "El solicitante puede ser un mero representante; el impuesto lo debe pagar quien costea la obra.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la persona física o jurídica que 'pone el dinero' para la obra."
+  },
+  {
+    "guid": "dd8e987a-913b-4af4-98ca-ebf968d3239b",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el hecho imponible del IIVTNU?",
+    "answerOptions": [
+      {
+        "text": "El incremento de valor de los terrenos de naturaleza urbana manifestado en su transmisión.",
+        "rationale": "Grava la ganancia teórica de valor del suelo durante el tiempo que el vendedor fue dueño.",
+        "isCorrect": true
+      },
+      {
+        "text": "La compra de un coche nuevo.",
+        "rationale": "Eso estaría sujeto al IVA o al impuesto de matriculación, no a la plusvalía municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El incremento de valor de los terrenos rústicos.",
+        "rationale": "El impuesto se limita expresamente a suelos de naturaleza urbana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tener una casa cerrada durante más de dos años.",
+        "rationale": "Esto puede generar un recargo en el IBI, pero no es el hecho imponible de la plusvalía.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Solo afecta a suelos de ciudad cuando cambian de dueño."
+  },
+  {
+    "guid": "22b631ed-0974-43e6-9462-9c6c8de6929f",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ocurre si el ayuntamiento aprueba gastos que superan los ingresos reales durante el año?",
+    "answerOptions": [
+      {
+        "text": "Debe aprobar un plan económico-financiero de saneamiento.",
+        "rationale": "Es la medida correctora obligatoria para volver al equilibrio presupuestario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se disuelve automáticamente el ayuntamiento.",
+        "rationale": "La ley prevé medidas financieras antes de llegar a la intervención política extrema.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Estado le regala el dinero que falta.",
+        "rationale": "El municipio es responsable de su propia gestión y debe ajustar sus cuentas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nada, el déficit está permitido siempre que se pague al año siguiente.",
+        "rationale": "El déficit debe ser corregido mediante planes específicos por mandato legal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un documento de 'castigo' administrativo que obliga a recortar o subir ingresos."
+  },
+  {
+    "guid": "a50e7a06-2463-4e7c-a4f3-df30d3188049",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué se diferencia una tasa de un precio público?",
+    "answerOptions": [
+      {
+        "text": "La tasa es obligatoria por ser un servicio que solo presta el sector público.",
+        "rationale": "El precio público es por servicios voluntarios que también presta el sector privado.",
+        "isCorrect": true
+      },
+      {
+        "text": "El precio público es más caro siempre.",
+        "rationale": "El importe depende del coste del servicio, no de su denominación jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "La tasa solo la pagan las empresas.",
+        "rationale": "Tanto particulares como empresas pagan tasas según el servicio recibido.",
+        "isCorrect": false
+      },
+      {
+        "text": "No hay diferencia, son dos nombres para lo mismo.",
+        "rationale": "Tienen regímenes jurídicos distintos en cuanto a obligatoriedad y monopolio del servicio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La clave está en si el servicio es 'imprescindible' o si hay competencia privada."
+  },
+  {
+    "guid": "be587efb-5f38-4af3-bc72-b5fb365ac2a5",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué impuesto grava la realización de cualquier instalación para la que se exija licencia de obras?",
+    "answerOptions": [
+      {
+        "text": "ICIO.",
+        "rationale": "Es el impuesto específico que grava la actividad constructora sometida a control municipal.",
+        "isCorrect": true
+      },
+      {
+        "text": "IBI.",
+        "rationale": "El IBI grava el inmueble una vez terminado y valorado, no el acto de construirlo.",
+        "isCorrect": false
+      },
+      {
+        "text": "IVTM.",
+        "rationale": "Este impuesto es solo para vehículos a motor.",
+        "isCorrect": false
+      },
+      {
+        "text": "IAE.",
+        "rationale": "Aunque construir es una actividad económica, el ICIO es el tributo específico por cada obra concreta.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Usa las iniciales de 'Construcciones, Instalaciones y Obras'."
+  },
+  {
+    "guid": "7055b475-7e16-4269-af34-14cd77e6617a",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio establece que las sociedades mercantiles municipales deben incluir sus previsiones en el presupuesto general?",
+    "answerOptions": [
+      {
+        "text": "Principio de unidad.",
+        "rationale": "Busca que el presupuesto general refleje toda la realidad económica del 'grupo municipal'.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de transparencia.",
+        "rationale": "Aunque ayuda a la transparencia, la obligación técnica de integración deriva de la unidad presupuestaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de no compensación.",
+        "rationale": "Este se refiere a no restar ingresos de gastos en las cuentas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de especialidad.",
+        "rationale": "Este se refiere a los límites y destinos de los fondos una vez aprobados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Implica que 'todo debe estar en un mismo sitio'."
+  },
+  {
+    "guid": "0853014e-77c1-47ae-8c8f-5a9c558ee6c2",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué recurso local se destina obligatoriamente a financiar la obra que lo motivó?",
+    "answerOptions": [
+      {
+        "text": "Contribuciones especiales.",
+        "rationale": "Son ingresos afectados por ley: el dinero cobrado por una calle nueva debe ir a pagar esa calle.",
+        "isCorrect": true
+      },
+      {
+        "text": "Impuesto sobre Bienes Inmuebles.",
+        "rationale": "El IBI es de caja única y se puede gastar en cualquier servicio general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Multas de tráfico.",
+        "rationale": "Las multas no tienen un destino legalmente afectado a una obra específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Participaciones en tributos del Estado.",
+        "rationale": "Son fondos generales para la suficiencia financiera de la entidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la principal excepción al principio de no afectación de ingresos."
+  },
+  {
+    "guid": "a3fd59e9-f127-4c21-b4db-0cefa4bea886",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el IVTM, ¿qué se considera un vehículo apto para circular?",
+    "answerOptions": [
+      {
+        "text": "El que esté matriculado en los registros públicos y no haya causado baja.",
+        "rationale": "La sujeción al impuesto depende del estado administrativo del vehículo en Tráfico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo los que han pasado la ITV satisfactoriamente.",
+        "rationale": "Un coche sin ITV sigue siendo apto administrativamente y debe pagar el impuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los que tienen el motor en funcionamiento.",
+        "rationale": "Incluso un coche averiado en un garaje paga si no se le ha dado de baja en Tráfico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo los vehículos eléctricos o híbridos.",
+        "rationale": "Cualquier tecnología de propulsión está sujeta si el vehículo está matriculado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Depende de su situación en el registro oficial, no de su estado mecánico."
+  },
+  {
+    "guid": "c2d20588-e67d-4a08-b0fd-31cd3db90ef8",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio presupuestario dice que no se pueden gastar más de $100$ euros si solo se aprobaron $100$?",
+    "answerOptions": [
+      {
+        "text": "Especialidad cuantitativa.",
+        "rationale": "El presupuesto de gastos es limitativo: marca el tope máximo de dinero que se puede comprometer.",
+        "isCorrect": true
+      },
+      {
+        "text": "Especialidad temporal.",
+        "rationale": "Se refiere a gastarlo antes de que acabe el año.",
+        "isCorrect": false
+      },
+      {
+        "text": "Equilibrio presupuestario.",
+        "rationale": "Se refiere a la comparación global entre todos los ingresos y todos los gastos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unidad de acto.",
+        "rationale": "No es un principio presupuestario recogido en la ley financiera local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se relaciona con el valor numérico del crédito aprobado."
+  },
+  {
+    "guid": "ee20f093-b851-4cf4-aaa1-398f22672400",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién aprueba finalmente el Presupuesto General de una entidad local?",
+    "answerOptions": [
+      {
+        "text": "El Pleno de la corporación.",
+        "rationale": "Es el órgano de máxima representación política y tiene la competencia exclusiva para aprobar las cuentas.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Alcalde por decreto.",
+        "rationale": "El Alcalde elabora el proyecto, pero no puede aprobarlo solo (salvo casos excepcionales de bloqueo).",
+        "isCorrect": false
+      },
+      {
+        "text": "El Interventor municipal.",
+        "rationale": "El Interventor informa sobre la legalidad y fiscaliza, pero no tiene poder de voto político.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministerio de Hacienda.",
+        "rationale": "El Estado vigila el cumplimiento de leyes, pero respeta la autonomía local en la aprobación de sus cuentas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la asamblea donde están todos los concejales de todos los partidos."
+  },
+  {
+    "guid": "fc61ef0b-e212-438e-946b-395758d4c658",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué nombre recibe el beneficio fiscal que exime de pagar un impuesto por voluntad de la ley?",
+    "answerOptions": [
+      {
+        "text": "Exención.",
+        "rationale": "La exención impide el nacimiento de la obligación tributaria para ciertos sujetos o hechos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Bonificación.",
+        "rationale": "La bonificación reduce la cantidad a pagar, pero no elimina la obligación por completo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Deducción.",
+        "rationale": "Es un descuento que se aplica sobre la cuota después de calcularla.",
+        "isCorrect": false
+      },
+      {
+        "text": "Devengo.",
+        "rationale": "Es el momento en que se entiende realizado el hecho imponible, no un beneficio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Significa 'quedar fuera' de la obligación de pagar."
+  },
+  {
+    "guid": "d621ad0e-1ab4-4d49-b34f-730c7b45aad9",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función del 'padrón' en tributos de cobro periódico?",
+    "answerOptions": [
+      {
+        "text": "Relacionar a todos los sujetos pasivos y las cuotas que deben pagar cada año.",
+        "rationale": "Es el censo oficial que permite al ayuntamiento emitir los recibos de forma automática.",
+        "isCorrect": true
+      },
+      {
+        "text": "Contar cuánta gente vive en el pueblo.",
+        "rationale": "Ese es el padrón de habitantes, que es distinto del padrón fiscal o tributario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Registrar las deudas que ya han caducado.",
+        "rationale": "El padrón recoge las deudas vivas que se van a poner al cobro en el periodo actual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Servir de lista para las elecciones municipales.",
+        "rationale": "Esa función corresponde al censo electoral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la lista de 'clientes' obligados a pagar un impuesto recurrente."
+  },
+  {
+    "guid": "ed181010-707a-4301-86fc-cede7e96c9ad",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio presupuestario se rompe si se paga una factura de 2024 con dinero del presupuesto de 2025 (fuera de excepciones)?",
+    "answerOptions": [
+      {
+        "text": "Especialidad temporal.",
+        "rationale": "Obliga a que los gastos se imputen al año en que se realizan las obras o servicios.",
+        "isCorrect": true
+      },
+      {
+        "text": "Especialidad cualitativa.",
+        "rationale": "Se refiere al concepto del gasto, no al momento en que se paga.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de unidad de caja.",
+        "rationale": "No tiene que ver con la imputación presupuestaria por años.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de prudencia.",
+        "rationale": "Es un principio contable general, no uno de los específicos de la ley de haciendas locales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La clave está en la relación entre el gasto y el 'tiempo'."
+  }
+]

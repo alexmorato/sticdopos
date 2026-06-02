@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "426c981a-1cd3-494a-b6cf-70dbc72c8025",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la norma que regula las especialidades del régimen jurídico de Barcelona en el ámbito competencial estatal?",
+    "answerOptions": [
+      {
+        "text": "Ley 1/2006, de 13 de marzo",
+        "rationale": "Esta ley estatal complementa la normativa autonómica regulando competencias específicas de titularidad estatal como seguridad ciudadana y justicia de proximidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley 22/1998, de 30 de diciembre",
+        "rationale": "Esta es la ley de origen autonómico aprobada por el Parlamento de Cataluña, no por las cortes estatales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley 7/1985, de Bases de Régimen Local",
+        "rationale": "Si bien es la norma marco estatal para todos los municipios, no es la norma específica reguladora del régimen especial de Barcelona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley Orgánica 6/2006, de 19 de julio",
+        "rationale": "Este es el Estatuto de Autonomía de Cataluña, que garantiza el régimen especial pero no es la ley técnica que lo regula detalladamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una ley ordinaria del Estado aprobada ocho años después de la Carta autonómica."
+  },
+  {
+    "guid": "a8f548b3-432d-4bc3-b3b5-87518a8b24e6",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el artículo 89 del Estatuto de Autonomía de Cataluña, ¿qué facultad posee el Ayuntamiento de Barcelona respecto a su régimen especial?",
+    "answerOptions": [
+      {
+        "text": "Iniciativa para proponer la modificación de este régimen especial",
+        "rationale": "El Estatuto otorga expresamente al Ayuntamiento la capacidad de proponer cambios en su normativa singular ante el Parlamento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Veto suspensivo sobre leyes estatales que afecten a su hacienda",
+        "rationale": "El Ayuntamiento tiene autonomía, pero el ordenamiento jurídico español no contempla el derecho de veto sobre la legislación estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Capacidad de dictar decretos-leyes en situaciones de urgencia",
+        "rationale": "La potestad legislativa extraordinaria (decretos-leyes) está reservada a los gobiernos estatal y autonómicos, no a los entes locales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nombramiento directo de los magistrados de la justicia de proximidad",
+        "rationale": "Aunque se reconoce la justicia de proximidad, el nombramiento de jueces sigue procedimientos regulados por la Ley Orgánica del Poder Judicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la participación activa en el proceso legislativo que afecta a su propia norma básica."
+  },
+  {
+    "guid": "994bfef7-6237-4767-ac8e-7779fdce2fe9",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué figura histórica se inspira el escudo oficial de la ciudad de Barcelona según la Ley 22/1998?",
+    "answerOptions": [
+      {
+        "text": "Pere III el Cerimoniós",
+        "rationale": "El artículo 3.2 de la Carta Municipal establece explícitamente esta referencia histórica para el diseño del blasón oficial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Jaume I el Conqueridor",
+        "rationale": "Aunque es una figura clave en la historia de Barcelona, la ley no lo menciona como la fuente de inspiración directa para el escudo actual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sant Jordi",
+        "rationale": "La Cruz de San Jorge es un elemento central del escudo, pero la ley se refiere a un monarca específico como fuente de inspiración del conjunto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Alfons el Magnànim",
+        "rationale": "Este monarca es posterior y la normativa consolidada se remonta a la heráldica de Pedro el Ceremonioso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Fue un monarca de la Corona de Aragón conocido por su interés en el protocolo y la historia."
+  },
+  {
+    "guid": "0e35cfba-bd09-4566-b4b3-a7c1f83016dd",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Si una materia no está prevista en la Carta Municipal de Barcelona, ¿qué normas son aplicables con carácter supletorio?",
+    "answerOptions": [
+      {
+        "text": "Las normas generales sobre régimen local y las reguladoras de los sectores de acción pública",
+        "rationale": "El artículo 5.2 establece que el derecho común local y sectorial cubre los vacíos normativos de la Carta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exclusivamente el Código Civil de Cataluña",
+        "rationale": "El Código Civil regula relaciones privadas; la supletoriedad en derecho administrativo local requiere normativa de régimen local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las ordenanzas de la ciudad de Madrid por analogía de gran población",
+        "rationale": "La analogía entre municipios no es una fuente de derecho administrativo; se debe acudir a la legislación general estatal o autonómica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente el Reglamento de Obras, Actividades y Servicios (ROAS)",
+        "rationale": "El ROAS es supletorio solo en ámbitos específicos de gestión, no para todo el régimen jurídico del municipio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El derecho administrativo local general actúa como red de seguridad normativa."
+  },
+  {
+    "guid": "4797dfa5-680c-43e6-b826-43229dd47b76",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el artículo 4 de la Carta, ¿qué obligación tiene el Ayuntamiento de Barcelona respecto a las minorías lingüísticas?",
+    "answerOptions": [
+      {
+        "text": "Hacer posible la atención a los ciudadanos pertenecientes a dichas minorías",
+        "rationale": "La ley busca el equilibrio entre el fomento del catalán y la atención inclusiva a la diversidad lingüística de la ciudad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Traducir todas las actas del Plenario a los idiomas de dichas minorías",
+        "rationale": "La atención ciudadana no implica la traducción sistemática y obligatoria de toda la documentación administrativa interna.",
+        "isCorrect": false
+      },
+      {
+        "text": "Establecer cuotas de empleo público reservadas para hablantes de lenguas minoritarias",
+        "rationale": "El acceso al empleo público se rige por principios de mérito y capacidad, sin cuotas por lenguas que no sean las oficiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Garantizar que el personal directivo sea bilingüe en catalán y una lengua extranjera",
+        "rationale": "La exigencia de idiomas extranjeros no es un mandato general del artículo 4, que se centra en el régimen de oficialidad y atención.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un mandato de facilitar la comunicación, no de una obligación de cooficialidad de sus lenguas."
+  },
+  {
+    "guid": "9fa8bc37-db95-48a6-b81e-ed148d9acb57",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la competencia para alterar el término municipal de la ciudad de Barcelona según la normativa vigente?",
+    "answerOptions": [
+      {
+        "text": "El Parlamento de Cataluña mediante ley",
+        "rationale": "El artículo 1.3 reserva esta facultad al legislativo autonómico, siempre a iniciativa del propio Ayuntamiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Plenario del Consejo Municipal por mayoría absoluta",
+        "rationale": "El Ayuntamiento tiene la iniciativa, pero no la potestad final de alterar los límites territoriales de la capital.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gobierno de España mediante Real Decreto",
+        "rationale": "La delimitación territorial municipal es una competencia que corresponde al ámbito autonómico en este caso.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión Mixta de delimitación territorial",
+        "rationale": "Dicha comisión informa o propone, pero el acto jurídico de alteración requiere rango de ley parlamentaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano legislativo superior de la Comunidad Autónoma."
+  },
+  {
+    "guid": "7e461bd5-dd67-4044-966e-d8c61641c791",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En relación con el Tribunal Constitucional, ¿qué facultad singular posee el Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Legitimación para recurrir directamente contra leyes que contravengan la autonomía local",
+        "rationale": "El artículo 7 otorga esta potestad extraordinaria para defender la autonomía garantizada por la Constitución.",
+        "isCorrect": true
+      },
+      {
+        "text": "Capacidad de nombrar a uno de los doce magistrados del Tribunal",
+        "rationale": "La designación de magistrados corresponde al Congreso, Senado, Gobierno y Consejo General del Poder Judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Potestad de suspender leyes estatales antes de su entrada en vigor",
+        "rationale": "Solo el Gobierno del Estado puede solicitar la suspensión automática de leyes autonómicas al impugnarlas, no un Ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a emitir informes vinculantes en conflictos de competencias estatales",
+        "rationale": "El Ayuntamiento puede ser parte interesada, pero sus informes no tienen naturaleza vinculante para el Tribunal Constitucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a una herramienta de defensa jurídica frente a normas con rango de ley."
+  },
+  {
+    "guid": "c0907964-2461-431e-8e3c-f29465bc5efd",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "La modificación de la Carta Municipal mediante la Ley 18/2014 introdujo una novedad institucional relevante, ¿cuál es?",
+    "answerOptions": [
+      {
+        "text": "La Sindicatura de Greuges de Barcelona en el Título IX",
+        "rationale": "Esta reforma consolidó la figura del defensor ciudadano municipal dentro del cuerpo normativo de la Carta.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Consejo Económico y Social de Barcelona",
+        "rationale": "Aunque es un órgano importante, su incorporación se produjo anteriormente mediante la Ley 7/2010.",
+        "isCorrect": false
+      },
+      {
+        "text": "La elección directa de los concejales de distrito",
+        "rationale": "La elección de los distritos sigue vinculada a los resultados de las municipales generales y no es por sufragio directo separado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El cuerpo de Mossos d'Esquadra como policía local",
+        "rationale": "Los Mossos son la policía autonómica; la seguridad municipal corresponde a la Guardia Urbana según sus propias competencias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la institución encargada de defender los derechos fundamentales de los barceloneses ante la administración municipal."
+  },
+  {
+    "guid": "3bc62cd1-6736-4b22-86b5-193776492075",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la cuantía a partir de la cual el Consejo Municipal tiene la atribución exclusiva para adquirir bienes y derechos?",
+    "answerOptions": [
+      {
+        "text": "Superior a $15.025.302,61$ euros",
+        "rationale": "Esta cifra específica marca el umbral de competencia entre los órganos ejecutivos y el Plenario para grandes inversiones patrimoniales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Superior a $10.000.000,00$ euros",
+        "rationale": "Es una cifra redonda que no coincide con el límite legal detallado en la normativa consolidada de la Carta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Superior al $10\\%$ de los recursos ordinarios del presupuesto",
+        "rationale": "Ese es el criterio general en la Ley de Bases (LBRL), pero la Carta de Barcelona establece una cifra fija específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Superior a $6.010.121,04$ euros",
+        "rationale": "Esta cifra correspondía a antiguos límites en pesetas (mil millones), pero fue actualizada en las reformas posteriores.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una cifra precisa derivada de la conversión de la moneda anterior y mantenida en la reforma de 2014."
+  },
+  {
+    "guid": "f7460046-b1dd-4eee-bf98-3df782cbc348",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué carácter jurídico tiene la 'Gaseta Municipal de Barcelona' según la Disposición Adicional Primera?",
+    "answerOptions": [
+      {
+        "text": "Documento público y auténtico con plena validez jurídica",
+        "rationale": "La ley le otorga la máxima fehaciencia para garantizar la publicidad de las normas y actos municipales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Boletín informativo sin efectos de notificación administrativa",
+        "rationale": "Si fuera meramente informativo, no podría servir de base para la entrada en vigor de ordenanzas o reglamentos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suplemento obligatorio del Boletín Oficial de la Provincia",
+        "rationale": "Es un diario oficial independiente y propio del Ayuntamiento, no un apéndice de la estructura provincial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Registro privado de acceso restringido a concejales",
+        "rationale": "Es un diario oficial público y su difusión debe ser general para todos los ciudadanos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su estatus es equivalente al del DOGC o el BOE en el ámbito municipal."
+  },
+  {
+    "guid": "2e90a841-7e73-414c-ba99-f6a06572c2b7",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A quién corresponde exclusivamente la iniciativa para la aprobación del Reglamento Orgánico Municipal (ROM) y las ordenanzas fiscales?",
+    "answerOptions": [
+      {
+        "text": "Al Alcalde o Alcaldesa y a la Comisión de Gobierno",
+        "rationale": "La Carta reserva la iniciativa de estas normas clave de autoorganización y financiación al núcleo ejecutivo del gobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "A cualquier grupo político municipal mediante moción",
+        "rationale": "Los grupos pueden proponer, pero la iniciativa formal para ordenanzas fiscales está blindada para el gobierno local.",
+        "isCorrect": false
+      },
+      {
+        "text": "A la iniciativa popular mediante la recogida de firmas",
+        "rationale": "La iniciativa ciudadana está excluida por ley en materias tributarias y de organización interna.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Consejo Económico y Social de Barcelona",
+        "rationale": "Este consejo es un órgano consultivo y de participación, no posee iniciativa legislativa ni normativa formal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de las autoridades ejecutivas máximas del Ayuntamiento."
+  },
+  {
+    "guid": "7da2d4fe-58a9-4105-bf8c-46b00c55a111",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el marco de la Sindicatura de Greuges, ¿quiénes pueden presentar quejas ante esta institución según el artículo 143?",
+    "answerOptions": [
+      {
+        "text": "Toda persona física o jurídica que se encuentre en la ciudad, sea o no residente",
+        "rationale": "La Carta amplía la protección a todas las personas presentes en el municipio para alinearse con la Carta Europea de Salvaguardia de Derechos Humanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente los ciudadanos con nacionalidad española empadronados",
+        "rationale": "La protección de derechos fundamentales en Barcelona no discrimina por nacionalidad ni por situación administrativa de padrón.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solamente los propietarios de bienes inmuebles en el término municipal",
+        "rationale": "La propiedad no es un requisito; el defensor protege a cualquier persona afectada por la administración local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Personas que demuestren un interés legítimo mediante el pago de una tasa",
+        "rationale": "El acceso al defensor del pueblo local es gratuito y no requiere el abono de ninguna exacción económica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El criterio de protección es territorial y universal dentro del límite de la ciudad."
+  },
+  {
+    "guid": "0202efa3-3e66-4754-9481-7bb9d0726908",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio debe regir la organización del gobierno municipal para diferenciar funciones según el Título I?",
+    "answerOptions": [
+      {
+        "text": "Diferenciar las funciones deliberantes y de control de las ejecutivas de gobierno",
+        "rationale": "Este modelo busca un sistema de 'check and balance' donde el Plenario controla y el Alcalde/Comisión ejecuta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Fusionar todas las facultades en la figura del Alcalde para mayor rapidez",
+        "rationale": "La Carta de Barcelona huye del modelo presidencialista puro, manteniendo un fuerte componente de control por parte del Consejo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subordinar las decisiones locales a la aprobación previa de la Generalitat",
+        "rationale": "Eso vulneraría la autonomía local garantizada constitucionalmente; el municipio tiene competencias propias e independientes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar la jerarquía administrativa en favor de una gestión asamblearia",
+        "rationale": "El artículo 8 cita expresamente la jerarquía como uno de los principios de actuación de la organización municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca una clara separación entre quien decide/controla y quien gestiona."
+  },
+  {
+    "guid": "52215f60-e474-4acc-b3b8-286cac73a0e2",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con el régimen jurídico del personal laboral de los organismos autónomos municipales de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Se rige por la legislación laboral general y los acuerdos colectivos aplicables",
+        "rationale": "A diferencia de los funcionarios, el personal laboral de entes dependientes se mantiene bajo el marco del Estatuto de los Trabajadores.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se asimila obligatoriamente al régimen de los funcionarios de la Generalitat",
+        "rationale": "La Carta prohíbe explícitamente la homologación forzosa con regímenes de otras administraciones públicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es regulado directamente por el Ministerio de Trabajo en Madrid",
+        "rationale": "La regulación administrativa del personal es competencia del Ayuntamiento dentro del marco legal general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Está exento de la aplicación de convenios colectivos sectoriales",
+        "rationale": "Los convenios y acuerdos colectivos son precisamente una de las fuentes normativas que cita el artículo 56.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el régimen común para los trabajadores por cuenta ajena en España."
+  },
+  {
+    "guid": "20f373a1-a7d9-46f8-a9ba-d17c5922b771",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con la Ley 1/2006, ¿en qué materia específica el Ayuntamiento de Barcelona ha obtenido competencias en el ámbito estatal?",
+    "answerOptions": [
+      {
+        "text": "Dominio público marítimo-terrestre",
+        "rationale": "La ley especial estatal reconoce la singularidad litoral de Barcelona permitiéndole gestionar aspectos de su fachada marítima.",
+        "isCorrect": true
+      },
+      {
+        "text": "Control de fronteras y aduanas en el Puerto",
+        "rationale": "Estas son competencias exclusivas del Estado vinculadas a la soberanía nacional y no delegables en municipios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Emisión de moneda propia de curso legal",
+        "rationale": "La política monetaria es competencia exclusiva de la Unión Europea y el Estado, totalmente ajena al régimen local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Defensa nacional y movilización de tropas",
+        "rationale": "La seguridad nacional no forma parte de las competencias de la Carta Municipal ni de la ley estatal de régimen especial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con la ubicación geográfica de la ciudad junto al mar."
+  },
+  {
+    "guid": "89bd15b3-1df0-433f-9bbc-b7b08dacd157",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el quórum de firmas necesario para ejercer la iniciativa ciudadana para proponer una disposición general (reglamento) según el ROM?",
+    "answerOptions": [
+      {
+        "text": "$1\\%$ de los empadronados mayores de 16 años",
+        "rationale": "Este porcentaje permite la participación directa pero requiere un apoyo significativo de la población para iniciar el trámite.",
+        "isCorrect": true
+      },
+      {
+        "text": "$5\\%$ del censo electoral mayor de 18 años",
+        "rationale": "La normativa de Barcelona es más inclusiva al permitir la firma desde los 16 años y usar un porcentaje menor.",
+        "isCorrect": false
+      },
+      {
+        "text": "$10.000$ firmas validadas ante notario",
+        "rationale": "La Carta utiliza un criterio porcentual variable basado en el padrón, no una cifra absoluta fija.",
+        "isCorrect": false
+      },
+      {
+        "text": "$25\\%$ de los residentes de un solo distrito",
+        "rationale": "La iniciativa ciudadana general requiere una representatividad que abarque varios distritos para evitar localismos excesivos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el porcentaje mínimo más bajo de los propuestos, centrado en mayores de dieciséis."
+  },
+  {
+    "guid": "489cb0ff-5bd4-4918-a69f-1aa6583b418f",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 57 de la Carta, ¿en qué organismo tiene Barcelona representación propia diferenciada de otros municipios?",
+    "answerOptions": [
+      {
+        "text": "Consell Català de la Funció Pública",
+        "rationale": "La Carta asegura que Barcelona participe directamente en las políticas de función pública de la Generalitat.",
+        "isCorrect": true
+      },
+      {
+        "text": "Consejo de Ministros del Gobierno de España",
+        "rationale": "Ningún municipio tiene representación en el órgano ejecutivo central del Estado por derecho propio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Senado de las Cortes Generales",
+        "rationale": "La representación en el Senado es territorial (provincias y comunidades autónomas), no por ciudades específicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Banco de España",
+        "rationale": "El Banco de España es una autoridad monetaria técnica sin representación política municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un órgano autonómico que supervisa las condiciones de los empleados públicos en Cataluña."
+  },
+  {
+    "guid": "b6f9ae23-598f-4414-ba2d-a400c4a5fc54",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En materia de vivienda, ¿qué ley otorgó competencias especiales a Barcelona antes de la ley estatal de 2006?",
+    "answerOptions": [
+      {
+        "text": "Ley 22/1998, de 30 de diciembre",
+        "rationale": "La Carta autonómica ya preveía un régimen especial para Barcelona en urbanismo, vivienda e infraestructuras.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley de Arrendamientos Urbanos (LAU)",
+        "rationale": "La LAU es una ley estatal de derecho privado que regula contratos, no competencias administrativas municipales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decreto 1166/1960",
+        "rationale": "Esa era la Carta antigua de la época franquista, que quedó derogada y superada por la legislación democrática.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley de Propiedad Horizontal",
+        "rationale": "Esta ley regula la convivencia en comunidades de vecinos, no las competencias públicas de vivienda de un consistorio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Fue la primera de las dos leyes que integran la Carta Municipal actual."
+  },
+  {
+    "guid": "d22fdfc8-edd8-4d83-bd2e-ded72147343a",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal de la Sindicatura de Greuges de Barcelona según su estatuto incorporado a la Carta?",
+    "answerOptions": [
+      {
+        "text": "Defender los derechos fundamentales y libertades públicas de los ciudadanos",
+        "rationale": "Actúa como un comisionado del Consejo Municipal para supervisar que la administración local respete los derechos civiles.",
+        "isCorrect": true
+      },
+      {
+        "text": "Auditar las cuentas anuales de las empresas municipales",
+        "rationale": "La fiscalización económica corresponde a la Intervención General y a la Sindicatura de Cuentas, no al síndico de quejas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustituir a los jueces de instrucción en casos de faltas leves",
+        "rationale": "El Síndico no tiene funciones jurisdiccionales; es una figura de mediación y supervisión administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Redactar los borradores de las ordenanzas fiscales",
+        "rationale": "Esa es una función técnica y política de los departamentos de Hacienda y la Comisión de Gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se asemeja a nivel local a lo que el 'Defensor del Pueblo' representa a nivel nacional."
+  },
+  {
+    "guid": "53004fa6-b16b-4865-ae9a-349084dc3bb1",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el Preámbulo de la Carta, ¿qué documento del siglo XIII se cita como el primer precedente del régimen propio de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Los Usatges",
+        "rationale": "La Carta se vincula históricamente con los Usatges, que ya establecían principios de defensa del acusado y respeto religioso.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Carta Magna",
+        "rationale": "La Carta Magna es un documento inglés (1215); el precedente de Barcelona es de tradición jurídica catalana propia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Decreto de Nueva Planta",
+        "rationale": "Al contrario, los Decretos de Nueva Planta del siglo XVIII suprimieron los fueros y el régimen propio de la ciudad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Código de Comercio",
+        "rationale": "Es una ley mucho más moderna que regula actos de comercio, no el autogobierno municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la base del derecho consuetudinario catalán medieval."
+  },
+  {
+    "guid": "d2a1c67e-0763-461d-82f4-b2319c2c7020",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Si el Ayuntamiento no ha aprobado aún su propio despliegue reglamentario en materia de obras, ¿qué normativa se aplica según la Disposición Transitoria Segunda?",
+    "answerOptions": [
+      {
+        "text": "El Reglamento de obras, actividades y servicios (ROAS) de Cataluña de 1995",
+        "rationale": "La ley garantiza que no haya un vacío legal aplicando el reglamento general autonómico mientras Barcelona no dicte el propio.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Código Técnico de la Edificación exclusivamente",
+        "rationale": "El CTE regula normas constructivas, pero no el procedimiento administrativo de licencias y servicios locales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las normas de la Unión Europea sobre libre prestación de servicios",
+        "rationale": "Estas normas inspiran la legislación, pero se requiere un reglamento procedimental específico para la gestión diaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se puede conceder ninguna licencia hasta que se apruebe el nuevo reglamento",
+        "rationale": "La parálisis administrativa es evitada por el principio de supletoriedad y las disposiciones transitorias de la ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se utiliza un decreto autonómico de mediados de los años noventa."
+  },
+  {
+    "guid": "4bf87fee-97b8-437b-a4b2-86e74044dc12",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué título ostenta la ciudad de Barcelona en atención a su historia, según el artículo 3.1?",
+    "answerOptions": [
+      {
+        "text": "Ciutat Comtal",
+        "rationale": "Es el título tradicional que la Carta reconoce formalmente para preservar la identidad histórica de la capital.",
+        "isCorrect": true
+      },
+      {
+        "text": "Villa y Corte",
+        "rationale": "Este es el título histórico asociado tradicionalmente a la ciudad de Madrid, no a Barcelona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Muy Noble y Leal Ciudad",
+        "rationale": "Muchos municipios españoles tienen este título, pero no es el que la Carta Municipal destaca de forma específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ciudad Imperial",
+        "rationale": "Este título es característico de Toledo, reflejando su importancia en la época de Carlos V.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Hace referencia a la época en que Barcelona era la sede de los condes de la dinastía catalana."
+  },
+  {
+    "guid": "71ef2c0d-ba04-4973-a4a3-d7f62b403940",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A qué órgano municipal se autoriza para desarrollar por reglamento los símbolos de la ciudad (escudo y bandera)?",
+    "answerOptions": [
+      {
+        "text": "Al Plenario del Consejo Municipal",
+        "rationale": "Al ser una materia de alta carga simbólica y representativa, la potestad reglamentaria recae en el órgano máximo de representación.",
+        "isCorrect": true
+      },
+      {
+        "text": "A la Alcaldía mediante Decreto",
+        "rationale": "El Alcalde tiene potestades ejecutivas, pero el desarrollo de la simbología institucional requiere el debate del Pleno.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los Consejos de Distrito",
+        "rationale": "Los distritos tienen autonomía, pero los símbolos de la ciudad son comunes y deben regularse a nivel central.",
+        "isCorrect": false
+      },
+      {
+        "text": "A la Generalitat de Cataluña",
+        "rationale": "La Carta otorga precisamente esta competencia al propio Ayuntamiento para reforzar su autonomía política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano donde están representados todos los concejales electos."
+  },
+  {
+    "guid": "41b7a2c0-795d-4b8c-80c9-d59b2f942d18",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el contexto de la descentralización, ¿qué característica otorga la Carta a los distritos municipales de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Un amplio nivel de autogobierno y personalidad fuerte",
+        "rationale": "Barcelona se define como una ciudad descentralizada que busca acercar la gestión al ciudadano a través de sus diez distritos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Personalidad jurídica propia independiente del Ayuntamiento",
+        "rationale": "Los distritos son órganos desconcentrados; la personalidad jurídica única reside en el Ayuntamiento de Barcelona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Capacidad de recaudar impuestos propios de distrito",
+        "rationale": "La potestad tributaria es municipal y se gestiona de forma centralizada para garantizar la cohesión fiscal de la ciudad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a separarse del municipio mediante referéndum",
+        "rationale": "La integridad del término municipal está protegida por ley y no existe derecho de secesión para los distritos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la máxima proximidad y subsidiariedad sin romper la unidad municipal."
+  },
+  {
+    "guid": "9521ceb5-3dd9-4512-bf7b-56ab0b675dc7",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 5, ¿cuál es la posición jerárquica de la Carta Municipal de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Norma básica del ordenamiento jurídico propio del gobierno local de Barcelona",
+        "rationale": "Funciona como una 'constitución local' que debe ser respetada por cualquier norma sectorial que afecte a la ciudad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reglamento subordinado a las leyes provinciales",
+        "rationale": "Barcelona tiene un régimen especial que la sitúa por encima de la normativa provincial general en sus competencias propias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Norma de rango equivalente a una Ley Orgánica del Estado",
+        "rationale": "Es una ley ordinaria (autonómica o estatal), no tiene el rango de Ley Orgánica según la jerarquía del artículo 81 CE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Circular informativa interna de obligado cumplimiento",
+        "rationale": "Tiene rango de ley aprobada por un Parlamento, lo cual es muy superior a una circular administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el pilar fundamental sobre el que se construye todo su derecho propio."
+  },
+  {
+    "guid": "c219f939-0535-42da-b909-e0917460b8f1",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué potestad otorga la Carta a las entidades cívicas y organizaciones sin ánimo de lucro según las novedades de participación?",
+    "answerOptions": [
+      {
+        "text": "Participar en la gestión de servicios públicos (gestión cívica)",
+        "rationale": "La Carta fomenta la colaboración público-privada social para mejorar la eficacia de los servicios municipales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dictar sentencias en el procedimiento arbitral de consumo",
+        "rationale": "El arbitraje lo realizan árbitros acreditados, no cualquier entidad cívica por el mero hecho de serlo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exonerar del pago de tasas a sus asociados",
+        "rationale": "Los beneficios fiscales deben estar regulados por ley u ordenanza, no dependen de la voluntad de entidades privadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cerrar calles al tráfico sin autorización previa",
+        "rationale": "El uso del dominio público y la movilidad son competencias de autoridad que no se delegan en entidades cívicas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de colaborar en la prestación de servicios a la comunidad."
+  },
+  {
+    "guid": "f5b748ee-0285-4d02-8720-bec33063ba7c",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién preside el Consejo Municipal (Plenari) según la organización establecida en el Título I?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde o Alcaldesa",
+        "rationale": "El Alcalde ostenta la máxima representación y la dirección política, presidiendo las sesiones del Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Concejal más antiguo (Concejal Decano)",
+        "rationale": "Dicha figura solo tiene relevancia momentánea en la Mesa de Edad durante la constitución del Ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un Presidente electo independiente del gobierno",
+        "rationale": "A diferencia de algunos parlamentos, en el Ayuntamiento de Barcelona la presidencia del pleno y del ejecutivo coinciden.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario General del Ayuntamiento",
+        "rationale": "El Secretario tiene funciones de fe pública y asesoramiento legal, pero no posee voto ni preside políticamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma persona que dirige el gobierno ejecutivo de la ciudad."
+  },
+  {
+    "guid": "a23ae8e8-a0e3-4246-a15a-e40864fdc3c3",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el Título VI, ¿qué debe asegurar la legislación del Estado y de la Generalitat al municipio de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "La atribución de competencias de acuerdo con su capacidad de gestión",
+        "rationale": "La Carta obliga a los legisladores superiores a dotar a Barcelona de poderes reales acordes a su dimensión y recursos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una subvención anual fija equivalente al $50\\%$ de su presupuesto",
+        "rationale": "La financiación se basa en tributos y transferencias variables, no hay un porcentaje fijo de subvención directa garantizado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a emitir pasaportes locales para sus residentes",
+        "rationale": "La documentación de identidad es competencia exclusiva y centralizada del Estado nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "La inmunidad judicial para todos sus concejales",
+        "rationale": "Los concejales no gozan de inmunidad ni aforamiento; están sujetos a la justicia ordinaria como cualquier ciudadano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un principio de eficacia administrativa y suficiencia competencial."
+  },
+  {
+    "guid": "1e29864f-f31c-4da5-a458-0832de623024",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la bandera de Barcelona, ¿dónde se sitúan los 'cuatro palos rojos' sobre fondo amarillo?",
+    "answerOptions": [
+      {
+        "text": "Cuarteles superior derecho e inferior izquierdo",
+        "rationale": "La descripción detallada del artículo 3.3 define esta disposición específica para los colores de la bandera oficial.",
+        "isCorrect": true
+      },
+      {
+        "text": "En una franja vertical en el centro de la bandera",
+        "rationale": "La bandera es 'quarterada', lo que implica una división en cuatro partes iguales, no en franjas verticales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuarteles superior izquierdo e inferior derecho",
+        "rationale": "Esos cuarteles están reservados para la Cruz de San Jorge sobre fondo blanco.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el centro de un rombo blanco",
+        "rationale": "Esa descripción no corresponde al diseño histórico ni legal recogido en la Carta Municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Ocupan la posición contraria a los cuarteles de la Cruz de San Jorge."
+  },
+  {
+    "guid": "44194281-6adb-4d4b-bcab-4eb3d590f7c5",
+    "subjectId": "T11",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano es el encargado de aprobar el Codi Ètic (Código Ético) de actuación del personal municipal?",
+    "answerOptions": [
+      {
+        "text": "El Consejo Municipal",
+        "rationale": "Al ser una norma de conducta de alto nivel para todo el personal, su aprobación corresponde al Plenario.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Junta de Personal y los Sindicatos",
+        "rationale": "Los sindicatos negocian condiciones, pero la aprobación formal de normas éticas institucionales es potestad del Consejo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Superior de Justicia de Cataluña",
+        "rationale": "Los tribunales controlan la legalidad, pero no redactan ni aprueban las normas de conducta administrativa interna.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Sindicatura de Greuges",
+        "rationale": "El Síndico vigila su cumplimiento, pero no tiene la facultad legislativa/normativa para aprobarlo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la autoridad normativa máxima dentro de la estructura del Ayuntamiento."
+  }
+]

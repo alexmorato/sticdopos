@@ -1,0 +1,467 @@
+[
+  {
+    "guid": "f0896432-1c63-4821-b572-e277b24ee423",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría parlamentaria se requiere para que el Parlamento de Cataluña retire una propuesta de reforma del Estatuto antes de su aprobación definitiva en las Cortes Generales?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple de los diputados presentes.",
+        "rationale": "Esta mayoría es insuficiente para un acto de tal trascendencia institucional como la retirada de una norma básica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta de sus miembros.",
+        "rationale": "El artículo 223.1.8 del Estatuto especifica que la retirada de la propuesta de reforma requiere el voto de la mayoría absoluta de los miembros del Parlamento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría de dos tercios de los diputados.",
+        "rationale": "Aunque se requieren dos tercios para aprobar la reforma inicialmente, la norma para la retirada es menos exigente pero requiere consenso absoluto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría de tres quintas partes de la cámara.",
+        "rationale": "Esta proporción se asocia comúnmente con la elección de cargos institucionales como el Síndic de Greuges, no con la retirada de reformas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Consulte las disposiciones relativas al Título VII sobre la reforma del Estatuto."
+  },
+  {
+    "guid": "100ae8a1-9584-457b-be39-9d8a78a850eb",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según la interpretación de la STC 31/2010, ¿en qué ámbito es constitucionalmente exigible el deber de conocer la lengua catalana?",
+    "answerOptions": [
+      {
+        "text": "Como una obligación jurídicamente exigible con carácter general a toda la ciudadanía.",
+        "rationale": "La sentencia aclaró que no puede existir un deber general de conocimiento equivalente al del castellano para todos los ciudadanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente en el ámbito de la educación y en las relaciones de sujeción especial de la Administración catalana.",
+        "rationale": "El Tribunal Constitucional limitó el deber de conocimiento del catalán a los funcionarios y al sistema educativo, rechazando su generalización.",
+        "isCorrect": true
+      },
+      {
+        "text": "En todas las relaciones comerciales y de consumo privadas.",
+        "rationale": "La sentencia determinó que la disponibilidad lingüística no puede imponer obligaciones individuales de conocimiento a los particulares en el sector privado.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el ejercicio del derecho al sufragio activo y pasivo.",
+        "rationale": "El ejercicio de derechos políticos fundamentales no está condicionado legalmente por el conocimiento de la lengua propia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La sentencia diferencia entre el deber general del castellano y la especificidad del catalán."
+  },
+  {
+    "guid": "8dd99181-2e08-4f30-bf13-6f25a81d45a4",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el procedimiento de reforma del Estatuto que no afecta a las relaciones con el Estado (Art. 222), ¿qué porcentaje de plenos municipales puede proponer la iniciativa?",
+    "answerOptions": [
+      {
+        "text": "Un mínimo del 10% de los plenos que representen el 10% de la población.",
+        "rationale": "Este porcentaje es inferior al umbral legal establecido para garantizar una representatividad territorial mínima.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un mínimo del 20% de los plenos que representen un mínimo del 20% de la población.",
+        "rationale": "El artículo 222.1.a exige que la propuesta provenga de al menos el 20% de los plenos municipales y que estos representen al menos al 20% de los habitantes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un mínimo del 25% de los plenos sin requisitos de población.",
+        "rationale": "El Estatuto vincula siempre la representatividad de los entes locales con la representatividad demográfica efectiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "La mitad más uno de los ayuntamientos de Cataluña.",
+        "rationale": "Esta es una mayoría absoluta de municipios, que es un requisito mucho más estricto que el contemplado en el texto estatutario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere una doble condición: número de ayuntamientos y peso demográfico."
+  },
+  {
+    "guid": "0edfb260-6437-410b-9544-a19104eef917",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el carácter jurídico actual de los dictámenes del Consell de Garanties Estatutàries sobre proyectos de ley que afecten a derechos estatutarios?",
+    "answerOptions": [
+      {
+        "text": "Vinculante en todos los casos.",
+        "rationale": "El carácter vinculante fue uno de los puntos centrales de la impugnación constitucional de 2006.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vinculante solo si el proyecto de ley es de iniciativa gubernamental.",
+        "rationale": "La procedencia del proyecto no altera la naturaleza consultiva de la institución tras la revisión constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "No vinculante.",
+        "rationale": "Tras la STC 31/2010, se declaró inconstitucional el carácter vinculante de sus dictámenes para no limitar la potestad legislativa del Parlamento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Vinculante solo para el Gobierno, pero no para el Parlamento.",
+        "rationale": "La distinción entre órganos no se contempla; la función de la institución es garantizar la adecuación normativa de forma consultiva.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise el impacto de la sentencia del Tribunal Constitucional de 2010 sobre el artículo 76.4."
+  },
+  {
+    "guid": "937ce872-8756-4343-a380-6d5c4a890090",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano tiene la competencia para interponer un conflicto de competencia ante el Tribunal Constitucional previo dictamen del Consell de Garanties Estatutàries?",
+    "answerOptions": [
+      {
+        "text": "El Parlamento de Cataluña.",
+        "rationale": "El Parlamento interpone recursos de inconstitucionalidad, pero el conflicto de competencia es una figura propia del poder ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gobierno de la Generalitat.",
+        "rationale": "El artículo 76.3 establece que el Gobierno debe solicitar dictamen al Consell antes de interponer conflictos de competencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Síndic de Greuges.",
+        "rationale": "El Síndic defiende derechos y libertades, pero carece de legitimación para dirimir conflictos de competencias institucionales entre Estado y Generalitat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente de la Generalitat a título individual.",
+        "rationale": "Aunque es la más alta representación, la interposición del conflicto es una facultad del órgano colegiado de gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre recursos de inconstitucionalidad y conflictos de competencia."
+  },
+  {
+    "guid": "371a6500-2e5f-49f9-a62a-80769148bee1",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el artículo 111 del Estatuto, ¿qué capacidad mantiene la Generalitat en el ejercicio de sus competencias compartidas?",
+    "answerOptions": [
+      {
+        "text": "Únicamente la ejecución administrativa de las leyes estatales.",
+        "rationale": "Esto describiría una competencia ejecutiva pura, no una compartida que incluye facultades normativas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Potestad legislativa y reglamentaria para establecer políticas propias en el marco de las bases estatales.",
+        "rationale": "En las competencias compartidas, la Generalitat despliega la legislación básica del Estado mediante leyes y reglamentos propios.",
+        "isCorrect": true
+      },
+      {
+        "text": "La capacidad de modificar las bases estatales si estas son insuficientes.",
+        "rationale": "Las bases estatales son el límite jerárquico infranqueable para la normativa autonómica en materias compartidas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Potestad exclusiva para derogar normas estatales previas al Estatuto.",
+        "rationale": "La derogación de normas estatales solo puede ser realizada por el propio legislador estatal o el Tribunal Constitucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Identifique el reparto de funciones normativas entre el Estado y la Comunidad Autónoma."
+  },
+  {
+    "guid": "1cf56d8e-32dc-42b4-8a60-3010a982c1fb",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué requisito de experiencia profesional se exige para ser nombrado miembro del Consell de Garanties Estatutàries?",
+    "answerOptions": [
+      {
+        "text": "Más de 10 años de ejercicio en cualquier profesión jurídica.",
+        "rationale": "Este periodo es el habitual para otros órganos, pero el Consell de Garanties exige una trayectoria más dilatada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Más de 15 años de experiencia profesional reconocida.",
+        "rationale": "La Ley 2/2009 reguladora de la institución especifica el requisito de 15 años de trayectoria para garantizar el prestigio de sus miembros.",
+        "isCorrect": true
+      },
+      {
+        "text": "Haber sido juez o magistrado durante al menos dos legislaturas.",
+        "rationale": "No se restringe el acceso a la carrera judicial; se admiten juristas de reconocida competencia de diversos ámbitos.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se exige un tiempo mínimo, solo el reconocimiento del Parlamento.",
+        "rationale": "La ley establece criterios objetivos de mérito y capacidad para asegurar la independencia técnica del órgano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La ley reguladora de 2009 detalla los criterios de prestigio y veteranía."
+  },
+  {
+    "guid": "2041bf83-8597-403f-9cbe-bf35f09bba9b",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El Síndic de Greuges es elegido por el Parlamento por una mayoría de:",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta.",
+        "rationale": "Una mayoría absoluta permitiría el control de la institución por un solo grupo mayoritario, perdiendo su carácter neutral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos terceras partes de los diputados.",
+        "rationale": "Aunque es una mayoría reforzada común, el Estatuto fija una proporción específica diferente para este cargo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres quintas partes de sus miembros.",
+        "rationale": "El artículo 79 establece que la elección requiere las tres quintas partes para asegurar un amplio consenso parlamentario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres cuartas partes de la cámara.",
+        "rationale": "Esta es una mayoría extremadamente difícil de alcanzar que no se exige para la designación de esta institución.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque la misma proporción que se utiliza para proponer a la mayoría de los miembros del Consell de Garanties Estatutàries."
+  },
+  {
+    "guid": "ae24f527-3796-40de-a744-3b352a1fd0fd",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En materia de lenguas oficiales, ¿qué establece el Estatuto sobre los actos jurídicos realizados en cualquiera de las dos lenguas?",
+    "answerOptions": [
+      {
+        "text": "Solo tienen validez plena los realizados en catalán.",
+        "rationale": "Esto vulneraría el principio de cooficialidad y la seguridad jurídica garantizada por la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tienen validez y eficacia plenas independientemente de la lengua oficial empleada.",
+        "rationale": "El artículo 32 garantiza que los actos jurídicos realizados en catalán o castellano no pueden ser discriminados por razón de lengua.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los realizados en castellano deben ser traducidos obligatoriamente para ser eficaces.",
+        "rationale": "La cooficialidad implica que ambas lenguas son vehículos válidos de expresión jurídica sin cargas adicionales de traducción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los actos en castellano tienen preferencia en el ámbito de la justicia estatal.",
+        "rationale": "El derecho de opción lingüística en la justicia permite el uso de ambas sin que una prevalezca sobre la otra en términos de validez.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere los principios de no discriminación y validez jurídica de la cooficialidad."
+  },
+  {
+    "guid": "adfc7d80-86ec-49a8-aa6e-e89402e4be73",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la consecuencia jurídica de las referencias a 'Cataluña como nación' en el Preámbulo del Estatuto según la STC 31/2010?",
+    "answerOptions": [
+      {
+        "text": "Otorga a Cataluña el derecho a la autodeterminación.",
+        "rationale": "La sentencia negó explícitamente cualquier interpretación que implique soberanía o ruptura de la unidad nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene eficacia jurídica interpretativa propia.",
+        "rationale": "El Tribunal Constitucional determinó que el Preámbulo carece de valor normativo y no puede alterar el concepto de nación de la Constitución.",
+        "isCorrect": true
+      },
+      {
+        "text": "Obliga al Estado a reconocer a Cataluña como un sujeto político soberano.",
+        "rationale": "La soberanía reside en el pueblo español en su conjunto, según la doctrina constitucional reafirmada en 2010.",
+        "isCorrect": false
+      },
+      {
+        "text": "Define la estructura federal del Estado español.",
+        "rationale": "El Estatuto es una norma dentro de un Estado autonómico y no puede definir por sí mismo la forma de Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre el valor simbólico y el valor normativo de las partes de una ley."
+  },
+  {
+    "guid": "07ff6a03-f0c3-4f21-8680-9e757841911e",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene la condición política de catalán según el artículo 7 del Estatuto?",
+    "answerOptions": [
+      {
+        "text": "Toda persona nacida en el territorio de Cataluña.",
+        "rationale": "El nacimiento no es el criterio determinante; se utiliza el criterio de residencia administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los ciudadanos españoles que tienen vecindad administrativa en Cataluña.",
+        "rationale": "La condición política se adquiere por el empadronamiento en un municipio catalán, independientemente del origen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier ciudadano de la Unión Europea que resida en Cataluña.",
+        "rationale": "El Estatuto restringe la condición política plena a los poseedores de la nacionalidad española.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las personas que acrediten un dominio suficiente de la lengua catalana.",
+        "rationale": "La lengua es un derecho y un deber, pero no es el requisito legal para la condición política de ciudadano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El concepto clave es la 'vecindad administrativa'."
+  },
+  {
+    "guid": "862a04b9-6b04-4deb-a740-aab78fbaa765",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el marco de la organización territorial, ¿qué define el artículo 91 del Estatuto como el ámbito para la prestación de servicios estatales y de la Generalitat?",
+    "answerOptions": [
+      {
+        "text": "La Comarca.",
+        "rationale": "La comarca tiene funciones de cooperación local y servicios de proximidad, pero no es la división territorial de los servicios centrales.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Veguería.",
+        "rationale": "La veguería se define como el marco para la división territorial de los servicios de la Generalitat y la cooperación local.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Provincia.",
+        "rationale": "El Estatuto busca que la veguería asuma las funciones de la provincia en la medida que la ley estatal lo permita.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Mancomunidad de municipios.",
+        "rationale": "Esta es una forma asociativa voluntaria, no una división territorial institucional básica del sistema.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una institución de tradición histórica recuperada en la reforma de 2006."
+  },
+  {
+    "guid": "841005a2-ad71-4883-b33a-66e9c8c676eb",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo para que el Presidente de la Generalitat convoque elecciones antes del fin de la legislatura?",
+    "answerOptions": [
+      {
+        "text": "Treinta días antes.",
+        "rationale": "Este plazo sería demasiado breve para organizar el proceso de disolución y convocatoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Quince días antes.",
+        "rationale": "El artículo 56.4 establece que la convocatoria debe realizarse quince días antes del fin natural de la legislatura.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sesenta días antes.",
+        "rationale": "Este es el plazo máximo habitual para la celebración del acto electoral, no para su convocatoria previa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco días después de la última sesión plenaria.",
+        "rationale": "La convocatoria se vincula al calendario legal de la legislatura, no al calendario de sesiones específico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un plazo de dos semanas."
+  },
+  {
+    "guid": "dc628ad7-0ad1-4b86-a875-f969cd9fa41f",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 3.1, ¿en qué principio NO se fundamentan las relaciones entre la Generalitat y el Estado?",
+    "answerOptions": [
+      {
+        "text": "Lealtad institucional mutua.",
+        "rationale": "Este es el principio base para la colaboración armónica entre los diferentes niveles de administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Bilateralidad.",
+        "rationale": "La bilateralidad es un eje central del Estatuto para tratar asuntos específicos de Cataluña con el Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jerarquía administrativa absoluta.",
+        "rationale": "Las relaciones se basan en la autonomía y la lealtad, no en una subordinación jerárquica propia de un estado centralizado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Multilateralidad.",
+        "rationale": "Este principio rige la participación de la Generalitat en organismos que afectan a todas las comunidades autónomas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el concepto que contradiga el modelo de Estado Autonómico."
+  },
+  {
+    "guid": "fe3dad48-b41e-4cb0-84c2-1bcf244bc19c",
+    "subjectId": "T10",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si un Decreto-ley no es validado por el Parlamento en el plazo de 30 días?",
+    "answerOptions": [
+      {
+        "text": "Se prorroga automáticamente por otros 30 días.",
+        "rationale": "Los plazos de convalidación de normas de urgencia son improrrogables por su propia naturaleza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Queda derogado inmediatamente.",
+        "rationale": "El artículo 64 establece que la falta de validación expresa en el plazo de treinta días conlleva la derogación de la norma.",
+        "isCorrect": true
+      },
+      {
+        "text": "Debe ser revisado por el Consell de Garanties Estatutàries.",
+        "rationale": "La revisión del Consell es previa o simultánea a la convalidación, no un efecto de su rechazo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Entra en vigor como ley ordinaria de forma provisional.",
+        "rationale": "Un Decreto-ley rechazado pierde toda su eficacia y no puede mutar a ley sin un proceso legislativo completo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una medida de control parlamentario estricto sobre el ejecutivo."
+  }
+]

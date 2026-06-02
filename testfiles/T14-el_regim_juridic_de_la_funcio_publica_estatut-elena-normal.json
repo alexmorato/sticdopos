@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "af3bbc3c-1ff8-4deb-bd4b-3d6f855bae3e",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de los siguientes no es un requisito general para participar en los procesos selectivos según el artículo 56 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Poseer la capacidad funcional para el desempeño de las tareas.",
+        "rationale": "La capacidad funcional es un requisito esencial para asegurar que el aspirante puede realizar las labores físicas y psíquicas del puesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tener cumplidos dieciocho años en el momento de la convocatoria.",
+        "rationale": "El requisito mínimo de edad general es de dieciséis años, siempre que no se exceda la edad máxima de jubilación forzosa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Poseer la titulación exigida en la convocatoria.",
+        "rationale": "La titulación académica es un requisito previo indispensable para garantizar que el personal tiene la formación técnica necesaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "No haber sido separado mediante expediente disciplinario del servicio de cualquier Administración Pública.",
+        "rationale": "Esta es una causa de exclusión que busca garantizar la idoneidad ética y profesional del personal entrante.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda la edad mínima legal permitida para trabajar en España."
+  },
+  {
+    "guid": "953f598d-4663-44e2-88df-d6b9ccde14c4",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la Oferta de Empleo Público, ¿qué porcentaje mínimo de plazas debe reservarse para personas con discapacidad?",
+    "answerOptions": [
+      {
+        "text": "Un 5%",
+        "rationale": "Este porcentaje es inferior al mínimo legal establecido en el artículo 59 para el conjunto de las vacantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un 7%",
+        "rationale": "El artículo 59 establece una reserva del 7%, de la cual al menos un 2% debe destinarse específicamente a personas con discapacidad intelectual.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un 10%",
+        "rationale": "Aunque es una cifra generosa, el mínimo legal obligatorio según la normativa básica es inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un 2%",
+        "rationale": "Este porcentaje corresponde específicamente a la sub-cuota para personas con discapacidad intelectual dentro de la reserva general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considera la suma de la cuota general y la cuota específica para discapacidad intelectual."
+  },
+  {
+    "guid": "1f7d02ca-b780-4adf-9cf0-091b930f9dfb",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la duración máxima permitida del permiso por matrimonio según el artículo 48 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Diez días naturales.",
+        "rationale": "Este periodo es inferior a lo estipulado para este tipo de evento personal en la normativa de empleados públicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Quince días naturales.",
+        "rationale": "La norma establece este periodo fijo para permitir al funcionario el disfrute de su enlace matrimonial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Veinte días hábiles.",
+        "rationale": "Los permisos por matrimonio suelen contarse en días naturales y no alcanzan una duración tan extensa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez días hábiles.",
+        "rationale": "El cómputo en días hábiles no es el estándar para este permiso específico en el estatuto básico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un periodo de dos semanas más un día adicional."
+  },
+  {
+    "guid": "a87ffed4-306c-497a-a32d-95498bcc9938",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el artículo 50, ¿cuántos días hábiles de vacaciones retribuidas tienen derecho a disfrutar los funcionarios por año natural?",
+    "answerOptions": [
+      {
+        "text": "Treinta días naturales.",
+        "rationale": "Aunque es común en el sector privado, el TREBEP especifica el cómputo en días hábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "Veintidós días hábiles.",
+        "rationale": "Este es el mínimo garantizado por año completo de servicio, sin contar los sábados como días hábiles.",
+        "isCorrect": true
+      },
+      {
+        "text": "Veinte días hábiles.",
+        "rationale": "Esta cifra no coincide con el estándar legal de vacaciones anuales para el personal funcionario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Veinticinco días naturales.",
+        "rationale": "El estatuto prefiere una medida que no se vea afectada por la distribución de los fines de semana.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "A efectos de este cálculo, los sábados no se consideran hábiles."
+  },
+  {
+    "guid": "61a9cddb-13b2-4b4a-8c55-e2b1cf6421f8",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué concepto retributivo compensa la especial dificultad técnica, responsabilidad o peligrosidad de un puesto de trabajo?",
+    "answerOptions": [
+      {
+        "text": "Complemento de destino.",
+        "rationale": "Este complemento se vincula exclusivamente al nivel del puesto en la estructura administrativa, no a sus condiciones particulares.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sueldo base.",
+        "rationale": "El sueldo base es una retribución básica ligada al grupo de clasificación, no a las características del puesto concreto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Complemento específico.",
+        "rationale": "El complemento específico está diseñado para retribuir las condiciones singulares de cada puesto, como la penosidad o la dedicación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Gratificaciones.",
+        "rationale": "Las gratificaciones retribuyen servicios extraordinarios fuera de la jornada normal y no pueden ser fijas en su cuantía.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una retribución complementaria que figura en la relación de puestos de trabajo para puestos específicos."
+  },
+  {
+    "guid": "efd9f10c-9869-4d04-8e18-da211426529e",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo de prescripción para las faltas muy graves cometidas por los funcionarios?",
+    "answerOptions": [
+      {
+        "text": "Un año.",
+        "rationale": "Un año es un plazo demasiado corto para infracciones de máxima gravedad en la administración pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos años.",
+        "rationale": "Este plazo suele aplicarse a las faltas de carácter grave, no a las muy graves.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres años.",
+        "rationale": "Las faltas muy graves tienen el periodo de prescripción más largo para asegurar que la responsabilidad no expire prematuramente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis meses.",
+        "rationale": "Este es el plazo reducido que se aplica a las faltas de carácter leve.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo tiempo que tardan en prescribir las sanciones impuestas por el mismo tipo de falta."
+  },
+  {
+    "guid": "8130288a-e470-43c9-991d-1b63cb1e7df0",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué grupo de clasificación requiere estar en posesión del título de Técnico Superior según el artículo 76?",
+    "answerOptions": [
+      {
+        "text": "Grupo A.",
+        "rationale": "El Grupo A requiere una titulación universitaria de Grado o equivalente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Grupo B.",
+        "rationale": "El Grupo B se creó específicamente para integrar a quienes poseen titulaciones de formación profesional de grado superior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Grupo C, subgrupo C1.",
+        "rationale": "Para el acceso al subgrupo C1 se exige el título de Bachiller o Técnico de grado medio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Agrupaciones Profesionales.",
+        "rationale": "Estas agrupaciones no exigen ninguna de las titulaciones previstas en el sistema educativo reglado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encuentra entre el grupo de titulados universitarios y el de bachilleres."
+  },
+  {
+    "guid": "bbbfb73e-670f-4122-a87b-0aad0fbb8070",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el régimen de incompatibilidades, ¿qué porcentaje de incremento sobre la jornada ordinaria se permite para el Grupo A1?",
+    "answerOptions": [
+      {
+        "text": "$50\\%$",
+        "rationale": "Este porcentaje máximo suele estar reservado para los niveles de clasificación más bajos.",
+        "isCorrect": false
+      },
+      {
+        "text": "$30\\%$",
+        "rationale": "Para el personal del Grupo A o equivalente, el límite de gratificaciones o intereses por compatibilidad se fija en el $30\\%$.",
+        "isCorrect": true
+      },
+      {
+        "text": "$40\\%$",
+        "rationale": "Este valor es intermedio y corresponde generalmente al personal del Grupo C1.",
+        "isCorrect": false
+      },
+      {
+        "text": "$15\\%$",
+        "rationale": "No existe un tramo de limitación tan restrictivo en la escala proporcional de incompatibilidades del material.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el porcentaje más bajo de la escala proporcional establecida."
+  },
+  {
+    "guid": "ffeb5763-0750-4c0d-846f-9f0d5b24c199",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la duración del permiso por nacimiento para la madre biológica según la normativa actualizada?",
+    "answerOptions": [
+      {
+        "text": "Doce semanas.",
+        "rationale": "Esta duración es inferior a la protección mínima actual para la maternidad y recuperación biológica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dieciséis semanas.",
+        "rationale": "El permiso tiene una duración total de 16 semanas, siendo las 6 semanas inmediatas posteriores al parto de descanso obligatorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Veinte semanas.",
+        "rationale": "Aunque existen supuestos de ampliación, la duración estándar básica es menor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Catorce semanas.",
+        "rationale": "Es una cifra habitual en convenios antiguos, pero no refleja la normativa vigente del TREBEP.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Casi cuatro meses en total."
+  },
+  {
+    "guid": "b570e9df-e6a0-4add-9aeb-c1cd86cd3787",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué situación administrativa se aplica a un funcionario que es nombrado miembro del Gobierno de una Comunidad Autónoma?",
+    "answerOptions": [
+      {
+        "text": "Servicio activo.",
+        "rationale": "El servicio activo implica el desempeño de un puesto de trabajo propio de su cuerpo o escala, no un cargo político externo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Excedencia voluntaria.",
+        "rationale": "La excedencia voluntaria suele ser a petición del funcionario por motivos particulares, no por ocupar cargos públicos de relevancia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Servicios especiales.",
+        "rationale": "Esta situación permite al funcionario ocupar cargos electos o de confianza política manteniendo el derecho a la reserva de su plaza.",
+        "isCorrect": true
+      },
+      {
+        "text": "Suspensión de funciones.",
+        "rationale": "La suspensión es una medida cautelar o sancionadora, no una situación derivada del ejercicio de derechos políticos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una situación que garantiza la reserva de plaza y destino mientras se ejerce el cargo público."
+  },
+  {
+    "guid": "4c060308-3011-4eb7-8ee9-68b0dc1009f4",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la finalidad principal del complemento de productividad?",
+    "answerOptions": [
+      {
+        "text": "Retribuir la antigüedad en el cuerpo.",
+        "rationale": "La antigüedad se retribuye mediante los trienios, que son parte de las retribuciones básicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Retribuir el especial rendimiento y el interés o iniciativa del funcionario.",
+        "rationale": "Busca incentivar la calidad y cantidad de trabajo realizado por encima de lo ordinario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Compensar el trabajo realizado fuera de la jornada normal.",
+        "rationale": "Las horas o servicios extraordinarios se compensan mediante gratificaciones, no por productividad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Abonar los gastos realizados por razón del servicio.",
+        "rationale": "Los gastos de servicio se compensan mediante indemnizaciones, como dietas o gastos de locomoción.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se fija de forma global por programa u órgano basándose en resultados logrados."
+  },
+  {
+    "guid": "92782271-9b90-40b5-9b5b-5cf10a8f4fba",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se define legalmente al personal eventual?",
+    "answerOptions": [
+      {
+        "text": "Personal que realiza funciones permanentes de carácter administrativo.",
+        "rationale": "Las funciones permanentes están reservadas a los funcionarios de carrera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Personal nombrado con carácter no permanente para realizar funciones de confianza o asesoramiento especial.",
+        "rationale": "Su nombramiento y cese son libres y están ligados a la autoridad que los nombra.",
+        "isCorrect": true
+      },
+      {
+        "text": "Personal contratado para cubrir sustituciones urgentes de funcionarios.",
+        "rationale": "Esta es la definición propia del personal funcionario interino.",
+        "isCorrect": false
+      },
+      {
+        "text": "Personal que accede al cargo mediante oposición o concurso-oposición.",
+        "rationale": "El personal eventual no accede mediante sistemas de mérito y capacidad tradicionales, sino por libre designación política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su cese ocurre automáticamente cuando cesa la autoridad que los nombró."
+  },
+  {
+    "guid": "fa121860-8876-430d-8dbc-ae3432ffedf3",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué documento debe publicarse obligatoriamente para la adquisición de la condición de funcionario de carrera?",
+    "answerOptions": [
+      {
+        "text": "El contrato de trabajo.",
+        "rationale": "Los funcionarios no tienen un contrato de trabajo, sino una relación estatutaria que no se rige por el derecho laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "El nombramiento en el Diario Oficial correspondiente.",
+        "rationale": "La publicidad oficial es un paso sucesivo necesario para que el nombramiento tenga efectos legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "La lista provisional de admitidos.",
+        "rationale": "Este documento pertenece a la fase de selección, no al acto final de adquisición de la condición de funcionario.",
+        "isCorrect": false
+      },
+      {
+        "text": "La certificación médica de aptitud.",
+        "rationale": "Aunque es un requisito previo, no constituye el acto administrativo que otorga la condición de funcionario de carrera.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un requisito posterior a la superación del proceso selectivo."
+  },
+  {
+    "guid": "00e002db-b765-406b-b9b7-8289f9ea1ed5",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el contexto de los derechos de los empleados públicos, ¿cuál de los siguientes es un derecho individual ejercido colectivamente?",
+    "answerOptions": [
+      {
+        "text": "La carrera profesional.",
+        "rationale": "La carrera profesional es un derecho de ejercicio individual basado en el progreso personal en la estructura.",
+        "isCorrect": false
+      },
+      {
+        "text": "La libertad sindical.",
+        "rationale": "Aunque el derecho a sindicarse es personal, su ejercicio requiere de la agrupación y acción colectiva.",
+        "isCorrect": true
+      },
+      {
+        "text": "La percepción de retribuciones.",
+        "rationale": "Cobrar el salario es un derecho que se ejerce y disfruta de manera estrictamente individual.",
+        "isCorrect": false
+      },
+      {
+        "text": "La formación continua.",
+        "rationale": "La formación es un derecho orientado al desarrollo individual del empleado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Involucra la participación en organizaciones para la defensa de intereses comunes."
+  },
+  {
+    "guid": "fb8b92e0-bee2-460e-a1e3-954f95de8f55",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la consecuencia de la pérdida de la nacionalidad española para un funcionario?",
+    "answerOptions": [
+      {
+        "text": "Ninguna, si mantiene la residencia legal.",
+        "rationale": "La nacionalidad es un requisito de permanencia en la condición de funcionario, salvo que se adquiera otra que habilite el acceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "La pérdida de la condición de funcionario.",
+        "rationale": "Al dejar de cumplir uno de los requisitos generales de acceso y permanencia, se produce la extinción de la relación de servicio.",
+        "isCorrect": true
+      },
+      {
+        "text": "El pase automático a personal laboral.",
+        "rationale": "No existe una conversión automática de estatus jurídico por pérdida de requisitos de nacionalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "La suspensión de funciones por seis meses.",
+        "rationale": "La suspensión es una sanción o medida cautelar, no un efecto de la pérdida de nacionalidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se considera una de las causas de extinción de la relación de servicio en el artículo 63."
+  },
+  {
+    "guid": "9bc17b24-cfe6-4fe8-876c-7b4688f48975",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué criterio rige la designación del personal directivo profesional según el artículo 13?",
+    "answerOptions": [
+      {
+        "text": "Libre nombramiento sin publicidad.",
+        "rationale": "La normativa exige procesos que garanticen la publicidad y concurrencia para estos puestos técnicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mérito y capacidad, junto con criterios de idoneidad.",
+        "rationale": "Se busca un equilibrio entre la competencia profesional y la adecuación específica al cargo de alta gestión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Antigüedad exclusiva en la administración.",
+        "rationale": "La mera antigüedad no garantiza la competencia para la gestión directiva por objetivos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Designación directa por el Pleno municipal.",
+        "rationale": "El personal directivo profesional debe seleccionarse mediante procedimientos reglados que evalúen su competencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su gestión debe estar sujeta a evaluación periódica y control de resultados."
+  },
+  {
+    "guid": "fbfec64e-fe80-4a9a-a62f-d8690c2d3102",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el caso de faltas graves, ¿cuándo prescriben las sanciones impuestas?",
+    "answerOptions": [
+      {
+        "text": "Al año.",
+        "rationale": "Un año es el plazo de prescripción para las sanciones por faltas leves.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los dos años.",
+        "rationale": "El artículo 97 establece que las sanciones por faltas graves prescriben a los dos años desde que la resolución es firme.",
+        "isCorrect": true
+      },
+      {
+        "text": "A los tres años.",
+        "rationale": "El plazo de tres años se aplica exclusivamente a las sanciones por faltas muy graves.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los seis meses.",
+        "rationale": "Seis meses es el plazo de prescripción de la falta leve en sí, no de la sanción grave.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo periodo que el plazo de prescripción de la infracción correspondiente."
+  },
+  {
+    "guid": "51076e82-83d5-40ee-a27d-e6f64bc2685c",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuántas horas sindicales mensuales tiene un representante en una unidad de hasta 100 funcionarios?",
+    "answerOptions": [
+      {
+        "text": "20 horas.",
+        "rationale": "Esta cantidad corresponde a unidades con entre 101 y 250 funcionarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "15 horas.",
+        "rationale": "Es el crédito horario mínimo establecido para la representación en unidades pequeñas.",
+        "isCorrect": true
+      },
+      {
+        "text": "30 horas.",
+        "rationale": "Este crédito se reserva para unidades de mayor tamaño, específicamente entre 251 y 500 funcionarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "10 horas.",
+        "rationale": "El crédito horario mínimo inicial en la escala legal es superior a esta cifra.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la primera escala del sistema de crédito de horas mensuales."
+  },
+  {
+    "guid": "9780cce9-d027-4773-8d66-425f478d13bb",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de estos permisos requiere que el familiar afectado sea de primer grado?",
+    "answerOptions": [
+      {
+        "text": "Permiso por matrimonio.",
+        "rationale": "El matrimonio es un acto propio del funcionario, no depende del grado de parentesco de terceros.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducción de jornada por enfermedad muy grave.",
+        "rationale": "Este permiso de hasta un mes con retribución completa está limitado al cuidado de familiares de primer grado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Permiso por fallecimiento de un abuelo.",
+        "rationale": "Los abuelos son familiares de segundo grado, por lo que el permiso es por muerte de familiar hasta ese grado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Permiso por traslado de domicilio.",
+        "rationale": "Este permiso no se basa en el parentesco, sino en el cambio de residencia del propio empleado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una medida de conciliación para casos de salud extrema."
+  },
+  {
+    "guid": "417c37e3-753c-4ec7-ab5c-c2ce76b34cf3",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si un funcionario interino ocupa una plaza vacante y esta se cubre por un funcionario de carrera?",
+    "answerOptions": [
+      {
+        "text": "Se convierte automáticamente en personal eventual.",
+        "rationale": "El personal eventual tiene funciones distintas y su nombramiento es discrecional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se produce el cese del funcionario interino.",
+        "rationale": "La interinidad es una situación transitoria vinculada a la ausencia de un titular definitivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tiene derecho a ser nombrado en la siguiente vacante disponible.",
+        "rationale": "El cese por cobertura de plaza no genera un derecho automático a un nuevo nombramiento sin un proceso selectivo previo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pasa a la situación de excedencia forzosa.",
+        "rationale": "La excedencia forzosa es una situación administrativa propia de los funcionarios de carrera, no de los interinos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La causa de su nombramiento ha desaparecido al completarse el proceso selectivo."
+  },
+  {
+    "guid": "3c843e09-eddc-428f-983e-4e3cdb4968c4",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la edad máxima para acceder al empleo público?",
+    "answerOptions": [
+      {
+        "text": "65 años.",
+        "rationale": "Aunque era la edad tradicional de jubilación, no es el límite absoluto de acceso si la jubilación forzosa es posterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "La edad de jubilación forzosa.",
+        "rationale": "El límite se establece para asegurar que el aspirante pueda prestar servicios antes de su retiro obligatorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "70 años.",
+        "rationale": "Esta es la edad máxima permitida para la prolongación del servicio activo, pero no el límite general de acceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe límite de edad máxima.",
+        "rationale": "Legalmente se establece la edad de jubilación forzosa como frontera para poder participar en procesos selectivos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Coincide con el momento en que cesa la relación de servicio de forma obligatoria."
+  },
+  {
+    "guid": "c14edde7-c106-4d92-9a4a-99a71a7370f3",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué situación se halla un funcionario que presta servicios en organismos internacionales?",
+    "answerOptions": [
+      {
+        "text": "Servicio activo.",
+        "rationale": "El servicio activo se reserva para puestos dentro de las administraciones públicas españolas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Servicios especiales.",
+        "rationale": "Esta situación contempla el desarrollo de misiones en organizaciones internacionales para fomentar la cooperación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Excedencia por interés particular.",
+        "rationale": "La excedencia voluntaria no conlleva los beneficios de reserva de plaza que suelen tener las misiones internacionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspensión de funciones.",
+        "rationale": "Prestar servicios en el extranjero de forma oficial no es motivo de sanción o suspensión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma situación que se aplica a los diputados o senadores."
+  },
+  {
+    "guid": "cc5eeaa1-c25d-4752-90e3-458743b21b10",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio ético del Código de Conducta prohíbe aceptar regalos que superen los usos sociales?",
+    "answerOptions": [
+      {
+        "text": "Principio de objetividad.",
+        "rationale": "La objetividad se refiere a la imparcialidad en la toma de decisiones, no específicamente a los obsequios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de integridad.",
+        "rationale": "La integridad implica un comportamiento honesto que rechaza cualquier beneficio personal indebido.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de transparencia.",
+        "rationale": "La transparencia se refiere al acceso a la información y claridad de la gestión pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de eficacia.",
+        "rationale": "La eficacia se centra en la consecución de objetivos y resultados de la administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está relacionado con la honestidad y la independencia de criterio del empleado."
+  },
+  {
+    "guid": "1267160f-7d53-417f-9064-7333344e187c",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el artículo 76, ¿cuál es el requisito de titulación para el subgrupo C2?",
+    "answerOptions": [
+      {
+        "text": "Bachiller.",
+        "rationale": "El título de Bachiller es el exigido para el subgrupo superior, el C1.",
+        "isCorrect": false
+      },
+      {
+        "text": "Graduado en Educación Secundaria Obligatoria.",
+        "rationale": "Es la titulación mínima requerida para los puestos de nivel auxiliar en la administración.",
+        "isCorrect": true
+      },
+      {
+        "text": "Diplomatura universitaria.",
+        "rationale": "Esta titulación corresponde a los antiguos cuerpos del Grupo B, hoy integrados en el A2.",
+        "isCorrect": false
+      },
+      {
+        "text": "Certificado de escolaridad.",
+        "rationale": "Este certificado se asocia a las agrupaciones profesionales que no requieren titulación académica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la titulación que se obtiene al finalizar la etapa de enseñanza obligatoria."
+  },
+  {
+    "guid": "c8cb3468-564e-4ab1-bf31-19bd69650568",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué derecho permite a los funcionarios progresar sin necesidad de cambiar de puesto de trabajo?",
+    "answerOptions": [
+      {
+        "text": "Carrera vertical.",
+        "rationale": "La carrera vertical consiste en el ascenso en la estructura de puestos de trabajo mediante concursos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Carrera horizontal.",
+        "rationale": "Consiste en la progresión de grado, categoría o escalón sin cambiar de puesto, basada en la evaluación del desempeño.",
+        "isCorrect": true
+      },
+      {
+        "text": "Promoción interna.",
+        "rationale": "La promoción interna implica el acceso a cuerpos de un grupo de clasificación superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Libre designación.",
+        "rationale": "La libre designación es un sistema de provisión de puestos, no una modalidad de carrera profesional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en el reconocimiento de competencias y trayectoria personal en el mismo destino."
+  },
+  {
+    "guid": "9627a5ca-02d9-41ac-b357-a328279c245b",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el límite de prescripción para las faltas leves?",
+    "answerOptions": [
+      {
+        "text": "Un mes.",
+        "rationale": "Un mes es un periodo excesivamente breve incluso para las infracciones de menor calado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis meses.",
+        "rationale": "Las infracciones leves tienen el periodo de caducidad más corto en el régimen disciplinario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un año.",
+        "rationale": "El plazo de un año es el que se aplica a la prescripción de las sanciones leves ya impuestas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres meses.",
+        "rationale": "No es un plazo estándar contemplado en el régimen disciplinario del TREBEP.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es medio año."
+  },
+  {
+    "guid": "1eeb4140-6dca-432d-9b8f-e32ec6a7bf84",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué concepto retribuye el especial rendimiento y la iniciativa?",
+    "answerOptions": [
+      {
+        "text": "Gratificaciones.",
+        "rationale": "Las gratificaciones tienen naturaleza excepcional por servicios fuera de jornada, no por rendimiento ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Complemento de productividad.",
+        "rationale": "Su objetivo es premiar resultados que excedan lo esperado en el desempeño del puesto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Trienios.",
+        "rationale": "Los trienios son automáticos por el mero paso del tiempo (tres años de servicio).",
+        "isCorrect": false
+      },
+      {
+        "text": "Complemento específico.",
+        "rationale": "Se asigna al puesto por sus características intrínsecas, no por cómo el individuo lo desempeña.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una cantidad que se percibe de forma no periódica ni fija, sujeta a evaluación."
+  },
+  {
+    "guid": "a3a44e4f-b56a-4a7b-9370-a10bc48b6d8e",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de estas situaciones NO es una situación administrativa básica de los funcionarios de carrera?",
+    "answerOptions": [
+      {
+        "text": "Excedencia.",
+        "rationale": "La excedencia es una situación fundamental que permite el cese temporal del servicio activo por diversas causas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jubilación parcial.",
+        "rationale": "La jubilación parcial es una forma de retiro y no se clasifica como una 'situación administrativa' activa del funcionario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Servicios especiales.",
+        "rationale": "Está contemplada en el artículo 85 como una de las situaciones en las que puede hallarse un funcionario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspensión de funciones.",
+        "rationale": "Es la situación en la que el funcionario queda privado temporalmente del ejercicio de sus funciones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Las situaciones administrativas regulan la relación con el servicio, no el fin definitivo de la misma."
+  },
+  {
+    "guid": "4e8347a1-81f6-4a5c-852f-0dcace8dffe6",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el caso de fallecimiento de un familiar de segundo grado de consanguinidad en la misma localidad, ¿cuánto dura el permiso?",
+    "answerOptions": [
+      {
+        "text": "Dos días hábiles.",
+        "rationale": "Es el periodo estándar para familiares cercanos cuando no hay necesidad de desplazamiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres días hábiles.",
+        "rationale": "Esta duración suele corresponder al primer grado de consanguinidad o a casos con desplazamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un día natural.",
+        "rationale": "Un día es insuficiente para las gestiones y el duelo derivados del fallecimiento de familiares directos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuatro días hábiles.",
+        "rationale": "Este plazo se reserva para casos que implican traslados a otras localidades.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la duración mínima para permisos por fallecimiento."
+  },
+  {
+    "guid": "bb41d8bb-472b-4b80-802b-60cd46ebb2a4",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A quién corresponde el ejercicio de las funciones que implican participación directa en potestades públicas?",
+    "answerOptions": [
+      {
+        "text": "Al personal eventual.",
+        "rationale": "Su función es meramente de asesoramiento y confianza, sin poder administrativo real.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exclusivamente a los funcionarios públicos.",
+        "rationale": "El artículo 9.2 reserva estas funciones de salvaguarda de intereses generales a quienes tienen una relación estatutaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al personal laboral fijo.",
+        "rationale": "El personal laboral se rige por contratos y no puede ejercer potestades de imperio de la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al personal directivo profesional.",
+        "rationale": "Aunque dirigen, la potestad pública como tal está ligada a la condición de funcionario para garantizar la objetividad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una garantía constitucional para asegurar la imparcialidad de la administración."
+  },
+  {
+    "guid": "d4500a28-76f3-4d9c-aec7-c4949da982ba",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de los siguientes es un componente de las retribuciones básicas?",
+    "answerOptions": [
+      {
+        "text": "Los trienios.",
+        "rationale": "Los trienios consisten en una cantidad igual por cada tres años de servicio, vinculada al grupo de clasificación.",
+        "isCorrect": true
+      },
+      {
+        "text": "El complemento de destino.",
+        "rationale": "Este es el primer componente de las retribuciones complementarias ligadas al puesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las pagas extraordinarias (sueldo y trienios).",
+        "rationale": "Aunque derivan de básicas, los trienios en sí mismos son la unidad básica de antigüedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El complemento específico.",
+        "rationale": "Es una retribución complementaria que depende de las condiciones de penosidad o responsabilidad del puesto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Retribuye la antigüedad del funcionario en la Administración."
+  },
+  {
+    "guid": "4746ff01-d039-48ae-9e0a-6d2a0afcc20e",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué nombre recibe el conjunto de normas que regulan el empleo público?",
+    "answerOptions": [
+      {
+        "text": "Derecho Civil del Trabajo.",
+        "rationale": "El empleo público se aleja de la esfera civil para entrar en la órbita del derecho administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho de la Función Pública.",
+        "rationale": "Es la denominación técnica que engloba las reglas de acceso, carrera y deberes de los empleados públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho Laboral Administrativo.",
+        "rationale": "Aunque existe personal laboral en la administración, el régimen general es estatutario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estatuto del Trabajador Público.",
+        "rationale": "El nombre correcto de la ley principal es Estatuto Básico del Empleado Público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se menciona en la introducción del tema como la denominación de la materia."
+  },
+  {
+    "guid": "fb6ba7c2-2c5d-470b-945a-1d82baa1d3cc",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si un aspirante a funcionario de carrera no presta juramento o promesa?",
+    "answerOptions": [
+      {
+        "text": "Se le sanciona con una falta leve.",
+        "rationale": "El juramento no es un deber disciplinario sino un requisito de perfeccionamiento del nombramiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "No adquiere la condición de funcionario.",
+        "rationale": "El acatamiento a la Constitución y al resto del ordenamiento jurídico es un paso sucesivo obligatorio según el artículo 62.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se le nombra como funcionario interino.",
+        "rationale": "La interinidad no es un sustituto de la carrera por falta de formalidades.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe repetir el proceso selectivo.",
+        "rationale": "La superación de las pruebas se mantiene, pero la relación no se formaliza sin el acto de acatamiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es uno de los cuatro requisitos del artículo 62 del TREBEP."
+  },
+  {
+    "guid": "41a9df8c-0bd7-41da-b24c-14683461c123",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué se entiende por 'carrera vertical'?",
+    "answerOptions": [
+      {
+        "text": "El aumento de sueldo anual por antigüedad.",
+        "rationale": "Esto describe la percepción de trienios, no un movimiento de carrera profesional.",
+        "isCorrect": false
+      },
+      {
+        "text": "El ascenso en la estructura de puestos de trabajo mediante provisión de puestos.",
+        "rationale": "Implica subir niveles de responsabilidad y jerarquía a través de concursos o libre designación.",
+        "isCorrect": true
+      },
+      {
+        "text": "El acceso a un cuerpo de un subgrupo superior.",
+        "rationale": "Esto se define técnicamente como promoción interna, no como carrera vertical propiamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "La mejora de competencias mediante cursos de formación.",
+        "rationale": "La formación es un medio para la carrera, pero no constituye la carrera en sí misma.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requiere la superación de procedimientos de concurso para ocupar puestos de mayor nivel."
+  },
+  {
+    "guid": "286231e1-e40b-4d47-81dc-25542dda330d",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el límite de días por asuntos particulares (moscosos) en el ámbito estatal?",
+    "answerOptions": [
+      {
+        "text": "Tres días al año.",
+        "rationale": "Es una cantidad inferior a la reconocida históricamente para esta finalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis días al año.",
+        "rationale": "El artículo 48 establece este derecho general para la gestión de asuntos personales sin necesidad de justificación médica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Diez días hábiles.",
+        "rationale": "Supera ampliamente el estándar de días de libre disposición reconocido por la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco días hábiles.",
+        "rationale": "Aunque es similar, no coincide con el número exacto establecido en el texto refundido.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número inferior a una semana de trabajo tradicional."
+  },
+  {
+    "guid": "7502db1d-ac5a-429c-afb9-636c49b06b31",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el régimen de incompatibilidades, ¿puede un funcionario ocupar un segundo puesto en el sector público?",
+    "answerOptions": [
+      {
+        "text": "Sí, sin necesidad de autorización previa.",
+        "rationale": "Toda segunda actividad pública requiere una autorización expresa de compatibilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo en supuestos excepcionales previstos por ley (como la docencia).",
+        "rationale": "La regla general es la dedicación única, con excepciones limitadas para el interés público.",
+        "isCorrect": true
+      },
+      {
+        "text": "No, está prohibido de forma absoluta.",
+        "rationale": "Existen excepciones legales que permiten la compatibilidad bajo condiciones estrictas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, siempre que no coincidan los horarios.",
+        "rationale": "La ausencia de coincidencia horaria es necesaria pero no suficiente; se requiere habilitación legal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La Ley 53/1984 establece un principio de exclusividad con salvaguardas específicas."
+  },
+  {
+    "guid": "d7b3926b-e37f-4410-9816-82fb9ff931ec",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sanción puede acarrear la realización de actividades incompatibles cuando dan lugar a una situación de incompatibilidad?",
+    "answerOptions": [
+      {
+        "text": "Falta leve.",
+        "rationale": "La infracción de las normas de incompatibilidad tiene una relevancia superior a un mero descuido administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Falta muy grave.",
+        "rationale": "El incumplimiento de las normas sobre incompatibilidades se castiga con el máximo rigor para proteger la imparcialidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Falta grave.",
+        "rationale": "Aunque es una infracción seria, la ley la eleva a la categoría de muy grave en la mayoría de supuestos de ejercicio efectivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Amonestación verbal.",
+        "rationale": "La amonestación no es una sanción prevista para faltas de esta entidad jurídica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encuentra en el listado de infracciones de mayor severidad del artículo 95."
+  },
+  {
+    "guid": "219c1740-bec3-4105-9153-a5bf82949063",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la duración del permiso de paternidad (nacimiento para el progenitor diferente a la madre biológica)?",
+    "answerOptions": [
+      {
+        "text": "Ocho semanas.",
+        "rationale": "Era el periodo previo en fases de implantación, pero ya no es el vigente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dieciséis semanas.",
+        "rationale": "La equiparación total de permisos busca fomentar la corresponsabilidad en el cuidado del menor.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuatro semanas.",
+        "rationale": "Esta duración corresponde a legislaciones muy anteriores al proceso de equiparación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Doce semanas.",
+        "rationale": "Es una cifra intermedia que no refleja la igualdad actual de los permisos de nacimiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Actualmente está equiparado en duración al permiso de la madre biológica."
+  },
+  {
+    "guid": "7256577c-034d-43af-b02d-0172c684ca90",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano es competente para el nombramiento del personal eventual en el Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "El Plenario del Consejo Municipal.",
+        "rationale": "El Pleno tiene funciones normativas y de control, no de gestión directa de personal de confianza.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión de Gobierno.",
+        "rationale": "Es el órgano encargado de los nombramientos de este tipo de personal según la Carta Municipal y la normativa local.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Secretario General.",
+        "rationale": "El Secretario tiene funciones de fe pública y asesoramiento legal, no potestad de nombramiento político.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Generalitat de Catalunya.",
+        "rationale": "La autonomía local permite al propio Ayuntamiento gestionar su personal eventual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encarga de la gestión ejecutiva diaria de la corporación."
+  },
+  {
+    "guid": "56ac0100-f325-46c0-a1e2-98f8f4c063da",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué requisito es necesario para el acceso de nacionales de otros Estados como personal funcionario?",
+    "answerOptions": [
+      {
+        "text": "Tener residencia legal permanente por más de diez años.",
+        "rationale": "La residencia por sí sola no habilita el acceso a la función pública reservada a nacionales o ciudadanos de la UE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser ciudadano de la Unión Europea o cónyuge de español/a o miembro de la UE.",
+        "rationale": "El artículo 57 extiende el derecho de acceso a estos colectivos por los tratados de libre circulación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Haber cursado estudios universitarios en España.",
+        "rationale": "El lugar de estudio no es un criterio de nacionalidad o acceso preferente según el TREBEP.",
+        "isCorrect": false
+      },
+      {
+        "text": "Poseer permiso de trabajo por cuenta propia.",
+        "rationale": "El permiso de trabajo laboral no equivale a la habilitación para el ejercicio de la función pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Los tratados de la Unión Europea juegan un papel fundamental en esta excepción."
+  },
+  {
+    "guid": "e3fe23e5-7f5d-4541-a4f8-ae7ec38571ce",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué concepto retribuye el nivel del puesto de trabajo ocupado?",
+    "answerOptions": [
+      {
+        "text": "Sueldo.",
+        "rationale": "El sueldo es una retribución básica común a todos los funcionarios de un mismo grupo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Complemento de destino.",
+        "rationale": "Este complemento es igual para todos los puestos incluidos en un mismo nivel de la estructura administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Paga extraordinaria.",
+        "rationale": "La paga extra es un devengo semestral que incluye sueldo y trienios, no es un complemento de nivel.",
+        "isCorrect": false
+      },
+      {
+        "text": "Complemento específico.",
+        "rationale": "Retribuye condiciones especiales, no el nivel jerárquico o de clasificación del puesto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Aparece definido en las relaciones de puestos de trabajo vinculado a la jerarquía del puesto."
+  },
+  {
+    "guid": "0edf8347-fcb6-4f17-93b4-ff9053939f0f",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué modalidad de carrera implica el acceso a cuerpos o escalas de un Grupo superior?",
+    "answerOptions": [
+      {
+        "text": "Carrera horizontal.",
+        "rationale": "La carrera horizontal no implica cambio de cuerpo ni ascenso en la escala de grupos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Promoción interna.",
+        "rationale": "Es el derecho a progresar mediante el acceso a niveles superiores de clasificación profesional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Carrera vertical.",
+        "rationale": "La carrera vertical se refiere al ascenso en puestos dentro del mismo cuerpo o escala.",
+        "isCorrect": false
+      },
+      {
+        "text": "Libre designación.",
+        "rationale": "Es un sistema de provisión de puestos específicos, no una progresión entre grupos de clasificación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requiere la posesión de la titulación necesaria para el nuevo grupo y superar pruebas selectivas."
+  },
+  {
+    "guid": "a587e518-ca58-4792-8dbc-01e70ae04ae7",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la sanción máxima que puede imponerse por una falta muy grave?",
+    "answerOptions": [
+      {
+        "text": "Suspensión de funciones por seis meses.",
+        "rationale": "Esta sanción es posible, pero no es la máxima severidad contemplada en la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Separación del servicio.",
+        "rationale": "Implica la expulsión definitiva de la administración y la pérdida de la condición de funcionario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Traslado forzoso.",
+        "rationale": "El traslado es una sanción grave, pero permite mantener la condición de empleado público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Multa coercitiva.",
+        "rationale": "Las multas económicas directas no suelen ser sanciones disciplinarias típicas para funcionarios en este régimen.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la sanción que extingue por completo la relación con la Administración."
+  },
+  {
+    "guid": "957b0ce2-8bbd-42a5-b02e-858b90cce0fe",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la evaluación del desempeño, ¿qué consecuencia puede tener un resultado negativo continuado?",
+    "answerOptions": [
+      {
+        "text": "Pérdida automática de la nacionalidad.",
+        "rationale": "La evaluación del desempeño afecta a la carrera y retribuciones, no a los requisitos civiles de nacionalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Remoción del puesto de trabajo obtenido por concurso.",
+        "rationale": "Si el rendimiento es insuficiente de forma reiterada, la administración puede retirar al funcionario de su puesto actual.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inhabilitación absoluta para cargo público.",
+        "rationale": "La inhabilitación es una pena penal o sanción disciplinaria extrema, no una consecuencia directa de la evaluación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducción del sueldo base.",
+        "rationale": "Las retribuciones básicas son inalienables mientras se mantenga la condición de servicio activo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Afecta a la permanencia en el puesto específico que se ocupa."
+  },
+  {
+    "guid": "8e59e3a2-503e-4008-97f3-445dd07fca3c",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio de conducta obliga a los empleados a tratar con atención y respeto a los ciudadanos?",
+    "answerOptions": [
+      {
+        "text": "Principio de agilidad.",
+        "rationale": "La agilidad se refiere a la rapidez en la gestión de los procedimientos, no al trato personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de cortesía y respeto.",
+        "rationale": "Este principio asegura una relación digna y educada entre la administración y los administrados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de lealtad.",
+        "rationale": "La lealtad se enfoca en la relación del empleado con la institución y sus superiores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de sobriedad.",
+        "rationale": "No es un principio de conducta recogido con este nombre en el Código de Conducta del TREBEP.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un deber fundamental para garantizar la imagen y servicio público."
+  },
+  {
+    "guid": "d247c185-a33c-400b-a663-5ee8a43307be",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el límite máximo de duración de las licencias por asuntos propios sin retribución?",
+    "answerOptions": [
+      {
+        "text": "Un mes al año.",
+        "rationale": "Este periodo es muy inferior a la posibilidad de licencia acumulada permitida.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis meses cada dos años.",
+        "rationale": "Es el periodo máximo acumulado que puede concederse subordinado a las necesidades del servicio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres meses cada año.",
+        "rationale": "Aunque es una cifra similar en cómputo total, la norma especifica el periodo de dos años para el control.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año cada tres años.",
+        "rationale": "No coincide con el límite temporal de flexibilidad establecido para licencias no retribuidas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se menciona en el apartado de permisos y licencias adicionales de Cataluña."
+  },
+  {
+    "guid": "15db8794-920a-4ffb-ac2d-ecd6a5c7ba74",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con las vacaciones si coinciden con un periodo de incapacidad temporal por embarazo o parto?",
+    "answerOptions": [
+      {
+        "text": "Se pierden por falta de disfrute en el año natural.",
+        "rationale": "El derecho a vacaciones está protegido legalmente en casos de salud y maternidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se tiene derecho a disfrutarlas en fecha distinta, incluso tras el año natural.",
+        "rationale": "La ley permite el disfrute diferido para no penalizar las situaciones de baja médica o maternidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se abonan económicamente al finalizar el año.",
+        "rationale": "Las vacaciones en activo no pueden ser sustituidas por compensación económica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se reduce su duración a la mitad.",
+        "rationale": "La duración de las vacaciones no debe verse mermada por situaciones de incapacidad debidamente justificadas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una medida para garantizar que el descanso efectivo se realice realmente."
+  },
+  {
+    "guid": "5abc1e1f-ff68-46c6-a33f-319a75105b1c",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la negociación colectiva, ¿qué materias están excluidas de la negociación?",
+    "answerOptions": [
+      {
+        "text": "Las retribuciones complementarias.",
+        "rationale": "Las retribuciones son una materia clásica y obligatoria de negociación en las Mesas.",
+        "isCorrect": false
+      },
+      {
+        "text": "La potestad de organización de las Administraciones Públicas.",
+        "rationale": "La decisión sobre cómo se estructura el servicio es una prerrogativa exclusiva del poder público.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los planes de formación.",
+        "rationale": "La formación y promoción son temas que deben ser acordados con los representantes sindicales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los calendarios laborales.",
+        "rationale": "La distribución de la jornada es una de las materias centrales de los pactos y acuerdos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere al derecho de la dirección a decidir la estructura de los servicios."
+  },
+  {
+    "guid": "fa6f98aa-2cdf-45b2-a7bf-06d4fa76edce",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué requisito se exige para el ingreso en el Subgrupo C1?",
+    "answerOptions": [
+      {
+        "text": "Título de Grado.",
+        "rationale": "El título de Grado se exige para los cuerpos del Grupo A.",
+        "isCorrect": false
+      },
+      {
+        "text": "Título de Bachiller o Técnico.",
+        "rationale": "Es la titulación académica intermedia requerida para este nivel de clasificación profesional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Graduado Escolar antiguo.",
+        "rationale": "Esta titulación es insuficiente para el subgrupo C1, correspondiendo a niveles inferiores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Certificado de Profesionalidad de Nivel 1.",
+        "rationale": "La clasificación profesional se basa en títulos académicos oficiales del sistema educativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la titulación que se obtiene tras superar la Educación Secundaria post-obligatoria."
+  },
+  {
+    "guid": "080c7c7b-bf98-4809-8083-08d481879bcd",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el objetivo del Registro de Órganos de Representación del Personal?",
+    "answerOptions": [
+      {
+        "text": "Controlar las horas de trabajo de los delegados.",
+        "rationale": "El control horario individual no es la finalidad de un registro administrativo de este tipo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dar publicidad y seguridad jurídica a los resultados electorales y actas.",
+        "rationale": "Permite conocer formalmente quiénes son los representantes legítimos de los trabajadores.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inscribir las faltas disciplinarias de los sindicatos.",
+        "rationale": "El régimen disciplinario de los empleados es independiente de la inscripción de los órganos de representación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tramitar las subvenciones a las centrales sindicales.",
+        "rationale": "La gestión económica sindical no es el propósito de este registro específico contemplado en la DA 15a.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se menciona en la Disposición Adicional Decimoquinta del TREBEP."
+  }
+]

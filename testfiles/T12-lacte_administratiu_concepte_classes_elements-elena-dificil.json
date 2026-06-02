@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "1cb4504b-db5f-40f2-8084-4b54551858fd",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la diferencia fundamental entre la potestad reglamentaria y la potestad administrativa que da lugar a un acto administrativo según la doctrina de García Enterría?",
+    "answerOptions": [
+      {
+        "text": "El reglamento crea o innova el derecho objetivo, mientras que el acto lo aplica a un caso concreto.",
+        "rationale": "La esencia de la distinción radica en que las normas tienen vocación de permanencia e innovan el ordenamiento, mientras que el acto es una aplicación singular que agota su eficacia con su cumplimiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "El reglamento es siempre escrito y el acto administrativo puede ser únicamente verbal.",
+        "rationale": "Ambos suelen ser escritos por seguridad jurídica, aunque el acto admite excepciones verbales; esta no es la distinción doctrinal definitoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "El reglamento emana del poder legislativo y el acto administrativo del poder ejecutivo.",
+        "rationale": "Tanto el reglamento como el acto administrativo son productos de la Administración Pública, pertenecientes al ámbito ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El reglamento requiere notificación individual y el acto administrativo solo publicación en diarios oficiales.",
+        "rationale": "Es al revés: los reglamentos se publican para su vigencia general y los actos suelen notificarse individualmente por su carácter singular.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en cuál de los dos instrumentos tiene la capacidad de 'crear' nuevas normas legales."
+  },
+  {
+    "guid": "429a82b2-d3bb-4f9b-9312-68a3d1cfa2dc",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 47.1 de la LPACAP, ¿en qué supuesto un acto dictado por un órgano incompetente se considera nulo de pleno derecho?",
+    "answerOptions": [
+      {
+        "text": "Cuando la incompetencia sea manifiesta por razón de la materia o del territorio.",
+        "rationale": "La ley reserva la nulidad radical para los vicios de competencia más graves, específicamente los materiales y territoriales, siempre que sean ostensibles.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuando el órgano sea incompetente únicamente por razones de jerarquía administrativa.",
+        "rationale": "La incompetencia jerárquica generalmente se considera un vicio de anulabilidad, subsanable mediante la convalidación por el superior jerárquico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando el titular del órgano no haya tomado posesión de su cargo de forma legal.",
+        "rationale": "Este supuesto se refiere a la investidura del titular, lo cual afecta al elemento subjetivo pero no encaja directamente en la definición de incompetencia del art. 47.1.b.",
+        "isCorrect": false
+      },
+      {
+        "text": "En cualquier caso de falta de competencia, independientemente de su naturaleza.",
+        "rationale": "El ordenamiento jurídico gradúa la invalidez, permitiendo que ciertos vicios de competencia menores no supongan la nulidad absoluta.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Existen tres tipos de competencia: materia, territorio y jerarquía; solo las dos primeras suelen acarrear nulidad absoluta."
+  },
+  {
+    "guid": "c27e94ff-c9e9-40f4-a2fa-ac4a91943cd9",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Una resolución sancionadora que aún puede ser recurrida en vía administrativa, ¿cuándo adquiere carácter ejecutivo según el artículo 90.3 de la LPACAP?",
+    "answerOptions": [
+      {
+        "text": "Cuando ya no sea posible interponer contra ella ningún recurso ordinario en vía administrativa.",
+        "rationale": "En materia sancionadora, la ejecutividad se demora específicamente hasta que la resolución sea firme en la vía administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Desde el mismo momento en que es dictada por el órgano competente.",
+        "rationale": "Aunque la regla general de los actos es la ejecutividad inmediata, las sanciones constituyen una excepción legal para proteger el derecho del administrado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente cuando el interesado manifieste por escrito su conformidad con la sanción.",
+        "rationale": "La ejecutividad no depende de la voluntad o aceptación del interesado, sino de la firmeza administrativa de la decisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo después de que se haya resuelto el recurso contencioso-administrativo ante los tribunales.",
+        "rationale": "La firmeza requerida por el art. 90.3 es en 'vía administrativa', no requiere esperar a la resolución de la vía judicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise las reglas especiales para los procedimientos de naturaleza sancionadora."
+  },
+  {
+    "guid": "4b98dbbe-a661-46d7-adc5-e747cfa5e2c2",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de los siguientes elementos se considera un requisito del contenido (elemento objetivo) del acto administrativo?",
+    "answerOptions": [
+      {
+        "text": "Que sea lícito, posible, determinado o determinable y adecuado a los fines que persigue.",
+        "rationale": "El objeto del acto debe cumplir con estas condiciones de viabilidad jurídica y física para que la declaración administrativa sea válida.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que sea dictado por un funcionario que no esté incurso en causa de abstención.",
+        "rationale": "La imparcialidad del funcionario pertenece al elemento subjetivo del acto, no al contenido u objeto del mismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que se siga estrictamente el procedimiento legalmente establecido.",
+        "rationale": "El procedimiento es el elemento formal o instrumental a través del cual se llega a dictar el acto, diferenciándose del contenido propio del mismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que persiga siempre un fin público genérico definido en la Constitución.",
+        "rationale": "Si bien debe perseguir un fin público, la adecuación al fin es un elemento teleológico que se analiza en relación con la norma específica que otorga la potestad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en las características que debe tener la 'cosa' o 'decisión' que la Administración declara."
+  },
+  {
+    "guid": "be886655-2af2-414d-90b2-7ca4ecec1288",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué circunstancia excepcional puede otorgarse eficacia retroactiva a un acto administrativo según el artículo 39.3 de la LPACAP?",
+    "answerOptions": [
+      {
+        "text": "Cuando se dicten en sustitución de actos anulados y produzcan efectos favorables al interesado.",
+        "rationale": "La retroactividad es una excepción permitida cuando beneficia al ciudadano y ya existían los presupuestos de hecho en la fecha a la que se retrotrae.",
+        "isCorrect": true
+      },
+      {
+        "text": "Siempre que la Administración lo considere necesario para el interés general.",
+        "rationale": "La retroactividad no es una facultad discrecional absoluta, sino que está tasada legalmente para evitar la inseguridad jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando se trate de disposiciones sancionadoras no favorables.",
+        "rationale": "La Constitución y la ley prohíben expresamente la retroactividad de disposiciones sancionadoras no favorables o restrictivas de derechos individuales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando el acto sea notificado con más de diez días de retraso por culpa de la Administración.",
+        "rationale": "El retraso en la notificación no genera retroactividad; al contrario, demora la eficacia del acto hasta que la notificación se produce efectivamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere qué tipo de efectos (favorables o desfavorables) debe tener el acto para permitir que su eficacia 'viaje al pasado'."
+  },
+  {
+    "guid": "7ef5add0-5e95-40e0-b576-ebe29dafdb7c",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 48.2 de la LPACAP, ¿cuándo un defecto de forma determina la anulabilidad de un acto administrativo?",
+    "answerOptions": [
+      {
+        "text": "Cuando el acto carezca de los requisitos formales indispensables para alcanzar su fin o dé lugar a la indefensión.",
+        "rationale": "El principio de conservación de los actos implica que los defectos de forma leves son simples irregularidades, a menos que impidan el objetivo del acto o vulneren derechos de defensa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Siempre que se incumpla cualquier plazo previsto en el procedimiento administrativo.",
+        "rationale": "Las actuaciones fuera de tiempo solo anulan el acto si así lo impone la naturaleza del término (términos esenciales).",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando no se utilice el papel oficial de la Administración correspondiente.",
+        "rationale": "Este tipo de omisiones son meras irregularidades no invalidantes que no afectan a la validez sustancial de la decisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando la resolución no incluya el nombre completo del funcionario que la dicta.",
+        "rationale": "A menos que esto impida identificar la competencia o cause indefensión real, no es causa automática de anulabilidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "No todo error en la forma es fatal; piense en el impacto real que debe tener el error sobre el ciudadano o el propósito del acto."
+  },
+  {
+    "guid": "3c2bf3ea-6c0c-4d9c-96da-9a63a4c62603",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "El concepto de 'desviación de poder' se asocia directamente con la infracción de cuál de los siguientes elementos del acto administrativo:",
+    "answerOptions": [
+      {
+        "text": "El elemento teleológico o fin del acto.",
+        "rationale": "La desviación de poder ocurre cuando la Administración utiliza sus potestades para fines distintos de los fijados por el ordenamiento jurídico, aunque siga el procedimiento formal.",
+        "isCorrect": true
+      },
+      {
+        "text": "El elemento subjetivo relacionado con la competencia territorial.",
+        "rationale": "La competencia territorial es una cuestión de límites geográficos de actuación, no del propósito perseguido con la misma.",
+        "isCorrect": false
+      },
+      {
+        "text": "El elemento formal relativo a la notificación del acto.",
+        "rationale": "La notificación afecta a la eficacia, no a la adecuación del acto al fin público legalmente previsto.",
+        "isCorrect": false
+      },
+      {
+        "text": "El elemento objetivo en cuanto a la licitud del contenido.",
+        "rationale": "Aunque un acto con desviación de poder es ilícito, la infracción específica recae sobre la finalidad (por qué se hace) y no sobre el objeto en sí.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en qué sucede cuando la Administración usa una ley con un propósito 'oculto' o distinto al previsto."
+  },
+  {
+    "guid": "9aac4f38-e31d-4886-8dd2-f3997823c2c1",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué técnica permite a la Administración subsanar los vicios de un acto administrativo que sea simplemente anulable?",
+    "answerOptions": [
+      {
+        "text": "La convalidación.",
+        "rationale": "La convalidación es la herramienta jurídica que permite 'arreglar' actos con vicios menores (anulables), dándoles plena validez desde el momento de la subsanación.",
+        "isCorrect": true
+      },
+      {
+        "text": "La rectificación de errores materiales.",
+        "rationale": "La rectificación se limita a errores aritméticos o de hecho que no alteran la voluntad del acto, no sirve para corregir infracciones del ordenamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "La revisión de oficio.",
+        "rationale": "La revisión de oficio es el procedimiento para declarar la nulidad de un acto, no para hacerlo válido o 'sanarlo'.",
+        "isCorrect": false
+      },
+      {
+        "text": "La suspensión de la ejecución.",
+        "rationale": "La suspensión es una medida cautelar que detiene los efectos del acto, pero no corrige sus vicios de legalidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el término que implica 'confirmar' la validez de algo que tenía un defecto corregible."
+  },
+  {
+    "guid": "9f95998f-65a3-4f82-937a-1dc0434e0b28",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según la clasificación por el destinatario, ¿cuál es la principal diferencia operativa entre un acto singular y un acto general?",
+    "answerOptions": [
+      {
+        "text": "Los singulares se notifican personalmente y los generales se publican en diarios oficiales.",
+        "rationale": "La notificación individual es la regla para actos con destinatarios identificados, mientras que la publicación garantiza el conocimiento para una pluralidad indeterminada.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los singulares son siempre reglados y los generales son siempre discrecionales.",
+        "rationale": "Tanto actos singulares como generales pueden basarse en potestades regladas o discrecionales; el destinatario no determina este margen de libertad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo los actos singulares pueden ser recurridos en vía administrativa.",
+        "rationale": "Cualquier ciudadano afectado por un acto, sea este singular o general, tiene derecho a impugnarlo si lesiona sus intereses legítimos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los actos generales tienen rango de ley y los singulares rango de decreto.",
+        "rationale": "Ambos son actos administrativos subordinados a la ley; el rango normativo no depende de a cuántas personas se dirija el acto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere cómo llega la información del acto a los interesados en cada caso."
+  },
+  {
+    "guid": "c66d242d-8e0f-4439-a41e-a47c020fb499",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué supuesto la Administración está obligada a motivar un acto administrativo según el artículo 35 de la LPACAP?",
+    "answerOptions": [
+      {
+        "text": "Cuando el acto limite derechos subjetivos o intereses legítimos.",
+        "rationale": "La motivación es una garantía esencial cuando la decisión administrativa es desfavorable o restrictiva para el ciudadano, permitiendo conocer las razones para su defensa.",
+        "isCorrect": true
+      },
+      {
+        "text": "En todos los actos de trámite que no pongan fin al procedimiento.",
+        "rationale": "Como norma general, solo las resoluciones definitivas o actos de trámite 'cualificados' requieren motivación expresa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando el acto sea dictado por un órgano colegiado en lugar de uno unipersonal.",
+        "rationale": "La estructura del órgano no determina la obligación de motivar; lo hace la naturaleza y el efecto del contenido del acto sobre el administrado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente cuando el interesado lo solicite por escrito tras recibir la notificación.",
+        "rationale": "La obligación de motivar debe cumplirse en el momento de dictar el acto para los supuestos legales, no es a instancia de parte post-facto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en qué tipo de decisiones administrativas requieren una explicación clara para que el ciudadano pueda 'defenderse' de ellas."
+  },
+  {
+    "guid": "3ddcae3e-858b-4502-adc7-37de3e3819c4",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el material proporcionado, ¿cuál de las siguientes actuaciones de la Administración NO se considera un acto administrativo?",
+    "answerOptions": [
+      {
+        "text": "La suscripción de un contrato de alquiler de un edificio por parte de la Administración sujeto al Derecho Privado.",
+        "rationale": "Los actos administrativos deben ser realizados en el ejercicio de una potestad administrativa y sujetos al Derecho Administrativo, excluyendo las actuaciones en igualdad con particulares.",
+        "isCorrect": true
+      },
+      {
+        "text": "La denegación de una beca por un órgano de la Consejería de Educación.",
+        "rationale": "Este es un ejemplo típico de declaración de voluntad administrativa que afecta a la esfera jurídica de un administrado bajo normas públicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una diligencia de comparecencia que deja constancia de la personación de un interesado.",
+        "rationale": "Se trata de un acto de trámite que constituye una declaración de conocimiento, integrada dentro del concepto amplio de acto administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La imposición de una sanción disciplinaria a un funcionario público.",
+        "rationale": "Es un acto administrativo interno de gravamen que produce efectos jurídicos dentro de la organización administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que el acto administrativo debe estar regido por el Derecho Administrativo, no por el Civil o Mercantil."
+  },
+  {
+    "guid": "8c13951a-2f30-4529-8950-bffcadac7284",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Si una Administración dicta un acto que tiene un contenido físicamente imposible, ¿cuál es la sanción jurídica que recibe dicho acto?",
+    "answerOptions": [
+      {
+        "text": "Nulidad de pleno derecho.",
+        "rationale": "El artículo 47.1.c establece que los actos que tengan un contenido imposible son nulos de manera radical, ya que el derecho no puede exigir lo irrealizable.",
+        "isCorrect": true
+      },
+      {
+        "text": "Anulabilidad.",
+        "rationale": "La imposibilidad de contenido es un vicio de tal gravedad que trasciende la mera anulabilidad, impidiendo cualquier posibilidad de convalidación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Irregularidad no invalidante.",
+        "rationale": "Un contenido imposible afecta a la esencia misma del acto, por lo que nunca puede ser considerado un defecto menor sin importancia jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caducidad inmediata.",
+        "rationale": "La caducidad se refiere a la terminación de un procedimiento por inactividad, no a la invalidez de una decisión por su objeto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Consulte los supuestos de invalidez radical previstos en el artículo 47 de la Ley 39/2015."
+  },
+  {
+    "guid": "d30dc1d3-b832-4730-85b2-61505fdb056f",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con los actos sucesivos en un procedimiento si el acto inicial es declarado nulo o anulado?",
+    "answerOptions": [
+      {
+        "text": "La nulidad de un acto no implica la de los sucesivos que sean independientes del primero.",
+        "rationale": "El principio de incomunicación de la invalidez busca preservar la eficacia de las partes del procedimiento que no estén viciadas por la infracción original.",
+        "isCorrect": true
+      },
+      {
+        "text": "Todos los actos posteriores quedan automáticamente anulados por el principio de jerarquía procedimental.",
+        "rationale": "Solo se anulan aquellos actos cuyo contenido dependa directamente del acto invalidado; la independencia fáctica los protege.",
+        "isCorrect": false
+      },
+      {
+        "text": "El procedimiento debe retrotraerse siempre al momento de la solicitud inicial del interesado.",
+        "rationale": "La retroacción solo es necesaria hasta el momento en que se cometió la infracción que causó la nulidad, no necesariamente al inicio absoluto.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Administración puede elegir discrecionalmente qué actos conservar sin motivación alguna.",
+        "rationale": "La conservación de actos es un mandato legal reglados por los artículos 49 y 51 de la ley, no una decisión arbitraria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en si un error al principio de un camino debe obligar necesariamente a borrar todos los pasos posteriores, incluso los correctos."
+  },
+  {
+    "guid": "0f20ee0c-e53d-438d-8371-34cc8c3830c7",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto de los elementos subjetivos, ¿cuál es la consecuencia de que un funcionario actúe en un procedimiento teniendo un interés personal en el asunto?",
+    "answerOptions": [
+      {
+        "text": "Se activan los mecanismos de abstención o, en su defecto, de recusación por el interesado.",
+        "rationale": "El ordenamiento exige imparcialidad objetiva; si el funcionario no se aparta voluntariamente (abstención), el ciudadano puede forzarlo (recusación).",
+        "isCorrect": true
+      },
+      {
+        "text": "El acto dictado es automáticamente nulo de pleno derecho sin necesidad de impugnación.",
+        "rationale": "La actuación de personas en quienes concurra causa de abstención no implicará, necesariamente, la invalidez de los actos en que hayan intervenido.",
+        "isCorrect": false
+      },
+      {
+        "text": "El funcionario pierde su condición de empleado público de forma inmediata.",
+        "rationale": "Aunque puede derivar en responsabilidad disciplinaria, la pérdida de la condición de funcionario no es una consecuencia automática del vicio del acto.",
+        "isCorrect": false
+      },
+      {
+        "text": "El procedimiento se suspende de forma indefinida hasta que el órgano judicial resuelva el conflicto.",
+        "rationale": "La recusación suspende la tramitación del procedimiento principal solo temporalmente hasta que se resuelva el incidente de recusación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Existen dos conceptos legales para garantizar la objetividad del titular del órgano: uno nace del funcionario y otro del ciudadano."
+  },
+  {
+    "guid": "7f6a24e7-dc87-4473-9aac-089d0f056b75",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo general para que la Administración practique la notificación de un acto administrativo desde que este ha sido dictado?",
+    "answerOptions": [
+      {
+        "text": "Diez días.",
+        "rationale": "La ley establece este plazo breve para garantizar que el interesado tenga conocimiento de la decisión y pueda ejercer sus derechos de defensa oportunamente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Quince días naturales.",
+        "rationale": "Los plazos en derecho administrativo suelen contarse en días hábiles a menos que se especifique lo contrario, y el plazo legal es de 10.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un mes.",
+        "rationale": "Un mes es el plazo habitual para interponer recursos, pero no para la obligación administrativa de notificar el acto inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco días hábiles.",
+        "rationale": "Aunque se busca la celeridad, el margen legal otorgado por la LPACAP a la Administración es ligeramente superior para gestionar el envío.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número de un solo dígito seguido de un cero."
+  },
+  {
+    "guid": "ae0c5880-c95a-46cd-9d2f-f10af3f8b47c",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 117 de la LPACAP, ¿qué efecto tiene por regla general la interposición de un recurso sobre la ejecución del acto impugnado?",
+    "answerOptions": [
+      {
+        "text": "No suspende la ejecución del acto.",
+        "rationale": "Rige el principio de ejecutividad y presunción de validez; el recurso por sí solo no detiene la eficacia del acto a menos que se solicite y conceda la suspensión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Suspende automáticamente la ejecución hasta que se dicte resolución definitiva.",
+        "rationale": "La suspensión automática es excepcional; la regla general protege la continuidad de la acción administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo suspende la ejecución si el recurso se basa en causas de nulidad de pleno derecho.",
+        "rationale": "Incluso en casos de nulidad radical, la suspensión no es automática, aunque es un criterio de peso para que el órgano decida acordarla.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspende la ejecución únicamente si el interesado presta fianza suficiente.",
+        "rationale": "La ley permite acordar la suspensión sin fianza si concurren los requisitos de perjuicio difícil o imposible reparación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en si la Administración debe detenerse cada vez que alguien no está de acuerdo con una decisión o si debe seguir adelante."
+  },
+  {
+    "guid": "d7d070d4-01bd-4f54-b8ef-a5107fc70888",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Un acto administrativo que se dicta omitiendo 'total y absolutamente' el procedimiento legalmente establecido se considera:",
+    "answerOptions": [
+      {
+        "text": "Nulo de pleno derecho.",
+        "rationale": "La omisión absoluta del procedimiento es uno de los vicios más graves (art. 47.1.e), ya que el procedimiento es la garantía fundamental del administrado frente a la arbitrariedad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Anulable si causa indefensión, e irregular en caso contrario.",
+        "rationale": "Cuando la omisión es 'total y absoluta', la ley no gradúa el efecto según la indefensión; la nulidad es directa por la gravedad del vicio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Convalidable por el transcurso de seis meses sin impugnación.",
+        "rationale": "Los actos nulos de pleno derecho no admiten convalidación y la acción para impugnarlos no prescribe por el simple paso del tiempo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Válido siempre que el contenido final de la decisión sea justo.",
+        "rationale": "En derecho administrativo, la forma y el procedimiento son condiciones de validez; el fin no justifica la omisión de las formas legales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Consulte el catálogo de vicios de nulidad radical del artículo 47 de la ley."
+  },
+  {
+    "guid": "581f0c43-e87c-4961-a97f-0073cc73e9b5",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Dentro de la clasificación de los actos administrativos por su contenido, un 'acto de trámite' se define como aquel que:",
+    "answerOptions": [
+      {
+        "text": "No decide el fondo del asunto ni pone fin al procedimiento.",
+        "rationale": "Los actos de trámite son eslabones intermedios (informes, propuestas) necesarios para preparar la decisión final, pero no son la resolución en sí.",
+        "isCorrect": true
+      },
+      {
+        "text": "Agota la vía administrativa de forma inmediata.",
+        "rationale": "Solo los actos definitivos o resolutorios pueden agotar la vía administrativa; los de trámite nunca tienen esa función por sí solos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es el único que puede ser recurrido de forma independiente.",
+        "rationale": "Por regla general, los actos de trámite no se recurren independientemente, sino junto con la resolución final, salvo los 'cualificados'.",
+        "isCorrect": false
+      },
+      {
+        "text": "Crea derechos y obligaciones para el interesado de forma autónoma.",
+        "rationale": "La creación de situaciones jurídicas estables es propia de la resolución final o de actos que deciden aspectos sustantivos del proceso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en los actos que sirven de preparación para la resolución final, como un informe técnico."
+  },
+  {
+    "guid": "df120693-bbba-4ae5-ac44-36109d6325d9",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el sentido general del silencio administrativo en los procedimientos iniciados a solicitud del interesado, salvo que una ley disponga lo contrario?",
+    "answerOptions": [
+      {
+        "text": "Positivo.",
+        "rationale": "La Ley 39/2015 establece el silencio positivo como regla general para fomentar la eficacia y proteger al ciudadano frente a la inactividad de la Administración.",
+        "isCorrect": true
+      },
+      {
+        "text": "Negativo.",
+        "rationale": "El silencio negativo es la excepción, aplicándose solo en casos específicos como el derecho de petición o cuando se afectan bienes de dominio público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inexistente; la Administración tiene prohibido no resolver.",
+        "rationale": "Aunque la Administración tiene la obligación de resolver, la ley prevé el silencio como una ficción jurídica para dar respuesta al incumplimiento de ese deber.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo positivo si el interesado presenta un recordatorio tras un mes de espera.",
+        "rationale": "El silencio se produce por el simple transcurso del plazo máximo legal sin notificación, sin necesidad de trámites adicionales del interesado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "En la legislación actual, se intenta que la falta de respuesta de la Administración no perjudique al ciudadano que pidió algo lícito."
+  },
+  {
+    "guid": "8e2e47b9-e829-48a1-a5b1-723211dea2ea",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué consiste la 'ejecución forzosa' de un acto administrativo?",
+    "answerOptions": [
+      {
+        "text": "El privilegio de la Administración para hacer cumplir sus actos frente a la resistencia del interesado sin acudir a los tribunales.",
+        "rationale": "Es una manifestación de la autotutela administrativa, permitiendo el uso de medios como el apremio sobre el patrimonio o la ejecución subsidiaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "La obligación del interesado de cumplir el acto solo si un juez lo ordena previamente.",
+        "rationale": "A diferencia del derecho privado, la Administración no necesita generalmente 'título ejecutivo' judicial; su propio acto es suficiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho del ciudadano a no cumplir el acto si considera que es injusto.",
+        "rationale": "El ciudadano debe cumplir los actos ejecutivos; su discrepancia debe canalizarse a través de recursos, no del incumplimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un procedimiento penal contra los funcionarios que no ejecutan sus propias resoluciones.",
+        "rationale": "La ejecución forzosa se dirige contra el administrado incumplidor, no es una medida disciplinaria interna.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Relaciónelo con el poder de la Administración para actuar por sí misma para que se cumpla lo decidido."
+  },
+  {
+    "guid": "5c5ecdea-e7d5-4e34-8689-d28638043b3f",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el material, ¿qué elemento falta si la Administración otorga una licencia de obras pero con el objetivo real de favorecer un negocio personal del Alcalde?",
+    "answerOptions": [
+      {
+        "text": "El fin público (elemento teleológico).",
+        "rationale": "Toda potestad administrativa debe perseguir el fin público asignado por la norma; usarla para fines privados constituye desviación de poder.",
+        "isCorrect": true
+      },
+      {
+        "text": "La competencia (elemento subjetivo).",
+        "rationale": "El Alcalde puede ser el órgano competente para otorgar la licencia, pero lo que falla aquí no es quién lo hace, sino para qué lo hace.",
+        "isCorrect": false
+      },
+      {
+        "text": "La forma (elemento formal).",
+        "rationale": "El acto puede cumplir con todos los requisitos de forma (escrito, firmado) y aun así ser inválido por su finalidad ilícita.",
+        "isCorrect": false
+      },
+      {
+        "text": "El contenido (elemento objetivo).",
+        "rationale": "El contenido (la licencia en sí) puede ser lícito y posible; el vicio reside en la intención o causa remota de la declaración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este vicio se conoce como 'desviación de poder' y afecta a la 'razón de ser' pública del acto."
+  },
+  {
+    "guid": "fe305933-e234-4d65-85af-c6fd43ea1d32",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la característica principal de un acto administrativo 'firme'?",
+    "answerOptions": [
+      {
+        "text": "Que ya no puede ser impugnado por haber transcurrido los plazos para recurrir.",
+        "rationale": "La firmeza implica que el acto se ha vuelto inatacable en vía administrativa y ordinaria judicial, adquiriendo una estabilidad casi definitiva.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que ha sido dictado por el órgano superior jerárquico de la Administración.",
+        "rationale": "Un acto dictado por un superior puede agotar la vía administrativa, pero no es 'firme' mientras esté dentro del plazo de impugnación judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que requiere obligatoriamente una ratificación por parte del Consejo de Ministros.",
+        "rationale": "La firmeza no depende de la aprobación de otros órganos, sino de la situación procesal del acto frente a los recursos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que ha sido publicado en el Boletín Oficial del Estado.",
+        "rationale": "La publicación inicia el cómputo de plazos para recurrir; es precisamente el fin de esos plazos lo que otorga la firmeza.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el estado de un acto cuando el ciudadano 'ha dejado pasar el tiempo' sin quejarse formalmente."
+  },
+  {
+    "guid": "05a77407-e2f1-4a18-8fba-674281a55e4f",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En relación con los actos de trámite, ¿cuándo se consideran 'cualificados' y, por tanto, pueden ser recurridos de forma independiente?",
+    "answerOptions": [
+      {
+        "text": "Cuando deciden directa o indirectamente el fondo del asunto, impiden continuar el procedimiento o producen indefensión.",
+        "rationale": "Estos actos, aunque no sean la resolución final, tienen un impacto tan severo que la ley permite su impugnación inmediata para evitar perjuicios irreparables.",
+        "isCorrect": true
+      },
+      {
+        "text": "Siempre que sean emitidos por un órgano consultivo de carácter técnico.",
+        "rationale": "Los dictámenes de órganos consultivos son trámites ordinarios que se impugnan junto con la resolución que los toma en cuenta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando el interesado paga la tasa correspondiente para la interposición del recurso extraordinario.",
+        "rationale": "La recurribilidad de los actos de trámite depende de su contenido y efectos jurídicos, no del pago de tasas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente si contienen un error material manifiesto que afecte a la cuantía económica.",
+        "rationale": "Los errores materiales se rectifican, pero no convierten un trámite ordinario en uno recurrible de forma autónoma.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere qué sucede si un informe previo dice que 'no se puede seguir con el caso'; eso es algo más que un simple trámite."
+  },
+  {
+    "guid": "e55b1ee5-2db6-4ca9-9280-88bac86accc6",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 47.2 de la LPACAP, ¿qué ocurre con una disposición administrativa (reglamento) que vulnera la Constitución o las leyes?",
+    "answerOptions": [
+      {
+        "text": "Es nula de pleno derecho.",
+        "rationale": "A diferencia de los actos administrativos, donde la anulabilidad es la regla, cualquier infracción jerárquica en un reglamento conlleva su nulidad absoluta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es anulable, salvo que sea convalidada por el Parlamento.",
+        "rationale": "Las normas reglamentarias ilegales no admiten convalidación; su vicio es de orden público y acarrea la nulidad radical.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sigue vigente hasta que sea derogada por otra norma del mismo rango.",
+        "rationale": "La nulidad implica que la norma nunca debió tener efectos; la derogación es para normas válidas que dejan de ser oportunas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es válida si cuenta con el dictamen favorable del Consejo de Estado.",
+        "rationale": "Un dictamen no puede subsanar una vulneración constitucional; la jerarquía normativa es un límite insalvable.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que el vicio de las normas (reglamentos) suele castigarse con mayor severidad que el de los actos individuales."
+  },
+  {
+    "guid": "12aa558f-3658-4217-9e59-3fee86f3897c",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de un 'acto complejo', ¿cuál es su característica definitoria en cuanto al órgano que lo dicta?",
+    "answerOptions": [
+      {
+        "text": "Intervienen diversos órganos en su formación.",
+        "rationale": "A diferencia del acto simple (unipersonal o colegiado), el complejo requiere la concurrencia de voluntades de distintas unidades administrativas para nacer.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es dictado por un órgano colegiado con más de diez miembros.",
+        "rationale": "Un órgano colegiado (como un Pleno) dicta actos simples, ya que es una sola unidad administrativa, independientemente de cuántas personas la formen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Requiere obligatoriamente la autorización de un Juez de lo Contencioso.",
+        "rationale": "La intervención judicial no define la estructura del órgano administrativo que emite la declaración original.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se refiere a actos que tienen más de cincuenta folios de motivación.",
+        "rationale": "La 'complejidad' se refiere a la estructura subjetiva del emisor, no a la extensión o dificultad del contenido del acto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "No confunda un órgano formado por muchas personas (colegiado) con la intervención de 'varios' órganos distintos."
+  },
+  {
+    "guid": "f70e919f-ae3b-4b2c-a42c-bdff0d08a14c",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la consecuencia jurídica de realizar actuaciones administrativas fuera del tiempo establecido (términos no esenciales) según el artículo 48.3?",
+    "answerOptions": [
+      {
+        "text": "Por defecto, no afecta a la validez del acto (irregularidad no invalidante).",
+        "rationale": "La ley busca la eficacia administrativa; si el retraso no es esencial por la naturaleza del asunto, el acto se mantiene válido aunque haya responsabilidad disciplinaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "El acto es automáticamente nulo de pleno derecho.",
+        "rationale": "La nulidad por tiempo es extremadamente rara y solo para casos donde el plazo sea una condición de existencia absoluta del derecho.",
+        "isCorrect": false
+      },
+      {
+        "text": "El acto es anulable en todo caso por infracción del ordenamiento.",
+        "rationale": "El artículo 48.3 especifica que solo implicará anulabilidad 'cuando así lo imponga la naturaleza del término o plazo'.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se produce la caducidad forzosa del expediente en un plazo de 48 horas.",
+        "rationale": "La caducidad requiere procedimientos específicos y el transcurso de plazos mucho más largos de inactividad total.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en si una resolución dictada un día tarde debe ser borrada del mundo jurídico si el contenido es correcto."
+  },
+  {
+    "guid": "fd114133-cd4e-4dba-bd9c-c4af998622af",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué requisito es indispensable para que una notificación sea considerada válida y despliegue efectos?",
+    "answerOptions": [
+      {
+        "text": "Debe contener el texto íntegro del acto e indicar si pone fin o no a la vía administrativa.",
+        "rationale": "La notificación es una comunicación formal que debe dar al ciudadano toda la información necesaria para saber qué se ha decidido y cómo defenderse.",
+        "isCorrect": true
+      },
+      {
+        "text": "Debe ser entregada siempre en mano y en el domicilio profesional del interesado.",
+        "rationale": "Existen múltiples medios de notificación válida, incluyendo la electrónica, que es obligatoria para ciertos sujetos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe ir acompañada de una copia de la Ley 39/2015 completa.",
+        "rationale": "Basta con indicar los recursos procedentes, órgano y plazos; no es necesario adjuntar el texto legal completo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe ser firmada por el Alcalde o Ministro personalmente en cada caso.",
+        "rationale": "La notificación es un acto de comunicación que suele realizar el órgano instructor o servicios de secretaría, no necesariamente el titular que resolvió.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La notificación debe ser 'completa' para no generar indefensión al ciudadano."
+  },
+  {
+    "guid": "13133fda-4eca-4c20-99a3-86cec4db3434",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué se diferencia la 'rectificación de errores' de la 'convalidación'?",
+    "answerOptions": [
+      {
+        "text": "La rectificación se usa para errores materiales o aritméticos; la convalidación para vicios de legalidad (anulabilidad).",
+        "rationale": "Rectificar un error de escritura (ej. una cifra mal sumada) no altera la validez del acto; convalidar implica subsanar una infracción jurídica previa.",
+        "isCorrect": true
+      },
+      {
+        "text": "La convalidación solo puede hacerse por orden judicial; la rectificación es siempre de oficio.",
+        "rationale": "Ambas son potestades de la propia Administración, aunque la convalidación tiene límites temporales y de procedimiento más estrictos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La rectificación genera un nuevo acto con efectos retroactivos; la convalidación no.",
+        "rationale": "La convalidación precisamente tiene efectos desde su fecha, salvo casos excepcionales de retroactividad favorables.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son términos sinónimos en el derecho administrativo español actual.",
+        "rationale": "Son figuras distintas reguladas en artículos separados (109.2 y 52 respectivamente) con funciones jurídicas diversas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la diferencia entre un error de 'dedo' (teclado) y un error de 'derecho' (ley)."
+  },
+  {
+    "guid": "609c8fb1-c4a4-4b50-a1e0-afb147fbe50f",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el efecto de la 'conservación de actos y trámites' regulada en el artículo 51 de la LPACAP?",
+    "answerOptions": [
+      {
+        "text": "El órgano que declare la nulidad debe disponer la conservación de aquellos trámites cuyo contenido se hubiera mantenido igual sin la infracción.",
+        "rationale": "Esta regla responde al principio de economía procesal, evitando repetir pasos del procedimiento que son válidos por sí mismos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Implica que los expedientes deben guardarse en el archivo histórico durante al menos 50 años.",
+        "rationale": "La conservación es una técnica de validez de actos dentro de un procedimiento, no una norma de archivística documental.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obliga a la Administración a no cambiar nunca de criterio en asuntos sustancialmente iguales.",
+        "rationale": "La Administración puede cambiar de criterio motivadamente; la conservación se refiere a la validez de trámites en un caso de nulidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Garantiza que el interesado no pueda ser sancionado dos veces por el mismo hecho.",
+        "rationale": "Eso describe el principio 'non bis in idem', que es ajeno a la técnica procedimental de conservación de actos viciados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una medida para no 'trabajar doble' si parte de lo hecho en un expediente está bien a pesar de un error en otro punto."
+  },
+  {
+    "guid": "a0f7a425-1363-46ec-9876-87290917c8fb",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Un acto administrativo que otorga una subvención se clasifica, según sus efectos en la esfera jurídica del administrado, como un acto:",
+    "answerOptions": [
+      {
+        "text": "Favorable o declarativo de derechos.",
+        "rationale": "Estos actos amplían el patrimonio jurídico o económico del ciudadano, reconociéndole una ventaja o beneficio.",
+        "isCorrect": true
+      },
+      {
+        "text": "De gravamen.",
+        "rationale": "Los actos de gravamen (como una multa) limitan o reducen los derechos, imponiendo una carga u obligación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reglamentario.",
+        "rationale": "Un acto singular (conceder una subvención a 'X') no es un reglamento, que es una norma general y abstracta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Innecesario, ya que las subvenciones se rigen por contratos civiles.",
+        "rationale": "Las subvenciones son una actividad de fomento administrativa que se articula mediante actos administrativos sujetos a derecho público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en si recibir dinero de la Administración es algo que 'mejora' o 'empeora' la situación legal del ciudadano."
+  }
+]

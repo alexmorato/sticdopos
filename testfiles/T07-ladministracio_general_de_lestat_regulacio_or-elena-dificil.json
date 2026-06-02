@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "c61ac7f1-4a15-4b65-b620-7d4fc1b9802c",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de los siguientes órganos tiene la consideración de órgano superior dentro de la organización central de la Administración General del Estado?",
+    "answerOptions": [
+      {
+        "text": "El Subsecretario",
+        "rationale": "Este cargo se clasifica como un órgano directivo, no superior, encargado de la representación ordinaria y servicios comunes.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario de Estado",
+        "rationale": "Según la LRJSP, los Ministros y los Secretarios de Estado son los únicos que ostentan la condición de órganos superiores.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Secretario General",
+        "rationale": "Aunque tiene rango de subsecretario, se categoriza legalmente como un órgano directivo de carácter potestativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Director General",
+        "rationale": "Los directores generales son órganos directivos encargados de la gestión de áreas funcionalmente homogéneas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere qué figuras se sitúan en la cúspide de la jerarquía ministerial según la ley 40/2015."
+  },
+  {
+    "guid": "cebb6bff-51c2-478c-93e6-743d73602796",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con la Ley 3/2015, ¿qué órgano directivo NO tiene la condición de 'alto cargo'?",
+    "answerOptions": [
+      {
+        "text": "El Subsecretario",
+        "rationale": "Los subsecretarios están explícitamente incluidos en la categoría de alto cargo por la normativa vigente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario General Técnico",
+        "rationale": "Este órgano directivo mantiene la condición de alto cargo según la estructura jerárquica del ministerio.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Subdirector General",
+        "rationale": "La ley establece una excepción clara para los Subdirectores generales y asimilados, quienes no se consideran altos cargos.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Director General",
+        "rationale": "Los directores generales son considerados altos cargos al ser responsables de la gestión de áreas específicas del ministerio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este cargo suele considerarse la 'frontera' entre el nivel político y la burocracia profesional."
+  },
+  {
+    "guid": "933d2144-db56-4337-95f9-a71969a3c839",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Mediante qué instrumento jurídico se determina el número, denominación y competencias de los Ministerios?",
+    "answerOptions": [
+      {
+        "text": "Real Decreto del Consejo de Ministros",
+        "rationale": "Esta es la vía para crear órganos directivos, pero no para la estructura ministerial básica dependiente del Presidente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley Orgánica",
+        "rationale": "La organización interna de la administración no requiere ley orgánica, sino potestad reglamentaria del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Real Decreto del Presidente del Gobierno",
+        "rationale": "El artículo 57.3 de la LRJSP otorga al Presidente la potestad exclusiva de fijar la estructura de departamentos mediante Real Decreto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Orden Ministerial del Ministro de Hacienda",
+        "rationale": "Las órdenes ministeriales se utilizan para órganos de nivel inferior a la Subdirección General.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una competencia directa de la figura que lidera el Poder Ejecutivo."
+  },
+  {
+    "guid": "4fbff5af-df1e-466a-b046-4a2cf3df8b93",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién tiene la competencia para crear, modificar o suprimir una Subsecretaría?",
+    "answerOptions": [
+      {
+        "text": "El Presidente del Gobierno por Real Decreto",
+        "rationale": "El Presidente decide sobre Ministerios y Secretarías de Estado, pero los órganos directivos centrales siguen otro cauce.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Ministros por Real Decreto",
+        "rationale": "Se requiere Real Decreto del Consejo de Ministros, a iniciativa del Ministro interesado y propuesta del de Hacienda.",
+        "isCorrect": true
+      },
+      {
+        "text": "El propio Ministro mediante Orden Ministerial",
+        "rationale": "Las órdenes ministeriales solo alcanzan a órganos de nivel inferior a la Subdirección General.",
+        "isCorrect": false
+      },
+      {
+        "text": "La relación de puestos de trabajo (RPT)",
+        "rationale": "La RPT se utiliza para unidades que no tienen la consideración formal de órgano administrativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Involucra una decisión colegiada de todo el gabinete de gobierno."
+  },
+  {
+    "guid": "7f4981e0-adc4-4269-bab9-c0e02785a7af",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el requisito de titulación/estatus para ser nombrado Subsecretario?",
+    "answerOptions": [
+      {
+        "text": "Cualquier persona de reconocida idoneidad",
+        "rationale": "A diferencia de los Secretarios de Estado, el Subsecretario tiene requisitos profesionales más estrictos vinculados a la función pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Funcionario de carrera del Subgrupo A1",
+        "rationale": "La ley exige que el nombramiento recaiga en funcionarios de carrera del Estado, CCAA o Entidades Locales del subgrupo A1.",
+        "isCorrect": true
+      },
+      {
+        "text": "Experiencia mínima de 15 años en el sector privado",
+        "rationale": "Aunque se valora la experiencia, el requisito legal imperativo es ser funcionario de carrera del subgrupo superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Funcionario de cualquier grupo con 10 años de antigüedad",
+        "rationale": "No basta con ser funcionario; se requiere específicamente pertenecer al subgrupo A1.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Debe pertenecer al cuerpo de élite de la administración pública."
+  },
+  {
+    "guid": "17f96833-89ba-4024-8270-06ea00ee822e",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano administrativo es de carácter 'potestativo' (no obligatorio) en la estructura de un Ministerio?",
+    "answerOptions": [
+      {
+        "text": "La Subsecretaría",
+        "rationale": "Cada ministerio debe contar 'en todo caso' con una Subsecretaría según el artículo 58 de la LRJSP.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Secretaría General Técnica",
+        "rationale": "Es un órgano preceptivo que depende de la Subsecretaría para la gestión de servicios comunes.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Secretaría General",
+        "rationale": "Su existencia es opcional y solo se crean cuando las normas que regulan la estructura del ministerio lo determinen.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Dirección General",
+        "rationale": "Son órganos de gestión necesarios para las áreas funcionalmente homogéneas del departamento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Existen para la gestión de un sector de actividad específico cuando la estructura del ministerio así lo decida."
+  },
+  {
+    "guid": "0a88729e-90f3-459f-b19f-f6d2e3737f47",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la organización territorial, ¿qué rango ostentan los Delegados del Gobierno en las Comunidades Autónomas?",
+    "answerOptions": [
+      {
+        "text": "Rango de Ministro",
+        "rationale": "Aunque son nombrados por el Consejo de Ministros, su rango jerárquico es inferior al de un titular de departamento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rango de Secretario de Estado",
+        "rationale": "Los Secretarios de Estado son órganos superiores, mientras que los Delegados son órganos directivos con un rango específico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rango de Subsecretario",
+        "rationale": "La LRJSP establece explícitamente que los Delegados del Gobierno tienen rango de subsecretario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Rango de Director General",
+        "rationale": "Este rango es demasiado bajo para la máxima representación del Gobierno en una Comunidad Autónoma.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nivel es equivalente al del jefe de los servicios comunes de un ministerio."
+  },
+  {
+    "guid": "5968282e-797f-4d57-a405-58909a778ae7",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién nombra a los Subdelegados del Gobierno en las provincias?",
+    "answerOptions": [
+      {
+        "text": "El Rey por Real Decreto",
+        "rationale": "El Rey solo interviene en el nombramiento de Ministros y el Presidente del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Ministros",
+        "rationale": "El Consejo de Ministros nombra a los Delegados, pero la designación de los Subdelegados es una competencia desconcentrada.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Delegado del Gobierno en la Comunidad Autónoma",
+        "rationale": "El nombramiento se efectúa por resolución del Delegado del Gobierno por el procedimiento de libre designación.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro del Interior",
+        "rationale": "Aunque dependen funcionalmente de varios ministerios, su nombramiento orgánico corresponde al representante territorial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una potestad del superior jerárquico inmediato en el territorio."
+  },
+  {
+    "guid": "8a08ecef-ba3d-4347-b4f3-bf36769a1a9c",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué requisito es indispensable para el nombramiento de un Secretario General Técnico?",
+    "answerOptions": [
+      {
+        "text": "Ser nombrado por el Presidente del Gobierno",
+        "rationale": "Es nombrado por Real Decreto del Consejo de Ministros a propuesta del Ministro competente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser funcionario de carrera del Subgrupo A1",
+        "rationale": "Al igual que los Subsecretarios y Directores Generales, deben pertenecer al subgrupo A1 de cualquier administración pública.",
+        "isCorrect": true
+      },
+      {
+        "text": "No ser funcionario, pero tener experiencia en el sector",
+        "rationale": "Para este cargo específico, la ley no admite la excepción de no ser funcionario que sí existe para algunas Direcciones Generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tener rango de Secretario de Estado",
+        "rationale": "Su rango legal es asimilado al de Director General.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Comparte el mismo requisito estatutario de pertenencia a la función pública que el Subsecretario."
+  },
+  {
+    "guid": "ad7aa0a9-dffc-4222-a591-f2d2733e6fcc",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de órganos colegiados interministeriales, ¿cuándo se requiere un Real Decreto para su creación?",
+    "answerOptions": [
+      {
+        "text": "Siempre que participen más de dos ministerios",
+        "rationale": "La participación de múltiples ministerios no determina el instrumento, sino el rango de quien lo preside.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando su Presidente tenga rango inferior a Director General",
+        "rationale": "En ese caso bastaría con una Orden ministerial conjunta de los ministerios afectados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando su Presidente tenga rango igual o superior a Director General",
+        "rationale": "La normativa exige Real Decreto del Consejo de Ministros cuando la presidencia del órgano colegiado interministerial ostenta dicho rango.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo si tienen competencias sancionadoras",
+        "rationale": "El criterio para el instrumento de creación se basa en la jerarquía administrativa del presidente, no en el tipo de competencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El nivel jerárquico de la presidencia del órgano es la clave."
+  },
+  {
+    "guid": "e6008c7f-044d-494d-b6b6-08277133439a",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función principal de las Direcciones Generales dentro de un Ministerio?",
+    "answerOptions": [
+      {
+        "text": "La representación ordinaria del Ministerio",
+        "rationale": "Esta función corresponde legalmente al Subsecretario del departamento.",
+        "isCorrect": false
+      },
+      {
+        "text": "La gestión de una o varias áreas funcionalmente homogéneas",
+        "rationale": "Los Directores Generales son los titulares encargados de la gestión operativa de sectores específicos del ministerio.",
+        "isCorrect": true
+      },
+      {
+        "text": "La aprobación de Reales Decretos",
+        "rationale": "La potestad de aprobar Reales Decretos reside en el Consejo de Ministros o el Presidente, no en órganos directivos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La coordinación de las CCAA",
+        "rationale": "Esta es una función más propia de los Ministros (Conferencias Sectoriales) o de los Delegados del Gobierno en el territorio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encargan de la ejecución técnica y operativa de sectores de actividad específicos."
+  },
+  {
+    "guid": "a554a88b-8ac3-49f6-ba3b-540a4e64b1df",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con las unidades administrativas que no tienen la consideración de órganos?",
+    "answerOptions": [
+      {
+        "text": "Se crean por Real Decreto",
+        "rationale": "Los Reales Decretos se reservan para estructuras de mayor rango como Ministerios o Direcciones Generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se crean a través de las relaciones de puestos de trabajo (RPT)",
+        "rationale": "La LRJSP especifica que las unidades sin categoría de órgano se establecen y modifican mediante la RPT.",
+        "isCorrect": true
+      },
+      {
+        "text": "No pueden tener personal a su cargo",
+        "rationale": "Las unidades administrativas siempre comprenden puestos de trabajo y dotaciones de plantilla bajo una jefatura común.",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben ser presididas por un alto cargo",
+        "rationale": "Muchas unidades menores están dirigidas por funcionarios que no ostentan la condición de alto cargo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su existencia se vincula directamente a la organización del personal y la plantilla."
+  },
+  {
+    "guid": "2d2d582c-1346-4f1c-b74f-805190609feb",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién propone el nombramiento de los Directores Generales?",
+    "answerOptions": [
+      {
+        "text": "El Ministro de Hacienda",
+        "rationale": "Hacienda propone la creación del órgano, pero no necesariamente la persona que ocupará la titularidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El titular del Departamento o el Presidente del Gobierno",
+        "rationale": "La ley permite que la propuesta de nombramiento provenga del Ministro del ramo o directamente del Presidente.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Subsecretario del Ministerio",
+        "rationale": "El Subsecretario depende del Director General jerárquicamente en algunos casos, y no tiene potestad de propuesta al Consejo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las Cortes Generales",
+        "rationale": "El nombramiento de órganos directivos es una potestad administrativa del poder ejecutivo, no legislativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Depende de la autoridad política superior bajo la cual trabajará el órgano."
+  },
+  {
+    "guid": "b3fc2a2f-8251-4f42-aa83-5386dff52bca",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En caso de ausencia del Delegado del Gobierno en una comunidad pluriprovincial, ¿quién asume normalmente su sustitución?",
+    "answerOptions": [
+      {
+        "text": "El Presidente de la Comunidad Autónoma",
+        "rationale": "Son administraciones distintas; el Presidente autonómico no puede sustituir a un cargo de la administración estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Subdelegado del Gobierno de la provincia donde tenga su sede la Delegación",
+        "rationale": "La ley prevé que, salvo que el Delegado designe a otro, la sustitución recaiga en el Subdelegado de la provincia sede.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro de Política Territorial",
+        "rationale": "Un Ministro no asume funciones territoriales de sustitución ordinaria por vacante o enfermedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Director Insular más antiguo",
+        "rationale": "Los directores insulares están por debajo de los subdelegados en la estructura periférica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano directivo provincial que se encuentra físicamente en la capital de la región."
+  },
+  {
+    "guid": "e847a98c-75c7-4bf6-b300-5f6966f99137",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué órgano corresponde establecer los planes de actuación de la organización bajo su responsabilidad?",
+    "answerOptions": [
+      {
+        "text": "A los órganos directivos",
+        "rationale": "A los órganos directivos les corresponde el desarrollo y ejecución de dichos planes, no su establecimiento inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los órganos superiores",
+        "rationale": "La ley asigna específicamente la función de planificación estratégica a los órganos superiores (Ministros y Sec. de Estado).",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente al Presidente del Gobierno",
+        "rationale": "Cada Ministro y Secretario de Estado tiene esta competencia dentro de su ámbito de responsabilidad ministerial.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los Secretarios Generales Técnicos",
+        "rationale": "Estos órganos asisten en la producción normativa y servicios comunes, pero no fijan los planes de actuación política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una función de dirección política y estratégica al más alto nivel."
+  },
+  {
+    "guid": "dcc1f260-e4a1-49ab-9426-b2ee09530219",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el nivel orgánico de los Subdelegados del Gobierno en las provincias?",
+    "answerOptions": [
+      {
+        "text": "Nivel de Subsecretario",
+        "rationale": "Este rango corresponde a los Delegados del Gobierno, no a los Subdelegados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nivel de Director General",
+        "rationale": "Es un nivel intermedio que no coincide con la clasificación legal de la periferia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nivel de Subdirector General",
+        "rationale": "Los Subdelegados del Gobierno tienen nivel de subdirector general, aunque sus funciones sean de mando provincial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nivel de Jefe de Área",
+        "rationale": "Este nivel es inferior al exigido para la máxima autoridad de la AGE en una provincia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nivel jerárquico es el mismo que el de la 'frontera' administrativa en la organización central."
+  },
+  {
+    "guid": "3fe252f6-4a16-40ff-9145-eb0e28e9245a",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano de la administración central se encarga específicamente de la producción normativa y asistencia jurídica?",
+    "answerOptions": [
+      {
+        "text": "La Secretaría General",
+        "rationale": "Las Secretarías Generales se encargan de la gestión de sectores de actividad, no de servicios comunes transversales.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Secretaría General Técnica",
+        "rationale": "La LRJSP atribuye a las SGT las competencias sobre servicios comunes relativas a producción normativa, asistencia jurídica y publicaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Dirección General de Servicios",
+        "rationale": "Aunque gestiona servicios, la competencia legal específica en materia normativa recae por definición en la SGT.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gabinete del Ministro",
+        "rationale": "Los Gabinetes son órganos de apoyo político y confianza, no órganos administrativos de gestión normativa ordinaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un órgano preceptivo que depende directamente de la Subsecretaría."
+  },
+  {
+    "guid": "83ca5cb0-afbc-4997-9fdf-d9c076ec1430",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se crean los órganos de nivel inferior a la Subdirección General?",
+    "answerOptions": [
+      {
+        "text": "Por Real Decreto del Consejo de Ministros",
+        "rationale": "El Real Decreto se reserva para niveles de Subdirección General hacia arriba.",
+        "isCorrect": false
+      },
+      {
+        "text": "Por Orden del Ministro respectivo con autorización de Hacienda",
+        "rationale": "El artículo 59.2 de la LRJSP establece este procedimiento de Orden Ministerial previa autorización del departamento de Hacienda.",
+        "isCorrect": true
+      },
+      {
+        "text": "Por resolución del Subsecretario",
+        "rationale": "La potestad normativa de creación de órganos reside en el Ministro, no en el Subsecretario.",
+        "isCorrect": false
+      },
+      {
+        "text": "A través de la Ley de Presupuestos Generales",
+        "rationale": "Los presupuestos dotan el gasto, pero la estructura orgánica se crea mediante potestad reglamentaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requiere una norma de rango ministerial y el visto bueno del ministerio encargado de la función pública."
+  },
+  {
+    "guid": "bb946f0e-2439-4ac6-8df3-8af44f032a41",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano es responsable de la dirección de los servicios comunes del Ministerio?",
+    "answerOptions": [
+      {
+        "text": "El Ministro",
+        "rationale": "El Ministro dirige el departamento, pero la gestión directa de los servicios comunes está delegada en un órgano inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Subsecretario",
+        "rationale": "La ley indica que el Subsecretario asume la dirección de los servicios comunes del ministerio.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Secretario de Estado",
+        "rationale": "Los Secretarios de Estado se enfocan en sectores de actividad, no en el régimen interior o servicios comunes.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Director General",
+        "rationale": "Sus funciones son de gestión de áreas sustantivas del ministerio, no de los servicios internos generales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la figura encargada de la 'cocina' o régimen interno de todo el departamento."
+  },
+  {
+    "guid": "306f9175-f016-4c1d-9774-da7df817e522",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la Administración General del Estado en el exterior, ¿quiénes tienen la consideración de órganos directivos?",
+    "answerOptions": [
+      {
+        "text": "Los Cónsules Generales",
+        "rationale": "Aunque son cargos importantes, la ley destaca específicamente a otros como órganos directivos en el exterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los Embajadores y Representantes Permanentes",
+        "rationale": "La normativa define a los embajadores y representantes ante organizaciones internacionales como los órganos directivos en el exterior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los Agregados Culturales",
+        "rationale": "Estos son puestos de apoyo o técnicos, pero no alcanzan la categoría de órgano directivo del Estado en el exterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los Secretarios de Embajada",
+        "rationale": "Son categorías de la carrera diplomática, pero no constituyen el órgano directivo en sí mismos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las máximas autoridades diplomáticas que representan al Estado ante otros países u organismos."
+  },
+  {
+    "guid": "421c1bfb-a0a0-4b64-b18d-4cbdc741172b",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién nombra a los Secretarios de Estado?",
+    "answerOptions": [
+      {
+        "text": "El Rey a propuesta del Presidente del Gobierno",
+        "rationale": "Este procedimiento es exclusivo para los Ministros.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Ministros por Real Decreto",
+        "rationale": "Su nombramiento se aprueba en Consejo de Ministros a propuesta del Presidente o del Ministro del ramo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministro correspondiente por Orden Ministerial",
+        "rationale": "Un Secretario de Estado es un órgano superior y requiere la sanción del Consejo de Ministros.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Gobierno por Real Decreto del Presidente",
+        "rationale": "Aunque el Presidente influye, el instrumento formal es un Real Decreto del Consejo de Ministros.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un órgano superior cuyo nombramiento se debate en la reunión semanal del gabinete."
+  },
+  {
+    "guid": "f6fb25a5-1795-4020-ada3-c86b1866f26a",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la estructura interna mínima de una Dirección General?",
+    "answerOptions": [
+      {
+        "text": "Se organiza en Secretarías Generales",
+        "rationale": "Las Secretarías Generales son órganos de nivel superior a la Dirección General.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se organiza en Subdirecciones Generales",
+        "rationale": "Las Direcciones Generales se dividen en Subdirecciones para la distribución de competencias y asignación de objetivos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se organiza en Gabinetes Técnicos",
+        "rationale": "Los gabinetes son órganos de apoyo, pero la estructura de gestión ordinaria son las subdirecciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se organiza directamente en Negociados",
+        "rationale": "Entre una Dirección General y un Negociado existen varios niveles jerárquicos intermedios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano directivo de nivel inmediatamente inferior a la propia Dirección General."
+  },
+  {
+    "guid": "46ab680a-481e-44d8-bf69-9f07b6c8cd8e",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano directivo territorial depende orgánicamente del Presidente del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "El Subdelegado del Gobierno",
+        "rationale": "Los Subdelegados dependen del Delegado del Gobierno, no directamente de la Presidencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Delegado del Gobierno en la CCAA",
+        "rationale": "Orgánicamente dependen de la Presidencia del Gobierno, aunque funcionalmente dependan de otros ministerios.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Director Insular",
+        "rationale": "Su dependencia es jerárquica respecto al Delegado o Subdelegado correspondiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde de la capital de provincia",
+        "rationale": "Los alcaldes pertenecen a la administración local, que es autónoma e independiente de la AGE.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Representa al Gobierno central en todo el territorio de una Comunidad Autónoma."
+  },
+  {
+    "guid": "31251399-26a4-48ab-a664-93bd4fa23b85",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Pueden los Subdirectores Generales ser nombrados entre personas que no sean funcionarios?",
+    "answerOptions": [
+      {
+        "text": "Sí, siempre que tengan 10 años de experiencia",
+        "rationale": "La norma general para Subdirectores es que deben ser funcionarios de carrera del Subgrupo A1.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, deben ser funcionarios de carrera del Estado (o CCAA si la norma lo prevé) del Subgrupo A1",
+        "rationale": "A diferencia de los Directores Generales, los Subdirectores generales siempre deben tener la condición de funcionario A1.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, si el Real Decreto de estructura lo motiva",
+        "rationale": "Esa excepción existe para las Direcciones Generales, pero no se menciona para las Subdirecciones en la LRJSP.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo en el Ministerio de Asuntos Exteriores",
+        "rationale": "La regla de ser funcionario A1 es general para todas las Subdirecciones de la AGE.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son considerados la cúspide de la carrera administrativa profesional."
+  },
+  {
+    "guid": "9f0343aa-cae2-4959-846b-a3786b10fb29",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué principio rige la organización de la AGE en relación con los departamentos ministeriales?",
+    "answerOptions": [
+      {
+        "text": "Principio de desconcentración forzosa",
+        "rationale": "La desconcentración es un principio de actuación, pero no el que define la división en departamentos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de división funcional",
+        "rationale": "La AGE se organiza bajo el principio de división funcional en departamentos ministeriales (Art. 55.1 LRJSP).",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de autonomía financiera",
+        "rationale": "Este principio rige para organismos públicos con personalidad jurídica propia, no para la estructura central de la AGE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de colegialidad absoluta",
+        "rationale": "La AGE es eminentemente jerárquica, no colegiada, salvo en sus órganos de deliberación específicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en separar las tareas según la materia o función administrativa."
+  },
+  {
+    "guid": "3d877c8a-d57d-4f18-8622-7e13f195fbc0",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la principal característica de las 'Unidades Administrativas'?",
+    "answerOptions": [
+      {
+        "text": "Tienen siempre efectos jurídicos frente a terceros",
+        "rationale": "Esa es la definición de un 'órgano', no de cualquier unidad administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son los elementos organizativos básicos de las estructuras orgánicas",
+        "rationale": "La ley las define como los elementos básicos que comprenden puestos de trabajo vinculados por una jefatura común.",
+        "isCorrect": true
+      },
+      {
+        "text": "Son creadas por el Rey",
+        "rationale": "Se crean por instrumentos más sencillos como la RPT o normativas ministeriales.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tienen dependencia jerárquica",
+        "rationale": "Toda unidad administrativa se encuentra bajo la dirección de una jefatura común.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Representan el ladrillo fundamental sobre el que se construye toda la administración."
+  },
+  {
+    "guid": "f4788038-f291-4aa5-ba7d-5e70bd348810",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Los Ministros y Secretarios de Estado son nombrados conforme a qué leyes?",
+    "answerOptions": [
+      {
+        "text": "Solo la Ley 40/2015",
+        "rationale": "Esta ley regula el régimen jurídico, pero el nombramiento específico sigue las pautas de la Ley del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley 50/1997 del Gobierno y Ley 3/2015 del Alto Cargo",
+        "rationale": "Los órganos superiores se rigen por estas leyes específicas para su designación y estatuto personal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo la Constitución Española",
+        "rationale": "La Constitución da el marco general, pero el desarrollo del procedimiento de nombramiento está en las leyes citadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Código de Buen Gobierno únicamente",
+        "rationale": "El Código es un marco ético, pero los requisitos legales están en las leyes del Gobierno y del Alto Cargo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque las leyes que regulan el funcionamiento del Ejecutivo y el estatuto de sus miembros."
+  },
+  {
+    "guid": "37d13262-02c4-422b-9c4c-a4b2146d38f6",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano de la AGE actúa bajo la dependencia funcional del Ministerio del Interior en materia de seguridad ciudadana?",
+    "answerOptions": [
+      {
+        "text": "El Subsecretario de Defensa",
+        "rationale": "Defensa e Interior son ministerios distintos con ámbitos de actuación separados.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Delegado del Gobierno en la CCAA",
+        "rationale": "Aunque dependen de Presidencia, en funciones de libertades públicas y seguridad ciudadana actúan bajo el Ministerio del Interior.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Director General de la Policía únicamente",
+        "rationale": "El Director General es un órgano central, pero la pregunta se refiere a la dirección jerárquica del representante territorial.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario de Estado de Hacienda",
+        "rationale": "No tiene competencias en materia de seguridad ciudadana y orden público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la autoridad que coordina a las fuerzas de seguridad del Estado en una región determinada."
+  },
+  {
+    "guid": "feb9aa40-e109-44de-89cd-689a952b7575",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la diferencia jerárquica entre el Subsecretario y el Director General?",
+    "answerOptions": [
+      {
+        "text": "El Director General es superior al Subsecretario",
+        "rationale": "En la jerarquía ministerial, el Subsecretario se sitúa por encima de los Directores Generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Subsecretario es el superior jerárquico del Director General",
+        "rationale": "De acuerdo con el orden jerárquico del artículo 60 de la LRJSP, el Director General depende del Subsecretario o Secretario de Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tienen el mismo rango",
+        "rationale": "Tienen rangos distintos; el Subsecretario es un nivel superior en la cadena de mando del ministerio.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe relación jerárquica entre ellos",
+        "rationale": "La administración se basa en el principio de jerarquía y ambos órganos están vinculados en la estructura departamental.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en quién coordina los servicios comunes de todo el ministerio."
+  },
+  {
+    "guid": "0dbb04ff-f08d-4b60-b456-64fce34da39c",
+    "subjectId": "T07",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién decide la representación de un Ministerio en órganos colegiados si no está predeterminado el titular?",
+    "answerOptions": [
+      {
+        "text": "El Subsecretario",
+        "rationale": "Aunque gestiona el ministerio, esta decisión política específica sobre representación exterior del departamento es del Ministro.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministro",
+        "rationale": "Según el artículo 61.m) de la LRJSP, corresponde al Ministro decidir la representación del departamento.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Consejo de Ministros",
+        "rationale": "Es una competencia interna de cada departamento ministerial, no una decisión colectiva del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Director General de Relaciones Institucionales",
+        "rationale": "Este órgano puede asesorar, pero la potestad de decisión legal recae en el titular del ministerio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el jefe superior del departamento ministerial."
+  }
+]

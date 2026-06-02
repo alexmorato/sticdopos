@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "1f9affea-6de0-4ee0-af9f-a5eca3cce29d",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo improrrogable establecido en el TREBEP para la ejecución de la oferta de empleo público?",
+    "answerOptions": [
+      {
+        "text": "Dos años.",
+        "rationale": "Este plazo es inferior al límite legal establecido para el desarrollo de los procesos selectivos derivados de la oferta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres años.",
+        "rationale": "El artículo 70 del TREBEP determina que la ejecución de la oferta de empleo público debe desarrollarse dentro del plazo improrrogable de tres años.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cinco años.",
+        "rationale": "Un periodo de cinco años excedería los criterios de planificación y agilidad requeridos por la normativa básica estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año natural.",
+        "rationale": "Aunque la oferta se apruebe anualmente, el plazo para su ejecución material es más extenso para permitir el desarrollo de las convocatorias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el límite temporal máximo que otorga el artículo 70 del TREBEP para culminar los procesos."
+  },
+  {
+    "guid": "912c620e-b5db-4c46-911b-2e06f0101e6e",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 59 del TREBEP, ¿qué porcentaje mínimo de las vacantes en las ofertas de empleo público debe reservarse para personas con discapacidad?",
+    "answerOptions": [
+      {
+        "text": "3 %",
+        "rationale": "Este porcentaje es inferior al mínimo legal exigido para garantizar la integración progresiva en la función pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "5 %",
+        "rationale": "Aunque es un porcentaje común en otros ámbitos, el TREBEP eleva esta cifra mínima para las administraciones públicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "7 %",
+        "rationale": "La ley establece una cuota no inferior al 7 % de las vacantes para ser cubiertas por personas con discapacidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "10 %",
+        "rationale": "Esta cifra supera el mínimo legal, aunque las administraciones podrían decidir ampliarlo voluntariamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número impar que permite dividir la cuota entre discapacidad intelectual y otros tipos."
+  },
+  {
+    "guid": "d0c4daf9-e9cd-463b-a6ba-f15d32dcd9cb",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Dentro del cupo de reserva para personas con discapacidad, ¿qué porcentaje mínimo debe destinarse específicamente a personas con discapacidad intelectual?",
+    "answerOptions": [
+      {
+        "text": "1 %",
+        "rationale": "El porcentaje legal es superior para asegurar una representación mínima efectiva de este colectivo específico.",
+        "isCorrect": false
+      },
+      {
+        "text": "2 %",
+        "rationale": "Del 7 % total de reserva, al menos el 2 % de las plazas ofertadas debe ser para personas con discapacidad intelectual.",
+        "isCorrect": true
+      },
+      {
+        "text": "5 %",
+        "rationale": "El 5 % es el porcentaje restante destinado a cualquier otro tipo de discapacidad acreditada.",
+        "isCorrect": false
+      },
+      {
+        "text": "7 %",
+        "rationale": "El 7 % representa el total de la reserva, no la parte específica para discapacidad intelectual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Representa la parte menor del desglose de la reserva total del 7 %."
+  },
+  {
+    "guid": "d7090667-fd75-45fe-be9a-6768a78683bc",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué momento deben cumplirse los requisitos generales para participar en los procesos selectivos según el TREBEP?",
+    "answerOptions": [
+      {
+        "text": "El día de la toma de posesión.",
+        "rationale": "Para entonces el proceso ya ha concluido; los requisitos deben validarse desde el inicio de la participación.",
+        "isCorrect": false
+      },
+      {
+        "text": "El último día del plazo de presentación de solicitudes.",
+        "rationale": "Legalmente, los aspirantes deben poseer todos los requisitos en la fecha de cierre de la convocatoria.",
+        "isCorrect": true
+      },
+      {
+        "text": "En el momento de la publicación de las listas definitivas de aprobados.",
+        "rationale": "Los requisitos son condiciones de admisión al proceso, no solo de selección final.",
+        "isCorrect": false
+      },
+      {
+        "text": "El día de la realización del primer ejercicio.",
+        "rationale": "La validez de la participación se determina administrativamente antes de la fase de exámenes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la fecha límite que marca el fin de la fase de inscripción."
+  },
+  {
+    "guid": "b134fdfa-f440-4fbc-bdae-2506689a7d8f",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de los siguientes principios NO se menciona explícitamente en el artículo 103.3 de la Constitución Española respecto al acceso a la función pública?",
+    "answerOptions": [
+      {
+        "text": "Mérito.",
+        "rationale": "El mérito es uno de los dos pilares fundamentales citados directamente en el artículo 103.3 CE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Capacidad.",
+        "rationale": "La capacidad es, junto al mérito, el principio rector constitucional para el acceso a la función pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Publicidad.",
+        "rationale": "Aunque es un principio del TREBEP (art. 55), no figura literalmente en el redactado del art. 103.3 de la Constitución.",
+        "isCorrect": true
+      },
+      {
+        "text": "Imparcialidad.",
+        "rationale": "El art. 103.3 CE menciona las garantías para la imparcialidad en el ejercicio de las funciones públicas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Dos principios van siempre de la mano en ese artículo, mientras que otros se derivan de leyes posteriores."
+  },
+  {
+    "guid": "76217038-15b6-4e2d-b474-d39d7f0a51e0",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué colectivo se extiende el derecho de acceso al empleo público en igualdad de condiciones que los españoles, según el artículo 57 del TREBEP, sin necesidad de tener la nacionalidad española?",
+    "answerOptions": [
+      {
+        "text": "Cónyuges de españoles, siempre que no estén separados de derecho.",
+        "rationale": "La ley permite el acceso a cónyuges de españoles y nacionales de la UE bajo condiciones específicas de convivencia legal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier extranjero con residencia legal superior a cinco años.",
+        "rationale": "La residencia legal permite el acceso a plazas de personal laboral, pero para funcionarios se requieren vínculos específicos o nacionalidad UE.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nacionales de cualquier país de América Latina.",
+        "rationale": "A falta de tratados específicos, se rigen por las normas generales de extranjería para el personal laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Descendientes de españoles mayores de 21 años que no sean dependientes.",
+        "rationale": "El derecho se limita a descendientes menores de 21 años o mayores dependientes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un vínculo familiar directo contemplado en la normativa comunitaria y estatal."
+  },
+  {
+    "guid": "772478fd-8110-44c6-8ba6-ee571f1bbce7",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué porcentaje adicional de plazas sobre las comprometidas puede convocar una Administración en sus procesos selectivos según el artículo 70 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Hasta un 5 %.",
+        "rationale": "Este margen es inferior al límite que permite la ley para cubrir posibles bajas o necesidades sobrevenidas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hasta un 10 %.",
+        "rationale": "La normativa permite convocar las plazas comprometidas en la oferta y hasta un 10 % adicional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hasta un 15 %.",
+        "rationale": "Un 15 % excedería el margen de flexibilidad otorgado por la planificación de recursos humanos del TREBEP.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se permite ningún porcentaje adicional.",
+        "rationale": "La ley prevé expresamente este margen para optimizar los procesos de selección.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la décima parte del total de las plazas inicialmente previstas."
+  },
+  {
+    "guid": "8057ea78-7cba-4684-87e4-295a327a93fd",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el ámbito de la Generalitat de Catalunya, ¿qué requisito lingüístico específico se exige en los entes locales del Valle de Arán?",
+    "answerOptions": [
+      {
+        "text": "Únicamente el conocimiento del catalán.",
+        "rationale": "El Valle de Arán tiene un régimen lingüístico especial que protege su lengua propia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El conocimiento del catalán y del aranés.",
+        "rationale": "En el Valle de Arán se debe acreditar el conocimiento tanto del catalán como del aranés, de acuerdo con sus funciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "El conocimiento del francés por proximidad fronteriza.",
+        "rationale": "Aunque sea zona limítrofe, el francés no es lengua oficial ni requisito para el acceso a la función pública local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente el conocimiento del castellano.",
+        "rationale": "Este requisito ignoraría la cooficialidad de las lenguas propias en el territorio de Cataluña.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la lengua occitana propia de esa comarca."
+  },
+  {
+    "guid": "9d86a0f9-8bb3-41cc-82ef-f40ccb629618",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la edad mínima general para acceder a la función pública en España?",
+    "answerOptions": [
+      {
+        "text": "14 años.",
+        "rationale": "Es inferior a la edad mínima laboral general y a la exigida específicamente por el estatuto básico.",
+        "isCorrect": false
+      },
+      {
+        "text": "16 años.",
+        "rationale": "El artículo 56 del TREBEP establece los 16 años como edad mínima, coincidiendo con la capacidad laboral.",
+        "isCorrect": true
+      },
+      {
+        "text": "18 años.",
+        "rationale": "Aunque es la mayoría de edad, la ley permite el acceso a partir de los 16 años.",
+        "isCorrect": false
+      },
+      {
+        "text": "21 años.",
+        "rationale": "No existe una restricción general a esta edad, salvo para cuerpos muy específicos de seguridad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Coincide con la edad mínima para trabajar con autorización en el sector privado."
+  },
+  {
+    "guid": "32dc587b-8e34-4404-ae1d-5a968f727e00",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 55.2 del TREBEP, ¿qué principio asegura que no existan sesgos personales en los órganos de selección?",
+    "answerOptions": [
+      {
+        "text": "Jerarquía.",
+        "rationale": "La jerarquía es un principio organizativo, pero no garantiza la neutralidad técnica del tribunal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Imparcialidad y profesionalidad.",
+        "rationale": "Este principio exige que los miembros de los órganos de selección actúen con neutralidad y basándose en criterios técnicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Agilidad.",
+        "rationale": "La agilidad se refiere a la rapidez del proceso, no a la objetividad de sus evaluadores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Publicidad.",
+        "rationale": "La publicidad asegura que el proceso sea conocido, pero la neutralidad interna depende de la imparcialidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el binomio que describe la conducta ética y técnica de los evaluadores."
+  },
+  {
+    "guid": "00db167c-cf46-40ff-83dd-927b00a6cfa5",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué supuesto de los siguientes es posible la incorporación de funcionarios interinos según la normativa vigente?",
+    "answerOptions": [
+      {
+        "text": "Para realizar funciones de representación política.",
+        "rationale": "Estas funciones están reservadas a cargos electos o personal eventual, no a funcionarios interinos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Existencia de plazas vacantes cuando no sea posible su cobertura por funcionarios de carrera.",
+        "rationale": "Es uno de los supuestos básicos para nombrar personal interino mientras se resuelve la provisión definitiva.",
+        "isCorrect": true
+      },
+      {
+        "text": "Para cubrir vacaciones reglamentarias de 15 días.",
+        "rationale": "Las ausencias cortas como vacaciones no justifican por sí solas el nombramiento de un funcionario interino.",
+        "isCorrect": false
+      },
+      {
+        "text": "Siempre que el presupuesto anual tenga un excedente no utilizado.",
+        "rationale": "El nombramiento requiere una necesidad de servicio específica, no solo disponibilidad presupuestaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de situaciones de necesidad transitoria donde no hay un titular definitivo disponible."
+  },
+  {
+    "guid": "a2847dde-c5a2-442c-a24c-d2befecf95f5",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Para el personal laboral, ¿qué condición se exige a los nacionales de otros Estados (no comunitarios) para acceder a la Administración Pública?",
+    "answerOptions": [
+      {
+        "text": "Permiso de trabajo por cuenta propia.",
+        "rationale": "Este permiso es para autónomos y no es el requerido para una relación laboral de dependencia administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Residencia legal en España.",
+        "rationale": "El artículo 57.4 del TREBEP permite el acceso como personal laboral a extranjeros con residencia legal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tener parientes españoles hasta tercer grado.",
+        "rationale": "El derecho de los familiares se regula para la condición de funcionario, pero el personal laboral solo requiere residencia legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Haber cursado estudios en una universidad española.",
+        "rationale": "Aunque facilita la homologación de títulos, no es el requisito legal habilitante para el contrato.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la situación administrativa que permite permanecer legalmente en territorio nacional."
+  },
+  {
+    "guid": "e4ba2265-d25e-4535-aa8c-66a0c85f91b6",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sistema de provisión de puestos tiene carácter excepcional y solo puede utilizarse para los puestos indicados en la RLT?",
+    "answerOptions": [
+      {
+        "text": "Concurso.",
+        "rationale": "El concurso es el sistema normal y general de provisión en la función pública española.",
+        "isCorrect": false
+      },
+      {
+        "text": "Libre designación.",
+        "rationale": "La libre designación se reserva para puestos de especial responsabilidad o confianza técnica definidos en la RLT.",
+        "isCorrect": true
+      },
+      {
+        "text": "Adscripción provisional.",
+        "rationale": "Es un sistema transitorio, no un método definitivo de provisión excepcional basado en la idoneidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reasignación de efectivos.",
+        "rationale": "Este es un sistema derivado de procesos de racionalización u optimización, no de provisión ordinaria excepcional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el sistema que permite mayor discrecionalidad a la autoridad que nombra."
+  },
+  {
+    "guid": "45a60869-4ad7-4f7c-8edc-20026acb65b2",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de plazas de funcionarios que impliquen el ejercicio de potestades públicas, ¿quiénes pueden acceder exclusivamente?",
+    "answerOptions": [
+      {
+        "text": "Cualquier ciudadano de la Unión Europea.",
+        "rationale": "Los ciudadanos UE tienen límites en el acceso a funciones que implican el ejercicio de autoridad soberana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo los nacionales españoles.",
+        "rationale": "El ejercicio de potestades públicas y salvaguarda de intereses del Estado está reservado por ley a españoles.",
+        "isCorrect": true
+      },
+      {
+        "text": "Extranjeros con más de diez años de residencia.",
+        "rationale": "La residencia prolongada no exime de la reserva de soberanía que implica la nacionalidad para estas funciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nacionales de estados con convenio de reciprocidad.",
+        "rationale": "Incluso con convenios, las funciones de 'poder público' suelen quedar blindadas a la nacionalidad propia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una reserva basada en el concepto de soberanía nacional."
+  },
+  {
+    "guid": "a128fc1d-4e32-42c9-8334-fdc35c53205b",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el periodo máximo permitido para un nombramiento por exceso o acumulación de tareas según el TREBEP?",
+    "answerOptions": [
+      {
+        "text": "3 meses dentro de un periodo de 6 meses.",
+        "rationale": "Este plazo es inferior al máximo permitido para gestionar picos de trabajo coyunturales.",
+        "isCorrect": false
+      },
+      {
+        "text": "6 meses dentro de un periodo de 12 meses.",
+        "rationale": "La norma limita esta modalidad de interinidad a un máximo de 6 meses en un año.",
+        "isCorrect": true
+      },
+      {
+        "text": "9 meses dentro de un periodo de 18 meses.",
+        "rationale": "Excedería el carácter estrictamente coyuntural que la ley otorga a la acumulación de tareas.",
+        "isCorrect": false
+      },
+      {
+        "text": "12 meses ininterrumpidos.",
+        "rationale": "Un año completo se consideraría una necesidad estructural, no una acumulación temporal de tareas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la mitad del tiempo de un año natural."
+  },
+  {
+    "guid": "c9e8708b-6aff-4690-b3a2-538c87be2243",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se define la 'reasignación de efectivos' en el material proporcionado?",
+    "answerOptions": [
+      {
+        "text": "El traslado voluntario de un funcionario a otra administración.",
+        "rationale": "Eso sería una movilidad voluntaria o concurso, no una medida organizativa forzosa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Destinar funcionarios a otros puestos porque los suyos han sido suprimidos por un plan de empleo.",
+        "rationale": "La reasignación es una consecuencia directa de la reestructuración administrativa y supresión de puestos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La promoción interna a un grupo superior.",
+        "rationale": "La promoción interna implica ascenso de categoría, mientras que la reasignación es un cambio de puesto por necesidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El nombramiento de personal interino en puestos vacantes.",
+        "rationale": "La reasignación afecta a personal que ya tiene una relación fija con la administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está vinculada a la desaparición física del puesto de trabajo anterior."
+  },
+  {
+    "guid": "540b2fa1-cb37-49e2-8d93-378fb6a7983a",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el sistema de concurso específico para funcionarios, ¿qué órgano es el encargado de valorar los méritos y capacidades?",
+    "answerOptions": [
+      {
+        "text": "El Pleno de la Corporación.",
+        "rationale": "El Pleno es un órgano político y no técnico encargado de valoraciones individuales de méritos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las juntas de méritos y capacidades.",
+        "rationale": "Estas juntas son los órganos técnicos competentes para la valoración en los concursos específicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Comisión de Gobierno.",
+        "rationale": "Aunque apruebe la estructura, la valoración técnica recae en órganos especializados.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Director General de Recursos Humanos de forma unipersonal.",
+        "rationale": "La valoración debe realizarse de forma colegiada para garantizar la imparcialidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un órgano colegiado cuyo nombre describe exactamente su función."
+  },
+  {
+    "guid": "260b1717-c39a-4f43-8527-7911d7d0e1ad",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la diferencia fundamental entre promoción interna y promoción profesional según el texto?",
+    "answerOptions": [
+      {
+        "text": "La promoción interna es para interinos y la profesional para funcionarios de carrera.",
+        "rationale": "Ambas están diseñadas para el personal que ya forma parte de la estructura fija.",
+        "isCorrect": false
+      },
+      {
+        "text": "La promoción interna permite acceder a un grupo superior; la profesional permite acceder a puestos del mismo grupo.",
+        "rationale": "El texto distingue entre subir de escala/grupo (interna) y mejorar dentro del mismo grupo (profesional).",
+        "isCorrect": true
+      },
+      {
+        "text": "La interna es obligatoria y la profesional es voluntaria.",
+        "rationale": "Todos los procesos de carrera administrativa son voluntarios para el interesado.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe diferencia, son sinónimos legales.",
+        "rationale": "La normativa técnica separa claramente ambos conceptos según afecten o no a la clasificación del funcionario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la distinción entre 'ascender de nivel de titulación' y 'cambiar a un puesto mejor posicionado'."
+  },
+  {
+    "guid": "8ee59d4f-2bc3-4c21-a2e2-37f3bc09244a",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué documento de planificación debe incluir obligatoriamente la denominación de los puestos, grupos de clasificación y sistemas de provisión?",
+    "answerOptions": [
+      {
+        "text": "El Presupuesto General.",
+        "rationale": "El presupuesto detalla el coste económico, pero no la estructura técnica y requisitos de los puestos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Relación de Puestos de Trabajo (RLT).",
+        "rationale": "La RLT es el instrumento organizativo que comprende los elementos esenciales de cada puesto de trabajo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Plan Estratégico de Subvenciones.",
+        "rationale": "Este documento no tiene relación con la gestión directa de los recursos humanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Acta de la sesión constitutiva.",
+        "rationale": "Es un documento formal de inicio de legislatura, no una herramienta de gestión de personal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es conocida comúnmente por sus siglas RLT o RPT."
+  },
+  {
+    "guid": "4e30344e-d083-457c-9c74-c07adfaf10ba",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el Decreto 214/1990, ¿qué paso previo es indispensable antes de efectuar cualquier convocatoria de pruebas selectivas de acceso?",
+    "answerOptions": [
+      {
+        "text": "La realización de un examen médico a todos los posibles candidatos.",
+        "rationale": "El reconocimiento médico se realiza una vez superado el proceso, no antes de la convocatoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "La aprobación y publicación previas de la Oferta de Empleo Público (OPO).",
+        "rationale": "La OPO es el presupuesto administrativo necesario para poder convocar plazas legalmente.",
+        "isCorrect": true
+      },
+      {
+        "text": "La firma de un convenio con los sindicatos mayoritarios.",
+        "rationale": "Aunque haya negociación, la validez legal de la convocatoria depende de la existencia de la oferta pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "La jubilación efectiva del anterior titular de la plaza.",
+        "rationale": "Se pueden convocar plazas vacantes o que vayan a quedar vacantes según la planificación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el documento anual donde la Administración anuncia sus necesidades de personal externo."
+  },
+  {
+    "guid": "4f87328c-961c-4ee4-ad5d-b70613b5c940",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto de la discapacidad, ¿qué derecho tienen los candidatos que superan el proceso por el turno de reserva respecto a los del turno libre?",
+    "answerOptions": [
+      {
+        "text": "Derecho a percibir un salario mayor.",
+        "rationale": "El principio de igualdad retributiva impide diferencias salariales por la vía de acceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho preferente de elección de vacantes si reúnen las condiciones.",
+        "rationale": "La normativa otorga preferencia a las personas con discapacidad para elegir destino si cumplen los requisitos del puesto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho a no realizar el periodo de prácticas.",
+        "rationale": "Todos los seleccionados deben superar el periodo de prácticas o curso selectivo previsto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a la jubilación anticipada automática.",
+        "rationale": "La jubilación se rige por la normativa de seguridad social, no por el sistema de acceso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere al momento de adjudicación de los destinos finales."
+  },
+  {
+    "guid": "3b985785-4453-4039-9466-26e07babce63",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué principio rector del TREBEP exige la adecuación entre el contenido de las pruebas y las funciones de las plazas convocadas?",
+    "answerOptions": [
+      {
+        "text": "Transparencia.",
+        "rationale": "La transparencia se refiere a la claridad del procedimiento, no a la pertinencia de las preguntas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Adecuación entre el contenido de los procesos selectivos y las funciones a ejercer.",
+        "rationale": "Este principio (art. 55.2.e) garantiza que los exámenes evalúen competencias útiles para el puesto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Discrecionalidad técnica.",
+        "rationale": "Esto se refiere a la libertad de juicio del tribunal, no al diseño temático de la convocatoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Independencia.",
+        "rationale": "La independencia protege al tribunal de presiones externas, pero no dicta el contenido del examen.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un principio que busca la coherencia entre el examen y el trabajo real."
+  },
+  {
+    "guid": "8e362eb6-9518-4837-9ac6-b6abdbfb2f94",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué grupo de clasificación pertenece un puesto que requiere el título de Grado Universitario según la estructura del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Grupo B.",
+        "rationale": "El grupo B se reserva para títulos de Técnico Superior (Formación Profesional).",
+        "isCorrect": false
+      },
+      {
+        "text": "Grupo A (subgrupos A1 y A2).",
+        "rationale": "El grupo A requiere titulación universitaria de Grado, dividiéndose según el nivel de responsabilidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Grupo C (subgrupo C1).",
+        "rationale": "El subgrupo C1 requiere el título de Bachiller o equivalente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Agrupaciones Profesionales.",
+        "rationale": "Estas no requieren una titulación académica específica del sistema educativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el nivel más alto de la pirámide de clasificación profesional."
+  },
+  {
+    "guid": "addb7ad3-753a-4e5a-8f69-d2323fb7be7a",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Si una persona ha sido separada del servicio de una Administración Pública mediante expediente disciplinario, ¿puede participar en un proceso selectivo?",
+    "answerOptions": [
+      {
+        "text": "Sí, siempre que hayan pasado dos años.",
+        "rationale": "La separación del servicio suele ser una causa de exclusión permanente a menos que medie rehabilitación.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, es un requisito negativo de capacidad.",
+        "rationale": "No haber sido separado mediante expediente es un requisito general de participación según el art. 56 TREBEP.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, pero solo para plazas de personal laboral.",
+        "rationale": "La prohibición se extiende tanto para el acceso a cuerpos de funcionarios como para funciones similares en laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si la separación fue en una comunidad autónoma distinta.",
+        "rationale": "La prohibición abarca a cualquier administración pública del Estado o de las comunidades autónomas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de uno de los impedimentos legales por falta de honorabilidad profesional."
+  },
+  {
+    "guid": "f1e3019e-41ca-4c49-a7e7-82f1186e5ff6",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el acceso como personal laboral fijo, ¿cuál es el sistema de selección que se utiliza con carácter general en la Generalitat?",
+    "answerOptions": [
+      {
+        "text": "Oposición libre.",
+        "rationale": "La oposición libre es más común para ciertos cuerpos de funcionarios de carrera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concurso-oposición.",
+        "rationale": "La normativa de la Generalitat establece el concurso-oposición como sistema general para el laboral fijo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Libre designación.",
+        "rationale": "La libre designación es un sistema de provisión de puestos, no un sistema de acceso a la fijeza laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sorteo público.",
+        "rationale": "El sorteo no respeta los principios constitucionales de mérito y capacidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Combina la valoración de exámenes con la de la trayectoria previa."
+  },
+  {
+    "guid": "30734ba9-a75c-4224-ab38-7fec49c23ff4",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué garantiza el principio de 'discrecionalidad técnica' de los órganos de selección?",
+    "answerOptions": [
+      {
+        "text": "Que pueden elegir a los candidatos sin dar explicaciones.",
+        "rationale": "La discrecionalidad no es arbitrariedad; sus decisiones deben ser motivadas y basadas en criterios técnicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La autonomía del tribunal para valorar los conocimientos dentro del margen de la ciencia o técnica aplicable.",
+        "rationale": "Protege el juicio técnico de los evaluadores frente a interferencias administrativas o políticas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el tribunal puede cambiar las bases de la convocatoria a mitad del proceso.",
+        "rationale": "Las bases son la 'ley' del proceso y no pueden alterarse una vez publicadas por razones de seguridad jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los miembros del tribunal son elegidos por sorteo.",
+        "rationale": "El sistema de elección es independiente del principio de juicio técnico que aplican una vez nombrados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la libertad de juicio experto para calificar una prueba."
+  },
+  {
+    "guid": "a6c2de67-d90d-46ba-9912-d272ec0ac231",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Para los funcionarios de carrera, ¿cuántos niveles existen en la clasificación de puestos de la Administración Local según el material?",
+    "answerOptions": [
+      {
+        "text": "14 niveles.",
+        "rationale": "Este número no coincide con el intervalo máximo de niveles utilizado en el sistema de función pública español.",
+        "isCorrect": false
+      },
+      {
+        "text": "30 niveles.",
+        "rationale": "Los puestos de trabajo se clasifican en 30 niveles de acuerdo con su valoración y complejidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "50 niveles.",
+        "rationale": "El sistema administrativo español tiene el tope superior en el nivel 30 para los altos funcionarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Niveles ilimitados según la RLT.",
+        "rationale": "La estructura de grados y niveles está tasada legalmente para permitir la movilidad entre administraciones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo número máximo de niveles que existe en la Administración General del Estado."
+  },
+  {
+    "guid": "8dd98f96-28dc-4cc4-a5a8-e34bf43680df",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función primordial de la Oferta de Empleo Público (OPE) según el artículo 70 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Establecer las vacaciones del personal.",
+        "rationale": "La OPE no regula las condiciones de trabajo diarias, sino la planificación de ingresos de nuevo personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Programar las necesidades de recursos humanos que deban proveerse mediante personal de nuevo ingreso.",
+        "rationale": "La OPE es la herramienta de planificación que vincula vacantes con asignación presupuestaria para nuevas incorporaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Publicar las sanciones disciplinarias del año anterior.",
+        "rationale": "Los expedientes disciplinarios son materias reservadas y no forman parte de la planificación de empleo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Regular el derecho a la sindicación de los funcionarios.",
+        "rationale": "Esa materia se regula mediante leyes específicas de libertad sindical, no a través de la oferta de plazas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un instrumento de previsión para cubrir vacantes con gente de fuera de la administración."
+  },
+  {
+    "guid": "81076f96-dd3f-42ac-8787-238f466e24b7",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué consiste la situación de 'comisión de servicios'?",
+    "answerOptions": [
+      {
+        "text": "Es una sanción disciplinaria por falta grave.",
+        "rationale": "La comisión de servicios es una forma de provisión temporal, no una medida de castigo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La destinación temporal a un puesto de trabajo distinto por necesidad urgente.",
+        "rationale": "Permite cubrir puestos vacantes o urgentes con personal que ya es funcionario de forma transitoria (máximo 2 años).",
+        "isCorrect": true
+      },
+      {
+        "text": "La jubilación parcial del empleado público.",
+        "rationale": "No implica el cese de la actividad, sino un cambio de funciones o ubicación.",
+        "isCorrect": false
+      },
+      {
+        "text": "El paso a trabajar en la empresa privada manteniendo el sueldo público.",
+        "rationale": "Esto sería incompatible; la comisión de servicios ocurre siempre dentro del sector público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Implica un cambio temporal de puesto manteniendo la condición de activo."
+  },
+  {
+    "guid": "8afd97dd-7de5-4ebe-a3ac-306334e9d68d",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de los siguientes es un requisito de titulación para el subgrupo C2?",
+    "answerOptions": [
+      {
+        "text": "Bachillerato.",
+        "rationale": "El título de Bachiller se exige para el subgrupo superior, el C1.",
+        "isCorrect": false
+      },
+      {
+        "text": "Graduado en Educación Secundaria Obligatoria (ESO).",
+        "rationale": "La ESO es la titulación básica requerida para acceder al subgrupo C2.",
+        "isCorrect": true
+      },
+      {
+        "text": "Diplomatura Universitaria.",
+        "rationale": "Las antiguas diplomaturas equivalen hoy al Grado para el acceso al grupo A2.",
+        "isCorrect": false
+      },
+      {
+        "text": "Certificado de escolaridad.",
+        "rationale": "Este certificado se asocia a las agrupaciones profesionales sin requisito de titulación de la ESO.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el título que se obtiene al finalizar la etapa de enseñanza obligatoria en España."
+  }
+]

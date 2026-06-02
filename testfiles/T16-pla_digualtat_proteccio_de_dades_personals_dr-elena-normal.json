@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "0a1c4004-38fb-43b6-9bdc-b4913da5c43d",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la definición normativa de un plan de igualdad según la documentación?",
+    "answerOptions": [
+      {
+        "text": "Un conjunto ordenado de medidas para alcanzar la igualdad de trato y de oportunidades entre mujeres y hombres, eliminando la discriminación por razón de sexo.",
+        "rationale": "Esta definición destaca que no es solo un objetivo, sino un conjunto estructurado de acciones concretas para erradicar la desigualdad en la empresa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una serie de sanciones impuestas por la autoridad laboral a empresas que no cumplen con los cupos de género establecidos por ley.",
+        "rationale": "Un plan de igualdad es una herramienta proactiva de gestión, no un régimen sancionador, aunque la autoridad puede obligar a su implantación como sustitución de una sanción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un documento exclusivamente retributivo que busca equiparar los salarios base de toda la plantilla sin distinción de categoría.",
+        "rationale": "Aunque las retribuciones son una materia del plan, este es transversal y abarca selección, promoción, formación y prevención del acoso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un acuerdo voluntario entre sindicatos que no vincula legalmente a la dirección de la empresa en sus procesos de contratación.",
+        "rationale": "El plan de igualdad requiere la participación de la dirección y tiene carácter obligatorio para determinadas empresas según su número de trabajadores.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considera que se trata de un instrumento sistemático para transformar la realidad laboral."
+  },
+  {
+    "guid": "bb6d880a-1b3e-42f0-ae4f-e6a8741224e3",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "A partir del 8 de marzo de 2022, ¿qué empresas están obligadas a disponer de un plan de igualdad?",
+    "answerOptions": [
+      {
+        "text": "Todas las empresas de 50 o más personas trabajadoras.",
+        "rationale": "La legislación establece este umbral mínimo de plantilla para que la obligación de tener un plan de igualdad sea efectiva para todas las empresas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente las empresas de más de 250 personas trabajadoras.",
+        "rationale": "Este era el umbral anterior, pero la normativa vigente ha ampliado la obligatoriedad a empresas de menor tamaño.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo aquellas empresas del sector público con más de 100 empleados.",
+        "rationale": "La obligatoriedad se aplica tanto al sector público como al privado basándose en el número total de trabajadores, no solo en la naturaleza de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Empresas con más de 150 personas trabajadoras independientemente de su facturación.",
+        "rationale": "Si bien estas empresas ya estaban obligadas antes de 2022, el límite actual es más bajo para incluir a las medianas empresas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El umbral se ha reducido progresivamente en los últimos años para incluir a empresas medianas."
+  },
+  {
+    "guid": "77e78b56-ee32-444e-a7fc-42128e949360",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el marco conceptual de la Ley Orgánica $3/2007$, ¿qué define al concepto de 'género'?",
+    "answerOptions": [
+      {
+        "text": "Las características biológicas que definen a un ser humano como hombre o mujer.",
+        "rationale": "Esta descripción corresponde a la definición de 'sexo', que es de naturaleza biológica y no social.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las diferencias socialmente construidas que la sociedad asigna a hombres y mujeres de forma diferenciada.",
+        "rationale": "El género se refiere a los constructos sociales, aprendidos y variables según la cultura y el tiempo, a diferencia de los rasgos biológicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "El conjunto de leyes que garantizan que hombres y mujeres tengan los mismos derechos ante la administración.",
+        "rationale": "Esto se refiere al principio de igualdad formal o jurídica, no a la construcción sociocultural de las identidades.",
+        "isCorrect": false
+      },
+      {
+        "text": "La imparcialidad de trato basada en los derechos y beneficios de cada individuo.",
+        "rationale": "Esta definición se acerca más al concepto de equidad, que busca la justicia en el tratamiento según las necesidades.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de algo que es aprendido y que puede cambiar con el tiempo y la cultura."
+  },
+  {
+    "guid": "013a76b2-be77-4fa3-8cfc-07b2684699cd",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué consiste la 'discriminación directa por razón de sexo'?",
+    "answerOptions": [
+      {
+        "text": "Una situación donde una persona es tratada de manera menos favorable que otra en situación comparable debido a su sexo.",
+        "rationale": "La discriminación directa ocurre cuando el sexo de la persona es el motivo explícito y directo de un trato desigual y perjudicial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una norma neutral que, al aplicarse, pone a las personas de un sexo en una desventaja particular respecto a las del otro.",
+        "rationale": "Esta es la definición de discriminación indirecta, donde el perjuicio no es evidente en la redacción de la norma pero sí en su resultado.",
+        "isCorrect": false
+      },
+      {
+        "text": "La presencia de estereotipos en el lenguaje publicitario de una organización.",
+        "rationale": "Aunque es una práctica sexista, la discriminación directa requiere un trato desfavorable específico hacia una persona o grupo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La segregación de puestos de trabajo basada en la fuerza física requerida.",
+        "rationale": "Esto suele ser un ejemplo de segregación horizontal que puede derivar de discriminaciones indirectas o sesgos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un trato desigual explícito frente a una situación de comparación igualitaria."
+  },
+  {
+    "guid": "0ef92f4c-e662-464a-b3fe-a9c1b7994162",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué se entiende por 'segregación vertical' en el ámbito laboral?",
+    "answerOptions": [
+      {
+        "text": "La concentración de hombres y mujeres en diferentes sectores de actividad o profesiones.",
+        "rationale": "Esto describe la segregación horizontal, donde los sexos se dividen por tipos de tareas, no por jerarquía.",
+        "isCorrect": false
+      },
+      {
+        "text": "La dificultad de las mujeres para acceder a puestos de responsabilidad y niveles jerárquicos más altos.",
+        "rationale": "La segregación vertical, vinculada al 'techo de cristal', se refiere a la distribución desigual de hombres y mujeres en la escala de mando.",
+        "isCorrect": true
+      },
+      {
+        "text": "La diferencia salarial existente entre puestos de igual valor dentro de una misma empresa.",
+        "rationale": "Este concepto es la brecha salarial, que puede ser consecuencia de la segregación vertical pero no es su definición.",
+        "isCorrect": false
+      },
+      {
+        "text": "El proceso de selección que utiliza pruebas físicas diferenciadas para hombres y mujeres.",
+        "rationale": "Esto es una práctica de selección que busca la equidad, no define la estructura jerárquica de la plantilla.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en la estructura de la pirámide de mando de una organización."
+  },
+  {
+    "guid": "214b55d8-afeb-4238-8c76-1386ead65e2a",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el diagnóstico del III Plan de Igualdad del Ayuntamiento de Barcelona, ¿cuál fue una conclusión sobre la brecha salarial?",
+    "answerOptions": [
+      {
+        "text": "El valor asociado a cada puesto de trabajo es una fuente de brecha salarial.",
+        "rationale": "El análisis detectó que la valoración de los puestos, a menudo influenciada por roles de género, contribuye a la diferencia retributiva.",
+        "isCorrect": true
+      },
+      {
+        "text": "No existe brecha salarial ya que el sistema retributivo de los funcionarios es público y fijo.",
+        "rationale": "A pesar de tener tablas fijas, factores como complementos, dedicación y segregación generan brechas reales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las mujeres ganan más en los niveles básicos pero menos en los niveles directivos.",
+        "rationale": "La brecha suele ser desfavorable para las mujeres de forma generalizada, especialmente por la falta de presencia en niveles altos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La brecha salarial se debe exclusivamente a la falta de formación académica de las empleadas.",
+        "rationale": "El diagnóstico señala factores estructurales y de gestión de personas, no una falta de capacitación individual de las mujeres.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se relaciona con cómo se evalúan y remuneran las funciones de cada rol."
+  },
+  {
+    "guid": "833fc032-2aa3-40da-837c-26f3178ce80c",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué medida propone el III Plan de Igualdad (M13) para reducir el impacto de la conciliación en la brecha salarial?",
+    "answerOptions": [
+      {
+        "text": "Eliminar todas las reducciones de jornada para forzar la presencia a tiempo completo.",
+        "rationale": "Esto vulneraría los derechos de los trabajadores y no solucionaría el problema de fondo de la conciliación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estudiar medidas de reducción de jornada que permitan una articulación más flexible.",
+        "rationale": "La flexibilidad en la reducción busca que esta no penalice tanto la carrera profesional ni la retribución a largo plazo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir el sueldo de las mujeres en reducción de jornada con fondos europeos.",
+        "rationale": "Esta no es una medida de gestión interna contemplada en el plan de acción del Ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prohibir que los hombres soliciten reducciones de jornada para evitar sesgos.",
+        "rationale": "El plan busca fomentar la corresponsabilidad, por lo que prohibirlo a los hombres sería contraproducente e ilegal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La clave es la adaptabilidad de las condiciones de trabajo a la vida personal."
+  },
+  {
+    "guid": "ef3ab271-5004-4663-b9fa-ea1a6a20ec48",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal de la Comissió Tècnica d'Igualdad en el contexto del Ayuntamiento?",
+    "answerOptions": [
+      {
+        "text": "Aprobar los presupuestos generales del Ayuntamiento en materia de servicios sociales.",
+        "rationale": "Sus funciones están estrictamente ligadas a la igualdad de género, no a la gestión presupuestaria general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Asesorar y dar apoyo a la detección de cualquier conducta contraria a la igualdad.",
+        "rationale": "Actúa como un órgano de apoyo técnico para velar por el cumplimiento del plan y la salud del clima laboral en igualdad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir al departamento de Recursos Humanos en la contratación de personal.",
+        "rationale": "Es un órgano paritario y consultivo, pero la gestión administrativa de personal sigue recayendo en la gerencia correspondiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Imponer multas directas a los trabajadores que utilicen lenguaje sexista.",
+        "rationale": "Su función es de seguimiento, asesoramiento y diagnóstico, no tiene capacidad sancionadora directa sobre individuos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un órgano que guía y vigila el proceso de integración de la igualdad."
+  },
+  {
+    "guid": "1e09620c-3766-4bd5-9eff-8da03c6ffce2",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Sobre la selección de personal en la Guardia Urbana (GUB), ¿qué cambio se introdujo para corregir sesgos detectados?",
+    "answerOptions": [
+      {
+        "text": "La eliminación total de las pruebas físicas para todos los aspirantes.",
+        "rationale": "Las pruebas físicas se mantienen por la naturaleza del trabajo, pero se han revisado para que no sean excluyentes por género de forma injustificada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una reserva de plazas de entre el $25\\%$ y el $40\\%$ como acción positiva.",
+        "rationale": "Esta es una medida de acción positiva para combatir la fuerte masculinización histórica del cuerpo policial.",
+        "isCorrect": true
+      },
+      {
+        "text": "La contratación automática de cualquier mujer que se presente al proceso.",
+        "rationale": "Los principios de mérito y capacidad deben respetarse; la reserva de plazas actúa dentro del proceso competitivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La prohibición de que los hombres se presenten en las convocatorias de años pares.",
+        "rationale": "Las convocatorias son abiertas a ambos sexos; las cuotas solo garantizan una representación mínima de las mujeres aptas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un mecanismo legal de cuotas para equilibrar la plantilla."
+  },
+  {
+    "guid": "653374d9-cb47-413c-bf75-6f232afb7ba6",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué hallazgo destaca el diagnóstico sobre la formación y la percepción de género?",
+    "answerOptions": [
+      {
+        "text": "Las mujeres perciben más dificultades para acceder a la formación que los hombres ($20,7\\%$ frente a $9,8\\%$).",
+        "rationale": "El diagnóstico muestra que los obstáculos para formarse (como la conciliación) afectan el doble a las mujeres.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los hombres solicitan más cursos de formación en igualdad que las mujeres.",
+        "rationale": "Los datos suelen mostrar lo contrario, siendo necesario incentivar la formación en igualdad entre el personal masculino.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existen diferencias significativas en el acceso a la formación entre sexos.",
+        "rationale": "La encuesta de diagnóstico desmiente esta idea, revelando una brecha de percepción y acceso clara.",
+        "isCorrect": false
+      },
+      {
+        "text": "La formación está prohibida para el personal con reducción de jornada.",
+        "rationale": "No está prohibida, pero las dificultades de horario hacen que este personal (mayoritariamente femenino) acceda menos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la diferencia estadística mencionada en los resultados de la encuesta interna."
+  },
+  {
+    "guid": "66e8d645-b32a-4382-baf2-0db9d7d23549",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En materia de protección de datos, ¿qué define a una 'dado personal' según el RGPD?",
+    "answerOptions": [
+      {
+        "text": "Cualquier información numérica que pertenezca a una base de datos de una entidad pública.",
+        "rationale": "La definición es mucho más amplia y no se limita a información numérica o a entidades públicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier información sobre una persona física identificada o identificable.",
+        "rationale": "Esta definición incluye nombres, fotos, correos o cualquier dato que permita determinar la identidad de un individuo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente el nombre completo y el número de documento nacional de identidad.",
+        "rationale": "Muchos otros datos (IP, localización, rasgos físicos) pueden considerarse datos personales si permiten identificar a la persona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los datos confidenciales de una persona jurídica o empresa privada.",
+        "rationale": "El RGPD protege a las personas físicas; los datos de personas jurídicas tienen otros marcos de protección.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Ponte en el lugar de alguien cuya identidad puede ser revelada por un detalle."
+  },
+  {
+    "guid": "fef59a4f-6b2c-4d50-ad7d-072111eb9ffd",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién es el 'Responsable del tractament' en el marco del RGPD?",
+    "answerOptions": [
+      {
+        "text": "La persona física o jurídica que determina los fines y los medios del tratamiento de datos.",
+        "rationale": "Es la figura principal que decide por qué y cómo se procesan los datos personales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El técnico informático que realiza el mantenimiento de los servidores de datos.",
+        "rationale": "Este suele ser un encargado o un empleado, pero no quien decide los fines del tratamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier ciudadano que cede sus datos para recibir una subvención pública.",
+        "rationale": "Este es el 'interesado' o titular de los datos, no el responsable de su tratamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "El organismo internacional que supervisa que las leyes se cumplan en todo el mundo.",
+        "rationale": "Eso describe a una autoridad de control o supervisión, no al responsable del tratamiento específico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la entidad que tiene el poder de decisión sobre el uso de la información."
+  },
+  {
+    "guid": "588f1836-ec95-4c46-975e-aefe4e5785bf",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Para qué entidades es obligatorio el nombramiento de un Delegado de Protección de Datos (DPO)?",
+    "answerOptions": [
+      {
+        "text": "Únicamente para multinacionales con sede en más de tres países de la Unión Europea.",
+        "rationale": "Aunque las multinacionales suelen necesitarlo, no es el único criterio de obligatoriedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es obligatorio para toda la Administración Pública y empresas que realicen tratamientos a gran escala de categorías especiales de datos.",
+        "rationale": "La ley busca garantizar que las entidades con mayor impacto en la privacidad tengan una figura de supervisión obligatoria.",
+        "isCorrect": true
+      },
+      {
+        "text": "Para cualquier pequeño comercio que tenga una lista de clientes en papel.",
+        "rationale": "Los pequeños comercios generalmente están exentos a menos que realicen tratamientos de alto riesgo o a gran escala.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo para empresas tecnológicas dedicadas al desarrollo de inteligencia artificial.",
+        "rationale": "Cualquier entidad que cumpla los criterios de escala o naturaleza de datos (como hospitales o ayuntamientos) debe tenerlo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considera la escala y la sensibilidad de la información manejada por el sector público."
+  },
+  {
+    "guid": "2313de14-e68e-45e7-8735-002957343c76",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A cuánto pueden ascender las multas por infracción del RGPD?",
+    "answerOptions": [
+      {
+        "text": "Hasta un $10\\%$ de la facturación global anual de la empresa.",
+        "rationale": "El porcentaje máximo establecido por el reglamento para las infracciones más graves es menor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hasta un $4\\%$ de la facturación global anual de la empresa.",
+        "rationale": "Es una de las sanciones económicas más potentes para asegurar el cumplimiento de las grandes corporaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un máximo de $10.000$ euros independientemente del tamaño de la entidad.",
+        "rationale": "Las multas son proporcionales y pueden alcanzar millones de euros para ser disuasorias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las multas solo consisten en amonestaciones públicas sin coste económico.",
+        "rationale": "Aunque existen amonestaciones, las sanciones económicas son una parte fundamental del régimen disciplinario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un porcentaje significativo diseñado para ser disuasorio a nivel corporativo."
+  },
+  {
+    "guid": "36c2f0a4-aa85-4469-af53-596a7ac53cb9",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué consiste el 'Dret a la portabilitat de les dades'?",
+    "answerOptions": [
+      {
+        "text": "El derecho a que los datos sean borrados permanentemente de todos los buscadores de internet.",
+        "rationale": "Este es el derecho al olvido o de supresión, no el de portabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a recibir los datos personales en un formato estructurado y de uso común para transmitirlos a otro responsable.",
+        "rationale": "La portabilidad facilita que el usuario cambie de proveedor de servicios sin perder su información personal.",
+        "isCorrect": true
+      },
+      {
+        "text": "El derecho a cambiar el domicilio físico donde se guardan los servidores de la empresa.",
+        "rationale": "La portabilidad se refiere a los datos lógicos del usuario, no a la ubicación física de la infraestructura.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a que los datos nunca salgan del territorio nacional del interesado.",
+        "rationale": "Esto se relaciona con las transferencias internacionales de datos, que es un concepto distinto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con la capacidad de llevarse la información de un servicio a otro."
+  },
+  {
+    "guid": "d039570d-2770-46db-9840-b8f3995139b0",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el periodo de vigencia del III Plan de Igualdad del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "$2015-2019$.",
+        "rationale": "Ese fue el periodo de vigencia del II Plan de Igualdad.",
+        "isCorrect": false
+      },
+      {
+        "text": "$2020-2023$.",
+        "rationale": "El III Plan se diseñó para cubrir este cuatrienio, incluyendo las medidas de recuperación post-pandemia.",
+        "isCorrect": true
+      },
+      {
+        "text": "$2021-2025$.",
+        "rationale": "Aunque el diagnóstico se realizó cerca de esas fechas, la vigencia oficial aprobada empieza en 2020.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es de vigencia indefinida hasta que se apruebe una nueva ley estatal.",
+        "rationale": "Los planes de igualdad siempre tienen un periodo temporal definido para permitir su evaluación y renovación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Comienza justo después de que terminara el segundo plan en 2019."
+  },
+  {
+    "guid": "35ed93fc-927a-451a-935c-11078ee8b1fc",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio de protección de datos exige que los datos sean 'exactos y puestos al día'?",
+    "answerOptions": [
+      {
+        "text": "Principio de limitación de la finalidad.",
+        "rationale": "Este principio dice que los datos solo deben usarse para lo que se recogieron, no habla de su veracidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de exactitud.",
+        "rationale": "El responsable debe tomar medidas para que los datos inexactos se supriman o rectifiquen sin demora.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de minimización de datos.",
+        "rationale": "Este principio se refiere a no pedir más datos de los necesarios, no a su actualización.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de integridad y confidencialidad.",
+        "rationale": "Este se refiere a la seguridad técnica y a evitar accesos no autorizados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la veracidad de la información almacenada."
+  },
+  {
+    "guid": "295e117a-af1a-416e-9b16-a35eed5ffc37",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el diagnóstico, ¿qué ocurre en el nivel $30$ de la escala salarial del Ayuntamiento?",
+    "answerOptions": [
+      {
+        "text": "Hay paridad absoluta ($50\\%$ hombres y $50\\%$ mujeres).",
+        "rationale": "El diagnóstico indica que en los niveles más altos la representación femenina es muy baja.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las mujeres representan solo el $18,8\\%$.",
+        "rationale": "Este dato evidencia la segregación vertical o 'techo de cristal' en los puestos de máxima responsabilidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las mujeres son mayoría con un $85,7\\%$.",
+        "rationale": "Este porcentaje ($85,7\\%$) corresponde a los niveles más bajos (nivel 12), reflejando la precariedad femenina.",
+        "isCorrect": false
+      },
+      {
+        "text": "El nivel 30 ha sido eliminado para favorecer la carrera horizontal.",
+        "rationale": "El nivel jerárquico existe; el problema detectado es quién lo ocupa mayoritariamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un ejemplo claro de la baja presencia femenina en la cúpula directiva."
+  },
+  {
+    "guid": "71f297ee-ad0b-4e33-8b7c-1ed5d3803c55",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué establece el 'Principio de igualdad formal'?",
+    "answerOptions": [
+      {
+        "text": "Que las empresas deben pagar el mismo sueldo por trabajos de igual valor de forma obligatoria.",
+        "rationale": "Esto es igualdad retributiva; la igualdad formal es un concepto jurídico más amplio sobre la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que todos los ciudadanos son iguales ante la ley, sin que pueda prevalecer discriminación alguna.",
+        "rationale": "Se basa en el artículo 14 de la Constitución Española y es la base de la igualdad jurídica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que se debe tratar de forma diferente a los que están en situaciones desiguales para alcanzar la justicia.",
+        "rationale": "Esto describe la igualdad material o sustantiva, que va más allá de la letra de la ley para buscar resultados reales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el lenguaje inclusivo debe ser obligatorio en todos los documentos oficiales.",
+        "rationale": "El lenguaje inclusivo es una herramienta, pero la igualdad formal es un principio constitucional de derechos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se asocia directamente con el artículo 14 de la Constitución Española."
+  },
+  {
+    "guid": "38cd282e-74a5-49c3-ac69-4f7574887e59",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué momento debe obtenerse el consentimiento del interesado para el tratamiento de sus datos?",
+    "answerOptions": [
+      {
+        "text": "Después de haber procesado los datos para verificar si el usuario está de acuerdo.",
+        "rationale": "El tratamiento sin consentimiento previo (si esta es la base legal) sería una infracción inmediata.",
+        "isCorrect": false
+      },
+      {
+        "text": "Antes de iniciar cualquier operación de tratamiento.",
+        "rationale": "El consentimiento debe ser preventivo e informado para que el usuario mantenga el control sobre su información.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo cuando los datos vayan a ser vendidos a terceros países.",
+        "rationale": "El consentimiento es necesario para el tratamiento base, no solo para transferencias internacionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el plazo de 30 días naturales tras la recogida de la información.",
+        "rationale": "No existe un periodo de gracia; la base legal debe existir en el momento de la recogida.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La protección debe ser previa a la acción sobre los datos."
+  },
+  {
+    "guid": "a5d8876a-7fa2-4896-8c1f-3f7fd0185b56",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué medida del plan (M19) se refiere a la comunicación corporativa?",
+    "answerOptions": [
+      {
+        "text": "Contratar solo a mujeres para el departamento de prensa y relaciones públicas.",
+        "rationale": "Esto sería una medida discriminatoria y no es lo que propone el plan de igualdad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Incorporar el uso de prácticas inclusivas y no sexistas en el lenguaje y la imagen.",
+        "rationale": "El objetivo es proyectar una imagen corporativa neutra y respetuosa que no perpetúe estereotipos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar todas las imágenes de hombres en la base documental del Ayuntamiento.",
+        "rationale": "La inclusión busca representación equilibrada y no sexista, no la exclusión de un género.",
+        "isCorrect": false
+      },
+      {
+        "text": "Publicar el salario de todos los trabajadores en la web de forma abierta.",
+        "rationale": "Esto chocaría con la protección de datos; el plan propone auditorías salariales, no exposición pública individual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se centra en cómo la organización se expresa y se muestra visualmente."
+  },
+  {
+    "guid": "f0e00fcc-04c3-4a51-99df-093a0ab24952",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el objetivo principal de la medida M16 en el Plan de Acción?",
+    "answerOptions": [
+      {
+        "text": "Establecer una guardería gratuita dentro de cada edificio municipal.",
+        "rationale": "Aunque es una medida de conciliación teórica, el plan M16 se enfoca en la prevención del acoso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Implantar un sistema de formación orientado a la prevención del acoso sexual y por razón de sexo.",
+        "rationale": "Busca la detección precoz y la canalización efectiva de situaciones de riesgo mediante la formación de directivos y técnicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Garantizar que el $50\\%$ de los nuevos policías sean mujeres.",
+        "rationale": "Esta es una medida de selección (acción positiva) y no la M16, que es de formación y prevención.",
+        "isCorrect": false
+      },
+      {
+        "text": "Crear una aplicación móvil para fichar la entrada y salida del trabajo.",
+        "rationale": "Esto es una herramienta de control horario, no relacionada directamente con la prevención del acoso en el plan.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está vinculada a la seguridad y dignidad en el entorno laboral frente a conductas indebidas."
+  },
+  {
+    "guid": "470d86bc-ffff-4b49-a84c-e8bb022d68cd",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué es la 'Equidad de género' según el glosario aportado?",
+    "answerOptions": [
+      {
+        "text": "La convicción biológica de que hombres y mujeres deben realizar las mismas tareas físicas.",
+        "rationale": "La equidad no es una convicción biológica, sino un principio de tratamiento justo basado en el género.",
+        "isCorrect": false
+      },
+      {
+        "text": "La imparcialidad de trato a partir del género, en términos de derechos, beneficios y oportunidades.",
+        "rationale": "A diferencia de la igualdad formal, la equidad pone énfasis en la justicia del trato recibido.",
+        "isCorrect": true
+      },
+      {
+        "text": "El sistema que obliga a las mujeres a trabajar más horas para compensar la brecha salarial.",
+        "rationale": "Esto sería una medida discriminatoria y contraria a cualquier principio de igualdad o equidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "La creencia de que la superioridad masculina es un hecho natural e inalterable.",
+        "rationale": "Eso describe el sexismo o ideología patriarcal, que es precisamente lo que la equidad combate.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca el término que define la 'imparcialidad' en el tratamiento."
+  },
+  {
+    "guid": "e4e48025-5f7c-497d-a94a-20e23365200f",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de datos se consideran de 'categorías especiales' bajo el RGPD?",
+    "answerOptions": [
+      {
+        "text": "Datos bancarios, historial de compras y deudas pendientes.",
+        "rationale": "Estos son datos sensibles pero no entran en la lista de 'categorías especiales' que requieren mayor protección (como salud o religión).",
+        "isCorrect": false
+      },
+      {
+        "text": "Datos sobre origen étnico, convicciones religiosas, salud o vida sexual.",
+        "rationale": "Son datos cuya revelación puede causar discriminación grave, por lo que su tratamiento está prohibido salvo excepciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dirección postal, número de teléfono y correo electrónico profesional.",
+        "rationale": "Estos son datos identificativos básicos que no gozan de la protección reforzada de las categorías especiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Matrículas de vehículos y modelos de dispositivos electrónicos usados.",
+        "rationale": "Aunque son datos personales, no revelan aspectos íntimos o ideológicos de la persona.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son informaciones que, si se filtran, podrían generar discriminación por ideología o condición física."
+  },
+  {
+    "guid": "691c0585-6985-4e42-ba1f-67bbbbfa2470",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el proyecto de ley citado en los tests, ¿cuál es la edad mínima para el consentimiento en protección de datos?",
+    "answerOptions": [
+      {
+        "text": "18 años.",
+        "rationale": "A los 18 años se alcanza la mayoría de edad general, pero en protección de datos se permite una edad inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "13 años.",
+        "rationale": "El documento menciona que en el proyecto de la nueva LOPD se prevé esta edad como mínima (aunque la ley final fijó 14, se sigue el texto fuente).",
+        "isCorrect": true
+      },
+      {
+        "text": "16 años.",
+        "rationale": "Esta es la edad que el RGPD propone por defecto, pero permite a los estados miembros bajarla hasta los 13.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe una edad mínima; siempre decide el tutor legal.",
+        "rationale": "La ley otorga capacidad a los menores a partir de cierta edad para decidir sobre su privacidad en entornos digitales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una edad cercana al inicio de la adolescencia mencionada específicamente en los cuestionarios de repaso."
+  },
+  {
+    "guid": "01c1d2ae-fb52-4927-86b4-67527eecdc0f",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué función cumple el 'encarregat del tractament' respecto al responsable?",
+    "answerOptions": [
+      {
+        "text": "Supervisar que el responsable no gaste demasiado dinero en ciberseguridad.",
+        "rationale": "El encargado no es un supervisor financiero, sino un prestador de servicios que maneja datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tratar los datos personales por cuenta del responsable del tratamiento.",
+        "rationale": "Es una entidad externa (como una gestoría o servicio de hosting) que sigue las instrucciones del responsable.",
+        "isCorrect": true
+      },
+      {
+        "text": "Representar legalmente a todos los interesados en caso de juicio.",
+        "rationale": "Esta función no corresponde al encargado del tratamiento según el RGPD.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decidir por su propia cuenta para qué se van a utilizar los datos de los clientes.",
+        "rationale": "Si el encargado decide los fines, automáticamente se convierte en responsable y asume todas sus obligaciones legales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Actúa bajo las órdenes y el contrato establecido con la entidad principal."
+  },
+  {
+    "guid": "a8618578-30f5-48e9-9e5e-9d6371c01149",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué establece el principio de 'limitació de la finalitat'?",
+    "answerOptions": [
+      {
+        "text": "Que los datos deben ser borrados a los 30 días de su recogida.",
+        "rationale": "Esto sería una limitación de plazo, no de finalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los datos deben recogerse con fines determinados, explícitos y legítimos.",
+        "rationale": "Impide que los datos recogidos para un propósito (ej. una beca) se usen luego para otro incompatible (ej. marketing).",
+        "isCorrect": true
+      },
+      {
+        "text": "Que solo se puede preguntar el nombre y el DNI a los ciudadanos.",
+        "rationale": "Esto es minimización de datos, no limitación de finalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el tratamiento de datos debe limitarse a un máximo de 100 personas por lote.",
+        "rationale": "El reglamento no pone límites numéricos a la cantidad de interesados, sino límites éticos y legales al uso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Asegura que la información no se use para cosas distintas a las prometidas inicialmente."
+  },
+  {
+    "guid": "a5596391-642b-4a35-8be7-09d24056f32a",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la consecuencia de la 'feminització de la conciliació' según el plan anterior?",
+    "answerOptions": [
+      {
+        "text": "Un aumento de la productividad general de la plantilla femenina.",
+        "rationale": "Aunque las mujeres sean productivas, el plan señala efectos negativos en su carrera y salario debido a la carga de cuidados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una repercusión directa en el aumento de la brecha salarial de género.",
+        "rationale": "Al ser mayoritariamente las mujeres quienes reducen jornada o interrumpen su carrera por cuidados, su salario y promoción se ven afectados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que los hombres han empezado a pedir más bajas de paternidad que las de maternidad.",
+        "rationale": "Los datos indican que la conciliación sigue recayendo desproporcionadamente en las mujeres.",
+        "isCorrect": false
+      },
+      {
+        "text": "La desaparición total de las horas extras en el Ayuntamiento.",
+        "rationale": "La conciliación femenina no elimina las horas extras, sino que a menudo impide que las mujeres puedan realizarlas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en cómo el hecho de que las mujeres asuman más tareas de cuidado afecta a sus ingresos."
+  },
+  {
+    "guid": "d8bb78cb-ecf5-4962-938e-09192224f088",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué característica define a los 'estereotips de gènere'?",
+    "answerOptions": [
+      {
+        "text": "Ideas complejas y racionales basadas en estudios sociológicos actualizados.",
+        "rationale": "Los estereotipos son precisamente lo contrario: ideas simples, previas e irracionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conjunto de ideas simples y preestablecidas que se atribuyen a las personas por su sexo.",
+        "rationale": "Funcionan como un mecanismo que prescribe cómo 'deben' ser y comportarse hombres y mujeres según el patriarcado.",
+        "isCorrect": true
+      },
+      {
+        "text": "La capacidad biológica de los hombres para realizar tareas mecánicas.",
+        "rationale": "Esto es un mito basado en un estereotipo, no una realidad biológica demostrada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Normas legales que obligan a la paridad en los consejos de administración.",
+        "rationale": "Las leyes de paridad son herramientas para romper estereotipos y techos de cristal, no son estereotipos en sí.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son prejuicios mentales que encasillan a las personas antes de conocerlas."
+  },
+  {
+    "guid": "a3121fe7-203b-4998-b291-a3051d9b99a1",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mide el 'diagnòstic quantitatiu' de un plan de igualdad?",
+    "answerOptions": [
+      {
+        "text": "La satisfacción personal de los empleados mediante entrevistas abiertas.",
+        "rationale": "Esto formaría parte del diagnóstico cualitativo, no del cuantitativo basado en cifras.",
+        "isCorrect": false
+      },
+      {
+        "text": "Datos estadísticos desagregados por sexo sobre la plantilla (salarios, niveles, formación).",
+        "rationale": "Permite ver de forma objetiva las diferencias numéricas que existen entre hombres y mujeres en la organización.",
+        "isCorrect": true
+      },
+      {
+        "text": "El número de ordenadores disponibles por cada planta del edificio municipal.",
+        "rationale": "Aunque es un dato numérico, no tiene relevancia directa para el diagnóstico de género si no se vincula a las personas.",
+        "isCorrect": false
+      },
+      {
+        "text": "La cantidad de leyes de igualdad que se han aprobado en la última década.",
+        "rationale": "Eso forma parte del marco normativo, no del diagnóstico específico de la situación de la empresa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en el análisis de números y porcentajes divididos entre hombres y mujeres."
+  },
+  {
+    "guid": "bd2c0a9b-0a80-4941-af2c-3be8c50c706b",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la autoridad de control en materia de protección de datos en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "La Agencia Española de Protección de Datos (AEPD).",
+        "rationale": "La AEPD tiene competencia estatal, pero Cataluña tiene su propia autoridad específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "L'Autoritat Catalana de Protecció de Dades (APDCAT).",
+        "rationale": "Es el organismo independiente que vela por el cumplimiento de la normativa en las administraciones públicas catalanas.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal Superior de Justicia de Cataluña.",
+        "rationale": "Es un órgano judicial, no una autoridad administrativa de control de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Institut Català de la Dona.",
+        "rationale": "Es un organismo dedicado a la igualdad, no tiene competencias de control sobre protección de datos personales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca el acrónimo que identifica a la institución catalana de privacidad."
+  },
+  {
+    "guid": "11b54c57-8d71-4b76-9d87-48dd6db8aea1",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio de protección de datos se define como el deber de 'no revelar los datos a terceros no autorizados'?",
+    "answerOptions": [
+      {
+        "text": "Principio de transparencia.",
+        "rationale": "La transparencia obliga a informar al usuario, no a guardar silencio frente a terceros.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de integridad y confidencialidad.",
+        "rationale": "Garantiza una seguridad adecuada de los datos, incluida la protección contra el tratamiento no autorizado o ilícito.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de minimización.",
+        "rationale": "Este principio se refiere a la cantidad de datos, no a su secreto o custodia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de responsabilidad proactiva.",
+        "rationale": "Es la obligación del responsable de ser capaz de demostrar que cumple con todos los demás principios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con el secreto profesional y la seguridad de la información."
+  },
+  {
+    "guid": "bc732a94-f542-470e-82f4-44d13afd36c8",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el plan de acción (M14), ¿qué medida se propone para desincentivar la reducción de jornada?",
+    "answerOptions": [
+      {
+        "text": "Obligar a todos los empleados a trabajar desde la oficina sin excepción.",
+        "rationale": "El plan propone lo contrario para favorecer la conciliación sin reducir sueldo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Implementar horarios que permitan realizar una parte de la jornada de forma no presencial.",
+        "rationale": "Al permitir el teletrabajo o flexibilidad horaria, se evita que la persona deba reducir su contrato y su sueldo para conciliar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Pagar un bono mensual a quienes no tengan hijos a su cargo.",
+        "rationale": "Esto sería una medida discriminatoria contra las personas con cargas familiares y no está en el plan.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aumentar el sueldo de los hombres para que las mujeres no necesiten trabajar.",
+        "rationale": "Esto es una idea sexista que el plan de igualdad combate activamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca una alternativa moderna basada en el trabajo en remoto."
+  },
+  {
+    "guid": "7f330070-53a0-4ad7-b192-947054a0c7cb",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué documento del III Plan de Igualdad analiza la diferencia de salarios en organismos autónomos?",
+    "answerOptions": [
+      {
+        "text": "El Informe Jurídico de Acciones Positivas.",
+        "rationale": "Este informe analiza la legalidad de las cuotas, no las cifras de salarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "L'estudi de bretxa salarial de l’Ajuntament i organismes autònoms.",
+        "rationale": "Es el anexo específico destinado a cuantificar y entender las desigualdades retributivas.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Manual de Lenguaje Inclusivo.",
+        "rationale": "Se centra en la comunicación, no en los datos financieros de la plantilla.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Reglamento Interno de la Guardia Urbana.",
+        "rationale": "Solo afectaría a un cuerpo específico, no a todo el conjunto de organismos autónomos municipales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un anexo técnico dedicado exclusivamente a los ingresos de la plantilla."
+  },
+  {
+    "guid": "babc6139-e279-4240-bd8c-c75b448eb2e0",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el contexto de la 'segregació horitzontal', ¿qué sectores se mencionan como masculinizados?",
+    "answerOptions": [
+      {
+        "text": "Servicios sociales y educación infantil.",
+        "rationale": "Estos son sectores tradicionalmente feminitzados según el diagnóstico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Guardia Urbana (GUB) y Bomberos (SPEIS).",
+        "rationale": "Son cuerpos donde la presencia de hombres es abrumadoramente superior a la de mujeres.",
+        "isCorrect": true
+      },
+      {
+        "text": "Administración general y atención al ciudadano.",
+        "rationale": "Estos sectores suelen presentar mayor paridad o incluso feminitzación en niveles base.",
+        "isCorrect": false
+      },
+      {
+        "text": "Limpieza de edificios y cocina municipal.",
+        "rationale": "Históricamente son sectores feminitzados, no masculinizados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en profesiones de seguridad y emergencias dentro del Ayuntamiento."
+  },
+  {
+    "guid": "f68cba8f-c21f-4c5e-9695-8235b59074bc",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué derecho permite a un ciudadano solicitar que sus datos sean corregidos si son erróneos?",
+    "answerOptions": [
+      {
+        "text": "Derecho de acceso.",
+        "rationale": "El acceso solo permite saber qué datos tienen sobre ti, no cambiarlos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho de rectificación.",
+        "rationale": "Es el derecho fundamental para asegurar que la información que una entidad maneja sobre nosotros sea veraz.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho de oposición.",
+        "rationale": "Este sirve para negarse a un tratamiento específico (ej. publicidad), no para corregir errores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a la limitación del tratamiento.",
+        "rationale": "Este suspende temporalmente el uso de los datos, por ejemplo mientras se comprueba si son correctos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el término que significa 'poner derecho' o corregir algo."
+  },
+  {
+    "guid": "a5cc7013-a18b-45af-9b5e-edd88c79f3a1",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué se entiende por 'sexisme' según la documentación?",
+    "answerOptions": [
+      {
+        "text": "La atracción física entre personas de distinto sexo en el lugar de trabajo.",
+        "rationale": "El sexismo es una ideología de desvalorización, no un fenómeno de atracción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conjunto de actitudes que desvalorizan a las mujeres basándose en una supuesta superioridad masculina.",
+        "rationale": "Es la base ideológica que sustenta la desigualdad y la discriminación contra las mujeres.",
+        "isCorrect": true
+      },
+      {
+        "text": "El estudio científico de las diferencias cromosómicas entre individuos.",
+        "rationale": "Esto sería biología o genética, no una actitud social de menosprecio.",
+        "isCorrect": false
+      },
+      {
+        "text": "La obligación de contratar a un número igual de hombres y mujeres.",
+        "rationale": "Esto es paridad o acción positiva, el opuesto al sexismo en la práctica organizacional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una actitud de desprecio hacia lo femenino."
+  },
+  {
+    "guid": "adf9c3a3-3714-4440-a4e7-1104f632e1d2",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el RGPD, ¿cuál es el plazo máximo para responder a una solicitud de derechos de los interesados?",
+    "answerOptions": [
+      {
+        "text": "10 días naturales.",
+        "rationale": "La antigua LOPD tenía plazos cortos como este para algunos derechos, pero el RGPD los unificó al alza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un mes, prorrogable por otros dos meses en casos complejos.",
+        "rationale": "El estándar es un mes para asegurar una respuesta diligente a la ciudadanía.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis meses desde la recepción de la solicitud por correo certificado.",
+        "rationale": "Un plazo tan largo vulneraría el derecho a una protección eficaz de la privacidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "No hay plazo legal; se responde según la disponibilidad del departamento informático.",
+        "rationale": "El incumplimiento de los plazos de respuesta es motivo de sanción por parte de la autoridad de control.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el periodo de tiempo estándar de 30 días aproximadamente."
+  },
+  {
+    "guid": "a76dd03f-3615-4030-beb4-4da8e169c7dc",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué medida (M12) busca garantizar la calidad de la formación en igualdad?",
+    "answerOptions": [
+      {
+        "text": "Grabar todas las clases para que la policía pueda revisarlas.",
+        "rationale": "Esto no garantiza calidad y podría vulnerar la privacidad de los asistentes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Garantizar la formación en igualdad y uso de lenguaje inclusivo del personal formador.",
+        "rationale": "Si quienes enseñan no están sensibilizados, el impacto de los cursos en la plantilla será nulo o negativo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Prohibir que hombres impartan cursos sobre violencia machista.",
+        "rationale": "El plan no prohíbe el género del formador, sino que exige que tenga formación específica en la materia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hacer un examen sorpresa final a todos los alumnos.",
+        "rationale": "La evaluación del aprendizaje es útil, pero la medida M12 se enfoca en la capacitación de los propios formadores.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se enfoca en preparar adecuadamente a quienes transmiten el conocimiento."
+  },
+  {
+    "guid": "80236a52-720d-4ddc-af6c-54da48fbd5f5",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En protección de datos, ¿qué principio exige tratar los datos de forma 'lícita, leal y transparente'?",
+    "answerOptions": [
+      {
+        "text": "Principio de responsabilidad.",
+        "rationale": "Este principio se refiere a demostrar el cumplimiento, no a la forma inicial del trato.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de licitud, lealtad y transparencia.",
+        "rationale": "Es el pilar básico que obliga a no engañar al usuario y a cumplir siempre con una base legal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de minimización.",
+        "rationale": "Se refiere a la cantidad mínima necesaria de información, no a la transparencia del proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de limitación del plazo de conservación.",
+        "rationale": "Se refiere a cuánto tiempo se guardan, no a cómo se tratan inicialmente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el primer principio mencionado en el artículo 5 del RGPD."
+  },
+  {
+    "guid": "388eee5f-d1da-4dd7-8e1c-41b24b6425f0",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué objetivo estratégico busca 'dotarse de un sistema de indicadores' sobre la brecha salarial?",
+    "answerOptions": [
+      {
+        "text": "Para poder publicar una lista de los empleados que más cobran en la prensa.",
+        "rationale": "Los indicadores son para gestión interna y detección de tendencias, no para exposición pública individual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Para detectar la tendencia de la brecha y evaluar el efecto de las medidas aplicadas.",
+        "rationale": "Sin datos precisos, es imposible saber si el Plan de Igualdad está funcionando o si la brecha está aumentando.",
+        "isCorrect": true
+      },
+      {
+        "text": "Para reducir automáticamente el sueldo de los hombres si la brecha supera el $10\\%$.",
+        "rationale": "La ley no permite bajar salarios unilateralmente; se busca subir los de las mujeres o corregir los complementos injustos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Para cumplir un trámite burocrático sin intención de usar los datos obtenidos.",
+        "rationale": "El plan de acción especifica que estos indicadores deben ayudar a 'garantizar la igualdad retributiva'.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sirve para medir el progreso y la eficacia de las políticas de igualdad."
+  },
+  {
+    "guid": "6d1aafbc-6fd3-4cdc-852c-b9fd622c5a10",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué es un 'rol de gènere' según el marco conceptual?",
+    "answerOptions": [
+      {
+        "text": "La función biológica de reproducción asignada a las mujeres.",
+        "rationale": "La reproducción es una función biológica (sexo), no un rol social construido.",
+        "isCorrect": false
+      },
+      {
+        "text": "Normas sociales y de comportamiento consideradas apropiadas para cada sexo en una cultura específica.",
+        "rationale": "Determinan las responsabilidades y tareas tradicionales que la sociedad espera de hombres y mujeres.",
+        "isCorrect": true
+      },
+      {
+        "text": "El listado de tareas que aparecen en la descripción de un puesto de trabajo (DPT).",
+        "rationale": "Aunque el DPT puede tener sesgos, los roles de género son construcciones sociales más amplias que el ámbito laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "La vestimenta obligatoria para hombres y mujeres en actos oficiales del Ayuntamiento.",
+        "rationale": "La vestimenta es una expresión del rol, pero el rol es el conjunto de normas y expectativas de comportamiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las 'expectativas' sobre cómo debe actuar alguien por ser hombre o mujer."
+  },
+  {
+    "guid": "e5ec8679-54e5-4834-bd79-94c04d72861f",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué se considera 'tractament' de datos personales según el artículo 4 del RGPD?",
+    "answerOptions": [
+      {
+        "text": "Cualquier operación realizada sobre datos personales, como la recogida, registro o supresión.",
+        "rationale": "El término es amplísimo e incluye casi cualquier acción, manual o automatizada, que involucre datos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo el envío masivo de correos electrónicos con fines publicitarios.",
+        "rationale": "Eso es una forma de tratamiento, pero el concepto abarca también la simple consulta o conservación.",
+        "isCorrect": false
+      },
+      {
+        "text": "La reparación técnica de los teclados y ratones de una oficina.",
+        "rationale": "Esto es mantenimiento de hardware; el tratamiento requiere operar sobre la información (datos) en sí.",
+        "isCorrect": false
+      },
+      {
+        "text": "El borrado definitivo de información obsoleta, ya que esto detiene el tratamiento.",
+        "rationale": "Curiosamente, el borrado o destrucción también se considera legalmente una operación de tratamiento de datos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Incluye cualquier acción, desde guardar un dato hasta borrarlo."
+  },
+  {
+    "guid": "5ac1e1c4-6330-4252-961e-fa56b6932adb",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la principal ventaja de elaborar un Plan de Igualdad para una organización según la documentación?",
+    "answerOptions": [
+      {
+        "text": "Evitar tener que contratar a personal cualificado externo.",
+        "rationale": "Al revés, el plan ayuda a atraer y retener personal cualificado al mejorar la imagen y el clima.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mejorar la productividad y la imagen corporativa de la entidad.",
+        "rationale": "Un entorno igualitario motiva a la plantilla y proyecta valores positivos hacia el exterior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Conseguir subvenciones a fondo perdido sin necesidad de justificar gastos.",
+        "rationale": "Las subvenciones suelen requerir planes, pero el plan no es un cheque en blanco sin control.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustituir al comité de empresa por una comisión paritaria más manejable.",
+        "rationale": "El plan de igualdad debe negociarse con la representación legal, no busca eliminarla.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca beneficios relacionados con la eficiencia y la reputación de la empresa."
+  },
+  {
+    "guid": "17c0560b-489c-4cdd-a95d-5f4e7014da23",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Quién tiene derecho a acceder a la información sobre el contenido y objetivos del plan de igualdad?",
+    "answerOptions": [
+      {
+        "text": "Cualquier ciudadano del mundo que lo solicite por escrito.",
+        "rationale": "Aunque hay transparencia pública, el derecho específico regulado es para la plantilla y sus representantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "La representación legal de los trabajadores y la propia plantilla.",
+        "rationale": "Es fundamental que quienes están afectados por el plan conozcan sus derechos y metas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo los directivos de nivel 30 del Ayuntamiento.",
+        "rationale": "El plan es transversal y debe ser conocido y participado por toda la organización.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente la autoridad laboral en caso de inspección de oficio.",
+        "rationale": "La autoridad laboral tiene acceso, pero la ley obliga a garantizarlo también internamente a los trabajadores.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Los principales interesados en el cumplimiento de la igualdad dentro de la empresa."
+  },
+  {
+    "guid": "4eb1f589-d2ba-4c66-9fff-87cc380b4c67",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué derecho del interesado se conoce informalmente como 'Dret a l'oblit'?",
+    "answerOptions": [
+      {
+        "text": "Derecho de acceso.",
+        "rationale": "El acceso permite recordar y ver los datos, no borrarlos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho de supresión.",
+        "rationale": "Permite que el interesado pida la eliminación de sus datos cuando ya no sean necesarios o el tratamiento sea ilícito.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho de oposición.",
+        "rationale": "Oponerse significa que no quieres que se usen para algo, pero los datos podrían seguir existiendo bloqueados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a la indemnización.",
+        "rationale": "Este es un derecho resarcitorio por daños, no un derecho de gestión de la información.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la posibilidad de que tus datos desaparezcan de los registros de un responsable."
+  },
+  {
+    "guid": "87157d56-54ae-49de-b32b-b2a5568216f0",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el diagnóstico de 'Cultura institucional', ¿qué se valoró sobre el lenguaje inclusivo?",
+    "answerOptions": [
+      {
+        "text": "Que toda la plantilla ha recibido formación experta en esta materia.",
+        "rationale": "El diagnóstico señala que solo un porcentaje muy bajo ha recibido dicha formación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que un porcentaje elevado de la plantilla percibe que en su entorno no se utiliza lenguaje inclusivo.",
+        "rationale": "A pesar de las guías existentes, la percepción interna es que todavía predomina el lenguaje sexista o no inclusivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el uso del masculino genérico ha desaparecido por completo de los documentos oficiales.",
+        "rationale": "El diagnóstico indica que su uso sigue siendo irregular a pesar de la tendencia positiva reciente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que a los trabajadores no les importa en absoluto el tipo de lenguaje utilizado.",
+        "rationale": "La encuesta muestra que es un factor valorado y que existe conciencia sobre su falta de uso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la percepción de los empleados sobre la comunicación diaria en sus oficinas."
+  },
+  {
+    "guid": "8c5b8a8d-a036-4c3c-9823-20a1376fb87a",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué exige el principio de 'responsabilitat proactiva' (accountability)?",
+    "answerOptions": [
+      {
+        "text": "Que el responsable debe ser capaz de demostrar que cumple con los principios del tratamiento.",
+        "rationale": "No basta con cumplir la ley; hay que tener evidencias (registros, auditorías) que lo prueben.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el responsable debe denunciar a sus empleados si cometen un error con los datos.",
+        "rationale": "La responsabilidad proactiva se enfoca en la prevención y cumplimiento institucional, no en la delación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que la empresa debe contratar a un detective privado para vigilar el uso de los datos.",
+        "rationale": "Se refiere a medidas técnicas y organizativas internas, no a vigilancia externa de tipo policial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el interesado es el único responsable de que sus datos estén actualizados.",
+        "rationale": "Aunque el interesado debe colaborar, la carga de la prueba y el cumplimiento recaen siempre en el responsable.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la obligación de 'dar cuenta' y probar la legalidad de las actuaciones propias."
+  },
+  {
+    "guid": "9da3bc32-704c-4dcc-bf6e-546db68ac9f6",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué organismo debe supervisar los contenidos del plan formativo en igualdad (M11)?",
+    "answerOptions": [
+      {
+        "text": "El Ministerio de Trabajo y Economía Social.",
+        "rationale": "Es una competencia local de gestión del plan; el Ministerio marca el marco general pero no supervisa cada curso municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comissió Tècnica d'Igualtat.",
+        "rationale": "Este órgano garantiza que los contenidos sean adecuados y cumplan con los objetivos del plan de acción.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier sindicato que no haya firmado el acuerdo de condiciones de trabajo.",
+        "rationale": "La supervisión corresponde a los órganos paritarios o técnicos creados específicamente para el seguimiento del plan.",
+        "isCorrect": false
+      },
+      {
+        "text": "El departamento de informática para asegurar que los vídeos carguen rápido.",
+        "rationale": "Esto es una cuestión técnica de soporte, no de supervisión de contenidos de género.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano técnico especializado mencionado repetidamente en el Plan de Acción."
+  },
+  {
+    "guid": "475ac73a-a4ec-4b9a-8b7d-b6b21f56741b",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si un responsable del tratamiento no facilita una copia de los datos solicitada por un interesado?",
+    "answerOptions": [
+      {
+        "text": "El interesado pierde su derecho automáticamente por falta de persistencia.",
+        "rationale": "El derecho es inalienable y la falta de respuesta es una infracción del responsable.",
+        "isCorrect": false
+      },
+      {
+        "text": "El interesado puede reclamar ante la autoridad de control (como la APDCAT o AEPD).",
+        "rationale": "Las autoridades de control están para tutelar los derechos ciudadanos cuando los responsables no cumplen.",
+        "isCorrect": true
+      },
+      {
+        "text": "La empresa puede cobrar una tasa de 500 euros para desalentar futuras peticiones.",
+        "rationale": "El ejercicio de derechos es gratuito, salvo en casos de solicitudes manifiestamente infundadas o excesivas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El responsable es arrestado de forma inmediata por la policía local.",
+        "rationale": "Es una infracción administrativa que conlleva multas, no una detención policial directa salvo que sea un delito penal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Existen organismos públicos dedicados a proteger al ciudadano en estos casos."
+  }
+]

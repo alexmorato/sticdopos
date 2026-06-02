@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "5ea4fb8f-f33b-487a-a593-17bd61328bf0",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo define el TREBEP a los empleados públicos?",
+    "answerOptions": [
+      {
+        "text": "Personas que desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales.",
+        "rationale": "Esta es la definición literal del artículo $8.1$, vinculando la retribución con el servicio al interés general.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier persona que trabaje para una entidad privada con contratos públicos.",
+        "rationale": "El empleado público debe estar vinculado directamente a una Administración Pública, no a una empresa externa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ciudadanos que realizan voluntariado en servicios municipales sin remuneración.",
+        "rationale": "La definición exige que las funciones sean retribuidas para ostentar la condición de empleado público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cargos electos políticos que no reciben sueldo por su dedicación.",
+        "rationale": "Los empleados públicos se rigen por una relación profesional retribuida, a diferencia del voluntariado político no remunerado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Fíjate en el carácter profesional y la finalidad de su trabajo."
+  },
+  {
+    "guid": "ceb7c8bd-9631-47b3-8700-5f0d68da18b7",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la norma básica que regula el empleo público en España?",
+    "answerOptions": [
+      {
+        "text": "Real Decreto Legislativo $5/2015$, de $30$ de octubre.",
+        "rationale": "Esta norma aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público (TREBEP).",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley de Enjuiciamiento Civil.",
+        "rationale": "Esta ley regula los procedimientos judiciales civiles, no el régimen del personal de la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Código de Comercio.",
+        "rationale": "El Código de Comercio regula las relaciones mercantiles, mientras que el empleo público es materia administrativa o laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley Orgánica de Educación.",
+        "rationale": "Aunque regula al personal docente, no es la norma general básica para todos los empleados públicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sus siglas más comunes son TREBEP."
+  },
+  {
+    "guid": "8b939f52-115a-4645-892d-59bd08d9852b",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A cuál de estas entidades se aplica el TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Las Universidades Públicas.",
+        "rationale": "El artículo $2$ incluye expresamente a las Universidades Públicas dentro del ámbito de aplicación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Empresas privadas con menos de $50$ trabajadores.",
+        "rationale": "El estatuto solo se aplica al personal al servicio de las Administraciones Públicas y organismos dependientes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Organizaciones No Gubernamentales internacionales.",
+        "rationale": "Las ONG son entidades de derecho privado y no forman parte de la estructura administrativa del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Clubes deportivos profesionales.",
+        "rationale": "Los clubes deportivos operan bajo legislación privada, no bajo el estatuto del empleado público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca una institución educativa de carácter estatal o autonómico."
+  },
+  {
+    "guid": "41c1e92d-6cfc-4135-9e88-deb564909a23",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué característica define a los funcionarios de carrera?",
+    "answerOptions": [
+      {
+        "text": "Vinculación mediante relación estatutaria de carácter permanente.",
+        "rationale": "La permanencia y la relación de derecho administrativo (estatutaria) son los pilares de esta categoría.",
+        "isCorrect": true
+      },
+      {
+        "text": "Contratación mediante un contrato de trabajo temporal.",
+        "rationale": "La temporalidad es propia de interinos o personal laboral temporal, no de los funcionarios de carrera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Desempeño de funciones exclusivamente de asesoramiento político.",
+        "rationale": "El asesoramiento de confianza es la función principal del personal eventual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Relación regulada exclusivamente por el Derecho Privado.",
+        "rationale": "Los funcionarios de carrera se rigen por el Derecho Administrativo, no por el privado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en la estabilidad laboral a largo plazo en la administración."
+  },
+  {
+    "guid": "f30b8c6b-074b-4bf0-9931-3f303e5b5c03",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué caso se puede nombrar a un funcionario interino?",
+    "answerOptions": [
+      {
+        "text": "Existencia de plazas vacantes cuando no sea posible su cobertura por funcionarios de carrera.",
+        "rationale": "Esta es una de las causas justificadas de necesidad y urgencia previstas en el artículo $10$.",
+        "isCorrect": true
+      },
+      {
+        "text": "Para realizar tareas domésticas en la casa del Alcalde.",
+        "rationale": "Las funciones del funcionario interino deben ser las propias de un funcionario de carrera en el ámbito público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando se quiera contratar a un asesor personal de confianza.",
+        "rationale": "El personal de confianza se nombra como personal eventual, no como interino.",
+        "isCorrect": false
+      },
+      {
+        "text": "Para sustituir a un trabajador de una empresa de limpieza externa.",
+        "rationale": "Solo se nombran interinos para funciones propias de los cuerpos o escalas de funcionarios públicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una situación de sustitución o carencia de personal fijo."
+  },
+  {
+    "guid": "c24343ae-575c-4942-a773-d690844cdffa",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué tipo de contrato vincula al personal laboral con la Administración?",
+    "answerOptions": [
+      {
+        "text": "Contrato de trabajo formalizado por escrito.",
+        "rationale": "El personal laboral se rige por la legislación laboral y requiere un contrato escrito.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nombramiento legal en el BOE únicamente.",
+        "rationale": "El nombramiento es el acto que vincula a los funcionarios, no al personal laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Acuerdo verbal de prestación de servicios.",
+        "rationale": "La ley exige que el contrato de trabajo en las administraciones se formalice siempre por escrito.",
+        "isCorrect": false
+      },
+      {
+        "text": "Relación estatutaria de derecho administrativo.",
+        "rationale": "Esta relación es exclusiva del personal funcionario, no del laboral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se parece al tipo de vínculo que hay en las empresas privadas."
+  },
+  {
+    "guid": "cdeccf9e-eacc-438e-a727-1157af6fcfab",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función principal del personal eventual?",
+    "answerOptions": [
+      {
+        "text": "Funciones de confianza o asesoramiento especial.",
+        "rationale": "Su nombramiento es libre y se limita a estas funciones calificadas expresamente como de confianza.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tramitación de expedientes administrativos ordinarios.",
+        "rationale": "Las funciones administrativas comunes corresponden a los funcionarios de carrera o interinos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mantenimiento y limpieza de edificios públicos.",
+        "rationale": "Estas tareas suelen ser desempeñadas por personal laboral u oficios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ejercicio de potestades públicas con carácter permanente.",
+        "rationale": "El ejercicio permanente de potestades públicas está reservado a los funcionarios de carrera.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "No realizan tareas administrativas comunes ni permanentes."
+  },
+  {
+    "guid": "7cfa3b17-7e94-4802-a779-73c1aeef6fd2",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principios deben regir el acceso al empleo público según el TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Igualdad, mérito y capacidad.",
+        "rationale": "Estos son los tres principios constitucionales básicos para cualquier proceso de selección pública.",
+        "isCorrect": true
+      },
+      {
+        "text": "Amistad, cercanía y rapidez.",
+        "rationale": "La cercanía personal vulnera el principio de igualdad y objetividad en la selección.",
+        "isCorrect": false
+      },
+      {
+        "text": "Antigüedad, edad y residencia.",
+        "rationale": "Aunque pueden ser criterios secundarios, los pilares son el mérito y la capacidad demostrada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suerte, sorteo y necesidad económica.",
+        "rationale": "La selección debe basarse en criterios objetivos de aptitud y no en el azar.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son tres palabras que garantizan la justicia en la selección."
+  },
+  {
+    "guid": "cb96edf4-2a4f-4475-880e-e4761fd73547",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué titulación se exige para acceder al Grupo $B$ de funcionarios?",
+    "answerOptions": [
+      {
+        "text": "Título de Técnico Superior.",
+        "rationale": "El artículo $76$ especifica que el título de Técnico Superior es el requisito para este grupo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Doctorado o Máster Universitario.",
+        "rationale": "Los títulos universitarios de alto nivel son requisitos para el Grupo $A$.",
+        "isCorrect": false
+      },
+      {
+        "text": "Graduado en Educación Secundaria Obligatoria.",
+        "rationale": "Este título suele asociarse a subgrupos del Grupo $C$ o agrupaciones profesionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Bachillerato únicamente.",
+        "rationale": "El Bachillerato es el requisito de acceso para el subgrupo $C1$.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una formación profesional de grado superior."
+  },
+  {
+    "guid": "5d9f62bd-5d09-4007-a192-ad5223394466",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se divide el Grupo $A$ de clasificación profesional?",
+    "answerOptions": [
+      {
+        "text": "En dos subgrupos: $A1$ y $A2$.",
+        "rationale": "El Grupo $A$ se divide en función del nivel de responsabilidad y las pruebas de acceso.",
+        "isCorrect": true
+      },
+      {
+        "text": "En tres niveles: Superior, Medio y Básico.",
+        "rationale": "La normativa utiliza subgrupos alfanuméricos, no niveles de adjetivación.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene subdivisiones.",
+        "rationale": "El TREBEP establece claramente que el Grupo $A$ está dividido en dos subgrupos.",
+        "isCorrect": false
+      },
+      {
+        "text": "En Subgrupos $A$, $B$ y $C$.",
+        "rationale": "A, B y C son Grupos distintos, no subgrupos dentro de la categoría $A$.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Utiliza una letra y dos números diferentes."
+  },
+  {
+    "guid": "e31065ad-8b28-4ea8-b750-ab78eba1a212",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A quién corresponde exclusivamente el ejercicio de funciones que impliquen la participación directa en potestades públicas?",
+    "answerOptions": [
+      {
+        "text": "A los funcionarios públicos.",
+        "rationale": "El artículo $9.2$ reserva estas funciones críticas para garantizar los intereses generales del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al personal eventual de confianza.",
+        "rationale": "El personal eventual solo asesora, no puede ejercer potestades administrativas de autoridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al personal laboral fijo.",
+        "rationale": "El personal laboral no tiene atribuido el ejercicio de potestades públicas por reserva legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los becarios de colaboración.",
+        "rationale": "Los becarios no tienen una relación de empleo público y mucho menos autoridad administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la categoría que tiene una relación estatutaria."
+  },
+  {
+    "guid": "15df14ac-bc36-4fee-8085-d3488fa9d7b8",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la duración máxima permitida para programas de carácter temporal realizados por interinos?",
+    "answerOptions": [
+      {
+        "text": "$3$ años, ampliables $12$ meses más por ley autonómica.",
+        "rationale": "El artículo $10$ establece este límite para evitar la temporalidad excesiva en programas específicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "$10$ años sin posibilidad de prórroga.",
+        "rationale": "Un periodo de $10$ años desnaturalizaría el carácter temporal de la interinidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis meses improrrogables.",
+        "rationale": "Seis meses es el plazo para acumulación de tareas, no para programas temporales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Indefinida hasta que se termine el presupuesto.",
+        "rationale": "La ley impone límites temporales estrictos para los nombramientos interinos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un periodo de tres años con una posible pequeña extensión."
+  },
+  {
+    "guid": "5efec085-00e8-4055-a7d5-840315e092bc",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué sucede si cesa la autoridad que nombró al personal eventual?",
+    "answerOptions": [
+      {
+        "text": "El personal eventual cesa automáticamente.",
+        "rationale": "Al basarse en la confianza de una autoridad específica, su cargo termina cuando lo hace la de dicha autoridad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se convierte automáticamente en funcionario de carrera.",
+        "rationale": "El acceso a la carrera requiere superar procesos selectivos bajo principios de mérito y capacidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Permanece en el puesto de forma vitalicia.",
+        "rationale": "La relación del personal eventual es de carácter no permanente por definición legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pasa a ser personal laboral indefinido.",
+        "rationale": "El personal eventual no puede consolidar plaza laboral solo por el cese de su superior.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su puesto depende de la persona que lo eligió."
+  },
+  {
+    "guid": "2129143c-23fd-4a34-80ef-d9c215a0db53",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué documento organiza los puestos de trabajo en la Administración?",
+    "answerOptions": [
+      {
+        "text": "Relación de Puestos de Trabajo (RPT).",
+        "rationale": "La RPT detalla denominación, grupos, retribuciones complementarias y sistemas de provisión.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Código Penal.",
+        "rationale": "El Código Penal castiga delitos, no organiza la estructura interna de recursos humanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Calendario Laboral.",
+        "rationale": "El calendario solo fija días festivos y jornadas, no define los requisitos de cada puesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Constitución Española.",
+        "rationale": "La Constitución da el marco general, pero no desglosa cada puesto individual de una oficina.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las siglas que definen la estructura de la plantilla."
+  },
+  {
+    "guid": "60f8625f-9c27-4f80-98ec-bd953be040c6",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién tiene derecho a la 'inamovilidad' en su condición de funcionario?",
+    "answerOptions": [
+      {
+        "text": "Solo los funcionarios de carrera.",
+        "rationale": "La inamovilidad es un derecho individual reconocido expresamente a quienes tienen una relación permanente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Todos los empleados públicos, incluidos los temporales.",
+        "rationale": "El personal temporal puede ser cesado por finalización de causa o plazo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El personal eventual exclusivamente.",
+        "rationale": "El personal eventual es de libre cese, por lo que carece de inamovilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los becarios universitarios.",
+        "rationale": "Los becarios no tienen condición de funcionario y su relación es formativa y breve.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una garantía para evitar ceses arbitrarios en el personal fijo."
+  },
+  {
+    "guid": "64985572-76c2-4ff9-ab56-51e28a0d80e4",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué se exige para acceder al subgrupo $C1$?",
+    "answerOptions": [
+      {
+        "text": "Título de Bachiller.",
+        "rationale": "El TREBEP establece el Bachillerato o técnico equivalente para este subgrupo administrativo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo certificado de escolaridad.",
+        "rationale": "El certificado de escolaridad se asocia a las agrupaciones profesionales sin requisito de titulación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Licenciatura o Grado.",
+        "rationale": "Estas titulaciones son propias del Grupo $A$.",
+        "isCorrect": false
+      },
+      {
+        "text": "Carné de conducir tipo C.",
+        "rationale": "Aunque pueda ser un requisito específico del puesto, no es la titulación académica general del subgrupo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el título que se obtiene tras finalizar los estudios secundarios post-obligatorios."
+  },
+  {
+    "guid": "df394cf1-dd08-44c4-8ca9-f6bced33e7ee",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué situación administrativa se declara a un funcionario que es nombrado Ministro?",
+    "answerOptions": [
+      {
+        "text": "Servicios especiales.",
+        "rationale": "El artículo $87$ contempla esta situación para funcionarios en cargos políticos de alta responsabilidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Excedencia por interés particular.",
+        "rationale": "La excedencia voluntaria no garantiza reserva de plaza de la misma forma que los servicios especiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspensión de funciones.",
+        "rationale": "La suspensión es una sanción o medida cautelar, no una situación para ejercer cargos políticos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Abandono del servicio.",
+        "rationale": "Ser Ministro es un desempeño público que la administración regula mediante situaciones específicas, no un abandono.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una situación que protege su plaza mientras sirve en el Gobierno."
+  },
+  {
+    "guid": "f291f1d3-c633-4c75-bd75-211b67676e3b",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio de selección exige que las convocatorias se hagan públicas?",
+    "answerOptions": [
+      {
+        "text": "Publicidad.",
+        "rationale": "La publicidad garantiza que cualquier ciudadano que cumpla los requisitos pueda conocer la oferta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Opacidad.",
+        "rationale": "La opacidad es contraria a los principios de transparencia del sector público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Confidencialidad absoluta.",
+        "rationale": "Aunque los datos personales se protejan, las bases y convocatorias deben ser abiertas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Favoritismo.",
+        "rationale": "El favoritismo es ilegal y vulnera la igualdad en el acceso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Significa dar a conocer algo a todo el mundo."
+  },
+  {
+    "guid": "0a124180-f03c-49c3-a818-1ced1356572b",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué grupo de clasificación pertenecen los puestos que requieren el título de Graduado Escolar o ESO según la legislación catalana ($DL 1/97$)?",
+    "answerOptions": [
+      {
+        "text": "Grup $D$.",
+        "rationale": "El Decreto Legislativo catalán clasifica en el Grup $D$ a quienes tienen el graduado escolar o equivalente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Grup $A$.",
+        "rationale": "El Grup $A$ requiere títulos de doctor, licenciado o equivalente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Grup $E$.",
+        "rationale": "El Grup $E$ en Cataluña requiere el certificado de escolaridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Grup $B$.",
+        "rationale": "El Grup $B$ en la ley catalana requiere títulos de ingeniero técnico o diplomado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una letra que está entre la C y la E."
+  },
+  {
+    "guid": "7da5eaed-a33e-4240-a0af-a2e77b55aedf",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué personal realiza funciones de fe pública y asesoramiento legal en los Ayuntamientos?",
+    "answerOptions": [
+      {
+        "text": "Funcionarios de Administración Local con habilitación de carácter nacional (Secretarios).",
+        "rationale": "Estas funciones son necesarias y están reservadas por ley a estos funcionarios específicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Personal laboral de mantenimiento.",
+        "rationale": "El personal de mantenimiento no tiene competencias en asesoramiento jurídico legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Agentes de la Guardia Urbana.",
+        "rationale": "La policía local tiene funciones de seguridad, no de fe pública administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concejales de la oposición.",
+        "rationale": "Los concejales son cargos electos políticos, no técnicos habilitados para la fe pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca el cargo técnico que firma las actas de los plenos."
+  },
+  {
+    "guid": "914e5477-4354-4361-96ee-ccee4f60be9f",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el plazo máximo para nombrar a un interino por exceso o acumulación de tareas?",
+    "answerOptions": [
+      {
+        "text": "$9$ meses dentro de un periodo de $18$ meses.",
+        "rationale": "Según el texto consolidado más reciente ($2020$), este es el límite temporal para esta causa específica.",
+        "isCorrect": true
+      },
+      {
+        "text": "$24$ meses seguidos.",
+        "rationale": "La ley limita este supuesto a menos de un año para evitar que se convierta en una plaza fija encubierta.",
+        "isCorrect": false
+      },
+      {
+        "text": "$15$ días naturales.",
+        "rationale": "Un plazo tan corto sería insuficiente para gestionar una acumulación real de expedientes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Toda la vida laboral del empleado.",
+        "rationale": "La acumulación de tareas es por definición una situación puntual y no permanente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son nueve meses en un margen de un año y medio."
+  },
+  {
+    "guid": "8f136bb2-da70-4a3f-b87b-dff9402690f2",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué derecho individual tienen los funcionarios respecto a su carrera?",
+    "answerOptions": [
+      {
+        "text": "Derecho a la progresión en la carrera profesional y promoción interna.",
+        "rationale": "El artículo $14$ reconoce el derecho a ascender basándose en igualdad, mérito y capacidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho a elegir su sueldo cada mes.",
+        "rationale": "Las retribuciones están fijadas por ley y no son de libre elección por el funcionario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a no trabajar los lunes.",
+        "rationale": "Los empleados públicos deben cumplir la jornada de trabajo establecida reglamentariamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a heredar el puesto de sus padres.",
+        "rationale": "El acceso al empleo público es por mérito propio, no por herencia o parentesco.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Relaciónalo con la posibilidad de subir de categoría o nivel."
+  },
+  {
+    "guid": "e8476cd1-65f3-433e-b839-054b5074965e",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿El personal directivo profesional es considerado un tipo de 'empleado público' según el artículo $8.2$ del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "No, es una figura regulada aparte en el artículo $13$.",
+        "rationale": "El artículo $8.2$ solo lista cuatro clases; el personal directivo se desarrolla en un capítulo posterior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, es la quinta categoría de empleado público.",
+        "rationale": "Aunque trabajan en la administración, no aparecen en la lista taxativa del artículo $8$ de clases de empleados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, se incluyen siempre dentro de los funcionarios interinos.",
+        "rationale": "El personal directivo puede ser funcionario o laboral, pero tiene su propio régimen jurídico diferenciado.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, porque son empresas externas.",
+        "rationale": "El personal directivo profesional forma parte de la estructura administrativa, no son externos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revisa si están en la lista principal de categorías del artículo ocho."
+  },
+  {
+    "guid": "7035c9d6-d59d-4fc8-81d4-135e1e5dbf88",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio garantiza que los miembros de los órganos de selección no tengan intereses personales en el proceso?",
+    "answerOptions": [
+      {
+        "text": "Imparcialidad.",
+        "rationale": "La imparcialidad asegura que el tribunal actúe con neutralidad y objetividad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Subjetividad.",
+        "rationale": "La subjetividad permitiría juicios personales, lo cual está prohibido en la selección pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Complicidad.",
+        "rationale": "La complicidad sugeriría un acuerdo ilegal para favorecer a alguien.",
+        "isCorrect": false
+      },
+      {
+        "text": "Arbitrariedad.",
+        "rationale": "La arbitrariedad es actuar sin base legal, justo lo que la ley intenta evitar.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es actuar de manera neutral, sin bandos."
+  },
+  {
+    "guid": "02f446b6-af26-4c40-b886-ed42d0f11389",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué subescala pertenecen los funcionarios que realizan la intervención y tesorería en el ámbito local?",
+    "answerOptions": [
+      {
+        "text": "Intervención-Tesorería.",
+        "rationale": "Es una de las tres subescalas de los funcionarios con habilitación de carácter nacional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Secretaría-General.",
+        "rationale": "La subescala de Secretaría se encarga de la fe pública, no principalmente de la tesorería.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gestión Tributaria Externa.",
+        "rationale": "Esta no es una subescala formal de habilitación nacional según la $LRBRL$.",
+        "isCorrect": false
+      },
+      {
+        "text": "Arquitectura y Urbanismo.",
+        "rationale": "Estas son escalas técnicas generales, no subescalas de control económico-financiero.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El nombre de la subescala coincide con sus funciones económicas."
+  },
+  {
+    "guid": "24d4b361-3e77-4b8a-a439-545d4b83037a",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué requisito es indispensable para que el nombramiento de un funcionario de carrera sea válido?",
+    "answerOptions": [
+      {
+        "text": "Toma de posesión del cargo.",
+        "rationale": "La toma de posesión es el 'acto condición' que perfecciona el nombramiento y da inicio a la relación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tener más de $50$ años.",
+        "rationale": "No existe un requisito de edad tan elevada; basta con la mayoría de edad y no exceder la jubilación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pagar una cuota de entrada a la administración.",
+        "rationale": "El acceso es gratuito basándose en méritos; no hay tasas de 'compra' de plaza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser familiar directo de un político en activo.",
+        "rationale": "Esto vulneraría frontalmente el principio de igualdad y mérito.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el acto formal de aceptar y empezar a trabajar."
+  },
+  {
+    "guid": "9688b1d5-0e30-4616-be12-1373b14af019",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A quién se aplica el régimen de 'Servicio Activo'?",
+    "answerOptions": [
+      {
+        "text": "A los funcionarios que prestan servicios en un puesto de trabajo de la administración.",
+        "rationale": "Es la situación ordinaria de quienes están desempeñando sus funciones plenamente.",
+        "isCorrect": true
+      },
+      {
+        "text": "A quienes están jubilados definitivamente.",
+        "rationale": "La jubilación extingue la relación de servicio activo.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los ciudadanos que pagan sus impuestos a tiempo.",
+        "rationale": "El servicio activo es una situación administrativa interna de los empleados, no de los ciudadanos en general.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los funcionarios sancionados con expulsión.",
+        "rationale": "La expulsión o separación del servicio es lo opuesto al servicio activo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la situación de quien está trabajando normalmente."
+  },
+  {
+    "guid": "b10598d0-754f-4d90-ac8d-e277fc574cb6",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué subgrupo de funcionarios requiere un título universitario de Grado pero tiene menor nivel de responsabilidad que el $A1$?",
+    "answerOptions": [
+      {
+        "text": "Subgrupo $A2$.",
+        "rationale": "Ambos requieren título universitario, pero el $A2$ se diferencia por el nivel de las funciones y las pruebas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Grupo $C2$.",
+        "rationale": "El $C2$ no requiere título universitario, sino el de educación secundaria obligatoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subgrupo $B1$.",
+        "rationale": "El Grupo $B$ no se divide en subgrupos como el $A$ y requiere el título de técnico superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subgrupo $Z1$.",
+        "rationale": "No existe un subgrupo con la letra Z en la clasificación del TREBEP.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Comparte letra con el nivel más alto."
+  },
+  {
+    "guid": "89444f47-d8b5-44cd-9f44-66d259495c47",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Pueden los funcionarios interinos percibir trienios?",
+    "answerOptions": [
+      {
+        "text": "Sí, tienen derecho al reconocimiento de trienios por los servicios prestados.",
+        "rationale": "El artículo $25.2$ del TREBEP reconoce expresamente este derecho retributivo para los interinos.",
+        "isCorrect": true
+      },
+      {
+        "text": "No, es un derecho exclusivo de los funcionarios de carrera.",
+        "rationale": "Antiguamente era así, pero la normativa actual y la jurisprudencia han igualado este derecho.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si trabajan más de $40$ años seguidos.",
+        "rationale": "Los trienios se perfeccionan cada tres años, no se requiere una carrera tan larga para el primero.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si el Alcalde lo autoriza personalmente por escrito.",
+        "rationale": "Es un derecho regulado por ley, no depende de una autorización discrecional del cargo político.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en la equiparación de derechos entre personal fijo y temporal."
+  },
+  {
+    "guid": "3c28d5a8-ff6d-4ed2-b4bd-9b09e03be37e",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué tipo de personal no consolidará nunca la condición de funcionario de carrera por el mero paso del tiempo?",
+    "answerOptions": [
+      {
+        "text": "Funcionarios interinos.",
+        "rationale": "El nombramiento interino es temporal y no da derecho a la fijeza sin superar una oposición.",
+        "isCorrect": true
+      },
+      {
+        "text": "Funcionarios en prácticas.",
+        "rationale": "Los funcionarios en prácticas están en la fase final para convertirse en funcionarios de carrera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Opositores que han aprobado con plaza.",
+        "rationale": "Quienes aprueban con plaza precisamente están destinados a ser funcionarios de carrera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Personal laboral fijo.",
+        "rationale": "Aunque no son funcionarios, tienen una relación fija (inamovible) en su propia categoría laboral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre indica que están 'entre' periodos o sustituyendo."
+  },
+  {
+    "guid": "5a06819a-0a40-431a-9e67-961f7d5e74ae",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la titulación necesaria para las 'Agrupaciones Profesionales' (antiguo Grupo $E$)?",
+    "answerOptions": [
+      {
+        "text": "No se exige estar en posesión de ninguna de las titulaciones previstas en el sistema educativo.",
+        "rationale": "La Disposición Adicional sexta permite crear estas agrupaciones sin requisito de titulación académica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Título de Ingeniero de Caminos.",
+        "rationale": "Este título es de nivel superior y se exige para el Grupo $A$.",
+        "isCorrect": false
+      },
+      {
+        "text": "Máster en Administración de Empresas.",
+        "rationale": "Es una titulación de postgrado no requerida para tareas básicas de estas agrupaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Bachillerato técnico.",
+        "rationale": "El Bachillerato es para el subgrupo $C1$, no para agrupaciones sin titulación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el nivel que permite el acceso a personas sin títulos académicos específicos."
+  },
+  {
+    "guid": "ca0d712b-251f-45e8-b7bd-f5f5b6da1e58",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio exige que el contenido de las pruebas sea adecuado a las tareas a desarrollar?",
+    "answerOptions": [
+      {
+        "text": "Adecuación entre el contenido de los procesos selectivos y las funciones.",
+        "rationale": "Esto evita que se evalúen conocimientos irrelevantes para el trabajo que se va a realizar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de complejidad máxima.",
+        "rationale": "Las pruebas deben ser proporcionales y relevantes, no innecesariamente complejas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de aleatoriedad de temas.",
+        "rationale": "Los temas deben estar tasados en las bases, no elegirse al azar total.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de favoritismo local.",
+        "rationale": "La ley prohíbe favorecer a personas por su origen local frente a otros candidatos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la relación lógica entre el examen y el trabajo futuro."
+  },
+  {
+    "guid": "d2114b84-2b89-4796-bace-0fe0ad59ff0d",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué ayuntamiento se publica el nombramiento del personal en la 'Gaseta Municipal'?",
+    "answerOptions": [
+      {
+        "text": "Ayuntamiento de Barcelona.",
+        "rationale": "Los apuntes mencionan específicamente la Gaseta Municipal como medio de publicación en Barcelona.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ayuntamiento de Madrid.",
+        "rationale": "Aunque Madrid tiene su propio boletín, los documentos fuente se centran en el caso de Barcelona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ayuntamiento de Sevilla.",
+        "rationale": "Sevilla utiliza el BOP de su provincia o su propio boletín, no la Gaseta mencionada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ayuntamiento de París.",
+        "rationale": "París es una ciudad extranjera y no se rige por el TREBEP español.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la capital de Cataluña."
+  },
+  {
+    "guid": "5c45b427-3dc1-4e8f-914b-ce5cb88e8510",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué situación administrativa permite reservar el puesto de trabajo 'en propiedad'?",
+    "answerOptions": [
+      {
+        "text": "Servicios especiales.",
+        "rationale": "Esta situación garantiza al funcionario de carrera la reserva de su plaza y el cómputo de antigüedad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Excedencia voluntaria por interés particular.",
+        "rationale": "Normalmente, esta excedencia no conlleva reserva del puesto de trabajo concreto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Abandono del puesto sin avisar.",
+        "rationale": "El abandono del puesto es una causa de pérdida de la condición de funcionario, no de reserva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Despido disciplinario procedente.",
+        "rationale": "El despido o separación extingue la relación; no hay nada que reservar.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Ocurre cuando el funcionario se va temporalmente a un cargo político o internacional."
+  },
+  {
+    "guid": "36118f78-ad32-4966-a1fd-5901698233ac",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿El personal laboral puede ejercer funciones de autoridad que impliquen uso de la fuerza pública?",
+    "answerOptions": [
+      {
+        "text": "No, esas funciones están reservadas a funcionarios públicos (Policía).",
+        "rationale": "La salvaguarda de intereses generales y ejercicio de autoridad es exclusiva de funcionarios.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, si tienen un contrato de más de diez años.",
+        "rationale": "La antigüedad no cambia la naturaleza jurídica de la relación laboral a la funcionarial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo los fines de semana.",
+        "rationale": "Las competencias legales no varían según el día de la semana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, si llevan uniforme azul.",
+        "rationale": "El uniforme no otorga la potestad legal; la otorga la ley y la condición de funcionario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda la reserva de funciones del artículo $9.2$."
+  },
+  {
+    "guid": "74e7e07a-e680-4116-9c13-6d884f0ed324",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué nombre recibe el conjunto de normas que regulan al empleado público?",
+    "answerOptions": [
+      {
+        "text": "Derecho de la Función Pública.",
+        "rationale": "Es la denominación académica y legal para el conjunto de normas que regulan esta materia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Derecho Canónico.",
+        "rationale": "El Derecho Canónico regula a la Iglesia Católica, no a los empleados del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho Penal Juvenil.",
+        "rationale": "Este derecho se ocupa de delitos cometidos por menores, no del empleo público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley de Propiedad Horizontal.",
+        "rationale": "Esta ley regula las comunidades de vecinos y edificios privados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Combina las palabras 'Derecho' y 'Función'."
+  },
+  {
+    "guid": "1060d431-761e-4424-bdaa-0308e3c8b2eb",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A cuál de estos colectivos se aplica el TREBEP solo de forma supletoria o según su legislación específica?",
+    "answerOptions": [
+      {
+        "text": "Personal militar de las Fuerzas Armadas.",
+        "rationale": "El personal militar tiene su propia legislación específica y el TREBEP solo se aplica cuando esta lo indica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Auxiliares administrativos de un Ayuntamiento.",
+        "rationale": "Este personal se rige directamente por el TREBEP como norma básica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Personal de limpieza contratado directamente por una Consejería.",
+        "rationale": "Se les aplica el TREBEP en lo que proceda como personal laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conserjes de un instituto público.",
+        "rationale": "Forman parte del personal al servicio de las AAPP incluido en el ámbito directo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un cuerpo que lleva armas y defiende el territorio nacional."
+  },
+  {
+    "guid": "444b2203-2cc3-4578-a1d5-16beab722e1e",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué se busca con el principio de 'Capacidad' en el acceso?",
+    "answerOptions": [
+      {
+        "text": "Que el candidato tenga los conocimientos y aptitudes necesarios para el puesto.",
+        "rationale": "La capacidad se mide a través de las pruebas y ejercicios del proceso selectivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el candidato tenga mucha fuerza física únicamente.",
+        "rationale": "La capacidad física solo se evalúa si es relevante para el puesto (ej. Bomberos).",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el candidato sea capaz de convencer al tribunal con regalos.",
+        "rationale": "Eso sería cohecho o corrupción, lo cual es un delito grave.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que tenga capacidad económica para pagarse el uniforme.",
+        "rationale": "La administración suele proveer los medios necesarios; no es un criterio de selección.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la aptitud intelectual o profesional."
+  },
+  {
+    "guid": "6dc79211-1703-45b1-af10-784d63f9bd43",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la principal diferencia entre personal laboral fijo y funcionario de carrera?",
+    "answerOptions": [
+      {
+        "text": "La naturaleza de su vínculo (contrato de trabajo vs. nombramiento estatutario).",
+        "rationale": "El laboral se rige por el derecho privado/laboral y el funcionario por el derecho administrativo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el laboral no cobra sueldo.",
+        "rationale": "Ambos son empleados públicos retribuidos; la diferencia no es el pago sino la norma reguladora.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el funcionario trabaja más horas.",
+        "rationale": "La jornada de trabajo suele estar unificada para ambos tipos de personal en la misma administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el personal laboral no tiene vacaciones.",
+        "rationale": "El derecho a vacaciones es universal para todos los trabajadores y empleados públicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en el tipo de 'papel' que firman al entrar."
+  },
+  {
+    "guid": "0f76e69e-61ef-4752-93ae-14557c0c28b8",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué órgano de las CCAA puede dictar leyes de función pública en desarrollo del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Las Asambleas Legislativas (Parlamentos autonómicos).",
+        "rationale": "El artículo $6$ otorga esta competencia a las asambleas para regular su propia función pública.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los Juzgados de lo Social.",
+        "rationale": "Los juzgados aplican las leyes, no tienen potestad legislativa para crearlas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las asociaciones de vecinos.",
+        "rationale": "Estas asociaciones no tienen poder legislativo ni competencias en empleo público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las empresas de mensajería.",
+        "rationale": "Son entidades privadas sin relación con la creación de normas de función pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el lugar donde se sientan los diputados de tu comunidad."
+  },
+  {
+    "guid": "233775b0-fb83-455a-9fcb-c6a973e46227",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué subescala se encarga de la contabilidad y recaudación en los ayuntamientos?",
+    "answerOptions": [
+      {
+        "text": "Intervención-Tesorería.",
+        "rationale": "Esta subescala agrupa las funciones de control económico y manejo de fondos públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Secretaría-Intervención.",
+        "rationale": "Esta subescala es para municipios pequeños y une funciones, pero la específica de cuentas es Intervención.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subescala de Subalternos.",
+        "rationale": "Los subalternos realizan tareas de vigilancia u ordenanza, no de contabilidad financiera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subescala de Servicios Especiales.",
+        "rationale": "Suele referirse a la policía local o bomberos, no a la gestión del presupuesto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Manejan el 'tesoro' o dinero de la corporación."
+  },
+  {
+    "guid": "df1c9652-0719-4f29-9e9f-904a500ca9e9",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Es obligatorio que el contrato del personal laboral se haga por escrito?",
+    "answerOptions": [
+      {
+        "text": "Sí, en cualquiera de sus modalidades.",
+        "rationale": "El artículo $11$ del TREBEP exige la formalización por escrito del contrato de trabajo.",
+        "isCorrect": true
+      },
+      {
+        "text": "No, basta con que aparezca en la lista de admitidos.",
+        "rationale": "La lista de admitidos es un paso previo, pero el vínculo laboral requiere un contrato formal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si el trabajador lo pide expresamente.",
+        "rationale": "Es una obligación legal de la Administración, no un derecho opcional del trabajador.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo para contratos de más de cinco años.",
+        "rationale": "Todos los contratos laborales en el sector público, sean cortos o largos, deben ser escritos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La administración pública requiere documentos formales para todo."
+  },
+  {
+    "guid": "fc20d96f-3e75-405c-9db1-959e62975b9a",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se llama el sistema en que los funcionarios se agrupan por competencias comunes acreditadas en un proceso selectivo?",
+    "answerOptions": [
+      {
+        "text": "Cuerpos o Escalas.",
+        "rationale": "El artículo $75$ define así la agrupación de los funcionarios según sus conocimientos y especialidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sindicatos verticales.",
+        "rationale": "Los sindicatos son organizaciones de defensa de intereses, no divisiones organizativas de la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Clubes sociales administrativos.",
+        "rationale": "La administración no se organiza en clubes recreativos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Departamentos de ventas.",
+        "rationale": "Esta es una estructura típica de empresas comerciales, no de la función pública estatutaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "A menudo escuchas 'Cuerpo de Auxiliares' o 'Cuerpo de Gestión'."
+  },
+  {
+    "guid": "ba352ee2-65b5-4ed7-9a5a-16b68ba18dd6",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué situación se encuentra un funcionario que está trabajando normalmente en su puesto?",
+    "answerOptions": [
+      {
+        "text": "Servicio activo.",
+        "rationale": "Es la situación administrativa de pleno ejercicio de derechos y deberes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Servicio en el extranjero.",
+        "rationale": "Solo se está en esta situación si el destino está fuera de España en misiones internacionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Excedencia forzosa.",
+        "rationale": "La excedencia implica no estar trabajando en el puesto por alguna causa legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspensión provisional.",
+        "rationale": "La suspensión impide el ejercicio de las funciones durante un tiempo determinado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Estás 'activo' si estás cumpliendo tus tareas hoy."
+  },
+  {
+    "guid": "260c9642-57e2-4167-9224-209c221e3ede",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué requisito de nacionalidad se suele exigir con carácter general para ser funcionario?",
+    "answerOptions": [
+      {
+        "text": "Tener la nacionalidad española o de un estado miembro de la UE (con excepciones).",
+        "rationale": "Es el requisito general, aunque para ciertos puestos de soberanía se exige solo la española.",
+        "isCorrect": true
+      },
+      {
+        "text": "Haber nacido exclusivamente en la ciudad donde se trabaja.",
+        "rationale": "No se puede discriminar por el lugar de nacimiento dentro de la nación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tener pasaporte diplomático de la ONU.",
+        "rationale": "Este pasaporte es para funcionarios internacionales, no para el empleo público nacional común.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se exige ninguna nacionalidad en ningún caso.",
+        "rationale": "La ley establece requisitos claros de nacionalidad para garantizar la lealtad al Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en el país donde vives y en el grupo de países de Europa."
+  },
+  {
+    "guid": "13c21215-d153-4fd1-ac23-463755dab006",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio impide que los tribunales de selección actúen de forma arbitraria?",
+    "answerOptions": [
+      {
+        "text": "Discrecionalidad técnica.",
+        "rationale": "Aunque tienen libertad para evaluar, deben hacerlo basándose en criterios técnicos y no en caprichos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Libertad de culto.",
+        "rationale": "Es un derecho constitucional pero no regula el funcionamiento técnico de una oposición.",
+        "isCorrect": false
+      },
+      {
+        "text": "Poder absoluto del presidente.",
+        "rationale": "En democracia no hay poderes absolutos; todos están sometidos a la ley y al control.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de invisibilidad.",
+        "rationale": "Los actos administrativos deben ser visibles y motivados, no invisibles.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la libertad de decidir basada en conocimientos expertos."
+  },
+  {
+    "guid": "a2fcbbbe-6764-4eae-974a-9349748a2fda",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué personal tiene una relación 'no permanente' y solo realiza funciones de confianza?",
+    "answerOptions": [
+      {
+        "text": "Personal eventual.",
+        "rationale": "Su principal rasgo es la temporalidad ligada a la autoridad y la naturaleza de sus funciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Funcionarios de carrera.",
+        "rationale": "Son precisamente permanentes, todo lo contrario al personal eventual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Personal laboral fijo.",
+        "rationale": "El adjetivo 'fijo' indica permanencia en el tiempo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inspectores de Hacienda.",
+        "rationale": "Los inspectores son funcionarios de carrera con funciones de autoridad permanente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Suelen ser los asesores de los ministros o alcaldes."
+  },
+  {
+    "guid": "6da2f2e4-66ea-4d61-bc31-c4ae8a26d508",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué grupo de clasificación pertenece un administrativo con título de Bachiller?",
+    "answerOptions": [
+      {
+        "text": "Subgrupo $C1$.",
+        "rationale": "El Bachillerato es el requisito académico para este nivel según el artículo $76$.",
+        "isCorrect": true
+      },
+      {
+        "text": "Subgrupo $A1$.",
+        "rationale": "Para el $A1$ se requiere obligatoriamente título universitario de Grado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Grupo $B$.",
+        "rationale": "El Grupo $B$ requiere específicamente un título de Técnico Superior (FP).",
+        "isCorrect": false
+      },
+      {
+        "text": "Subgrupo $C2$.",
+        "rationale": "Para el $C2$ basta con el graduado en ESO, un nivel inferior al Bachiller.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la letra C seguida del número uno."
+  },
+  {
+    "guid": "a0f222a3-39a4-40ae-a22a-c3c7b0fbbc94",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ocurre con las plazas vacantes ocupadas por interinos?",
+    "answerOptions": [
+      {
+        "text": "Deben incluirse en la oferta de empleo público del ejercicio correspondiente.",
+        "rationale": "Esto asegura que las plazas se intenten cubrir por personal fijo lo antes posible.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se eliminan para siempre tras un mes.",
+        "rationale": "Si la plaza es necesaria para el servicio, se debe intentar cubrir legalmente, no eliminarla.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se regalan al interino si es muy simpático.",
+        "rationale": "La simpatía no es un criterio de acceso legal; debe superarse un proceso de selección.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se cierran con llave y no se usan.",
+        "rationale": "La administración debe ser eficaz y usar sus plazas para dar servicio a los ciudadanos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Deben salir a 'concurso' u 'oposición'."
+  },
+  {
+    "guid": "cd6d14ce-63ef-43c1-a71b-a636b907173a",
+    "subjectId": "T14",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién aprueba el nombramiento del personal en el Ayuntamiento de Barcelona según la normativa específica?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde o la Alcaldesa.",
+        "rationale": "Es la autoridad competente para el nombramiento según la Carta Municipal de Barcelona.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente del Gobierno de España.",
+        "rationale": "El Presidente del Gobierno no nombra al personal de los ayuntamientos; es competencia local.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey de España.",
+        "rationale": "El Rey no interviene en los nombramientos de personal administrativo local.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Director de una sucursal bancaria próxima.",
+        "rationale": "Un director de banco no tiene ninguna autoridad sobre el personal municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la máxima autoridad política de la ciudad."
+  }
+]

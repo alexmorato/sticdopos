@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "a8103a18-9fb9-42e2-9036-78564c67ea8a",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el objetivo principal de la Administración electrónica según el glosario de términos?",
+    "answerOptions": [
+      {
+        "text": "Mejorar la eficiencia interna y las relaciones con las personas y empresas mediante el uso de las TIC.",
+        "rationale": "El concepto se centra en el uso de las tecnologías de la información para optimizar la gestión y las relaciones externas e internas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir completamente la atención presencial por quioscos automáticos.",
+        "rationale": "El modelo electrónico es complementario y no sustituye la tramitación presencial, salvo en casos de obligación legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducir el número de empleados públicos mediante la automatización total.",
+        "rationale": "El objetivo es la mejora de la eficiencia y la calidad del servicio, no necesariamente la reducción de personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar la necesidad de leyes administrativas para agilizar procesos.",
+        "rationale": "La administración electrónica requiere cambios jurídicos y se rige estrictamente por normativas como la Ley $39/2015$.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la integración de la tecnología en la gestión pública."
+  },
+  {
+    "guid": "cb4ac102-db7b-491f-a80b-8f8c1beb5982",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ley estatal regula el Procedimiento Administrativo Común de las Administraciones Públicas?",
+    "answerOptions": [
+      {
+        "text": "Ley $40/2015$.",
+        "rationale": "Esta ley se encarga específicamente del Régimen Jurídico del Sector Público, no del procedimiento común.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley $39/2015$.",
+        "rationale": "Es la norma básica que establece el marco para el procedimiento administrativo y la relación electrónica de los ciudadanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley $29/2010$.",
+        "rationale": "Esta es una ley autonómica de Cataluña sobre el uso de medios electrónicos, no la ley estatal de procedimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley $30/1992$.",
+        "rationale": "Fue la ley anterior que fue derogada por las nuevas leyes de $2015$.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una de las dos leyes fundamentales de octubre de $2015$."
+  },
+  {
+    "guid": "7c38db82-3bbf-4687-b9ed-11d1b394a268",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál de estas es una ventaja de la administración electrónica para el ciudadano?",
+    "answerOptions": [
+      {
+        "text": "Disponibilidad las $24$ horas del día.",
+        "rationale": "Permite realizar gestiones en cualquier momento sin depender de horarios de oficina.",
+        "isCorrect": true
+      },
+      {
+        "text": "Obligación de comprar un ordenador nuevo.",
+        "rationale": "La administración electrónica busca la accesibilidad, no imponer cargas económicas adicionales de hardware.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminación de la necesidad de identificarse.",
+        "rationale": "Al contrario, requiere sistemas de identificación seguros para garantizar la validez jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tramitación exclusivamente en horario de mañana.",
+        "rationale": "Uno de los beneficios principales es romper la barrera del horario de oficina presencial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la flexibilidad horaria."
+  },
+  {
+    "guid": "507fda30-0fc7-426d-a3d4-e30ec43889ae",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué colectivo está obligado a relacionarse electrónicamente con la Administración?",
+    "answerOptions": [
+      {
+        "text": "Personas físicas sin actividad profesional.",
+        "rationale": "Generalmente, las personas físicas pueden elegir su modo de relación, a menos que se establezca lo contrario reglamentariamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Personas jurídicas.",
+        "rationale": "Según el artículo $14$ de la Ley $39/2015$, las empresas y entidades están obligadas al uso de medios electrónicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Menores de edad.",
+        "rationale": "No existe una obligación general para los menores basada únicamente en su edad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Turistas extranjeros.",
+        "rationale": "La condición de turista no implica por sí misma la obligación de relación electrónica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Reflexione sobre el tipo de entidad que posee personalidad jurídica."
+  },
+  {
+    "guid": "5d74e931-82f4-43a4-b38a-b9536431f106",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se define la 'Sede electrónica'?",
+    "answerOptions": [
+      {
+        "text": "Un portal de noticias municipal.",
+        "rationale": "La sede tiene una función administrativa y jurídica, no meramente informativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "El servidor físico donde se guardan los datos.",
+        "rationale": "Eso se refiere al hardware; la sede es la dirección o espacio electrónico de interacción legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dirección electrónica de titularidad de la Administración para realizar trámites con plenas garantías.",
+        "rationale": "Es el espacio oficial donde se garantiza la seguridad tecnológica y jurídica de la información.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un correo electrónico personal del alcalde.",
+        "rationale": "La sede es un canal institucional y oficial, no una cuenta de correo personal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el equivalente digital a una oficina de atención presencial."
+  },
+  {
+    "guid": "8a1ce650-878f-40e7-8c73-0472e57dfdd2",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuándo se entiende rechazada una notificación electrónica si no se accede a su contenido?",
+    "answerOptions": [
+      {
+        "text": "A los $10$ días naturales.",
+        "rationale": "Transcurrido este plazo desde la puesta a disposición sin acceso, la notificación se considera rechazada legalmente.",
+        "isCorrect": true
+      },
+      {
+        "text": "A los $10$ días hábiles.",
+        "rationale": "La normativa especifica días naturales, lo que incluye fines de semana y festivos.",
+        "isCorrect": false
+      },
+      {
+        "text": "A las $24$ horas.",
+        "rationale": "Un plazo de un día sería insuficiente para garantizar los derechos del interesado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca, debe haber un rechazo expreso.",
+        "rationale": "La ley contempla el rechazo tácito por inacción tras el plazo legal de $10$ días.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un plazo que incluye todos los días del calendario."
+  },
+  {
+    "guid": "94121f96-9188-44ad-a930-2e25c0d45dc7",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio permite que diferentes sistemas de la Administración compartan información?",
+    "answerOptions": [
+      {
+        "text": "Transparencia.",
+        "rationale": "La transparencia se refiere al acceso a la información pública, no a la compatibilidad técnica entre sistemas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Interoperabilidad.",
+        "rationale": "Es la capacidad de las organizaciones para compartir datos y reutilizar información entre sus sistemas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Neutralidad tecnológica.",
+        "rationale": "Este principio se refiere a no depender de proveedores específicos, no a la comunicación entre sistemas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Simplificación.",
+        "rationale": "La simplificación busca reducir pasos, aunque la interoperabilidad a menudo sea el medio para lograrlo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la 'habilidad' de 'operar' entre distintos entes."
+  },
+  {
+    "guid": "1ef71560-0fc6-4b04-968c-15a4ebe4266d",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿De quién depende el Registro electrónico único del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Del Alcalde directamente.",
+        "rationale": "Aunque es la máxima autoridad, la gestión técnica y administrativa recae en un órgano específico.",
+        "isCorrect": false
+      },
+      {
+        "text": "De la Secretaría General.",
+        "rationale": "Es el órgano encargado de la gestión y custodia del registro según la normativa municipal.",
+        "isCorrect": true
+      },
+      {
+        "text": "De cualquier ciudadano que lo use.",
+        "rationale": "El ciudadano es usuario, pero la titularidad y responsabilidad es institucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Del Ministerio de Política Territorial.",
+        "rationale": "El registro del Ayuntamiento es de ámbito municipal, no estatal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano responsable de la fe pública en el Ayuntamiento."
+  },
+  {
+    "guid": "a8472621-aa67-4a3e-bae6-4c148bc76905",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué pilar de la administración electrónica se basa en ofrecer múltiples canales de contacto coordinados?",
+    "answerOptions": [
+      {
+        "text": "Simplificación documental.",
+        "rationale": "Este pilar se enfoca en no pedir documentos que ya obren en poder de la Administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Multicanalidad.",
+        "rationale": "Permite al ciudadano elegir entre teléfono, web, presencial, etc., manteniendo una experiencia coherente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Neutralidad.",
+        "rationale": "La neutralidad trata sobre estándares tecnológicos, no sobre vías de comunicación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Interoperabilidad.",
+        "rationale": "Es un principio técnico de intercambio de datos, no una estrategia de canales de atención.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El prefijo indica 'muchos'."
+  },
+  {
+    "guid": "b9be3e4b-9baf-408a-84db-06a26c02519b",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué documento garantiza la integridad de un expediente electrónico y permite su recuperación?",
+    "answerOptions": [
+      {
+        "text": "Un certificado digital personal.",
+        "rationale": "El certificado identifica al autor, pero no estructura el expediente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El índice electrónico.",
+        "rationale": "Es el elemento que relaciona todos los documentos del expediente y asegura que no ha sido alterado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un correo electrónico de confirmación.",
+        "rationale": "Un correo es solo una comunicación informativa, no una garantía técnica de integridad estructural.",
+        "isCorrect": false
+      },
+      {
+        "text": "El DNI electrónico.",
+        "rationale": "Es una herramienta de firma, pero no forma parte de la estructura interna de un expediente administrativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la lista que ordena los contenidos de un libro."
+  },
+  {
+    "guid": "c3d52c63-6e10-4472-b92d-840dc107743d",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función del 'Punto de acceso general electrónico'?",
+    "answerOptions": [
+      {
+        "text": "Vender certificados digitales.",
+        "rationale": "Su función es de acceso y comunicación, no comercial ni de emisión de certificados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Centralizar en un único punto los trámites, expedientes y comunicaciones del ciudadano.",
+        "rationale": "Facilita la relación al agrupar toda la información relevante para el interesado en un espacio personalizado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Proporcionar acceso a internet gratuito en plazas públicas.",
+        "rationale": "Eso sería un punto de acceso Wi-Fi, no un portal administrativo general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustituir al Registro Civil.",
+        "rationale": "Es una puerta de entrada a trámites, no una institución de registro de personas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Actúa como una 'puerta única' personalizada."
+  },
+  {
+    "guid": "07b0b5b1-31ed-43b1-9325-921036cfa378",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué implica el principio de 'Neutralidad tecnológica'?",
+    "answerOptions": [
+      {
+        "text": "Que la Administración no puede usar tecnología.",
+        "rationale": "Al contrario, fomenta su uso pero de forma equilibrada y basada en estándares.",
+        "isCorrect": false
+      },
+      {
+        "text": "Libertad para elegir tecnologías basadas en estándares abiertos, sin depender de un proveedor.",
+        "rationale": "Asegura que los ciudadanos puedan interactuar independientemente del software que utilicen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que todos los ordenadores deben ser de la misma marca.",
+        "rationale": "Eso sería lo opuesto a la neutralidad, creando dependencia de un fabricante.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tomar partido en debates sobre redes sociales.",
+        "rationale": "Es un concepto técnico y operativo del Sector Público, no de opinión política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a evitar el monopolio de formatos o software específicos."
+  },
+  {
+    "guid": "62bf8926-94ca-4f9f-9c6c-cd5d4d847e9b",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En Barcelona, ¿qué es el 'Registro de procedimientos municipales'?",
+    "answerOptions": [
+      {
+        "text": "Un catálogo de todos los empleados del Ayuntamiento.",
+        "rationale": "Se centra en procesos administrativos, no en la gestión de personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un repositorio con todos los procedimientos y sus ciclos de vida legales.",
+        "rationale": "Sirve de guía para asegurar que las operaciones se realizan de forma garantista y legal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una lista de todas las multas de tráfico.",
+        "rationale": "Es mucho más amplio, abarcando cualquier tipo de procedimiento administrativo municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un archivo de fotos históricas de la ciudad.",
+        "rationale": "Su fin es la gestión administrativa actual y electrónica, no el archivo histórico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la base de conocimiento para saber cómo tramitar cada expediente."
+  },
+  {
+    "guid": "c9f0244a-497a-4565-8691-075cc0c3f943",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué deber tiene la ciudadanía al usar la Administración electrónica según la ORAE?",
+    "answerOptions": [
+      {
+        "text": "Pagar una tasa por cada clic realizado.",
+        "rationale": "El acceso a la información electrónica suele ser gratuito; las tasas dependen del trámite, no del uso del medio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Custodiar sus elementos identificadores personales e intransferibles.",
+        "rationale": "Es responsabilidad del usuario mantener la seguridad de sus claves y firmas digitales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Actualizar el software de la Administración.",
+        "rationale": "El mantenimiento de los sistemas es responsabilidad del Sector Público municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Responder a todos los correos electrónicos en menos de una hora.",
+        "rationale": "No existe un deber de inmediatez tan estricto para el ciudadano en sus comunicaciones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la seguridad de sus 'llaves' digitales."
+  },
+  {
+    "guid": "2a8ce476-3ad9-4559-ad2a-c1210ad102d1",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ocurre si el Registro electrónico no está operativo por razones técnicas?",
+    "answerOptions": [
+      {
+        "text": "Se suspenden todos los derechos del ciudadano.",
+        "rationale": "La administración debe garantizar vías alternativas y anunciar la incidencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se debe anunciar con la máxima antelación posible y prever medidas alternativas.",
+        "rationale": "La transparencia y la continuidad del servicio exigen informar al usuario sobre la interrupción.",
+        "isCorrect": true
+      },
+      {
+        "text": "El ciudadano debe esperar al día siguiente sin más.",
+        "rationale": "Se deben facilitar medios para que los plazos no perjudiquen al interesado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se eliminan todos los plazos de entrega automáticamente.",
+        "rationale": "Los plazos pueden ampliarse, pero no se eliminan de forma indefinida y automática.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La Administración debe actuar con previsión e información."
+  },
+  {
+    "guid": "06260fa3-e2ab-4b96-b731-7ea74ff224a6",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué es una 'Copia electrónica auténtica'?",
+    "answerOptions": [
+      {
+        "text": "Una fotocopia escaneada sin firma.",
+        "rationale": "Para ser auténtica, debe garantizarse la integridad y autoría mediante firma electrónica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Documento electrónico con la misma validez que el original, garantizada mediante firma.",
+        "rationale": "Es el resultado de un proceso que asegura que la imagen electrónica es fiel al original.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un borrador de un documento antes de ser aprobado.",
+        "rationale": "Una copia auténtica se refiere a un documento ya existente y validado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una foto hecha con el móvil por el ciudadano.",
+        "rationale": "Carece de las garantías técnicas y de validación por parte de la Administración para ser 'auténtica'.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene el mismo valor legal que el documento de papel original."
+  },
+  {
+    "guid": "46d788e8-3e54-494a-82c9-9a63949a5aea",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Están los empleados públicos obligados a relacionarse electrónicamente con su administración?",
+    "answerOptions": [
+      {
+        "text": "No, tienen los mismos derechos que cualquier persona física.",
+        "rationale": "Por su condición de empleados públicos, están sujetos a una obligación específica para trámites profesionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, para los trámites y actuaciones que realicen por razón de su condición de empleado.",
+        "rationale": "La Ley $39/2015$ establece esta obligación para agilizar la gestión interna.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo si trabajan en el departamento de informática.",
+        "rationale": "La obligación se aplica a todos los empleados públicos, independientemente de su puesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si el empleado lo solicita voluntariamente.",
+        "rationale": "Es una obligación legal, no una opción voluntaria para el colectivo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La obligación se deriva de su puesto en la propia administración."
+  },
+  {
+    "guid": "8e9f8521-8e73-4359-93c1-bd93e993e1c9",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué garantiza el 'Archivo electrónico único'?",
+    "answerOptions": [
+      {
+        "text": "Que solo se guarde un documento al año.",
+        "rationale": "El término 'único' se refiere a la centralización, no a la cantidad de documentos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La integridad, confidencialidad, disponibilidad y conservación a largo plazo.",
+        "rationale": "Su función es asegurar que los documentos digitales se mantengan legibles y seguros con el tiempo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el papel nunca más se use en las oficinas.",
+        "rationale": "Aunque tiende al 'papel cero', su función técnica es la custodia de lo digital.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los ciudadanos no puedan borrar sus propios datos.",
+        "rationale": "La protección de datos permite el borrado en ciertos casos; el archivo garantiza la custodia de lo que debe ser conservado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la custodia segura del patrimonio documental digital."
+  },
+  {
+    "guid": "e81621c6-41f2-45a9-96f4-be6901112779",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué significa que la administración electrónica debe evitar la 'Fractura digital'?",
+    "answerOptions": [
+      {
+        "text": "Que los ordenadores no deben romperse físicamente.",
+        "rationale": "Es un concepto sociológico sobre el acceso a la tecnología, no un daño de hardware.",
+        "isCorrect": false
+      },
+      {
+        "text": "Garantizar la accesibilidad para que nadie quede excluido por falta de conocimientos o medios.",
+        "rationale": "Busca que colectivos vulnerables o con poca capacidad técnica sigan teniendo acceso a los servicios.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el Wi-Fi debe llegar a todos los pisos de un edificio.",
+        "rationale": "Aunque la conectividad ayuda, la fractura digital abarca también habilidades y diseño accesible.",
+        "isCorrect": false
+      },
+      {
+        "text": "Separar la red informática de la red eléctrica.",
+        "rationale": "No tiene relación con la infraestructura eléctrica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la igualdad de oportunidades en el entorno digital."
+  },
+  {
+    "guid": "5d40c1df-b340-43c2-90ae-b29c341a4b65",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función del sistema 'Representa' en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Contratar actores para campañas de publicidad.",
+        "rationale": "Es una herramienta jurídica de representación administrativa, no publicitaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Permitir inscribir representaciones para que terceros actúen ante la administración.",
+        "rationale": "Facilita acreditar que una persona puede realizar trámites en nombre de otra de forma electrónica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hacer copias de seguridad de las páginas web.",
+        "rationale": "Su propósito es la gestión de apoderamientos y autorizaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Representar gráficamente los datos estadísticos del municipio.",
+        "rationale": "Es un registro de representación legal, no una herramienta de visualización de datos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está relacionado con el derecho a actuar mediante apoderado."
+  },
+  {
+    "guid": "4e61384b-7cac-4062-ae7d-620e342a4bfc",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué debe emitir el Registro electrónico tras la presentación de un documento?",
+    "answerOptions": [
+      {
+        "text": "Una felicitación por correo postal.",
+        "rationale": "La respuesta debe ser inmediata y por el mismo canal electrónico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un recibo acreditativo con la fecha, hora y número de entrada.",
+        "rationale": "Es la garantía del ciudadano de que el documento ha sido entregado correctamente.",
+        "isCorrect": true
+      },
+      {
+        "text": "La resolución final del expediente.",
+        "rationale": "El registro solo confirma la recepción; la resolución requiere una tramitación posterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una clave para cambiar su contraseña.",
+        "rationale": "El recibo es un justificante de la transacción, no un proceso de seguridad de cuenta.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el justificante o comprobante de la entrega."
+  },
+  {
+    "guid": "dc73d3cb-d244-452b-8e66-0dbf314ef8f1",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ley catalana regula el uso de medios electrónicos en su sector público?",
+    "answerOptions": [
+      {
+        "text": "Ley $39/2015$.",
+        "rationale": "Como se mencionó antes, esta ley es de ámbito estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley $29/2010$.",
+        "rationale": "Es la norma específica de la Generalitat de Cataluña para el uso de medios electrónicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley $7/1985$.",
+        "rationale": "Es la ley básica de régimen local, no específica de administración electrónica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decreto $76/2020$.",
+        "rationale": "Es un decreto de desarrollo, pero la norma con rango de ley principal es la de $2010$.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque la norma autonómica aprobada en el año $2010$."
+  },
+  {
+    "guid": "4bb7591b-2d9d-49e2-ba22-abb4122dc3fe",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué se busca con el principio de 'Simplificación administrativa'?",
+    "answerOptions": [
+      {
+        "text": "Hacer que las páginas web tengan menos colores.",
+        "rationale": "Se refiere a la estructura de los procesos, no al diseño estético.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducir trámites, tiempos y documentos innecesarios en los procesos.",
+        "rationale": "El uso de la tecnología debe servir para agilizar y facilitar la vida del administrado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar la necesidad de que los políticos tomen decisiones.",
+        "rationale": "La toma de decisiones sigue existiendo, pero el proceso para llegar a ellas es más directo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los documentos solo tengan una página de extensión.",
+        "rationale": "Simplificar no significa acortar el texto, sino eliminar pasos redundantes o inútiles.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El objetivo es 'hacer más fácil' el procedimiento."
+  },
+  {
+    "guid": "55a7777b-e313-404c-b4fd-74c82a68938f",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué es el 'Portal de Internet' según la normativa?",
+    "answerOptions": [
+      {
+        "text": "Un buscador como Google.",
+        "rationale": "Es un punto de acceso específico de la Administración, no un motor de búsqueda general.",
+        "isCorrect": false
+      },
+      {
+        "text": "El punto de acceso electrónico que permite acceder a información y a la sede electrónica.",
+        "rationale": "Funciona como la ventana de divulgación y acceso general a los servicios digitales.",
+        "isCorrect": true
+      },
+      {
+        "text": "La red interna privada de los funcionarios.",
+        "rationale": "Eso sería una Intranet; el portal es público para la ciudadanía.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un sitio para descargar videojuegos municipales.",
+        "rationale": "Su finalidad es administrativa e informativa de interés general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la fachada informativa que da entrada a la sede."
+  },
+  {
+    "guid": "54d2f4cc-8d1a-464c-ab4f-5a5406401bd0",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quiénes se consideran incluidos en el colectivo de profesionales de colegiación obligatoria?",
+    "answerOptions": [
+      {
+        "text": "Solo los informáticos.",
+        "rationale": "La ley menciona específicamente a otros como notarios y registradores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Notarios, registradores de la propiedad y mercantiles.",
+        "rationale": "La Ley $39/2015$ los incluye expresamente como sujetos obligados a la relación electrónica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier persona que trabaje en una oficina.",
+        "rationale": "Solo aquellos cuya profesión requiera por ley estar colegiado para ejercer.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estudiantes de universidad.",
+        "rationale": "Los estudiantes no son profesionales en ejercicio colegiado obligatorio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en profesiones con fe pública o registros oficiales."
+  },
+  {
+    "guid": "6e9c4aad-2549-461b-a2e4-b9c3ff21c1a6",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué es la 'Firma electrónica'?",
+    "answerOptions": [
+      {
+        "text": "Escribir el nombre con el ratón en la pantalla.",
+        "rationale": "Carece de las garantías criptográficas necesarias para ser una firma válida.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conjunto de datos en forma electrónica que permiten identificar al firmante con validez legal.",
+        "rationale": "Utiliza técnicas informáticas para asegurar que la firma corresponde a la persona y que el documento no cambió.",
+        "isCorrect": true
+      },
+      {
+        "text": "Escanear una firma de papel y pegarla en un Word.",
+        "rationale": "Es fácilmente falsificable y no garantiza la integridad del documento electrónico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un sello de goma mojado en tinta digital.",
+        "rationale": "Es una metáfora inexistente; la firma electrónica es un proceso matemático de cifrado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el sustituto digital de la firma manuscrita con garantías técnicas."
+  },
+  {
+    "guid": "56cba849-6f7e-4375-a3df-09fb6d707a89",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué se diferencia la 'Firma electrónica avanzada' de la 'Firma ordinaria'?",
+    "answerOptions": [
+      {
+        "text": "En que la avanzada es más rápida.",
+        "rationale": "La diferencia es de seguridad y garantías, no de velocidad de ejecución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Permite identificar al autor y detectar cambios posteriores en los datos.",
+        "rationale": "Ofrece un nivel superior de vinculación con el firmante y de integridad del contenido.",
+        "isCorrect": true
+      },
+      {
+        "text": "La avanzada solo funciona en ordenadores caros.",
+        "rationale": "Depende de la tecnología de certificación, no del precio del hardware.",
+        "isCorrect": false
+      },
+      {
+        "text": "No hay diferencia real entre ambas.",
+        "rationale": "Jurídicamente tienen efectos y garantías muy distintas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La clave está en la detección de alteraciones tras la firma."
+  },
+  {
+    "guid": "91fe7f9a-688c-47db-a0ba-b0e8d1e3f4c3",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué es 'EACAT'?",
+    "answerOptions": [
+      {
+        "text": "Una aplicación para pedir cita en el médico.",
+        "rationale": "Su ámbito es la relación entre administraciones, no el servicio directo de salud.",
+        "isCorrect": false
+      },
+      {
+        "text": "Plataforma para la comunicación electrónica entre las administraciones catalanas.",
+        "rationale": "Es la extranet de las administraciones públicas de Cataluña para compartir trámites y datos.",
+        "isCorrect": true
+      },
+      {
+        "text": "El nombre de la nueva sede electrónica de Barcelona.",
+        "rationale": "Barcelona tiene su propia sede; EACAT es una red de colaboración interadministrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un virus informático que afecta a los registros.",
+        "rationale": "Es una herramienta oficial y segura de la Generalitat.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una herramienta de comunicación 'entre' administraciones."
+  },
+  {
+    "guid": "4c2cfdd1-1071-4e0c-a446-3db6a0502e5c",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es un beneficio para la Administración de usar medios electrónicos?",
+    "answerOptions": [
+      {
+        "text": "Aumento del uso de papel para archivar.",
+        "rationale": "El objetivo es precisamente el contrario: reducir el uso de papel.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducción de costes y plazos de tramitación.",
+        "rationale": "La automatización y el envío instantáneo ahorran recursos y tiempo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Poder cerrar las oficinas físicas para siempre.",
+        "rationale": "Sigue siendo necesario mantener canales presenciales para garantizar la accesibilidad universal.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tener que responder a los ciudadanos.",
+        "rationale": "La administración electrónica mejora la transparencia y la obligación de respuesta.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el ahorro de recursos públicos."
+  },
+  {
+    "guid": "ef83c79c-cdb2-4b6c-8a69-992040d25bd4",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio obliga a no depender de un único proveedor de tecnología?",
+    "answerOptions": [
+      {
+        "text": "Eficiencia.",
+        "rationale": "La eficiencia trata de optimizar recursos, no de la elección de proveedores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Neutralidad tecnológica.",
+        "rationale": "Asegura que la Administración pueda cambiar de software sin quedar 'atrapada' por una marca.",
+        "isCorrect": true
+      },
+      {
+        "text": "Transparencia.",
+        "rationale": "La transparencia se refiere a la visibilidad de la gestión, no a la arquitectura técnica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Interoperabilidad.",
+        "rationale": "Aunque están relacionados, la interoperabilidad es la capacidad de hablar entre sistemas, no la libertad de elección de los mismos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de ser 'neutral' ante las marcas comerciales."
+  }
+]

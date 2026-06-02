@@ -1,0 +1,777 @@
+[
+  {
+    "guid": "0864ef36-95f0-4fc9-9732-7d9b8ed42b6b",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la norma fundamental que establece que la Administración Pública sirve con objetividad los intereses generales?",
+    "answerOptions": [
+      {
+        "text": "La Constitución Española",
+        "rationale": "El artículo 103.1 de la Constitución es la base que define los principios de actuación de la Administración.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Código Civil",
+        "rationale": "El Código Civil regula las relaciones privadas, no los principios fundamentales de la Administración Pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Ley de Contratos del Sector Público",
+        "rationale": "Esta ley se enfoca específicamente en la contratación, no en los principios generales constitucionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Reglamento del Congreso",
+        "rationale": "Este reglamento organiza el poder legislativo, no el funcionamiento de la Administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la norma suprema del ordenamiento jurídico español."
+  },
+  {
+    "guid": "2d9481db-319f-41ac-b000-b423cff65671",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio administrativo implica la transferencia de competencias de forma permanente de un órgano superior a otro inferior dentro de un mismo ente?",
+    "answerOptions": [
+      {
+        "text": "Desconcentración",
+        "rationale": "La desconcentración busca aliviar el trabajo de los órganos superiores traspasando competencias a niveles inferiores del mismo organismo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Descentralización",
+        "rationale": "La descentralización implica el traspaso de competencias entre diferentes personas jurídicas o entes, no dentro del mismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jerarquía",
+        "rationale": "La jerarquía es la estructura de mando, pero no define específicamente el proceso de transferencia de competencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Coordinación",
+        "rationale": "La coordinación busca la unidad de actuación, pero no implica necesariamente un traspaso de titularidad de la competencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una técnica de organización interna para mejorar la eficiencia operativa."
+  },
+  {
+    "guid": "e97c7ed1-edfe-4c94-a92e-c0972e73c68e",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál de los siguientes se considera un órgano superior dentro de la Administración General del Estado?",
+    "answerOptions": [
+      {
+        "text": "Secretario de Estado",
+        "rationale": "Según la Ley 40/2015, los Ministros y los Secretarios de Estado tienen la consideración de órganos superiores.",
+        "isCorrect": true
+      },
+      {
+        "text": "Director General",
+        "rationale": "El Director General es un órgano directivo, no un órgano superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subsecretario",
+        "rationale": "El Subsecretario se clasifica como órgano directivo encargado de la gestión interna del ministerio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subdirector General",
+        "rationale": "Es el nivel más bajo de los órganos directivos y no se considera un alto cargo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son cargos que están justo debajo del Ministro o son el propio Ministro."
+  },
+  {
+    "guid": "1c6fe4ff-c106-4bf0-8434-6ed6c49640f3",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué característica define principalmente a una Administración Territorial?",
+    "answerOptions": [
+      {
+        "text": "El territorio es un elemento constitutivo esencial",
+        "rationale": "En las administraciones territoriales, como municipios o provincias, el territorio determina su existencia y el ámbito de sus competencias.",
+        "isCorrect": true
+      },
+      {
+        "text": "No tienen personalidad jurídica propia",
+        "rationale": "Toda administración pública tiene personalidad jurídica para poder actuar y ser responsable.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se rigen exclusivamente por el derecho privado",
+        "rationale": "Las administraciones públicas territoriales están plenamente sometidas al derecho administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son creadas únicamente por una fundación privada",
+        "rationale": "Su existencia deriva directamente de la Constitución o de leyes orgánicas de régimen local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en qué elemento físico limita el poder de un ayuntamiento."
+  },
+  {
+    "guid": "c5a19b4a-4540-490e-9b49-2f840dace0df",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué tipo de organismo público realiza actividades fundamentalmente administrativas y depende de un Ministerio?",
+    "answerOptions": [
+      {
+        "text": "Organismo Autónomo",
+        "rationale": "Los organismos autónomos son entes de derecho público que gestionan servicios administrativos bajo la dirección de un ministerio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sociedad Mercantil Estatal",
+        "rationale": "Las sociedades mercantiles operan bajo derecho privado y suelen tener fines comerciales o industriales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Entidad Pública Empresarial",
+        "rationale": "Aunque son públicas, se financian con ingresos de mercado y actúan en gran medida bajo el derecho privado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fundación del Sector Público",
+        "rationale": "Las fundaciones no tienen carácter administrativo, sino que gestionan patrimonios para fines de interés general sin ánimo de lucro.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sus siglas suelen ser OO.AA. y están plenamente sujetos al derecho público."
+  },
+  {
+    "guid": "4263bd8d-b458-4808-a78b-349cc5489fba",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A través de qué instrumento se crean, modifican o suprimen los Ministerios?",
+    "answerOptions": [
+      {
+        "text": "Real Decreto del Presidente del Gobierno",
+        "rationale": "La estructura departamental del Gobierno es una prerrogativa directa del Presidente mediante Real Decreto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley Orgánica aprobada en Cortes",
+        "rationale": "Aunque las leyes regulan la administración, la creación de ministerios específicos es una decisión organizativa del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Orden Ministerial del Ministro de Hacienda",
+        "rationale": "Un Ministro no tiene rango suficiente para crear o suprimir otros ministerios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resolución del Director General de la Función Pública",
+        "rationale": "Este nivel jerárquico es técnico y directivo, no tiene potestad para decidir la estructura del Gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una decisión personal de la máxima autoridad del poder ejecutivo."
+  },
+  {
+    "guid": "b5b61d85-c068-4e2f-ba94-6a25f8573ee1",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se define la relación entre las diferentes Administraciones Territoriales (Estado, Comunidades Autónomas, Entidades Locales)?",
+    "answerOptions": [
+      {
+        "text": "Relación competencial",
+        "rationale": "No existe jerarquía entre ellas; cada una actúa dentro del ámbito de sus competencias atribuidas por ley.",
+        "isCorrect": true
+      },
+      {
+        "text": "Relación jerárquica",
+        "rationale": "Ninguna administración territorial es superior a otra; el Estado no puede dar órdenes directas sobre competencias exclusivas autonómicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Relación de subordinación",
+        "rationale": "La subordinación implicaría que una depende de la otra, lo cual contradice la autonomía reconocida en la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Relación de tutela obligatoria",
+        "rationale": "La tutela administrativa ha sido limitada por la jurisprudencia para respetar la autonomía local y autonómica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que cada una tiene autonomía para la gestión de sus propios intereses."
+  },
+  {
+    "guid": "61bdc436-363f-4b7b-9e51-277aad381030",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el principio que busca conseguir los mejores resultados utilizando la menor cantidad de recursos públicos posibles?",
+    "answerOptions": [
+      {
+        "text": "Eficiencia",
+        "rationale": "La eficiencia mide la relación entre los recursos empleados y los objetivos logrados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eficacia",
+        "rationale": "La eficacia se centra en cumplir el objetivo sin tener necesariamente en cuenta el coste de los recursos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jerarquía",
+        "rationale": "Este principio se refiere a la organización interna, no a la gestión de recursos económicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Legalidad",
+        "rationale": "La legalidad implica cumplir la norma, independientemente del coste o la optimización de recursos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un concepto económico aplicado a la gestión pública."
+  },
+  {
+    "guid": "84d12e84-a52b-4214-bec9-8d5113536786",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué órgano representa periféricamente al Gobierno en el territorio de una Comunidad Autónoma?",
+    "answerOptions": [
+      {
+        "text": "Delegado del Gobierno",
+        "rationale": "El Delegado del Gobierno dirige la administración del Estado en la región y se coordina con la administración autonómica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Presidente de la Comunidad Autónoma",
+        "rationale": "El Presidente autonómico es la máxima autoridad de la administración regional, no de la administración periférica del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subdelegado del Gobierno",
+        "rationale": "El Subdelegado actúa a nivel provincial, bajo la dirección del Delegado del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Alcalde",
+        "rationale": "El Alcalde es la máxima autoridad de la administración local (municipio), no representa al Gobierno central.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la figura encargada de la 'Administración Periférica' en el ámbito regional."
+  },
+  {
+    "guid": "d335cfb3-e4d7-4edd-a5c7-72d4687e588f",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué principio responde el acceso a la función pública mediante procesos que garantizan la imparcialidad?",
+    "answerOptions": [
+      {
+        "text": "Mérito y capacidad",
+        "rationale": "La Constitución exige que los funcionarios sean seleccionados basándose únicamente en sus aptitudes y conocimientos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Libre designación",
+        "rationale": "Aunque existe para puestos de confianza, no es el principio general para el acceso a la función pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Antigüedad",
+        "rationale": "La antigüedad puede servir para la promoción interna, pero no es el criterio de acceso inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Elección democrática",
+        "rationale": "Los funcionarios no son elegidos por voto popular, a diferencia de los representantes políticos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de demostrar quién está mejor preparado para el puesto."
+  },
+  {
+    "guid": "5b890978-1a34-495b-aafd-e77d75428979",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué tipo de entidades se rigen principalmente por el Derecho Privado, aunque su capital sea mayoritariamente público?",
+    "answerOptions": [
+      {
+        "text": "Sociedades Mercantiles Estatales",
+        "rationale": "Estas sociedades operan en el mercado como cualquier empresa privada, pero bajo control público.",
+        "isCorrect": true
+      },
+      {
+        "text": "Organismos Autónomos",
+        "rationale": "Estos organismos están plenamente sujetos al Derecho Administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consorcios",
+        "rationale": "Los consorcios son entidades de derecho público con personalidad jurídica propia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Autoridades Administrativas Independientes",
+        "rationale": "Son entes de derecho público con especial autonomía para regular sectores económicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en empresas como Correos o Loterías del Estado."
+  },
+  {
+    "guid": "d3af1df8-b7e2-4928-8c68-4833f875612e",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién tiene la potestad de nombrar y cesar a los Ministros?",
+    "answerOptions": [
+      {
+        "text": "El Rey, a propuesta del Presidente del Gobierno",
+        "rationale": "Es un acto formal del monarca basado en la decisión política del Presidente.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Congreso de los Diputados",
+        "rationale": "El Congreso elige al Presidente, pero no nombra directamente a los miembros del gabinete.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Ministros",
+        "rationale": "El órgano colegiado no puede nombrarse a sí mismo; es el Presidente quien decide su composición.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Senado",
+        "rationale": "El Senado no tiene funciones en el nombramiento de los miembros del Gobierno central.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Intervienen el Jefe del Estado y el Jefe del Gobierno."
+  },
+  {
+    "guid": "d8b376e7-f54a-4b3c-a303-1ddebc0965d4",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función principal de los Secretarios Generales Técnicos?",
+    "answerOptions": [
+      {
+        "text": "Servicios comunes, producción normativa y asistencia jurídica",
+        "rationale": "Tienen un perfil técnico encargado de la gestión administrativa interna y el soporte legal del ministerio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dirección política directa del ministerio",
+        "rationale": "La dirección política corresponde al Ministro y a los Secretarios de Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Representación del Gobierno en el extranjero",
+        "rationale": "Esta es una función propia de embajadores y cónsules.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mando directo sobre las fuerzas de seguridad",
+        "rationale": "Esta función está reservada a cargos específicos del Ministerio del Interior.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tienen un rango de Director General y se enfocan en la 'maquinaria' interna del departamento."
+  },
+  {
+    "guid": "0c310afc-d56c-4203-859b-fc118c95bfca",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué entidad local se considera un ente territorial de existencia necesaria además del Municipio?",
+    "answerOptions": [
+      {
+        "text": "La Provincia",
+        "rationale": "La Constitución Española garantiza la autonomía de municipios y provincias como niveles territoriales básicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Mancomunidad",
+        "rationale": "Es una asociación voluntaria de municipios y no es obligatoria en todo el territorio.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Área Metropolitana",
+        "rationale": "Es una entidad potestativa que se crea solo en entornos urbanos complejos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comarca",
+        "rationale": "Su creación depende de las leyes de las Comunidades Autónomas y no existe en todas las regiones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la agrupación de municipios y se menciona en el artículo 137 de la CE."
+  },
+  {
+    "guid": "3704e235-2bdc-40da-8302-da91a96370e6",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio obliga a la Administración a resarcir a los particulares por lesiones causadas por el funcionamiento de los servicios públicos?",
+    "answerOptions": [
+      {
+        "text": "Responsabilidad patrimonial",
+        "rationale": "El artículo 106 de la CE garantiza el derecho a indemnización por daños derivados de la actividad administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Legalidad",
+        "rationale": "La legalidad se refiere al cumplimiento de la norma, no específicamente a la indemnización por daños.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eficacia",
+        "rationale": "Lograr objetivos no implica necesariamente compensar daños causados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jerarquía",
+        "rationale": "Es un principio de organización interna que no regula las indemnizaciones a ciudadanos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está relacionado con el concepto de indemnización por daños y perjuicios."
+  },
+  {
+    "guid": "8f239313-f23b-47de-9284-b9388b115ba3",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué nivel administrativo tiene atribuidas funciones de regulación o supervisión sobre sectores económicos que requieren independencia?",
+    "answerOptions": [
+      {
+        "text": "Autoridades Administrativas Independientes",
+        "rationale": "Entes como la AEPD o el Banco de España operan con autonomía funcional para supervisar áreas sensibles.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ayuntamientos",
+        "rationale": "Los ayuntamientos gestionan intereses locales, no la regulación de sectores económicos nacionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Organismos Autónomos",
+        "rationale": "Estos dependen jerárquicamente de un ministerio y no gozan del mismo grado de independencia funcional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Embajadas",
+        "rationale": "Las embajadas representan al Estado en el exterior, no supervisan la economía nacional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre incluye la característica de no recibir órdenes directas del Gobierno en su ámbito técnico."
+  },
+  {
+    "guid": "8aba8626-7485-46b4-9f36-686b9610bf18",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el elemento que diferencia a la Administración Institucional de la Territorial?",
+    "answerOptions": [
+      {
+        "text": "Su especialidad en la competencia atribuida",
+        "rationale": "La administración institucional se crea para un fin concreto, mientras que la territorial tiene fines generales sobre una población.",
+        "isCorrect": true
+      },
+      {
+        "text": "Su origen en la Constitución Española",
+        "rationale": "La administración institucional suele derivar de leyes ordinarias, no está detallada en la Constitución como la territorial.",
+        "isCorrect": false
+      },
+      {
+        "text": "La posesión de personalidad jurídica",
+        "rationale": "Ambas poseen personalidad jurídica; este no es un criterio diferenciador.",
+        "isCorrect": false
+      },
+      {
+        "text": "El sometimiento a los tribunales",
+        "rationale": "Toda la administración pública, sin excepción, está controlada por los Jueces y Tribunales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Una sirve para todo en un lugar; la otra sirve para una sola cosa específica."
+  },
+  {
+    "guid": "6e3e5655-4e5e-4c04-9ae3-3e031c666cdf",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué sucede con la titularidad de una competencia en el caso de la delegación de firma?",
+    "answerOptions": [
+      {
+        "text": "No se altera la titularidad ni el ejercicio",
+        "rationale": "La delegación de firma es una técnica de gestión material donde el órgano delegante sigue siendo el único responsable.",
+        "isCorrect": true
+      },
+      {
+        "text": "La titularidad pasa al órgano inferior",
+        "rationale": "La titularidad solo cambia mediante una norma de desconcentración, no por delegación de firma.",
+        "isCorrect": false
+      },
+      {
+        "text": "El ejercicio pasa a ser compartido",
+        "rationale": "El ejercicio sigue correspondiendo formalmente al titular; el delegado solo estampa la firma.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se extingue la competencia",
+        "rationale": "Las competencias son irrenunciables; no pueden extinguirse por un acto administrativo de delegación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un cambio meramente formal en la suscripción de documentos."
+  },
+  {
+    "guid": "ae762f5a-b327-49ad-8e48-05f9122485ad",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Bajo qué principio se rige la relación entre las diferentes Administraciones Públicas para asegurar que no se produzcan duplicidades?",
+    "answerOptions": [
+      {
+        "text": "Coordinación",
+        "rationale": "La coordinación busca integrar las acciones de distintas administraciones para alcanzar objetivos comunes eficientemente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Jerarquía",
+        "rationale": "Como se mencionó, no hay jerarquía entre administraciones territoriales autónomas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Discrecionalidad",
+        "rationale": "La discrecionalidad es la libertad de elección del administrador, no un principio de relación interadministrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Supremacía",
+        "rationale": "Aunque el Estado tiene preeminencia en ciertos casos, la relación general es de cooperación y coordinación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de trabajar de forma conjunta y organizada."
+  },
+  {
+    "guid": "a9712606-34a0-4d1f-aac5-bf584d7da108",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se denominan las entidades creadas por varias administraciones públicas para el desarrollo de actividades de interés común?",
+    "answerOptions": [
+      {
+        "text": "Consorcios",
+        "rationale": "Los consorcios permiten la participación de diversas administraciones e incluso entidades privadas para fines comunes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Colegios Profesionales",
+        "rationale": "Son corporaciones de derecho público que agrupan a profesionales de un sector, no uniones de administraciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ministerios",
+        "rationale": "Los ministerios son divisiones internas de una única administración (el Estado o una CC.AA.).",
+        "isCorrect": false
+      },
+      {
+        "text": "Sindicatos",
+        "rationale": "Son organizaciones para la defensa de intereses laborales, no forman parte de la estructura administrativa pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son entes asociativos con personalidad jurídica propia y diferenciada."
+  },
+  {
+    "guid": "5f5379d4-e9e4-4fd5-b312-f2ddb61bab25",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio administrativo impide que la Administración actúe de forma arbitraria?",
+    "answerOptions": [
+      {
+        "text": "Sometimiento pleno a la ley y al derecho",
+        "rationale": "El principio de legalidad asegura que toda actuación administrativa tenga base en la norma y pueda ser revisada judicialmente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eficacia",
+        "rationale": "Se puede ser eficaz siendo arbitrario; por ello la legalidad es el límite necesario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Descentralización",
+        "rationale": "Es una forma de distribuir el poder, pero no garantiza por sí sola la ausencia de arbitrariedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Autonomía",
+        "rationale": "La autonomía es libertad de gestión, la cual debe ejercerse siempre dentro del marco legal para evitar la arbitrariedad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está recogido en los artículos 9.3 y 103.1 de la Constitución."
+  },
+  {
+    "guid": "3f3e36b9-293a-41ea-b7e0-4f0896e93e46",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué rango tiene un Secretario General en la estructura de un Ministerio?",
+    "answerOptions": [
+      {
+        "text": "Rango de Subsecretario",
+        "rationale": "Aunque es un órgano directivo, legalmente se le asimila al rango de Subsecretario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Rango de Ministro",
+        "rationale": "El Ministro es un órgano superior y el jefe del departamento; el Secretario General está por debajo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rango de Subdirector General",
+        "rationale": "El Subdirector General está dos niveles por debajo del Secretario General.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rango de Secretario de Estado",
+        "rationale": "El Secretario de Estado es un órgano superior, mientras que el Secretario General es directivo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encuentra en el mismo nivel jerárquico que el encargado de la gestión interna del Ministerio."
+  },
+  {
+    "guid": "77b8adb7-e427-4bdf-8c7c-3f43d8c73c8f",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la característica principal de la Administración Corporativa (como los Colegios Profesionales)?",
+    "answerOptions": [
+      {
+        "text": "Tienen base asociativa privada pero ejercen funciones públicas",
+        "rationale": "Aunque sus miembros son particulares, el Estado les delega funciones administrativas (como la colegiación).",
+        "isCorrect": true
+      },
+      {
+        "text": "Sus trabajadores son siempre funcionarios públicos",
+        "rationale": "El personal de los colegios profesionales no suele tener la condición de funcionario público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dependen jerárquicamente del Alcalde",
+        "rationale": "Tienen autonomía y no están integrados en la jerarquía municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo pueden actuar en el ámbito del mercado financiero",
+        "rationale": "Su ámbito de actuación es la defensa y ordenación de una profesión específica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son entidades 'híbridas' que defienden los intereses de un colectivo."
+  },
+  {
+    "guid": "3246783d-5742-47a9-98d2-607573021983",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio se aplica cuando el Estado traslada la gestión de una competencia a una Comunidad Autónoma?",
+    "answerOptions": [
+      {
+        "text": "Descentralización",
+        "rationale": "La descentralización traslada la competencia de una administración territorial a otra distinta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Desconcentración",
+        "rationale": "La desconcentración ocurre dentro de la misma administración (ej: de Ministro a Director General).",
+        "isCorrect": false
+      },
+      {
+        "text": "Jerarquía",
+        "rationale": "Como no hay jerarquía entre Estado y CC.AA., este principio no explica el traslado de competencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Centralización",
+        "rationale": "La centralización es el proceso opuesto, donde el poder se concentra en el órgano central del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el reparto de poder entre diferentes niveles de gobierno independientes."
+  },
+  {
+    "guid": "2efe3a23-716d-4264-b1de-d0fb9631c947",
+    "subjectId": "T06",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál de los siguientes no tiene la consideración de Administración Pública en sentido estricto?",
+    "answerOptions": [
+      {
+        "text": "El Tribunal Constitucional",
+        "rationale": "Los órganos constitucionales y judiciales no forman parte de la Administración Pública, que está integrada en el poder ejecutivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ayuntamiento de Madrid",
+        "rationale": "Es una administración local territorial y, por tanto, administración pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Agencia Estatal de Meteorología",
+        "rationale": "Es un organismo público que forma parte del sector público institucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministerio de Educación",
+        "rationale": "Es un departamento fundamental de la Administración General del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Pertenecen al poder legislativo o judicial, o son órganos de control externo."
+  }
+]

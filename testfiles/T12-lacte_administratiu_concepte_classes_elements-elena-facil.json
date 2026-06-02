@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "74c43fa8-3ddc-4d01-bcbf-1ec2093079e5",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la definición doctrinal de acto administrativo según García Enterría?",
+    "answerOptions": [
+      {
+        "text": "Una declaración de voluntad, de juicio, deseo o conocimiento realizada por un sujeto de la Administración Pública en el ejercicio de una potestad administrativa.",
+        "rationale": "Esta es la definición clásica que destaca la naturaleza de declaración intelectual y el ejercicio de potestad administrativa distinta a la reglamentaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier norma jurídica dictada por el Gobierno de rango inferior a la Ley.",
+        "rationale": "Esta descripción corresponde a la potestad reglamentaria, la cual se excluye expresamente de la definición de acto administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un acuerdo bilateral entre la Administración y un particular para realizar una obra pública.",
+        "rationale": "Los actos administrativos son unilaterales; los acuerdos bilaterales suelen ser contratos o convenios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una actuación material realizada por los funcionarios en el ejercicio de sus funciones físicas.",
+        "rationale": "Las actuaciones materiales (como una demolición física) no son declaraciones intelectuales y quedan fuera del concepto estricto de acto administrativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere que se trata de una declaración intelectual emitida unilateralmente por la Administración."
+  },
+  {
+    "guid": "2084cf7e-66e5-4f65-9958-64b424a9d6d2",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál de los siguientes elementos del acto administrativo se refiere a la competencia del órgano que lo dicta?",
+    "answerOptions": [
+      {
+        "text": "Elemento subjetivo",
+        "rationale": "El elemento subjetivo comprende tanto a la Administración Pública como al órgano específico que debe tener la competencia legal para dictar el acto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Elemento objetivo",
+        "rationale": "El elemento objetivo se refiere al contenido del acto (lo que se declara) y no a quién lo dicta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Elemento causal",
+        "rationale": "El elemento causal se refiere al 'porqué' o motivo que justifica la existencia del acto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Elemento formal",
+        "rationale": "El elemento formal se refiere al procedimiento seguido y a la forma externa de manifestación del acto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el sujeto o figura que emite la declaración."
+  },
+  {
+    "guid": "7403c57f-8c1f-488b-81b2-13e66ca1d566",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según el artículo 39 de la Ley 39/2015, ¿qué se presume de los actos administrativos?",
+    "answerOptions": [
+      {
+        "text": "Que son válidos y producen efectos desde la fecha en que se dictan.",
+        "rationale": "La ley establece una presunción 'iuris tantum' de validez para garantizar la eficacia de la actuación administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que son nulos hasta que se demuestre su legalidad mediante sentencia.",
+        "rationale": "La presunción es de validez, no de nulidad; la carga de la prueba recae en quien alega el vicio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que solo son válidos si han sido notificados por correo certificado.",
+        "rationale": "La validez es independiente de la notificación, aunque la eficacia pueda demorarse hasta que esta ocurra.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que no pueden ser recurridos si emanan de un Ministro.",
+        "rationale": "Todos los actos administrativos son controlables y pueden ser objeto de recursos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Reflexione sobre la confianza legal inicial que se otorga a la Administración."
+  },
+  {
+    "guid": "8a8ab491-b111-4b34-b97f-2d5b5a30e44c",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se clasifican los actos que limitan la esfera jurídica o restringen facultades del interesado?",
+    "answerOptions": [
+      {
+        "text": "Actos de gravamen",
+        "rationale": "Estos actos imponen cargas, sanciones u obligaciones, reduciendo el patrimonio jurídico del ciudadano.",
+        "isCorrect": true
+      },
+      {
+        "text": "Actos favorables",
+        "rationale": "Los actos favorables son aquellos que amplían o mejoran la situación jurídica del administrado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Actos de trámite",
+        "rationale": "Los actos de trámite son pasos intermedios en el procedimiento que no deciden el fondo del asunto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Actos firmes",
+        "rationale": "Un acto firme es aquel que ya no puede ser recurrido, independientemente de si es favorable o desfavorable.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El término sugiere una carga o peso sobre el destinatario."
+  },
+  {
+    "guid": "16501049-8813-49bc-8722-c998a27641dc",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ocurre si la Administración no resuelve un procedimiento iniciado a solicitud del interesado en el plazo máximo?",
+    "answerOptions": [
+      {
+        "text": "Se produce el silencio administrativo.",
+        "rationale": "El silencio administrativo es la técnica jurídica que surge ante la falta de resolución expresa en tiempo y forma.",
+        "isCorrect": true
+      },
+      {
+        "text": "El procedimiento caduca automáticamente en todos los casos.",
+        "rationale": "La caducidad suele aplicarse a procedimientos iniciados de oficio con efectos desfavorables, no a solicitudes de interesados.",
+        "isCorrect": false
+      },
+      {
+        "text": "El funcionario responsable es despedido de forma inmediata.",
+        "rationale": "Aunque pueda haber responsabilidad disciplinaria, el efecto jurídico principal recae sobre el procedimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se entiende que la Administración ha aceptado todas las condiciones por defecto.",
+        "rationale": "Aunque existe el silencio positivo, hay numerosas excepciones legales donde el silencio es negativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una 'ficción' jurídica ante la falta de respuesta."
+  },
+  {
+    "guid": "2d5acf00-f327-4578-801c-2261d6e8014d",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la regla general del sentido del silencio en procedimientos iniciados a solicitud del interesado?",
+    "answerOptions": [
+      {
+        "text": "Estimatorio (positivo)",
+        "rationale": "La Ley 39/2015 establece el silencio positivo como regla general para fomentar la agilidad administrativa, salvo excepciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Desestimatorio (negativo)",
+        "rationale": "El silencio negativo es la excepción a la regla general en los procedimientos iniciados a instancia de parte.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caducidad",
+        "rationale": "La caducidad no es un sentido del silencio, sino una forma de terminación de procedimientos de oficio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Anulabilidad",
+        "rationale": "La anulabilidad es un grado de invalidez, no una respuesta presunta a una solicitud.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en qué sentido favorece más al ciudadano que espera una respuesta."
+  },
+  {
+    "guid": "0680932a-5a3a-4b04-9232-965dddc62216",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En cuál de los siguientes supuestos el silencio administrativo es siempre NEGATIVO?",
+    "answerOptions": [
+      {
+        "text": "Procedimientos relativos al ejercicio del derecho de petición.",
+        "rationale": "El artículo 24.1 de la Ley 39/2015 especifica este supuesto como una de las excepciones a la regla general del silencio positivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solicitud de una licencia de obras menor en vivienda propia.",
+        "rationale": "Las licencias comunes suelen seguir la regla general de silencio positivo si no afectan al dominio público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inscripción en un registro de parejas de hecho.",
+        "rationale": "Este tipo de registros no se encuentran entre las excepciones tasadas para el silencio negativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitud de una beca de estudios ordinaria.",
+        "rationale": "Aunque depende de la convocatoria, no es una excepción constitucional o de dominio público que fuerce el silencio negativo por ley general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise las excepciones basadas en derechos constitucionales específicos mencionados en el material."
+  },
+  {
+    "guid": "cdce8d86-5e9c-4005-b0f2-c6ef8e3e8c75",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué grado de invalidez afecta a los actos que lesionan derechos susceptibles de amparo constitucional?",
+    "answerOptions": [
+      {
+        "text": "Nulidad de pleno derecho",
+        "rationale": "El artículo 47.1.a) establece que la lesión de derechos y libertades fundamentales conlleva la nulidad más grave.",
+        "isCorrect": true
+      },
+      {
+        "text": "Anulabilidad",
+        "rationale": "La anulabilidad se reserva para infracciones del ordenamiento menos graves o defectos de forma no invalidantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Irregularidad no invalidante",
+        "rationale": "Una lesión de derechos fundamentales nunca puede ser considerada un error menor o irrelevante.",
+        "isCorrect": false
+      },
+      {
+        "text": "Validez con reserva de corrección",
+        "rationale": "Si se lesiona la Constitución, el acto no puede ser considerado válido bajo ninguna circunstancia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la jerarquía máxima de los derechos afectados."
+  },
+  {
+    "guid": "0f70b292-c38b-4f7b-964f-3a6e255b2bef",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Pueden convalidarse los actos nulos de pleno derecho?",
+    "answerOptions": [
+      {
+        "text": "No, nunca.",
+        "rationale": "La nulidad de pleno derecho es un vicio insubsanable; el acto se considera inexistente jurídicamente desde su origen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, mediante la ratificación del superior jerárquico.",
+        "rationale": "La ratificación solo sirve para convalidar actos anulables por falta de autorización, no actos nulos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, si el interesado otorga su consentimiento expreso.",
+        "rationale": "El vicio de nulidad es de orden público y no depende de la voluntad del administrado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si ha pasado menos de un mes desde su notificación.",
+        "rationale": "El paso del tiempo no cura los vicios de nulidad de pleno derecho.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre la gravedad de la nulidad y la anulabilidad."
+  },
+  {
+    "guid": "5986f592-f533-4486-aac4-ca8561043359",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué es la desviación de poder?",
+    "answerOptions": [
+      {
+        "text": "El ejercicio de potestades administrativas para fines distintos de los fijados por el ordenamiento jurídico.",
+        "rationale": "Se produce cuando la Administración usa su poder legal para alcanzar un fin (incluso público) distinto al previsto para esa potestad específica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuando un funcionario roba dinero público para su beneficio personal.",
+        "rationale": "Eso constituiría un delito de malversación, no es el concepto técnico-administrativo de desviación de poder.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando un órgano dicta un acto sin tener la competencia territorial necesaria.",
+        "rationale": "Eso es un vicio de incompetencia, que afecta al elemento subjetivo, no al teleológico (fin).",
+        "isCorrect": false
+      },
+      {
+        "text": "La delegación de funciones de un Alcalde en un Concejal.",
+        "rationale": "La delegación de competencias es un mecanismo legal y válido de organización administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el 'fin' o propósito con el que se utiliza una potestad."
+  },
+  {
+    "guid": "db62c110-816d-460e-95eb-63f583cb56ec",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En los procedimientos iniciados de oficio, si de ellos se derivan efectos desfavorables y no se resuelve en plazo, se produce:",
+    "answerOptions": [
+      {
+        "text": "La caducidad del procedimiento.",
+        "rationale": "El artículo 25.1.b) de la Ley 39/2015 prescribe la caducidad para evitar que la Administración mantenga abiertos indefinidamente procesos que perjudican al ciudadano.",
+        "isCorrect": true
+      },
+      {
+        "text": "Silencio positivo.",
+        "rationale": "El silencio positivo nunca opera en procedimientos que puedan producir efectos desfavorables o de gravamen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Silencio negativo.",
+        "rationale": "El silencio negativo se aplica en procedimientos de oficio solo si pueden derivarse derechos o situaciones favorables, no gravámenes.",
+        "isCorrect": false
+      },
+      {
+        "text": "La nulidad de todas las actuaciones anteriores.",
+        "rationale": "La caducidad implica el archivo de las actuaciones, pero no necesariamente la nulidad de lo actuado si se iniciara un nuevo proceso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata del archivo del expediente por inactividad administrativa."
+  },
+  {
+    "guid": "c246107e-59a3-426e-9125-e36451a32faa",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué tipo de declaración es un certificado emitido por un secretario municipal?",
+    "answerOptions": [
+      {
+        "text": "Declaración de conocimiento",
+        "rationale": "Los certificados dan fe de hechos o datos que constan en los registros, lo cual constituye una declaración de conocimiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Declaración de voluntad",
+        "rationale": "Una declaración de voluntad decide o resuelve un asunto, como una concesión o una sanción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Declaración de juicio",
+        "rationale": "Una declaración de juicio manifiesta una opinión técnica, como un dictamen o informe.",
+        "isCorrect": false
+      },
+      {
+        "text": "Declaración de deseo",
+        "rationale": "Una declaración de deseo es una propuesta o petición entre órganos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de dejar constancia de algo que ya existe o se sabe."
+  },
+  {
+    "guid": "f18a7fdd-d746-40cf-932a-df614293dc0d",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el plazo máximo general que tiene la Administración para notificar la resolución expresa si la norma del procedimiento no fija uno distinto?",
+    "answerOptions": [
+      {
+        "text": "Tres meses",
+        "rationale": "La Ley 39/2015 establece tres meses como plazo supletorio general cuando la normativa específica no determina otro.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis meses",
+        "rationale": "Seis meses es el límite máximo que puede fijar una norma, pero no es el plazo general por defecto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez días",
+        "rationale": "Diez días suele ser el plazo para realizar trámites específicos o subsanaciones, no para resolver el fondo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año",
+        "rationale": "Un año excedería los límites legales ordinarios para la resolución de procedimientos administrativos comunes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número de meses inferior a medio año."
+  },
+  {
+    "guid": "929357e2-8bcd-42ac-841d-d480ebe637a5",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué efecto tiene la resolución expresa posterior a la producción de un acto por silencio POSITIVO?",
+    "answerOptions": [
+      {
+        "text": "Solo puede ser confirmatoria del silencio.",
+        "rationale": "Una vez adquirido un derecho por silencio positivo, la Administración no puede dictar una resolución contraria sin acudir a los procedimientos de revisión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Puede denegar la solicitud si se descubre un error.",
+        "rationale": "Si el silencio es positivo, la resolución tardía no puede ser desestimatoria bajo pena de nulidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Anula automáticamente el silencio producido.",
+        "rationale": "La resolución expresa posterior no anula el silencio positivo, sino que debe ratificarlo.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene ningún valor jurídico.",
+        "rationale": "Tiene valor como confirmación expresa del derecho ya adquirido por el interesado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que el silencio positivo crea un verdadero acto administrativo."
+  },
+  {
+    "guid": "2236f7d3-3302-4fc3-b826-a651600b2861",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la consecuencia de un defecto de forma en un acto administrativo?",
+    "answerOptions": [
+      {
+        "text": "Solo determina la anulabilidad si carece de requisitos indispensables o causa indefensión.",
+        "rationale": "Los defectos de forma son, por regla general, irregularidades no invalidantes a menos que impidan alcanzar el fin del acto o vulneren derechos del interesado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Produce siempre la nulidad de pleno derecho.",
+        "rationale": "La nulidad solo se reserva para vicios de forma extremos, como prescindir total y absolutamente del procedimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene ninguna consecuencia en ningún caso.",
+        "rationale": "Aunque sea raro, si causa indefensión real al interesado, sí tiene consecuencias invalidantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obliga a repetir todo el procedimiento desde el inicio sin excepción.",
+        "rationale": "Solo se repite si el vicio es tal que no puede ser subsanado o convalidado manteniendo el resto del acto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la relevancia real del error para el derecho a defenderse."
+  },
+  {
+    "guid": "633d6f8d-76e1-4399-b54e-042e741adb8f",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué grado de invalidez tiene un acto dictado por un órgano manifiestamente incompetente por razón de la materia?",
+    "answerOptions": [
+      {
+        "text": "Nulidad de pleno derecho",
+        "rationale": "La incompetencia manifiesta por materia o territorio es una causa tasada de nulidad radical según el art. 47.1.b).",
+        "isCorrect": true
+      },
+      {
+        "text": "Anulabilidad",
+        "rationale": "La incompetencia jerárquica (dentro del mismo órgano) suele ser causa de anulabilidad, no la de materia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Irregularidad subsanable automáticamente.",
+        "rationale": "La falta de competencia en la materia es un vicio grave que afecta a la esencia del elemento subjetivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Validez, si el órgano superior está de acuerdo.",
+        "rationale": "La incompetencia material no se cura con el simple acuerdo de un superior; requiere la anulación del acto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es uno de los vicios más graves relacionados con el sujeto."
+  },
+  {
+    "guid": "5f2b9af3-3fab-4e54-a0fc-202625ace624",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A partir de qué momento producen efectos los actos administrativos como regla general?",
+    "answerOptions": [
+      {
+        "text": "Desde la fecha en que se dictan.",
+        "rationale": "Salvo que el contenido del acto exija otra cosa o se demore por notificación/publicación, la eficacia nace con el propio acto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Desde que el interesado firma el 'recibí' de la notificación.",
+        "rationale": "La notificación es una condición para que el acto sea eficaz frente al interesado, pero el acto existe y puede ser eficaz antes si es favorable.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los 20 días de su publicación en el BOE.",
+        "rationale": "Esa es la regla general de entrada en vigor de las Leyes, no de los actos administrativos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo cuando el Tribunal Supremo confirma su legalidad.",
+        "rationale": "Los actos administrativos son ejecutivos por sí mismos sin necesidad de confirmación judicial previa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la presunción de validez inmediata."
+  },
+  {
+    "guid": "6bd85d5c-0cfd-4a61-a3b2-cbcef44a8643",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la naturaleza jurídica de la sentencia que declara la NULIDAD de pleno derecho?",
+    "answerOptions": [
+      {
+        "text": "Declarativa",
+        "rationale": "La sentencia se limita a declarar una nulidad que ya existía desde el principio; el acto nunca fue válido.",
+        "isCorrect": true
+      },
+      {
+        "text": "Constitutiva",
+        "rationale": "Las sentencias constitutivas son las que declaran la anulabilidad, pues el acto era válido hasta ese momento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sancionadora",
+        "rationale": "Una sentencia judicial de nulidad no es una sanción administrativa, sino un control de legalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transaccional",
+        "rationale": "La nulidad no admite pacto o transacción entre las partes por ser de interés público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense si el acto 'muere' en ese momento o si ya estaba 'muerto' jurídicamente."
+  },
+  {
+    "guid": "33de37d6-0f23-4726-aedf-498f13bf8d7b",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué significa que la presunción de validez es 'iuris tantum'?",
+    "answerOptions": [
+      {
+        "text": "Que admite prueba en contrario.",
+        "rationale": "Cualquier interesado puede impugnar el acto aportando pruebas que demuestren que no es ajustado a Derecho.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que es absoluta y no puede ser discutida.",
+        "rationale": "Eso sería una presunción 'iuris et de iure', lo cual es incompatible con el Estado de Derecho.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que solo es válida si lo dice un Juez.",
+        "rationale": "La Administración no necesita al juez para que su acto se presuma válido inicialmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el acto solo vale para el derecho administrativo y no para el civil.",
+        "rationale": "La validez del acto administrativo despliega efectos en todo el ordenamiento si es relevante.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un concepto latino sobre la posibilidad de rebatir una afirmación legal."
+  },
+  {
+    "guid": "72a80021-0870-473f-9808-5bd4e9d7f559",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué actos deben ser motivados obligatoriamente según el artículo 35 de la Ley 39/2015?",
+    "answerOptions": [
+      {
+        "text": "Los que limiten derechos subjetivos o intereses legítimos.",
+        "rationale": "La motivación es una garantía esencial cuando la Administración actúa restringiendo la esfera del ciudadano.",
+        "isCorrect": true
+      },
+      {
+        "text": "Todos los actos administrativos sin excepción.",
+        "rationale": "No todos requieren motivación; los actos favorables de trámite ordinario a menudo no la necesitan.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo aquellos que dicta el Consejo de Ministros.",
+        "rationale": "La obligación de motivar afecta a todos los niveles de la Administración según la naturaleza del acto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los que consistan en simples certificaciones de datos.",
+        "rationale": "Las certificaciones son actos de conocimiento que no suelen requerir una explicación de motivos o fundamentos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en qué casos el ciudadano necesita saber el 'porqué' para defenderse."
+  },
+  {
+    "guid": "ed28b3c5-e1b8-4a8f-8f94-b53ae7e93cb0",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué consiste la convalidación de un acto administrativo?",
+    "answerOptions": [
+      {
+        "text": "En subsanar los vicios de que adolezca un acto anulable.",
+        "rationale": "La convalidación permite que un acto con un defecto menor (anulable) alcance plena validez mediante una declaración posterior.",
+        "isCorrect": true
+      },
+      {
+        "text": "En dar por bueno un acto nulo de pleno derecho tras 10 años.",
+        "rationale": "Los actos nulos no pueden convalidarse bajo ninguna circunstancia.",
+        "isCorrect": false
+      },
+      {
+        "text": "En traducir un acto administrativo a otra lengua cooficial.",
+        "rationale": "Eso es una traducción o adaptación formal, no una convalidación jurídica de vicios.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la firma del interesado aceptando una sanción.",
+        "rationale": "La aceptación del interesado no convalida el acto, aunque pueda impedir su impugnación posterior.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un mecanismo de 'limpieza' de errores legales menores."
+  },
+  {
+    "guid": "7115d283-e798-41f6-ad63-74963db4a49e",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "El silencio en un recurso de alzada interpuesto contra la desestimación por silencio de una solicitud anterior es:",
+    "answerOptions": [
+      {
+        "text": "Estimatorio (Positivo), salvo excepciones específicas.",
+        "rationale": "Es el llamado 'doble silencio', donde el segundo silencio se premia como positivo para castigar la doble inactividad de la Administración.",
+        "isCorrect": true
+      },
+      {
+        "text": "Siempre negativo.",
+        "rationale": "Aunque los recursos suelen tener silencio negativo, el de alzada contra silencio previo es la gran excepción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una causa de nulidad de todo el expediente.",
+        "rationale": "El silencio es una ficción de respuesta, no una causa de nulidad por sí misma.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inexistente, ya que la Administración está obligada a llamar al interesado.",
+        "rationale": "La obligación de resolver persiste, pero el silencio se produce si la Administración no cumple dicha obligación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la regla del 'doble silencio'."
+  },
+  {
+    "guid": "2cea49e8-cfd6-43d5-9c04-ac28cc1aae29",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el elemento del acto administrativo que se refiere al 'porqué' del mismo, es decir, a los hechos que lo justifican?",
+    "answerOptions": [
+      {
+        "text": "Elemento causal",
+        "rationale": "La causa es el motivo o presupuesto de hecho que justifica que la Administración dicte el acto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Elemento subjetivo",
+        "rationale": "Se refiere al quién (órgano competente).",
+        "isCorrect": false
+      },
+      {
+        "text": "Elemento formal",
+        "rationale": "Se refiere al cómo (procedimiento y forma).",
+        "isCorrect": false
+      },
+      {
+        "text": "Elemento teleológico",
+        "rationale": "Se refiere al para qué (fin público).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la justificación o motivo del acto."
+  },
+  {
+    "guid": "27f2b637-0bcb-46f2-b5a0-82119c84395e",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué actos NO se consideran actos administrativos según la doctrina de García Enterría?",
+    "answerOptions": [
+      {
+        "text": "Los reglamentos",
+        "rationale": "Los reglamentos son normas jurídicas generales, mientras que el acto administrativo es una aplicación del derecho a un caso concreto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las licencias de obras",
+        "rationale": "Una licencia es un acto administrativo típico de voluntad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las sanciones de tráfico",
+        "rationale": "Las sanciones son actos administrativos de gravamen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las certificaciones de empadronamiento",
+        "rationale": "Son actos administrativos de conocimiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Distinga entre una norma general y una decisión particular."
+  },
+  {
+    "guid": "4d841dda-796c-4a3e-b866-407737c08169",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ocurre si un interesado no recurre un acto ANULABLE en el plazo establecido?",
+    "answerOptions": [
+      {
+        "text": "El acto se convalida por el transcurso del tiempo y se vuelve firme.",
+        "rationale": "A diferencia de la nulidad, los vicios de anulabilidad se purgan si el interesado no ejerce su derecho al recurso en plazo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El acto sigue siendo impugnable en cualquier momento.",
+        "rationale": "Solo los actos nulos de pleno derecho son impugnables sin límite de tiempo (mediante revisión de oficio).",
+        "isCorrect": false
+      },
+      {
+        "text": "La Administración debe anularlo obligatoriamente de oficio.",
+        "rationale": "La Administración puede optar por no anularlo si el interesado ha consentido el acto al no recurrirlo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El funcionario que lo dictó es sancionado automáticamente.",
+        "rationale": "La firmeza del acto por falta de recurso no conlleva sanciones automáticas para el emisor.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el concepto de seguridad jurídica y consentimiento tácito."
+  },
+  {
+    "guid": "da959762-ee75-4789-9403-f2eb7b626796",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el silencio administrativo negativo, ¿cuál es el plazo para interponer un recurso?",
+    "answerOptions": [
+      {
+        "text": "No hay plazo; se puede recurrir mientras no haya resolución expresa.",
+        "rationale": "La jurisprudencia y la ley actual establecen que ante el silencio negativo, el ciudadano no tiene límite temporal para impugnar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un mes exactamente desde que se produjo el silencio.",
+        "rationale": "Ese plazo era propio de normativas antiguas ya superadas para favorecer al ciudadano frente a la inactividad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis meses desde que se inició el expediente.",
+        "rationale": "Seis meses suele ser el límite para resolver, no el plazo para recurrir un silencio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Quince días hábiles.",
+        "rationale": "Es un plazo demasiado breve que no se corresponde con las garantías frente al silencio administrativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La falta de respuesta de la Administración no debe perjudicar los plazos del ciudadano."
+  },
+  {
+    "guid": "3f4e4fba-5d01-4237-9421-c9241f5d188f",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué es un acto presunto?",
+    "answerOptions": [
+      {
+        "text": "Es el acto que la ley asume que se ha producido ante la falta de resolución expresa (silencio).",
+        "rationale": "Se denomina presunto porque no existe un documento físico, sino una ficción legal de voluntad administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un acto que todavía no ha sido firmado por el Alcalde.",
+        "rationale": "Eso sería un borrador o un proyecto de acto, no un acto presunto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un acto administrativo que se sospecha que es ilegal.",
+        "rationale": "La sospecha de ilegalidad se refiere a la validez, no a la naturaleza presunta del acto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una actuación material que no deja rastro escrito.",
+        "rationale": "Las actuaciones materiales son hechos, no presunciones legales de actos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la respuesta 'ficticia' de la Administración."
+  },
+  {
+    "guid": "d6d7c0d8-a03e-479d-bf6d-6f1d2021a1f1",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el fin último de todo acto administrativo según la Constitución Española (art. 103.1)?",
+    "answerOptions": [
+      {
+        "text": "El interés general",
+        "rationale": "La Administración sirve con objetividad a los intereses generales, que es el fin público que justifica su existencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "El beneficio económico de la Administración",
+        "rationale": "La Administración no es una empresa privada; su fin no es el lucro, sino el servicio público.",
+        "isCorrect": false
+      },
+      {
+        "text": "La satisfacción de los deseos del partido político en el poder.",
+        "rationale": "La Administración debe ser objetiva y neutral, separada de intereses partidistas según la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "El cumplimiento estricto de las órdenes del Juez.",
+        "rationale": "Aunque debe cumplir las sentencias, la mayoría de los actos administrativos se dictan por iniciativa propia de la Administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un concepto amplio que abarca el bienestar de toda la comunidad."
+  },
+  {
+    "guid": "7a1b39f3-ac1e-4891-bc1f-357f0e2d8270",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué diferencia principal hay entre nulidad y anulabilidad respecto a la retroactividad?",
+    "answerOptions": [
+      {
+        "text": "La nulidad tiene efectos desde que se dictó el acto (ex tunc); la anulabilidad desde que se declara (ex nunc).",
+        "rationale": "Como el acto nulo nunca debió existir, su eliminación borra sus efectos pasados; el anulable era válido hasta su anulación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ambas tienen efectos retroactivos de 10 años.",
+        "rationale": "Los efectos dependen del tipo de vicio, no de un plazo fijo de 10 años.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna tiene efectos retroactivos.",
+        "rationale": "La nulidad de pleno derecho siempre busca restablecer la situación al momento inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "La anulabilidad es siempre retroactiva y la nulidad no.",
+        "rationale": "Es justo al revés; la gravedad de la nulidad es la que fuerza la retroactividad absoluta.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en si el acto era 'legal' o no mientras estuvo vigente."
+  },
+  {
+    "guid": "6228c14a-ba54-4d7a-b85b-55bf5d0c910b",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué órgano debe certificar la producción del silencio administrativo?",
+    "answerOptions": [
+      {
+        "text": "El órgano competente para resolver el procedimiento.",
+        "rationale": "Es quien tenía la obligación de dictar resolución expresa y, al no hacerlo, debe certificar que el silencio ha operado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier Notario público.",
+        "rationale": "Aunque un acta notarial puede servir de prueba, la ley exige un certificado de la propia Administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "El interesado mediante una declaración jurada.",
+        "rationale": "El interesado puede solicitarlo, pero el certificado debe ser emitido por la Administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Tribunal Contencioso-Administrativo.",
+        "rationale": "El tribunal interviene en vía judicial, no para emitir certificados administrativos de silencio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata del mismo órgano que guardó silencio."
+  }
+]

@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "62632d88-a10b-44ef-a9ce-9fffd4d42a29",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la entidad local básica de la organización territorial del Estado según la LRBRL?",
+    "answerOptions": [
+      {
+        "text": "La Provincia",
+        "rationale": "Aunque es una entidad local, la ley define al municipio como la base primordial de la organización.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comarca",
+        "rationale": "Esta es una agrupación de municipios, por lo que no constituye la entidad básica primaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Municipio",
+        "rationale": "El artículo 1 de la LRBRL y el 11.1 establecen explícitamente que el municipio es la entidad local básica.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Comunidad Autónoma",
+        "rationale": "Las Comunidades Autónomas son entidades territoriales de nivel superior, no la base local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata del ente público territorial de carácter primario más cercano al ciudadano."
+  },
+  {
+    "guid": "cb9395f9-6afb-4aba-b191-3ec2b36791f7",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el TRLMRLC, ¿qué rango normativo tiene la resolución que decide la alteración de los términos municipales?",
+    "answerOptions": [
+      {
+        "text": "Ley del Parlamento",
+        "rationale": "La ley reserva este instrumento para otras materias, no para la ejecución de la alteración técnica de términos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Orden del Consejero",
+        "rationale": "El rango de Consejero es insuficiente para una decisión que afecta a la delimitación territorial básica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decreto del Gobierno",
+        "rationale": "El artículo 19 del TRLMRLC especifica que la alteración de términos municipales corresponde al Gobierno mediante Decreto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reglamento Orgánico Municipal",
+        "rationale": "Este es un documento interno del ayuntamiento y no tiene potestad sobre límites territoriales externos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una norma emanada del poder ejecutivo autonómico con carácter general."
+  },
+  {
+    "guid": "96c261c6-e24b-4c64-80f3-9b7865923032",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuáles son los tres elementos fundamentales que constituyen el municipio?",
+    "answerOptions": [
+      {
+        "text": "Territorio, población y organización",
+        "rationale": "La doctrina y la legislación coinciden en que sin estos tres pilares no existe la institución municipal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Alcalde, concejales y vecinos",
+        "rationale": "Estos son componentes de la organización y la población, pero omiten el espacio físico necesario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Patrimonio, presupuesto y personal",
+        "rationale": "Estos son medios instrumentales para el funcionamiento, no elementos constitutivos básicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Término municipal, padrón y ayuntamiento",
+        "rationale": "Aunque están relacionados, no son la terminología técnica correcta para definir los elementos esenciales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el espacio físico, el grupo humano y la estructura de mando."
+  },
+  {
+    "guid": "76dde59a-39e9-475d-985d-55031bdc590b",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué porcentaje mínimo del total posible deben alcanzar los méritos generales en la valoración de funcionarios con habilitación de carácter nacional?",
+    "answerOptions": [
+      {
+        "text": "65%",
+        "rationale": "Este porcentaje aparece en otros baremos, pero para los méritos generales preceptivos el mínimo es más alto.",
+        "isCorrect": false
+      },
+      {
+        "text": "50%",
+        "rationale": "Un porcentaje tan bajo daría demasiada discrecionalidad a las entidades locales sobre un cuerpo nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "80%",
+        "rationale": "La normativa establece que la puntuación de los méritos determinados por el Estado debe alcanzar al menos el 80%.",
+        "isCorrect": true
+      },
+      {
+        "text": "15%",
+        "rationale": "Este es el límite máximo para los méritos de la Comunidad Autónoma, no para los generales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la parte más sustancial del baremo para garantizar la homogeneidad nacional del cuerpo."
+  },
+  {
+    "guid": "0f0ecfef-6be1-4f20-8940-f50107eb8822",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En municipios de más de 500.000 habitantes, ¿cuál es la referencia máxima para las retribuciones de los miembros de las corporaciones locales?",
+    "answerOptions": [
+      {
+        "text": "El sueldo del Presidente del Gobierno",
+        "rationale": "La ley utiliza la figura del Secretario de Estado como referencia técnica presupuestaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "La retribución de un Secretario de Estado",
+        "rationale": "Para ciudades de más de medio millón de habitantes, el tope es el sueldo de un Secretario de Estado fijado en los Presupuestos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Secretario de Estado menos un 10%",
+        "rationale": "Esta reducción del 10% se aplica al tramo de población inmediatamente inferior (300.001 a 500.000).",
+        "isCorrect": false
+      },
+      {
+        "text": "Secretario de Estado menos un 20%",
+        "rationale": "Esta reducción del 20% se aplica al tramo de 150.001 a 300.000 habitantes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el cargo de la Administración General del Estado que sirve de techo retributivo directo."
+  },
+  {
+    "guid": "d0fe4ab8-a2da-4224-a237-e0d6574b4075",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué servicio es obligatorio prestar en todos los municipios, independientemente de su número de habitantes?",
+    "answerOptions": [
+      {
+        "text": "Biblioteca pública",
+        "rationale": "La biblioteca solo es obligatoria en municipios con una población superior a 5.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Alumbrado público",
+        "rationale": "El alumbrado, junto con el cementerio y la recogida de residuos, son servicios mínimos para cualquier población.",
+        "isCorrect": true
+      },
+      {
+        "text": "Protección civil",
+        "rationale": "Este servicio se exige obligatoriamente a partir de los 20.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Parque público",
+        "rationale": "El parque público es obligatorio únicamente en municipios que superan los 5.000 habitantes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una necesidad básica de seguridad y visibilidad en la vía pública."
+  },
+  {
+    "guid": "f2c65b3b-ace2-4b47-a0e5-0bcba3aff12d",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el régimen especial de Barcelona, ¿quién tiene la responsabilidad de la dirección ejecutiva superior de la Administración municipal?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde",
+        "rationale": "Aunque es la máxima autoridad política, la dirección ejecutiva operativa recae en una figura técnica específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gerente Municipal",
+        "rationale": "Los apuntes indican que la dirección ejecutiva superior se atribuye al Gerente Municipal para funciones de impulso y coordinación.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Pleno",
+        "rationale": "El Pleno es un órgano deliberante y legislativo, no ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Concejal de Distrito",
+        "rationale": "Su competencia ejecutiva está limitada exclusivamente al ámbito territorial de su distrito.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un cargo directivo que no requiere ser miembro electo de la corporación."
+  },
+  {
+    "guid": "c285f29a-4de6-4d0c-9b0d-289fea5f2c35",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el TRLMRLCat, si un miembro de la corporación formula una pregunta por escrito 24 horas antes del Pleno, ¿cuándo debe ser contestada?",
+    "answerOptions": [
+      {
+        "text": "En el plazo de un mes",
+        "rationale": "El plazo de un mes se aplica a las preguntas cuya respuesta se solicita expresamente por escrito.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la sesión siguiente",
+        "rationale": "Esta es la regla para preguntas orales formuladas en el transcurso de una sesión si no se responden al momento.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el transcurso de esa misma sesión",
+        "rationale": "El artículo 105.3 establece que si se presenta con 24 horas de antelación, debe responderse en la misma sesión.",
+        "isCorrect": true
+      },
+      {
+        "text": "En el plazo de 48 horas",
+        "rationale": "La ley no contempla un plazo de 48 horas para la respuesta a preguntas del pleno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La antelación permite al equipo de gobierno preparar la respuesta para el debate actual."
+  },
+  {
+    "guid": "ce870dc3-d3bf-412e-872d-45b447a858ef",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano es responsable de la aprobación inicial de las ordenanzas municipales?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde",
+        "rationale": "El Alcalde puede proponerlas, pero la potestad normativa básica reside en el órgano colegiado representativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Junta de Gobierno Local",
+        "rationale": "Este órgano tiene funciones ejecutivas, pero la aprobación de normas generales es competencia del Pleno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Pleno",
+        "rationale": "La aprobación de reglamentos y ordenanzas es una de las competencias indelegables y fundamentales del Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Comisión Especial de Cuentas",
+        "rationale": "Este órgano tiene la función específica de examinar e informar sobre las cuentas anuales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano donde están representados todos los grupos políticos elegidos por los vecinos."
+  },
+  {
+    "guid": "980cb586-f27a-4c76-8ea3-5bff31ea8c9e",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo mínimo de información pública para la presentación de reclamaciones tras la aprobación inicial de un acuerdo por el Pleno?",
+    "answerOptions": [
+      {
+        "text": "15 días",
+        "rationale": "Este plazo es común en procedimientos de urgencia, pero insuficiente para la participación general en acuerdos del Pleno.",
+        "isCorrect": false
+      },
+      {
+        "text": "30 días",
+        "rationale": "La LRBRL especifica que el plazo de información pública y audiencia a los interesados debe ser de al menos treinta días.",
+        "isCorrect": true
+      },
+      {
+        "text": "20 días",
+        "rationale": "Es el plazo estándar para trámites de audiencia en el procedimiento administrativo común, pero la ley local exige más.",
+        "isCorrect": false
+      },
+      {
+        "text": "2 meses",
+        "rationale": "Este es el plazo habitual para interponer recursos contencioso-administrativos, no para la información pública previa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Equivale aproximadamente a un mes natural."
+  },
+  {
+    "guid": "267addab-c557-4e4a-b44c-b69f05e46539",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede si no se presentan reclamaciones o sugerencias durante el periodo de información pública de un acuerdo provisional?",
+    "answerOptions": [
+      {
+        "text": "El acuerdo debe volver a votarse en el Pleno",
+        "rationale": "No es necesario repetir la votación si no ha habido cambios o impugnaciones que resolver.",
+        "isCorrect": false
+      },
+      {
+        "text": "El acuerdo queda anulado por falta de participación",
+        "rationale": "La falta de reclamaciones no invalida la voluntad expresada por el Pleno en la aprobación inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se entiende definitivamente adoptado",
+        "rationale": "La ley establece la elevación automática a definitivo del acuerdo provisional si no hay oposición ciudadana formal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se requiere la firma del Secretario de Estado",
+        "rationale": "La autonomía local permite que el acuerdo sea firme sin intervención de la administración central.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un mecanismo de simplificación administrativa cuando hay consenso o falta de oposición."
+  },
+  {
+    "guid": "2f4ef3b9-d9d1-4534-8c2c-e6d68e9ca0bd",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el Ayuntamiento de Barcelona, ¿quién nombra y cesa libremente a los Tenientes de Alcalde?",
+    "answerOptions": [
+      {
+        "text": "El Pleno municipal",
+        "rationale": "El Pleno elige al Alcalde, pero no interviene en la designación de sus colaboradores directos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "Como parte de sus facultades de organización, el Alcalde nombra y cesa a sus Tenientes de entre los concejales.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Junta de Gobierno Local",
+        "rationale": "Los Tenientes de Alcalde forman parte de la Junta, pero el órgano no se autonombra.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los vecinos mediante sufragio",
+        "rationale": "Los vecinos eligen la lista de concejales, pero no los cargos específicos dentro del ejecutivo municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma figura que ostenta la máxima representación de la ciudad."
+  },
+  {
+    "guid": "ec18ef76-b32e-45fd-957e-e1b01813ec54",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según la Constitución Española (Art. 140), ¿quiénes integran el Ayuntamiento?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde, los concejales y el Gerente",
+        "rationale": "El Gerente es una figura ejecutiva técnica, no un miembro electo integrante de la corporación constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los vecinos y el Alcalde",
+        "rationale": "Los vecinos forman la población del municipio, pero el Ayuntamiento es el órgano de gobierno y administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde y los Concejales",
+        "rationale": "La Constitución establece explícitamente que el gobierno corresponde al Ayuntamiento, integrado por Alcaldes y Concejales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Pleno y la Junta de Gobierno",
+        "rationale": "Estos son órganos específicos del Ayuntamiento, pero la Constitución define la integración por cargos personales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las dos figuras políticas elegidas directa o indirectamente tras las elecciones municipales."
+  },
+  {
+    "guid": "8a9c55d0-2c39-4a2e-b566-3b9f542ded5d",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En municipios de menos de 1.000 habitantes, ¿qué regla rige para la dedicación de sus miembros?",
+    "answerOptions": [
+      {
+        "text": "Tienen siempre dedicación exclusiva",
+        "rationale": "La ley asume que el volumen de gestión en municipios muy pequeños no justifica la exclusividad de forma general.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tendrán dedicación exclusiva",
+        "rationale": "La LRBRL prohíbe la dedicación exclusiva en municipios de menos de 1.000 habitantes, permitiendo solo la parcial excepcionalmente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo el Alcalde tiene dedicación exclusiva",
+        "rationale": "La prohibición de exclusividad afecta a todos los miembros de la corporación en ese tramo de población.",
+        "isCorrect": false
+      },
+      {
+        "text": "La dedicación es voluntaria y sin límite retributivo",
+        "rationale": "Existen límites máximos señalados en la Ley de Presupuestos Generales del Estado para sus retribuciones.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Debido al tamaño de la población, se presupone que el cargo no requiere jornada completa remunerada."
+  },
+  {
+    "guid": "8e7fe1d8-7d2e-4bed-85d6-5d0ae057c8bc",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se define un consorcio según el TRLMRLCat?",
+    "answerOptions": [
+      {
+        "text": "Una agrupación voluntaria de municipios solo para servicios mínimos",
+        "rationale": "Esta descripción encaja mejor con la Mancomunidad; el consorcio permite la entrada de otras administraciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una entidad pública de carácter asociativo con otras administraciones o entidades privadas sin ánimo de lucro",
+        "rationale": "El artículo 269.1 define el consorcio por su capacidad de integrar diferentes administraciones y entes privados para fines comunes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una sociedad mercantil de capital íntegramente municipal",
+        "rationale": "El consorcio es una entidad de derecho público, no una sociedad mercantil sujeta a derecho privado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un órgano de desconcentración territorial del ayuntamiento",
+        "rationale": "Esa es la definición de los distritos o barrios, no de una entidad asociativa externa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una herramienta de cooperación interadministrativa que puede incluir al sector civil no lucrativo."
+  },
+  {
+    "guid": "960061f8-b2a8-484e-91be-75899f22127e",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué porcentaje de méritos pueden fijar las Corporaciones locales en el sistema de provisión de plazas para funcionarios con habilitación nacional?",
+    "answerOptions": [
+      {
+        "text": "Hasta un 5%",
+        "rationale": "La ley reserva un margen pequeño, de hasta el 5%, para que la corporación valore especialidades propias.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hasta un 15%",
+        "rationale": "El 15% es el límite máximo asignado a los méritos correspondientes a las especialidades de la Comunidad Autónoma.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un mínimo del 20%",
+        "rationale": "Este porcentaje es demasiado alto y rompería el equilibrio nacional del sistema de méritos.",
+        "isCorrect": false
+      },
+      {
+        "text": "No pueden fijar ningún mérito propio",
+        "rationale": "La ley permite un pequeño porcentaje para adaptar la selección a las necesidades específicas de la entidad local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el porcentaje más bajo de la distribución de méritos (Estado, CCAA, Local)."
+  },
+  {
+    "guid": "d86325eb-b9b3-42ab-8071-bb79f94d08d4",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué entidad desarrolla los cursos de perfeccionamiento y promoción para los funcionarios al servicio de las entidades locales a nivel estatal?",
+    "answerOptions": [
+      {
+        "text": "El Instituto de Estudios de Administración Local",
+        "rationale": "El artículo 96 de la LRBRL le asigna la función de desarrollar cursos de especialización y colaborar con centros autonómicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Universidad Nacional de Educación a Distancia",
+        "rationale": "Aunque imparte formación, no es el organismo legalmente referenciado para la promoción de funcionarios locales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministerio de Hacienda",
+        "rationale": "Este ministerio supervisa las haciendas locales, pero la formación técnica depende de un instituto especializado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El INAP (Instituto Nacional de Administración Pública)",
+        "rationale": "Aunque el IEAL se integró en el INAP, los apuntes citan específicamente la denominación del Instituto de Estudios de Administración Local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre hace referencia directa a la materia de estudio que le compete."
+  },
+  {
+    "guid": "ffe3603a-4fd5-49c8-a21c-bb562e0b3e2a",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función principal de los distritos en el Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "La gestión centralizada de los tributos municipales",
+        "rationale": "La gestión tributaria suele ser una competencia centralizada para garantizar la unidad de caja.",
+        "isCorrect": false
+      },
+      {
+        "text": "Actuar como órganos de desconcentración territorial",
+        "rationale": "Los distritos permiten acercar la gestión a los barrios, dividiendo la ciudad en unidades menores con autonomía funcional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir al Pleno en la aprobación de ordenanzas",
+        "rationale": "Los distritos no tienen potestad legislativa general; solo el Pleno municipal puede aprobar ordenanzas para toda la ciudad.",
+        "isCorrect": false
+      },
+      {
+        "text": "La dirección superior de la Guardia Urbana",
+        "rationale": "La seguridad y la policía local son competencias que dependen directamente de la Alcaldía o concejalía específica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su objetivo es la proximidad al ciudadano en la prestación de servicios."
+  },
+  {
+    "guid": "cbe00e86-cd3b-47d6-88d6-fcde2832c8b6",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el marco de la organización ejecutiva de Barcelona, ¿qué caracteriza a las divisiones sin personalidad jurídica propia?",
+    "answerOptions": [
+      {
+        "text": "Tienen plena autonomía financiera y de deuda",
+        "rationale": "Al carecer de personalidad jurídica, están integradas en el presupuesto general del Ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Están integradas en la personalidad jurídica única del Ayuntamiento",
+        "rationale": "Los apuntes indican que forman parte del consistorio bajo un modelo de dirección gerencial sin ser entes independientes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se rigen exclusivamente por el derecho privado",
+        "rationale": "Los órganos integrados en la administración territorial se rigen fundamentalmente por el derecho administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sus gerentes son elegidos por votación vecinal",
+        "rationale": "Los gerentes son personal directivo nombrado por criterios de competencia profesional, no cargos electos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la unidad administrativa frente a la creación de empresas externas."
+  },
+  {
+    "guid": "3dd2d851-4268-4b1d-b074-30847402c2e9",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el TRLMRLCat, ¿quiénes pueden presentar propuestas de resolución para debate y votación en el Pleno?",
+    "answerOptions": [
+      {
+        "text": "Cualquier vecino censado",
+        "rationale": "La iniciativa popular existe, pero las propuestas de resolución directas para debate plenario requieren una representación formal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los grupos municipales o un mínimo de tres miembros de la corporación",
+        "rationale": "El artículo 106.1 establece este requisito mínimo de representación para elevar propuestas al pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo el Alcalde",
+        "rationale": "Limitar la iniciativa al Alcalde vulneraría el derecho de participación de los grupos de la oposición.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario General del Ayuntamiento",
+        "rationale": "El Secretario tiene funciones de fe pública y asesoramiento legal, no de iniciativa política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere una fuerza mínima de representación o la firma de varios concejales."
+  },
+  {
+    "guid": "f2fbf1c9-f02a-4b85-8736-31fc7d4a7e7c",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué entidad debe asegurar la prestación de servicios mínimos en municipios con capacidad financiera insuficiente según el TRLMRLCat?",
+    "answerOptions": [
+      {
+        "text": "La Comarca",
+        "rationale": "El artículo 69.2 señala que corresponde a la comarca establecer los servicios mínimos deficitarios en estos casos.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Estado",
+        "rationale": "El Estado garantiza el equilibrio, pero la prestación subsidiaria operativa en Cataluña recae primero en entes locales supramunicipales.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Unión Europea",
+        "rationale": "La UE proporciona fondos, pero no tiene competencias ejecutivas de prestación de servicios municipales básicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las Mancomunidades voluntarias",
+        "rationale": "Al ser voluntarias, no tienen la obligación legal de auxilio que la ley impone a la comarca.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el ente territorial que agrupa municipios en el modelo organizativo catalán."
+  },
+  {
+    "guid": "9d08b587-23dc-4978-af05-a87ee966c292",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la diferencia principal entre la autonomía de las CCAA y la de las entidades locales según los apuntes?",
+    "answerOptions": [
+      {
+        "text": "Las CCAA tienen potestad legislativa y las locales solo reglamentaria",
+        "rationale": "Las entidades locales solo pueden dictar normas administrativas (reglamentos), mientras que las CCAA dictan leyes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las entidades locales no tienen autonomía financiera",
+        "rationale": "Tanto CCAA como entidades locales gozan de autonomía financiera protegida por la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las CCAA no tienen personalidad jurídica",
+        "rationale": "Todas las administraciones públicas territoriales poseen personalidad jurídica propia.",
+        "isCorrect": false
+      },
+      {
+        "text": "La autonomía local es de carácter originario",
+        "rationale": "La autonomía local es derivada y garantizada por la Constitución, no originaria como la del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con la capacidad de crear leyes frente a solo reglamentar servicios."
+  },
+  {
+    "guid": "f7e3bb30-18ef-4123-8598-c6618b9c139b",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el sistema de méritos de funcionarios habilitados nacionales, ¿qué porcentaje máximo corresponde al conocimiento de la normativa específica de la Comunidad Autónoma?",
+    "answerOptions": [
+      {
+        "text": "5%",
+        "rationale": "El 5% es el límite para los méritos fijados por la propia corporación local.",
+        "isCorrect": false
+      },
+      {
+        "text": "10%",
+        "rationale": "Los apuntes mencionan que la puntuación por especialidades de la organización territorial de la CCAA puede alcanzar hasta un 10%.",
+        "isCorrect": true
+      },
+      {
+        "text": "25%",
+        "rationale": "Un 25% sería excesivo y restaría peso a los méritos generales que deben ser predominantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "15%",
+        "rationale": "Este valor aparece en otros baremos consolidados, pero el texto fuente especifica el 10% para normativa autonómica en este contexto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el doble del porcentaje permitido a las corporaciones locales."
+  },
+  {
+    "guid": "07411b1e-a3c9-4ec1-8ff7-f44fd85e0647",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 141 de la Constitución, ¿qué órgano encomienda el gobierno de las provincias?",
+    "answerOptions": [
+      {
+        "text": "A los Cabildos",
+        "rationale": "Los Cabildos son órganos específicos de las islas en el archipiélago canario.",
+        "isCorrect": false
+      },
+      {
+        "text": "A las Diputaciones u otras corporaciones representativas",
+        "rationale": "La Constitución establece este modelo de gobierno de segundo grado para la administración provincial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Delegado del Gobierno",
+        "rationale": "El Delegado representa al Gobierno central, no es el órgano de autogobierno de la provincia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Parlamento Autonómico",
+        "rationale": "El Parlamento legisla sobre el territorio, pero no gestiona administrativamente la provincia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano colegiado tradicional de administración de la provincia."
+  },
+  {
+    "guid": "9e7fedca-efc9-4710-8ce3-6b73e4ff7087",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Para municipios entre 1.000 y 5.000 habitantes, ¿cuál es el tope salarial de referencia respecto al Secretario de Estado?",
+    "answerOptions": [
+      {
+        "text": "Secretario de Estado -45%",
+        "rationale": "Esta reducción corresponde al tramo de 20.001 a 50.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Secretario de Estado -55%",
+        "rationale": "Esta reducción se aplica al tramo de 5.001 a 10.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Secretario de Estado -60%",
+        "rationale": "La tabla salarial especifica que para poblaciones de 1.000 a 5.000 habitantes la reducción es del 60%.",
+        "isCorrect": true
+      },
+      {
+        "text": "Secretario de Estado -50%",
+        "rationale": "La reducción del 50% es para municipios de entre 10.001 y 20.000 habitantes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la reducción más alta mencionada en la tabla para municipios con habitantes registrados."
+  },
+  {
+    "guid": "fe6a326f-7f7e-4ef7-a6fa-4609005c78b0",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué servicio obligatorio debe añadirse en municipios con población superior a 5.000 habitantes?",
+    "answerOptions": [
+      {
+        "text": "Mercados",
+        "rationale": "Los mercados son obligatorios solo a partir de los 20.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tratamiento de residuos",
+        "rationale": "Mientras que la recogida es para todos, el tratamiento se vuelve obligatorio a partir de los 5.000 habitantes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Transporte colectivo urbano de viajeros",
+        "rationale": "Este servicio se exige obligatoriamente a partir de los 50.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Policía Local",
+        "rationale": "La creación de cuerpos de policía local no depende estrictamente de un umbral de servicios mínimos obligatorios por ley de bases.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un paso posterior a la simple recogida de desechos."
+  },
+  {
+    "guid": "7b51b4ac-7b5f-49b3-899a-6f2394fedb0c",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se llama el proceso excepcional de gestión directa por el cual el ayuntamiento asume una actividad económica?",
+    "answerOptions": [
+      {
+        "text": "Concesión administrativa",
+        "rationale": "La concesión es una forma de gestión indirecta mediante un contratista externo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Municipalización",
+        "rationale": "Los apuntes mencionan la aprobación de expedientes de municipalización como potestad del pleno para asumir servicios.",
+        "isCorrect": true
+      },
+      {
+        "text": "Privatización",
+        "rationale": "Este es el proceso opuesto, donde se traslada la gestión o propiedad al sector privado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consorciación",
+        "rationale": "Implica la creación de un ente mixto, no necesariamente la asunción directa por el propio ayuntamiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un término derivado de la palabra 'municipio'."
+  },
+  {
+    "guid": "fafe1c9a-ca52-4cf6-815a-0633ae4cde59",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el régimen de Barcelona, ¿qué órgano tiene la función de proponer el orden del día del Consejo del Distrito?",
+    "answerOptions": [
+      {
+        "text": "El Pleno de la Ciudad",
+        "rationale": "El Pleno de la ciudad no interviene en la microgestión de los asuntos diarios de cada distrito.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión de Gobierno del Distrito",
+        "rationale": "Los apuntes especifican que este órgano se reúne mensualmente y propone el orden del día del Consejo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Gerente de Sector",
+        "rationale": "El gerente tiene funciones ejecutivas, pero la propuesta formal de orden del día es un acto de un órgano de gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario de Estado",
+        "rationale": "Un cargo estatal no tiene competencias en la organización de las sesiones de un órgano local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano ejecutivo que asiste al concejal en la dirección del distrito."
+  },
+  {
+    "guid": "65d05355-e376-48de-ac31-c6e3c60a6c60",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué entidad tiene personalidad jurídica propia y está formada por la agrupación voluntaria de municipios para obras y servicios comunes?",
+    "answerOptions": [
+      {
+        "text": "Área Metropolitana",
+        "rationale": "Las áreas metropolitanas suelen ser de creación legal autonómica ante fenómenos de gran aglomeración urbana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mancomunidad de municipios",
+        "rationale": "Es la definición clásica de una asociación voluntaria con fines de auxilio mutuo y servicios compartidos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Entidad Municipal Descentralizada",
+        "rationale": "Esta es una forma de descentralización interna del municipio, no una agrupación externa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comarca",
+        "rationale": "La comarca es una entidad territorial necesaria y establecida por ley, no siempre voluntaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre sugiere una comunidad de manos u esfuerzos."
+  },
+  {
+    "guid": "204d6b05-a25a-4b0a-aac9-44e1c12b7bdc",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el TRLMRLCat, ¿cuál es el plazo máximo para responder a las preguntas que se formulan expresamente para ser contestadas por escrito?",
+    "answerOptions": [
+      {
+        "text": "15 días",
+        "rationale": "Este plazo se utiliza para otros trámites, pero no es el previsto para las respuestas escritas a concejales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un mes",
+        "rationale": "El artículo 105.4 establece taxativamente que el plazo máximo de respuesta es de un mes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres meses",
+        "rationale": "Un plazo de tres meses excedería la periodicidad habitual de las sesiones y dificultaría el control político.",
+        "isCorrect": false
+      },
+      {
+        "text": "10 días hábiles",
+        "rationale": "Aunque es el plazo general para muchas solicitudes de información, la ley local específica fija un mes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el tiempo estándar para la mayoría de las resoluciones administrativas por defecto."
+  },
+  {
+    "guid": "cb73c9b7-435d-4b28-a8e8-bc977917aa23",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la naturaleza jurídica de las Entidades Públicas Empresariales (EPE)?",
+    "answerOptions": [
+      {
+        "text": "Son entes de derecho privado íntegramente",
+        "rationale": "Aunque actúan bajo derecho privado en gran parte, son organismos públicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Organismos públicos que se financian mayoritariamente con ingresos de mercado",
+        "rationale": "La Ley 40/2015 especifica que desarrollan actividades prestacionales con ingresos procedentes del mercado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Asociaciones sin ánimo de lucro participadas por el ayuntamiento",
+        "rationale": "Las EPE tienen forma de administración institucional y buscan la gestión eficaz de servicios comerciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Órganos sin personalidad jurídica integrados en la alcaldía",
+        "rationale": "Tienen personalidad jurídica propia diferenciada de la administración matriz.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre indica que funcionan de manera similar a una compañía privada pero bajo control público."
+  },
+  {
+    "guid": "295e42ed-f868-4e46-b8ce-2f56efc31d12",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el régimen de funcionamiento local, ¿cuál es el mínimo de sesiones ordinarias que debe celebrar el Pleno en municipios de más de 20.000 habitantes?",
+    "answerOptions": [
+      {
+        "text": "Una cada dos meses",
+        "rationale": "Este es el mínimo para municipios de entre 5.001 y 20.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una al mes",
+        "rationale": "La ley establece la periodicidad mensual para los municipios de mayor tamaño para garantizar el control político continuo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una cada tres meses",
+        "rationale": "Este es el mínimo permitido para los municipios de hasta 5.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una cada quince días",
+        "rationale": "No existe una obligación legal de celebrar plenos quincenales, aunque el ayuntamiento puede acordarlo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la frecuencia más habitual en las grandes ciudades."
+  },
+  {
+    "guid": "df4c28dc-4174-473b-8d8c-7aec6d3871d3",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según los apuntes, ¿qué sucede si un concejal interpelado en el pleno no puede responder inmediatamente a una pregunta oral?",
+    "answerOptions": [
+      {
+        "text": "Se da por no contestada y se archiva",
+        "rationale": "El derecho de los concejales a obtener información impide que la pregunta se ignore sin más.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe contestarse obligatoriamente en la sesión siguiente",
+        "rationale": "El artículo 105.2 del TRLMRLCat prevé el aplazamiento automático a la siguiente sesión ordinaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Pleno debe suspenderse hasta obtener la respuesta",
+        "rationale": "Sería una medida desproporcionada que paralizaría la actividad municipal por una sola pregunta.",
+        "isCorrect": false
+      },
+      {
+        "text": "La pregunta pasa a ser competencia del Alcalde",
+        "rationale": "La responsabilidad de respuesta sigue siendo del concejal o área interpelada originalmente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La ley otorga un margen de tiempo para preparar la información hasta el próximo encuentro."
+  },
+  {
+    "guid": "2008df81-0a7c-4f5b-a853-0847ae3f822f",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En Barcelona, ¿cuántos gerentes territoriales existen según el esquema organizativo?",
+    "answerOptions": [
+      {
+        "text": "5",
+        "rationale": "El número de gerentes territoriales coincide con la división administrativa principal de la ciudad.",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "rationale": "Existen 10 gerencias territoriales, una por cada distrito de la ciudad de Barcelona.",
+        "isCorrect": true
+      },
+      {
+        "text": "7",
+        "rationale": "Siete es el número de gerencias sectoriales de área mencionadas en el esquema, no territoriales.",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "rationale": "Solo hay un Gerente Municipal, pero existen múltiples gerentes territoriales y sectoriales bajo su coordinación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el número total de distritos en los que se divide la ciudad condal."
+  },
+  {
+    "guid": "6c41dbe2-a7ae-4f62-8594-133292a9a54d",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué requisito es necesario para que el personal directivo sea nombrado de entre personas que no sean funcionarios?",
+    "answerOptions": [
+      {
+        "text": "Simplemente la voluntad del Alcalde",
+        "rationale": "La ley exige una justificación técnica y profesional para apartarse de la regla general del funcionariado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Excepción motivada por la alcaldía por competencia y experiencia suficientes",
+        "rationale": "Según el artículo 52.1 de la CM, se puede nombrar a no funcionarios si se motiva la especial competencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aprobación por mayoría absoluta del Pleno",
+        "rationale": "El nombramiento de personal directivo es una facultad ejecutiva, no requiere votación parlamentaria local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Haber superado una oposición libre",
+        "rationale": "El personal directivo se selecciona por criterios de mérito y capacidad, pero no necesariamente mediante oposición tradicional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en la necesidad de incorporar perfiles de alta cualificación externa bajo una justificación concreta."
+  },
+  {
+    "guid": "f05d3b6d-e866-4092-8530-976c337c3b21",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el TRLMRLCat, ¿cuál de los siguientes es un órgano obligatorio en TODOS los municipios?",
+    "answerOptions": [
+      {
+        "text": "La Junta de Gobierno Local",
+        "rationale": "Solo es obligatoria en municipios de más de 5.000 habitantes o capitales de comarca.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión Especial de Cuentas",
+        "rationale": "Este órgano es de existencia obligatoria por ley en todas las entidades locales para el control financiero.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los Consejos de Barrio",
+        "rationale": "Son órganos complementarios que dependen del reglamento orgánico de cada ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Gerencia Municipal",
+        "rationale": "Es una figura propia de municipios de gran población o con regímenes especiales como Barcelona.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es fundamental para la supervisión de la gestión económica anual."
+  },
+  {
+    "guid": "00d7d115-d1be-46b2-8126-6b670e52e317",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A partir de qué número de habitantes es obligatoria la Junta de Gobierno Local en Cataluña (salvo excepciones de capitalidad)?",
+    "answerOptions": [
+      {
+        "text": "20.000 habitantes",
+        "rationale": "Este es el umbral para servicios como protección civil, no para la estructura orgánica básica.",
+        "isCorrect": false
+      },
+      {
+        "text": "5.000 habitantes",
+        "rationale": "El artículo 48.1.b establece la obligatoriedad para poblaciones con más de cinco mil habitantes efectivos.",
+        "isCorrect": true
+      },
+      {
+        "text": "50.000 habitantes",
+        "rationale": "Municipios de este tamaño ya tienen estructuras mucho más complejas que la simple Junta de Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "1.000 habitantes",
+        "rationale": "En municipios tan pequeños, el Alcalde suele gestionar sin necesidad de un órgano colegiado ejecutivo permanente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo umbral que activa la obligación de tener biblioteca pública."
+  },
+  {
+    "guid": "134a62a2-3ccd-4437-aedd-8635d383957b",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el régimen de Barcelona, ¿quién preside la Comisión de Gobierno del Distrito?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde",
+        "rationale": "El Alcalde delega la gestión territorial del distrito en una figura específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Regidor de Distrito",
+        "rationale": "Como órgano ejecutivo delegado de la Alcaldía en el territorio, el Regidor preside su comisión de gobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente del Consejo de Distrito",
+        "rationale": "El Presidente del Consejo suele tener una función más deliberante, mientras que la comisión es ejecutiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gerente de Distrito",
+        "rationale": "El Gerente asiste con voz pero sin voto, pero no ostenta la presidencia política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el concejal nombrado por el Alcalde para dirigir ese territorio concreto."
+  },
+  {
+    "guid": "8534926c-3d63-4e83-ae41-f31b871adba0",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué nombre recibe el régimen especial para municipios muy pequeños donde el gobierno lo ejercen una asamblea de todos los vecinos?",
+    "answerOptions": [
+      {
+        "text": "Mancomunidad",
+        "rationale": "La mancomunidad es una unión de varios municipios, no una forma de gobierno interno de uno solo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concejo Abierto",
+        "rationale": "Es el sistema tradicional de democracia directa para poblaciones de escaso número de habitantes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Entidad Local Menor",
+        "rationale": "Esto define a núcleos de población dentro de un municipio, no necesariamente su forma de gobierno asambleario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comunidad de Villa y Tierra",
+        "rationale": "Es una institución histórica medieval que no corresponde al régimen actual de democracia directa vecinal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sugiere que la reunión para decidir está disponible para todos sin intermediarios."
+  },
+  {
+    "guid": "60dea17a-c289-4973-b3a3-c510a5242fe1",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la ciudad de Barcelona, ¿qué porcentaje de capital debe poseer el Ayuntamiento para que una sociedad se considere 'mercantil de participación mayoritaria'?",
+    "answerOptions": [
+      {
+        "text": "Más del 75%",
+        "rationale": "Aunque da un control total, el umbral legal para la mayoría es más bajo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Más del 50%",
+        "rationale": "Como en cualquier sociedad mercantil pública, la mayoría absoluta del capital determina su carácter municipal prioritario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al menos el 33%",
+        "rationale": "Esto se consideraría una participación significativa pero minoritaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "El 100%",
+        "rationale": "Existen sociedades de capital íntegro, pero la 'mayoritaria' empieza a partir de la mitad más uno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el umbral estándar para tener el control en la toma de decisiones societarias."
+  },
+  {
+    "guid": "ff55963f-ea10-4a62-9053-cf014970c408",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién tiene la competencia para dictar bandos en el municipio?",
+    "answerOptions": [
+      {
+        "text": "El Pleno",
+        "rationale": "El Pleno dicta reglamentos y ordenanzas, no bandos, que son actos de ejecución rápida.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "El bando es una potestad tradicional y ejecutiva exclusiva del Alcalde para dirigirse a los ciudadanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Junta de Gobierno Local",
+        "rationale": "La Junta actúa de forma colegiada, mientras que el bando es una expresión de la autoridad unipersonal de la Alcaldía.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Jefe de la Policía Local",
+        "rationale": "La policía vela por el cumplimiento de las normas, pero no tiene potestad normativa o de bando.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la autoridad individual más alta del ayuntamiento."
+  },
+  {
+    "guid": "c1bc5295-849d-43d6-ba51-c1f6f677aa10",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con las sociedades mercantiles de economía mixta cuando el ayuntamiento deja de participar en su capital?",
+    "answerOptions": [
+      {
+        "text": "Pasan a ser gestionadas por la Comunidad Autónoma",
+        "rationale": "La salida del capital municipal no traslada automáticamente la propiedad a otra administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pierden su carácter de entidad pública local",
+        "rationale": "Sin participación pública, la sociedad se rige exclusivamente por el derecho privado como cualquier empresa comercial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Deben disolverse obligatoriamente",
+        "rationale": "La empresa puede seguir funcionando como entidad privada si los socios restantes así lo deciden.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se integran en el Consorcio Metropolitano",
+        "rationale": "No existe una transferencia automática a entes supramunicipales por la desinversión del ayuntamiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en lo que define el carácter público de una empresa."
+  },
+  {
+    "guid": "f587fe46-209f-437f-b7d3-8f6aa8e00714",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En municipios con régimen de Concejo Abierto, ¿quién asume las funciones que normalmente corresponden al Pleno?",
+    "answerOptions": [
+      {
+        "text": "La Asamblea Vecinal",
+        "rationale": "En este régimen, todos los vecinos con derecho a voto forman la asamblea que toma las decisiones de calado.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Alcalde en solitario",
+        "rationale": "El Alcalde tiene funciones ejecutivas, pero las decisiones 'legislativas' locales deben ser comunitarias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una comisión de tres expertos",
+        "rationale": "El sistema es democrático y participativo, no tecnocrático.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Diputación Provincial",
+        "rationale": "La Diputación presta apoyo, pero la soberanía local reside en los vecinos del municipio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano que reúne a toda la población electoral del pequeño núcleo."
+  },
+  {
+    "guid": "6980b605-1e87-4673-b097-edd78d38dca6",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la puntuación máxima que pueden alcanzar los méritos por especialidades de la Comunidad Autónoma en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "10%",
+        "rationale": "Los apuntes señalan que la puntuación por normativa específica de la CCAA podrá alcanzar hasta un 10 por 100.",
+        "isCorrect": true
+      },
+      {
+        "text": "20%",
+        "rationale": "Este valor superaría el equilibrio entre los componentes del baremo estatal y local.",
+        "isCorrect": false
+      },
+      {
+        "text": "5%",
+        "rationale": "El 5% es el valor típico reservado a la corporación local contratante.",
+        "isCorrect": false
+      },
+      {
+        "text": "15%",
+        "rationale": "Aunque es un porcentaje común en otras leyes, los fragmentos aportados fijan el 10% para este caso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una décima parte del total posible del baremo."
+  },
+  {
+    "guid": "2bc424f1-9325-4643-abce-6f41c4e036f9",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué tipo de entidad local es el 'Cabildo' según la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Una entidad municipal descentralizada",
+        "rationale": "Las EMD operan a nivel inferior al municipio, mientras que el Cabildo es insular.",
+        "isCorrect": false
+      },
+      {
+        "text": "El órgano de gobierno y administración de cada isla en Canarias",
+        "rationale": "El artículo 141.4 establece que en los archipiélagos las islas tendrán administración propia en forma de cabildos o consejos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una agrupación voluntaria de provincias",
+        "rationale": "No existe la agrupación voluntaria de provincias bajo esa denominación en el sistema español.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un tribunal local de cuentas",
+        "rationale": "El Cabildo tiene funciones políticas y administrativas generales, no exclusivamente judiciales o auditoras.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la institución característica de la organización territorial de las Islas Canarias."
+  },
+  {
+    "guid": "9dd4e0e8-164e-4ec8-a0e5-69e8de7e852e",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En municipios de más de 5.000 habitantes, ¿qué ocurre si el Alcalde no nombra a los Tenientes de Alcalde?",
+    "answerOptions": [
+      {
+        "text": "El Pleno los elige por mayoría",
+        "rationale": "La elección es una potestad discrecional y exclusiva de la Alcaldía.",
+        "isCorrect": false
+      },
+      {
+        "text": "El ayuntamiento queda bajo administración de la CCAA",
+        "rationale": "La falta de nombramiento de auxiliares no supone la pérdida de la autonomía municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde está obligado a nombrarlos de entre los miembros de la Junta de Gobierno",
+        "rationale": "Los apuntes indican que son designados por el Alcalde y deben pertenecer a dicho órgano si este existe.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se procede a nuevas elecciones municipales",
+        "rationale": "Las elecciones solo se repiten por causas muy graves de disolución corporativa o falta de investidura.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La estructura de mando debe completarse obligatoriamente a partir de cierto tamaño de población."
+  },
+  {
+    "guid": "5c0b0c23-7a3d-4a9a-88d8-1cc8c2632c11",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el esquema de Barcelona, ¿cuál es el total de entidades instrumentales (autónomas o empresas) si incluimos 'Foment de Ciutat SA'?",
+    "answerOptions": [
+      {
+        "text": "10",
+        "rationale": "Diez es el número de distritos, no el de entidades del sector público instrumental.",
+        "isCorrect": false
+      },
+      {
+        "text": "19",
+        "rationale": "El documento 'Esquema T09' especifica que el total es de 19 entidades de carácter instrumental.",
+        "isCorrect": true
+      },
+      {
+        "text": "25",
+        "rationale": "Es una cifra superior a la reportada en los datos consolidados del esquema organizativo actual.",
+        "isCorrect": false
+      },
+      {
+        "text": "7",
+        "rationale": "Siete es el número de gerencias sectoriales, no el conjunto de entidades con personalidad jurídica propia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es casi una veintena de organizaciones diferenciadas."
+  },
+  {
+    "guid": "ccca860b-ae87-44f3-94ce-ed07b258220e",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué requisito constitucional se exige para alterar los límites de una provincia?",
+    "answerOptions": [
+      {
+        "text": "Aprobación por el Pleno de todos los ayuntamientos afectados",
+        "rationale": "Los ayuntamientos informan, pero la decisión final es de rango estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley orgánica aprobada por las Corts Generals",
+        "rationale": "El artículo 141.1 de la Constitución exige este instrumento legislativo de alta protección para cambios territoriales provinciales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Referéndum de la población provincial",
+        "rationale": "Aunque es una medida democrática, la Constitución no lo exige como requisito formal para el cambio de límites provinciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decreto de la Comunidad Autónoma",
+        "rationale": "La provincia es una entidad del Estado cuya delimitación supera la potestad meramente autonómica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere una ley estatal de tipo especial reservada para materias fundamentales."
+  },
+  {
+    "guid": "e61ddd31-8c80-4804-9113-7256c3cf7a34",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función principal de la Comisión Especial de Cuentas?",
+    "answerOptions": [
+      {
+        "text": "Aprobar los presupuestos del ejercicio siguiente",
+        "rationale": "La aprobación del presupuesto es competencia del Pleno.",
+        "isCorrect": false
+      },
+      {
+        "text": "Informar sobre las cuentas generales de la corporación antes de su aprobación",
+        "rationale": "Su misión es el examen previo y técnico de la gestión económica finalizada para informar al Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Recaudar los impuestos municipales",
+        "rationale": "Esta es una función ejecutiva y técnica de los servicios de tesorería y recaudación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustituir a la intervención general en sus funciones",
+        "rationale": "Es un órgano político de control que actúa basándose en el trabajo de la intervención, no la sustituye.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Actúa como un filtro previo para garantizar que el Pleno conozca el estado real de las finanzas."
+  },
+  {
+    "guid": "6e23fe3f-7716-4a77-b7be-9c0ad9ec7844",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto de Barcelona, ¿quién nombra al Vicepresidente del Consejo de Distrito?",
+    "answerOptions": [
+      {
+        "text": "Los vecinos del distrito",
+        "rationale": "Es un cargo de designación política, no de elección popular directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Alcaldía a propuesta del Consejo de Distrito",
+        "rationale": "Los apuntes de Barcelona señalan que el nombramiento corresponde al Alcalde tras la propuesta del propio Consejo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Pleno Municipal por mayoría simple",
+        "rationale": "El Pleno de la ciudad no interviene en la estructura interna de los distritos de forma directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gerente de Coordinación Territorial",
+        "rationale": "Un cargo técnico no tiene la potestad de nombrar cargos de representación política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requiere la intervención de la máxima autoridad de la ciudad y la recomendación del órgano local del distrito."
+  }
+]

@@ -1,0 +1,777 @@
+[
+  {
+    "guid": "db8ede14-6c51-45ae-8afe-774d493a74a9",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la definición principal de un plan de igualdad según la normativa vigente?",
+    "answerOptions": [
+      {
+        "text": "Un conjunto ordenado de medidas para alcanzar la igualdad de trato y oportunidades entre mujeres y hombres en la empresa.",
+        "rationale": "Esta definición destaca el propósito de eliminar la discriminación por razón de sexo a través de medidas estructuradas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un documento sancionador que la autoridad laboral impone a las empresas con brecha salarial.",
+        "rationale": "Aunque la autoridad laboral puede exigir un plan tras una sanción, el plan en sí es una herramienta de gestión, no la sanción.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un manual de buenas prácticas de carácter exclusivamente voluntario para todas las organizaciones.",
+        "rationale": "Existen casos legales específicos donde el plan es obligatorio, por lo que no es una herramienta puramente voluntaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una lista de objetivos comerciales que busca mejorar la imagen corporativa sin cambiar la estructura.",
+        "rationale": "El plan debe contemplar de forma transversal los ámbitos de la organización y no limitarse a fines comerciales o de imagen.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un instrumento estratégico que busca la equidad real en el entorno laboral."
+  },
+  {
+    "guid": "d5215130-b9a3-420c-9f16-b9136064eb8a",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A partir de qué número de trabajadores es obligatorio disponer de un plan de igualdad desde marzo de 2022?",
+    "answerOptions": [
+      {
+        "text": "100 personas trabajadoras.",
+        "rationale": "Este era el umbral previo a la última actualización normativa que amplió la obligatoriedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "250 personas trabajadoras.",
+        "rationale": "Este umbral correspondía a la etapa inicial de la ley de igualdad antes de reducirse progresivamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "50 personas trabajadoras.",
+        "rationale": "La normativa actual establece este límite para asegurar que las medianas y grandes empresas implementen políticas de igualdad.",
+        "isCorrect": true
+      },
+      {
+        "text": "10 personas trabajadoras.",
+        "rationale": "Para microempresas y pequeñas empresas de este tamaño, la implantación suele ser voluntaria a menos que el convenio diga lo contrario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el límite que define el paso de pequeña a mediana empresa en este ámbito legal."
+  },
+  {
+    "guid": "60e2112e-b78f-45c0-9c77-02240f0d97b1",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el marco conceptual de la igualdad, ¿qué define al concepto de 'Género'?",
+    "answerOptions": [
+      {
+        "text": "Las características biológicas que definen a un ser humano como hombre o mujer.",
+        "rationale": "Esta descripción se ajusta a la definición de sexo, no de género.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las diferencias socialmente construidas que la sociedad asigna de forma diferenciada.",
+        "rationale": "El género se refiere a lo aprendido y valorado culturalmente, pudiendo variar según el tiempo y la cultura.",
+        "isCorrect": true
+      },
+      {
+        "text": "El principio constitucional de igualdad ante la ley sin discriminación.",
+        "rationale": "Eso describe la igualdad formal recogida en la Constitución, no el concepto sociológico de género.",
+        "isCorrect": false
+      },
+      {
+        "text": "La capacidad reproductiva de los individuos en una especie.",
+        "rationale": "Este es un rasgo biológico vinculado estrictamente al sexo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en aquello que no es biológico, sino que se aprende y se construye en sociedad."
+  },
+  {
+    "guid": "6635d041-7b43-40ff-ab1c-a1a232bda6e2",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué son los 'estereotipos de género'?",
+    "answerOptions": [
+      {
+        "text": "Normas de comportamiento socialmente apropiadas para un sexo concreto.",
+        "rationale": "Esto define mejor los roles de género que las ideas preconcebidas sobre la identidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conjunto de ideas simples y precias atribuidas en función de la adscripción sexual.",
+        "rationale": "Son mecanismos activadores de la ideología que prescriben maneras de ser y comportarse de forma irracional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Acciones positivas para favorecer el acceso de las mujeres a cargos directivos.",
+        "rationale": "Las acciones positivas son medidas correctoras, mientras que los estereotipos son prejuicios limitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diferencias salariales detectadas entre hombres y mujeres en un mismo puesto.",
+        "rationale": "Eso se conoce como brecha salarial, que puede ser consecuencia de los estereotipos pero no es su definición.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son imágenes mentales simplificadas que aplicamos a las personas por el hecho de ser hombres o mujeres."
+  },
+  {
+    "guid": "f980cab4-1c3f-4af8-92a3-6d1e85d887ad",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué artículo de la Constitución Española se recoge la igualdad formal?",
+    "answerOptions": [
+      {
+        "text": "Artículo 10.",
+        "rationale": "El artículo 10 trata sobre la dignidad de la persona y los derechos fundamentales en general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 14.",
+        "rationale": "Establece que los españoles son iguales ante la ley sin que prevalezca discriminación por nacimiento, raza, sexo o religión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Artículo 18.",
+        "rationale": "El artículo 18 protege el honor, la intimidad y la propia imagen, además de la protección de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 51.",
+        "rationale": "Este artículo se encuentra en la Ley Orgánica 3/2007 referido a la administración, no en la Constitución.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es uno de los artículos más fundamentales del Título I sobre derechos y deberes."
+  },
+  {
+    "guid": "17f00909-ff98-4458-b390-5020449e4342",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el periodo de vigencia del III Plan de Igualdad del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "2015-2019.",
+        "rationale": "Este periodo corresponde al II Plan de Igualdad del Ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "2020-2023.",
+        "rationale": "Es el marco temporal definido para la implementación y evaluación de las medidas del tercer plan.",
+        "isCorrect": true
+      },
+      {
+        "text": "2022-2025.",
+        "rationale": "Aunque coincide con fechas de obligatoriedad estatal, no es el periodo específico del plan municipal citado.",
+        "isCorrect": false
+      },
+      {
+        "text": "2018-2022.",
+        "rationale": "Este rango de años no se ajusta a la cronología oficial de los planes de igualdad de la institución.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Comienza en el año de la pandemia y cubre un periodo de cuatro años."
+  },
+  {
+    "guid": "f162124f-ab87-492f-baf4-1a2987a30a99",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuántas áreas de intervención o diagnóstico contempla el proceso de elaboración del III Plan de Igualdad?",
+    "answerOptions": [
+      {
+        "text": "5 áreas.",
+        "rationale": "Este número es insuficiente para cubrir la transversalidad que exige el diagnóstico municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "8 áreas.",
+        "rationale": "Incluye 7 áreas de intervención más la representatividad de género para un análisis completo.",
+        "isCorrect": true
+      },
+      {
+        "text": "12 áreas.",
+        "rationale": "Aunque el plan contiene muchas acciones, las áreas troncales de diagnóstico son menos de doce.",
+        "isCorrect": false
+      },
+      {
+        "text": "3 áreas.",
+        "rationale": "Un plan integral requiere más que tres áreas para analizar la cultura, retribución y procesos de gestión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número que suma las áreas clásicas de intervención y el análisis de representatividad."
+  },
+  {
+    "guid": "f226438b-2f06-4b5c-bde7-fa6e3a76b09c",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según el diagnóstico del plan anterior, ¿qué fenómeno repercute negativamente en la brecha salarial?",
+    "answerOptions": [
+      {
+        "text": "La falta de formación académica de las mujeres.",
+        "rationale": "El diagnóstico no apunta a la formación, sino a cómo se gestiona el tiempo de vida.",
+        "isCorrect": false
+      },
+      {
+        "text": "La feminización de la conciliación.",
+        "rationale": "Al ser mayoritariamente las mujeres quienes asumen la conciliación, su carrera profesional y salario se ven afectados.",
+        "isCorrect": true
+      },
+      {
+        "text": "La ausencia de mujeres en el cuerpo de Bomberos.",
+        "rationale": "Aunque es un problema de segregación, el diagnóstico general subraya la conciliación como factor transversal de la brecha.",
+        "isCorrect": false
+      },
+      {
+        "text": "El uso de lenguaje no sexista.",
+        "rationale": "El lenguaje es una medida correctora, no una causa de la brecha salarial según el estudio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con quién asume mayoritariamente las tareas de cuidado y su impacto en la jornada laboral."
+  },
+  {
+    "guid": "a9428d2e-326d-4832-a54a-5936235d3961",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Dentro de las áreas de diagnóstico, ¿cuál se encarga de vigilar la salud con perspectiva de género?",
+    "answerOptions": [
+      {
+        "text": "Cultura institucional.",
+        "rationale": "La cultura institucional se enfoca en valores y compromiso político, no en la salud física o laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prevención de riesgos laborales.",
+        "rationale": "Esta área busca adaptar la seguridad y la vigilancia de la salud a las realidades biológicas y sociales de mujeres y hombres.",
+        "isCorrect": true
+      },
+      {
+        "text": "Política retributiva.",
+        "rationale": "Esta área se centra exclusivamente en salarios y complementos para evitar la brecha económica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Procesos de gestión de personas.",
+        "rationale": "Se ocupa de la selección y promoción, pero no de la prevención técnica de riesgos para la salud.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el ámbito técnico que analiza los peligros del puesto de trabajo."
+  },
+  {
+    "guid": "ce521a59-49aa-4435-96f7-971c1a037d54",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la cuantía máxima de las multas por infracciones graves de protección de datos según el RGPD?",
+    "answerOptions": [
+      {
+        "text": "Hasta el 1% de la facturación global.",
+        "rationale": "Esta cifra es demasiado baja comparada con el poder disuasorio real del reglamento europeo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hasta el 4% de la facturación global anual.",
+        "rationale": "El RGPD establece sanciones severas para garantizar el cumplimiento, llegando a este porcentaje en casos graves.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un máximo de 10.000 euros por empresa.",
+        "rationale": "Las multas no son fijas, sino que escalan proporcionalmente al tamaño y facturación de la organización.",
+        "isCorrect": false
+      },
+      {
+        "text": "El 10% del beneficio neto trimestral.",
+        "rationale": "El cálculo se basa en la facturación global anual, no en beneficios trimestrales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un porcentaje de un solo dígito que representa una parte significativa de los ingresos de una gran empresa."
+  },
+  {
+    "guid": "c6b6d9a5-f49a-4490-8e68-938c65d81a05",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué figura es obligatoria para la Administración Pública en materia de protección de datos?",
+    "answerOptions": [
+      {
+        "text": "El Responsable de Seguridad Informática.",
+        "rationale": "Aunque es necesario, no es la figura específica de nueva creación exigida por el RGPD con ese nombre.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Delegado de Protección de Datos (DPO).",
+        "rationale": "Es una figura obligatoria para organismos públicos y empresas que traten datos a gran escala.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Auditor de Calidad Interna.",
+        "rationale": "La auditoría es un proceso, pero el DPO es el cargo específico que supervisa el cumplimiento del reglamento.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gestor de Expedientes Electrónicos.",
+        "rationale": "Es un rol administrativo operativo, no una figura de supervisión legal de la privacidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se le conoce a menudo por sus siglas en inglés: DPO."
+  },
+  {
+    "guid": "f30c5e58-6b62-42cc-b8f6-4257b30479ca",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué se refiere el término 'tratamiento' en la legislación de protección de datos?",
+    "answerOptions": [
+      {
+        "text": "Únicamente a la venta de bases de datos a terceros.",
+        "rationale": "La venta es solo una posible acción; el tratamiento es un concepto mucho más amplio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier operación o conjunto de operaciones efectuadas sobre datos personales.",
+        "rationale": "Incluye la recogida, registro, organización, conservación, consulta, difusión o incluso la destrucción.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al software específico utilizado para encriptar la información.",
+        "rationale": "La encriptación es una medida de seguridad, no la definición de la actividad de tratar datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al proceso médico de curación de un paciente en un hospital.",
+        "rationale": "Aunque se usen datos, en este contexto legal 'tratamiento' tiene un significado administrativo y técnico de datos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Abarca todo el ciclo de vida de la información, desde que se pide hasta que se borra."
+  },
+  {
+    "guid": "9bd09eea-f07b-4568-86f2-4efce9d88656",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién es el 'Responsable del tratamiento'?",
+    "answerOptions": [
+      {
+        "text": "La persona que hackea un sistema para extraer información.",
+        "rationale": "Esa persona sería un delincuente informático, no una figura definida por el RGPD.",
+        "isCorrect": false
+      },
+      {
+        "text": "La entidad que determina los fines y los medios del tratamiento de datos.",
+        "rationale": "Es quien decide por qué y cómo se van a utilizar los datos personales recolectados.",
+        "isCorrect": true
+      },
+      {
+        "text": "La empresa externa que solo almacena los datos por orden de otra.",
+        "rationale": "Esa figura corresponde al 'Encarregat del tractament' (Encargado).",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier ciudadano que navega por internet.",
+        "rationale": "El ciudadano suele ser el 'interesado' o titular de los datos, no el responsable institucional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es quien tiene el poder de decisión sobre el objetivo de la base de datos."
+  },
+  {
+    "guid": "a6e47abf-4696-4fa7-bf78-14d32c7631ae",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En España, ¿cuál es la edad mínima para otorgar el consentimiento en el ámbito de protección de datos?",
+    "answerOptions": [
+      {
+        "text": "18 años.",
+        "rationale": "Es la mayoría de edad legal, pero la ley de protección de datos permite el consentimiento a una edad inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "13 años.",
+        "rationale": "La LOPDGDD española fijó esta edad como el límite para que los menores puedan consentir por sí mismos.",
+        "isCorrect": true
+      },
+      {
+        "text": "16 años.",
+        "rationale": "Aunque es la edad recomendada por el RGPD europeo, España optó por rebajarla en su legislación nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "14 años.",
+        "rationale": "Era la edad prevista en la normativa anterior (LSSI), pero la actual la ha modificado ligeramente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una edad cercana al inicio de la educación secundaria obligatoria."
+  },
+  {
+    "guid": "dd1b7a83-290d-4b72-a882-35eb082cc1c9",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué significa el derecho a la 'portabilidad' de los datos?",
+    "answerOptions": [
+      {
+        "text": "Poder llevar los datos impresos en una carpeta física.",
+        "rationale": "La portabilidad es un concepto digital que implica formatos estructurados y legibles por máquina.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho a trasladar los datos de un proveedor de servicios a otro.",
+        "rationale": "Permite al interesado recibir sus datos y transmitirlos a otro responsable sin impedimentos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La capacidad de usar el teléfono móvil en cualquier país extranjero.",
+        "rationale": "Eso es 'roaming' o itinerancia, un concepto de telecomunicaciones ajeno a la privacidad de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Derecho a que los datos sean borrados si el usuario cambia de opinión.",
+        "rationale": "Eso describe el derecho de supresión o derecho al olvido.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la facilidad de cambiar de compañía eléctrica o de red social llevándose su historial."
+  },
+  {
+    "guid": "697c4d8c-3b2c-4486-b18e-746049603149",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el plazo general para que el responsable responda a una solicitud de ejercicio de derechos?",
+    "answerOptions": [
+      {
+        "text": "10 días naturales.",
+        "rationale": "Este era el plazo en normativas antiguas, pero el RGPD lo ha ampliado para permitir un análisis adecuado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un mes.",
+        "rationale": "El responsable debe informar sobre las actuaciones realizadas en el plazo máximo de un mes desde la recepción.",
+        "isCorrect": true
+      },
+      {
+        "text": "48 horas.",
+        "rationale": "Es un plazo demasiado breve para procesos administrativos complejos de rectificación o portabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año.",
+        "rationale": "Excedería con creces los límites de protección efectiva de los derechos fundamentales del ciudadano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el tiempo equivalente a un ciclo lunar estándar."
+  },
+  {
+    "guid": "7babfea8-3e53-4247-963e-277494c3754a",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué tipo de datos se consideran de 'categoría especial'?",
+    "answerOptions": [
+      {
+        "text": "Nombre, apellidos y número de teléfono fijo.",
+        "rationale": "Estos son datos identificativos básicos de bajo riesgo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Datos sobre salud, vida sexual o creencias religiosas.",
+        "rationale": "Son datos altamente sensibles que requieren un nivel de protección y una base legal de tratamiento muy estricta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dirección de correo electrónico profesional.",
+        "rationale": "Es un dato de contacto ordinario en el ámbito laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Matrícula de un vehículo particular.",
+        "rationale": "Es un dato personal porque identifica a alguien, pero no entra en la categoría de especial protección.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son informaciones que pertenecen a la esfera más íntima o que podrían generar discriminación."
+  },
+  {
+    "guid": "d4f7cfeb-b098-4c44-bdde-f9102435873d",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué artículo de la Constitución Española se fundamenta el derecho a la protección de datos?",
+    "answerOptions": [
+      {
+        "text": "Artículo 14.",
+        "rationale": "Trata sobre la igualdad ante la ley, no específicamente sobre la informática o la privacidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 18.4.",
+        "rationale": "Dispone que la ley limitará el uso de la informática para garantizar el honor y la intimidad personal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Artículo 20.",
+        "rationale": "Se refiere a la libertad de expresión e información, que a veces colisiona con la protección de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 103.",
+        "rationale": "Regula los principios de la actuación administrativa, pero no el derecho fundamental a la privacidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está ubicado dentro del artículo que protege la intimidad y el honor."
+  },
+  {
+    "guid": "6cebd8a0-cc67-4dbd-a6ef-252e33246c2a",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué se entiende por 'sexe' (sexo) en el marco normativo del plan?",
+    "answerOptions": [
+      {
+        "text": "Las normas sociales de comportamiento apropiadas para un individuo.",
+        "rationale": "Eso describe los roles sociales, no la base física de la persona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las características biológicas que definen a un ser humano como hombre o mujer.",
+        "rationale": "Es la base fisiológica y anatómica con la que nace el individuo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El sentimiento interno de pertenencia a un grupo determinado.",
+        "rationale": "Eso se aproxima más a la identidad de género que a la definición biológica pura.",
+        "isCorrect": false
+      },
+      {
+        "text": "La orientación del deseo hacia otras personas.",
+        "rationale": "Esa es la definición de orientación sexual, no de sexo biológico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a lo estrictamente natural y anatómico."
+  },
+  {
+    "guid": "d905f430-a384-4ef0-8c08-a13902608ab5",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Uno de los objetivos del III Plan de Igualdad es garantizar formación en igualdad a...",
+    "answerOptions": [
+      {
+        "text": "Solo al personal recién contratado.",
+        "rationale": "La formación debe ser continua y alcanzar a toda la plantilla, no solo a los nuevos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diferentes colectivos con un plan adaptado.",
+        "rationale": "El plan prevé formación específica y sensibilización adaptada a las necesidades de cada grupo municipal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente a las mujeres para que aprendan a negociar su salario.",
+        "rationale": "La igualdad es una responsabilidad colectiva que requiere la formación de hombres y mujeres.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo a los cargos directivos y políticos.",
+        "rationale": "Aunque es vital en la dirección, el éxito del plan requiere la implicación de toda la plantilla.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la capilaridad en toda la organización mediante la personalización del aprendizaje."
+  },
+  {
+    "guid": "5ba2b574-589c-42b8-97b0-700405a6b140",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Bajo el RGPD, ¿qué debe contener un 'Registro de actividades de tratamiento'?",
+    "answerOptions": [
+      {
+        "text": "Un listado con los nombres y apellidos de todos los empleados del mundo.",
+        "rationale": "El registro es sobre qué tipos de datos se tratan, no una lista de todas las personas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los fines del tratamiento, categorías de interesados y de datos personales.",
+        "rationale": "Debe detallar qué se hace, con quién, para qué y qué medidas de seguridad se aplican.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las contraseñas de acceso a los servidores municipales.",
+        "rationale": "Por seguridad, el registro de actividades nunca debe incluir claves de acceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo los contratos de mantenimiento de los ordenadores.",
+        "rationale": "Eso es información logística; el registro se enfoca en el flujo y protección de la información personal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un inventario detallado de cómo fluye la información personal en la entidad."
+  },
+  {
+    "guid": "61f2679f-2cfe-4c5a-9bf4-702899a98094",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué área de diagnóstico analiza el uso del lenguaje y la imagen corporativa?",
+    "answerOptions": [
+      {
+        "text": "Procesos de gestión de personas.",
+        "rationale": "Se centra en la vida laboral del empleado, no en la proyección externa de la imagen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comunicación, lenguaje e imagen corporativa.",
+        "rationale": "Busca eliminar el sexismo en la publicidad institucional y fomentar el lenguaje inclusivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cultura institucional.",
+        "rationale": "Aunque están relacionados, la cultura se centra más en el compromiso político y la estructura interna.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prevención del acoso.",
+        "rationale": "Esta área tiene un enfoque jurídico y preventivo ante conductas violentas, no en el estilo comunicativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el área número 7 del diagnóstico del plan."
+  },
+  {
+    "guid": "936eaf7e-037c-4752-95c1-1a63d1075d07",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el contexto de la protección de datos, ¿qué se entiende por 'encargado del tratamiento'?",
+    "answerOptions": [
+      {
+        "text": "El funcionario que atiende al público en la ventanilla.",
+        "rationale": "Este es una persona autorizada bajo la dirección del responsable, no el encargado legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "La persona física o jurídica que trata datos por cuenta del responsable.",
+        "rationale": "Suele ser una empresa externa (proveedor) que presta un servicio siguiendo instrucciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "El ciudadano que solicita que se rectifiquen sus datos.",
+        "rationale": "Ese es el interesado que ejerce sus derechos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El director de la Agencia Española de Protección de Datos.",
+        "rationale": "Ese cargo corresponde a la Autoridad de Control, no a un encargado de tratamiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en una empresa de servicios externos que gestiona nóminas o alojamiento web."
+  },
+  {
+    "guid": "b64cf1c6-b6e5-4659-8bea-bc22d80386ad",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es una ventaja de elaborar un Plan de Igualdad según el documento?",
+    "answerOptions": [
+      {
+        "text": "Poder despedir a personal sin pagar indemnización.",
+        "rationale": "El plan busca proteger derechos, no facilitar el despido injustificado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Atracción, contratación y retención de personal cualificado.",
+        "rationale": "La gestión de la igualdad es un valor añadido que atrae el talento y fideliza a los trabajadores.",
+        "isCorrect": true
+      },
+      {
+        "text": "Evitar tener que pagar la seguridad social de los empleados.",
+        "rationale": "Las obligaciones de seguridad social son independientes de los planes de igualdad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Poder usar datos personales con fines comerciales sin permiso.",
+        "rationale": "Al contrario, el plan debe respetar escrupulosamente la privacidad y la ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con la gestión del talento y la competitividad de la organización."
+  },
+  {
+    "guid": "e407a93d-41f4-4c42-a076-0dc07f22d62c",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué normativa estatal permitió la creación del Registro de planes de igualdad?",
+    "answerOptions": [
+      {
+        "text": "La Ley de Presupuestos Generales de 2021.",
+        "rationale": "Los presupuestos financian, pero no crean la estructura registral de igualdad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Real Decreto Ley 6/2019 de medidas urgentes.",
+        "rationale": "Esta norma impulsó la obligatoriedad de registro para garantizar la transparencia de los planes.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Ley de Contratos del Sector Público.",
+        "rationale": "Aunque exige planes de igualdad para contratar, no es la norma que regula su registro laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Código de Comercio.",
+        "rationale": "Regula la actividad mercantil general, pero no las políticas específicas de igualdad de género.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un decreto de 'medidas urgentes' aprobado pocos años antes de la pandemia."
+  }
+]

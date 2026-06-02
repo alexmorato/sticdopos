@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "4a13b808-f0f8-4f04-8425-ffc01d637621",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el fundamento principal de la Constitución Española en relación con la organización del Estado según su artículo 2?",
+    "answerOptions": [
+      {
+        "text": "La indisoluble unidad de la Nación española",
+        "rationale": "El artículo 2 establece que la unidad nacional es el cimiento sobre el cual se reconoce el derecho a la autonomía de las regiones.",
+        "isCorrect": true
+      },
+      {
+        "text": "La soberanía compartida entre el Estado y las Comunidades Autónomas",
+        "rationale": "La soberanía nacional reside exclusivamente en el pueblo español en su conjunto, no se comparte con las comunidades.",
+        "isCorrect": false
+      },
+      {
+        "text": "La independencia administrativa de los municipios",
+        "rationale": "Aunque se reconoce la autonomía local, el fundamento constitucional primario es la unidad de la nación.",
+        "isCorrect": false
+      },
+      {
+        "text": "La federación voluntaria de nacionalidades",
+        "rationale": "España se define como un Estado unitario descentralizado, no como una federación de entidades independientes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este concepto aparece al inicio del artículo 2 como base de la patria común."
+  },
+  {
+    "guid": "e2e891b1-63f3-46f0-a65b-0ab5d1db69da",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la distribución del poder público en España, ¿qué tipo de autonomía se atribuye específicamente a las Comunidades Autónomas?",
+    "answerOptions": [
+      {
+        "text": "Autonomía política",
+        "rationale": "Las CCAA gozan de una autonomía de carácter político que les permite legislar, a diferencia de la autonomía puramente administrativa de los entes locales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Soberanía plena",
+        "rationale": "La soberanía es única del Estado; la autonomía es un poder derivado y limitado por la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Autonomía solo ejecutiva",
+        "rationale": "Las CCAA tienen potestad legislativa, lo que supera el ámbito meramente ejecutivo o administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Soberanía regional",
+        "rationale": "Técnicamente, el concepto de soberanía no es aplicable a las partes integrantes del Estado español.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la capacidad de estas entidades para dictar sus propias leyes."
+  },
+  {
+    "guid": "e68773e6-0ec9-4328-944c-f1bc917a77f6",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 143.2 de la Constitución, ¿qué mayoría de municipios se requiere para iniciar la 'vía lenta' de acceso a la autonomía?",
+    "answerOptions": [
+      {
+        "text": "Dos terceras partes de los municipios afectados",
+        "rationale": "La vía general requiere el acuerdo de las Diputaciones y de 2/3 de los municipios que representen la mayoría del censo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres cuartas partes de los municipios afectados",
+        "rationale": "Esta mayoría reforzada es característica de la vía rápida del artículo 151, no de la vía común.",
+        "isCorrect": false
+      },
+      {
+        "text": "La mitad más uno de los municipios",
+        "rationale": "Se requiere una mayoría cualificada superior a la simple mayoría absoluta de ayuntamientos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La totalidad de los municipios de la provincia",
+        "rationale": "La Constitución no exige unanimidad municipal para iniciar el proceso autonómico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Esta fracción es menor que la requerida para la vía del artículo 151."
+  },
+  {
+    "guid": "4d049819-ba1b-418e-8de4-7f3c8179586b",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo máximo para cumplir los requisitos de iniciativa autonómica desde el primer acuerdo adoptado por una corporación local?",
+    "answerOptions": [
+      {
+        "text": "Seis meses",
+        "rationale": "El artículo 143.2 establece un periodo de medio año para que todos los entes interesados ratifiquen la decisión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un año",
+        "rationale": "Un año se considera un periodo excesivamente largo para la fase de impulso inicial del proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres meses",
+        "rationale": "Tres meses es un plazo breve dadas las necesidades de deliberación en los plenos municipales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco años",
+        "rationale": "Cinco años es el tiempo de espera si la iniciativa fracasa, no el plazo para completarla.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la mitad de un año natural."
+  },
+  {
+    "guid": "7504d361-4d4d-4ba0-9194-5ffb661265b8",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Si la iniciativa autonómica por la vía del artículo 143 no prospera, ¿cuánto tiempo debe transcurrir para poder reiterarla?",
+    "answerOptions": [
+      {
+        "text": "Cinco años",
+        "rationale": "La Constitución impone un periodo de 'enfriamiento' de cinco años para evitar la inestabilidad institucional recurrente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis meses",
+        "rationale": "Seis meses es el plazo para completar la iniciativa inicial, no para su repetición.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una legislatura completa",
+        "rationale": "Aunque coincide temporalmente en muchos casos, la norma especifica un número concreto de años.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos años",
+        "rationale": "Dos años es un plazo intermedio que no figura en las previsiones del artículo 143.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este número de años coincide con el tiempo mínimo de espera para ampliar competencias en la vía lenta."
+  },
+  {
+    "guid": "30916340-9549-47da-85f3-08f9a35b55fc",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 147 de la Constitución, ¿qué naturaleza jurídica tienen los Estatutos de Autonomía?",
+    "answerOptions": [
+      {
+        "text": "Leyes Orgánicas",
+        "rationale": "Los Estatutos son la norma institucional básica de la CCAA y deben ser aprobados como ley orgánica por las Cortes Generales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Leyes Ordinarias",
+        "rationale": "Debido a su importancia en la estructura del Estado, requieren un consenso mayor que una ley ordinaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decretos Legislativos",
+        "rationale": "Un decreto legislativo es una norma con rango de ley dictada por el Gobierno, no apta para la norma básica de una CCAA.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reglamentos estatales",
+        "rationale": "Los Estatutos forman parte del bloque de la constitucionalidad y están muy por encima del rango reglamentario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requieren mayoría absoluta en el Congreso para su aprobación final."
+  },
+  {
+    "guid": "9079f82e-9a64-45b6-a0f0-54c4ee89757d",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué principio impide que las diferencias entre Estatutos de Autonomía impliquen privilegios económicos o sociales?",
+    "answerOptions": [
+      {
+        "text": "Principio de Solidaridad",
+        "rationale": "El artículo 138.2 garantiza que la diversidad autonómica no se traduzca en desigualdades injustas entre ciudadanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de Autoorganización",
+        "rationale": "Este principio se refiere a la capacidad de la CCAA para crear sus instituciones, no al equilibrio entre ellas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Exclusividad",
+        "rationale": "La exclusividad trata sobre la titularidad de las materias, no sobre la igualdad socioeconómica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Supremacía",
+        "rationale": "La supremacía indica la posición de la Constitución sobre el resto de normas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca el equilibrio adecuado y justo entre las diversas partes del territorio."
+  },
+  {
+    "guid": "9abcbe50-ddbd-4aea-b71c-d29692912cab",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el requisito más característico de la vía rápida (Art. 151) que no se exige en la vía común?",
+    "answerOptions": [
+      {
+        "text": "La ratificación mediante referéndum",
+        "rationale": "La vía del 151 exige que la población de cada provincia afectada valide la iniciativa por mayoría absoluta.",
+        "isCorrect": true
+      },
+      {
+        "text": "La aprobación por el Senado",
+        "rationale": "Todas las leyes orgánicas, incluidos todos los Estatutos, pasan por el Senado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El acuerdo de las Diputaciones",
+        "rationale": "El acuerdo de las Diputaciones u órganos interinsulares es común a ambos procedimientos de iniciativa local.",
+        "isCorrect": false
+      },
+      {
+        "text": "La firma del Rey",
+        "rationale": "La sanción real es un requisito formal para todas las leyes del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Involucra una consulta directa a los ciudadanos del territorio afectado."
+  },
+  {
+    "guid": "45019e4a-553a-4f5f-be4f-7863e4451918",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano de las Comunidades Autónomas ejerce la función legislativa y el control del Consejo de Gobierno?",
+    "answerOptions": [
+      {
+        "text": "La Asamblea Legislativa",
+        "rationale": "También llamada Parlamento o Corts, es el órgano representativo que ostenta la potestad legislativa autonómica.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal Superior de Justicia",
+        "rationale": "Su función es jurisdiccional, no legislativa ni de control político del ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Delegado del Gobierno",
+        "rationale": "Es el representante del Estado en la CCAA, no forma parte de la organización propia de autogobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Consultivo",
+        "rationale": "Es un órgano de asesoramiento jurídico, carece de potestad para aprobar leyes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el equivalente autonómico a las Cortes Generales."
+  },
+  {
+    "guid": "290c5fac-3e41-4de4-886e-a4c3c57a41b1",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién elige al Presidente de una Comunidad Autónoma según el esquema del artículo 152?",
+    "answerOptions": [
+      {
+        "text": "La Asamblea Legislativa de entre sus miembros",
+        "rationale": "El Presidente debe ser un diputado de la propia Asamblea, reforzando el sistema parlamentario autonómico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los ciudadanos mediante sufragio directo",
+        "rationale": "En España, el sistema es parlamentario; los ciudadanos eligen a los legisladores, y estos al ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey por libre designación",
+        "rationale": "El Rey nombra al Presidente, pero su elección depende exclusivamente de la Asamblea.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Gobierno de la Nación",
+        "rationale": "Esto vulneraría la autonomía política reconocida a las Comunidades Autónomas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La elección es interna al órgano legislativo de la comunidad."
+  },
+  {
+    "guid": "9ddb58f7-89cc-4fb4-a1e7-4426d5e32179",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con las materias no asumidas expresamente por una Comunidad Autónoma en su Estatuto?",
+    "answerOptions": [
+      {
+        "text": "Su competencia corresponde al Estado",
+        "rationale": "Es la denominada cláusula residual a favor del Estado establecida en el artículo 149.3.",
+        "isCorrect": true
+      },
+      {
+        "text": "Pasan a ser competencia municipal",
+        "rationale": "Los municipios tienen competencias tasadas por ley, no reciben las sobrantes del sistema autonómico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Quedan en suspenso hasta una reforma constitucional",
+        "rationale": "El sistema asegura que siempre haya una administración responsable para evitar vacíos legales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se reparten al 50% entre Estado y CCAA",
+        "rationale": "La Constitución establece una atribución clara a favor del Estado para estas materias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El Estado actúa como titular por defecto si no hay asunción estatutaria."
+  },
+  {
+    "guid": "6f322495-47b0-49e8-9a12-401534e54544",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función principal del Tribunal Superior de Justicia en el ámbito autonómico?",
+    "answerOptions": [
+      {
+        "text": "Culminar la organización judicial en el territorio de la CCAA",
+        "rationale": "Es el órgano jurisdiccional de mayor rango dentro de la comunidad, sin perjuicio de la unidad del Poder Judicial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Controlar la constitucionalidad de las leyes autonómicas",
+        "rationale": "Esta es una competencia exclusiva del Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nombrar a los jueces de paz",
+        "rationale": "El nombramiento de jueces sigue procesos reglados por el CGPJ o leyes específicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resolver conflictos de límites entre municipios",
+        "rationale": "Aunque puede juzgar casos relacionados, su definición constitucional es la cúspide judicial territorial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se define como el órgano que finaliza la estructura judicial en dicho territorio."
+  },
+  {
+    "guid": "b781cebe-e0bc-4ed3-95e2-811b2118b200",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En caso de conflicto, ¿cuál es la regla de prevalencia sobre las normas de las Comunidades Autónomas?",
+    "answerOptions": [
+      {
+        "text": "Las normas del Estado prevalecen en todo lo no atribuido a la exclusiva competencia de la CCAA",
+        "rationale": "Esta cláusula de prevalencia del artículo 149.3 resuelve colisiones normativas temporales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las normas autonómicas siempre prevalecen por ser más cercanas al ciudadano",
+        "rationale": "La cercanía no es un criterio de jerarquía normativa en el sistema de distribución de competencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prevalece la norma más reciente en el tiempo",
+        "rationale": "El criterio cronológico solo se aplica entre normas del mismo rango y administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prevalece siempre la norma de la CCAA si el conflicto es en su territorio",
+        "rationale": "La prevalencia estatal es la regla general salvo en competencias exclusivas autonómicas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Depende de si la competencia es o no exclusiva de la comunidad."
+  },
+  {
+    "guid": "211a8f7d-45cc-4a32-8743-55461ab366a4",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué ley puede autorizar la constitución de una CCAA para territorios que no estén integrados en la organización provincial?",
+    "answerOptions": [
+      {
+        "text": "Una Ley Orgánica aprobada por las Cortes Generales",
+        "rationale": "El artículo 144 permite a las Cortes intervenir mediante Ley Orgánica en casos especiales por interés nacional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un Decreto-Ley del Gobierno",
+        "rationale": "Los Decretos-Leyes no pueden afectar a la organización de las instituciones básicas del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una Ley de la CCAA limítrofe",
+        "rationale": "Una comunidad no tiene potestad para crear otra comunidad autónoma.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una resolución del Tribunal Supremo",
+        "rationale": "La creación de entidades políticas es una función legislativa, no judicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere el máximo nivel de consenso parlamentario para este supuesto del artículo 144."
+  },
+  {
+    "guid": "803f8a34-675e-4cf4-a2e2-bd0616260701",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 149.3, ¿qué carácter tiene el Derecho estatal respecto al de las Comunidades Autónomas?",
+    "answerOptions": [
+      {
+        "text": "Carácter supletorio",
+        "rationale": "El Derecho estatal se aplica en defecto de regulación propia de la comunidad para evitar lagunas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Carácter jerárquicamente superior en toda materia",
+        "rationale": "En competencias exclusivas autonómicas, el Derecho estatal no es superior, simplemente no es aplicable directamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Carácter orientativo no vinculante",
+        "rationale": "Las normas estatales son de obligado cumplimiento si se dan las condiciones de supletoriedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Carácter nulo si existe norma autonómica",
+        "rationale": "La norma estatal sigue siendo válida, pero queda desplazada por la autonómica en su ámbito.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Interviene cuando una CCAA no ha regulado sobre una materia de su competencia."
+  },
+  {
+    "guid": "9e9c0a0f-3e2c-4a08-8ab6-63ec2abbd7ba",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de las siguientes es una materia de competencia exclusiva del Estado según el artículo 149.1?",
+    "answerOptions": [
+      {
+        "text": "Defensa y Fuerzas Armadas",
+        "rationale": "Son competencias nucleares que fundamentan la existencia misma del Estado y su unidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Artesanía y ferias interiores",
+        "rationale": "Estas materias suelen ser de competencia exclusiva de las Comunidades Autónomas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Asistencia social",
+        "rationale": "La asistencia social es una materia clásica gestionada directamente por las CCAA.",
+        "isCorrect": false
+      },
+      {
+        "text": "Promoción del deporte y del ocio",
+        "rationale": "Es una competencia que el artículo 148 permite asumir plenamente a las comunidades.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en funciones que son vitales para la soberanía exterior e interior del país."
+  },
+  {
+    "guid": "b19604b6-bf94-4faa-9f2b-d89dbc65450b",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la vía de acceso del artículo 143, ¿cuántos años deben pasar para que la CCAA pueda ampliar sus competencias mediante reforma del Estatuto?",
+    "answerOptions": [
+      {
+        "text": "Cinco años",
+        "rationale": "Este periodo permite consolidar el autogoverno inicial antes de asumir nuevas responsabilidades.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dos años",
+        "rationale": "Es un plazo insuficiente para evaluar la gestión de las competencias iniciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez años",
+        "rationale": "Aunque es un plazo seguro, la Constitución permite la ampliación mucho antes.",
+        "isCorrect": false
+      },
+      {
+        "text": "No hay plazo de espera",
+        "rationale": "Solo la vía rápida (151) permite asumir el máximo nivel desde el principio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo número de años que impide reiterar una iniciativa fallida."
+  },
+  {
+    "guid": "c667edd2-0847-4c7f-b7ab-d11fc0ec2743",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué territorios pudieron acceder a la autonomía mediante la Disposición Transitoria Segunda de la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Aquellos que hubiesen plebiscitado afirmativamente Estatutos en el pasado",
+        "rationale": "Se refiere a las 'nacionalidades históricas' (Cataluña, País Vasco y Galicia) que ya tenían antecedentes de autogobierno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Todas las provincias uniprovinciales",
+        "rationale": "Las uniprovinciales siguieron generalmente la vía del artículo 144 o la lenta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo los archipiélagos",
+        "rationale": "Los territorios insulares tienen sus propias reglas pero no todas cumplen la condición de la DT 2ª.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier región que lo solicitara por mayoría simple",
+        "rationale": "La DT 2ª es una vía excepcional para territorios con regímenes provisionales previos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Esta vía está reservada a las llamadas 'nacionalidades históricas'."
+  },
+  {
+    "guid": "1eb17ef6-f009-4738-b20d-0df373ad5b74",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué establece el principio de libre circulación del artículo 139.2?",
+    "answerOptions": [
+      {
+        "text": "Ninguna autoridad puede obstaculizar la circulación de personas y bienes",
+        "rationale": "Este límite a la autonomía garantiza la unidad del mercado y la libertad individual en todo el territorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las CCAA pueden cobrar peajes en sus fronteras regionales",
+        "rationale": "Esto sería un obstáculo directo a la libre circulación prohibido por la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "La circulación solo es libre para ciudadanos españoles",
+        "rationale": "El precepto habla de personas y bienes en general, protegiendo el tráfico jurídico y económico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Permite restringir el paso de bienes si hay crisis económica regional",
+        "rationale": "La unidad de mercado prevalece incluso en situaciones de crisis regional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Impide medidas que directa o indirectamente fragmenten el territorio nacional."
+  },
+  {
+    "guid": "0040d818-7af1-442e-9c79-aee163d0d54d",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la estructura interna habitual del Consejo de Gobierno autonómico?",
+    "answerOptions": [
+      {
+        "text": "Un Presidente y los Consejeros",
+        "rationale": "Es el esquema clásico que reproduce la estructura del Gobierno de la Nación (Presidente y Ministros).",
+        "isCorrect": true
+      },
+      {
+        "text": "Un Gobernador Civil y delegados",
+        "rationale": "Esta es una terminología obsoleta y propia de una administración centralizada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo Consejeros elegidos por sorteo",
+        "rationale": "La elección es política y basada en la confianza parlamentaria, no azarosa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una asamblea de alcaldes de la región",
+        "rationale": "El Consejo de Gobierno es un órgano ejecutivo, no una asamblea de representantes locales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sigue un modelo jerárquico similar al Gobierno estatal."
+  },
+  {
+    "guid": "befd75db-d77a-48de-9fed-355cd84b7bee",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de la Generalitat de Cataluña, ¿qué norma regula la presidencia y el Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Ley 13/2008, de 5 de noviembre",
+        "rationale": "Es la norma específica que desarrolla la estructura del ejecutivo catalán dentro del marco estatutario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley de Enjuiciamiento Civil",
+        "rationale": "Esta es una ley estatal de carácter procesal, no organizativa autonómica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley de Bases de Régimen Local",
+        "rationale": "Regula municipios y provincias, no la presidencia de una comunidad autónoma.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Constitución de forma exclusiva",
+        "rationale": "La Constitución da el marco general, pero cada CCAA dicta sus propias leyes de organización.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una ley autonómica aprobada en el año 2008."
+  },
+  {
+    "guid": "fd6c3b94-d7b1-45ac-86c9-2ee85b064e7e",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede si una Comunidad Autónoma no incluye una competencia del artículo 148 en su Estatuto?",
+    "answerOptions": [
+      {
+        "text": "El Estado continúa ejerciéndola",
+        "rationale": "Las competencias del 148 son potestativas; si no se asumen, la titularidad permanece en el Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "La competencia desaparece por desuso",
+        "rationale": "En derecho público, las competencias son irrenunciables y siempre deben tener un titular activo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se asigna automáticamente a la provincia",
+        "rationale": "Las provincias tienen sus propias competencias legales, no heredan las no asumidas por la CCAA.",
+        "isCorrect": false
+      },
+      {
+        "text": "La CCAA es sancionada por el Senado",
+        "rationale": "Asumir competencias es un derecho, no una obligación impuesta bajo sanción.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde que la asunción de estas materias es una potestad, no un mandato."
+  },
+  {
+    "guid": "1c0c1e23-ebec-46c6-87b8-d635cea56e7e",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el objetivo de las Leyes Marco previstas en el artículo 150.1?",
+    "answerOptions": [
+      {
+        "text": "Atribuir a las CCAA la facultad de dictar normas sobre materias estatales",
+        "rationale": "Permiten una delegación legislativa dentro de unos principios y directrices fijados por el Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Unificar todos los Estatutos de Autonomía",
+        "rationale": "Las leyes marco no buscan la homogeneidad total, sino ampliar capacidades puntuales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Limitar el poder de los ayuntamientos",
+        "rationale": "Su ámbito es la relación Estado-CCAA, no el régimen local municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Declarar el estado de alarma regional",
+        "rationale": "Esto se regula por Ley Orgánica específica y depende de situaciones de emergencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son instrumentos para que la CCAA legisle sobre temas que no son de su competencia original."
+  },
+  {
+    "guid": "cf805c08-5e12-4240-af03-008216129d48",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué institución puede interponer un recurso de inconstitucionalidad contra leyes del Estado?",
+    "answerOptions": [
+      {
+        "text": "La Asamblea Legislativa y el Consejo de Gobierno de la CCAA",
+        "rationale": "Los órganos superiores autonómicos están legitimados para defender sus competencias ante el Tribunal Constitucional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier ciudadano residente en la comunidad",
+        "rationale": "El recurso de inconstitucionalidad está restringido a ciertos órganos públicos, no a particulares.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo el Tribunal Superior de Justicia regional",
+        "rationale": "El TSJ puede plantear cuestiones de inconstitucionalidad, pero no interponer el recurso directo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Delegado del Gobierno en la comunidad",
+        "rationale": "El Delegado representa al Estado; no suele impugnar leyes de la administración a la que pertenece.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son los órganos legislativo y ejecutivo de la Comunidad Autónoma."
+  },
+  {
+    "guid": "08e6d948-b43b-4c4b-bcb2-37c5aa243c70",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué mayoría se requiere para aprobar un Estatuto de Autonomía en el Congreso de los Diputados?",
+    "answerOptions": [
+      {
+        "text": "Mayoría absoluta",
+        "rationale": "Al ser leyes orgánicas, requieren el voto favorable de la mitad más uno del total de diputados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría simple",
+        "rationale": "La mayoría simple solo se exige para leyes ordinarias, no para el bloque de constitucionalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos tercios de la cámara",
+        "rationale": "Esta mayoría se reserva para reformas constitucionales o nombramientos especiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad",
+        "rationale": "La unanimidad no es un requisito para la aprobación de leyes en el sistema democrático español.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la mayoría exigida para cualquier Ley Orgánica según el artículo 81 CE."
+  },
+  {
+    "guid": "d292e8b0-7f0a-477d-8bfb-fc84b0f26523",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A quién corresponde la dirección del Consejo de Gobierno en una Comunidad Autónoma?",
+    "answerOptions": [
+      {
+        "text": "Al Presidente de la Comunidad Autónoma",
+        "rationale": "Ostenta la máxima responsabilidad ejecutiva y dirige la política de la comunidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Presidente de la Asamblea Legislativa",
+        "rationale": "Su función es dirigir el órgano legislativo, manteniendo la separación de poderes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Rey",
+        "rationale": "El Rey ejerce funciones simbólicas y de arbitrio, no funciones ejecutivas de dirección política.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Consejero de Presidencia",
+        "rationale": "Es un colaborador del Presidente, pero no ostenta la dirección suprema del órgano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la persona que ha sido investida por la Asamblea."
+  },
+  {
+    "guid": "95bda930-ce1b-411c-9f60-506ac15d905d",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la organización administrativa catalana, ¿qué representan los Delegados territoriales del Gobierno?",
+    "answerOptions": [
+      {
+        "text": "Representan al Gobierno de la Generalitat en sus demarcaciones",
+        "rationale": "Son la extensión del ejecutivo autonómico en los diferentes territorios o veguerías de la comunidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Son los representantes del Gobierno de la Nación",
+        "rationale": "Esa función corresponde al Delegado del Gobierno en Cataluña, una figura distinta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son los alcaldes de las capitales de provincia",
+        "rationale": "Son cargos de confianza política del gobierno autonómico, no cargos electos municipales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son observadores internacionales",
+        "rationale": "Forman parte de la estructura administrativa activa de la propia Generalitat.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son figuras que acercan la gestión del gobierno regional a cada zona local."
+  },
+  {
+    "guid": "0714d91f-e498-4893-a9aa-85c9d451c675",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué principio obliga a las administraciones a intercambiar información y planes de cooperación?",
+    "answerOptions": [
+      {
+        "text": "Principio de Cooperación",
+        "rationale": "La lealtad institucional exige que Estado y CCAA trabajen conjuntamente en materias compartidas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de Competitividad",
+        "rationale": "Las administraciones deben colaborar para el interés general, no competir entre sí.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Jerarquía",
+        "rationale": "El Estado y las CCAA son autónomos; sus relaciones no son de jerarquía sino de competencia y colaboración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Inmunidad",
+        "rationale": "Todas las administraciones están sujetas a control y deben rendir cuentas mutuamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es consubstancial a cualquier modelo de descentralización política moderna."
+  },
+  {
+    "guid": "3c7bc055-5d2e-43a7-8378-1dba8edb53d3",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la duración normal de la legislatura de una Asamblea Legislativa autonómica?",
+    "answerOptions": [
+      {
+        "text": "Cuatro años",
+        "rationale": "Coincide con el periodo estándar de representación democrática en los niveles estatal y local.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cinco años",
+        "rationale": "Este plazo es común en el Parlamento Europeo, pero no en las instituciones españolas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis años",
+        "rationale": "Es un periodo inusualmente largo para un órgano legislativo en el sistema actual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos años",
+        "rationale": "Provocaría una inestabilidad electoral excesiva y dificultaría la planificación política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo periodo que transcurre entre elecciones generales."
+  },
+  {
+    "guid": "e33b82c5-971e-437a-90f1-f5be923cb4cc",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano autonómico equivale funcionalmente al Defensor del Pueblo estatal?",
+    "answerOptions": [
+      {
+        "text": "El Síndic de Greuges (u órganos similares)",
+        "rationale": "Muchas CCAA han creado sus propias figuras para supervisar la administración regional y proteger derechos.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal de Cuentas",
+        "rationale": "Su función es fiscalizar la gestión económica, no proteger derechos ciudadanos frente a abusos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Sindicatura de Cuentas",
+        "rationale": "Es el órgano equivalente al Tribunal de Cuentas, centrado en el control financiero.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Fiscal Superior",
+        "rationale": "Forma parte del Ministerio Fiscal, cuya estructura es única y estatal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "En Cataluña recibe este nombre histórico y específico."
+  },
+  {
+    "guid": "41312369-8568-4c70-a247-f0e992182f7e",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la diferencia técnica entre 'competencia exclusiva' y 'competencia compartida'?",
+    "answerOptions": [
+      {
+        "text": "En la compartida, el Estado suele fijar las bases y la CCAA el desarrollo y ejecución",
+        "rationale": "Es el modelo más común donde se divide la potestad normativa entre dos niveles.",
+        "isCorrect": true
+      },
+      {
+        "text": "En la compartida, dos CCAA gestionan juntas el mismo territorio",
+        "rationale": "La competencia compartida es siempre entre el Estado y una o varias CCAA.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la exclusiva, la CCAA no puede gastar dinero en esa materia",
+        "rationale": "La exclusividad implica que todas las funciones (legislativa y ejecutiva) corresponden al mismo ente.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe diferencia, son términos sinónimos en la Constitución",
+        "rationale": "La doctrina y el TC distinguen claramente ambos conceptos para evitar conflictos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en quién dicta las leyes básicas y quién las desarrolla."
+  },
+  {
+    "guid": "bd7ece8e-55a3-46ca-ae62-85e7cf922bce",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo se denominan las leyes mediante las cuales el Estado transfiere o delega facultades sobre materias estatales a las CCAA?",
+    "answerOptions": [
+      {
+        "text": "Leyes Orgánicas de Transferencia o Delegación",
+        "rationale": "Previstas en el artículo 150.2, requieren Ley Orgánica y prever la transferencia de medios financieros.",
+        "isCorrect": true
+      },
+      {
+        "text": "Leyes de Armonización",
+        "rationale": "Las leyes de armonización (150.3) sirven para limitar la autonomía en favor del interés general, no para ampliarla.",
+        "isCorrect": false
+      },
+      {
+        "text": "Leyes de Bases",
+        "rationale": "Son instrumentos para que el Gobierno dicte decretos legislativos, no para transferir competencias autonómicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Leyes de Presupuestos",
+        "rationale": "Tienen una vigencia anual y un contenido estrictamente económico, no de atribución competencial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Están recogidas en el segundo apartado del artículo 150 CE."
+  },
+  {
+    "guid": "ef77a95e-d0a0-4797-842d-597c0034eea6",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de Navarra, ¿quién tiene la iniciativa para su incorporación al régimen autonómico vasco?",
+    "answerOptions": [
+      {
+        "text": "El Órgano Foral competente",
+        "rationale": "La Disposición Transitoria Cuarta establece un procedimiento singular basado en el acuerdo del parlamento foral.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente del Gobierno de España",
+        "rationale": "Sería una injerencia en la autonomía foral protegida por la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ayuntamiento de Pamplona exclusivamente",
+        "rationale": "La decisión corresponde a la institución que representa a todo el territorio navarro.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un comité de expertos juristas",
+        "rationale": "Es una decisión de carácter político y democrático, no técnica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Esta previsión específica se encuentra en la Disposición Transitoria Cuarta."
+  },
+  {
+    "guid": "bcb7453e-cacd-4f7f-b4c6-69cc2dd4e5ea",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué principio garantiza que todos los españoles tengan los mismos derechos en cualquier parte del territorio?",
+    "answerOptions": [
+      {
+        "text": "Principio de Igualdad",
+        "rationale": "Establecido en el artículo 139.1, asegura una base mínima común de ciudadanía en todo el Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de Autonomía",
+        "rationale": "La autonomía permite la diferencia, mientras que la igualdad del 139 establece los límites a esa diferencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Laicidad",
+        "rationale": "Se refiere a la separación entre Iglesia y Estado, no a la igualdad territorial de derechos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Eficiencia",
+        "rationale": "Es un principio de gestión administrativa, no un derecho fundamental del ciudadano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Acompaña al principio de solidaridad y se recoge en el artículo 139."
+  },
+  {
+    "guid": "c6806154-f58f-4b97-9ca2-ae8af549f890",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién ostenta la suprema representación de la Comunidad Autónoma y la ordinaria del Estado en ella?",
+    "answerOptions": [
+      {
+        "text": "El Presidente de la Comunidad Autónoma",
+        "rationale": "Esta doble representación subraya la integración de la CCAA en la estructura global del Estado español.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Delegado del Gobierno",
+        "rationale": "El Delegado solo representa al Gobierno de la Nación, no a la propia Comunidad Autónoma.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Tribunal Superior de Justicia",
+        "rationale": "Su representación es institucional dentro del Poder Judicial, no política del Estado o la CCAA.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey",
+        "rationale": "El Rey es el Jefe del Estado en su conjunto, no ostenta la representación ordinaria diaria en cada comunidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la figura política de mayor rango elegida localmente."
+  },
+  {
+    "guid": "c0a34470-a064-43f2-83f7-03a9601657e8",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de estos órganos realiza la fiscalización externa de las cuentas de la Generalitat?",
+    "answerOptions": [
+      {
+        "text": "La Sindicatura de Cuentas",
+        "rationale": "Es el órgano técnico encargado de revisar la legalidad y eficiencia del gasto público autonómico.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Intervención General",
+        "rationale": "La Intervención realiza control interno; la fiscalización externa es propia de órganos legislativos o independientes.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo Económico y Social",
+        "rationale": "Es un órgano consultivo sobre materias socioeconómicas, no de control contable.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Banco de España",
+        "rationale": "Tiene funciones de política monetaria y supervisión bancaria, no de auditoría de gobiernos regionales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el equivalente regional al Tribunal de Cuentas estatal."
+  },
+  {
+    "guid": "df530fd7-9785-4135-8930-35d54efecb4a",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué mayoría se necesita en los municipios para iniciar la vía del artículo 151 (vía rápida)?",
+    "answerOptions": [
+      {
+        "text": "Tres cuartas partes de los municipios afectados",
+        "rationale": "Se exige un consenso municipal mucho mayor ($75\\%$) que en la vía ordinaria ($66\\%$).",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría simple",
+        "rationale": "La relevancia de acceder a la autonomía plena exige un respaldo local muy robusto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad de los ayuntamientos",
+        "rationale": "Exigir unanimidad haría prácticamente imposible el proceso ante cualquier oposición menor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres quintas partes",
+        "rationale": "Esta mayoría no se contempla para la iniciativa autonómica municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una mayoría más cualificada que la de la vía lenta."
+  },
+  {
+    "guid": "678a51cd-a872-4776-9e3d-ba5fd419915b",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la vía rápida del artículo 151, ¿quién convoca a los parlamentarios para elaborar el proyecto de Estatuto?",
+    "answerOptions": [
+      {
+        "text": "El Gobierno de la Nación",
+        "rationale": "Una vez ratificada la iniciativa por referéndum, el Gobierno central debe llamar a la Asamblea de Parlamentarios.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente de la Diputación",
+        "rationale": "Su papel es crucial en la iniciativa, pero la convocatoria legislativa formal recae en el Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rey directamente",
+        "rationale": "El Rey firma los decretos de convocatoria, pero la responsabilidad del acto es del Gobierno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente de las Cortes Generales",
+        "rationale": "La convocatoria inicial para redactar el borrador es una función ejecutiva de impulso al proceso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano ejecutivo central quien da el siguiente paso tras el referéndum."
+  },
+  {
+    "guid": "46c75cd8-9100-44a9-98d4-0233c34ea574",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué comunidad autónoma accedió a la autonomía por la vía especial habilitada tras un referéndum fallido en una de sus provincias?",
+    "answerOptions": [
+      {
+        "text": "Andalucía",
+        "rationale": "En Almería no se alcanzó la mayoría absoluta inicial, lo que requirió una solución legal posterior para validar el proceso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Madrid",
+        "rationale": "Madrid accedió por la vía del artículo 144 debido a su interés nacional como capital.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cantabria",
+        "rationale": "Siguió la vía común o lenta del artículo 143.",
+        "isCorrect": false
+      },
+      {
+        "text": "Canarias",
+        "rationale": "Su proceso fue distinto y basado en su condición ultraperiférica e insular.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la comunidad más poblada de España y tuvo problemas en Almería."
+  },
+  {
+    "guid": "7ffc4006-503a-4bc2-8f67-13eb81b54382",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué tipo de leyes permiten al Estado dictar principios para armonizar las disposiciones normativas de las CCAA?",
+    "answerOptions": [
+      {
+        "text": "Leyes de Armonización",
+        "rationale": "Previstas en el artículo 150.3 para casos donde el interés general lo exija, previa apreciación por mayoría absoluta de las Cámaras.",
+        "isCorrect": true
+      },
+      {
+        "text": "Leyes de Presupuestos Generales",
+        "rationale": "No tienen como fin la armonización de competencias, sino la planificación financiera anual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Leyes Marco",
+        "rationale": "Las leyes marco delegan poder, mientras que las de armonización limitan o encauzan el ya existente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decretos de Urgencia",
+        "rationale": "La armonización es un proceso legislativo complejo que no puede hacerse por vía de urgencia gubernamental.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se utilizan cuando el interés general del Estado se ve afectado por la diversidad normativa regional."
+  },
+  {
+    "guid": "c5675ff7-e863-486a-8e6e-830b2b4c712e",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el sistema español, ¿puede una Comunidad Autónoma legislar sobre materias de Seguridad Pública?",
+    "answerOptions": [
+      {
+        "text": "Solo en los términos que establezca una Ley Orgánica y sus propios Estatutos",
+        "rationale": "El artículo 149.1.29 reserva la seguridad pública al Estado, pero permite la creación de policías autónomas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sí, de forma plena y sin límites",
+        "rationale": "La seguridad es una competencia estatal compartida o delegable, no absoluta de la región.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, es una competencia exclusiva e intransferible del Estado",
+        "rationale": "Aunque es exclusiva del Estado, la propia Constitución prevé la posibilidad de policías autonómicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo puede gestionar la seguridad privada",
+        "rationale": "Las CCAA con competencias asumen funciones de orden público y policía integral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la existencia de cuerpos como los Mossos d'Esquadra o la Ertzaintza."
+  },
+  {
+    "guid": "6f62dba7-8046-49c3-9473-4444dbea03f3",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano garantiza el equilibrio económico, adecuado y justo entre las diversas partes del territorio español?",
+    "answerOptions": [
+      {
+        "text": "El Estado",
+        "rationale": "Según el artículo 138.1, el Estado es el garante de que la autonomía no genere desequilibrios insostenibles.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Unión Europea",
+        "rationale": "Aunque ayuda mediante fondos, la obligación constitucional recae sobre las instituciones españolas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Banco de España",
+        "rationale": "Sus funciones son técnicas y financieras, no de garantía política del equilibrio regional.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Conferencia de Presidentes",
+        "rationale": "Es un órgano de cooperación, pero la responsabilidad última es constitucionalmente del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la entidad que vela por el principio de solidaridad a nivel nacional."
+  },
+  {
+    "guid": "5c517e08-1a47-4c38-a79c-5505e1b55d9d",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la norma que delimita el territorio de cada Comunidad Autónoma?",
+    "answerOptions": [
+      {
+        "text": "Su propio Estatuto de Autonomía",
+        "rationale": "El artículo 147.2 exige que el Estatuto defina claramente el ámbito geográfico de la comunidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un mapa anexo a la Constitución",
+        "rationale": "La Constitución no fijó un mapa cerrado, dejando que el proceso autonómico lo definiera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un acuerdo entre las capitales de provincia",
+        "rationale": "Los límites territoriales son materia de ley orgánica, no de simples pactos municipales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una ley de geografía estatal",
+        "rationale": "La delimitación es contenido obligatorio de cada norma institucional básica regional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Forma parte del contenido mínimo obligatorio de la norma básica regional."
+  },
+  {
+    "guid": "389ba61d-6428-4013-8071-eafa4ad74831",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué mayoría se requiere para que el Órgano Foral de Navarra adopte la iniciativa de incorporación al País Vasco?",
+    "answerOptions": [
+      {
+        "text": "Mayoría de los miembros que lo componen",
+        "rationale": "La Disposición Transitoria Cuarta exige mayoría absoluta de la cámara foral para iniciar este proceso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dos tercios de los votos",
+        "rationale": "Es una mayoría muy alta que no se exige para esta iniciativa en concreto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría simple de los presentes",
+        "rationale": "Un cambio de tal relevancia institucional requiere un respaldo reforzado de la totalidad del órgano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad de los grupos políticos",
+        "rationale": "La unanimidad bloquearía el ejercicio democrático ante cualquier disidencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo concepto que la mayoría absoluta de los integrantes."
+  },
+  {
+    "guid": "699836a1-3c9a-4847-92f8-7ac0ceabd2dc",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucede con las facultades legislativas de las CCAA en el ámbito de las leyes marco (150.1)?",
+    "answerOptions": [
+      {
+        "text": "Deben ajustarse a los principios y directrices fijados por la ley estatal",
+        "rationale": "La ley marco actúa como un límite y guía para que el parlamento autonómico desarrolle la materia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Son totalmente libres para legislar como quieran",
+        "rationale": "Al ser una competencia estatal delegada, el Estado conserva la capacidad de fijar el marco general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo pueden dictar reglamentos, no leyes",
+        "rationale": "El artículo 150.1 habla específicamente de 'normas legislativas', es decir, leyes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Requieren el permiso previo del Rey para cada ley",
+        "rationale": "El control es parlamentario y judicial, no mediante autorización real previa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El nombre de la propia ley indica que se establece un contorno o 'marco'."
+  },
+  {
+    "guid": "648ee9dd-2e2d-4a73-998a-f5cc5c245728",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A quién corresponde sancionar y promulgar las leyes autonómicas?",
+    "answerOptions": [
+      {
+        "text": "Al Presidente de la Comunidad Autónoma en nombre del Rey",
+        "rationale": "Aunque el Rey es el titular de la función, la delega en el representante ordinario del Estado en la región.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Rey personalmente en el Palacio de la Zarzuela",
+        "rationale": "Dada la cantidad de leyes autonómicas, esta función se delega por operatividad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Presidente del Parlamento regional",
+        "rationale": "El Presidente del Parlamento las firma tras su aprobación, pero la sanción formal es ejecutiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Justicia de Aragón (u órgano equivalente)",
+        "rationale": "Es una figura de protección de derechos, no tiene funciones de sanción legislativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se realiza por delegación del monarca."
+  },
+  {
+    "guid": "d5de7cf1-952a-491b-97a5-046589abe982",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el reparto de competencias, ¿qué significa que una materia esté bajo la 'legislación exclusiva del Estado'?",
+    "answerOptions": [
+      {
+        "text": "Que solo las Cortes Generales pueden dictar leyes sobre ella",
+        "rationale": "La CCAA no puede legislar, aunque en algunos casos podría asumir funciones puramente ejecutivas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el Estado también gestiona las nóminas de los funcionarios autonómicos en ese área",
+        "rationale": "La competencia legislativa es distinta de la gestión administrativa interna de cada ente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que la materia no existe para las Comunidades Autónomas",
+        "rationale": "La materia existe y afecta a los ciudadanos, pero su regulación es uniforme para toda España.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que se requiere el acuerdo de todas las CCAA para cambiar la ley",
+        "rationale": "Si es exclusiva del Estado, las Cortes Generales deciden sin necesidad de pacto previo obligatorio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Afecta a la titularidad de la potestad normativa superior."
+  },
+  {
+    "guid": "9d32b827-6576-4cba-84ac-82c758982c5a",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función del Delegado del Gobierno según el artículo 154?",
+    "answerOptions": [
+      {
+        "text": "Dirigir la administración del Estado en el territorio de la CCAA",
+        "rationale": "Coordina los servicios estatales con la administración propia de la comunidad autónoma.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir al Presidente regional en caso de enfermedad",
+        "rationale": "El Presidente autonómico es sustituido según lo que establezca su Estatuto, normalmente por un Vicepresidente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Votar en el parlamento autonómico",
+        "rationale": "No es miembro de la cámara legislativa; su cargo es de carácter administrativo y representativo estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprobar los presupuestos de la Comunidad Autónoma",
+        "rationale": "El presupuesto es una competencia soberana del legislativo regional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el enlace entre la administración central y la regional."
+  },
+  {
+    "guid": "9ef2aaf6-8da6-453c-a871-1e9351eb56f7",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué comunidad se constituyó bajo el amparo de la Disposición Adicional Primera y la LO 13/1982?",
+    "answerOptions": [
+      {
+        "text": "Navarra",
+        "rationale": "Su régimen se basa en el 'Amillorament' del Fuero, respetando sus derechos históricos particulares.",
+        "isCorrect": true
+      },
+      {
+        "text": "País Vasco",
+        "rationale": "Accedió por la Disposición Transitoria Segunda como nacionalidad histórica.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Rioja",
+        "rationale": "Siguió el proceso estándar de las comunidades uniprovinciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Canarias",
+        "rationale": "Su ley orgánica es un Estatuto de Autonomía de vía ordinaria reformada.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene una denominación específica de 'Comunidad Foral'."
+  },
+  {
+    "guid": "2d7b6bbc-b834-439a-9cf5-0186a0c8770a",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién controla la actividad de los órganos de las Comunidades Autónomas en lo relativo a la administración autónoma y sus normas reglamentarias?",
+    "answerOptions": [
+      {
+        "text": "La jurisdicción contencioso-administrativa",
+        "rationale": "Los tribunales ordinarios revisan la legalidad de los actos y reglamentos de los gobiernos regionales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Congreso de los Diputados",
+        "rationale": "El Congreso ejerce control político, pero no es el órgano de control legal ordinario de los reglamentos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministerio del Interior",
+        "rationale": "La administración autonómica no está jerárquicamente subordinada a un ministerio estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Guardia Civil",
+        "rationale": "Es un cuerpo de seguridad, carece de funciones de control jurídico sobre la administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la rama del poder judicial encargada de controlar a la administración."
+  }
+]

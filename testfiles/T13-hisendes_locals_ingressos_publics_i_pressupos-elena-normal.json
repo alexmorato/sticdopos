@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "326cd3c9-1e05-40d5-b77a-c0d3b2848d9c",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el caso de delegación de facultades de gestión y recaudación en una comunidad autónoma, ¿dónde debe publicarse el acuerdo una vez aceptado por el órgano de gobierno correspondiente?",
+    "answerOptions": [
+      {
+        "text": "Únicamente en el Boletín Oficial del Estado para asegurar la fe pública nacional.",
+        "rationale": "La ley especifica un ámbito de publicidad más cercano a la entidad local delegante y al territorio de la entidad delegada.",
+        "isCorrect": false
+      },
+      {
+        "text": "En los Boletines Oficiales de la Provincia y de la Comunidad Autónoma.",
+        "rationale": "Según el TRLRHL, la publicación en ambos boletines oficiales es requisito indispensable para el general conocimiento tras la aceptación del Pleno.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exclusivamente en el tablón de anuncios de la corporación local durante sesenta días.",
+        "rationale": "Aunque el tablón es un medio de publicidad, la delegación de competencias normativas y de gestión exige una publicación oficial en diarios de mayor rango.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el diario de mayor difusión de la capital de España y en el Boletín Oficial de la Provincia.",
+        "rationale": "No existe el requisito de publicación en diarios de difusión nacional para acuerdos de delegación entre entes locales o autonómicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la jerarquía territorial de las administraciones implicadas en la delegación."
+  },
+  {
+    "guid": "5c231925-3ff2-4ea5-a825-62f0be1f5583",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el artículo 17 del TRLRHL, ¿cuál es el plazo mínimo de exposición pública de los acuerdos provisionales de ordenanzas fiscales?",
+    "answerOptions": [
+      {
+        "text": "15 días hábiles a partir de la publicación del anuncio en el Boletín Oficial correspondiente.",
+        "rationale": "Este plazo suele aplicarse a la aprobación inicial del presupuesto general, pero no al procedimiento específico de las ordenanzas fiscales.",
+        "isCorrect": false
+      },
+      {
+        "text": "30 días, dentro de los cuales los interesados podrán examinar el expediente y presentar reclamaciones.",
+        "rationale": "La ley establece taxativamente un periodo mínimo de treinta días para garantizar el derecho de los interesados a la impugnación o examen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un mes natural, independientemente de si los días son hábiles o inhábiles.",
+        "rationale": "La normativa especifica el plazo en días, lo cual difiere del cómputo por meses en cuanto a la determinación exacta del vencimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "20 días de exposición pública tras el acuerdo adoptado por la Comisión de Gobierno.",
+        "rationale": "El plazo de 20 días no se corresponde con lo regulado para la publicidad y participación ciudadana en materia tributaria local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este plazo es el doble del requerido habitualmente para el presupuesto general."
+  },
+  {
+    "guid": "23bb8d6f-5bb6-463c-a577-d7670ebb36d9",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Si no se presentan reclamaciones contra un acuerdo provisional de ordenanza fiscal durante el periodo de exposición, ¿qué sucede legalmente?",
+    "answerOptions": [
+      {
+        "text": "El Pleno debe reunirse obligatoriamente para ratificar el acuerdo y darle carácter definitivo.",
+        "rationale": "La ley busca agilizar el procedimiento administrativo cuando hay consenso o ausencia de oposición ciudadana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se entenderá definitivamente adoptado el acuerdo sin necesidad de un nuevo acuerdo plenario.",
+        "rationale": "El artículo 17.3 establece la elevación automática a definitivo de los acuerdos provisionales que no hayan recibido reclamaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "El acuerdo caduca y debe iniciarse de nuevo el expediente de imposición tributaria.",
+        "rationale": "La ausencia de reclamaciones no invalida el procedimiento, sino que lo perfecciona permitiendo su vigencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "La ordenanza entra en vigor inmediatamente sin necesidad de más trámites de publicación.",
+        "rationale": "Incluso si se eleva a definitivo automáticamente, sigue siendo requisito indispensable la publicación del texto íntegro para su entrada en vigor.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la figura de la aprobación por silencio o falta de oposición."
+  },
+  {
+    "guid": "9608e860-f469-411f-b3e3-c71029de4b10",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué requisito de publicidad adicional deben cumplir los ayuntamientos de población superior a 10.000 habitantes en la aprobación de ordenanzas fiscales?",
+    "answerOptions": [
+      {
+        "text": "Publicar el anuncio de exposición en un diario de los de mayor difusión de la provincia.",
+        "rationale": "Para municipios de este tamaño, se exige una transparencia mayor mediante el uso de medios de comunicación privados de amplia lectura.",
+        "isCorrect": true
+      },
+      {
+        "text": "Emitir el anuncio a través de la emisora de radio municipal durante el periodo de exposición.",
+        "rationale": "La radio no es un medio de publicidad legalmente tasado para la validez de los acuerdos en el TRLRHL.",
+        "isCorrect": false
+      },
+      {
+        "text": "Publicar el texto íntegro en el Boletín Oficial del Estado por razones de transparencia económica.",
+        "rationale": "La publicación en el BOE no es necesaria para ordenanzas de ámbito municipal, independientemente de la población.",
+        "isCorrect": false
+      },
+      {
+        "text": "Realizar una consulta pública previa vinculante antes de la aprobación provisional por el Pleno.",
+        "rationale": "La normativa local prevé la exposición pública posterior al acuerdo, pero no una consulta vinculante previa para la validez del tributo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a una publicación en prensa escrita no oficial."
+  },
+  {
+    "guid": "85697c40-0660-49e9-b09f-b518b11adcb1",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué momento entran en vigor las ordenanzas fiscales locales o sus modificaciones?",
+    "answerOptions": [
+      {
+        "text": "A los 20 días de su publicación íntegra en el Boletín Oficial de la Provincia.",
+        "rationale": "Este plazo es el general para las leyes del Estado según el Código Civil, pero la legislación local permite la entrada en vigor inmediata tras publicación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Desde el momento en que se lleva a cabo la publicación íntegra de los acuerdos definitivos y del texto en el boletín oficial correspondiente.",
+        "rationale": "La publicación es el hecho determinante para la eficacia normativa y la exigibilidad de las obligaciones tributarias locales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al día siguiente de su aprobación definitiva por el Pleno de la corporación.",
+        "rationale": "La aprobación es un acto interno; sin la debida publicidad oficial externa, la norma no puede aplicarse a los ciudadanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El primer día del ejercicio económico siguiente a su publicación.",
+        "rationale": "Aunque es la práctica habitual por conveniencia contable, la ley permite la entrada en vigor en cualquier momento del año una vez publicada.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La publicidad es la condición de eficacia en el derecho administrativo."
+  },
+  {
+    "guid": "93180b98-297d-44d9-9467-b3b3ceeeaece",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Para que una prestación patrimonial sea considerada 'tasa' y no 'precio público', ¿qué circunstancia debe concurrir según el artículo 20.1 del TRLRHL?",
+    "answerOptions": [
+      {
+        "text": "Que el servicio se preste también por el sector privado en régimen de libre competencia.",
+        "rationale": "Si existe oferta privada, generalmente se permite la configuración como precio público siempre que la solicitud sea voluntaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que los servicios no sean de solicitud o recepción voluntaria para los administrados.",
+        "rationale": "La obligatoriedad (de hecho o de derecho) o la falta de oferta por el sector privado definen la naturaleza tributaria de la tasa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que el importe exigido sea superior al coste real del servicio prestado.",
+        "rationale": "Las tasas tienen un límite máximo de coste, pero su naturaleza no depende de la cuantía sino de la reserva de ley y la obligatoriedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el beneficiario del servicio sea una entidad pública y no un ciudadano particular.",
+        "rationale": "La condición del sujeto pasivo no determina la distinción entre tasa y precio público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en si el ciudadano puede elegir o no recibir el servicio."
+  },
+  {
+    "guid": "d9e7a4f2-eb24-4ee2-a5a5-a15e402330c8",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el límite cuantitativo inferior para la fijación de los precios públicos en las entidades locales?",
+    "answerOptions": [
+      {
+        "text": "Deben cubrir, como mínimo, el coste del servicio prestado o de la actividad realizada.",
+        "rationale": "El artículo 44 establece el principio de autofinanciación para los precios públicos, a diferencia de los tributos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Deben ser, al menos, un $10\\%$ superiores al coste para generar beneficio industrial.",
+        "rationale": "Las entidades locales no tienen fines lucrativos comerciales en la prestación de servicios de su competencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe límite inferior, pudiendo la entidad decidir prestarlos de forma gratuita.",
+        "rationale": "La ley exige que el precio cubra el coste, salvo que se justifiquen razones sociales y se consigne la diferencia en el presupuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben coincidir exactamente con el precio de mercado de servicios análogos.",
+        "rationale": "El referente legal es el coste del servicio para la entidad, no el valor de mercado externo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca la sostenibilidad financiera del servicio específico."
+  },
+  {
+    "guid": "b1823d42-aa8a-4a12-ac38-69fd37c31c3d",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano es competente para el establecimiento o modificación de los precios públicos, según el artículo 47?",
+    "answerOptions": [
+      {
+        "text": "El Interventor de la corporación local previo informe de la Tesorería.",
+        "rationale": "La fijación de precios tiene naturaleza política y administrativa de gobierno, no meramente fiscalizadora.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Pleno de la corporación, sin perjuicio de sus facultades de delegación en la Junta de Gobierno Local.",
+        "rationale": "La ley atribuye la competencia al Pleno pero permite agilizar la gestión mediante la delegación en el órgano de gobierno ejecutivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exclusivamente el Alcalde o Presidente mediante decreto de urgencia.",
+        "rationale": "El Alcalde puede tener facultades delegadas, pero la competencia originaria reside en el órgano colegiado representativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministerio de Hacienda para asegurar la estabilidad presupuestaria de la entidad.",
+        "rationale": "Las entidades locales gozan de autonomía para establecer sus propios precios públicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo órgano que aprueba el presupuesto, pero con posibilidad de delegación."
+  },
+  {
+    "guid": "03b8a7a3-04ba-48e4-a2e4-6e730f08f1fa",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el marco de las operaciones de crédito, ¿qué se entiende por 'prudencia financiera'?",
+    "answerOptions": [
+      {
+        "text": "La obligación de no concertar préstamos con intereses superiores al $2\\%$ anual.",
+        "rationale": "La prudencia no es un tipo de interés fijo, sino un conjunto de condiciones variables establecidas por el Ministerio.",
+        "isCorrect": false
+      },
+      {
+        "text": "El conjunto de condiciones que deben cumplir las operaciones para minimizar su riesgo y coste.",
+        "rationale": "Este principio busca que el endeudamiento local se realice en las mejores condiciones posibles para la hacienda pública.",
+        "isCorrect": true
+      },
+      {
+        "text": "La prohibición de endeudarse con entidades financieras privadas.",
+        "rationale": "Las entidades locales pueden acudir tanto al crédito público como al privado según el artículo 49.",
+        "isCorrect": false
+      },
+      {
+        "text": "El requisito de tener siempre un remanente de tesorería positivo antes de pedir un crédito.",
+        "rationale": "Aunque es deseable, el ahorro negativo motiva precisamente la necesidad de planes de saneamiento, no invalida el concepto de prudencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la gestión del riesgo y la eficiencia en el gasto financiero."
+  },
+  {
+    "guid": "27e9cb59-d8e4-4489-a4d9-0110bccd4ffe",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el límite máximo para concertar operaciones de crédito a corto plazo para atender necesidades transitorias de tesorería?",
+    "answerOptions": [
+      {
+        "text": "El $50\\%$ de los ingresos liquidados por operaciones corrientes en el ejercicio anterior.",
+        "rationale": "Un porcentaje tan elevado comprometería la liquidez futura de forma excesiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "El $30\\%$ de sus ingresos liquidados por operaciones corrientes en el ejercicio anterior.",
+        "rationale": "El artículo 51 establece este límite prudencial para asegurar que la deuda sea verdaderamente transitoria.",
+        "isCorrect": true
+      },
+      {
+        "text": "El $110\\%$ de los recursos ordinarios previstos en el presupuesto vigente.",
+        "rationale": "El límite del $110\\%$ se refiere al volumen total de deuda viva a largo plazo que condiciona el régimen de autorización.",
+        "isCorrect": false
+      },
+      {
+        "text": "El $10\\%$ de los gastos de personal aprobados en el capítulo I del estado de gastos.",
+        "rationale": "El límite se calcula sobre la capacidad de ingreso corriente, no sobre una partida específica de gasto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un porcentaje inferior a un tercio de la recaudación ordinaria del año previo."
+  },
+  {
+    "guid": "3d99100a-6c41-446e-ab8e-dcb08c05c266",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Para concertar operaciones de crédito a largo plazo, el Presidente de la corporación local tiene competencia siempre que el importe acumulado no supere:",
+    "answerOptions": [
+      {
+        "text": "El $25\\%$ de los recursos ordinarios del presupuesto.",
+        "rationale": "Este porcentaje suele estar relacionado con la carga financiera total máxima, no con la competencia de firma del Presidente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El $10\\%$ de los recursos de carácter ordinario previstos en el presupuesto.",
+        "rationale": "El artículo 52 faculta al Presidente para operaciones menores, reservando al Pleno las de mayor calado económico.",
+        "isCorrect": true
+      },
+      {
+        "text": "La cantidad total del remanente de tesorería positivo del año anterior.",
+        "rationale": "La competencia no se vincula al remanente, sino a una proporción de los recursos presupuestados.",
+        "isCorrect": false
+      },
+      {
+        "text": "El $5\\%$ de los ingresos corrientes liquidados en el ejercicio inmediato anterior.",
+        "rationale": "El porcentaje correcto es del $10\\%$ y se calcula sobre las previsiones del presupuesto actual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un porcentaje de una sola cifra que indica una capacidad de gestión limitada."
+  },
+  {
+    "guid": "40525857-8b62-420e-806b-ae6222638dc9",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuándo se precisa autorización de la comunidad autónoma o del Ministerio de Hacienda para operaciones de crédito a largo plazo según el ahorro neto?",
+    "answerOptions": [
+      {
+        "text": "Cuando el ahorro neto de la entidad, tras la liquidación del último ejercicio, sea positivo.",
+        "rationale": "Un ahorro positivo indica salud financiera y suele eximir de tutelas especiales si se cumplen otros límites.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando se deduzca un ahorro neto negativo en los estados financieros de la liquidación del último ejercicio.",
+        "rationale": "La incapacidad de cubrir gastos corrientes y amortizaciones con ingresos ordinarios activa el régimen de tutela administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Siempre que la operación supere los 10 millones de euros, independientemente del ahorro.",
+        "rationale": "El régimen de autorización se basa en indicadores de salud financiera (ratios), no en cuantías absolutas fijas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si la entidad local tiene menos de 20.000 habitantes.",
+        "rationale": "La tutela financiera por ahorro negativo se aplica a todas las entidades, variando solo la opción de 'escenario de consolidación' para las grandes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La autorización es necesaria cuando la entidad gasta más de lo que ingresa ordinariamente."
+  },
+  {
+    "guid": "173d64d3-3b9f-45a8-b56d-410d0a71cc88",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el cálculo del ahorro neto, ¿qué capítulos del estado de ingresos deben considerarse?",
+    "answerOptions": [
+      {
+        "text": "Los capítulos del uno al nueve, incluyendo los pasivos financieros.",
+        "rationale": "El ahorro neto mide la capacidad ordinaria, por lo que no debe incluir ingresos por préstamos (pasivos).",
+        "isCorrect": false
+      },
+      {
+        "text": "Los derechos liquidados por los capítulos uno a cinco, ambos inclusive.",
+        "rationale": "Se incluyen los ingresos corrientes: impuestos directos, indirectos, tasas, transferencias corrientes e ingresos patrimoniales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo los capítulos uno y dos correspondientes a impuestos directos e indirectos.",
+        "rationale": "Ignorar las tasas y transferencias daría una visión incompleta e irreal de la capacidad de ahorro de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "La suma de los capítulos seis y siete relativos a enajenación de inversiones y transferencias de capital.",
+        "rationale": "Estos capítulos son ingresos de capital y no forman parte del ahorro neto corriente u ordinario.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en los ingresos que se repiten cada año de forma recurrente y no extraordinaria."
+  },
+  {
+    "guid": "db3df102-b28a-44f0-b8ae-4c23622d6992",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué alternativa tienen las entidades locales de más de 200.000 habitantes para sustituir las autorizaciones preceptivas de crédito?",
+    "answerOptions": [
+      {
+        "text": "No tienen alternativa y deben someterse al mismo régimen que el resto de municipios.",
+        "rationale": "La ley otorga una flexibilidad especial a los municipios de gran población por su mayor complejidad y capacidad técnica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Presentar un escenario de consolidación presupuestaria para su aprobación por el órgano competente.",
+        "rationale": "Este documento permite una planificación plurianual del déficit y el endeudamiento, ofreciendo mayor autonomía operativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir la autorización por un informe favorable de una auditoría privada de reconocido prestigio.",
+        "rationale": "El control financiero externo no sustituye a la tutela administrativa en materia de endeudamiento público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitar la dispensa total de la ley de estabilidad presupuestaria mediante acuerdo plenario.",
+        "rationale": "Nadie puede dispensarse del cumplimiento de la ley; solo varían los mecanismos de control aplicables.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Consiste en una planificación a tres años vista sobre límites de déficit y deuda."
+  },
+  {
+    "guid": "d1a8b565-78fb-493c-8701-f78e915cb8cd",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué porcentaje del rendimiento de la cuota líquida del IRPF se cede a los municipios de gran población según el modelo actual?",
+    "answerOptions": [
+      {
+        "text": "$50\\%$ para igualar la participación de las comunidades autónomas.",
+        "rationale": "La cesión estatal a municipios es mucho más reducida que la autonómica para no desequilibrar la caja central del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "$2,1336\\%$.",
+        "rationale": "Este porcentaje específico está determinado en la normativa para la financiación de los municipios incluidos en el modelo de cesión.",
+        "isCorrect": true
+      },
+      {
+        "text": "$10,5\\%$ del total recaudado en el territorio nacional dividido por la población.",
+        "rationale": "La cesión se basa en la cuota líquida de los residentes en el municipio concreto, no en un reparto poblacional nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un $1,2561\\%$, al igual que ocurre con las diputaciones provinciales.",
+        "rationale": "El porcentaje para las provincias es diferente al de los municipios, reflejando sus distintas competencias y necesidades.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número decimal muy preciso que comienza por el dígito dos."
+  },
+  {
+    "guid": "4ad0b720-c19f-4c2a-855c-f817a19f8e62",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Los municipios con población superior a 5.000 habitantes pueden imponer un recurso específico denominado:",
+    "answerOptions": [
+      {
+        "text": "Impuesto sobre el lujo y las viviendas desocupadas.",
+        "rationale": "Los impuestos que pueden imponer los ayuntamientos están cerrados por el TRLRHL y no incluyen estas figuras.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prestación personal y de transporte para obras de competencia municipal.",
+        "rationale": "El artículo 128 permite este recurso tradicional, aunque limitado hoy en día por la población del municipio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Canon por vertidos a la red de alcantarillado supramunicipal.",
+        "rationale": "Este suele ser un ingreso en forma de tasa o precio público, no una prestación personal de carácter general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recargo del $0,2\\%$ sobre el Impuesto de Actividades Económicas.",
+        "rationale": "Los recargos sobre el IAE están regulados de forma distinta y no dependen del umbral de 5.000 habitantes para su imposición básica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una obligación de dar trabajo físico o medios de locomoción al común."
+  },
+  {
+    "guid": "5123a5a0-7fb1-40a4-b3eb-86c4535eaa37",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo para que los organismos autónomos remitan su propuesta de presupuesto a la entidad local de la que dependen?",
+    "answerOptions": [
+      {
+        "text": "Antes del 31 de diciembre para asegurar la aprobación antes de año nuevo.",
+        "rationale": "Esa es la fecha límite para la aprobación definitiva del presupuesto general, no para la remisión de propuestas iniciales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Antes del 15 de septiembre de cada año.",
+        "rationale": "Este plazo permite a la entidad local integrar todas las propuestas y formar el presupuesto general antes de octubre.",
+        "isCorrect": true
+      },
+      {
+        "text": "En los primeros diez días del mes de enero del ejercicio al que se refiere el presupuesto.",
+        "rationale": "El presupuesto debe ser preventivo, por lo que debe estar formado mucho antes de que se inicie el año.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el momento en que se liquide el presupuesto del ejercicio anterior.",
+        "rationale": "La liquidación ocurre en marzo del año siguiente, lo cual es incompatible con la formación del presupuesto del año en curso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la mitad del noveno mes del año."
+  },
+  {
+    "guid": "b52ce496-46d0-4e88-b536-1d05f8f25d5b",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué documento debe acompañar al presupuesto para exponer las bases de la evaluación de ingresos y la nivelación del mismo?",
+    "answerOptions": [
+      {
+        "text": "La cuenta general del ejercicio anterior auditada por el Tribunal de Cuentas.",
+        "rationale": "La cuenta general es un documento 'a posteriori', mientras que el presupuesto requiere un análisis proyectivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un informe económico-financiero.",
+        "rationale": "Este informe es clave para justificar que los créditos son suficientes y que el presupuesto no incurre en déficit inicial.",
+        "isCorrect": true
+      },
+      {
+        "text": "El plan estratégico de subvenciones de la anualidad corriente.",
+        "rationale": "Aunque es un documento importante, el informe económico-financiero tiene un alcance global sobre todo el presupuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "La memoria de gestión de la Junta de Gobierno Local.",
+        "rationale": "La memoria suele ser descriptiva de actividades, no estrictamente justificativa de la nivelación económica de los créditos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el documento que explica de dónde saldrá el dinero y cómo se gastará equilibradamente."
+  },
+  {
+    "guid": "6a58832b-de0d-452e-9404-f71da426fa7f",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el caso de un remanente de tesorería negativo, ¿cuál es la primera medida que debe adoptar el Pleno?",
+    "answerOptions": [
+      {
+        "text": "Aprobar una subida inmediata de todos los tipos impositivos locales.",
+        "rationale": "La subida de impuestos es una potestad, pero la ley obliga primero a actuar sobre la estructura de gasto ya aprobada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Proceder a la reducción de gastos del nuevo presupuesto por cuantía igual al déficit producido.",
+        "rationale": "El artículo 193 prioriza el ajuste del gasto corriente para absorber el desequilibrio financiero detectado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Declarar la quiebra técnica de la entidad ante el Ministerio de Hacienda.",
+        "rationale": "No existe la figura de 'quiebra técnica' con efectos de exoneración; se deben adoptar medidas de saneamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disolver los organismos autónomos que hayan generado mayor gasto de capital.",
+        "rationale": "La disolución de entes es una medida extrema de organización que no soluciona automáticamente el déficit presupuestario del ejercicio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de ajustar el cinturón presupuestario en la primera sesión que se celebre."
+  },
+  {
+    "guid": "21d43fd4-d221-4658-a208-ea0079139a53",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el límite temporal para que el Pleno de la corporación apruebe la Cuenta General?",
+    "answerOptions": [
+      {
+        "text": "Antes del 31 de diciembre, coincidiendo con el presupuesto.",
+        "rationale": "La cuenta general se refiere al pasado y debe estar lista mucho antes del cierre del siguiente ciclo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Antes del día 1 de octubre.",
+        "rationale": "El artículo 212 establece esta fecha para que la rendición al Tribunal de Cuentas pueda realizarse en plazo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Antes del 1 de marzo, junto con la liquidación.",
+        "rationale": "En marzo se aprueba la liquidación por el Presidente, pero la Cuenta General requiere un proceso más largo de exposición e informes.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el mes de agosto, aprovechando el periodo de menor actividad administrativa.",
+        "rationale": "Agosto suele ser inhábil a efectos de plazos de exposición pública de la cuenta, lo que dificultaría su aprobación legal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el primer día del décimo mes del año."
+  },
+  {
+    "guid": "5b358cdc-fb41-4bc6-9460-301c30e24f74",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué principio presupuestario impide que los gastos e ingresos se contabilicen por su importe neto tras compensar deudas recíprocas?",
+    "answerOptions": [
+      {
+        "text": "Principio de Unidad.",
+        "rationale": "La unidad se refiere a que todos los presupuestos deben integrarse en uno general único.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de No Compensación.",
+        "rationale": "Este principio obliga a mostrar la realidad bruta de los flujos económicos, prohibiendo saldos netos que oculten el volumen real de gestión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de Especialidad Temporal.",
+        "rationale": "La especialidad temporal vincula los gastos al año en que se realizan las obras o servicios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Transparencia de Pasivos.",
+        "rationale": "Aunque relacionado, no es el nombre técnico del principio que rige la integridad de las partidas presupuestarias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Evita que se resten los cobros de los pagos antes de anotarlos."
+  },
+  {
+    "guid": "545a3b11-0698-4c7b-bef6-02a0d9412057",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El principio de especialidad cualitativa establece que:",
+    "answerOptions": [
+      {
+        "text": "Los créditos solo pueden gastarse durante el año natural en curso.",
+        "rationale": "Eso describe la especialidad temporal, no la cualitativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los créditos deben destinarse exclusivamente a la finalidad específica para la que han sido autorizados.",
+        "rationale": "Impide el trasvase arbitrario de fondos entre partidas de distinta naturaleza sin el debido expediente de modificación.",
+        "isCorrect": true
+      },
+      {
+        "text": "No se puede gastar más de lo que figura en la partida presupuestaria.",
+        "rationale": "Esa es la especialidad cuantitativa, que limita el importe monetario absoluto del compromiso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo se pueden comprar bienes de alta calidad para asegurar la durabilidad del patrimonio local.",
+        "rationale": "La 'cualidad' en derecho presupuestario se refiere al destino jurídico del dinero, no a la excelencia material de las compras.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se centra en el 'para qué' se otorgó el dinero."
+  },
+  {
+    "guid": "c7a2ca37-e7eb-42ac-be96-bf5336e39df8",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con los compromisos de gastos que exceden el importe de los créditos autorizados?",
+    "answerOptions": [
+      {
+        "text": "Son plenamente válidos si se demuestra que eran necesarios para el servicio público.",
+        "rationale": "La validez jurídica en administración pública requiere cobertura presupuestaria previa; de lo contrario, el acto es nulo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son nulos de pleno derecho por vulnerar el principio de especialidad cuantitativa.",
+        "rationale": "La ley prohíbe adquirir compromisos por encima del crédito, protegiendo así el equilibrio de la hacienda municipal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se consideran automáticamente incorporados al presupuesto del año siguiente.",
+        "rationale": "La incorporación es un proceso reglado para créditos remanentes, no una solución automática para gastos sin control.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde debe pagarlos con su patrimonio personal por responsabilidad contable.",
+        "rationale": "Aunque existe responsabilidad, la consecuencia inmediata del acto administrativo es su nulidad radical.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde la sanción administrativa más grave para un acto que carece de un requisito esencial."
+  },
+  {
+    "guid": "e82cf17b-2ab0-4b9a-b960-0fb74325e83d",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El principio de estabilidad presupuestaria exige que los ingresos no financieros sean iguales o superiores a:",
+    "answerOptions": [
+      {
+        "text": "La suma de los capítulos 1, 2, 3 y 4 del estado de gastos.",
+        "rationale": "Los gastos no financieros incluyen también inversiones y transferencias de capital (hasta capítulo 7).",
+        "isCorrect": false
+      },
+      {
+        "text": "Los gastos no financieros (capítulos 1 a 7).",
+        "rationale": "Se busca que el gasto ordinario y de inversión no genere necesidad de financiación (deuda) estructural.",
+        "isCorrect": true
+      },
+      {
+        "text": "La carga financiera de la deuda anual acumulada.",
+        "rationale": "La carga financiera pertenece al capítulo 9 y no se incluye en el cálculo del objetivo de estabilidad corriente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Producto Interior Bruto del municipio multiplicado por un coeficiente de sostenibilidad.",
+        "rationale": "El PIB es un indicador macroeconómico externo; la estabilidad se mide sobre las cifras reales del propio presupuesto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Compare los capítulos de gestión ordinaria e inversión (1 al 7)."
+  },
+  {
+    "guid": "1dfe7b95-9afa-4d22-b416-e321af93591d",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué documento debe redactar el interventor si detecta anomalías o acuerdos contrarios a sus reparos durante el año?",
+    "answerOptions": [
+      {
+        "text": "Una denuncia formal ante la Guardia Civil por malversación de fondos.",
+        "rationale": "El interventor realiza un control de legalidad administrativa; la vía penal es independiente y posterior a la detección de indicios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un resumen de las principales anomalías detectadas para remitir anualmente al Tribunal de Cuentas.",
+        "rationale": "El artículo 218 obliga a esta comunicación para que el órgano fiscalizador externo conozca las discrepancias internas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una nota de prensa informativa para el portal de transparencia del ayuntamiento.",
+        "rationale": "La ley prioriza la comunicación a los órganos de control superior (Estado/CCAA/Tribunal de Cuentas) sobre la difusión mediática.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un certificado de idoneidad que valide los acuerdos a pesar de los errores detectados.",
+        "rationale": "El interventor no puede validar lo que previamente ha reparado por ilegalidad sin incurrir en contradicción técnica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un informe de rendición de cuentas sobre la disconformidad en la gestión."
+  },
+  {
+    "guid": "fd074547-c058-4266-b06d-f402f88c2069",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el recargo máximo que puede establecer un Área Metropolitana sobre el Impuesto sobre Bienes Inmuebles (IBI)?",
+    "answerOptions": [
+      {
+        "text": "No puede establecer recargos sobre impuestos municipales.",
+        "rationale": "El artículo 153 permite específicamente este recurso para financiar las competencias metropolitanas.",
+        "isCorrect": false
+      },
+      {
+        "text": "$0,2\\%$.",
+        "rationale": "Es un tipo impositivo adicional muy limitado para no sobrecargar en exceso la presión fiscal sobre la vivienda.",
+        "isCorrect": true
+      },
+      {
+        "text": "$5\\%$.",
+        "rationale": "Un recargo del $5\\%$ sería desproporcionado comparado con los tipos básicos del impuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "El mismo porcentaje que el recargo provincial sobre el IAE.",
+        "rationale": "Son figuras tributarias distintas con bases y límites legales independientes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una quinta parte de un punto porcentual."
+  },
+  {
+    "guid": "ea6b55c5-8d2a-4aba-99cc-8510d59faece",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el cálculo del ahorro neto, las anualidades teóricas de amortización de créditos garantizados con hipoteca sobre bienes inmuebles:",
+    "answerOptions": [
+      {
+        "text": "Deben incluirse íntegramente por prudencia contable.",
+        "rationale": "La garantía hipotecaria específica altera el riesgo financiero percibido para el cálculo del ahorro disponible.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se incluirán en el cálculo en la proporción a la parte del préstamo afectado por dicha garantía.",
+        "rationale": "La ley permite esta exclusión para no penalizar a entidades que tienen deuda respaldada por activos reales concretos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se multiplican por dos al ser deudas de mayor riesgo patrimonial.",
+        "rationale": "Al contrario, el tener una garantía real suele considerarse un factor de seguridad que aminora la carga en ciertos cálculos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo se consideran si el préstamo se ha formalizado con una entidad extranjera.",
+        "rationale": "El origen de la entidad financiera no determina la exclusión de la carga hipotecaria en el ahorro neto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el beneficio de tener una deuda respaldada por un edificio o terreno."
+  },
+  {
+    "guid": "6f14884a-06a3-4e0e-982e-22244f5a3667",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "La vigencia de las ordenanzas fiscales, si no se indica lo contrario en su texto, comienza:",
+    "answerOptions": [
+      {
+        "text": "A los tres meses de su aprobación provisional por el Pleno.",
+        "rationale": "Los plazos de entrada en vigor no se cuentan desde el acuerdo provisional, que es un acto de trámite.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el momento de su publicación íntegra en el Boletín Oficial de la Provincia.",
+        "rationale": "La publicación es la que otorga fuerza de ley local y conocimiento general vinculante.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al inicio del semestre natural inmediatamente posterior a su redacción definitiva.",
+        "rationale": "No existe tal requisito semestral; la ley permite la aplicación inmediata tras la publicidad oficial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando el Ministerio de Hacienda dé el visto bueno al plan de ajuste asociado.",
+        "rationale": "La validez de una ordenanza no depende de planes de ajuste externos, salvo en casos muy específicos de tutela financiera.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La clave está en el boletín oficial."
+  },
+  {
+    "guid": "d71e821e-8a2b-4703-8c3a-55afa721b587",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con las cuotas del IAE en el caso de centrales hidráulicas de producción de energía eléctrica?",
+    "answerOptions": [
+      {
+        "text": "Se las queda íntegramente el municipio donde se encuentra la turbina de generación.",
+        "rationale": "La ley reconoce que el impacto y la actividad afectan a un territorio mayor que el de la central física.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se distribuyen entre los municipios donde radique la central y aquellos donde se extienda el embalse.",
+        "rationale": "Es un mecanismo de equidad territorial para compensar a los pueblos que ceden terrenos para el almacenamiento de agua.",
+        "isCorrect": true
+      },
+      {
+        "text": "Deben entregarse a la Comunidad Autónoma al tratarse de energía renovable de interés regional.",
+        "rationale": "El IAE es un impuesto municipal y la distribución es siempre entre entes locales afectados.",
+        "isCorrect": false
+      },
+      {
+        "text": "No pagan cuota alguna por estar exentas por ley estatal de fomento energético.",
+        "rationale": "La producción eléctrica es una actividad sujeta a tributación local según las tarifas correspondientes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El agua embalsada es tan importante como la maquinaria para la generación."
+  },
+  {
+    "guid": "019ea8ea-c096-43ce-8c86-0165a3cb79bc",
+    "subjectId": "T13",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el criterio principal para considerar a un municipio como 'turístico' a efectos de la participación en tributos del Estado?",
+    "answerOptions": [
+      {
+        "text": "Tener más de 100 hoteles registrados en el catastro de actividades económicas.",
+        "rationale": "El número de hoteles no es el parámetro legal utilizado para esta clasificación financiera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Población superior a 20.000 habitantes y que las viviendas de segunda residencia superen a las principales.",
+        "rationale": "Se busca compensar el gasto extra en servicios para una población estacional que no tributa de forma habitual por residencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tener costa y un puerto deportivo con capacidad superior a 500 amarres.",
+        "rationale": "Existen muchos municipios turísticos de interior que cumplen los requisitos basados en población y viviendas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el $80\\%$ de su PIB local proceda directamente del sector servicios.",
+        "rationale": "La ley usa datos demográficos y de vivienda (Censo de Edificios y Viviendas), no ratios de PIB local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Compare el número de camas de 'veraneo' con las de residencia habitual."
+  }
+]

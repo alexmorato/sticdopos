@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "3080e660-4c40-4c99-a090-fb87559da7fb",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cómo define el artículo 6.2 de la Ley Orgánica 3/2007 la situación en la que una práctica aparentemente neutra perjudica más a un sexo que a otro sin justificación legítima?",
+    "answerOptions": [
+      {
+        "text": "Discriminación directa por razón de sexo",
+        "rationale": "Este concepto se refiere a un trato menos favorable explícitamente basado en el sexo de la persona, no en una práctica aparentemente neutra.",
+        "isCorrect": false
+      },
+      {
+        "text": "Discriminación indirecta por razón de sexo",
+        "rationale": "La discriminación indirecta ocurre cuando criterios o disposiciones formalmente imparciales generan una desventaja particular para un sexo sin una finalidad legítima y necesaria.",
+        "isCorrect": true
+      },
+      {
+        "text": "Discriminación múltiple",
+        "rationale": "La discriminación múltiple se produce cuando concurren varios factores de exclusión (como sexo y raza), no se define por la neutralidad aparente de la norma.",
+        "isCorrect": false
+      },
+      {
+        "text": "Acoso por razón de sexo",
+        "rationale": "El acoso implica un comportamiento con el propósito de atentar contra la dignidad de la persona, no una disposición o criterio administrativo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el término que describe un efecto perjudicial derivado de una norma que no menciona explícitamente el género."
+  },
+  {
+    "guid": "3b3a0048-3b8b-47c4-9bef-b641dd0be9c4",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el marco del III Plan de Igualdad del Ayuntamiento de Barcelona, ¿cuál es la composición de la Comisión Técnica de Igualdad?",
+    "answerOptions": [
+      {
+        "text": "9 personas por parte de la Administración y 9 representantes sindicales",
+        "rationale": "Esta es la composición de la Comisión Paritaria de Seguimiento, no de la Comisión Técnica.",
+        "isCorrect": false
+      },
+      {
+        "text": "5 personas por parte de la Administración y 5 representantes sindicales",
+        "rationale": "La Comisión Técnica de Igualdad es un órgano paritario compuesto por 5 miembros de cada parte encargados de impulsar la implementación del plan.",
+        "isCorrect": true
+      },
+      {
+        "text": "3 representantes políticos y 7 técnicos municipales",
+        "rationale": "La normativa establece una estructura paritaria entre administración y sindicatos para este órgano ejecutivo específico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un representante de cada gerencia de área del Ayuntamiento",
+        "rationale": "Aunque las gerencias intervienen, la Comisión Técnica tiene una composición numérica fija de 5 por bando.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el número de miembros del órgano encargado del asesoramiento y seguimiento detallado, que es menor que el de la Comisión Paritaria."
+  },
+  {
+    "guid": "c7ee52c4-5a54-4fc0-afe6-6b3648aba23f",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué órgano municipal tiene la competencia máxima para la ejecución y supervisión del III Plan de Igualdad?",
+    "answerOptions": [
+      {
+        "text": "Gerencia de Personas y Desarrollo Organizativo",
+        "rationale": "Este órgano tiene la competencia en la implementación del Plan, pero no la máxima supervisión general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gerencia Municipal",
+        "rationale": "La Gerencia Municipal es el órgano máximo en el cual recae la competencia para la ejecución y la supervisión del plan de igualdad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Comisión Paritaria de Seguimiento",
+        "rationale": "Su función principal es la aprobación del plan y el seguimiento paritario, pero la competencia jerárquica de ejecución es de la Gerencia Municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Departamento de Igualdad",
+        "rationale": "El departamento gestiona la implementación a través de la Gerencia de Personas, pero no es el órgano de máxima competencia supervisora.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Identifique el nivel jerárquico administrativo más alto dentro de la estructura ejecutiva del Ayuntamiento."
+  },
+  {
+    "guid": "cb882b51-9b80-415c-a5db-d7be9779e603",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el RD Ley 6/2019, ¿a partir de qué fecha es obligatorio que todas las empresas de 50 o más personas trabajadoras dispongan de un plan de igualdad?",
+    "answerOptions": [
+      {
+        "text": "1 de enero de 2021",
+        "rationale": "Esta fecha fue un hito intermedio para empresas de mayor tamaño, pero no el límite final para las de 50 empleados.",
+        "isCorrect": false
+      },
+      {
+        "text": "8 de marzo de 2022",
+        "rationale": "El 8 de marzo de 2022 se estableció como el límite para que las empresas de 50 a 100 trabajadores cumplieran con la obligación de tener el plan.",
+        "isCorrect": true
+      },
+      {
+        "text": "14 de abril de 2023",
+        "rationale": "Esta fecha no corresponde al calendario de implantación obligatoria establecido en la normativa de 2019.",
+        "isCorrect": false
+      },
+      {
+        "text": "30 de octubre de 2020",
+        "rationale": "Esta fecha coincide con la aprobación plenaria del plan municipal, pero no con la obligación estatal para empresas privadas pequeñas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque una fecha simbólica relacionada con los derechos de la mujer en el año 2022."
+  },
+  {
+    "guid": "95fbaa0a-6cc5-4609-8a9e-b1b4bd903ef4",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de los siguientes no es uno de los 7 ámbitos de intervención del III Plan de Igualdad del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Cultura institucional",
+        "rationale": "Es el primer ámbito de actuación que busca institucionalizar la igualdad como principio transversal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fomento de la natalidad y protección familiar",
+        "rationale": "El plan se centra en la conciliación y la igualdad retributiva, no en el fomento directo de la natalidad como ámbito de intervención laboral.",
+        "isCorrect": true
+      },
+      {
+        "text": "Política y estructura retributiva",
+        "rationale": "Es un ámbito clave orientado a reducir la brecha salarial de género.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prevención del acoso sexual y por razón de sexo",
+        "rationale": "Es el sexto ámbito de intervención, esencial para garantizar un entorno laboral seguro.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise los objetivos estratégicos centrados en la gestión interna de personas y la organización laboral."
+  },
+  {
+    "guid": "a936a877-ba6f-44cc-99cb-6a7b4ead8239",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En materia de protección de datos, ¿qué establece el principio de 'minimización' recogido en la normativa vigente?",
+    "answerOptions": [
+      {
+        "text": "Los datos deben eliminarse cada 6 meses",
+        "rationale": "La minimización no se refiere al tiempo de conservación, sino a la cantidad de datos recogidos inicialmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo se recogerán y tratarán los datos estrictamente necesarios para la finalidad buscada",
+        "rationale": "El principio de minimización obliga a que el tratamiento sea limitado a lo necesario en relación con los fines del tratamiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se debe reducir el tamaño de los archivos digitales para ahorrar espacio",
+        "rationale": "Este concepto es técnico/informático y no tiene relación con el principio jurídico de protección de derechos fundamentales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo el personal directivo puede acceder a los datos personales",
+        "rationale": "Esto se referiría al control de accesos o confidencialidad, no a la adecuación y relevancia de los datos tratados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el concepto de proporcionalidad respecto a la información que se solicita al ciudadano."
+  },
+  {
+    "guid": "3d1ab109-54bb-45f9-adfa-5a9191d01b31",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué edad se homologa en España el consentimiento para el tratamiento de datos personales con la mayoría de países europeos según la LO 3/2018?",
+    "answerOptions": [
+      {
+        "text": "12 años",
+        "rationale": "Antes de la reforma, algunas normativas permitían edades menores, pero la LO 3/2018 fijó un estándar superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "14 años",
+        "rationale": "La ley establece que el tratamiento de los datos de un menor solo podrá fundarse en su consentimiento cuando sea mayor de 14 años.",
+        "isCorrect": true
+      },
+      {
+        "text": "16 años",
+        "rationale": "Aunque el RGPD europeo sugiere 16 años, permite a los Estados miembros bajar esa edad hasta los 13, y España optó por los 14.",
+        "isCorrect": false
+      },
+      {
+        "text": "18 años",
+        "rationale": "La mayoría de edad legal no es necesaria para prestar consentimiento en el ámbito del tratamiento de datos personales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la edad mínima legal para que un menor pueda consentir por sí mismo el uso de su información personal."
+  },
+  {
+    "guid": "8b39178d-9019-4153-890e-64044488a156",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el RGPD, ¿cuál es el plazo máximo para notificar una violación de seguridad de los datos a la autoridad de control tras tener constancia de ella?",
+    "answerOptions": [
+      {
+        "text": "24 horas",
+        "rationale": "Es un plazo demasiado breve para realizar un análisis de riesgos inicial en la mayoría de las organizaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "72 horas",
+        "rationale": "La notificación debe hacerse sin dilación indebida y, a más tardar, en las 72 horas siguientes a que el responsable tenga constancia de la brecha.",
+        "isCorrect": true
+      },
+      {
+        "text": "10 días naturales",
+        "rationale": "10 días es el plazo para comunicar el nombramiento de un delegado de protección de datos, no para brechas de seguridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "1 mes",
+        "rationale": "Este plazo es excesivo dada la urgencia necesaria para mitigar riesgos sobre los derechos y libertades de las personas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un periodo de tres días completos expresado en horas."
+  },
+  {
+    "guid": "76cdfb01-f5bd-42bc-9ac0-40f2973dd6d1",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué característica define la posición del Delegado de Protección de Datos (DPD) dentro de una organización?",
+    "answerOptions": [
+      {
+        "text": "Debe ser un cargo político de libre designación",
+        "rationale": "El DPD debe ser designado por sus cualidades profesionales y conocimientos especializados, no por afinidad política.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe informar directamente al más alto nivel jerárquico del responsable o encargado",
+        "rationale": "Para garantizar su independencia y eficacia, el RGPD exige que el DPD reporte directamente a la alta dirección.",
+        "isCorrect": true
+      },
+      {
+        "text": "Puede recibir instrucciones externas sobre cómo desempeñar sus tareas",
+        "rationale": "El DPD goza de autonomía y no debe recibir instrucciones directas en lo relativo al ejercicio de sus funciones legales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es obligatorio que sea un trabajador en exclusividad de la plantilla",
+        "rationale": "La normativa permite que el DPD sea interno o externo (persona física o jurídica mediante contrato de servicios).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la necesidad de autonomía e independencia jerárquica para supervisar el cumplimiento normativo."
+  },
+  {
+    "guid": "e121229a-f71a-4bcb-9646-e16239c38d33",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En relación al 'derecho al olvido', ¿qué distinción hace la LO 3/2018 respecto a las búsquedas en internet?",
+    "answerOptions": [
+      {
+        "text": "Exige la eliminación física de la noticia en el servidor de origen",
+        "rationale": "El derecho al olvido en buscadores no implica borrar la fuente original, sino evitar que se localice mediante motores de búsqueda.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se solicita que los motores de búsqueda incorporen mecanismos que impidan encontrar la información",
+        "rationale": "Este derecho consiste en que el buscador no indexe la información asociada a un nombre cuando sea inadecuada o excesiva, manteniendo el contenido original intacto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo es aplicable si la información tiene más de 20 años de antigüedad",
+        "rationale": "No existe un umbral temporal fijo; depende de la relevancia pública y la veracidad frente a la intimidad actual del interesado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es un derecho absoluto que no admite excepciones por interés público",
+        "rationale": "El derecho al olvido está limitado por la libertad de información, fines científicos, históricos o de salud pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la diferencia entre borrar un periódico y hacer que el nombre de una persona no devuelva ese resultado en Google."
+  },
+  {
+    "guid": "c95db865-9366-4c97-86dc-eebd7cad27e3",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Dentro de la estructura del III Plan de Igualdad, ¿cuántos 'Resultados Estratégicos' se han definido para alcanzar el objetivo general?",
+    "answerOptions": [
+      {
+        "text": "19 resultados",
+        "rationale": "19 es el número de medidas principales del plan, no de resultados estratégicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "81 resultados",
+        "rationale": "81 es el número total de acciones concretas derivadas de los ámbitos de intervención.",
+        "isCorrect": false
+      },
+      {
+        "text": "7 resultados",
+        "rationale": "El plan establece 7 ámbitos de intervención, cada uno asociado a un objetivo estratégico y a un resultado estratégico principal.",
+        "isCorrect": true
+      },
+      {
+        "text": "4 resultados",
+        "rationale": "El número de resultados estratégicos está alineado con la cantidad de ámbitos de intervención definidos en la diagnosis.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Este número coincide con la cantidad de ámbitos de intervención y de objetivos estratégicos."
+  },
+  {
+    "guid": "54093cd8-c98e-4f49-be08-83538caf50f7",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "La situación en la que una mujer es tratada de manera menos favorable debido a su embarazo constituye, según el artículo 8 de la LO 3/2007:",
+    "answerOptions": [
+      {
+        "text": "Discriminación indirecta",
+        "rationale": "La discriminación indirecta requiere una norma neutra; el trato desfavorable por embarazo es una distinción directa basada en el sexo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Discriminación directa por razón de sexo",
+        "rationale": "La ley especifica que todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad es discriminación directa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Acoso sexual",
+        "rationale": "El acoso sexual implica un comportamiento de naturaleza sexual, no necesariamente vinculado a un estado biológico como el embarazo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Infracción leve de seguridad social",
+        "rationale": "Aunque pueda derivar en infracciones, la definición jurídica fundamental en la ley de igualdad es la de discriminación directa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere si el embarazo es una condición que afecta solo a un sexo de forma exclusiva y manifiesta."
+  },
+  {
+    "guid": "72e0597a-9d50-4a8c-9c5b-2e7ceb997fde",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto de la protección de datos de personas fallecidas, ¿qué novedad introduce la LO 3/2018?",
+    "answerOptions": [
+      {
+        "text": "Los datos de los fallecidos dejan de estar protegidos inmediatamente",
+        "rationale": "La ley reconoce específicamente derechos sobre los datos de las personas difuntas a sus herederos o designados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Permite a los herederos solicitar el acceso, rectificación o supresión de los datos del finado",
+        "rationale": "La ley otorga a los herederos la facultad de ejercer los derechos del fallecido, salvo prohibición expresa del mismo o disposición legal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo el Estado puede decidir sobre el uso de la información de personas muertas",
+        "rationale": "La primacía recae en las disposiciones testamentarias del finado o, en su defecto, en sus herederos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los datos de fallecidos se consideran automáticamente de dominio público",
+        "rationale": "Se mantiene un régimen de protección gestionado por las personas vinculadas al fallecido por razones familiares o de herencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Reflexione sobre la posibilidad de que los descendientes gestionen la huella digital del familiar."
+  },
+  {
+    "guid": "8dec71e3-dabc-4d04-8033-94bf68016d2f",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el objetivo estratégico (OE) asignado al ámbito de 'Conciliación de la vida personal, familiar y profesional' en el plan municipal?",
+    "answerOptions": [
+      {
+        "text": "Aumentar el número de excedencias solicitadas por hombres",
+        "rationale": "Aunque es un deseo subyacente, el OE oficial se formula de manera más amplia sobre la política institucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consolidar una política de conciliación que no penalice a las mujeres y garantice un disfrute igualitario",
+        "rationale": "El objetivo es que las medidas de conciliación no afecten negativamente la carrera profesional ni las expectativas de mejora de las mujeres.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar el teletrabajo para fomentar la presencialidad femenina",
+        "rationale": "El plan busca facilitar la flexibilidad, no restringirla, para favorecer el equilibrio entre vida personal y laboral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducir la jornada laboral a 30 horas para toda la plantilla",
+        "rationale": "Esta medida no forma parte de los objetivos estratégicos definidos en el III Plan de Igualdad analizado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El foco está en evitar que el cuidado de familiares lastre la promoción profesional de las empleadas."
+  },
+  {
+    "guid": "43726027-d5ef-48ea-af6f-508f83ae5e33",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué documento municipal sirve como base normativa para el III Plan de Igualdad junto con el Reglamento de equidad de género?",
+    "answerOptions": [
+      {
+        "text": "La Carta Municipal de Barcelona",
+        "rationale": "Aunque es la norma básica de la ciudad, el plan cita documentos más específicos de gestión y negociación colectiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Acuerdo regulador de las condiciones de trabajo de los empleados públicos municipales",
+        "rationale": "El plan es el resultado de la negociación colectiva y se vincula directamente al Acuerdo de condiciones de trabajo vigentes.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Estatuto de Autonomía de Cataluña",
+        "rationale": "Es un marco superior, pero el plan especifica normativa de ámbito estrictamente municipal en su sección 3.5.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Ordenanza de Convivencia Ciudadana",
+        "rationale": "Esta ordenanza regula el espacio público y no la gestión interna de los recursos humanos del consistorio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el pacto principal entre la administración local y sus trabajadores."
+  },
+  {
+    "guid": "a779e89e-1af2-4d83-80ec-1c57c80c355c",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el derecho a la limitación del tratamiento del RGPD, ¿cuál es la principal diferencia con el anterior concepto de 'bloqueo'?",
+    "answerOptions": [
+      {
+        "text": "El bloqueo implicaba el borrado definitivo de los datos",
+        "rationale": "El bloqueo impedía el tratamiento pero mantenía los datos a disposición de autoridades, no era un borrado.",
+        "isCorrect": false
+      },
+      {
+        "text": "La limitación es un derecho que permite al interesado marcar los datos para restringir su tratamiento futuro",
+        "rationale": "A diferencia del bloqueo, que era una obligación del responsable ante ciertos casos, la limitación es un derecho ejercible por el ciudadano.",
+        "isCorrect": true
+      },
+      {
+        "text": "La limitación solo se aplica a empresas de marketing",
+        "rationale": "Es un derecho general aplicable a cualquier tratamiento de datos por responsables públicos o privados.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe diferencia, son términos sinónimos en la nueva ley",
+        "rationale": "El texto aclara específicamente que no se deben confundir ambos conceptos normativos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La limitación pone el control en manos del titular de los datos durante un periodo de verificación o reclamación."
+  },
+  {
+    "guid": "59bc8187-2152-475a-97fc-bc034505a481",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A quién debe comunicarse obligatoriamente la designación de un Delegado de Protección de Datos (DPD)?",
+    "answerOptions": [
+      {
+        "text": "Al Ministerio del Interior",
+        "rationale": "Interior no tiene competencias en la gestión ordinaria del registro de delegados de protección de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "A la Agencia Española de Protección de Datos (AEPD)",
+        "rationale": "La designación del DPD, tanto obligatoria como voluntaria, debe comunicarse a la autoridad de control competente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al registro mercantil de la provincia",
+        "rationale": "El registro mercantil no es el canal para las comunicaciones de cumplimiento de protección de datos personales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exclusivamente a los empleados de la organización",
+        "rationale": "Aunque los empleados deben conocerlo, la comunicación oficial externa es obligatoria ante la autoridad de control.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata del organismo estatal encargado de velar por la privacidad en España."
+  },
+  {
+    "guid": "c8ee1f64-680a-4676-8fe3-ce4818e67874",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué ámbito de intervención del Plan de Igualdad tiene como 'Resultado Estratégico' la institucionalización de una comunicación inclusiva y no sexista?",
+    "answerOptions": [
+      {
+        "text": "Procesos de gestión de personas",
+        "rationale": "Este ámbito se enfoca en selección, formación y promoción, no específicamente en la imagen externa o lenguaje.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comunicación, lenguaje e imagen corporativa",
+        "rationale": "Este séptimo ámbito busca visibilizar a las mujeres y evitar sesgos en el lenguaje verbal e iconográfico institucional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cultura institucional",
+        "rationale": "Aunque está relacionado, la cultura institucional es el ámbito general de principios básicos transversales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Relaciones con la ciudadanía",
+        "rationale": "El plan se aplica al personal interno y organismos vinculados, no es una guía de atención directa al público ajeno al consistorio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el último de los 7 ámbitos mencionados y se centra en la representación simbólica."
+  },
+  {
+    "guid": "62442099-6dbf-400f-8272-b6ac41f43321",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Bajo la LO 3/2018, la información al interesado sobre el tratamiento de sus datos se debe facilitar de forma:",
+    "answerOptions": [
+      {
+        "text": "Telefónica exclusivamente",
+        "rationale": "La información debe ser accesible y, preferiblemente, en soporte que permita su consulta posterior, no solo oral.",
+        "isCorrect": false
+      },
+      {
+        "text": "Por capas (información básica y acceso a información adicional)",
+        "rationale": "Se establece un modelo de información multinivel para no saturar al usuario, dando lo esencial y un enlace al detalle.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mediante un contrato notarial",
+        "rationale": "El deber de información es un requisito de transparencia que no exige formalidad notarial para su cumplimiento ordinario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente si el interesado lo solicita previamente",
+        "rationale": "El responsable tiene la obligación proactiva de informar en el momento en que se recaban los datos personales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un sistema que divide la información en niveles para facilitar su lectura rápida."
+  },
+  {
+    "guid": "a194f5e9-8fef-47bf-900c-e66f5ba692e8",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de una brecha de seguridad que suponga un 'alto riesgo' para los derechos de los interesados, el responsable debe:",
+    "answerOptions": [
+      {
+        "text": "Notificar solo a la policía",
+        "rationale": "La policía interviene si hay delito, pero el cumplimiento administrativo exige otras comunicaciones obligatorias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comunicarlo sin dilación indebida a las personas interesadas",
+        "rationale": "Cuando el riesgo es alto, no basta con informar a la autoridad de control; se debe avisar directamente a los afectados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ocultar la información para no alarmar a la población",
+        "rationale": "La transparencia es un principio fundamental; la ocultación puede derivar en sanciones severas según el RGPD.",
+        "isCorrect": false
+      },
+      {
+        "text": "Publicarlo en el Boletín Oficial del Estado únicamente",
+        "rationale": "La comunicación debe ser efectiva y directa al interesado, salvo que suponga un esfuerzo desproporcionado, en cuyo caso se usaría comunicación pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la obligación de transparencia directa hacia el titular de los datos afectados."
+  },
+  {
+    "guid": "cae74798-934a-43aa-ab46-1389708f6462",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el periodo de vigencia del III Plan de Igualdad de Oportunidades del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "2017-2020",
+        "rationale": "Este fue el periodo del plan anterior; el actual III Plan comenzó tras la ratificación a finales de 2020.",
+        "isCorrect": false
+      },
+      {
+        "text": "2020-2023",
+        "rationale": "El plan tiene una vigencia establecida de cuatro años, abarcando desde su aprobación en 2020 hasta el final de 2023.",
+        "isCorrect": true
+      },
+      {
+        "text": "2021-2025",
+        "rationale": "Aunque muchos planes son quinquenales, el documento especifica claramente el cuatrienio 2020-2023.",
+        "isCorrect": false
+      },
+      {
+        "text": "Indefinida hasta su sustitución por el IV Plan",
+        "rationale": "Los planes de igualdad deben tener una vigencia temporal determinada para facilitar su evaluación y renovación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere un periodo de cuatro años que termina el mismo año que el actual mandato municipal."
+  },
+  {
+    "guid": "bbe9153a-64bc-4fb8-92d5-25b5c5c377a2",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué función principal tiene la Comisión Paritaria de Seguimiento del Plan de Igualdad?",
+    "answerOptions": [
+      {
+        "text": "Redactar los borradores técnicos del plan",
+        "rationale": "La redacción técnica recae en la Comisión Técnica de Igualdad, no en la Paritaria de Seguimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "La aprobación del plan y su seguimiento a alto nivel",
+        "rationale": "Es el órgano máximo paritario encargado de la validación política y el control general de la ejecución del plan.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sancionar a los trabajadores que no cumplan con el lenguaje inclusivo",
+        "rationale": "Las funciones sancionadoras corresponden a los órganos disciplinarios habituales, no a las comisiones de seguimiento del plan.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gestionar las solicitudes de vacaciones de la plantilla",
+        "rationale": "Esta es una tarea de gestión de RRHH que no forma parte de las funciones de vigilancia de la igualdad de género.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata del órgano de decisión y vigilancia política más elevado dentro del esquema paritario."
+  },
+  {
+    "guid": "5719232e-f80b-425b-ac6f-360ec3d5a998",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el marco de la diagnosis del Plan, ¿qué ámbito analiza factores como el 'techo de cristal' o el 'suelo pegajoso'?",
+    "answerOptions": [
+      {
+        "text": "Cultura institucional",
+        "rationale": "Analiza valores y organización, pero la segregación vertical es un aspecto más específico de la carrera profesional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Procesos de gestión de personas",
+        "rationale": "Este ámbito evalúa la promoción profesional y detecta los obstáculos que impiden a las mujeres acceder a puestos de responsabilidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Prevención de riesgos laborables",
+        "rationale": "Se centra en la salud y la seguridad desde una perspectiva de género, no directamente en la promoción jerárquica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Política retributiva",
+        "rationale": "Analiza la brecha salarial, que es una consecuencia de la segregación, pero no el proceso de gestión en sí.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el ámbito relacionado con la selección, formación y el ascenso dentro de la organización."
+  },
+  {
+    "guid": "cf904ce0-0fd3-428b-9167-817ec5a15bb4",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el RGPD, los responsables de tratamiento deben realizar una 'evaluación de impacto' cuando:",
+    "answerOptions": [
+      {
+        "text": "Se contrate a un nuevo empleado",
+        "rationale": "La contratación ordinaria no supone per se un alto riesgo que requiera una evaluación de impacto formal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sea probable que un tratamiento entrañe un alto riesgo para los derechos y libertades",
+        "rationale": "La evaluación de impacto (EIPD) es obligatoria cuando se usan nuevas tecnologías o tratamientos a gran escala con alto riesgo potencial.",
+        "isCorrect": true
+      },
+      {
+        "text": "La empresa tenga menos de 10 trabajadores",
+        "rationale": "El tamaño de la empresa no es el criterio, sino la naturaleza y riesgo del tratamiento de datos que se realice.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se quiera cambiar el software de nóminas",
+        "rationale": "Dependerá de si el cambio implica nuevas categorías de datos o procesos de riesgo, pero no es una obligación automática por mero cambio técnico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere situaciones de riesgo elevado vinculadas a la privacidad de los ciudadanos."
+  },
+  {
+    "guid": "fc34275a-ee0d-48c5-b34d-2774b7ff7167",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo para comunicar el cese de un Delegado de Protección de Datos a la autoridad de control?",
+    "answerOptions": [
+      {
+        "text": "Inmediatamente (mismo día)",
+        "rationale": "Aunque debe ser rápido, la ley otorga un margen específico de días para formalizar la comunicación.",
+        "isCorrect": false
+      },
+      {
+        "text": "10 días",
+        "rationale": "Tanto el nombramiento como el cese del DPD deben comunicarse a la autoridad de control en un plazo máximo de 10 días.",
+        "isCorrect": true
+      },
+      {
+        "text": "15 días hábiles",
+        "rationale": "El plazo legal establecido en la normativa española es de 10 días, no 15.",
+        "isCorrect": false
+      },
+      {
+        "text": "72 horas",
+        "rationale": "72 horas es el plazo para notificar violaciones de seguridad, no cambios en el personal de protección de datos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo plazo que se utiliza para notificar su designación oficial."
+  },
+  {
+    "guid": "b6ee5594-2fb2-4a96-93c1-a61fe516deaf",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Dentro del ámbito de 'Política y estructura retributiva', ¿qué herramienta informática se prevé implementar prioritariamente?",
+    "answerOptions": [
+      {
+        "text": "Un sistema de control horario biométrico",
+        "rationale": "El control horario es una medida de jornada, no necesariamente dirigida a la brecha salarial en este contexto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un sistema de indicadores que informe sobre el efecto en la brecha salarial de género",
+        "rationale": "La tercera medida del plan busca dotarse de herramientas para detectar y corregir las causas de la brecha salarial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un portal de transparencia para sueldos externos",
+        "rationale": "El plan se enfoca en la retribución interna del personal municipal y sus organismos dependientes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un software de inteligencia artificial para decidir ascensos",
+        "rationale": "El uso de IA en ascensos no es una medida recogida en el III Plan de Igualdad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca una herramienta de medición de la diferencia de ganancias entre hombres y mujeres."
+  },
+  {
+    "guid": "ae672b39-826c-4f6d-bbab-a7ba5f2672d2",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué se refiere el concepto de 'doble discriminación' mencionado en la Llei 17/2015?",
+    "answerOptions": [
+      {
+        "text": "Cuando se discrimina a una persona dos veces por el mismo motivo",
+        "rationale": "La discriminación doble o múltiple implica la convergencia de diferentes causas de discriminación, no la repetición del acto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando concurre el sexo con otros factores como la raza o las ideas",
+        "rationale": "Es la interseccionalidad de varios motivos de discriminación que generan un efecto perjudicial agravado para la persona.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuando tanto el hombre como la mujer son discriminados en el mismo proceso",
+        "rationale": "Este concepto no se refiere a la pluralidad de víctimas, sino a la acumulación de motivos de exclusión en un mismo individuo.",
+        "isCorrect": false
+      },
+      {
+        "text": "A la discriminación que ocurre tanto en el ámbito privado como en el público",
+        "rationale": "La definición legal se centra en los motivos (sexo, religión, etnia, etc.), no en el entorno donde sucede.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la suma de varios prejuicios sociales sobre un mismo individuo."
+  },
+  {
+    "guid": "9f40c96d-5596-4ad5-8d95-6d3efbe2cc6a",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la 'consulta previa' a la autoridad de control (Art 36 RGPD), ¿cuánto tiempo tiene la autoridad para asesorar por escrito al responsable?",
+    "answerOptions": [
+      {
+        "text": "2 semanas",
+        "rationale": "Este plazo es insuficiente para el análisis técnico complejo que suele requerir una consulta previa de riesgo.",
+        "isCorrect": false
+      },
+      {
+        "text": "8 semanas",
+        "rationale": "La autoridad dispone de un plazo de 8 semanas, ampliable si el tratamiento es especialmente complejo.",
+        "isCorrect": true
+      },
+      {
+        "text": "6 meses",
+        "rationale": "El RGPD establece plazos más ágiles para no paralizar excesivamente la actividad del responsable de tratamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "10 días hábiles",
+        "rationale": "Los 10 días se reservan para trámites administrativos menores, no para el asesoramiento de impacto en riesgos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un periodo de aproximadamente dos meses."
+  },
+  {
+    "guid": "2d8c463b-64f7-4768-b357-8d91af606ead",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función del Delegado de Protección de Datos en relación con las autoridades de control?",
+    "answerOptions": [
+      {
+        "text": "Debe actuar como abogado defensor de la empresa ante multas",
+        "rationale": "El DPD debe ser neutral y velar por el cumplimiento, no es un representante legal para litigios sancionadores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Actuar como punto de contacto para la autoridad de control sobre cuestiones relativas al tratamiento",
+        "rationale": "El DPD es el interlocutor facilitador entre la organización y la Agencia de Protección de Datos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir a la autoridad de control en la imposición de sanciones internas",
+        "rationale": "El DPD asesora y supervisa, pero no tiene potestad sancionadora pública ni administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Validar los presupuestos de marketing de la organización",
+        "rationale": "Su función es de privacidad y legalidad, no interviene en decisiones financieras o de negocio ajenas a los datos personales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en su papel de intermediario oficial."
+  },
+  {
+    "guid": "5af040c8-50ca-44ba-8063-8425d7cec250",
+    "subjectId": "T16",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "El III Plan de Igualdad se aplica al personal del Ayuntamiento de Barcelona y también a:",
+    "answerOptions": [
+      {
+        "text": "Todas las empresas privadas con sede en Barcelona",
+        "rationale": "El plan es interno para el sector público municipal, no tiene carácter normativo general para el sector privado local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Organismos autónomos municipales y entes instrumentales adheridos",
+        "rationale": "El ámbito funcional incluye al personal adscrito a la organización ejecutiva municipal y organismos locales vinculados o dependientes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo al personal funcionario, excluyendo al personal laboral",
+        "rationale": "Los planes de igualdad se aplican a todo el conjunto de personas de la organización, independientemente de su vínculo jurídico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exclusivamente a los distritos periféricos de la ciudad",
+        "rationale": "Se aplica de forma transversal a toda la estructura del Ayuntamiento y sus entes dependientes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Incluye a la administración central del consistorio y a su constelación de empresas y organismos públicos."
+  }
+]

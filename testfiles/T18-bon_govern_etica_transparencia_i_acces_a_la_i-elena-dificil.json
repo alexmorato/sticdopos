@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "58c4a14a-aa8d-4202-b039-c1e39322801d",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la edad mínima establecida para que una persona pueda ejercer el derecho de acceso a la información pública según la Ley 19/2014?",
+    "answerOptions": [
+      {
+        "text": "18 años",
+        "rationale": "Aunque es la mayoría de edad general, la normativa de transparencia catalana reduce este umbral para fomentar la participación joven.",
+        "isCorrect": false
+      },
+      {
+        "text": "16 años",
+        "rationale": "El artículo 18 de la Ley 19/2014 reconoce específicamente que el derecho de acceso puede ejercerse a partir de los 16 años.",
+        "isCorrect": true
+      },
+      {
+        "text": "14 años",
+        "rationale": "Este umbral suele aplicarse en materias de protección de datos personales, pero no es el establecido para el acceso a la información pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "21 años",
+        "rationale": "No existe ninguna disposición en la normativa de transparencia que eleve el requisito de edad por encima de la mayoría de edad legal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma edad requerida para trabajar en España con autorización o para ciertos actos de participación ciudadana."
+  },
+  {
+    "guid": "363aad30-a8ef-4e12-b24e-a1046c3d4e31",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el marco de la Bústia Ètica del Ayuntamiento de Barcelona, ¿qué sucede si se presenta una comunicación de forma presencial?",
+    "answerOptions": [
+      {
+        "text": "Se garantiza el anonimato mediante un sistema de registro ciego.",
+        "rationale": "El anonimato total solo puede garantizarse técnicamente a través del canal telemático seguro.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es obligatoria la identificación personal del comunicante.",
+        "rationale": "Según las normas reguladoras, si bien se admite el canal presencial, este requiere la identificación obligatoria, a diferencia del canal telemático.",
+        "isCorrect": true
+      },
+      {
+        "text": "La comunicación es inadmitida automáticamente por defecto de forma.",
+        "rationale": "La administración admite diversos canales, aunque el telemático sea el preferente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe ir acompañada obligatoriamente de una firma ante notario.",
+        "rationale": "No se requiere una formalidad tan elevada; basta con la identificación en las Oficinas de Atención Ciudadana (OAC).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la diferencia de trazabilidad entre un entorno digital cifrado y el trato cara a cara en una oficina pública."
+  },
+  {
+    "guid": "02cbc19e-9478-4be0-873f-27d2ade658d2",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el Código Ético de Conducta de 2017, ¿cuál es el carácter de los informes y recomendaciones del Comité de Ética?",
+    "answerOptions": [
+      {
+        "text": "Son vinculantes para la Alcaldía.",
+        "rationale": "Los órganos consultivos de este tipo no suelen tener potestad para obligar a la acción ejecutiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tienen carácter vinculante solo en materia disciplinaria.",
+        "rationale": "Incluso en procesos disciplinarios, su función es de dictamen previo, no resolutoria.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tienen carácter vinculante.",
+        "rationale": "El artículo 15 del Código establece explícitamente que el Comité es un órgano colegiado consultivo cuyos resultados no obligan jurídicamente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Son vinculantes solo si el Pleno del Consejo Municipal los ratifica.",
+        "rationale": "La naturaleza del órgano es consultiva desde su origen, independientemente de ratificaciones posteriores.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la función de asesoramiento que suelen tener estos comités externos de expertos."
+  },
+  {
+    "guid": "d86d988b-f19c-4d6e-9991-f6e109514ac7",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Si una solicitud de acceso a la información pública afecta a datos personales que revelan la afiliación sindical del afectado, ¿qué requisito es imprescindible para conceder el acceso?",
+    "answerOptions": [
+      {
+        "text": "Que el solicitante demuestre un interés legítimo y directo.",
+        "rationale": "El interés personal no es suficiente para superar la protección de datos de categorías especiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El consentimiento expreso y por escrito del afectado.",
+        "rationale": "La ley protege especialmente datos como ideología, religión o afiliación sindical, exigiendo consentimiento previo para su divulgación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que la información tenga más de $10$ años de antigüedad.",
+        "rationale": "La protección de estos datos sensibles no depende exclusivamente del paso del tiempo, sino de la naturaleza del dato.",
+        "isCorrect": false
+      },
+      {
+        "text": "Basta con una resolución motivada del órgano de transparencia.",
+        "rationale": "Sin el consentimiento del titular, la administración no puede autorizar el acceso a datos especialmente protegidos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un dato de 'categoría especial' que requiere el máximo nivel de autonomía del titular."
+  },
+  {
+    "guid": "21fb6c3f-f9c9-408c-ac4e-9c91cbfe669b",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo máximo establecido para que el gestor de la Bústia Ètica realice las tareas de comprobación de una comunicación?",
+    "answerOptions": [
+      {
+        "text": "Un mes desde la presentación.",
+        "rationale": "Este es el plazo general para solicitudes de acceso, pero la investigación ética requiere más tiempo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos meses desde la presentación.",
+        "rationale": "Las normas reguladoras de la Bústia establecen un periodo máximo de dos meses para las actuaciones de comprobación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres meses, prorrogables por otros tres.",
+        "rationale": "Aunque es un plazo común en el procedimiento administrativo común, la normativa específica de la Bústia acorta este tiempo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis meses debido a la complejidad de la materia.",
+        "rationale": "Se busca agilidad para evitar la prescripción de posibles infracciones, por lo que el plazo es inferior.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un periodo de tiempo equivalente a $60$ días naturales aproximadamente."
+  },
+  {
+    "guid": "a58ebb7a-0146-458e-b342-c714d65b86f3",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 15 de la Ley 19/2014, las personas jurídicas beneficiarias de subvenciones superiores a cierto importe deben comunicar las retribuciones de sus órganos de dirección. ¿Cuál es ese importe?",
+    "answerOptions": [
+      {
+        "text": "$5.000$ euros",
+        "rationale": "Este importe es un umbral para otras obligaciones de transparencia de entidades privadas, pero no para retribuciones directivas.",
+        "isCorrect": false
+      },
+      {
+        "text": "$10.000$ euros",
+        "rationale": "La ley establece esta obligación de transparencia específica para subvenciones o ayudas que superen los $10.000$ euros.",
+        "isCorrect": true
+      },
+      {
+        "text": "$100.000$ euros",
+        "rationale": "Es un umbral excesivamente alto que dejaría fuera a la mayoría de entidades colaboradoras de la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "$150.000$ euros",
+        "rationale": "Este importe se refiere al límite anual de ayudas recibidas para que una entidad privada sea considerada sujeto obligado por la ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una cifra redonda de cinco dígitos."
+  },
+  {
+    "guid": "85b003e8-5277-42fe-805d-9fbac6a79d22",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Quién ostenta el cargo de 'Gestor Ético' en el Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "La persona titular de la Alcaldía.",
+        "rationale": "El cargo debe recaer en un perfil técnico y de análisis, no en una figura de elección política directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "La persona titular de la Dirección de Servicios de Análisis.",
+        "rationale": "El nombramiento está adscrito por norma a esta dirección dentro de la Gerencia de Recursos.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Síndic de Greuges de Barcelona.",
+        "rationale": "El Síndic es una institución externa de defensa de derechos, no el gestor interno de la infraestructura ética municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario General del Pleno.",
+        "rationale": "Aunque tiene funciones de control de legalidad, la gestión ética tiene su propia estructura administrativa específica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque un cargo técnico vinculado a la transparencia y adscrito a la Gerencia de Recursos."
+  },
+  {
+    "guid": "fb895e63-cfb3-4d8c-a4a3-3f766f700b77",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué principio de la Ley de Transparencia se define como la acción proactiva de la Administración de dar a conocer información sin esperar a una solicitud?",
+    "answerOptions": [
+      {
+        "text": "Derecho de Acceso",
+        "rationale": "El derecho de acceso es reactivo, ya que depende de una petición previa del ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Publicidad Activa",
+        "rationale": "La publicidad activa obliga a la administración a publicar de oficio información relevante en portales web.",
+        "isCorrect": true
+      },
+      {
+        "text": "Buen Gobierno",
+        "rationale": "El buen gobierno se refiere a principios éticos y de gestión, no específicamente a la difusión de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reutilización",
+        "rationale": "La reutilización es la capacidad de usar los datos ya publicados para fines lícitos, no el acto de publicarlos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se asocia con la 'proactividad' y la puesta a disposición de datos en portales de transparencia."
+  },
+  {
+    "guid": "426153e2-0cdd-4864-8775-0220449f9714",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En caso de que una solicitud de información deba ser derivada a otra administración competente, ¿cuál es el plazo para realizar dicha derivación?",
+    "answerOptions": [
+      {
+        "text": "5 días hábiles",
+        "rationale": "Este plazo es común para subsanaciones, pero la derivación entre administraciones permite un margen ligeramente superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "15 días naturales",
+        "rationale": "La normativa establece quince días naturales para derivar la solicitud y comunicar al interesado el órgano responsable.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un mes",
+        "rationale": "Un mes es el tiempo total para resolver, no para realizar el trámite preliminar de derivación.",
+        "isCorrect": false
+      },
+      {
+        "text": "10 días hábiles",
+        "rationale": "Aunque es el plazo estándar en el procedimiento administrativo para muchos trámites, la Ley de Transparencia especifica quince días naturales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un periodo de poco más de dos semanas."
+  },
+  {
+    "guid": "08abe0b1-506b-4681-a365-4963c8c79925",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De las siguientes materias, ¿cuál está específicamente EXCLUIDA del ámbito de aplicación de la Bústia Ètica?",
+    "answerOptions": [
+      {
+        "text": "Conductas contrarias a las reglas éticas de administración.",
+        "rationale": "Este es precisamente el objeto principal de la Bústia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reclamaciones de responsabilidad patrimonial.",
+        "rationale": "La normativa excluye expresamente estas reclamaciones, que deben seguir su cauce administrativo específico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Acciones u omisiones de entidades vinculadas al Ayuntamiento.",
+        "rationale": "Las entidades dependientes sí están incluidas en el ámbito de aplicación de la bústia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conflictos de intereses de altos cargos.",
+        "rationale": "La detección de conflictos de intereses es una función clave del sistema de integridad municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en procedimientos que buscan una indemnización económica por daños causados por la administración."
+  },
+  {
+    "guid": "8523314f-c62b-4c6e-a42b-2cfb4b697d78",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Con qué frecuencia debe revisarse y actualizarse el Código Ético y de Conducta del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Anualmente",
+        "rationale": "Una revisión anual podría ser ineficiente para una norma de carácter general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cada dos años",
+        "rationale": "El texto del Código prevé su revisión y actualización cada bienio para adaptarse a nuevos estándares de integridad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cada cuatro años, coincidiendo con el mandato municipal.",
+        "rationale": "Aunque parece lógico políticamente, la norma establece un periodo más corto de actualización técnica.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene un plazo fijo de revisión.",
+        "rationale": "Para garantizar su eficacia, el propio código impone una periodicidad de revisión obligatoria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un periodo intermedio entre la revisión anual y la duración de una legislatura."
+  },
+  {
+    "guid": "f881f392-98e9-432b-b0fd-540b93da87e3",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el número máximo de miembros que pueden integrar el Comité de Ética del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Tres miembros",
+        "rationale": "Se considera un número insuficiente para garantizar la pluralidad y la presencia de expertos jurídicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco miembros",
+        "rationale": "El artículo 15 establece que estará integrado por un máximo de cinco personas de reconocido prestigio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Siete miembros",
+        "rationale": "Es un número habitual en otros órganos, pero el Código Ético opta por una estructura más reducida.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez miembros",
+        "rationale": "Un grupo tan grande dificultaría la operatividad y el carácter paritario del órgano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número impar pequeño que permite una deliberación ágil."
+  },
+  {
+    "guid": "9c0170f9-e6fe-48d8-a156-d16408098ff4",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué ocurre si una comunicación a la Bústia Ètica evidencia de forma manifiesta la existencia de un ilícito penal?",
+    "answerOptions": [
+      {
+        "text": "El Gestor Ético debe resolver el fondo del asunto inmediatamente.",
+        "rationale": "La administración no tiene competencia para juzgar delitos penales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se suspenden las actuaciones de comprobación y se da cuenta al órgano competente.",
+        "rationale": "Al detectar indicios de delito, se debe paralizar el trámite administrativo para no interferir con la justicia y evitar la prescripción.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se archiva el expediente por falta de competencia administrativa.",
+        "rationale": "No se archiva sin más, sino que se debe derivar al órgano (Fiscalía o Juzgado) pertinente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se continúa la investigación administrativa hasta finalizar la recomendación.",
+        "rationale": "La prioridad de la vía penal obliga a suspender la vía administrativa en estos casos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde el principio de preferencia de la jurisdicción penal sobre la administrativa."
+  },
+  {
+    "guid": "4dcbbebd-f8e8-48b1-9d05-3e984202ae03",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto de la reutilización de información, ¿cuál de los siguientes NO es un objetivo mencionado en la normativa?",
+    "answerOptions": [
+      {
+        "text": "Mejorar la transparencia.",
+        "rationale": "La reutilización es una herramienta fundamental para profundizar en la transparencia pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Generar valor en la sociedad.",
+        "rationale": "El uso de datos públicos por parte de empresas y ciudadanos crea valor económico y social.",
+        "isCorrect": false
+      },
+      {
+        "text": "Promover la interoperabilidad entre administraciones.",
+        "rationale": "Los formatos abiertos y reutilizables facilitan que diferentes sistemas se comuniquen entre sí.",
+        "isCorrect": false
+      },
+      {
+        "text": "Garantizar el beneficio económico exclusivo de la administración.",
+        "rationale": "La finalidad de la reutilización no es recaudatoria, sino de fomento de la actividad social y económica.",
+        "isCorrect": true
+      }
+    ],
+    "hint": "Piense en qué opción suena más a control cerrado o lucro institucional que a servicio público."
+  },
+  {
+    "guid": "85e8bedc-9a3c-43d8-b7c2-53244560c942",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Si una solicitud de acceso a la información no es resuelta ni notificada en el plazo de un mes, ¿cuál es el sentido del silencio administrativo como regla general según la Ley 19/2014?",
+    "answerOptions": [
+      {
+        "text": "Desestimatorio (Silencio negativo)",
+        "rationale": "La ley de transparencia busca invertir la regla general administrativa para favorecer al ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estimatorio (Silencio positivo)",
+        "rationale": "Salvo que una norma con rango de ley establezca lo contrario para materias específicas, el silencio se entiende como estimación de la solicitud.",
+        "isCorrect": true
+      },
+      {
+        "text": "Produce la caducidad del procedimiento.",
+        "rationale": "El silencio en solicitudes iniciadas a instancia de parte no suele producir caducidad, sino que habilita la vía de recurso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obliga a la suspensión de sueldo del funcionario responsable.",
+        "rationale": "Aunque es una infracción, el sentido del silencio es una garantía para el solicitante, no una sanción automática disciplinaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un mecanismo de garantía que asume que, si la administración no contesta, es porque la información debe ser entregada."
+  },
+  {
+    "guid": "2ae4079d-932b-4db8-9d86-ae34d0e98327",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el Código Ético, los sujetos obligados no pueden participar en más de un porcentaje determinado de empresas que perciban subvenciones municipales. ¿Cuál es ese límite?",
+    "answerOptions": [
+      {
+        "text": "$1\\%$",
+        "rationale": "Es un porcentaje excesivamente restrictivo para la participación en el mercado de valores común.",
+        "isCorrect": false
+      },
+      {
+        "text": "$10\\%$",
+        "rationale": "El artículo 12 establece que deben abstenerse de participar en más de un $10\\%$ de manera directa o indirecta en dichas empresas.",
+        "isCorrect": true
+      },
+      {
+        "text": "$25\\%$",
+        "rationale": "Este porcentaje suele definir participaciones significativas en otros ámbitos, pero aquí el límite es más estricto.",
+        "isCorrect": false
+      },
+      {
+        "text": "$50\\%$",
+        "rationale": "Un control mayoritario sería un conflicto de intereses evidente y no se permitiría ni siquiera por debajo de este umbral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el valor de una décima parte del capital."
+  },
+  {
+    "guid": "b7918fef-f7f0-49d2-8585-8bd43e36b6b2",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el tiempo adicional máximo por el que se puede prorrogar el plazo de resolución de una solicitud de acceso por complejidad?",
+    "answerOptions": [
+      {
+        "text": "10 días hábiles",
+        "rationale": "Aunque es un plazo estándar en otras leyes, la LTC vincula la prórroga a la mitad del tiempo inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "15 días naturales",
+        "rationale": "La prórroga puede ser de hasta la mitad del plazo inicial (un mes), lo que equivale a quince días adicionales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Otro mes completo",
+        "rationale": "La ley no permite duplicar el plazo original, sino incrementarlo en un $50\\%$.",
+        "isCorrect": false
+      },
+      {
+        "text": "45 días",
+        "rationale": "Este sería el tiempo total (mes + prórroga), no el incremento máximo permitido.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Equivale a la mitad del plazo ordinario de resolución."
+  },
+  {
+    "guid": "b77e3de3-dc34-4c62-b8bb-e9475b3ccfc8",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la Bústia Ètica, el sistema multicanal IRIS tiene una función específica. ¿Cuál es?",
+    "answerOptions": [
+      {
+        "text": "Es el sistema de cifrado para garantizar el anonimato.",
+        "rationale": "IRIS es una plataforma de gestión de incidencias ciudadanas, no un protocolo de criptografía.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es la plataforma a la que se redirigen las comunicaciones que son quejas o sugerencias.",
+        "rationale": "Si la comunicación no es una alerta ética sino una incidencia ordinaria, se redirige al sistema IRIS del Ayuntamiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es el órgano encargado de sancionar a los altos cargos.",
+        "rationale": "IRIS es un software/plataforma, no un órgano con potestad sancionadora.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es el registro oficial donde deben quedar grabadas todas las denuncias penales.",
+        "rationale": "Las denuncias penales se tramitan ante fiscalía o policía, no en el sistema IRIS municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Relaciónelo con la gestión de Incidencias, Reclamaciones y Sugerencias de la ciudad."
+  },
+  {
+    "guid": "308f41db-396d-4c86-ac4c-83a5fbe92ed2",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué requisito debe cumplir el Comité de Ética respecto a su composición de género?",
+    "answerOptions": [
+      {
+        "text": "Debe ser íntegramente femenino para compensar brechas históricas.",
+        "rationale": "La normativa busca el equilibrio de género, no la exclusión de uno de ellos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe tener una composición paritaria.",
+        "rationale": "El Código Ético exige explícitamente que el Comité tenga una composición paritaria entre hombres y mujeres.",
+        "isCorrect": true
+      },
+      {
+        "text": "No existe ningún requisito de género en la norma.",
+        "rationale": "La paridad es un mandato legal para los órganos colegiados en el Ayuntamiento de Barcelona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Basta con que haya al menos una mujer.",
+        "rationale": "La 'presencia mínima' no es equivalente al concepto de 'paridad' que exige la ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el término que implica igualdad proporcional entre sexos."
+  },
+  {
+    "guid": "b887feea-cbe4-4528-a591-ae719f1b155e",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "El derecho de acceso a la información puede ser denegado si supone un perjuicio para la protección de menores. ¿En qué caso se podría conceder a pesar de este límite?",
+    "answerOptions": [
+      {
+        "text": "Si el solicitante es un familiar directo del menor.",
+        "rationale": "Incluso familiares pueden ver restringido el acceso si no es en el interés superior del menor o si se rige por otras leyes específicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Si se puede garantizar el carácter anónimo de la información.",
+        "rationale": "La ley permite el acceso si la disociación de datos impide identificar al menor, eliminando el riesgo de perjuicio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Si el menor ha cumplido ya los 12 años.",
+        "rationale": "La protección se extiende hasta la mayoría de edad, independientemente de la edad intermedia del menor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nunca se puede conceder si hay menores implicados.",
+        "rationale": "El anonimato es la técnica que permite equilibrar el derecho a la información y la protección del menor.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere técnicas de tratamiento de datos que 'invisibilizan' a la persona física."
+  },
+  {
+    "guid": "455df8fd-dbd4-46d6-a84c-69abf83dfdd9",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué normativa catalana desplegó el Registro de grupos de interés y la Comisión de Garantía del Derecho de Acceso?",
+    "answerOptions": [
+      {
+        "text": "La Ley de Bases de Régimen Local.",
+        "rationale": "Esta es una ley estatal de organización básica, no el reglamento específico catalán.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Decreto 8/2021 (RLTC).",
+        "rationale": "El Reglamento de la Ley de Transparencia es el encargado de detallar y desplegar estos instrumentos operativos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Carta Municipal de Barcelona.",
+        "rationale": "Aunque es una norma clave, no es la que despliega los reglamentos de transparencia para toda Cataluña.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Constitución Española.",
+        "rationale": "La Constitución establece el marco de derechos, pero no entra en el detalle reglamentario de registros de lobbies.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un Decreto reciente que sirve como Reglamento de la Ley 19/2014."
+  },
+  {
+    "guid": "7a24119d-5b06-47a0-88d8-6d5a36c48639",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Dentro de la Bústia Ètica, ¿quiénes tienen derecho a la protección de su integridad laboral y a no sufrir represalias?",
+    "answerOptions": [
+      {
+        "text": "Solo los ciudadanos externos que denuncian.",
+        "rationale": "La protección laboral no tiene sentido para quien no trabaja en la organización.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tanto los informantes como los posibles testigos.",
+        "rationale": "El artículo 8.2 extiende la protección a cualquier persona que colabore en la comprobación de los fets, incluyendo testigos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente el personal directivo que colabora.",
+        "rationale": "La protección es universal para todo el personal municipal, sin importar su rango.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nadie; la bústia no puede interferir en el régimen disciplinario laboral.",
+        "rationale": "Uno de los fines críticos de la bústia es precisamente blindar al informante frente al acoso profesional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Incluye no solo a quien da el primer paso, sino a quienes ayudan a confirmar la información."
+  },
+  {
+    "guid": "d717132c-4319-4997-aaf3-7084d4227b38",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál de los siguientes NO es un requisito formal que deba contener una solicitud de acceso a la información pública?",
+    "answerOptions": [
+      {
+        "text": "La identidad del solicitante.",
+        "rationale": "Es obligatorio para que la administración sepa a quién debe responder y notificar.",
+        "isCorrect": false
+      },
+      {
+        "text": "La motivación o justificación de por qué se pide la información.",
+        "rationale": "El ejercicio del derecho de acceso no está condicionado a un interés personal ni requiere motivación alguna.",
+        "isCorrect": true
+      },
+      {
+        "text": "La información precisa a la cual se desea tener acceso.",
+        "rationale": "Aunque no se pida un expediente concreto, la solicitud debe permitir identificar qué se busca.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una dirección de contacto (preferiblemente electrónica).",
+        "rationale": "Es esencial para poder recibir la resolución y las comunicaciones del procedimiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La transparencia se basa en que la información es pública por defecto, sin tener que explicar 'para qué' se quiere."
+  },
+  {
+    "guid": "b93a7ab7-0d8f-4eab-befc-ef2f4c6d29b2",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En relación con los grupos de interés, ¿cuál es una de las obligaciones principales de los declarantes al inscribirse?",
+    "answerOptions": [
+      {
+        "text": "Pagar una tasa de mantenimiento anual.",
+        "rationale": "La inscripción en el registro suele ser gratuita para no desincentivar la transparencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Garantizar que la información proporcionada es completa y fidedigna.",
+        "rationale": "La veracidad de los datos aportados por los lobbies es fundamental para el control social.",
+        "isCorrect": true
+      },
+      {
+        "text": "Obtener el permiso de la Alcaldía para cada reunión.",
+        "rationale": "El registro sirve para dar publicidad a las reuniones, no para someterlas a autorización previa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tener sede física en el municipio de Barcelona.",
+        "rationale": "Cualquier grupo de interés que actúe ante la administración debe registrarse, independientemente de su sede.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se relaciona con la honestidad y precisión de los datos que introducen en el sistema."
+  },
+  {
+    "guid": "bfa11db3-f0ab-408c-b41c-e2530fc99458",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el Código Ético, ¿qué debe hacer un cargo electo ante una invitación a un evento que NO esté relacionada con su papel institucional?",
+    "answerOptions": [
+      {
+        "text": "Aceptarla, siempre que no supere los $50$ euros de valor.",
+        "rationale": "La naturaleza institucional de la invitación es el criterio clave, no solo su valor económico.",
+        "isCorrect": false
+      },
+      {
+        "text": "No aceptarla.",
+        "rationale": "El código prohíbe aceptar invitaciones a comidas o eventos ajenos a las funciones oficiales del cargo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aceptarla y luego donar el equivalente al valor del menú a una ONG.",
+        "rationale": "La donación posterior no elimina el conflicto de interés o la apariencia de falta de integridad inicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Delegar la asistencia en un técnico municipal.",
+        "rationale": "Si el evento no es institucional, nadie de la corporación debería asistir en calidad oficial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la separación estricta entre la vida privada y la representación pública."
+  },
+  {
+    "guid": "cd5237d1-81c9-4935-9672-ef3a9030cde8",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué gerencia está adscrita la Dirección para la Transparencia y las Buenas Prácticas?",
+    "answerOptions": [
+      {
+        "text": "Gerencia de Presidencia.",
+        "rationale": "Aunque parezca un área política, la norma la sitúa en una gerencia de gestión interna.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gerencia de Recursos.",
+        "rationale": "La estructura organizativa del Ayuntamiento ubica estas funciones bajo la supervisión de Recursos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Gerencia de Urbanismo.",
+        "rationale": "No existe una vinculación temática directa entre el urbanismo y la gestión general del sistema ético.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gerencia de Seguridad.",
+        "rationale": "La transparencia no se considera una función de orden público o seguridad ciudadana.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma gerencia que gestiona el personal y los medios materiales del Ayuntamiento."
+  },
+  {
+    "guid": "152bbc09-b877-4375-a272-7c2e1975655d",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En la publicidad activa, ¿cuál de los siguientes contenidos es obligatorio publicar respecto a las subvenciones?",
+    "answerOptions": [
+      {
+        "text": "Solo el nombre de la entidad beneficiaria.",
+        "rationale": "La transparencia exige mucho más detalle que el simple nombre para poder realizar un control efectivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La relación de beneficiarios desagregada por sexo.",
+        "rationale": "El Código Ético (Art. 12) especifica la necesidad de publicar beneficiarios con esta desagregación y las cuantías.",
+        "isCorrect": true
+      },
+      {
+        "text": "La declaración de la renta de todos los socios de la entidad.",
+        "rationale": "Esto vulneraría gravemente el derecho a la intimidad y protección de datos de terceros ajenos a la subvención.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo las subvenciones que superen los $50.000$ euros.",
+        "rationale": "Todas las subvenciones otorgadas deben publicarse, independientemente de su importe, para cumplir con la publicidad activa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque un requisito que combine transparencia financiera con perspectiva de género."
+  },
+  {
+    "guid": "77438e6b-cb0c-4421-bb60-a543a3fdbe3e",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué principio obliga a la administración a facilitar la información en formatos que permitan su tratamiento automatizado?",
+    "answerOptions": [
+      {
+        "text": "Accesibilidad universal.",
+        "rationale": "La accesibilidad se refiere a que personas con discapacidad puedan consultar la web, no al tratamiento de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Interoperabilidad.",
+        "rationale": "La interoperabilidad permite que diferentes sistemas informáticos compartan y utilicen los datos eficazmente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tracte successiu.",
+        "rationale": "Este es un concepto jurídico de contratos o registros, no un principio técnico de datos abiertos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Veracidad.",
+        "rationale": "La veracidad se refiere al contenido de la información, no a su formato informático.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la capacidad de los sistemas de 'entenderse' entre sí."
+  },
+  {
+    "guid": "d8f2a42e-cf54-4dbe-9118-c7e6568f1de1",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el Código Ético de Conducta, ¿cómo deben actuar los alts càrrecs en relación con los regalos?",
+    "answerOptions": [
+      {
+        "text": "Pueden aceptar regalos de cualquier valor si se entregan en público.",
+        "rationale": "La publicidad del acto no legitima la recepción de un beneficio personal indebido.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo pueden aceptar obsequios de cortesía que no sean de uso personal.",
+        "rationale": "Los regalos de cortesía deben ser institucionales y publicarse en el portal de transparencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tienen prohibido aceptar absolutamente cualquier tipo de objeto.",
+        "rationale": "Se permiten excepciones mínimas por 'cortesía institucional', siempre que no reviertan en el patrimonio personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pueden aceptarlos si el valor es inferior a $100$ euros.",
+        "rationale": "No se establece un umbral económico para el uso personal; la norma es mucho más restrictiva.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en objetos que representan un saludo entre instituciones y no un beneficio para el individuo."
+  },
+  {
+    "guid": "37359f36-0064-4fb9-98d7-5a481d105dc5",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el objeto principal de la Ley 19/2014 de transparencia de Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Regular el régimen disciplinario de los funcionarios.",
+        "rationale": "Este tema se regula en la normativa de función pública, aunque la LTC contenga infracciones específicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Establecer un sistema de relación entre las personas y la Administración basado en el conocimiento de la actividad pública.",
+        "rationale": "Su finalidad es fomentar la participación, el rendimiento de cuentas y la mejora de la gestión administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituir a la Ley de Contratos del Sector Público.",
+        "rationale": "La LTC complementa en transparencia a otras leyes, pero no las sustituye en su materia específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Crear una policía autonómica dedicada a la corrupción.",
+        "rationale": "La ley crea mecanismos administrativos y de garantía, no cuerpos policiales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque la definición que hable de 'rendimiento de cuentas' y 'conocimiento de la actividad pública'."
+  }
+]

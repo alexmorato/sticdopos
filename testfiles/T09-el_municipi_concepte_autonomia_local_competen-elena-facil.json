@@ -1,0 +1,1521 @@
+[
+  {
+    "guid": "b816da62-7199-4396-aed7-132c6e4dbe99",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la entidad local básica de la organización territorial del Estado según la Ley 7/1985?",
+    "answerOptions": [
+      {
+        "text": "La Provincia",
+        "rationale": "Aunque es una entidad local territorial, la ley la define como una agrupación de municipios, no como la base de la organización.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Municipio",
+        "rationale": "La legislación básica define explícitamente al municipio como el elemento primario y fundamental de la estructura territorial estatal.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Comarca",
+        "rationale": "Las comarcas son entidades creadas por las Comunidades Autónomas y no constituyen la base primaria de la organización estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comunidad Autónoma",
+        "rationale": "Esta es una entidad de nivel superior y no se clasifica como una entidad local básica dentro del régimen local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata del primer nivel de administración con el que interactúa directamente el ciudadano."
+  },
+  {
+    "guid": "4f93a898-45c3-43c7-803e-d702c47f5aaa",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "De acuerdo con el artículo 140 de la Constitución Española, ¿quiénes integran el Ayuntamiento?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde y los Concejales",
+        "rationale": "La Constitución establece que el gobierno municipal reside en estos dos tipos de figuras electas.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Alcalde y el Gerente Municipal",
+        "rationale": "El Gerente es un órgano directivo de carácter técnico, no un miembro electo del órgano de gobierno constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los Concejales y los Vecinos",
+        "rationale": "Aunque los vecinos eligen a los concejales, no forman parte integrante del órgano administrativo del Ayuntamiento, salvo en el régimen de Concejo Abierto.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Pleno y la Junta de Gobierno",
+        "rationale": "Estos son órganos dentro de la estructura, pero la definición constitucional se centra en las personas: Alcalde y Concejales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en los cargos políticos que resultan directamente elegidos o designados tras las elecciones municipales."
+  },
+  {
+    "guid": "86e1a07d-8e40-44b2-9ab0-4aeb910118df",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según el artículo 11.2 de la LRBRL, ¿cuáles son los tres elementos necesarios del municipio?",
+    "answerOptions": [
+      {
+        "text": "Territorio, población y organización",
+        "rationale": "Estos tres componentes abarcan el espacio físico, el factor humano y la estructura administrativa necesaria para su existencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ayuntamiento, vecinos y presupuesto",
+        "rationale": "El presupuesto es un instrumento de gestión, pero no se considera un elemento constitutivo esencial por ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Término municipal, padrón y alcaldía",
+        "rationale": "Aunque están relacionados, son términos específicos de los elementos generales que la ley denomina territorio, población y organización.",
+        "isCorrect": false
+      },
+      {
+        "text": "Soberanía, territorio y leyes",
+        "rationale": "La soberanía reside en el pueblo español y no es un atributo propio de una entidad local delegada.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere un espacio físico, personas que lo habiten y una estructura para gobernarlos."
+  },
+  {
+    "guid": "0d157de5-7eae-4c30-9ce4-a3e48448e7c1",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué momento se adquiere legalmente la condición de vecino de un municipio?",
+    "answerOptions": [
+      {
+        "text": "Tras residir seis meses ininterrumpidos",
+        "rationale": "El tiempo de residencia es un criterio para la inscripción, pero la condición legal no se otorga por el mero paso del tiempo.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el mismo momento de la inscripción en el Padrón",
+        "rationale": "Tanto la ley estatal como la catalana vinculan el estatus de vecino al acto administrativo del empadronamiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al nacer dentro del término municipal",
+        "rationale": "El nacimiento otorga nacionalidad o vecindad civil, pero la vecindad administrativa depende de la residencia y el padrón.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al adquirir una vivienda en el municipio",
+        "rationale": "La propiedad inmobiliaria no otorga automáticamente la condición de vecino si no hay residencia habitual e inscripción.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Está directamente relacionado con un trámite administrativo en el registro municipal."
+  },
+  {
+    "guid": "bc45f05e-36b6-46e9-9da4-b5fc533647cb",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué provincia debe pertenecer cada municipio según la normativa vigente?",
+    "answerOptions": [
+      {
+        "text": "A una sola provincia",
+        "rationale": "La ley establece que la organización territorial debe ser clara y unívoca, prohibiendo la pertenencia múltiple.",
+        "isCorrect": true
+      },
+      {
+        "text": "A la provincia que decida el Pleno",
+        "rationale": "La adscripción provincial está determinada por la organización del Estado y no es una facultad discrecional del municipio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Puede pertenecer a dos si es un municipio limítrofe",
+        "rationale": "La ley prohíbe taxativamente que un municipio pertenezca a más de una provincia.",
+        "isCorrect": false
+      },
+      {
+        "text": "A ninguna, si es un municipio de gran población",
+        "rationale": "Incluso las grandes ciudades y capitales están integradas obligatoriamente en la estructura provincial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La organización territorial del Estado busca evitar solapamientos administrativos entre diferentes provincias."
+  },
+  {
+    "guid": "dd03d887-95f3-4667-8c2a-5adb32675e63",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la población mínima requerida para que sea obligatoria la existencia de una Junta de Gobierno Local en el régimen común?",
+    "answerOptions": [
+      {
+        "text": "Más de 2.000 habitantes",
+        "rationale": "Este umbral se aplica a otros servicios, pero no es el requerido para la Junta de Gobierno Local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Más de 5.000 habitantes",
+        "rationale": "La ley establece este límite poblacional para profesionalizar la gestión ejecutiva en municipios de cierto tamaño.",
+        "isCorrect": true
+      },
+      {
+        "text": "Más de 20.000 habitantes",
+        "rationale": "A partir de este número aumentan las competencias obligatorias, pero la Junta de Gobierno ya es obligatoria desde un umbral inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Más de 50.000 habitantes",
+        "rationale": "Este umbral suele marcar el inicio del régimen de gran población bajo ciertas condiciones, no el de la Junta común.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número intermedio que marca la transición de municipios pequeños a medianos."
+  },
+  {
+    "guid": "f9a46501-72ab-4cfc-97b9-0b792ca46f01",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué sucede con la inscripción en el Padrón de extranjeros no comunitarios sin autorización de residencia permanente?",
+    "answerOptions": [
+      {
+        "text": "Es vitalicia mientras residan en el país",
+        "rationale": "La ley impone controles periódicos para este colectivo específico para asegurar la actualización de los datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe ser objeto de renovación periódica cada dos años",
+        "rationale": "Se trata de una medida de control administrativo para verificar la permanencia de estos residentes en el municipio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se renueva automáticamente cada cinco años",
+        "rationale": "La renovación no es automática y el plazo legal es más corto para garantizar la veracidad del registro.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caduca si el interesado sale del país más de un mes",
+        "rationale": "La caducidad está vinculada al plazo de renovación bienal, no a ausencias temporales breves.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca un plazo de tiempo corto y la necesidad de una acción por parte del interesado."
+  },
+  {
+    "guid": "e5206399-6cf4-47d9-9617-d377c004d780",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el Ayuntamiento de Barcelona, ¿cuántos concejales (regidors) integran el Consejo Municipal?",
+    "answerOptions": [
+      {
+        "text": "21",
+        "rationale": "Este número es común en ciudades más pequeñas, pero insuficiente para la representación de Barcelona.",
+        "isCorrect": false
+      },
+      {
+        "text": "31",
+        "rationale": "Es una cifra inferior a la estipulada en la Carta Municipal para la capital catalana.",
+        "isCorrect": false
+      },
+      {
+        "text": "41",
+        "rationale": "Este es el número fijo de representantes determinado para el pleno de la ciudad de Barcelona.",
+        "isCorrect": true
+      },
+      {
+        "text": "51",
+        "rationale": "Aunque es una ciudad muy poblada, el límite legal establecido es de 41 concejales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número impar que supera los cuarenta miembros."
+  },
+  {
+    "guid": "e9cb8983-d26e-459d-8c30-6dfd7efc5394",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién ostenta la máxima representación del municipio según la LRBRL?",
+    "answerOptions": [
+      {
+        "text": "El Pleno",
+        "rationale": "El Pleno es el órgano de representación política colectiva, pero la representación institucional máxima es unipersonal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "La figura del Alcalde concentra la jefatura de la administración y la representación oficial de la ciudad ante terceros.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Secretario General",
+        "rationale": "El Secretario tiene funciones de fe pública y asesoramiento legal, no de representación política o institucional máxima.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gerente Municipal",
+        "rationale": "El Gerente es el responsable de la gestión ejecutiva, pero carece de la representatividad política del Alcalde.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la figura que preside la corporación y dirige el gobierno local."
+  },
+  {
+    "guid": "052ab99d-dc18-4d12-92fc-fdc3c8565dfc",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función principal de los Distritos en el Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Recaudación exclusiva de tributos",
+        "rationale": "La gestión tributaria suele estar centralizada o delegada en órganos específicos, no es la razón de ser de los distritos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Desconcentración de la gestión y descentralización de la participación",
+        "rationale": "Los distritos acercan la administración al ciudadano y permiten gestionar servicios de forma territorializada.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aprobación de leyes locales",
+        "rationale": "La potestad normativa (ordenanzas) reside en el Consejo Municipal (Pleno), no en los distritos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Control de las fronteras municipales",
+        "rationale": "Esta es una competencia de seguridad estatal y no una función administrativa de los órganos territoriales del municipio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con acercar el gobierno de la ciudad a los barrios."
+  },
+  {
+    "guid": "67009445-8425-4c6f-8eef-0ad53fc441fe",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "De acuerdo con la legislación catalana, ¿qué requisito de distancia debe existir para crear un nuevo municipio por segregación?",
+    "answerOptions": [
+      {
+        "text": "Una franja de al menos 1.000 metros de suelo rústico",
+        "rationale": "Esta distancia se considera insuficiente según los estándares de diferenciación territorial de la ley catalana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una franja de al menos 3.000 metros de suelo no urbanizable",
+        "rationale": "La ley exige esta separación física para garantizar que los núcleos de población estén territorialmente diferenciados.",
+        "isCorrect": true
+      },
+      {
+        "text": "No existe requisito de distancia, solo de población",
+        "rationale": "La ley catalana impone criterios geográficos específicos además de los demográficos y económicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "5.000 metros de bosque o zona protegida",
+        "rationale": "Aunque debe ser suelo no urbanizable, la distancia mínima fijada es de tres kilómetros, no cinco.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca una separación física clara medida en kilómetros enteros."
+  },
+  {
+    "guid": "bd30f186-2bc1-4242-ad61-25d0e564418f",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué órgano es responsable de la aprobación del presupuesto en el Instituto de ámbito estatal de administración local mencionado en la LRBRL?",
+    "answerOptions": [
+      {
+        "text": "El Director",
+        "rationale": "Al Director le corresponden funciones ejecutivas y de programación, pero no la aprobación presupuestaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo Rector",
+        "rationale": "Este órgano colegiado tiene la competencia específica para validar los planes económicos y la memoria anual.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministerio de Hacienda",
+        "rationale": "Aunque ejerce tutela, la aprobación interna del presupuesto del instituto corresponde a su propio órgano colegiado.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Pleno de las Entidades Locales",
+        "rationale": "No existe un pleno de todas las entidades para este fin; la representación se articula a través del Consejo Rector.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un órgano compuesto por representantes de diversas administraciones y presidido por el Director."
+  },
+  {
+    "guid": "d64e27e2-fe1c-4059-8446-0f6d36eb0349",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué carácter tienen los datos recogidos en el Padrón municipal respecto a la residencia y domicilio?",
+    "answerOptions": [
+      {
+        "text": "Documento privado sin valor probatorio",
+        "rationale": "Al ser un registro administrativo oficial, su naturaleza es pública y tiene plenos efectos ante la ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prueba de la residencia y del domicilio habitual",
+        "rationale": "Las certificaciones del padrón son documentos fehacientes para todos los efectos administrativos relacionados con el domicilio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo sirven para fines estadísticos",
+        "rationale": "Además de la estadística (Censo), el padrón tiene funciones administrativas y legales inmediatas para el ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prueba de la propiedad de la vivienda",
+        "rationale": "El padrón acredita quién vive en un lugar, pero la propiedad se acredita mediante el Registro de la Propiedad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la forma oficial que tiene el ciudadano de demostrar dónde vive ante cualquier administración."
+  },
+  {
+    "guid": "c445fcd6-a766-476f-a581-f5336cfcb399",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién tiene la jefatura de la Policía Municipal en un Ayuntamiento?",
+    "answerOptions": [
+      {
+        "text": "El Concejal de Seguridad",
+        "rationale": "Puede tener la delegación del área, pero la jefatura originaria y superior es de la máxima autoridad municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "La ley atribuye directamente al Alcalde el mando superior de las fuerzas de seguridad locales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Inspector Jefe de Carrera",
+        "rationale": "Este ejerce el mando técnico y operativo, pero la jefatura institucional reside en el cargo político.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Junta de Gobierno Local",
+        "rationale": "Las funciones de mando policial son atribuciones individuales de la Alcaldía y no de un órgano colegiado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma persona que ostenta la máxima representación del municipio."
+  },
+  {
+    "guid": "ee45d49e-4255-4de6-a5b5-6a483912098f",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el caso de vivir en varios municipios durante el año, ¿dónde debe inscribirse el ciudadano?",
+    "answerOptions": [
+      {
+        "text": "En todos aquellos donde tenga vivienda",
+        "rationale": "La ley prohíbe la inscripción múltiple para evitar duplicidades en el censo y en la prestación de servicios.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el que habite durante más tiempo al año",
+        "rationale": "Este criterio de temporalidad define cuál es la residencia habitual a efectos legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "En el que tenga su lugar de trabajo",
+        "rationale": "El domicilio laboral es distinto al domicilio de residencia, que es el que rige para el padrón.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es indiferente, a elección del ciudadano",
+        "rationale": "La ley establece una regla objetiva basada en el tiempo de estancia anual para evitar la libre elección por intereses fiscales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El criterio clave es la mayor permanencia física anual."
+  },
+  {
+    "guid": "f65d9564-55cb-4e66-b85f-cbfb2fcfbf87",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué mayoría se requiere generalmente en el Pleno para adoptar acuerdos?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple",
+        "rationale": "Como regla general en los órganos colegiados, basta con tener más votos a favor que en contra.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría absoluta",
+        "rationale": "Esta se reserva para casos especiales como la aprobación de reglamentos orgánicos o mociones de censura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Unanimidad",
+        "rationale": "La gestión democrática no exige el acuerdo de todos los miembros, lo cual paralizaría la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres cuartas partes de los miembros",
+        "rationale": "Esta mayoría cualificada no es el estándar común para la actividad administrativa diaria del pleno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el sistema de votación estándar donde los votos positivos superan a los negativos."
+  },
+  {
+    "guid": "57aed2a5-421e-46c6-bbbb-e905258734c4",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Dentro de la estructura de Barcelona, ¿quién es el máximo responsable de la estructura ejecutiva y de que los servicios sean eficientes?",
+    "answerOptions": [
+      {
+        "text": "El Alcalde",
+        "rationale": "El Alcalde es el máximo responsable político, pero la gestión ejecutiva técnica recae en una figura profesionalizada.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gerente Municipal",
+        "rationale": "Esta figura técnica coordina a los gerentes de sector y de distrito para asegurar la eficacia de los servicios.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Secretario del Pleno",
+        "rationale": "Sus funciones son de control legal y administrativo de las sesiones, no de gestión de servicios públicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Portavoz del Grupo Mayoritario",
+        "rationale": "Esta es una figura de carácter estrictamente político y de comunicación, sin mando sobre la estructura administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un cargo directivo que no es elegido por los ciudadanos en las urnas."
+  },
+  {
+    "guid": "985c8f40-dcc4-475f-9f19-bbfbc53f64f7",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ley garantiza la autonomía de los municipios en España?",
+    "answerOptions": [
+      {
+        "text": "El Código Civil",
+        "rationale": "El Código Civil regula relaciones privadas; la organización del Estado se rige por normas de rango superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Constitución Española",
+        "rationale": "El artículo 140 establece explícitamente la garantía de autonomía para la gestión de sus intereses.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Ley de Contratos del Sector Público",
+        "rationale": "Esta ley regula cómo contrata la administración, pero no define su estatus de autonomía política.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Reglamento de Población",
+        "rationale": "Es una norma de desarrollo técnico para el padrón, no la fuente de la autonomía local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la norma suprema del ordenamiento jurídico español."
+  },
+  {
+    "guid": "07f52ed3-ed5a-42e3-a1a1-d7e6a7c20504",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se denominan las entidades locales que agrupan municipios en los archipiélagos canario y balear?",
+    "answerOptions": [
+      {
+        "text": "Diputaciones Insulares",
+        "rationale": "Este término no existe; se usan denominaciones específicas según la historia y tradición de cada archipiélago.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cabildos o Consells",
+        "rationale": "Los Cabildos operan en Canarias y los Consells Insulars en Baleares, cumpliendo funciones análogas a las diputaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Comarcas Marítimas",
+        "rationale": "No es una figura recogida en la legislación básica para el gobierno de las islas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mancomunidades de Aguas",
+        "rationale": "Las mancomunidades son asociaciones voluntarias, mientras que los órganos insulares son obligatorios por ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tienen nombres tradicionales diferentes para cada uno de los dos archipiélagos."
+  },
+  {
+    "guid": "98f28711-af90-43a0-9dec-31c9bb80ebbd",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué órgano municipal le corresponde la aprobación definitiva de las ordenanzas?",
+    "answerOptions": [
+      {
+        "text": "Al Alcalde",
+        "rationale": "El Alcalde puede proponerlas o dictar bandos, pero la potestad legislativa local reside en el órgano colegiado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Pleno (o Consejo Municipal)",
+        "rationale": "Es el órgano de representación de todos los grupos políticos y donde reside la potestad normativa del ayuntamiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "A la Junta de Gobierno Local",
+        "rationale": "La Junta tiene funciones ejecutivas; salvo delegación muy específica, no aprueba normas generales de carácter definitivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Gerente Municipal",
+        "rationale": "Un cargo técnico nunca puede aprobar normas que vinculen a la ciudadanía como las ordenanzas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano donde se sientan todos los concejales electos."
+  },
+  {
+    "guid": "08c5ce43-e3f7-45b7-8655-32a0d5fbb30e",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según el artículo 139 de la Constitución, ¿qué principio rige sobre los derechos y obligaciones de los españoles en el territorio?",
+    "answerOptions": [
+      {
+        "text": "Igualdad",
+        "rationale": "La Constitución prohíbe que la organización territorial cree privilegios o discriminaciones entre los ciudadanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Diversidad según la renta",
+        "rationale": "Los derechos fundamentales no pueden variar en función de la capacidad económica de cada región.",
+        "isCorrect": false
+      },
+      {
+        "text": "Preferencia para los nacidos en el municipio",
+        "rationale": "La ley garantiza la libertad de circulación y establecimiento, impidiendo preferencias por origen local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Independencia administrativa total",
+        "rationale": "Aunque hay autonomía, esta debe ejercerse dentro de un marco de unidad y solidaridad nacional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Implica que vivir en un municipio o provincia diferente no debe mermar los derechos básicos."
+  },
+  {
+    "guid": "041707f1-5c24-4a11-9afb-88e409ad24e9",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué sucede con los límites provinciales cuando se altera un término municipal?",
+    "answerOptions": [
+      {
+        "text": "Se modifican automáticamente para adaptarse",
+        "rationale": "Los límites provinciales son mucho más rígidos y requieren una Ley Orgánica del Estado para su cambio.",
+        "isCorrect": false
+      },
+      {
+        "text": "No pueden suponer, en ningún caso, su modificación",
+        "rationale": "La LRBRL prohíbe expresamente que una alteración municipal afecte a la demarcación provincial establecida.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo se cambian si el municipio es capital de provincia",
+        "rationale": "Incluso en capitales, la alteración del término no puede romper la frontera de la provincia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Lo decide la Comunidad Autónoma sin restricciones",
+        "rationale": "La Comunidad Autónoma tiene competencia sobre los municipios, pero no sobre los límites provinciales estatales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La provincia es una entidad con límites protegidos por el Estado."
+  },
+  {
+    "guid": "56c5a293-4085-4053-ad69-0a419a003bc7",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién tiene la potestad de nombrar y cesar a los Tenientes de Alcalde?",
+    "answerOptions": [
+      {
+        "text": "El Pleno por mayoría absoluta",
+        "rationale": "Los Tenientes de Alcalde son cargos de confianza directa del Alcalde para sustituirle en sus funciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "Es una facultad discrecional de la Alcaldía para organizar su equipo de gobierno de entre los concejales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los ciudadanos en las elecciones",
+        "rationale": "Los ciudadanos eligen concejales; es el Alcalde quien decide cuáles de ellos serán Tenientes de Alcalde.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gerente Municipal",
+        "rationale": "Un cargo técnico no puede nombrar a cargos políticos de confianza.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una decisión personal de quien dirige la corporación."
+  },
+  {
+    "guid": "23e89e40-9ed3-461b-b686-06242d968730",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el régimen de Barcelona, ¿qué órgano tiene el tratamiento de 'Excelencia'?",
+    "answerOptions": [
+      {
+        "text": "Solo el Secretario General",
+        "rationale": "El tratamiento honorífico suele reservarse a la máxima autoridad política de la corporación.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "La ley de grandes poblaciones y la Carta Municipal otorgan este tratamiento protocolario al Alcalde.",
+        "isCorrect": true
+      },
+      {
+        "text": "Todos los concejales",
+        "rationale": "Generalmente, los concejales tienen el tratamiento de 'Ilustre' o 'Señoría', pero no el de 'Excelencia'.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguno, se eliminaron los tratamientos por ley",
+        "rationale": "La LRBRL aún mantiene explícitamente estos tratamientos honoríficos en sus artículos vigentes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se asocia tradicionalmente a la máxima autoridad de una gran ciudad."
+  },
+  {
+    "guid": "f9d9fd2a-c7e4-4e66-9795-7c82156ed1ee",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué entidad se encarga de prestar los servicios obligatorios si un municipio pequeño solicita la dispensa de los mismos en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "El Estado directamente",
+        "rationale": "El Estado no asume competencias ejecutivas locales de este tipo de forma directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comarca",
+        "rationale": "La legislación catalana prevé que la comarca actúe como ente de apoyo para municipios que no pueden gestionar sus servicios.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una empresa privada sin control público",
+        "rationale": "La titularidad del servicio debe seguir siendo pública y bajo la supervisión de un ente local superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se dejan de prestar por falta de recursos",
+        "rationale": "La ley garantiza que los servicios básicos deben prestarse siempre, buscando fórmulas de gestión supramunicipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el ente local supramunicipal típico de la organización territorial catalana."
+  },
+  {
+    "guid": "ef6592a6-5ea4-42a0-a389-126dea875ea1",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función del 'Consejo Rector' en un organismo autónomo local?",
+    "answerOptions": [
+      {
+        "text": "Limpiar las instalaciones",
+        "rationale": "Este es un órgano de gobierno y dirección, no de ejecución de tareas materiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprobación del presupuesto y programa de actividades",
+        "rationale": "Como órgano superior del ente autónomo, le corresponde la planificación financiera y operativa anual.",
+        "isCorrect": true
+      },
+      {
+        "text": "Elegir al Alcalde de la ciudad",
+        "rationale": "El Alcalde es elegido por el Pleno municipal, no por el consejo rector de un organismo dependiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vigilar las fronteras del término",
+        "rationale": "Esta función no corresponde a la gestión de un organismo autónomo administrativo local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con la dirección estratégica y económica del ente."
+  },
+  {
+    "guid": "220303eb-5450-4376-beb8-555dcba29f7c",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En Barcelona, ¿quién nombra a los Presidentes de los Distritos?",
+    "answerOptions": [
+      {
+        "text": "Los vecinos del distrito por votación directa",
+        "rationale": "Aunque hay participación, el nombramiento formal es una facultad de la organización central del ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "La Carta Municipal atribuye al Alcalde la potestad de designar a los responsables de estos órganos territoriales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Delegado del Gobierno",
+        "rationale": "El Estado no interviene en la organización interna y nombramientos de un ayuntamiento autónomo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consejo de Distrito por mayoría simple",
+        "rationale": "El Consejo puede proponer o informar, pero el acto formal de nombramiento es de la Alcaldía.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma autoridad que nombra a los Tenientes de Alcalde."
+  },
+  {
+    "guid": "e4fa70f5-d8de-49fd-a25b-dc51812fc140",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué mayoría se requiere para aprobar el Reglamento Orgánico Municipal?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple",
+        "rationale": "Dada la importancia de esta norma, que rige la estructura interna, se exige un consenso más amplio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta",
+        "rationale": "Se busca asegurar que las normas de funcionamiento tengan el apoyo de al menos la mitad más uno de todos los miembros legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría de dos tercios",
+        "rationale": "Aunque es una mayoría reforzada, la ley estándar fija el límite en la mayoría absoluta para este tipo de reglamentos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Voto de calidad del Alcalde",
+        "rationale": "El voto de calidad solo deshace empates, no sustituye la necesidad de alcanzar una mayoría específica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requiere la mitad más uno del número total de concejales, no solo de los presentes."
+  },
+  {
+    "guid": "d1331a83-be95-4d86-8d30-2370b290a7bd",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué documento público tiene carácter fehaciente para demostrar el domicilio habitual?",
+    "answerOptions": [
+      {
+        "text": "El contrato de alquiler",
+        "rationale": "Es un documento entre particulares que no goza por sí mismo de fe pública administrativa general.",
+        "isCorrect": false
+      },
+      {
+        "text": "La certificación de los datos del Padrón",
+        "rationale": "La ley otorga explícitamente este valor a los certificados expedidos por el ayuntamiento basados en el registro.",
+        "isCorrect": true
+      },
+      {
+        "text": "El recibo de la luz",
+        "rationale": "Es un indicio de residencia, pero no un documento público oficial que acredite el domicilio legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una declaración jurada del vecino",
+        "rationale": "La declaración no sustituye la obligación de estar inscrito en el registro oficial para que tenga efectos públicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un papel oficial que emite el ayuntamiento tras consultar sus archivos."
+  },
+  {
+    "guid": "02d650a3-e3fa-47cd-b898-21b8c3864cfa",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién asume las funciones de dirección de los servicios en un organismo autónomo local?",
+    "answerOptions": [
+      {
+        "text": "El Director",
+        "rationale": "Este cargo tiene asignadas las funciones ejecutivas, representativas y de coordinación del personal y servicios.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Consejo Rector en pleno",
+        "rationale": "El Consejo Rector es un órgano de deliberación y aprobación, no de gestión cotidiana y dirección técnica.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Interventor",
+        "rationale": "El Interventor fiscaliza el gasto, pero no dirige la prestación operativa de los servicios del organismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde directamente",
+        "rationale": "El Alcalde delega la gestión en la estructura propia del organismo autónomo para ganar agilidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una figura unipersonal dentro del organismo, distinta del consejo."
+  },
+  {
+    "guid": "5bd6d96a-97b2-4f77-865c-f713d6388bdc",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En los municipios de gran población, ¿quiénes son considerados órganos superiores?",
+    "answerOptions": [
+      {
+        "text": "Los Directores Generales",
+        "rationale": "Estos se clasifican como órganos directivos, situados por debajo de la cúpula política.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde y los miembros de la Junta de Gobierno Local",
+        "rationale": "La ley reserva la categoría de órganos superiores a los cargos de máxima responsabilidad política y decisión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los Coordinadores Generales de área",
+        "rationale": "Su función es técnica y de coordinación, por lo que pertenecen a la escala de órganos directivos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario y el Interventor",
+        "rationale": "Son funcionarios con habilitación nacional que prestan apoyo, pero no son órganos superiores de gobierno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las personas que ostentan la máxima autoridad política en el ayuntamiento."
+  },
+  {
+    "guid": "e47bb875-28f4-45ec-9297-a07bc276c896",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué nombre recibe el registro donde constan los vecinos de un municipio?",
+    "answerOptions": [
+      {
+        "text": "Censo Electoral",
+        "rationale": "El censo electoral se nutre del padrón, pero es un registro distinto enfocado únicamente al derecho al sufragio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Padrón Municipal",
+        "rationale": "Es el registro administrativo obligatorio donde se inscriben todas las personas que habitan en el término.",
+        "isCorrect": true
+      },
+      {
+        "text": "Libro de Familia",
+        "rationale": "Este acredita relaciones de parentesco, no la residencia en un territorio concreto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Registro de la Propiedad",
+        "rationale": "Se ocupa de la titularidad de bienes inmuebles, independientemente de quién viva en ellos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el trámite que todos deben hacer al mudarse a una nueva ciudad."
+  },
+  {
+    "guid": "d22fa635-bcef-4e77-9beb-059370960814",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "De acuerdo con el artículo 137 de la Constitución, ¿de qué gozan los municipios para la gestión de sus intereses?",
+    "answerOptions": [
+      {
+        "text": "Soberanía nacional",
+        "rationale": "La soberanía es única del Estado; los municipios tienen una capacidad delegada y garantizada pero no soberana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Autonomía",
+        "rationale": "Es el principio constitucional que permite a los entes locales autogobernarse dentro de la ley.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inmunidad judicial",
+        "rationale": "Los ayuntamientos están sujetos al control de legalidad por parte de los tribunales como cualquier administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Capacidad de dictar leyes orgánicas",
+        "rationale": "Las leyes orgánicas son competencia exclusiva de las Cortes Generales del Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un concepto que implica libertad de gestión dentro del marco legal."
+  },
+  {
+    "guid": "f591d28b-688e-46f1-978a-76252c18a2d6",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién nombra a los representantes municipales en los órganos de gobierno de sociedades donde el Ayuntamiento participe?",
+    "answerOptions": [
+      {
+        "text": "El Pleno por sorteo",
+        "rationale": "La designación no es aleatoria, sino una decisión estratégica de la dirección ejecutiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "Es una competencia del Alcalde designar quién representará los intereses municipales en entes externos o fundaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministerio de Administraciones Públicas",
+        "rationale": "El Estado no decide quién representa a un ayuntamiento autónomo en sus sociedades participadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gerente de la propia sociedad",
+        "rationale": "La entidad participada no elige a sus propios vigilantes o representantes municipales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma autoridad unipersonal con facultades de nombramiento de su equipo."
+  },
+  {
+    "guid": "144efad0-0003-4da6-97d8-ed18be14498a",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A quién corresponde la creación, modificación o supresión de municipios en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Al Rey",
+        "rationale": "Aunque sanciona las leyes del Estado, la competencia ejecutiva sobre el mapa municipal es autonómica.",
+        "isCorrect": false
+      },
+      {
+        "text": "A la Generalidad (Gobierno)",
+        "rationale": "La legislación local catalana atribuye al Gobierno autonómico la decisión final sobre la alteración de términos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Congreso de los Diputados",
+        "rationale": "Es una competencia transferida a las Comunidades Autónomas según sus respectivos Estatutos.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los propios vecinos mediante asamblea",
+        "rationale": "Los vecinos pueden iniciar o participar en el proceso, pero la resolución definitiva es un acto de poder autonómico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el máximo órgano ejecutivo de la comunidad autónoma."
+  },
+  {
+    "guid": "7a6ce96d-afdb-4f95-b6a7-46c96959735e",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué requisito es obligatorio para cualquier alteración de términos municipales según la LRBRL?",
+    "answerOptions": [
+      {
+        "text": "Pago de una fianza al Estado",
+        "rationale": "No existe un gravamen económico por reorganizar el territorio municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Audiencia de los municipios interesados",
+        "rationale": "Es un trámite garantista fundamental para que las entidades afectadas puedan alegar sus intereses.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aprobación por la Unión Europea",
+        "rationale": "La organización territorial interna de un país es una competencia soberana nacional y regional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el nuevo municipio sea el más grande de la provincia",
+        "rationale": "No existe tal restricción; se busca sostenibilidad y viabilidad, no un tamaño específico comparado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Implica escuchar a los ayuntamientos que van a sufrir el cambio."
+  },
+  {
+    "guid": "ad835bb1-8a34-4690-ba01-53aa191beda4",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el caso de extraordinaria y urgente necesidad, ¿qué puede hacer el Alcalde?",
+    "answerOptions": [
+      {
+        "text": "Disolver el Pleno para siempre",
+        "rationale": "El Alcalde no tiene potestad para eliminar el órgano legislativo de la ciudad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Adoptar las medidas necesarias dando cuenta inmediata al Pleno",
+        "rationale": "Se le permite actuar con rapidez ante emergencias, pero bajo el posterior control político del órgano colegiado.",
+        "isCorrect": true
+      },
+      {
+        "text": "No puede hacer nada sin permiso previo del Pleno",
+        "rationale": "La ley prevé excepciones a la autorización previa para no paralizar la respuesta ante catástrofes o urgencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitar la intervención inmediata del ejército",
+        "rationale": "El mando militar es competencia del Gobierno central y no de una autoridad local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una facultad excepcional para situaciones de crisis."
+  },
+  {
+    "guid": "6942a2b2-0df7-4103-b6d9-75033a530d09",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué órganos deben existir obligatoriamente en todos los Ayuntamientos según la LRBRL?",
+    "answerOptions": [
+      {
+        "text": "Alcalde, Tenientes de Alcalde y Pleno",
+        "rationale": "Constituyen la estructura básica de mando, sustitución y representación en cualquier municipio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Junta de Gobierno y Comisiones de Estudio",
+        "rationale": "Estos órganos solo son obligatorios a partir de ciertos umbrales de población.",
+        "isCorrect": false
+      },
+      {
+        "text": "Alcalde y Gerente",
+        "rationale": "El Gerente es opcional y típico de grandes ciudades, no una figura obligatoria para todos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pleno y Consejo de Distrito",
+        "rationale": "Los distritos son una forma de organización interna no obligatoria para municipios pequeños.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las tres figuras que garantizan la dirección, la suplencia y la deliberación política básica."
+  },
+  {
+    "guid": "41560218-3138-4ed8-8e93-f943d2bbba87",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según el artículo 142 de la Constitución, ¿cómo se financian las haciendas locales principalmente?",
+    "answerOptions": [
+      {
+        "text": "Mediante préstamos de bancos extranjeros",
+        "rationale": "El crédito es una fuente secundaria y regulada; la base debe ser la suficiencia de recursos propios y estatales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tributos propios y participación en los del Estado y CCAA",
+        "rationale": "El sistema busca garantizar recursos suficientes para que puedan cumplir sus funciones públicas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo mediante donaciones voluntarias de los vecinos",
+        "rationale": "Una administración pública no puede depender de la caridad para prestar servicios obligatorios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Con los beneficios de la lotería municipal",
+        "rationale": "No es una fuente de financiación reglada ni estable para el sostenimiento de los servicios locales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en impuestos recaudados por ellos mismos y transferencias de administraciones superiores."
+  },
+  {
+    "guid": "3fa9f8a0-119b-4ec9-93d8-d9a887105ed1",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En Barcelona, ¿qué órgano tiene la potestad de dictar Bandos?",
+    "answerOptions": [
+      {
+        "text": "El Gerente Municipal",
+        "rationale": "Los bandos son actos de autoridad política que no pueden ser dictados por cargos técnicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde",
+        "rationale": "Es una facultad histórica y legal del Alcalde para comunicarse con la ciudadanía y dictar normas de urgencia o recordatorios.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Presidente de la Generalidad",
+        "rationale": "Este dicta decretos o normas autonómicas, pero el bando es específico del ámbito municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Jefe de la Guardia Urbana",
+        "rationale": "Aunque vela por su cumplimiento, la potestad de dictarlos reside en la autoridad civil máxima.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la figura que encabeza el gobierno de la ciudad."
+  },
+  {
+    "guid": "540ded1d-b770-442d-b40e-8c37a28115c9",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué sucede con las personas inscritas en el padrón de españoles residentes en el extranjero respecto a un municipio de Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Son vecinos a todos los efectos",
+        "rationale": "No pueden ser vecinos plenos porque no tienen residencia habitual y efectiva en el término.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se consideran vecinos únicamente a efectos del derecho de sufragio",
+        "rationale": "La ley permite este vínculo administrativo solo para garantizar su participación electoral.",
+        "isCorrect": true
+      },
+      {
+        "text": "Constituyen la población activa del municipio",
+        "rationale": "Al no residir allí, no se contabilizan en la población real que consume servicios y habita el territorio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Están exentos de pagar impuestos nacionales",
+        "rationale": "El estatus de empadronado a efectos de sufragio no conlleva privilegios fiscales automáticos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una excepción legal relacionada con las elecciones."
+  },
+  {
+    "guid": "54eb6cf3-a7ae-4e27-a9a1-8130bdff92c7",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué mayoría se requiere en el Pleno para crear o suprimir Distritos en Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple",
+        "rationale": "La organización territorial interna es una decisión de tal relevancia que exige un consenso reforzado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta",
+        "rationale": "Modificar la estructura básica de los distritos requiere el apoyo de la mayoría legal de los concejales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Voto unánime de todos los grupos",
+        "rationale": "Aunque es deseable, la ley no exige unanimidad para la organización administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decisión exclusiva del Alcalde sin pasar por el Pleno",
+        "rationale": "La creación de distritos afecta a la organización general y debe ser ratificada por el órgano de representación máximo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca el mismo nivel de acuerdo que para aprobar el Reglamento Orgánico."
+  },
+  {
+    "guid": "ddefcaf9-2af0-4173-ba2c-33f5b393d35c",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Dentro de las potestades de los municipios como administraciones públicas, ¿qué implica la 'potestad expropiatoria'?",
+    "answerOptions": [
+      {
+        "text": "Poder quedarse con cualquier bien sin pagar",
+        "rationale": "La expropiación requiere siempre una causa de utilidad pública y el pago de un justiprecio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Adquirir bienes por causa de utilidad pública o interés social",
+        "rationale": "Permite a la administración obtener terrenos para obras o servicios necesarios para la comunidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Vender los bienes del ayuntamiento al mejor postor",
+        "rationale": "Eso sería enajenación de patrimonio, que es el proceso inverso a la expropiación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cobrar multas de tráfico",
+        "rationale": "Eso forma parte de la potestad sancionadora, no de la expropiatoria de bienes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la herramienta legal para obtener suelo para un parque o una carretera."
+  },
+  {
+    "guid": "f6fad8c9-5b25-44ec-95eb-79de992f15b8",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A quién debe darse conocimiento simultáneamente cuando se pide dictamen al órgano consultivo sobre una alteración de términos municipales?",
+    "answerOptions": [
+      {
+        "text": "A la Administración General del Estado",
+        "rationale": "Es necesario que el Estado esté informado de los cambios en la organización territorial básica del país.",
+        "isCorrect": true
+      },
+      {
+        "text": "A la Organización de las Naciones Unidas",
+        "rationale": "Los cambios municipales internos no tienen trascendencia para los organismos internacionales de este tipo.",
+        "isCorrect": false
+      },
+      {
+        "text": "A todas las empresas constructoras de la zona",
+        "rationale": "La información oficial se dirige a otras administraciones públicas, no a colectivos privados específicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Defensor del Pueblo exclusivamente",
+        "rationale": "Aunque puede intervenir, la obligación de comunicación inmediata es hacia el Gobierno central.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la administración de nivel nacional."
+  },
+  {
+    "guid": "e1c3b515-d14d-41fc-89a5-f407d947f6aa",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el objetivo principal de las Comisiones que funcionan en el Pleno?",
+    "answerOptions": [
+      {
+        "text": "Sustituir al Alcalde cuando está de vacaciones",
+        "rationale": "Esa es función de los Tenientes de Alcalde, no de las comisiones informativas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estudio, informe o consulta de los asuntos que irán al Pleno",
+        "rationale": "Permiten que los temas lleguen trabajados y debatidos técnicamente antes de la votación definitiva.",
+        "isCorrect": true
+      },
+      {
+        "text": "Organizar las fiestas del municipio",
+        "rationale": "Esa es una tarea de gestión ejecutiva que suele llevar una concejalía específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Juzgar delitos penales",
+        "rationale": "Los ayuntamientos carecen de potestad judicial; eso corresponde a los jueces y magistrados.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tienen una labor preparatoria y de control de la gestión previa a la sesión plenaria."
+  },
+  {
+    "guid": "4510b333-b41f-4bfb-aecc-e1e9c769d24e",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué mayoría se requiere para la adopción de acuerdos sobre la alteración del nombre de un municipio en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple",
+        "rationale": "El nombre es un elemento de identidad tan relevante que la ley exige un acuerdo reforzado de la corporación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta",
+        "rationale": "Se requiere el voto favorable de la mitad más uno del número legal de miembros del ayuntamiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Unanimidad",
+        "rationale": "Bastaría con una mayoría absoluta; no se exige el consentimiento de todos y cada uno de los concejales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decisión del cronista oficial",
+        "rationale": "El cronista informa sobre la historia, pero la decisión es un acto político del Pleno municipal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el mismo nivel de consenso exigido para los reglamentos orgánicos."
+  },
+  {
+    "guid": "4645454f-3d24-4eba-b71a-da13d36a8101",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué dato NO es obligatorio incluir en la inscripción del Padrón municipal según la ley?",
+    "answerOptions": [
+      {
+        "text": "Religión o ideología política",
+        "rationale": "La Constitución protege la libertad ideológica y prohíbe que se obligue a declarar sobre ella en registros públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Lugar y fecha de nacimiento",
+        "rationale": "Es un dato esencial para identificar a la persona y gestionar su edad ante la administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nacionalidad",
+        "rationale": "Es necesario para determinar los derechos de sufragio y la relación legal con el Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Certificado o título escolar",
+        "rationale": "Aunque parezca opcional, la ley lo incluye como dato obligatorio para fines estadísticos y de planificación educativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en un derecho fundamental que garantiza que nadie pueda ser obligado a declarar sus creencias."
+  },
+  {
+    "guid": "5f9ff619-d59a-4980-bf17-76b0e620a02d",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la franja de población para los municipios de 'gran población' por ser capital de provincia?",
+    "answerOptions": [
+      {
+        "text": "Más de 50.000 habitantes",
+        "rationale": "Si es capital de provincia, este es el umbral para acceder al régimen de gran población.",
+        "isCorrect": true
+      },
+      {
+        "text": "Más de 100.000 habitantes",
+        "rationale": "Este es el umbral para municipios no capitales que lo soliciten, no el específico para capitales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Más de 250.000 habitantes",
+        "rationale": "Este umbral otorga el régimen automáticamente independientemente de ser capital o no.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier población si es capital de provincia",
+        "rationale": "Se requiere ser capital y además superar un mínimo de habitantes fijado en 50.000.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una cifra redonda que suele marcar a las ciudades de tamaño medio-grande en España."
+  },
+  {
+    "guid": "592b8b72-b702-4a80-89a0-8d0154a5f924",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se llama el órgano de máxima representación política de los ciudadanos en Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Comisión de Gobierno",
+        "rationale": "Este es el órgano ejecutivo y de gestión, no el de representación máxima de la ciudadanía.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consejo Municipal",
+        "rationale": "Es el equivalente al Pleno y está formado por los 41 concejales electos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Asamblea de Vecinos",
+        "rationale": "Ese término es propio del régimen de Concejo Abierto, no aplicable a una gran ciudad como Barcelona.",
+        "isCorrect": false
+      },
+      {
+        "text": "Junta de Portavoces",
+        "rationale": "Es un órgano de coordinación de los grupos políticos, no el órgano de representación general de la ciudad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el término específico que usa la Carta de Barcelona para referirse a su Pleno."
+  }
+]

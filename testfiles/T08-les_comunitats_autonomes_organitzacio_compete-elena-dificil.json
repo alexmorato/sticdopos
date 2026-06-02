@@ -1,0 +1,777 @@
+[
+  {
+    "guid": "2a3f62af-854c-44c8-814c-e0caa9632e60",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es el plazo máximo establecido por el artículo 143 de la Constitución Española para completar los acuerdos de las Corporaciones Locales necesarios para la iniciativa autonómica?",
+    "answerOptions": [
+      {
+        "text": "Seis meses desde el primer acuerdo adoptado al respecto por alguna de las Corporaciones locales interesadas.",
+        "rationale": "El artículo 143.2 de la CE impone que todos los requisitos de mayorías de municipios y diputaciones deben cumplirse en este plazo semestral contado desde la primera manifestación de voluntad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres meses desde el acuerdo de la mayoría simple de las Diputaciones Provinciales afectadas.",
+        "rationale": "Este plazo es demasiado corto y no se ajusta al literal constitucional, además de que ignora el inicio del cómputo basado en el primer acuerdo local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año natural a partir de la publicación de la iniciativa en el Boletín Oficial del Estado.",
+        "rationale": "La Constitución busca una celeridad razonable en el proceso inicial, por lo que un año se consideraría un plazo excesivo para la fase de iniciativa local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Seis meses a contar desde que el último municipio afectado ratifique su voluntad de acceso.",
+        "rationale": "El cómputo se inicia con el primer acuerdo para evitar que el proceso se dilate indefinidamente, no con el último.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El cómputo comienza con la primera corporación que se manifiesta a favor del proceso."
+  },
+  {
+    "guid": "155da5d0-74cd-4449-adeb-fe916130e8c3",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el marco de la organización política de las CCAA según el artículo 152 CE, ¿qué función específica tiene el Tribunal Superior de Justicia?",
+    "answerOptions": [
+      {
+        "text": "Culminar la organización judicial en el ámbito territorial de la Comunidad Autónoma.",
+        "rationale": "Según el esquema institucional básico, el TSJ es el órgano judicial de mayor rango dentro del territorio autonómico, sin perjuicio de la jurisdicción del Tribunal Supremo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ejercer el control de constitucionalidad de las leyes emanadas de la Asamblea Legislativa.",
+        "rationale": "El control de constitucionalidad de las normas con rango de ley es competencia exclusiva del Tribunal Constitucional, no de los órganos judiciales ordinarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resolver los conflictos de competencias entre la Administración del Estado y la de la Comunidad Autónoma.",
+        "rationale": "Esta función corresponde al Tribunal Constitucional según lo establecido en el artículo 161 de la Constitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nombrar al Presidente de la Comunidad Autónoma tras su elección por la Asamblea.",
+        "rationale": "El nombramiento formal del Presidente de la CCAA corresponde al Rey, no a los órganos del poder judicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encarga del ámbito judicial local, pero bajo la jerarquía del Tribunal Supremo."
+  },
+  {
+    "guid": "d881ea55-0471-49f4-97a4-af0ac8def730",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 150.2 de la Constitución, ¿cuál es el instrumento jurídico necesario para transferir o delegar facultades de titularidad estatal a las CCAA?",
+    "answerOptions": [
+      {
+        "text": "Ley Orgánica.",
+        "rationale": "La transferencia o delegación de competencias que por su naturaleza sean delegables requiere de una Ley Orgánica que prevea la transferencia de medios financieros y formas de control.",
+        "isCorrect": true
+      },
+      {
+        "text": "Decreto Legislativo.",
+        "rationale": "Aunque es una norma con rango de ley, el Decreto Legislativo es una delegación de las Cortes al Gobierno, no del Estado a las CCAA.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley Ordinaria.",
+        "rationale": "Dada la importancia de alterar el reparto competencial, la Constitución exige el consenso reforzado propio de una Ley Orgánica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estatuto de Autonomía.",
+        "rationale": "El Estatuto es el marco donde se asumen competencias, pero el artículo 150.2 se refiere a una vía externa para ampliar ese marco sin reformar el Estatuto.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Requiere un tipo de ley que exige mayoría absoluta en el Congreso de los Diputados."
+  },
+  {
+    "guid": "80bafb91-41f1-4aac-93d2-d7dc5a12a5d2",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué requisito de mayoría municipal diferencia la vía de acceso 'rápida' (art. 151) de la vía 'lenta' (art. 143)?",
+    "answerOptions": [
+      {
+        "text": "Las tres cuartas partes de los municipios en la vía rápida frente a las dos terceras partes en la lenta.",
+        "rationale": "La vía del 151 exige un apoyo municipal más amplio (75%) además de la ratificación posterior mediante referéndum.",
+        "isCorrect": true
+      },
+      {
+        "text": "La mitad más uno de los municipios en la vía rápida frente a la mayoría absoluta en la lenta.",
+        "rationale": "Ambas vías exigen mayorías cualificadas superiores a la simple mitad de los municipios para garantizar el consenso territorial.",
+        "isCorrect": false
+      },
+      {
+        "text": "La unanimidad de los municipios en la vía rápida frente a las tres cuartas partes en la lenta.",
+        "rationale": "La unanimidad no se exige en ningún procedimiento de acceso a la autonomía por ser un requisito prácticamente inalcanzable.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las dos terceras partes de los municipios en la vía rápida frente a la mayoría simple en la lenta.",
+        "rationale": "Esta opción invierte o reduce erróneamente las mayorías exigidas por los artículos 143 y 151 de la CE.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La vía que permite asumir más competencias desde el inicio exige un porcentaje mayor de apoyo municipal."
+  },
+  {
+    "guid": "5b9c106e-32fe-40f7-bffc-e6d7ae54a87b",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En las competencias compartidas de regulación, ¿cuál es el papel que generalmente asume la Comunidad Autónoma?",
+    "answerOptions": [
+      {
+        "text": "El desarrollo legislativo y la ejecución de las bases fijadas por el Estado.",
+        "rationale": "Cuando el Estado se reserva la 'legislación básica', las CCAA tienen potestad para legislar en desarrollo de esa base y para ejecutar la normativa resultante.",
+        "isCorrect": true
+      },
+      {
+        "text": "La fijación exclusiva de los principios generales de la materia.",
+        "rationale": "En las competencias compartidas, la definición de los principios o bases suele estar reservada al Estado para garantizar la igualdad mínima nacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Únicamente funciones administrativas y de inspección, sin capacidad normativa.",
+        "rationale": "Esto describiría una competencia de ejecución, no una compartida de regulación donde sí hay capacidad legislativa de desarrollo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La modificación de la legislación básica estatal cuando esta se considere obsoleta.",
+        "rationale": "La legislación básica es competencia exclusiva del Estado; las CCAA no pueden modificarla, solo desarrollarla.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Implica tanto capacidad para dictar leyes como para aplicarlas administrativamente."
+  },
+  {
+    "guid": "7d2e0c5e-d47a-46f0-9d68-5d8e9e5efd75",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué establece la 'cláusula de prevalencia' del artículo 149.3 de la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Las normas del Estado prevalecerán en caso de conflicto sobre las de las CCAA en todo lo que no esté atribuido a la exclusiva competencia de estas.",
+        "rationale": "Es una regla de resolución de conflictos que prioriza el Derecho estatal cuando no existe una atribución estatutaria de competencia exclusiva a la CCAA.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Derecho autonómico siempre prevalece sobre el estatal dentro del territorio de la Comunidad.",
+        "rationale": "La prevalencia solo favorece a la CCAA si esta ostenta la competencia con carácter exclusivo; de lo contrario, prima la norma estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las leyes de armonización tienen prevalencia automática sobre cualquier norma autonómica exclusiva.",
+        "rationale": "Las leyes de armonización son un caso excepcional del artículo 150.3 y no deben confundirse con la cláusula general de prevalencia del 149.3.",
+        "isCorrect": false
+      },
+      {
+        "text": "La normativa de la Unión Europea prevalece sobre la del Estado y la de las Comunidades Autonómicas.",
+        "rationale": "Aunque es un principio jurídico real, el artículo 149.3 de la CE se centra específicamente en la relación entre el Derecho estatal y el autonómico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una norma de conflicto para situaciones donde ambas administraciones podrían tener títulos competenciales."
+  },
+  {
+    "guid": "f920746b-8909-4ced-8151-cbb36e1c152d",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "De acuerdo con el artículo 144 de la CE, ¿cuál es un motivo válido para que las Cortes Generales autoricen la constitución de una Comunidad Autónoma mediante Ley Orgánica?",
+    "answerOptions": [
+      {
+        "text": "Motivos de interés nacional.",
+        "rationale": "El artículo 144 habilita a las Cortes para intervenir por razones de interés general o nacional, permitiendo casos como el de Madrid o las ciudades autónomas.",
+        "isCorrect": true
+      },
+      {
+        "text": "La solicitud previa de al menos el 50% de la población del territorio afectado.",
+        "rationale": "El artículo 144 es una vía excepcional impulsada por las Cortes Generales, no necesariamente basada en una solicitud popular directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "La existencia de un conflicto armado o insurrección en la provincia afectada.",
+        "rationale": "Este supuesto se refiere a estados de alarma, excepción o sitio, no a la organización territorial ordinaria del Estado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el territorio cuente con una renta per cápita superior a la media nacional.",
+        "rationale": "Los criterios económicos por sí solos no habilitan la vía especial del artículo 144 para la creación de una CCAA.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una cláusula de cierre que apela al beneficio de todo el país."
+  },
+  {
+    "guid": "2b0dd5f4-6889-4c79-8175-a78b890f178a",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el sistema de la 'vía rápida' del artículo 151, ¿qué ocurre si el proyecto de Estatuto no es aprobado mediante referéndum por la mayoría de votos válidos en cada provincia?",
+    "answerOptions": [
+      {
+        "text": "El proyecto no prospera y debe elevarse de nuevo tras un periodo de cinco años.",
+        "rationale": "Si el referéndum del Estatuto falla, el procedimiento se detiene, pero la restricción de los 5 años aplica generalmente a la fase de iniciativa (151.1).",
+        "isCorrect": false
+      },
+      {
+        "text": "Se somete a una comisión de arbitraje paritaria entre el Estado y la futura Comunidad.",
+        "rationale": "No existe tal comisión de arbitraje en el procedimiento de aprobación estatutaria; la falta de apoyo popular es definitiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "El texto es elevado a las Cortes Generales para su aprobación definitiva como Ley Orgánica sin cambios.",
+        "rationale": "La ratificación popular es un paso imperativo en la vía del 151; sin ella, las Cortes no pueden ratificar el texto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Si el acuerdo entre la Comisión Constitucional y la Asamblea de parlamentarios no se logra, el texto se tramita como Ley en las Cortes Generales.",
+        "rationale": "Según el procedimiento del 151.2.2, si no hay acuerdo en la fase mixta, el Congreso tramita el proyecto como ley, que luego se somete a referéndum.",
+        "isCorrect": true
+      }
+    ],
+    "hint": "Recuerda que hay una fase de negociación previa al referéndum final."
+  },
+  {
+    "guid": "9e9189b6-5bd1-46e4-bd3e-6be3d8b14a69",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿A qué se refiere la 'cláusula residual' negativa contenida en el artículo 149.3 de la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Las materias no asumidas por los Estatutos de Autonomía corresponden al Estado.",
+        "rationale": "Esta cláusula asegura que ninguna materia quede sin titularidad; si una CCAA no reclama una competencia permitida en su Estatuto, esta permanece en el Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Estado puede recuperar competencias exclusivas de las CCAA por decreto ley.",
+        "rationale": "Las competencias asumidas estatutariamente solo pueden alterarse mediante reforma del Estatuto o leyes del artículo 150.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las competencias no enumeradas expresamente en la Constitución son siempre municipales.",
+        "rationale": "La Constitución reparte competencias entre Estado y CCAA; la autonomía local se rige por otros principios y leyes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier materia nueva resultante del progreso tecnológico pertenece a las CCAA.",
+        "rationale": "Por el principio de cierre, si una materia es nueva y no está en los Estatutos, la titularidad inicial recae en el Estado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Funciona como una red de seguridad para que el sistema sea completo."
+  },
+  {
+    "guid": "62d418d1-bcdb-491c-9171-9ad00b9d46b7",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué caracteriza a las denominadas 'Leyes Marco' del artículo 150.1 CE?",
+    "answerOptions": [
+      {
+        "text": "Atribuyen a las CCAA la facultad de dictar normas legislativas sobre materias estatales siguiendo bases y directrices fijadas por ley estatal.",
+        "rationale": "Son instrumentos de delegación legislativa donde el Estado retiene la titularidad pero permite a la CCAA legislar dentro de un marco definido.",
+        "isCorrect": true
+      },
+      {
+        "text": "Son las leyes que establecen el marco de financiación única de todas las comunidades autónomas.",
+        "rationale": "La financiación se regula mediante la LOFCA y otras leyes específicas, no mediante la figura de la Ley Marco del 150.1.",
+        "isCorrect": false
+      },
+      {
+        "text": "Son decretos del Gobierno que armonizan las leyes autonómicas ante intereses generales.",
+        "rationale": "La armonización se realiza mediante Leyes de Armonización (150.3) aprobadas por las Cortes, no mediante decretos o leyes marco.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obligan a las CCAA a adaptar sus Estatutos de Autonomía a las nuevas leyes orgánicas estatales.",
+        "rationale": "Las Leyes Marco amplían facultades legislativas de las CCAA, no imponen reformas estatutarias obligatorias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El Estado 'abre el marco' para que la autonomía pueda legislar en materias que no son suyas originalmente."
+  },
+  {
+    "guid": "0c441a89-6f77-478e-8819-e1c31befdfa1",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el caso de Navarra, ¿quién tiene la iniciativa para su incorporación al Consejo General Vasco según la Disposición Transitoria Cuarta?",
+    "answerOptions": [
+      {
+        "text": "El Órgano Foral competente, por mayoría de los miembros que lo componen.",
+        "rationale": "Navarra posee un régimen foral singular donde la iniciativa no sigue el artículo 143, sino que depende de su órgano propio cualificado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las tres cuartas partes de los municipios navarros previa consulta popular.",
+        "rationale": "Este es el requisito general de la vía rápida del 151, que no se aplica al supuesto específico de Navarra.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Parlamento de España mediante una resolución de ambas Cámaras.",
+        "rationale": "La iniciativa es de origen territorial navarro, aunque luego requiera ratificación y procesos legales estatales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Presidente del Gobierno de la Nación por razones de interés histórico.",
+        "rationale": "La Constitución otorga la iniciativa a los representantes forales navarros, respetando su autonomía política.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de un procedimiento basado en sus instituciones tradicionales."
+  },
+  {
+    "guid": "7ed69c5f-5aff-4c2e-82e1-987b319dae9f",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el material proporcionado, ¿cómo se clasifica la Administración de las CCAA en función de sus tareas?",
+    "answerOptions": [
+      {
+        "text": "Administración Activa, Administración Consultiva y Administración de Control o Fiscalizadora.",
+        "rationale": "Esta clasificación atiende a si el órgano ejecuta (activa), asesora (consultiva) o supervisa la legalidad y el gasto (control).",
+        "isCorrect": true
+      },
+      {
+        "text": "Administración Civil, Administración Militar y Administración Eclesiástica.",
+        "rationale": "Las CCAA no poseen administración militar ni eclesiástica; su ámbito es puramente civil y administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Administración Directa y Administración por Delegación Permanente.",
+        "rationale": "Aunque existen formas de gestión, la clasificación técnica principal en los textos es la funcional (activa/consultiva/control).",
+        "isCorrect": false
+      },
+      {
+        "text": "Administración Legislativa, Administración Ejecutiva y Administración Judicial.",
+        "rationale": "Esto confunde la división de poderes del Estado con la clasificación de los órganos dentro de la rama administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencia entre quienes hacen, quienes aconsejan y quienes vigilan."
+  },
+  {
+    "guid": "2e91f894-b7ce-4b0f-83be-dbef806f0249",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la principal característica del régimen de acceso a la autonomía por la 'vía lenta' (art. 143)?",
+    "answerOptions": [
+      {
+        "text": "Inicialmente solo pueden asumir las competencias del artículo 148 y deben esperar 5 años para ampliarlas.",
+        "rationale": "Este sistema de 'autonomía gradual' impide alcanzar el techo competencial máximo desde el primer momento.",
+        "isCorrect": true
+      },
+      {
+        "text": "Permite alcanzar el máximo nivel de autogobierno desde el primer Estatuto aprobado.",
+        "rationale": "Esa es la característica definitoria de la vía rápida del artículo 151, no de la vía común o lenta.",
+        "isCorrect": false
+      },
+      {
+        "text": "No requiere la intervención de las Cortes Generales para la aprobación del Estatuto.",
+        "rationale": "Todos los Estatutos de Autonomía son Leyes Orgánicas y requieren necesariamente la aprobación de las Cortes Generales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exige obligatoriamente la ratificación por referéndum de todos los ciudadanos afectados.",
+        "rationale": "El referéndum de ratificación de la iniciativa es un requisito del artículo 151, no del 143.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en el concepto de 'autonomía gradual'."
+  },
+  {
+    "guid": "4a751bf0-ecdb-4154-afec-d407dfd1581d",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 153 de la CE, ¿quién ejerce el control de la constitucionalidad de las disposiciones normativas con fuerza de ley de las CCAA?",
+    "answerOptions": [
+      {
+        "text": "El Tribunal Constitucional.",
+        "rationale": "El TC es el único órgano competente para declarar la inconstitucionalidad de leyes autonómicas, al igual que hace con las estatales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal Supremo en Sala de lo Contencioso-Administrativo.",
+        "rationale": "El TS controla la legalidad de los reglamentos (normas sin fuerza de ley), pero no la constitucionalidad de las leyes.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Gobierno de la Nación previo informe del Consejo de Estado.",
+        "rationale": "El Gobierno puede impugnar leyes ante el TC, pero no ejerce el control de constitucionalidad por sí mismo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Defensor del Pueblo en colaboración con los Síndicos autonómicos.",
+        "rationale": "El Defensor del Pueblo protege derechos fundamentales, pero carece de potestad jurisdiccional para anular leyes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el intérprete supremo de la Carta Magna en España."
+  },
+  {
+    "guid": "0e5758e2-176b-406d-86fa-ce3abe785637",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En el contexto de la administración de la Generalitat de Cataluña, ¿qué caracteriza la figura del Consejero Primero?",
+    "answerOptions": [
+      {
+        "text": "Es facultativo, miembro del gobierno pero no es titular de ninguna Consejería.",
+        "rationale": "Según la Ley 13/2008, es una figura de coordinación que asiste al Presidente sin gestionar un departamento específico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es el representante directo del Rey en la Comunidad Autónoma con funciones ejecutivas.",
+        "rationale": "El representante ordinario del Estado en la CCAA es el Presidente de la Generalitat, no un Consejero.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es el encargado de presidir el Parlamento en ausencia del Presidente de la Cámara.",
+        "rationale": "El Consejero Primero pertenece al poder ejecutivo (Gobierno), no al poder legislativo (Parlamento).",
+        "isCorrect": false
+      },
+      {
+        "text": "Es una figura obligatoria en todos los Gobiernos autonómicos de España.",
+        "rationale": "Cada CCAA tiene libertad de autoorganización administrativa y esta figura es específica de Cataluña.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su existencia depende de la voluntad del Presidente de la Generalitat y no dirige un 'Departamento'."
+  },
+  {
+    "guid": "2f6d9f7c-6f48-4384-bf4f-31619070c0fd",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué establece el artículo 147.2 de la CE sobre el contenido mínimo de los Estatutos de Autonomía?",
+    "answerOptions": [
+      {
+        "text": "Debe incluir la delimitación del territorio y la denominación y sede de las instituciones propias.",
+        "rationale": "Estos son elementos esenciales de identificación y organización que todo Estatuto debe definir por mandato constitucional.",
+        "isCorrect": true
+      },
+      {
+        "text": "Debe fijar el sistema de impuestos propios y la moneda de curso legal en la región.",
+        "rationale": "Las CCAA no tienen competencia sobre la moneda (exclusiva del Estado/UE) y el sistema fiscal se rige por leyes estatales (LOFCA).",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe nombrar específicamente a los miembros que compondrán el primer Consejo de Gobierno.",
+        "rationale": "Los miembros del Gobierno son nombrados por el Presidente de la CCAA, no se fijan nominativamente en el Estatuto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe contener una declaración de independencia en caso de conflicto con el Estado.",
+        "rationale": "El Estatuto debe respetar el principio de unidad del Estado establecido en el artículo 2 de la Constitución.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a los elementos básicos de identidad y estructura de la comunidad."
+  },
+  {
+    "guid": "0b88e88b-172c-4e5f-8996-cf93187786f9",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Bajo el principio de 'coordinación' entre el Estado y las CCAA, ¿cuál es un instrumento típico de colaboración mencionado?",
+    "answerOptions": [
+      {
+        "text": "Las Conferencias Sectoriales.",
+        "rationale": "Son órganos de cooperación técnica donde se reúnen los Consejeros autonómicos y los Ministros de un área específica.",
+        "isCorrect": true
+      },
+      {
+        "text": "La intervención militar de los territorios autonómicos.",
+        "rationale": "La intervención es una medida excepcional de control (art. 155), no un instrumento ordinario de coordinación y colaboración.",
+        "isCorrect": false
+      },
+      {
+        "text": "La disolución de los parlamentos autonómicos por el Senado.",
+        "rationale": "Aunque el Senado participa en el control del 155, la disolución parlamentaria no es una técnica de coordinación voluntaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "El nombramiento de los alcaldes por el Delegado del Gobierno.",
+        "rationale": "Los alcaldes son elegidos por los concejales o los vecinos, no nombrados por la administración estatal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busca la armonía técnica entre los responsables de un mismo sector (educación, sanidad, etc.)."
+  },
+  {
+    "guid": "d60246c3-1df5-4dcc-ac02-5b047f9d2898",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué ocurre con las competencias no atribuidas expresamente al Estado por la Constitución?",
+    "answerOptions": [
+      {
+        "text": "Pueden corresponder a las CCAA en virtud de sus respectivos Estatutos.",
+        "rationale": "Es la base del sistema de lista abierta: si la Constitución no prohíbe la asunción, la CCAA puede incluirla en su Estatuto.",
+        "isCorrect": true
+      },
+      {
+        "text": "Pertenecen de forma automática y exclusiva al Estado central.",
+        "rationale": "El artículo 149.3 permite que las CCAA asuman lo que no esté reservado al Estado, por lo que no es una exclusividad automática estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Deben ser repartidas a partes iguales entre el Estado y los Ayuntamientos.",
+        "rationale": "El reparto constitucional se centra en Estado y CCAA; los entes locales no son sujetos del reparto competencial de los arts. 148/149.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se consideran materias nulas hasta que el Tribunal Constitucional dictamine.",
+        "rationale": "No existe el concepto de 'materia nula'; la titularidad está definida por la Constitución y los Estatutos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de la 'cláusula residual positiva'."
+  },
+  {
+    "guid": "beb5abf2-eb68-4ae8-b371-acbd4899746a",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función primordial del Presidente de la Comunidad Autónoma según el artículo 152.1 CE?",
+    "answerOptions": [
+      {
+        "text": "La dirección del Consejo de Gobierno y la suprema representación de la respectiva Comunidad.",
+        "rationale": "El Presidente combina el liderazgo ejecutivo local con la representación máxima de la autonomía ante el resto del Estado.",
+        "isCorrect": true
+      },
+      {
+        "text": "La presidencia de la Mesa del Parlamento Autonómico.",
+        "rationale": "El Parlamento tiene su propio Presidente, diferenciado del jefe del ejecutivo para mantener la separación de funciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "La gestión directa de todas las Consejerías del Gobierno.",
+        "rationale": "El Presidente dirige la política general, pero la gestión ordinaria de las áreas corresponde a cada Consejero titular.",
+        "isCorrect": false
+      },
+      {
+        "text": "La potestad de vetar leyes aprobadas por el Parlamento Autonómico.",
+        "rationale": "En el sistema parlamentario español, el jefe del ejecutivo no tiene poder de veto sobre la legislación aprobada por la asamblea.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es jefe de su gobierno y también la cara institucional de la región."
+  },
+  {
+    "guid": "d67ef053-6ffb-444c-87bf-581c1ad370a0",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿En qué consiste el 'Principio de Supletoriedad' del Derecho estatal?",
+    "answerOptions": [
+      {
+        "text": "El Derecho estatal se aplica cuando la Comunidad Autónoma no ha regulado una materia sobre la que tiene competencia.",
+        "rationale": "Evita vacíos legales; si la CCAA puede legislar pero no lo ha hecho, se aplica transitoriamente la ley estatal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las leyes autonómicas suplen a las estatales en caso de huelga general.",
+        "rationale": "El principio de supletoriedad solo opera a favor del Derecho estatal para garantizar la existencia de norma aplicable.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Estado puede sustituir a los funcionarios autonómicos en cualquier momento.",
+        "rationale": "La supletoriedad se refiere a la aplicación de normas jurídicas, no al personal o la gestión administrativa directa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las normas de la CCAA pueden anular las bases estatales por ser más modernas.",
+        "rationale": "La jerarquía y el reparto de competencias impiden que la norma autonómica anule la base estatal legalmente dictada.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sirve para llenar las 'lagunas' normativas de la autonomía."
+  },
+  {
+    "guid": "1bbc7a10-0bae-4e1e-a3ac-b630e2941eaf",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "Según el artículo 155 de la CE, ¿qué requisito previo debe cumplir el Gobierno antes de obligar a una CCAA al cumplimiento forzoso de sus deberes?",
+    "answerOptions": [
+      {
+        "text": "Realizar un requerimiento previo al Presidente de la Comunidad Autónoma.",
+        "rationale": "El Gobierno debe intentar primero la vía del diálogo o advertencia formal antes de recurrir a la intervención coercitiva.",
+        "isCorrect": true
+      },
+      {
+        "text": "Obtener la aprobación unánime de todos los Presidentes autonómicos.",
+        "rationale": "La intervención del 155 es una potestad estatal que requiere la aprobación del Senado, no de un órgano interautonómico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Declarar el Estado de Sitio en todo el territorio nacional.",
+        "rationale": "El artículo 155 es un mecanismo de control constitucional ordinario (coacción federal) y no implica necesariamente estados de alarma.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solicitar la autorización previa del Tribunal Supremo.",
+        "rationale": "El control político del 155 reside en el Senado, sin perjuicio de que las medidas puedan ser revisadas judicialmente a posteriori.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una advertencia formal para que la autoridad regional rectifique su conducta."
+  },
+  {
+    "guid": "f9515b30-9098-4bcb-87f2-33f75f157fe3",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "En las competencias exclusivas de las CCAA, ¿qué facultades corresponden a la autonomía?",
+    "answerOptions": [
+      {
+        "text": "Tanto la potestad legislativa como la ejecutiva sobre la materia.",
+        "rationale": "La exclusividad implica que el ente autonómico asume todas las funciones públicas relacionadas con esa materia sin interferencia estatal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Únicamente la facultad de ejecutar lo que el Estado legisle.",
+        "rationale": "Eso definiría una competencia de ejecución, donde la CCAA está subordinada a la ley estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "La potestad de dictar reglamentos, pero nunca leyes con rango superior.",
+        "rationale": "En competencias exclusivas asumidas estatutariamente, la CCAA tiene plena capacidad para dictar leyes a través de su Parlamento.",
+        "isCorrect": false
+      },
+      {
+        "text": "La capacidad de negociar tratados internacionales sobre dicha materia.",
+        "rationale": "Las relaciones internacionales son competencia exclusiva e indelegable del Estado según el artículo 149.1.3 CE.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Posee el 'paquete completo' de poderes sobre ese asunto."
+  },
+  {
+    "guid": "60278a18-33e0-49bf-88dc-7931954222c4",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué sucedió en el caso de Almería y Segovia respecto a su iniciativa autonómica?",
+    "answerOptions": [
+      {
+        "text": "Las Cortes Generales sustituyeron la iniciativa local mediante Ley Orgánica (art. 144.c).",
+        "rationale": "Se utilizó esta vía excepcional para desbloquear procesos donde no se habían alcanzado las mayorías requeridas originalmente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Fueron obligadas a fusionarse con comunidades vecinas por decreto real.",
+        "rationale": "La alteración de límites provinciales o fusiones requiere otros procedimientos y no fue el caso de estas provincias en la transición.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se les prohibió de forma permanente constituirse como autonomía.",
+        "rationale": "La Constitución garantiza el derecho a la autonomía; el Estado solo intervino para facilitar dicho derecho ante bloqueos procedimentales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Accedieron directamente a la vía del artículo 151 sin cumplir ningún requisito.",
+        "rationale": "Incluso con la intervención estatal, se debieron seguir cauces legales específicos y leyes orgánicas ad hoc.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "El Estado tuvo que intervenir para 'suplir' la voluntad que no se manifestó suficientemente en el territorio."
+  },
+  {
+    "guid": "293453c9-bdd8-446b-945d-3a0ee5830c87",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Cuál es la función del Delegado del Gobierno en la Comunidad Autónoma (art. 154)?",
+    "answerOptions": [
+      {
+        "text": "Dirigir la administración del Estado en el territorio y coordinarla con la de la Comunidad Autónoma.",
+        "rationale": "Es la figura que sirve de puente y enlace operativo entre el ejecutivo central y el autonómico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Presidir el Tribunal Superior de Justicia de la región.",
+        "rationale": "El Delegado es un cargo político-administrativo del Gobierno, mientras que la presidencia del TSJ es judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustituir al Presidente de la CCAA en caso de enfermedad o cese.",
+        "rationale": "La sustitución del Presidente autonómico se rige por el Estatuto y suele recaer en un Vicepresidente o Consejero.",
+        "isCorrect": false
+      },
+      {
+        "text": "Organizar las elecciones al Parlamento Autonómico.",
+        "rationale": "La convocatoria y organización de elecciones autonómicas corresponden al Presidente de la CCAA conforme a su normativa propia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el representante del Gobierno central, no de la Comunidad Autónoma."
+  },
+  {
+    "guid": "6d4dde3e-75ff-4230-ac11-d3e8cf309931",
+    "subjectId": "T08",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 3,
+    "question": "¿Qué define a las 'Leyes de Armonización' del artículo 150.3 CE?",
+    "answerOptions": [
+      {
+        "text": "Establecen principios para armonizar normas autonómicas cuando así lo exija el interés general, apreciado por mayoría absoluta de cada Cámara.",
+        "rationale": "Es una potestad excepcional del Estado para evitar que la diversidad normativa regional perjudique al conjunto de la Nación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Son leyes que igualan los salarios de todos los funcionarios públicos de España.",
+        "rationale": "Aunque el Estado puede fijar bases retributivas, las leyes de armonización del 150.3 tienen un carácter jurídico-normativo más amplio y excepcional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Leyes dictadas por las CCAA para que sus normas coincidan con las del Estado vecino.",
+        "rationale": "La armonización del 150.3 es una potestad del Estado central hacia las autonomías, no un acto voluntario de estas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Normas que obligan a todas las CCAA a usar la misma lengua cooficial.",
+        "rationale": "La oficialidad de las lenguas se rige por los Estatutos y el artículo 3 de la CE; no es objeto de las leyes de armonización.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Intervienen cuando la 'diversidad' autonómica se vuelve problemática para el interés general."
+  }
+]

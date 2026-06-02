@@ -1,0 +1,777 @@
+[
+  {
+    "guid": "5f54478d-c8a4-4413-8c54-205cb6603d69",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la característica del acto administrativo que implica que se presume válido y produce efectos desde la fecha en que se dicta?",
+    "answerOptions": [
+      {
+        "text": "Ejecutoriedad",
+        "rationale": "La ejecutoriedad se refiere a la capacidad de la Administración para llevar a cabo el acto por sí misma, no a la presunción inicial de validez.",
+        "isCorrect": false
+      },
+      {
+        "text": "Presunción de validez",
+        "rationale": "Según el artículo 39 de la Ley 39/2015, los actos de las Administraciones Públicas sujetos al Derecho Administrativo se presumirán válidos y producirán efectos desde la fecha en que se dicten.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inderogabilidad singular",
+        "rationale": "Este principio impide que resoluciones administrativas de carácter particular vulneren lo establecido en una disposición de carácter general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Motivación",
+        "rationale": "La motivación es el requisito de exponer las razones de hecho y de derecho, pero no es la causa de la presunción de validez.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una asunción legal sobre la corrección del acto mientras no se demuestre lo contrario."
+  },
+  {
+    "guid": "2d8cb03c-af8c-4a18-be51-3d1ec34ed199",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 35 de la Ley 39/2015, ¿cuál de los siguientes actos debe ser obligatoriamente motivado?",
+    "answerOptions": [
+      {
+        "text": "Los actos que acepten pruebas propuestas por los interesados",
+        "rationale": "La aceptación de pruebas no suele requerir motivación especial, a diferencia del rechazo de las mismas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los actos que limiten derechos subjetivos o intereses legítimos",
+        "rationale": "La Ley exige que se motiven con sucinta referencia a hechos y fundamentos de derecho aquellos actos que restrinjan la esfera jurídica de los ciudadanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los actos dictados en ejercicio de potestades regladas",
+        "rationale": "Los actos reglados siguen una norma fija, mientras que la motivación es especialmente crítica en actos discrecionales o que se apartan de criterios previos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las propuestas de resolución en procedimientos ordinarios",
+        "rationale": "Aunque las propuestas contienen fundamentos, la obligación legal de motivación del artículo 35 se refiere específicamente a los actos definitivos mencionados en la lista taxativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en actos que supongan una carga o restricción para el administrado."
+  },
+  {
+    "guid": "abb93958-eb40-4c77-954e-53caf6420e76",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué plazo debe cursarse la notificación de un acto administrativo una vez que ha sido dictado?",
+    "answerOptions": [
+      {
+        "text": "10 días hábiles",
+        "rationale": "Toda notificación deberá ser cursada dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado.",
+        "isCorrect": true
+      },
+      {
+        "text": "10 días naturales",
+        "rationale": "En el cómputo de plazos administrativos, salvo que se especifique lo contrario, los días se entienden como hábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "5 días hábiles",
+        "rationale": "Este plazo es inferior al establecido legalmente para el envío de la notificación.",
+        "isCorrect": false
+      },
+      {
+        "text": "15 días naturales",
+        "rationale": "El plazo de 15 días suele asociarse a la expedición del certificado de silencio, no a la notificación del acto expreso.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un plazo breve contado en días que excluyen festivos y fines de semana."
+  },
+  {
+    "guid": "81fa17db-2c8c-4564-8a81-791e2e4c4cbe",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la consecuencia de un defecto de forma en un acto administrativo según la normativa vigente?",
+    "answerOptions": [
+      {
+        "text": "Siempre determina la nulidad de pleno derecho",
+        "rationale": "La nulidad de pleno derecho se reserva para vicios muy graves y tasados, no para cualquier defecto formal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo determina la anulabilidad si el acto carece de requisitos indispensables para alcanzar su fin o produce indefensión",
+        "rationale": "El defecto de forma solo vicia el acto cuando impide que este cumpla su objetivo o vulnera el derecho de defensa del interesado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Supone la caducidad inmediata del procedimiento",
+        "rationale": "La caducidad es una forma de terminación por inactividad, no una consecuencia de un error formal en el dictado del acto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es una irregularidad que no afecta en ningún caso a la validez",
+        "rationale": "Si el defecto causa indefensión, sí afecta a la validez convirtiendo el acto en anulable.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la importancia de la finalidad del acto y la protección del interesado."
+  },
+  {
+    "guid": "0035d352-aac5-4814-b8a1-4b6bcec9e93f",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En un procedimiento iniciado a solicitud del interesado, ¿cuál es el efecto general del silencio administrativo si no se notifica resolución en plazo?",
+    "answerOptions": [
+      {
+        "text": "Desestimatorio",
+        "rationale": "Aunque existen excepciones, la regla general en procedimientos a instancia de parte es el silencio positivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estimatorio",
+        "rationale": "Como norma general, el vencimiento del plazo máximo sin notificación legitima al interesado para entender estimada su solicitud.",
+        "isCorrect": true
+      },
+      {
+        "text": "Caducidad",
+        "rationale": "La caducidad suele operar en procedimientos iniciados de oficio que puedan derivar en actos desfavorables.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nulidad",
+        "rationale": "El silencio es una ficción jurídica para permitir el avance del proceso, no un motivo de nulidad del acto inexistente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque la regla que favorece al ciudadano ante la inactividad de la Administración."
+  },
+  {
+    "guid": "65fd836b-cc01-4e5b-9878-e04cc12b0b6b",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de recurso debe interponerse contra un acto que no agota la vía administrativa?",
+    "answerOptions": [
+      {
+        "text": "Recurso potestativo de reposición",
+        "rationale": "El de reposición se interpone contra actos que sí agotan la vía administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recurso de alzada",
+        "rationale": "El recurso de alzada es preceptivo para agotar la vía administrativa cuando el acto no ha sido dictado por el órgano superior jerárquico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Recurso extraordinario de revisión",
+        "rationale": "Este recurso solo procede contra actos firmes en vía administrativa bajo circunstancias muy específicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recurso contencioso-administrativo",
+        "rationale": "No se puede acudir directamente a la vía judicial sin haber agotado previamente la vía administrativa mediante el recurso correspondiente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un recurso jerárquico que permite 'subir' al escalón superior de la Administración."
+  },
+  {
+    "guid": "8d9a99fe-5917-43f8-b5b1-840e748ba24b",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de los siguientes supuestos constituye una causa de nulidad de pleno derecho según el artículo 47 de la Ley 39/2015?",
+    "answerOptions": [
+      {
+        "text": "Cualquier infracción del ordenamiento jurídico",
+        "rationale": "La infracción genérica del ordenamiento suele ser causa de anulabilidad, no de nulidad de pleno derecho.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los actos dictados por órgano manifestamente incompetente por razón de la materia o del territorio",
+        "rationale": "La incompetencia manifiesta en materia o territorio es uno de los vicios más graves que acarrea la nulidad radical del acto.",
+        "isCorrect": true
+      },
+      {
+        "text": "La realización de actuaciones administrativas fuera del tiempo establecido",
+        "rationale": "El incumplimiento de plazos suele ser una irregularidad no invalidante o causa de anulabilidad si el término es esencial.",
+        "isCorrect": false
+      },
+      {
+        "text": "El defecto de forma que no produce indefensión",
+        "rationale": "Si no hay indefensión ni falta de requisitos esenciales, el acto es válido o simplemente irregular.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en una falta de autoridad básica y evidente para dictar la decisión."
+  },
+  {
+    "guid": "05c37242-fd36-4430-b9bf-5a712c30fa18",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿En qué consiste el medio de ejecución forzosa denominado 'ejecución subsidiaria'?",
+    "answerOptions": [
+      {
+        "text": "En el embargo de bienes para satisfacer una deuda",
+        "rationale": "Ese procedimiento se denomina apremio sobre el patrimonio.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la realización del acto por la Administración o un tercero a costa del obligado",
+        "rationale": "Se aplica a obligaciones de hacer que no sean personalísimas, donde el sujeto puede ser sustituido por otro para ejecutar la tarea.",
+        "isCorrect": true
+      },
+      {
+        "text": "En la imposición de multas reiteradas en el tiempo",
+        "rationale": "Eso define a la multa coercitiva, cuyo fin es que el propio obligado cumpla por presión económica.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el uso de la fuerza física sobre las personas",
+        "rationale": "Esto se conoce como compulsión sobre las personas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se aplica cuando otra persona puede hacer lo que el interesado se niega a hacer."
+  },
+  {
+    "guid": "9359e70d-8bd2-4360-a90e-3b0570dbf653",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo de interposición de un recurso de alzada contra un acto expreso?",
+    "answerOptions": [
+      {
+        "text": "Un mes",
+        "rationale": "El plazo para interponer el recurso de alzada es de un mes si el acto es expreso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tres meses",
+        "rationale": "Tres meses es el plazo máximo habitual para resolver el recurso, no para interponerlo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez días",
+        "rationale": "Diez días es el plazo para notificar o para subsanar errores, no para la interposición de recursos ordinarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Quince días",
+        "rationale": "Este plazo no corresponde a la interposición de recursos de alzada según la ley general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el periodo estándar de treinta días para la mayoría de las impugnaciones ordinarias."
+  },
+  {
+    "guid": "bfbb9010-b124-4c26-888c-1e8bc11d4610",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el caso de procedimientos de responsabilidad patrimonial, ¿cuál es el sentido del silencio administrativo?",
+    "answerOptions": [
+      {
+        "text": "Positivo",
+        "rationale": "La responsabilidad patrimonial es una de las excepciones legales donde el silencio no beneficia al solicitante.",
+        "isCorrect": false
+      },
+      {
+        "text": "Negativo",
+        "rationale": "La ley establece que en procedimientos de responsabilidad patrimonial de las Administraciones Públicas, el silencio tiene efecto desestimatorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Produce la caducidad",
+        "rationale": "La caducidad no es un efecto de fondo sobre la pretensión económica de responsabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Depende de si la cuantía supera los $30.000$ euros",
+        "rationale": "El sentido del silencio en esta materia es negativo con independencia de la cuantía solicitada.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una excepción a la regla general de estimación por silencio."
+  },
+  {
+    "guid": "4a5f3f6f-ef12-4e9b-9669-cb0236d43d60",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si se interpone un recurso de alzada contra un acto que fue producido por silencio administrativo negativo (doble silencio)?",
+    "answerOptions": [
+      {
+        "text": "El silencio del recurso será negativo",
+        "rationale": "Esta era la norma antigua, pero la actual busca penalizar la doble inactividad administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "El silencio del recurso será positivo",
+        "rationale": "Si se recurre una desestimación por silencio y la Administración vuelve a no resolver el recurso en plazo, el sentido se invierte a positivo (salvo materias excluidas).",
+        "isCorrect": true
+      },
+      {
+        "text": "El recurso se entiende inadmitido automáticamente",
+        "rationale": "La falta de resolución no implica la inadmisión, sino la apertura de una nueva ficción jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se requiere iniciar un procedimiento de lesividad",
+        "rationale": "La lesividad es para anular actos favorables, no para gestionar la inactividad en recursos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La ley establece un incentivo para que la Administración no ignore dos veces al ciudadano."
+  },
+  {
+    "guid": "38f89b17-0ee3-4a9e-bbc6-d468da3adb55",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A qué órgano corresponde resolver un recurso de reposición?",
+    "answerOptions": [
+      {
+        "text": "Al superior jerárquico del que dictó el acto",
+        "rationale": "Esa es la definición del recurso de alzada, no del de reposición.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al mismo órgano que dictó el acto",
+        "rationale": "El recurso de reposición es horizontal y se presenta ante el mismo órgano que emitió la resolución para que lo reconsidere.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Tribunal Superior de Justicia",
+        "rationale": "La vía administrativa debe agotarse antes de acudir a los tribunales de justicia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Consejo de Ministros exclusivamente",
+        "rationale": "Cualquier órgano que dicte actos que agoten la vía administrativa puede conocer del recurso de reposición.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un recurso de carácter 'no jerárquico'."
+  },
+  {
+    "guid": "a895c5f3-1a77-4c5b-8075-b82f104fb068",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el límite temporal para que la Administración pueda rectificar los errores materiales, de hecho o aritméticos en sus actos?",
+    "answerOptions": [
+      {
+        "text": "Un año desde que se dictó el acto",
+        "rationale": "No existe un límite de un año para la rectificación de meros errores materiales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuatro años",
+        "rationale": "Cuatro años es el plazo para la declaración de lesividad, no para la rectificación de errores.",
+        "isCorrect": false
+      },
+      {
+        "text": "En cualquier momento",
+        "rationale": "Las Administraciones Públicas podrán rectificar en cualquier momento, de oficio o a instancia de los interesados, los errores materiales, de hecho o aritméticos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo mientras el acto no sea firme",
+        "rationale": "La firmeza no impide la corrección de un error puramente material o de cálculo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Estos errores son tan evidentes que no están sujetos a plazos de caducidad."
+  },
+  {
+    "guid": "41d5289a-0e62-42f3-ad67-cd823010a29e",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué efecto tiene el planteamiento de una causa de recusación por parte de un interesado sobre el procedimiento principal?",
+    "answerOptions": [
+      {
+        "text": "Provoca la nulidad de todo lo actuado hasta ese momento",
+        "rationale": "La recusación es preventiva y no anula automáticamente lo anterior si no se demuestra parcialidad efectiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspende la tramitación del procedimiento",
+        "rationale": "Cuando se plantea una recusación, se debe suspender el curso del procedimiento hasta que se resuelva el incidente de recusación.",
+        "isCorrect": true
+      },
+      {
+        "text": "No tiene ningún efecto suspensivo",
+        "rationale": "Continuar el procedimiento con un funcionario posiblemente parcial vulneraría las garantías del interesado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obliga a reiniciar el procedimiento desde la fase de instrucción",
+        "rationale": "Solo se suspende para decidir si el funcionario debe ser apartado o no.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una medida cautelar para garantizar la objetividad antes de seguir adelante."
+  },
+  {
+    "guid": "22a49c8d-6071-4a5e-89b7-a5937458f338",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cómo se clasifican los días en el cómputo de plazos administrativos si la ley o el derecho de la UE no indican otra cosa?",
+    "answerOptions": [
+      {
+        "text": "Días naturales",
+        "rationale": "Los días naturales incluyen sábados y festivos, lo cual no es la regla general administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Días hábiles, excluyendo sábados, domingos y festivos",
+        "rationale": "Desde la Ley 39/2015, los sábados se consideran inhábiles a efectos de cómputo de plazos administrativos, igual que los domingos y festivos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Días laborables, incluyendo los sábados",
+        "rationale": "Los sábados ya no se computan como hábiles en el ámbito administrativo común.",
+        "isCorrect": false
+      },
+      {
+        "text": "Días lectivos",
+        "rationale": "Este término se aplica al ámbito escolar y no es el utilizado en el procedimiento administrativo general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se excluyen los fines de semana completos y los días no laborables."
+  },
+  {
+    "guid": "47dd1612-6d91-4870-b570-0dad0aa5cc1f",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué vicio de invalidez presenta un acto administrativo que es dictado prescindiendo total y absolutamente del procedimiento legalmente establecido?",
+    "answerOptions": [
+      {
+        "text": "Anulabilidad",
+        "rationale": "La falta total de procedimiento es una infracción tan grave que supera el grado de mera anulabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nulidad de pleno derecho",
+        "rationale": "El artículo 47.1.e incluye como causa de nulidad absoluta el dictado de actos sin seguir el procedimiento legal o las normas de formación de voluntad de órganos colegiados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Irregularidad no invalidante",
+        "rationale": "No puede ser una simple irregularidad si se omite todo el proceso de garantías legales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inexistencia",
+        "rationale": "Aunque doctrinalmente se discuta, legalmente se califica como nulidad de pleno derecho.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es uno de los vicios más graves recogidos en el catálogo del artículo 47."
+  },
+  {
+    "guid": "af4caef5-ec9f-41f3-b132-6a088b694acc",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la ejecución forzosa, ¿cuándo se utiliza la 'multa coercitiva'?",
+    "answerOptions": [
+      {
+        "text": "Para cobrar impuestos impagados",
+        "rationale": "El cobro de deudas dinerarias líquidas se realiza mediante el apremio sobre el patrimonio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Para obligar al interesado a realizar una acción personalísima que no admite compulsión directa",
+        "rationale": "La multa coercitiva busca que el sujeto cumpla por sí mismo una obligación que nadie más puede hacer por él, mediante la presión económica repetida.",
+        "isCorrect": true
+      },
+      {
+        "text": "Como sanción penal por un delito administrativo",
+        "rationale": "La multa coercitiva no es una sanción (castigo), sino un medio de ejecución (presión para el cumplimiento).",
+        "isCorrect": false
+      },
+      {
+        "text": "Para resarcir daños causados a un tercero",
+        "rationale": "Su función es el cumplimiento del acto, no la indemnización de daños.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en una forma de 'persuasión económica' ante actos que solo el obligado puede realizar."
+  },
+  {
+    "guid": "c6851639-ae0c-49ae-a030-20a430d317d5",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué procedimiento debe seguir la Administración para anular un acto favorable para el interesado que sea simplemente anulable?",
+    "answerOptions": [
+      {
+        "text": "Revisión de oficio directa",
+        "rationale": "La revisión de oficio directa se reserva para actos nulos de pleno derecho, no para los anulables.",
+        "isCorrect": false
+      },
+      {
+        "text": "Declaración de lesividad e impugnación ante la jurisdicción contencioso-administrativa",
+        "rationale": "Para anular actos favorables anulables, la Administración debe declararlos 'lesivos' al interés público y pedir al juez que los anule.",
+        "isCorrect": true
+      },
+      {
+        "text": "Revocación por motivos de oportunidad",
+        "rationale": "La revocación solo cabe para actos de gravamen o desfavorables, no para quitar derechos ya otorgados por vicios de legalidad leves.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recurso de alzada de oficio",
+        "rationale": "Los recursos los interponen los interesados, la Administración utiliza los mecanismos de revisión de oficio o lesividad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La Administración no puede anular por sí misma estos actos; necesita intervención judicial."
+  },
+  {
+    "guid": "440b4376-31d8-4fe5-9213-30cc1ee21294",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Si un acto administrativo se dicta en sustitución de otro anterior que fue anulado, ¿pueden dársele efectos retroactivos?",
+    "answerOptions": [
+      {
+        "text": "No, en ningún caso",
+        "rationale": "La retroactividad es posible bajo ciertas condiciones de beneficio o sustitución de actos anulados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, siempre que los supuestos de hecho necesarios existieran ya en la fecha a que se retrotraiga la eficacia",
+        "rationale": "Esta es una de las condiciones del artículo 39.3 para permitir que un acto produzca efectos hacia el pasado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo si el interesado paga una tasa especial de retroactividad",
+        "rationale": "La eficacia retroactiva depende de requisitos jurídicos de fondo, no de pagos económicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sí, aunque lesione derechos de terceros",
+        "rationale": "La retroactividad no puede otorgarse si lesiona derechos o intereses legítimos de otras personas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la existencia previa de las circunstancias necesarias para el acto."
+  },
+  {
+    "guid": "be02706b-fb34-4779-94de-b966c41335d1",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el plazo máximo de resolución para un recurso de alzada?",
+    "answerOptions": [
+      {
+        "text": "Un mes",
+        "rationale": "Un mes es el plazo de interposición, pero la Administración dispone de más tiempo para dictar la resolución.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tres meses",
+        "rationale": "El plazo máximo para dictar y notificar la resolución del recurso de alzada será de tres meses.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis meses",
+        "rationale": "Seis meses es el plazo máximo para la resolución de procedimientos generales, no para los recursos ordinarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez días",
+        "rationale": "Es un plazo demasiado corto para la instrucción y resolución de un recurso administrativo jerárquico.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Equivale a un trimestre natural."
+  },
+  {
+    "guid": "a77c8967-8174-487c-9191-ad2d8d90df16",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué ocurre si una notificación se practica pero no contiene el texto íntegro del acto?",
+    "answerOptions": [
+      {
+        "text": "Es plenamente válida si se envió por correo certificado",
+        "rationale": "La forma de envío no suple la carencia de contenido esencial del acto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es una notificación defectuosa que no surte efectos salvo que el interesado realice actuaciones que supongan el conocimiento del contenido",
+        "rationale": "Las notificaciones que omitan elementos esenciales solo son eficaces si el interesado se da por enterado o interpone recurso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se presume que el silencio es positivo",
+        "rationale": "El defecto de notificación no altera las reglas del silencio, que dependen de la falta de dictado/notificación en plazo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Debe repetirse obligatoriamente en el BOE",
+        "rationale": "La publicación en el BOE es para interesados desconocidos, no para subsanar errores de contenido en una notificación personal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere si el interesado realmente ha podido conocer la decisión administrativa."
+  },
+  {
+    "guid": "2a51244e-1a01-47d7-9e7c-3a60243237df",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el contexto de la revisión de oficio, ¿qué plazo tiene la Administración para declarar la nulidad de un acto que lesiona derechos fundamentales?",
+    "answerOptions": [
+      {
+        "text": "Cuatro años",
+        "rationale": "Los plazos de cuatro años suelen ser para la anulabilidad (lesividad), no para la nulidad radical.",
+        "isCorrect": false
+      },
+      {
+        "text": "En cualquier momento",
+        "rationale": "La revisión de actos nulos de pleno derecho (art. 47.1) no está sujeta a plazo de prescripción; puede instarse 'en cualquier momento'.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis meses desde que el acto es firme",
+        "rationale": "El plazo de seis meses es el de resolución del procedimiento de revisión, no el plazo para poder iniciarlo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez años según el Código Civil",
+        "rationale": "La normativa administrativa común establece sus propias reglas de revisión, ajenas a los plazos civiles generales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La gravedad del vicio permite que la acción de nulidad no caduque nunca."
+  },
+  {
+    "guid": "0a51f089-5dab-4243-81fd-09a041a13178",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la consecuencia de la falta de notificación de la resolución en un procedimiento iniciado de oficio que pueda derivar en efectos desfavorables?",
+    "answerOptions": [
+      {
+        "text": "Silencio positivo",
+        "rationale": "El silencio positivo no opera cuando el procedimiento podría perjudicar al interesado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caducidad",
+        "rationale": "En los procedimientos de los que pudiera derivarse un acto desfavorable o de gravamen, el vencimiento del plazo produce la caducidad y el archivo de las actuaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nulidad radical",
+        "rationale": "La caducidad es el efecto procesal automático, mientras que la nulidad requeriría un vicio en el contenido del acto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prórroga automática por tres meses",
+        "rationale": "La prórroga requiere un acuerdo motivado y no ocurre de forma automática por el simple paso del tiempo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el término que implica la terminación del proceso sin decisión sobre el fondo por inactividad."
+  },
+  {
+    "guid": "60159ca9-8412-42d7-be4b-91bc6db2c287",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué requisito es indispensable para poder ejecutar forzosamente un acto administrativo?",
+    "answerOptions": [
+      {
+        "text": "Que el acto haya sido publicado en el BOE",
+        "rationale": "La publicación es solo para actos con destinatarios indeterminados o en casos específicos; el requisito general es la notificación o firmeza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el acto sea eficaz y se haya efectuado un apercibimiento previo",
+        "rationale": "La Administración debe notificar el acto y advertir al interesado de que, si no cumple voluntariamente, se procederá a la ejecución forzosa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que exista una autorización judicial previa en todos los casos",
+        "rationale": "La Administración goza de autotutela ejecutiva; el juez solo interviene en casos específicos como la entrada en domicilio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que el interesado esté de acuerdo con la ejecución",
+        "rationale": "La ejecución forzosa se produce precisamente cuando el interesado no cumple voluntariamente.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la necesidad de avisar al ciudadano antes de actuar de oficio."
+  },
+  {
+    "guid": "1d15d735-afbc-45ee-836d-9ab63780827e",
+    "subjectId": "T12",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de los siguientes actos pone fin a la vía administrativa?",
+    "answerOptions": [
+      {
+        "text": "Los actos de trámite ordinarios",
+        "rationale": "Los actos de trámite preparan la resolución pero no suelen agotar la vía administrativa por sí mismos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las resoluciones de los recursos de alzada",
+        "rationale": "Una vez resuelto el recurso de alzada, no cabe más impugnación en vía administrativa (salvo revisión extraordinaria), quedando expedita la vía judicial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los actos dictados por un Director General con superior jerárquico",
+        "rationale": "Si hay un superior jerárquico, se debe interponer recurso de alzada ante este para agotar la vía.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier acto que sea notificado electrónicamente",
+        "rationale": "El medio de notificación no determina si un acto agota o no la vía administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un acto que ya ha pasado por el filtro del órgano superior o que no tiene nadie por encima."
+  }
+]

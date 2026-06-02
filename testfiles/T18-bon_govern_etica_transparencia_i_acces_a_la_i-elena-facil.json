@@ -1,0 +1,777 @@
+[
+  {
+    "guid": "32b74393-362e-417f-8ced-bad6e13bf20b",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el número de la ley estatal de transparencia, acceso a la información pública y buen gobierno en España?",
+    "answerOptions": [
+      {
+        "text": "Ley 19/2013, de 9 de diciembre",
+        "rationale": "Esta es la norma básica estatal que establece el marco común de transparencia para todas las administraciones públicas españolas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ley 19/2014, de 29 de diciembre",
+        "rationale": "Esta es la ley específica del Parlamento de Cataluña, no la de ámbito estatal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley 39/2015, de 1 de octubre",
+        "rationale": "Esta ley regula el procedimiento administrativo común, no específicamente la transparencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ley 40/2015, de 1 de octubre",
+        "rationale": "Esta normativa trata sobre el régimen jurídico del sector público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerda el año en que se aprobó la primera gran normativa de transparencia en España."
+  },
+  {
+    "guid": "0843d484-34cc-4849-a93d-5bebffd864c5",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál de estos es uno de los objetivos del triple objetivo de la Ley 19/2013?",
+    "answerOptions": [
+      {
+        "text": "Incrementar los impuestos municipales",
+        "rationale": "La ley de transparencia no tiene como fin la gestión tributaria o el aumento de la recaudación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reconocer y garantizar el acceso a la información",
+        "rationale": "Garantizar que la ciudadanía pueda solicitar y obtener información es un pilar fundamental de esta ley.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar la participación ciudadana",
+        "rationale": "Al contrario, la ley busca fomentar la participación mediante el conocimiento de la actividad pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducir el número de empleados públicos",
+        "rationale": "La ley regula el comportamiento y la información, no el tamaño de la plantilla de la administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se centra en la relación de la información con el ciudadano."
+  },
+  {
+    "guid": "fce64e8c-e905-4051-a258-6be5fc1b0c26",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según la normativa de Cataluña, ¿cómo se define la transparencia?",
+    "answerOptions": [
+      {
+        "text": "La acción proactiva de la Administración de dar a conocer información",
+        "rationale": "La transparencia implica que la administración tome la iniciativa de publicar datos sin esperar a que se los pidan.",
+        "isCorrect": true
+      },
+      {
+        "text": "La obligación de los ciudadanos de informar al Gobierno",
+        "rationale": "La transparencia es una obligación de los poderes públicos hacia la ciudadanía, no al revés.",
+        "isCorrect": false
+      },
+      {
+        "text": "El secreto profesional de los funcionarios",
+        "rationale": "La transparencia es el concepto opuesto al secreto u opacidad administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "La publicidad de empresas privadas únicamente",
+        "rationale": "La ley se aplica principalmente a las Administraciones y entidades del sector público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en una actitud 'proactiva' por parte de las instituciones."
+  },
+  {
+    "guid": "a8de40db-a9c0-4f64-b7f9-64d83603e92e",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué se entiende por 'Publicidad Activa'?",
+    "answerOptions": [
+      {
+        "text": "Esperar a que el ciudadano pida la información para dársela",
+        "rationale": "Eso correspondería al derecho de acceso tras una solicitud, no a la publicidad activa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Poner datos a disposición de la ciudadanía en portales web sin demanda previa",
+        "rationale": "Consiste en la difusión periódica y actualizada de información relevante de forma espontánea por la administración.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hacer campañas publicitarias electorales",
+        "rationale": "La publicidad activa se refiere a la transparencia informativa, no a la propaganda política.",
+        "isCorrect": false
+      },
+      {
+        "text": "Publicar solo los nombres de los directivos",
+        "rationale": "La publicidad activa abarca organización, gestión económica, decisiones jurídicas y mucho más.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de publicar información sin que nadie la haya solicitado todavía."
+  },
+  {
+    "guid": "dd969b7d-9f5d-43a9-b3be-7742059e8f41",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la edad mínima para ejercer el derecho de acceso a la información pública en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "18 años",
+        "rationale": "Aunque es la mayoría de edad general, la ley de transparencia permite el ejercicio del derecho antes.",
+        "isCorrect": false
+      },
+      {
+        "text": "14 años",
+        "rationale": "Esta es la edad mínima para otros derechos, pero no la establecida específicamente en esta ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "16 años",
+        "rationale": "La Ley 19/2014 establece explícitamente que el derecho de acceso se puede ejercer a partir de los 16 años.",
+        "isCorrect": true
+      },
+      {
+        "text": "21 años",
+        "rationale": "Esta edad no se contempla en la normativa de transparencia actual.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una edad intermedia entre la adolescencia y la mayoría de edad legal."
+  },
+  {
+    "guid": "3e724d58-de78-4d44-810a-47f2369a10f6",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué instrumento es el canal prioritario para comunicar malas prácticas en el Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "La Bústia Ètica i de Bon Govern",
+        "rationale": "Es el canal electrónico seguro diseñado específicamente para alertar sobre conductas contrarias a la ética y la legalidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Registro General",
+        "rationale": "El registro sirve para trámites administrativos generales, no garantiza el anonimato o confidencialidad de una alerta ética.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Oficina de Correos",
+        "rationale": "Aunque se puede enviar correspondencia, no es el canal prioritario ni especializado para este fin.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Portal de Transparencia",
+        "rationale": "El portal es para consultar información, no para enviar comunicaciones o denuncias de mala praxis.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre en catalán significa literalmente 'Buzón Ético'."
+  },
+  {
+    "guid": "4d2579bc-0407-47a2-9578-7642374ac998",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A quién se aplica principalmente el Código Ético de Conducta del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "A todos los ciudadanos de Barcelona",
+        "rationale": "El código regula a los representantes y gestores públicos, no a la ciudadanía en general.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los cargos electos y personal directivo",
+        "rationale": "El código se dirige a quienes ostentan la representación política y los puestos de máxima responsabilidad en la gestión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo al personal de limpieza",
+        "rationale": "Se enfoca en los niveles de toma de decisiones y alta dirección del ayuntamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "A las empresas privadas sin relación con el ayuntamiento",
+        "rationale": "Su ámbito es el sector público municipal y quienes actúan en su nombre.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se dirige a las personas con mayor responsabilidad política y administrativa."
+  },
+  {
+    "guid": "a17330db-46b2-458d-ac15-37a34787c9cb",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio ético exige actuar con ausencia de influencias de intereses particulares?",
+    "answerOptions": [
+      {
+        "text": "Principio de Integridad",
+        "rationale": "La integridad supone actuar conforme a los valores públicos, evitando que intereses privados afecten el cargo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de Proximidad",
+        "rationale": "Este principio se refiere a la cercanía de la administración al territorio y a las necesidades ciudadanas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Agilidad",
+        "rationale": "La agilidad tiene que ver con la rapidez en los procedimientos, no con la ética de intereses.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de Legalidad",
+        "rationale": "Aunque están relacionados, la legalidad se centra en cumplir la ley escrita.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con la honestidad y la rectitud en el ejercicio del cargo."
+  },
+  {
+    "guid": "7ff0d303-3a34-44c1-b6a5-ece750b35155",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el plazo máximo para que el gestor de la Bústia Ètica realice las tareas de comprobación?",
+    "answerOptions": [
+      {
+        "text": "15 días",
+        "rationale": "Es un plazo demasiado corto para una investigación de conductas complejas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos meses",
+        "rationale": "Las normas reguladoras establecen que las tareas de comprobación no deben durar más de dos meses desde la presentación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Seis meses",
+        "rationale": "Es el plazo general para resolver muchos procedimientos, pero la Bústia busca mayor agilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un año",
+        "rationale": "Sería un plazo excesivo que restaría eficacia al mecanismo de control ético.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piensa en un periodo de tiempo equivalente a unos sesenta días."
+  },
+  {
+    "guid": "b412e365-297b-4b0b-8a2f-1f29dc73a97d",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el contexto de la Bústia Ètica, ¿qué ocurre si una comunicación es anónima?",
+    "answerOptions": [
+      {
+        "text": "Se rechaza automáticamente",
+        "rationale": "La Bústia permite y garantiza la confidencialidad, admitiendo comunicaciones sin identificación si el canal es seguro.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se puede tramitar si aporta datos suficientes",
+        "rationale": "El objetivo es conocer los hechos; si la descripción es suficiente para identificar la conducta, se puede investigar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se envía directamente a la policía",
+        "rationale": "Primero debe haber una fase de comprobación interna por parte del gestor ético.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se publica en el periódico",
+        "rationale": "La confidencialidad es una garantía básica del sistema para proteger a quien informa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Lo importante es que la información sea útil para investigar una mala praxis."
+  },
+  {
+    "guid": "96698c76-a97a-41ed-b39c-57c76ff32190",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio obliga a tratar a todas las personas con respeto y cortesía?",
+    "answerOptions": [
+      {
+        "text": "Respeto",
+        "rationale": "El Código Ético incluye explícitamente el respeto y la cortesía hacia los ciudadanos y compañeros como norma de conducta.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eficacia",
+        "rationale": "La eficacia se refiere a lograr los objetivos marcados, no necesariamente al trato personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transparencia",
+        "rationale": "La transparencia trata sobre la información pública, no sobre la educación en el trato.",
+        "isCorrect": false
+      },
+      {
+        "text": "Economía",
+        "rationale": "Este principio se refiere al ahorro de recursos públicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una cualidad básica de la convivencia y el trato humano."
+  },
+  {
+    "guid": "bfc585d8-a3a8-4790-9af9-d6bcab32df44",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál de estas opciones NO es un contenido obligatorio de publicidad activa?",
+    "answerOptions": [
+      {
+        "text": "La estructura administrativa del Ayuntamiento",
+        "rationale": "La organización institucional es un contenido básico que debe ser público.",
+        "isCorrect": false
+      },
+      {
+        "text": "La lista de la compra privada del Alcalde",
+        "rationale": "La transparencia se aplica a la actividad pública y recursos públicos, no a la vida privada personal.",
+        "isCorrect": true
+      },
+      {
+        "text": "El régimen retributivo de los empleados",
+        "rationale": "Saber cuánto cobran los servidores públicos con dinero de los impuestos es obligatorio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los presupuestos municipales",
+        "rationale": "La gestión económica y presupuestaria es un eje central de la transparencia.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencia entre lo que pertenece a la institución y lo que es personal e íntimo."
+  },
+  {
+    "guid": "475ecd6c-0244-4fe6-b531-ad7a72eeac84",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se llama el instrumento básico para gestionar la transparencia en la Generalitat?",
+    "answerOptions": [
+      {
+        "text": "Buzón Ciudadano",
+        "rationale": "Un buzón es para recibir mensajes, no para organizar toda la información pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Portal de la Transparència",
+        "rationale": "Es la sede electrónica donde se integra y publica toda la información exigida por la ley.",
+        "isCorrect": true
+      },
+      {
+        "text": "Diari Oficial",
+        "rationale": "El diario oficial sirve para publicar leyes y anuncios, pero la transparencia requiere un formato más accesible y reutilizable.",
+        "isCorrect": false
+      },
+      {
+        "text": "Archivo Secreto",
+        "rationale": "La ley de transparencia busca precisamente eliminar los archivos inaccesibles al público.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un sitio web 'puerta de entrada' a toda la información pública."
+  },
+  {
+    "guid": "ae3a7780-e3e9-4af0-8c8e-6bfe043a704e",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué se refiere el principio de 'Exemplaritat'?",
+    "answerOptions": [
+      {
+        "text": "A dar ejemplo de lealtad y buena fe con la institución",
+        "rationale": "Los responsables públicos deben actuar de modo que prestigien la imagen del Ayuntamiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "A castigar con dureza a los ciudadanos",
+        "rationale": "La ejemplaridad se refiere a la conducta propia del cargo, no a la sanción de otros.",
+        "isCorrect": false
+      },
+      {
+        "text": "A ser el más rápido en terminar los trámites",
+        "rationale": "Eso sería eficiencia o agilidad, no necesariamente conducta ejemplar.",
+        "isCorrect": false
+      },
+      {
+        "text": "A ganar todas las elecciones",
+        "rationale": "La conducta ética es independiente de los resultados electorales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Significa actuar de manera que la sociedad pueda tomar tu conducta como un modelo positivo."
+  },
+  {
+    "guid": "3344c433-6361-4f60-b4e4-97706aaeedf8",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué debe hacer un cargo electo si recibe una oferta de regalo o ventaja indebida?",
+    "answerOptions": [
+      {
+        "text": "Aceptarlo y no decir nada",
+        "rationale": "Aceptar regalos por razón del cargo está prohibido por las normas de conducta ética.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rechazarlo e informar a los órganos correspondientes",
+        "rationale": "La normativa obliga a rechazar cualquier ventaja indebida y ponerlo en conocimiento del comité de ética.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dárselo a un familiar",
+        "rationale": "Sigue siendo una infracción ética, ya que el beneficio indirecto también está prohibido.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subastarlo para obras de caridad sin informar",
+        "rationale": "Incluso para fines benéficos, no se debe aceptar el regalo original si es indebido.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La transparencia y la integridad requieren una negativa clara y una comunicación formal."
+  },
+  {
+    "guid": "db45f952-e5b4-464b-836b-54a5eea91c0f",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué organismo resuelve las reclamaciones de acceso a la información en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "El Tribunal Supremo",
+        "rationale": "El Supremo es para recursos judiciales de última instancia, no para reclamaciones administrativas iniciales de transparencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "La GAIP (Comissió de Garantia del Dret d'Accés a la Informació Pública)",
+        "rationale": "Es el órgano independiente encargado de velar por el cumplimiento del derecho de acceso.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Alcalde directamente",
+        "rationale": "El Alcalde es parte de la administración reclamada; se necesita un órgano externo para garantizar imparcialidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministerio del Interior",
+        "rationale": "No tiene competencias sobre el derecho de acceso a la información autonómica o local.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sus siglas son G-A-I-P."
+  },
+  {
+    "guid": "ab52940b-8fb7-4212-9ae0-e06fe7246f2f",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "El principio de 'Rendición de cuentas' implica...",
+    "answerOptions": [
+      {
+        "text": "Explicar y justificar los objetivos y resultados obtenidos",
+        "rationale": "Consiste en la obligación de los gobernantes de responder ante la ciudadanía por sus actos y decisiones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Contar cuánto dinero hay en la caja cada día",
+        "rationale": "Eso es contabilidad básica, la rendición de cuentas es un concepto político y ético más amplio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hacer un examen de matemáticas a los empleados",
+        "rationale": "No tiene relación con las pruebas de conocimientos del personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ocultar los errores para no perder votos",
+        "rationale": "La rendición de cuentas exige precisamente transparencia sobre lo que se ha hecho bien y mal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de dar explicaciones a quienes te han otorgado la confianza pública."
+  },
+  {
+    "guid": "47cdb0dc-bbc4-41a5-839c-69f0a1cfea5e",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué ocurre si una solicitud de información pública no se resuelve en el plazo establecido?",
+    "answerOptions": [
+      {
+        "text": "Se entiende desestimada por silencio negativo",
+        "rationale": "La Ley 19/2014 establece como regla general el silencio positivo para favorecer el acceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se entiende estimada (silencio positivo), salvo excepciones legales",
+        "rationale": "La norma busca garantizar el acceso; si la administración calla, se asume que el ciudadano tiene razón, con límites tasados.",
+        "isCorrect": true
+      },
+      {
+        "text": "El solicitante recibe una multa",
+        "rationale": "El retraso de la administración nunca puede perjudicar al ciudadano con una sanción.",
+        "isCorrect": false
+      },
+      {
+        "text": "La solicitud caduca y no se puede volver a pedir",
+        "rationale": "El derecho de acceso es permanente y no caduca por la inactividad de la administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "La ley intenta que la falta de respuesta de la administración no bloquee el derecho del ciudadano."
+  },
+  {
+    "guid": "c4862ce0-5e1a-4136-9f7e-595b245d31b2",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué son los 'Grupos de Interés' (Lobbies)?",
+    "answerOptions": [
+      {
+        "text": "Personas que limpian los edificios públicos",
+        "rationale": "Eso es personal de servicios, no grupos que intentan influir en políticas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Organizaciones que realizan actividades para influir en políticas públicas",
+        "rationale": "Son colectivos que buscan que sus intereses sean tenidos en cuenta en la elaboración de leyes o decisiones.",
+        "isCorrect": true
+      },
+      {
+        "text": "Grupos de turistas que visitan el Ayuntamiento",
+        "rationale": "El turismo no tiene por objetivo la influencia en la normativa o gestión pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Equipos de fútbol de la ciudad",
+        "rationale": "Un club deportivo no es, por definición, un grupo de interés político, salvo que actúe como tal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Buscan que sus ideas u objetivos se reflejen en las decisiones del gobierno."
+  },
+  {
+    "guid": "dd64fbc5-def2-454a-862a-cdcba673aea7",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la función del 'Gestor Ètic' en la Bústia Ètica?",
+    "answerOptions": [
+      {
+        "text": "Cobrar las multas de tráfico",
+        "rationale": "Esa función corresponde a los servicios de recaudación o gestión tributaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gestionar las comunicaciones y fomentar valores éticos",
+        "rationale": "Es la figura encargada de tramitar las alertas y proponer medidas de mejora en la integridad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Elegir al Alcalde",
+        "rationale": "La elección del alcalde corresponde al pleno municipal tras las elecciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Redactar el presupuesto municipal",
+        "rationale": "Esta es una tarea técnica y política de la gerencia y el gobierno, no del gestor ético.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el responsable de que el 'buzón' funcione y se investiguen los hechos."
+  },
+  {
+    "guid": "387019b4-300b-4fa3-a8f3-613d8cecbe91",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "La 'Objetividad' como valor de buen gobierno significa...",
+    "answerOptions": [
+      {
+        "text": "Actuar según los sentimientos personales del directivo",
+        "rationale": "Eso sería subjetividad; la ética pública exige dejar a un lado las emociones propias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ponderar todos los elementos con independencia de la forma propia de pensar",
+        "rationale": "Significa tomar decisiones basadas en datos y hechos, sin sesgos ideológicos o personales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hacer lo que diga la mayoría en una encuesta de Twitter",
+        "rationale": "La objetividad se basa en el interés general y la legalidad, no en la popularidad inmediata.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tomar ninguna decisión para no equivocarse",
+        "rationale": "La parálisis no es objetividad; se debe actuar pero con fundamentos neutros.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es lo contrario a la arbitrariedad o al favoritismo personal."
+  },
+  {
+    "guid": "093c103f-d848-4593-9b2d-82c03aaef1e3",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué tipo de norma es el Código Ético del Ayuntamiento de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "Una sugerencia opcional",
+        "rationale": "Tiene carácter vinculante para sus destinatarios, no es una simple recomendación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una disposición normativa de carácter general (Reglamento)",
+        "rationale": "Fue aprobado por el Pleno con valor de reglamento municipal para garantizar su eficacia jurídica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una ley estatal",
+        "rationale": "Un ayuntamiento no tiene potestad para aprobar leyes estatales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un contrato de trabajo",
+        "rationale": "Aunque genera obligaciones, su naturaleza es la de una norma administrativa general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Fue aprobado por el Plenario del Consejo Municipal y tiene rango de reglamento."
+  },
+  {
+    "guid": "462b9a45-e161-44b8-bcdd-bd410a3a958c",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En materia de subvenciones, ¿qué exige el buen gobierno?",
+    "answerOptions": [
+      {
+        "text": "Darlas a los amigos del concejal",
+        "rationale": "Eso sería clientelismo o favoritismo, prohibido por los principios de igualdad y objetividad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Establecer criterios objetivos para su concesión y controlar su ejecución",
+        "rationale": "La transparencia y el buen gobierno obligan a que el dinero público se asigne con reglas claras y se verifique su uso.",
+        "isCorrect": true
+      },
+      {
+        "text": "No darlas nunca para ahorrar dinero",
+        "rationale": "Las subvenciones son una herramienta legítima de fomento si se gestionan correctamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mantener en secreto quién ha recibido el dinero",
+        "rationale": "La ley de transparencia obliga a publicar las subvenciones concedidas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en la justicia, la claridad y la vigilancia del gasto público."
+  },
+  {
+    "guid": "18db52be-25e7-4db5-8010-12344a7e3567",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién tiene la condición de 'Alto Cargo' según la Ley 19/2014?",
+    "answerOptions": [
+      {
+        "text": "Solo el Presidente de la Generalitat",
+        "rationale": "El concepto es mucho más amplio e incluye a consejeros, directivos y otros cargos de confianza.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los cargos electos, directivos y el personal eventual de confianza",
+        "rationale": "La ley incluye a quienes tienen capacidad de decisión y responsabilidad política o de gestión superior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Todos los auxiliares administrativos",
+        "rationale": "El personal de ejecución no suele tener la consideración de alto cargo a efectos de esta ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier ciudadano que pague impuestos",
+        "rationale": "Alto cargo es una condición ligada al ejercicio de una función pública específica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Incluye a los representantes políticos y a los directores de servicios de la administración."
+  },
+  {
+    "guid": "70188c8f-f883-4f03-9602-d772fbe766cf",
+    "subjectId": "T18",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué es el 'Portal de la Transparencia'?",
+    "answerOptions": [
+      {
+        "text": "Una puerta de cristal en el Ayuntamiento",
+        "rationale": "Es un concepto digital, no un objeto físico del edificio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una plataforma digital que centraliza la información pública para su consulta",
+        "rationale": "Es el lugar donde se agrupan los datos de publicidad activa de forma organizada y accesible.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una red social exclusiva para políticos",
+        "rationale": "Su fin es informar a toda la ciudadanía, no servir de comunicación interna entre políticos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un videojuego sobre gestión municipal",
+        "rationale": "Es una herramienta de administración electrónica seria y reglada por ley.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la 'ventanilla' electrónica donde los ciudadanos miran qué hace su gobierno."
+  }
+]

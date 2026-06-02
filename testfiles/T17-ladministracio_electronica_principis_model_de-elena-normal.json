@@ -1,0 +1,777 @@
+[
+  {
+    "guid": "9b61ca88-d0a8-4905-9b8c-857d1e116163",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el objetivo principal de la administración electrónica para el ciudadano según la documentación?",
+    "answerOptions": [
+      {
+        "text": "Sustituir completamente la tramitación presencial por la digital.",
+        "rationale": "El material indica que este modo de relación no sustituye al actual, sino que es una elección del sujeto salvo casos concretos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una mayor transparencia y control sobre el estado de tramitación de sus procedimientos.",
+        "rationale": "La transparencia y el control del estado de los expedientes son objetivos clave definidos explícitamente para el ciudadano.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reducir el número de funcionarios encargados de la atención al público.",
+        "rationale": "Aunque la eficiencia interna es un objetivo para la Administración, el material no menciona la reducción de personal como un fin para el ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar la necesidad de identificación digital para acceder a expedientes personales.",
+        "rationale": "Al contrario, el acceso a espacios personalizados y expedientes requiere garantías de seguridad e identificación digital.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en cómo el acceso digital permite al interesado supervisar su propia documentación de forma remota."
+  },
+  {
+    "guid": "befd184e-910a-4235-9174-1a21217e7c6d",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué implica el principio de 'Neutralidad Tecnológica'?",
+    "answerOptions": [
+      {
+        "text": "La imposición de un software específico para garantizar la compatibilidad con el sistema municipal.",
+        "rationale": "Este principio prohíbe imponer tecnologías específicas, buscando que el ciudadano no sea discriminado por su elección de herramientas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que la Administración debe utilizar exclusivamente software de código abierto en todos sus procesos.",
+        "rationale": "Aunque se promueve el código abierto, la neutralidad implica libertad de elección y adaptabilidad técnica, no una exclusividad tecnológica.",
+        "isCorrect": false
+      },
+      {
+        "text": "La no imposición de ninguna tecnología específica al ciudadano para relacionarse con las Administraciones Públicas.",
+        "rationale": "La neutralidad tecnológica asegura que el ciudadano pueda elegir sus medios sin que la Administración le fuerce a usar una marca o sistema concreto.",
+        "isCorrect": true
+      },
+      {
+        "text": "La obligación de que el ciudadano actualice su hardware cada dos años para acceder a la Sede Electrónica.",
+        "rationale": "La neutralidad busca precisamente evitar que las barreras tecnológicas dificulten el acceso de la ciudadanía a los servicios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la libertad del usuario para elegir su sistema operativo o navegador sin restricciones impuestas por la Administración."
+  },
+  {
+    "guid": "b813c66f-3d9a-4878-9bd3-cebe63be8272",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 14 de la Ley 39/2015, ¿quién tiene el derecho (pero no la obligación general) de elegir si se comunica por medios electrónicos o no?",
+    "answerOptions": [
+      {
+        "text": "Las personas jurídicas.",
+        "rationale": "Las personas jurídicas están obligadas por ley a relacionarse siempre de forma electrónica con la Administración.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los notarios y registradores de la propiedad.",
+        "rationale": "Estos profesionales están obligados a usar medios electrónicos en el ejercicio de su actividad profesional específica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las personas físicas.",
+        "rationale": "Como norma general, las personas físicas pueden elegir el canal, salvo que pertenezcan a un colectivo obligado por su capacidad técnica o económica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los representantes de entidades sin personalidad jurídica.",
+        "rationale": "La ley obliga a las entidades sin personalidad jurídica a tramitar electrónicamente, y por extensión a quienes las representan.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata del sujeto que, por defecto, mantiene la libertad de acudir presencialmente a las oficinas."
+  },
+  {
+    "guid": "4927f9c9-c18c-49a3-bdaa-e3d39d9fb6c9",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué define a una 'Firma Electrónica Cualificada' (o reconocida) frente a una avanzada?",
+    "answerOptions": [
+      {
+        "text": "Su capacidad para identificar al firmante sin necesidad de certificados.",
+        "rationale": "Tanto la avanzada como la cualificada requieren mecanismos de identificación, pero la cualificada es la que se basa específicamente en un certificado reconocido.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estar basada en un certificado reconocido y generada mediante un dispositivo seguro de creación de firma.",
+        "rationale": "Esta es la definición legal que otorga a la firma electrónica el mismo valor legal que una firma manuscrita.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ser utilizada exclusivamente por los empleados públicos en sus relaciones internas.",
+        "rationale": "Cualquier sujeto (ciudadano o empresa) puede utilizar una firma cualificada para dotar de máxima validez a sus documentos.",
+        "isCorrect": false
+      },
+      {
+        "text": "No permitir detectar cambios ulteriores en los datos firmados para proteger la privacidad.",
+        "rationale": "Una característica esencial de las firmas electrónicas seguras es precisamente detectar cualquier modificación posterior de los datos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en el nivel de garantía técnica que permite equiparar legalmente el bit al papel firmado a mano."
+  },
+  {
+    "guid": "afc6d706-c656-4942-a557-97f3362d39de",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el material sobre notificaciones electrónicas, ¿cuándo se entiende rechazada una notificación si no se accede a su contenido?",
+    "answerOptions": [
+      {
+        "text": "A los 10 días hábiles desde su puesta a disposición.",
+        "rationale": "La normativa administrativa general y el material de test adjunto especifican que el cómputo se realiza en días naturales.",
+        "isCorrect": false
+      },
+      {
+        "text": "A los 10 días naturales desde su puesta a disposición.",
+        "rationale": "Si transcurre este plazo sin que el interesado acceda a la sede para leer la notificación, se considera rechazada automáticamente.",
+        "isCorrect": true
+      },
+      {
+        "text": "A los 30 días naturales, coincidiendo con el plazo de recurso de alzada.",
+        "rationale": "Un plazo de 30 días retrasaría excesivamente los procedimientos administrativos; el plazo legal es significativamente más corto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inmediatamente después de recibir el aviso de llegada al correo electrónico personal.",
+        "rationale": "El aviso de llegada es solo una cortesía; el plazo empieza a contar desde que el documento está disponible en la Sede Electrónica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un plazo estándar de diez días que no excluye fines de semana ni festivos."
+  },
+  {
+    "guid": "7f8c1804-98d3-4fe8-a434-1665eda793fd",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué es la 'Interoperabilidad' en el contexto de la administración electrónica?",
+    "answerOptions": [
+      {
+        "text": "La capacidad de los sistemas de compartir datos y posibilitar el intercambio de información entre ellos.",
+        "rationale": "La interoperabilidad permite que diferentes administraciones compartan expedientes y datos para no pedirlos repetidamente al ciudadano.",
+        "isCorrect": true
+      },
+      {
+        "text": "La instalación obligatoria de los mismos terminales físicos en todas las oficinas públicas.",
+        "rationale": "La interoperabilidad es un concepto lógico y de sistemas, no necesariamente de hardware físico idéntico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un sistema de seguridad que impide que los datos salgan de un departamento municipal.",
+        "rationale": "Al contrario, busca que la información fluya de manera segura entre departamentos y administraciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "El derecho del ciudadano a no utilizar internet en sus relaciones con el Ayuntamiento.",
+        "rationale": "Ese concepto se refiere a la multicanalidad o al derecho a la atención presencial, no a la interoperabilidad técnica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la comunicación y 'entendimiento' entre ordenadores de distintas instituciones públicas."
+  },
+  {
+    "guid": "6ce8aed8-579c-4f85-9034-64c597762b88",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función principal del 'Punto de Acceso General Electrónico' (PAGE)?",
+    "answerOptions": [
+      {
+        "text": "Actuar como el único servidor físico donde reside toda la información municipal.",
+        "rationale": "El PAGE es un concepto lógico de acceso y personalización, no una descripción de la arquitectura física de servidores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Centralizar en un único punto los diferentes trámites, expedientes e información del ciudadano con el Ayuntamiento.",
+        "rationale": "El PAGE ofrece un espacio personalizado donde el ciudadano ve todo su historial administrativo de forma unificada.",
+        "isCorrect": true
+      },
+      {
+        "text": "Servir como un catálogo de noticias de interés general sin requerir identificación.",
+        "rationale": "Aunque el portal de internet ofrece noticias, el PAGE es un espacio personalizado que requiere identificación digital.",
+        "isCorrect": false
+      },
+      {
+        "text": "Proporcionar conexión Wi-Fi gratuita en las plazas de la ciudad para trámites administrativos.",
+        "rationale": "El Punto de Acceso es una dirección electrónica o portal, no un punto de acceso físico a redes inalámbricas.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es como una 'carpeta ciudadana' donde el usuario encuentra todo lo relativo a su relación personal con la administración."
+  },
+  {
+    "guid": "c4f5e2ed-6dcf-4af3-9454-902b28b51e8e",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En relación con el principio de 'Intermodalidad de medios', ¿qué se permite al interesado que no está obligado a usar medios electrónicos?",
+    "answerOptions": [
+      {
+        "text": "Cambiar el canal de comunicación en cualquier momento durante la tramitación del procedimiento.",
+        "rationale": "La intermodalidad garantiza que el ciudadano pueda iniciar un trámite en papel y continuarlo online (o viceversa) sin discriminación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exigir que la Administración le asigne un tutor personal para cada trámite físico.",
+        "rationale": "Aunque existe el derecho de asistencia, la intermodalidad se refiere específicamente al cambio de canal (físico/digital).",
+        "isCorrect": false
+      },
+      {
+        "text": "Utilizar exclusivamente sistemas de firma manuscrita para documentos digitales.",
+        "rationale": "La intermodalidad permite cambiar de canal, pero cada canal tiene sus propios requisitos técnicos de validez (como la firma digital).",
+        "isCorrect": false
+      },
+      {
+        "text": "Evitar el pago de tasas si decide realizar el trámite de forma presencial.",
+        "rationale": "El cambio de canal no exime del cumplimiento de las obligaciones tributarias o de los requisitos legales del procedimiento.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la flexibilidad para saltar de lo presencial a lo digital sin perder la validez de lo actuado."
+  },
+  {
+    "guid": "191e8ce2-7c81-4c1c-9043-8c4facadb85a",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué característica distingue a la 'Sede Electrónica' del 'Portal de Internet' según el glosario?",
+    "answerOptions": [
+      {
+        "text": "El Portal de Internet es el único lugar donde se pueden realizar trámites con plenas garantías jurídicas.",
+        "rationale": "La Sede Electrónica es el espacio específico que garantiza la seguridad técnica y jurídica necesaria para la tramitación.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Sede Electrónica conlleva responsabilidad sobre la integridad, veracidad y actualización de la información y los servicios.",
+        "rationale": "La titularidad de la Sede implica una responsabilidad legal directa de la Administración sobre lo que allí ocurre y se publica.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Portal de Internet requiere identificación digital obligatoria para todos sus contenidos.",
+        "rationale": "Muchos contenidos del portal son informativos y abiertos; es la Sede o el PAGE lo que suele requerir identificación para trámites.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Sede Electrónica es propiedad de una empresa privada externa contratada por el Ayuntamiento.",
+        "rationale": "La Sede debe ser de titularidad, gestión y administración pública para garantizar la seguridad jurídica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en cuál de los dos términos está más vinculado a la validez legal de las actuaciones administrativas."
+  },
+  {
+    "guid": "53555d0e-945e-4e82-b00a-6c981abda154",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el artículo 14.2 de la Ley 39/2015, ¿cuál de estos colectivos NO está obligado a relacionarse electrónicamente con la Administración?",
+    "answerOptions": [
+      {
+        "text": "Notarios y Registradores de la Propiedad.",
+        "rationale": "Estos profesionales están incluidos explícitamente en el colectivo de profesionales de colegiación obligatoria con deber electrónico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Estudiantes universitarios que solicitan una beca general.",
+        "rationale": "A menos que se establezca reglamentariamente por su capacidad técnica, los estudiantes como personas físicas no están en la lista general de obligados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Representantes de personas jurídicas.",
+        "rationale": "Si el interesado principal (la empresa) está obligado, su representante también debe actuar obligatoriamente por medios electrónicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Empleados públicos para trámites por razón de su condición de empleado.",
+        "rationale": "La ley establece que las administraciones pueden obligar a sus propios empleados a usar medios electrónicos para sus trámites internos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque al sujeto que actúa a título individual y que no es un profesional liberal de colegiación obligatoria."
+  },
+  {
+    "guid": "1dcf078f-94bd-4844-b759-b89bf1a311af",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué elemento es fundamental en un 'Expediente Electrónico' para garantizar su integridad y permitir su recuperación?",
+    "answerOptions": [
+      {
+        "text": "Un índice electrónico firmado por la Administración.",
+        "rationale": "El índice electrónico garantiza que no se han añadido o eliminado documentos de forma indebida, manteniendo la estructura del expediente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una copia en papel guardada en una caja de seguridad física.",
+        "rationale": "Un expediente electrónico debe ser íntegro por sí mismo en soporte digital; el papel es una copia, no su garantía de integridad digital.",
+        "isCorrect": false
+      },
+      {
+        "text": "La obligación de que todos los documentos sean archivos de imagen tipo JPG.",
+        "rationale": "Los documentos electrónicos pueden tener diversas naturalezas y formatos, siempre que sean susceptibles de tratamiento diferenciado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que solo pueda ser consultado por una única persona al mismo tiempo.",
+        "rationale": "La gestión electrónica permite, de hecho, el acceso concurrente y eficiente a la información sin deteriorar el original.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la lista numerada y digital que 'sella' el conjunto de documentos que forman el procedimiento."
+  },
+  {
+    "guid": "6088776e-6d4c-4cb3-93e2-d6d0247246f1",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la función del 'Registro de Procedimientos Municipales'?",
+    "answerOptions": [
+      {
+        "text": "Almacenar los currículos de todas las personas que quieren trabajar en el Ayuntamiento.",
+        "rationale": "Este registro se centra en los procedimientos administrativos (pasos, reglas, decisiones), no en la gestión de recursos humanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser un repositorio que incluye todos los procedimientos que no pueden desplegarse sin estar incorporados previamente.",
+        "rationale": "Sirve de guía garantista para asegurar que las secuencias de operaciones de un procedimiento sean legales y completas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Publicar las multas de tráfico pendientes de pago para conocimiento general.",
+        "rationale": "Esa función corresponde al Tablón de Edictos o al Boletín Oficial, no al registro de la estructura de procedimientos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Listar los nombres de todos los ciudadanos que han usado la Sede Electrónica.",
+        "rationale": "Este registro tiene un enfoque normativo y de proceso, no es un censo de usuarios.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Funciona como el manual de instrucciones oficial que la Administración debe seguir para cada tipo de gestión."
+  },
+  {
+    "guid": "21ea4add-f515-4c8f-a188-5ae7a18c39d5",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "El principio de 'Proporcionalidad' en la administración electrónica exige que:",
+    "answerOptions": [
+      {
+        "text": "Se apliquen siempre las medidas de seguridad más costosas y complejas disponibles en el mercado.",
+        "rationale": "El principio busca evitar que el exceso de seguridad dificulte innecesariamente el acceso electrónico si el trámite es sencillo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El sector público municipal solo exija las medidas adecuadas a la naturaleza del trámite.",
+        "rationale": "Busca un equilibrio para no imponer requisitos de seguridad desmesurados para actuaciones de baja relevancia o riesgo.",
+        "isCorrect": true
+      },
+      {
+        "text": "La mitad de los trámites sean obligatoriamente electrónicos y la otra mitad presenciales.",
+        "rationale": "La proporcionalidad se refiere a la intensidad de las medidas de seguridad y requisitos, no a una cuota de canales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se cobre una tasa proporcional a la velocidad de la conexión a internet del ciudadano.",
+        "rationale": "La proporcionalidad es un concepto jurídico sobre la adecuación de medios al fin, no un criterio tarifario de servicios técnicos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la relación entre el riesgo de un trámite y la dificultad de los requisitos para realizarlo."
+  },
+  {
+    "guid": "e52235cd-0a95-4688-98d9-c25148bae71e",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué organismo es el encargado de elaborar el 'Marc d’interoperabilitat del sector públic de Catalunya'?",
+    "answerOptions": [
+      {
+        "text": "La Agencia Española de Protección de Datos.",
+        "rationale": "Este organismo vela por la privacidad, pero la interoperabilidad técnica en Cataluña es competencia de una entidad específica de administración abierta.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consorci Administració Oberta de Catalunya (AOC).",
+        "rationale": "El Consorci AOC integra a la Generalitat y los entes locales para promover la administración electrónica común en el territorio.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Ministerio de Asuntos Económicos y Transformación Digital.",
+        "rationale": "Aunque existe normativa estatal, la elaboración del marco específico catalán corresponde a las instituciones autonómicas mencionadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las operadoras privadas de telefonía que prestan servicio en Barcelona.",
+        "rationale": "La interoperabilidad es una función pública que define cómo se comunican los sistemas administrativos, no una decisión comercial de telecos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Sus siglas suelen estar presentes en la mayoría de plataformas de administración electrónica catalana."
+  },
+  {
+    "guid": "ae216f0d-f064-47b6-95fc-b08ad27286dd",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la principal diferencia entre la firma avanzada y la firma simple (o básica)?",
+    "answerOptions": [
+      {
+        "text": "La avanzada permite identificar al firmante y detectar cambios posteriores en los datos.",
+        "rationale": "La firma avanzada ofrece garantías de integridad y vinculación única que la firma simple no puede asegurar por sí sola.",
+        "isCorrect": true
+      },
+      {
+        "text": "La firma simple requiere obligatoriamente un dispositivo criptográfico físico.",
+        "rationale": "Al contrario, la firma simple es la que tiene menos requisitos técnicos; la avanzada o cualificada suele requerir más medios.",
+        "isCorrect": false
+      },
+      {
+        "text": "La firma avanzada es la única que puede usarse para correos electrónicos informativos.",
+        "rationale": "Para fines meramente informativos no suele requerirse firma avanzada; esta se reserva para actos administrativos y validez jurídica.",
+        "isCorrect": false
+      },
+      {
+        "text": "La firma simple tiene el mismo valor legal que una firma ante notario.",
+        "rationale": "La firma simple tiene un valor probatorio limitado; es la cualificada la que goza de la máxima presunción legal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la capacidad de asegurar que el documento no ha sido 'tocado' después de firmarse."
+  },
+  {
+    "guid": "c6ea9ebf-922d-4e25-b430-9b2cb7a9047d",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el modelo de Barcelona, ¿qué herramienta está vinculada al Registro de Procedimientos para establecer qué documentos pueden incorporarse a un expediente?",
+    "answerOptions": [
+      {
+        "text": "El Catálogo de documentos del Ayuntamiento.",
+        "rationale": "Este catálogo define la tipología documental aceptable para que los expedientes electrónicos sean coherentes y legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Guía de Páginas Amarillas municipales.",
+        "rationale": "Esa es una herramienta de contacto o directorio, no tiene función normativa en la gestión de expedientes administrativos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Manual de Estilo de Comunicación Visual.",
+        "rationale": "Aunque es importante para la imagen, no regula qué documentos tienen validez legal dentro de un expediente administrativo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El buscador de internet Google.",
+        "rationale": "Las herramientas de gestión administrativa son internas y reglamentadas, no dependen de motores de búsqueda comerciales externos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un inventario de tipos documentales (instancias, certificados, facturas, etc.) permitidos."
+  },
+  {
+    "guid": "f1df3f15-dc89-4198-9cf0-c68e4b42da0d",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el material, ¿qué ocurre si un ciudadano decide cambiar de canal (de electrónico a presencial) durante un trámite?",
+    "answerOptions": [
+      {
+        "text": "El procedimiento debe reiniciarse desde el primer paso para garantizar la seguridad.",
+        "rationale": "El principio de intermodalidad busca que el cambio de canal sea fluido y no perjudique la gestión ya realizada.",
+        "isCorrect": false
+      },
+      {
+        "text": "No puede implicar restricciones o discriminaciones en el acceso o en la gestión del trámite.",
+        "rationale": "La Administración debe garantizar que la elección del canal no penalice al ciudadano en sus derechos administrativos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Se le aplica un recargo administrativo por costes de duplicidad de gestión.",
+        "rationale": "El uso de diferentes canales es un derecho del ciudadano (si no está obligado al digital) y no puede ser sancionado económicamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "El cambio solo es posible si se solicita con 15 días de antelación por escrito.",
+        "rationale": "La ley establece que el medio elegido puede ser modificado por la persona 'en cualquier momento'.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere la protección de los derechos del ciudadano frente a posibles arbitrariedades de la Administración por no usar internet."
+  },
+  {
+    "guid": "74d995aa-8722-43c6-867c-ab1a16280a04",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué significa el principio de 'Accesibilidad' en la administración electrónica?",
+    "answerOptions": [
+      {
+        "text": "Que las oficinas de registro deben estar situadas a menos de 500 metros de cada hogar.",
+        "rationale": "La accesibilidad en el entorno electrónico se refiere al diseño de sistemas, no a la distancia física de edificios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que la información y servicios deben adaptarse a las características de los usuarios, evitando la fractura digital.",
+        "rationale": "Implica que los sistemas sean fáciles de usar para personas con discapacidades o con pocos conocimientos técnicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que cualquier persona puede entrar en los servidores municipales sin contraseña.",
+        "rationale": "La accesibilidad no debe confundirse con la falta de seguridad o el acceso libre a datos protegidos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que la Sede Electrónica solo funciona en horario de oficina (de 8:00 a 15:00).",
+        "rationale": "Uno de los objetivos de la administración electrónica es precisamente estar disponible las 24 horas del día.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en cómo el diseño web puede ayudar a personas con limitaciones visuales o técnicas."
+  },
+  {
+    "guid": "17c10427-b4e4-4bd2-afef-5433348cad27",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué documento contiene información sobre una persona o entidad y una clave pública, rubricado por una autoridad de certificación?",
+    "answerOptions": [
+      {
+        "text": "Un justificante de registro presencial.",
+        "rationale": "Ese es un recibo de un trámite físico, no un instrumento tecnológico de identificación y cifrado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un Certificado Digital.",
+        "rationale": "El certificado digital vincula unos datos de identidad con una clave pública, garantizando quién es el propietario.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un contrato de servicios de internet.",
+        "rationale": "Este es un acuerdo comercial con un proveedor, no un documento técnico de identidad electrónica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una factura electrónica proforma.",
+        "rationale": "La factura es un documento mercantil, mientras que el certificado es la base para la identidad y la firma electrónica.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la 'llave' virtual que nos permite identificarnos ante las administraciones con plenas garantías."
+  },
+  {
+    "guid": "d10de606-e427-4f9d-9963-50e5f7f9d8a1",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el nombre del servicio de certificación propio de Cataluña mencionado en el material?",
+    "answerOptions": [
+      {
+        "text": "Casa de la Moneda y Timbre (FNMT).",
+        "rationale": "La FNMT es el organismo nacional español, pero el material destaca la agencia específica del ámbito catalán.",
+        "isCorrect": false
+      },
+      {
+        "text": "Agència Catalana de Certificació (CATCert).",
+        "rationale": "CATCert gestiona los certificados T-CAT (empleados) e idCAT (ciudadanos) en Cataluña.",
+        "isCorrect": true
+      },
+      {
+        "text": "Consorcio de Telecomunicaciones del Mediterráneo.",
+        "rationale": "Este nombre no corresponde a la agencia pública de certificación descrita en los esquemas de estudio.",
+        "isCorrect": false
+      },
+      {
+        "text": "Registro Civil Digital de Barcelona.",
+        "rationale": "El Registro Civil se encarga de actos relativos al estado civil, no de la emisión de certificados de firma electrónica general.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Su nombre incluye las siglas de la comunidad autónoma y la palabra 'Certificación'."
+  },
+  {
+    "guid": "6391ae2a-1c80-444d-8def-e1ed102fc4c0",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el artículo 14.3 de la Ley 39/2015, ¿en qué caso podría una administración obligar a una persona física a usar medios electrónicos?",
+    "answerOptions": [
+      {
+        "text": "Solo si la persona tiene menos de 30 años.",
+        "rationale": "La edad por sí sola no es el criterio legal; se basa en capacidades técnicas, económicas o dedicación profesional acreditada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuando por su capacidad económica, técnica o profesión quede acreditado que tiene acceso a los medios necesarios.",
+        "rationale": "La ley permite extender la obligación a colectivos de personas físicas que no tengan dificultades de acceso a la tecnología.",
+        "isCorrect": true
+      },
+      {
+        "text": "En ningún caso, ya que es un derecho constitucional irrenunciable el uso del papel.",
+        "rationale": "La ley contempla excepciones y permite establecer esta obligación mediante reglamento para ciertos colectivos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Siempre que el trámite sea para solicitar una licencia de obras mayor.",
+        "rationale": "Aunque es un trámite complejo, la obligación debe basarse en las características del colectivo, no solo en el tipo de trámite de forma aislada.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en colectivos como arquitectos o ingenieros que, por su trabajo, disponen de herramientas digitales avanzadas."
+  },
+  {
+    "guid": "e15cccf8-ccdb-49dd-bbbd-3782e536387d",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué garantiza el principio de 'Seguridad' en la administración electrónica municipal?",
+    "answerOptions": [
+      {
+        "text": "Que los datos serán borrados automáticamente cada 24 horas para evitar hackeos.",
+        "rationale": "La seguridad implica conservar la integridad y disponibilidad, no la destrucción sistemática de la información.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prestación de servicios electrónicos en condiciones de seguridad equivalentes a la atención presencial.",
+        "rationale": "El ciudadano debe tener la misma certeza jurídica y técnica al operar online que al ir a la oficina.",
+        "isCorrect": true
+      },
+      {
+        "text": "La presencia de un guardia de seguridad privado vigilando cada servidor físico.",
+        "rationale": "La seguridad en este ámbito es mayoritariamente lógica, jurídica y técnica (cifrado, protocolos), no solo física.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que nunca habrá caídas del sistema o cortes de luz en los edificios municipales.",
+        "rationale": "La seguridad se centra en la protección de los datos y la identidad, aunque se busque la máxima disponibilidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se busca una equiparación de garantías entre lo que ocurre en la ventanilla física y la virtual."
+  },
+  {
+    "guid": "70d2bf4d-db86-41ad-954d-584d15ce7532",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué se entiende por 'Simplificación Documental' según los pilares de la e-Administración?",
+    "answerOptions": [
+      {
+        "text": "Eliminar la necesidad de presentar documentos que ya están en poder de la Administración.",
+        "rationale": "Gracias a la interoperabilidad, la administración no debe pedir al ciudadano datos que ella misma ya tiene o puede consultar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aceptar solo documentos escritos a mano para verificar la caligrafía.",
+        "rationale": "Esto sería lo opuesto a la administración electrónica, que busca la digitalización de los procesos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducir el tamaño de las letras en los formularios para gastar menos papel.",
+        "rationale": "La simplificación es un concepto de proceso y derecho (no aportar lo ya existente), no una medida de ahorro de consumibles.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obligar al ciudadano a digitalizar él mismo todos sus documentos antiguos.",
+        "rationale": "La administración es la que debe facilitar modelos y usar sus bases de datos para ahorrar trámites al interesado.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde el derecho de los ciudadanos a no aportar documentos que la Administración ya posea."
+  },
+  {
+    "guid": "962c4944-a596-44f7-9d7a-5364cfd0c0fd",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué tipo de firma electrónica tiene el mismo valor que una manuscrita según el material de Barcelona?",
+    "answerOptions": [
+      {
+        "text": "La firma electrónica simple enviada por SMS.",
+        "rationale": "Los sistemas básicos como SMS no alcanzan por sí mismos el nivel de firma cualificada requerida para esa equivalencia plena.",
+        "isCorrect": false
+      },
+      {
+        "text": "La firma electrónica cualificada.",
+        "rationale": "Basada en un certificado cualificado y un dispositivo seguro, es la que legalmente sustituye a la firma de puño y letra.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cualquier imagen escaneada de una firma real pegada en un documento Word.",
+        "rationale": "Una imagen escaneada no tiene garantías de integridad ni de autenticidad técnica; no se considera una firma electrónica válida.",
+        "isCorrect": false
+      },
+      {
+        "text": "La firma avanzada basada en un certificado idCAT si se usa desde un teléfono móvil.",
+        "rationale": "Aunque es muy segura, la ley reserva la equiparación total a la manuscrita para la categoría de 'cualificada'.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la categoría de firma que ofrece las mayores garantías tecnológicas y legales."
+  },
+  {
+    "guid": "85992ef9-4843-4758-a452-2e13624ea918",
+    "subjectId": "T17",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Dentro del 'Catálogo de datos y documentos interoperables de Cataluña', ¿cuál es su fin principal?",
+    "answerOptions": [
+      {
+        "text": "Publicar los nombres de los ciudadanos deudores en el boletín oficial.",
+        "rationale": "Su fin es técnico y de servicio: facilitar que los datos fluyan legalmente entre administraciones para ayudar al ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser la herramienta para evitar que la ciudadanía aporte datos que ya posee la Administración.",
+        "rationale": "Es el inventario de qué información puede consultarse electrónicamente entre organismos públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Vender las bases de datos municipales a empresas de publicidad externas.",
+        "rationale": "La protección de datos prohíbe el uso comercial de la información administrativa; el catálogo es exclusivamente para uso público.",
+        "isCorrect": false
+      },
+      {
+        "text": "Llevar un registro de cuántas personas visitan los museos de la ciudad.",
+        "rationale": "Esa es una estadística de servicios culturales, no una herramienta de interoperabilidad documental administrativa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la lista de certificados (padrón, estar al corriente con Hacienda, etc.) que la administración consulta por nosotros."
+  }
+]

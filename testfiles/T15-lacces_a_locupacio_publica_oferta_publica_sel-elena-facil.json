@@ -1,0 +1,777 @@
+[
+  {
+    "guid": "d0b84f9b-d659-472a-84c9-42b3e93f40d3",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué artículo de la Constitución Española establece que la ley regulará el acceso a la función pública de acuerdo con los principios de mérito y capacidad?",
+    "answerOptions": [
+      {
+        "text": "Artículo 103.3",
+        "rationale": "Este artículo vincula específicamente el estatuto de los funcionarios y el acceso a la función pública con los criterios de mérito y capacidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Artículo 14",
+        "rationale": "Este precepto establece la igualdad general de todos los españoles ante la ley, pero no detalla el acceso a la función pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 23.2",
+        "rationale": "Aunque garantiza el derecho a acceder a cargos públicos en condiciones de igualdad, el mandato específico de mérito y capacidad reside en el 103.3.",
+        "isCorrect": false
+      },
+      {
+        "text": "Artículo 106",
+        "rationale": "Este artículo se centra en el control de la legalidad de la actuación administrativa por parte de los tribunales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se encuentra dentro del título dedicado a la Administración Pública."
+  },
+  {
+    "guid": "13ca77b9-6254-49dc-a303-0661764709d4",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Según el TREBEP, ¿cuál es el plazo máximo para la ejecución de la oferta de empleo público?",
+    "answerOptions": [
+      {
+        "text": "1 año",
+        "rationale": "Este es el plazo para la aprobación anual de la oferta, no para la ejecución total de los procesos selectivos.",
+        "isCorrect": false
+      },
+      {
+        "text": "3 años",
+        "rationale": "La normativa básica estatal establece un límite temporal de tres años para desarrollar los procesos selectivos derivados de una oferta.",
+        "isCorrect": true
+      },
+      {
+        "text": "5 años",
+        "rationale": "Un plazo de cinco años excedería el límite de planificación y gestión de recursos humanos previsto en el estatuto básico.",
+        "isCorrect": false
+      },
+      {
+        "text": "2 años",
+        "rationale": "Aunque es un plazo común en gestión, la ley otorga un margen mayor para completar todas las fases de selección.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un plazo de carácter improrrogable establecido en el artículo 70."
+  },
+  {
+    "guid": "11e89e1a-0e71-4625-8977-03aff0393008",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué porcentaje adicional de plazas se puede convocar sobre las comprometidas en la oferta de empleo público?",
+    "answerOptions": [
+      {
+        "text": "Hasta un $5\\%$",
+        "rationale": "La ley permite un margen superior para cubrir posibles necesidades o bajas durante el proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hasta un $10\\%$",
+        "rationale": "El artículo 70 del TREBEP contempla esta posibilidad para asegurar la cobertura efectiva de las necesidades de personal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hasta un $15\\%$",
+        "rationale": "Superar el diez por ciento excedería el límite legal de flexibilidad respecto a las plazas presupuestadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "No se permite ningún porcentaje adicional",
+        "rationale": "La ley introduce esta flexibilidad para optimizar la gestión de las vacantes y los procesos selectivos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un valor decimal simple que representa una décima parte."
+  },
+  {
+    "guid": "86cff5b7-501f-4aee-90ca-93b3861156ac",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el Ayuntamiento de Barcelona, ¿dónde se publica el anuncio de la convocatoria de los procesos selectivos?",
+    "answerOptions": [
+      {
+        "text": "Únicamente en la Gaseta Municipal",
+        "rationale": "La Gaseta tiene funciones específicas de publicidad interna, pero los anuncios requieren boletines de ámbito superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el BOP, el DOGC y el BOE",
+        "rationale": "La Carta Municipal de Barcelona exige la publicación de las ofertas y anuncios en los tres boletines oficiales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo en el tablón de anuncios del Ayuntamiento",
+        "rationale": "La transparencia y el principio de publicidad exigen medios oficiales de difusión pública y legal.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el Boletín Oficial del Estado únicamente",
+        "rationale": "Debido a la autonomía local y autonómica, es preceptiva también la publicación en diarios de ámbito provincial y regional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se requiere una triple publicación oficial según la Carta Municipal."
+  },
+  {
+    "guid": "1d2654bb-30dc-42d9-b33c-6aeb9218e6f1",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué sistema selectivo de funcionarios de carrera consiste únicamente en la valoración de méritos?",
+    "answerOptions": [
+      {
+        "text": "Oposición",
+        "rationale": "Este sistema se basa exclusivamente en la superación de pruebas de capacidad y conocimientos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concurso-oposición",
+        "rationale": "Combina una fase de exámenes eliminatorios con una fase posterior de valoración de méritos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concurso",
+        "rationale": "Es un sistema excepcional que debe ser habilitado por ley y se limita a evaluar la trayectoria y méritos de los aspirantes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Libre designación",
+        "rationale": "Se trata de un sistema de provisión de puestos para personal que ya es funcionario, no de selección inicial.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un sistema de aplicación excepcional para el acceso como funcionario."
+  },
+  {
+    "guid": "31122126-dbba-4522-95dc-1d08b2baf183",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la edad mínima general para poder participar en los procesos selectivos de la administración pública?",
+    "answerOptions": [
+      {
+        "text": "14 años",
+        "rationale": "Esta edad está por debajo del límite legal establecido para el acceso al empleo público en general.",
+        "isCorrect": false
+      },
+      {
+        "text": "16 años",
+        "rationale": "El TREBEP fija la edad mínima en dieciséis años, coincidiendo con la edad mínima para trabajar.",
+        "isCorrect": true
+      },
+      {
+        "text": "18 años",
+        "rationale": "Aunque es la mayoría de edad, la ley permite el acceso a partir de los dieciséis años.",
+        "isCorrect": false
+      },
+      {
+        "text": "21 años",
+        "rationale": "No existe tal restricción general de edad para el acceso básico a la función pública.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la edad mínima legal para trabajar en España."
+  },
+  {
+    "guid": "f99a1eb2-bacf-4217-ab01-56a31ecfba11",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En qué momento deben cumplirse los requisitos de participación en un proceso selectivo?",
+    "answerOptions": [
+      {
+        "text": "El día de la toma de posesión",
+        "rationale": "Los requisitos deben acreditarse previamente para poder ser admitido en las pruebas.",
+        "isCorrect": false
+      },
+      {
+        "text": "El último día del plazo de presentación de solicitudes",
+        "rationale": "La norma general establece que esta fecha es el límite para poseer todas las condiciones exigidas en las bases.",
+        "isCorrect": true
+      },
+      {
+        "text": "En el momento de realizar el primer examen",
+        "rationale": "La comprobación de requisitos se realiza antes del inicio de las pruebas sobre la base de la solicitud.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al ser publicado el nombramiento en el diario oficial",
+        "rationale": "El nombramiento es el resultado final del proceso una vez ya se han verificado los requisitos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la fecha de cierre de la fase de inscripción."
+  },
+  {
+    "guid": "541b720d-bbda-4e6f-beea-d78d6ba4e440",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué porcentaje mínimo de vacantes debe reservarse en las OPO para personas con discapacidad?",
+    "answerOptions": [
+      {
+        "text": "No inferior al $3\\%$",
+        "rationale": "Este porcentaje es insuficiente según la reserva mínima obligatoria fijada por el TREBEP.",
+        "isCorrect": false
+      },
+      {
+        "text": "No inferior al $5\\%$",
+        "rationale": "Aunque es una cifra común en otros ámbitos, la ley estatal exige un compromiso mayor en la función pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "No inferior al $7\\%$",
+        "rationale": "El artículo 59 del TREBEP establece este umbral mínimo para fomentar la integración laboral de este colectivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Exactamente el $10\\%$",
+        "rationale": "La ley fija un suelo del siete por ciento, permitiendo a las administraciones superarlo pero no obligando al diez.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un número impar superior al cinco por ciento."
+  },
+  {
+    "guid": "56bc447c-fceb-4546-8435-b23ffd21ef97",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Dentro del cupo de discapacidad, ¿qué porcentaje específico debe reservarse para personas con discapacidad intelectual?",
+    "answerOptions": [
+      {
+        "text": "Al menos el $1\\%$",
+        "rationale": "La reserva específica para discapacidad intelectual es superior para garantizar plazas adaptadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al menos el $2\\%$",
+        "rationale": "Del total del siete por ciento reservado, el dos por ciento debe destinarse específicamente a este grupo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El $5\\%$ del total de la oferta",
+        "rationale": "Este porcentaje corresponde al resto de discapacidades dentro de la cuota de reserva.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe una reserva específica por tipo de discapacidad",
+        "rationale": "La ley distingue entre discapacidad intelectual y otras tipologías para una mejor integración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Representa la diferencia necesaria para llegar al siete por ciento si el resto es un cinco."
+  },
+  {
+    "guid": "d5f50c24-8243-4819-9c4a-84d37a1ec8c3",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la antigüedad mínima requerida para participar en un turno de promoción interna?",
+    "answerOptions": [
+      {
+        "text": "1 año",
+        "rationale": "Un año se considera tiempo insuficiente para consolidar la experiencia necesaria en el cuerpo de origen.",
+        "isCorrect": false
+      },
+      {
+        "text": "2 años",
+        "rationale": "El Reglamento del Personal al servicio de las Entidades Locales y el TREBEP exigen este periodo mínimo en el cuerpo inferior.",
+        "isCorrect": true
+      },
+      {
+        "text": "3 años",
+        "rationale": "Aunque algunas bases específicas podrían ampliarlo, el requisito básico legal es de dos años.",
+        "isCorrect": false
+      },
+      {
+        "text": "5 años",
+        "rationale": "Este periodo es excesivo respecto al mínimo legal establecido para incentivar la carrera profesional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un periodo de tiempo bienal."
+  },
+  {
+    "guid": "61a2c3ed-37aa-4fe0-9da7-fa60bb557887",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿En cuántos niveles se clasifican los puestos de trabajo en la Administración Local según su valoración?",
+    "answerOptions": [
+      {
+        "text": "En 10 niveles",
+        "rationale": "Diez niveles no cubrirían la complejidad y diversidad de funciones de la administración local.",
+        "isCorrect": false
+      },
+      {
+        "text": "En 20 niveles",
+        "rationale": "La escala de clasificación profesional es más extensa para permitir una carrera administrativa progresiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "En 30 niveles",
+        "rationale": "El sistema de clasificación por niveles en la administración española llega hasta el nivel treinta.",
+        "isCorrect": true
+      },
+      {
+        "text": "En 50 niveles",
+        "rationale": "El máximo nivel funcionarial establecido por la normativa de carrera es inferior a cincuenta.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el número máximo que puede alcanzar un puesto de libre designación o de alta responsabilidad."
+  },
+  {
+    "guid": "ddf44f0e-3463-4a56-a333-da0371945fa6",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el sistema de selección 'habitual y normal' para los funcionarios de carrera en las administraciones locales de Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Oposición libre",
+        "rationale": "Aunque se utiliza, la normativa local catalana y la práctica favorecen un sistema mixto para valorar experiencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concurso-oposición",
+        "rationale": "Es el sistema ordinario que permite evaluar tanto la capacidad técnica como los méritos previos de los candidatos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Concurso de méritos únicamente",
+        "rationale": "El concurso puro es excepcional y solo se permite por ley para casos muy específicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nombramiento directo",
+        "rationale": "El nombramiento directo vulneraría los principios constitucionales de igualdad, mérito y capacidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un sistema que combina exámenes con valoración de historial profesional."
+  },
+  {
+    "guid": "83a542c2-0e41-48a5-a4d0-eb489baf5903",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio rector asegura que los miembros de los órganos de selección actúen con independencia de criterio?",
+    "answerOptions": [
+      {
+        "text": "Principio de publicidad",
+        "rationale": "La publicidad se refiere a dar a conocer las bases y resultados, no al comportamiento interno del tribunal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Discrecionalidad técnica e imparcialidad",
+        "rationale": "Estos principios garantizan que el tribunal actúe basándose en criterios profesionales y neutrales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Principio de agilidad",
+        "rationale": "La agilidad busca reducir la duración de los procesos, pero no incide directamente en la independencia técnica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Principio de transparencia",
+        "rationale": "La transparencia permite fiscalizar el proceso, pero la independencia reside en la soberanía técnica del órgano.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se relaciona con la capacidad de decidir basándose únicamente en conocimientos profesionales."
+  },
+  {
+    "guid": "8e0d7353-93cc-45b1-a23a-d8f67de123d3",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué documento sustituye a cualquier otra publicación en Barcelona respecto a la lista de admitidos y excluidos?",
+    "answerOptions": [
+      {
+        "text": "El Boletín Oficial del Estado",
+        "rationale": "El BOE publica el anuncio de la convocatoria, pero no las listas detalladas de aspirantes locales.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Gaseta Municipal",
+        "rationale": "Para el Ayuntamiento de Barcelona, la publicación en la Gaseta es el medio oficial que sustituye otras para las listas y bases.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Diario Oficial de la Generalitat",
+        "rationale": "Este diario publica el anuncio, pero las listas suelen remitirse a diarios de la propia corporación o provincia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El tablón de edictos electrónico únicamente",
+        "rationale": "Aunque es necesario por administración electrónica, la Gaseta sigue siendo el medio de sustitución formal.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la publicación oficial propia del Ayuntamiento de Barcelona."
+  },
+  {
+    "guid": "74d43ba6-8057-4202-9095-3a6a33b5145e",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es la lengua propia que se debe acreditar en las corporaciones locales de Cataluña junto al castellano?",
+    "answerOptions": [
+      {
+        "text": "Francés",
+        "rationale": "El francés no es lengua oficial ni requisito general en la administración local catalana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Catalán",
+        "rationale": "El Texto Refundido de la Ley Municipal de Cataluña exige acreditar el conocimiento del catalán en grado adecuado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inglés",
+        "rationale": "El inglés solo es exigible si las bases del puesto específico lo requieren, no como norma general de acceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aragonés",
+        "rationale": "El aragonés no tiene estatus de lengua cooficial en el territorio de Cataluña.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la lengua cooficial en todo el territorio de la comunidad autónoma."
+  },
+  {
+    "guid": "07198d29-0efe-428c-8dbd-61d172686501",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué situación administrativa conlleva la reserva del puesto de trabajo y el cómputo de antigüedad?",
+    "answerOptions": [
+      {
+        "text": "Servicio activo",
+        "rationale": "En servicio activo, el funcionario desempeña su puesto o se encuentra en situaciones que mantienen todos sus derechos y reserva.",
+        "isCorrect": true
+      },
+      {
+        "text": "Excedencia voluntaria por interés particular",
+        "rationale": "Esta modalidad de excedencia no conlleva reserva del puesto ni cómputo de trienios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspensión firme de funciones",
+        "rationale": "Durante la suspensión, el funcionario queda privado temporalmente del ejercicio y sus derechos asociados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Excedencia por prestación de servicios en el sector público",
+        "rationale": "En esta situación se mantiene la condición de funcionario pero no se reserva el puesto concreto de origen.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la situación ordinaria de quien está desempeñando sus funciones."
+  },
+  {
+    "guid": "250953dd-b02f-430c-9766-4b863f45509b",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cómo se denomina la movilidad por traslado del puesto de trabajo en el ámbito de la Administración Local?",
+    "answerOptions": [
+      {
+        "text": "Reasignación de efectivos",
+        "rationale": "Este término se aplica generalmente a procesos de reestructuración o racionalización de personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transferencia de servicios",
+        "rationale": "Es la denominación técnica que recibe la movilidad de personal entre diferentes administraciones locales o puestos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Libre designación",
+        "rationale": "La libre designación es un sistema de provisión, no el nombre del mecanismo de movilidad general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comisión de servicios",
+        "rationale": "La comisión de servicios es una asignación temporal y extraordinaria de funciones, no un traslado definitivo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Consiste en el paso de un funcionario de una administración a otra por cambio de competencias."
+  },
+  {
+    "guid": "6b32545a-8d31-42e6-81d0-665751cf321e",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Quién tiene delegada la competencia para la aprobación de la OPO en el Ayuntamiento de Barcelona desde 2018?",
+    "answerOptions": [
+      {
+        "text": "El Pleno del Ayuntamiento",
+        "rationale": "Aunque el Pleno tiene competencias normativas, la gestión de la oferta se ha delegado en un órgano ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión de Gobierno",
+        "rationale": "Por decreto de la alcaldía en 2018, este órgano asumió la aprobación de la oferta de empleo.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Síndic de Greuges",
+        "rationale": "El Síndic es una figura de supervisión y defensa de derechos, no un órgano de gestión de personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretario General",
+        "rationale": "El Secretario tiene funciones de fe pública y asesoramiento legal, no de aprobación de políticas de empleo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el órgano colegiado de gobierno municipal."
+  },
+  {
+    "guid": "0cade25f-d162-4a03-be4b-d363b2fce1b9",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Para acceder a puestos que impliquen el ejercicio de funciones de autoridad, ¿qué requisito de nacionalidad es indispensable?",
+    "answerOptions": [
+      {
+        "text": "Nacionalidad de cualquier país de la UE",
+        "rationale": "Los ciudadanos de la UE pueden acceder a muchos puestos, pero los de autoridad están restringidos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Nacionalidad española únicamente",
+        "rationale": "La ley reserva las funciones que implican poder público o salvaguarda de intereses del Estado a los nacionales españoles.",
+        "isCorrect": true
+      },
+      {
+        "text": "Residencia legal en España",
+        "rationale": "La residencia legal es suficiente para personal laboral, pero no para funcionarios con funciones de autoridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cualquier nacionalidad con permiso de trabajo",
+        "rationale": "El ejercicio de la soberanía estatal a través de la autoridad requiere el vínculo de la nacionalidad nacional.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se refiere a la participación directa en el ejercicio del poder público."
+  },
+  {
+    "guid": "ab8a9b9a-2760-4d0c-8636-6dbe0a50fa75",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Cuál es el sistema de provisión de puestos que se considera el 'sistema normal'?",
+    "answerOptions": [
+      {
+        "text": "Libre designación",
+        "rationale": "Este sistema es excepcional y se reserva para puestos de especial confianza o responsabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concurso de méritos y capacidades",
+        "rationale": "Es el método ordinario para que los funcionarios cambien de puesto respetando la igualdad y el mérito.",
+        "isCorrect": true
+      },
+      {
+        "text": "Adscripción provisional",
+        "rationale": "La adscripción provisional es un método temporal para cubrir puestos vacantes de forma urgente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Permuta de puestos",
+        "rationale": "La permuta es un acuerdo entre dos funcionarios y no el sistema ordinario de provisión de la administración.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se basa en un baremo de puntos por antigüedad, formación y experiencia."
+  },
+  {
+    "guid": "fadc1a8a-ac66-430f-9821-f80a85813061",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué requisito relativo a la conducta penal es necesario para acceder a la función pública?",
+    "answerOptions": [
+      {
+        "text": "No tener antecedentes de multas de tráfico",
+        "rationale": "Las multas administrativas no suelen impedir el acceso, a menos que conlleven inhabilitación judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "No estar inhabilitado para empleos públicos por resolución judicial",
+        "rationale": "La inhabilitación absoluta o especial impide legalmente el acceso o ejercicio de cargos públicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tener nacionalidad de un país sin sistema penal",
+        "rationale": "La exigencia se centra en la ausencia de sanciones de inhabilitación, no en el sistema del país de origen.",
+        "isCorrect": false
+      },
+      {
+        "text": "No haber sido nunca denunciado",
+        "rationale": "Solo las condenas firmes de inhabilitación impiden el acceso, no las meras denuncias.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Tiene que ver con una sanción impuesta por un juez."
+  },
+  {
+    "guid": "080849d1-24b8-43e7-bf07-8b86d827f0fe",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "En el sistema de concurso-oposición, ¿qué valor máximo suele tener la fase de concurso respecto a la puntuación total?",
+    "answerOptions": [
+      {
+        "text": "Un $10\\%$",
+        "rationale": "Este porcentaje sería demasiado bajo para que los méritos profesionales tuvieran un impacto real.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un $40\\%$",
+        "rationale": "La normativa de estabilización y general suele fijar este límite para que los exámenes sigan siendo determinantes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un $60\\%$",
+        "rationale": "Si los méritos pesaran un sesenta por ciento, el sistema se alejaría del carácter equilibrado del concurso-oposición.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un $100\\%$",
+        "rationale": "El cien por cien de méritos correspondería a un sistema de concurso puro, no de concurso-oposición.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es menos de la mitad, pero un porcentaje significativo para la experiencia."
+  },
+  {
+    "guid": "d7e28b08-53c7-400d-b192-da7f71334259",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "Un funcionario que es elegido Diputado en el Congreso, ¿en qué situación administrativa debe ser declarado?",
+    "answerOptions": [
+      {
+        "text": "Excedencia voluntaria",
+        "rationale": "La excedencia voluntaria es para asuntos particulares, no para el ejercicio de cargos representativos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Servicios especiales",
+        "rationale": "El ejercicio de cargos políticos electivos es una causa tasada para pasar a la situación de servicios especiales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Servicio activo con permiso",
+        "rationale": "La incompatibilidad de cargos exige el cese en el servicio activo para evitar conflictos de intereses.",
+        "isCorrect": false
+      },
+      {
+        "text": "Suspensión de funciones",
+        "rationale": "La suspensión es una medida disciplinaria o judicial, no una vía para el ejercicio de derechos políticos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Permite retornar al puesto de origen manteniendo el cómputo de trienios."
+  },
+  {
+    "guid": "f636a2b3-7911-48d5-8961-35e4cd3b144d",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿Qué principio rector busca que el contenido de las pruebas sea coherente con las tareas del puesto?",
+    "answerOptions": [
+      {
+        "text": "Transparencia",
+        "rationale": "La transparencia busca la claridad del proceso, pero no la conexión temática con las funciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Adecuación entre proceso y funciones",
+        "rationale": "Este principio obliga a que las preguntas y ejercicios reflejen la realidad del trabajo a desempeñar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mérito y capacidad",
+        "rationale": "Son los principios generales, pero el de adecuación es el que concreta la relevancia temática de las pruebas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Libertad de acceso",
+        "rationale": "La libertad de acceso permite que cualquiera se presente, pero no regula el contenido de los exámenes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de la 'pertinencia' de los exámenes."
+  },
+  {
+    "guid": "c605b80b-20f3-499f-bcd1-88c18a73a297",
+    "subjectId": "T15",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 1,
+    "question": "¿A qué subgrupo de titulación pertenecen los cuerpos para los que se exige el título de Grado Universitario?",
+    "answerOptions": [
+      {
+        "text": "Subgrupo A1",
+        "rationale": "Los cuerpos del grupo A (tanto A1 como A2) requieren titulación universitaria de grado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Subgrupo C1",
+        "rationale": "Para el subgrupo C1 se exige el título de Bachiller o Técnico superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Grupo B",
+        "rationale": "El grupo B está reservado específicamente para quienes poseen el título de Técnico Superior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subgrupo C2",
+        "rationale": "Para el acceso al subgrupo C2 se requiere el título de Graduado en ESO.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el nivel más alto de la clasificación profesional."
+  }
+]

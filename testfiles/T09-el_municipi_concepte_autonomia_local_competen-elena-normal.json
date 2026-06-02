@@ -1,0 +1,777 @@
+[
+  {
+    "guid": "35869074-ab51-433c-9fab-93eedb3da740",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la anchura mínima que debe tener la franja de suelo no urbanizable entre los núcleos más próximos de municipios resultantes en un proceso de segregación en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "2.000 metros.",
+        "rationale": "Esta cifra suele confundirse con el límite de población mínima requerida para el nuevo municipio en el ámbito catalán.",
+        "isCorrect": false
+      },
+      {
+        "text": "3.000 metros.",
+        "rationale": "El TRLMRLCat establece específicamente esta distancia mínima de separación física para garantizar que los núcleos de población estén territorialmente diferenciados.",
+        "isCorrect": true
+      },
+      {
+        "text": "5.000 metros.",
+        "rationale": "Este valor se asocia frecuentemente con el umbral de población estatal para la creación de municipios o la obligatoriedad de la Junta de Gobierno Local.",
+        "isCorrect": false
+      },
+      {
+        "text": "1.500 metros.",
+        "rationale": "No existe una disposición legal en los apuntes que mencione esta distancia para la diferenciación de núcleos urbanos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Revise los requisitos de segregación parcial del Artículo 15 del TRLMRLCat."
+  },
+  {
+    "guid": "2c0d21fd-4d0a-425e-8bd9-4fa56c06221a",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el Artículo 16 de la LRBRL, ¿con qué frecuencia debe renovarse la inscripción en el Padrón Municipal de los extranjeros no comunitarios sin autorización de residencia permanente?",
+    "answerOptions": [
+      {
+        "text": "Cada año.",
+        "rationale": "Aunque existen trámites anuales en extranjería, la ley de bases establece un periodo bianual específico para el padrón.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cada dos años.",
+        "rationale": "La legislación consolidada exige la renovación periódica cada dos años para este colectivo específico para mantener la vigencia de la inscripción.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cada cinco años.",
+        "rationale": "Cinco años es el plazo mínimo de duración para la delegación de competencias, no para la renovación padronal.",
+        "isCorrect": false
+      },
+      {
+        "text": "No es necesaria la renovación si el domicilio no varía.",
+        "rationale": "La ley impone la renovación obligatoria para extranjeros no comunitarios sin residencia permanente, independientemente de la estabilidad del domicilio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere las medidas de control administrativo sobre la población extranjera no estable."
+  },
+  {
+    "guid": "90d5c29e-06ba-4116-9cb8-cd1e34b6bd51",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el régimen local de Cataluña, ¿en qué caso es obligatoria la existencia de la Comisión de Gobierno (Junta de Gobierno Local) independientemente del número de habitantes?",
+    "answerOptions": [
+      {
+        "text": "En todos los municipios que sean capital de provincia.",
+        "rationale": "Aunque las capitales de provincia suelen superar los 5.000 habitantes, la regla específica mencionada en el TRLMRLCat se refiere a otro nivel territorial.",
+        "isCorrect": false
+      },
+      {
+        "text": "En todos los municipios que sean capital de comarca.",
+        "rationale": "El Artículo 48.1.b del TRLMRLCat impone la existencia de este órgano en todas las capitales comarcales, sin importar su población de derecho.",
+        "isCorrect": true
+      },
+      {
+        "text": "En los municipios con más de 2.000 habitantes.",
+        "rationale": "2.000 habitantes es el umbral para la viabilidad de un municipio nuevo en Cataluña, pero el umbral general para la Junta de Gobierno es de 5.000.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo si lo acuerda el Pleno por mayoría absoluta.",
+        "rationale": "El acuerdo del Pleno es una opción para municipios de menos de 5.000 habitantes que no sean capital de comarca.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la relevancia de la organización territorial intermedia en Cataluña."
+  },
+  {
+    "guid": "beeec1d7-f729-413a-a219-291d2e506bf8",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué efecto jurídico tiene la inscripción de una persona en el Padrón de españoles residentes en el extranjero respecto al municipio español de inscripción?",
+    "answerOptions": [
+      {
+        "text": "Se consideran población del municipio a todos los efectos.",
+        "rationale": "La ley distingue explícitamente que estos ciudadanos no computan para la cifra oficial de población municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se consideran vecinos únicamente a efectos del ejercicio del derecho de sufragio.",
+        "rationale": "Según la LRBRL y el TRLMRLCat, esta inscripción permite votar pero no otorga la condición de población residente en el término.",
+        "isCorrect": true
+      },
+      {
+        "text": "Otorga el derecho a percibir servicios sociales municipales mínimos.",
+        "rationale": "La prestación de servicios municipales está ligada a la residencia efectiva y la condición de población, no al sufragio exterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "No tiene ningún efecto de vecindad administrativa.",
+        "rationale": "Sí tiene un efecto de vecindad limitado exclusivamente al ámbito electoral.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre el concepto de 'población' y el derecho al voto desde el exterior."
+  },
+  {
+    "guid": "357cc304-04c2-4675-b38c-aa9add1794c6",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el contexto de la segregación para crear un nuevo municipio en Cataluña, ¿cuál es el límite poblacional por debajo del cual no puede bajar el municipio matriz?",
+    "answerOptions": [
+      {
+        "text": "5.000 habitantes.",
+        "rationale": "Este es el límite general de la LRBRL estatal, pero la legislación catalana establece un umbral inferior.",
+        "isCorrect": false
+      },
+      {
+        "text": "2.000 habitantes.",
+        "rationale": "El Artículo 15.1.d del TRLMRLCat exige que tanto el municipio nuevo como el del cual se segrega mantengan al menos 2.000 habitantes.",
+        "isCorrect": true
+      },
+      {
+        "text": "3.000 habitantes.",
+        "rationale": "Este número coincide con los metros de la franja de separación, pero no con el requisito poblacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "1.000 habitantes.",
+        "rationale": "Un municipio de este tamaño se consideraría inviable según los estándares de segregación actuales en Cataluña.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el equilibrio de viabilidad que exige el TRLMRLCat para ambas partes tras la división."
+  },
+  {
+    "guid": "12e466dc-1779-47f6-b218-3e6ac5524b48",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según la LRBRL, ¿cuál es la duración mínima obligatoria que debe tener un acuerdo de delegación de competencias del Estado o las CCAA en un Municipio?",
+    "answerOptions": [
+      {
+        "text": "Dos años.",
+        "rationale": "Este es el plazo de renovación del padrón para ciertos extranjeros, no el de delegación competencial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cinco años.",
+        "rationale": "El Artículo 27.1 de la LRBRL estipula que la delegación debe determinar una duración que no podrá ser inferior a este periodo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Diez años.",
+        "rationale": "Este es el plazo de prohibición de segregación tras una fusión, no el mínimo para una delegación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es de duración indefinida hasta su revocación.",
+        "rationale": "La ley exige que el acuerdo de delegación determine una duración específica dentro de los márgenes legales.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un periodo que garantice estabilidad en la gestión de la competencia transferida."
+  },
+  {
+    "guid": "4abf7dad-127d-49ae-b552-b35e38441b09",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la organización del Ayuntamiento de Barcelona, ¿qué órgano tiene la potestad de acordar la declaración de lesividad de los actos del Ayuntamiento?",
+    "answerOptions": [
+      {
+        "text": "El Pleno.",
+        "rationale": "Aunque el Pleno es el órgano de máxima representación, esta potestad ejecutiva específica recae en otro órgano según los apuntes del CMB.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión de Gobierno.",
+        "rationale": "Según el Artículo 15 del CMB detallado en el material, la Comisión de Gobierno es la encargada de acordar la lesividad de los actos municipales.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Alcalde o Alcaldesa.",
+        "rationale": "El Alcalde tiene facultades de dirección, pero la declaración de lesividad requiere la deliberación del órgano colegiado ejecutivo.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Síndic de Greuges municipal.",
+        "rationale": "El Síndic es un órgano de supervisión y defensa de derechos, no tiene facultades para anular o declarar lesivos actos administrativos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Se trata de una función de control interno de la legalidad por parte del órgano colegiado ejecutivo."
+  },
+  {
+    "guid": "ff18be36-15be-4760-947f-938b41bc36f6",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál de los siguientes servicios es obligatorio únicamente en municipios con una población superior a los 50.000 habitantes en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "Mercado y tratamiento de residuos.",
+        "rationale": "Estos servicios son obligatorios a partir de los 5.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Protección civil y prestación de servicios sociales.",
+        "rationale": "La obligatoriedad de estos servicios se activa al superar los 20.000 habitantes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transporte colectivo urbano de viajeros y protección del medio ambiente.",
+        "rationale": "El Artículo 67 del TRLMRLCat reserva estos servicios específicos para los municipios que alcancen este umbral poblacional o sean capitales de comarca.",
+        "isCorrect": true
+      },
+      {
+        "text": "Parque público y biblioteca pública.",
+        "rationale": "Son servicios mínimos para municipios de más de 5.000 habitantes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es un servicio de movilidad urbana que requiere una gran masa crítica de población."
+  },
+  {
+    "guid": "2282f96d-6596-482e-b26a-475efff47d8e",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué mayoría se requiere en el Pleno para que un municipio catalán pueda crear la figura del Síndic o Síndica municipal de Greuges?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple.",
+        "rationale": "Dada la naturaleza institucional y de control del cargo, se requiere un consenso reforzado superior a la simple.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta.",
+        "rationale": "El Artículo 48.2.c del TRLMRLCat especifica que el pleno debe acordarlo por mayoría absoluta a propuesta de un grupo municipal.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayoría de dos tercios.",
+        "rationale": "Aunque es una mayoría común en estatutos, la ley de régimen local catalana no exige este nivel para el Síndic.",
+        "isCorrect": false
+      },
+      {
+        "text": "No requiere votación si está previsto en el Reglamento Orgánico.",
+        "rationale": "Incluso si está previsto, su nombramiento o creación efectiva requiere el voto formal del Pleno.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque la mayoría que implica el voto favorable de la mitad más uno del número legal de miembros."
+  },
+  {
+    "guid": "d8d42d9c-f36f-48e3-960c-8c0e8236ae26",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el Ayuntamiento de Barcelona, ¿cómo se define jurídicamente la naturaleza de los distritos municipales?",
+    "answerOptions": [
+      {
+        "text": "Entidades locales con personalidad jurídica propia.",
+        "rationale": "Los distritos no tienen personalidad jurídica independiente de la del Ayuntamiento central.",
+        "isCorrect": false
+      },
+      {
+        "text": "Órganos territoriales de gestión desconcentrada.",
+        "rationale": "Tanto la LRBRL como el TRLMRLCat y los apuntes de Barcelona coinciden en que son instrumentos para la desconcentración administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Organismos autónomos para la participación ciudadana.",
+        "rationale": "Aunque fomentan la participación, no son organismos autónomos sino órganos integrados en la estructura municipal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Administración delegada de la Generalitat.",
+        "rationale": "Los distritos son una división interna del municipio, no una delegación de una administración superior.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la diferencia entre trasladar la titularidad (descentralización) y trasladar solo el ejercicio (desconcentración)."
+  },
+  {
+    "guid": "5057750d-56b9-4d8c-861a-a923a9950162",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es la diferencia fundamental entre 'Delegación' y 'Desconcentración' según las notas del curso facilitadas?",
+    "answerOptions": [
+      {
+        "text": "La delegación es permanente y la desconcentración es temporal.",
+        "rationale": "La temporalidad no es el factor definitorio entre ambos conceptos administrativos.",
+        "isCorrect": false
+      },
+      {
+        "text": "En la delegación se conserva la titularidad y en la desconcentración se traspasa la titularidad y el ejercicio.",
+        "rationale": "Esta es la distinción técnica clave: la desconcentración implica una transferencia de competencia a un órgano inferior dentro de la misma entidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "La desconcentración solo ocurre entre distintas Administraciones Públicas.",
+        "rationale": "La desconcentración es siempre interna (intraorganismal); el traspaso entre administraciones se denomina descentralización o delegación.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe diferencia legal, son términos sinónimos en el régimen local.",
+        "rationale": "La doctrina administrativa y los apuntes diferencian claramente ambos mecanismos de gestión.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Fíjese en qué sucede con la propiedad legal (titularidad) de la competencia en cada caso."
+  },
+  {
+    "guid": "433d43eb-b703-4655-b690-e476e09a1397",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el Artículo 15 de la LRBRL, si una persona reside en varios municipios durante el año, ¿dónde tiene la obligación de inscribirse?",
+    "answerOptions": [
+      {
+        "text": "En todos aquellos donde posea una vivienda en propiedad.",
+        "rationale": "La propiedad no determina la vecindad administrativa, sino la residencia efectiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "En aquel donde pase más tiempo al año.",
+        "rationale": "La ley establece este criterio de temporalidad para evitar la duplicidad de inscripciones, ya que solo se puede ser vecino de un municipio.",
+        "isCorrect": true
+      },
+      {
+        "text": "En el municipio donde tenga su centro de trabajo principal.",
+        "rationale": "El domicilio laboral es irrelevante para el padrón municipal, que se basa en la residencia habitual.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el municipio de su elección, previa comunicación a los demás.",
+        "rationale": "La ley no otorga libertad de elección, sino que impone una regla basada en el hecho físico de la residencia mayoritaria.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el criterio de prevalencia temporal para la residencia única."
+  },
+  {
+    "guid": "26764deb-8797-40b5-982e-c8415b221ce9",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué órgano es responsable de ejercer el control de la eficiencia en una competencia delegada por el Estado en un municipio?",
+    "answerOptions": [
+      {
+        "text": "El Pleno del Ayuntamiento.",
+        "rationale": "El Pleno ejerce control interno, pero el control de la delegación es externo a la corporación local.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Administración delegante.",
+        "rationale": "La LRBRL establece que la administración que delega (Estado o CCAA) se reserva el control de eficiencia para asegurar el correcto uso de los medios asignados.",
+        "isCorrect": true
+      },
+      {
+        "text": "El Tribunal de Cuentas.",
+        "rationale": "El Tribunal de Cuentas realiza fiscalización contable, pero el control de eficiencia técnico-administrativo corresponde al delegante.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión Especial de Cuentas.",
+        "rationale": "Este es un órgano municipal para el examen de las cuentas propias, no para el seguimiento de la gestión delegada externa.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en quién tiene el interés originario en que la competencia se ejerza correctamente."
+  },
+  {
+    "guid": "f053de87-7b60-4ce0-80c9-096c6fabad53",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Cuál es el quórum necesario para los acuerdos municipales sobre la alteración de términos municipales según el procedimiento catalán?",
+    "answerOptions": [
+      {
+        "text": "Mayoría simple de los asistentes.",
+        "rationale": "La importancia de la integridad territorial del municipio exige un consenso más amplio que el de los presentes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría absoluta del número legal de miembros de la corporación.",
+        "rationale": "El TRLMRLCat y los apuntes sobre el procedimiento de alteración exigen explícitamente este quórum reforzado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Unanimidad de todos los grupos políticos.",
+        "rationale": "La ley no permite el bloqueo por un solo voto o grupo minoritario en temas de alteración de términos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayoría de dos tercios del número legal de miembros.",
+        "rationale": "Esta mayoría se reserva para otros casos como la adopción de símbolos o cambios de nombre, pero para la alteración basta la absoluta.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es la misma mayoría requerida para la elección del Alcalde en primera votación."
+  },
+  {
+    "guid": "ff8fe76d-4980-4b1a-b433-723ffea4dc5a",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué elemento del municipio se define legalmente como 'el ámbito territorial donde el ayuntamiento ejerce sus competencias'?",
+    "answerOptions": [
+      {
+        "text": "La Jurisdicción Local.",
+        "rationale": "Aunque es un término jurídico válido, no es la denominación técnica recogida en los Artículos 12 de la LRBRL y el DLeg 2/2003.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Término Municipal.",
+        "rationale": "Esta es la definición exacta proporcionada por la legislación de régimen local para el elemento territorial.",
+        "isCorrect": true
+      },
+      {
+        "text": "La Demarcación Administrativa.",
+        "rationale": "Es un concepto más genérico que puede aplicarse a comarcas o provincias, no específicamente al municipio.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Distrito.",
+        "rationale": "El distrito es solo una parte del término municipal en municipios con organización desconcentrada.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el nombre oficial del espacio geográfico del Ayuntamiento."
+  },
+  {
+    "guid": "596d9f29-17c6-42b1-ab39-8eaf1c45e4a6",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "De acuerdo con el Artículo 4 de la LRBRL, ¿cuál de estas NO es una potestad reconocida a los municipios en su calidad de Administraciones Públicas?",
+    "answerOptions": [
+      {
+        "text": "Potestad legislativa.",
+        "rationale": "Los municipios tienen potestad reglamentaria, pero la legislativa (hacer leyes) es exclusiva del Estado y las CCAA.",
+        "isCorrect": true
+      },
+      {
+        "text": "Potestad expropiatoria.",
+        "rationale": "Está reconocida expresamente para permitir al municipio adquirir bienes necesarios para fines públicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Presunción de legitimidad de sus actos.",
+        "rationale": "Es una prerrogativa de toda administración territorial que sus actos se consideren válidos mientras no se demuestre lo contrario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Potestad de ejecución forzosa.",
+        "rationale": "Permite al ayuntamiento obligar al cumplimiento de sus resoluciones sin necesidad de auxilio judicial previo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Diferencie entre la capacidad de dictar reglamentos/ordenanzas y la de dictar leyes."
+  },
+  {
+    "guid": "22c01d3f-d2dd-4822-85da-454a30aa5c8a",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el supuesto de fusión de municipios, ¿durante cuánto tiempo se prohíbe la segregación de los núcleos que formaron el nuevo municipio resultante?",
+    "answerOptions": [
+      {
+        "text": "Cinco años.",
+        "rationale": "Este plazo coincide con la duración de las delegaciones, pero la ley es más estricta con las fusiones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diez años.",
+        "rationale": "Tras la reforma de la LRSAL, para evitar fusiones 'de conveniencia', se impone un periodo de estabilidad de una década antes de permitir una segregación.",
+        "isCorrect": true
+      },
+      {
+        "text": "Veinte años.",
+        "rationale": "Es un plazo excesivo que no figura en la normativa de régimen local para este supuesto.",
+        "isCorrect": false
+      },
+      {
+        "text": "No existe prohibición temporal si hay acuerdo de las partes.",
+        "rationale": "La ley establece una limitación imperativa para garantizar la sostenibilidad y permanencia de la nueva entidad.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en un plazo de 'cuarentena' que equivale a dos mandatos y medio de la corporación."
+  },
+  {
+    "guid": "5568d4bf-ec7a-4b88-b360-d7166afa1048",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el Artículo 20 de la LRBRL, ¿qué órgano debe existir obligatoriamente en todos los ayuntamientos, sin excepción por población?",
+    "answerOptions": [
+      {
+        "text": "La Junta de Gobierno Local.",
+        "rationale": "Solo es obligatoria en municipios de más de 5.000 habitantes o por decisión del Pleno.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Comisión Especial de Sugerencias y Reclamaciones.",
+        "rationale": "Se reserva para municipios de gran población o por acuerdo específico del Pleno.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde, los Tenientes de Alcalde y el Pleno.",
+        "rationale": "Son los órganos de existencia necesaria en cualquier estructura municipal de régimen común.",
+        "isCorrect": true
+      },
+      {
+        "text": "Las Comisiones Informativas.",
+        "rationale": "Su obligatoriedad general también está ligada al umbral de los 5.000 habitantes.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Son las piezas fundamentales del gobierno y la representación política local."
+  },
+  {
+    "guid": "ae01086a-c49c-4de8-a250-c98746d3e20d",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿A qué administración corresponde la resolución definitiva del expediente de alteración de términos municipales en Cataluña?",
+    "answerOptions": [
+      {
+        "text": "A las Cortes Generales mediante Ley Orgánica.",
+        "rationale": "Esto solo es necesario para la alteración de límites provinciales, no municipales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Gobierno de la Generalidad mediante Decreto.",
+        "rationale": "El procedimiento administrativo catalán culmina con un decreto del ejecutivo autonómico publicado en el DOGC.",
+        "isCorrect": true
+      },
+      {
+        "text": "Al Ministerio de Política Territorial.",
+        "rationale": "El Estado debe ser informado, pero la competencia sustantiva es autonómica según los Estatutos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Pleno del Ayuntamiento interesado por mayoría de dos tercios.",
+        "rationale": "El Ayuntamiento inicia el proceso, pero no tiene la potestad de resolverlo definitivamente por sí solo.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el máximo órgano ejecutivo de la comunidad autónoma."
+  },
+  {
+    "guid": "2a77a61f-b4c1-47d0-842b-e3c5c4ca308c",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el Artículo 15.2 del TRLMRLCat, además de los recursos suficientes, ¿qué justificación adicional es imprescindible para la creación de un nuevo municipio?",
+    "answerOptions": [
+      {
+        "text": "La voluntad unánime de los vecinos mediante referéndum.",
+        "rationale": "Aunque se requiere audiencia, la ley no exige unanimidad ni necesariamente un referéndum vinculante para el expediente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que la segregación comporte una mejora objetiva en la prestación de los servicios.",
+        "rationale": "Este requisito finalista es clave para evitar fragmentaciones territoriales que no beneficien al interés general.",
+        "isCorrect": true
+      },
+      {
+        "text": "La existencia de un patrimonio histórico-artístico relevante.",
+        "rationale": "La identidad histórica es un factor (Art. 15.1.e), pero la mejora de servicios es una condición sustantiva adicional exigida.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que no existan deudas pendientes con la Hacienda Pública estatal.",
+        "rationale": "Se requiere sostenibilidad financiera general, pero no se especifica la ausencia total de deuda como requisito de segregación.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Busque el argumento de eficiencia administrativa que debe acompañar a la solicitud."
+  },
+  {
+    "guid": "62bb3f70-c8ad-406c-a4e4-ee1881b5801f",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué documento tiene carácter de 'documento público y fehaciente para todos los efectos administrativos' según la LRBRL?",
+    "answerOptions": [
+      {
+        "text": "El Acta de la sesión constitutiva del Ayuntamiento.",
+        "rationale": "Es un documento público, pero su fehaciencia se limita al ámbito de los acuerdos corporativos, no a la residencia ciudadana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Las certificaciones de los datos del Padrón Municipal.",
+        "rationale": "El Artículo 16.1 establece explícitamente que estas certificaciones prueban la residencia y el domicilio habitual con plenos efectos.",
+        "isCorrect": true
+      },
+      {
+        "text": "El carnet de identidad emitido por la policía local.",
+        "rationale": "La policía local no emite carnets de identidad; estos son competencia del Estado (DNI).",
+        "isCorrect": false
+      },
+      {
+        "text": "El recibo del Impuesto sobre Bienes Inmuebles (IBI).",
+        "rationale": "El IBI prueba la titularidad o posesión tributaria de un inmueble, pero no la residencia efectiva de una persona.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es el papel que acredita que usted vive donde dice vivir ante cualquier otra oficina pública."
+  },
+  {
+    "guid": "eb67f31a-9d32-4e76-b6dd-82bdb366a490",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En la organización municipal, ¿quién tiene la competencia para nombrar a los Tenientes de Alcalde?",
+    "answerOptions": [
+      {
+        "text": "El Pleno a propuesta de los grupos municipales.",
+        "rationale": "Los Tenientes de Alcalde son cargos de confianza directa de la alcaldía, no del legislativo local.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Alcalde o Alcaldesa de entre los miembros de la Junta de Gobierno Local.",
+        "rationale": "Es una potestad discrecional del Alcalde para organizar su equipo de gobierno más cercano.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los vecinos mediante sufragio directo en las elecciones.",
+        "rationale": "Los vecinos eligen concejales; los cargos internos del ayuntamiento se eligen indirectamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "La Junta de Gobierno Local por mayoría simple.",
+        "rationale": "La Junta es el órgano donde se integran, pero no es el órgano que los nombra.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Es una de las funciones de autoorganización del máximo responsable ejecutivo municipal."
+  },
+  {
+    "guid": "10b5a818-b249-48ac-8067-ac9651c9703b",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "Según el Artículo 2 de la LRBRL, ¿cuál de estos principios NO rige la atribución de competencias a las Entidades Locales?",
+    "answerOptions": [
+      {
+        "text": "Descentralización y proximidad.",
+        "rationale": "Son principios rectores básicos para acercar la gestión al ciudadano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eficacia y eficiencia.",
+        "rationale": "Son criterios obligatorios para cualquier administración pública en el uso de recursos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jerarquía y dependencia orgánica del Estado.",
+        "rationale": "La autonomía local garantizada constitucionalmente impide la existencia de una relación de jerarquía o dependencia directa.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sostenibilidad financiera.",
+        "rationale": "Es un principio incorporado recientemente para asegurar que las competencias tengan respaldo económico real.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Considere el concepto de 'autonomía' frente al de 'jerarquía'."
+  },
+  {
+    "guid": "381433fe-6404-460e-a03c-3267b0b0d95f",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "En el caso de municipios de 'Gran Población' (Título X LRBRL), ¿qué criterio adicional permite entrar en esta categoría además de superar los 250.000 habitantes?",
+    "answerOptions": [
+      {
+        "text": "Ser sede de un Tribunal Superior de Justicia.",
+        "rationale": "La sede judicial no otorga automáticamente el estatus de municipio de gran población.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ser capital de provincia o sede de instituciones autonómicas.",
+        "rationale": "La LRBRL permite que las capitales y sedes institucionales accedan a este régimen especial por su relevancia política.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tener un presupuesto anual superior a mil millones de euros.",
+        "rationale": "El criterio se basa en la población o la condición de capitalidad, no directamente en el volumen presupuestario.",
+        "isCorrect": false
+      },
+      {
+        "text": "Contar con más de 10 distritos municipales.",
+        "rationale": "La división en distritos es una consecuencia del régimen de gran población, no la causa para acceder a él.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Piense en la importancia administrativa y política del municipio en su territorio."
+  },
+  {
+    "guid": "38744f3b-c81d-4834-adbd-c0468ae5c8cd",
+    "subjectId": "T09",
+    "origin": "notebooklm",
+    "type": "test",
+    "difficulty": 2,
+    "question": "¿Qué sucede con los actos dictados por un municipio en el ejercicio de una competencia delegada por el Estado?",
+    "answerOptions": [
+      {
+        "text": "Son definitivos y solo recurribles ante la jurisdicción contencioso-administrativa.",
+        "rationale": "Al ser una delegación, existe una instancia administrativa superior antes de llegar a la judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pueden ser recurridos ante los órganos competentes de la Administración delegante.",
+        "rationale": "La administración que delega mantiene la responsabilidad última, por lo que actúa como instancia de recurso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Deben ser ratificados por el Delegado del Gobierno para ser válidos.",
+        "rationale": "Los actos municipales son ejecutivos por sí mismos, no requieren ratificación previa, aunque sí son recurribles.",
+        "isCorrect": false
+      },
+      {
+        "text": "No pueden ser recurridos si el municipio tiene plena autonomía.",
+        "rationale": "La autonomía no exime del control de legalidad y del sistema de recursos administrativos.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Recuerde quién mantiene la 'titularidad' última de la competencia en el esquema de delegación."
+  }
+]
