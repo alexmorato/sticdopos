@@ -1,0 +1,312 @@
+[
+{
+"guid": "d9d4ab75-6e38-4b7b-94af-6067467a4e42",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "L’acte administratiu que es produeix per escrit a través de mitjans electrònics:",
+"answerOptions": [
+{
+"text": "N'ha d’incloure la motivació, referida als fets i fonaments de dret que el justifiquen.",
+"isCorrect": false,
+"rationale": "No tots els actes administratius han d’estar motivats; només els supòsits en què la normativa exigeix motivació."
+},
+{
+"text": "Té sempre caràcter reglat.",
+"isCorrect": false,
+"rationale": "Un acte administratiu pot ser reglat o discrecional; el fet que es produeixi per mitjans electrònics no determina el seu caràcter."
+},
+{
+"text": "Incorpora una referència temporal del moment en què s’ha emès.",
+"isCorrect": true,
+"rationale": "Els documents administratius electrònics han d’incorporar una referència temporal del moment en què s’han emès."
+},
+{
+"text": "És una disposició amb què l’Administració exerceix la seva potestat reglamentària.",
+"isCorrect": false,
+"rationale": "L’acte administratiu no és una disposició reglamentària; aplica el dret a un cas concret, mentre que el reglament innova l’ordenament jurídic."
+}
+],
+"hint": "Fixa’t en els requisits dels documents administratius electrònics."
+},
+{
+"guid": "cb406c80-c059-49ec-bf96-9c0d77d1e5a3",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Les notificacions que es practiquin en paper s’han de fer també paral·lelament per mitjans electrònics:",
+"answerOptions": [
+{
+"text": "Quan la persona interessada ha indicat una adreça electrònica per rebre’n l’avís.",
+"isCorrect": false,
+"rationale": "L’adreça electrònica per rebre l’avís no determina per si sola aquesta obligació, ja que l’avís no equival a la notificació."
+},
+{
+"text": "Si la persona no obligada a rebre-les comunica a l’Administració que les notificacions successives se li practiquin també per mitjans electrònics.",
+"isCorrect": false,
+"rationale": "Aquesta situació pot comportar notificacions electròniques, però la pregunta es refereix a la regla general de les notificacions practicades en paper."
+},
+{
+"text": "Sempre que l’Administració consideri convenient oferir aquesta possibilitat a la persona interessada.",
+"isCorrect": false,
+"rationale": "No depèn només d’un criteri d’oportunitat de l’Administració."
+},
+{
+"text": "Sempre.",
+"isCorrect": true,
+"rationale": "Les notificacions que es practiquin en paper també s’han de posar a disposició de la persona interessada a la seu electrònica de l’Administració o organisme actuant."
+}
+],
+"hint": "Recorda la regla de l’article 42 de la Llei 39/2015 sobre notificacions en paper."
+},
+{
+"guid": "2f11f3bb-efef-48f4-8147-7ebd2e67cb92",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Quin d’aquests actes NO posa fi a la via administrativa?",
+"answerOptions": [
+{
+"text": "El que resol un recurs d’alçada.",
+"isCorrect": false,
+"rationale": "La resolució d’un recurs d’alçada posa fi a la via administrativa."
+},
+{
+"text": "El dictat pel secretari o la secretària general d’un departament de la Generalitat en matèria de personal.",
+"isCorrect": false,
+"rationale": "Aquest tipus d’acte pot posar fi a la via administrativa d’acord amb la normativa catalana aplicable."
+},
+{
+"text": "El dictat per delegació d’un altre òrgan l’actuació del qual posa fi a la via administrativa.",
+"isCorrect": false,
+"rationale": "Els actes dictats per delegació s’entenen dictats per l’òrgan delegant; si l’acte del delegant posa fi a la via administrativa, també ho farà l’acte dictat per delegació."
+},
+{
+"text": "La resolució sancionadora dictada per un director o directora general, susceptible de recurs davant del superior jeràrquic.",
+"isCorrect": true,
+"rationale": "Si encara és susceptible de recurs davant del superior jeràrquic, no posa fi a la via administrativa."
+}
+],
+"hint": "Si encara hi ha recurs d’alçada, normalment no s’ha esgotat la via administrativa."
+},
+{
+"guid": "ef08d524-2700-4da1-894d-092d5cf16828",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Quan s’ha de tenir per efectuada la notificació en paper i seguir el procediment?",
+"answerOptions": [
+{
+"text": "Quan la persona interessada no ha designat un domicili a l'efecte de notificacions.",
+"isCorrect": false,
+"rationale": "Si no s’ha designat domicili, l’Administració ha d’utilitzar els mitjans previstos legalment, però això no equival automàticament a tenir per efectuada la notificació."
+},
+{
+"text": "Quan s’ha intentat la notificació dos cops durant el mateix dia, però no s’ha pogut practicar.",
+"isCorrect": false,
+"rationale": "Els dos intents de notificació en paper han de complir els requisits temporals previstos legalment; no n’hi ha prou que es facin el mateix dia."
+},
+{
+"text": "Quan el cangur del nadó de la persona interessada, en trobar-se al domicili d’aquesta, ha rebutjat la notificació.",
+"isCorrect": false,
+"rationale": "El rebuig que permet tenir per efectuada la notificació és el de la persona interessada o el seu representant, no el de qualsevol persona que es trobi al domicili."
+},
+{
+"text": "No és correcta cap de les respostes anteriors.",
+"isCorrect": true,
+"rationale": "Cap de les situacions descrites compleix correctament els requisits legals per tenir per efectuada la notificació i continuar el procediment."
+}
+],
+"hint": "El rebuig només produeix efectes clars quan el fa la persona interessada o el seu representant."
+},
+{
+"guid": "a0a764f8-4412-41a5-b5f3-137623d7e329",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "La resolució d’un procediment sancionador adquireix eficàcia:",
+"answerOptions": [
+{
+"text": "De manera immediata.",
+"isCorrect": false,
+"rationale": "En els procediments sancionadors, la resolució no és executiva de manera immediata si encara hi cap recurs administratiu ordinari."
+},
+{
+"text": "Quan ja no s’hi pot interposar cap recurs en via administrativa.",
+"isCorrect": true,
+"rationale": "La resolució sancionadora és executiva quan no hi cap cap recurs ordinari en via administrativa."
+},
+{
+"text": "Quan la mateixa resolució ho estableix així.",
+"isCorrect": false,
+"rationale": "La resolució no pot alterar lliurement la regla legal sobre l’eficàcia i executivitat de les sancions."
+},
+{
+"text": "Quan ja no es pot impugnar en via contenciosa administrativa.",
+"isCorrect": false,
+"rationale": "No cal esperar que s’esgoti la possibilitat d’impugnació contenciosa administrativa; la regla es vincula a la via administrativa."
+}
+],
+"hint": "En sancions, pensa en el moment en què s’esgota la via administrativa ordinària."
+},
+{
+"guid": "c6559431-9ec7-4f86-b235-a20a1f038b02",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "La publicació d’un acte administratiu té caràcter complementari o addicional a la notificació feta individualment quan:",
+"answerOptions": [
+{
+"text": "El destinatari de l’acte administratiu és una pluralitat indeterminada de persones.",
+"isCorrect": false,
+"rationale": "Quan els destinataris són una pluralitat indeterminada, la publicació pot substituir o ser la forma adequada de comunicació, però la pregunta demana el cas de publicació complementària o addicional."
+},
+{
+"text": "La publicació no conté els mateixos elements que la Llei exigeix respecte de les notificacions.",
+"isCorrect": false,
+"rationale": "La publicació ha de contenir els elements exigits legalment o indicar el lloc on es pot consultar el contingut íntegre, però això no defineix el seu caràcter complementari."
+},
+{
+"text": "L’acte s’ha notificat a una de les persones interessades i l’administració considera que això és insuficient per garantir-ne la notificació a totes.",
+"isCorrect": true,
+"rationale": "La publicació és complementària a la notificació individual quan l’Administració considera que la notificació a una persona interessada és insuficient per garantir la notificació a totes."
+},
+{
+"text": "L’acte que es publica és la convocatòria d’un procediment selectiu.",
+"isCorrect": false,
+"rationale": "Les convocatòries de procediments selectius s’han de publicar, però això respon a un règim específic de publicitat, no necessàriament a una publicació complementària d’una notificació individual."
+}
+],
+"hint": "La clau és que ja hi ha notificació individual, però l’Administració la considera insuficient."
+},
+{
+"guid": "198545e8-2b92-4eb3-9675-8679cb4be344",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Quan les persones interessades en un procediment administratiu siguin desconegudes, cal publicar l’acte corresponent:",
+"answerOptions": [
+{
+"text": "Al Butlletí Oficial de l’Estat.",
+"isCorrect": true,
+"rationale": "Quan les persones interessades són desconegudes, la notificació s’ha de fer mitjançant anunci publicat al Butlletí Oficial de l’Estat."
+},
+{
+"text": "Al Diari Oficial de la Generalitat de Catalunya.",
+"isCorrect": false,
+"rationale": "La publicació al DOGC pot ser complementària o exigible en alguns casos, però la Llei 39/2015 estableix com a publicació necessària l’anunci al BOE."
+},
+{
+"text": "Als mitjans de comunicació de més difusió.",
+"isCorrect": false,
+"rationale": "Els mitjans de comunicació poden utilitzar-se de manera complementària, però no substitueixen la publicació legal exigida."
+},
+{
+"text": "No cal publicar-lo, es tracta d’una notificació infructuosa i s’ha de seguir el procediment.",
+"isCorrect": false,
+"rationale": "Quan les persones interessades són desconegudes, cal acudir a la publicació legalment prevista."
+}
+],
+"hint": "En notificacions infructuoses o interessats desconeguts, pensa en el BOE."
+},
+{
+"guid": "ea4daf82-fd5e-4e6a-91f0-c4be0fbe7f78",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "A la persona obligada a relacionar-se electrònicament amb l’Administració, quan s’entén complerta l’obligació de notificar-li la resolució dins del termini màxim de durada del procediment?",
+"answerOptions": [
+{
+"text": "En posar-se la notificació a la seva disposició a la seu electrònica de l’Administració.",
+"isCorrect": true,
+"rationale": "L’obligació de notificar dins del termini màxim s’entén complerta amb la posada a disposició de la notificació a la seu electrònica o adreça electrònica habilitada."
+},
+{
+"text": "Quan han transcorregut 10 dies naturals des que la notificació es va posar a la seva disposició.",
+"isCorrect": false,
+"rationale": "El transcurs de 10 dies naturals sense accedir-hi pot determinar el rebuig de la notificació, però no és el moment que determina el compliment de l’obligació de notificar dins de termini."
+},
+{
+"text": "Quan la persona interessada accedeix al contingut de la notificació.",
+"isCorrect": false,
+"rationale": "L’accés determina la pràctica efectiva de la notificació, però l’obligació de notificar dins de termini s’entén complerta amb la posada a disposició."
+},
+{
+"text": "Quan la persona interessada manifesta explícitament el seu rebuig a la notificació dipositada.",
+"isCorrect": false,
+"rationale": "El rebuig pot produir efectes procedimentals, però no és el moment que defineix el compliment de l’obligació de notificar dins del termini màxim."
+}
+],
+"hint": "Diferencia entre posar a disposició, accedir al contingut i rebutjar la notificació."
+},
+{
+"guid": "15634f8b-7b2e-4e3c-91c9-76ad4e7c5b09",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Un acte administratiu contra el qual NO s’ha interposat recurs d’alçada dins del termini establert esdevé llavors:",
+"answerOptions": [
+{
+"text": "Definitiu.",
+"isCorrect": false,
+"rationale": "Un acte definitiu és el que resol el fons de l’assumpte o posa fi al procediment, però aquí la clau és que ja no s’ha recorregut dins del termini."
+},
+{
+"text": "Ferm.",
+"isCorrect": true,
+"rationale": "Si no s’interposa el recurs administratiu que correspon dins del termini, l’acte esdevé ferm en via administrativa."
+},
+{
+"text": "Eficaç.",
+"isCorrect": false,
+"rationale": "L’eficàcia fa referència a la producció d’efectes de l’acte, no al fet que ja no sigui recurrible en termini."
+},
+{
+"text": "Presumpte.",
+"isCorrect": false,
+"rationale": "Un acte presumpte és el que deriva del silenci administratiu, no de la manca d’interposició d’un recurs."
+}
+],
+"hint": "Quan passa el termini de recurs sense impugnar, l’acte queda consolidat."
+},
+{
+"guid": "383a7d16-d7a3-42f6-a45d-91ab3ee5a65a",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "La notificació per compareixença a la seu electrònica de l’Administració de la Generalitat de Catalunya:",
+"answerOptions": [
+{
+"text": "Es fa només als subjectes obligats a relacionar-se electrònicament amb l’Administració.",
+"isCorrect": false,
+"rationale": "La notificació electrònica per compareixença no es limita només als subjectes obligats; també pot afectar persones que hagin escollit o acceptat aquest mitjà."
+},
+{
+"text": "Implica sempre que la mateixa notificació ja no cal practicar-la en paper.",
+"isCorrect": false,
+"rationale": "En alguns casos pot coexistir amb notificació en paper, especialment quan es tracta de persones no obligades a relacionar-se electrònicament."
+},
+{
+"text": "Pot fer-se mitjançant l’accés del representant de la persona interessada a l’espai personal d’aquesta.",
+"isCorrect": true,
+"rationale": "La notificació per compareixença pot practicar-se mitjançant l’accés de la persona interessada o del seu representant a l’espai corresponent de la seu electrònica."
+},
+{
+"text": "Exclou el rebuig de la notificació.",
+"isCorrect": false,
+"rationale": "La notificació electrònica també pot entendre’s rebutjada si transcorre el termini legal sense accedir-ne al contingut."
+}
+],
+"hint": "Recorda que l’accés electrònic pot fer-lo la persona interessada o el seu representant."
+}
+]

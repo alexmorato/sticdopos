@@ -1,0 +1,312 @@
+[
+{
+"guid": "f2e8f8c1-7e13-4de1-97bc-f9567f5cc41a",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "El termini màxim en què s’ha de notificar la resolució expressa:",
+"answerOptions": [
+{
+"text": "No pot excedir de sis mesos.",
+"isCorrect": false,
+"rationale": "El termini màxim no pot excedir de sis mesos llevat que una norma amb rang de llei estableixi un termini superior o així ho prevegi el dret de la Unió Europea."
+},
+{
+"text": "És de tres mesos.",
+"isCorrect": false,
+"rationale": "El termini de tres mesos és el termini supletori quan la norma reguladora del procediment no en fixa cap altre."
+},
+{
+"text": "És el fixat per la norma reguladora del procediment corresponent.",
+"isCorrect": true,
+"rationale": "La regla general és que el termini màxim per notificar la resolució expressa és el que fixa la norma reguladora del procediment corresponent."
+},
+{
+"text": "S’ha d’establir sempre per llei.",
+"isCorrect": false,
+"rationale": "No cal que sempre estigui establert per llei; pot estar fixat per la norma reguladora del procediment, amb els límits legals corresponents."
+}
+],
+"hint": "Primer mira la norma reguladora del procediment; si no diu res, s’aplica el termini supletori."
+},
+{
+"guid": "58dc7855-c80f-4712-a9f1-92ef9ae1a904",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "La suspensió del transcurs del termini màxim legal per resoldre un procediment i notificar la resolució es produeix necessàriament quan:",
+"answerOptions": [
+{
+"text": "S’iniciïn negociacions amb vista a la conclusió d’un pacte o conveni finalitzadors del procediment.",
+"isCorrect": false,
+"rationale": "Aquest és un supòsit en què es pot suspendre el termini, però no necessàriament."
+},
+{
+"text": "L’òrgan competent per resoldre decideixi portar a terme alguna actuació complementària.",
+"isCorrect": true,
+"rationale": "Quan l’òrgan competent decideix portar a terme actuacions complementàries, la suspensió del termini màxim es produeix necessàriament en els termes de la Llei 39/2015."
+},
+{
+"text": "Se sol·licitin informes preceptius a un òrgan de la mateixa administració o d’una de diferent.",
+"isCorrect": false,
+"rationale": "La sol·licitud d’informes preceptius pot suspendre el termini, però no és el supòsit de suspensió necessària indicat en aquesta pregunta."
+},
+{
+"text": "Es requereixi la persona interessada per a l’esmena de deficiències o l’aportació de documents i altres elements de judici necessaris.",
+"isCorrect": false,
+"rationale": "El requeriment d’esmena o aportació de documents és un supòsit de possible suspensió, però no el cas de suspensió necessària que es demana."
+}
+],
+"hint": "La pregunta demana un cas de suspensió necessària, no merament possible."
+},
+{
+"guid": "fe56488e-52e9-4d34-a7bb-0bfb23dc1383",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "En els procediments iniciats a sol·licitud de la persona interessada, un cop hagi transcorregut el termini màxim sense que s'hagi notificat resolució expressa:",
+"answerOptions": [
+{
+"text": "Resta dispensat el deure de l’Administració de dictar resolució expressa.",
+"isCorrect": false,
+"rationale": "El silenci administratiu no eximeix l’Administració del deure de dictar resolució expressa."
+},
+{
+"text": "Legitima la persona interessada per entendre desestimada la seva sol·licitud per silenci administratiu.",
+"isCorrect": false,
+"rationale": "Aquesta no és la regla general en els procediments iniciats a sol·licitud de la persona interessada; el silenci és estimatori excepte en els supòsits legalment previstos."
+},
+{
+"text": "El silenci tindrà efecte estimatori en els procediments de responsabilitat patrimonial de l’Administració.",
+"isCorrect": false,
+"rationale": "En els procediments de responsabilitat patrimonial de les administracions públiques, el silenci té efecte desestimatori."
+},
+{
+"text": "El sentit del silenci serà desestimatori en els procediments d’impugnació d’actes i disposicions.",
+"isCorrect": true,
+"rationale": "En els procediments d’impugnació d’actes i disposicions, el silenci administratiu té efecte desestimatori, amb l’excepció especial del recurs d’alçada contra una desestimació presumpta."
+}
+],
+"hint": "Recorda les excepcions al silenci positiu: impugnació d’actes, responsabilitat patrimonial, domini públic, servei públic, etc."
+},
+{
+"guid": "1f6c5c7a-ff93-40c3-9a3d-96446c988e01",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "En els procediments iniciats d’ofici, la manca de resolució i notificació dins de termini produeix sempre l'efecte següent:",
+"answerOptions": [
+{
+"text": "La caducitat del procediment.",
+"isCorrect": false,
+"rationale": "La caducitat es produeix en procediments iniciats d’ofici susceptibles de produir efectes desfavorables o de gravamen, però no en tots els procediments iniciats d’ofici."
+},
+{
+"text": "L’estimació de les pretensions de les persones interessades.",
+"isCorrect": false,
+"rationale": "En procediments iniciats d’ofici, la manca de resolució dins de termini no comporta sempre l’estimació de pretensions."
+},
+{
+"text": "La desestimació de les pretensions de les persones interessades.",
+"isCorrect": false,
+"rationale": "La desestimació pot produir-se en procediments iniciats d’ofici dels quals pugui derivar-se el reconeixement o constitució de drets, però no sempre."
+},
+{
+"text": "Cap de les respostes anteriors és correcta.",
+"isCorrect": true,
+"rationale": "En els procediments iniciats d’ofici, l’efecte depèn del tipus de procediment: pot haver-hi desestimació o caducitat segons el cas."
+}
+],
+"hint": "En procediments d’ofici, distingeix si poden produir efectes favorables o desfavorables."
+},
+{
+"guid": "4ae1027e-2585-403b-b641-faf38f65f575",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "En el còmput de terminis per hores:",
+"answerOptions": [
+{
+"text": "Són hàbils totes les hores del dia que formin part d’un dia hàbil.",
+"isCorrect": true,
+"rationale": "Quan els terminis s’assenyalen per hores, són hàbils totes les hores del dia que formen part d’un dia hàbil."
+},
+{
+"text": "Es poden fixar terminis d’una durada superior a 24 hores.",
+"isCorrect": false,
+"rationale": "Els terminis expressats per hores no poden tenir una durada superior a 24 hores; si la superen, s’han d’expressar en dies."
+},
+{
+"text": "S’aplica la regla de còmput de data a data.",
+"isCorrect": false,
+"rationale": "La regla de data a data és pròpia del còmput de terminis per mesos o anys, no dels terminis per hores."
+},
+{
+"text": "Els dissabtes són dies hàbils.",
+"isCorrect": false,
+"rationale": "En el procediment administratiu comú, els dissabtes són dies inhàbils."
+}
+],
+"hint": "Els terminis per hores tenen el límit de 24 hores."
+},
+{
+"guid": "e40fed2e-973c-4264-8b00-f6ed055f35b4",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "En la presentació de documents en el registre electrònic:",
+"answerOptions": [
+{
+"text": "No s’admet en cap cas la presentació de documents en dia inhàbil.",
+"isCorrect": false,
+"rationale": "El registre electrònic permet la presentació de documents tots els dies de l’any durant les 24 hores."
+},
+{
+"text": "El calendari i l’horari aplicables són els oficials de la seu electrònica d’accés.",
+"isCorrect": true,
+"rationale": "El registre electrònic es regeix per la data i hora oficial de la seu electrònica d’accés, que ha de disposar de les mesures de seguretat necessàries."
+},
+{
+"text": "Es considerarà inhàbil en tot cas el dia que sigui inhàbil en el municipi o la comunitat autònoma on resideixi la persona interessada.",
+"isCorrect": false,
+"rationale": "El calendari aplicable és el de la seu electrònica o registre corresponent, no necessàriament el del municipi o comunitat autònoma de residència de la persona interessada."
+},
+{
+"text": "La presentació de documents en dia inhàbil s’entendrà realitzada a primera hora de l’endemà.",
+"isCorrect": false,
+"rationale": "La presentació en dia inhàbil s’entén realitzada a la primera hora del primer dia hàbil següent, no simplement de l’endemà si aquest també fos inhàbil."
+}
+],
+"hint": "El registre electrònic funciona 24/7, però els efectes del còmput depenen del calendari de la seu."
+},
+{
+"guid": "a79caa66-c537-419f-8f90-4a34d1d268ff",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "És un document públic administratiu:",
+"answerOptions": [
+{
+"text": "Una instància subscrita per la persona interessada.",
+"isCorrect": false,
+"rationale": "Una instància presentada per una persona interessada és un document aportat al procediment, però no és un document públic administratiu emès vàlidament per un òrgan administratiu."
+},
+{
+"text": "Un document notarial.",
+"isCorrect": false,
+"rationale": "Un document notarial és un document públic, però no és un document públic administratiu."
+},
+{
+"text": "Una sessió d’un òrgan col·legiat.",
+"isCorrect": false,
+"rationale": "La sessió no és pròpiament el document; el document públic administratiu seria, per exemple, l’acta o certificació corresponent emesa per l’òrgan competent."
+},
+{
+"text": "Una resolució d’arxiu d’un expedient.",
+"isCorrect": true,
+"rationale": "Una resolució dictada per un òrgan administratiu, com l’arxiu d’un expedient, és un document públic administratiu."
+}
+],
+"hint": "Ha de ser un document emès vàlidament per un òrgan administratiu."
+},
+{
+"guid": "2e0d8029-089b-4503-94c8-acf41dc30196",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "L’expedició per les administracions de còpies autèntiques de documents:",
+"answerOptions": [
+{
+"text": "S’ha de fer en els 10 dies posteriors a la sol·licitud per la persona interessada.",
+"isCorrect": false,
+"rationale": "L’expedició de còpies autèntiques s’ha de realitzar en el termini de 15 dies des de la sol·licitud, segons la Llei 39/2015."
+},
+{
+"text": "Quan es refereix a documents privats les còpies autèntiques tenen la mateixa validesa i eficàcia que els documents originals.",
+"isCorrect": false,
+"rationale": "La còpia autèntica garanteix la identitat entre còpia i original, però la regla general de plena validesa i eficàcia es predica de les còpies autèntiques de documents públics administratius en els termes legals."
+},
+{
+"text": "Es pot dur a terme mitjançant una actuació administrativa automatitzada.",
+"isCorrect": true,
+"rationale": "L’expedició de còpies autèntiques pot fer-se mitjançant funcionari habilitat o mitjançant actuació administrativa automatitzada."
+},
+{
+"text": "Produeix efectes només en l’Administració que les expedeix.",
+"isCorrect": false,
+"rationale": "Les còpies autèntiques tenen validesa a la resta d’administracions públiques, no només davant l’Administració que les expedeix."
+}
+],
+"hint": "Les còpies autèntiques poden generar-se per actuació administrativa automatitzada."
+},
+{
+"guid": "0a17afe9-90fc-4fa1-9d36-e4d59b13bf42",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "La conservació dels documents en l’arxiu electrònic:",
+"answerOptions": [
+{
+"text": "Ha de ser permanent.",
+"isCorrect": false,
+"rationale": "La conservació no és necessàriament permanent en tots els casos; dependrà de la normativa aplicable i dels terminis de conservació."
+},
+{
+"text": "Ha de garantir-ne la consulta en funció del temps transcorregut des que es va emetre.",
+"isCorrect": false,
+"rationale": "La consulta s’ha de garantir durant el temps que correspongui, però no es formula en funció del temps transcorregut des de l’emissió com a criteri principal."
+},
+{
+"text": "Ha d’assegurar que les dades puguin ser traslladades a altres formats i suports que garanteixin l’accés des de diferents aplicacions.",
+"isCorrect": true,
+"rationale": "Els mitjans o suports de conservació han de garantir la integritat, autenticitat, confidencialitat, qualitat, protecció i conservació dels documents, i assegurar la possibilitat de traslladar les dades a altres formats i suports."
+},
+{
+"text": "Obliga a digitalitzar tots els documents en paper associats a procediments administratius finalitzats abans de l’entrada en vigor de la Llei 39/2015.",
+"isCorrect": false,
+"rationale": "La Llei 39/2015 no imposa una obligació general de digitalitzar tots els documents en paper de procediments ja finalitzats abans de la seva entrada en vigor."
+}
+],
+"hint": "L’arxiu electrònic ha de garantir accessibilitat i migració a formats i suports compatibles."
+},
+{
+"guid": "d14af010-7187-4888-bc25-a0ceac1262ab",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "L’ampliació dels terminis corresponents a tràmits del procediment:",
+"answerOptions": [
+{
+"text": "No es pot acordar respecte d’un termini ja finalitzat.",
+"isCorrect": true,
+"rationale": "L’ampliació de terminis s’ha de sol·licitar i acordar abans que finalitzi el termini de què es tracti."
+},
+{
+"text": "Només pot ser acordada d’ofici.",
+"isCorrect": false,
+"rationale": "L’ampliació es pot acordar d’ofici o a petició de les persones interessades."
+},
+{
+"text": "Es pot estendre, com a màxim, a la durada del termini establert inicialment.",
+"isCorrect": false,
+"rationale": "L’ampliació no pot excedir de la meitat del termini inicialment establert, si les circumstàncies ho aconsellen i no es perjudiquen drets de tercers."
+},
+{
+"text": "És susceptible de recurs.",
+"isCorrect": false,
+"rationale": "Els acords sobre ampliació de terminis o la seva denegació no són susceptibles de recurs, sense perjudici del que es pugui al·legar contra la resolució final."
+}
+],
+"hint": "L’ampliació s’ha de demanar i acordar abans que el termini hagi vençut."
+}
+]

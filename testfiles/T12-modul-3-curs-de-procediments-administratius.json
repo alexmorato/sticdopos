@@ -1,0 +1,312 @@
+[
+{
+"guid": "a9e0f2dc-9317-4f8d-8d07-f80d025b4d44",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Dels tràmits següents, per a quin cal acreditar la representació?",
+"answerOptions": [
+{
+"text": "Formular al·legacions.",
+"isCorrect": false,
+"rationale": "Per formular al·legacions no cal acreditar necessàriament la representació, d’acord amb el règim general de l’article 5.3 de la Llei 39/2015."
+},
+{
+"text": "Presentar una declaració responsable.",
+"isCorrect": true,
+"rationale": "La representació s’ha d’acreditar per formular sol·licituds, presentar declaracions responsables o comunicacions, interposar recursos, desistir d’accions i renunciar a drets."
+},
+{
+"text": "Aportar al procediment un document que ha requerit l’Administració.",
+"isCorrect": false,
+"rationale": "Per als actes i gestions de mer tràmit es presumeix la representació, per tant no cal acreditar-la necessàriament."
+},
+{
+"text": "No és correcta cap de les respostes.",
+"isCorrect": false,
+"rationale": "Sí que hi ha una resposta correcta: cal acreditar la representació per presentar una declaració responsable."
+}
+],
+"hint": "Recorda els tràmits de l’article 5.3 de la Llei 39/2015."
+},
+{
+"guid": "7e8d59bb-107e-4a68-b5ae-bcf47a2f2040",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Davant de l’Administració, la representació es pot acreditar:",
+"answerOptions": [
+{
+"text": "Mitjançant l’apoderament apud acta efectuat per compareixença personal a les oficines d’assistència en matèria de registres.",
+"isCorrect": true,
+"rationale": "La representació es pot acreditar mitjançant apoderament apud acta, que pot efectuar-se per compareixença personal o electrònica, entre altres mitjans vàlids en dret."
+},
+{
+"text": "Mitjançant un document privat signat per l’interessat i pel seu representant, adjuntant-hi còpia del DNI del primer.",
+"isCorrect": false,
+"rationale": "Aquesta formulació no és, per si sola, una de les formes específiques previstes per acreditar la representació davant l’Administració amb garanties suficients."
+},
+{
+"text": "Només mitjançant l’apoderament apud acta efectuat per compareixença electrònica a la seu electrònica.",
+"isCorrect": false,
+"rationale": "No és l’única forma possible; també es pot acreditar mitjançant compareixença personal, inscripció en registre electrònic d’apoderaments o altres mitjans vàlids en dret."
+},
+{
+"text": "Acreditant-ne la inscripció en qualsevol registre electrònic.",
+"isCorrect": false,
+"rationale": "No serveix qualsevol registre electrònic, sinó els registres electrònics d’apoderaments o representació previstos legalment."
+}
+],
+"hint": "L’apoderament apud acta pot ser electrònic o presencial."
+},
+{
+"guid": "f3ac1e49-58a9-4f9f-a873-bc94883bbdb2",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Està legitimat per a actuar en un procediment administratiu concret:",
+"answerOptions": [
+{
+"text": "La persona jurídica que, d’acord amb les normes civils, gaudeix de capacitat d’obrar davant les administracions públiques.",
+"isCorrect": false,
+"rationale": "La capacitat d’obrar permet actuar davant l’Administració, però la legitimació en un procediment concret deriva de tenir-hi la condició de persona interessada."
+},
+{
+"text": "Qui hi té la condició de persona interessada.",
+"isCorrect": true,
+"rationale": "La legitimació per actuar en un procediment administratiu concret correspon a qui té la condició de persona interessada."
+},
+{
+"text": "Només qui és titular de drets que poden ser afectats per la decisió que s’hi adopti.",
+"isCorrect": false,
+"rationale": "També poden ser persones interessades les titulars d’interessos legítims, individuals o col·lectius, que puguin resultar afectats."
+},
+{
+"text": "Les persones físiques majors d’edat.",
+"isCorrect": false,
+"rationale": "La majoria d’edat pot donar capacitat d’obrar, però no legitima per intervenir en qualsevol procediment administratiu concret."
+}
+],
+"hint": "No confonguis capacitat d’obrar amb legitimació."
+},
+{
+"guid": "70c89d0f-c89f-4de6-8a8c-088c4a645612",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "El dret a accedir a l'expedient electrònic i, si escau, a obtenir-ne còpia total o parcial:",
+"answerOptions": [
+{
+"text": "El té tothom qui sol·liciti accés a la informació pública de conformitat amb la legislació sobre transparència.",
+"isCorrect": false,
+"rationale": "El dret d’accés a l’expedient en el marc de l’article 53 de la Llei 39/2015 correspon a les persones interessades en el procediment, no a qualsevol sol·licitant d’informació pública."
+},
+{
+"text": "Per a fer-lo efectiu, l’administració ha de remetre l’adreça electrònica que hi dóna accés a la persona interessada sol·licitant.",
+"isCorrect": true,
+"rationale": "Quan l’expedient és electrònic, l’Administració ha de facilitar a la persona interessada l’accés a l’expedient, normalment mitjançant l’adreça electrònica corresponent."
+},
+{
+"text": "Només el tenen les persones obligades a relacionar-se electrònicament amb les administracions públiques.",
+"isCorrect": false,
+"rationale": "Aquest dret correspon a les persones interessades, amb independència que estiguin o no obligades a relacionar-se electrònicament."
+},
+{
+"text": "S'entén satisfet quan es posa l’expedient electrònic a disposició del públic a la Seu electrònica de la Generalitat.",
+"isCorrect": false,
+"rationale": "L’accés a l’expedient administratiu és un dret de la persona interessada, no una mera publicació general al públic."
+}
+],
+"hint": "Aquest és un dret de la persona interessada dins del procediment."
+},
+{
+"guid": "2a9dcfe1-76be-4e4b-92a6-813e1c988a64",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "D’una persona apta per a ser titular de drets i obligacions, en diem que té:",
+"answerOptions": [
+{
+"text": "Capacitat d’actuar.",
+"isCorrect": false,
+"rationale": "La capacitat d’actuar o d’obrar és l’aptitud per exercir drets i complir obligacions per un mateix, no simplement per ser-ne titular."
+},
+{
+"text": "Capacitat jurídica.",
+"isCorrect": true,
+"rationale": "La capacitat jurídica és l’aptitud per ser titular de drets i obligacions."
+},
+{
+"text": "Condició de persona interessada.",
+"isCorrect": false,
+"rationale": "La condició de persona interessada depèn de la relació concreta amb un procediment administratiu, no de la simple aptitud per ser titular de drets i obligacions."
+},
+{
+"text": "Totes les respostes són correctes.",
+"isCorrect": false,
+"rationale": "No totes les respostes són correctes: la definició correspon a la capacitat jurídica."
+}
+],
+"hint": "Capacitat jurídica és titularitat; capacitat d’obrar és exercici."
+},
+{
+"guid": "c8452c1a-3762-455a-9225-0e2adf3f0b17",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Quin d’aquests drets és exclusiu de la persona interessada en un procediment?",
+"answerOptions": [
+{
+"text": "Dret a ser-hi assistida en l’ús de mitjans electrònics.",
+"isCorrect": false,
+"rationale": "L’assistència en l’ús de mitjans electrònics és un dret general de les persones en les seves relacions amb les administracions, no exclusiu de la persona interessada."
+},
+{
+"text": "Dret a utilitzar els mitjans d’identificació i signatura electrònica previstos legalment.",
+"isCorrect": false,
+"rationale": "Aquest és un dret general en les relacions electròniques amb l’Administració, no exclusiu de qui té la condició de persona interessada en un procediment."
+},
+{
+"text": "Dret a actuar assistida d’un assessor.",
+"isCorrect": true,
+"rationale": "La persona interessada té dret a actuar assistida d’un assessor quan ho consideri convenient en defensa dels seus interessos."
+},
+{
+"text": "Dret a la confidencialitat de les seves dades personals que figurin als fitxers, sistemes i aplicacions de l’Administració.",
+"isCorrect": false,
+"rationale": "La confidencialitat de les dades personals és un dret general de les persones, no exclusiu de la persona interessada en un procediment concret."
+}
+],
+"hint": "Busca un dret propi de l’article 53 de la Llei 39/2015."
+},
+{
+"guid": "24585c43-c806-4092-956d-52f5bbeb5b7a",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Les categories d’apoderaments que poden inscriure’s al Registre electrònic de representació de l’Administració de la Generalitat de Catalunya:",
+"answerOptions": [
+{
+"text": "No inclouen les habilitacions per a l'autorització en la realització de transaccions, per part de persones físiques o jurídiques.",
+"isCorrect": false,
+"rationale": "La regulació catalana del Registre electrònic de representació pot incloure categories i habilitacions més àmplies en els termes del Decret 76/2020."
+},
+{
+"text": "No és correcta cap de les respostes.",
+"isCorrect": false,
+"rationale": "Sí que hi ha una resposta correcta: es poden establir més categories mitjançant resolució del departament competent."
+},
+{
+"text": "Es limiten als tres tipus d’apoderaments enumerats a l’article 6.4 de la LPACAP.",
+"isCorrect": false,
+"rationale": "No es limiten necessàriament als tres tipus previstos a la Llei 39/2015, ja que la normativa catalana pot concretar o ampliar categories en el seu registre."
+},
+{
+"text": "Se’n poden establir més mitjançant una resolució del departament competent en matèria de polítiques digitals.",
+"isCorrect": true,
+"rationale": "El Decret 76/2020 permet que s’estableixin més categories d’apoderaments mitjançant resolució del departament competent en matèria de polítiques digitals."
+}
+],
+"hint": "Fixa’t en l’article 81.2 del Decret 76/2020."
+},
+{
+"guid": "7f973445-8d75-4cfc-a7d8-6409f5ebf48f",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "NO està obligat a relacionar-se electrònicament amb l'Administració de la Generalitat de Catalunya:",
+"answerOptions": [
+{
+"text": "Un empresari individual o autònom en les actuacions que realitza en la seva condició d’empresari.",
+"isCorrect": false,
+"rationale": "En l’àmbit de l’Administració de la Generalitat, els empresaris individuals o autònoms poden estar obligats a relacionar-se electrònicament en actuacions vinculades a la seva activitat empresarial."
+},
+{
+"text": "El representant d’una persona que està obligada a relacionar-se electrònicament amb l'Administració.",
+"isCorrect": false,
+"rationale": "Els representants de persones obligades a relacionar-se electrònicament també estan obligats a fer-ho."
+},
+{
+"text": "Un empleat de l’Administració de la Generalitat per als tràmits que efectua com a expropiat en un procediment d’expropiació forçosa.",
+"isCorrect": true,
+"rationale": "L’empleat públic només està obligat a relacionar-se electrònicament per raó de la seva condició d’empleat en els tràmits i actuacions que determini l’Administració; si actua com a particular expropiat, no per això queda obligat."
+},
+{
+"text": "Una societat mercantil.",
+"isCorrect": false,
+"rationale": "Les persones jurídiques, com les societats mercantils, estan obligades a relacionar-se electrònicament amb l’Administració."
+}
+],
+"hint": "No és el mateix actuar com a empleat públic que actuar com a particular."
+},
+{
+"guid": "9cf1056d-20f6-4b20-8a62-66db49aa8e46",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "Quan diverses persones interessades s’adrecen a una administració pública per mitjà d’una única sol·licitud:",
+"answerOptions": [
+{
+"text": "Han d’indicar sempre una tercera persona que les representi en el procediment.",
+"isCorrect": false,
+"rationale": "Poden designar representant o persona amb qui s’hagin d’entendre les actuacions, però no cal que sigui sempre una tercera persona."
+},
+{
+"text": "Abans del tràmit d’audiència del procediment, qualsevol de les persones sol·licitants podrà formular-hi al·legacions de manera individual.",
+"isCorrect": true,
+"rationale": "Encara que les actuacions s’entenguin amb la persona designada o amb qui figuri en primer lloc, les persones interessades conserven la possibilitat d’actuar i formular al·legacions en defensa dels seus interessos."
+},
+{
+"text": "L’Administració sempre s’ha d’entendre amb la persona interessada que figuri en primer lloc en l’escrit.",
+"isCorrect": false,
+"rationale": "Això només passa si no s’ha designat una persona representant o una persona amb qui s’hagin d’entendre les actuacions."
+},
+{
+"text": "Únicament la persona designada podrà presentar al·legacions durant la tramitació de la resta del procediment.",
+"isCorrect": false,
+"rationale": "La designació d’una persona per a les actuacions no priva la resta de persones interessades dels seus drets en el procediment."
+}
+],
+"hint": "La persona designada facilita la tramitació, però no elimina els drets de la resta d’interessats."
+},
+{
+"guid": "77b4fe8f-0d5c-4fa3-955c-0d3cd910f48e",
+"subjectId": "T12",
+"difficulty": 1,
+"origin": "Curs de Procediment Administratiu",
+"type": "test",
+"question": "En cas d’identificar persones interessades després d’haver-se realitzat tràmits preceptius del procediment:",
+"answerOptions": [
+{
+"text": "Si es tracta de persones titulars de drets, l’administració pot comunicar-los la tramitació del procediment.",
+"isCorrect": false,
+"rationale": "Si es tracta de titulars de drets que puguin resultar afectats, l’Administració ha de comunicar-los la tramitació del procediment; no és una mera facultat discrecional."
+},
+{
+"text": "Sempre s’han de retrotreure les actuacions perquè puguin intervenir en aquells tràmits.",
+"isCorrect": false,
+"rationale": "La identificació posterior de persones interessades no comporta sempre i automàticament la retroacció de les actuacions ja realitzades."
+},
+{
+"text": "Si són titulars d'interessos legítims i directes, hauran de comparèixer de manera expressa en el procediment.",
+"isCorrect": true,
+"rationale": "Les persones titulars d’interessos legítims i directes poden adquirir la condició d’interessades si compareixen en el procediment abans que recaigui resolució definitiva."
+},
+{
+"text": "Totes les respostes són correctes.",
+"isCorrect": false,
+"rationale": "No totes les afirmacions són correctes: no sempre cal retrotraure actuacions i la comunicació als titulars de drets no és només potestativa."
+}
+],
+"hint": "Diferencia titulars de drets afectats i titulars d’interessos legítims i directes."
+}
+]
