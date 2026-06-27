@@ -1,0 +1,152 @@
+[
+    {
+        "guid": "12695dd2-590c-4150-8bcb-a0626bd2b5d6",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Quin d’aquests actes administratius és susceptible de ser executat forçosament davant de la resistència dels obligats:",
+        "answerOptions": [
+     {"text":"La declaració de caducitat d’un procediment administratiu.","isCorrect":false,"rationale":"La declaració de caducitat posa fi al procediment,però no imposa una obligació material susceptible d’execució forçosa davant la resistència de la persona obligada."},
+     {"text":"La resolució sancionadora contra la qual s’hi pot interposar un recurs d’alçada.","isCorrect":false,"rationale":"Una resolució sancionadora no és executiva mentre encara hi cap recurs ordinari en via administrativa,com el recurs d’alçada."},
+     {"text":"L’ordre d’execució d’una neteja de runes per mantenir les condicions de seguretat,salubritat i ornament públic.","isCorrect":true,"rationale":"L’ordre d’execució imposa una obligació de fer i,si la persona obligada s’hi resisteix,pot ser objecte d’execució forçosa pels mitjans previstos legalment."},
+     {"text":"La concessió d'una autorització ambiental per a exercir una activitat ramadera.","isCorrect":false,"rationale":"Una autorització habilita per exercir una activitat,però no imposa per si mateixa una obligació susceptible d’execució forçosa."}
+    ],
+        "hint": "Pensa en actes que imposen una obligació concreta de fer, no en actes merament declaratius o habilitants."
+    },
+    {
+        "guid": "cd1d0206-128e-4751-8d8c-ed15fe51d3c8",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La resolució mitjançant la qual una administració condona una sanció tributària és un supòsit de:",
+        "answerOptions": [
+     {"text":"Rectificació d’errors materials,de fet o aritmètics.","isCorrect":false,"rationale":"La condonació d’una sanció tributària no és una simple correcció d’un error material,de fet o aritmètic."},
+     {"text":"Revisió d’un acte anul·lable que no és declaratiu de drets.","isCorrect":false,"rationale":"La condonació d’una sanció no encaixa com una revisió ordinària d’un acte anul·lable no declaratiu de drets."},
+     {"text":"Conversió d’un acte invàlid en un altre acte administratiu diferent.","isCorrect":false,"rationale":"La conversió consisteix a conservar els elements vàlids d’un acte invàlid transformant-lo en un altre acte que pugui produir efectes,però la condonació no és això."},
+     {"text":"No és correcta cap de les respostes.","isCorrect":true,"rationale":"La condonació d’una sanció tributària no correspon als supòsits indicats de rectificació,revisió d’actes anul·lables o conversió."}
+    ],
+        "hint": "No confonguis condonar una sanció amb rectificar un error."
+    },
+    {
+        "guid": "252c9a5f-bbda-4bdc-a5db-01d6e9f49dff",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Quan una persona interessada demana a l’Administració que revisi d’ofici un acte administratiu per considerar-lo nul de ple dret:",
+        "answerOptions": [
+     {"text":"Un cop transcorreguts 6 mesos des que es va iniciar el procediment sense que s’hi hagi dictat cap resolució,se’n produeix la caducitat.","isCorrect":false,"rationale":"La caducitat als sis mesos opera en els procediments de revisió d’ofici iniciats d’ofici,però si el procediment s’ha iniciat a sol·licitud de persona interessada,el silenci té efecte desestimatori."},
+     {"text":"En tractar-se d’una persona interessada,l’Administració no pot acordar la inadmissió a tràmit d'aquesta sol·licitud.","isCorrect":false,"rationale":"L’Administració pot inadmetre motivadament la sol·licitud de revisió d’ofici en els supòsits legalment previstos."},
+     {"text":"Contra la resolució expressa o presumpta del procediment de revisió,la persona interessada podrà interposar-hi recurs contenciós administratiu.","isCorrect":true,"rationale":"La resolució expressa o presumpta de la revisió d’ofici es pot impugnar davant la jurisdicció contenciosa administrativa."},
+     {"text":"Cal concedir audiència a la resta de persones interessades abans d’efectuar la declaració de lesivitat.","isCorrect":false,"rationale":"La declaració de lesivitat és una figura diferent,relativa a actes anul·lables favorables per a les persones interessades,no al procediment de revisió d’ofici d’actes nuls."}
+    ],
+        "hint": "Diferencia revisió d’ofici d’actes nuls i declaració de lesivitat d’actes anul·lables favorables."
+    },
+    {
+        "guid": "33d93038-bc81-4890-83c7-b356a5999188",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La imposició d’una multa coercitiva:",
+        "answerOptions": [
+     {"text":"Només és possible en obligacions l’execució de les quals pot ser encarregada per la persona obligada a una altra persona.","isCorrect":false,"rationale":"Aquest supòsit s’associa més directament a l’execució subsidiària. Les multes coercitives poden utilitzar-se en els casos previstos legalment per compel·lir el compliment."},
+     {"text":"És incompatible amb la imposició d’una sanció.","isCorrect":false,"rationale":"Les multes coercitives són independents de les sancions que puguin correspondre i són compatibles amb aquestes."},
+     {"text":"Ha de basar-se en una llei específica.","isCorrect":true,"rationale":"La imposició de multes coercitives exigeix habilitació en una llei específica que en determini la forma i quantia."},
+     {"text":"En virtut del principi non bis in ídem,no es pot reiterar.","isCorrect":false,"rationale":"Les multes coercitives es poden reiterar per lapses de temps suficients per complir l’obligació,perquè no tenen naturalesa sancionadora."}
+    ],
+        "hint": "La multa coercitiva no és una sanció: és un mitjà d’execució forçosa."
+    },
+    {
+        "guid": "2e6532f3-f987-4941-9f90-9ab81ebb5478",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "El recurs administratiu extraordinari de revisió:",
+        "answerOptions": [
+     {"text":"S’interposa contra actes administratius que ja no es poden impugnar mitjançant un recurs ordinari.","isCorrect":true,"rationale":"El recurs extraordinari de revisió s’interposa contra actes ferms en via administrativa,és a dir,actes que ja no es poden impugnar mitjançant recursos administratius ordinaris."},
+     {"text":"Es pot basar en qualsevol motiu d’invalidesa.","isCorrect":false,"rationale":"És un recurs extraordinari i només es pot fonamentar en els motius taxats legalment."},
+     {"text":"En cas d’optar per aquest recurs,ja no es pot formular pel mateix motiu una sol·licitud de rectificació d’errors aritmètics.","isCorrect":false,"rationale":"La rectificació d’errors materials,de fet o aritmètics és una via diferent que no queda necessàriament exclosa pel fet d’haver utilitzat el recurs extraordinari."},
+     {"text":"Contra la seva desestimació no hi cap recurs contenciós administratiu.","isCorrect":false,"rationale":"La resolució que desestima un recurs extraordinari de revisió pot ser impugnada davant la jurisdicció contenciosa administrativa."}
+    ],
+        "hint": "És extraordinari perquè només procedeix contra actes ferms i per motius taxats."
+    },
+    {
+        "guid": "3ad33eb3-5dde-454b-9b19-ab9fb7c3db37",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "És nul de ple dret l’acte administratiu:",
+        "answerOptions": [
+     {"text":"Dictat per un òrgan incompetent per raó de jerarquia.","isCorrect":false,"rationale":"La incompetència jeràrquica comporta,en general,anul·labilitat. La nul·litat de ple dret es reserva per a la incompetència manifesta per raó de matèria o territori."},
+     {"text":"Que es dicta com a conseqüència d’una infracció penal.","isCorrect":true,"rationale":"Són nuls de ple dret els actes que siguin constitutius d’infracció penal o es dictin com a conseqüència d’aquesta."},
+     {"text":"Que infringeix l’ordenament jurídic per incórrer en desviació de poder.","isCorrect":false,"rationale":"La desviació de poder és un supòsit d’anul·labilitat,no de nul·litat de ple dret."},
+     {"text":"Que només es pot convalidar amb efectes retroactius.","isCorrect":false,"rationale":"Els actes nuls de ple dret no són convalidables; la convalidació és pròpia dels actes anul·lables."}
+    ],
+        "hint": "La nul·litat de ple dret està taxada a l’article 47 de la Llei 39/2015."
+    },
+    {
+        "guid": "e249250e-94ff-4c7f-810d-30f88021a3e1",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La declaració de lesivitat per a l’interès públic d’una resolució administrativa:",
+        "answerOptions": [
+     {"text":"No es pot fer si han transcorregut cinc anys des de la notificació o publicació de la resolució.","isCorrect":false,"rationale":"La declaració de lesivitat no es pot adoptar un cop transcorreguts quatre anys des que es va dictar l’acte administratiu,no cinc anys."},
+     {"text":"Es notifica a les persones interessades perquè puguin interposar-hi el corresponent recurs.","isCorrect":false,"rationale":"La declaració de lesivitat no és directament recurrible,sense perjudici que es notifiqui a les persones interessades."},
+     {"text":"No hi cap si la resolució ja ha esdevingut ferma per a les persones interessades.","isCorrect":false,"rationale":"La declaració de lesivitat precisament pot afectar actes favorables que hagin esdevingut ferms,sempre que es compleixin els requisits legals."},
+     {"text":"El procediment per a declarar-la caduca als 3 mesos d’haver-se iniciat.","isCorrect":false,"rationale":"El procediment de declaració de lesivitat caduca si transcorren sis mesos des de la iniciació sense que s’hagi declarat la lesivitat."}
+    ],
+        "hint": "Compte: termini de quatre anys per declarar la lesivitat i sis mesos per resoldre el procediment."
+    },
+    {
+        "guid": "e52b2b94-e266-4bbc-a8f5-a3c4f31f3609",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "S’ha d’acordar la suspensió de l’executivitat d’una resolució administrativa contra la qual s’ha interposat un recurs d’alçada:",
+        "answerOptions": [
+     {"text":"Només si la sol·liciten la persona o persones interessades.","isCorrect":false,"rationale":"La suspensió no s’acorda només pel fet que la sol·liciti la persona interessada; cal ponderar els requisits legals."},
+     {"text":"Si l’acte impugnat és anul·lable i la seva execució no pot causar perjudicis de reparació impossible o difícil.","isCorrect":false,"rationale":"Un dels supòsits de suspensió és que l’execució pugui causar perjudicis de reparació impossible o difícil,no que no els pugui causar."},
+     {"text":"Sempre que l'Administració no hagi informat la persona interessada del termini màxim establert per resoldre-hi.","isCorrect":false,"rationale":"La manca d’informació sobre el termini màxim per resoldre no determina automàticament la suspensió de l’executivitat de l’acte impugnat."},
+     {"text":"No és correcta cap de les respostes.","isCorrect":true,"rationale":"Cap de les opcions descriu correctament els supòsits legals de suspensió. La suspensió pot acordar-se,prèvia ponderació,si l’execució causa perjudicis de reparació impossible o difícil o si la impugnació es fonamenta en alguna causa de nul·litat de ple dret."}
+    ],
+        "hint": "La interposició d’un recurs no suspèn automàticament l’execució de l’acte."
+    },
+    {
+        "guid": "7d741ab1-a546-4be4-b8b4-72770c8c4ba2",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "El recurs administratiu de reposició es pot interposar:",
+        "answerOptions": [
+     {"text":"Contra la resolució dictada arran d’un recurs de reposició anterior.","isCorrect":false,"rationale":"Contra la resolució d’un recurs de reposició no es pot interposar un nou recurs de reposició."},
+     {"text":"Contra la prèvia resolució d’un recurs d’alçada.","isCorrect":false,"rationale":"La resolució d’un recurs d’alçada posa fi a la via administrativa,però no és objecte de recurs potestatiu de reposició en aquests termes dins del règim ordinari de recursos administratius."},
+     {"text":"Si l’acte impugnat és presumpte,en el termini d’un mes a partir de l’endemà del dia en què s’ha produït el silenci administratiu.","isCorrect":false,"rationale":"Si l’acte no és exprés,el recurs de reposició es pot interposar en qualsevol moment a partir de l’endemà del dia en què es produeixi l’acte presumpte."},
+     {"text":"Si no s’opta per impugnar l’acte directament davant la jurisdicció contenciosa administrativa.","isCorrect":true,"rationale":"El recurs de reposició és potestatiu i es pot interposar contra actes que posen fi a la via administrativa,si no s’opta per acudir directament a la jurisdicció contenciosa administrativa."}
+    ],
+        "hint": "La reposició és potestativa: o reposició, o directament contenciós administratiu."
+    },
+    {
+        "guid": "d308991f-16f4-4e6e-aea4-e52ce54b6754",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Els recursos administratius ordinaris:",
+        "answerOptions": [
+     {"text":"Només es poden interposar contra les resolucions o actes administratius definitius.","isCorrect":false,"rationale":"Els recursos administratius també poden interposar-se contra determinats actes de tràmit qualificats,no només contra resolucions o actes definitius."},
+     {"text":"No es poden substituir mai per cap altre procediment d’impugnació,reclamació,conciliació,mediació o arbitratge.","isCorrect":false,"rationale":"Les lleis poden substituir el recurs d’alçada o reposició,en supòsits o àmbits sectorials determinats,per altres procediments d’impugnació,reclamació,conciliació,mediació o arbitratge."},
+     {"text":"Si l’acte impugnat és exprés,s’interposen en el termini d’un mes a partir de l’endemà de la seva notificació o publicació.","isCorrect":true,"rationale":"Quan l’acte és exprés,tant el recurs d’alçada com el recurs potestatiu de reposició s’han d’interposar en el termini d’un mes des de l’endemà de la notificació o publicació."},
+     {"text":"No s’han d’admetre a tràmit si la persona interessada no hi ha indicat expressament quin tipus de recurs interposa.","isCorrect":false,"rationale":"L’error o l’absència de qualificació del recurs no impedeix la seva tramitació si se’n dedueix el caràcter vertader."}
+    ],
+        "hint": "Els recursos ordinaris principals són alçada i reposició; fixa’t en termini i actes recurribles."
+    }
+]

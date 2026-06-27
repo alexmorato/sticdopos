@@ -1,0 +1,152 @@
+[
+    {
+        "guid": "16ef58f1-7881-48c7-81bf-cb7a5ba1f20f",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "NO forma part de l’expedient administratiu:",
+        "answerOptions": [
+     {"text":"Les notificacions.","isCorrect":false,"rationale":"Les notificacions formen part de l’expedient administratiu,ja que documenten actes i tràmits del procediment."},
+     {"text":"La informació que tingui caràcter auxiliar o de suport.","isCorrect":true,"rationale":"La informació auxiliar o de suport,com ara notes,esborranys,opinions internes o comunicacions internes,no forma part de l’expedient administratiu."},
+     {"text":"Les proves.","isCorrect":false,"rationale":"Les proves practicades durant el procediment sí que formen part de l’expedient administratiu."},
+     {"text":"La resolució administrativa.","isCorrect":false,"rationale":"La resolució administrativa és un dels documents principals que integren l’expedient."}
+    ],
+        "hint": "Recorda que l’expedient no inclou la informació auxiliar o de suport."
+    },
+    {
+        "guid": "cd05b0c6-6d4f-4bb0-a47d-9957360aa0ef",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "L’impuls del procediment administratiu:",
+        "answerOptions": [
+     {"text":"Es fa d’ofici en tots els tràmits que són responsabilitat de l’Administració.","isCorrect":true,"rationale":"El procediment s’impulsa d’ofici en tots els seus tràmits,sense necessitat que la persona interessada ho sol·liciti."},
+     {"text":"Requereix la intervenció de la persona interessada.","isCorrect":false,"rationale":"L’impuls del procediment correspon a l’Administració i no depèn,com a regla general,de la intervenció de la persona interessada."},
+     {"text":"Està sotmès al principi de celeritat.","isCorrect":false,"rationale":"El procediment està sotmès al principi de celeritat,però l’opció que defineix pròpiament l’impuls procedimental és que es fa d’ofici."},
+     {"text":"Es fa per mitjans electrònics quan ho demani la persona interessada.","isCorrect":false,"rationale":"L’impuls del procediment s’ha de fer per mitjans electrònics d’acord amb la normativa,no només quan ho demani la persona interessada."}
+    ],
+        "hint": "La clau és que l’Administració impulsa el procediment d’ofici."
+    },
+    {
+        "guid": "c5d11bd8-d5f5-4a6f-a7db-ae9e6d43d57d",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "NO és un acte d’instrucció:",
+        "answerOptions": [
+     {"text":"Les qüestions incidentals.","isCorrect":true,"rationale":"Les qüestions incidentals poden plantejar-se durant el procediment,però no són pròpiament actes d’instrucció destinats a determinar,conèixer o comprovar les dades per resoldre."},
+     {"text":"Les al·legacions de la persona interessada.","isCorrect":false,"rationale":"Les al·legacions formen part de la fase d’instrucció del procediment."},
+     {"text":"La informació pública.","isCorrect":false,"rationale":"La informació pública és un tràmit d’instrucció quan la naturalesa del procediment ho requereix."},
+     {"text":"La prova.","isCorrect":false,"rationale":"La prova és un acte típic d’instrucció del procediment."}
+    ],
+        "hint": "Els actes d’instrucció serveixen per preparar la decisió final."
+    },
+    {
+        "guid": "478a10e1-b4e8-458b-b241-30a6eb2334c6",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Si la sol·licitud no reuneix els requisits que estableix la Llei:",
+        "answerOptions": [
+     {"text":"S’ha d'arxivar sense més tràmit.","isCorrect":false,"rationale":"No es pot arxivar directament sense donar abans l’oportunitat d’esmenar la sol·licitud."},
+     {"text":"La persona interessada desisteix de la seva petició.","isCorrect":false,"rationale":"El desistiment no es produeix automàticament pel fet que la sol·licitud tingui defectes; cal requerir abans l’esmena."},
+     {"text":"S'ha de declarar la caducitat del procediment.","isCorrect":false,"rationale":"La manca inicial de requisits de la sol·licitud no comporta la caducitat,sinó un requeriment d’esmena."},
+     {"text":"S'ha de requerir la persona interessada perquè esmeni la mancança.","isCorrect":true,"rationale":"Quan la sol·licitud no reuneix els requisits exigits,s’ha de requerir la persona interessada perquè l’esmeni en el termini corresponent."}
+    ],
+        "hint": "Abans d’arxivar, cal donar opció d’esmenar."
+    },
+    {
+        "guid": "9dbcfc9f-b614-469f-b6c7-9b3a6914e904",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Llevat que hi hagi una disposició expressa en sentit contrari, els informes són:",
+        "answerOptions": [
+     {"text":"Preceptius i vinculants.","isCorrect":false,"rationale":"Els informes només són preceptius o vinculants quan una norma ho estableix expressament."},
+     {"text":"Preceptius i no vinculants.","isCorrect":false,"rationale":"Com a regla general,els informes no són preceptius; només ho són si una norma ho exigeix."},
+     {"text":"Facultatius i vinculants.","isCorrect":false,"rationale":"Els informes no són vinculants llevat que una disposició expressa ho estableixi."},
+     {"text":"Facultatius i no vinculants.","isCorrect":true,"rationale":"Si no hi ha una disposició expressa en sentit contrari,els informes són facultatius i no vinculants."}
+    ],
+        "hint": "La regla general és facultatiu i no vinculant."
+    },
+    {
+        "guid": "da993b2a-bbe0-48e6-969c-b8ffc8fa1975",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "El tràmit d’informació pública:",
+        "answerOptions": [
+     {"text":"No pot tenir una durada inferior a vint dies.","isCorrect":true,"rationale":"El tràmit d’informació pública ha de tenir una durada no inferior a vint dies."},
+     {"text":"S’adreça exclusivament a les persones interessades.","isCorrect":false,"rationale":"La informació pública s’adreça a qualsevol persona física o jurídica que pugui examinar l’expedient o la part corresponent."},
+     {"text":"Confereix la condició de persona interessada a qui hi formula al·legacions.","isCorrect":false,"rationale":"La compareixença en el tràmit d’informació pública no atorga,per si mateixa,la condició de persona interessada."},
+     {"text":"La compareixença en aquest tràmit és un requisit imprescindible per interposar recursos contra la resolució.","isCorrect":false,"rationale":"La incompareixença en el tràmit d’informació pública no impedeix interposar els recursos procedents contra la resolució definitiva."}
+    ],
+        "hint": "Informació pública no és el mateix que tràmit d’audiència."
+    },
+    {
+        "guid": "b58433b4-36c4-4e5d-ab5f-7c39494114aa",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La declaració responsable:",
+        "answerOptions": [
+     {"text":"Serveix per posar en coneixement de l'Administració les dades identificatives de la persona interessada o qualsevol dada rellevant per exercir un dret o iniciar una activitat.","isCorrect":false,"rationale":"Aquesta definició correspon a la comunicació,no a la declaració responsable."},
+     {"text":"Produeix efectes un cop transcorregut un mes des de la presentació.","isCorrect":false,"rationale":"La declaració responsable permet,com a regla general,el reconeixement o exercici d’un dret o l’inici d’una activitat des del dia de la seva presentació."},
+     {"text":"Pot ser exigida acumulativament amb una comunicació per a l’exercici d’una única activitat.","isCorrect":false,"rationale":"No es pot exigir conjuntament declaració responsable i comunicació per a l’exercici d’una mateixa activitat,llevat dels supòsits legalment justificats."},
+     {"text":"L’omissió de caràcter essencial en qualsevol dada incorporada a una declaració responsable determina la impossibilitat de continuar l'exercici del dret o l'activitat afectada des del moment en què es tingui constància del fet.","isCorrect":true,"rationale":"La inexactitud,falsedat o omissió de caràcter essencial en una declaració responsable determina la impossibilitat de continuar amb l’exercici del dret o activitat des del moment en què l’Administració en tingui constància."}
+    ],
+        "hint": "No confonguis declaració responsable amb comunicació."
+    },
+    {
+        "guid": "cbf12a07-bb35-4e31-8228-acaa36e6a4ae",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "NO és una forma de finalització del procediment administratiu:",
+        "answerOptions": [
+     {"text":"La terminació convencional.","isCorrect":false,"rationale":"La terminació convencional és una forma de finalització del procediment administratiu."},
+     {"text":"El silenci administratiu.","isCorrect":true,"rationale":"El silenci administratiu produeix efectes jurídics davant la manca de resolució expressa,però no figura com una de les formes de finalització del procediment enumerades a l’article 84 de la Llei 39/2015."},
+     {"text":"La declaració de caducitat del procediment.","isCorrect":false,"rationale":"La declaració de caducitat és una forma de finalització del procediment."},
+     {"text":"La impossibilitat material de continuar la tramitació.","isCorrect":false,"rationale":"La impossibilitat material de continuar el procediment per causes sobrevingudes també és una forma de finalització."}
+    ],
+        "hint": "L’article 84 enumera les formes de terminació del procediment."
+    },
+    {
+        "guid": "be51ce39-a3f8-4227-8bb3-ffcdc16f396b",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La tramitació simplificada del procediment:",
+        "answerOptions": [
+     {"text":"Un cop acordada no és possible declarar la continuació del procediment segons la tramitació ordinària.","isCorrect":false,"rationale":"En qualsevol moment anterior a la resolució es pot acordar continuar el procediment d’acord amb la tramitació ordinària."},
+     {"text":"Es pot acordar d’ofici o a sol·licitud de la persona interessada.","isCorrect":true,"rationale":"La tramitació simplificada es pot acordar d’ofici o a sol·licitud de la persona interessada quan raons d’interès públic o la manca de complexitat del procediment ho aconsellin."},
+     {"text":"Comporta que el procediment s’ha de resoldre,com a màxim,en un mes.","isCorrect":false,"rationale":"Els procediments de tramitació simplificada s’han de resoldre en trenta dies,no en un mes com a formulació general."},
+     {"text":"No és aplicable si està pendent el tràmit d’audiència.","isCorrect":false,"rationale":"La tramitació simplificada pot incloure el tràmit d’audiència quan sigui necessari."}
+    ],
+        "hint": "La tramitació simplificada pot iniciar-se d’ofici o a petició de la persona interessada."
+    },
+    {
+        "guid": "0f5fd087-1fb6-4a9a-bf5b-92369f1c8a47",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Les actuacions complementàries:",
+        "answerOptions": [
+     {"text":"Són acordades per la persona instructora del procediment.","isCorrect":false,"rationale":"Les actuacions complementàries són acordades per l’òrgan competent per resoldre el procediment,no per la persona instructora."},
+     {"text":"No suspenen el termini per resoldre el procediment.","isCorrect":false,"rationale":"L’acord de realització d’actuacions complementàries suspèn el termini per resoldre fins que s’acabin."},
+     {"text":"S’han de practicar en un termini no superior a deu dies.","isCorrect":false,"rationale":"Les actuacions complementàries s’han de practicar en un termini no superior a quinze dies."},
+     {"text":"L’acord de realització s’ha de notificar a les persones interessades.","isCorrect":true,"rationale":"L’acord de realització d’actuacions complementàries s’ha de notificar a les persones interessades i se’ls ha de concedir termini per formular al·legacions."}
+    ],
+        "hint": "Les acorda l’òrgan competent per resoldre i s’han de notificar."
+    }
+]
