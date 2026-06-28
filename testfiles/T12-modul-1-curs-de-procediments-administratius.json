@@ -1,0 +1,152 @@
+[
+    {
+        "guid": "ff11b0f8-98bb-4016-bcbb-093de59f1f08",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La Llei 26/2010, del 3 d'agost, de règim jurídic i de procediment de les administracions públiques de Catalunya, NO és aplicable a:",
+        "answerOptions": [
+     {"text":"Un consorci en què participen majoritàriament els consells comarcals del Montsià i del Baix Ebre.","isCorrect":false,"rationale":"La Llei 26/2010 és aplicable als consorcis vinculats o dependents de les administracions públiques catalanes quan formen part del seu sector públic."},
+     {"text":"El Síndic de Greuges.","isCorrect":true,"rationale":"El Síndic de Greuges és una institució estatutària i no forma part de l'Administració pública catalana ordinària a la qual s'aplica directament aquesta llei."},
+     {"text":"Un organisme autònom de gestió i recaptació de tributs que depèn de l’Ajuntament de Reus.","isCorrect":false,"rationale":"Els organismes autònoms dependents d'una administració local catalana formen part del sector públic al qual és aplicable la Llei 26/2010."},
+     {"text":"L’Agència Tributària de Catalunya.","isCorrect":false,"rationale":"L’Agència Tributària de Catalunya forma part del sector públic de la Generalitat i queda dins l’àmbit d’aplicació de la Llei 26/2010."}
+    ],
+        "hint": "Pensa quins ens formen part de l'Administració pública catalana i quins són institucions estatutàries."
+    },
+    {
+        "guid": "ba8de0d9-66e1-4950-bfdf-d49551fd74e5",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La regulació general de la competència dels òrgans administratius:",
+        "answerOptions": [
+     {"text":"Estableix que les competències atribuïdes a un òrgan administratiu no es poden alterar ni afectar en cap cas.","isCorrect":false,"rationale":"La competència és irrenunciable,però la normativa admet tècniques com la delegació,l’avocació,la suplència o l’encàrrec de gestió en els casos previstos legalment."},
+     {"text":"Es troba a la Llei 39/2015,d’1 d’octubre,del procediment administratiu comú de les administracions públiques.","isCorrect":false,"rationale":"La Llei 39/2015 regula principalment el procediment administratiu comú,no la regulació general de l'organització i competència dels òrgans administratius."},
+     {"text":"Hem d’anar-la a buscar a la Llei 40/2015,d’1 d’octubre,de règim jurídic del sector públic.","isCorrect":true,"rationale":"La Llei 40/2015 regula el règim jurídic del sector públic i conté la regulació general sobre òrgans administratius i competència."},
+     {"text":"Prohibeix la delegació o autorització de signatura.","isCorrect":false,"rationale":"La normativa no prohibeix aquestes figures; les regula i permet la seva utilització amb els requisits corresponents."}
+    ],
+        "hint": "Diferencia entre procediment administratiu comú i règim jurídic del sector públic."
+    },
+    {
+        "guid": "5b676867-26de-453a-9c3d-441312f1af06",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Les normes de procediment administratiu derivades de les particularitats de l'organització de l'Administració de la Generalitat de Catalunya en l’àmbit de l’Administració digital les trobarem:",
+        "answerOptions": [
+     {"text":"A la Llei 39/2015,d’1 d’octubre,del procediment administratiu comú de les administracions públiques.","isCorrect":false,"rationale":"La Llei 39/2015 estableix la regulació bàsica del procediment administratiu comú,però no regula específicament les particularitats organitzatives digitals de la Generalitat."},
+     {"text":"Al Reial decret 203/2021,de 30 de març,pel qual s'aprova el Reglament d'actuació i funcionament del sector públic per mitjans electrònics.","isCorrect":false,"rationale":"El Reial decret 203/2021 desenvolupa l’actuació electrònica del sector públic estatal i el marc general,però no és la norma específica de l’Administració digital de la Generalitat."},
+     {"text":"A la Llei 26/2010,de 3 d'agost,de règim jurídic i de procediment de les administracions públiques de Catalunya.","isCorrect":false,"rationale":"La Llei 26/2010 regula el règim jurídic i el procediment de les administracions públiques catalanes,però la norma específica d’administració digital és una altra."},
+     {"text":"Al Decret 76/2020,de 4 d’agost,d’Administració digital.","isCorrect":true,"rationale":"El Decret 76/2020 regula l’Administració digital en l’àmbit de l’Administració de la Generalitat de Catalunya i el seu sector públic."}
+    ],
+        "hint": "Busca la norma catalana específica sobre Administració digital."
+    },
+    {
+        "guid": "80ce1abb-94ae-4d1e-98a3-d7fb61f7ef96",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Una societat mercantil que presenta per mitjans electrònics el seu escrit d’al·legacions contra l’acord d’incoació d’un procediment sancionador:",
+        "answerOptions": [
+     {"text":"Ha d’acreditar-hi la seva identitat i signar electrònicament el document,ja que es tracta d’un supòsit en què es requereix l’ús de signatura electrònica.","isCorrect":false,"rationale":"La presentació d’al·legacions no és,amb caràcter general,un dels supòsits en què la Llei 39/2015 exigeix necessàriament signatura electrònica."},
+     {"text":"Només ha d’emprar-hi la identificació electrònica,perquè estem davant d’un supòsit en que no cal l’ús de signatura electrònica.","isCorrect":true,"rationale":"Les persones jurídiques estan obligades a relacionar-se electrònicament amb l’Administració,però no tots els tràmits exigeixen signatura electrònica; per a les al·legacions ordinàries pot ser suficient la identificació."},
+     {"text":"No cal que s’identifiqui ni que signi hi electrònicament,perquè una societat mercantil no està obligada a relacionar-se electrònicament amb l'administració.","isCorrect":false,"rationale":"Les societats mercantils són persones jurídiques i estan obligades a relacionar-se electrònicament amb les administracions públiques."},
+     {"text":"Encara que la seva signatura no compleixi els requisits d’una signatura electrònica qualificada,ha de signar l’escrit si vol que aquest tingui efectes jurídics.","isCorrect":false,"rationale":"No és correcte afirmar que sempre hagi de signar l’escrit perquè tingui efectes jurídics; la signatura només és exigible en els supòsits previstos legalment."}
+    ],
+        "hint": "Recorda la diferència entre identificació electrònica i signatura electrònica."
+    },
+    {
+        "guid": "00e5709f-3331-491c-9cb7-b34baba5d6e0",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Les oficines d’atenció presencial que configura el Decret 76/2020, de 4 d’agost, d’Administració digital:",
+        "answerOptions": [
+     {"text":"Inscriuen la representació de qui ho sol·liciti en el Registre electrònic de representació de l'Administració de la Generalitat.","isCorrect":false,"rationale":"Aquesta és una de les funcions de les oficines d’atenció presencial,però no és l’única opció correcta."},
+     {"text":"Assisteixen les persones en l'accés electrònic als procediments i tràmits administratius.","isCorrect":false,"rationale":"Aquesta és una funció pròpia de les oficines d’atenció presencial,però no és l’única opció correcta."},
+     {"text":"Han de comprovar la identitat de les persones que intervenen en un procediment administratiu.","isCorrect":false,"rationale":"La comprovació de la identitat també forma part de les funcions d’aquestes oficines,però no és l’única resposta correcta."},
+     {"text":"Totes les respostes són correctes.","isCorrect":true,"rationale":"Les oficines d’atenció presencial poden assistir en l’accés electrònic,comprovar la identitat i gestionar actuacions vinculades a la representació."}
+    ],
+        "hint": "L’article 40 del Decret 76/2020 atribueix diverses funcions a aquestes oficines."
+    },
+    {
+        "guid": "df223f90-0a48-4f8a-8989-196d4a9aaf68",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La suplència:",
+        "answerOptions": [
+     {"text":"Suposa que un òrgan en reemplaça un altre fent les seves funcions.","isCorrect":false,"rationale":"La suplència afecta normalment la persona titular d’un òrgan administratiu,no implica pròpiament que un òrgan substitueixi un altre alterant la competència."},
+     {"text":"Es pot produir en cas de malaltia.","isCorrect":true,"rationale":"La suplència es pot produir en casos com vacant,absència,malaltia,abstenció o recusació de la persona titular de l’òrgan."},
+     {"text":"Comporta l’exercici de funcions per temps indefinit.","isCorrect":false,"rationale":"La suplència és temporal i respon a situacions concretes com absència,vacant o malaltia."},
+     {"text":"És un supòsit d’alteració de la competència.","isCorrect":false,"rationale":"La suplència no altera la competència de l’òrgan; només permet que una altra persona exerceixi temporalment les funcions del titular."}
+    ],
+        "hint": "La suplència no canvia la competència, només qui exerceix temporalment les funcions."
+    },
+    {
+        "guid": "b98bb400-851f-415a-82ce-298f47daee89",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "La garantia d’irretractabilitat dels certificats digitals significa que:",
+        "answerOptions": [
+     {"text":"La signatura correspon a qui signa.","isCorrect":false,"rationale":"Aquesta idea s’associa més aviat amb l’autenticitat de la signatura."},
+     {"text":"Només la persona emissora i la receptora del document poden accedir-hi.","isCorrect":false,"rationale":"Aquesta garantia es relaciona amb la confidencialitat,no amb la irretractabilitat."},
+     {"text":"El document electrònic rebut procedeix de manera indubtable de la persona emissora.","isCorrect":true,"rationale":"La irretractabilitat o no-repudi permet atribuir l’origen del document a l’emissor i impedeix que aquest pugui negar-ne l’autoria o l’enviament."},
+     {"text":"El document electrònic al qual està associat no ha estat modificat ni manipulat durant la seva transmissió entre la persona emissora i la persona destinatària.","isCorrect":false,"rationale":"Aquesta garantia correspon a la integritat del document,no a la irretractabilitat."}
+    ],
+        "hint": "Irretractabilitat equival a no poder negar l’autoria o l’enviament."
+    },
+    {
+        "guid": "7df29c4b-b1ef-4968-96ae-8523394ff8a0",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "En relació amb els tipus de signatura electrònica, NO és cert que:",
+        "answerOptions": [
+     {"text":"La signatura electrònica qualificada té un efecte jurídic equivalent al d'una signatura manuscrita.","isCorrect":false,"rationale":"Aquesta afirmació és certa:la signatura electrònica qualificada té efectes equivalents a la signatura manuscrita."},
+     {"text":"La signatura electrònica avançada conté elements que fan més senzill acreditar-ne l'autenticitat que no pas amb una signatura electrònica simple.","isCorrect":false,"rationale":"Aquesta afirmació és certa,perquè la signatura avançada ofereix més garanties d’identificació i vinculació amb el signant que la signatura simple."},
+     {"text":"Quan per signar l’usuari utilitza dades electròniques associades de forma lògica amb unes altres dades electròniques,estem davant d’una signatura electrònica simple.","isCorrect":false,"rationale":"Aquesta afirmació és certa i descriu la signatura electrònica simple segons el Reglament eIDAS."},
+     {"text":"La signatura electrònica avançada es basa en un certificat qualificat de signatura electrònica.","isCorrect":true,"rationale":"Aquesta afirmació no és certa com a regla general. La que es basa en un certificat qualificat i es crea mitjançant un dispositiu qualificat és la signatura electrònica qualificada."}
+    ],
+        "hint": "No confonguis signatura avançada amb signatura qualificada."
+    },
+    {
+        "guid": "58bda6b7-f906-4b8b-aef3-85607ba9accb",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "El Departament d’Interior de la Generalitat de Catalunya:",
+        "answerOptions": [
+     {"text":"Té personalitat jurídica pròpia.","isCorrect":false,"rationale":"Els departaments no tenen personalitat jurídica pròpia separada de l’Administració de la Generalitat."},
+     {"text":"No és una unitat administrativa.","isCorrect":false,"rationale":"Aquesta resposta no és la més adequada,perquè el departament s’integra en l’organització administrativa de la Generalitat."},
+     {"text":"És un òrgan administratiu.","isCorrect":true,"rationale":"Un departament de la Generalitat és un òrgan administratiu integrat dins l’Administració de la Generalitat,sense personalitat jurídica pròpia."},
+     {"text":"No és correcta cap de les respostes.","isCorrect":false,"rationale":"Sí que hi ha una resposta correcta:el Departament d’Interior és un òrgan administratiu."}
+    ],
+        "hint": "Recorda la diferència entre administració, òrgan administratiu i entitat amb personalitat jurídica pròpia."
+    },
+    {
+        "guid": "e969aac8-3c6b-431e-a9d4-7bd697806e0d",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "Curs de Procediment Administratiu",
+        "type": "test",
+        "question": "Quina d'aquestes afirmacions és predicable de la delegació de competències?",
+        "answerOptions": [
+     {"text":"Es fa sempre per a un assumpte concret.","isCorrect":false,"rationale":"La delegació de competències pot tenir caràcter general per a una matèria o àmbit,no necessàriament per a un assumpte concret."},
+     {"text":"Requereix que hi hagi una relació jeràrquica entre l’òrgan delegant i el delegat.","isCorrect":false,"rationale":"La delegació no exigeix necessàriament relació jeràrquica entre els òrgans,sempre que es compleixin els requisits legals."},
+     {"text":"Només es dóna entre òrgans d’una mateixa administració territorial.","isCorrect":false,"rationale":"La delegació no queda limitada en aquests termes; la normativa permet delegacions en òrgans de la mateixa administració o d’entitats de dret públic vinculades o dependents,segons els casos."},
+     {"text":"Se n’ha de publicar la revocació.","isCorrect":true,"rationale":"La delegació de competències i la seva revocació s’han de publicar en el diari oficial corresponent."}
+    ],
+        "hint": "Pensa en els requisits formals de la delegació: publicació i revocació."
+    }
+]
