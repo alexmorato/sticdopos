@@ -496,6 +496,32 @@
     let loadedText = '';
     let voices = [];
     let isSequentialReading = false;
+    let wakeLockSentinel = null;
+
+    async function requestWakeLock() {
+      if (!("wakeLock" in navigator)) return;
+      try {
+        if (!wakeLockSentinel) {
+          wakeLockSentinel = await navigator.wakeLock.request('screen');
+          wakeLockSentinel.addEventListener('release', () => {
+            wakeLockSentinel = null;
+          });
+        }
+      } catch (err) {
+        console.warn('Wake Lock no disponible:', err);
+      }
+    }
+
+    async function releaseWakeLock() {
+      if (!wakeLockSentinel) return;
+      try {
+        await wakeLockSentinel.release();
+      } catch (err) {
+        console.warn('No s\'ha pogut alliberar Wake Lock:', err);
+      } finally {
+        wakeLockSentinel = null;
+      }
+    }
 
     function setStatus(text, isError) {
       statusMsg.textContent = text;
@@ -507,6 +533,7 @@
       if ('speechSynthesis' in window) {
         window.speechSynthesis.cancel();
       }
+      releaseWakeLock();
       ttsTextContainer.querySelectorAll('.para-item.reading').forEach(el => el.classList.remove('reading'));
       setStatus('Aturat', false);
     }
@@ -566,6 +593,7 @@
 
       stopSpeaking();
       isSequentialReading = true;
+      requestWakeLock();
       setStatus('Reproduint...', false);
 
       let idx = 0;
@@ -578,6 +606,7 @@
         if (!isSequentialReading) return;
         if (idx >= chunks.length) {
           isSequentialReading = false;
+          releaseWakeLock();
           setStatus('Reproduccio finalitzada', false);
           return;
         }
@@ -596,6 +625,7 @@
         utterance.onerror = (event) => {
           console.error('Error TTS:', event);
           isSequentialReading = false;
+          releaseWakeLock();
           setStatus('Error en reproduccio TTS', true);
         };
 
@@ -737,6 +767,7 @@
       }
       stopSpeaking();
       isSequentialReading = true;
+      requestWakeLock();
       setStatus('Reproduint...', false);
 
       const voice = getSelectedVoice();
@@ -752,11 +783,13 @@
       const playNextParagraph = () => {
         if (!isSequentialReading) {
           paragraphEls.forEach(el => el.classList.remove('reading'));
+          releaseWakeLock();
           return;
         }
         if (idx >= paragraphEls.length) {
           isSequentialReading = false;
           paragraphEls.forEach(el => el.classList.remove('reading'));
+          releaseWakeLock();
           setStatus('Reproducció finalitzada', false);
           return;
         }
@@ -1019,6 +1052,12 @@
 
     window.addEventListener('beforeunload', () => {
       stopSpeaking();
+    });
+
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden && isSequentialReading) {
+        requestWakeLock();
+      }
     });
   </script>
 </body>
