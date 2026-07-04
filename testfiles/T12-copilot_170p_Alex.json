@@ -1,0 +1,2702 @@
+[
+    {
+        "guid": "1385d4ff-63df-4108-9a33-7b443905949e",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina de les següents actuacions NO és un acte administratiu?",
+        "answerOptions": [
+     {"text":"Un contracte administratiu de serveis signat amb una empresa.","isCorrect":true,"rationale":"Els contractes administratius no són actes administratius perquè manca la unilateralitat."},
+     {"text":"Una resolució que imposa una sanció administrativa.","isCorrect":false,"rationale":"És una declaració unilateral amb efectes jurídics."},
+     {"text":"Una llicència atorgada per un ajuntament a una persona.","isCorrect":false,"rationale":"Es tracta d'un acte administratiu favorable."},
+     {"text":"La resolució d'un recurs interposat per una persona interessada.","isCorrect":false,"rationale":"És una declaració de judici de l'Administració."}
+    ],
+        "hint": "Els contractes, els convenis, els reglaments i les actuacions materials no tenen la consideració d'actes administratius encara que hi participi una Administració Pública."
+    },
+    {
+        "guid": "77c70374-8ceb-4154-8917-3300fbe6762b",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Com es classifica una sanció administrativa segons el seu contingut?",
+        "answerOptions": [
+     {"text":"Acte desfavorable o de gravamen per a la persona afectada.","isCorrect":true,"rationale":"Limita drets o interessos i produeix un perjudici jurídic."},
+     {"text":"Acte favorable perquè resol un procediment administratiu.","isCorrect":false,"rationale":"El fet de resoldre no implica que sigui favorable."},
+     {"text":"Acte general perquè aplica normes de caràcter públic.","isCorrect":false,"rationale":"La classificació favorable/desfavorable depèn dels efectes."},
+     {"text":"Acte plúrim perquè pot afectar diverses persones alhora.","isCorrect":false,"rationale":"Aquesta és una altra classificació diferent."}
+    ],
+        "hint": "Els actes favorables amplien drets o facultats. Els actes desfavorables o de gravamen els limiten o imposen obligacions."
+    },
+    {
+        "guid": "2459e29e-cad4-4e7f-980d-9a5433924353",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què és un acte administratiu presumpte?",
+        "answerOptions": [
+     {"text":"L'acte que deriva dels efectes jurídics del silenci administratiu.","isCorrect":true,"rationale":"És la conseqüència de la manca de resolució dins del termini legal."},
+     {"text":"L'acte redactat verbalment abans de passar-lo a escrit.","isCorrect":false,"rationale":"La forma d'expressió no determina el seu caràcter presumpte."},
+     {"text":"L'acte provisional pendent de signatura per l'autoritat competent.","isCorrect":false,"rationale":"No guarda relació amb el silenci administratiu."},
+     {"text":"L'acte que conté diverses decisions dins una sola resolució.","isCorrect":false,"rationale":"Això correspondria a un acte plúrim."}
+    ],
+        "hint": "Quan l'Administració no resol dins del termini legal, la llei pot atribuir un significat a aquest silenci."
+    },
+    {
+        "guid": "b9ec9a54-edf1-4613-a5d3-faac3d8b188a",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina característica té un acte administratiu discrecional?",
+        "answerOptions": [
+     {"text":"Permet diverses solucions jurídicament vàlides segons el cas.","isCorrect":true,"rationale":"L'Administració disposa d'un marge d'apreciació."},
+     {"text":"Només pot adoptar una única solució prevista per la norma.","isCorrect":false,"rationale":"Això defineix una potestat reglada."},
+     {"text":"És sempre favorable per a les persones interessades.","isCorrect":false,"rationale":"La discrecionalitat no depèn del resultat."},
+     {"text":"No requereix motivació perquè existeix marge d'actuació.","isCorrect":false,"rationale":"Precisament els actes discrecionals han de motivar-se."}
+    ],
+        "hint": "La diferència entre potestat reglada i discrecional és un dels conceptes clau del tema."
+    },
+    {
+        "guid": "3d9e67b9-4cbb-45b5-9901-bf50259c5f6e",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin element de l'acte administratiu fa referència a la finalitat perseguida?",
+        "answerOptions": [
+     {"text":"L'element causal o teleològic de l'acte administratiu.","isCorrect":true,"rationale":"Fa referència a l'interès públic i a la finalitat de l'actuació."},
+     {"text":"L'element subjectiu relacionat amb l'òrgan competent.","isCorrect":false,"rationale":"Aquest element es refereix als subjectes."},
+     {"text":"L'element objectiu vinculat al contingut de la decisió.","isCorrect":false,"rationale":"L'objectiu tracta sobre el contingut de l'acte."},
+     {"text":"L'element formal que regula el procediment seguit.","isCorrect":false,"rationale":"L'element formal es refereix a la forma i al procediment."}
+    ],
+        "hint": "La causa de l'acte està vinculada a l'interès públic i a l'adequació entre el fi legal i la decisió adoptada."
+    },
+    {
+        "guid": "bcfe3aa4-6aaa-403c-a2e9-7bc1e117e2ae",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la forma normal d'expressió dels actes administratius?",
+        "answerOptions": [
+     {"text":"La forma escrita,preferentment per mitjans electrònics.","isCorrect":true,"rationale":"És la forma ordinària prevista per la normativa."},
+     {"text":"La forma verbal utilitzada en totes les resolucions.","isCorrect":false,"rationale":"Només s'utilitza en casos especials."},
+     {"text":"La forma gestual aplicada amb caràcter general.","isCorrect":false,"rationale":"Només és adequada per a determinades actuacions."},
+     {"text":"La forma automàtica mitjançant dispositius de control.","isCorrect":false,"rationale":"No constitueix la forma ordinària."}
+    ],
+        "hint": "La Llei 39/2015 estableix una clara preferència per la documentació electrònica."
+    },
+    {
+        "guid": "002f0a26-9c4b-45bd-b235-563a629b9732",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la regla general del silenci administratiu en procediments iniciats per l'interessat?",
+        "answerOptions": [
+     {"text":"La sol·licitud s'entén estimada llevat d'excepcions legals.","isCorrect":true,"rationale":"La norma general és el silenci administratiu positiu."},
+     {"text":"La sol·licitud es considera sempre desestimada automàticament.","isCorrect":false,"rationale":"Això només passa en casos específics."},
+     {"text":"El procediment queda anul·lat sense més actuacions possibles.","isCorrect":false,"rationale":"No és una conseqüència prevista per la llei."},
+     {"text":"La petició s'arxiva fins que l'Administració decideixi reprendre-la.","isCorrect":false,"rationale":"El silenci produeix efectes jurídics determinats."}
+    ],
+        "hint": "Cal memoritzar la regla general i totes les excepcions al silenci positiu."
+    },
+    {
+        "guid": "33b2e7c7-4687-4c77-a6a4-1ca9e8b4c0d0",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què implica la caducitat en un procediment sancionador iniciat d'ofici?",
+        "answerOptions": [
+     {"text":"L'arxivament de les actuacions per manca de resolució en termini.","isCorrect":true,"rationale":"La caducitat obliga a arxivar el procediment."},
+     {"text":"L'estimació automàtica de les pretensions de l'interessat.","isCorrect":false,"rationale":"No es produeix cap estimació."},
+     {"text":"La declaració automàtica de la inexistència de la infracció.","isCorrect":false,"rationale":"No suposa declarar la innocència."},
+     {"text":"La impossibilitat absoluta d'iniciar un nou procediment posterior.","isCorrect":false,"rationale":"Pot iniciar-se de nou si no ha prescrit la infracció."}
+    ],
+        "hint": "És important distingir entre caducitat i prescripció perquè tenen conseqüències molt diferents."
+    },
+    {
+        "guid": "72bdd1a0-23de-4e27-ad21-5eca392acc2c",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan es considera nul de ple dret un acte administratiu?",
+        "answerOptions": [
+     {"text":"Quan incorre en alguna de les causes taxades per la llei.","isCorrect":true,"rationale":"La nul·litat només existeix en els supòsits legalment previstos."},
+     {"text":"Quan conté qualsevol error formal sense excepció possible.","isCorrect":false,"rationale":"Molts defectes formals només generen anul·labilitat."},
+     {"text":"Quan la persona destinatària discrepa del seu contingut.","isCorrect":false,"rationale":"La discrepància no determina la nul·litat."},
+     {"text":"Quan és impugnat dins del termini legal corresponent.","isCorrect":false,"rationale":"La impugnació no converteix l'acte en nul."}
+    ],
+        "hint": "La nul·litat de ple dret té caràcter excepcional i només apareix en els casos previstos per l'article 47 de la Llei 39/2015."
+    },
+    {
+        "guid": "9317a5bb-cfa9-4dff-8991-54ea59d5fdf7",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin recurs s'interposa contra actes que NO esgoten la via administrativa?",
+        "answerOptions": [
+     {"text":"El recurs d'alçada davant l'òrgan jeràrquicament superior.","isCorrect":true,"rationale":"És el recurs ordinari previst per aquests actes."},
+     {"text":"El recurs potestatiu de reposició davant el mateix òrgan.","isCorrect":false,"rationale":"S'utilitza contra actes que esgoten la via administrativa."},
+     {"text":"El recurs extraordinari de revisió com a regla general.","isCorrect":false,"rationale":"Només procedeix en supòsits excepcionals."},
+     {"text":"La revisió d'ofici instada directament davant l'Administració.","isCorrect":false,"rationale":"No és un recurs administratiu ordinari."}
+    ],
+        "hint": "Una de les classificacions més preguntables és distingir entre actes que esgoten la via administrativa i actes que no l'esgoten."
+    },
+    {
+        "guid": "be6b7da1-e59b-466f-a90c-de0545424a13",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és una de les característiques essencials de l'acte administratiu?",
+        "answerOptions": [
+     {"text":"És una declaració jurídica realitzada per una Administració Pública.","isCorrect":true,"rationale":"L'acte administratiu és una declaració jurídica emesa per una Administració."},
+     {"text":"És un acord contractual entre dues parts en situació d'igualtat.","isCorrect":false,"rationale":"Això correspon a un contracte,no a un acte administratiu."},
+     {"text":"És sempre una norma general aplicable a situacions futures.","isCorrect":false,"rationale":"Això defineix els reglaments,no els actes administratius."},
+     {"text":"És exclusivament una actuació material d'execució administrativa.","isCorrect":false,"rationale":"Les actuacions materials no són actes administratius."}
+    ],
+        "hint": "L'acte administratiu és una declaració intel·lectual o jurídica produïda per una Administració Pública en exercici de potestats administratives."
+    },
+    {
+        "guid": "b0d0fdc7-e7df-4003-972f-863cc35c0305",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Els actes administratius estan sotmesos principalment a quin tipus de dret?",
+        "answerOptions": [
+     {"text":"Al Dret Administratiu.","isCorrect":true,"rationale":"És una de les seves notes essencials."},
+     {"text":"Al Dret Mercantil.","isCorrect":false,"rationale":"No és el règim jurídic ordinari dels actes administratius."},
+     {"text":"Al Dret Internacional Privat.","isCorrect":false,"rationale":"No és el règim habitual aplicable."},
+     {"text":"Exclusivament al Dret Laboral.","isCorrect":false,"rationale":"Només seria aplicable en àmbits específics."}
+    ],
+        "hint": "Un acte administratiu existeix quan l'Administració actua sotmesa al règim jurídic administratiu."
+    },
+    {
+        "guid": "6ff51f35-e667-4be4-99c3-8107be593124",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin dels següents NO és un acte administratiu?",
+        "answerOptions": [
+     {"text":"Un reglament aprovat per una Administració Pública.","isCorrect":true,"rationale":"Els reglaments són disposicions generals,no actes administratius."},
+     {"text":"Una sanció imposada per un ajuntament.","isCorrect":false,"rationale":"És un acte administratiu de gravamen."},
+     {"text":"Una autorització administrativa concedida a un ciutadà.","isCorrect":false,"rationale":"És un acte administratiu favorable."},
+     {"text":"La resolució d'un procediment administratiu concret.","isCorrect":false,"rationale":"És un acte administratiu resolutori."}
+    ],
+        "hint": "Els reglaments creen normes generals; els actes administratius les apliquen a casos concrets."
+    },
+    {
+        "guid": "9f9efdf7-e3f6-4845-b9c7-c2170c30afb2",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "L'acte administratiu es caracteritza per ser, amb caràcter general:",
+        "answerOptions": [
+     {"text":"Unilateral.","isCorrect":true,"rationale":"La voluntat prové exclusivament de l'Administració."},
+     {"text":"Bilateral.","isCorrect":false,"rationale":"Això és propi dels contractes."},
+     {"text":"Multilateral.","isCorrect":false,"rationale":"No és una característica essencial."},
+     {"text":"Convencional.","isCorrect":false,"rationale":"Els convenis no són actes administratius."}
+    ],
+        "hint": "La unilateralitat és una de les diferències fonamentals respecte dels contractes."
+    },
+    {
+        "guid": "66c249bc-2675-4dc3-b277-f1d98cad1c6d",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina potestat queda exclosa del concepte d'acte administratiu?",
+        "answerOptions": [
+     {"text":"La potestat reglamentària.","isCorrect":true,"rationale":"L'exercici de la potestat reglamentària produeix reglaments."},
+     {"text":"La potestat sancionadora.","isCorrect":false,"rationale":"Produeix actes administratius."},
+     {"text":"La potestat autoritzadora.","isCorrect":false,"rationale":"Produeix actes administratius."},
+     {"text":"La potestat inspectora.","isCorrect":false,"rationale":"Pot donar lloc a actes administratius."}
+    ],
+        "hint": "Els reglaments són normes; els actes administratius són aplicacions concretes de les normes."
+    },
+    {
+        "guid": "8225054d-0c7f-46a2-b937-1cb0ae7df9e2",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina d'aquestes declaracions pot contenir un acte administratiu?",
+        "answerOptions": [
+     {"text":"Una declaració de voluntat,judici,coneixement o desig.","isCorrect":true,"rationale":"Són les quatre formes clàssiques del contingut de l'acte."},
+     {"text":"Únicament una declaració de voluntat.","isCorrect":false,"rationale":"Pot contenir altres tipus de declaracions."},
+     {"text":"Només declaracions de caràcter econòmic.","isCorrect":false,"rationale":"No existeix aquesta limitació."},
+     {"text":"Exclusivament declaracions normatives generals.","isCorrect":false,"rationale":"Això correspon als reglaments."}
+    ],
+        "hint": "La doctrina reconeix declaracions de voluntat, desig, coneixement i judici."
+    },
+    {
+        "guid": "8921ccc4-fc73-4ca4-9786-ca541c692191",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una llicència administrativa és habitualment un exemple de:",
+        "answerOptions": [
+     {"text":"Acte administratiu favorable.","isCorrect":true,"rationale":"Amplia l'esfera jurídica de l'interessat."},
+     {"text":"Acte administratiu sancionador.","isCorrect":false,"rationale":"No imposa una sanció."},
+     {"text":"Acte normatiu reglamentari.","isCorrect":false,"rationale":"No és una disposició general."},
+     {"text":"Acte material d'execució forçosa.","isCorrect":false,"rationale":"No és una actuació material."}
+    ],
+        "hint": "Els actes favorables milloren la situació jurídica de l'interessat."
+    },
+    {
+        "guid": "114c5889-5a13-4cd2-931c-5cd4856ae676",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Les actuacions materials de l'Administració són actes administratius?",
+        "answerOptions": [
+     {"text":"No,es consideren actuacions materials d'execució.","isCorrect":true,"rationale":"No constitueixen declaracions jurídiques."},
+     {"text":"Sí,sempre que afectin una persona interessada.","isCorrect":false,"rationale":"No és el criteri determinant."},
+     {"text":"Sí,quan són executades per funcionaris públics.","isCorrect":false,"rationale":"L'autor no altera la seva naturalesa."},
+     {"text":"Sí,si comporten alguna despesa econòmica pública.","isCorrect":false,"rationale":"La despesa és irrellevant."}
+    ],
+        "hint": "L'acte administratiu és una declaració jurídica; una actuació material executa una decisió prèvia."
+    },
+    {
+        "guid": "ebb0f032-e4df-46be-8a80-4e7c2113ad5a",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Els contractes administratius són actes administratius?",
+        "answerOptions": [
+     {"text":"No,perquè manca la característica d'unilateralitat.","isCorrect":true,"rationale":"Requereixen l'acord de diverses parts."},
+     {"text":"Sí,perquè sempre intervenen administracions públiques.","isCorrect":false,"rationale":"La participació administrativa no és suficient."},
+     {"text":"Sí,perquè produeixen efectes jurídics directes.","isCorrect":false,"rationale":"No tots els efectes jurídics provenen d'actes administratius."},
+     {"text":"Sí,quan superen determinades quantitats econòmiques.","isCorrect":false,"rationale":"La quantia és irrellevant."}
+    ],
+        "hint": "Tot acte administratiu és unilateral; els contractes impliquen acord entre parts."
+    },
+    {
+        "guid": "1669187e-555e-48c5-a05c-04e5e38913bc",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina jurisdicció fiscalitza ordinàriament els actes administratius?",
+        "answerOptions": [
+     {"text":"La jurisdicció contenciosa administrativa.","isCorrect":true,"rationale":"És la jurisdicció especialitzada en el control dels actes administratius."},
+     {"text":"La jurisdicció militar.","isCorrect":false,"rationale":"Només coneix assumptes específics."},
+     {"text":"La jurisdicció social.","isCorrect":false,"rationale":"Coneix matèria laboral."},
+     {"text":"La jurisdicció mercantil.","isCorrect":false,"rationale":"No és la competent generalment."}
+    ],
+        "hint": "Els actes administratius són objecte de control pels jutjats i tribunals contenciosos administratius."
+    },
+    {
+        "guid": "b942d9d4-3595-4c8b-8061-e853cc45c925",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Un acte administratiu és principalment:",
+        "answerOptions": [
+     {"text":"L'aplicació concreta d'una norma jurídica.","isCorrect":true,"rationale":"Aplica el dret a una situació determinada."},
+     {"text":"Una norma general amb vocació indefinida de permanència.","isCorrect":false,"rationale":"Això defineix els reglaments."},
+     {"text":"Una declaració política del Govern sense efectes jurídics.","isCorrect":false,"rationale":"No correspon al concepte."},
+     {"text":"Una simple actuació física de l'Administració.","isCorrect":false,"rationale":"Falta la declaració jurídica."}
+    ],
+        "hint": "Els reglaments creen normes; els actes administratius les apliquen."
+    },
+    {
+        "guid": "3d88170f-9fd3-4fd9-96de-f947dd3dc387",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Les actuacions dels particulars davant l'Administració són actes administratius?",
+        "answerOptions": [
+     {"text":"No,perquè no emanen d'una Administració Pública.","isCorrect":true,"rationale":"L'origen administratiu és imprescindible."},
+     {"text":"Sí,sempre que s'adrecin a una Administració Pública.","isCorrect":false,"rationale":"L'autor continua sent un particular."},
+     {"text":"Sí,quan originen un procediment administratiu.","isCorrect":false,"rationale":"La seva naturalesa no canvia."},
+     {"text":"Sí,si es presenten electrònicament.","isCorrect":false,"rationale":"El mitjà emprat és indiferent."}
+    ],
+        "hint": "Només les declaracions que provenen d'una Administració poden ser actes administratius."
+    },
+    {
+        "guid": "31002e07-3c0c-4263-afe6-f92caf34e1c5",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Els convenis entre administracions públiques són actes administratius?",
+        "answerOptions": [
+     {"text":"No,perquè es basen en l'acord de diverses parts.","isCorrect":true,"rationale":"No existeix la unilateralitat pròpia de l'acte administratiu."},
+     {"text":"Sí,perquè tenen efectes jurídics públics.","isCorrect":false,"rationale":"Això no els converteix en actes administratius."},
+     {"text":"Sí,quan impliquen despesa pressupostària.","isCorrect":false,"rationale":"La despesa és irrellevant."},
+     {"text":"Sí,si han estat publicats oficialment.","isCorrect":false,"rationale":"La publicació no altera la naturalesa jurídica."}
+    ],
+        "hint": "Convenis i contractes comparteixen la manca d'unilateralitat."
+    },
+    {
+        "guid": "c47c57e4-4eab-481c-9e81-34f1f3c4773c",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una resolució d'un recurs administratiu és un exemple de declaració de:",
+        "answerOptions": [
+     {"text":"Judici.","isCorrect":true,"rationale":"L'Administració valora i resol una controvèrsia jurídica."},
+     {"text":"Desig únicament.","isCorrect":false,"rationale":"No és la seva naturalesa principal."},
+     {"text":"Coneixement exclusivament.","isCorrect":false,"rationale":"No es limita a constatar fets."},
+     {"text":"Voluntat normativa general.","isCorrect":false,"rationale":"No és una disposició reglamentària."}
+    ],
+        "hint": "La doctrina distingeix actes de voluntat, desig, coneixement i judici."
+    },
+    {
+        "guid": "d2e11c27-8066-4b93-aa63-b05aeb7444d4",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin requisit és imprescindible perquè existeixi un acte administratiu?",
+        "answerOptions": [
+     {"text":"Que existeixi una potestat administrativa que el legitimi.","isCorrect":true,"rationale":"No hi ha acte administratiu sense potestat atribuïda per una norma."},
+     {"text":"Que beneficiï sempre la persona interessada.","isCorrect":false,"rationale":"Pot ser favorable o desfavorable."},
+     {"text":"Que es manifesti necessàriament de forma oral.","isCorrect":false,"rationale":"La forma normal és l'escrita."},
+     {"text":"Que estigui adreçat a una pluralitat indeterminada de persones.","isCorrect":false,"rationale":"Pot tenir un únic destinatari."}
+    ],
+        "hint": "Les potestats administratives existeixen perquè una norma les atribueix prèviament a l'Administració."
+    },
+    {
+        "guid": "68209a30-3c2a-4ca8-bc82-4334556ba2be",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Segons l'Administració que dicta l'acte, una resolució d'un ajuntament és un acte:",
+        "answerOptions": [
+     {"text":"Municipal.","isCorrect":true,"rationale":"Els actes dictats pels ajuntaments tenen naturalesa municipal."},
+     {"text":"Autonòmic.","isCorrect":false,"rationale":"Els actes autonòmics provenen de comunitats autònomes."},
+     {"text":"Provincial.","isCorrect":false,"rationale":"Els actes provincials provenen de diputacions o ens equivalents."},
+     {"text":"Comunitari.","isCorrect":false,"rationale":"Els actes comunitaris provenen d'institucions de la Unió Europea."}
+    ],
+        "hint": "Una de les classificacions dels actes administratius es basa en l'Administració que els dicta: estatal, autonòmica, provincial, municipal o especialitzada."
+    },
+    {
+        "guid": "243a5149-1224-466e-bbab-37363c8e5711",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una autorització administrativa és habitualment un acte:",
+        "answerOptions": [
+     {"text":"Favorable.","isCorrect":true,"rationale":"Amplia les facultats de la persona interessada."},
+     {"text":"De gravamen.","isCorrect":false,"rationale":"No restringeix drets ni imposa obligacions."},
+     {"text":"Sancionador.","isCorrect":false,"rationale":"No comporta cap sanció."},
+     {"text":"Desfavorable per definició.","isCorrect":false,"rationale":"Generalment beneficia la persona destinatària."}
+    ],
+        "hint": "Els actes favorables milloren la situació jurídica de la persona administrada."
+    },
+    {
+        "guid": "5553cb88-ec87-4dae-aaaa-089569361f4e",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una expropiació forçosa és un exemple d'acte:",
+        "answerOptions": [
+     {"text":"Desfavorable o de gravamen.","isCorrect":true,"rationale":"Limita drets i afecta negativament la situació jurídica del destinatari."},
+     {"text":"Favorable o ampliador de drets.","isCorrect":false,"rationale":"No amplia facultats ni beneficis."},
+     {"text":"Purament declaratiu.","isCorrect":false,"rationale":"Produeix efectes limitadors molt rellevants."},
+     {"text":"Sempre discrecional.","isCorrect":false,"rationale":"El caràcter favorable o desfavorable és una classificació diferent."}
+    ],
+        "hint": "Els actes de gravamen restringeixen drets, facultats o interessos legítims."
+    },
+    {
+        "guid": "422a4e02-b28f-4eef-b759-e6fb1b5ae425",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Com s'anomena l'acte en què l'Administració manifesta expressament la seva decisió?",
+        "answerOptions": [
+     {"text":"Acte exprés.","isCorrect":true,"rationale":"Existeix una declaració explícita i inequívoca."},
+     {"text":"Acte tàcit.","isCorrect":false,"rationale":"La declaració es dedueix indirectament de la conducta administrativa."},
+     {"text":"Acte presumpte.","isCorrect":false,"rationale":"Deriva del silenci administratiu."},
+     {"text":"Acte qualificat.","isCorrect":false,"rationale":"És una classificació diferent relacionada amb els actes de tràmit."}
+    ],
+        "hint": "Segons la forma d'expressió, els actes poden ser expressos, presumptes o tàcits."
+    },
+    {
+        "guid": "f0846871-1771-41ee-b386-da24193998a3",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El silenci administratiu dona lloc habitualment a:",
+        "answerOptions": [
+     {"text":"Un acte presumpte.","isCorrect":true,"rationale":"Els actes presumptes són conseqüència del silenci administratiu."},
+     {"text":"Un acte tàcit.","isCorrect":false,"rationale":"L'acte tàcit deriva d'una conducta que permet deduir una decisió."},
+     {"text":"Un acte verbal.","isCorrect":false,"rationale":"No hi ha cap manifestació oral."},
+     {"text":"Un acte automàticament nul.","isCorrect":false,"rationale":"El silenci administratiu produeix efectes previstos legalment."}
+    ],
+        "hint": "Quan l'Administració no resol dins del termini, la llei atribueix efectes al silenci."
+    },
+    {
+        "guid": "ce5e0ef8-c88f-4a93-806d-d57639ce888a",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin tipus d'acte posa fi al procediment administratiu?",
+        "answerOptions": [
+     {"text":"L'acte resolutori o definitiu.","isCorrect":true,"rationale":"Conté la decisió final sobre el fons de la qüestió."},
+     {"text":"L'acte de tràmit ordinari.","isCorrect":false,"rationale":"Només impulsa o prepara el procediment."},
+     {"text":"L'acte de comunicació.","isCorrect":false,"rationale":"No resol el procediment."},
+     {"text":"L'acte instructor.","isCorrect":false,"rationale":"Forma part de la tramitació prèvia."}
+    ],
+        "hint": "Els actes resolutoris decideixen la qüestió plantejada i finalitzen el procediment."
+    },
+    {
+        "guid": "c1a56c63-c54e-409b-a5e2-a92e05594cec",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina característica defineix un acte de tràmit qualificat?",
+        "answerOptions": [
+     {"text":"Pot ser objecte de recurs malgrat ser un acte de tràmit.","isCorrect":true,"rationale":"La seva transcendència permet la impugnació immediata."},
+     {"text":"Posa fi necessàriament al procediment administratiu.","isCorrect":false,"rationale":"Això correspon als actes resolutoris."},
+     {"text":"Sempre té efectes favorables per a l'interessat.","isCorrect":false,"rationale":"No és un criteri determinant."},
+     {"text":"S'identifica pel seu contingut econòmic elevat.","isCorrect":false,"rationale":"La quantia és irrellevant."}
+    ],
+        "hint": "Els actes de tràmit qualificats constitueixen una excepció a la regla general d'irrecurribilitat dels actes de tràmit."
+    },
+    {
+        "guid": "53a6e223-4a39-4945-9060-5409750f61c6",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin dels següents és un supòsit d'acte de tràmit qualificat?",
+        "answerOptions": [
+     {"text":"L'acte que impedeix continuar el procediment.","isCorrect":true,"rationale":"És un dels casos expressament reconeguts."},
+     {"text":"La simple incorporació d'un document a l'expedient.","isCorrect":false,"rationale":"No té transcendència suficient."},
+     {"text":"L'obertura ordinària d'un període d'al·legacions.","isCorrect":false,"rationale":"És un tràmit ordinari."},
+     {"text":"La recepció material d'un escrit presentat.","isCorrect":false,"rationale":"No decideix sobre drets ni interessos."}
+    ],
+        "hint": "Produeixen aquest efecte els actes que decideixen el fons, impedeixen continuar, causen indefensió o produeixen perjudicis irreparables."
+    },
+    {
+        "guid": "c27a538d-ab8c-46ac-9417-5d491d25f814",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què caracteritza un acte que esgota la via administrativa?",
+        "answerOptions": [
+     {"text":"Permet acudir directament a la jurisdicció contenciosa administrativa.","isCorrect":true,"rationale":"No cal interposar un recurs d'alçada previ."},
+     {"text":"No pot ser impugnat de cap manera.","isCorrect":false,"rationale":"Pot ser impugnat judicialment."},
+     {"text":"És sempre un acte ferm.","isCorrect":false,"rationale":"Fermesa i esgotament de via administrativa són conceptes diferents."},
+     {"text":"Ha estat dictat necessàriament per un ministre.","isCorrect":false,"rationale":"Diversos òrgans poden dictar actes que esgoten la via administrativa."}
+    ],
+        "hint": "No s'ha de confondre esgotar la via administrativa amb adquirir fermesa."
+    },
+    {
+        "guid": "8ecdc4bb-f297-4aa5-bd56-74c8de2b1a6f",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan es considera ferm un acte administratiu?",
+        "answerOptions": [
+     {"text":"Quan ja no es pot recórrer per les vies ordinàries.","isCorrect":true,"rationale":"La fermesa implica absència de recursos ordinaris possibles."},
+     {"text":"Quan posa fi a la via administrativa.","isCorrect":false,"rationale":"Pot continuar sent impugnable judicialment."},
+     {"text":"Quan és favorable per a l'interessat.","isCorrect":false,"rationale":"La fermesa no depèn del contingut."},
+     {"text":"Quan és notificat correctament.","isCorrect":false,"rationale":"La notificació no implica fermesa."}
+    ],
+        "hint": "Un acte és ferm perquè han vençut els terminis de recurs o perquè s'han esgotat les vies d'impugnació."
+    },
+    {
+        "guid": "0d342790-a5fd-4692-8728-2b0a6029a7a4",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Un acte administratiu reglat és aquell en què:",
+        "answerOptions": [
+     {"text":"La normativa determina completament la decisió que s'ha d'adoptar.","isCorrect":true,"rationale":"No existeix marge d'apreciació per part de l'Administració."},
+     {"text":"L'Administració pot escollir lliurement entre diverses opcions possibles.","isCorrect":false,"rationale":"Això és propi dels actes discrecionals."},
+     {"text":"La resolució depèn exclusivament de criteris polítics interns.","isCorrect":false,"rationale":"Els actes reglats es basen en criteris jurídics predeterminats."},
+     {"text":"Sempre requereix l'autorització d'un òrgan superior jeràrquic.","isCorrect":false,"rationale":"No és una característica dels actes reglats."}
+    ],
+        "hint": "En una potestat reglada només existeix una solució jurídicament correcta perquè la norma determina tots els elements de la decisió."
+    },
+    {
+        "guid": "6663abd4-de91-455f-b029-779dca5ce89b",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina característica defineix un acte administratiu discrecional?",
+        "answerOptions": [
+     {"text":"L'Administració disposa d'un marge d'apreciació per decidir.","isCorrect":true,"rationale":"Poden existir diverses solucions vàlides segons les circumstàncies."},
+     {"text":"Només existeix una resposta possible prevista per la norma.","isCorrect":false,"rationale":"Això correspon als actes reglats."},
+     {"text":"Mai està sotmès al control judicial posterior.","isCorrect":false,"rationale":"Els actes discrecionals també poden ser controlats judicialment."},
+     {"text":"Només pot ser dictat per òrgans col·legiats.","isCorrect":false,"rationale":"No depèn de la naturalesa de l'òrgan."}
+    ],
+        "hint": "La discrecionalitat no significa arbitrarietat; simplement existeix un marge de valoració administrativa."
+    },
+    {
+        "guid": "39913450-7f35-4419-9c35-2ecaa58e6c6c",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Segons la Llei 39/2015, els actes discrecionals han de ser:",
+        "answerOptions": [
+     {"text":"Motivats.","isCorrect":true,"rationale":"La motivació és obligatòria quan s'exerceixen potestats discrecionals."},
+     {"text":"Ratificats judicialment.","isCorrect":false,"rationale":"No és un requisit general."},
+     {"text":"Publicats sempre al diari oficial.","isCorrect":false,"rationale":"La publicació no és obligatòria en tots els casos."},
+     {"text":"Aprovats pel Consell de Ministres.","isCorrect":false,"rationale":"No és una exigència general."}
+    ],
+        "hint": "La motivació permet conèixer les raons que justifiquen l'elecció entre diverses opcions possibles."
+    },
+    {
+        "guid": "3f76968a-5691-4a7e-93ad-10bae8e6e864",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan un acte administratiu té com a destinatari una única persona concreta es considera:",
+        "answerOptions": [
+     {"text":"Acte singular.","isCorrect":true,"rationale":"Va dirigit específicament a una persona determinada."},
+     {"text":"Acte general.","isCorrect":false,"rationale":"Els actes generals s'adrecen a una pluralitat indeterminada."},
+     {"text":"Acte plúrim.","isCorrect":false,"rationale":"Els actes plúrims afecten diverses persones identificades."},
+     {"text":"Acte col·lectiu necessari.","isCorrect":false,"rationale":"No és una classificació utilitzada al tema."}
+    ],
+        "hint": "La classificació singular, general i plúrim depèn del nombre i la identificació dels destinataris."
+    },
+    {
+        "guid": "3d52cd8a-8e74-4919-8e49-8ae4e3e15354",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una convocatòria d'oposicions és habitualment un acte:",
+        "answerOptions": [
+     {"text":"General.","isCorrect":true,"rationale":"Es dirigeix a una pluralitat indeterminada de persones."},
+     {"text":"Singular.","isCorrect":false,"rationale":"No es dirigeix a una única persona."},
+     {"text":"Plúrim.","isCorrect":false,"rationale":"Els destinataris no estan individualitzats prèviament."},
+     {"text":"Ferm des del moment de la publicació.","isCorrect":false,"rationale":"La fermesa és una qüestió diferent."}
+    ],
+        "hint": "Els actes generals s'adrecen a una pluralitat indeterminada de possibles destinataris."
+    },
+    {
+        "guid": "ec9b26d2-47cd-4315-a968-7e59683735c8",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La llista d'admesos i exclosos d'una oposició és un acte:",
+        "answerOptions": [
+     {"text":"Plúrim.","isCorrect":true,"rationale":"Afecta diverses persones perfectament identificades."},
+     {"text":"General.","isCorrect":false,"rationale":"Els destinataris són concrets i determinats."},
+     {"text":"Singular.","isCorrect":false,"rationale":"No afecta una sola persona."},
+     {"text":"Normatiu.","isCorrect":false,"rationale":"No conté una disposició general."}
+    ],
+        "hint": "Els actes plúrims agrupen diverses decisions individuals en un únic document."
+    },
+    {
+        "guid": "a9762b5e-dd58-4846-aa17-e6dc80cc7eaa",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "En un acte plúrim, cada destinatari:",
+        "answerOptions": [
+     {"text":"Pot impugnar individualment la decisió que l'afecta.","isCorrect":true,"rationale":"Cada decisió manté autonomia respecte de cada interessat."},
+     {"text":"Només pot recórrer conjuntament amb la resta afectada.","isCorrect":false,"rationale":"La impugnació és independent."},
+     {"text":"Necessita l'autorització dels altres destinataris.","isCorrect":false,"rationale":"No existeix aquest requisit."},
+     {"text":"No pot presentar recursos en via administrativa.","isCorrect":false,"rationale":"Els recursos continuen sent possibles."}
+    ],
+        "hint": "L'agrupació formal de diverses decisions no elimina la seva independència jurídica."
+    },
+    {
+        "guid": "fe697244-1c40-41f5-a089-268ba973d7d7",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Un acte que no esgota la via administrativa exigeix normalment:",
+        "answerOptions": [
+     {"text":"La interposició prèvia d'un recurs d'alçada.","isCorrect":true,"rationale":"És el mecanisme ordinari per impugnar-lo."},
+     {"text":"Acudir directament a la jurisdicció contenciosa.","isCorrect":false,"rationale":"Cal esgotar primer la via administrativa."},
+     {"text":"Interposar exclusivament recurs de reposició.","isCorrect":false,"rationale":"El recurs propi és l'alçada."},
+     {"text":"Promoure immediatament una revisió d'ofici.","isCorrect":false,"rationale":"No és la via ordinària d'impugnació."}
+    ],
+        "hint": "La diferència principal és si cal o no un recurs administratiu abans d'anar als tribunals."
+    },
+    {
+        "guid": "ef7154ff-41d4-4cdf-b286-2805f45d5460",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La fermesa d'un acte administratiu pot produir-se per:",
+        "answerOptions": [
+     {"text":"Haver transcorregut el termini de recurs sense impugnació.","isCorrect":true,"rationale":"És una de les causes típiques d'adquisició de fermesa."},
+     {"text":"La seva notificació dins del termini legal establert.","isCorrect":false,"rationale":"La notificació no genera automàticament fermesa."},
+     {"text":"El seu caràcter favorable per a l'interessat.","isCorrect":false,"rationale":"La fermesa és independent del contingut."},
+     {"text":"La seva publicació al butlletí oficial corresponent.","isCorrect":false,"rationale":"La publicació tampoc determina la fermesa."}
+    ],
+        "hint": "Un acte esdevé ferm quan ja no es pot recórrer per les vies ordinàries."
+    },
+    {
+        "guid": "e4e22572-97a6-46ba-b630-7c7305134b4d",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin dels conceptes següents NO equival a fermesa?",
+        "answerOptions": [
+     {"text":"Esgotament de la via administrativa.","isCorrect":true,"rationale":"Un acte pot esgotar la via administrativa i encara ser impugnable."},
+     {"text":"Impossibilitat de presentar recursos ordinaris.","isCorrect":false,"rationale":"Això forma part del concepte de fermesa."},
+     {"text":"Tancament de les vies ordinàries d'impugnació.","isCorrect":false,"rationale":"És una conseqüència pròpia de la fermesa."},
+     {"text":"Pèrdua del dret a recórrer per transcurs dels terminis.","isCorrect":false,"rationale":"És una forma habitual d'adquirir fermesa."}
+    ],
+        "hint": "Sovint es confonen dos conceptes: esgotar la via administrativa i adquirir fermesa. No són el mateix."
+    },
+    {
+        "guid": "845632f5-904d-45f0-9d79-b6fabfade816",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin tipus d'acte administratiu crea, modifica o extingeix una situació jurídica?",
+        "answerOptions": [
+     {"text":"Acte constitutiu.","isCorrect":true,"rationale":"Produeix un efecte jurídic nou sobre la situació de l'interessat."},
+     {"text":"Acte declaratiu.","isCorrect":false,"rationale":"Només reconeix una situació jurídica ja existent."},
+     {"text":"Acte preparatori.","isCorrect":false,"rationale":"Forma part de la tramitació del procediment."},
+     {"text":"Acte de comunicació.","isCorrect":false,"rationale":"La seva funció és informar o traslladar una decisió."}
+    ],
+        "hint": "Els actes constitutius creen efectes jurídics nous, mentre que els declaratius es limiten a reconèixer o constatar situacions preexistents."
+    },
+    {
+        "guid": "155dee2a-463c-495e-8892-a19358172b53",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Un acte que reconeix una situació jurídica ja existent és un acte:",
+        "answerOptions": [
+     {"text":"Declaratiu.","isCorrect":true,"rationale":"No crea drets nous sinó que reconeix una realitat jurídica prèvia."},
+     {"text":"Constitutiu.","isCorrect":false,"rationale":"Els constitutius creen o modifiquen situacions jurídiques."},
+     {"text":"Discrecional.","isCorrect":false,"rationale":"És una classificació diferent."},
+     {"text":"Plúrim.","isCorrect":false,"rationale":"Fa referència al nombre de destinataris."}
+    ],
+        "hint": "El reconeixement d'un dret ja existent és l'exemple típic dels actes declaratius."
+    },
+    {
+        "guid": "8eec1d54-1f03-4155-8f67-be34f75d494d",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "L'atorgament d'una llicència urbanística sol ser un acte:",
+        "answerOptions": [
+     {"text":"Constitutiu.","isCorrect":true,"rationale":"Permet exercir facultats que abans no podien desplegar-se."},
+     {"text":"Declaratiu.","isCorrect":false,"rationale":"No es limita a constatar una situació existent."},
+     {"text":"De tràmit.","isCorrect":false,"rationale":"Resol una qüestió de fons."},
+     {"text":"Instructor.","isCorrect":false,"rationale":"No forma part de la fase preparatòria."}
+    ],
+        "hint": "Les autoritzacions i llicències acostumen a estudiar-se com a exemples d'actes constitutius."
+    },
+    {
+        "guid": "90f730f2-7995-473a-aa66-602edcf07abb",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una certificació administrativa acostuma a ser un acte:",
+        "answerOptions": [
+     {"text":"Declaratiu.","isCorrect":true,"rationale":"Acredita o constata fets o situacions preexistents."},
+     {"text":"Constitutiu.","isCorrect":false,"rationale":"No crea una situació jurídica nova."},
+     {"text":"Sancionador.","isCorrect":false,"rationale":"No imposa cap sanció."},
+     {"text":"De gravamen.","isCorrect":false,"rationale":"No restringeix drets."}
+    ],
+        "hint": "Les certificacions solen limitar-se a acreditar o reconèixer una realitat jurídica existent."
+    },
+    {
+        "guid": "21ac1799-2d5d-489a-8780-493ef662ddf1",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Segons la forma d'expressió, un acte tàcit és aquell que:",
+        "answerOptions": [
+     {"text":"Es dedueix de la conducta de l'Administració sense declaració expressa.","isCorrect":true,"rationale":"La voluntat administrativa es desprèn indirectament dels seus actes."},
+     {"text":"Resulta sempre del silenci administratiu.","isCorrect":false,"rationale":"Això correspon als actes presumptes."},
+     {"text":"Ha estat dictat verbalment per una autoritat pública.","isCorrect":false,"rationale":"No depèn de l'oralitat."},
+     {"text":"Conté diverses decisions en una única resolució.","isCorrect":false,"rationale":"Això descriu un acte plúrim."}
+    ],
+        "hint": "Cal distingir clarament entre acte exprés, acte tàcit i acte presumpte."
+    },
+    {
+        "guid": "a9ef4160-fd84-4c74-8268-1b9a7c4c2b23",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin tipus d'acte resol sobre el fons d'una qüestió plantejada?",
+        "answerOptions": [
+     {"text":"Acte definitiu o resolutori.","isCorrect":true,"rationale":"Decideix la qüestió principal objecte del procediment."},
+     {"text":"Acte de tràmit ordinari.","isCorrect":false,"rationale":"Només prepara o impulsa la tramitació."},
+     {"text":"Acte preparatori intern.","isCorrect":false,"rationale":"No decideix sobre el fons."},
+     {"text":"Acte de mera comunicació.","isCorrect":false,"rationale":"La seva finalitat és informar."}
+    ],
+        "hint": "Els actes definitius són els que resolen la pretensió formulada en el procediment."
+    },
+    {
+        "guid": "b5a7a8e1-af22-4adc-8ab4-ad8bb79b53cb",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una proposta de resolució dins d'un expedient és normalment un acte:",
+        "answerOptions": [
+     {"text":"De tràmit.","isCorrect":true,"rationale":"Forma part de la instrucció i no resol definitivament el procediment."},
+     {"text":"Definitiu.","isCorrect":false,"rationale":"No posa fi al procediment."},
+     {"text":"Ferm.","isCorrect":false,"rationale":"La fermesa és una altra classificació."},
+     {"text":"Constitutiu.","isCorrect":false,"rationale":"No crea per si mateixa una situació jurídica final."}
+    ],
+        "hint": "Durant la instrucció existeixen diversos actes que preparen la resolució final."
+    },
+    {
+        "guid": "611447c5-e76f-4374-9f7d-a039bb96b538",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Un acte que causa indefensió a l'interessat es considera habitualment:",
+        "answerOptions": [
+     {"text":"Acte de tràmit qualificat.","isCorrect":true,"rationale":"La llei permet la seva impugnació immediata."},
+     {"text":"Acte de tràmit ordinari.","isCorrect":false,"rationale":"Els actes ordinaris no tenen aquesta transcendència."},
+     {"text":"Acte merament intern.","isCorrect":false,"rationale":"Té efectes rellevants sobre els drets de l'interessat."},
+     {"text":"Acte declaratiu simple.","isCorrect":false,"rationale":"La classificació és una altra."}
+    ],
+        "hint": "La indefensió és una de les circumstàncies que converteixen un acte de tràmit en qualificat."
+    },
+    {
+        "guid": "ac988765-f664-4b65-8664-ede336135ab1",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Segons els seus efectes, una multa administrativa és un acte:",
+        "answerOptions": [
+     {"text":"De gravamen.","isCorrect":true,"rationale":"Imposa una càrrega o perjudici jurídic a la persona sancionada."},
+     {"text":"Favorable.","isCorrect":false,"rationale":"No amplia ni reconeix drets."},
+     {"text":"Beneficiós.","isCorrect":false,"rationale":"Produeix un efecte contrari."},
+     {"text":"Autoritzador.","isCorrect":false,"rationale":"No concedeix cap facultat."}
+    ],
+        "hint": "Les sancions són exemples clàssics d'actes administratius desfavorables o de gravamen."
+    },
+    {
+        "guid": "b03292a5-4a4b-4de1-bffa-60b26ddb0af1",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina classificació diferencia entre actes reglats i actes discrecionals?",
+        "answerOptions": [
+     {"text":"La classificació segons el marge d'apreciació de l'Administració.","isCorrect":true,"rationale":"El criteri és l'existència o no de discrecionalitat administrativa."},
+     {"text":"La classificació segons el nombre de destinataris afectats.","isCorrect":false,"rationale":"Això diferencia actes singulars,generals i plúrims."},
+     {"text":"La classificació segons els efectes favorables o desfavorables.","isCorrect":false,"rationale":"És una categoria diferent."},
+     {"text":"La classificació segons l'Administració que dicta l'acte.","isCorrect":false,"rationale":"Fa referència a l'origen de l'acte."}
+    ],
+        "hint": "La clau és determinar si la norma deixa marge d'elecció a l'Administració o imposa una única solució possible."
+    },
+    {
+        "guid": "cb8ac45d-32a3-460b-9368-6a89713dd2c7",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin és l'element subjectiu d'un acte administratiu?",
+        "answerOptions": [
+     {"text":"L'òrgan administratiu que dicta vàlidament la resolució.","isCorrect":true,"rationale":"L'element subjectiu fa referència al subjecte que emet l'acte."},
+     {"text":"La finalitat pública perseguida amb la decisió adoptada.","isCorrect":false,"rationale":"Això correspon a la causa o finalitat."},
+     {"text":"El contingut material concret de la resolució administrativa.","isCorrect":false,"rationale":"Això forma part de l'element objectiu."},
+     {"text":"La forma escrita utilitzada per expressar la decisió adoptada.","isCorrect":false,"rationale":"Això pertany a l'element formal."}
+    ],
+        "hint": "Els elements de l'acte administratiu solen classificar-se en subjectius, objectius, causals i formals. L'element subjectiu identifica qui dicta l'acte."
+    },
+    {
+        "guid": "64e7a40f-46b6-429b-8e26-f98907f2cb35",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Perquè un òrgan pugui dictar vàlidament un acte administratiu ha de tenir:",
+        "answerOptions": [
+     {"text":"La competència atribuïda per l'ordenament jurídic.","isCorrect":true,"rationale":"La competència és un requisit essencial de validesa."},
+     {"text":"L'autorització expressa de tots els interessats afectats.","isCorrect":false,"rationale":"No és un requisit general."},
+     {"text":"La conformitat prèvia d'un tribunal de justícia competent.","isCorrect":false,"rationale":"Els tribunals no intervenen ordinàriament abans de dictar l'acte."},
+     {"text":"La ratificació posterior per un òrgan jeràrquicament superior.","isCorrect":false,"rationale":"La competència deriva de la llei."}
+    ],
+        "hint": "La competència és irrenunciable i s'exerceix pels òrgans que la tenen atribuïda per una norma jurídica."
+    },
+    {
+        "guid": "9a1b5879-893c-48a7-9be2-addf4ffb6f71",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "L'element objectiu d'un acte administratiu fa referència principalment a:",
+        "answerOptions": [
+     {"text":"El contingut de la decisió adoptada per l'Administració.","isCorrect":true,"rationale":"L'objecte és allò que decideix l'acte."},
+     {"text":"L'òrgan que exerceix la competència administrativa.","isCorrect":false,"rationale":"Això correspon a l'element subjectiu."},
+     {"text":"El procediment seguit per formar la voluntat administrativa.","isCorrect":false,"rationale":"Forma part de l'element formal."},
+     {"text":"La finalitat pública perseguida per la norma aplicable.","isCorrect":false,"rationale":"Això correspon a la causa o finalitat."}
+    ],
+        "hint": "L'objecte és el contingut de l'acte: allò que s'atorga, es denega, es reconeix, s'ordena o es sanciona."
+    },
+    {
+        "guid": "2b4cfc84-36fd-4381-9ac6-bd0987f22da5",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "L'objecte d'un acte administratiu ha de ser:",
+        "answerOptions": [
+     {"text":"Lícit,determinat o determinable i possible.","isCorrect":true,"rationale":"Són requisits essencials de l'objecte."},
+     {"text":"Favorablement valorat per totes les persones interessades.","isCorrect":false,"rationale":"La conformitat dels interessats no és un requisit."},
+     {"text":"Necessàriament de contingut econòmic quantificable.","isCorrect":false,"rationale":"Pot tenir molts altres continguts."},
+     {"text":"Prèviament aprovat mitjançant referèndum administratiu.","isCorrect":false,"rationale":"No existeix aquesta exigència general."}
+    ],
+        "hint": "L'objecte de l'acte no pot ser impossible, il·lícit ni indeterminat de manera absoluta."
+    },
+    {
+        "guid": "ca037242-1b77-402e-9567-dcf5e3a787a7",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La causa d'un acte administratiu es relaciona amb:",
+        "answerOptions": [
+     {"text":"La finalitat d'interès públic que justifica la decisió.","isCorrect":true,"rationale":"La causa connecta l'acte amb el fi previst per la llei."},
+     {"text":"El suport material on s'escriu la resolució administrativa.","isCorrect":false,"rationale":"Això pertany als aspectes formals."},
+     {"text":"La identitat de la persona destinatària de l'acte.","isCorrect":false,"rationale":"No forma part de la causa."},
+     {"text":"La unitat administrativa encarregada de notificar l'acte.","isCorrect":false,"rationale":"És una qüestió de tramitació."}
+    ],
+        "hint": "La causa està vinculada al principi d'interès públic i a la prohibició de desviació de poder. L'acte ha de perseguir la finalitat prevista per l'ordenament jurídic."
+    },
+    {
+        "guid": "c68f0c39-199d-4912-bf9f-f5a0c63e6168",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La competència administrativa es pot definir com:",
+        "answerOptions": [
+     {"text":"La facultat atribuïda per la norma a un òrgan per actuar vàlidament.","isCorrect":true,"rationale":"La competència determina quin òrgan pot exercir una potestat determinada."},
+     {"text":"La capacitat personal dels funcionaris per intervenir en expedients.","isCorrect":false,"rationale":"La competència correspon als òrgans,no a les persones."},
+     {"text":"L'autorització concedida pels ciutadans per adoptar decisions públiques.","isCorrect":false,"rationale":"La competència deriva de la llei."},
+     {"text":"La possibilitat de dictar qualsevol acte sense limitacions jurídiques.","isCorrect":false,"rationale":"La competència està delimitada per l'ordenament."}
+    ],
+        "hint": "La competència és irrenunciable i determina qui pot actuar, sobre quines matèries i dins de quin àmbit territorial o funcional."
+    },
+    {
+        "guid": "73355cdd-8d2c-47b2-9269-e15738302956",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La competència per raó de la matèria determina:",
+        "answerOptions": [
+     {"text":"Quins assumptes pot resoldre cada òrgan administratiu.","isCorrect":true,"rationale":"Distribueix les funcions segons les matèries atribuïdes."},
+     {"text":"El territori geogràfic on pot actuar l'òrgan.","isCorrect":false,"rationale":"Això correspon a la competència territorial."},
+     {"text":"La posició de l'òrgan dins de la jerarquia administrativa.","isCorrect":false,"rationale":"Això és competència jeràrquica."},
+     {"text":"La durada màxima dels procediments administratius.","isCorrect":false,"rationale":"No forma part del concepte de competència."}
+    ],
+        "hint": "La competència pot atribuir-se per matèria, territori, jerarquia o altres criteris previstos legalment."
+    },
+    {
+        "guid": "aa45c039-04f7-4a4c-aa4f-7f7ef9121d49",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La competència territorial fa referència a:",
+        "answerOptions": [
+     {"text":"L'àmbit geogràfic dins del qual l'òrgan pot exercir les seves funcions.","isCorrect":true,"rationale":"Delimita espacialment l'exercici de les potestats administratives."},
+     {"text":"Les funcions materials assignades a cada unitat administrativa.","isCorrect":false,"rationale":"Això correspon a la competència material."},
+     {"text":"La categoria professional dels empleats públics.","isCorrect":false,"rationale":"No forma part de la competència de l'òrgan."},
+     {"text":"L'ordre d'antiguitat existent entre diversos funcionaris.","isCorrect":false,"rationale":"És un concepte aliè a la competència."}
+    ],
+        "hint": "Cada Administració i cada òrgan actuen dins d'un àmbit territorial determinat per la norma."
+    },
+    {
+        "guid": "3ed6950b-c834-41d5-a23e-1ca2f0118c64",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La desviació de poder es produeix quan:",
+        "answerOptions": [
+     {"text":"S'exerceix una potestat per a una finalitat diferent de la prevista per la llei.","isCorrect":true,"rationale":"La potestat és utilitzada per a un fi diferent de l'interès públic legalment establert."},
+     {"text":"L'òrgan competent comet un error material en una notificació.","isCorrect":false,"rationale":"Els errors materials no impliquen desviació de poder."},
+     {"text":"La resolució conté dades incompletes sobre els interessats.","isCorrect":false,"rationale":"Pot ser un defecte formal però no desviació de poder."},
+     {"text":"S'incompleix un termini administratiu no essencial del procediment.","isCorrect":false,"rationale":"La desviació de poder està relacionada amb la finalitat perseguida."}
+    ],
+        "hint": "La causa de l'acte exigeix que la potestat administrativa s'exerceixi per assolir exactament la finalitat d'interès públic prevista per l'ordenament."
+    },
+    {
+        "guid": "10b075ff-5049-47e5-b4ab-cb8e897e73a9",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "L'element formal de l'acte administratiu inclou principalment:",
+        "answerOptions": [
+     {"text":"La forma,el procediment i els requisits externs de l'acte.","isCorrect":true,"rationale":"L'element formal regula com es forma i exterioritza la decisió administrativa."},
+     {"text":"La finalitat pública perseguida per la decisió adoptada.","isCorrect":false,"rationale":"Això correspon a la causa."},
+     {"text":"La competència atribuïda a l'òrgan que resol l'assumpte.","isCorrect":false,"rationale":"Forma part de l'element subjectiu."},
+     {"text":"El contingut concret de la decisió administrativa adoptada.","isCorrect":false,"rationale":"Això és l'element objectiu."}
+    ],
+        "hint": "La forma escrita, el procediment administratiu, la motivació quan sigui exigible i la signatura formen part dels aspectes formals de l'acte."
+    },
+    {
+        "guid": "5214dd99-60df-4c94-9c04-9a5cb0da1d41",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la forma ordinària dels actes administratius?",
+        "answerOptions": [
+     {"text":"La forma escrita,preferentment per mitjans electrònics.","isCorrect":true,"rationale":"La regla general és que els actes es documentin per escrit."},
+     {"text":"La forma verbal davant de la persona interessada.","isCorrect":false,"rationale":"Només s'admet en supòsits excepcionals."},
+     {"text":"La forma gestual mitjançant actuacions materials.","isCorrect":false,"rationale":"Les actuacions materials no són la forma ordinària."},
+     {"text":"La forma oral seguida sempre d'una acta notarial.","isCorrect":false,"rationale":"No és un requisit legal general."}
+    ],
+        "hint": "La Llei 39/2015 estableix que els actes administratius es produeixen normalment per escrit i amb utilització de mitjans electrònics."
+    },
+    {
+        "guid": "1d56be5f-af65-4733-a884-3f8a68597bba",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina finalitat té principalment el procediment administratiu dins de l'element formal?",
+        "answerOptions": [
+     {"text":"Garantir que la decisió es formi amb respecte a la legalitat i als drets.","isCorrect":true,"rationale":"El procediment és una garantia tant per a l'Administració com per als ciutadans."},
+     {"text":"Permetre substituir qualsevol resolució administrativa per una oral.","isCorrect":false,"rationale":"No és la finalitat del procediment."},
+     {"text":"Eliminar l'obligació d'escoltar les persones interessades.","isCorrect":false,"rationale":"El procediment protegeix el dret d'audiència."},
+     {"text":"Evitar que es puguin interposar recursos administratius.","isCorrect":false,"rationale":"Els recursos formen part de les garanties administratives."}
+    ],
+        "hint": "El procediment administratiu és una garantia jurídica destinada a assegurar una decisió correcta, objectiva i respectuosa amb els drets dels interessats."
+    },
+    {
+        "guid": "aa1fa268-ee7a-44ef-bcfa-bb8c632c2389",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan existeix una causa legal d'abstenció, el titular de l'òrgan ha de:",
+        "answerOptions": [
+     {"text":"Apartar-se de la tramitació i resolució de l'assumpte.","isCorrect":true,"rationale":"L'abstenció protegeix la imparcialitat administrativa."},
+     {"text":"Continuar obligatòriament amb el procediment iniciat.","isCorrect":false,"rationale":"La llei imposa el deure d'abstenir-se."},
+     {"text":"Delegar automàticament totes les seves funcions.","isCorrect":false,"rationale":"L'abstenció i la delegació són figures diferents."},
+     {"text":"Suspendre definitivament el procediment administratiu.","isCorrect":false,"rationale":"El procediment pot continuar amb un altre òrgan competent."}
+    ],
+        "hint": "L'abstenció s'aplica quan existeixen circumstàncies que poden afectar l'objectivitat o la imparcialitat de l'autoritat o empleat públic."
+    },
+    {
+        "guid": "cab36d96-b31a-4635-b52e-c362cb0af940",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La recusació permet a la persona interessada:",
+        "answerOptions": [
+     {"text":"Sol·licitar l'apartament d'una autoritat quan concorre una causa legal.","isCorrect":true,"rationale":"És una garantia de la imparcialitat de l'actuació administrativa."},
+     {"text":"Designar directament l'òrgan que resoldrà el procediment.","isCorrect":false,"rationale":"La competència està determinada per la llei."},
+     {"text":"Anul·lar qualsevol acte sense necessitat de justificació.","isCorrect":false,"rationale":"La recusació requereix una causa legal concreta."},
+     {"text":"Modificar els terminis de resolució del procediment.","isCorrect":false,"rationale":"No és la seva finalitat."}
+    ],
+        "hint": "La recusació és el mecanisme pel qual l'interessat posa de manifest una possible manca d'imparcialitat de qui intervé en el procediment."
+    },
+    {
+        "guid": "a0ed29a4-3ebc-466a-b1e1-61f049f2c701",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin dels següents elements accidentals pot incorporar un acte administratiu?",
+        "answerOptions": [
+     {"text":"Una condició que afecti la producció dels seus efectes.","isCorrect":true,"rationale":"La condició és un element accidental clàssic de l'acte."},
+     {"text":"La competència atribuïda legalment a l'òrgan actuant.","isCorrect":false,"rationale":"La competència és un element essencial."},
+     {"text":"L'existència d'una causa d'interès públic legítima.","isCorrect":false,"rationale":"La causa és un element necessari."},
+     {"text":"La identificació de l'autoritat que dicta la resolució.","isCorrect":false,"rationale":"Forma part dels elements essencials de l'acte."}
+    ],
+        "hint": "Els elements accidentals més habituals són la condició, el termini i el mode o càrrega, que poden afegir-se sense alterar l'essència de l'acte."
+    },
+    {
+        "guid": "24370544-6815-4be3-92bc-0ed05662cfc5",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin element accidental fa dependre l'eficàcia d'un acte administratiu d'un fet futur i incert?",
+        "answerOptions": [
+     {"text":"La condició.","isCorrect":true,"rationale":"La condició subordina els efectes de l'acte a un esdeveniment futur i incert."},
+     {"text":"El termini.","isCorrect":false,"rationale":"El termini es refereix a un moment futur cert."},
+     {"text":"La competència.","isCorrect":false,"rationale":"És un element essencial de l'acte."},
+     {"text":"La motivació.","isCorrect":false,"rationale":"És un requisit formal en determinats casos."}
+    ],
+        "hint": "Entre els elements accidentals destaquen la condició, el termini i el mode o càrrega. La clau és diferenciar entre fet futur cert i fet futur incert."
+    },
+    {
+        "guid": "44076f0d-828f-4977-bba9-8864b7b23ab2",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què caracteritza el termini com a element accidental de l'acte administratiu?",
+        "answerOptions": [
+     {"text":"Relaciona els efectes de l'acte amb un moment futur cert.","isCorrect":true,"rationale":"El termini depèn d'un esdeveniment que necessàriament arribarà."},
+     {"text":"Depèn d'un fet futur que pot no arribar mai a produir-se.","isCorrect":false,"rationale":"Això és propi de la condició."},
+     {"text":"Determina l'òrgan administratiu competent per resoldre.","isCorrect":false,"rationale":"No està relacionat amb la competència."},
+     {"text":"Substitueix l'obligació de motivar la resolució adoptada.","isCorrect":false,"rationale":"Són conceptes independents."}
+    ],
+        "hint": "La diferència clàssica és que la condició depèn d'un fet incert i el termini d'un fet cert."
+    },
+    {
+        "guid": "1e9a6aa1-ed91-421f-b35b-6e623f06edac",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El mode o càrrega incorporat a un acte administratiu consisteix en:",
+        "answerOptions": [
+     {"text":"Una obligació addicional imposada al beneficiari de l'acte.","isCorrect":true,"rationale":"El destinatari obté un benefici però assumeix una càrrega associada."},
+     {"text":"L'atribució de la competència a un altre òrgan administratiu.","isCorrect":false,"rationale":"No afecta la competència."},
+     {"text":"La determinació del termini legal per interposar recursos.","isCorrect":false,"rationale":"És una qüestió procedimental."},
+     {"text":"La substitució de la resolució per una simple comunicació.","isCorrect":false,"rationale":"No és un element accidental."}
+    ],
+        "hint": "Un exemple habitual és una subvenció condicionada al compliment d'una determinada obligació pel beneficiari."
+    },
+    {
+        "guid": "30b5cde4-e1af-444c-b640-f897422b35fd",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La competència administrativa és, amb caràcter general:",
+        "answerOptions": [
+     {"text":"Irrenunciable i exercida pels òrgans que la tenen atribuïda.","isCorrect":true,"rationale":"És un principi bàsic del règim jurídic de les administracions públiques."},
+     {"text":"Disponible lliurement per qualsevol òrgan administratiu.","isCorrect":false,"rationale":"La competència no es pot exercir arbitràriament."},
+     {"text":"Delegable en tots els casos sense cap limitació legal.","isCorrect":false,"rationale":"La delegació està sotmesa a requisits i límits."},
+     {"text":"Modificable per acord entre les persones interessades.","isCorrect":false,"rationale":"La competència deriva de la llei."}
+    ],
+        "hint": "La competència no pertany a la persona titular del càrrec sinó a l'òrgan administratiu definit per l'ordenament jurídic."
+    },
+    {
+        "guid": "bcf865a0-1066-4497-bbef-49f7e10f2725",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina relació existeix entre la causa de l'acte administratiu i la desviació de poder?",
+        "answerOptions": [
+     {"text":"La desviació de poder apareix quan no es respecta la finalitat legal prevista.","isCorrect":true,"rationale":"L'acte utilitza una potestat administrativa per a un fi diferent del legal."},
+     {"text":"La desviació de poder afecta exclusivament els requisits formals de l'acte.","isCorrect":false,"rationale":"Està vinculada a la finalitat perseguida."},
+     {"text":"La desviació de poder només existeix en actes favorables als ciutadans.","isCorrect":false,"rationale":"Pot produir-se en qualsevol tipus d'acte."},
+     {"text":"La desviació de poder es limita als casos de manca de notificació.","isCorrect":false,"rationale":"No té relació amb la notificació."}
+    ],
+        "hint": "La causa exigeix que tota potestat administrativa s'utilitzi per satisfer l'interès públic i la finalitat específica que la llei ha previst per a aquella potestat."
+    },
+    {
+        "guid": "c3532e5c-9c55-42d4-ae39-71338bd285b6",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan un òrgan dicta un acte fora del seu àmbit geogràfic de competència es produeix un problema de:",
+        "answerOptions": [
+     {"text":"Competència territorial.","isCorrect":true,"rationale":"L'òrgan estaria actuant fora del territori que la norma li atribueix."},
+     {"text":"Competència material.","isCorrect":false,"rationale":"La competència material es refereix a les matèries atribuïdes."},
+     {"text":"Motivació insuficient.","isCorrect":false,"rationale":"La motivació és una qüestió formal diferent."},
+     {"text":"Desviació de poder.","isCorrect":false,"rationale":"La desviació de poder afecta la finalitat de l'acte."}
+    ],
+        "hint": "La competència territorial delimita l'espai geogràfic dins del qual un òrgan administratiu pot exercir vàlidament les seves potestats."
+    },
+    {
+        "guid": "0c0a48e8-418d-474e-a104-3fafe670c60d",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La competència jeràrquica permet determinar:",
+        "answerOptions": [
+     {"text":"Quin nivell de l'organització administrativa és competent per actuar.","isCorrect":true,"rationale":"Té relació amb la posició de l'òrgan dins de l'estructura administrativa."},
+     {"text":"Quina és la finalitat pública de l'acte administratiu.","isCorrect":false,"rationale":"Això correspon a la causa de l'acte."},
+     {"text":"L'àmbit territorial en què actua l'Administració.","isCorrect":false,"rationale":"Això és competència territorial."},
+     {"text":"La forma escrita o verbal de la resolució final.","isCorrect":false,"rationale":"Es tracta d'un aspecte formal."}
+    ],
+        "hint": "La competència jeràrquica distribueix les funcions segons la posició que ocupa cada òrgan dins de l'organització administrativa."
+    },
+    {
+        "guid": "6de92053-0338-40ed-9303-9442a031f719",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin element essencial garanteix que una decisió administrativa respongui a l'interès públic previst per la llei?",
+        "answerOptions": [
+     {"text":"La causa o finalitat de l'acte.","isCorrect":true,"rationale":"La causa connecta la potestat exercida amb el fi legalment establert."},
+     {"text":"El termini incorporat a la resolució.","isCorrect":false,"rationale":"El termini és un element accidental."},
+     {"text":"La signatura de l'autoritat competent.","isCorrect":false,"rationale":"És un requisit formal."},
+     {"text":"L'existència d'un destinatari individualitzat.","isCorrect":false,"rationale":"No afecta la finalitat perseguida."}
+    ],
+        "hint": "L'Administració no només ha d'actuar dins de les seves competències, sinó també perseguint exactament la finalitat que la llei atribueix a cada potestat."
+    },
+    {
+        "guid": "e3bbcffe-bd3d-4097-94c3-793a4d58eea0",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La signatura de l'autoritat competent forma part de:",
+        "answerOptions": [
+     {"text":"L'element formal de l'acte administratiu.","isCorrect":true,"rationale":"És un requisit extern que acredita l'autoria de l'acte."},
+     {"text":"L'element causal de l'acte administratiu.","isCorrect":false,"rationale":"La causa es refereix a la finalitat perseguida."},
+     {"text":"L'element objectiu de la resolució.","isCorrect":false,"rationale":"L'objecte és el contingut de la decisió."},
+     {"text":"L'element accidental relatiu al termini.","isCorrect":false,"rationale":"No és un element accidental."}
+    ],
+        "hint": "La forma de l'acte inclou aspectes com la documentació, la signatura, la data, la motivació quan sigui exigible i el procediment seguit."
+    },
+    {
+        "guid": "c95d0d88-6592-4d3f-919c-cc5a198c6545",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quins són els grans grups d'elements de l'acte administratiu estudiats habitualment per la doctrina?",
+        "answerOptions": [
+     {"text":"Subjectius,objectius,causals i formals.","isCorrect":true,"rationale":"És la classificació doctrinal tradicional dels elements essencials."},
+     {"text":"Territorials,econòmics,materials i pressupostaris.","isCorrect":false,"rationale":"No és una classificació doctrinal dels elements de l'acte."},
+     {"text":"Executius,sancionadors,organitzatius i reglamentaris.","isCorrect":false,"rationale":"Això no correspon als elements essencials."},
+     {"text":"Electrònics,presencials,interns i externs.","isCorrect":false,"rationale":"No constitueix la classificació clàssica."}
+    ],
+        "hint": "Per analitzar la validesa d'un acte administratiu s'estudien habitualment qui l'ha dictat, què decideix, amb quina finalitat i com ha estat elaborat."
+    },
+    {
+        "guid": "7335b4ef-4708-47b5-9b87-fe45b769e022",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què s'entén per motivació d'un acte administratiu?",
+        "answerOptions": [
+     {"text":"L'exposició dels fets i fonaments jurídics que justifiquen la decisió adoptada.","isCorrect":true,"rationale":"La motivació explica les raons de fet i de dret de la resolució."},
+     {"text":"La simple identificació de l'òrgan que dicta la resolució administrativa.","isCorrect":false,"rationale":"La identificació de l'òrgan no és la motivació."},
+     {"text":"La publicació obligatòria de qualsevol acte en un diari oficial.","isCorrect":false,"rationale":"Publicació i motivació són conceptes diferents."},
+     {"text":"L'acceptació expressa de la decisió per la persona interessada.","isCorrect":false,"rationale":"La motivació no depèn del consentiment."}
+    ],
+        "hint": "Motivar significa explicar per què s'adopta una decisió concreta, indicant els fets rellevants i les normes jurídiques aplicades."
+    },
+    {
+        "guid": "6219872b-17f9-47fe-a0dd-cae9e1210cf8",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin dels següents actes ha de ser motivat?",
+        "answerOptions": [
+     {"text":"L'acte que limita drets o interessos legítims.","isCorrect":true,"rationale":"Els actes de gravamen exigeixen motivació."},
+     {"text":"Qualsevol acte favorable sense excepció.","isCorrect":false,"rationale":"No tots els actes favorables exigeixen motivació."},
+     {"text":"Només els actes dictats per òrgans col·legiats.","isCorrect":false,"rationale":"La motivació no depèn de la naturalesa de l'òrgan."},
+     {"text":"Exclusivament els actes notificats electrònicament.","isCorrect":false,"rationale":"El canal de notificació és irrellevant."}
+    ],
+        "hint": "La motivació és especialment exigida quan la decisió perjudica drets o interessos dels ciutadans."
+    },
+    {
+        "guid": "2881e092-bdf4-4d41-82e0-951cb906ee6a",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Els actes que resolen recursos administratius han de ser:",
+        "answerOptions": [
+     {"text":"Motivats.","isCorrect":true,"rationale":"La resolució d'un recurs exigeix expressar les raons de la decisió."},
+     {"text":"Verbals obligatòriament.","isCorrect":false,"rationale":"La forma ordinària continua sent l'escrita."},
+     {"text":"Adoptats de forma col·legiada.","isCorrect":false,"rationale":"No és un requisit general."},
+     {"text":"Publicats sempre en un butlletí oficial.","isCorrect":false,"rationale":"Generalment es notifiquen als interessats."}
+    ],
+        "hint": "Quan l'Administració resol un recurs ha d'explicar les raons que la porten a estimar-lo o desestimar-lo."
+    },
+    {
+        "guid": "6a03ae1b-a553-409e-84fe-8c584caf9b74",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Per què han de motivar-se els actes discrecionals?",
+        "answerOptions": [
+     {"text":"Per justificar l'elecció realitzada entre diverses opcions possibles.","isCorrect":true,"rationale":"La motivació permet controlar l'exercici de la discrecionalitat."},
+     {"text":"Per convertir-los automàticament en actes reglats.","isCorrect":false,"rationale":"La motivació no elimina la discrecionalitat."},
+     {"text":"Per evitar qualsevol recurs administratiu posterior.","isCorrect":false,"rationale":"Els recursos continuen sent possibles."},
+     {"text":"Perquè sempre produeixen efectes desfavorables.","isCorrect":false,"rationale":"Poden ser favorables o desfavorables."}
+    ],
+        "hint": "La discrecionalitat implica marge de decisió, però no arbitrarietat. La motivació permet comprovar que la decisió és raonable."
+    },
+    {
+        "guid": "2f9c7b6b-1cb2-4064-94ea-c15511d8da04",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La motivació d'un acte administratiu ha de contenir:",
+        "answerOptions": [
+     {"text":"Els fets rellevants i els fonaments jurídics de la decisió.","isCorrect":true,"rationale":"Aquests són els elements essencials de la motivació."},
+     {"text":"L'opinió personal de tots els empleats participants.","isCorrect":false,"rationale":"No forma part de la motivació."},
+     {"text":"Les al·legacions completes reproduïdes literalment.","isCorrect":false,"rationale":"No és necessari reproduir-les íntegrament."},
+     {"text":"La normativa íntegra aplicable al procediment.","isCorrect":false,"rationale":"Només cal indicar els fonaments jurídics pertinents."}
+    ],
+        "hint": "La motivació ha de permetre entendre per què s'ha adoptat la decisió i quines normes la sustenten."
+    },
+    {
+        "guid": "ef03ed25-d5b3-4e1f-b40c-3920964abd14",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina finalitat principal té la motivació dels actes administratius?",
+        "answerOptions": [
+     {"text":"Garantir la transparència i facilitar el control de la decisió.","isCorrect":true,"rationale":"La motivació evita l'arbitrarietat i facilita la defensa dels drets."},
+     {"text":"Incrementar el termini de resolució dels procediments.","isCorrect":false,"rationale":"No és la finalitat de la motivació."},
+     {"text":"Substituir el tràmit d'audiència dels interessats.","isCorrect":false,"rationale":"Són garanties diferents."},
+     {"text":"Evitar tota revisió judicial posterior.","isCorrect":false,"rationale":"Els tribunals poden revisar els actes motivats."}
+    ],
+        "hint": "La motivació és una garantia fonamental contra l'arbitrarietat administrativa."
+    },
+    {
+        "guid": "74dfedf1-ca75-4ad1-82f4-b6ffaa8310bf",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una motivació insuficient pot dificultar principalment:",
+        "answerOptions": [
+     {"text":"La impugnació i el control de la decisió administrativa.","isCorrect":true,"rationale":"L'interessat necessita conèixer els motius de la decisió."},
+     {"text":"La identificació de l'òrgan competent per resoldre.","isCorrect":false,"rationale":"Són qüestions diferents."},
+     {"text":"La determinació del domicili de notificació.","isCorrect":false,"rationale":"No té relació amb la motivació."},
+     {"text":"L'existència mateixa del procediment administratiu.","isCorrect":false,"rationale":"La manca de motivació no elimina el procediment."}
+    ],
+        "hint": "La motivació permet a l'interessat entendre la decisió i decidir si la impugna."
+    },
+    {
+        "guid": "d3b0048a-13f1-4ad4-96e0-5f1cdb73d566",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La motivació per remissió consisteix a:",
+        "answerOptions": [
+     {"text":"Assumir els informes o documents incorporats a l'expedient.","isCorrect":true,"rationale":"La resolució pot donar per reproduïts determinats informes."},
+     {"text":"Delegar la decisió en una altra administració pública.","isCorrect":false,"rationale":"No té relació amb la delegació."},
+     {"text":"Remetre la notificació a un altre domicili diferent.","isCorrect":false,"rationale":"No es refereix a notificacions."},
+     {"text":"Traslladar el procediment a un altre òrgan instructor.","isCorrect":false,"rationale":"És una qüestió competencial."}
+    ],
+        "hint": "La motivació no sempre ha de redactar-se íntegrament; pot recolzar-se en informes que consten a l'expedient."
+    },
+    {
+        "guid": "64b7a68a-92f1-410e-ac29-a8f20f4a7a31",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina relació existeix entre motivació i arbitrarietat?",
+        "answerOptions": [
+     {"text":"La motivació és una garantia contra actuacions arbitràries.","isCorrect":true,"rationale":"Obliga l'Administració a justificar les seves decisions."},
+     {"text":"La motivació permet adoptar decisions arbitràries justificades.","isCorrect":false,"rationale":"L'arbitrarietat continua essent il·legal."},
+     {"text":"La motivació només és exigible en actes favorables.","isCorrect":false,"rationale":"No és correcte."},
+     {"text":"La motivació elimina la necessitat d'aplicar la llei.","isCorrect":false,"rationale":"La decisió ha de continuar ajustant-se a dret."}
+    ],
+        "hint": "L'obligació de motivar és una manifestació del principi de legalitat i del control de l'actuació administrativa."
+    },
+    {
+        "guid": "3477c88e-200e-4020-97b3-5b9312735e1c",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "L'absència de motivació en un acte que legalment l'exigeix constitueix:",
+        "answerOptions": [
+     {"text":"Un defecte que pot afectar la seva validesa jurídica.","isCorrect":true,"rationale":"La manca de motivació pot determinar la seva anul·labilitat."},
+     {"text":"Una simple irregularitat sense cap transcendència.","isCorrect":false,"rationale":"Pot afectar els drets dels interessats."},
+     {"text":"Una causa automàtica de nul·litat de ple dret en tots els casos.","isCorrect":false,"rationale":"No tota manca de motivació implica nul·litat de ple dret."},
+     {"text":"Un defecte que es corregeix amb la mera notificació.","isCorrect":false,"rationale":"La notificació no substitueix la motivació."}
+    ],
+        "hint": "La motivació és un requisit formal essencial en determinats actes. Quan manca, pot afectar la possibilitat de defensa de l'interessat i la validesa de la resolució."
+    },
+    {
+        "guid": "856981d6-fa78-4d71-9cb0-3fe1d2a193fe",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què és el silenci administratiu?",
+        "answerOptions": [
+     {"text":"L'efecte jurídic que la llei atribueix a la manca de resolució en termini.","isCorrect":true,"rationale":"El silenci administratiu produeix efectes jurídics quan no existeix resolució expressa."},
+     {"text":"La renúncia de l'interessat a continuar el procediment iniciat.","isCorrect":false,"rationale":"Això correspon a una actuació de l'interessat,no al silenci."},
+     {"text":"La suspensió automàtica de tots els procediments administratius.","isCorrect":false,"rationale":"El silenci no produeix aquest efecte general."},
+     {"text":"La notificació defectuosa d'una resolució administrativa.","isCorrect":false,"rationale":"La notificació és una institució diferent."}
+    ],
+        "hint": "El silenci administratiu és una garantia per evitar que la inactivitat de l'Administració perjudiqui indefinidament els ciutadans."
+    },
+    {
+        "guid": "b47257f4-e0ee-46a8-8023-79623680f8ad",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la regla general del silenci en procediments iniciats a sol·licitud de l'interessat?",
+        "answerOptions": [
+     {"text":"La sol·licitud s'entén estimada llevat de les excepcions legals.","isCorrect":true,"rationale":"La regla general és el silenci positiu."},
+     {"text":"La petició es considera desestimada en tots els casos.","isCorrect":false,"rationale":"No és la regla general prevista per la llei."},
+     {"text":"L'expedient queda arxivat automàticament.","isCorrect":false,"rationale":"L'arxivament no és la conseqüència ordinària."},
+     {"text":"La persona interessada ha de tornar a presentar la sol·licitud.","isCorrect":false,"rationale":"No és necessari iniciar un nou procediment."}
+    ],
+        "hint": "La regla general és favorable al ciutadà, encara que existeixen excepcions molt importants que cal conèixer."
+    },
+    {
+        "guid": "ea329256-de71-44dc-8edc-5259536eecd6",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Com es denomina el silenci que produeix l'estimació de la sol·licitud?",
+        "answerOptions": [
+     {"text":"Silenci administratiu positiu.","isCorrect":true,"rationale":"L'efecte jurídic és favorable a l'interessat."},
+     {"text":"Silenci administratiu negatiu.","isCorrect":false,"rationale":"El silenci negatiu implica desestimació."},
+     {"text":"Silenci impeditiu.","isCorrect":false,"rationale":"Aquesta denominació no és la utilitzada legalment."},
+     {"text":"Silenci suspensiu.","isCorrect":false,"rationale":"No és una categoria jurídica reconeguda."}
+    ],
+        "hint": "Els dos grans tipus són el silenci positiu i el silenci negatiu o desestimatori."
+    },
+    {
+        "guid": "6fd74c41-f249-48fe-b3aa-71899776c3ff",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Com es denomina el silenci que produeix la desestimació de la petició?",
+        "answerOptions": [
+     {"text":"Silenci administratiu negatiu.","isCorrect":true,"rationale":"L'efecte jurídic és desfavorable a l'interessat."},
+     {"text":"Silenci administratiu positiu.","isCorrect":false,"rationale":"El positiu implica estimació."},
+     {"text":"Silenci constitutiu.","isCorrect":false,"rationale":"No és una classificació legal habitual."},
+     {"text":"Silenci executiu.","isCorrect":false,"rationale":"No és una categoria jurídica existent."}
+    ],
+        "hint": "El silenci negatiu funciona habitualment com una ficció legal per permetre la impugnació."
+    },
+    {
+        "guid": "34a4af43-0e7f-4502-8662-b1c778017ba7",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "En els casos de silenci positiu, la sol·licitud s'entén:",
+        "answerOptions": [
+     {"text":"Estimadament resolta a favor de l'interessat.","isCorrect":true,"rationale":"La manca de resolució produeix els mateixos efectes que una estimació."},
+     {"text":"Desestimada provisionalment.","isCorrect":false,"rationale":"És l'efecte contrari."},
+     {"text":"Suspendida fins a nova resolució.","isCorrect":false,"rationale":"La llei atribueix un efecte jurídic concret."},
+     {"text":"Arxivada sense produir cap efecte jurídic.","isCorrect":false,"rationale":"El silenci sempre produeix un efecte legal."}
+    ],
+        "hint": "L'interessat no ha de quedar perjudicat per la manca d'activitat administrativa."
+    },
+    {
+        "guid": "dfd63404-48c7-4698-be1f-373687c01570",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El silenci administratiu substitueix l'obligació de resoldre?",
+        "answerOptions": [
+     {"text":"No,l'Administració continua obligada a dictar resolució expressa.","isCorrect":true,"rationale":"L'obligació legal de resoldre es manté."},
+     {"text":"Sí,desapareix qualsevol obligació de resoldre.","isCorrect":false,"rationale":"La llei manté el deure de resolució expressa."},
+     {"text":"Només en procediments sancionadors.","isCorrect":false,"rationale":"No és la regla legal."},
+     {"text":"Només quan existeix silenci positiu.","isCorrect":false,"rationale":"L'obligació subsisteix en qualsevol cas."}
+    ],
+        "hint": "La institució del silenci protegeix l'interessat però no eximeix l'Administració del seu deure legal de resoldre."
+    },
+    {
+        "guid": "608f5a0f-318f-414b-9043-7ffa4532d150",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El silenci administratiu positiu genera normalment:",
+        "answerOptions": [
+     {"text":"Un acte presumpte favorable a l'interessat.","isCorrect":true,"rationale":"La llei considera estimada la petició presentada."},
+     {"text":"Una mera expectativa sense efectes jurídics.","isCorrect":false,"rationale":"El silenci positiu produeix efectes reals."},
+     {"text":"Una resolució judicial automàtica.","isCorrect":false,"rationale":"No intervé cap tribunal."},
+     {"text":"Una suspensió indefinida del procediment.","isCorrect":false,"rationale":"L'efecte legal és l'estimació."}
+    ],
+        "hint": "L'acte presumpte existeix jurídicament encara que no hi hagi resolució expressa."
+    },
+    {
+        "guid": "19bea079-54b9-45ae-b61c-5fce632b123a",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la finalitat principal del silenci negatiu?",
+        "answerOptions": [
+     {"text":"Permetre a l'interessat impugnar la inactivitat administrativa.","isCorrect":true,"rationale":"Evita que el ciutadà quedi bloquejat per la manca de resposta."},
+     {"text":"Atorgar automàticament el dret sol·licitat.","isCorrect":false,"rationale":"Això és propi del silenci positiu."},
+     {"text":"Eliminar la necessitat de recursos administratius.","isCorrect":false,"rationale":"Precisament facilita la seva interposició."},
+     {"text":"Substituir definitivament la resolució administrativa.","isCorrect":false,"rationale":"L'Administració continua obligada a resoldre."}
+    ],
+        "hint": "La desestimació presumpta és una ficció jurídica orientada principalment a permetre la defensa dels drets de l'interessat."
+    },
+    {
+        "guid": "cbf1e67c-5101-4919-aedb-0ec84a055727",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Perquè existeixi silenci administratiu és necessari que:",
+        "answerOptions": [
+     {"text":"Hagi transcorregut el termini legal sense resolució expressa.","isCorrect":true,"rationale":"Aquest és el pressupòsit bàsic del silenci."},
+     {"text":"L'interessat presenti un recurs administratiu previ.","isCorrect":false,"rationale":"No és un requisit necessari."},
+     {"text":"Existeixi un informe jurídic desfavorable.","isCorrect":false,"rationale":"No té relació amb el silenci."},
+     {"text":"Hi hagi una notificació defectuosa de la resolució.","isCorrect":false,"rationale":"El silenci pressuposa absència de resolució expressa."}
+    ],
+        "hint": "El còmput dels terminis és fonamental en tota la matèria del silenci administratiu."
+    },
+    {
+        "guid": "86686b7b-14c0-4fed-8896-a05fc0640535",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin concepte està més directament relacionat amb el silenci administratiu?",
+        "answerOptions": [
+     {"text":"L'acte administratiu presumpte.","isCorrect":true,"rationale":"El silenci produeix un acte presumpte amb els efectes previstos per la llei."},
+     {"text":"La desviació de poder.","isCorrect":false,"rationale":"És una figura relativa a la finalitat de l'acte."},
+     {"text":"La recusació de l'autoritat competent.","isCorrect":false,"rationale":"És una garantia d'imparcialitat."},
+     {"text":"La competència territorial de l'òrgan.","isCorrect":false,"rationale":"Són qüestions diferents."}
+    ],
+        "hint": "Quan la llei atribueix efectes a la manca de resolució, neix un acte presumpte favorable o desfavorable segons el cas."
+    },
+    {
+        "guid": "61d32195-99e4-4666-b5f6-f66e410b6fe9",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "En quins procediments s'aplica com a regla general el silenci positiu?",
+        "answerOptions": [
+     {"text":"En els procediments iniciats a sol·licitud de la persona interessada.","isCorrect":true,"rationale":"Aquesta és la regla general establerta per la Llei 39/2015."},
+     {"text":"En tots els procediments iniciats d'ofici per l'Administració.","isCorrect":false,"rationale":"Els procediments d'ofici tenen un règim diferent."},
+     {"text":"Només en els procediments sancionadors.","isCorrect":false,"rationale":"No és un àmbit de silenci positiu general."},
+     {"text":"Únicament en els recursos administratius.","isCorrect":false,"rationale":"Els recursos tenen regles específiques."}
+    ],
+        "hint": "La regla general beneficia qui presenta una sol·licitud davant l'Administració, encara que existeixen nombroses excepcions."
+    },
+    {
+        "guid": "58e951c6-2798-46d0-84d4-2669dbef41a7",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Les excepcions al silenci positiu han d'estar:",
+        "answerOptions": [
+     {"text":"Expressament previstes en una norma amb rang suficient.","isCorrect":true,"rationale":"El silenci negatiu és excepcional i requereix cobertura normativa."},
+     {"text":"Determinades lliurement per l'òrgan instructor.","isCorrect":false,"rationale":"L'Administració no pot crear excepcions discrecionalment."},
+     {"text":"Recollides en una simple instrucció interna.","isCorrect":false,"rationale":"Les instruccions internes no són suficients."},
+     {"text":"Aprovades per cada administració anualment.","isCorrect":false,"rationale":"No és el sistema legal previst."}
+    ],
+        "hint": "El silenci positiu és la regla i qualsevol excepció ha d'estar expressament fonamentada en una norma."
+    },
+    {
+        "guid": "b9a0de2b-464d-433d-ac88-e5dee7df57bc",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El silenci administratiu positiu permet adquirir facultats contràries a l'ordenament jurídic?",
+        "answerOptions": [
+     {"text":"No,mai es poden adquirir drets contraris a la llei.","isCorrect":true,"rationale":"El silenci positiu no pot legitimar situacions il·legals."},
+     {"text":"Sí,sempre que hagi transcorregut el termini legal.","isCorrect":false,"rationale":"L'ordenament preval sobre els efectes del silenci."},
+     {"text":"Sí,si existeix bona fe de la persona interessada.","isCorrect":false,"rationale":"La bona fe no converteix en legal allò que no ho és."},
+     {"text":"Sí,quan l'Administració no presenti cap recurs posterior.","isCorrect":false,"rationale":"La il·legalitat no queda convalidada."}
+    ],
+        "hint": "Una de les limitacions bàsiques del silenci positiu és que no pot generar drets o facultats contraris a l'ordenament."
+    },
+    {
+        "guid": "429d2701-9b01-4113-a001-1605bc5ffdcc",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina funció té el certificat acreditatiu del silenci administratiu?",
+        "answerOptions": [
+     {"text":"Permetre acreditar davant tercers els efectes produïts pel silenci.","isCorrect":true,"rationale":"Serveix com a prova dels efectes derivats de la manca de resolució."},
+     {"text":"Substituir definitivament la resolució expressa obligatòria.","isCorrect":false,"rationale":"L'obligació de resoldre continua existint."},
+     {"text":"Modificar el sentit del silenci produït legalment.","isCorrect":false,"rationale":"El certificat no altera els efectes legals."},
+     {"text":"Prorrogar el termini màxim del procediment.","isCorrect":false,"rationale":"No té aquesta funció."}
+    ],
+        "hint": "El certificat no crea cap dret nou; simplement acredita els efectes que la llei ja atribueix al silenci."
+    },
+    {
+        "guid": "e6d14daa-5623-46ca-978a-57e29979e8e4",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "En els recursos administratius, la regla general del silenci és:",
+        "answerOptions": [
+     {"text":"La desestimació presumpta,amb les excepcions legalment previstes.","isCorrect":true,"rationale":"Els recursos tenen un règim diferent del de les sol·licituds inicials."},
+     {"text":"L'estimació automàtica del recurs interposat.","isCorrect":false,"rationale":"No és la regla general."},
+     {"text":"La caducitat immediata del procediment.","isCorrect":false,"rationale":"Caducitat i silenci són institucions diferents."},
+     {"text":"La suspensió indefinida de l'acte recorregut.","isCorrect":false,"rationale":"El silenci no produeix aquest efecte."}
+    ],
+        "hint": "Els recursos administratius constitueixen una de les excepcions més preguntades en matèria de silenci."
+    },
+    {
+        "guid": "3e2ba024-0448-48d8-bdb9-28bc3301f222",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El silenci negatiu té com a principal finalitat:",
+        "answerOptions": [
+     {"text":"Permetre a l'interessat continuar la defensa dels seus drets.","isCorrect":true,"rationale":"La ficció de desestimació obre la possibilitat d'impugnació."},
+     {"text":"Confirmar definitivament la legalitat de l'actuació administrativa.","isCorrect":false,"rationale":"No existeix aquesta conseqüència."},
+     {"text":"Atorgar drets de forma automàtica al ciutadà.","isCorrect":false,"rationale":"Això és propi del silenci positiu."},
+     {"text":"Eliminar l'obligació administrativa de resoldre.","isCorrect":false,"rationale":"L'obligació de resolució subsisteix."}
+    ],
+        "hint": "La funció essencial del silenci negatiu és impedir que la inactivitat administrativa bloquegi les vies de recurs."
+    },
+    {
+        "guid": "8c84dda0-275a-4139-93fb-06871748e89e",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El còmput del termini per produir-se el silenci administratiu s'inicia normalment:",
+        "answerOptions": [
+     {"text":"Des de l'entrada de la sol·licitud al registre corresponent.","isCorrect":true,"rationale":"El còmput dels terminis s'inicia segons les regles de procediment administratiu."},
+     {"text":"Des de la notificació de la resolució final.","isCorrect":false,"rationale":"Si hi ha resolució notificada no hi ha silenci."},
+     {"text":"Des de la publicació del procediment al diari oficial.","isCorrect":false,"rationale":"No és la regla general."},
+     {"text":"Des de la primera al·legació presentada per l'interessat.","isCorrect":false,"rationale":"El còmput no depèn de les al·legacions."}
+    ],
+        "hint": "Una pregunta típica d'examen és determinar des de quin moment es calculen els terminis per entendre produït el silenci."
+    },
+    {
+        "guid": "09be6e3c-b157-439f-83ab-bf82d074f8b3",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan es produeix el silenci positiu, l'acte presumpte es considera:",
+        "answerOptions": [
+     {"text":"Eficaç des del venciment del termini màxim per resoldre.","isCorrect":true,"rationale":"Els efectes es produeixen en el moment previst legalment."},
+     {"text":"Vàlid únicament quan existeixi certificat administratiu.","isCorrect":false,"rationale":"El certificat acredita,però no crea l'acte."},
+     {"text":"Condicionat a la voluntat posterior de l'òrgan competent.","isCorrect":false,"rationale":"Els efectes neixen per ministeri de la llei."},
+     {"text":"Subordinat a una publicació oficial obligatòria.","isCorrect":false,"rationale":"No és un requisit general."}
+    ],
+        "hint": "El certificat és un mitjà de prova; els efectes de l'acte presumpte neixen directament de la llei."
+    },
+    {
+        "guid": "f5fcb916-4623-49a9-ad76-d1d7ec4c15b4",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La resolució expressa dictada després d'haver-se produït el silenci positiu:",
+        "answerOptions": [
+     {"text":"Està limitada pels efectes favorables ja adquirits per l'interessat.","isCorrect":true,"rationale":"L'acte presumpte favorable gaudeix de protecció jurídica."},
+     {"text":"Pot ignorar lliurement els efectes del silenci produït.","isCorrect":false,"rationale":"L'Administració no pot desconèixer-los arbitràriament."},
+     {"text":"Anul·la automàticament qualsevol dret adquirit.","isCorrect":false,"rationale":"No és la conseqüència prevista legalment."},
+     {"text":"Transforma sempre el silenci positiu en negatiu.","isCorrect":false,"rationale":"Això és jurídicament incorrecte."}
+    ],
+        "hint": "Una vegada produït un acte presumpte estimatori, la situació jurídica del ciutadà queda especialment protegida."
+    },
+    {
+        "guid": "9e5a2fdb-162e-4221-ae4f-6fa4250cad4c",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina diferència essencial existeix entre silenci positiu i silenci negatiu?",
+        "answerOptions": [
+     {"text":"Un genera una estimació presumpta i l'altre una desestimació presumpta.","isCorrect":true,"rationale":"És la diferència fonamental entre ambdues institucions."},
+     {"text":"Un afecta procediments escrits i l'altre procediments electrònics.","isCorrect":false,"rationale":"El mitjà de tramitació és irrellevant."},
+     {"text":"Un és aplicable a administracions locals i l'altre a estatals.","isCorrect":false,"rationale":"La classificació no depèn de l'administració."},
+     {"text":"Un s'aplica a persones físiques i l'altre a persones jurídiques.","isCorrect":false,"rationale":"No existeix aquesta diferència."}
+    ],
+        "hint": "La clau és entendre quin efecte jurídic atribueix la llei a la falta de resolució administrativa."
+    },
+    {
+        "guid": "0781c3e4-b728-41c5-af14-90480cf92f4d",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "En els procediments iniciats d'ofici, la manca de resolució dins del termini produeix generalment:",
+        "answerOptions": [
+     {"text":"Els efectes previstos específicament per la llei segons el tipus de procediment.","isCorrect":true,"rationale":"Els procediments iniciats d'ofici tenen un règim diferent dels iniciats a instància de l'interessat."},
+     {"text":"L'estimació automàtica de qualsevol pretensió ciutadana existent.","isCorrect":false,"rationale":"La regla general del silenci positiu no s'aplica així als procediments d'ofici."},
+     {"text":"La conversió automàtica de l'expedient en un acte favorable.","isCorrect":false,"rationale":"Els efectes depenen del tipus de procediment."},
+     {"text":"La concessió immediata dels drets sol·licitats pels interessats.","isCorrect":false,"rationale":"No és la conseqüència general en aquests casos."}
+    ],
+        "hint": "Cal distingir clarament entre procediments iniciats a sol·licitud de l'interessat i procediments iniciats d'ofici per l'Administració."
+    },
+    {
+        "guid": "aedf77dd-f943-49e0-a51f-facca6dda66c",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina relació existeix entre el silenci administratiu i l'obligació de resoldre?",
+        "answerOptions": [
+     {"text":"El silenci no elimina el deure legal de dictar resolució expressa.","isCorrect":true,"rationale":"L'Administració continua obligada a resoldre de manera expressa."},
+     {"text":"El silenci substitueix definitivament la resolució administrativa.","isCorrect":false,"rationale":"La resolució expressa continua essent obligatòria."},
+     {"text":"El silenci només manté el deure de resoldre en recursos administratius.","isCorrect":false,"rationale":"L'obligació és general."},
+     {"text":"El silenci extingeix qualsevol responsabilitat de l'Administració.","isCorrect":false,"rationale":"La manca de resolució no eximeix responsabilitats."}
+    ],
+        "hint": "La llei estableix simultàniament dues regles: existeix silenci administratiu i existeix obligació de resoldre."
+    },
+    {
+        "guid": "36cc106b-63c3-47e1-ab43-3c65f156e53e",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La desestimació presumpta derivada del silenci negatiu permet:",
+        "answerOptions": [
+     {"text":"Interposar els recursos administratius o judicials corresponents.","isCorrect":true,"rationale":"La seva funció principal és permetre continuar la defensa dels drets."},
+     {"text":"Considerar resolta definitivament la qüestió sense possibilitat de recurs.","isCorrect":false,"rationale":"Precisament facilita la impugnació."},
+     {"text":"Entendre estimada la pretensió de la persona interessada.","isCorrect":false,"rationale":"Això correspon al silenci positiu."},
+     {"text":"Convertir automàticament el procediment en un expedient sancionador.","isCorrect":false,"rationale":"No hi ha cap relació entre ambdues figures."}
+    ],
+        "hint": "El silenci negatiu és una ficció legal creada principalment per evitar la indefensió davant la inactivitat administrativa."
+    },
+    {
+        "guid": "5e9095c7-5b53-4f9f-a2ae-e1d8c1aa746a",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin dels següents conceptes està més estretament vinculat al silenci administratiu positiu?",
+        "answerOptions": [
+     {"text":"L'acte presumpte estimatori.","isCorrect":true,"rationale":"El silenci positiu produeix una estimació presumpta de la sol·licitud."},
+     {"text":"La caducitat del procediment.","isCorrect":false,"rationale":"La caducitat és una institució diferent."},
+     {"text":"La recusació de l'autoritat administrativa.","isCorrect":false,"rationale":"No té relació amb la manca de resolució."},
+     {"text":"La delegació de competències administratives.","isCorrect":false,"rationale":"És una qüestió organitzativa."}
+    ],
+        "hint": "Quan opera el silenci positiu, la llei considera estimada la petició encara que no existeixi resolució expressa."
+    },
+    {
+        "guid": "666564d3-a8d5-4168-bcde-c20330d9b0db",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Per què el silenci administratiu es considera una garantia per a la ciutadania?",
+        "answerOptions": [
+     {"text":"Perquè evita que la inactivitat administrativa paralitzi indefinidament els drets dels interessats.","isCorrect":true,"rationale":"La llei atribueix efectes jurídics a la manca de resposta administrativa."},
+     {"text":"Perquè elimina l'obligació de tramitar els procediments administratius.","isCorrect":false,"rationale":"Els procediments continuen sotmesos a les regles ordinàries."},
+     {"text":"Perquè obliga sempre a estimar totes les sol·licituds presentades.","isCorrect":false,"rationale":"Existeixen nombroses excepcions i també silenci negatiu."},
+     {"text":"Perquè impedeix qualsevol revisió posterior dels actes administratius.","isCorrect":false,"rationale":"La revisió i impugnació continuen sent possibles."}
+    ],
+        "hint": "La finalitat essencial de la institució és protegir els ciutadans davant la manca d'activitat administrativa i garantir la seguretat jurídica."
+    },
+    {
+        "guid": "6d258c75-9dc8-4ac5-adc3-6a21b0c7cd57",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan produeixen efectes els actes administratius amb caràcter general?",
+        "answerOptions": [
+     {"text":"Des de la data en què es dicten,llevat que s'hi disposi una altra cosa.","isCorrect":true,"rationale":"La regla general és l'eficàcia immediata de l'acte."},
+     {"text":"Només després de ser publicats en un diari oficial.","isCorrect":false,"rationale":"La publicació només és exigible en determinats casos."},
+     {"text":"Quan hagin transcorregut trenta dies des de la seva adopció.","isCorrect":false,"rationale":"No existeix aquesta regla general."},
+     {"text":"Després que els interessats acceptin expressament el seu contingut.","isCorrect":false,"rationale":"L'acceptació no és un requisit general."}
+    ],
+        "hint": "La regla general és que els actes administratius són executius i eficaços des que s'adopten, encara que hi ha excepcions relacionades amb notificacions i publicacions."
+    },
+    {
+        "guid": "16ac4fc4-e111-46a5-9c85-f9ae7f755fe8",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la finalitat principal de la notificació administrativa?",
+        "answerOptions": [
+     {"text":"Posar en coneixement de l'interessat el contingut de l'acte.","isCorrect":true,"rationale":"La notificació garanteix el coneixement formal de la decisió."},
+     {"text":"Substituir la motivació de la resolució administrativa.","isCorrect":false,"rationale":"Motivació i notificació són conceptes diferents."},
+     {"text":"Atorgar competència a l'òrgan que ha resolt.","isCorrect":false,"rationale":"La competència deriva de la normativa."},
+     {"text":"Transformar qualsevol acte en un acte ferm.","isCorrect":false,"rationale":"La notificació no implica fermesa."}
+    ],
+        "hint": "La notificació és una garantia perquè les persones interessades coneguin la decisió i puguin defensar els seus drets."
+    },
+    {
+        "guid": "5da5b3c6-d869-4a13-a715-87bf284c5be8",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què ha d'incloure una notificació correctament practicada?",
+        "answerOptions": [
+     {"text":"El text íntegre de la resolució i la indicació dels recursos procedents.","isCorrect":true,"rationale":"Són elements essencials de la notificació."},
+     {"text":"Només el número d'expedient i la data de resolució.","isCorrect":false,"rationale":"La informació seria insuficient."},
+     {"text":"Únicament el sentit favorable o desfavorable de la decisió.","isCorrect":false,"rationale":"Cal comunicar el contingut íntegre."},
+     {"text":"Només la identificació de l'autoritat que l'ha signada.","isCorrect":false,"rationale":"La notificació requereix més contingut."}
+    ],
+        "hint": "La notificació ha de permetre comprendre la decisió i conèixer les vies d'impugnació disponibles."
+    },
+    {
+        "guid": "74e7e4aa-2e13-461f-bc81-7c8f1c0e311e",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan s'utilitza preferentment la publicació en lloc de la notificació individual?",
+        "answerOptions": [
+     {"text":"Quan existeix una pluralitat indeterminada de destinataris.","isCorrect":true,"rationale":"La publicació substitueix la notificació individual en aquests supòsits."},
+     {"text":"Quan l'acte és favorable a una única persona interessada.","isCorrect":false,"rationale":"En aquest cas normalment es notifica."},
+     {"text":"Quan es tracta d'un acte verbal.","isCorrect":false,"rationale":"La forma de l'acte no és el criteri determinant."},
+     {"text":"Quan la resolució és discrecional.","isCorrect":false,"rationale":"La discrecionalitat no determina la publicació."}
+    ],
+        "hint": "La publicació és habitual quan no és possible o raonable practicar notificacions individuals."
+    },
+    {
+        "guid": "139d86c5-06c8-41d6-9719-a13a17ec6e13",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin efecte té una notificació defectuosa que permet a l'interessat conèixer la resolució?",
+        "answerOptions": [
+     {"text":"Pot produir efectes des que l'interessat realitza actuacions que demostren aquest coneixement.","isCorrect":true,"rationale":"La jurisprudència i la llei eviten formalismes excessius."},
+     {"text":"És automàticament nul·la en qualsevol circumstància.","isCorrect":false,"rationale":"Cal analitzar si s'ha produït indefensió."},
+     {"text":"Converteix immediatament l'acte en inexistent.","isCorrect":false,"rationale":"No és la conseqüència jurídica prevista."},
+     {"text":"Impedeix sempre qualsevol tipus de recurs administratiu.","isCorrect":false,"rationale":"La finalitat és protegir els drets de defensa."}
+    ],
+        "hint": "En notificacions defectuoses és important el concepte de coneixement efectiu per part de la persona interessada."
+    },
+    {
+        "guid": "24d05d4d-014c-4cf3-9725-440105072cc4",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina característica defineix l'executivitat dels actes administratius?",
+        "answerOptions": [
+     {"text":"Poden produir efectes i ser executats sense necessitat de declaració judicial prèvia.","isCorrect":true,"rationale":"És un privilegi propi de l'actuació administrativa."},
+     {"text":"Necessiten sempre una sentència judicial abans d'aplicar-se.","isCorrect":false,"rationale":"Això és contrari al principi d'executivitat."},
+     {"text":"Només s'aplica als actes favorables.","isCorrect":false,"rationale":"No depèn del caràcter favorable o desfavorable."},
+     {"text":"Es limita exclusivament als procediments sancionadors.","isCorrect":false,"rationale":"Té un abast molt més ampli."}
+    ],
+        "hint": "L'executivitat és una de les característiques tradicionals dels actes administratius."
+    },
+    {
+        "guid": "8bbdb772-67bc-448b-a1ef-fd6e967a2f40",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La notificació d'un acte ha de practicar-se principalment a:",
+        "answerOptions": [
+     {"text":"Les persones interessades afectades per la resolució.","isCorrect":true,"rationale":"Són els destinataris naturals de la notificació."},
+     {"text":"Qualsevol ciutadà que ho sol·liciti verbalment.","isCorrect":false,"rationale":"La notificació s'adreça als interessats."},
+     {"text":"Exclusivament als òrgans superiors jeràrquics.","isCorrect":false,"rationale":"No és la finalitat de la notificació."},
+     {"text":"Només als representants sindicals de l'organisme.","isCorrect":false,"rationale":"No és un requisit general."}
+    ],
+        "hint": "La notificació garanteix que la persona afectada conegui formalment l'existència i contingut de la decisió."
+    },
+    {
+        "guid": "fa63218d-b140-4a49-9986-8289048f3e41",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una notificació ha d'indicar els recursos procedents perquè:",
+        "answerOptions": [
+     {"text":"L'interessat pugui exercir adequadament el seu dret de defensa.","isCorrect":true,"rationale":"Forma part de les garanties administratives."},
+     {"text":"L'Administració pugui ampliar lliurement els terminis.","isCorrect":false,"rationale":"No és la seva finalitat."},
+     {"text":"L'acte adquireixi fermesa immediata.","isCorrect":false,"rationale":"La fermesa depèn d'altres factors."},
+     {"text":"La resolució es converteixi en reglament.","isCorrect":false,"rationale":"Són figures jurídiques diferents."}
+    ],
+        "hint": "La indicació dels recursos és una manifestació del principi de tutela efectiva dels drets."
+    },
+    {
+        "guid": "a6451dd7-f8b0-403e-9bb6-55019666f486",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La publicació d'un acte administratiu pot substituir la notificació quan:",
+        "answerOptions": [
+     {"text":"Els destinataris siguin una pluralitat indeterminada de persones.","isCorrect":true,"rationale":"És un dels supòsits clàssics previstos legalment."},
+     {"text":"L'acte contingui una sanció econòmica.","isCorrect":false,"rationale":"No és la regla general."},
+     {"text":"Existeixi un únic interessat perfectament identificat.","isCorrect":false,"rationale":"Normalment correspon notificació individual."},
+     {"text":"La resolució hagi estat dictada per un òrgan col·legiat.","isCorrect":false,"rationale":"No és un criteri legal."}
+    ],
+        "hint": "Cal saber diferenciar clarament entre notificació individual i publicació oficial."
+    },
+    {
+        "guid": "98201174-c1a3-4c36-b871-dbae7b9a2c28",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La regla general és que els actes administratius siguin:",
+        "answerOptions": [
+     {"text":"Eficaços i executius des de la seva adopció.","isCorrect":true,"rationale":"És un principi bàsic del règim jurídic de l'acte administratiu."},
+     {"text":"Ineficaços fins que siguin confirmats judicialment.","isCorrect":false,"rationale":"No és la regla general."},
+     {"text":"Executables només després de trenta dies.","isCorrect":false,"rationale":"Aquest termini no existeix amb caràcter general."},
+     {"text":"Condicionats sempre a la seva publicació oficial.","isCorrect":false,"rationale":"La publicació només és exigible en certs supòsits."}
+    ],
+        "hint": "Els principis d'eficàcia i executivitat són fonamentals per entendre el règim jurídic dels actes administratius."
+    },
+    {
+        "guid": "b8e25f48-f0cf-422a-b830-70f8ecef3925",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina circumstància pot retardar l'eficàcia d'un acte administratiu?",
+        "answerOptions": [
+     {"text":"Que el mateix acte estableixi una data posterior d'efectes.","isCorrect":true,"rationale":"L'acte pot diferir la seva eficàcia a un moment posterior."},
+     {"text":"Que l'interessat no estigui d'acord amb el seu contingut.","isCorrect":false,"rationale":"La disconformitat no impedeix l'eficàcia."},
+     {"text":"Que sigui dictat per un òrgan administratiu competent.","isCorrect":false,"rationale":"La competència és un requisit de validesa."},
+     {"text":"Que existeixi una motivació suficient.","isCorrect":false,"rationale":"La motivació no retarda l'eficàcia."}
+    ],
+        "hint": "La regla general és l'eficàcia immediata, però existeixen supòsits de demora previstos legalment o pel mateix acte."
+    },
+    {
+        "guid": "f0d1572c-b8e9-4e48-b6ab-0c7eff729b83",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La notificació ha de practicar-se dins de quin termini general des que es dicta la resolució?",
+        "answerOptions": [
+     {"text":"Dins del termini de deu dies.","isCorrect":true,"rationale":"És el termini general previst per la Llei 39/2015."},
+     {"text":"Dins del termini de tres dies.","isCorrect":false,"rationale":"No és el termini general legal."},
+     {"text":"Dins del termini d'un mes.","isCorrect":false,"rationale":"És superior al termini general."},
+     {"text":"Dins del termini de vint dies hàbils.","isCorrect":false,"rationale":"No és la regla prevista a la llei."}
+    ],
+        "hint": "És una dada molt preguntable en oposicions i convé memoritzar-la literalment."
+    },
+    {
+        "guid": "49004edc-8652-484b-afb7-12fe798c58f2",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan una notificació no conté la indicació dels recursos procedents:",
+        "answerOptions": [
+     {"text":"Pot ser defectuosa i afectar el còmput dels terminis d'impugnació.","isCorrect":true,"rationale":"La informació sobre recursos és un element essencial."},
+     {"text":"L'acte esdevé sempre nul de ple dret.","isCorrect":false,"rationale":"No tota notificació defectuosa genera nul·litat."},
+     {"text":"La resolució desapareix de l'ordenament jurídic.","isCorrect":false,"rationale":"La resolució continua existint."},
+     {"text":"L'Administració perd automàticament la competència.","isCorrect":false,"rationale":"No afecta la competència."}
+    ],
+        "hint": "Perquè una notificació sigui completa ha d'informar també dels recursos administratius o judicials possibles."
+    },
+    {
+        "guid": "4da59614-fe4e-44c9-8c23-4e23e40aab01",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La notificació electrònica és obligatòria per a determinats subjectes perquè:",
+        "answerOptions": [
+     {"text":"La llei els obliga a relacionar-se electrònicament amb l'Administració.","isCorrect":true,"rationale":"Determinats col·lectius tenen aquesta obligació legal."},
+     {"text":"Els procediments electrònics no permeten notificació en paper.","isCorrect":false,"rationale":"No és aquesta la justificació jurídica."},
+     {"text":"Les administracions poden imposar-la lliurement a qualsevol persona.","isCorrect":false,"rationale":"L'obligació està regulada legalment."},
+     {"text":"Només s'aplica en matèria sancionadora.","isCorrect":false,"rationale":"El seu àmbit és molt més ampli."}
+    ],
+        "hint": "La Llei 39/2015 identifica expressament col·lectius obligats a relacionar-se electrònicament amb les administracions."
+    },
+    {
+        "guid": "66cb2fbf-3844-48b4-8735-81f5bdb5f03f",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una notificació rebutjada expressament per l'interessat es considera:",
+        "answerOptions": [
+     {"text":"Practicada a tots els efectes legals.","isCorrect":true,"rationale":"El rebuig no impedeix la producció d'efectes jurídics."},
+     {"text":"Inexistent i sense valor jurídic.","isCorrect":false,"rationale":"La llei preveu expressament aquesta situació."},
+     {"text":"Suspesa fins que l'interessat canviï d'opinió.","isCorrect":false,"rationale":"No és la conseqüència legal."},
+     {"text":"Anul·lada automàticament per defecte formal.","isCorrect":false,"rationale":"La notificació continua produint efectes."}
+    ],
+        "hint": "El destinatari no pot impedir indefinidament els efectes d'una notificació simplement rebutjant-la."
+    },
+    {
+        "guid": "91a77db7-4111-4daa-9e31-32e6b6c86e8c",
+        "subjectId": "T12",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La publicació substitueix necessàriament la notificació quan:",
+        "answerOptions": [
+     {"text":"L'acte té una pluralitat indeterminada de destinataris.","isCorrect":true,"rationale":"És el supòsit clàssic previst per la normativa."},
+     {"text":"L'acte és favorable per al ciutadà.","isCorrect":false,"rationale":"No és el criteri determinant."},
+     {"text":"Existeix un únic interessat identificat.","isCorrect":false,"rationale":"En aquest cas la regla general és la notificació."},
+     {"text":"La resolució és discrecional.","isCorrect":false,"rationale":"La discrecionalitat és irrellevant."}
+    ],
+        "hint": "La clau és determinar si els destinataris estan identificats o són una pluralitat indeterminada."
+    },
+    {
+        "guid": "a072ba8f-fe27-4b0d-85de-52ce15d14b34",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La retroactivitat dels actes administratius és:",
+        "answerOptions": [
+     {"text":"Excepcional i només admissible en els casos previstos legalment.","isCorrect":true,"rationale":"La regla general és la no retroactivitat."},
+     {"text":"La regla general de tots els actes favorables.","isCorrect":false,"rationale":"La retroactivitat és excepcional."},
+     {"text":"Obligatòria en qualsevol acte administratiu vàlid.","isCorrect":false,"rationale":"És incorrecte."},
+     {"text":"Aplicable exclusivament als actes sancionadors.","isCorrect":false,"rationale":"No és el criteri legal."}
+    ],
+        "hint": "Com a regla general, els actes produeixen efectes cap al futur, encara que existeixen excepcions."
+    },
+    {
+        "guid": "331e2fcb-429b-431f-8c4c-1bc0622fbd5f",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La notificació defectuosa queda convalidada quan:",
+        "answerOptions": [
+     {"text":"L'interessat realitza actuacions que demostren coneixement del contingut.","isCorrect":true,"rationale":"La llei dona rellevància al coneixement efectiu."},
+     {"text":"Han transcorregut més de cinc dies naturals.","isCorrect":false,"rationale":"Aquest termini no existeix."},
+     {"text":"L'acte és favorable per a l'Administració.","isCorrect":false,"rationale":"No és un criteri jurídic."},
+     {"text":"Es dicta una nova resolució amb el mateix contingut.","isCorrect":false,"rationale":"No és el supòsit de convalidació."}
+    ],
+        "hint": "El legislador intenta evitar que els defectes formals sense indefensió paralitzin innecessàriament el procediment."
+    },
+    {
+        "guid": "b79a1fb9-57ed-40de-827e-ca252f593b12",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina relació existeix entre eficàcia i notificació?",
+        "answerOptions": [
+     {"text":"Determinats actes necessiten notificació perquè els seus efectes siguin plenament oponibles als interessats.","isCorrect":true,"rationale":"La notificació és una garantia de coneixement i eficàcia."},
+     {"text":"La notificació substitueix l'existència de l'acte administratiu.","isCorrect":false,"rationale":"L'acte existeix abans de notificar-se."},
+     {"text":"La notificació converteix qualsevol acte anul·lable en vàlid.","isCorrect":false,"rationale":"No corregeix vicis de legalitat."},
+     {"text":"L'eficàcia només existeix si hi ha publicació oficial.","isCorrect":false,"rationale":"La publicació no és sempre necessària."}
+    ],
+        "hint": "Cal distingir entre existència, validesa, eficàcia i notificació de l'acte administratiu."
+    },
+    {
+        "guid": "91a64731-1b49-4f29-a90f-26c5e56fbbb1",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina afirmació descriu millor el principi d'executivitat dels actes administratius?",
+        "answerOptions": [
+     {"text":"L'Administració pot executar les seves decisions sense obtenir prèviament una sentència judicial.","isCorrect":true,"rationale":"És una de les manifestacions clàssiques de l'autotutela administrativa."},
+     {"text":"L'Administració necessita sempre autorització judicial per actuar.","isCorrect":false,"rationale":"Seria contrari al principi d'executivitat."},
+     {"text":"Només els actes sancionadors són executius.","isCorrect":false,"rationale":"L'executivitat és una característica molt més general."},
+     {"text":"L'executivitat desapareix quan existeix notificació a l'interessat.","isCorrect":false,"rationale":"No existeix aquesta relació."}
+    ],
+        "hint": "L'executivitat i l'autotutela administrativa són conceptes estretament relacionats dins del règim jurídic dels actes administratius."
+    },
+    {
+        "guid": "87f1fadf-ffb2-465b-a5d2-9d8474588b79",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina característica defineix millor la nul·litat de ple dret?",
+        "answerOptions": [
+     {"text":"Es produeix únicament en els supòsits taxats expressament per la llei.","isCorrect":true,"rationale":"La nul·litat de ple dret és excepcional i només existeix en els casos legalment previstos."},
+     {"text":"Apareix davant qualsevol defecte formal de poca importància.","isCorrect":false,"rationale":"Els defectes menors no generen nul·litat de ple dret."},
+     {"text":"Afecta tots els actes desfavorables als ciutadans.","isCorrect":false,"rationale":"No depèn del caràcter favorable o desfavorable."},
+     {"text":"Només existeix en actes administratius sancionadors.","isCorrect":false,"rationale":"Pot afectar qualsevol tipus d'acte."}
+    ],
+        "hint": "La nul·litat de ple dret és una figura excepcional recollida a l'article 47 de la Llei 39/2015 mitjançant una llista tancada de causes."
+    },
+    {
+        "guid": "eb666417-a457-4aa9-9b52-35ee649757b9",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Un acte que vulnera drets i llibertats susceptibles d'empara constitucional és:",
+        "answerOptions": [
+     {"text":"Nul de ple dret.","isCorrect":true,"rationale":"És una de les causes expressament previstes per la llei."},
+     {"text":"Simplement anul·lable.","isCorrect":false,"rationale":"La llei atribueix una conseqüència més greu."},
+     {"text":"Automàticament convalidable.","isCorrect":false,"rationale":"La nul·litat no és objecte de convalidació ordinària."},
+     {"text":"Vàlid fins al transcurs de quatre anys.","isCorrect":false,"rationale":"La nul·litat no depèn d'aquest termini."}
+    ],
+        "hint": "La protecció dels drets fonamentals justifica que aquesta infracció sigui considerada especialment greu."
+    },
+    {
+        "guid": "6323bc2d-fff3-4628-8b1f-c4575829ff95",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Els actes dictats per un òrgan manifestament incompetent per raó de la matèria o del territori són:",
+        "answerOptions": [
+     {"text":"Nuls de ple dret.","isCorrect":true,"rationale":"La incompetència manifesta és una causa legal de nul·litat."},
+     {"text":"Sempre vàlids si existeix bona fe.","isCorrect":false,"rationale":"La bona fe no elimina aquest vici."},
+     {"text":"Simplement irregulars.","isCorrect":false,"rationale":"La llei preveu una conseqüència més intensa."},
+     {"text":"Necessàriament convalidables.","isCorrect":false,"rationale":"No és una causa susceptible de convalidació ordinària."}
+    ],
+        "hint": "No tota incompetència produeix nul·litat de ple dret, però sí la manifesta per matèria o territori."
+    },
+    {
+        "guid": "3fe74b73-9580-4be5-8be6-0cbc09cc2b0c",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la regla general davant les infraccions de l'ordenament que no constitueixen nul·litat de ple dret?",
+        "answerOptions": [
+     {"text":"L'anul·labilitat de l'acte administratiu.","isCorrect":true,"rationale":"L'anul·labilitat és el règim general dels vicis administratius."},
+     {"text":"La inexistència jurídica de l'acte.","isCorrect":false,"rationale":"No és la regla general."},
+     {"text":"La nul·litat de ple dret automàtica.","isCorrect":false,"rationale":"La nul·litat és excepcional."},
+     {"text":"La convalidació obligatòria immediata.","isCorrect":false,"rationale":"No sempre és possible."}
+    ],
+        "hint": "La diferència clau és que la nul·litat és excepcional i l'anul·labilitat constitueix la regla general."
+    },
+    {
+        "guid": "edb36e1a-ad5f-423d-8f92-14735c5ab1e8",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Un defecte de forma només determina l'anul·labilitat quan:",
+        "answerOptions": [
+     {"text":"Produeix indefensió o impedeix assolir la finalitat de l'acte.","isCorrect":true,"rationale":"No qualsevol defecte formal té transcendència invalidant."},
+     {"text":"Existeix qualsevol error material sense excepció.","isCorrect":false,"rationale":"Molts errors són irrellevants."},
+     {"text":"La resolució és favorable a l'interessat.","isCorrect":false,"rationale":"No depèn d'aquest criteri."},
+     {"text":"L'acte ha estat notificat correctament.","isCorrect":false,"rationale":"La notificació no determina aquest requisit."}
+    ],
+        "hint": "El principi antiformalista evita anul·lar actes per simples irregularitats sense transcendència real."
+    },
+    {
+        "guid": "32d09109-8c09-45bc-9540-a12420f909d3",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La anul·labilitat es regula principalment a:",
+        "answerOptions": [
+     {"text":"L'article 48 de la Llei 39/2015.","isCorrect":true,"rationale":"És l'article que recull el règim general dels actes anul·lables."},
+     {"text":"L'article 47 relatiu a la nul·litat de ple dret.","isCorrect":false,"rationale":"L'article 47 regula una institució diferent."},
+     {"text":"L'article relatiu al silenci administratiu.","isCorrect":false,"rationale":"No guarda relació directa."},
+     {"text":"Exclusivament a la Constitució Espanyola.","isCorrect":false,"rationale":"La regulació principal és legal."}
+    ],
+        "hint": "És molt habitual preguntar conjuntament els articles 47 i 48 de la Llei 39/2015."
+    },
+    {
+        "guid": "ea0fb2f3-d95a-479b-a34a-a0db3dc56b38",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Els actes anul·lables poden ser objecte de:",
+        "answerOptions": [
+     {"text":"Convalidació en determinats supòsits previstos per la llei.","isCorrect":true,"rationale":"La convalidació és una tècnica aplicable als actes anul·lables."},
+     {"text":"Constitucionalització automàtica.","isCorrect":false,"rationale":"No existeix aquest mecanisme."},
+     {"text":"Conversió immediata en reglaments.","isCorrect":false,"rationale":"Són figures diferents."},
+     {"text":"Execució sense cap possibilitat de revisió.","isCorrect":false,"rationale":"Poden ser impugnats."}
+    ],
+        "hint": "Una de les diferències essencials és que els actes anul·lables poden ser convalidats, mentre que els nuls de ple dret no."
+    },
+    {
+        "guid": "9611a35e-d132-46ed-a2d9-ac1efeac98a7",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La nul·litat de ple dret pot ser apreciada:",
+        "answerOptions": [
+     {"text":"Per l'Administració o pels tribunals quan concorrin les causes legals.","isCorrect":true,"rationale":"La nul·litat afecta actes especialment greus."},
+     {"text":"Només pel funcionari que va redactar l'expedient.","isCorrect":false,"rationale":"No és correcte."},
+     {"text":"Únicament pel ministre competent.","isCorrect":false,"rationale":"No existeix aquesta reserva."},
+     {"text":"Exclusivament pel Tribunal Constitucional.","isCorrect":false,"rationale":"La competència no és exclusiva seva."}
+    ],
+        "hint": "La nul·litat protegeix interessos especialment rellevants de l'ordenament jurídic."
+    },
+    {
+        "guid": "55f2475d-0db3-444f-8af6-11e402689993",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una actuació administrativa dictada prescindint totalment del procediment legalment establert és:",
+        "answerOptions": [
+     {"text":"Nul·la de ple dret.","isCorrect":true,"rationale":"És una de les causes clàssiques de nul·litat."},
+     {"text":"Simplement anul·lable.","isCorrect":false,"rationale":"La llei considera especialment greu aquest vici."},
+     {"text":"Convalidable sense cap limitació.","isCorrect":false,"rationale":"No és la conseqüència jurídica prevista."},
+     {"text":"Irregular però plenament eficaç.","isCorrect":false,"rationale":"La seva gravetat és molt superior."}
+    ],
+        "hint": "No és el mateix un defecte procedimental que la inexistència absoluta del procediment legalment establert."
+    },
+    {
+        "guid": "5f2cc6d5-12b0-4b82-a50b-096e0ad76347",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina afirmació diferencia millor la nul·litat de l'anul·labilitat?",
+        "answerOptions": [
+     {"text":"La nul·litat és excepcional i l'anul·labilitat constitueix la regla general.","isCorrect":true,"rationale":"És la distinció bàsica entre ambdues figures."},
+     {"text":"La nul·litat només afecta actes favorables i l'anul·labilitat els desfavorables.","isCorrect":false,"rationale":"No depèn del contingut."},
+     {"text":"La nul·litat exigeix notificació i l'anul·labilitat no.","isCorrect":false,"rationale":"No és el criteri diferenciador."},
+     {"text":"La nul·litat només existeix en actes estatals i l'anul·labilitat en actes locals.","isCorrect":false,"rationale":"És incorrecte."}
+    ],
+        "hint": "L'article 47 recull causes excepcionals de nul·litat; la resta d'infraccions solen integrar-se dins l'article 48 com a anul·labilitat."
+    },
+    {
+        "guid": "d005c7c4-6b25-42da-868e-3e184fde0a69",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Els actes administratius que constitueixen infracció penal són:",
+        "answerOptions": [
+     {"text":"Nuls de ple dret.","isCorrect":true,"rationale":"La llei considera nul l'acte que constitueix infracció penal o es dicta com a conseqüència d'aquesta."},
+     {"text":"Simplement anul·lables.","isCorrect":false,"rationale":"La gravetat de la infracció comporta nul·litat."},
+     {"text":"Convalidables mitjançant una resolució posterior.","isCorrect":false,"rationale":"La nul·litat de ple dret no és objecte de convalidació ordinària."},
+     {"text":"Vàlids mentre no existeixi sentència judicial ferma.","isCorrect":false,"rationale":"La causa de nul·litat existeix amb independència d'aquesta circumstància."}
+    ],
+        "hint": "Les causes de nul·litat de l'article 47 inclouen els actes constitutius d'infracció penal o dictats com a conseqüència d'aquesta."
+    },
+    {
+        "guid": "2c146260-66b5-42fb-9183-5ff83d591f17",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La convalidació d'un acte anul·lable té com a finalitat:",
+        "answerOptions": [
+     {"text":"Corregir el vici existent i mantenir la seva eficàcia jurídica.","isCorrect":true,"rationale":"La convalidació permet conservar l'acte quan el defecte és subsanable."},
+     {"text":"Transformar qualsevol acte nul en un acte vàlid.","isCorrect":false,"rationale":"La convalidació no opera sobre la nul·litat de ple dret."},
+     {"text":"Eliminar la necessitat de notificació als interessats.","isCorrect":false,"rationale":"No afecta els requisits de notificació."},
+     {"text":"Convertir una resolució en una disposició general.","isCorrect":false,"rationale":"No altera la naturalesa jurídica de l'acte."}
+    ],
+        "hint": "La convalidació és una tècnica de conservació dels actes administratius anul·lables."
+    },
+    {
+        "guid": "bbf3b0ee-297a-466f-bf15-211b2fa930a7",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Una irregularitat procedimental sense indefensió ni transcendència material produeix normalment:",
+        "answerOptions": [
+     {"text":"Una simple irregularitat no invalidant.","isCorrect":true,"rationale":"El dret administratiu aplica un principi antiformalista."},
+     {"text":"Nul·litat de ple dret automàtica.","isCorrect":false,"rationale":"La nul·litat exigeix causes greus i taxades."},
+     {"text":"Anul·labilitat en qualsevol cas.","isCorrect":false,"rationale":"Cal que el defecte tingui transcendència jurídica."},
+     {"text":"Caducitat immediata del procediment.","isCorrect":false,"rationale":"La caducitat és una institució diferent."}
+    ],
+        "hint": "No tots els defectes de procediment tenen força suficient per invalidar un acte administratiu."
+    },
+    {
+        "guid": "1b00da77-fdf2-42d1-8323-95b3797fc517",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Un acte anul·lable es presumeix:",
+        "answerOptions": [
+     {"text":"Vàlid i eficaç mentre no sigui anul·lat pels procediments corresponents.","isCorrect":true,"rationale":"Els actes administratius gaudeixen de presumpció de validesa."},
+     {"text":"Inexistent des del moment en què es dicta.","isCorrect":false,"rationale":"Això no és propi de l'anul·labilitat."},
+     {"text":"Automàticament suspès fins a una revisió judicial.","isCorrect":false,"rationale":"La impugnació no implica suspensió automàtica."},
+     {"text":"Sense efectes mentre sigui recurrible.","isCorrect":false,"rationale":"Continua produint efectes jurídics."}
+    ],
+        "hint": "La presumpció de validesa és un principi essencial de l'acte administratiu."
+    },
+    {
+        "guid": "f16cce96-4ac6-4e66-87b1-96dbff456fcc",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina afirmació és correcta respecte a la nul·litat de ple dret?",
+        "answerOptions": [
+     {"text":"Només existeix quan concorre alguna de les causes expressament previstes per la llei.","isCorrect":true,"rationale":"La nul·litat de ple dret és excepcional i d'interpretació restrictiva."},
+     {"text":"Qualsevol error formal converteix l'acte en nul de ple dret.","isCorrect":false,"rationale":"La majoria de defectes formals no produeixen aquesta conseqüència."},
+     {"text":"Tots els actes anul·lables són també nuls de ple dret.","isCorrect":false,"rationale":"Són categories jurídiques diferents."},
+     {"text":"Només afecta actes dictats per l'Administració General de l'Estat.","isCorrect":false,"rationale":"S'aplica a qualsevol administració pública."}
+    ],
+        "hint": "La idea clau del tema és que la nul·litat és excepcional mentre que l'anul·labilitat és la regla general."
+    },
+    {
+        "guid": "3c9b2481-9d74-40b3-986b-617083bffd63",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la finalitat principal de la revisió d'ofici?",
+        "answerOptions": [
+     {"text":"Permetre a l'Administració corregir determinats actes il·legals.","isCorrect":true,"rationale":"La revisió d'ofici és un mecanisme extraordinari de control de legalitat."},
+     {"text":"Substituir tots els recursos administratius ordinaris.","isCorrect":false,"rationale":"La revisió d'ofici i els recursos són institucions diferents."},
+     {"text":"Transformar actes anul·lables en actes favorables.","isCorrect":false,"rationale":"No és la seva funció."},
+     {"text":"Modificar lliurement qualsevol resolució administrativa.","isCorrect":false,"rationale":"La revisió d'ofici està sotmesa a límits estrictes."}
+    ],
+        "hint": "La revisió d'ofici és una potestat excepcional que permet a l'Administració reaccionar davant actes contraris a dret."
+    },
+    {
+        "guid": "8e8efa5c-e50a-4eb0-b192-675692e41c29",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La revisió d'ofici s'aplica principalment als actes:",
+        "answerOptions": [
+     {"text":"Nuls de ple dret.","isCorrect":true,"rationale":"L'objecte típic de la revisió d'ofici són els actes afectats per nul·litat de ple dret."},
+     {"text":"Favorables sense cap defecte jurídic.","isCorrect":false,"rationale":"La revisió exigeix il·legalitat."},
+     {"text":"Merament discrecionals.","isCorrect":false,"rationale":"La discrecionalitat no és el criteri determinant."},
+     {"text":"Recents sense excepció.","isCorrect":false,"rationale":"L'antiguitat no és el requisit essencial."}
+    ],
+        "hint": "La revisió d'ofici està estretament vinculada a l'article 47 de la Llei 39/2015."
+    },
+    {
+        "guid": "410c83be-971e-4f2f-b26e-9d9257abc4d3",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Per declarar la nul·litat d'un acte mitjançant revisió d'ofici és necessari:",
+        "answerOptions": [
+     {"text":"Obtenir dictamen favorable del Consell d'Estat o òrgan equivalent.","isCorrect":true,"rationale":"És una garantia essencial del procediment."},
+     {"text":"L'autorització de totes les persones interessades.","isCorrect":false,"rationale":"No és un requisit legal."},
+     {"text":"Una sentència judicial prèvia obligatòria.","isCorrect":false,"rationale":"La revisió és una potestat administrativa."},
+     {"text":"La petició unànime dels empleats públics afectats.","isCorrect":false,"rationale":"No existeix aquest requisit."}
+    ],
+        "hint": "El dictamen favorable de l'òrgan consultiu és una de les preguntes més habituals sobre revisió d'ofici."
+    },
+    {
+        "guid": "9ee67244-7930-4cc3-b590-e3341aa3ba8f",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La revisió d'ofici pot iniciar-se:",
+        "answerOptions": [
+     {"text":"Per iniciativa de l'Administració o a instància d'una persona interessada.","isCorrect":true,"rationale":"La llei permet ambdues vies d'inici."},
+     {"text":"Només per ordre judicial expressa.","isCorrect":false,"rationale":"No és necessari."},
+     {"text":"Exclusivament a petició del Ministeri Fiscal.","isCorrect":false,"rationale":"No és la regla legal."},
+     {"text":"Només per iniciativa de l'òrgan consultiu.","isCorrect":false,"rationale":"L'òrgan consultiu no inicia el procediment."}
+    ],
+        "hint": "La revisió d'ofici es pot impulsar tant d'ofici com a petició de part interessada."
+    },
+    {
+        "guid": "f7085ee9-e39f-4e58-b319-f8b3e7878694",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La declaració de nul·litat mitjançant revisió d'ofici afecta actes:",
+        "answerOptions": [
+     {"text":"Que hagin posat fi a la via administrativa o que no hagin estat recorreguts.","isCorrect":true,"rationale":"És el supòsit habitual previst per la normativa."},
+     {"text":"Que encara no existeixen jurídicament.","isCorrect":false,"rationale":"La revisió pressuposa l'existència d'un acte."},
+     {"text":"Que han estat anul·lats judicialment.","isCorrect":false,"rationale":"Ja no procedeix aquesta revisió."},
+     {"text":"Que són simples propostes de resolució.","isCorrect":false,"rationale":"No es tracta d'actes definitius."}
+    ],
+        "hint": "La revisió d'ofici acostuma a projectar-se sobre actes administratius consolidats."
+    },
+    {
+        "guid": "f96a4879-101f-4e9e-adee-bd349b15c0b2",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La revisió d'ofici és considerada un procediment:",
+        "answerOptions": [
+     {"text":"Extraordinari i excepcional.","isCorrect":true,"rationale":"No constitueix una via ordinària de revisió dels actes."},
+     {"text":"Automàtic i obligatori en qualsevol infracció.","isCorrect":false,"rationale":"Només opera en determinats supòsits."},
+     {"text":"Idèntic als recursos administratius ordinaris.","isCorrect":false,"rationale":"Tenen naturalesa diferent."},
+     {"text":"Exclusivament judicial.","isCorrect":false,"rationale":"És una tècnica administrativa."}
+    ],
+        "hint": "La revisió d'ofici forma part dels mecanismes extraordinaris d'autocontrol administratiu."
+    },
+    {
+        "guid": "0b227497-2f92-4cec-bca9-b8cd5a2253dd",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan l'Administració aprecia que un acte és anul·lable però no nul de ple dret:",
+        "answerOptions": [
+     {"text":"Pot acudir,si escau,a la declaració de lesivitat.","isCorrect":true,"rationale":"La lesivitat és la tècnica prevista per als actes anul·lables favorables."},
+     {"text":"Ha de declarar-ne sempre directament la nul·litat.","isCorrect":false,"rationale":"La nul·litat i l'anul·labilitat tenen règims diferents."},
+     {"text":"Perd qualsevol possibilitat d'actuació.","isCorrect":false,"rationale":"Existeixen altres mecanismes legals."},
+     {"text":"Ha de transformar-lo en reglament.","isCorrect":false,"rationale":"És jurídicament incorrecte."}
+    ],
+        "hint": "La diferència entre revisió d'ofici i declaració de lesivitat és una pregunta molt habitual."
+    },
+    {
+        "guid": "93de82e8-6942-4fb0-b2db-134b05ce6d35",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La declaració de nul·litat mitjançant revisió d'ofici requereix acreditar:",
+        "answerOptions": [
+     {"text":"L'existència d'una causa legal de nul·litat de ple dret.","isCorrect":true,"rationale":"No n'hi ha prou amb qualsevol infracció jurídica."},
+     {"text":"Simplement una oportunitat política de modificació.","isCorrect":false,"rationale":"La revisió es basa en la legalitat."},
+     {"text":"La disconformitat d'un ciutadà amb la decisió.","isCorrect":false,"rationale":"La discrepància no és suficient."},
+     {"text":"Un informe desfavorable de qualsevol funcionari.","isCorrect":false,"rationale":"No és el requisit legal."}
+    ],
+        "hint": "La revisió d'ofici exigeix identificar una de les causes de nul·litat previstes a l'article 47."
+    },
+    {
+        "guid": "d06dbcd1-4a20-4e05-b899-fd20a9b7e328",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La revisió d'ofici és una manifestació de:",
+        "answerOptions": [
+     {"text":"L'autotutela de l'Administració Pública.","isCorrect":true,"rationale":"Permet a l'Administració controlar la legalitat dels seus propis actes."},
+     {"text":"La potestat legislativa de les administracions.","isCorrect":false,"rationale":"Les administracions no exerceixen potestat legislativa."},
+     {"text":"La jurisdicció contenciosa administrativa.","isCorrect":false,"rationale":"És una tècnica administrativa,no judicial."},
+     {"text":"La iniciativa legislativa popular.","isCorrect":false,"rationale":"No hi té relació."}
+    ],
+        "hint": "L'autotutela permet a l'Administració actuar i controlar els seus actes dins dels límits legals."
+    },
+    {
+        "guid": "3c4a03ec-d00b-488c-8724-305ec7cd9061",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la idea fonamental de la revisió d'ofici?",
+        "answerOptions": [
+     {"text":"Eliminar de l'ordenament actes greument il·legals sense necessitat d'un recurs ordinari.","isCorrect":true,"rationale":"La revisió d'ofici és un mecanisme extraordinari de depuració de la legalitat."},
+     {"text":"Revisar anualment tots els actes administratius dictats.","isCorrect":false,"rationale":"No existeix aquesta obligació."},
+     {"text":"Substituir els jutges en el control de legalitat.","isCorrect":false,"rationale":"El control judicial continua existint."},
+     {"text":"Evitar qualsevol dret d'impugnació dels ciutadans.","isCorrect":false,"rationale":"Succeeix justament el contrari."}
+    ],
+        "hint": "La revisió d'ofici és una tècnica excepcional destinada a expulsar de l'ordenament els actes afectats pels defectes més greus."
+    },
+    {
+        "guid": "984d4680-657c-4b7f-874b-c85501c00ef2",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la finalitat principal dels recursos administratius?",
+        "answerOptions": [
+     {"text":"Permetre la revisió d'un acte administratiu abans d'acudir als tribunals.","isCorrect":true,"rationale":"Els recursos administratius són mecanismes de control intern de la legalitat."},
+     {"text":"Substituir la jurisdicció contenciosa administrativa.","isCorrect":false,"rationale":"Els tribunals continuen exercint el control judicial."},
+     {"text":"Modificar lliurement qualsevol reglament.","isCorrect":false,"rationale":"Els recursos se centren principalment en actes administratius."},
+     {"text":"Crear noves normes administratives.","isCorrect":false,"rationale":"No tenen funció normativa."}
+    ],
+        "hint": "Els recursos administratius permeten a l'Administració revisar els seus propis actes."
+    },
+    {
+        "guid": "22d364c0-e3cc-4cbd-873f-6f12b8690090",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin és el recurs administratiu ordinari contra actes que no posen fi a la via administrativa?",
+        "answerOptions": [
+     {"text":"El recurs d'alçada.","isCorrect":true,"rationale":"És el recurs ordinari davant actes que no exhaureixen la via administrativa."},
+     {"text":"El recurs de reposició.","isCorrect":false,"rationale":"La reposició s'interposa contra actes que posen fi a la via administrativa."},
+     {"text":"El recurs extraordinari de revisió.","isCorrect":false,"rationale":"Té una naturalesa excepcional."},
+     {"text":"La revisió d'ofici.","isCorrect":false,"rationale":"No és un recurs administratiu."}
+    ],
+        "hint": "Cal relacionar directament recurs d'alçada amb actes que no esgoten la via administrativa."
+    },
+    {
+        "guid": "63e18513-43a0-42ca-a0d3-4f294c836d56",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Davant de quin òrgan s'interposa normalment el recurs d'alçada?",
+        "answerOptions": [
+     {"text":"Davant l'òrgan superior jeràrquic del que va dictar l'acte.","isCorrect":true,"rationale":"La finalitat és que revisi la decisió un òrgan superior."},
+     {"text":"Davant el mateix òrgan autor de l'acte.","isCorrect":false,"rationale":"Això és propi de la reposició."},
+     {"text":"Directament davant un jutjat.","isCorrect":false,"rationale":"Es tracta d'un recurs administratiu."},
+     {"text":"Davant qualsevol administració pública.","isCorrect":false,"rationale":"La competència està legalment determinada."}
+    ],
+        "hint": "La paraula clau és 'superior jeràrquic'."
+    },
+    {
+        "guid": "55eb2cdb-c5c0-4980-b4e4-39a089bb8cbe",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin recurs pot interposar-se, amb caràcter potestatiu, contra actes que posen fi a la via administrativa?",
+        "answerOptions": [
+     {"text":"El recurs de reposició.","isCorrect":true,"rationale":"És potestatiu i s'interposa davant el mateix òrgan."},
+     {"text":"El recurs d'alçada.","isCorrect":false,"rationale":"L'alçada és per actes que no exhaureixen la via administrativa."},
+     {"text":"La revisió d'ofici.","isCorrect":false,"rationale":"No és un recurs."},
+     {"text":"La declaració de lesivitat.","isCorrect":false,"rationale":"És una institució diferent."}
+    ],
+        "hint": "Reposició = mateix òrgan; alçada = òrgan superior."
+    },
+    {
+        "guid": "ec98e8f8-c714-4679-b4d7-d139d2d5b1f3",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El recurs de reposició s'interposa davant:",
+        "answerOptions": [
+     {"text":"El mateix òrgan que va dictar l'acte impugnat.","isCorrect":true,"rationale":"La reposició permet que l'autor de l'acte el reconsideri."},
+     {"text":"L'òrgan jeràrquicament superior.","isCorrect":false,"rationale":"Això és propi del recurs d'alçada."},
+     {"text":"El tribunal contenciós administratiu.","isCorrect":false,"rationale":"No és una via judicial."},
+     {"text":"El Consell d'Estat.","isCorrect":false,"rationale":"No és l'òrgan competent."}
+    ],
+        "hint": "La reposició implica que revisi la decisió el mateix òrgan que l'ha adoptada."
+    },
+    {
+        "guid": "ba062334-0e3e-43c2-b7cd-eca7474768b1",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El recurs de reposició és:",
+        "answerOptions": [
+     {"text":"Potestatiu.","isCorrect":true,"rationale":"L'interessat pot optar per interposar-lo o acudir directament a la via judicial."},
+     {"text":"Obligatori en tots els casos.","isCorrect":false,"rationale":"Precisament la seva característica és ser potestatiu."},
+     {"text":"Extraordinari.","isCorrect":false,"rationale":"És un recurs ordinari."},
+     {"text":"Incompatible amb qualsevol impugnació.","isCorrect":false,"rationale":"No és correcte."}
+    ],
+        "hint": "És una de les preguntes més clàssiques d'examen."
+    },
+    {
+        "guid": "8aa39402-62fa-4891-9cf9-3bb87ad245f9",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin recurs administratiu té caràcter extraordinari?",
+        "answerOptions": [
+     {"text":"El recurs extraordinari de revisió.","isCorrect":true,"rationale":"Només procedeix en els casos taxats per la llei."},
+     {"text":"El recurs d'alçada.","isCorrect":false,"rationale":"És un recurs ordinari."},
+     {"text":"El recurs de reposició.","isCorrect":false,"rationale":"També és ordinari."},
+     {"text":"La revisió d'ofici.","isCorrect":false,"rationale":"No és un recurs administratiu."}
+    ],
+        "hint": "Només existeix un gran recurs extraordinari en la Llei 39/2015."
+    },
+    {
+        "guid": "854f36c3-667f-495f-a447-08dc97a4aebc",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Perquè prosperi un recurs extraordinari de revisió cal:",
+        "answerOptions": [
+     {"text":"Que concorri alguna de les causes taxades legalment.","isCorrect":true,"rationale":"És un recurs excepcional de numerus clausus."},
+     {"text":"Simplement discrepar de la decisió administrativa.","isCorrect":false,"rationale":"No n'hi ha prou."},
+     {"text":"Que l'acte sigui favorable.","isCorrect":false,"rationale":"No és un requisit."},
+     {"text":"Que l'acte tingui contingut econòmic.","isCorrect":false,"rationale":"No és rellevant."}
+    ],
+        "hint": "Les causes del recurs extraordinari de revisió estan expressament limitades per la llei."
+    },
+    {
+        "guid": "e28b20b9-b2af-401e-a27d-a0d05961c795",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La interposició d'un recurs administratiu suspèn automàticament l'execució de l'acte?",
+        "answerOptions": [
+     {"text":"No,com a regla general no la suspèn.","isCorrect":true,"rationale":"L'executivitat dels actes administratius es manté amb caràcter general."},
+     {"text":"Sí,sempre.","isCorrect":false,"rationale":"La suspensió automàtica no és la regla general."},
+     {"text":"Sí,en qualsevol recurs d'alçada.","isCorrect":false,"rationale":"No és correcte."},
+     {"text":"Sí,en qualsevol recurs de reposició.","isCorrect":false,"rationale":"Tampoc és correcte."}
+    ],
+        "hint": "Cal relacionar recursos administratius i principi d'executivitat dels actes."
+    },
+    {
+        "guid": "8db91cd3-d3b1-43fc-b464-16ab66cc5da8",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la conseqüència habitual de la desestimació d'un recurs administratiu?",
+        "answerOptions": [
+     {"text":"La confirmació de l'acte impugnat.","isCorrect":true,"rationale":"La decisió administrativa recorreguda es manté."},
+     {"text":"L'anul·lació automàtica de l'acte.","isCorrect":false,"rationale":"Això correspon a l'estimació."},
+     {"text":"La nul·litat de ple dret de l'expedient.","isCorrect":false,"rationale":"No és la conseqüència ordinària."},
+     {"text":"La finalització de totes les vies d'impugnació possibles.","isCorrect":false,"rationale":"Pot subsistir la via judicial."}
+    ],
+        "hint": "Estimar un recurs implica modificar o anul·lar l'acte; desestimar-lo implica mantenir-lo."
+    },
+    {
+        "guid": "1b92d1cb-dd6d-4c4e-b61b-d7de2c629e58",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Contra un acte que no posa fi a la via administrativa, l'interessat ha d'interposar ordinàriament:",
+        "answerOptions": [
+     {"text":"Un recurs d'alçada.","isCorrect":true,"rationale":"És el recurs ordinari previst per a aquests actes."},
+     {"text":"Un recurs de reposició.","isCorrect":false,"rationale":"La reposició s'utilitza contra actes que posen fi a la via administrativa."},
+     {"text":"Un recurs extraordinari de revisió.","isCorrect":false,"rationale":"Només procedeix en supòsits excepcionals."},
+     {"text":"Una revisió d'ofici.","isCorrect":false,"rationale":"No és un recurs administratiu."}
+    ],
+        "hint": "Alçada = acte que no exhaureix la via administrativa."
+    },
+    {
+        "guid": "f0904db2-4eb7-43eb-9305-71604e9e4e44",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La resolució del recurs d'alçada posa fi a la via administrativa?",
+        "answerOptions": [
+     {"text":"Sí,amb caràcter general.","isCorrect":true,"rationale":"La resolució del superior jeràrquic exhaureix habitualment la via administrativa."},
+     {"text":"No,sempre cal un nou recurs d'alçada.","isCorrect":false,"rationale":"No existeix una cadena indefinida de recursos."},
+     {"text":"Només en l'Administració local.","isCorrect":false,"rationale":"No és una regla exclusiva."},
+     {"text":"Només si l'acte és sancionador.","isCorrect":false,"rationale":"No depèn d'això."}
+    ],
+        "hint": "Una vegada resolta l'alçada, habitualment queda oberta la via contenciosa."
+    },
+    {
+        "guid": "37d26011-589d-4003-bd72-73d9d777961b",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Si s'interposa un recurs de reposició, es pot acudir simultàniament a la via contenciosa administrativa?",
+        "answerOptions": [
+     {"text":"No,cal esperar la seva resolució o desestimació presumpta.","isCorrect":true,"rationale":"La reposició interromp l'accés immediat a la via judicial."},
+     {"text":"Sí,sempre simultàniament.","isCorrect":false,"rationale":"Les dues vies no poden tramitar-se així."},
+     {"text":"Sí,però només en actes favorables.","isCorrect":false,"rationale":"No depèn del tipus d'acte."},
+     {"text":"Sí,quan l'acte és ferm.","isCorrect":false,"rationale":"No és la regla aplicable."}
+    ],
+        "hint": "La reposició és potestativa, però si s'interposa cal esperar la seva resolució."
+    },
+    {
+        "guid": "d9d7b3c3-dc45-447d-98d6-c49826221d63",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El termini general per interposar un recurs d'alçada contra un acte exprés és de:",
+        "answerOptions": [
+     {"text":"Un mes.","isCorrect":true,"rationale":"És el termini general previst per la Llei 39/2015."},
+     {"text":"Deu dies.","isCorrect":false,"rationale":"No és el termini legal."},
+     {"text":"Tres mesos.","isCorrect":false,"rationale":"No és el termini ordinari."},
+     {"text":"Sis mesos.","isCorrect":false,"rationale":"És incorrecte."}
+    ],
+        "hint": "Memoritza: alçada contra acte exprés = 1 mes."
+    },
+    {
+        "guid": "eac4544b-7323-4861-808a-09555fd520b7",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El termini general per interposar un recurs potestatiu de reposició contra un acte exprés és de:",
+        "answerOptions": [
+     {"text":"Un mes.","isCorrect":true,"rationale":"És el termini establert legalment."},
+     {"text":"Deu dies.","isCorrect":false,"rationale":"No és correcte."},
+     {"text":"Quinze dies.","isCorrect":false,"rationale":"No és el termini general."},
+     {"text":"Tres mesos.","isCorrect":false,"rationale":"És incorrecte."}
+    ],
+        "hint": "Reposició contra acte exprés = 1 mes. És una dada molt preguntada."
+    },
+    {
+        "guid": "9e308cb8-76a6-46aa-a70a-ec912ccbc4a0",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "El recurs extraordinari de revisió procedeix contra:",
+        "answerOptions": [
+     {"text":"Actes ferms en via administrativa.","isCorrect":true,"rationale":"És precisament la seva funció excepcional."},
+     {"text":"Qualsevol acte de tràmit.","isCorrect":false,"rationale":"No és la seva finalitat."},
+     {"text":"Exclusivament reglaments.","isCorrect":false,"rationale":"Els reglaments tenen altres mecanismes d'impugnació."},
+     {"text":"Només actes favorables.","isCorrect":false,"rationale":"No és un requisit."}
+    ],
+        "hint": "El seu caràcter extraordinari deriva del fet que recau sobre actes ja ferms."
+    },
+    {
+        "guid": "a6fa8050-e64f-4f01-aca6-6c8b5febbc56",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin dels següents NO és un recurs administratiu regulat a la Llei 39/2015?",
+        "answerOptions": [
+     {"text":"La revisió d'ofici.","isCorrect":true,"rationale":"És una tècnica extraordinària de revisió,no un recurs administratiu."},
+     {"text":"El recurs d'alçada.","isCorrect":false,"rationale":"Sí que és un recurs administratiu."},
+     {"text":"El recurs de reposició.","isCorrect":false,"rationale":"És un recurs ordinari."},
+     {"text":"El recurs extraordinari de revisió.","isCorrect":false,"rationale":"És un recurs administratiu extraordinari."}
+    ],
+        "hint": "No s'han de confondre recursos administratius amb mecanismes extraordinaris de revisió."
+    },
+    {
+        "guid": "12c7a4ba-8dea-4efc-983a-368f5fe0866c",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quan un recurs administratiu és estimat, l'òrgan competent pot:",
+        "answerOptions": [
+     {"text":"Anul·lar totalment o parcialment l'acte impugnat.","isCorrect":true,"rationale":"És una de les conseqüències pròpies de l'estimació."},
+     {"text":"Convertir automàticament l'acte en reglament.","isCorrect":false,"rationale":"No existeix aquesta possibilitat."},
+     {"text":"Eliminar qualsevol control judicial posterior.","isCorrect":false,"rationale":"La via judicial continua existint."},
+     {"text":"Declarar sempre la nul·litat de ple dret.","isCorrect":false,"rationale":"L'estimació no implica necessàriament nul·litat."}
+    ],
+        "hint": "L'estimació d'un recurs pot comportar anul·lació, modificació o substitució de l'acte."
+    },
+    {
+        "guid": "3a820258-57d7-4f4c-846b-728064760e86",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La finalitat del recurs d'alçada és que revisi l'acte:",
+        "answerOptions": [
+     {"text":"Un òrgan jeràrquicament superior.","isCorrect":true,"rationale":"És el tret distintiu d'aquest recurs."},
+     {"text":"El mateix òrgan autor de l'acte.","isCorrect":false,"rationale":"Això correspon a la reposició."},
+     {"text":"Un jutjat contenciós administratiu.","isCorrect":false,"rationale":"No és una revisió administrativa."},
+     {"text":"El Consell d'Estat.","isCorrect":false,"rationale":"No és l'òrgan revisor ordinari."}
+    ],
+        "hint": "Alçada = revisió per l'òrgan superior."
+    },
+    {
+        "guid": "469b80c4-26b3-49cb-b401-cf0be35d1872",
+        "subjectId": "T12",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és la classificació correcta dels recursos administratius principals?",
+        "answerOptions": [
+     {"text":"Alçada,reposició i extraordinari de revisió.","isCorrect":true,"rationale":"Són els tres recursos administratius regulats per la Llei 39/2015."},
+     {"text":"Reposició,lesivitat i revisió d'ofici.","isCorrect":false,"rationale":"Lesivitat i revisió d'ofici no són recursos administratius."},
+     {"text":"Alçada,nul·litat i anul·labilitat.","isCorrect":false,"rationale":"Nul·litat i anul·labilitat no són recursos."},
+     {"text":"Reposició,sanció i execució.","isCorrect":false,"rationale":"No constitueixen una classificació de recursos."}
+    ],
+        "hint": "És una pregunta resum de tot el tema de recursos administratius."
+    }
+]

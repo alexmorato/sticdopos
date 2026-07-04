@@ -3,6 +3,47 @@ import uuid
 import sys
 import os
 import re
+import datetime
+
+
+def load_and_merge_json_arrays(json_path):
+    """
+    Carga uno o varios arrays JSON consecutivos y los fusiona en un único array.
+    """
+    with open(json_path, "r", encoding="utf-8-sig") as f:
+        raw_content = f.read()
+
+    if not raw_content.strip():
+        raise ValueError("El archivo JSON está vacío.")
+
+    decoder = json.JSONDecoder()
+    index = 0
+    merged = []
+    parsed_values = 0
+
+    while index < len(raw_content):
+        while index < len(raw_content) and raw_content[index].isspace():
+            index += 1
+
+        if index >= len(raw_content):
+            break
+
+        try:
+            value, next_index = decoder.raw_decode(raw_content, index)
+        except json.JSONDecodeError as exc:
+            raise ValueError(f"JSON inválido cerca de la posición {exc.pos}: {exc.msg}") from exc
+
+        if not isinstance(value, list):
+            raise ValueError("Cada bloque JSON de nivel superior debe ser un array.")
+
+        merged.extend(value)
+        parsed_values += 1
+        index = next_index
+
+    if parsed_values == 0:
+        raise ValueError("No se encontró ningún array JSON válido.")
+
+    return merged, parsed_values
 
 def compress_answer_options(json_str):
     """
@@ -40,17 +81,18 @@ def update_guids(json_path, backup=True):
         print(f"❌ No se encontró el archivo: {json_path}")
         return
 
-    # Leer el JSON
-    with open(json_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    if not isinstance(data, list):
-        print("❌ El JSON debe ser un array de objetos.")
+    # Leer y fusionar arrays JSON consecutivos si existen
+    try:
+        data, block_count = load_and_merge_json_arrays(json_path)
+    except ValueError as exc:
+        print(f"❌ {exc}")
         return
+
+    if block_count > 1:
+        print(f"🔧 Se han fusionado {block_count} arrays JSON en un único array ({len(data)} elementos).")
 
     # Crear copia de seguridad con timestamp
     if backup:
-        import datetime
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         backup_path = f"{json_path}.{timestamp}.bak"
         os.rename(json_path, backup_path)
