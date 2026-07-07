@@ -28,3 +28,8 @@ Con este validas: https://base64.guru/converter/decode/image
 
 esto en el .md
 ![grafic1](data:image/webp;base64,xxxxxxxxxxxx)
+
+------------------
+```mermaid
+xxxxxxxxxxxx
+```
