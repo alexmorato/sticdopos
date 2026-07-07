@@ -249,33 +249,29 @@ Ara ens toca parlar de la **base imposable** de l'IBI. L'Art. 65 TRLRHL establei
 
 Un cop tenim la base imposable, hem d'obtenir la **base liquidable** (Art. 66 TRLRHL). Aquesta no és més que **el resultat d'aplicar a la base imposable tot un seguit de reduccions** (Art. 67 i 68 TRLRHL). Aquetes reduccions pretenen esmorteir progressivament l'impacte de l'increment dels valors cadastrals resultants després de procediments de revisió. Les reduccions s'aplicaran durant un termini de 9 anys a comptar des de l'entrada en vigor dels nous valors cadastrals. El coeficient reductor serà de 0,9 el 1r any, 0,8 el 2n, 0,7 el 3r... fins a 0,1 el 9è i darrer any de reducció. La quantia de la reducció serà el resultat d'aplicar el coeficient reductor, únic per a tots els immobles afectats del municipi, al component individual de reducció, calculat per a cada immoble. El component individual de la reducció serà, per a cada any, la diferencia positiva entre el nou valor cadastral de l'immoble i el seu valor de base. El valor base de l'immoble serà la base liquidable de l'exercici immediatament anterior a l'entrada en vigor del nou valor cadastral.-
 
-> [!NOTE]
-> Amb un exemple es veu molt fàcil. Imaginem que jo tinc una casa el valor cadastral de la qual era de 60.000,00€ fins al 2016, però que, arrel d'un procediment de valoració col·lectiva, passa a ser de 72.000,00€ a partir del 2017
-> 
-> **Valor cadastral de l'immoble a partir del 2017 (base imposable de l'IBI a partir de l'any 2017):** 72.000,00€ (això no canviarà al llarg dels anys a no ser que hi hagi una nova valoració)
-> 
-> **Base de la reducció:** 72.000,00€ - 60.000,00€ = 12.000,00€
-> 
-> **Reducció per a l'any 2017:** 12.000,00€ x 0,9 = 10.800,00€
-> 
-> **Base liquidable per a l'any 2017:** 72.000,00 - 10.800,00€ = 61.200,00€
-> 
-> **Reducció per a l'any 2018:** 12.000,00€ x 0,8 = 9.600,00€
-> 
-> **Base liquidable per a l'any 2018:** 72.000,00 - 9.600,00€ = 62.400,00€
+### Amb un exemple es veu molt fàcil. Imaginem que jo tinc una casa el valor cadastral de la qual era de 60.000,00€ fins al 2016, però que, arrel d'un procediment de valoració col·lectiva, passa a ser de 72.000,00€ a partir del 2017
 
+### **Valor cadastral de l'immoble a partir del 2017 (base imposable de l'IBI a partir de l'any 2017):** 72.000,00€ (això no canviarà al llarg dels anys a no ser que hi hagi una nova valoració)
+
+### **Base de la reducció:** 72.000,00€ - 60.000,00€ = 12.000,00€
+
+### **Reducció per a l'any 2017:** 12.000,00€ x 0,9 = 10.800,00€
+
+### **Base liquidable per a l'any 2017:** 72.000,00 - 10.800,00€ = 61.200,00€
+
+### **Reducció per a l'any 2018:** 12.000,00€ x 0,8 = 9.600,00€
+
+### **Base liquidable per a l'any 2018:** 72.000,00 - 9.600,00€ = 62.400,00€
 
 L'IBI és un impost proporcional i, per tant, la **quota íntegra** (Art. 71.1 TRLRHL) serà el resultat d'aplicar a la base liquidable el tipus de gravamen corresponent (Art. 72 TRLRHL). Els **tipus mínims i màxims per a cada tipus d'immoble seran fixats pel legislador estatal en el TRLRHL**. Cada municipi, mitjançant la seva respectiva ordenança fiscal podrà concretar el tipus de gravamen dins dels límits legalment previstos i, en cas que no ho reguli, s'aplicarà amb caràcter supletori previst al TRLRHL. Actualment, els tipus mínims (i supletoris) seran del 0,4% per a béns urbans i del 0,3% per a immobles rústics; mentre que els màxims seran, respectivament, de l'1,10% i del 0,9%. Per als immobles de característiques especials, el tipus mínim serà del 0,4%, el màxim, l'1,3% i el supletori, el 0,6%. Quan els municipis reuneixin determinades condicions (siguin capital de província, prestin servei de transport públic col·lectiu de superfície, realitzin més serveis dels que estiguin obligats segons la LRBRL o els seus terrenys de naturalesa rústica representin més del 80% de la superfície total del terme) podran incrementar els tipus fixats en uns petits marges. També podran marcar-se, dins dels límits establerts, tipus diferenciats atenent a diferents tipus d'usos (exclòs l'ús residencial) i que només podran afectar, com a màxim, al 10% dels immobles urbans del terme municipal que, per a cada ús, tinguin major valor cadastral. Oposadament, quan es tracti de municipis en els que entrin en vigor nous valors cadastrals d'immobles rústics i urbans resultants de procediments de valoració col·lectiva de caràcter general, els Ajuntaments podran establir tipus reduïts durant un termini màxim de 6 anys, que no podaran ser inferiors al 0,1% per als béns immobles urbans ni al 0,075% per a béns immobles rústics. Per últim, amb la intenció de promoure l'ocupació d'habitatges, el TRLRHL permet que els municipis estableixin, mitjançant la corresponent ordenança fiscal, **l'aplicació d'un recàrrec sobre els béns immobles d'ús residencial que es trobin desocupats amb caràcter permanent** (fins al 50% de la quota líquida de l'impost, i es meritarà el 31 de desembre, un cop constatada la desocupació de l'immoble mitjançant el corresponent acte administratiu).
 
 <div class="joplin-table-wrapper"><table><tbody><tr><th><p><strong>Tipus de gravamen</strong></p></th><th><p><strong>Béns urbans (%)</strong></p></th><th><p><strong>Béns rústics (%)</strong></p></th><th><p><strong>Béns de característiques especials (%)</strong></p></th></tr><tr><td><p>Tipus general</p></td><td></td><td></td><td></td></tr><tr><td><ul><li>Mínim</li></ul></td><td><p>0,40</p></td><td><p>0,30</p></td><td><p>0,40</p></td></tr><tr><td><ul><li>Supletori</li></ul></td><td><p>0,40</p></td><td><p>0,30</p></td><td><p>0,60</p></td></tr><tr><td><ul><li>Màxim</li></ul></td><td><p>1,10</p></td><td><p>0,90</p></td><td><p>1,30</p></td></tr><tr><td><p>Tipus incrementats (Punts percentuals que es poden sumar al tipus general establert)</p></td><td></td><td></td><td></td></tr><tr><td><ul><li>Capitalitat</li></ul></td><td><p>0,07</p></td><td><p>0,06</p></td><td></td></tr><tr><td><ul><li>Transport</li></ul></td><td><p>0,07</p></td><td><p>0,05</p></td><td></td></tr><tr><td><ul><li>Més serveis</li></ul></td><td><p>0,06</p></td><td><p>0,06</p></td><td></td></tr><tr><td><ul><li>Terrenys rústics</li></ul></td><td><p>0,00</p></td><td><p>0,15</p></td><td></td></tr><tr><td><p>Tipus reduïts</p></td><td><p>0,10</p></td><td><p>0,075</p></td><td></td></tr></tbody></table></div>
 
-> [!NOTE]
-> Continuem amb l'exemple anterior per a fer-ho més entenedor. Havíem conclòs que la base liquidable del 2017 era de 61.200,00€. Imaginem que l'immoble de l'exemple és la casa d'una persona qualsevol (bé immoble de naturalesa urbana) i que pertany al terme municipal de Barcelona. L'Ajuntament de Barcelona, mitjançant la seva ordenança fiscal reguladora de l'Impost sobre els Béns Immobles, estableix al seu Art. 7.2 un tipus de gravamen general del 0,75% per a béns immobles urbans. És obvi que aquest tipus de gravamen es troba dins els marges legalment establerts. També sabem, pel que portem estudiat fins ara, que el bé immoble descrit està dins l'àmbit d'aplicació de l'IBI (no representa cap exemple de no subjecció) i que, a priori, no sembla que compleixi cap supòsit d'exempció. Per tant, dent un senzill càlcul podem obtenir la quota íntegra mitjançant la fórmula
-> 
-> **Quota íntegra** = base liquidable x tipus de gravamen
-> 
-> És a dir: 61.200,00€ x 0,75% = 459,00€
+### Continuem amb l'exemple anterior per a fer-ho més entenedor. Havíem conclòs que la base liquidable del 2017 era de 61.200,00€. Imaginem que l'immoble de l'exemple és la casa d'una persona qualsevol (bé immoble de naturalesa urbana) i que pertany al terme municipal de Barcelona. L'Ajuntament de Barcelona, mitjançant la seva ordenança fiscal reguladora de l'Impost sobre els Béns Immobles, estableix al seu Art. 7.2 un tipus de gravamen general del 0,75% per a béns immobles urbans. És obvi que aquest tipus de gravamen es troba dins els marges legalment establerts. També sabem, pel que portem estudiat fins ara, que el bé immoble descrit està dins l'àmbit d'aplicació de l'IBI (no representa cap exemple de no subjecció) i que, a priori, no sembla que compleixi cap supòsit d'exempció. Per tant, dent un senzill càlcul podem obtenir la quota íntegra mitjançant la fórmula
 
+### **Quota íntegra** = base liquidable x tipus de gravamen
+
+### És a dir: 61.200,00€ x 0,75% = 459,00€
 
 Per últim, la **quota líquida** (Art. 71.2 TRLRH) s'obtindrà minorant la quota íntegra en l'import de les bonificacions legalment previstes (Art. 73 i 74 TRLRHL). De bonificacions n'hi ha d'obligatòries (Art. 73 TRLRHL) i de potestatives (Art. 74 TRLRHL):
 
@@ -355,8 +351,7 @@ I ja per acabar amb aquest impost, parlem del **període impositiu i la meritaci
 
 L'IVTM és un impost obligatori, directe, real, periòdic i fiscal. Amb ell es grava la titularitat dels vehicles de tracció mecànica aptes per a circular per les vies públiques, qualsevol que sigui la seva classe i categoria (**fet imposable**, Art. 92.1 TRLRHL).
 
-> [!NOTE]
-> Fixeu-vos que el fet imposable és la titularitat del vehicle, independentment de que es mogui més o menys. Ho dic perquè en ocasions he sentit a gent referir-se a aquest impost com "impost de rodatge", nom que considero desafortunat ja que dona a entendre que la quota resultant pot tenir a veure amb la intensitat d'ús (nombre de kilòmetres a l'any)
+### Fixeu-vos que el fet imposable és la titularitat del vehicle, independentment de que es mogui més o menys. Ho dic perquè en ocasions he sentit a gent referir-se a aquest impost com "impost de rodatge", nom que considero desafortunat ja que dona a entendre que la quota resultant pot tenir a veure amb la intensitat d'ús (nombre de kilòmetres a l'any)
 
 Segons l'Art. 92.2 TRLRHL es considera vehicle apte per a la circulació aquell que hagués estat **matriculat en els registres públics corresponents** i mentre no causi baixa d'aquests (s'hi inclouen els vehicles amb matrícules temporals i turístiques).
 
@@ -385,11 +380,7 @@ Les ordenances municipals també podran contenir **bonificacions** (potestatives
 
 - De fins al 75% en funció de la classe de carburant que consumeixi (incidència en el medi ambient).
 - De fins al 75% en funció de les característiques dels motors dels vehicles (incidència en el medi ambient).
-- De fins al 100% per als vehicles històrics o aquells que tinguin una antiguitat mínima de 25 anys comptats a partir de la seva fabricació. 
-
-> [!NOTE]
-> Ara bé, que ningú s'emocioni si té un Renault 5 de l'any de la quica, en aquest cas el cotxe podrà ser demanat per l'Administració (i l'amo l'haurà de cedir) per a esdeveniments públics en que es requereixi la presència d'aquest tipus de vehicles.
-.
+- De fins al 100% per als vehicles històrics o aquells que tinguin una antiguitat mínima de 25 anys comptats a partir de la seva fabricació. Ara bé, que ningú s'emocioni si té un Renault 5 de l'any de la quica, en aquest cas el cotxe podrà ser demanat per l'Administració (i l'amo l'haurà de cedir) per a esdeveniments públics en que es requereixi la presència d'aquest tipus de vehicles.
 
 Respecte al **període impositiu i a la meritació** (Art. 96 TRLRHL). El període impositiu coincideix amb l'any natural, tret del cas de la primera adquisició dels vehicles (en aquest cas comença el dia en que es produeixi i dura fins al final d'any). En aquest cas, juntament amb el de baixa definitiva del vehicle i baixa temporal per sostracció o robatori del vehicle, es permet prorrateig de la quota (prorrateig per trimestres naturals, inclòs aquell en el que es produeixi el fet). L'impost es merita el primer dia del període impositiu.
 
@@ -411,9 +402,7 @@ L'Art. 102 TRLRHL ens parla de la **base imposable, la quota i la meritació**. 
 
 La **quota** serà e resultat d'aplicar a la base imposable el tipus de gravamen. Al seu torn, el **tipus de gravamen** serà aquell fixat per l'ordenança fiscal de cada municipi, **sense que pugui excedir el 4%**.
 
-> [!NOTE]
-> L'Ajuntament de Barcelona sí cobra l'ICIO, i el seu tipus de gravamen és del 3,35%
-.
+### L'Ajuntament de Barcelona sí cobra l'ICIO, i el seu tipus de gravamen és del 3,35%
 
 La **meritació** es produeix en el moment d'iniciar-se la construcció, instal·lació o obra, fins i tot quan no s'hagi obtingut la corresponent llicència.
 
@@ -469,20 +458,17 @@ Pel que fa a la figura del **contribuent**, aquest depèn del tipus de transacci
 - **Transmissions lucratives** (això és, transmissions en les que no hi ha una contraprestació, com ara la donació d'un immoble): el contribuent és **l'adquirent**.
 - **Transmissions oneroses** (això és, transmissions on si hi ha una contraprestació, com ara una compravenda d'un immoble): el contribuent és **el transmitent**. Ara bé, hi ha una excepció important que cal que coneguem. En el cas de transmissions oneroses on el transmitent és un no resident, el deute tributari és exigit a l'adquirent com a substitut del contribuent. Aquest, al seu torn, tindrà dret de retorn per part del transmitent (podrà exigir l'import pagat al venedor no resident).
 
-> [!NOTE]
-> Aquesta excepció té una explicació bastant lògica. Per una part la llei planteja l'adquirent com a substitut del contribuent per un motiu molt senzill, concretament, perquè li serà molt més fàcil aconseguir el pagament de l'impost reclamant-li a un resident que no pas a un no resident (que ves a buscar-lo al seu país per a que et pagui l'impost un cop s'ha venut la casa...). I així doncs què passa amb l'adquirent? S'ha de menjar el pagament de l'IIVTNU? Ha de ser ell qui vagi a buscar a l'estranger al seu país per a que li retorni els diners que ha pagat per l'impost? Doncs no, perquè res impedeix que en el moment de la compravenda les dues parts facin un pacte de Dret Privat (plenament vàlid) pel qual es descompte del preu l'import del pagament de l'IIVTNU a canvi de la renúncia a que l'adquirent pugui reclamar-li al transmitent posteriorment l'import satisfet pel pagament de l'IIVTNU com a substitut del contribuent. Recordem que el principi tributari d'indisponibilitat de les figures subjectives implica que els pactes de Dret Privat entre les parts (pels quals es transmeten les obligacions tributàries en favor de persones alienes als obligats tributaris legalment establerts) no poden ser invocats davant l'Administració Tributària, no pas que no siguin vàlids ni legalment vinculants entre les parts
-> 
-> Posem un parell d'exemples per a poder entendre tant l'excepció que hem explicat com el principi de Dret Tributari d'indisponibilitat de les figures subjectives
-> 
-> Exemple A
-> 
-> Un rus no resident a Espanya li ven a un espanyol una casa a Barcelona. El preu de venda és de 300.000,00€ i es calcula que el pagament de l'IIVTNU serà de 10.000,00€. Segons la llei, haurà de pagar l'impost l'adquirent (com a substitut del contribuent) i, posteriorment li podrà reclamar aquest pagament al venedor (contribuent). Ara bé, res no impedeix que totes dues parts arribin a l'acord de Dret Privat (correctament formalitzat) de rebaixar el preu de venda a 290.000,00€ a canvi de que el pagament de l'IIVTNU sigui assumit per l'adquirent sense que posteriorment pugui reclamar-lo al venedor. L'Administració Tributària reclamarà el pagament dels 10.000,00€ al comprador (com a substitut del contribuent). Si posteriorment aquest li vol reclamar la devolució dels 10.000,00€ al venedor, aquest sí podrà invocar el pacte de Dret Privat al que van arribar les parts, el qual, si és correctament formalitzat, serà plenament vàlid i impedirà que el venedor hagi d'assumir el pagament de l'impost (no s'haurà contravingut el principi tributari d'indisponibilitat de les figures subjectives)
-> 
-> Exemple B
-> 
-> Un espanyol ven a un altre espanyol una casa a Barcelona. El venedor demana un preu de 300.000,00€ i, amés, exigeix que el comprador assumeixi el pagament de l'IIVTNU (el qual es calcula en 10.000,00€). El venedor troba un comprador interessat que accepta les condicions imposades. La venda es produeix però, a posteriori, el comprador no satisfà el pagament de l'IIVTNU. L'Administració Tributària reclamarà el pagament al contribuent (venedor). Aquest, probablement, pretendrà invocar el pacte de Dret Privat al que va arribar amb el comprador i pel qual era aquest qui n'assumia el pagament. Però l'Administració li dirà que no, que pel principi d'indisponibilitat de les figures subjectives no pot invocar aquest acord davant l'Administració Tributària. Per tant haurà de ser el venedor qui pagui l'impost com a contribuent. Voldrà dir això que el pacte de Dret Privat no és vàlid? Ni molt menys. Si el pacte està degudament formalitzat servirà per a que el venedor li pugui reclamar al comprador el pagament que ha hagut de satisfer per motiu de l'IIVTNU
-.
+### Aquesta excepció té una explicació bastant lògica. Per una part la llei planteja l'adquirent com a substitut del contribuent per un motiu molt senzill, concretament, perquè li serà molt més fàcil aconseguir el pagament de l'impost reclamant-li a un resident que no pas a un no resident (que ves a buscar-lo al seu país per a que et pagui l'impost un cop s'ha venut la casa...). I així doncs què passa amb l'adquirent? S'ha de menjar el pagament de l'IIVTNU? Ha de ser ell qui vagi a buscar a l'estranger al seu país per a que li retorni els diners que ha pagat per l'impost? Doncs no, perquè res impedeix que en el moment de la compravenda les dues parts facin un pacte de Dret Privat (plenament vàlid) pel qual es descompte del preu l'import del pagament de l'IIVTNU a canvi de la renúncia a que l'adquirent pugui reclamar-li al transmitent posteriorment l'import satisfet pel pagament de l'IIVTNU com a substitut del contribuent. Recordem que el principi tributari d'indisponibilitat de les figures subjectives implica que els pactes de Dret Privat entre les parts (pels quals es transmeten les obligacions tributàries en favor de persones alienes als obligats tributaris legalment establerts) no poden ser invocats davant l'Administració Tributària, no pas que no siguin vàlids ni legalment vinculants entre les parts
 
+### Posem un parell d'exemples per a poder entendre tant l'excepció que hem explicat com el principi de Dret Tributari d'indisponibilitat de les figures subjectives
+
+### Exemple A
+
+### Un rus no resident a Espanya li ven a un espanyol una casa a Barcelona. El preu de venda és de 300.000,00€ i es calcula que el pagament de l'IIVTNU serà de 10.000,00€. Segons la llei, haurà de pagar l'impost l'adquirent (com a substitut del contribuent) i, posteriorment li podrà reclamar aquest pagament al venedor (contribuent). Ara bé, res no impedeix que totes dues parts arribin a l'acord de Dret Privat (correctament formalitzat) de rebaixar el preu de venda a 290.000,00€ a canvi de que el pagament de l'IIVTNU sigui assumit per l'adquirent sense que posteriorment pugui reclamar-lo al venedor. L'Administració Tributària reclamarà el pagament dels 10.000,00€ al comprador (com a substitut del contribuent). Si posteriorment aquest li vol reclamar la devolució dels 10.000,00€ al venedor, aquest sí podrà invocar el pacte de Dret Privat al que van arribar les parts, el qual, si és correctament formalitzat, serà plenament vàlid i impedirà que el venedor hagi d'assumir el pagament de l'impost (no s'haurà contravingut el principi tributari d'indisponibilitat de les figures subjectives)
+
+### Exemple B
+
+### Un espanyol ven a un altre espanyol una casa a Barcelona. El venedor demana un preu de 300.000,00€ i, amés, exigeix que el comprador assumeixi el pagament de l'IIVTNU (el qual es calcula en 10.000,00€). El venedor troba un comprador interessat que accepta les condicions imposades. La venda es produeix però, a posteriori, el comprador no satisfà el pagament de l'IIVTNU. L'Administració Tributària reclamarà el pagament al contribuent (venedor). Aquest, probablement, pretendrà invocar el pacte de Dret Privat al que va arribar amb el comprador i pel qual era aquest qui n'assumia el pagament. Però l'Administració li dirà que no, que pel principi d'indisponibilitat de les figures subjectives no pot invocar aquest acord davant l'Administració Tributària. Per tant haurà de ser el venedor qui pagui l'impost com a contribuent. Voldrà dir això que el pacte de Dret Privat no és vàlid? Ni molt menys. Si el pacte està degudament formalitzat servirà per a que el venedor li pugui reclamar al comprador el pagament que ha hagut de satisfer per motiu de l'IIVTNU
 
 Pel que fa a la **base imposable**, aquest serà igual al valor cadastral de la part del terreny, multiplicat pel nombre d'anys que aquest ha estat en propietat del transmitent (arrodonint el nombre d'anys a la baixa i amb un màxim de 20) i multiplicat per un percentatge determinat per l'ordenança tributària municipal el qual variarà en funció del nombre d'anys i que, lògicament, haurà d'estar dins els límits del TRLRHL.
 
@@ -499,22 +485,22 @@ Pel que fa al **moment de la meritació**, aquest es produeix en la data de la t
 
 Es contempla la possibilitat d'exigir l'impost mitjançant autoliquidació. Determinats subjectes, com ara els notaris, tenen obligació de comunicar a l'Administració tots aquells negocis jurídics de que tinguin coneixement i que impliquin obligació de liquidar IIVTNU.
 
-> [!NOTE]
-> Posem un exemple de càlcul
-> 
-> A Barcelona, el Sr. A (espanyol) ven al Sr. B un pis. El valor cadastral de l'immoble és de 120.000,00€, dels quals 55.000,00€ corresponen al terreny i la resta a l'edificació. El Sr. A ha sigut propietari de l'immoble durant 13,5 anys. L'Ajuntament de Barcelona sí cobra l'IIVTNU amb un tipus impositiu del 30%. La transmissió no està subjecta a cap reducció ni bonificació potestativa. Segons la taula recollida a l'ordenança fiscal municipal de l'Ajuntament de Barcelona reguladora de l'IIVTNU, els percentatges a aplicar són
-> 
-> Fins a 1 any 4%  
-> Fins a 5 anys 3,7%  
-> Fins a 10 anys 3,5%  
-> Fins a 15 anys 3,1%  
-> Fins a 20 anys 2,8%  
-> 
-> Per tant, el càlcul serà  
-> Base imposable: 55.000,00€ x 13 x 3,1% = 22.165,00€  
-> Quota íntegra: 22.165,00€ x 30% = 6.649,50€  
-.
+### Posem un exemple de càlcul
 
+### A Barcelona, el Sr. A (espanyol) ven al Sr. B un pis. El valor cadastral de l'immoble és de 120.000,00€, dels quals 55.000,00€ corresponen al terreny i la resta a l'edificació. El Sr. A ha sigut propietari de l'immoble durant 13,5 anys. L'Ajuntament de Barcelona sí cobra l'IIVTNU amb un tipus impositiu del 30%. La transmissió no està subjecta a cap reducció ni bonificació potestativa. Segons la taula recollida a l'ordenança fiscal municipal de l'Ajuntament de Barcelona reguladora de l'IIVTNU, els percentatges a aplicar són
+
+### Fins a 1 any 4%
+
+Fins a 5 anys 3,7%  
+Fins a 10 anys 3,5%  
+Fins a 15 anys 3,1%  
+Fins a 20 anys 2,8%
+
+### Per tant, el càlcul serà
+
+### Base imposable: 55.000,00€ x 13 x 3,1% = 22.165,00€
+
+### Quota íntegra: 22.165,00€ x 30% = 6.649,50€
 
 #### Les taxes
 
@@ -1060,45 +1046,11 @@ Si consultem la normativa reglamentària relativa a les hisendes locals podem ob
 
 Per tant, l'aplicació pressupostària 99.113 de l'estat d'ingressos recollirà els ingressos de la corporació local que es realitzin per part del departament d'urbanisme en concepte de cobrament de l'IBI, concretament per immobles de naturalesa urbana.
 
-> [!NOTE]
-> Atenció: en el cas de l'Ajuntament de Barcelona, la codificació és exactament igual a la que acabem de veure, amb la única particularitat de que la classificació econòmica es posa davant de la classificació per programes. És a dir, l'aplicació de l'exemple 99.920.220, a l'Ajuntament de Barcelona seria 99.220.920
-.
+### Atenció: en el cas de l'Ajuntament de Barcelona, la codificació és exactament igual a la que acabem de veure, amb la única particularitat de que la classificació econòmica es posa davant de la classificació per programes. És a dir, l'aplicació de l'exemple 99.920.220, a l'Ajuntament de Barcelona seria 99.220.920
 
 A l'**estat d'ingressos** es recullen tots els ingressos que es preveu que obtindrà la corporació local al llarg de l'exercici. Les aplicacions pressupostàries que s'hi recullen es classifiquen segons classificació econòmica (i opcionalment també orgànica). Nosaltres només ens hem de saber l'estructura de la classificació econòmica i només a nivell de capítols. És la següent:
 
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; text-align: center;">
-    <tr>
-        <td style="text-align:left;">1.&nbsp; Impostos directes</td>
-        <td rowspan="5">Ingressos corrents</td>
-        <td rowspan="7">Operacions NO financeres</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">2.&nbsp; Impostos indirectes</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">3.&nbsp; Taxes, preus públics i contribucions especials</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">4.&nbsp; Transferències corrents</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">5.&nbsp; Ingressos patrimonials</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">6.&nbsp; Alienació d’inversions reals</td>
-        <td rowspan="2">Ingressos de capital</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">7.&nbsp; Transferències de capital</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">8.&nbsp; Actius financers</td>
-        <td colspan="2" rowspan="2">Operacions financeres</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">9.&nbsp; Passius financers</td>
-    </tr>
-</table>
+<div class="joplin-table-wrapper"><table><tbody><tr><th><ol><li>Impostos directes</li></ol></th><th rowspan="5"><p>Ingressos corrents</p></th><th rowspan="7"><p>Operacions NO financeres</p></th></tr><tr><td><ol><li>Impostos indirectes</li></ol></td></tr><tr><td><ol><li>Taxes, preus públics i contribucions especials</li></ol></td></tr><tr><td><ol><li>Transferències corrents</li></ol></td></tr><tr><td><ol><li>Ingressos patrimonials</li></ol></td></tr><tr><td><ol><li>Alienació d'inversions reals</li></ol></td><td rowspan="2"><p>Ingressos de capital</p></td></tr><tr><td><ol><li>Transferències de capital</li></ol></td></tr><tr><td><ol><li>Actius financers</li></ol></td><td colspan="2" rowspan="2"><p>Operacions financeres</p></td></tr><tr><td><ol><li>Passius financers</li></ol></td></tr></tbody></table></div>
 
 Com podem observar en el quadre, els capítols també s'agrupen en dos tipologies, operacions financeres (capítols 8 i 9) i operacions no financeres (capítols 1 a 7) que al seu torn es divideixen en ingressos corrents (capítols 1 a 5) i ingressos de capital (capítols 6 i 7).
 
@@ -1116,41 +1068,7 @@ Passem a explicar una mica cadascun dels capítols de l'estat d'ingressos:
 
 L'Estat de despeses recull totes les despeses i obligacions a satisfer al llarg de l'exercici pressupostari per part de la Corporació Local. La seva estructura presenta un esquema força similar al que acabem de veure en l'estat d'ingressos:
 
-<table border="1" cellspacing="0" cellpadding="6" style="border-collapse: collapse; text-align: center;">
-    <tr>
-        <td style="text-align:left;">1.&nbsp; Despeses de personal</td>
-        <td rowspan="4">Despeses corrents</td>
-        <td rowspan="4">Operacions NO financeres</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">2.&nbsp; Despeses en béns corrents i serveis</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">3.&nbsp; Despeses financeres</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">4.&nbsp; Transferències corrents</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">5.&nbsp; Fons de contingència</td>
-        <td colspan="2"></td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">6.&nbsp; Inversions reals</td>
-        <td rowspan="2">Despeses de capital</td>
-        <td rowspan="2">Operacions NO financeres</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">7.&nbsp; Transferències de capital</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">8.&nbsp; Actius financers</td>
-        <td colspan="2" rowspan="2">Operacions financeres</td>
-    </tr>
-    <tr>
-        <td style="text-align:left;">9.&nbsp; Passius financers</td>
-    </tr>
-</table>
+<div class="joplin-table-wrapper"><table><tbody><tr><th><ol><li>Despeses de personal</li></ol></th><th rowspan="4"><p>Despeses corrents</p></th><th rowspan="4"><p>Operacions NO financeres</p></th></tr><tr><td><ol><li>Despeses en béns corrents i serveis</li></ol></td></tr><tr><td><ol><li>Despeses financeres</li></ol></td></tr><tr><td><ol><li>Transferències corrents</li></ol></td></tr><tr><td colspan="3"><ol><li>Fons de contingència</li></ol></td></tr><tr><td><ol><li>Inversions reals</li></ol></td><td rowspan="2"><p>Despeses de capital</p></td><td rowspan="2"><p>Operacions NO financeres</p></td></tr><tr><td><ol><li>Transferències de capital</li></ol></td></tr><tr><td><ol><li>Actius financers</li></ol></td><td colspan="2" rowspan="2"><p>Operacions financeres</p></td></tr><tr><td><ol><li>Passius financers</li></ol></td></tr></tbody></table></div>
 
 Tal i com podem observar les despeses també s'agrupen en operacions financeres i no financeres (aquestes últimes subdividides en despeses corrents i despeses de capital). Tot i així, crida l'atenció que el capítol 5 (fons de contingència) no s'encabeix en cap d'aquestes categories.
 
@@ -1207,25 +1125,23 @@ Mitjançant aquest acte l'òrgan competent, un cop havent acomplert els tràmits
 
 L'Art. 46 LGP estableix que **no poden adquirir-se compromisos de despesa sense crèdit pressupostari (adequat i suficient), essent nul·les de ple dret les despeses que contravinguin aquest requisit**. Respecte d'aquesta afirmació hem de fer dues importants matisacions. Una és que ben bé això no és així del tot, ja que l'Administració pot contraure obligacions econòmiques vàlides sense cobertura pressupostària, tal i com seguidament explicarem. Per altra banda, és important assenyalar que aquesta previsió de nul·litat de l'Art. 46 LGP és un exemple de cas de nul·litat establert per una llei diferent a la L39/2015, a l'empara del seu Art. 47.1.g).
 
-> [!NOTE]
-> Pel que fa a les obligacions econòmiques sense cobertura pressupostària, aquí sorgeix un dilema que és importantíssim que sapiguem entendre. Per una banda les obligacions econòmiques de l'Administració no neixen directament de la LGPE (sinó d'altres lleis, negocis jurídics, actes, etc. tal com indica l'Art. 20 LGP). Però per altra banda, l'Art. 46 LGP estableix clarament la nul·litat de ple dret dels compromisos de despesa adquirits per quantia superior als crèdits pressupostaris consignats (d'aquí el caràcter limitatiu dels crèdits). Per tant, què? **Poden les Administracions contraure obligacions econòmiques sense crèdit pressupostari? La cobertura pressupostària és condició de validesa o d'exigibilitat de les obligacions econòmiques?**
+### Pel que fa a les obligacions econòmiques sense cobertura pressupostària, aquí sorgeix un dilema que és importantíssim que sapiguem entendre. Per una banda les obligacions econòmiques de l'Administració no neixen directament de la LGPE (sinó d'altres lleis, negocis jurídics, actes, etc. tal com indica l'Art. 20 LGP). Però per altra banda, l'Art. 46 LGP estableix clarament la nul·litat de ple dret dels compromisos de despesa adquirits per quantia superior als crèdits pressupostaris consignats (d'aquí el caràcter limitatiu dels crèdits). Per tant, què? **Poden les Administracions contraure obligacions econòmiques sense crèdit pressupostari? La cobertura pressupostària és condició de validesa o d'exigibilitat de les obligacions econòmiques?**
 
-> Doncs bé, **la cobertura pressupostària, com a norma general, no és requisit de validesa sinó d'exigibilitat de les obligacions econòmiques de l'Administració**. Això, si ho parem a pensar, no manca pas de lògica. Imaginem que l'Administració contracta una prestació qualsevol amb un tercer i després, un cop aquesta ha estat satisfeta, resulta que no hi ha crèdit pressupostari per atendre el pagament corresponent. L'Administració no podria pas invocar la nul·litat de la despesa (per haver estat realitzada sense crèdit pressupostari) tothora que ha estat ella mateixa qui ha comés l'omissió pressupostària
+### Doncs bé, **la cobertura pressupostària, com a norma general, no és requisit de validesa sinó d'exigibilitat de les obligacions econòmiques de l'Administració**. Això, si ho parem a pensar, no manca pas de lògica. Imaginem que l'Administració contracta una prestació qualsevol amb un tercer i després, un cop aquesta ha estat satisfeta, resulta que no hi ha crèdit pressupostari per atendre el pagament corresponent. L'Administració no podria pas invocar la nul·litat de la despesa (per haver estat realitzada sense crèdit pressupostari) tothora que ha estat ella mateixa qui ha comés l'omissió pressupostària
 
-> És per això que **la pròpia LGP, d'una manera una mica contradictòria, ofereix diverses alternatives per tal de "convalidar" aquesta nul·litat de ple dret que va aparellada a la manca de crèdit pressupostari en l'assumpció d'obligacions pressupostàries** (acudir al fons de contingència, retardar la imputació temporal de les obligacions contretes durant un exercici al següent, dotar un crèdit específic per a atendre obligacions d'exercicis anteriors i, sobretot, el ventall de modificacions pressupostàries que veurem tot seguit)
+### És per això que **la pròpia LGP, d'una manera una mica contradictòria, ofereix diverses alternatives per tal de "convalidar" aquesta nul·litat de ple dret que va aparellada a la manca de crèdit pressupostari en l'assumpció d'obligacions pressupostàries** (acudir al fons de contingència, retardar la imputació temporal de les obligacions contretes durant un exercici al següent, dotar un crèdit específic per a atendre obligacions d'exercicis anteriors i, sobretot, el ventall de modificacions pressupostàries que veurem tot seguit)
 
-> Per tant, **excepte en aquells casos en el que la normativa sectorial d'algunes despeses públiques estableix com a requisit essencial i previ a l'acte administratiu l'acreditació formal de la prèvia cobertura pressupostària, aquesta no opera amb caràcter general com a requisit de validesa de les obligacions econòmiques contretes per l'Administració, sinó com a mer requisit d'exigibilitat de les mateixes**. De fet així ho expressa l'Art. 21 LGP quan diu que les obligacions de la Hisenda Pública estatal només són exigibles quan resultin de l'execució dels pressupostos. La consignació o cobertura pressupostària és, per tant, una condició inexcusable per a pagar o saldar una obligació econòmica, però no necessàriament per a la validesa d'aquesta
+### Per tant, **excepte en aquells casos en el que la normativa sectorial d'algunes despeses públiques estableix com a requisit essencial i previ a l'acte administratiu l'acreditació formal de la prèvia cobertura pressupostària, aquesta no opera amb caràcter general com a requisit de validesa de les obligacions econòmiques contretes per l'Administració, sinó com a mer requisit d'exigibilitat de les mateixes**. De fet així ho expressa l'Art. 21 LGP quan diu que les obligacions de la Hisenda Pública estatal només són exigibles quan resultin de l'execució dels pressupostos. La consignació o cobertura pressupostària és, per tant, una condició inexcusable per a pagar o saldar una obligació econòmica, però no necessàriament per a la validesa d'aquesta
 
-> Per a satisfer una obligació econòmica és necessari que es doni alguna de les següents circumstàncies
+### Per a satisfer una obligació econòmica és necessari que es doni alguna de les següents circumstàncies
 
-> Que existeixi crèdit pressupostari suficient i adient per al pagament
+### Que existeixi crèdit pressupostari suficient i adient per al pagament
 
-> Que així ho ordeni una sentència judicial ferma (en aquest cas, en cas de no tenir crèdit pressupostari, l'Administració queda obligada legalment a habilitar un crèdit pressupostari per atendre l'obligació en qüestió)
+### Que així ho ordeni una sentència judicial ferma (en aquest cas, en cas de no tenir crèdit pressupostari, l'Administració queda obligada legalment a habilitar un crèdit pressupostari per atendre l'obligació en qüestió)
 
-> Que derivin d'operacions no pressupostàries legalment autoritzades (autoritzacions excepcionals del Govern de bestretes de tresoreria associades a un expedient de crèdit extraordinari o suplement de crèdit)
+### Que derivin d'operacions no pressupostàries legalment autoritzades (autoritzacions excepcionals del Govern de bestretes de tresoreria associades a un expedient de crèdit extraordinari o suplement de crèdit)
 
-> Sobra dir que en qualsevol cas **el pagament d'una obligació econòmica causada per qualsevol prestació o servei, no podrà efectuar-se si el creditor no ha complert o garantit la seva correlativa obligació** (Art. 21 LGP)
-.
+### Sobra dir que en qualsevol cas **el pagament d'una obligació econòmica causada per qualsevol prestació o servei, no podrà efectuar-se si el creditor no ha complert o garantit la seva correlativa obligació** (Art. 21 LGP)
 
 El document administratiu pressupostari, en aquest cas, és el **D**.
 
@@ -1241,11 +1157,7 @@ Per a procedir al reconeixement de l'obligació **és necessària la prèvia acr
 
 També aquesta fase permet al creditor, en el seu cas, sol·licitar la compensació del seu crèdit si simultàniament té deutes amb l'Administració.
 
-El document administratiu pressupostari és l'**O** 
-
-> [!NOTE]
-> (hi ha qui diu també que hi ha el document comptable "K" que correspon a la proposta de pagament -proposta, que no pas ordenació-, de tal manera que el reconeixement de l'obligació implica els documents "OK", nom curiós).
-.
+El document administratiu pressupostari és l'**O** (hi ha qui diu també que hi ha el document comptable "K" que correspon a la proposta de pagament -proposta, que no pas ordenació-, de tal manera que el reconeixement de l'obligació implica els documents "OK", nom curiós).
 
 **Continuació de l'exemple:** un cop seguits tots els tràmits d'adjudicació del contracte de subministraments, el concessionari fa entrega del vehicle en la forma, moment i lloc acordats. La realització de la prestació genera el naixement de l'obligació de pagament de l'Ajuntament de Barcelona en favor de l'empresari contractant. Aquest reconeixement de l'obligació de pagament es fa mitjançant el document O per import de 55.000€.
 
@@ -1430,46 +1342,13 @@ Pel que fa a la **competència:**
 
 **A nivell català:**
 
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
-    <tr>
-        <th style="text-align: left; width: 55%;">Ingressos:</th>
-        <th style="text-align: left; width: 45%;">Requisits per a procedir a la generació de crèdit:</th>
-    </tr>
-    <tr>
-        <td>
-            Aportacions o compromisos ferms d’aportació de persones físiques o jurídiques per a finançar,
-            juntament amb l’entitat local o amb algun dels seus organismes autònoms, despeses que, per la seva
-            naturalesa, estiguin compresos en els seus fins o objectius.
-        </td>
-        <td rowspan="2">
-            Reconeixement del dret o existència formal del compromís ferm de l’aportació.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Alienacions de béns de l’entitat local o dels seus organismes autònoms.
-        </td>
-    </tr>
-    <tr>
-        <td>Prestació de serveis.</td>
-        <td rowspan="2">
-            Reconeixement del dret, si bé la disponibilitat dels esmentats crèdits estarà condicionada
-            a l’efectiva recaptació dels drets.
-        </td>
-    </tr>
-    <tr>
-        <td>Reemborsament de préstecs.</td>
-    </tr>
-    <tr>
-        <td>
-            Reintegraments de pagaments indeguts amb càrrec al pressupost corrent,
-            quant a la reposició del crèdit en la corresponent quantia.
-        </td>
-        <td>
-            La efectivitat del cobrament del reintegrament.
-        </td>
-    </tr>
-</table>
+| **Ingressos:**                                                                                                                                                                                                                                                                                            | **Requisits per a procedir a la generació de crèdit:**                                                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Aportacions o compromisos ferms d'aportació de persones físiques o jurídiques per a finançar, juntament amb l'entitat local o amb algun dels seus organismes autònoms, despeses que, per la seva naturalesa, estiguin compresos en els seus fins o objectius.                                             | Reconeixement del dret o existència formal del compromís ferm de l'aportació.                                                  |
+| Alienacions de béns de l'entitat local o dels seus organismes autònoms.                                                                                                                                                                                                                                   |
+| Prestació de serveis.                                                                                                                                                                                                                                                                                     | Reconeixement del dret, si bé la disponibilitat dels esmentats crèdits estarà condicionada a l'efectiva recaptació dels drets. |
+| Reemborsament de préstecs.                                                                                                                                                                                                                                                                                |
+| Reintegraments de pagaments indeguts amb càrrec al pressupost corrent, quant a la reposició del crèdit en la corresponent quantia.![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAXEgAAFxIBZ5/SUgAAAA1JREFUCB1jYGBgsAIAAD8AO+2bAfEAAAAASUVORK5CYII=) | La efectivitat del cobrament del reintegrament.                                                                                |
 
 ### Crèdits ampliables
 
