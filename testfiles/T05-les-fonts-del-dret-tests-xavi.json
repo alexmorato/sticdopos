@@ -1,0 +1,1502 @@
+[
+  {
+    "guid": "25ca0a0c-e5aa-4c41-8190-061b3452c4c0",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quina de les següents no és una font de dret administratiu?",
+    "answerOptions": [
+      {
+        "text": "El reglament",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: el reglament és la font per excel·lència del dret administratiu."
+      },
+      {
+        "text": "El costum per remissió d'una llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: el costum pot operar com a font quan una llei s'hi remet expressament."
+      },
+      {
+        "text": "El precedent administratiu",
+        "isCorrect": true,
+        "rationale": "Correcte: el precedent administratiu no és font de dret; l'Administració pot apartar-se'n motivadament."
+      },
+      {
+        "text": "Els principis generals del dret",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: els principis generals del dret són font de l'ordenament jurídic (art. 1.4 CC)."
+      }
+    ]
+  },
+  {
+    "guid": "d1e3f016-444c-4e4d-943a-949269d0ab4e",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la possibilitat de canvi de criteri respecte actuacions precedents en situacions similars per part de l'Administració.",
+    "answerOptions": [
+      {
+        "text": "Tot i que l'Administració pot canviar de criteri respecte actuacions precedents en situacions similars, aquest canvi no podrà transgredir cap principi general del dret",
+        "isCorrect": true,
+        "rationale": "Correcte: el precedent no vincula, però el canvi de criteri ha de ser motivat i respectar els principis generals (igualtat, bona fe, confiança legítima, interdicció de l'arbitrarietat)."
+      },
+      {
+        "text": "L'Administració no pot canviar de criteri, ja que el precedent administratiu és font de dret",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el precedent administratiu no és font de dret i el canvi de criteri és possible."
+      },
+      {
+        "text": "L'Administració pot canviar de criteri sense cap mena de limitació, ja que el precedent no és font de dret",
+        "isCorrect": false,
+        "rationale": "Incorrecte: tot i no ser font de dret, el canvi de criteri està limitat pels principis generals del dret i pel deure de motivació."
+      },
+      {
+        "text": "Només podrà canviar de criteri en exercici de potestats administratives totalment reglades",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no existeix aquesta limitació; precisament en potestats reglades no hi ha marge de criteri."
+      }
+    ]
+  },
+  {
+    "guid": "02df6e44-fb54-48bd-ad62-fe560b89c81c",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali en quin dels casos següents podria aplicar-se l'ordenament jurídic administratiu espanyol a un país estranger.",
+    "answerOptions": [
+      {
+        "text": "Tràmit amb l'Administració pública d'un país estranger, per part d'un ciutadà espanyol, emprant una oficina diplomàtica d'aquell país a Espanya",
+        "isCorrect": false,
+        "rationale": "Incorrecte: en aquest cas s'aplica l'ordenament del país estranger, ja que és la seva Administració la que actua."
+      },
+      {
+        "text": "Tràmit amb l'Administració pública d'un país estranger, des del país en qüestió, per part d'un ciutadà espanyol",
+        "isCorrect": false,
+        "rationale": "Incorrecte: s'aplica l'ordenament del país estranger, encara que l'interessat sigui espanyol."
+      },
+      {
+        "text": "Tràmit amb l'Administració General de l'Estat, des d'un país estranger, emprant una oficina de representació diplomàtica espanyola",
+        "isCorrect": true,
+        "rationale": "Correcte: les oficines diplomàtiques espanyoles a l'estranger apliquen l'ordenament administratiu espanyol (principi de territorialitat amb extensió a les representacions diplomàtiques)."
+      },
+      {
+        "text": "Cap de les respostes anteriors és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta c) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "2c3f116d-3a1c-42de-9942-e23e3d265525",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació al període de vacatio legis que estableix l'Art. 2.1 del Codi Civil.",
+    "answerOptions": [
+      {
+        "text": "Les lleis entraran en vigor als 20 dies des de la seva completa publicació al BOE, en tot cas",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el termini de 20 dies és supletori, no imperatiu; la mateixa llei pot disposar una altra cosa."
+      },
+      {
+        "text": "Les lleis entraran en vigor als 20 dies des de la seva completa publicació al BOE, sempre que en elles no es disposi una altra cosa",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 2.1 CC estableix la vacatio legis de 20 dies com a regla supletòria, aplicable si la llei no disposa altra cosa."
+      },
+      {
+        "text": "Les lleis entraran en vigor als 30 dies des de la seva completa publicació al BOE, en tot cas",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el termini és de 20 dies, no de 30, i a més és supletori."
+      },
+      {
+        "text": "Les lleis entraran en vigor als 30 dies des de la seva completa publicació al BOE, sempre que no es disposi una altra cosa",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el termini supletori és de 20 dies, no de 30."
+      }
+    ]
+  },
+  {
+    "guid": "c66589c4-2276-4a9e-99f3-dc865a1f4bd2",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a l'aplicació de les lleis en el temps.",
+    "answerOptions": [
+      {
+        "text": "Com a norma general s'estableix la retroactivitat de les lleis",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la regla general és la irretroactivitat (art. 2.3 CC)."
+      },
+      {
+        "text": "Com a norma general s'estableix la irretroactivitat de les lleis, a no ser que a la llei s'estableixi el contrari. Aquesta possible retroactivitat té com a límit l'Art. 9.3 CE",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 2.3 CC fixa la irretroactivitat com a regla general, i la retroactivitat que la llei disposi troba el límit de l'art. 9.3 CE (disposicions sancionadores no favorables o restrictives de drets individuals)."
+      },
+      {
+        "text": "Com a norma general s'estableix la retroactivitat amb el límit de l'art. 9.3 CE, a no ser que la llei estableixi el contrari",
+        "isCorrect": false,
+        "rationale": "Incorrecte: inverteix la regla; la norma general és la irretroactivitat."
+      },
+      {
+        "text": "Cap de les respostes anteriors és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "1884aee1-25bb-429c-bed9-9c6cd4ff58fe",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a l'aplicació dels reglaments en el temps.",
+    "answerOptions": [
+      {
+        "text": "Com a norma general s'estableix la retroactivitat dels reglaments, amb el límit de l'art. 9.3 CE",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la regla general també és la irretroactivitat per als reglaments."
+      },
+      {
+        "text": "Els reglaments no es poden aplicar retroactivament en cap cas, ja que l'art. 2.3 CC només preveu la retroactivitat de les lleis",
+        "isCorrect": false,
+        "rationale": "Incorrecte: s'admet la retroactivitat de determinats reglaments, com els favorables."
+      },
+      {
+        "text": "Un exemple d'aplicació irretroactiva en tot cas és el dels reglaments d'organització i/o procedimentals",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els reglaments organitzatius i procedimentals són precisament exemples on s'admet l'aplicació immediata o retroactiva."
+      },
+      {
+        "text": "Un exemple d'aplicació retroactiva és el dels reglaments favorables",
+        "isCorrect": true,
+        "rationale": "Correcte: la jurisprudència admet l'aplicació retroactiva dels reglaments favorables als interessats, en no topar amb el límit de l'art. 9.3 CE."
+      }
+    ]
+  },
+  {
+    "guid": "de573664-d2ce-487e-9c69-78d585209ec7",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quin dels següents òrgans no pot exercir la iniciativa legislativa a nivell de l'Estat?",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que té iniciativa legislativa (art. 87.1 CE)."
+      },
+      {
+        "text": "Els Governs de les Comunitats Autònomes",
+        "isCorrect": true,
+        "rationale": "Correcte: la iniciativa legislativa estatal correspon a les Assemblees Legislatives de les CCAA (art. 87.2 CE), no als seus Governs."
+      },
+      {
+        "text": "El Govern de l'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que té iniciativa legislativa (art. 87.1 CE)."
+      },
+      {
+        "text": "El poble espanyol, mitjançant la iniciativa legislativa popular",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: la iniciativa legislativa popular està prevista a l'art. 87.3 CE."
+      }
+    ]
+  },
+  {
+    "guid": "b943da5c-2e0d-4701-a7ff-8fd1f6eb3485",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta quant a la iniciativa legislativa popular.",
+    "answerOptions": [
+      {
+        "text": "És una matèria amb reserva de llei orgànica",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 87.3 CE remet a una llei orgànica la regulació de les formes d'exercici i requisits de la iniciativa popular (LO 3/1984)."
+      },
+      {
+        "text": "Es pot emprar per a qualsevol tipus de lleis",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no procedeix en matèries pròpies de llei orgànica, tributàries, de caràcter internacional ni pel que fa a la prerrogativa de gràcia."
+      },
+      {
+        "text": "Es pot emprar també per a proposar una reforma de la CE",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la iniciativa de reforma constitucional exclou expressament la iniciativa popular (art. 166 CE)."
+      },
+      {
+        "text": "Totes les respostes anteriors són incorrectes",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta a) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "422c1732-290b-4f8a-926c-4018ae5885d6",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta respecte a la relació existent entre les lleis estatals i les lleis de les Comunitats Autònomes.",
+    "answerOptions": [
+      {
+        "text": "La relació entre ambdós tipus de lleis és jeràrquica",
+        "isCorrect": false,
+        "rationale": "Incorrecte: tenen el mateix rang de llei; no hi ha jerarquia entre elles."
+      },
+      {
+        "text": "La relació entre ambdós tipus de lleis és competencial",
+        "isCorrect": true,
+        "rationale": "Correcte: cada llei opera dins l'àmbit material i territorial de competències respectiu; els conflictes es resolen pel principi de competència, no pel de jerarquia."
+      },
+      {
+        "text": "És competencial i també jeràrquica: en cas de contradicció preval la llei de l'Estat en tot cas",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la clàusula de prevalença de l'art. 149.3 CE només opera en matèries no atribuïdes a la competència exclusiva de les CCAA, no 'en tot cas'."
+      },
+      {
+        "text": "És competencial i també jeràrquica: en cas de contradicció preval la llei de la Comunitat Autònoma dins del seu territori",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no existeix cap prevalença jeràrquica general de la llei autonòmica sobre l'estatal."
+      }
+    ]
+  },
+  {
+    "guid": "dc790709-a48e-43c1-8726-06e4db773815",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació incorrecta en relació a la iniciativa legislativa duta a terme per part del Govern de l'Estat.",
+    "answerOptions": [
+      {
+        "text": "Té un tràmit preferent respecte la iniciativa exercida per la resta de legitimats",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): els projectes de llei tenen tramitació prioritària (art. 89.1 CE)."
+      },
+      {
+        "text": "S'inicia mitjançant un avantprojecte de llei que, posteriorment, és aprovat com a projecte de llei pel Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): així ho preveu l'art. 22 LG i l'art. 88 CE."
+      },
+      {
+        "text": "Hi ha determinades matèries que estan reservades a iniciativa només per part del Govern de l'Estat",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): per exemple, els Pressupostos Generals de l'Estat (art. 134.1 CE)."
+      },
+      {
+        "text": "El Govern de l'Estat presenta les proposicions de llei davant la Mesa del Congrés dels Diputats",
+        "isCorrect": true,
+        "rationale": "Correcte com a resposta (afirmació incorrecta): el Govern presenta projectes de llei, no proposicions; les proposicions són les iniciatives dels altres legitimats."
+      }
+    ]
+  },
+  {
+    "guid": "1ff8cc48-b2b3-4863-a469-a62d3c9957a3",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta quant al nombre necessari de parlamentaris per a poder exercir la iniciativa legislativa a les Corts Generals.",
+    "answerOptions": [
+      {
+        "text": "Si la iniciativa és del Congrés dels Diputats, cal que la proposta la subscrigui 1 grup parlamentari o bé 25 diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: al Congrés el mínim és de 15 diputats, no 25."
+      },
+      {
+        "text": "Si la iniciativa és del Congrés dels Diputats, cal que la proposta la subscrigui 1 grup parlamentari o bé 15 diputats",
+        "isCorrect": true,
+        "rationale": "Correcte: el Reglament del Congrés exigeix la signatura d'un grup parlamentari o de 15 diputats."
+      },
+      {
+        "text": "Si la iniciativa és del Senat, cal que la proposta la subscrigui 1 grup parlamentari o bé 15 Senadors",
+        "isCorrect": false,
+        "rationale": "Incorrecte: al Senat calen 25 senadors (o un grup parlamentari), no 15."
+      },
+      {
+        "text": "Cap de les respostes anteriors és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "a915fb56-ad26-4c42-8a68-55952cc58895",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la iniciativa legislativa per part de les Assemblees Legislatives de les Comunitats Autònomes.",
+    "answerOptions": [
+      {
+        "text": "Només poden exercir la iniciativa legislativa estatal sobre matèries respecte de les quals les CCAA puguin assumir algun títol competencial",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 87.2 CE no limita materialment aquesta iniciativa."
+      },
+      {
+        "text": "Tenen una doble via: presentar un projecte de llei davant la Mesa del Congrés o instar el Govern a l'adopció d'una proposició de llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la doble via és sol·licitar al Govern l'adopció d'un projecte de llei o remetre a la Mesa del Congrés una proposició de llei (art. 87.2 CE); els termes estan invertits."
+      },
+      {
+        "text": "En cas que presentin una proposició de llei davant la Mesa del Congrés, podran delegar un màxim de 3 dels seus parlamentaris per a defensar-la davant de la cambra",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 87.2 CE preveu la delegació d'un màxim de tres membres de l'Assemblea encarregats de la defensa de la proposició."
+      },
+      {
+        "text": "Aquests 3 parlamentaris autonòmics participaran, amb veu i sense vot, a la comissió legislativa que tramiti la proposició",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la seva funció és defensar la proposició davant el Ple en la presa en consideració, no participar a la comissió."
+      }
+    ]
+  },
+  {
+    "guid": "b3ee07cf-6e55-4e9e-997d-51d41e1ad2be",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quina de les següents matèries sí podria ser objecte d'una iniciativa legislativa popular?",
+    "answerOptions": [
+      {
+        "text": "La regulació de l'IRPF",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les matèries de naturalesa tributària estan excloses de la iniciativa popular (art. 87.3 CE)."
+      },
+      {
+        "text": "Els Pressupostos Generals de l'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la iniciativa dels Pressupostos correspon en exclusiva al Govern (art. 134.1 CE)."
+      },
+      {
+        "text": "El dret a la negociació col·lectiva i a l'adopció de mesures de conflicte col·lectiu",
+        "isCorrect": true,
+        "rationale": "Correcte: és un dret de la Secció 2a del Capítol II del Títol I (art. 37 CE), no reservat a llei orgànica, per la qual cosa admet iniciativa legislativa popular."
+      },
+      {
+        "text": "La reforma de la Constitució",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 166 CE exclou la iniciativa popular de la reforma constitucional."
+      }
+    ]
+  },
+  {
+    "guid": "acc4c03f-4a67-444d-9e42-9825da3ff0c0",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la presentació d'esmenes en la tramitació legislativa al Congrés dels Diputats.",
+    "answerOptions": [
+      {
+        "text": "No es poden plantejar esmenes a la totalitat respecte de proposicions de llei del Congrés dels Diputats que ja han estat preses en consideració per aquesta cambra",
+        "isCorrect": true,
+        "rationale": "Correcte: la presa en consideració pel Ple del Congrés fa innecessari i improcedent el debat de totalitat posterior sobre la mateixa proposició."
+      },
+      {
+        "text": "No es poden plantejar esmenes a la totalitat respecte de proposicions preses en consideració per qualsevol de les cambres",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les proposicions preses en consideració pel Senat sí que poden ser objecte d'esmena a la totalitat al Congrés."
+      },
+      {
+        "text": "Sí es poden plantejar esmenes a la totalitat respecte de proposicions provinents d'iniciativa legislativa popular",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquestes proposicions també passen per la presa en consideració, cosa que exclou l'esmena a la totalitat posterior."
+      },
+      {
+        "text": "Les esmenes a la totalitat són debatudes i votades a la comissió legislativa corresponent",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les esmenes a la totalitat es debaten i voten al Ple, no en comissió."
+      }
+    ]
+  },
+  {
+    "guid": "c56f4c13-beb2-4973-920a-b3c83f4c06aa",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la presentació d'esmenes en la tramitació legislativa al Senat.",
+    "answerOptions": [
+      {
+        "text": "Les esmenes introduïdes pel Senat es voten al Congrés dels Diputats per majoria absoluta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: n'hi ha prou amb la majoria simple (art. 90.2 CE)."
+      },
+      {
+        "text": "Es voten per majoria simple si la llei és ordinària, o per majoria absoluta si la llei és orgànica",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'acceptació o rebuig de les esmenes del Senat es fa sempre per majoria simple; la majoria absoluta de les lleis orgàniques es refereix a la votació final sobre el conjunt del projecte."
+      },
+      {
+        "text": "Les esmenes introduïdes pel Senat es voten al Congrés dels Diputats per majoria simple",
+        "isCorrect": true,
+        "rationale": "Correcte: segons l'art. 90.2 CE, el Congrés es pronuncia sobre les esmenes del Senat acceptant-les o no per majoria simple."
+      },
+      {
+        "text": "Es voten per part de la Comissió Legislativa que va aprovar el projecte o proposició de llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el pronunciament sobre les esmenes del Senat correspon al Ple del Congrés."
+      }
+    ]
+  },
+  {
+    "guid": "18b871ef-20eb-4baf-ae18-7813e061d4fa",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la possibilitat d'interposició de vet per part del Senat en la tramitació legislativa.",
+    "answerOptions": [
+      {
+        "text": "El vet haurà de ser aprovat per majoria simple del Senat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el vet exigeix majoria absoluta del Senat (art. 90.2 CE)."
+      },
+      {
+        "text": "El vet haurà de ser aprovat per majoria absoluta del Senat",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 90.2 CE exigeix que el vet s'aprovi per majoria absoluta del Senat."
+      },
+      {
+        "text": "El vet no es pot interposar contra projectes o proposicions de lleis orgàniques",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no existeix aquesta exclusió; el vet pot interposar-se també en la tramitació de lleis orgàniques."
+      },
+      {
+        "text": "El vet implicarà la devolució del projecte al Congrés, qui podrà aixecar-lo de manera immediata per majoria simple",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'aixecament immediat exigeix majoria absoluta; per majoria simple només pot aixecar-se un cop transcorreguts dos mesos."
+      }
+    ]
+  },
+  {
+    "guid": "0c6a1840-9456-4fa9-a718-d5e407338c87",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quina de les següents lleis no podria ser aprovada en comissió?",
+    "answerOptions": [
+      {
+        "text": "La llei que regulés el dret a sindicació",
+        "isCorrect": true,
+        "rationale": "Correcte: el dret de sindicació (art. 28.1 CE) és matèria de llei orgànica, i l'art. 75.3 CE exclou les lleis orgàniques de la delegació en comissions."
+      },
+      {
+        "text": "La llei que regulés el dret de fundació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el dret de fundació (art. 34 CE) és de la Secció 2a i no exigeix llei orgànica, per la qual cosa sí que podria aprovar-se en comissió."
+      },
+      {
+        "text": "Una llei marc",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les lleis marc són lleis ordinàries i no estan excloses de l'aprovació en comissió per l'art. 75.3 CE."
+      },
+      {
+        "text": "Cap de les anteriors és delegable en favor de les comissions",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta a) és l'única no delegable."
+      }
+    ]
+  },
+  {
+    "guid": "f9cfbeac-1353-4524-9cc1-e071be66edfe",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la delegació de l'aprovació de projectes i proposicions de llei en favor de les comissions.",
+    "answerOptions": [
+      {
+        "text": "Al Senat hi ha una presumpció genèrica de delegació de tots els projectes i proposicions delegables en favor de les comissions",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta presumpció genèrica no existeix; la delegació requereix decisió expressa."
+      },
+      {
+        "text": "El Ple de la cambra podrà recavar en qualsevol moment el debat i votació de qualsevol projecte o proposició de llei que hagi estat objecte de delegació",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 75.2 CE preveu que el Ple pot recavar en qualsevol moment el debat i votació dels textos delegats a les comissions."
+      },
+      {
+        "text": "Al Senat es pot votar en comissió la ratificació o rebuig de les propostes de vet sobre projectes provinents del Congrés",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la votació del vet correspon al Ple del Senat, per majoria absoluta."
+      },
+      {
+        "text": "Al Congrés, l'aixecament del vet del Senat pot ser votat en la mateixa comissió que va aprovar el projecte original",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'aixecament del vet correspon al Ple del Congrés dels Diputats."
+      }
+    ]
+  },
+  {
+    "guid": "fdcb2612-2c13-4000-bad1-fe8a5ba70c24",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la tramitació legislativa per procediment d'urgència.",
+    "answerOptions": [
+      {
+        "text": "La iniciativa correspon al Govern, a 1 Grup Parlamentari o a 1/5 dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: segons el Reglament del Congrés, poden demanar-ho el Govern, dos grups parlamentaris o una cinquena part dels diputats."
+      },
+      {
+        "text": "Implica que els terminis es redueixin a la meitat, tant al Congrés dels Diputats com al Senat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: al Congrés els terminis es redueixen a la meitat, però al Senat el procediment d'urgència comporta un termini propi de 20 dies naturals (art. 90.3 CE)."
+      },
+      {
+        "text": "La Mesa del Congrés dels Diputats, tot i la declaració d'urgència, podrà prorrogar o reduir els terminis afectats",
+        "isCorrect": true,
+        "rationale": "Correcte: el Reglament del Congrés permet a la Mesa prorrogar o reduir els terminis malgrat la declaració d'urgència."
+      },
+      {
+        "text": "Les respostes a) i c) són correctes",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta a) és errònia (calen dos grups parlamentaris, no un)."
+      }
+    ]
+  },
+  {
+    "guid": "9813ad17-0c25-4c55-b4e9-e40ae2455f18",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta respecte la relació entre les lleis ordinàries i les lleis orgàniques.",
+    "answerOptions": [
+      {
+        "text": "La relació és jeràrquica: les lleis orgàniques són jeràrquicament superiors a les ordinàries",
+        "isCorrect": false,
+        "rationale": "Incorrecte: segons la doctrina del TC, ambdues tenen el mateix rang; es distingeixen per la matèria."
+      },
+      {
+        "text": "La relació entre ambdós tipus de normes és competencial",
+        "isCorrect": true,
+        "rationale": "Correcte: la llei orgànica i l'ordinària es relacionen pel principi de competència material (reserva de l'art. 81 CE), no pel de jerarquia."
+      },
+      {
+        "text": "La relació és jeràrquica: les lleis ordinàries són jeràrquicament superiors a les orgàniques",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no hi ha relació de jerarquia entre elles."
+      },
+      {
+        "text": "No existeix cap mena de relació entre ambdós tipus de lleis",
+        "isCorrect": false,
+        "rationale": "Incorrecte: sí que hi ha relació, de caràcter competencial."
+      }
+    ]
+  },
+  {
+    "guid": "419e4e6a-a545-4047-85e9-70826bc61baf",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta quant a l'àmbit material de les lleis.",
+    "answerOptions": [
+      {
+        "text": "La llei pot entrar a regular qualsevol matèria, sempre i quan no hi hagi un reglament previ",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'existència d'un reglament previ no limita la llei; la llei pot derogar-lo."
+      },
+      {
+        "text": "La llei pot regular qualsevol matèria, fins i tot amb reglament previ, sempre que no es tracti d'una matèria amb reserva de reglament",
+        "isCorrect": false,
+        "rationale": "Incorrecte: en l'ordenament espanyol no existeix la reserva de reglament."
+      },
+      {
+        "text": "La llei pot entrar a regular qualsevol matèria",
+        "isCorrect": true,
+        "rationale": "Correcte: la llei té un àmbit material universal; no hi ha matèries vedades a la llei perquè no existeix reserva de reglament a l'ordenament espanyol."
+      },
+      {
+        "text": "Si una matèria té reserva de llei, el reglament no hi podrà tenir res a dir en cap cas",
+        "isCorrect": false,
+        "rationale": "Incorrecte: en les reserves relatives de llei el reglament pot col·laborar en el desenvolupament de la regulació legal."
+      }
+    ]
+  },
+  {
+    "guid": "8ab04aaf-879d-4d06-bb30-cb03b9a24d8d",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta quant al procés d'aprovació de les lleis orgàniques.",
+    "answerOptions": [
+      {
+        "text": "L'aprovació, modificació o derogació de les lleis orgàniques exigirà majoria absoluta del Congrés dels Diputats (que no del Senat) en una votació final sobre el conjunt del projecte",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 81.2 CE exigeix la majoria absoluta del Congrés en una votació final sobre el conjunt del projecte; al Senat no s'exigeix majoria absoluta d'aprovació."
+      },
+      {
+        "text": "Exigirà majoria absoluta del Senat (que no del Congrés) en una votació final sobre el conjunt del projecte",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la majoria absoluta exigida és la del Congrés dels Diputats."
+      },
+      {
+        "text": "Exigirà majoria absoluta del Congrés i del Senat en sengles votacions finals a cada cambra",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la CE només exigeix la majoria absoluta del Congrés."
+      },
+      {
+        "text": "Tota llei aprovada per majoria absoluta al Congrés en votació final sobre el conjunt del projecte és una llei orgànica",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el caràcter orgànic depèn de la matèria (art. 81.1 CE), no només de la majoria assolida."
+      }
+    ]
+  },
+  {
+    "guid": "5e029159-2b0f-41f1-8abd-239b56b4d2cf",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quina de les següents matèries no s'ha de regular per llei orgànica?",
+    "answerOptions": [
+      {
+        "text": "La llei que reguli el dret a contraure matrimoni de l'home i la dona",
+        "isCorrect": true,
+        "rationale": "Correcte: el dret a contraure matrimoni (art. 32 CE) és de la Secció 2a del Capítol II i no està reservat a llei orgànica; l'art. 32.2 CE remet a la llei ordinària."
+      },
+      {
+        "text": "Els Estatuts d'Autonomia",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: els Estatuts d'Autonomia s'aproven per llei orgànica (art. 81.1 CE)."
+      },
+      {
+        "text": "La llei que alteri els límits geogràfics d'una província",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: qualsevol alteració dels límits provincials ha de ser aprovada per llei orgànica (art. 141.1 CE)."
+      },
+      {
+        "text": "Totes les anteriors matèries han de ser regulades per llei orgànica",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el dret a contraure matrimoni no ho requereix."
+      }
+    ]
+  },
+  {
+    "guid": "65040f18-0d50-4960-aba6-ebdbe5176e1c",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a les lleis marc.",
+    "answerOptions": [
+      {
+        "text": "Són lleis ordinàries",
+        "isCorrect": true,
+        "rationale": "Correcte: les lleis marc de l'art. 150.1 CE són lleis ordinàries, aprovades pel procediment legislatiu comú."
+      },
+      {
+        "text": "Serveixen per a transferir o delegar en les CCAA facultats de titularitat estatal susceptibles de transferència o delegació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta és la funció de les lleis orgàniques de transferència o delegació de l'art. 150.2 CE."
+      },
+      {
+        "text": "No formen part del bloc de constitucionalitat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les lleis marc, en delimitar competències, s'integren en el bloc de constitucionalitat."
+      },
+      {
+        "text": "Es troben regulades a l'Art. 150.2 CE",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les lleis marc es regulen a l'art. 150.1 CE."
+      }
+    ]
+  },
+  {
+    "guid": "91151bd2-fdaa-4f12-a9ed-9d57edd52493",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a les lleis orgàniques de transferència o delegació.",
+    "answerOptions": [
+      {
+        "text": "Es troben regulades a l'Art. 150.1 CE",
+        "isCorrect": false,
+        "rationale": "Incorrecte: es regulen a l'art. 150.2 CE; el 150.1 regula les lleis marc."
+      },
+      {
+        "text": "Són lleis ordinàries",
+        "isCorrect": false,
+        "rationale": "Incorrecte: com el seu nom indica, són lleis orgàniques."
+      },
+      {
+        "text": "Serveixen per a que l'Estat pugui transferir o delegar en les CCAA facultats corresponents a matèria de titularitat estatal que per la seva pròpia naturalesa siguin susceptibles de transferència o delegació",
+        "isCorrect": true,
+        "rationale": "Correcte: és la definició de l'art. 150.2 CE."
+      },
+      {
+        "text": "Requereixen de l'apreciació prèvia d'un interès general a protegir per majoria absoluta de cadascuna de les cambres",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquest requisit és propi de les lleis d'harmonització (art. 150.3 CE)."
+      }
+    ]
+  },
+  {
+    "guid": "401cbe81-0303-4840-b724-eed290d80a93",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a les lleis d'harmonització.",
+    "answerOptions": [
+      {
+        "text": "Requereixen de l'apreciació prèvia d'un interès general a protegir, per majoria absoluta de cadascuna de les cambres",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 150.3 CE exigeix que la necessitat d'harmonitzar sigui apreciada per majoria absoluta de cada cambra."
+      },
+      {
+        "text": "Són lleis orgàniques",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les lleis d'harmonització són lleis ordinàries (amb el requisit previ de la majoria absoluta d'apreciació)."
+      },
+      {
+        "text": "Es troben regulades a l'Art. 150.2 CE",
+        "isCorrect": false,
+        "rationale": "Incorrecte: es regulen a l'art. 150.3 CE."
+      },
+      {
+        "text": "Serveixen per atribuir a les CCAA la facultat de dictar normes legislatives dins del marc d'una llei estatal",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta és la funció de les lleis marc (art. 150.1 CE); les d'harmonització estableixen principis per harmonitzar disposicions normatives de les CCAA."
+      }
+    ]
+  },
+  {
+    "guid": "81169c64-f871-4659-8356-839da4d99225",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a les lleis de bases.",
+    "answerOptions": [
+      {
+        "text": "Serveixen per atribuir a les CCAA la facultat de dictar normes legislatives dins del marc dels principis, bases i directrius fixats per una llei estatal",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta és la definició de les lleis marc de l'art. 150.1 CE."
+      },
+      {
+        "text": "Són les lleis que empra l'Estat per a legislar allò que és bàsic respecte d'una matèria de l'art. 149.1 CE",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta descripció correspon a la legislació bàsica estatal, no a les lleis de bases dels arts. 82-83 CE."
+      },
+      {
+        "text": "Constitueixen una tècnica de delegació legislativa en favor del Govern",
+        "isCorrect": true,
+        "rationale": "Correcte: la llei de bases és la modalitat de delegació legislativa per a la formació de textos articulats (art. 82.2 CE), que el Govern desenvolupa mitjançant Decret Legislatiu."
+      },
+      {
+        "text": "Són lleis orgàniques",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les lleis de bases són lleis ordinàries; és més, les matèries de llei orgànica no poden ser objecte de delegació legislativa."
+      }
+    ]
+  },
+  {
+    "guid": "7f874ef0-dd5e-431c-b090-3850e58763b6",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Què no pot fer una llei de bases?",
+    "answerOptions": [
+      {
+        "text": "Autoritzar la modificació de la pròpia llei de bases",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta única: és una de les dues prohibicions, però no l'única."
+      },
+      {
+        "text": "Facultar per dictar normes amb caràcter retroactiu",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta única: és una de les dues prohibicions, però no l'única."
+      },
+      {
+        "text": "Les respostes a) i b) són correctes",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 83 CE prohibeix que les lleis de bases autoritzin la modificació de la pròpia llei de bases i que facultin per dictar normes amb caràcter retroactiu."
+      },
+      {
+        "text": "Cap de les respostes anteriors és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: ambdues prohibicions estan expressament previstes a l'art. 83 CE."
+      }
+    ]
+  },
+  {
+    "guid": "8b5d791a-be7f-4838-adf3-08b41719b9c9",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació incorrecta en relació a les lleis de les Comunitats Autònomes.",
+    "answerOptions": [
+      {
+        "text": "Tenen un rang jeràrquic similar a les lleis de l'Estat",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): tenen rang de llei, igual que les estatals."
+      },
+      {
+        "text": "Són aprovades per les Assemblees Legislatives Autonòmiques",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): la potestat legislativa autonòmica correspon a les seves Assemblees."
+      },
+      {
+        "text": "Limiten el seu àmbit a les competències i territori de la Comunitat Autònoma",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): operen dins l'àmbit competencial i territorial propi."
+      },
+      {
+        "text": "Les Comunitats Autònomes poden aprovar lleis orgàniques sobre matèries de la seva competència exclusiva",
+        "isCorrect": true,
+        "rationale": "Correcte com a resposta (afirmació incorrecta): la categoria de llei orgànica és exclusiva de les Corts Generals; les CCAA no poden dictar lleis orgàniques."
+      }
+    ]
+  },
+  {
+    "guid": "037db320-ba9d-41a8-892f-83b21000abbc",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a les Lleis de Pressupostos Generals de l'Estat.",
+    "answerOptions": [
+      {
+        "text": "El règim de proposicions i esmenes funciona com a la resta de projectes i proposicions de llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte: tota proposició o esmena que suposi augment de crèdits o disminució d'ingressos requereix la conformitat del Govern (art. 134.6 CE)."
+      },
+      {
+        "text": "La iniciativa d'aquesta llei es reserva en exclusiva al Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'elaboració dels Pressupostos correspon en exclusiva al Govern (art. 134.1 CE)."
+      },
+      {
+        "text": "Pot ser aprovada en comissió legislativa",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 75.3 CE exclou expressament els Pressupostos Generals de l'Estat de la delegació en comissions."
+      },
+      {
+        "text": "La tramitació del projecte de llei de pressupostos té preferència respecte la resta de treballs de les cambres",
+        "isCorrect": true,
+        "rationale": "Correcte: els reglaments parlamentaris atorguen preferència a la tramitació del projecte de Pressupostos."
+      }
+    ]
+  },
+  {
+    "guid": "3c71d0ff-72e1-4e62-b1b0-f1ad3617b982",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació als Estatuts d'Autonomia.",
+    "answerOptions": [
+      {
+        "text": "La seva modificació es produeix únicament a l'Assemblea Legislativa de la Comunitat Autònoma",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la reforma dels Estatuts requereix, en tot cas, l'aprovació de les Corts Generals mitjançant llei orgànica (art. 147.3 CE)."
+      },
+      {
+        "text": "Són lleis orgàniques",
+        "isCorrect": true,
+        "rationale": "Correcte: els Estatuts d'Autonomia s'aproven mitjançant llei orgànica (art. 81.1 CE)."
+      },
+      {
+        "text": "No formen part del bloc de constitucionalitat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els Estatuts són la peça central del bloc de constitucionalitat com a paràmetre de validesa competencial."
+      },
+      {
+        "text": "Cap de les anteriors respostes és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "ec583a64-cca3-4d2b-aeee-11674016a1f6",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quines són les normes amb força de llei que pot dictar el Govern?",
+    "answerOptions": [
+      {
+        "text": "Reials Decrets",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Reial Decret, com a tal, és una norma reglamentària sense força de llei."
+      },
+      {
+        "text": "Reials Lleis-Decretades",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta categoria normativa no existeix."
+      },
+      {
+        "text": "Reials Decrets Legislatius",
+        "isCorrect": true,
+        "rationale": "Correcte: els Reials Decrets Legislatius (i també els Reials Decrets-Llei) són les normes del Govern amb força de llei (arts. 82 i 86 CE)."
+      },
+      {
+        "text": "El Govern no pot dictar normes amb força de llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la CE habilita el Govern a dictar Decrets Legislatius i Decrets-Llei, ambdós amb força de llei."
+      }
+    ]
+  },
+  {
+    "guid": "bb1a89c9-699d-49fb-89ef-09b61ef12d9f",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quina de les següents matèries sí podria ser regulada per un Reial Decret-Llei?",
+    "answerOptions": [
+      {
+        "text": "La regulació del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Decret-Llei no pot afectar l'ordenament de les institucions bàsiques de l'Estat (art. 86.1 CE), entre les quals hi ha el Govern."
+      },
+      {
+        "text": "El règim estatutari dels funcionaris",
+        "isCorrect": true,
+        "rationale": "Correcte: el règim estatutari dels funcionaris (art. 103.3 CE) no figura entre les matèries excloses de l'art. 86.1 CE, per la qual cosa pot ser objecte de Decret-Llei si concorre l'extraordinària i urgent necessitat."
+      },
+      {
+        "text": "L'exercici del dret a la negociació col·lectiva",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Decret-Llei no pot afectar els drets, deures i llibertats del Títol I CE, com el de l'art. 37 CE."
+      },
+      {
+        "text": "L'exercici del dret de petició",
+        "isCorrect": false,
+        "rationale": "Incorrecte: és un dret fonamental del Títol I (art. 29 CE) i, per tant, matèria vedada al Decret-Llei."
+      }
+    ]
+  },
+  {
+    "guid": "9b7b6f3b-9c6d-4062-94a1-7e4967587c4a",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació amb els Reials Decrets-Llei.",
+    "answerOptions": [
+      {
+        "text": "Un cop convalidats, es converteixen en lleis",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la convalidació no transforma el Decret-Llei en llei; conserva la seva naturalesa (només esdevé llei si es tramita com a projecte de llei pel procediment d'urgència)."
+      },
+      {
+        "text": "Han de ser convalidats per les Corts Generals; en cas contrari perden la vigència",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la convalidació correspon exclusivament al Congrés dels Diputats, no a les Corts Generals (art. 86.2 CE)."
+      },
+      {
+        "text": "El termini per a la convalidació és de 30 dies",
+        "isCorrect": true,
+        "rationale": "Correcte: el Congrés ha de pronunciar-se sobre la convalidació o derogació dins dels 30 dies següents a la promulgació (art. 86.2 CE)."
+      },
+      {
+        "text": "La seva eficàcia queda condicionada a la convalidació: només esdevenen eficaços des del moment de la convalidació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Decret-Llei entra en vigor i és eficaç de manera immediata (disposició legislativa provisional); la no convalidació el deroga."
+      }
+    ]
+  },
+  {
+    "guid": "3bd7ca5d-899a-4814-9a61-0aa2afb8d9d1",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quina de les següents matèries no pot ser regulada per Decret Legislatiu?",
+    "answerOptions": [
+      {
+        "text": "La regulació del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: la Llei del Govern és una llei ordinària i, per tant, la matèria és susceptible de delegació legislativa."
+      },
+      {
+        "text": "La regulació del règim estatutari dels funcionaris",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: és matèria de llei ordinària (art. 103.3 CE) i pot ser objecte de delegació."
+      },
+      {
+        "text": "La regulació de l'exercici del dret a la negociació col·lectiva",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: l'art. 37 CE no exigeix llei orgànica, de manera que admet la delegació legislativa."
+      },
+      {
+        "text": "La regulació de la figura del Defensor del Poble",
+        "isCorrect": true,
+        "rationale": "Correcte: el Defensor del Poble és matèria reservada a llei orgànica (art. 54 CE), i l'art. 82.1 CE exclou de la delegació legislativa les matèries pròpies de llei orgànica."
+      }
+    ]
+  },
+  {
+    "guid": "d95753d1-25bd-442a-8768-27493ba80310",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació incorrecta quant a les lleis de delegació que habiliten el Govern a fer un Decret Legislatiu.",
+    "answerOptions": [
+      {
+        "text": "La llei de delegació ha de referir-se a una matèria concreta i determinada; no pot ser una delegació genèrica",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): l'art. 82.3 CE exigeix que la delegació sigui expressa i per a matèria concreta."
+      },
+      {
+        "text": "La llei de delegació pot incloure un termini màxim dins del qual el Govern estarà obligat a redactar el Decret Legislatiu",
+        "isCorrect": true,
+        "rationale": "Correcte com a resposta (afirmació incorrecta): la fixació de termini no és potestativa sinó obligatòria; l'art. 82.3 CE exigeix que la delegació s'atorgui amb fixació de termini per al seu exercici."
+      },
+      {
+        "text": "No es permet que el Govern subdelegui",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): l'art. 82.3 CE prohibeix la subdelegació a autoritats diferents del mateix Govern."
+      },
+      {
+        "text": "La llei de delegació és una llei ordinària",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): tant la llei de bases com la llei ordinària de refosa són lleis ordinàries."
+      }
+    ]
+  },
+  {
+    "guid": "beefdb57-9f99-4637-a556-053be4311cc3",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació incorrecta en relació amb els reglaments administratius.",
+    "answerOptions": [
+      {
+        "text": "Són revisables per la pròpia Administració per via de recurs administratiu directe",
+        "isCorrect": true,
+        "rationale": "Correcte com a resposta (afirmació incorrecta): contra les disposicions administratives de caràcter general no es pot interposar recurs en via administrativa (art. 112.3 Llei 39/2015)."
+      },
+      {
+        "text": "Tenen rang jeràrquic inferior a la llei",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): el reglament està subordinat a la llei pel principi de jerarquia normativa."
+      },
+      {
+        "text": "Vinculen l'actuació de la pròpia administració",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): l'Administració queda vinculada pels seus propis reglaments (inderogabilitat singular)."
+      },
+      {
+        "text": "Són una font de dret administratiu",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): el reglament és la font característica del dret administratiu."
+      }
+    ]
+  },
+  {
+    "guid": "d66bbd01-8d99-482d-9b67-c8ca8cd0388c",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Quin dels següents no és un límit a l'exercici de la potestat reglamentària?",
+    "answerOptions": [
+      {
+        "text": "Les reserves absolutes de llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que són un límit material a la potestat reglamentària."
+      },
+      {
+        "text": "La possibilitat d'interposició d'un recurs administratiu directe",
+        "isCorrect": true,
+        "rationale": "Correcte: no és un límit, entre altres coses perquè contra els reglaments no cap recurs administratiu directe (art. 112.3 Llei 39/2015)."
+      },
+      {
+        "text": "La jerarquia normativa",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un límit; el reglament no pot contradir normes de rang superior."
+      },
+      {
+        "text": "El procediment d'aprovació dels reglaments",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un límit formal; la seva omissió determina la nul·litat del reglament."
+      }
+    ]
+  },
+  {
+    "guid": "0a2adc02-36f5-43e1-a5b9-9bc3fc00d61c",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació al control dels reglaments en via administrativa.",
+    "answerOptions": [
+      {
+        "text": "S'admet la possibilitat d'interposició de recurs directe",
+        "isCorrect": false,
+        "rationale": "Incorrecte: contra les disposicions de caràcter general no cap recurs en via administrativa (art. 112.3 Llei 39/2015)."
+      },
+      {
+        "text": "S'admet la possibilitat d'instar l'Administració a la revisió d'ofici per a declaració de nul·litat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la revisió d'ofici de disposicions generals (art. 106.2 Llei 39/2015) s'inicia per la pròpia Administració; els particulars no disposen d'acció de nul·litat contra reglaments."
+      },
+      {
+        "text": "S'admet la possibilitat d'interposició de recurs administratiu indirecte",
+        "isCorrect": true,
+        "rationale": "Correcte: els recursos contra actes administratius poden fonamentar-se en la il·legalitat del reglament que apliquen (impugnació indirecta, art. 112.3 in fine Llei 39/2015)."
+      },
+      {
+        "text": "S'admeten totes les possibilitats esmentades anteriorment",
+        "isCorrect": false,
+        "rationale": "Incorrecte: només s'admet la via indirecta."
+      }
+    ]
+  },
+  {
+    "guid": "15956a34-b99f-445a-bbec-6a9f69ddc2b1",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a l'aplicació dels reglaments il·legals per part dels jutges.",
+    "answerOptions": [
+      {
+        "text": "Els Jutges i Tribunals no aplicaran els reglaments contraris a la llei",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 6 LOPJ ordena als Jutges i Tribunals no aplicar els reglaments contraris a la Constitució, a la llei o al principi de jerarquia normativa."
+      },
+      {
+        "text": "Quan hagin d'aplicar un reglament que creguin contrari a la llei, paralitzaran el procés i elevaran un recurs contenciós-administratiu",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no han de paralitzar el procés; simplement inapliquen el reglament il·legal (a diferència de la qüestió d'inconstitucionalitat de les lleis)."
+      },
+      {
+        "text": "Estan sotmesos a l'aplicació de tots els reglaments pel principi de legalitat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el sotmetiment a la llei implica precisament el deure d'inaplicar els reglaments il·legals."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta a) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "ac617f9f-6cb5-4b33-9d6f-9f01155b0334",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació als recursos contenciosos-administratius directes contra els reglaments.",
+    "answerOptions": [
+      {
+        "text": "Si el recurs es basa en una causa de nul·litat, no hi ha termini per a la seva interposició",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el recurs directe està subjecte al termini general de 2 mesos des de la publicació, encara que el vici sigui de nul·litat."
+      },
+      {
+        "text": "El termini d'interposició és de 6 mesos des de la data de publicació del reglament",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el termini és de 2 mesos (art. 46.1 LJCA), no de 6."
+      },
+      {
+        "text": "Requereix la interposició prèvia d'un recurs administratiu per esgotar la via administrativa",
+        "isCorrect": false,
+        "rationale": "Incorrecte: contra els reglaments no cap recurs administratiu; el recurs contenciós directe s'interposa sense via administrativa prèvia."
+      },
+      {
+        "text": "Cap de les respostes és correcta",
+        "isCorrect": true,
+        "rationale": "Correcte: cap afirmació és certa; el recurs directe s'interposa en el termini de 2 mesos des de la publicació i sense necessitat de recurs administratiu previ."
+      }
+    ]
+  },
+  {
+    "guid": "31d657b9-5644-4846-a968-0275a5bcd378",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació als efectes de les sentències dels recursos contenciosos-administratius contra reglaments.",
+    "answerOptions": [
+      {
+        "text": "Tenen abast erga omnes",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta única: és certa, però també ho és la b)."
+      },
+      {
+        "text": "Tenen efectes retroactius en matèria sancionadora quan suposi l'exclusió o reducció de sancions encara no executades completament",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta única: és certa, però també ho és la a)."
+      },
+      {
+        "text": "Les respostes a) i b) són correctes",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 72.2 LJCA atorga efectes erga omnes a l'anul·lació de disposicions generals, i l'art. 73 LJCA preveu l'excepció retroactiva en matèria sancionadora favorable quan la sanció no s'hagi executat completament."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: ambdues afirmacions són correctes."
+      }
+    ]
+  },
+  {
+    "guid": "832d017d-e1e3-4bd0-9645-6c193d3fb878",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació al recurs contenciós-administratiu indirecte contra un reglament.",
+    "answerOptions": [
+      {
+        "text": "S'interposen contra actes d'aplicació de reglaments presumptament nuls",
+        "isCorrect": true,
+        "rationale": "Correcte: el recurs indirecte impugna l'acte administratiu fonamentant-se en la il·legalitat del reglament que aquest aplica (art. 26 LJCA)."
+      },
+      {
+        "text": "Com que es basen en un vici de nul·litat, no hi ha termini d'interposició",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el recurs es dirigeix contra l'acte d'aplicació i està subjecte als terminis ordinaris d'impugnació de l'acte."
+      },
+      {
+        "text": "L'efecte de la sentència serà inter partes en tot cas",
+        "isCorrect": false,
+        "rationale": "Incorrecte: si el mateix òrgan és competent per conèixer del recurs directe, anul·larà també el reglament amb efectes generals; en altre cas, es planteja la qüestió d'il·legalitat."
+      },
+      {
+        "text": "Les respostes a) i c) són correctes",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la c) és errònia."
+      }
+    ]
+  },
+  {
+    "guid": "1551ee3a-3cd4-4615-9a45-7cf9bf0f9a1a",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la qüestió d'il·legalitat.",
+    "answerOptions": [
+      {
+        "text": "És la qüestió que s'eleva per la paralització d'un procés judicial quan el jutge considera que el reglament a aplicar pot ser nul de ple dret",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no comporta la paralització de cap procés; el jutge resol el recurs indirecte i, després, planteja la qüestió."
+      },
+      {
+        "text": "Es realitza, si s'escau, un cop s'ha estimat un recurs contenciós-administratiu indirecte",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 27.1 LJCA preveu que, dictada sentència estimatòria d'un recurs indirecte, el jutge o tribunal plantejarà la qüestió d'il·legalitat davant el competent per conèixer del recurs directe."
+      },
+      {
+        "text": "La sentència que resolgui aquesta qüestió tindrà efectes inter partes",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la sentència que resol la qüestió d'il·legalitat i anul·la el reglament té efectes erga omnes."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "682c17a5-dcbe-4cf3-adff-5850919f6c6d",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació incorrecta en relació al control dels reglaments per part del TC.",
+    "answerOptions": [
+      {
+        "text": "El Govern podrà impugnar els reglaments de les Comunitats Autònomes per via de l'art. 161.2 CE",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): l'art. 161.2 CE permet al Govern impugnar les disposicions i resolucions de les CCAA."
+      },
+      {
+        "text": "La impugnació per l'art. 161.2 CE tindrà efectes suspensius; suspensió que el TC haurà de ratificar o aixecar en el termini de 5 mesos",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): la impugnació produeix la suspensió automàtica, que el TC ha de ratificar o aixecar en un termini no superior a 5 mesos."
+      },
+      {
+        "text": "Les sentències del TC que declarin la nul·litat d'un reglament tindran efectes erga omnes",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (no és la resposta): les sentències del TC tenen plens efectes davant de tothom (art. 164 CE)."
+      },
+      {
+        "text": "Davant un reglament que vulneri un dret fonamental, els ciutadans podran interposar recurs d'empara directament (sense cap requisit previ) davant del TC",
+        "isCorrect": true,
+        "rationale": "Correcte com a resposta (afirmació incorrecta): el recurs d'empara exigeix haver esgotat prèviament la via judicial procedent; no cap l'accés directe al TC contra reglaments."
+      }
+    ]
+  },
+  {
+    "guid": "91a0957f-5f98-4fb6-8208-ea94b0687bdd",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació al procés d'aprovació dels reglaments estatals.",
+    "answerOptions": [
+      {
+        "text": "El dictamen del Consell d'Estat és sempre preceptiu",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el dictamen del Consell d'Estat només és preceptiu en els casos legalment previstos (singularment, reglaments executius), no sempre."
+      },
+      {
+        "text": "El tràmit d'audiència serà omissible quan raons greus d'interès públic ho exigeixin",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 26.6 LG permet prescindir dels tràmits d'audiència i informació pública quan concorrin raons greus d'interès públic que ho exigeixin."
+      },
+      {
+        "text": "La Llei del Govern estableix que, com a norma general, sí hi haurà període d'informació pública",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la informació pública es preveu 'quan la naturalesa de la disposició ho aconselli', no com a regla general."
+      },
+      {
+        "text": "En cap cas es veuen afectats pel termini de vacatio legis de l'art. 2.1 CC",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la vacatio legis de 20 dies s'aplica supletòriament també als reglaments, com a normes jurídiques que són."
+      }
+    ]
+  },
+  {
+    "guid": "9e32c59d-12bf-4304-b02f-860b6b260fab",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació al procés d'aprovació dels reglaments locals.",
+    "answerOptions": [
+      {
+        "text": "La fase d'informació pública serà d'un mínim de 15 dies",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el mínim legal és de 30 dies (art. 49 LBRL)."
+      },
+      {
+        "text": "La fase d'informació pública serà d'un mínim de 30 dies",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 49 LBRL exigeix informació pública i audiència als interessats pel termini mínim de 30 dies per a la presentació de reclamacions i suggeriments."
+      },
+      {
+        "text": "La fase d'informació pública serà d'un mínim d'1 mes",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la LBRL fixa el termini en 30 dies, no en un mes."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "92c96ca8-2881-4b29-bc82-197a1d238de0",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació amb la jerarquia dels reglaments.",
+    "answerOptions": [
+      {
+        "text": "A nivell intern no hi ha jerarquia entre els reglaments; la jerarquia només opera respecte de les lleis",
+        "isCorrect": false,
+        "rationale": "Incorrecte: sí que existeix jerarquia interna entre els reglaments segons l'òrgan que els dicta (art. 24.2 LG)."
+      },
+      {
+        "text": "Les disposicions aprovades per RD del Consell de Ministres són jeràrquicament superiors a les aprovades per ordre ministerial",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 24.2 LG estableix que els reglaments s'ordenen segons la jerarquia de l'òrgan que els dicta: primer els Reials Decrets, després les Ordres Ministerials."
+      },
+      {
+        "text": "Les disposicions aprovades per RD del Consell de Ministres són jeràrquicament similars a les aprovades per ordre ministerial",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Reial Decret té rang superior a l'Ordre Ministerial."
+      },
+      {
+        "text": "Les ordres ministerials són superiors als RD del Consell de Ministres si el ministre és el de la Presidència",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no existeix cap excepció d'aquest tipus; l'Ordre Ministerial sempre és inferior al Reial Decret."
+      }
+    ]
+  },
+  {
+    "guid": "4ca4a682-7be5-4516-8b1a-969585a3feb6",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació al principi d'inderogabilitat singular dels reglaments.",
+    "answerOptions": [
+      {
+        "text": "Les resolucions administratives de caràcter particular no podran vulnerar allò establert a una disposició de caràcter general, ni tan sols quan procedeixin d'un òrgan d'igual o superior jerarquia que el que va dictar la disposició general",
+        "isCorrect": true,
+        "rationale": "Correcte: és la formulació del principi d'inderogabilitat singular dels reglaments de l'art. 37.1 Llei 39/2015."
+      },
+      {
+        "text": "No podran vulnerar-la excepte quan procedeixin d'un òrgan de superior jerarquia",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la prohibició opera fins i tot per als òrgans de superior jerarquia; no hi ha excepció."
+      },
+      {
+        "text": "Les resolucions particulars no estan vinculades pels reglaments, perquè el principi de legalitat només implica submissió a la llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'Administració està plenament sotmesa als seus propis reglaments mentre estiguin vigents."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta a) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "71c282e4-2eb1-4ce7-8ab4-e9741f0a86d2",
+    "subjectId": "T05",
+    "difficulty": 1,
+    "origin": "test-xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la reserva de llei.",
+    "answerOptions": [
+      {
+        "text": "Davant qualsevol tipus de reserva de llei, el reglament no hi pot entrar a regular absolutament res",
+        "isCorrect": false,
+        "rationale": "Incorrecte: en les reserves relatives el reglament pot col·laborar en el desenvolupament, dins del marc fixat per la llei."
+      },
+      {
+        "text": "En cas de reserva de reglament sobre una matèria, la llei no hi podrà entrar a regular-la",
+        "isCorrect": false,
+        "rationale": "Incorrecte: en l'ordenament espanyol no existeix la reserva de reglament; la llei pot regular qualsevol matèria."
+      },
+      {
+        "text": "La possible participació del reglament en la regulació d'una matèria amb reserva de llei dependrà de si la reserva és absoluta o relativa",
+        "isCorrect": true,
+        "rationale": "Correcte: en les reserves absolutes la regulació ha de fer-se íntegrament per llei; en les relatives, el reglament pot completar-la com a col·laborador subordinat de la llei."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta c) és correcta."
+      }
+    ]
+  }
+]

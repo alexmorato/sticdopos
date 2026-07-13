@@ -1,0 +1,1502 @@
+[
+  {
+    "guid": "bda32025-8336-4534-a8ad-66199cb76f56",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quin Títol de la Constitució Espanyola regula el Govern i l'Administració?",
+    "answerOptions": [
+      {
+        "text": "El Títol III",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Títol III regula les Corts Generals."
+      },
+      {
+        "text": "El Títol IV",
+        "isCorrect": true,
+        "rationale": "Correcte: el Títol IV CE (arts. 97 a 107) regula el Govern i l'Administració."
+      },
+      {
+        "text": "El Títol V",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Títol V regula les relacions entre el Govern i les Corts Generals."
+      },
+      {
+        "text": "El Títol VI",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Títol VI regula el Poder Judicial."
+      }
+    ]
+  },
+  {
+    "guid": "c9c2228a-340c-4b6d-96ee-73fa2f0e194e",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quina de les següents és la llei que regula la institució del Govern?",
+    "answerOptions": [
+      {
+        "text": "La Llei 50/1997, de 27 de novembre, del Govern",
+        "isCorrect": true,
+        "rationale": "Correcte: la institució del Govern es regula per la Llei ordinària 50/1997, de 27 de novembre, del Govern."
+      },
+      {
+        "text": "La Llei orgànica 50/1997, de 27 de novembre, del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no és una llei orgànica, sinó una llei ordinària."
+      },
+      {
+        "text": "La Llei 50/1997, de 27 de novembre, del Govern i l'Administració",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la denominació oficial és 'del Govern', no 'del Govern i l'Administració'."
+      },
+      {
+        "text": "La Llei orgànica 50/1997, de 27 de novembre, del Govern i l'Administració",
+        "isCorrect": false,
+        "rationale": "Incorrecte: ni és llei orgànica ni la denominació és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "2c12a1d4-110c-4512-9bde-b338e347977d",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Segons estableix l'Art. 1.2 LG, quins membres formen part del Govern?",
+    "answerOptions": [
+      {
+        "text": "El President, el Vicepresident o Vicepresidents, si s'escau, els Ministres i la resta de membres que estableixi la llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 1.2 LG no conté cap clàusula oberta a 'la resta de membres que estableixi la llei'."
+      },
+      {
+        "text": "El President, el Vicepresident o Vicepresidents, si s'escau, els Ministres i el Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Consell de Ministres és un òrgan col·legiat del Govern, no un membre del Govern."
+      },
+      {
+        "text": "El President, el Vicepresident o Vicepresidents, si s'escau, els Ministres i els Secretaris d'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els Secretaris d'Estat no formen part del Govern; són òrgans de col·laboració i suport."
+      },
+      {
+        "text": "El President, el Vicepresident o Vicepresidents, si s'escau, i els Ministres",
+        "isCorrect": true,
+        "rationale": "Correcte: segons l'art. 1.2 LG, el Govern es compon del President, del Vicepresident o Vicepresidents, si s'escau, i dels Ministres."
+      }
+    ]
+  },
+  {
+    "guid": "a4374c17-4fc3-4284-8012-350c80105031",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quin d'aquests no és un requisit per a poder ser membre del Govern?",
+    "answerOptions": [
+      {
+        "text": "Ser major d'edat",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un requisit exigit per l'art. 11 LG."
+      },
+      {
+        "text": "Ser espanyol de naixement",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 11 LG només exigeix ser espanyol, no ser-ho de naixement."
+      },
+      {
+        "text": "Gaudir dels drets de sufragi actiu i passiu",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un requisit exigit per l'art. 11 LG."
+      },
+      {
+        "text": "No estar inhabilitat per a feina o càrrec públic per sentència ferma",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un requisit exigit per l'art. 11 LG."
+      }
+    ]
+  },
+  {
+    "guid": "7bd574ec-56cf-4c35-921c-6cc589069cc9",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a l'exigència de responsabilitat als membres del Govern.",
+    "answerOptions": [
+      {
+        "text": "La responsabilitat penal per qualsevol fet delictiu serà enjudiciada pel Tribunal Suprem, previ plantejament per iniciativa de ¼ dels membres del Congrés dels Diputats i amb l'aprovació per majoria absoluta d'aquesta cambra",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta iniciativa qualificada només s'exigeix per acusacions de traïció o delictes contra la seguretat de l'Estat en l'exercici del càrrec (art. 102.2 CE), no per qualsevol delicte."
+      },
+      {
+        "text": "La responsabilitat civil o patrimonial serà enjudiciada pel Tribunal Suprem",
+        "isCorrect": true,
+        "rationale": "Correcte: els membres del Govern estan aforats davant el Tribunal Suprem també en matèria de responsabilitat civil."
+      },
+      {
+        "text": "Les respostes a) i b) són correctes",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta a) és errònia."
+      },
+      {
+        "text": "Cap de les respostes anteriors és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "46f71c86-d0b9-49ff-bd1d-a95919199a44",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Segons l'Art. 97 CE, quina d'aquestes no és una funció del Govern?",
+    "answerOptions": [
+      {
+        "text": "L'exercici de la funció executiva i la potestat legislativa",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 97 CE atribueix al Govern la funció executiva i la potestat reglamentària, no la legislativa, que correspon a les Corts Generals."
+      },
+      {
+        "text": "La direcció de la política exterior",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és una funció del Govern segons l'art. 97 CE."
+      },
+      {
+        "text": "La direcció de l'Administració militar",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és una funció del Govern segons l'art. 97 CE."
+      },
+      {
+        "text": "La direcció de la defensa de l'Estat (ja que l'Art. 62.h CE estableix que correspon al Rei el comandament suprem de les Forces Armades)",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: la direcció de la defensa de l'Estat sí que correspon al Govern (art. 97 CE); el comandament suprem del Rei és simbòlic."
+      }
+    ]
+  },
+  {
+    "guid": "5d39f931-4a14-4fa6-9d48-a1ce9667a4f9",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quin dels següents no és un límit a la potestat reglamentària del Govern?",
+    "answerOptions": [
+      {
+        "text": "La tipificació de delictes",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un límit, ja que és matèria reservada a la llei (principi de legalitat penal)."
+      },
+      {
+        "text": "L'establiment de sancions",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un límit, per reserva de llei en matèria sancionadora."
+      },
+      {
+        "text": "L'establiment de prestacions patrimonials de caràcter públic",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un límit, per reserva de llei (art. 31.3 CE)."
+      },
+      {
+        "text": "La funció de desenvolupament d'una llei",
+        "isCorrect": true,
+        "rationale": "Correcte: desenvolupar una llei no és un límit sinó precisament la funció pròpia del reglament executiu."
+      }
+    ]
+  },
+  {
+    "guid": "ae74fa80-6e1a-423f-b311-345dc0184890",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a l'ordre jeràrquic dels reglaments emanats del Govern.",
+    "answerOptions": [
+      {
+        "text": "Les disposicions aprovades per Ordre Ministerial són de rang jeràrquic superior a les aprovades per Reial Decret del Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "Incorrecte: és a la inversa, el Reial Decret té rang superior a l'Ordre Ministerial."
+      },
+      {
+        "text": "Les disposicions aprovades per Reial Decret del President del Govern són de rang jeràrquic inferior a les aprovades per Ordre Ministerial",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Reial Decret del President té rang superior a l'Ordre Ministerial."
+      },
+      {
+        "text": "Les disposicions aprovades per Reial Decret del Consell de Ministres tenen el mateix rang jeràrquic que les aprovades per Ordre Ministerial",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Reial Decret té rang superior a l'Ordre Ministerial (art. 24.2 LG)."
+      },
+      {
+        "text": "Cap de les respostes anteriors és correcta",
+        "isCorrect": true,
+        "rationale": "Correcte: cap afirmació respecta l'ordre jeràrquic de l'art. 24.2 LG, segons el qual els Reials Decrets (del President o del Consell de Ministres) tenen rang superior a les Ordres Ministerials."
+      }
+    ]
+  },
+  {
+    "guid": "69b75d92-1bbe-4716-b3be-000426048a54",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Segons l'Art. 37 de la llei 39/2015, d'1 d'octubre, de Procediment Administratiu Comú de les Administracions Públiques (assenyali l'afirmació correcta):",
+    "answerOptions": [
+      {
+        "text": "Les resolucions administratives de caràcter particular no podran vulnerar allò establert en una disposició de caràcter general, fins i tot en el cas que la resolució procedeixi d'un òrgan d'igual o superior jerarquia que aquell que va dictar la disposició general. La vulneració d'aquest principi és causa de nul·litat de ple dret",
+        "isCorrect": true,
+        "rationale": "Correcte: és el principi d'inderogabilitat singular dels reglaments (art. 37 Llei 39/2015), i la seva vulneració comporta nul·litat de ple dret (art. 47.2)."
+      },
+      {
+        "text": "Les resolucions no podran vulnerar una disposició general excepte si la resolució procedeix d'un òrgan d'igual o superior jerarquia; la vulneració és causa de nul·litat de ple dret",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no hi ha cap excepció per jerarquia; la prohibició opera fins i tot per a òrgans d'igual o superior jerarquia."
+      },
+      {
+        "text": "Les resolucions no podran vulnerar una disposició general fins i tot si procedeixen d'un òrgan d'igual o superior jerarquia; la vulneració és causa d'anul·labilitat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la conseqüència és la nul·litat de ple dret, no la mera anul·labilitat."
+      },
+      {
+        "text": "Les resolucions no podran vulnerar una disposició general excepte si procedeixen d'un òrgan d'igual o superior jerarquia; la vulneració és causa d'anul·labilitat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: ni existeix l'excepció per jerarquia ni la conseqüència és l'anul·labilitat."
+      }
+    ]
+  },
+  {
+    "guid": "0537ecfa-b433-4baf-83f7-176fa143dbc4",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Segons estableix l'Art. 24.1 LG, quina d'aquestes no es correspon amb alguna de les possibles formes que poden revestir les decisions del Govern?",
+    "answerOptions": [
+      {
+        "text": "Reial Decret-Llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és una de les formes previstes a l'art. 24.1 LG."
+      },
+      {
+        "text": "Reial Decret acordat en el Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és una de les formes previstes a l'art. 24.1 LG."
+      },
+      {
+        "text": "Acord del Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és una de les formes previstes a l'art. 24.1 LG."
+      },
+      {
+        "text": "Reial Decret acordat per Ordre Ministerial",
+        "isCorrect": true,
+        "rationale": "Correcte: aquesta figura no existeix; un Reial Decret no pot acordar-se per Ordre Ministerial."
+      }
+    ]
+  },
+  {
+    "guid": "7a09d9fa-2236-4390-87a4-94d6d31bbcb7",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali quina d'aquestes no és una causa de cessament del Govern?",
+    "answerOptions": [
+      {
+        "text": "La celebració d'eleccions generals",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és causa de cessament (art. 101 CE)."
+      },
+      {
+        "text": "L'obtenció de majoria simple en una qüestió de confiança",
+        "isCorrect": true,
+        "rationale": "Correcte: si el Govern obté la confiança (majoria simple), precisament no cessa; només cessa si la perd."
+      },
+      {
+        "text": "La mort del President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és causa de cessament (art. 101 CE)."
+      },
+      {
+        "text": "La dimissió del President del Govern, ja que passaria a ocupar-ne el càrrec el Vicepresident primer del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: la dimissió del President sí que provoca el cessament del Govern; el Vicepresident no el substitueix automàticament en el càrrec."
+      }
+    ]
+  },
+  {
+    "guid": "95e907c0-2ed7-4eed-a39c-16fb29619b4e",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Què no pot fer el President del Govern en funcions, segons l'Art. 21 LG?",
+    "answerOptions": [
+      {
+        "text": "Proposar al Rei la dissolució del Senat",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta única: és una de les dues facultats vedades, però no l'única."
+      },
+      {
+        "text": "Proposar al Rei la convocatòria d'un referèndum consultiu",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta única: és una de les dues facultats vedades, però no l'única."
+      },
+      {
+        "text": "No pot fer cap de les funcions de les respostes a) i b)",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 21.4 LG prohibeix al President en funcions proposar la dissolució de les cambres i la convocatòria d'un referèndum consultiu."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta c) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "362eb2e8-3745-4582-a22a-d53997ae7893",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quan hagin passat dos mesos a partir de la primera votació per a elegir President del Govern sense que cap candidat hagi obtingut la confiança del Congrés dels Diputats, s'han de:",
+    "answerOptions": [
+      {
+        "text": "Convocar noves eleccions per a renovar només el Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 99.5 CE preveu la dissolució d'ambdues cambres, no només del Congrés."
+      },
+      {
+        "text": "Dissoldre el Congrés dels Diputats i el Senat per part del Rei i convocar noves eleccions",
+        "isCorrect": true,
+        "rationale": "Correcte: segons l'art. 99.5 CE, el Rei dissoldrà ambdues cambres i convocarà noves eleccions amb el refrendament del President del Congrés."
+      },
+      {
+        "text": "Dissoldre ambdues Cambres per part del President del Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: qui dissol és el Rei; el President del Congrés només refrenda l'acte."
+      },
+      {
+        "text": "Dissoldre ambdues Cambres per acord adoptat en sessió conjunta presidida pel President del Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no es requereix cap acord en sessió conjunta; la dissolució la fa el Rei ex art. 99.5 CE."
+      }
+    ]
+  },
+  {
+    "guid": "629dfb88-50b2-4fcc-b6c1-8793280f0b71",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la moció d'investidura del President del Govern.",
+    "answerOptions": [
+      {
+        "text": "S'entendrà atorgada la confiança del Congrés dels Diputats envers el candidat per majoria absoluta en primera votació",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 99.3 CE exigeix majoria absoluta en primera votació; si no s'assoleix, n'hi ha prou amb majoria simple en segona votació 48 hores després."
+      },
+      {
+        "text": "S'entendrà atorgada la confiança del Congrés dels Diputats per majoria simple en primera votació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la majoria simple només és suficient en segona votació."
+      },
+      {
+        "text": "S'entendrà atorgada la confiança de les Corts Generals per majoria absoluta en primera votació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la confiança l'atorga només el Congrés dels Diputats, no les Corts Generals."
+      },
+      {
+        "text": "S'entendrà atorgada per majoria absoluta en primera i única votació, sense possibilitat de segona votació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: sí que hi ha segona votació 48 hores després, on n'hi ha prou amb majoria simple."
+      }
+    ]
+  },
+  {
+    "guid": "6ddfec22-a0bf-4939-937a-514b14ffa700",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Qui ratifica el nomenament del President del Govern per part del Rei?",
+    "answerOptions": [
+      {
+        "text": "El President del Govern cessant, que s'ha mantingut en funcions fins al nomenament del nou President",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el President cessant no refrenda el nomenament del seu successor."
+      },
+      {
+        "text": "És una ratificació conjunta per part del President del Congrés dels Diputats i del President del Senat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el refrendament correspon únicament al President del Congrés dels Diputats."
+      },
+      {
+        "text": "El President del Congrés dels Diputats",
+        "isCorrect": true,
+        "rationale": "Correcte: segons l'art. 64 CE, el nomenament del President del Govern és refrendat pel President del Congrés dels Diputats."
+      },
+      {
+        "text": "Aquest nomenament no té ratificació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: tots els actes del Rei han de ser refrendats; en aquest cas ho fa el President del Congrés (art. 64 CE)."
+      }
+    ]
+  },
+  {
+    "guid": "853ec6d7-7fed-41c3-a251-e6e4106d777b",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quina de les següents no és una funció del President del Govern?",
+    "answerOptions": [
+      {
+        "text": "Proposar al Rei la convocatòria d'un referèndum consultiu, prèvia autorització del Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és funció del President (art. 92 CE)."
+      },
+      {
+        "text": "Dirigir la política de defensa de l'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és funció del President (art. 2.2 LG)."
+      },
+      {
+        "text": "Plantejar davant del Congrés dels Diputats, prèvia deliberació del Consell de Ministres, la qüestió de confiança",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és funció del President (art. 112 CE)."
+      },
+      {
+        "text": "Plantejar davant del Congrés dels Diputats, prèvia deliberació del Consell de Ministres, la moció de censura",
+        "isCorrect": true,
+        "rationale": "Correcte: la moció de censura no la planteja el President del Govern, sinó almenys una desena part dels diputats (art. 113 CE)."
+      }
+    ]
+  },
+  {
+    "guid": "c8b18d49-3ef1-4d6a-8204-7c263a12edb1",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a les incompatibilitats del President del Govern.",
+    "answerOptions": [
+      {
+        "text": "La CE estableix que el President del Govern ha de ser escollit d'entre els membres d'alguna de les dues cambres de les Corts Generals",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la CE no exigeix que el President sigui parlamentari; només permet que els membres del Govern exerceixin el mandat parlamentari com a única funció representativa compatible."
+      },
+      {
+        "text": "La Constitució Espanyola estableix reserva de llei per a la regulació del règim d'incompatibilitats dels membres del Govern",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 98.4 CE estableix que la llei regularà l'estatut i les incompatibilitats dels membres del Govern."
+      },
+      {
+        "text": "La CE estableix que el règim d'incompatibilitats haurà de ser regulat per Reial Decret acordat en el Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la CE exigeix regulació per llei, no per Reial Decret."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "96342226-5422-4ef3-b8d1-c62ee412cf52",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali amb quin dels següents càrrecs és compatible la condició de President del Govern.",
+    "answerOptions": [
+      {
+        "text": "Parlamentari de l'Assemblea Legislativa de la seva Comunitat Autònoma",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els membres del Govern no poden exercir altres funcions representatives que les pròpies del mandat parlamentari estatal (art. 98.3 CE)."
+      },
+      {
+        "text": "Senador",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 98.3 CE permet als membres del Govern exercir el mandat parlamentari (diputat o senador) com a única funció representativa compatible."
+      },
+      {
+        "text": "Defensor del Poble o figura equivalent autonòmica",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el càrrec de Defensor del Poble és incompatible amb qualsevol mandat representatiu o càrrec polític."
+      },
+      {
+        "text": "Professor universitari en actiu, a temps parcial",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els membres del Govern no poden exercir cap altra funció pública ni activitat professional o mercantil (art. 98.3 CE)."
+      }
+    ]
+  },
+  {
+    "guid": "faab72a6-aa56-4279-97da-8ed36cc062f3",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Qui dels següents està exempt de fer la declaració de béns i drets?",
+    "answerOptions": [
+      {
+        "text": "Els ministres",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els ministres, com a alts càrrecs, estan obligats a declarar béns i drets."
+      },
+      {
+        "text": "Els Secretaris d'Estat, doncs no són membres del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: encara que no siguin membres del Govern, són alts càrrecs i estan obligats a la declaració."
+      },
+      {
+        "text": "Cap dels dos anteriors està exempt",
+        "isCorrect": true,
+        "rationale": "Correcte: tant els ministres com els secretaris d'Estat, en tant que alts càrrecs, han de formular la declaració de béns i drets."
+      },
+      {
+        "text": "Tots dos dels anteriors estan exempts",
+        "isCorrect": false,
+        "rationale": "Incorrecte: cap dels dos n'està exempt."
+      }
+    ]
+  },
+  {
+    "guid": "be8146cb-662b-46ca-93e7-57b0acca1f94",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "La Constitució Espanyola preveu que, ocasionalment, el Consell de Ministres pugui ser presidit per una persona diferent al President del Govern. Qui és aquesta persona?",
+    "answerOptions": [
+      {
+        "text": "El Vicepresident, en cas de malaltia, absència o vacant del President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la suplència pel Vicepresident la preveu la Llei del Govern (art. 13 LG), no la Constitució."
+      },
+      {
+        "text": "Els Ministres, per ordre de prelació ministerial, en cas de malaltia, absència o vacant del President",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta previsió de suplència és de la LG, no de la CE, i a més opera només a falta de Vicepresident."
+      },
+      {
+        "text": "El President del Congrés dels Diputats, en cas de malaltia, absència o vacant del President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el President del Congrés no presideix mai el Consell de Ministres."
+      },
+      {
+        "text": "El Rei",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 62.g CE preveu que el Rei pot presidir les sessions del Consell de Ministres, quan ho estimi oportú, a petició del President del Govern."
+      }
+    ]
+  },
+  {
+    "guid": "0a96b166-d2ea-45ed-ae77-a7425e5a6a14",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "L'existència del Vicepresident/s a la composició del Govern és:",
+    "answerOptions": [
+      {
+        "text": "Obligatòria",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la figura del Vicepresident no és obligatòria."
+      },
+      {
+        "text": "Potestativa",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 1.2 LG utilitza l'expressió 'si s'escau', de manera que l'existència de Vicepresident o Vicepresidents és potestativa."
+      },
+      {
+        "text": "És obligatori que n'hi hagi un, i és potestatiu que en puguin haver més",
+        "isCorrect": false,
+        "rationale": "Incorrecte: ni tan sols és obligatori que n'hi hagi un."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "6638fc0c-b06d-452f-90e6-b53b2f1df495",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació amb la figura del Vicepresident del Govern.",
+    "answerOptions": [
+      {
+        "text": "Podrà ser, simultàniament, ministre i/o membre de les Corts Generals",
+        "isCorrect": true,
+        "rationale": "Correcte: el Vicepresident pot assumir alhora la titularitat d'un ministeri i pot ser diputat o senador."
+      },
+      {
+        "text": "No podrà ser, simultàniament, ministre, però sí membre de les Corts Generals",
+        "isCorrect": false,
+        "rationale": "Incorrecte: sí que pot ser ministre alhora (art. 3.2 LG)."
+      },
+      {
+        "text": "No podrà ser, simultàniament, membre de les Corts Generals, però sí ministre",
+        "isCorrect": false,
+        "rationale": "Incorrecte: sí que pot ser membre de les Corts Generals (art. 98.3 CE)."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta a) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "c0e1ce82-483f-48e3-aa5f-317bfc85f398",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació amb la figura del Vicepresident del Govern (nomenament i separació).",
+    "answerOptions": [
+      {
+        "text": "Serà nomenat i separat lliurement pel President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: qui nomena i separa formalment és el Rei, a proposta del President."
+      },
+      {
+        "text": "Serà nomenat i separat pel Rei, a lliure proposta del President del Govern (complint els requisits legals per ser membre del Govern)",
+        "isCorrect": true,
+        "rationale": "Correcte: segons l'art. 100 CE i l'art. 12 LG, els membres del Govern són nomenats i separats pel Rei a proposta del seu President."
+      },
+      {
+        "text": "Serà nomenat pel Rei a proposta del President i separat pel Rei previ acord del Consell de Ministres per majoria absoluta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la separació no requereix cap acord del Consell de Ministres; és a lliure proposta del President."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "f47257b4-5852-4e24-81f4-9f2f38b27330",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la figura dels Ministres.",
+    "answerOptions": [
+      {
+        "text": "Tenen un rang jeràrquic immediatament inferior als Secretaris d'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: és a la inversa; els Secretaris d'Estat depenen dels Ministres."
+      },
+      {
+        "text": "Els Ministres sense cartera no formen part del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els Ministres sense cartera són membres del Govern de ple dret (art. 4.2 LG)."
+      },
+      {
+        "text": "Ratifiquen els actes duts a terme pel President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els Ministres refrenden, si s'escau, actes del Rei, no del President del Govern."
+      },
+      {
+        "text": "Són òrgans unipersonals de caràcter superior de l'Administració Civil de l'Estat",
+        "isCorrect": true,
+        "rationale": "Correcte: els Ministres són òrgans superiors de l'Administració General de l'Estat, de caràcter unipersonal, i alhora membres del Govern."
+      }
+    ]
+  },
+  {
+    "guid": "c607454d-2795-475f-bbf1-1332510a31d1",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació al Consell d'Estat.",
+    "answerOptions": [
+      {
+        "text": "La seva regulació és matèria amb reserva de llei (ordinària)",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 107 CE exigeix llei orgànica per regular-ne la composició i competència."
+      },
+      {
+        "text": "És l'òrgan consultiu suprem del Govern",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 107 CE defineix el Consell d'Estat com el suprem òrgan consultiu del Govern."
+      },
+      {
+        "text": "El President del Govern és també President del Consell d'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Consell d'Estat té el seu propi President, nomenat per Reial Decret."
+      },
+      {
+        "text": "És únic i exclusiu per a tots els territoris de l'Estat, sense possibilitat d'òrgans equivalents autonòmics",
+        "isCorrect": false,
+        "rationale": "Incorrecte: les Comunitats Autònomes poden crear òrgans consultius propis equivalents (p. ex., la Comissió Jurídica Assessora a Catalunya)."
+      }
+    ]
+  },
+  {
+    "guid": "6efc7d03-8289-4104-afb8-966096d8c8b1",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quin tipus de norma jurídica regula el Consell d'Estat?",
+    "answerOptions": [
+      {
+        "text": "Reial Decret del President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la CE exigeix una norma amb rang de llei orgànica."
+      },
+      {
+        "text": "Llei Ordinària",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 107 CE estableix reserva de llei orgànica."
+      },
+      {
+        "text": "Llei Orgànica",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 107 CE remet a una llei orgànica (LO 3/1980, del Consell d'Estat) la regulació de la seva composició i competència."
+      },
+      {
+        "text": "Reial Decret Llei",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Decret-llei no pot regular matèries reservades a llei orgànica."
+      }
+    ]
+  },
+  {
+    "guid": "a81641e7-a897-4507-a6cd-a4dc8e83402f",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Segons l'Art. 66.2 CE, qui controla l'acció del Govern?",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 66.2 CE atribueix el control a les Corts Generals en conjunt."
+      },
+      {
+        "text": "El Senat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 66.2 CE atribueix el control a les Corts Generals en conjunt."
+      },
+      {
+        "text": "Les Corts Generals",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 66.2 CE estableix que les Corts Generals controlen l'acció del Govern."
+      },
+      {
+        "text": "El poble espanyol",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el poble exerceix el control polític indirectament a través de les eleccions, però l'art. 66.2 CE es refereix a les Corts Generals."
+      }
+    ]
+  },
+  {
+    "guid": "b5fd7007-da8a-4e2b-800a-b6d3919a252f",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Segons l'Art. 108 CE, davant de qui respon solidàriament el Govern per la seva gestió política?",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 108 CE estableix que el Govern respon solidàriament de la seva gestió política davant el Congrés dels Diputats."
+      },
+      {
+        "text": "El Senat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la responsabilitat política solidària s'exigeix només davant el Congrés."
+      },
+      {
+        "text": "Les Corts Generals",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el control general és de les Corts (art. 66.2 CE), però la responsabilitat política solidària de l'art. 108 CE és davant el Congrés."
+      },
+      {
+        "text": "El poble espanyol",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 108 CE es refereix expressament al Congrés dels Diputats."
+      }
+    ]
+  },
+  {
+    "guid": "9cf9a73c-7eba-44b7-84d4-edbf83f7241e",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quina és la jurisdicció competent per a enjudiciar les actuacions materials del Govern que constitueixin via de fet?",
+    "answerOptions": [
+      {
+        "text": "La jurisdicció civil",
+        "isCorrect": false,
+        "rationale": "Incorrecte: des de la Llei 29/1998, la via de fet s'impugna davant la jurisdicció contenciosa-administrativa."
+      },
+      {
+        "text": "La jurisdicció penal",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la via de fet no és, per si mateixa, matèria penal."
+      },
+      {
+        "text": "La 'jurisdicció constitucional' (davant el TC)",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el TC no és la seu ordinària per impugnar actuacions materials constitutives de via de fet."
+      },
+      {
+        "text": "La jurisdicció contenciosa-administrativa",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 25.2 i 30 de la Llei 29/1998 (LJCA) atribueixen a la jurisdicció contenciosa-administrativa el coneixement de les actuacions materials constitutives de via de fet."
+      }
+    ]
+  },
+  {
+    "guid": "095083eb-0f68-4572-857c-ed502d1e5dd0",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació amb el fenomen popularment conegut com a 'eleccions anticipades' regulat a l'Art. 115 CE.",
+    "answerOptions": [
+      {
+        "text": "Només pot emprar-se per a dissoldre el Congrés dels Diputats, però no pas el Senat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'art. 115 CE permet dissoldre el Congrés, el Senat o les Corts Generals."
+      },
+      {
+        "text": "La dissolució requereix, prèviament, autorització del Consell de Ministres mitjançant Reial Decret",
+        "isCorrect": false,
+        "rationale": "Incorrecte: es requereix deliberació prèvia del Consell de Ministres, no una autorització per Reial Decret; la dissolució es decreta pel Rei."
+      },
+      {
+        "text": "La proposta de dissolució no podrà presentar-se quan estigui en tràmit una moció de censura",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 115.2 CE prohibeix expressament proposar la dissolució mentre estigui en tràmit una moció de censura."
+      },
+      {
+        "text": "No procedirà una nova dissolució abans no transcorrin dos anys des de l'anterior, excepte allò disposat a l'art. 99.5 CE",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el termini és d'un any des de l'anterior dissolució, no de dos (art. 115.3 CE)."
+      }
+    ]
+  },
+  {
+    "guid": "ea874a78-000e-44c2-9dcd-3075546b344d",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a les compareixences dels membres del Govern a les Corts Generals, regulada a l'Art. 110 CE.",
+    "answerOptions": [
+      {
+        "text": "Només el Congrés dels Diputats podrà reclamar la presència dels membres del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: també el Senat i les seves comissions poden fer-ho."
+      },
+      {
+        "text": "Qualsevol de les dues cambres, Congrés dels Diputats i Senat, podrà reclamar la presència dels membres del Govern",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 110.1 CE estableix que les Cambres i les seves Comissions poden reclamar la presència dels membres del Govern."
+      },
+      {
+        "text": "Ambdues cambres podran fer-ho, excepte el Congrés en relació amb el President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no existeix aquesta excepció; a més, el President no ha de ser necessàriament diputat."
+      },
+      {
+        "text": "Cap resposta és correcta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la resposta b) és correcta."
+      }
+    ]
+  },
+  {
+    "guid": "ef212dd0-806e-46d6-af4d-eedd83499616",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació incorrecta en relació amb les comissions d'investigació.",
+    "answerOptions": [
+      {
+        "text": "Qualsevol de les dues cambres podrà nomenar comissions d'investigació sobre qualsevol assumpte d'interès públic",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (i per tant no és la resposta): així ho preveu l'art. 76.1 CE."
+      },
+      {
+        "text": "Les conclusions a les que arribin seran vinculants per als Tribunals i llurs resolucions judicials",
+        "isCorrect": true,
+        "rationale": "Correcte com a resposta: aquesta afirmació és falsa, ja que l'art. 76.1 CE estableix que les conclusions no seran vinculants per als Tribunals ni afectaran les resolucions judicials."
+      },
+      {
+        "text": "Ambdues cambres podran també nomenar comissions d'investigació conjuntament",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (i per tant no és la resposta): l'art. 76.1 CE ho permet expressament."
+      },
+      {
+        "text": "Serà obligatòria la compareixença a requeriment de les Cambres i la llei regularà les sancions per incompliment",
+        "isCorrect": false,
+        "rationale": "Afirmació correcta (i per tant no és la resposta): així ho estableix l'art. 76.2 CE."
+      }
+    ]
+  },
+  {
+    "guid": "6d0840b0-1bc5-4f0f-b89f-ffa70f5c7948",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la qüestió de confiança.",
+    "answerOptions": [
+      {
+        "text": "Per al plantejament de la qüestió cal el suport mínim d'1/10 dels diputats del Congrés",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquest requisit és de la moció de censura; la qüestió de confiança la planteja el President del Govern."
+      },
+      {
+        "text": "La confiança s'entén atorgada per majoria absoluta",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la confiança s'entén atorgada per majoria simple (art. 112 CE)."
+      },
+      {
+        "text": "En cas de denegació de la confiança, el Govern dimitirà i es procedirà a la designació d'un nou President pel procediment de l'art. 99 CE",
+        "isCorrect": true,
+        "rationale": "Correcte: així ho estableix l'art. 114.1 CE."
+      },
+      {
+        "text": "Per a la presentació cal, prèviament, el consentiment del Consell de Ministres mitjançant Reial Decret",
+        "isCorrect": false,
+        "rationale": "Incorrecte: es requereix deliberació prèvia del Consell de Ministres, no consentiment per Reial Decret."
+      }
+    ]
+  },
+  {
+    "guid": "bee28688-3af4-4160-b3f1-7af5d6d7c10c",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació a la qüestió de confiança (efectes).",
+    "answerOptions": [
+      {
+        "text": "Si s'atorga la confiança, el Govern gaudeix d'un nou període de 4 anys de mandat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: l'atorgament de la confiança no altera el calendari electoral ni renova el mandat."
+      },
+      {
+        "text": "En cas de denegació, el Govern dimiteix i el nou President designat per l'art. 99 CE disposarà, a priori, del temps que restés fins a les properes eleccions (no s'altera necessàriament el calendari electoral)",
+        "isCorrect": true,
+        "rationale": "Correcte: la denegació de la confiança obre el procediment d'investidura de l'art. 99 CE sense alterar, per si mateixa, el calendari electoral."
+      },
+      {
+        "text": "En cas de denegació, el nou President disposarà d'un nou període de mandat de 4 anys",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la legislatura continua sent la mateixa; no s'inicia un nou mandat de 4 anys."
+      },
+      {
+        "text": "En cas de denegació, es procedirà a la convocatòria de noves eleccions",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la denegació no comporta eleccions, sinó la designació d'un nou President per l'art. 99 CE."
+      }
+    ]
+  },
+  {
+    "guid": "df0b11c8-4ce8-4c6c-8e90-39fe1f7651e4",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació amb la moció de censura.",
+    "answerOptions": [
+      {
+        "text": "A Espanya, la moció de censura és constructiva i continuista",
+        "isCorrect": true,
+        "rationale": "Correcte: és constructiva perquè ha d'incloure un candidat alternatiu (art. 113.2 CE) i continuista perquè el nou President esgota la legislatura sense alterar el calendari electoral."
+      },
+      {
+        "text": "A Espanya, la moció de censura és no constructiva i continuista",
+        "isCorrect": false,
+        "rationale": "Incorrecte: sí que és constructiva, ja que exigeix candidat alternatiu."
+      },
+      {
+        "text": "A Espanya, la moció de censura és constructiva i no continuista",
+        "isCorrect": false,
+        "rationale": "Incorrecte: sí que és continuista, perquè no s'altera el calendari electoral."
+      },
+      {
+        "text": "A Espanya, la moció de censura és no constructiva i no continuista",
+        "isCorrect": false,
+        "rationale": "Incorrecte: és constructiva i continuista."
+      }
+    ]
+  },
+  {
+    "guid": "61019f41-2394-48ea-a2bb-a04919328d97",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació amb la moció de censura (requisits i efectes).",
+    "answerOptions": [
+      {
+        "text": "La moció incorpora un candidat alternatiu que, si la moció prospera, es considera investit de la confiança del Congrés i és nomenat nou President del Govern",
+        "isCorrect": true,
+        "rationale": "Correcte: així ho estableixen els arts. 113.2 i 114.2 CE."
+      },
+      {
+        "text": "Per a la presentació cal que hagi estat proposada per, almenys, 1/5 dels diputats del Congrés",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el mínim és la desena part (1/10) dels diputats (art. 113.2 CE)."
+      },
+      {
+        "text": "Perquè prosperi caldrà el vot favorable per majoria absoluta del Congrés dels Diputats i del Senat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: només cal la majoria absoluta del Congrés dels Diputats (art. 113.1 CE)."
+      },
+      {
+        "text": "Si en els 2 primers dies del període de 5 dies es presenten mocions alternatives, el Congrés en tot cas haurà de votar-les totes",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la CE permet presentar mocions alternatives en els dos primers dies, però no imposa que totes hagin de ser necessàriament votades."
+      }
+    ]
+  },
+  {
+    "guid": "4be7140c-2569-422c-b27d-9f54e7a915a2",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Assenyali l'afirmació correcta en relació amb la moció de censura (mandat del nou President).",
+    "answerOptions": [
+      {
+        "text": "Si prospera, el nou President exercirà el càrrec pel temps que manqui fins a les properes eleccions (no s'altera el calendari electoral), llevat que dissolgui les cambres per l'art. 115 CE",
+        "isCorrect": true,
+        "rationale": "Correcte: la moció de censura espanyola és continuista; el nou President esgota la legislatura en curs, sens perjudici de la facultat de dissolució de l'art. 115 CE."
+      },
+      {
+        "text": "Si prospera, s'haurà d'escollir un nou President pel procediment de l'art. 99 CE",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el candidat inclòs a la moció queda automàticament investit (art. 114.2 CE), sense necessitat del procediment de l'art. 99 CE."
+      },
+      {
+        "text": "Si prospera, el nou President i el seu Govern gaudiran d'un nou període de 4 anys de mandat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no s'inicia una nova legislatura; el mandat dura fins a les eleccions ja previstes."
+      },
+      {
+        "text": "El mandat del nou Govern variarà segons si la moció prosperà per majoria absoluta o simple",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la moció de censura només pot prosperar per majoria absoluta i el mandat sempre és pel temps restant de legislatura."
+      }
+    ]
+  },
+  {
+    "guid": "1965ae97-8a5a-4124-8e57-9f5eb61187db",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Qui pot plantejar una qüestió de confiança?",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Congrés vota la qüestió, però no la planteja."
+      },
+      {
+        "text": "El President del Govern",
+        "isCorrect": true,
+        "rationale": "Correcte: segons l'art. 112 CE, el President del Govern, prèvia deliberació del Consell de Ministres, pot plantejar la qüestió de confiança."
+      },
+      {
+        "text": "El Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la facultat és personal del President del Govern, no de l'òrgan col·legiat."
+      },
+      {
+        "text": "El Rei",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Rei no té cap intervenció en el plantejament de la qüestió de confiança."
+      }
+    ]
+  },
+  {
+    "guid": "c21704e5-b6b6-4e51-a840-7ade01f72fba",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quin dels següents tràmits és necessari realitzar abans de plantejar una qüestió de confiança?",
+    "answerOptions": [
+      {
+        "text": "Deliberació del Consell de Ministres",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 112 CE exigeix la deliberació prèvia del Consell de Ministres."
+      },
+      {
+        "text": "Deliberació del President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no existeix aquest tràmit; la deliberació exigida és la del Consell de Ministres."
+      },
+      {
+        "text": "Comunicació al Cap de l'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no és un tràmit previ exigit per la Constitució."
+      },
+      {
+        "text": "No és necessari realitzar cap tràmit previ",
+        "isCorrect": false,
+        "rationale": "Incorrecte: cal la deliberació prèvia del Consell de Ministres."
+      }
+    ]
+  },
+  {
+    "guid": "ee65afd1-3b9d-48b3-a57a-4283d944c105",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "A qui ha de presentar el President del Govern la seva dimissió en cas que no obtingui la majoria necessària en la votació d'una qüestió de confiança?",
+    "answerOptions": [
+      {
+        "text": "Davant del Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la dimissió es presenta davant del Rei, no davant la cambra."
+      },
+      {
+        "text": "Davant les Corts Generals",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la dimissió es presenta davant del Rei."
+      },
+      {
+        "text": "Davant del Rei",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 114.1 CE estableix que si el Congrés nega la confiança, el Govern presentarà la seva dimissió al Rei."
+      },
+      {
+        "text": "Davant del Consell de Ministres",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la dimissió es presenta davant del Rei."
+      }
+    ]
+  },
+  {
+    "guid": "009582d5-045a-4951-a20e-f728f93e2886",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "En quin dels següents casos no cessa el Govern?",
+    "answerOptions": [
+      {
+        "text": "Per defunció del President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: la mort del President sí que és causa de cessament del Govern (art. 101 CE)."
+      },
+      {
+        "text": "Per la celebració d'eleccions generals",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és causa de cessament (art. 101 CE)."
+      },
+      {
+        "text": "Per dimissió del Vicepresident Primer del Govern",
+        "isCorrect": true,
+        "rationale": "Correcte: la dimissió d'un Vicepresident no provoca el cessament del Govern; només la del President."
+      },
+      {
+        "text": "Per pèrdua de la confiança parlamentària",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és causa de cessament (art. 101 CE)."
+      }
+    ]
+  },
+  {
+    "guid": "13560dd9-17a1-4fe7-804a-e56763a382a6",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quin dels següents no és un òrgan de col·laboració i suport al Govern?",
+    "answerOptions": [
+      {
+        "text": "Els secretaris generals tècnics",
+        "isCorrect": true,
+        "rationale": "Correcte: els secretaris generals tècnics són òrgans directius dels ministeris (LRJSP), no òrgans de col·laboració i suport del Govern segons la LG."
+      },
+      {
+        "text": "La comissió de secretaris d'estat i sotssecretaris",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és òrgan de col·laboració i suport (art. 8 LG)."
+      },
+      {
+        "text": "Els gabinets",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que són òrgans de col·laboració i suport (art. 10 LG)."
+      },
+      {
+        "text": "Els secretaris d'estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: la LG els regula dins dels òrgans de col·laboració i suport del Govern (art. 7 LG)."
+      }
+    ]
+  },
+  {
+    "guid": "f7b5bfc8-1513-4e5a-9bd7-ce29a1683085",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quan es dirigeixi una acusació contra el President del Govern per traïció o per qualsevol delicte contra la seguretat de l'Estat en l'exercici de les seves funcions, la iniciativa solament podrà ser plantejada per:",
+    "answerOptions": [
+      {
+        "text": "50 Diputats o 50 Senadors",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquest quòrum correspon a altres institucions (p. ex., el recurs d'inconstitucionalitat), no a aquesta acusació."
+      },
+      {
+        "text": "La majoria absoluta del Congrés dels Diputats",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la majoria absoluta del Congrés és necessària per aprovar l'acusació, no per plantejar la iniciativa."
+      },
+      {
+        "text": "La majoria absoluta d'ambdues cambres de les Corts Generals",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el Senat no intervé en aquesta acusació."
+      },
+      {
+        "text": "¼ part dels membres del Congrés dels Diputats",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 102.2 CE exigeix que la iniciativa sigui plantejada per una quarta part dels membres del Congrés i aprovada per majoria absoluta d'aquest."
+      }
+    ]
+  },
+  {
+    "guid": "093e10da-11e0-4148-84ea-10b5a75768fa",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quina de les següents és funció del Consell de Ministres?",
+    "answerOptions": [
+      {
+        "text": "Nomenar i separar als titulars de tots els òrgans directius dels ministeris",
+        "isCorrect": false,
+        "rationale": "Incorrecte: no tots els òrgans directius són nomenats pel Consell de Ministres; alguns ho són per Ordre Ministerial."
+      },
+      {
+        "text": "Dirigir la política de defensa",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la direcció de la política de defensa correspon al President del Govern (art. 2.2 LG)."
+      },
+      {
+        "text": "Creació, modificació i supressió de secretaries d'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la creació, modificació i supressió dels ministeris i secretaries d'Estat s'estableix per Reial Decret del President del Govern (art. 2.2.j LG)."
+      },
+      {
+        "text": "Adoptar programes, plans i directrius vinculants per a tots els òrgans de l'AGE",
+        "isCorrect": true,
+        "rationale": "Correcte: és una de les funcions del Consell de Ministres previstes a l'art. 5.1 LG."
+      }
+    ]
+  },
+  {
+    "guid": "da80ec90-4d75-41d6-9977-e193e80f9428",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "D'acord amb el que disposa la LG, quin dels següents no constitueix un requisit per a ser membre del Govern?",
+    "answerOptions": [
+      {
+        "text": "Ser espanyol i major d'edat",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que són requisits exigits per l'art. 11 LG."
+      },
+      {
+        "text": "Ostentar la condició de membre del Congrés dels Diputats o del Senat",
+        "isCorrect": true,
+        "rationale": "Correcte: no cal ser parlamentari per ser membre del Govern; l'art. 11 LG no ho exigeix."
+      },
+      {
+        "text": "Gaudir dels drets de sufragi actiu i passiu",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que és un requisit de l'art. 11 LG."
+      },
+      {
+        "text": "Tots els anteriors constitueixen requisits per a l'accés a aquest càrrec",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la condició de parlamentari no és un requisit."
+      }
+    ]
+  },
+  {
+    "guid": "366d13ba-2dea-4081-871c-52e49391061a",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quina de les següents és la Llei del Govern?",
+    "answerOptions": [
+      {
+        "text": "La Llei 50/1997, de 24 de novembre",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la data no és el 24 de novembre."
+      },
+      {
+        "text": "La Llei 50/1997, de 22 de novembre",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la data no és el 22 de novembre."
+      },
+      {
+        "text": "La Llei 50/1997, de 27 de novembre",
+        "isCorrect": true,
+        "rationale": "Correcte: la Llei del Govern és la Llei 50/1997, de 27 de novembre."
+      },
+      {
+        "text": "La Llei 50/1997, de 21 de novembre",
+        "isCorrect": false,
+        "rationale": "Incorrecte: la data no és el 21 de novembre."
+      }
+    ]
+  },
+  {
+    "guid": "895da98a-3799-4027-8dd6-040dfc7f4063",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quin és el màxim òrgan consultiu del Govern?",
+    "answerOptions": [
+      {
+        "text": "El Consell del Regne",
+        "isCorrect": false,
+        "rationale": "Incorrecte: era un òrgan del règim anterior, inexistent en la Constitució de 1978."
+      },
+      {
+        "text": "El Consell Real",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquest òrgan no existeix en l'ordenament vigent."
+      },
+      {
+        "text": "El Consell Consultiu",
+        "isCorrect": false,
+        "rationale": "Incorrecte: aquesta denominació correspon a òrgans consultius autonòmics, no al suprem òrgan consultiu del Govern de l'Estat."
+      },
+      {
+        "text": "El Consell d'Estat",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 107 CE defineix el Consell d'Estat com el suprem òrgan consultiu del Govern."
+      }
+    ]
+  },
+  {
+    "guid": "d7ec8a83-5780-4c24-b394-38f78f1b966f",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Quin és el termini passat el qual, si cap candidat arriba a la majoria necessària per a ser nomenat President del Govern, es deu procedir a la convocatòria de noves eleccions?",
+    "answerOptions": [
+      {
+        "text": "Un mes des de la primera votació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el termini és de dos mesos, no d'un."
+      },
+      {
+        "text": "Dos mesos des de la segona votació",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el termini es compta des de la primera votació d'investidura."
+      },
+      {
+        "text": "Dos mesos des de la primera sessió",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el còmput comença amb la primera votació, no amb la primera sessió."
+      },
+      {
+        "text": "Dos mesos des de la primera votació",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 99.5 CE fixa el termini de dos mesos a partir de la primera votació d'investidura."
+      }
+    ]
+  },
+  {
+    "guid": "41806162-54b8-45d6-a53a-b2b02848b943",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "Si un Ministre comet un delicte d'homicidi, serà jutjat per:",
+    "answerOptions": [
+      {
+        "text": "La Sala del Penal de l'Audiència Nacional",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els membres del Govern estan aforats davant el Tribunal Suprem."
+      },
+      {
+        "text": "La Sala del Penal de l'Audiència Provincial de Madrid",
+        "isCorrect": false,
+        "rationale": "Incorrecte: els membres del Govern estan aforats davant el Tribunal Suprem."
+      },
+      {
+        "text": "La Sala Especial Penal del Tribunal Constitucional",
+        "isCorrect": false,
+        "rationale": "Incorrecte: el TC no té jurisdicció penal."
+      },
+      {
+        "text": "La Sala del Penal del Tribunal Suprem",
+        "isCorrect": true,
+        "rationale": "Correcte: l'art. 102.1 CE estableix que la responsabilitat criminal dels membres del Govern serà exigible davant la Sala Penal del Tribunal Suprem."
+      }
+    ]
+  },
+  {
+    "guid": "2bd5b20c-c7ac-446e-b57c-b787bcf49edb",
+    "subjectId": "T02",
+    "difficulty": 1,
+    "origin": "tests-Xavi",
+    "type": "test",
+    "question": "No forma part del Govern:",
+    "answerOptions": [
+      {
+        "text": "El Secretari d'Estat",
+        "isCorrect": true,
+        "rationale": "Correcte: els Secretaris d'Estat no són membres del Govern; són òrgans de col·laboració i suport (art. 7 LG)."
+      },
+      {
+        "text": "El President del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que forma part del Govern (art. 1.2 LG)."
+      },
+      {
+        "text": "El Ministre sense cartera",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: els ministres sense cartera sí que formen part del Govern (art. 4.2 LG)."
+      },
+      {
+        "text": "El Vicepresident del Govern",
+        "isCorrect": false,
+        "rationale": "Incorrecte com a resposta: sí que forma part del Govern, si s'escau (art. 1.2 LG)."
+      }
+    ]
+  }
+]
