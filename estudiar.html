@@ -957,23 +957,29 @@
     /**
      * Mostrar pista de la pregunta actual
      */
+    function getHintTextForQuestion(pregunta) {
+      let hint = pregunta && (pregunta.hint || pregunta.pista || pregunta.clue);
+
+      // Si es tipo flashcard, ofuscar el rationale del answerOption correcto
+      if (pregunta && pregunta.type === 'flashcard' && Array.isArray(pregunta.answerOptions)) {
+        const correctOption = pregunta.answerOptions.find(opt => opt.isCorrect && opt.rationale);
+        if (correctOption && correctOption.rationale) {
+          hint = correctOption.rationale.replace(/(\w{2})(\w+)([\.,;:!?¿¡()\[\]{}"'`]*)/g, function(match, p1, p2, p3) {
+            return p1 + '*'.repeat(p2.length) + p3;
+          });
+        } else {
+          hint = '(No hi ha pista per aquesta pregunta)';
+        }
+      }
+
+      return hint ? hint : '(No hi ha pista per aquesta pregunta)';
+    }
+
     function mostrarHint() {
       const hintDiv = document.getElementById('hintArea');
       if (!hintDiv.classList.contains('mostrando')) {
         const pregunta = preguntes[currentQuestion];
-        let hint = pregunta && (pregunta.hint || pregunta.pista || pregunta.clue);
-        // Si es tipo flashcard, ofuscar el rationale del answerOption correcto
-        if (pregunta && pregunta.type === 'flashcard' && Array.isArray(pregunta.answerOptions)) {
-          const correctOption = pregunta.answerOptions.find(opt => opt.isCorrect && opt.rationale);
-          if (correctOption && correctOption.rationale) {
-            hint = correctOption.rationale.replace(/(\w{2})(\w+)([\.,;:!?¿¡()\[\]{}"'`]*)/g, function(match, p1, p2, p3) {
-              return p1 + '*'.repeat(p2.length) + p3;
-            });
-          } else {
-            hint = '(No hi ha pista per aquesta pregunta)';
-          }
-        }
-        hintDiv.textContent = hint ? hint : '(No hi ha pista per aquesta pregunta)';
+        hintDiv.textContent = getHintTextForQuestion(pregunta);
         hintDiv.classList.add('mostrando');
       }
     }
@@ -1195,27 +1201,30 @@
       const pregunta = preguntes[index];
       const container = document.getElementById('questionContainer');
 
-      // Ocultar hint por defecto
-      ocultarHint();
-      
       // Mostrar u ocultar el área de hint según si la pregunta tiene hint
       const hintDiv = document.getElementById('hintArea');
       const tieneHint = pregunta && (pregunta.hint || pregunta.pista || pregunta.clue);
-      if (tieneHint) {
-        hintDiv.style.display = '';
-      } else {
-        hintDiv.style.display = 'none';
-      }
       
-      // Detectar si hay más de una respuesta correcta
+      // Determinar si el usuario ya respondió
       const answerOptions = pregunta.answerOptions || [];
       const correctAnswers = answerOptions.filter(opt => opt.isCorrect);
       const isMultiCorrect = correctAnswers.length > 1;
-      
-      // Determinar si el usuario ya respondió
       const userAnswered = isMultiCorrect 
         ? (multiCorrectChecked[index] === true)
         : (answers[index] !== null);
+
+      if (tieneHint) {
+        hintDiv.style.display = '';
+        if (userAnswered) {
+          hintDiv.textContent = getHintTextForQuestion(pregunta);
+          hintDiv.classList.add('mostrando');
+        } else {
+          ocultarHint();
+        }
+      } else {
+        hintDiv.style.display = 'none';
+      }
+
       
       const currentExpanded = expandedOptions[index] || [];
       
