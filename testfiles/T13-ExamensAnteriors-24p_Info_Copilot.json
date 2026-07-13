@@ -1,0 +1,868 @@
+[
+  {
+    "guid": "15b54f23-e48a-47ca-b4cd-51d27d134146",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2025.pdf",
+    "type": "test",
+    "question": "27. D’acord amb l’article 58 de Reial Decret 2/2004, per a la realització d’obres o per l’establiment o l’ampliació de serveis municipals, els ajuntaments poden establir i exigir:",
+    "hint": "Els recursos tributaris locals es divideixen en impostos, taxes i contribucions especials. Existeix una figura tributària específica que permet repercutir part del cost d’una actuació pública sobre aquelles persones que obtenen un benefici especial o un increment de valor dels seus béns gràcies a una obra pública o a l’establiment o ampliació d’un servei públic. Aquest tribut té caràcter potestatiu per a les entitats locals, està afectat al finançament de l’actuació que el justifica i la seva quantia global no pot superar un determinat percentatge del cost suportat per l’administració.",
+    "legalReference": [
+      "Art. 58 TRLRHL",
+      "Art. 28 TRLRHL",
+      "Art. 2.2.b LGT"
+    ],
+    "examTrap": "La trampa habitual és confondre aquesta figura amb una taxa. Les taxes es vinculen a serveis o ús del domini públic; aquí el factor determinant és el benefici especial derivat d'una obra o servei públic.",
+    "answerOptions": [
+      {
+        "text": "A. Taxes.",
+        "isCorrect": false,
+        "rationale": "Les taxes tenen com a fet imposable la utilització privativa o l’aprofitament especial del domini públic o la prestació de determinats serveis i activitats administratives. No es basen en l’obtenció d’un benefici especial derivat d’una obra pública."
+      },
+      {
+        "text": "B. Contribucions especials.",
+        "isCorrect": true,
+        "rationale": "Les contribucions especials són els tributs exigibles quan una obra pública o un servei públic genera un benefici especial o un augment de valor dels béns dels contribuents afectats."
+      },
+      {
+        "text": "C. Subvencions.",
+        "isCorrect": false,
+        "rationale": "Les subvencions són tècniques de foment i constitueixen una aportació econòmica de l'administració cap al beneficiari, no un tribut exigit als particulars."
+      },
+      {
+        "text": "D. Operacions de crèdit.",
+        "isCorrect": false,
+        "rationale": "Les operacions de crèdit són mecanismes d’endeutament i finançament de l’entitat local. No tenen naturalesa tributària."
+      }
+    ]
+  },
+  {
+    "guid": "522a186e-5e08-4c3b-a2e2-f1cbc21fe5a1",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2025.pdf",
+    "type": "test",
+    "question": "28. D’acord amb l’article 169 del Reial Decret 2/2004, quin és el termini màxim per aprovar el pressupost general de les entitats locals?",
+    "hint": "El pressupost local es basa en el principi d’anualitat. Cada exercici pressupostari coincideix amb l’any natural i, per garantir la continuïtat de la gestió pública, la normativa estableix una data límit per a la seva aprovació definitiva. Si aquesta aprovació no es produeix dins del termini legal, entra en funcionament el mecanisme de pròrroga automàtica del pressupost anterior fins a l’entrada en vigor del nou pressupost.",
+    "legalReference": [
+      "Art. 169 TRLRHL",
+      "Art. 162 TRLRHL",
+      "Principi d'anualitat"
+    ],
+    "examTrap": "Molts opositors confonen la data límit d'aprovació definitiva amb les dates internes de tramitació (15 de setembre o 15 d'octubre).",
+    "answerOptions": [
+      {
+        "text": "A. Abans del 31 de juliol de l’any anterior al de l’exercici en què s’hagi d’aprovar.",
+        "isCorrect": false,
+        "rationale": "Aquesta data no apareix en el procediment legal d’aprovació pressupostària."
+      },
+      {
+        "text": "B. Abans del 30 de juny de l'exercici corresponent.",
+        "isCorrect": false,
+        "rationale": "El pressupost ha d'estar aprovat abans de començar l'exercici al qual s'aplicarà."
+      },
+      {
+        "text": "C. No hi ha un termini establert.",
+        "isCorrect": false,
+        "rationale": "La normativa fixa expressament una data límit per a l'aprovació definitiva."
+      },
+      {
+        "text": "D. Abans del 31 de desembre de l’any anterior al de l’exercici en què s’hagi d’aprovar.",
+        "isCorrect": true,
+        "rationale": "El pressupost ha de quedar aprovat abans de l'inici de l'exercici pressupostari, de manera que pugui entrar en vigor l'1 de gener."
+      }
+    ]
+  },
+  {
+    "guid": "995966ba-6824-4390-82f9-3bc93014cc68",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2020.pdf",
+    "type": "test",
+    "question": "62. Les entitats locals podran exigir una taxa per:",
+    "hint": "Les taxes són tributs vinculats a una actuació administrativa concreta o a una utilització singular del domini públic. El TRLRHL també estableix determinats serveis respecte dels quals les entitats locals no poden exigir taxes perquè es consideren serveis generals i indivisibles, com la neteja viària, la protecció civil o l’ensenyament obligatori. La clau per respondre és identificar quan existeix un benefici o aprofitament individualitzable a favor d’un subjecte concret.",
+    "legalReference": [
+      "Art. 20 TRLRHL",
+      "Art. 21 TRLRHL",
+      "Art. 2.2.a LGT"
+    ],
+    "examTrap": "La pregunta barreja un cas típic de taxa amb diversos serveis expressament exclosos per la llei.",
+    "answerOptions": [
+      {
+        "text": "a) La neteja de la via pública.",
+        "isCorrect": false,
+        "rationale": "La neteja de la via pública és un servei general respecte del qual la llei prohibeix l'establiment de taxes."
+      },
+      {
+        "text": "b) La protecció civil.",
+        "isCorrect": false,
+        "rationale": "La protecció civil és un servei públic general exclòs expressament de l'àmbit de les taxes."
+      },
+      {
+        "text": "c) La utilització privativa del domini públic.",
+        "isCorrect": true,
+        "rationale": "La utilització privativa o l’aprofitament especial del domini públic constitueix un dels fets imposables típics de les taxes."
+      },
+      {
+        "text": "d) L’ensenyament en els nivells d’educació obligatòria.",
+        "isCorrect": false,
+        "rationale": "L’ensenyament obligatori és un dels serveis pels quals la normativa impedeix exigir taxes."
+      }
+    ]
+  },
+  {
+    "guid": "0a1bce2f-592e-4214-866c-01188fe750ab",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "A1-2020.pdf",
+    "type": "test",
+    "question": "63. Els Ajuntaments podran establir i exigir, d’acord amb la Llei d’Hisendes Locals, les disposicions que la desenvolupin i les respectives ordenances fiscals, els impostos següents:",
+    "hint": "Els impostos municipals es divideixen en obligatoris i potestatius. Els obligatoris han d'exigir-se necessàriament en tots els municipis, mentre que els potestatius només existeixen si l’ajuntament adopta els corresponents acords d’imposició i ordenació. Per resoldre la pregunta és imprescindible distingir amb precisió quines figures formen part de cada grup.",
+    "legalReference": [
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "La dificultat rau en distingir impostos obligatoris (IBI, IAE, IVTM) dels potestatius (ICIO i IIVTNU).",
+    "answerOptions": [
+      {
+        "text": "a) Impost de vehicles de tracció mecànica,impost sobre l’increment dels terrenys de naturalesa urbana,impost d’activitats econòmiques,impost de béns immobles i impost de construccions instal·lacions i obres.",
+        "isCorrect": false,
+        "rationale": "La relació barreja impostos obligatoris i potestatius, per la qual cosa no identifica correctament la categoria buscada."
+      },
+      {
+        "text": "b) Impost de vehicles de tracció mecànica,impost d’activitats econòmiques i impost de béns immobles.",
+        "isCorrect": false,
+        "rationale": "Aquests són els impostos obligatoris municipals, però no els potestatius."
+      },
+      {
+        "text": "c) Impost sobre l’increment dels terrenys de naturalesa urbana i impost de construccions instal·lacions i obres.",
+        "isCorrect": true,
+        "rationale": "L’IIVTNU i l’ICIO són els principals impostos municipals de caràcter potestatiu."
+      },
+      {
+        "text": "d) Impost de vehicles de tracció mecànica,impost sobre l’increment dels terrenys de naturalesa urbana i impost de construccions instal·lacions i obres.",
+        "isCorrect": false,
+        "rationale": "Inclou un impost obligatori (IVTM) juntament amb impostos potestatius."
+      }
+    ]
+  },
+  {
+    "guid": "3b42d077-b5dd-4c1e-80c2-14cdfd9aea3a",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2020.pdf",
+    "type": "test",
+    "question": "64. La potestat originària per establir els tributs propis dels municipis correspon:",
+    "hint": "La Constitució estableix una reserva de llei en matèria tributària. Els municipis disposen d'autonomia financera i poden establir i exigir tributs dins del marc legal, però no tenen potestat legislativa pròpia. La creació dels tributs i la regulació dels seus elements essencials correspon a l'òrgan constitucionalment habilitat per exercir la potestat tributària originària.",
+    "legalReference": [
+      "Art. 133 CE",
+      "Art. 106 TRLRHL"
+    ],
+    "examTrap": "És freqüent confondre la potestat reglamentària municipal amb la potestat tributària originària.",
+    "answerOptions": [
+      {
+        "text": "a) Al mateix municipi en virtut de la seva potestat reglamentària.",
+        "isCorrect": false,
+        "rationale": "Els municipis aproven ordenances fiscals, però no disposen de potestat tributària originària."
+      },
+      {
+        "text": "b) A la Diputació provincial.",
+        "isCorrect": false,
+        "rationale": "Les diputacions no tenen atribuïda la potestat originària de crear tributs municipals."
+      },
+      {
+        "text": "c) La potestat originària i exclusiva correspon a les comunitats autònomes.",
+        "isCorrect": false,
+        "rationale": "Les comunitats autònomes poden crear tributs propis dins dels límits constitucionals, però la potestat originària correspon a l'Estat."
+      },
+      {
+        "text": "d) La potestat originària per establir,mitjançant Llei,els tributs propis d’un municipi correspon a l’Estat.",
+        "isCorrect": true,
+        "rationale": "La Constitució atribueix a l'Estat la potestat originària per establir tributs mitjançant llei."
+      }
+    ]
+  },
+  {
+    "guid": "5cc325de-b2cf-432d-b17b-b6ea82be9b67",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "A1-2020.pdf",
+    "type": "test",
+    "question": "65. L’estructura de la informació dels pressupostos a la què han d’ajustar-se les entitats locals a efectes del compliment de les seves obligacions de remissió d’aquesta informació correspon establir-la:",
+    "hint": "Els pressupostos locals han de seguir una estructura homogènia per permetre la comparabilitat, el control financer, la consolidació comptable i la remissió d'informació a altres administracions i òrgans de control. Aquesta estructura determina la classificació econòmica dels ingressos i de les despeses, així com la classificació funcional o per programes. No és una qüestió que cada entitat local pugui decidir lliurement, ja que la uniformitat és imprescindible per a la coordinació de la informació financera del conjunt del sector públic local.",
+    "legalReference": [
+      "Art. 165 TRLRHL",
+      "Art. 167 TRLRHL"
+    ],
+    "examTrap": "L'error habitual és pensar que l'autonomia local implica poder definir l'estructura pressupostària. L'autonomia afecta la gestió del pressupost, però no la seva estructura normalitzada.",
+    "answerOptions": [
+      {
+        "text": "a) A la mateixa entitat local.",
+        "isCorrect": false,
+        "rationale": "Les entitats locals elaboren i executen els seus pressupostos però no poden establir lliurement l'estructura pressupostària oficial exigible per a la remissió d'informació."
+      },
+      {
+        "text": "b) Al Ministeri d’Hisenda i Administracions Públiques.",
+        "isCorrect": true,
+        "rationale": "La normativa atribueix a l'Administració de l'Estat competent en matèria d'hisenda l'establiment de l'estructura pressupostària comuna que han de seguir les entitats locals."
+      },
+      {
+        "text": "c) A la comunitat autònoma.",
+        "isCorrect": false,
+        "rationale": "Les comunitats autònomes poden exercir funcions de tutela financera en determinats supòsits, però no són les responsables de definir l'estructura pressupostària general."
+      },
+      {
+        "text": "d) Al Tribunal de Comptes autonòmic.",
+        "isCorrect": false,
+        "rationale": "Els òrgans de fiscalització controlen la gestió econòmica i pressupostària, però no estableixen l'estructura oficial dels pressupostos."
+      }
+    ]
+  },
+  {
+    "guid": "b4c60be3-0cb8-4acc-b7ef-a806624d4248",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2020.pdf",
+    "type": "test",
+    "question": "66. Quina de les afirmacions següents correspon a un principi de tributació local?",
+    "hint": "L'autonomia financera dels ens locals es troba limitada per diversos principis destinats a preservar la coherència del sistema tributari. Entre ells destaca la territorialitat, que impedeix que una entitat local gravi situacions econòmiques sense connexió amb el seu àmbit territorial. Aquest principi evita duplicitats impositives, conflictes competencials i excessos en l'exercici de la potestat tributària local. Per respondre aquesta pregunta cal identificar l'afirmació que respecta aquesta vinculació territorial.",
+    "legalReference": [
+      "Art. 6 TRLRHL",
+      "Art. 137 CE",
+      "Art. 142 CE"
+    ],
+    "examTrap": "Les opcions incorrectes juguen amb la idea de gravar fets o situacions situades fora del municipi, cosa incompatible amb la territorialitat tributària.",
+    "answerOptions": [
+      {
+        "text": "a) Aplicar impediments al gravamen dels fets imposables realitzats als municipis més pròxims al de la imposició.",
+        "isCorrect": false,
+        "rationale": "La normativa no defineix la territorialitat mitjançant limitacions als municipis veïns, sinó mitjançant la vinculació del fet imposable amb el territori de l'entitat local."
+      },
+      {
+        "text": "b) No sotmetre a gravamen béns situats,activitats desenvolupades,rendiments originats ni despeses realitzades fora del territori de la respectiva entitat.",
+        "isCorrect": true,
+        "rationale": "Aquest és el contingut essencial del principi de territorialitat: l'entitat local només pot gravar fets amb connexió efectiva amb el seu territori."
+      },
+      {
+        "text": "c) Gravar només els ingressos de dret privat meritats en el territori de la respectiva entitat.",
+        "isCorrect": false,
+        "rationale": "Els ingressos de dret privat no defineixen el principi de territorialitat ni constitueixen el criteri general dels tributs locals."
+      },
+      {
+        "text": "d) Sotmetre a gravamen béns situats,activitats desenvolupades,rendiments originats i despeses realitzades fora del territori de la respectiva entitat.",
+        "isCorrect": false,
+        "rationale": "Aquesta afirmació contradiu directament el principi de territorialitat i excediria les competències de l'entitat local."
+      }
+    ]
+  },
+  {
+    "guid": "581e4c04-2b1f-463a-9d29-aed837f75204",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "2023_278_OP_3pl_TM_del_SPCPEIS_Questionari_Solucionari_Temari_General.pdf",
+    "type": "test",
+    "question": "31. Són impostos locals obligatoris:",
+    "hint": "El sistema tributari municipal inclou impostos obligatoris i impostos potestatius. Els obligatoris han de ser exigits per tots els municipis sense necessitat d'acord d'imposició, mentre que els potestatius només existeixen si l'ajuntament decideix establir-los mitjançant la corresponent ordenança fiscal. Per resoldre correctament aquesta pregunta cal identificar quins impostos formen part del grup obligatori i distingir-los dels impostos potestatius o dels impostos estatals.",
+    "legalReference": [
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "L'ICIO i l'IIVTNU apareixen sovint en exàmens perquè molts opositors els confonen amb impostos obligatoris quan en realitat són potestatius.",
+    "answerOptions": [
+      {
+        "text": "Impost sobre les activitats econòmiques.",
+        "isCorrect": true,
+        "rationale": "L'IAE és un dels tres impostos municipals obligatoris juntament amb l'IBI i l'IVTM."
+      },
+      {
+        "text": "Impost sobre construccions, instal·lacions i obres.",
+        "isCorrect": false,
+        "rationale": "L'ICIO és un impost potestatiu que només existeix si l'ajuntament acorda establir-lo."
+      },
+      {
+        "text": "Impost sobre l’increment de valor dels terrenys de naturalesa urbana.",
+        "isCorrect": false,
+        "rationale": "L'IIVTNU és també un impost potestatiu i no forma part del grup d'impostos obligatoris municipals."
+      },
+      {
+        "text": "Impost sobre el valor afegit.",
+        "isCorrect": false,
+        "rationale": "L'IVA és un impost estatal indirecte i no un tribut municipal."
+      }
+    ]
+  },
+  {
+    "guid": "af332ffa-dc7e-4760-8887-f9a219975472",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "2023_278_OP_3pl_TM_del_SPCPEIS_Questionari_Solucionari_Temari_General.pdf",
+    "type": "test",
+    "question": "32. La percepció econòmica que poden establir els ens locals per la utilització privativa o l'aprofitament especial del domini públic local es coneix com:",
+    "hint": "La classificació dels tributs es basa en el fet imposable que origina l'obligació de pagament. Quan una persona fa un ús exclusiu o especialment intens d'un bé de domini públic, obté una utilitat individualitzada que la diferencia de la resta de ciutadans. L'ordenament jurídic preveu una figura específica per gravar aquesta situació, diferent dels impostos i també diferent dels ingressos no tributaris associats a serveis voluntaris.",
+    "legalReference": [
+      "Art. 20 TRLRHL",
+      "Art. 2.2.a LGT"
+    ],
+    "examTrap": "La resposta més temptadora acostuma a ser 'preu públic' perquè també implica un pagament, però els preus públics no poden exigir-se per l'ús privatiu del domini públic.",
+    "answerOptions": [
+      {
+        "text": "Impost.",
+        "isCorrect": false,
+        "rationale": "Els impostos es fonamenten en manifestacions de capacitat econòmica i no en l'ús singularitzat del domini públic."
+      },
+      {
+        "text": "Preu públic.",
+        "isCorrect": false,
+        "rationale": "Els preus públics s'apliquen a serveis o activitats voluntàries i no a l'ocupació o aprofitament especial del domini públic."
+      },
+      {
+        "text": "Taxa.",
+        "isCorrect": true,
+        "rationale": "La utilització privativa o l'aprofitament especial del domini públic constitueix un dels fets imposables típics de les taxes."
+      },
+      {
+        "text": "Prestacions patrimonials de caràcter públic no tributari.",
+        "isCorrect": false,
+        "rationale": "Aquestes prestacions constitueixen una categoria jurídica diferent i no són la figura prevista pel TRLRHL per a aquest supòsit."
+      }
+    ]
+  },
+  {
+    "guid": "1a167ba2-0a02-45e0-a709-34b5c3dca5b3",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+    "type": "test",
+    "question": "31. L'import de les taxes previstes per la utilització privativa o l'aprofitament especial del domini públic local es fixarà:",
+    "hint": "La determinació de la quantia de les taxes varia segons el fet imposable. Quan es tracta de serveis o activitats administratives, la referència principal és el cost del servei. En canvi, quan la taxa deriva de l'ocupació o aprofitament especial del domini públic, el criteri legal és diferent. La normativa exigeix aproximar-se al valor econòmic de la utilitat obtinguda pel particular i justificar-lo mitjançant memòries economicofinanceres o informes tècnics adequats.",
+    "legalReference": [
+      "Art. 24.1.a TRLRHL",
+      "Art. 25 TRLRHL"
+    ],
+    "examTrap": "Molts opositors confonen el règim de quantificació de les taxes per serveis amb el de les taxes per aprofitament del domini públic.",
+    "answerOptions": [
+      {
+        "text": "Amb caràcter general, prenent com a referència el valor que tindria en el mercat la utilitat derivada de dita utilització o aprofitament, si els béns afectats no fossin de domini públic.",
+        "isCorrect": true,
+        "rationale": "Aquest és el criteri legal general establert per a les taxes derivades de la utilització privativa o l'aprofitament especial del domini públic."
+      },
+      {
+        "text": "L'1% dels ingressos bruts procedents de la facturació que obtinguin anualment les entitats locals per la utilització dels béns afectats.",
+        "isCorrect": false,
+        "rationale": "El percentatge legal especial aplicable a determinades empreses subministradores no és aquest i tampoc constitueix la regla general."
+      },
+      {
+        "text": "L'import estimat per aconseguir un equilibri pressupostari.",
+        "isCorrect": false,
+        "rationale": "L'equilibri pressupostari és un principi financer, però no el criteri jurídic per calcular aquest tipus de taxa."
+      },
+      {
+        "text": "Aplicant un increment del 5% sobre el cost real o previsible del servei o activitat de què se tracti o, en el seu defecte, del valor de la prestació rebuda.",
+        "isCorrect": false,
+        "rationale": "La normativa no preveu aquest sistema de càlcul i, a més, barreja criteris aplicables a altres tipus de taxes."
+      }
+    ]
+  },
+  {
+    "guid": "86c4cf76-ac3f-4f38-b5e7-3cb99325630c",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+    "type": "test",
+    "question": "32. L'import que s'ha d'abonar per l'obtenció pel subjecte passiu d'un benefici o d'un augment de valor dels seus béns com a conseqüència de la realització d'obres públiques o de l'establiment o ampliació de serveis públics, de caràcter local, per les entitats respectives és:",
+    "hint": "Les entitats locals disposen de diversos instruments de finançament amb naturalesa jurídica diferenciada. Una d'aquestes figures es caracteritza perquè només es pot exigir quan una actuació pública genera un benefici individualitzable o un increment patrimonial especial per a determinades persones. No es tracta d'una contraprestació per un servei administratiu concret ni tampoc d'una sanció. La seva justificació resideix en el fet que determinats contribuents obtenen un avantatge específic derivat d'una obra pública o d'un servei públic que no afecta de la mateixa manera a tota la col·lectivitat. La normativa també exigeix que el benefici sigui identificable i susceptible de quantificació.",
+    "legalReference": [
+      "Art. 28 TRLRHL",
+      "Art. 29 TRLRHL",
+      "Art. 2.2.b LGT"
+    ],
+    "examTrap": "La principal trampa és confondre aquesta figura amb les taxes. Les taxes es basen en l'ús del domini públic o en la prestació d'un servei; aquí la clau és el benefici especial o l'augment de valor.",
+    "answerOptions": [
+      {
+        "text": "Taxa.",
+        "isCorrect": false,
+        "rationale": "Les taxes tenen com a fet imposable la utilització privativa del domini públic o la prestació de serveis i activitats administratives. El benefici especial derivat d'una obra pública no constitueix el seu fonament jurídic."
+      },
+      {
+        "text": "Contribució especial.",
+        "isCorrect": true,
+        "rationale": "Les contribucions especials són els tributs exigibles quan una obra pública o un servei públic genera un benefici especial o un augment de valor dels béns dels contribuents afectats."
+      },
+      {
+        "text": "Subvenció.",
+        "isCorrect": false,
+        "rationale": "La subvenció és una aportació econòmica de l'administració a favor d'un beneficiari. No és un tribut ni una obligació de pagament imposada a particulars."
+      },
+      {
+        "text": "Multa.",
+        "isCorrect": false,
+        "rationale": "La multa té caràcter sancionador i deriva de la comissió d'una infracció. No guarda relació amb el finançament d'obres o serveis públics."
+      }
+    ]
+  },
+  {
+    "guid": "6641ede9-662e-4495-aae5-65672a7d852e",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+    "type": "test",
+    "question": "33. Quina afirmació és CORRECTA en relació als preus públics?",
+    "hint": "Els preus públics formen part dels ingressos locals no tributaris. Només es poden exigir quan es tracta de serveis o activitats de recepció voluntària i que poden ser prestats també pel sector privat. Es diferencien clarament de les taxes perquè no existeix una situació de coacció jurídica per a l'usuari. La seva regulació busca evitar que l'administració competeixi de forma deslleial amb el mercat privat i, per aquest motiu, la normativa imposa determinades regles sobre la quantia mínima que han de tenir. Només en supòsits excepcionals de caràcter social, cultural o d'interès públic es permet establir imports inferiors.",
+    "legalReference": [
+      "Art. 41 TRLRHL",
+      "Art. 44 TRLRHL"
+    ],
+    "examTrap": "Molts opositors recorden que les taxes no poden superar el cost del servei i traslladen erròniament aquesta regla als preus públics. En els preus públics el cost actua, amb caràcter general, com a mínim.",
+    "answerOptions": [
+      {
+        "text": "Totes les persones del municipi estaran obligades al pagament dels preus públics de forma lineal.",
+        "isCorrect": false,
+        "rationale": "Els preus públics només són exigibles als usuaris que decideixen voluntàriament utilitzar el servei o activitat corresponent."
+      },
+      {
+        "text": "Les entitats locals podran establir preus públics per la prestació de tots els seus serveis.",
+        "isCorrect": false,
+        "rationale": "Només es poden establir preus públics en serveis voluntaris i susceptibles de ser prestats pel sector privat. Molts serveis públics queden fora d'aquest règim."
+      },
+      {
+        "text": "L'import dels preus públics haurà de cobrir com a mínim el cost del servei prestat o de l'activitat realitzada.",
+        "isCorrect": true,
+        "rationale": "La regla general és que la quantia del preu públic cobreixi almenys el cost del servei o activitat. Només hi ha excepcions justificades per raons socials, culturals o d'interès públic."
+      },
+      {
+        "text": "Las entitats locals no podran exigir els preus públics en règim d'autoliquidació.",
+        "isCorrect": false,
+        "rationale": "La normativa no conté aquesta prohibició general i permet diferents sistemes de gestió i cobrament."
+      }
+    ]
+  },
+  {
+    "guid": "2cbf7e0c-fae6-4e0f-9740-cf1e142796c5",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+    "type": "test",
+    "question": "34. Quin principi ha de regir l'elaboració dels pressupostos locals?",
+    "hint": "La gestió econòmica de les entitats locals està sotmesa a diversos principis pressupostaris orientats a garantir la sostenibilitat i l'equilibri financer de les administracions públiques. La normativa moderna va reforçar especialment les exigències de control del dèficit públic i de sostenibilitat financera, exigint que la planificació pressupostària es desenvolupi dins d'uns marges compatibles amb l'estabilitat de les finances públiques. Aquest principi actua tant en la fase d'elaboració com en l'execució i control dels pressupostos.",
+    "legalReference": [
+      "LOEPSF",
+      "Art. 135 CE"
+    ],
+    "examTrap": "Les respostes incorrectes són conceptes administratius genèrics que poden semblar plausibles però que no formen part dels principis pressupostaris reconeguts legalment.",
+    "answerOptions": [
+      {
+        "text": "Principi d'arbitrarietat.",
+        "isCorrect": false,
+        "rationale": "L'activitat administrativa està sotmesa al principi de legalitat i no pot fonamentar-se en decisions arbitràries."
+      },
+      {
+        "text": "Principi d'estabilitat pressupostària.",
+        "isCorrect": true,
+        "rationale": "És un dels principis fonamentals que regeixen l'activitat pressupostària de totes les administracions públiques."
+      },
+      {
+        "text": "Principi de discrecionalitat.",
+        "isCorrect": false,
+        "rationale": "La discrecionalitat administrativa no constitueix un principi pressupostari configurador del sistema financer públic."
+      },
+      {
+        "text": "Principi de centralització.",
+        "isCorrect": false,
+        "rationale": "El règim local es basa en l'autonomia financera de les entitats locals i no en un principi general de centralització."
+      }
+    ]
+  },
+  {
+    "guid": "ac2d43fc-631e-47df-b2b8-8475066aa15e",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+    "type": "test",
+    "question": "35. Segons el Reial decret legislatiu 2/2004, de 5 de març, pel qual s'aprova el text refós de la Llei reguladora de les hisendes locals (TRLRHL), quins són els elements essencials del pressupost municipal?",
+    "hint": "El pressupost local és l'instrument bàsic de planificació econòmica de l'entitat local. La seva funció consisteix a autoritzar les despeses que es podran reconèixer durant l'exercici i a preveure els recursos necessaris per finançar-les. La normativa li atribueix caràcter anual i exigeix que reflecteixi de manera xifrada i sistemàtica les obligacions i drets econòmics previstos. No es limita a determinades àrees materials ni constitueix una simple previsió estratègica a llarg termini.",
+    "legalReference": [
+      "Art. 162 TRLRHL",
+      "Art. 164 TRLRHL"
+    ],
+    "examTrap": "L'examen sol intentar substituir la definició legal del pressupost per conceptes de planificació econòmica plurianual o per àrees sectorials concretes.",
+    "answerOptions": [
+      {
+        "text": "Únicament les despeses en serveis socials i medi ambient.",
+        "isCorrect": false,
+        "rationale": "El pressupost comprèn el conjunt dels ingressos i de les despeses de l'entitat local, no únicament determinades polítiques públiques."
+      },
+      {
+        "text": "Els ingressos i despeses previstos per un exercici econòmic anual.",
+        "isCorrect": true,
+        "rationale": "Aquesta opció recull correctament el caràcter anual del pressupost i el seu contingut essencial d'ingressos i despeses."
+      },
+      {
+        "text": "Els ingressos de patrocinis privats i les donacions rebudes.",
+        "isCorrect": false,
+        "rationale": "Aquests conceptes poden formar part dels ingressos, però no defineixen els elements essencials del pressupost."
+      },
+      {
+        "text": "Les previsions econòmiques per als propers cinc anys.",
+        "isCorrect": false,
+        "rationale": "El pressupost és anual, encara que existeixin instruments complementaris de planificació plurianual."
+      }
+    ]
+  },
+  {
+    "guid": "0d4b2d99-ed17-4a66-87c9-57eccda8e422",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+    "type": "test",
+    "question": "45. Quina finalitat tenen les ordenances fiscals segons el Reial decret legislatiu 2/2004, de 5 de març, pel qual s'aprova el text refós de la Llei reguladora de les hisendes locals (TRLRHL)?",
+    "hint": "Els municipis no tenen potestat legislativa pròpia per crear tributs fora dels marges fixats per l'Estat. Tot i això, disposen de potestat reglamentària per adaptar l'aplicació dels tributs locals a les circumstàncies concretes de cada municipi. Aquesta funció es materialitza a través d'unes normes aprovades pel ple municipal que desenvolupen aspectes essencials de la gestió tributària, sempre dins dels límits establerts pel TRLRHL i per la resta de normativa aplicable.",
+    "legalReference": [
+      "Art. 106 TRLRHL",
+      "Art. 12 TRLRHL",
+      "Art. 133 CE"
+    ],
+    "examTrap": "És freqüent confondre les ordenances fiscals amb normes pressupostàries o d'organització municipal. La seva funció se centra en la regulació dels tributs.",
+    "answerOptions": [
+      {
+        "text": "Regular els tributs locals en els seus elements essencials.",
+        "isCorrect": true,
+        "rationale": "Les ordenances fiscals desenvolupen i concreten la regulació dels tributs locals dins del marge que permet la llei."
+      },
+      {
+        "text": "Autoritzar despeses que superin el pressupost anual aprovat.",
+        "isCorrect": false,
+        "rationale": "La gestió de les despeses i dels crèdits pressupostaris pertany a l'àmbit pressupostari i no a les ordenances fiscals."
+      },
+      {
+        "text": "Assignar responsabilitats patrimonials als membres de l'ajuntament.",
+        "isCorrect": false,
+        "rationale": "La responsabilitat patrimonial dels càrrecs públics es regula per altres normes administratives."
+      },
+      {
+        "text": "Determinar les bases per a la creacio d'entitats supramunicipals.",
+        "isCorrect": false,
+        "rationale": "Les entitats supramunicipals formen part de l'organització territorial i institucional, no de la regulació tributària."
+      }
+    ]
+  },
+  {
+    "guid": "2f64e2a8-dcf7-4ca6-a138-4e910f123e9c",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "44. La base imposable de les contribucions especials, està constituïda:",
+    "hint": "Les contribucions especials permeten a les entitats locals repercutir una part del cost d'una actuació pública sobre les persones especialment beneficiades. No obstant això, la llei estableix límits per evitar que els beneficiaris assumeixin la totalitat de la despesa suportada per l'ajuntament. Per determinar la base imposable cal identificar quin és el cost computable de l'actuació i quin és el percentatge màxim que pot integrar-se en el repartiment entre els subjectes passius. També és important recordar que dins del cost poden incloure's determinats conceptes associats a l'execució de l'obra o a la implantació del servei, i no únicament el cost material directe.",
+    "legalReference": [
+      "Art. 31 TRLRHL",
+      "Art. 32 TRLRHL"
+    ],
+    "examTrap": "La trampa habitual consisteix a confondre el cost total de l'actuació amb la base imposable o a recordar incorrectament el percentatge màxim legal.",
+    "answerOptions": [
+      {
+        "text": "A. Pel 70%,com a màxim,del cost que l’Ajuntament suporti per a la realització de les obres o per a l’establiment o ampliació dels serveis.",
+        "isCorrect": false,
+        "rationale": "La normativa estableix un límit màxim superior al 70%. Aquesta xifra no coincideix amb el percentatge fixat pel TRLRHL."
+      },
+      {
+        "text": "B. Únicament per l’import de les obres a realitzar o dels treballs de l’establiment o ampliació dels serveis.",
+        "isCorrect": false,
+        "rationale": "La base imposable no es limita exclusivament al cost material de les obres o serveis, sinó que pot incloure altres conceptes legalment computables."
+      },
+      {
+        "text": "C. Pel 90%,com a màxim,del cost que l’Ajuntament suporti per a la realització de les obres o per a l’establiment o ampliació dels serveis.",
+        "isCorrect": true,
+        "rationale": "L'article 31 del TRLRHL fixa que la base imposable de les contribucions especials estarà constituïda, com a màxim, pel 90% del cost suportat per l'entitat local."
+      },
+      {
+        "text": "D. Únicament per les indemnitzacions que resultin procedents als arrendataris/àries dels béns que hagin de ser ocupats.",
+        "isCorrect": false,
+        "rationale": "Les indemnitzacions poden formar part dels costos computables de l'actuació, però no constitueixen per si soles la base imposable."
+      }
+    ]
+  },
+  {
+    "guid": "6f801a80-6cb6-4097-9781-28416448922e",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "45. En quina/quines matèria/es el Decret legislatiu 2/2004 atribueix als municipis el poder de delegar les funcions dels seus propis tributs a la comunitat autònoma o altres ens locals?",
+    "hint": "La titularitat dels tributs locals correspon als municipis, però la normativa permet que determinades funcions relacionades amb la seva aplicació siguin exercides per altres administracions o ens públics. Aquesta possibilitat pretén millorar l'eficiència administrativa, especialment en municipis amb recursos limitats. La delegació pot afectar diverses fases del procediment tributari, des de les actuacions de determinació del deute fins a les tasques de comprovació i cobrament. Per respondre correctament cal identificar l'abast complet de les funcions que el legislador considera delegables.",
+    "legalReference": [
+      "Art. 7 TRLRHL"
+    ],
+    "examTrap": "Molts opositors recorden només la recaptació perquè és la delegació més freqüent a les diputacions, però la llei permet delegar un conjunt molt més ampli de funcions.",
+    "answerOptions": [
+      {
+        "text": "A. Es poden delegar les funcions de gestió,liquidació,inspecció i recaptació.",
+        "isCorrect": true,
+        "rationale": "L'article 7 del TRLRHL permet delegar les funcions de gestió, liquidació, inspecció i recaptació dels tributs locals."
+      },
+      {
+        "text": "B. Únicament es poden delegar les funcions de gestió i liquidació.",
+        "isCorrect": false,
+        "rationale": "La delegació no queda limitada a aquestes funcions, ja que la inspecció i la recaptació també poden ser objecte de delegació."
+      },
+      {
+        "text": "C. Únicament es pot delegar la funció de la inspecció.",
+        "isCorrect": false,
+        "rationale": "La inspecció és delegable, però no és l'única funció prevista per la normativa."
+      },
+      {
+        "text": "D. Únicament es pot delegar la funció de la recaptació.",
+        "isCorrect": false,
+        "rationale": "La recaptació és una de les funcions delegables, però la llei inclou també la gestió, la liquidació i la inspecció."
+      }
+    ]
+  },
+  {
+    "guid": "d4a53da3-d01e-4476-95d7-dbbc4dd49594",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "46. Les operacions de capital dels Pressupostos de les entitats locals es recullen en:",
+    "hint": "L'estructura econòmica dels pressupostos locals classifica les despeses i els ingressos segons la seva naturalesa. Aquesta classificació permet distingir entre operacions corrents, operacions de capital i operacions financeres. Les operacions de capital estan relacionades principalment amb l'adquisició, creació o transferència de béns de caràcter durador, així com amb les aportacions destinades a finançar inversions. Per resoldre la pregunta és necessari conèixer l'ordenació dels capítols pressupostaris segons la classificació econòmica oficial.",
+    "legalReference": [
+      "Ordre EHA/3565/2008",
+      "Estructura econòmica pressupostària local"
+    ],
+    "examTrap": "Els exàmens acostumen a barrejar operacions de capital amb operacions financeres perquè totes dues apareixen a la part final de la classificació econòmica.",
+    "answerOptions": [
+      {
+        "text": "A. Els capítols 1 i 2.",
+        "isCorrect": false,
+        "rationale": "Els capítols 1 i 2 corresponen a despeses de personal i a despeses corrents en béns i serveis."
+      },
+      {
+        "text": "B. Els capítols 3,4 i 5.",
+        "isCorrect": false,
+        "rationale": "Aquests capítols agrupen despeses financeres, transferències corrents i altres partides de naturalesa corrent."
+      },
+      {
+        "text": "C. Els capítols 8 i 9.",
+        "isCorrect": false,
+        "rationale": "Els capítols 8 i 9 recullen operacions financeres relacionades amb actius i passius financers."
+      },
+      {
+        "text": "D. Els capítols 6 i 7.",
+        "isCorrect": true,
+        "rationale": "Els capítols 6 i 7 corresponen a inversions reals i transferències de capital, que constitueixen les operacions de capital."
+      }
+    ]
+  },
+  {
+    "guid": "7f2d70a1-3ab4-4930-8b19-e68cf88ba8f8",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "47. D’acord amb l’article 164 de la Llei d’hisendes locals, l'exercici pressupostari:",
+    "hint": "La normativa pressupostària local està construïda sobre el principi d'anualitat. Tot pressupost s'elabora, s'executa i es liquida dins d'un període temporal predeterminat que serveix de referència per al reconeixement de drets i obligacions. Encara que existeixin mecanismes de pròrroga pressupostària quan no s'aprova un nou pressupost dins del termini legal, aquests mecanismes no alteren la definició jurídica de l'exercici pressupostari ni la seva durada ordinària.",
+    "legalReference": [
+      "Art. 164 TRLRHL",
+      "Principi d'anualitat pressupostària"
+    ],
+    "examTrap": "La confusió més habitual és barrejar la vigència material d'un pressupost prorrogat amb la definició legal de l'exercici pressupostari.",
+    "answerOptions": [
+      {
+        "text": "A. Tindrà vigència durant un any a comptar des de l’endemà de la darrera publicació del pressupost,un cop hagi estat definitivament aprovat.",
+        "isCorrect": false,
+        "rationale": "La durada de l'exercici pressupostari no es calcula a partir de la publicació del pressupost."
+      },
+      {
+        "text": "B. Coincidirà amb l’any natural.",
+        "isCorrect": true,
+        "rationale": "El TRLRHL estableix expressament que l'exercici pressupostari coincideix amb l'any natural."
+      },
+      {
+        "text": "C. Tindrà vigència durant un any a comptar des de l’endemà de la seva aprovació definitiva.",
+        "isCorrect": false,
+        "rationale": "La definició legal no vincula la durada de l'exercici a la data concreta d'aprovació."
+      },
+      {
+        "text": "D. Coincidirà amb la vigència del pressupost aprovat més,si s’escau,la de la seva pròrroga.",
+        "isCorrect": false,
+        "rationale": "La pròrroga pressupostària no modifica la definició legal de l'exercici pressupostari."
+      }
+    ]
+  },
+  {
+    "guid": "61d1c3d4-4ee8-4a5a-9edc-7d9495a2ccea",
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "48. El pressupost general ha de contenir, per a cadascun dels pressupostos que s’hi integrin:",
+    "hint": "El pressupost general d'una entitat local integra diversos documents que permeten planificar i controlar la seva activitat economicofinancera. La legislació no exigeix únicament la previsió de recursos i obligacions, sinó també unes normes internes que facilitin la seva correcta execució durant l'exercici. Aquest contingut mínim és obligatori per a cadascun dels pressupostos que formen part del pressupost general i constitueix una de les preguntes clàssiques dels exàmens sobre hisendes locals.",
+    "legalReference": [
+      "Art. 165 TRLRHL"
+    ],
+    "examTrap": "La resposta incorrecta més habitual és oblidar les bases d'execució i quedar-se únicament amb els estats d'ingressos i despeses.",
+    "answerOptions": [
+      {
+        "text": "A. Els estats de despeses sense especificar els crèdits necessaris per atendre el compliment de les obligacions.",
+        "isCorrect": false,
+        "rationale": "Els crèdits pressupostaris constitueixen un element essencial dels estats de despeses i han d'estar adequadament detallats."
+      },
+      {
+        "text": "B. Els estats de despeses,d'ingressos i les bases d'execució.",
+        "isCorrect": true,
+        "rationale": "L'article 165 del TRLRHL estableix que aquest és el contingut mínim obligatori dels pressupostos integrats en el pressupost general."
+      },
+      {
+        "text": "C. Els estats d’ingressos en què han de figurar les estimacions dels recursos econòmics a liquidar durant un termini de quatre anys.",
+        "isCorrect": false,
+        "rationale": "El pressupost és anual i les seves previsions econòmiques se circumscriuen a l'exercici corresponent."
+      },
+      {
+        "text": "D. Únicament els estats de despeses i ingressos.",
+        "isCorrect": false,
+        "rationale": "La llei exigeix també la inclusió de les bases d'execució pressupostària."
+      }
+    ]
+  },
+  {
+    "guid": "753ed36b-93de-4c36-a7eb-4ae27d5f03e9",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "49. El càrrec que paga un usuari/ària en inscriure's en un taller en un centre cívic correspon a:",
+    "hint": "Els ingressos públics locals no tenen tots la mateixa naturalesa jurídica. Quan una administració ofereix activitats culturals, educatives, esportives o lúdiques de participació voluntària, la contraprestació econòmica exigida als usuaris segueix un règim diferent del dels tributs. La clau per identificar correctament la figura aplicable és determinar si l'activitat és voluntària, si existeixen alternatives al sector privat i si el ciutadà pot decidir lliurement participar-hi. Quan aquestes circumstàncies es compleixen, la normativa financera local preveu un instrument específic que no forma part de les categories tributàries tradicionals.",
+    "legalReference": [
+      "Art. 41 TRLRHL",
+      "Art. 44 TRLRHL"
+    ],
+    "examTrap": "Molts opositors marquen 'taxa' perquè hi ha un pagament a favor de l'ajuntament. La diferència decisiva és que la participació en el taller és voluntària i el servei podria prestar-lo també el sector privat.",
+    "answerOptions": [
+      {
+        "text": "A. Una taxa.",
+        "isCorrect": false,
+        "rationale": "Les taxes només poden exigir-se en supòsits legalment previstos, especialment quan existeix utilització del domini públic o serveis administratius no voluntaris. Un taller d'un centre cívic no encaixa en aquest supòsit."
+      },
+      {
+        "text": "B. Un impost directe.",
+        "isCorrect": false,
+        "rationale": "Els impostos directes graven manifestacions de capacitat econòmica, com la titularitat de béns o l'obtenció de renda, i no la participació en activitats municipals concretes."
+      },
+      {
+        "text": "C. Un preu públic.",
+        "isCorrect": true,
+        "rationale": "La participació en un taller de centre cívic és una activitat voluntària susceptible de ser prestada per entitats privades. Aquestes característiques encaixen plenament en el concepte de preu públic."
+      },
+      {
+        "text": "D. Una contribució especial.",
+        "isCorrect": false,
+        "rationale": "Les contribucions especials només poden exigir-se quan una obra pública o un servei públic genera un benefici especial o un augment de valor dels béns dels contribuents."
+      }
+    ]
+  },
+  {
+    "guid": "fd8a9e25-8383-454a-bda2-55d1074889ab",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "50. L’impost sobre béns immobles:",
+    "hint": "Dins dels impostos municipals existeix una figura que constitueix una de les principals fonts d'ingressos tributaris dels ajuntaments. Es tracta d'un impost de caràcter obligatori que grava determinats drets sobre immobles i que s'aplica sobre diverses categories de béns. Per respondre correctament aquesta pregunta és necessari distingir entre impostos obligatoris i potestatius, així com identificar exactament quin és el fet imposable que determina el naixement de l'obligació tributària en aquest impost.",
+    "legalReference": [
+      "Art. 60 TRLRHL",
+      "Art. 61 TRLRHL"
+    ],
+    "examTrap": "Les opcions incorrectes intenten confondre l'opositor barrejant la naturalesa obligatòria de l'impost amb l'àmbit dels béns rústics i urbans.",
+    "answerOptions": [
+      {
+        "text": "A. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles urbans i en cap cas sobre els béns immobles rústics.",
+        "isCorrect": false,
+        "rationale": "L'impost no és potestatiu i tampoc es limita als immobles urbans. La normativa inclou també els béns immobles rústics."
+      },
+      {
+        "text": "B. És un tribut d’exacció obligatòria per als ajuntaments,que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i en cap cas sobre els béns immobles urbans.",
+        "isCorrect": false,
+        "rationale": "Tot i que l'impost és obligatori, la descripció és incorrecta perquè exclou els immobles urbans, que formen part essencial del seu àmbit objectiu."
+      },
+      {
+        "text": "C. És un tribut d’exacció obligatòria per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.",
+        "isCorrect": true,
+        "rationale": "L'IBI és un impost municipal obligatori que grava la titularitat de determinats drets sobre béns immobles rústics i urbans, així com sobre immobles de característiques especials."
+      },
+      {
+        "text": "D. És un tribut d’exacció voluntària per als ajuntaments que té com a fet imposable la titularitat de determinats drets sobre béns immobles rústics i urbans.",
+        "isCorrect": false,
+        "rationale": "La descripció del fet imposable és parcialment correcta, però és erroni afirmar que es tracta d'un tribut potestatiu."
+      }
+    ]
+  },
+  {
+    "guid": "6e6f42de-f009-4dd7-917d-57d51d0fc576",
+    "subjectId": "T13",
+    "difficulty": 1,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "51. D'acord amb la Llei reguladora de les hisendes locals, són tributs propis:",
+    "hint": "Els recursos de les entitats locals poden tenir naturalesa tributària o no tributària. La classificació dels tributs és comuna a tot el sistema fiscal i es basa en la manera com es manifesta l'obligació de contribuir. Determinats ingressos públics, encara que siguin percebuts per l'administració, no tenen naturalesa tributària perquè deriven de sancions, activitats voluntàries, rendiments patrimonials o mecanismes de finançament extern. La pregunta exigeix identificar exclusivament les categories que la legislació considera veritables tributs.",
+    "legalReference": [
+      "Art. 2 LGT",
+      "Art. 2 TRLRHL"
+    ],
+    "examTrap": "La dificultat està a diferenciar entre 'ingrés públic' i 'tribut'. No tot el que ingressa l'ajuntament és un tribut.",
+    "answerOptions": [
+      {
+        "text": "A. Ingressos procedents del patrimoni municipal.",
+        "isCorrect": false,
+        "rationale": "Els ingressos patrimonials deriven de l'explotació o titularitat de béns i drets de l'entitat local i no tenen naturalesa tributària."
+      },
+      {
+        "text": "B. Impostos,taxes i contribucions especials.",
+        "isCorrect": true,
+        "rationale": "La legislació tributària classifica els tributs en impostos, taxes i contribucions especials. Aquestes són les tres categories tributàries reconegudes per la normativa."
+      },
+      {
+        "text": "C. Multes i preus públics.",
+        "isCorrect": false,
+        "rationale": "Les multes tenen naturalesa sancionadora i els preus públics constitueixen ingressos no tributaris derivats de serveis voluntaris."
+      },
+      {
+        "text": "D. Subvencions i operacions de crèdit.",
+        "isCorrect": false,
+        "rationale": "Les subvencions i les operacions de crèdit són instruments de finançament de les entitats locals, però no constitueixen tributs."
+      }
+    ]
+  },
+  {
+    "guid": "4dc6dbd2-e16f-4b41-a28d-01e1bf2f8490",
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "A1-2021.pdf",
+    "type": "test",
+    "question": "79. Els ajuntaments poden exigir el pagament d’un preu públic:",
+    "hint": "Els preus públics només poden utilitzar-se quan el servei o activitat és de recepció voluntària per a l'usuari i, a més, pot ser prestat pel sector privat. Aquesta doble exigència és essencial per distingir-los de les taxes. Els serveis públics obligatoris, les activitats administratives imposades per la llei o les actuacions vinculades a potestats públiques solen quedar fora del seu àmbit. La manera més fiable de resoldre aquest tipus de preguntes és analitzar si el ciutadà pot decidir lliurement utilitzar el servei i si existeixen alternatives fora de l'administració.",
+    "legalReference": [
+      "Art. 41 TRLRHL",
+      "Art. 42 TRLRHL"
+    ],
+    "examTrap": "L'examen acostuma a barrejar activitats culturals voluntàries amb serveis públics essencials o obligacions administratives sotmeses al règim de taxes.",
+    "answerOptions": [
+      {
+        "text": "A. Pel servei de recollida de residus sòlids urbans.",
+        "isCorrect": false,
+        "rationale": "La recollida de residus és un servei públic obligatori que no compleix els requisits propis dels preus públics i habitualment es finança mitjançant taxes."
+      },
+      {
+        "text": "B. Pels serveis de prevenció i extinció d’incendis.",
+        "isCorrect": false,
+        "rationale": "Es tracta d'un servei essencial d'interès general que no pot qualificar-se com a activitat voluntària susceptible de ser prestada lliurement pel sector privat."
+      },
+      {
+        "text": "C. Per l’entrada en un espectacle públic municipal.",
+        "isCorrect": true,
+        "rationale": "L'assistència a un espectacle és una activitat voluntària i existeixen alternatives al mercat privat, circumstàncies que justifiquen l'exigència d'un preu públic."
+      },
+      {
+        "text": "D. Per l’atorgament de llicències urbanístiques exigides per la Llei.",
+        "isCorrect": false,
+        "rationale": "Les llicències urbanístiques són activitats administratives obligatòries vinculades a potestats públiques i s'integren dins dels supòsits típics de les taxes."
+      }
+    ]
+  }
+]
