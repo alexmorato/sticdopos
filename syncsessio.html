@@ -269,8 +269,6 @@
 	<script>
 		(function () {
 			"use strict";
-
-			const SENSITIVE_KEY_RE = /(pass(word)?|pwd|secret|token|bearer|authorization|auth|apikey|api_key|sessionid|cookie)/i;
 			const searchInput = document.getElementById("searchInput");
 			const refreshBtn = document.getElementById("refreshBtn");
 			const copySelectedBtn = document.getElementById("copySelectedBtn");
@@ -300,7 +298,7 @@
 				);
 
 				for (const key of keysToInspect) {
-					if (SENSITIVE_KEY_RE.test(key)) {
+					if (typeof isSensitiveLocalStorageKey === "function" && isSensitiveLocalStorageKey(key)) {
 						hidden.push({ key, value: "" });
 						continue;
 					}

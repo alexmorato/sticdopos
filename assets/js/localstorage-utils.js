@@ -46,6 +46,20 @@ const LS_KEYS = {
   TTS_COLLAPSED_CARDS: 'sTICdOpos_tts_collapsedCards'
 };
 
+const LS_SENSITIVE_KEYS = Object.freeze(
+  [
+    LS_KEYS.USER_PASS
+  ]
+    .filter((keyValue) => typeof keyValue === 'string' && keyValue.trim() !== '')
+);
+
+function isSensitiveLocalStorageKey(storageKey) {
+  if (typeof storageKey !== 'string' || storageKey.trim() === '') return false;
+  return LS_SENSITIVE_KEYS.includes(storageKey);
+}
+
+
+
 // Método para borrar el estado guardado de estudio
 function borrarEstudioEnProgreso() {
   localStorage.removeItem(LS_KEYS.PREGUNTES_BARREJADES);
