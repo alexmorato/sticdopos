@@ -1,0 +1,1753 @@
+[
+  {
+  "subjectId": "T13",
+  "difficulty": 1,
+  "origin": "Generada",
+  "type": "test",
+  "question": "Quina de les següents categories forma part dels recursos de les entitats locals segons el TRLRHL?",
+  "hint": "Les entitats locals obtenen recursos econòmics de diverses fonts. A més dels ingressos tributaris, poden finançar-se mitjançant rendiments patrimonials, subvencions, participacions en tributs d'altres administracions i operacions financeres. El TRLRHL recull de forma sistemàtica totes aquestes categories dins del règim financer local.",
+  "legalReference": [
+    "Art. 2 TRLRHL"
+  ],
+  "examTrap": "Moltes preguntes intenten limitar els recursos locals només als tributs.",
+  "answerOptions": [
+    {
+      "text": "Només impostos i taxes.",
+      "isCorrect": false,
+      "rationale": "Els recursos locals no es limiten als tributs. El sistema financer local inclou moltes altres fonts de finançament."
+    },
+    {
+      "text": "Tributs propis, subvencions i operacions de crèdit, entre d'altres.",
+      "isCorrect": true,
+      "rationale": "L'article 2 del TRLRHL inclou tributs propis, participació en altres tributs, subvencions, preus públics, operacions de crèdit i ingressos patrimonials."
+    },
+    {
+      "text": "Només subvencions i transferències de l'Estat.",
+      "isCorrect": false,
+      "rationale": "Les subvencions només constitueixen una part dels recursos locals."
+    },
+    {
+      "text": "Només recursos procedents del patrimoni municipal.",
+      "isCorrect": false,
+      "rationale": "Els ingressos patrimonials són només una de les múltiples categories previstes per la normativa."
+    }
+  ]
+},
+
+{
+  "subjectId": "T13",
+  "difficulty": 1,
+  "origin": "Generada",
+  "type": "test",
+  "question": "Quina afirmació descriu millor una operació de crèdit en l'àmbit local?",
+  "hint": "No tots els ingressos municipals són definitius. Alguns impliquen l'obligació futura de retornar els fons obtinguts. Aquestes operacions permeten finançar determinades activitats o inversions, però generen endeutament i estan sotmeses a límits i requisits legals específics.",
+  "legalReference": [
+    "Art. 2 TRLRHL",
+    "Arts. 48 a 55 TRLRHL"
+  ],
+  "examTrap": "És habitual confondre una operació de crèdit amb una subvenció o amb un tribut.",
+  "answerOptions": [
+    {
+      "text": "És un tribut municipal.",
+      "isCorrect": false,
+      "rationale": "Els tributs constitueixen ingressos coactius, mentre que el crèdit implica endeutament."
+    },
+    {
+      "text": "És una subvenció finalista.",
+      "isCorrect": false,
+      "rationale": "La subvenció no genera obligació general de devolució."
+    },
+    {
+      "text": "És una forma de finançament basada en endeutament.",
+      "isCorrect": true,
+      "rationale": "Les operacions de crèdit permeten obtenir recursos financers amb obligació futura de devolució."
+    },
+    {
+      "text": "És un ingrés patrimonial.",
+      "isCorrect": false,
+      "rationale": "Els ingressos patrimonials deriven de béns i drets municipals, no de préstecs."
+    }
+  ]
+},
+
+{
+  "subjectId": "T13",
+  "difficulty": 2,
+  "origin": "Generada",
+  "type": "test",
+  "question": "Quina naturalesa tenen les subvencions rebudes per una entitat local?",
+  "hint": "Les subvencions formen part dels recursos econòmics de moltes administracions públiques. La seva finalitat és contribuir al finançament d'activitats, serveis o inversions i poden procedir d'altres administracions o institucions. No tenen caràcter tributari ni constitueixen endeutament.",
+  "legalReference": [
+    "Art. 2 TRLRHL",
+    "Llei General de Subvencions"
+  ],
+  "examTrap": "La presència d'ingressos públics porta alguns opositors a pensar erròniament que són tributs.",
+  "answerOptions": [
+    {
+      "text": "Tenen naturalesa tributària.",
+      "isCorrect": false,
+      "rationale": "Les subvencions no són tributs ni obligacions imposades als contribuents."
+    },
+    {
+      "text": "Constitueixen una font de finançament no tributària.",
+      "isCorrect": true,
+      "rationale": "Les subvencions són ingressos públics, però no tenen naturalesa tributària."
+    },
+    {
+      "text": "Són operacions de crèdit.",
+      "isCorrect": false,
+      "rationale": "No impliquen endeutament ni obligació general de devolució."
+    },
+    {
+      "text": "Són ingressos derivats d'impostos locals.",
+      "isCorrect": false,
+      "rationale": "No procedeixen de l'exercici de la potestat tributària municipal."
+    }
+  ]
+}
+,
+
+{
+  "subjectId": "T13",
+  "difficulty": 2,
+  "origin": "Generada",
+  "type": "test",
+  "question": "Els ingressos derivats del lloguer d'un immoble propietat de l'ajuntament tenen la consideració de:",
+  "hint": "Les entitats locals poden obtenir recursos gràcies a la titularitat i explotació dels seus béns i drets. Aquest tipus d'ingressos no deriven de l'exercici de potestats públiques ni de l'endeutament, sinó de relacions jurídiques patrimonials.",
+  "legalReference": [
+    "Art. 2 TRLRHL"
+  ],
+  "examTrap": "És freqüent confondre qualsevol cobrament municipal amb una taxa.",
+  "answerOptions": [
+    {
+      "text": "Taxa.",
+      "isCorrect": false,
+      "rationale": "No hi ha exercici de potestat tributària ni fet imposable tipificat."
+    },
+    {
+      "text": "Contribució especial.",
+      "isCorrect": false,
+      "rationale": "No existeix benefici especial vinculat a obres o serveis públics."
+    },
+    {
+      "text": "Ingrés patrimonial.",
+      "isCorrect": true,
+      "rationale": "Els rendiments derivats dels béns municipals constitueixen ingressos patrimonials."
+    },
+    {
+      "text": "Subvenció.",
+      "isCorrect": false,
+      "rationale": "L'ingrés procedeix del patrimoni municipal i no d'una altra administració."
+    }
+  ]
+},
+{
+  "subjectId": "T13",
+  "difficulty": 2,
+  "origin": "Generada",
+  "type": "test",
+  "question": "Quina de les següents fonts de finançament té naturalesa tributària?",
+  "hint": "Els tributs constitueixen una categoria específica d'ingressos públics caracteritzada per ser prestacions patrimonials exigides per una administració pública en virtut de la llei. Altres recursos, encara que ingressin al pressupost municipal, no comparteixen aquesta naturalesa jurídica.",
+  "legalReference": [
+    "Art. 2 LGT",
+    "Art. 2 TRLRHL"
+  ],
+  "examTrap": "La pregunta obliga a distingir entre ingressos tributaris i ingressos públics en general.",
+  "answerOptions": [
+    {
+      "text": "Subvenció.",
+      "isCorrect": false,
+      "rationale": "La subvenció és una aportació de finançament, però no és un tribut."
+    },
+    {
+      "text": "Operació de crèdit.",
+      "isCorrect": false,
+      "rationale": "L'endeutament no té naturalesa tributària."
+    },
+    {
+      "text": "Taxa.",
+      "isCorrect": true,
+      "rationale": "Les taxes formen part de les tres categories tributàries reconegudes per la LGT."
+    },
+    {
+      "text": "Ingrés patrimonial.",
+      "isCorrect": false,
+      "rationale": "Els rendiments patrimonials no són tributs."
+    }
+  ]
+},
+  {
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quina de les següents afirmacions sobre els recursos locals és correcta?",
+    "hint": "L'autonomia financera de les entitats locals es fonamenta en la disponibilitat de diverses fonts de finançament. El sistema previst pel TRLRHL no depèn exclusivament dels tributs propis, sinó que integra mecanismes complementaris que permeten garantir el finançament dels serveis públics locals. Una part dels recursos procedeix directament de la seva pròpia activitat tributària, mentre que altres tenen origen en transferències, patrimoni o endeutament.",
+    "legalReference": [
+      "Art. 2 TRLRHL"
+    ],
+    "examTrap": "És habitual pensar que els municipis només es financen amb impostos i taxes.",
+    "answerOptions": [
+      {
+        "text": "Els municipis només es financen mitjançant tributs propis.",
+        "isCorrect": false,
+        "rationale": "La normativa preveu nombroses fonts de finançament addicionals a la tributària."
+      },
+      {
+        "text": "Els recursos locals poden incloure ingressos tributaris i no tributaris.",
+        "isCorrect": true,
+        "rationale": "El sistema de recursos locals inclou tant tributs com subvencions, patrimoni, preus públics o operacions de crèdit."
+      },
+      {
+        "text": "Les operacions de crèdit són tributs.",
+        "isCorrect": false,
+        "rationale": "Les operacions de crèdit constitueixen una forma d'endeutament."
+      },
+      {
+        "text": "Els ingressos patrimonials tenen naturalesa tributària.",
+        "isCorrect": false,
+        "rationale": "Els ingressos patrimonials són recursos no tributaris."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "Generada",
+    "type": "test",
+    "question": "La participació dels municipis en els tributs de l'Estat constitueix:",
+    "hint": "Una part important del finançament local procedeix d'altres administracions públiques. Aquest mecanisme pretén garantir la suficiència financera municipal i compensar les diferències existents entre territoris quant a capacitat recaptatòria pròpia. Aquest recurs forma part del sistema ordinari de finançament local previst per la legislació.",
+    "legalReference": [
+      "Art. 2 TRLRHL",
+      "Art. 142 CE"
+    ],
+    "examTrap": "Alguns opositors la confonen amb una subvenció perquè l'import és transferit per una altra administració.",
+    "answerOptions": [
+      {
+        "text": "Una operació de crèdit.",
+        "isCorrect": false,
+        "rationale": "No existeix obligació de devolució per part del municipi."
+      },
+      {
+        "text": "Un tribut municipal.",
+        "isCorrect": false,
+        "rationale": "La recaptació no és obtinguda directament per l'ajuntament mitjançant potestat tributària pròpia."
+      },
+      {
+        "text": "Un recurs de les hisendes locals.",
+        "isCorrect": true,
+        "rationale": "La participació en tributs de l'Estat és una de les fonts de finançament expressament previstes al TRLRHL."
+      },
+      {
+        "text": "Un ingrés patrimonial.",
+        "isCorrect": false,
+        "rationale": "No deriva de béns o drets titularitat de l'entitat local."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quina de les següents opcions NO constitueix un recurs de les hisendes locals?",
+    "hint": "La normativa enumera de forma expressa les principals fonts de finançament de les entitats locals. Aquestes inclouen ingressos propis, participació en recursos d'altres administracions i instruments financers específics. Per identificar la resposta correcta resulta útil recordar quins ingressos corresponen realment a la hisenda local i quins pertanyen a altres nivells de govern.",
+    "legalReference": [
+      "Art. 2 TRLRHL"
+    ],
+    "examTrap": "La presència de tributs estatals com a distractors és molt freqüent en exàmens.",
+    "answerOptions": [
+      {
+        "text": "Tributs propis.",
+        "isCorrect": false,
+        "rationale": "Els tributs propis formen part dels recursos locals."
+      },
+      {
+        "text": "Subvencions.",
+        "isCorrect": false,
+        "rationale": "Les subvencions constitueixen una font de finançament local."
+      },
+      {
+        "text": "Operacions de crèdit.",
+        "isCorrect": false,
+        "rationale": "Les operacions de crèdit apareixen expressament entre els recursos locals."
+      },
+      {
+        "text": "Impost sobre la Renda de les Persones Físiques.",
+        "isCorrect": true,
+        "rationale": "L'IRPF és un tribut estatal i no forma part dels recursos propis de les entitats locals."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quina característica diferencia principalment una subvenció d'una operació de crèdit?",
+    "hint": "Totes dues figures poden proporcionar recursos econòmics a una entitat local, però la seva naturalesa jurídica és completament diferent. Mentre que una implica una transferència de fons destinada a finançar determinades actuacions, l'altra genera obligacions financeres futures per a l'entitat que la rep.",
+    "legalReference": [
+      "Art. 2 TRLRHL",
+      "Llei General de Subvencions"
+    ],
+    "examTrap": "La pregunta no compara imports sinó naturalesa jurídica.",
+    "answerOptions": [
+      {
+        "text": "La subvenció genera un deute exigible.",
+        "isCorrect": false,
+        "rationale": "La subvenció no genera amb caràcter general una obligació de devolució similar a la del préstec."
+      },
+      {
+        "text": "L'operació de crèdit obliga a la devolució dels fons obtinguts.",
+        "isCorrect": true,
+        "rationale": "El tret distintiu de les operacions de crèdit és l'existència d'una obligació futura de retorn."
+      },
+      {
+        "text": "La subvenció és un tribut local.",
+        "isCorrect": false,
+        "rationale": "Les subvencions no tenen naturalesa tributària."
+      },
+      {
+        "text": "No existeix cap diferència jurídica rellevant.",
+        "isCorrect": false,
+        "rationale": "La seva naturalesa jurídica és radicalment diferent."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Per què la participació en tributs de l'Estat té especial importància dins del sistema de finançament local?",
+    "hint": "L'autonomia local reconeguda constitucionalment s'ha de complementar amb la disponibilitat de recursos suficients. No tots els municipis tenen la mateixa capacitat recaptatòria ni la mateixa base econòmica. Per això, el sistema de finançament local incorpora mecanismes que permeten distribuir recursos procedents d'altres nivells de govern i reforçar la suficiència financera municipal.",
+    "legalReference": [
+      "Art. 142 CE",
+      "Art. 2 TRLRHL"
+    ],
+    "examTrap": "No és una qüestió de naturalesa tributària sinó de suficiència financera.",
+    "answerOptions": [
+      {
+        "text": "Perquè substitueix tots els impostos municipals.",
+        "isCorrect": false,
+        "rationale": "La participació en tributs estatals complementa, però no substitueix, els tributs propis."
+      },
+      {
+        "text": "Perquè garanteix recursos addicionals per al finançament local.",
+        "isCorrect": true,
+        "rationale": "Aquest mecanisme contribueix a la suficiència financera de les entitats locals."
+      },
+      {
+        "text": "Perquè converteix els municipis en titulars dels impostos estatals.",
+        "isCorrect": false,
+        "rationale": "La titularitat dels tributs estatals continua corresponent a l'Estat."
+      },
+      {
+        "text": "Perquè elimina la necessitat d'aprovar pressupostos.",
+        "isCorrect": false,
+        "rationale": "La participació en tributs estatals no altera les obligacions pressupostàries municipals."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quins són els impostos municipals d'exacció obligatòria segons el TRLRHL?",
+    "hint": "La normativa d'hisendes locals diferencia entre impostos que tots els municipis han d'exigir necessàriament i altres que només existeixen si l'ajuntament decideix establir-los. Aquesta classificació és una de les preguntes més recurrents en oposicions. És important memoritzar quines figures formen part del grup obligatori i distingir-les dels impostos vinculats a construccions o transmissions immobiliàries urbanes.",
+    "legalReference": [
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "L'ICIO i l'IIVTNU solen aparèixer com a distracció perquè són impostos municipals però no obligatoris.",
+    "answerOptions": [
+      {
+        "text": "IBI, IAE i IVTM.",
+        "isCorrect": true,
+        "rationale": "Aquests tres impostos constitueixen els tributs municipals d'exacció obligatòria establerts pel TRLRHL."
+      },
+      {
+        "text": "IBI, ICIO i IIVTNU.",
+        "isCorrect": false,
+        "rationale": "L'ICIO i l'IIVTNU són impostos potestatius."
+      },
+      {
+        "text": "IAE, IVA i IRPF.",
+        "isCorrect": false,
+        "rationale": "L'IVA i l'IRPF són tributs estatals, no municipals."
+      },
+      {
+        "text": "IBI, IAE, ICIO i IIVTNU.",
+        "isCorrect": false,
+        "rationale": "Aquesta opció barreja impostos obligatoris i potestatius."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quina característica defineix un impost local?",
+    "hint": "Els tributs es divideixen en impostos, taxes i contribucions especials. La diferenciació es realitza atenent al fet imposable que origina l'obligació de pagament. Una de les categories es caracteritza perquè no existeix una contraprestació directa i individualitzable a favor del contribuent, sinó que grava determinades manifestacions de capacitat econòmica.",
+    "legalReference": [
+      "Art. 2 LGT",
+      "Art. 2 TRLRHL"
+    ],
+    "examTrap": "Molts aspirants confonen els impostos amb les taxes perquè en tots dos casos existeix una obligació de pagament.",
+    "answerOptions": [
+      {
+        "text": "Existeix sempre una contraprestació individualitzada.",
+        "isCorrect": false,
+        "rationale": "Aquesta és una característica pròpia d'altres figures tributàries, no dels impostos."
+      },
+      {
+        "text": "Grava manifestacions de capacitat econòmica sense contraprestació directa.",
+        "isCorrect": true,
+        "rationale": "Aquesta és la definició legal de l'impost segons la Llei General Tributària."
+      },
+      {
+        "text": "Només es pot exigir per serveis municipals.",
+        "isCorrect": false,
+        "rationale": "Els serveis municipals s'associen habitualment al règim de les taxes."
+      },
+      {
+        "text": "Sempre deriva d'una obra pública.",
+        "isCorrect": false,
+        "rationale": "Aquest supòsit és propi de les contribucions especials."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quin dels següents impostos municipals és potestatiu?",
+    "hint": "Els impostos locals no tenen tots el mateix règim jurídic. Alguns han de ser exigits necessàriament per tots els municipis, mentre que altres només s'apliquen quan l'ajuntament decideix establir-los mitjançant l'acord corresponent i l'aprovació de l'ordenança fiscal reguladora.",
+    "legalReference": [
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "És habitual memoritzar els impostos però oblidar si són obligatoris o potestatius.",
+    "answerOptions": [
+      {
+        "text": "Impost sobre Béns Immobles.",
+        "isCorrect": false,
+        "rationale": "L'IBI és un impost obligatori per a tots els municipis."
+      },
+      {
+        "text": "Impost sobre Vehicles de Tracció Mecànica.",
+        "isCorrect": false,
+        "rationale": "L'IVTM és un impost obligatori."
+      },
+      {
+        "text": "Impost sobre Construccions, Instal·lacions i Obres.",
+        "isCorrect": true,
+        "rationale": "L'ICIO és un impost municipal de caràcter potestatiu."
+      },
+      {
+        "text": "Impost sobre Activitats Econòmiques.",
+        "isCorrect": false,
+        "rationale": "L'IAE forma part dels impostos obligatoris."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quin és el fet imposable de l'Impost sobre Béns Immobles (IBI)?",
+    "hint": "Aquest impost constitueix una de les principals fonts de finançament tributari municipal. El seu fet imposable no depèn de l'obtenció de rendiments, de la realització d'activitats econòmiques ni de la circulació de vehicles. La seva configuració gira al voltant de determinats drets jurídics exercits sobre una categoria concreta de béns.",
+    "legalReference": [
+      "Art. 61 TRLRHL"
+    ],
+    "examTrap": "Les preguntes solen substituir el fet imposable per l'ús o explotació econòmica de l'immoble.",
+    "answerOptions": [
+      {
+        "text": "L'exercici d'activitats empresarials.",
+        "isCorrect": false,
+        "rationale": "Aquest és l'àmbit propi de l'IAE."
+      },
+      {
+        "text": "La titularitat de determinats drets sobre béns immobles.",
+        "isCorrect": true,
+        "rationale": "El fet imposable de l'IBI és la titularitat dels drets previstos a la normativa sobre béns immobles."
+      },
+      {
+        "text": "La transmissió de terrenys urbans.",
+        "isCorrect": false,
+        "rationale": "Aquesta situació està relacionada amb l'IIVTNU."
+      },
+      {
+        "text": "La realització d'obres de construcció.",
+        "isCorrect": false,
+        "rationale": "Aquest és el fet imposable de l'ICIO."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "L'Impost sobre l'Increment de Valor dels Terrenys de Naturalesa Urbana (IIVTNU) grava principalment:",
+    "hint": "Dins dels impostos municipals existeix una figura que històricament s'ha associat a les transmissions de terrenys de naturalesa urbana. La seva regulació ha estat objecte de diverses reformes i pronunciaments jurisprudencials, però continua sent una de les figures clàssiques del sistema tributari local.",
+    "legalReference": [
+      "Arts. 104 a 110 TRLRHL"
+    ],
+    "examTrap": "És freqüent confondre aquest impost amb l'IBI perquè ambdós estan relacionats amb béns immobles.",
+    "answerOptions": [
+      {
+        "text": "La titularitat d'immobles urbans i rústics.",
+        "isCorrect": false,
+        "rationale": "Aquesta és la matèria pròpia de l'IBI."
+      },
+      {
+        "text": "L'increment de valor manifestat amb ocasió de la transmissió de terrenys urbans.",
+        "isCorrect": true,
+        "rationale": "L'IIVTNU grava l'increment de valor que es posa de manifest en determinades transmissions de terrenys urbans."
+      },
+      {
+        "text": "La possessió de vehicles de tracció mecànica.",
+        "isCorrect": false,
+        "rationale": "Aquest és el fet imposable de l'IVTM."
+      },
+      {
+        "text": "L'exercici d'activitats econòmiques.",
+        "isCorrect": false,
+        "rationale": "Aquest és l'àmbit propi de l'IAE."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quin impost local grava la titularitat de vehicles aptes per circular per les vies públiques?",
+    "hint": "Dins dels impostos municipals obligatoris n'existeix un que no afecta ni immobles ni activitats econòmiques. El seu fet imposable està vinculat a l'existència d'un determinat tipus de bé moble susceptible de circular habitualment per la xarxa viària. Es tracta d'un tribut de gestió municipal que forma part dels ingressos obligatoris de tots els ajuntaments.",
+    "legalReference": [
+      "Arts. 92 a 99 TRLRHL"
+    ],
+    "examTrap": "Molts opositors identifiquen correctament l'impost però no recorden que és un dels tres obligatòris.",
+    "answerOptions": [
+      {
+        "text": "Impost sobre Activitats Econòmiques.",
+        "isCorrect": false,
+        "rationale": "L'IAE grava l'exercici d'activitats econòmiques."
+      },
+      {
+        "text": "Impost sobre Vehicles de Tracció Mecànica.",
+        "isCorrect": true,
+        "rationale": "L'IVTM grava la titularitat de vehicles aptes per circular per les vies públiques."
+      },
+      {
+        "text": "Impost sobre Construccions, Instal·lacions i Obres.",
+        "isCorrect": false,
+        "rationale": "L'ICIO grava la realització de construccions, instal·lacions o obres."
+      },
+      {
+        "text": "Impost sobre Béns Immobles.",
+        "isCorrect": false,
+        "rationale": "L'IBI grava drets sobre immobles i no sobre vehicles."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quin impost municipal grava l'exercici d'activitats empresarials, professionals o artístiques?",
+    "hint": "Entre els impostos municipals obligatoris existeix una figura vinculada al desenvolupament d'activitats econòmiques. La seva regulació ha experimentat diverses reformes que han introduït exempcions per a determinats contribuents, però continua sent un dels tributs locals bàsics del sistema financer municipal.",
+    "legalReference": [
+      "Arts. 78 a 91 TRLRHL"
+    ],
+    "examTrap": "És habitual confondre el fet imposable amb l'obtenció de beneficis empresarials. El tribut grava l'exercici de l'activitat, no el resultat econòmic.",
+    "answerOptions": [
+      {
+        "text": "Impost sobre Activitats Econòmiques.",
+        "isCorrect": true,
+        "rationale": "L'IAE grava l'exercici en territori nacional d'activitats empresarials, professionals o artístiques."
+      },
+      {
+        "text": "Impost sobre Béns Immobles.",
+        "isCorrect": false,
+        "rationale": "L'IBI grava la titularitat de drets sobre immobles."
+      },
+      {
+        "text": "Impost sobre Vehicles de Tracció Mecànica.",
+        "isCorrect": false,
+        "rationale": "L'IVTM grava la titularitat de vehicles."
+      },
+      {
+        "text": "Impost sobre l'Increment de Valor dels Terrenys de Naturalesa Urbana.",
+        "isCorrect": false,
+        "rationale": "L'IIVTNU està relacionat amb l'increment de valor dels terrenys urbans."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Per establir l'ICIO és necessari:",
+    "hint": "No tots els impostos municipals existeixen automàticament en tots els municipis. Alguns requereixen una decisió expressa de la corporació local perquè puguin ser exigits als contribuents. Aquest règim deriva de la seva naturalesa potestativa i obliga a distingir-los dels impostos obligatoris.",
+    "legalReference": [
+      "Art. 59 TRLRHL",
+      "Arts. 100 a 103 TRLRHL"
+    ],
+    "examTrap": "L'error habitual és pensar que tots els impostos municipals existeixen automàticament.",
+    "answerOptions": [
+      {
+        "text": "Que l'Estat aprovi una llei específica per a cada municipi.",
+        "isCorrect": false,
+        "rationale": "La regulació general ja existeix al TRLRHL."
+      },
+      {
+        "text": "Que l'ajuntament aprovi l'acord d'imposició i la corresponent ordenança fiscal.",
+        "isCorrect": true,
+        "rationale": "L'ICIO és potestatiu i requereix acord municipal per poder exigir-lo."
+      },
+      {
+        "text": "Que la comunitat autònoma autoritzi anualment la seva exigència.",
+        "isCorrect": false,
+        "rationale": "No existeix aquesta autorització anual."
+      },
+      {
+        "text": "Que l'activitat constructiva es desenvolupi durant dos exercicis consecutius.",
+        "isCorrect": false,
+        "rationale": "Aquest requisit no forma part de la regulació de l'impost."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quina de les següents combinacions inclou exclusivament impostos municipals potestatius?",
+    "hint": "La classificació dels impostos municipals en obligatoris i potestatius és una de les qüestions més repetides en exàmens. Els obligatoris són tres i han de ser exigits per tots els municipis. Els potestatius són menys nombrosos i requereixen acord municipal previ. La pregunta exigeix dominar completament aquesta classificació.",
+    "legalReference": [
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "Els distractors incorporen sempre algun impost obligatori dins d'una llista aparentment correcta.",
+    "answerOptions": [
+      {
+        "text": "IBI i IAE.",
+        "isCorrect": false,
+        "rationale": "Ambdós són impostos obligatoris."
+      },
+      {
+        "text": "ICIO i IIVTNU.",
+        "isCorrect": true,
+        "rationale": "Aquests dos impostos constitueixen els principals tributs municipals de caràcter potestatiu."
+      },
+      {
+        "text": "IVTM i ICIO.",
+        "isCorrect": false,
+        "rationale": "L'IVTM és obligatori i l'ICIO potestatiu."
+      },
+      {
+        "text": "IBI i IIVTNU.",
+        "isCorrect": false,
+        "rationale": "L'IBI és obligatori i l'IIVTNU és potestatiu."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quina afirmació és correcta respecte a l'IBI?",
+    "hint": "L'Impost sobre Béns Immobles constitueix una de les principals fonts d'ingressos dels ajuntaments. La seva regulació es caracteritza pel seu caràcter obligatori i per gravar determinades situacions jurídiques vinculades als immobles. És important distingir aquest tribut d'altres impostos locals relacionats amb activitats econòmiques, construccions o transmissions immobiliàries.",
+    "legalReference": [
+      "Arts. 60 a 77 TRLRHL"
+    ],
+    "examTrap": "Els exàmens solen intentar substituir la titularitat de drets sobre immobles per l'ús de l'immoble o per la seva transmissió.",
+    "answerOptions": [
+      {
+        "text": "És un impost potestatiu que només afecta immobles urbans.",
+        "isCorrect": false,
+        "rationale": "L'IBI és obligatori i afecta tant immobles urbans com rústics i de característiques especials."
+      },
+      {
+        "text": "És un impost obligatori que grava determinats drets sobre immobles.",
+        "isCorrect": true,
+        "rationale": "Aquesta és la configuració legal de l'IBI segons el TRLRHL."
+      },
+      {
+        "text": "És un impost relacionat exclusivament amb la construcció d'edificis.",
+        "isCorrect": false,
+        "rationale": "La construcció està vinculada a l'ICIO."
+      },
+      {
+        "text": "És un impost que grava exclusivament transmissions immobiliàries.",
+        "isCorrect": false,
+        "rationale": "Les transmissions poden donar lloc a l'IIVTNU, però no constitueixen el fet imposable de l'IBI."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quin dels següents impostos municipals grava la realització de construccions, instal·lacions o obres per a les quals sigui exigible llicència urbanística o comunicació prèvia?",
+    "hint": "Dins dels impostos municipals hi ha una figura estretament vinculada a l'activitat urbanística. El seu fet imposable no està relacionat amb la titularitat dels terrenys ni amb l'increment del seu valor, sinó amb l'execució material de determinades actuacions constructives. Es tracta d'un tribut de caràcter potestatiu que només existeix quan l'ajuntament l'ha establert expressament.",
+    "legalReference": [
+      "Arts. 100 a 103 TRLRHL"
+    ],
+    "examTrap": "La trampa consisteix a confondre construcció amb titularitat de l'immoble o amb transmissió del terreny.",
+    "answerOptions": [
+      {
+        "text": "IBI.",
+        "isCorrect": false,
+        "rationale": "L'IBI grava la titularitat de determinats drets sobre immobles."
+      },
+      {
+        "text": "ICIO.",
+        "isCorrect": true,
+        "rationale": "L'ICIO grava la realització de construccions, instal·lacions o obres en els termes previstos pel TRLRHL."
+      },
+      {
+        "text": "IIVTNU.",
+        "isCorrect": false,
+        "rationale": "L'IIVTNU grava l'increment de valor manifestat en la transmissió de terrenys urbans."
+      },
+      {
+        "text": "IAE.",
+        "isCorrect": false,
+        "rationale": "L'IAE grava l'exercici d'activitats econòmiques."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "L'Impost sobre Vehicles de Tracció Mecànica té caràcter:",
+    "hint": "La classificació dels impostos municipals entre obligatoris i potestatius és fonamental. Alguns es troben necessàriament presents en tots els municipis perquè la llei imposa la seva exigència. D'altres depenen de la decisió de cada corporació local. Per respondre correctament cal tenir clara la classificació completa dels cinc impostos municipals.",
+    "legalReference": [
+      "Art. 59 TRLRHL",
+      "Arts. 92 a 99 TRLRHL"
+    ],
+    "examTrap": "Molta gent recorda que grava vehicles però oblida si és obligatori o potestatiu.",
+    "answerOptions": [
+      {
+        "text": "Potestatiu.",
+        "isCorrect": false,
+        "rationale": "L'IVTM forma part dels impostos municipals d'exacció obligatòria."
+      },
+      {
+        "text": "Obligatori.",
+        "isCorrect": true,
+        "rationale": "L'IVTM és un dels tres impostos que tots els municipis han d'exigir."
+      },
+      {
+        "text": "Autonòmic.",
+        "isCorrect": false,
+        "rationale": "És un impost local municipal regulat pel TRLRHL."
+      },
+      {
+        "text": "Estatal.",
+        "isCorrect": false,
+        "rationale": "La titularitat i gestió corresponen als municipis."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quina combinació està formada exclusivament per impostos municipals obligatoris?",
+    "hint": "La distinció entre impostos obligatoris i potestatius és una de les bases de la fiscalitat local. Els obligatòris han de ser exigits per tots els ajuntaments, mentre que els potestatius requereixen acord municipal. Aquesta pregunta exigeix dominar completament la classificació legal.",
+    "legalReference": [
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "Les opcions incorrectes incorporen sempre l'ICIO o l'IIVTNU per induir a error.",
+    "answerOptions": [
+      {
+        "text": "IBI, IAE i IVTM.",
+        "isCorrect": true,
+        "rationale": "Aquests són els tres impostos municipals d'exacció obligatòria establerts pel TRLRHL."
+      },
+      {
+        "text": "IBI, ICIO i IVTM.",
+        "isCorrect": false,
+        "rationale": "L'ICIO és potestatiu."
+      },
+      {
+        "text": "IAE, IIVTNU i IVTM.",
+        "isCorrect": false,
+        "rationale": "L'IIVTNU és potestatiu."
+      },
+      {
+        "text": "IBI, ICIO i IIVTNU.",
+        "isCorrect": false,
+        "rationale": "Tant l'ICIO com l'IIVTNU són potestatius."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quina afirmació diferencia millor l'IBI de l'IIVTNU?",
+    "hint": "Diversos impostos municipals estan relacionats amb els immobles, però cadascun grava una realitat jurídica diferent. Un es merita per la titularitat de determinats drets sobre els immobles, mentre que l'altre es vincula a una manifestació concreta de capacitat econòmica posada de manifest en una determinada operació jurídica.",
+    "legalReference": [
+      "Arts. 61 TRLRHL",
+      "Art. 104 TRLRHL"
+    ],
+    "examTrap": "La presència d'immobles en tots dos impostos porta molts candidats a considerar-los pràcticament equivalents.",
+    "answerOptions": [
+      {
+        "text": "Tots dos graven exactament el mateix fet imposable.",
+        "isCorrect": false,
+        "rationale": "Els seus fets imposables són completament diferents."
+      },
+      {
+        "text": "L'IBI grava la titularitat de drets sobre immobles i l'IIVTNU grava determinats increments de valor dels terrenys urbans.",
+        "isCorrect": true,
+        "rationale": "Aquesta és la principal diferència jurídica entre ambdós impostos."
+      },
+      {
+        "text": "L'IBI és potestatiu i l'IIVTNU obligatori.",
+        "isCorrect": false,
+        "rationale": "L'IBI és obligatori i l'IIVTNU potestatiu."
+      },
+      {
+        "text": "Cap dels dos està relacionat amb immobles.",
+        "isCorrect": false,
+        "rationale": "Tots dos impostos es refereixen a béns immobles."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "Quin dels següents impostos NO grava directament una manifestació vinculada a un bé immoble?",
+    "hint": "Entre els impostos municipals hi ha figures relacionades amb immobles, activitats econòmiques i vehicles. Per identificar la resposta correcta és necessari determinar quin fet imposable no guarda relació directa amb terrenys, edificacions, drets immobiliaris o actuacions urbanístiques.",
+    "legalReference": [
+      "Arts. 60 a 110 TRLRHL"
+    ],
+    "examTrap": "La pregunta obliga a comparar simultàniament diversos impostos municipals.",
+    "answerOptions": [
+      {
+        "text": "IBI.",
+        "isCorrect": false,
+        "rationale": "L'IBI recau directament sobre béns immobles."
+      },
+      {
+        "text": "ICIO.",
+        "isCorrect": false,
+        "rationale": "L'ICIO està relacionat amb actuacions constructives sobre immobles."
+      },
+      {
+        "text": "IIVTNU.",
+        "isCorrect": false,
+        "rationale": "L'IIVTNU grava increments de valor de terrenys urbans."
+      },
+      {
+        "text": "IAE.",
+        "isCorrect": true,
+        "rationale": "L'IAE grava l'exercici d'activitats econòmiques i no la titularitat o transformació d'immobles."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Impostos locals] Quin dels següents impostos municipals està relacionat amb l'increment de valor dels terrenys de naturalesa urbana?",
+    "hint": "Entre els impostos locals existeixen diverses figures relacionades amb immobles. Algunes graven la titularitat de drets sobre aquests béns, altres la realització d'obres i una altra grava una manifestació concreta de capacitat econòmica que es posa de manifest en determinades transmissions o constitucions de drets. Identificar correctament el fet imposable és la clau per diferenciar-los.",
+    "legalReference": [
+      "Arts. 104 a 110 TRLRHL"
+    ],
+    "examTrap": "La paraula 'terrenys urbans' fa que alguns opositors marquin IBI, però ambdós impostos tenen fets imposables diferents.",
+    "answerOptions": [
+      {
+        "text": "IBI.",
+        "isCorrect": false,
+        "rationale": "L'IBI grava la titularitat de determinats drets sobre immobles i no l'increment de valor produït en transmissions."
+      },
+      {
+        "text": "IIVTNU.",
+        "isCorrect": true,
+        "rationale": "L'IIVTNU grava l'increment de valor dels terrenys de naturalesa urbana que es manifesta en determinats negocis jurídics."
+      },
+      {
+        "text": "ICIO.",
+        "isCorrect": false,
+        "rationale": "L'ICIO està vinculat a la realització de construccions, instal·lacions i obres."
+      },
+      {
+        "text": "IVTM.",
+        "isCorrect": false,
+        "rationale": "L'IVTM grava la titularitat de vehicles aptes per circular."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Impostos locals] Quina de les següents afirmacions és correcta respecte dels impostos municipals potestatius?",
+    "hint": "El sistema tributari local combina impostos obligatoris i potestatius. Els primers formen part necessàriament del sistema de finançament de qualsevol municipi, mentre que els segons només poden exigir-se si la corporació local adopta els acords necessaris per a la seva implantació i regulació.",
+    "legalReference": [
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "La pregunta busca comprovar si coneixes la diferència entre existència legal de l'impost i exigència efectiva al municipi.",
+    "answerOptions": [
+      {
+        "text": "Han d'exigir-se obligatòriament a tots els municipis.",
+        "isCorrect": false,
+        "rationale": "Aquesta característica correspon als impostos obligatoris."
+      },
+      {
+        "text": "Només poden exigir-se si l'ajuntament acorda establir-los.",
+        "isCorrect": true,
+        "rationale": "La naturalesa potestativa implica que la seva exigència requereix acord municipal previ."
+      },
+      {
+        "text": "Només poden ser aprovats per les comunitats autònomes.",
+        "isCorrect": false,
+        "rationale": "La decisió d'establir-los correspon a l'ajuntament dins del marc legal."
+      },
+      {
+        "text": "No formen part del sistema tributari local.",
+        "isCorrect": false,
+        "rationale": "Continuen sent impostos locals regulats pel TRLRHL."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Impostos locals] Quin impost municipal es considera una de les principals fonts estables de finançament dels ajuntaments?",
+    "hint": "Dins dels impostos locals existeix una figura que grava situacions jurídiques permanents relacionades amb determinats béns. Aquesta estabilitat la converteix en una de les fonts recaptatòries més rellevants per als municipis i en un element fonamental de la seva autonomia financera.",
+    "legalReference": [
+      "Arts. 60 a 77 TRLRHL",
+      "Art. 142 CE"
+    ],
+    "examTrap": "Els opositors solen pensar en qualsevol impost municipal sense distingir la seva capacitat recaptatòria habitual.",
+    "answerOptions": [
+      {
+        "text": "IBI.",
+        "isCorrect": true,
+        "rationale": "L'IBI és tradicionalment una de les fonts més importants i estables d'ingressos tributaris municipals."
+      },
+      {
+        "text": "ICIO.",
+        "isCorrect": false,
+        "rationale": "La seva recaptació depèn de l'activitat constructiva i és menys estable."
+      },
+      {
+        "text": "IIVTNU.",
+        "isCorrect": false,
+        "rationale": "Depèn de la realització de transmissions o negocis jurídics sobre terrenys urbans."
+      },
+      {
+        "text": "Taxes.",
+        "isCorrect": false,
+        "rationale": "Les taxes no són impostos."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Impostos locals] Quin dels següents tributs NO és un impost municipal?",
+    "hint": "La classificació dels tributs és essencial per evitar confusions. Els impostos constitueixen una categoria diferenciada, però dins de les hisendes locals també existeixen altres figures tributàries amb règim jurídic propi i fet imposable diferent.",
+    "legalReference": [
+      "Art. 2 LGT",
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "Totes les opcions pertanyen a l'àmbit financer local, però no totes tenen la mateixa categoria jurídica.",
+    "answerOptions": [
+      {
+        "text": "IBI.",
+        "isCorrect": false,
+        "rationale": "L'IBI és un impost municipal obligatori."
+      },
+      {
+        "text": "IAE.",
+        "isCorrect": false,
+        "rationale": "L'IAE és un impost municipal obligatori."
+      },
+      {
+        "text": "Taxa.",
+        "isCorrect": true,
+        "rationale": "La taxa és un tribut, però no un impost. Constitueix una categoria tributària diferenciada."
+      },
+      {
+        "text": "ICIO.",
+        "isCorrect": false,
+        "rationale": "L'ICIO és un impost municipal potestatiu."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 5,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Impostos locals] Quina de les següents classificacions és completament correcta?",
+    "hint": "Per respondre correctament és necessari dominar simultàniament els cinc impostos locals regulats per la llei i saber quins són obligatoris i quins potestatius. Aquesta és una de les preguntes de síntesi més habituals en oposicions perquè obliga a tenir una visió global del sistema tributari municipal.",
+    "legalReference": [
+      "Art. 59 TRLRHL"
+    ],
+    "examTrap": "Els distractors inclouen sempre una única classificació incorrecta, obligant a revisar un per un tots els impostos municipals.",
+    "answerOptions": [
+      {
+        "text": "Obligatoris: IBI, IAE i IVTM. Potestatius: ICIO i IIVTNU.",
+        "isCorrect": true,
+        "rationale": "Aquesta és exactament la classificació prevista al TRLRHL."
+      },
+      {
+        "text": "Obligatoris: IBI, IVTM i ICIO. Potestatius: IAE i IIVTNU.",
+        "isCorrect": false,
+        "rationale": "L'ICIO és potestatiu i l'IAE és obligatori."
+      },
+      {
+        "text": "Obligatoris: IBI i IAE. Potestatius: IVTM, ICIO i IIVTNU.",
+        "isCorrect": false,
+        "rationale": "L'IVTM també és un impost obligatori."
+      },
+      {
+        "text": "Obligatoris: IBI, IIVTNU i IVTM. Potestatius: IAE i ICIO.",
+        "isCorrect": false,
+        "rationale": "L'IIVTNU és potestatiu i l'IAE és obligatori."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quin dels següents supòsits constitueix un fet imposable típic d'una taxa?",
+    "hint": "Les taxes són tributs vinculats a determinades actuacions administratives o a la utilització singularitzada de béns de domini públic. La seva justificació es troba en l'existència d'un benefici o afectació individualitzable per a una persona concreta. Per identificar-les correctament cal diferenciar-les dels impostos i de les contribucions especials.",
+    "legalReference": [
+      "Art. 20 TRLRHL",
+      "Art. 2.2.a LGT"
+    ],
+    "examTrap": "Els exàmens solen barrejar serveis generals de la comunitat amb supòsits d'aprofitament individualitzat.",
+    "answerOptions": [
+      {
+        "text": "La utilització privativa del domini públic local.",
+        "isCorrect": true,
+        "rationale": "La utilització privativa o l'aprofitament especial del domini públic és un dels fets imposables clàssics de les taxes."
+      },
+      {
+        "text": "L'increment de valor dels terrenys urbans.",
+        "isCorrect": false,
+        "rationale": "Aquest és el fet imposable de l'IIVTNU."
+      },
+      {
+        "text": "La titularitat d'un vehicle.",
+        "isCorrect": false,
+        "rationale": "Aquest supòsit forma part de l'IVTM."
+      },
+      {
+        "text": "L'obtenció d'un benefici especial derivat d'una obra pública.",
+        "isCorrect": false,
+        "rationale": "Aquest és el fet imposable de les contribucions especials."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quina de les següents situacions permet l'establiment d'una taxa municipal?",
+    "hint": "A més de l'ús privatiu del domini públic, les taxes poden exigir-se en determinats serveis o activitats administratives que afecten especialment una persona. No obstant això, la llei exclou expressament alguns serveis públics generals per evitar gravàmens sobre activitats que beneficien la comunitat en conjunt.",
+    "legalReference": [
+      "Art. 20 TRLRHL",
+      "Art. 21 TRLRHL"
+    ],
+    "examTrap": "Les opcions incorrectes corresponen a serveis respecte dels quals la llei prohibeix l'exigència de taxes.",
+    "answerOptions": [
+      {
+        "text": "Neteja de la via pública.",
+        "isCorrect": false,
+        "rationale": "La neteja viària és un dels serveis exclosos de l'àmbit de les taxes."
+      },
+      {
+        "text": "Protecció civil.",
+        "isCorrect": false,
+        "rationale": "La normativa impedeix exigir taxes per aquest servei general."
+      },
+      {
+        "text": "Atorgament d'una llicència urbanística.",
+        "isCorrect": true,
+        "rationale": "La tramitació d'una llicència urbanística és una activitat administrativa que afecta particularment el sol·licitant i pot donar lloc a una taxa."
+      },
+      {
+        "text": "Ensenyament obligatori.",
+        "isCorrect": false,
+        "rationale": "L'ensenyament obligatori es troba exclòs dels supòsits susceptibles de taxa."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quina és la principal diferència entre una taxa i un impost?",
+    "hint": "Els tributs es classifiquen en diverses categories segons el seu fet imposable. Una d'elles exigeix l'existència d'una actuació administrativa o d'un aprofitament individualitzat per part del subjecte passiu. Una altra es basa exclusivament en manifestacions de capacitat econòmica sense necessitat d'una contraprestació directa.",
+    "legalReference": [
+      "Art. 2 LGT",
+      "Art. 20 TRLRHL"
+    ],
+    "examTrap": "La paraula 'tribut' apareix en totes dues figures, però la diferència es troba en el fet imposable.",
+    "answerOptions": [
+      {
+        "text": "La taxa requereix una utilitat o afectació individualitzable.",
+        "isCorrect": true,
+        "rationale": "La taxa es vincula a una actuació concreta que afecta especialment el contribuent o al seu aprofitament singular del domini públic."
+      },
+      {
+        "text": "La taxa només la poden crear les comunitats autònomes.",
+        "isCorrect": false,
+        "rationale": "Les entitats locals poden establir taxes en els termes previstos legalment."
+      },
+      {
+        "text": "La taxa és un impost indirecte.",
+        "isCorrect": false,
+        "rationale": "Les taxes i els impostos són categories tributàries diferents."
+      },
+      {
+        "text": "No existeix cap diferència jurídica.",
+        "isCorrect": false,
+        "rationale": "La distinció entre taxa i impost és un element essencial del dret tributari."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quin criteri general utilitza el TRLRHL per determinar l'import de les taxes derivades de la utilització privativa del domini públic?",
+    "hint": "La normativa diferencia entre les taxes derivades de serveis administratius i les derivades de l'ocupació o aprofitament del domini públic. En aquest darrer cas, la quantificació no es basa principalment en el cost del servei sinó en el valor econòmic de l'avantatge obtingut per l'ocupant.",
+    "legalReference": [
+      "Art. 24.1.a TRLRHL"
+    ],
+    "examTrap": "És habitual aplicar erròniament el criteri del cost del servei a tots els tipus de taxes.",
+    "answerOptions": [
+      {
+        "text": "El valor de mercat de la utilitat obtinguda.",
+        "isCorrect": true,
+        "rationale": "La normativa pren com a referència el valor que tindria al mercat la utilitat derivada de l'aprofitament si els béns no fossin de domini públic."
+      },
+      {
+        "text": "El benefici anual de l'ajuntament.",
+        "isCorrect": false,
+        "rationale": "La recaptació municipal no és el criteri legal de quantificació."
+      },
+      {
+        "text": "El valor cadastral dels immobles del municipi.",
+        "isCorrect": false,
+        "rationale": "El valor cadastral és rellevant en altres àmbits, especialment a l'IBI."
+      },
+      {
+        "text": "La capacitat econòmica del contribuent.",
+        "isCorrect": false,
+        "rationale": "Aquest no és el criteri establert pel TRLRHL per a aquestes taxes."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quin dels següents serveis està expressament exclòs de la possibilitat de ser finançat mitjançant una taxa?",
+    "hint": "L'article 21 del TRLRHL estableix una relació de serveis públics respecte dels quals les entitats locals no poden exigir taxes, encara que siguin prestats per l'ajuntament. Es tracta de serveis generals que beneficien el conjunt de la població i que no permeten una identificació individualitzada dels beneficiaris.",
+    "legalReference": [
+      "Art. 21 TRLRHL"
+    ],
+    "examTrap": "Les altres opcions solen ser supòsits habituals de taxes municipals.",
+    "answerOptions": [
+      {
+        "text": "Expedició de documents administratius.",
+        "isCorrect": false,
+        "rationale": "L'expedició de documents és un dels supòsits habituals susceptibles de taxa."
+      },
+      {
+        "text": "Llicències urbanístiques.",
+        "isCorrect": false,
+        "rationale": "Les activitats administratives que afecten particularment una persona poden ser objecte de taxa."
+      },
+      {
+        "text": "Ocupació de la via pública amb terrasses.",
+        "isCorrect": false,
+        "rationale": "Es tracta d'un aprofitament especial del domini públic clarament sotmès a taxa."
+      },
+      {
+        "text": "Neteja de la via pública.",
+        "isCorrect": true,
+        "rationale": "La neteja viària és un dels serveis exclosos expressament de l'àmbit de les taxes pel TRLRHL."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quan es produeix l'aprofitament especial del domini públic local?",
+    "hint": "La normativa diferencia entre utilització privativa i aprofitament especial del domini públic. En ambdós casos existeix una ocupació o ús que genera una situació de privilegi respecte de la resta de ciutadans. Aquesta circumstància justifica l'exigència d'una taxa perquè una persona obté una utilitat singularitzada sobre un bé de titularitat pública.",
+    "legalReference": [
+      "Art. 20 TRLRHL"
+    ],
+    "examTrap": "És habitual confondre aprofitament especial amb ocupació exclusiva. L'aprofitament especial no exigeix necessàriament exclusivitat absoluta.",
+    "answerOptions": [
+      {
+        "text": "Quan un ciutadà obté una utilitat diferenciada sobre un bé de domini públic.",
+        "isCorrect": true,
+        "rationale": "L'aprofitament especial implica una utilització que proporciona un avantatge singular respecte a la resta d'usuaris."
+      },
+      {
+        "text": "Quan es transmet un terreny urbà.",
+        "isCorrect": false,
+        "rationale": "Aquest supòsit està relacionat amb l'IIVTNU."
+      },
+      {
+        "text": "Quan s'executa una obra pública.",
+        "isCorrect": false,
+        "rationale": "L'execució d'obres públiques pot donar lloc a contribucions especials, però no defineix l'aprofitament especial."
+      },
+      {
+        "text": "Quan es cobra un preu públic.",
+        "isCorrect": false,
+        "rationale": "Els preus públics tenen una naturalesa jurídica diferent de les taxes."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quina afirmació és correcta respecte de les taxes per serveis administratius?",
+    "hint": "Quan les taxes deriven de serveis o activitats administratives, el seu fonament no es troba en l'ús del domini públic sinó en una actuació de l'administració que afecta especialment una persona determinada. Aquesta afectació individualitzada és un element essencial per legitimar l'exigència del tribut.",
+    "legalReference": [
+      "Art. 20.4 TRLRHL"
+    ],
+    "examTrap": "Moltes preguntes substitueixen l'afectació particular per beneficis generals de la comunitat.",
+    "answerOptions": [
+      {
+        "text": "Només poden exigir-se quan el servei afecta o beneficia particularment el subjecte passiu.",
+        "isCorrect": true,
+        "rationale": "La individualització de l'afectació constitueix un requisit essencial de les taxes per serveis administratius."
+      },
+      {
+        "text": "Poden exigir-se per qualsevol servei municipal.",
+        "isCorrect": false,
+        "rationale": "La llei estableix requisits i exclusions específiques."
+      },
+      {
+        "text": "Tenen la mateixa regulació que els impostos.",
+        "isCorrect": false,
+        "rationale": "Impostos i taxes són categories tributàries diferents."
+      },
+      {
+        "text": "Només existeixen en municipis de més de 20.000 habitants.",
+        "isCorrect": false,
+        "rationale": "La normativa no estableix aquest requisit poblacional."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quin dels següents supòsits normalment dona lloc a una taxa municipal?",
+    "hint": "La regulació de les taxes inclou nombrosos exemples d'activitats administratives susceptibles de generar aquesta obligació tributària. La clau és identificar aquells supòsits en què existeix una actuació administrativa individualitzada sol·licitada o provocada per una persona concreta.",
+    "legalReference": [
+      "Art. 20.4 TRLRHL"
+    ],
+    "examTrap": "Els distractors acostumen a ser serveis generals o activitats excloses de l'article 21.",
+    "answerOptions": [
+      {
+        "text": "Expedició d'un certificat administratiu.",
+        "isCorrect": true,
+        "rationale": "L'expedició de documents i certificacions és un exemple clàssic d'activitat administrativa susceptible de taxa."
+      },
+      {
+        "text": "Protecció civil ordinària.",
+        "isCorrect": false,
+        "rationale": "És un servei general exclòs de l'àmbit de les taxes."
+      },
+      {
+        "text": "Neteja de carrers.",
+        "isCorrect": false,
+        "rationale": "La neteja viària està exclosa per l'article 21 del TRLRHL."
+      },
+      {
+        "text": "Il·luminació general del municipi.",
+        "isCorrect": false,
+        "rationale": "Es tracta d'un servei general no individualitzable."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quina diferència essencial existeix entre una taxa i un preu públic?",
+    "hint": "Encara que ambdues figures impliquen el pagament d'una quantitat a una administració pública, la seva naturalesa jurídica és diferent. Una és un tribut i l'altra és un ingrés públic no tributari. La diferència principal es troba en la voluntarietat del servei i en la possibilitat de prestació per part del sector privat.",
+    "legalReference": [
+      "Art. 20 TRLRHL",
+      "Art. 41 TRLRHL"
+    ],
+    "examTrap": "Els aspirants solen fixar-se només en el fet que hi ha un pagament i obliden la naturalesa jurídica de cada figura.",
+    "answerOptions": [
+      {
+        "text": "La taxa és un tribut i el preu públic és un ingrés no tributari.",
+        "isCorrect": true,
+        "rationale": "Aquesta és la diferència jurídica fonamental entre ambdues figures."
+      },
+      {
+        "text": "Tots dos són impostos.",
+        "isCorrect": false,
+        "rationale": "Cap dels dos és un impost."
+      },
+      {
+        "text": "El preu públic és sempre obligatori.",
+        "isCorrect": false,
+        "rationale": "La voluntarietat és una de les notes característiques dels preus públics."
+      },
+      {
+        "text": "La taxa només existeix a les capitals de província.",
+        "isCorrect": false,
+        "rationale": "Les taxes poden establir-se a qualsevol entitat local dins dels límits legals."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 5,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quina combinació està formada exclusivament per supòsits susceptibles de taxa municipal?",
+    "hint": "Per resoldre aquesta pregunta cal distingir clarament entre activitats administratives individualitzades, utilització del domini públic i serveis generals exclosos per la normativa. És una pregunta de síntesi que obliga a aplicar diversos conceptes simultàniament.",
+    "legalReference": [
+      "Art. 20 TRLRHL",
+      "Art. 21 TRLRHL"
+    ],
+    "examTrap": "La dificultat consisteix a detectar serveis generals ocults dins de les combinacions proposades.",
+    "answerOptions": [
+      {
+        "text": "Llicències urbanístiques, certificacions administratives i ocupació de la via pública amb terrassa.",
+        "isCorrect": true,
+        "rationale": "Els tres supòsits constitueixen exemples clàssics de fets imposables susceptibles de taxa."
+      },
+      {
+        "text": "Neteja viària, protecció civil i llicències urbanístiques.",
+        "isCorrect": false,
+        "rationale": "La neteja viària i la protecció civil estan excloses per l'article 21."
+      },
+      {
+        "text": "Ensenyament obligatori, certificacions administratives i terrasses.",
+        "isCorrect": false,
+        "rationale": "L'ensenyament obligatori no pot ser objecte de taxa."
+      },
+      {
+        "text": "Protecció civil, neteja viària i enllumenat públic.",
+        "isCorrect": false,
+        "rationale": "Tots són serveis generals aliens als supòsits típics de les taxes."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quina és la naturalesa jurídica de les taxes dins del sistema tributari?",
+    "hint": "Els tributs es classifiquen en tres grans categories. Tot i compartir la mateixa naturalesa tributària, cadascuna presenta un fet imposable diferent. Les taxes es caracteritzen perquè l'obligació de pagament té el seu origen en una actuació administrativa concreta o en una utilització singularitzada de béns de domini públic que afecta especialment el subjecte passiu.",
+    "legalReference": [
+      "Art. 2 LGT",
+      "Art. 20 TRLRHL"
+    ],
+    "examTrap": "Molts opositors confonen la naturalesa tributària de les taxes amb la dels preus públics.",
+    "answerOptions": [
+      {
+        "text": "Són ingressos no tributaris.",
+        "isCorrect": false,
+        "rationale": "Els ingressos no tributaris inclouen figures com els preus públics, però no les taxes."
+      },
+      {
+        "text": "Són una categoria de tribut.",
+        "isCorrect": true,
+        "rationale": "La LGT classifica els tributs en impostos, taxes i contribucions especials."
+      },
+      {
+        "text": "Són subvencions municipals.",
+        "isCorrect": false,
+        "rationale": "Les subvencions són aportacions econòmiques i no prestacions tributàries."
+      },
+      {
+        "text": "Són operacions de crèdit.",
+        "isCorrect": false,
+        "rationale": "Les operacions de crèdit constitueixen endeutament i no tenen naturalesa tributària."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quina de les següents activitats administratives acostuma a donar lloc a una taxa perquè afecta especialment una persona determinada?",
+    "hint": "L'exigència de taxes per activitats administratives requereix que l'actuació pública es refereixi, afecti o beneficiï especialment un subjecte concret. Aquest criteri d'individualització és essencial per diferenciar les actuacions susceptibles de taxa dels serveis públics generals dirigits a la comunitat en conjunt.",
+    "legalReference": [
+      "Art. 20.4 TRLRHL"
+    ],
+    "examTrap": "Els serveis generals apareixen sovint com a distractors perquè també impliquen activitat administrativa.",
+    "answerOptions": [
+      {
+        "text": "L'emissió d'un informe urbanístic sol·licitat per una persona.",
+        "isCorrect": true,
+        "rationale": "Es tracta d'una activitat administrativa individualitzada que afecta particularment el sol·licitant."
+      },
+      {
+        "text": "La vigilància general dels carrers.",
+        "isCorrect": false,
+        "rationale": "És un servei públic general que beneficia la comunitat en conjunt."
+      },
+      {
+        "text": "L'enllumenat públic del municipi.",
+        "isCorrect": false,
+        "rationale": "No existeix una afectació individualitzada a favor d'una persona concreta."
+      },
+      {
+        "text": "La protecció civil municipal.",
+        "isCorrect": false,
+        "rationale": "És un dels serveis generals exclosos de l'àmbit de les taxes."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Per què la neteja de la via pública no pot finançar-se ordinàriament mitjançant una taxa?",
+    "hint": "La llei exclou expressament determinats serveis públics de l'àmbit de les taxes. Aquestes exclusions responen al fet que l'activitat beneficia de manera general la població i no permet identificar una persona concreta que rebi una utilitat singular o una afectació especial justificant l'obligació tributària.",
+    "legalReference": [
+      "Art. 21 TRLRHL"
+    ],
+    "examTrap": "Alguns aspirants pensen que qualsevol servei prestat per l'ajuntament pot ser finançat amb taxes.",
+    "answerOptions": [
+      {
+        "text": "Perquè és un servei que ha de finançar sempre l'Estat.",
+        "isCorrect": false,
+        "rationale": "La prohibició no es basa en qui finança el servei sinó en la naturalesa de l'activitat."
+      },
+      {
+        "text": "Perquè la normativa l'exclou expressament dels supòsits susceptibles de taxa.",
+        "isCorrect": true,
+        "rationale": "L'article 21 del TRLRHL impedeix exigir taxes per la neteja de la via pública."
+      },
+      {
+        "text": "Perquè només pot finançar-se amb preus públics.",
+        "isCorrect": false,
+        "rationale": "Els preus públics tampoc són la figura adequada per a aquest servei general."
+      },
+      {
+        "text": "Perquè és una competència autonòmica.",
+        "isCorrect": false,
+        "rationale": "La resposta no té relació amb el règim jurídic de les taxes."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quin dels següents exemples representa una utilització privativa del domini públic local?",
+    "hint": "La utilització privativa implica l'ocupació o ús exclusiu d'una part del domini públic de manera que limita o exclou l'ús ordinari per part d'altres persones. Aquesta figura es diferencia de l'aprofitament especial perquè el grau d'intensitat de l'ús és superior.",
+    "legalReference": [
+      "Art. 20 TRLRHL"
+    ],
+    "examTrap": "Les opcions incorrectes descriuen situacions vinculades a serveis administratius o activitats generals.",
+    "answerOptions": [
+      {
+        "text": "L'ocupació d'una porció de la via pública amb una terrassa autoritzada.",
+        "isCorrect": true,
+        "rationale": "La terrassa ocupa de forma privativa una part del domini públic municipal."
+      },
+      {
+        "text": "La consulta d'un expedient administratiu.",
+        "isCorrect": false,
+        "rationale": "Es tracta d'una actuació administrativa i no d'una ocupació del domini públic."
+      },
+      {
+        "text": "L'obtenció d'una llicència urbanística.",
+        "isCorrect": false,
+        "rationale": "Correspon a una activitat administrativa susceptible de taxa, però no a una utilització privativa."
+      },
+      {
+        "text": "L'assistència a una activitat cultural municipal.",
+        "isCorrect": false,
+        "rationale": "S'acosta més al règim dels preus públics que al de les taxes per domini públic."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 5,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Taxes] Quina afirmació resumeix millor el règim jurídic de les taxes locals?",
+    "hint": "Les taxes comparteixen naturalesa tributària amb impostos i contribucions especials, però presenten característiques pròpies relacionades amb la utilització del domini públic i determinades actuacions administratives. Per respondre correctament cal identificar els elements definidors essencials d'aquesta figura tributària.",
+    "legalReference": [
+      "Art. 20 TRLRHL",
+      "Art. 2 LGT"
+    ],
+    "examTrap": "Les opcions incorrectes solen contenir elements versemblants però propis d'impostos, preus públics o contribucions especials.",
+    "answerOptions": [
+      {
+        "text": "Són tributs exigits per l'ús singularitzat del domini públic o per activitats administratives que afecten particularment el subjecte passiu.",
+        "isCorrect": true,
+        "rationale": "Aquesta definició recull els dos grans fets imposables de les taxes previstos legalment."
+      },
+      {
+        "text": "Són ingressos no tributaris vinculats a serveis voluntaris.",
+        "isCorrect": false,
+        "rationale": "Aquesta és la definició pròpia dels preus públics."
+      },
+      {
+        "text": "Només poden establir-se quan existeix un increment de valor dels béns.",
+        "isCorrect": false,
+        "rationale": "Aquest és un element característic de les contribucions especials."
+      },
+      {
+        "text": "Graven exclusivament manifestacions de capacitat econòmica.",
+        "isCorrect": false,
+        "rationale": "Aquest és el tret distintiu dels impostos."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "subjectId": "T13",
+    "difficulty": 2,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Contribucions especials] Quin és el fet imposable de les contribucions especials?",
+    "hint": "Les contribucions especials constitueixen una categoria tributària diferenciada dels impostos i de les taxes. La seva existència es justifica quan una actuació pública genera un avantatge especial per a determinades persones. Aquest avantatge ha de ser individualitzable i superior al que rep la resta de la comunitat. La figura té una clara vinculació amb el finançament d'obres públiques i serveis locals.",
+    "legalReference": [
+      "Art. 28 TRLRHL",
+      "Art. 2.2.b LGT"
+    ],
+    "examTrap": "És molt habitual confondre el fet imposable de les contribucions especials amb el de les taxes.",
+    "answerOptions": [
+      {
+        "text": "La utilització privativa del domini públic.",
+        "isCorrect": false,
+        "rationale": "Aquest és un dels fets imposables típics de les taxes."
+      },
+      {
+        "text": "L'obtenció d'un benefici especial o un augment de valor dels béns a conseqüència d'obres o serveis públics.",
+        "isCorrect": true,
+        "rationale": "Aquesta és la definició legal del fet imposable de les contribucions especials."
+      },
+      {
+        "text": "La titularitat de béns immobles.",
+        "isCorrect": false,
+        "rationale": "Aquest és el fet imposable de l'IBI."
+      },
+      {
+        "text": "L'exercici d'activitats econòmiques.",
+        "isCorrect": false,
+        "rationale": "Aquest és el fet imposable de l'IAE."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 3,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Contribucions especials] Quin és el principal element que justifica l'exigència d'una contribució especial?",
+    "hint": "No tota actuació pública permet establir aquest tribut. La normativa exigeix l'existència d'un efecte positiu específic sobre determinades persones o béns. Si el benefici és general i afecta tota la població de manera equivalent, no existeix el pressupòsit necessari per aplicar aquesta figura tributària.",
+    "legalReference": [
+      "Art. 28 TRLRHL"
+    ],
+    "examTrap": "La clau és diferenciar entre benefici general i benefici especial.",
+    "answerOptions": [
+      {
+        "text": "La mera existència d'una despesa municipal.",
+        "isCorrect": false,
+        "rationale": "L'existència de despesa pública no és suficient per si sola."
+      },
+      {
+        "text": "Un benefici especial o increment de valor individualitzable.",
+        "isCorrect": true,
+        "rationale": "La justificació jurídica de la contribució especial és l'existència d'un benefici singular per a determinats contribuents."
+      },
+      {
+        "text": "L'obligació de prestar un servei públic.",
+        "isCorrect": false,
+        "rationale": "La prestació d'un servei no origina automàticament contribucions especials."
+      },
+      {
+        "text": "L'existència d'un dèficit pressupostari.",
+        "isCorrect": false,
+        "rationale": "Les contribucions especials no són un instrument per corregir dèficits pressupostaris."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Contribucions especials] Quin percentatge màxim del cost suportat per l'entitat local pot constituir la base imposable de les contribucions especials?",
+    "hint": "La normativa limita la part del cost de l'actuació pública que pot repercutir-se als beneficiaris. Aquesta limitació respon a la idea que les obres i serveis públics també generen beneficis generals per a la comunitat i, per tant, una part del cost ha de continuar sent assumida per l'entitat local.",
+    "legalReference": [
+      "Art. 31 TRLRHL"
+    ],
+    "examTrap": "Les respostes incorrectes acostumen a utilitzar percentatges pròxims al correcte.",
+    "answerOptions": [
+      {
+        "text": "70%.",
+        "isCorrect": false,
+        "rationale": "La llei estableix un límit superior."
+      },
+      {
+        "text": "80%.",
+        "isCorrect": false,
+        "rationale": "Aquest percentatge no coincideix amb el límit legal."
+      },
+      {
+        "text": "90%.",
+        "isCorrect": true,
+        "rationale": "El TRLRHL fixa el 90% com a percentatge màxim de la base imposable."
+      },
+      {
+        "text": "100%.",
+        "isCorrect": false,
+        "rationale": "La normativa no permet repercutir la totalitat del cost suportat per l'entitat local."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Contribucions especials] Quina diferència essencial existeix entre una taxa i una contribució especial?",
+    "hint": "Tot i que ambdues figures són tributs, els seus fets imposables són molt diferents. Una es basa en una actuació administrativa o en la utilització singularitzada del domini públic, mentre que l'altra es fonamenta en un avantatge especial obtingut a conseqüència d'una actuació pública.",
+    "legalReference": [
+      "Art. 20 TRLRHL",
+      "Art. 28 TRLRHL",
+      "Art. 2 LGT"
+    ],
+    "examTrap": "La majoria d'errors en aquesta matèria provenen de confondre aquestes dues figures tributàries.",
+    "answerOptions": [
+      {
+        "text": "La taxa és un tribut i la contribució especial no.",
+        "isCorrect": false,
+        "rationale": "Ambdues figures tenen naturalesa tributària."
+      },
+      {
+        "text": "La contribució especial exigeix un benefici especial o augment de valor derivat d'una actuació pública.",
+        "isCorrect": true,
+        "rationale": "Aquest és l'element diferenciador fonamental entre ambdues figures."
+      },
+      {
+        "text": "La taxa només existeix en municipis grans.",
+        "isCorrect": false,
+        "rationale": "No existeix aquest requisit legal."
+      },
+      {
+        "text": "Les contribucions especials només poden establir-se per activitats econòmiques.",
+        "isCorrect": false,
+        "rationale": "El fet imposable no depèn de l'exercici d'activitats econòmiques."
+      }
+    ]
+  },
+  {
+    "subjectId": "T13",
+    "difficulty": 4,
+    "origin": "Generada",
+    "type": "test",
+    "question": "[Contribucions especials] Quin dels següents supòsits seria el més adequat per establir una contribució especial?",
+    "hint": "Aquest tribut està especialment pensat per a actuacions públiques que incrementen de manera directa el valor de determinats béns o generen un avantatge clarament identificable per a un col·lectiu limitat de persones. La clau és detectar l'existència d'un benefici especial i no simplement d'una millora general per al conjunt del municipi.",
+    "legalReference": [
+      "Art. 28 TRLRHL",
+      "Art. 30 TRLRHL"
+    ],
+    "examTrap": "Les respostes incorrectes descriuen serveis generals que beneficien tota la població.",
+    "answerOptions": [
+      {
+        "text": "Construcció d'un nou accés que incrementa el valor d'una zona concreta de propietats.",
+        "isCorrect": true,
+        "rationale": "Existeix un benefici especial i individualitzable per als propietaris afectats."
+      },
+      {
+        "text": "Servei general de policia local.",
+        "isCorrect": false,
+        "rationale": "El benefici és general per a tota la comunitat."
+      },
+      {
+        "text": "Campanya municipal de sensibilització mediambiental.",
+        "isCorrect": false,
+        "rationale": "No existeix un augment de valor ni un benefici especial individualitzable."
+      },
+      {
+        "text": "Il·luminació ordinària dels carrers del municipi.",
+        "isCorrect": false,
+        "rationale": "El benefici és general i no singularitzat."
+      }
+    ]
+  }
+]
