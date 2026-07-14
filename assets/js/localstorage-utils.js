@@ -36,7 +36,14 @@ const LS_KEYS = {
   DIAPOS_PAUSADO: 'sTICdOpos_diaposPausado',
   DIAPOS_CONTINUE: 'sTICdOpos_diaposContinue',
   MD_PAUSADO: 'sTICdOpos_mdPausado',
-  MD_CONTINUE: 'sTICdOpos_mdContinue'
+  MD_CONTINUE: 'sTICdOpos_mdContinue',
+  TTS_RATE: 'sTICdOpos_tts_rate',
+  TTS_PITCH: 'sTICdOpos_tts_pitch',
+  TTS_LANG: 'sTICdOpos_tts_lang',
+  TTS_VOICE: 'sTICdOpos_tts_voice',
+  TTS_DOC_REF: 'sTICdOpos_tts_docRef',
+  TTS_PROGRESS: 'sTICdOpos_tts_progress',
+  TTS_COLLAPSED_CARDS: 'sTICdOpos_tts_collapsedCards'
 };
 
 // Método para borrar el estado guardado de estudio

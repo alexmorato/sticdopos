@@ -51,6 +51,38 @@
       margin-bottom: 16px;
     }
 
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .card-body {
+      margin-top: 10px;
+    }
+
+    .card-body.collapsed {
+      display: none;
+    }
+
+    .collapse-btn {
+      border: 1px solid #3a4a6a;
+      background: #27304a;
+      color: #e7ecff;
+      border-radius: 8px;
+      padding: 6px 10px;
+      min-width: 40px;
+      cursor: pointer;
+      font-weight: 700;
+      line-height: 1;
+      transition: background 0.2s;
+    }
+
+    .collapse-btn:hover {
+      background: #3a4a6a;
+    }
+
     .title {
       font-size: 1.5rem;
       color: #6ae0a7;
@@ -401,43 +433,65 @@
   <div id="infoLabel" class="info-label">fitxer tts</div>
 
   <div class="page">
-    <section class="card">
-      <div class="title">Lector de text TTS</div>
-      <div class="subtitle" id="subtitle">Preparant fitxer...</div>
-      <div class="status" id="statusMsg">Esperant</div>
+    <section class="card card-collapsible" id="readerInfoCard">
+      <div class="card-header">
+        <div class="title">Lector de text TTS</div>
+        <button class="collapse-btn" id="readerInfoToggleBtn" type="button" aria-expanded="true" aria-controls="readerInfoCardBody">-</button>
+      </div>
+      <div class="card-body" id="readerInfoCardBody">
+        <div class="subtitle" id="subtitle">Preparant fitxer...</div>
+        <div class="status" id="statusMsg">Esperant</div>
+      </div>
     </section>
 
-    <section class="card">
-      <div class="controls-grid">
-        <div class="control-row">
-          <label for="languageSelect">Idioma</label>
-          <select id="languageSelect"></select>
-          <span class="control-value" id="languageValue">-</span>
-        </div>
+    <section class="card card-collapsible" id="readerControlsCard">
+      <div class="card-header">
+        <div class="title">Controls TTS</div>
+        <button class="collapse-btn" id="readerControlsToggleBtn" type="button" aria-expanded="true" aria-controls="readerControlsCardBody">-</button>
+      </div>
+      <div class="card-body" id="readerControlsCardBody">
+        <div class="controls-grid">
+          <div class="control-row">
+            <label for="languageSelect">Idioma</label>
+            <select id="languageSelect"></select>
+            <span class="control-value" id="languageValue">-</span>
+          </div>
 
-        <div class="control-row">
-          <label for="voiceSelect">Veu</label>
-          <select id="voiceSelect"></select>
-          <span class="control-value" id="voiceValue">-</span>
-        </div>
+          <div class="control-row">
+            <label for="voiceSelect">Veu</label>
+            <select id="voiceSelect"></select>
+            <span class="control-value" id="voiceValue">-</span>
+          </div>
 
-        <div class="control-row">
-          <label for="rateSlider">Velocitat</label>
-          <input type="range" id="rateSlider" min="0.5" max="2" step="0.05" value="1">
-          <span class="control-value" id="rateValue">1.00</span>
-        </div>
+          <div class="control-row">
+            <label for="rateSlider">Velocitat</label>
+            <input type="range" id="rateSlider" min="0.5" max="2" step="0.05" value="1">
+            <span class="control-value" id="rateValue">1.00</span>
+          </div>
 
-        <div class="control-row">
-          <label for="pitchSlider">To</label>
-          <input type="range" id="pitchSlider" min="0" max="2" step="0.1" value="1">
-          <span class="control-value" id="pitchValue">1.0</span>
+          <div class="control-row">
+            <label for="pitchSlider">To</label>
+            <input type="range" id="pitchSlider" min="0" max="2" step="0.1" value="1">
+            <span class="control-value" id="pitchValue">1.0</span>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="btn-row">
-        <button class="btn btn-play" id="playAllBtn">▶ Reproduir tot</button>
-        <button class="btn btn-neutral" id="playSelectionBtn">▶ Reproduir seleccio</button>
-        <button class="btn btn-warn" id="stopBtn">⏹ Aturar</button>
+    <section class="card card-collapsible" id="readerActionsCard">
+      <div class="card-header">
+        <div class="title">Accions lectura</div>
+        <button class="collapse-btn" id="readerActionsToggleBtn" type="button" aria-expanded="true" aria-controls="readerActionsCardBody">-</button>
+      </div>
+      <div class="card-body" id="readerActionsCardBody">
+        <div class="btn-row">
+          <button class="btn btn-play" id="playAllBtn">▶ Reproduir tot</button>
+          <button class="btn btn-neutral" id="playSelectionBtn">▶ Reproduir seleccio</button>
+          <button class="btn btn-neutral" id="pauseBtn">⏸ Pausa</button>
+          <button class="btn btn-neutral" id="prevBtn">⏮ Anterior</button>
+          <button class="btn btn-neutral" id="nextBtn">⏭ Seguent</button>
+          <button class="btn btn-warn" id="stopBtn">⏹ Aturar</button>
+        </div>
       </div>
     </section>
 
@@ -454,10 +508,13 @@
 
   <script>
     const STORAGE = {
-      rate: 'sTICdOpos_tts_rate',
-      pitch: 'sTICdOpos_tts_pitch',
-      lang: 'sTICdOpos_tts_lang',
-      voice: 'sTICdOpos_tts_voice'
+      rate: LS_KEYS.TTS_RATE,
+      pitch: LS_KEYS.TTS_PITCH,
+      lang: LS_KEYS.TTS_LANG,
+      voice: LS_KEYS.TTS_VOICE,
+      docRef: LS_KEYS.TTS_DOC_REF,
+      progress: LS_KEYS.TTS_PROGRESS,
+      collapsedCards: LS_KEYS.TTS_COLLAPSED_CARDS
     };
 
     const statusMsg = document.getElementById('statusMsg');
@@ -476,6 +533,9 @@
 
     const playAllBtn = document.getElementById('playAllBtn');
     const playSelectionBtn = document.getElementById('playSelectionBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
     const stopBtn = document.getElementById('stopBtn');
     const copyTextBtn = document.getElementById('copyTextBtn');
     const clearTextBtn = document.getElementById('clearTextBtn');
@@ -487,6 +547,12 @@
     const menuTornarBtn = document.getElementById('menuTornarBtn');
     const menuIndexBtn = document.getElementById('menuIndexBtn');
     const infoLabel = document.getElementById('infoLabel');
+    const readerInfoToggleBtn = document.getElementById('readerInfoToggleBtn');
+    const readerControlsToggleBtn = document.getElementById('readerControlsToggleBtn');
+    const readerActionsToggleBtn = document.getElementById('readerActionsToggleBtn');
+    const readerInfoCardBody = document.getElementById('readerInfoCardBody');
+    const readerControlsCardBody = document.getElementById('readerControlsCardBody');
+    const readerActionsCardBody = document.getElementById('readerActionsCardBody');
 
     const urlParams = new URLSearchParams(window.location.search);
     const root = urlParams.get('root') || 'apunts_new';
@@ -497,6 +563,105 @@
     let voices = [];
     let isSequentialReading = false;
     let wakeLockSentinel = null;
+    let currentDocRef = '';
+    let pendingResumeProgress = null;
+
+    function updatePauseButtonLabel() {
+      if (!pauseBtn) return;
+      const synthesis = window.speechSynthesis;
+      const isPaused = synthesis && synthesis.paused;
+      pauseBtn.textContent = isPaused ? '▶ Continuar' : '⏸ Pausa';
+    }
+
+    function getReadableParagraphElements() {
+      return Array.from(ttsTextContainer.querySelectorAll('.para-item'));
+    }
+
+    function jumpToParagraph(offset) {
+      const paragraphEls = getReadableParagraphElements();
+      if (!paragraphEls.length) {
+        setStatus('No hi ha paragrafes per navegar', true);
+        return;
+      }
+
+      const saved = loadReadingProgressForCurrentDoc();
+      const currentParagraph = saved && Number.isFinite(saved.paragraphIndex) ? saved.paragraphIndex : 0;
+      const targetParagraph = Math.min(paragraphEls.length - 1, Math.max(0, currentParagraph + offset));
+
+      saveReadingProgress(targetParagraph, 0);
+      stopSpeaking();
+      updatePauseButtonLabel();
+      speakByParagraphs(paragraphEls, { paragraphIndex: targetParagraph, chunkIndex: 0 });
+      pendingResumeProgress = null;
+    }
+
+    function buildDocRef() {
+      return 'root=' + root + '&tema=' + tema + '&fitxer=' + fitxer;
+    }
+
+    function saveCurrentDocumentRef(docRef) {
+      if (!docRef) return;
+      saveSetting(STORAGE.docRef, docRef);
+    }
+
+    function saveReadingProgress(paragraphIndex, chunkIndex) {
+      if (!currentDocRef) return;
+      const safeParagraph = Number.isFinite(paragraphIndex) ? Math.max(0, Math.floor(paragraphIndex)) : 0;
+      const safeChunk = Number.isFinite(chunkIndex) ? Math.max(0, Math.floor(chunkIndex)) : 0;
+      const payload = {
+        docRef: currentDocRef,
+        paragraphIndex: safeParagraph,
+        chunkIndex: safeChunk,
+        updatedAt: Date.now()
+      };
+      saveSetting(STORAGE.progress, JSON.stringify(payload));
+    }
+
+    function loadReadingProgressForCurrentDoc() {
+      if (!currentDocRef) return null;
+      try {
+        const raw = localStorage.getItem(STORAGE.progress);
+        if (!raw) return null;
+        const parsed = JSON.parse(raw);
+        if (!parsed || parsed.docRef !== currentDocRef) return null;
+
+        const paragraphIndex = Number(parsed.paragraphIndex);
+        const chunkIndex = Number(parsed.chunkIndex);
+        if (!Number.isFinite(paragraphIndex) || paragraphIndex < 0) return null;
+
+        return {
+          paragraphIndex: Math.floor(paragraphIndex),
+          chunkIndex: Number.isFinite(chunkIndex) && chunkIndex >= 0 ? Math.floor(chunkIndex) : 0
+        };
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function clearReadingProgressForCurrentDoc() {
+      if (!currentDocRef) return;
+      const progress = loadReadingProgressForCurrentDoc();
+      if (progress) {
+        localStorage.removeItem(STORAGE.progress);
+      }
+    }
+
+    function loadCollapsedCardsState() {
+      try {
+        const raw = localStorage.getItem(STORAGE.collapsedCards);
+        if (!raw) return {};
+        const parsed = JSON.parse(raw);
+        if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+        return parsed;
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function saveCollapsedCardsState(state) {
+      if (!state || typeof state !== 'object') return;
+      saveSetting(STORAGE.collapsedCards, JSON.stringify(state));
+    }
 
     async function requestWakeLock() {
       if (!("wakeLock" in navigator)) return;
@@ -536,6 +701,7 @@
       releaseWakeLock();
       ttsTextContainer.querySelectorAll('.para-item.reading').forEach(el => el.classList.remove('reading'));
       setStatus('Aturat', false);
+      updatePauseButtonLabel();
     }
 
     function splitTextForTTS(text, maxLen) {
@@ -595,6 +761,7 @@
       isSequentialReading = true;
       requestWakeLock();
       setStatus('Reproduint...', false);
+      updatePauseButtonLabel();
 
       let idx = 0;
       const voice = getSelectedVoice();
@@ -608,6 +775,7 @@
           isSequentialReading = false;
           releaseWakeLock();
           setStatus('Reproduccio finalitzada', false);
+          updatePauseButtonLabel();
           return;
         }
 
@@ -627,6 +795,7 @@
           isSequentialReading = false;
           releaseWakeLock();
           setStatus('Error en reproduccio TTS', true);
+          updatePauseButtonLabel();
         };
 
         window.speechSynthesis.speak(utterance);
@@ -760,37 +929,54 @@
         .join('');
     }
 
-    function speakByParagraphs(paragraphEls) {
+    function speakByParagraphs(paragraphEls, startProgress) {
       if (!('speechSynthesis' in window)) {
         setStatus('Web Speech API no disponible', true);
         return;
       }
+      if (!paragraphEls || !paragraphEls.length) {
+        setStatus('No hi ha paragrafes per reproduir', true);
+        return;
+      }
+
+      const initialParagraph = startProgress && Number.isFinite(startProgress.paragraphIndex)
+        ? Math.max(0, Math.min(paragraphEls.length - 1, Math.floor(startProgress.paragraphIndex)))
+        : 0;
+
       stopSpeaking();
       isSequentialReading = true;
       requestWakeLock();
       setStatus('Reproduint...', false);
+      updatePauseButtonLabel();
 
       const voice = getSelectedVoice();
       const rate = parseFloat(rateSlider.value);
       const pitch = parseFloat(pitchSlider.value);
       const selectedLang = languageSelect.value || 'ca-ES';
       const MAX_RETRIES = 2;
-      let idx = 0;
+      let idx = initialParagraph;
       let retries = 0;
+      let resumeChunkIndex = startProgress && Number.isFinite(startProgress.chunkIndex) && startProgress.chunkIndex > 0
+        ? Math.floor(startProgress.chunkIndex)
+        : 0;
 
       paragraphEls.forEach(el => el.classList.remove('reading'));
+      saveReadingProgress(idx, resumeChunkIndex);
 
       const playNextParagraph = () => {
         if (!isSequentialReading) {
           paragraphEls.forEach(el => el.classList.remove('reading'));
           releaseWakeLock();
+          updatePauseButtonLabel();
           return;
         }
         if (idx >= paragraphEls.length) {
           isSequentialReading = false;
           paragraphEls.forEach(el => el.classList.remove('reading'));
           releaseWakeLock();
+          clearReadingProgressForCurrentDoc();
           setStatus('Reproducció finalitzada', false);
+          updatePauseButtonLabel();
           return;
         }
 
@@ -804,21 +990,28 @@
         if (!fullText) {
           idx += 1;
           retries = 0;
+          resumeChunkIndex = 0;
+          saveReadingProgress(idx, resumeChunkIndex);
           setTimeout(playNextParagraph, 50);
           return;
         }
 
         const chunks = splitTextForTTS(fullText, 220);
-        let chunkIdx = 0;
+        let chunkIdx = Math.min(resumeChunkIndex, Math.max(0, chunks.length - 1));
+        resumeChunkIndex = 0;
+        saveReadingProgress(idx, chunkIdx);
 
         const playNextChunk = () => {
           if (!isSequentialReading) return;
           if (chunkIdx >= chunks.length) {
             retries = 0;
             idx += 1;
+            saveReadingProgress(idx, 0);
             setTimeout(playNextParagraph, 120);
             return;
           }
+
+          saveReadingProgress(idx, chunkIdx);
 
           const utterance = new SpeechSynthesisUtterance(chunks[chunkIdx]);
           utterance.rate = rate;
@@ -840,9 +1033,11 @@
             } else {
               retries = 0;
               idx += 1;
+              saveReadingProgress(idx, 0);
               setStatus(`Error al paràgraf ${idx}, passant al següent`, true);
               setTimeout(playNextParagraph, 300);
             }
+            updatePauseButtonLabel();
           };
 
           window.speechSynthesis.speak(utterance);
@@ -871,6 +1066,8 @@
       const fileNameNoExt = fitxer.replace(/\.[^/.]+$/, '') || 'tts';
       infoLabel.textContent = fileNameNoExt;
       subtitle.textContent = textPath;
+      currentDocRef = buildDocRef();
+      saveCurrentDocumentRef(currentDocRef);
 
       try {
         const res = await fetch(textPath + '?v=' + Date.now());
@@ -886,7 +1083,12 @@
         }
 
         renderParagraphs(loadedText);
-        setStatus('Text carregat', false);
+        pendingResumeProgress = loadReadingProgressForCurrentDoc();
+        if (pendingResumeProgress) {
+          setStatus('Text carregat. Hi ha progress guardat al document.', false);
+        } else {
+          setStatus('Text carregat', false);
+        }
       } catch (error) {
         console.error(error);
         ttsTextContainer.innerHTML = '<div class="error-state">Error carregant el fitxer TTS.<br>' + escapeHtml(textPath) + '</div>';
@@ -944,6 +1146,39 @@
       });
     }
 
+    function initCollapsibleCards() {
+      const collapsedState = loadCollapsedCardsState();
+
+      const bindCollapsible = (buttonEl, bodyEl) => {
+        if (!buttonEl || !bodyEl) return;
+
+        const stateKey = bodyEl.id || buttonEl.id;
+
+        const setCollapsed = (collapsed) => {
+          bodyEl.classList.toggle('collapsed', collapsed);
+          buttonEl.textContent = collapsed ? '+' : '-';
+          buttonEl.setAttribute('aria-expanded', String(!collapsed));
+
+          if (stateKey) {
+            collapsedState[stateKey] = collapsed;
+            saveCollapsedCardsState(collapsedState);
+          }
+        };
+
+        const shouldStartCollapsed = Boolean(collapsedState[stateKey]);
+        setCollapsed(shouldStartCollapsed);
+
+        buttonEl.addEventListener('click', () => {
+          const willCollapse = !bodyEl.classList.contains('collapsed');
+          setCollapsed(willCollapse);
+        });
+      };
+
+      bindCollapsible(readerInfoToggleBtn, readerInfoCardBody);
+      bindCollapsible(readerControlsToggleBtn, readerControlsCardBody);
+      bindCollapsible(readerActionsToggleBtn, readerActionsCardBody);
+    }
+
     function initControls() {
       rateSlider.addEventListener('input', () => {
         const value = Number(rateSlider.value).toFixed(2);
@@ -980,7 +1215,8 @@
         }
         const paragraphEls = Array.from(ttsTextContainer.querySelectorAll('.para-item'));
         if (paragraphEls.length) {
-          speakByParagraphs(paragraphEls);
+          speakByParagraphs(paragraphEls, pendingResumeProgress);
+          pendingResumeProgress = null;
         } else {
           speakSequentially(text);
         }
@@ -993,6 +1229,35 @@
           return;
         }
         speakSequentially(selected);
+      });
+
+      pauseBtn.addEventListener('click', () => {
+        if (!('speechSynthesis' in window)) {
+          setStatus('Web Speech API no disponible', true);
+          return;
+        }
+
+        const synthesis = window.speechSynthesis;
+        if (synthesis.paused) {
+          synthesis.resume();
+          setStatus('Reproduint...', false);
+          requestWakeLock();
+        } else if (synthesis.speaking) {
+          synthesis.pause();
+          setStatus('En pausa', false);
+          releaseWakeLock();
+        } else {
+          setStatus('No hi ha reproduccio activa', true);
+        }
+        updatePauseButtonLabel();
+      });
+
+      prevBtn.addEventListener('click', () => {
+        jumpToParagraph(-1);
+      });
+
+      nextBtn.addEventListener('click', () => {
+        jumpToParagraph(1);
       });
 
       stopBtn.addEventListener('click', () => {
@@ -1031,6 +1296,7 @@
         ttsTextContainer.contentEditable = 'true';
         ttsTextContainer.focus();
         setStatus('Pots enganxar o escriure text nou', false);
+        updatePauseButtonLabel();
       });
     }
 
@@ -1040,6 +1306,7 @@
       login.checkUserAuth(userGuid, userPass, login.ROLES.VIP);
 
       initMenu();
+      initCollapsibleCards();
       loadSavedSettings();
       if ('speechSynthesis' in window) {
         loadVoices();
@@ -1047,6 +1314,7 @@
         setStatus('Web Speech API no disponible', true);
       }
       initControls();
+      updatePauseButtonLabel();
       cargarTexto();
     }, { once: true });
 
