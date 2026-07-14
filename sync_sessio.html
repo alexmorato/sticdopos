@@ -67,7 +67,7 @@
 			padding: 16px 20px;
 			border-bottom: 1px solid var(--line);
 			display: grid;
-			grid-template-columns: 1fr auto auto auto;
+			grid-template-columns: 1fr auto auto auto auto auto;
 			gap: 10px;
 			align-items: center;
 		}
@@ -221,6 +221,38 @@
 			margin-right: 6px;
 		}
 
+		.sync-busy {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			padding: 8px 12px;
+			border-radius: 10px;
+			border: 1px solid #cde3e1;
+			background: #e6f3f2;
+			color: #11453f;
+			font-size: 0.88rem;
+			font-weight: 600;
+		}
+
+		.sync-busy.hidden {
+			display: none;
+		}
+
+		.sync-spinner {
+			width: 16px;
+			height: 16px;
+			border-radius: 50%;
+			border: 2px solid #9ccfca;
+			border-top-color: #0f766e;
+			animation: sync-spin 0.8s linear infinite;
+		}
+
+		@keyframes sync-spin {
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
 		@media (max-width: 920px) {
 			.controls {
 				grid-template-columns: 1fr;
@@ -240,12 +272,23 @@
 
 		<section class="controls">
 			<input id="searchInput" type="search" placeholder="Filtrar por clave o valor..." />
+			<button id="uploadStudyBtn" class="btn-primary" type="button">⬆️Subir estudio</button>
+			<button id="downloadStudyBtn" class="btn-primary" type="button">Descargar estudio⬇️</button>
 			<button id="refreshBtn" class="btn-primary" type="button">Refrescar</button>
 			<button id="copySelectedBtn" class="btn-ghost" type="button">Copiar seleccion</button>
 			<button id="deleteSelectedBtn" class="btn-danger" type="button">Borrar seleccion</button>
 		</section>
 
 		<section class="meta" id="meta"></section>
+
+		<div id="status" class="status warn" role="status">Carga inicial...</div>
+
+		<section class="meta" style="border-top: 1px solid var(--line);" aria-live="polite">
+			<div id="syncBusy" class="sync-busy hidden">
+				<span class="sync-spinner" aria-hidden="true"></span>
+				<span id="syncBusyText">Sincronitzant...</span>
+			</div>
+		</section>
 
 		<div class="table-wrap">
 			<table>
@@ -261,15 +304,17 @@
 				<tbody id="rows"></tbody>
 			</table>
 		</div>
-
-		<div id="status" class="status warn" role="status">Carga inicial...</div>
 	</main>
 	<script src="assets/js/localstorage-utils.js"></script>
 
 	<script>
 		(function () {
 			"use strict";
+			const FIREBASE_SYNC_API_KEY = "AIzaSyBNEaYUKHjSQ_n8nlluwDBSKjcY-a1ieww";
+			const FIREBASE_SYNC_FILE_SUFFIX = "_estudy.json";
 			const searchInput = document.getElementById("searchInput");
+			const uploadStudyBtn = document.getElementById("uploadStudyBtn");
+			const downloadStudyBtn = document.getElementById("downloadStudyBtn");
 			const refreshBtn = document.getElementById("refreshBtn");
 			const copySelectedBtn = document.getElementById("copySelectedBtn");
 			const deleteSelectedBtn = document.getElementById("deleteSelectedBtn");
@@ -277,12 +322,25 @@
 			const rowsEl = document.getElementById("rows");
 			const statusEl = document.getElementById("status");
 			const metaEl = document.getElementById("meta");
+			const syncBusyEl = document.getElementById("syncBusy");
+			const syncBusyTextEl = document.getElementById("syncBusyText");
 
 			let visibleEntries = [];
+			let firebaseSyncClient = null;
 
 			function setStatus(message, type) {
 				statusEl.textContent = message;
 				statusEl.className = "status " + type;
+			}
+
+			function setSyncBusy(isBusy, labelText) {
+				if (syncBusyTextEl && labelText) {
+					syncBusyTextEl.textContent = labelText;
+				}
+				if (!syncBusyEl) {
+					return;
+				}
+				syncBusyEl.classList.toggle("hidden", !isBusy);
 			}
 
 			function readEntries() {
@@ -311,6 +369,154 @@
 				}
 
 				return { all, hidden };
+			}
+
+			function getStudyKeysToSync() {
+				const lsKeysValues =
+					typeof LS_KEYS === "object" && LS_KEYS
+						? Object.values(LS_KEYS)
+						: [];
+
+				return Array.from(new Set(
+					lsKeysValues.filter((key) => {
+						if (typeof key !== "string" || key.trim() === "") {
+							return false;
+						}
+						if (typeof isSensitiveLocalStorageKey === "function" && isSensitiveLocalStorageKey(key)) {
+							return false;
+						}
+						return true;
+					})
+				));
+			}
+
+			function getStudyFilePath() {
+				const username = localStorage.getItem(LS_KEYS.USER_NAME);
+				if (!username) {
+					throw new Error("No hi ha usuari definit en localStorage");
+				}
+				return "sessions/" + username + FIREBASE_SYNC_FILE_SUFFIX;
+			}
+
+			async function getFirebaseSyncClient() {
+				if (firebaseSyncClient) {
+					return firebaseSyncClient;
+				}
+
+				const siteId = localStorage.getItem(LS_KEYS.FIREBASE_SITE_ID);
+				if (!siteId) {
+					throw new Error("Falta FIREBASE_SITE_ID en localStorage");
+				}
+
+				const appModule = await import("https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js");
+				const storageModule = await import("https://www.gstatic.com/firebasejs/9.22.2/firebase-storage.js");
+
+				const firebaseConfig = {
+					apiKey: FIREBASE_SYNC_API_KEY,
+					authDomain: siteId + ".firebaseapp.com",
+					projectId: siteId,
+					storageBucket: siteId + ".firebasestorage.app"
+				};
+
+				const existingApp = appModule.getApps().find((app) => app.name === "study-sync-app");
+				const app = existingApp || appModule.initializeApp(firebaseConfig, "study-sync-app");
+
+				firebaseSyncClient = {
+					storage: storageModule.getStorage(app),
+					ref: storageModule.ref,
+					uploadBytes: storageModule.uploadBytes,
+					getDownloadURL: storageModule.getDownloadURL
+				};
+
+				return firebaseSyncClient;
+			}
+
+			async function subirEstudioAlServidor() {
+				uploadStudyBtn.disabled = true;
+				downloadStudyBtn.disabled = true;
+				setSyncBusy(true, "Pujant estudi al servidor...");
+
+				try {
+					const keysToSync = getStudyKeysToSync();
+					const values = {};
+
+					for (const key of keysToSync) {
+						const currentValue = localStorage.getItem(key);
+						values[key] = currentValue;
+					}
+
+					const payload = {
+						updatedAt: new Date().toISOString(),
+						username: localStorage.getItem(LS_KEYS.USER_NAME) || "",
+						values
+					};
+
+					const client = await getFirebaseSyncClient();
+					const filePath = getStudyFilePath();
+					const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+
+					await client.uploadBytes(client.ref(client.storage, filePath), blob);
+					setStatus("Estudi pujat correctament al servidor.", "ok");
+				} catch (error) {
+					console.error("Error pujant estudi:", error);
+					setStatus("Error pujant estudi: " + (error && error.message ? error.message : "desconegut"), "error");
+				} finally {
+					setSyncBusy(false);
+					uploadStudyBtn.disabled = false;
+					downloadStudyBtn.disabled = false;
+				}
+			}
+
+			async function descargarEstudioDelServidor() {
+				uploadStudyBtn.disabled = true;
+				downloadStudyBtn.disabled = true;
+				setSyncBusy(true, "Descarregant estudi del servidor...");
+
+				try {
+					const client = await getFirebaseSyncClient();
+					const filePath = getStudyFilePath();
+					const url = await client.getDownloadURL(client.ref(client.storage, filePath));
+					const response = await fetch(url);
+
+					if (!response.ok) {
+						throw new Error("No s'ha pogut descarregar el fitxer");
+					}
+
+					const data = await response.json();
+					const values = data && typeof data === "object" && data.values && typeof data.values === "object"
+						? data.values
+						: data;
+
+					if (!values || typeof values !== "object" || Array.isArray(values)) {
+						throw new Error("Format de fitxer no valid");
+					}
+
+					for (const [key, value] of Object.entries(values)) {
+						if (typeof key !== "string") {
+							continue;
+						}
+						if (typeof isSensitiveLocalStorageKey === "function" && isSensitiveLocalStorageKey(key)) {
+							continue;
+						}
+						if (value === null || typeof value === "undefined") {
+							localStorage.removeItem(key);
+						} else if (typeof value === "string") {
+							localStorage.setItem(key, value);
+						} else {
+							localStorage.setItem(key, JSON.stringify(value));
+						}
+					}
+
+					refreshView();
+					setStatus("Estudi descarregat i aplicat en local.", "ok");
+				} catch (error) {
+					console.error("Error descarregant estudi:", error);
+					setStatus("Error descarregant estudi: " + (error && error.message ? error.message : "desconegut"), "error");
+				} finally {
+					setSyncBusy(false);
+					uploadStudyBtn.disabled = false;
+					downloadStudyBtn.disabled = false;
+				}
 			}
 
 			function formatBytes(bytes) {
@@ -505,6 +711,18 @@
 			});
 
 			window.addEventListener("storage", refreshView);
+
+			uploadStudyBtn.addEventListener("click", function () {
+				subirEstudioAlServidor();
+			});
+
+			downloadStudyBtn.addEventListener("click", function () {
+				const confirmed = window.confirm("Aquesta acció sobrescriurà els valors locals amb els del servidor. Continuar?");
+				if (!confirmed) {
+					return;
+				}
+				descargarEstudioDelServidor();
+			});
 
 			refreshView();
 		})();

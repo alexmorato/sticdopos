@@ -48,7 +48,8 @@ const LS_KEYS = {
 
 const LS_SENSITIVE_KEYS = Object.freeze(
   [
-    LS_KEYS.USER_PASS
+    LS_KEYS.USER_PASS,
+    LS_KEYS.FIREBASE_SITE_ID
   ]
     .filter((keyValue) => typeof keyValue === 'string' && keyValue.trim() !== '')
 );
