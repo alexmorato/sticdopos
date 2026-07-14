@@ -33,3 +33,19 @@ esto en el .md
 ```mermaid
 xxxxxxxxxxxx
 ```
+
+---------------------
+apuntuns_new/manifest_url.json
+    {
+        "url": "https://youtu.be/ZDZhWku_Qt8",
+        "name": "20210325 Classe 13 Part 02 Tema 13 Hisendes locals",
+        "notes": "El tema 13 comença a partir de T:70m0s",
+        "type": "youtube",
+        "origin" : "https://xxxxxxxx",
+        "newTab": true
+    },
+
+type [youtube o notebook]
+newtab nova pestanya directamente sense iframe
+
+--------------
