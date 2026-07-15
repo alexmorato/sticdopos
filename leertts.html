@@ -772,10 +772,9 @@
       const playNext = () => {
         if (!isSequentialReading) return;
         if (idx >= chunks.length) {
-          isSequentialReading = false;
-          releaseWakeLock();
-          setStatus('Reproduccio finalitzada', false);
-          updatePauseButtonLabel();
+          idx = 0;
+          setStatus('Reiniciant lectura...', false);
+          setTimeout(playNext, 180);
           return;
         }
 
@@ -971,12 +970,11 @@
           return;
         }
         if (idx >= paragraphEls.length) {
-          isSequentialReading = false;
+          idx = 0;
+          saveReadingProgress(0, 0);
           paragraphEls.forEach(el => el.classList.remove('reading'));
-          releaseWakeLock();
-          clearReadingProgressForCurrentDoc();
-          setStatus('Reproducció finalitzada', false);
-          updatePauseButtonLabel();
+          setStatus('Reiniciant lectura...', false);
+          setTimeout(playNextParagraph, 180);
           return;
         }
 
