@@ -1,288 +1,167 @@
-[TEMA 14. EL RÈGIM JURÍDIC DE LA FUNCIÓ PÚBLICA ESPANYOLA. LES BASES DEL RÈGIM ESTATUTARI DELS FUNCIONARIS PÚBLICS: EL TEXT REFÓS DE L'ESTATUT BÀSIC DE L'EMPLEAT PÚBLIC (TREBEP). EL PERSONAL AL SERVEI DE LES ADMINISTRACIONS PÚBLIQUES. DRETS I DEURES DELS FUNCIONARIS PÚBLICS. RÈGIM D'INCOMPATIBILITATS DEL PERSONAL AL SERVEI DE LES ADMINISTRACIONS PÚBLIQUES. RÈGIM DISCIPLINARI. 4](#_Toc67511077)
+<small>
+
+- [🗂️ Carpeta DRIVE Temari](https://drive.google.com/drive/folders/1sSKkc5-HJ1vZNYgBjIAD2KNVp6jhLD9a)
+- FITXER: Tècnic Superior Ajuntament de Barcelona - Temari comú - Tema 14 - Apunts.docx
+
+</small>
+
+---
+
+<!-- TOC START -->
+**INDICE INTERACTIVO**
+
+- [14.1 LES FONTS DE DRET DEL TREBALL PÚBLIC](#14-1-les-fonts-de-dret-del-treball-public)
+  - [14.1.1 Regulació de la funció pública a la Constitució](#14-1-1-regulacio-de-la-funcio-publica-a-la-constitucio)
+    - [14.1.1.1 Pressupòsits constitucionals](#14-1-1-1-pressuposits-constitucionals)
+      - [A) LA GARANTIA DE LA FUNCIÓ PÚBLICA PROFESSIONAL](#a-la-garantia-de-la-funcio-publica-professional)
+      - [B) L'ESTATUT DELS FUNCIONARIS I LA LEGITIMITAT D'UN SISTEMA DUAL DE TREBALL PÚBLIC](#b-l-estatut-dels-funcionaris-i-la-legitimitat-d-un-sistema-dual-de-treball-public)
+        - [A) Dualitat de règims: el règim estatutari (o funcionarial) i el règim laboral](#a-dualitat-de-regims-el-regim-estatutari-o-funcionarial-i-el-regim-laboral)
+    - [14.1.1.2 La reserva de llei en matèria de funció pública](#14-1-1-2-la-reserva-de-llei-en-materia-de-funcio-publica)
+    - [14.1.1.3 La distribució de competències en matèria de funció pública](#14-1-1-3-la-distribucio-de-competencies-en-materia-de-funcio-publica)
+  - [14.1.2 L'Estatut Bàsic de l'Empleat Públic, el Reial Decret Legislatiu 5/2015, de 30 d'octubre, pel qual s'aprova el Text Refos de la Llei de l'Estatut Bàsic de l'Empleat Públic (TREBEP)](#14-1-2-l-estatut-basic-de-l-empleat-public-el-reial-decret-legislatiu-5-2015-de-30-d-octubre-pel-qual-s-aprova-el-text-refos-de-la-llei-de-l-estatut-basic-de-l-empleat-public-trebep)
+    - [14.1.2.1 Estructura del TREBEP](#14-1-2-1-estructura-del-trebep)
+    - [14.1.2.2 L'objecte del TREBEP: funcionaris i laborals](#14-1-2-2-l-objecte-del-trebep-funcionaris-i-laborals)
+    - [14.1.2.3 El TREBEP com a norma bàsica i les lleis de desenvolupament del TREBEP](#14-1-2-3-el-trebep-com-a-norma-basica-i-les-lleis-de-desenvolupament-del-trebep)
+    - [14.1.2.4 Àmbit subjectiu d'aplicació del TREBEP](#14-1-2-4-ambit-subjectiu-d-aplicacio-del-trebep)
+    - [14.1.2.5 Personal amb legislació específica pròpia](#14-1-2-5-personal-amb-legislacio-especifica-propia)
+  - [14.1.3 La normativa catalana en matèria de funció pública](#14-1-3-la-normativa-catalana-en-materia-de-funcio-publica)
+- [14.2 CLASSES DE TREBALLADORS PÚBLICS](#14-2-classes-de-treballadors-publics)
+  - [14.2.1 Concepte i classes de treballadors públics](#14-2-1-concepte-i-classes-de-treballadors-publics)
+  - [14.2.2 Els funcionaris de carrera](#14-2-2-els-funcionaris-de-carrera)
+    - [14.2.2.1 Concepte](#14-2-2-1-concepte)
+    - [14.2.2.2 Selecció i nomenament](#14-2-2-2-seleccio-i-nomenament)
+    - [14.2.2.3 Funcions reservades a l'estatut funcionarial](#14-2-2-3-funcions-reservades-a-l-estatut-funcionarial)
+    - [14.2.2.4 Funcionaris de carrera amb habilitació nacional (Art. 92 bis LRBRL)](#14-2-2-4-funcionaris-de-carrera-amb-habilitacio-nacional-art-92-bis-lrbrl)
+    - [14.2.2.5 Funcionaris de carrera sense habilitació nacional](#14-2-2-5-funcionaris-de-carrera-sense-habilitacio-nacional)
+  - [14.2.3 Els funcionaris interins](#14-2-3-els-funcionaris-interins)
+    - [14.2.3.1 Concepte](#14-2-3-1-concepte)
+    - [14.2.3.2 Selecció i règim](#14-2-3-2-seleccio-i-regim)
+  - [14.2.4 El personal laboral](#14-2-4-el-personal-laboral)
+    - [14.2.4.1 Concepte i classes](#14-2-4-1-concepte-i-classes)
+    - [14.2.4.2 Règim jurídic del personal laboral](#14-2-4-2-regim-juridic-del-personal-laboral)
+  - [14.2.5 El personal eventual](#14-2-5-el-personal-eventual)
+  - [14.2.6 El personal directiu professional](#14-2-6-el-personal-directiu-professional)
+- [14.3 DRETS DELS EMPLEATS PÚBLICS](#14-3-drets-dels-empleats-publics)
+  - [14.3.1 La modulació dels drets fonamentals](#14-3-1-la-modulacio-dels-drets-fonamentals)
+  - [14.3.2 Els drets dels empleats públics en l'àmbit del TREBEP](#14-3-2-els-drets-dels-empleats-publics-en-l-ambit-del-trebep)
+    - [14.3.2.1 Drets individuals dels empleats públics](#14-3-2-1-drets-individuals-dels-empleats-publics)
+      - [A) DRETS FUNCIONALS](#a-drets-funcionals)
+        - [A) Dret a la inamobilitat en la condició de funcionari de carrera (Art. 14.a TREBEP)](#a-dret-a-la-inamobilitat-en-la-condicio-de-funcionari-de-carrera-art-14-a-trebep)
+        - [B) Dret a l'acompliment efectiu de les funcions o tasques pròpies de la seva condició professional i d'acord amb la progressió assolida en la seva carrera professional (Art. 14.b TREBEP)](#b-dret-a-l-acompliment-efectiu-de-les-funcions-o-tasques-propies-de-la-seva-condicio-professional-i-d-acord-amb-la-progressio-assolida-en-la-seva-carrera-professional-art-14-b-trebep)
+        - [C) Dret a la progressió en la carrera professional i promoció interna segons principis constitucionals d'igualtat, mèrit i capacitat mitjançant la implantació de sistemes objectius i transparents d'avaluació (Art. 14.c TREBEP)](#c-dret-a-la-progressio-en-la-carrera-professional-i-promocio-interna-segons-principis-constitucionals-d-igualtat-merit-i-capacitat-mitjancant-la-implantacio-de-sistemes-objectius-i-transparents-d-avaluacio-art-14-c-trebep)
+        - [D) Dret a participar en la consecució dels objectius atribuïts a la unitat on presti els seus serveis i a ser informat pels seus superiors de les tasques a desenvolupar (Art. 14.e TREBEP)](#d-dret-a-participar-en-la-consecucio-dels-objectius-atribuits-a-la-unitat-on-presti-els-seus-serveis-i-a-ser-informat-pels-seus-superiors-de-les-tasques-a-desenvolupar-art-14-e-trebep)
+        - [E) Dret a la defensa jurídica i protecció de l'Administració Pública en els procediments que se segueixin davant qualsevol ordre jurisdiccional com a conseqüència de l'exercici legítim de les funcions o càrrecs públics (Art. 14.f TREBEP)](#e-dret-a-la-defensa-juridica-i-proteccio-de-l-administracio-publica-en-els-procediments-que-se-segueixin-davant-qualsevol-ordre-jurisdiccional-com-a-consequencia-de-l-exercici-legitim-de-les-funcions-o-carrecs-publics-art-14-f-trebep)
+      - [B) DRETS LABORALS](#b-drets-laborals)
+        - [A) Dret a la intimitat, orientació sexual, pròpia imatge i dignitat en el treball, especialment enfront l'assetjament sexual i per raó de sexe, moral i laboral (Art. 14.h TREBEP)](#a-dret-a-la-intimitat-orientacio-sexual-propia-imatge-i-dignitat-en-el-treball-especialment-enfront-l-assetjament-sexual-i-per-rao-de-sexe-moral-i-laboral-art-14-h-trebep)
+        - [B) Vacances, descansos, permisos i llicències (Art. 14.m TREBEP)](#b-vacances-descansos-permisos-i-llicencies-art-14-m-trebep)
+        - [C) Altres drets laborals](#c-altres-drets-laborals)
+      - [C) DRETS ECONÒMICS. EL SISTEMA RETRIBUTIU DELS FUNCIONARIS PÚBLICS](#c-drets-economics-el-sistema-retributiu-dels-funcionaris-publics)
+        - [A) Línies mestres del sistema i funció de les Lleis de Pressupostos Generals de l'Estat](#a-linies-mestres-del-sistema-i-funcio-de-les-lleis-de-pressupostos-generals-de-l-estat)
+        - [B) Retribucions bàsiques](#b-retribucions-basiques)
+        - [C) _Retribucions complementàries_](#c-retribucions-complementaries)
+        - [D) Indemnitzacions per raó de servei](#d-indemnitzacions-per-rao-de-servei)
+        - [E) Retribucions diferides](#e-retribucions-diferides)
+        - [F) Retribucions dels funcionaris interins](#f-retribucions-dels-funcionaris-interins)
+        - [G) Retribucions dels funcionaris en pràctiques i altres](#g-retribucions-dels-funcionaris-en-practiques-i-altres)
+        - [H) Deduccions de retribucions](#h-deduccions-de-retribucions)
+      - [D) LA SEGURETAT SOCIAL DELS FUNCIONARIS](#d-la-seguretat-social-dels-funcionaris)
+        - [A) Règim de classes passives de l'Estat](#a-regim-de-classes-passives-de-l-estat)
+        - [B) Mutualisme administratiu](#b-mutualisme-administratiu)
+      - [E) DRETS FONAMENTALS](#e-drets-fonamentals)
+        - [A) Llibertat d'expressió](#a-llibertat-d-expressio)
+        - [B) Llibertat de reunió i associació polítiques](#b-llibertat-de-reunio-i-associacio-politiques)
+        - [C) Dret de sufragi passiu](#c-dret-de-sufragi-passiu)
+        - [D) Dret a la lliure associació professional](#d-dret-a-la-lliure-associacio-professional)
+        - [E) Dret de petició col·lectiva](#e-dret-de-peticio-col-lectiva)
+    - [14.3.2.2 Drets d'exercici col·lectiu](#14-3-2-2-drets-d-exercici-col-lectiu)
+      - [A) EL RECONEIXEMENT DELS DRETS SINDICALS EN L'ÀMBIT DE LA FUNCIÓ PÚBLICA](#a-el-reconeixement-dels-drets-sindicals-en-l-ambit-de-la-funcio-publica)
+      - [B) LA LLIBERTAT SINDICAL](#b-la-llibertat-sindical)
+        - [A) El dret de sindicació](#a-el-dret-de-sindicacio)
+        - [B) L'activitat sindical i el dret de reunió](#b-l-activitat-sindical-i-el-dret-de-reunio)
+        - [C) Representació del personal](#c-representacio-del-personal)
+        - [D) Dret de participació institucional](#d-dret-de-participacio-institucional)
+      - [C) DRET DE VAGA](#c-dret-de-vaga)
+      - [D) CONFLICTES COL·LECTIUS DE TREBALL I SOLUCIÓ EXTRAJUDICIAL](#d-conflictes-col-lectius-de-treball-i-solucio-extrajudicial)
+      - [E) DRET DE PARTICIPACIÓ EN LA DETERMINACIÓ DE LES CONDICIONS DE TREBALL](#e-dret-de-participacio-en-la-determinacio-de-les-condicions-de-treball)
+      - [F) LA NEGOCIACIÓ COL·LECTIVA DELS FUNCIONARIS](#f-la-negociacio-col-lectiva-dels-funcionaris)
+        - [A) Configuració legal i consolidació del dret a la negociació col·lectiva](#a-configuracio-legal-i-consolidacio-del-dret-a-la-negociacio-col-lectiva)
+        - [B) Significat i principis de la negociació col·lectiva dels funcionaris](#b-significat-i-principis-de-la-negociacio-col-lectiva-dels-funcionaris)
+        - [C) Legitimació per a negociar i composició de les meses](#c-legitimacio-per-a-negociar-i-composicio-de-les-meses)
+        - [D) Estructura de la negociació](#d-estructura-de-la-negociacio)
+        - [E) Matèries objecte de negociació](#e-materies-objecte-de-negociacio)
+        - [F) Resultat de la negociació. Pactes i acords](#f-resultat-de-la-negociacio-pactes-i-acords)
+- [14.4 DEURES DELS EMPLEATS PÚBLICS](#14-4-deures-dels-empleats-publics)
+  - [14.4.1 Els deures dels empleats públics i l'ètica del servei públic](#14-4-1-els-deures-dels-empleats-publics-i-l-etica-del-servei-public)
+    - [14.4.1.1 Deure de respecte a la CE i de subjecció a l'ordenament jurídic](#14-4-1-1-deure-de-respecte-a-la-ce-i-de-subjeccio-a-l-ordenament-juridic)
+    - [14.4.1.2 Deures d'imparcialitat, neutralitat i objectivitat](#14-4-1-2-deures-d-imparcialitat-neutralitat-i-objectivitat)
+    - [14.4.1.3 El deure d'obediència](#14-4-1-3-el-deure-d-obediencia)
+    - [14.4.1.4 El deure d'integritat](#14-4-1-4-el-deure-d-integritat)
+    - [14.4.1.5 Deures funcionals](#14-4-1-5-deures-funcionals)
+    - [14.4.1.6 El deure de compliment de la jornada i horari de treball](#14-4-1-6-el-deure-de-compliment-de-la-jornada-i-horari-de-treball)
+    - [14.4.1.7 Deures de lleialtat i bona fe en les relacions amb l'Administració i els ciutadans](#14-4-1-7-deures-de-lleialtat-i-bona-fe-en-les-relacions-amb-l-administracio-i-els-ciutadans)
+    - [14.4.1.8 Deures de secret i discreció, i deure d'informació als ciutadans](#14-4-1-8-deures-de-secret-i-discrecio-i-deure-d-informacio-als-ciutadans)
+    - [14.4.1.9 Altres deures](#14-4-1-9-altres-deures)
+    - [14.4.1.10 Enumeració dels deures dels empleats públics segons l'Art. 108 DLeg 1/97](#14-4-1-10-enumeracio-dels-deures-dels-empleats-publics-segons-l-art-108-dleg-1-97)
+- [14.5 RÈGIM D'INCOMPATIBILITATS](#14-5-regim-d-incompatibilitats)
+  - [14.5.1 Consideracions generals](#14-5-1-consideracions-generals)
+  - [14.5.2 Legislació vigent i àmbit d'aplicació](#14-5-2-legislacio-vigent-i-ambit-d-aplicacio)
+  - [14.5.3 Principis i regles generals](#14-5-3-principis-i-regles-generals)
+  - [14.5.4 Activitats públiques](#14-5-4-activitats-publiques)
+  - [14.5.5 Activitats privades](#14-5-5-activitats-privades)
+  - [14.5.6 Incompatibilitat amb pensions públiques](#14-5-6-incompatibilitat-amb-pensions-publiques)
+  - [14.5.7 Procediment](#14-5-7-procediment)
+- [14.6 SITUACIONS ADMINISTRATIVES DELS FUNCIONARIS](#14-6-situacions-administratives-dels-funcionaris)
+  - [14.6.1 Servei actiu](#14-6-1-servei-actiu)
+  - [14.6.2 Serveis especials](#14-6-2-serveis-especials)
+  - [14.6.3 Serveis en altres Administracions](#14-6-3-serveis-en-altres-administracions)
+  - [14.6.4 Excedències](#14-6-4-excedencies)
+    - [14.6.4.1 Excedència voluntària per interès particular](#14-6-4-1-excedencia-voluntaria-per-interes-particular)
+    - [14.6.4.2 Excedència voluntària per a agrupació familiar (també anomenada per al manteniment de la convivència)](#14-6-4-2-excedencia-voluntaria-per-a-agrupacio-familiar-tambe-anomenada-per-al-manteniment-de-la-convivencia)
+    - [14.6.4.3 Excedència voluntària per a tenir cura d'un fill o filla](#14-6-4-3-excedencia-voluntaria-per-a-tenir-cura-d-un-fill-o-filla)
+    - [14.6.4.4 Excedència voluntària per a tenir cura d'un familiar](#14-6-4-4-excedencia-voluntaria-per-a-tenir-cura-d-un-familiar)
+    - [14.6.4.5 Excedència voluntària per violència de gènere](#14-6-4-5-excedencia-voluntaria-per-violencia-de-genere)
+    - [14.6.4.6 Excedència voluntària per violència terrorista](#14-6-4-6-excedencia-voluntaria-per-violencia-terrorista)
+    - [14.6.4.7 Excedència per incompatibilitat](#14-6-4-7-excedencia-per-incompatibilitat)
+    - [14.6.4.8 Excedència voluntària incentivada](#14-6-4-8-excedencia-voluntaria-incentivada)
+    - [14.6.4.9 Excedència forçosa](#14-6-4-9-excedencia-forcosa)
+  - [14.6.5 Suspensió de funcions](#14-6-5-suspensio-de-funcions)
+    - [14.6.5.1 Suspensió provisional](#14-6-5-1-suspensio-provisional)
+    - [14.6.5.2 Suspensió ferma](#14-6-5-2-suspensio-ferma)
+  - [14.6.6 Expectativa de destinació](#14-6-6-expectativa-de-destinacio)
+  - [14.6.7 Reingrés al servei actiu](#14-6-7-reingres-al-servei-actiu)
+- [14.7 RÈGIM DISCIPLINARI](#14-7-regim-disciplinari)
+  - [14.7.1 Principis substantius del règim disciplinari](#14-7-1-principis-substantius-del-regim-disciplinari)
+    - [14.7.1.1 Principi de legalitat](#14-7-1-1-principi-de-legalitat)
+    - [14.7.1.2 Principi de tipicitat de faltes i sancions](#14-7-1-2-principi-de-tipicitat-de-faltes-i-sancions)
+    - [14.7.1.3 Principi d'irretroactivitat de les disposicions sancionadores no favorables, i retroactivitat de les favorables al presumpte infractor](#14-7-1-3-principi-d-irretroactivitat-de-les-disposicions-sancionadores-no-favorables-i-retroactivitat-de-les-favorables-al-presumpte-infractor)
+    - [14.7.1.4 Prohibició de l'analogia _in peius_](#14-7-1-4-prohibicio-de-l-analogia-in-peius)
+    - [14.7.1.5 _Non bis in idem_](#14-7-1-5-non-bis-in-idem)
+    - [14.7.1.6 Principi de proporcionalitat](#14-7-1-6-principi-de-proporcionalitat)
+    - [14.7.1.7 Principi de culpabilitat i persones responsables](#14-7-1-7-principi-de-culpabilitat-i-persones-responsables)
+    - [14.7.1.8 Principi de presumpció d'innocència](#14-7-1-8-principi-de-presumpcio-d-innocencia)
+    - [14.7.1.9 Extinció de la responsabilitat i prescripció](#14-7-1-9-extincio-de-la-responsabilitat-i-prescripcio)
+  - [14.7.2 Faltes i sancions](#14-7-2-faltes-i-sancions)
+    - [14.7.2.1 Faltes](#14-7-2-1-faltes)
+      - [A) FALTES MOLT GREUS](#a-faltes-molt-greus)
+      - [B) FALTES GREUS](#b-faltes-greus)
+      - [C) FALTES LLEUS](#c-faltes-lleus)
+    - [14.7.2.2 Sancions](#14-7-2-2-sancions)
+    - [14.7.2.3 Inscripció i cancel·lació](#14-7-2-3-inscripcio-i-cancel-lacio)
+    - [14.7.2.4 Procediment disciplinari i mesures provisionals](#14-7-2-4-procediment-disciplinari-i-mesures-provisionals)
+<!-- TOC END -->
 
-[14.1. LES FONTS DE DRET DEL TREBALL PÚBLIC. 4](#_Toc67511078)
 
-[14.1.1. Regulació de la funció pública a la Constitució. 4](#_Toc67511079)
 
-[14.1.1.1. Pressupòsits constitucionals. 4](#_Toc67511080)
 
-[A) LA GARANTIA DE LA FUNCIÓ PÚBLICA PROFESSIONAL 5](#_Toc67511081)
 
-[B) L'ESTATUT DELS FUNCIONARIS I LA LEGITIMITAT D'UN SISTEMA DUAL DE TREBALL PÚBLIC 6](#_Toc67511082)
-
-[a) Dualitat de règims: el règim estatutari (o funcionarial) i el règim laboral 6](#_Toc67511083)
-
-[14.1.1.2. La reserva de llei en matèria de funció pública. 7](#_Toc67511084)
-
-[14.1.1.3. La distribució de competències en matèria de funció pública. 7](#_Toc67511085)
-
-[14.1.2. L'Estatut Bàsic de l'Empleat Públic, el Reial Decret Legislatiu 5/2015, de 30 d'octubre, pel qual s'aprova el Text Refos de la Llei de l'Estatut Bàsic de l'Empleat Públic (TREBEP). 9](#_Toc67511086)
-
-[14.1.2.1. Estructura del TREBEP. 9](#_Toc67511087)
-
-[14.1.2.2. L'objecte del TREBEP: funcionaris i laborals. 9](#_Toc67511088)
-
-[14.1.2.3. El TREBEP com a norma bàsica i les lleis de desenvolupament del TREBEP. 10](#_Toc67511089)
-
-[14.1.2.4. Àmbit subjectiu d'aplicació del TREBEP. 11](#_Toc67511090)
-
-[14.1.2.5. Personal amb legislació específica pròpia. 11](#_Toc67511091)
-
-[14.1.3. La normativa catalana en matèria de funció pública. 12](#_Toc67511092)
-
-[14.2. CLASSES DE TREBALLADORS PÚBLICS. 13](#_Toc67511093)
-
-[14.2.1. Concepte i classes de treballadors públics. 13](#_Toc67511094)
-
-[14.2.2. Els funcionaris de carrera. 14](#_Toc67511095)
-
-[14.2.2.1. Concepte. 14](#_Toc67511096)
-
-[14.2.2.2. Selecció i nomenament. 15](#_Toc67511097)
-
-[14.2.2.3. Funcions reservades a l'estatut funcionarial. 15](#_Toc67511098)
-
-[14.2.2.4. Funcionaris de carrera amb habilitació nacional (Art. 92 bis LRBRL). 16](#_Toc67511099)
-
-[14.2.2.5. Funcionaris de carrera sense habilitació nacional. 16](#_Toc67511100)
-
-[14.2.3. Els funcionaris interins. 17](#_Toc67511101)
-
-[14.2.3.1. Concepte. 17](#_Toc67511102)
-
-[14.2.3.2. Selecció i règim. 17](#_Toc67511103)
-
-[14.2.4. El personal laboral. 18](#_Toc67511104)
-
-[14.2.4.1. Concepte i classes. 18](#_Toc67511105)
-
-[14.2.4.2. Règim jurídic del personal laboral. 18](#_Toc67511106)
-
-[14.2.5. El personal eventual. 19](#_Toc67511107)
-
-[14.2.6. El personal directiu professional. 20](#_Toc67511108)
-
-[14.3. DRETS DELS EMPLEATS PÚBLICS. 21](#_Toc67511109)
-
-[14.3.1. La modulació dels drets fonamentals. 21](#_Toc67511110)
-
-[14.3.2. Els drets dels empleats públics en l'àmbit del TREBEP. 21](#_Toc67511111)
-
-[14.3.2.1. Drets individuals dels empleats públics. 21](#_Toc67511112)
-
-[A) DRETS FUNCIONALS 22](#_Toc67511113)
-
-[a) Dret a la inamobilitat en la condició de funcionari de carrera (Art. 14.a TREBEP) 22](#_Toc67511114)
-
-[b) Dret a l'acompliment efectiu de les funcions o tasques pròpies de la seva condició professional i d'acord amb la progressió assolida en la seva carrera professional (Art. 14.b TREBEP) 23](#_Toc67511115)
-
-[c) Dret a la progressió en la carrera professional i promoció interna segons principis constitucionals d'igualtat, mèrit i capacitat mitjançant la implantació de sistemes objectius i transparents d'avaluació (Art. 14.c TREBEP) 24](#_Toc67511116)
-
-[d) Dret a participar en la consecució dels objectius atribuïts a la unitat on presti els seus serveis i a ser informat pels seus superiors de les tasques a desenvolupar (Art. 14.e TREBEP) 24](#_Toc67511117)
-
-[e) Dret a la defensa jurídica i protecció de l'Administració Pública en els procediments que se segueixin davant qualsevol ordre jurisdiccional com a conseqüència de l'exercici legítim de les funcions o càrrecs públics (Art. 14.f TREBEP) 24](#_Toc67511118)
-
-[B) DRETS LABORALS 24](#_Toc67511119)
-
-[a) Dret a la intimitat, orientació sexual, pròpia imatge i dignitat en el treball, especialment enfront l'assetjament sexual i per raó de sexe, moral i laboral (Art. 14.h TREBEP) 24](#_Toc67511120)
-
-[b) Vacances, descansos, permisos i llicències (Art. 14.m TREBEP) 24](#_Toc67511121)
-
-[c) Altres drets laborals 32](#_Toc67511122)
-
-[C) DRETS ECONÒMICS. EL SISTEMA RETRIBUTIU DELS FUNCIONARIS PÚBLICS 32](#_Toc67511123)
-
-[a) Línies mestres del sistema i funció de les Lleis de Pressupostos Generals de l'Estat 32](#_Toc67511124)
-
-[b) Retribucions bàsiques 33](#_Toc67511125)
-
-[c) Retribucions complementàries 34](#_Toc67511126)
-
-[d) Indemnitzacions per raó de servei 36](#_Toc67511127)
-
-[e) Retribucions diferides 37](#_Toc67511128)
-
-[f) Retribucions dels funcionaris interins 37](#_Toc67511129)
-
-[g) Retribucions dels funcionaris en pràctiques i altres 38](#_Toc67511130)
-
-[h) Deduccions de retribucions 38](#_Toc67511131)
-
-[D) LA SEGURETAT SOCIAL DELS FUNCIONARIS 38](#_Toc67511132)
-
-[a) Règim de classes passives de l'Estat 39](#_Toc67511133)
-
-[b) Mutualisme administratiu 39](#_Toc67511134)
-
-[E) DRETS FONAMENTALS 39](#_Toc67511135)
-
-[a) Llibertat d'expressió 40](#_Toc67511136)
-
-[b) Llibertat de reunió i associació polítiques 40](#_Toc67511137)
-
-[c) Dret de sufragi passiu 40](#_Toc67511138)
-
-[d) Dret a la lliure associació professional 41](#_Toc67511139)
-
-[e) Dret de petició col·lectiva 41](#_Toc67511140)
-
-[14.3.2.2. Drets d'exercici col·lectiu. 41](#_Toc67511141)
-
-[A) EL RECONEIXEMENT DELS DRETS SINDICALS EN L'ÀMBIT DE LA FUNCIÓ PÚBLICA 41](#_Toc67511142)
-
-[B) LA LLIBERTAT SINDICAL 41](#_Toc67511143)
-
-[a) El dret de sindicació 41](#_Toc67511144)
-
-[b) L'activitat sindical i el dret de reunió 42](#_Toc67511145)
-
-[c) Representació del personal 42](#_Toc67511146)
-
-[d) Dret de participació institucional 43](#_Toc67511147)
-
-[C) DRET DE VAGA 44](#_Toc67511148)
-
-[D) CONFLICTES COL·LECTIUS DE TREBALL I SOLUCIÓ EXTRAJUDICIAL 44](#_Toc67511149)
-
-[E) DRET DE PARTICIPACIÓ EN LA DETERMINACIÓ DE LES CONDICIONS DE TREBALL 45](#_Toc67511150)
-
-[F) LA NEGOCIACIÓ COL·LECTIVA DELS FUNCIONARIS 45](#_Toc67511151)
-
-[a) Configuració legal i consolidació del dret a la negociació col·lectiva 45](#_Toc67511152)
-
-[b) Significat i principis de la negociació col·lectiva dels funcionaris 46](#_Toc67511153)
-
-[c) Legitimació per a negociar i composició de les meses 47](#_Toc67511154)
-
-[d) Estructura de la negociació 48](#_Toc67511155)
-
-[e) Matèries objecte de negociació 48](#_Toc67511156)
-
-[f) Resultat de la negociació. Pactes i acords 50](#_Toc67511157)
-
-[14.4. DEURES DELS EMPLEATS PÚBLICS. 52](#_Toc67511158)
-
-[14.4.1. Els deures dels empleats públics i l'ètica del servei públic. 52](#_Toc67511159)
-
-[14.4.1.1. Deure de respecte a la CE i de subjecció a l'ordenament jurídic. 52](#_Toc67511160)
-
-[14.4.1.2. Deures d'imparcialitat, neutralitat i objectivitat. 52](#_Toc67511161)
-
-[14.4.1.3. El deure d'obediència. 53](#_Toc67511162)
-
-[14.4.1.4. El deure d'integritat. 53](#_Toc67511163)
-
-[14.4.1.5. Deures funcionals. 54](#_Toc67511164)
-
-[14.4.1.6. El deure de compliment de la jornada i horari de treball. 54](#_Toc67511165)
-
-[14.4.1.7. Deures de lleialtat i bona fe en les relacions amb l'Administració i els ciutadans. 54](#_Toc67511166)
-
-[14.4.1.8. Deures de secret i discreció, i deure d'informació als ciutadans. 55](#_Toc67511167)
-
-[14.4.1.9. Altres deures. 55](#_Toc67511168)
-
-[14.4.1.10. Enumeració dels deures dels empleats públics segons l'Art. 108 DLeg 1/97. 55](#_Toc67511169)
-
-[14.5. RÈGIM D'INCOMPATIBILITATS. 57](#_Toc67511170)
-
-[14.5.1. Consideracions generals. 57](#_Toc67511171)
-
-[14.5.2. Legislació vigent i àmbit d'aplicació. 57](#_Toc67511172)
-
-[14.5.3. Principis i regles generals. 58](#_Toc67511173)
-
-[14.5.4. Activitats públiques. 60](#_Toc67511174)
-
-[14.5.5. Activitats privades. 63](#_Toc67511175)
-
-[14.5.6. Incompatibilitat amb pensions públiques. 64](#_Toc67511176)
-
-[14.5.7. Procediment. 65](#_Toc67511177)
-
-[14.6. SITUACIONS ADMINISTRATIVES DELS FUNCIONARIS. 66](#_Toc67511178)
-
-[14.6.1. Servei actiu. 67](#_Toc67511179)
-
-[14.6.2. Serveis especials. 67](#_Toc67511180)
-
-[14.6.3. Serveis en altres Administracions. 69](#_Toc67511181)
-
-[14.6.4. Excedències. 70](#_Toc67511182)
-
-[14.6.4.1. Excedència voluntària per interès particular. 71](#_Toc67511183)
-
-[14.6.4.2. Excedència voluntària per a agrupació familiar (també anomenada per al manteniment de la convivència). 72](#_Toc67511184)
-
-[14.6.4.3. Excedència voluntària per a tenir cura d'un fill o filla. 73](#_Toc67511185)
-
-[14.6.4.4. Excedència voluntària per a tenir cura d'un familiar. 73](#_Toc67511186)
-
-[14.6.4.5. Excedència voluntària per violència de gènere. 75](#_Toc67511187)
-
-[14.6.4.6. Excedència voluntària per violència terrorista. 76](#_Toc67511188)
-
-[14.6.4.7. Excedència per incompatibilitat. 76](#_Toc67511189)
-
-[14.6.4.8. Excedència voluntària incentivada. 77](#_Toc67511190)
-
-[14.6.4.9. Excedència forçosa. 77](#_Toc67511191)
-
-[14.6.5. Suspensió de funcions. 78](#_Toc67511192)
-
-[14.6.5.1. Suspensió provisional. 79](#_Toc67511193)
-
-[14.6.5.2. Suspensió ferma. 79](#_Toc67511194)
-
-[14.6.6. Expectativa de destinació. 80](#_Toc67511195)
-
-[14.6.7. Reingrés al servei actiu. 81](#_Toc67511196)
-
-[14.7. RÈGIM DISCIPLINARI. 82](#_Toc67511197)
-
-[14.7.1. Principis substantius del règim disciplinari. 82](#_Toc67511198)
-
-[14.7.1.1. Principi de legalitat. 82](#_Toc67511199)
-
-[14.7.1.2. Principi de tipicitat de faltes i sancions. 82](#_Toc67511200)
-
-[14.7.1.3. Principi d'irretroactivitat de les disposicions sancionadores no favorables, i retroactivitat de les favorables al presumpte infractor. 82](#_Toc67511201)
-
-[14.7.1.4. Prohibició de l'analogia _in peius_. 82](#_Toc67511202)
-
-[14.7.1.5. _Non bis in idem_. 82](#_Toc67511203)
-
-[14.7.1.6. Principi de proporcionalitat. 83](#_Toc67511204)
-
-[14.7.1.7. Principi de culpabilitat i persones responsables. 83](#_Toc67511205)
-
-[14.7.1.8. Principi de presumpció d'innocència. 83](#_Toc67511206)
-
-[14.7.1.9. Extinció de la responsabilitat i prescripció. 83](#_Toc67511207)
-
-[14.7.2. Faltes i sancions. 84](#_Toc67511208)
-
-[14.7.2.1. Faltes. 84](#_Toc67511209)
-
-[A) FALTES MOLT GREUS 84](#_Toc67511210)
-
-[B) FALTES GREUS 85](#_Toc67511211)
-
-[C) FALTES LLEUS 86](#_Toc67511212)
-
-[14.7.2.2. Sancions. 87](#_Toc67511213)
-
-[14.7.2.3. Inscripció i cancel·lació. 88](#_Toc67511214)
-
-[14.7.2.4. Procediment disciplinari i mesures provisionals. 88](#_Toc67511215)
 
 - EL RÈGIM JURÍDIC DE LA FUNCIÓ PÚBLICA ESPANYOLA. LES BASES DEL RÈGIM ESTATUTARI DELS FUNCIONARIS PÚBLICS: EL TEXT REFÓS DE L'ESTATUT BÀSIC DE L'EMPLEAT PÚBLIC (TREBEP). EL PERSONAL AL SERVEI DE LES ADMINISTRACIONS PÚBLIQUES. DRETS I DEURES DELS FUNCIONARIS PÚBLICS. RÈGIM D'INCOMPATIBILITATS DEL PERSONAL AL SERVEI DE LES ADMINISTRACIONS PÚBLIQUES. RÈGIM DISCIPLINARI.
 
-# 14.1 LES FONTS DE DRET DEL TREBALL PÚBLIC
+# 14.1 LES FONTS DE DRET DEL TREBALL PÚBLIC <a id="14-1-les-fonts-de-dret-del-treball-public"></a>
 
-## 14.1.1 Regulació de la funció pública a la Constitució
+## 14.1.1 Regulació de la funció pública a la Constitució <a id="14-1-1-regulacio-de-la-funcio-publica-a-la-constitucio"></a>
 
-### 14.1.1.1 Pressupòsits constitucionals
+### 14.1.1.1 Pressupòsits constitucionals <a id="14-1-1-1-pressuposits-constitucionals"></a>
 
 La CE estableix els principis fonamentals de la vertebració de la funció pública i assenta les bases del model de distribució territorial de competències entre l'Estat i les Comunitats Autònomes.
 
@@ -315,7 +194,7 @@ L'Art. 1.3 TREBEP estableix els **fonaments d'actuació en la regulació de la f
 - Negociació col·lectiva i participació, a través de representants, en la determinació de les condicions d'ocupació.
 - Cooperació entre les Administracions Públiques en la regulació i gestió de l'ocupació pública.
 
-#### A) LA GARANTIA DE LA FUNCIÓ PÚBLICA PROFESSIONAL
+#### A) LA GARANTIA DE LA FUNCIÓ PÚBLICA PROFESSIONAL <a id="a-la-garantia-de-la-funcio-publica-professional"></a>
 
 La reserva de llei imposada per l'Art. 103.3 CE en relació amb l'estatut dels funcionaris públics fa que se'n derivin un seguit de conseqüències jurídiques.
 
@@ -323,7 +202,7 @@ Per una banda, en un Estat social i democràtic de Dret, les Administracions Pú
 
 D'altra banda, el dret a l'accés en condicions d'igualtat a les funcions i càrrecs públics proclamat en l'Art. 23.2 CE té consideració de dret fonamental, amb el nivell de protecció especial que ja coneixem com ara el recurs d'empara judicial i constitucional (Art. 53.2 CE, mirar tema de drets fonamentals per a més concreció). I cal destacar que **els principis d'igualtat, mèrit i capacitat són consubstancials a un disseny professional de la funció pública ja que releguen a casos excepcionals les possibilitats d'accés al treball públic per raons de confiança política** (només per als casos estrictament i raonablement justificats, malgrat que en la realitat aquesta pràctica estigui més estesa del que seria desitjable).
 
-#### B) L'ESTATUT DELS FUNCIONARIS I LA LEGITIMITAT D'UN SISTEMA DUAL DE TREBALL PÚBLIC
+#### B) L'ESTATUT DELS FUNCIONARIS I LA LEGITIMITAT D'UN SISTEMA DUAL DE TREBALL PÚBLIC <a id="b-l-estatut-dels-funcionaris-i-la-legitimitat-d-un-sistema-dual-de-treball-public"></a>
 
 La referència constitucional de l'Art. 103.3 CE a "l'estatut dels funcionaris" va fonamentar la concepció de la funció pública basada en la denominada **teoria estatutària de la relació funcionarial**, la qual configura una situació jurídica objectiva del funcionari amb els següents elements essencials:
 
@@ -342,7 +221,7 @@ Aquest no és l'únic element de Dret Públic que s'aplica a les relacions de tr
 
 Per últim, cal destacar el fet que malgrat que s'intenta una concepció del funcionari com a un ciutadà i treballador més de la societat, amb els mateixos drets fonamentals que la resta, **en alguns casos, l'exercici d'alguns dels seus drets (tals com la sindicació, la vaga, sufragi passiu, llibertat d'expressió, etc.) poden veure's limitats**.
 
-##### A) Dualitat de règims: el règim estatutari (o funcionarial) i el règim laboral
+##### A) Dualitat de règims: el règim estatutari (o funcionarial) i el règim laboral <a id="a-dualitat-de-regims-el-regim-estatutari-o-funcionarial-i-el-regim-laboral"></a>
 
 Tal i com comentarem més endavant en aquest mateix tema, les Administracions Públiques, per poder realitzar les seves funcions, no només es nodreixen de funcionaris, sinó que també **està permès que tinguin treballadors (propis) sotmesos a dret laboral**. Tal i com comentarem en epígrafs propers, a aquesta categoria de treballadors (**els laborals) se'ls hi aplicarà tant el dret laboral com també determinats preceptes de les normes pròpies dels funcionaris.**
 
@@ -350,7 +229,7 @@ Aquesta dualitat de règims, sobre la constitucionalitat de la qual hi ha hagut 
 
 Tot i que ja parlarem més endavant sobre la qüestió de com farà l'Administració per a saber si ha de dotar-se de personal funcionari o laboral, ara avançarem una mica la idea. I és que segons l'Art. 9.2 TREBEP, en tot cas, **l'exercici de funcions que impliquin la participació directa o indirecta en l'exercici de les potestats públiques o en la salvaguarda dels interessos generals de l'Estat i de les Administracions Públiques, corresponen exclusivament als funcionaris públics**, en els termes en que la llei de desenvolupament de cara Administració Pública estableixi.
 
-### 14.1.1.2 La reserva de llei en matèria de funció pública
+### 14.1.1.2 La reserva de llei en matèria de funció pública <a id="14-1-1-2-la-reserva-de-llei-en-materia-de-funcio-publica"></a>
 
 Ja hem comentat que **l'Art. 103.3 CE estableix reserva de llei en matèria de funció pública** (la llei regularà l'estatut dels funcionaris públics, l'accés a la funció pública d'acord amb els principis de mèrit i capacitat, les peculiaritats de l'exercici del seu dret de sindicació, el sistema d'incompatibilitats i les garanties per a la imparcialitat en l'exercici de llurs funcions). **Aquesta reserva de llei es fonamenta en el fet que hi ha un clar interès general que transcendeix més enllà dels subjectes de la relació i que afecta al conjunt dels ciutadans.**
 
@@ -366,7 +245,7 @@ Quant al **contingut d'aquest Estatut**, el TC aprecia que ha de contenir, en pr
 
 Aquesta reserva de llei descarta, doncs, tot apoderament explícit o implícit de la potestat reglamentària per tal de substituir la norma de Llei en la tasca que la CE li encomana. No és que no hi pugui haver reglaments **(la Llei podrà remetre al Reglament quan la remissió sigui, estrictament, per a desenvolupar i completar una determinació legislativa prèvia), però no es permet una deslegalització de la matèria en favor del reglament**. Paral·lelament **aquesta reserva de llei afecta també als legisladors autonòmics** (en el proper apartat veurem quin és repartiment competencial de la matèria i quin paper poden jugar les lleis autonòmiques).
 
-### 14.1.1.3 La distribució de competències en matèria de funció pública
+### 14.1.1.3 La distribució de competències en matèria de funció pública <a id="14-1-1-3-la-distribucio-de-competencies-en-materia-de-funcio-publica"></a>
 
 Per tal de veure la distribució competencial en la matèria que ens ocupa hem d'atendre al que posa a l'Art. 149.1.18 CE, el qual **reserva en favor de l'Estat la competència exclusiva relativa a les bases** del règim jurídic de les Administracions Públiques i **del règim estatutari dels funcionaris** que, en tot cas, garantiran als administrats un tractament comú davant les mateixes. La Disp. Add. 1a TREBEP estableix que les disposicions d'aquesta norma es dicten a l'emparament de l'Art. 149.1.18 CE, constituint les bases del règim estatutari dels funcionaris, etc.
 
@@ -380,9 +259,9 @@ Pel que fa als **treballadors públics laborals** (que no pas funcionaris), el t
 
 Per últim, tot i que veurem en detall en els temes que tractin sobre els drets retributius dels treballadors públics, cal tenir present que **l'Estat, a través dels Pressupostos Generals de l'Estat, pot establir límits i prescripcions generals sobre l'increment de les retribucions dels funcionaris de totes les Administracions Públiques**, en virtut de l'Art. 149.1.13 CE i 149.1.14 CE i dels principis de solidaritat i igualtat i de coordinació financera de les Comunitats Autònomes per la Hisenda Estatal. **En matèria de Seguretat Social,** gràcies a l'Art. 149.1.17 CE, **l'Estat té la competència de regular-ne les bases del règim jurídic i econòmic, competència que abasta la Seguretat Social dels Funcionaris**.
 
-## 14.1.2 L'Estatut Bàsic de l'Empleat Públic, el Reial Decret Legislatiu 5/2015, de 30 d'octubre, pel qual s'aprova el Text Refos de la Llei de l'Estatut Bàsic de l'Empleat Públic (TREBEP)
+## 14.1.2 L'Estatut Bàsic de l'Empleat Públic, el Reial Decret Legislatiu 5/2015, de 30 d'octubre, pel qual s'aprova el Text Refos de la Llei de l'Estatut Bàsic de l'Empleat Públic (TREBEP) <a id="14-1-2-l-estatut-basic-de-l-empleat-public-el-reial-decret-legislatiu-5-2015-de-30-d-octubre-pel-qual-s-aprova-el-text-refos-de-la-llei-de-l-estatut-basic-de-l-empleat-public-trebep"></a>
 
-### 14.1.2.1 Estructura del TREBEP
+### 14.1.2.1 Estructura del TREBEP <a id="14-1-2-1-estructura-del-trebep"></a>
 
 El RDLeg 5/2015, de 30 d'octubre, pel qual s'aprova el Text Refós de la Llei de l'Estatut Bàsic de l'Empleat Públic (TREBEP) es va publicar al BOE del 31/10/2015 i va entrar en vigor l'1/11/2015. La llei que va habilitar l'executiu per a poder dur a terme la refosa de l'anterior EBEP (L7/2007) va ser la L20/2014, de 29 d'octubre.
 
@@ -432,7 +311,7 @@ TREBEP).
 - 1 Disposició derogatòria.
 - 4 Disposicions finals.
 
-### 14.1.2.2 L'objecte del TREBEP: funcionaris i laborals
+### 14.1.2.2 L'objecte del TREBEP: funcionaris i laborals <a id="14-1-2-2-l-objecte-del-trebep-funcionaris-i-laborals"></a>
 
 La norma estatal bàsica amb la qual es duu a terme l'atribució competencial ja esmentada de l'Art. 149.1.18 CE i en la forma establerta per l'Art. 103.3 CE (matèria amb reserva de llei) és el **RDLeg 5/2015, pel qual s'aprova el Text Refós de la Llei de l'Estatut Bàsic de l'Empleat Públic**. Com el seu propi nom indica, es tracta d'una norma amb rang de llei per la qual es va refondre l'anterior Llei 7/2007 de l'Estatut Bàsic de l'Empleat Públic, la qual va ser objecte de múltiples modificacions des de la seva aprovació, modificacions que van motivar la seva refosa en un nou text legal.
 
@@ -446,7 +325,7 @@ Però aquest concepte d'empleat públic és amplia, ja que **aquesta llei no és
 - **Preceptes que s'apliquen només a funcionaris (i excepcionalment només a funcionaris de carrera).**
 - **Preceptes que s'apliquen només als treballadors públics laborals (minoritaris).**
 
-### 14.1.2.3 El TREBEP com a norma bàsica i les lleis de desenvolupament del TREBEP
+### 14.1.2.3 El TREBEP com a norma bàsica i les lleis de desenvolupament del TREBEP <a id="14-1-2-3-el-trebep-com-a-norma-basica-i-les-lleis-de-desenvolupament-del-trebep"></a>
 
 Com ja hem comentat, el TREBEP es configura com a llei bàsica comuna a tots els empleats públics. Tot i així, en la seva pròpia exposició de motius afirma que el règim de la funció pública no pot configurar-se sobre la base d'un sistema homogeni que tingui com a model únic de referència l'Administració General de l'Estat. Cada Administració ha de poder configurar la seva pròpia política de personal, tot respectant allò establert com a bàsic, en els termes que hem exposat en apartats anteriors.
 
@@ -458,7 +337,7 @@ Per tant, cal tenir en compte que al llarg de l'estudi d'aquest tema, no només 
 
 De fet, les normes que hem esmentat fins ara no són pas, ni molt menys, les úniques que afecten la funció pública. N'hi ha moltes més, que només cal tenir-les en compte per a qüestions molt concretes (com ara, la llei catalana L26/2010), etc. La llista és força llarga, ja que hi ha multitud de reglaments, i no cal que l'aprenguem de memòria, més encara tenint en compte que en aquests apunts es fa referència a Art. de les normes que regulen allò que estiguem explicant.
 
-### 14.1.2.4 Àmbit subjectiu d'aplicació del TREBEP
+### 14.1.2.4 Àmbit subjectiu d'aplicació del TREBEP <a id="14-1-2-4-ambit-subjectiu-d-aplicacio-del-trebep"></a>
 
 L'Art. 2.1 TREBEP declara que **és d'aplicació al personal funcionari i, en allò que procedeixi, al personal laboral de totes les Administracions Públiques, ja siguin generals o territorials** (AGE, Comunitats Autònomes, Ceuta, Melilla i Entitats Locals) **o especialitzades** (Organismes Públics, Agències i demés Entitats de Dret Públic amb personalitat jurídica pròpia i vinculades o dependents d'alguna Administració Pública i també les Universitats Públiques).
 
@@ -466,7 +345,7 @@ Per a les denominades Administracions Independents (són una part de les Adminis
 
 També passa que **determinats articles del TREBEP son d'aplicació a entitats que no són exactament Administracions Públiques**, és a dir, entitats del sector públic estatal, autonòmic o local, que no estiguin incloses en les enumerades a l'Art. 2 TREBEP. Concretament se'ls hi apliquen els Art. 52 a 54 (deures del empleats públics i codis de conducta), 55 (principis d'accés al treball públic) i 59 TREBEP (reserva de contingent en favor de les persones amb discapacitat). Això és perquè aquests tipus d'entitats del sector públic, malgrat no ser Administracions Públiques, poden tenir una dotació de funcionaris o empleats públics al seu servei.
 
-### 14.1.2.5 Personal amb legislació específica pròpia
+### 14.1.2.5 Personal amb legislació específica pròpia <a id="14-1-2-5-personal-amb-legislacio-especifica-propia"></a>
 
 A banda del que acabem de comentar, el TREBEP contempla diferents col·lectius d'empleats públics amb regulacions singulars:
 
@@ -483,15 +362,15 @@ Tot i així, l'Art. 2.5 TREBEP estableix que sí s'aplicarà de manera supletòr
 
 Pel que fa al **personal funcionari de les Entitats Locals**, l'Art. 3 TREBEP preveu que aquest es regeix per la legislació estatal que resulti d'aplicació (de la qual forma part el TREBEP) i per la legislació de les Comunitats Autònomes, amb respecte a l'autonomia local.
 
-## 14.1.3 La normativa catalana en matèria de funció pública
+## 14.1.3 La normativa catalana en matèria de funció pública <a id="14-1-3-la-normativa-catalana-en-materia-de-funcio-publica"></a>
 
 A nivell català, la norma amb rang de llei mitjançant la qual es regula la funció pública (dins els límits constitucionalment establerts) és el **Decret Legislatiu 1/1997, de 31 d'octubre, pel qual s'aprova la refosa en un text únic dels preceptes de determinats textos legals vigents a Catalunya en matèria de funció pública** (DLeg 1/97). Segons el seu Art. 2, aquesta norma és aplicable al personal al servei de les corporacions locals situades en el territori de Catalunya, en els termes que estableix la legislació sobre funció pública local.
 
 També és molt important una altra llei, **la L8/2006, de 5 de juliol, de mesures de conciliació de la vida personal, familiar i laboral del personal al servei de les Administracions Públiques de Catalunya** (L8/06), la qual estudiarem en profunditat en els temes de drets dels funcionaris, en relació amb els permisos per a conciliació familiar i demés.
 
-# 14.2 CLASSES DE TREBALLADORS PÚBLICS
+# 14.2 CLASSES DE TREBALLADORS PÚBLICS <a id="14-2-classes-de-treballadors-publics"></a>
 
-## 14.2.1 Concepte i classes de treballadors públics
+## 14.2.1 Concepte i classes de treballadors públics <a id="14-2-1-concepte-i-classes-de-treballadors-publics"></a>
 
 Com ja hem comentat, l'Art. 8.1 TREBEP **defineix els empleats públics com aquelles persones que realitzen funcions retribuïdes a les Administracions Públiques al servei dels interessos generals. Ara afegim a aquesta definició el tret de que aquestes retribucions han de ser a càrrecs dels pressupostos de les Administracions Públiques**. Per tant, a partir d'aquesta definició més completa podem excloure, d'una banda, aquelles persones que desenvolupen activitats de manera voluntària i altruista (voluntaris), i de l'altra, els treballadors que desenvolupen funcions públiques, previ nomenament legal, però retribuïts mitjançant aranzel (notaris i registradors de la propietat).
 
@@ -521,9 +400,9 @@ Per últim **cal esmentar una categoria més dels treballadors públics** que, s
 > Emprar la contractació privada per a dotar-se d'auxiliars administratius (per posar un exemple) és una manera de saltar-se els camins habituals per a la selecció i nomenament de treballadors públics (això és, creació d'ofertes públiques d'ocupació, constitució de borses de treball, etc.). I per molta aparença de legalitat que se li doni a aquesta pràctica mitjançant la contractació administrativa, no deixa de ser una cobertura formal (de contractació administrativa) d'una relació materialment laboral i per tant, sentint-ho molt, és un frau de llei, com ja porten dient-ho diverses sentències com ara la STSJ de Galicia 7/5/2008. Si aquest tipus de pràctica fos correcta i lícita, no tindria cap sentit l'existència dels funcionaris ja que, per aquesta regla de tres, l'Administració podria contractar periòdicament el 100% dels seus treballadors mitjançant empreses privades. Jo entenc que hi hagi persones a les que aquesta visió els hi pugui semblar atractiva però, a data d'avui, i amb el model que hem creat, la figura del funcionari i de la seva esfera de protecció (la tan criticada inamobilitat del funcionari i també, perquè no dir-ho, mal utilitzada per part d'una minoria del personal) és una garantia d'imparcialitat, d'objectivitat i de no sotmetiment a pressions indegudes per part de la classe política en el desenvolupament de les seves funcions
 .
 
-## 14.2.2 Els funcionaris de carrera
+## 14.2.2 Els funcionaris de carrera <a id="14-2-2-els-funcionaris-de-carrera"></a>
 
-### 14.2.2.1 Concepte
+### 14.2.2.1 Concepte <a id="14-2-2-1-concepte"></a>
 
 L'Art. 9.1 TREBEP ens dona la definició dels funcionaris de carrera: **aquells que, en virtut d'un nomenament legal, estan vinculats a una Administració Pública per una relació estatutària regulada pel Dret Administratiu, per al desenvolupament de serveis professionals retribuïts amb caràcter permanent**.
 
@@ -556,7 +435,7 @@ Per últim, a l'Administració de la Generalitat, els funcionaris s'agrupen en c
 - **Els cossos generals** tenen assignades les tasques principalment administratives que requereixen el desenvolupament de les funcions comunes en l'exercici de l'activitat administrativa.
 - **Els cossos especials** tenen com a funció el desenvolupament d'activitats específiques d'una carrera, una professió o un ofici.
 
-### 14.2.2.2 Selecció i nomenament
+### 14.2.2.2 Selecció i nomenament <a id="14-2-2-2-seleccio-i-nomenament"></a>
 
 **El procés de selecció** per obtenir la condició de funcionari de carrera s'ha de realitzar **d'acord amb els principis d'igualtat, mèrit i capacitat, d'acord amb l'oferta d'ocupació pública i mitjançant una convocatòria pública de les places ofertades.**
 
@@ -564,7 +443,7 @@ Per últim, a l'Administració de la Generalitat, els funcionaris s'agrupen en c
 
 El **nomenament com a funcionari** correspon a l'autoritat que hagi efectuat la convocatòria un cop superat el corresponent procés de selecció (i curs de formació, quan s'escaigui), i en el cas de l'Administració de la Generalitat, aquest nomenament s'ha de publicar en el DOGC.
 
-### 14.2.2.3 Funcions reservades a l'estatut funcionarial
+### 14.2.2.3 Funcions reservades a l'estatut funcionarial <a id="14-2-2-3-funcions-reservades-a-l-estatut-funcionarial"></a>
 
 L'Art. 9.2 TREBEP estableix que, **en tot cas, l'exercici de funcions que impliquin la participació directa o indirecta en l'exercici de potestats públiques o en la salvaguarda d'interessos generals de l'Estat i de les Administracions Públiques correspondrà exclusivament als funcionaris públics, en els termes que la llei de desenvolupament de cada Administració Pública estableixi**.
 
@@ -576,7 +455,7 @@ Cal tenir en compte que, a nivell local, l'Art. 92.2 LRBRL estableix una prefer�
 
 **Com a resum podríem dir que en el treball públic poden dibuixar-se dos cercles concèntrics. Al cercle interior, corresponent al desenvolupament de funcions estrictament públiques, el personal ha de ser necessàriament funcionarial. Al cercle extern, relatiu a la resta de llocs de treball públic, si bé la regla general hauria de ser també el vincle funcionarial, a la pràctica, excepte disposició legal en contra, l'Administració pot optar per l'estatut funcionarial o laboral (sistema dual de treball públic).**
 
-### 14.2.2.4 Funcionaris de carrera amb habilitació nacional (Art. 92 bis LRBRL)
+### 14.2.2.4 Funcionaris de carrera amb habilitació nacional (Art. 92 bis LRBRL) <a id="14-2-2-4-funcionaris-de-carrera-amb-habilitacio-nacional-art-92-bis-lrbrl"></a>
 
 Aquesta subcategoria està constituïda per uns **funcionaris de carrera molt concrets**, que desenvolupen unes funcions públiques necessàries i reservades a uns determinats càrrecs en totes les corporacions locals. Aquestes funcions són:
 
@@ -587,7 +466,7 @@ Aquestes funcions s'habiliten a través de **3 sub-escales funcionarials:** secr
 
 Aquest personal es troba desenvolupat al RD128/2018, de règim jurídic dels funcionaris de l'Administració Local amb habilitació de caràcter nacional.
 
-### 14.2.2.5 Funcionaris de carrera sense habilitació nacional
+### 14.2.2.5 Funcionaris de carrera sense habilitació nacional <a id="14-2-2-5-funcionaris-de-carrera-sense-habilitacio-nacional"></a>
 
 Es defineixen per oposició a aquells que sí tenen habilitació nacional. Són tota la resta. Aquests es divideixen en dues escales administratives segons la següent distribució:
 
@@ -601,9 +480,9 @@ Es defineixen per oposició a aquells que sí tenen habilitació nacional. Són 
   - **Tècnica:** aquells treballs específics per als quals es requereix una titulació específica.
   - **Serveis especials** (no confondre aquesta escala amb la situació administrativa que porta per nom "serveis especials", no té res a veure): tasques per a les quals es requereix una aptitud específica.
 
-## 14.2.3 Els funcionaris interins
+## 14.2.3 Els funcionaris interins <a id="14-2-3-els-funcionaris-interins"></a>
 
-### 14.2.3.1 Concepte
+### 14.2.3.1 Concepte <a id="14-2-3-1-concepte"></a>
 
 Segons l'Art. 10.1 TREBEP, **són funcionaris interins els que, per raons expressament justificades de necessitat i urgència, són nomenats com a tals per al desenvolupament de funcions pròpies de funcionaris de carrera, quan es doni alguna de les següents circumstàncies:**
 
@@ -618,7 +497,7 @@ La retribució dels funcionaris interins és la mateixa que la dels funcionaris 
 
 Per últim, destaquem la definició de personal funcionari interí que fa l'Art.13 DLeg 1/97, tot i que és molt més incomplerta que la del TREBEP. Segons aquesta norma, és personal interí el que presta serveis amb caràcter transitori en virtut d'un nomenament subjecte al Dret Administratiu, i ocupa places dotades pressupostàriament que d'acord amb la RLT són reservades als funcionaris de carrera.
 
-### 14.2.3.2 Selecció i règim
+### 14.2.3.2 Selecció i règim <a id="14-2-3-2-seleccio-i-regim"></a>
 
 L'Art. 10.2 TREBEP estableix que **la selecció de funcionaris interins haurà de realitzar-se mitjançant procediments àgils que respectaran en tot cas els principis d'igualtat, mèrit, capacitat i publicitat.** Certament, els procediments per a la selecció de funcionaris interins no poden ser els mateixos que per al funcionaris de carrera, ja que això seria contrari a la urgència de la provisió, però tot i així han de garantir molt estrictament els principis d'igualtat i publicitat, ja que els que hagin treballat a l'Administració en règim d'interins tenen tots els números per a acabar treballant com a funcionaris de carrera, degut a que els temps treballats són considerats (i amb un pes molt gran) com a mèrits per a l'accés a la funció pública de carrera en els procediments de concurs-oposició.
 
@@ -626,9 +505,9 @@ L'Art. 10.5 TREBEP estableix que **als funcionaris interins els hi serà d'aplic
 
 Pel que fa a l'extinció de la relació laboral, l'Art. 10.3 TREBEP estableix que **el cessament dels funcionaris interins es produirà, a més de per les causes aplicables als funcionaris de carrera (Art. 63 TREBEP), quan es finalitzi la causa que va motivar els seus nomenaments** (finalització de la substitució, del programa, dels 6 mesos d'excés de feina, provisió del lloc de treball amb caràcter definitiu).
 
-## 14.2.4 El personal laboral
+## 14.2.4 El personal laboral <a id="14-2-4-el-personal-laboral"></a>
 
-### 14.2.4.1 Concepte i classes
+### 14.2.4.1 Concepte i classes <a id="14-2-4-1-concepte-i-classes"></a>
 
 Segons l'Art. 11.1 TREBEP, **el personal laboral és el que en virtut d'un contracte de treball formalitzat per escrit, en qualsevol de les modalitats de contractació de personal previstes en la legislació laboral, presta serveis retribuïts per les Administracions Públiques. En funció de la durada del contracte aquest podrà ser fix, per temps indefinit o temporal**.
 
@@ -636,7 +515,7 @@ El perquè de la **diferenciació entre fix i indefinit** és, si més no, curio
 
 Els contractats **laborals temporals** són, lògicament, els que es contracten per a una durada finita i determinada.
 
-### 14.2.4.2 Règim jurídic del personal laboral
+### 14.2.4.2 Règim jurídic del personal laboral <a id="14-2-4-2-regim-juridic-del-personal-laboral"></a>
 
 Com ja hem comentat, l'Art. 11.2 TREBEP estableix que **les lleis de la funció pública que es dictin en desenvolupament del TREBEP establiran els criteris per a la determinació dels llocs de treball que poden ser executats per personal laboral, respectant en tot cas la reserva per als funcionaris públics dels llocs de treball que impliquin la participació directa o indirecta en l'exercici de potestats públiques**. D'aquesta manera, els llocs reservats a funcionaris no poden ser coberts per laborals, ni tan sols de manera temporal. Doncs bé, **en el cas de la legislació catalana, aquest aspecte està desenvolupat a l'Art. 30 DLeg 1/97, el qual estableix que, com a excepció al criteri general de que els llocs de treball hauran de ser ocupats per defecte per funcionaris, podran ser ocupats per personal en règim laboral:**
 
@@ -655,7 +534,7 @@ Abans hem comentat que els contractats laboral fixos gaudeixen d'un nivell de pr
 
 Per últim cal saber que **respecte a l'ordre jurisdiccional competent per a resoldre els litigis sorgits en relació a la contractació laboral s'aplica la doctrina dels actes separables**, a saber, **jurisdicció contenciosa administrativa** respecte als actes de preparació i adjudicació de la contractació, **i jurisdicció social** per als litigis sorgits amb posterioritat a la formalització del contracte.
 
-## 14.2.5 El personal eventual
+## 14.2.5 El personal eventual <a id="14-2-5-el-personal-eventual"></a>
 
 Segons l'Art. 12.1 TREBEP, **el personal eventual és el que, en virtut d'un nomenament lliure i amb caràcter no permanent, només realitza funcions expressament qualificades com de confiança o assessorament especial, essent retribuïts amb càrrec als crèdits pressupostaris consignats per a tal fi.** És una figura de suport logístic a les autoritats. No es pot emprar aquest tipus de nomenament lliure per a tasques normals, de manera que no han de poder exercir les actuacions de col·laboració professional que es projectin en les funcions normals de l'Administració Pública, ni tampoc han de desenvolupar funcions directives (per a això hi ha el personal directiu professional). Els nomenaments d'aquest tipus de personal han de ser excepcionals.
 
@@ -671,7 +550,7 @@ La llei 27/2013, de 27 de setembre, de Racionalitat i sostenibilitat de l'Admini
 
 Per últim, cal saber que **la condició de personal eventual no podrà constituir cap mèrit per a l'accés a la funció pública o per a la promoció interna**.
 
-## 14.2.6 El personal directiu professional
+## 14.2.6 El personal directiu professional <a id="14-2-6-el-personal-directiu-professional"></a>
 
 Segons l'Art. 13.1 TREBEP, **és personal directiu el que desenvolupa funcions directives professionals a les Administracions Públiques, definides com a tals en les normes específiques de cada Administració**. Segons el TREBEP no constitueixen una classe autònoma de treballador públic (recordem que l'Art. 8.2 TREBEP només parla de funcionaris de carrera, funcionaris interins, personal laboral i personal eventual) i és per això que **tan aviat podran ser funcionaris com laborals**. L'Art. 13.4 TREBEP estableix que **quan el personal directiu reuneixi la condició de personal laboral, estarà sotmès a la relació laboral de caràcter especial d'alta direcció.**
 
@@ -681,13 +560,13 @@ L'Art. 13 TREBEP també diu que **el Govern i els Òrgans de Govern de les Comun
 - **El personal directiu estarà subjecte a avaluació segons criteris d'eficàcia i eficiència, responsabilitat per la gestió i control de resultats en relació amb els objectius que els hi hagin estat assignats.**
 - **La determinació de les condicions de treball del personal directiu no tindrà la consideració de matèria objecte de negociació col·lectiva.**
 
-# 14.3 DRETS DELS EMPLEATS PÚBLICS
+# 14.3 DRETS DELS EMPLEATS PÚBLICS <a id="14-3-drets-dels-empleats-publics"></a>
 
 **Els drets dels empleats públics és una part bàsica** de la regulació legal de l'estatut dels funcionaris públics prevista a l'Art. 103.3 CE. Per tant, **està inclosa en la reserva de llei de l'esmentat precepte constitucional i, altrament, forma part de la regulació bàsica reservada en favor de l'Estat en virtut de l'Art. 149.1.18 CE.** Concretament el TREBEP li dedica el seu Tít. III (Art. 14 a 54).
 
 Ara bé, ni el TREBEP ni les lleis que se'n dictin en desenvolupament d'aquest, no poden pas esgotar la regulació d'aquests drets. Les lleis només podran establir-ne una regulació general la qual es veurà desenvolupada per múltiples normes reglamentàries, pactes i acords de negociació col·lectiva, etc.
 
-## 14.3.1 La modulació dels drets fonamentals
+## 14.3.1 La modulació dels drets fonamentals <a id="14-3-1-la-modulacio-dels-drets-fonamentals"></a>
 
 **El col·lectiu dels funcionaris públics està vinculat amb l'Administració Pública mitjançant una relació d'especial subjecció** en comparació amb la resta de ciutadans. Aquesta intensitat de vincle fa que, com ja sabem, en alguns casos els funcionaris públics puguin veure limitat l'exercici de determinats drets fonamentals.
 
@@ -695,21 +574,21 @@ Un exemple d'aquest fet el trobem a l'Art. 103.3 CE, en el que s'estableix que u
 
 En aquest sentit hem de tenir clar que **la mera existència d'aquesta relació funcionarial d'especial subjecció envers l'Administració no té perquè implicar necessàriament cap modulació de l'exercici de drets fonamentals**. En cas que es produeixin modulacions, restriccions o, fins i tot, prohibicions per a l'exercici de drets fonamentals, aquestes han d'estar justificades en la finalitat de protecció d'un bé jurídic concret amb el qual hi hauran de guardar una relació directa, aplicant sempre una interpretació restrictiva envers les limitacions, això és, el més favorable possible a l'exercici dels drets fonamentals.
 
-## 14.3.2 Els drets dels empleats públics en l'àmbit del TREBEP
+## 14.3.2 Els drets dels empleats públics en l'àmbit del TREBEP <a id="14-3-2-els-drets-dels-empleats-publics-en-l-ambit-del-trebep"></a>
 
 Una de les característiques que tingué l'EBEP (posteriorment refós en el TREBEP) és la d'haver establert un catàleg explícit dels drets i deures dels empleats públics.
 
 Aquests drets es troben classificats en dos grups: **drets individuals d'exercici individual** (Art. 14 TREBEP) **i drets individuals d'exercici col·lectiu** (Art. 15 TREBEP).
 
-### 14.3.2.1 Drets individuals dels empleats públics
+### 14.3.2.1 Drets individuals dels empleats públics <a id="14-3-2-1-drets-individuals-dels-empleats-publics"></a>
 
 Dins d'aquest grup trobem **drets de contingut no econòmic i drets de contingut econòmic.** Respecte del primer grup (els drets no econòmics), per a una millor comprensió els classificarem en 3 grups: **drets funcionals, drets laborals i drets fonamentals**.
 
-#### A) DRETS FUNCIONALS
+#### A) DRETS FUNCIONALS <a id="a-drets-funcionals"></a>
 
 Aquests són els drets que estan específicament lligats als empleats públics en tant que exerceixen funcions i presten serveis de caràcter públic.
 
-##### A) Dret a la inamobilitat en la condició de funcionari de carrera (Art. 14.a TREBEP)
+##### A) Dret a la inamobilitat en la condició de funcionari de carrera (Art. 14.a TREBEP) <a id="a-dret-a-la-inamobilitat-en-la-condicio-de-funcionari-de-carrera-art-14-a-trebep"></a>
 
 La inamobilitat en la condició de funcionari de carrera es pot definir com el **dret a romandre en les funcions i càrrecs públics sense patir pertorbacions il·legítimes** o, dit d'una manera molt més senzilla, dret a mantenir la feina per sempre, a no perdre la condició de funcionari (no poder ser cessat) si no és per alguna causa legítima legalment establerta. Aquest dret protegeix el funcionari davant qualsevol pretensió arbitrària del poder públic de remoure'l o canviar-lo de lloc de treball sense que existeixi causa objectiva. Aquest **és un dret clarament lligat a la garantia d'imparcialitat en l'exercici de les funcions públiques a que fa referència l'Art. 103.3 CE**, en el sentit que és precisament aquesta seguretat respecte al manteniment del lloc de treball el que fa possible que el funcionari no es doblegui davant cap pressió del poder polític que intenti pertorbar la seva imparcialitat o el correcte desenvolupament de les seves funcions.
 
@@ -727,7 +606,7 @@ Aquest dret a la inamobilitat **no és pas un dret absolut** ja que, efectivamen
 > Dit d'una altra manera, l'estudiant (que es suposa que deu ser opositor) sap quant costa accedir a la funció pública i l'enorme preparació que s'exigeix (per la gran quantitat de continguts i l'afluència de competidors). Això acaba redundant en la selecció de personal amb un "alt grau d'excel·lència". I també, millor que ningú altre, sap que si es fa aquest sacrifici és, principalment, perquè la recompensa és tenir una feina amb determinades condicions avantatjoses, una de les quals és que se suposa que és "la feina més segura del món". Doncs bé, si no existís aquesta inamobilitat, si la feina no fos tan segura, és probable que aquest grau d'excel·lència tampoc s'assolís
 .
 
-##### B) Dret a l'acompliment efectiu de les funcions o tasques pròpies de la seva condició professional i d'acord amb la progressió assolida en la seva carrera professional (Art. 14.b TREBEP)
+##### B) Dret a l'acompliment efectiu de les funcions o tasques pròpies de la seva condició professional i d'acord amb la progressió assolida en la seva carrera professional (Art. 14.b TREBEP) <a id="b-dret-a-l-acompliment-efectiu-de-les-funcions-o-tasques-propies-de-la-seva-condicio-professional-i-d-acord-amb-la-progressio-assolida-en-la-seva-carrera-professional-art-14-b-trebep"></a>
 
 A diferència de la inamobilitat, **aquest dret afecta a la totalitat dels empleats públics**, tot i que la delimitació concreta del seu contingut estarà clarament condicionada per l'estatus i el règim jurídic aplicable a cadascun dels col·lectius que formen el conjunt dels empleats públics.
 
@@ -743,15 +622,15 @@ Altrament, aquest dret té un segon contingut (recollit en les paraules "acompli
 > Quan diem que els funcionari té dret a que li atribueixin funcions i tasques inherents a la seva professió, ho fem sota l'entesa de que ens referim a la professió aconseguida dins l'Administració. És a dir, si un llicenciat en dret (jurista) entra a l'Administració com a Auxiliar Administratiu, no té pas dret a que li assignin un lloc de treball de Tècnic Superior en Dret (ni les tasques pròpies d'aquest lloc) només pel fet de tenir la titulació
 .
 
-##### C) Dret a la progressió en la carrera professional i promoció interna segons principis constitucionals d'igualtat, mèrit i capacitat mitjançant la implantació de sistemes objectius i transparents d'avaluació (Art. 14.c TREBEP)
+##### C) Dret a la progressió en la carrera professional i promoció interna segons principis constitucionals d'igualtat, mèrit i capacitat mitjançant la implantació de sistemes objectius i transparents d'avaluació (Art. 14.c TREBEP) <a id="c-dret-a-la-progressio-en-la-carrera-professional-i-promocio-interna-segons-principis-constitucionals-d-igualtat-merit-i-capacitat-mitjancant-la-implantacio-de-sistemes-objectius-i-transparents-d-avaluacio-art-14-c-trebep"></a>
 
 Aquest dret es tradueix en un **conjunt d'oportunitats d'ascens i de canvi voluntari de destí, conforme a les modalitats previstes per la Llei**. **Aquest dret afecta només els funcionaris de carrera i el personal laboral fix.**
 
-##### D) Dret a participar en la consecució dels objectius atribuïts a la unitat on presti els seus serveis i a ser informat pels seus superiors de les tasques a desenvolupar (Art. 14.e TREBEP)
+##### D) Dret a participar en la consecució dels objectius atribuïts a la unitat on presti els seus serveis i a ser informat pels seus superiors de les tasques a desenvolupar (Art. 14.e TREBEP) <a id="d-dret-a-participar-en-la-consecucio-dels-objectius-atribuits-a-la-unitat-on-presti-els-seus-serveis-i-a-ser-informat-pels-seus-superiors-de-les-tasques-a-desenvolupar-art-14-e-trebep"></a>
 
 Aquest dret és, simultàniament, una necessitat funcional de l'organització.
 
-##### E) Dret a la defensa jurídica i protecció de l'Administració Pública en els procediments que se segueixin davant qualsevol ordre jurisdiccional com a conseqüència de l'exercici legítim de les funcions o càrrecs públics (Art. 14.f TREBEP)
+##### E) Dret a la defensa jurídica i protecció de l'Administració Pública en els procediments que se segueixin davant qualsevol ordre jurisdiccional com a conseqüència de l'exercici legítim de les funcions o càrrecs públics (Art. 14.f TREBEP) <a id="e-dret-a-la-defensa-juridica-i-proteccio-de-l-administracio-publica-en-els-procediments-que-se-segueixin-davant-qualsevol-ordre-jurisdiccional-com-a-consequencia-de-l-exercici-legitim-de-les-funcions-o-carrecs-publics-art-14-f-trebep"></a>
 
 Aquest dret comporta la defensa jurídica dels empleats públics per part dels serveis especialitzats de la seva Administració, o a costa d'aquesta, però sempre que l'afectat s'enfronti a un procediment judicial que tingui per objecte actuacions realitzades en exercici de les seves funcions públiques i quan aquest exercici hagi estat legítim (dins el marc de les seves atribucions i de les ordres i instruccions rebudes i sense incórrer en infracció, almenys manifesta, de l'ordenament jurídic). L'Estat brinda també protecció penal al funcionari o empleat públic davant els atemptats contra la seva autoritat.
 
@@ -759,13 +638,13 @@ Aquest dret comporta la defensa jurídica dels empleats públics per part dels s
 > Per últim també existeixen els drets honorífics del funcionari que es distingeixi en el compliment dels seus deures, això és, mencions honorífiques, premis en metàl·lic, condecoracions i honors. No estan recollits al TREBEP ja que no són pròpiament drets subjectius en sentit estricte (el seu atorgament es fa amb caràcter graciable, lliurement, sense subjecció a preceptes o normes)
 .
 
-#### B) DRETS LABORALS
+#### B) DRETS LABORALS <a id="b-drets-laborals"></a>
 
-##### A) Dret a la intimitat, orientació sexual, pròpia imatge i dignitat en el treball, especialment enfront l'assetjament sexual i per raó de sexe, moral i laboral (Art. 14.h TREBEP)
+##### A) Dret a la intimitat, orientació sexual, pròpia imatge i dignitat en el treball, especialment enfront l'assetjament sexual i per raó de sexe, moral i laboral (Art. 14.h TREBEP) <a id="a-dret-a-la-intimitat-orientacio-sexual-propia-imatge-i-dignitat-en-el-treball-especialment-enfront-l-assetjament-sexual-i-per-rao-de-sexe-moral-i-laboral-art-14-h-trebep"></a>
 
 En relació amb la intimitat, l'Art. 13.5 L30/84 prohibeix que en la documentació individual del personal de les Administracions Públiques figurin dades sobre la seva raça, religió o opinió. Pel que fa a la dignitat, aquest dret exclou tot tipus de vexacions o abusos per part dels superiors, companys o subordinats. Les conductes més greus d'aquesta naturalesa són les que el TREBEP defineix com assetjament (sexual o per raó de sexe, moral o laboral). Aquestes conductes estan tipificades com a faltes disciplinàries molt greus pel TREBEP (Art. 95.2.b i o TREBEP). Altrament, l'Art. 62 LO3/2007, de 22 de març, per a la igualtat efectiva entre dones i homes estableix que les Administracions Públiques han d'establir un protocol d'actuació davant l'assetjament sexual i per raó de sexe.
 
-##### B) Vacances, descansos, permisos i llicències (Art. 14.m TREBEP)
+##### B) Vacances, descansos, permisos i llicències (Art. 14.m TREBEP) <a id="b-vacances-descansos-permisos-i-llicencies-art-14-m-trebep"></a>
 
 Molts dels permisos i llicències tenen a veure amb la conciliació de la vida personal, familiar i laboral, també recollit com a dret a l'Art. 14.j TREBEP. El seu desenvolupament es troba recollit al Capítol V del Tít. III TREBEP (Art. 47 a 51), els preceptes del qual també seran aplicables al personal laboral, a part del que s'estableixi en la legislació laboral corresponent (Art. 51 TREBEP). De fet, aquest Art. 51 TREBEP estableix que **per al règim de jornada de treball, permisos i vacances del personal laboral, s'estarà a allò establert als Art. 47 a 50 TREBEP, i a la legislació laboral corresponent** (però recordem allò ja exposat sobre l'Art. 7 TREBEP, que diu que en matèria de permisos per naixement, adopció, permís del progenitor diferent a la mare biològica i lactància, el personal laboral al servei de les Administracions públiques es regirà per allò previst al TREBEP, i no se'ls aplicarà, per tant, les previsions del text refós de la Llei de l'Estatut dels Treballadors sobre les suspensions dels contractes de treball que, en el seu cas, correspondrien pels mateixos supòsits de fet).
 
@@ -816,7 +695,6 @@ Aquest permís es troba també regulat a l'Art. 14 L8/2006 en termes molt simila
 
 - **Per naixement de fills prematurs o que per qualsevol altra circumstància hagin de romandre hospitalitzats a continuació del part,** la funcionària o funcionari tindrà dret a absentar-se de la feina durant un màxim de dues hores diàries percebent les retribucions íntegres, i a reduir la seva jornada de treball fins a un màxim de dues hores, amb la disminució proporcional de les retribucions (Art. 48.g TREBEP). **L'Art. 15 L8/2006 millora quantiosament la regulació d'aquest permís, tot establint que en aquests casos s'atorga un permís equivalent al temps d'hospitalització, fins a un màxim de 12 setmanes. Aquest permís s'iniciarà a partir de la finalització del permís de maternitat o de la setzena setmana posterior al part, adopció o acolliment.**
 - **Per raons de guarda legal d'un menor de 12 anys (6 anys en el cas de Catalunya, ara en comentarem el perquè) sota la cura directa del funcionari, o de persona gran que requereixi especial dedicació, o de persona amb discapacitat que no exerceixi activitat retribuïda,** té dret a la reducció de la jornada de treball, amb la disminució de retribucions que correspongui. **Aquest permís es fa extensiu als funcionaris que precisin fer-se càrrec de la cura directa d'un familiar, fins a 2n grau de consanguinitat i afinitat, que per raons d'edat, accident o malaltia no pugui valer-se per sí mateix i que no desenvolupi cap activitat retribuïda** (Art. 48.h TREBEP).
-
 **En el cas de Catalunya, aquest permís es troba recollit a l'Art. 26 L8/2006** **i estableix la possibilitat de reduir la jornada en 1/3 o en 1/2 amb dret a percebre el 80% o el 60% de les retribucions respectivament**. Contempla el cas dels fills menors de 6 anys (sempre que se'n tingui la guarda legal), per a cuidar d'una persona amb discapacitat psíquica, física o sensorial que no realitzi cap activitat retribuïda (sempre que se'n tingui la guarda legal), per tenir a càrrec un familiar, fins a 2n grau de consanguinitat o afinitat, amb una discapacitat o disminució reconeguda igual o superior al 65% o amb un grau de dependència que li impedeixi ser autònom o que requereix especial dedicació o atenció i el cas de dones víctimes de violència de gènere, per tal de fer efectiva la seva protecció o el seu dret a l'assistència social íntegra.
 
 > [!NOTE]
@@ -913,9 +791,10 @@ Ara hem de fer una repassada a altres permisos i llicències no recollits explí
 > [!NOTE]
 > De fet, a l'Ajuntament de Barcelona, moltes persones el que acostumen a fer és agafar-se la reducció de jornada bonificada fins a que el fill/a té 6 anys, i després, si volen seguir amb jornada reduïda, acollir-se a aquesta altra amb una bonificació menor.
 .
+
 - **Reducció de jornada per discapacitat legalment reconeguda,** regulat a l'Art. 25 L08/2006, segons el qual les persones amb una discapacitat legalment reconeguda que per aquest motiu hagin de rebre tractament en centres públics o privats, tenen dret a una reducció de jornada de treball equivalent al temps que han de dedicar a aquest tractament, sense perdre les seves retribucions íntegres. Cal justificar mèdicament la necessitat del tractament, la periodicitat o durada aproximada i la necessitat de que es dugui a terme en horari laboral.
 
-##### C) Altres drets laborals
+##### C) Altres drets laborals <a id="c-altres-drets-laborals"></a>
 
 Ara farem esment una mica a la resta de drets recollits a l'Art. 14 TREBEP i dels que encara no hem parlat, a excepció dels drets de caire econòmic i drets fonamentals, als quals es dedicaran sengles epígrafs específics:
 
@@ -927,9 +806,9 @@ Ara farem esment una mica a la resta de drets recollits a l'Art. 14 TREBEP i del
 
 També cal fer referència als drets d'assistència social i previsió social complementària i drets anàlegs, els quals, si bé no es troben directament recollits a l'Art. 14 TREBEP, sí es troben esmentats a l'Art. 37 i que seran objecte de negociació amb sindicats, mitjançant programes i fons d'acció social (ajuts per guarderies, beques d'estudi, transports, menjadors, etc.).
 
-#### C) DRETS ECONÒMICS. EL SISTEMA RETRIBUTIU DELS FUNCIONARIS PÚBLICS
+#### C) DRETS ECONÒMICS. EL SISTEMA RETRIBUTIU DELS FUNCIONARIS PÚBLICS <a id="c-drets-economics-el-sistema-retributiu-dels-funcionaris-publics"></a>
 
-##### A) Línies mestres del sistema i funció de les Lleis de Pressupostos Generals de l'Estat
+##### A) Línies mestres del sistema i funció de les Lleis de Pressupostos Generals de l'Estat <a id="a-linies-mestres-del-sistema-i-funcio-de-les-lleis-de-pressupostos-generals-de-l-estat"></a>
 
 Les retribucions dels funcionaris es basen en els principis de justícia, adequació a la feina feta i dignitat. El problema rau en determinar què s'entén per un salari just, adient i digne. No és pas fàcil objectivar aquests criteris en normes de caràcter general.
 
@@ -961,7 +840,7 @@ Els conceptes retributius dels funcionaris es troben regulats als Art. 22 a 24 T
 > Un trist exemple del que no s'ha de fer és el cas de l'Antonio David Flores, exparella de la Rocío Carrasco (filla de la difunta Rocío Jurado, la más grande, de Chipiona). Quan era Guàrdia Civil, abans de ser el que sigui que és ara, es va embutxacar les 50.000 pessetes d'una multa. Òbviament això no s'ha de fer.
 .
 
-##### B) Retribucions bàsiques
+##### B) Retribucions bàsiques <a id="b-retribucions-basiques"></a>
 
 El primer concepte salarial pertanyent al conjunt de retribucions bàsiques és **el sou** (Art. 23.a TREBEP). Es tracta d'una quantitat homogènia per a cada grup o subgrup de classificació professional dels que ja coneixem (A1, A2, B, C1 i C2). **La quantia del sou assignat als funcionaris de cada grup o subgrup es fixat per la Llei de Pressupostos Generals de l'Estat** per a cada any i per a totes les Administracions Públiques (Art. 21.1 TREBEP).
 
@@ -971,7 +850,7 @@ Per últim, el darrer concepte retributiu pertanyent al grup de les retribucions
 
 Per últim cal esmentar, com a cosa important, que segons el TREBEP, les pagues extraordinàries no formarien part de les retribucions bàsiques (només contempla com a tals el sou i els triennis) ni de les complementàries, sinó que serien una tercera categoria (Art. 22.2 TREBEP). Malgrat això, tota la doctrina jurídica les inclou en les retribucions bàsiques i així ho hem d'aprendre. Però cal estar alerta no fos cas que ens trobéssim amb una pregunta test que es referís al concepte de retribucions bàsiques segons els que posa concretament a l'Art. 22.2 TREBEP. Sí es considera retribució bàsica a l'Art. 23.2 LMRFP.
 
-##### C) _Retribucions complementàries_
+##### C) _Retribucions complementàries_ <a id="c-retribucions-complementaries"></a>
 
 Les retribucions complementàries presenten un nivell de variabilitat entre les diferents Administracions Públiques del que no gaudeixen les retribucions complementàries**. El TREBEP es limita a establir els factors o finalitats a que poden respondre els complements que regulin les Administracions Públiques**. Pel que fa al límit pressupostari de les mateixes, **el TREBEP no imposa que l'increment d'aquests conceptes salarials sigui el mateix per a cada funcionari i en totes les Administracions Públiques, sinó que en còmput global, l'increment es reflecteixi en la corresponent Llei de Pressupostos i que no superi els límits globals que es fixen anualment en la Llei de Pressupostos Generals de l'Estat a l'increment de la massa salarial de les Administracions Públiques**.
 
@@ -1009,7 +888,7 @@ Però cal tenir present que **els funcionaris tenen dret a percebre, com a míni
 
 **Les Administracions Públiques no podran crear retribucions complementàries que no estiguin previstes per les lleis aplicables a cadascuna d'elles. Això no exclou que els funcionaris puguin rebre certes prestacions de contingut econòmic per altres conceptes, com puguin ser mesures d'assistència social per a determinats fins o contingències, o prestacions socials que puguin ser objecte de negociació col·lectiva**, conforme a l'Art. 37.1.g TREBEP (ajuts familiars, fons d'acció social, etc.).
 
-##### D) Indemnitzacions per raó de servei
+##### D) Indemnitzacions per raó de servei <a id="d-indemnitzacions-per-rao-de-servei"></a>
 
 Aquestes es troben recollides a l'Art. 28 TREBEP i a l'Art. 23.4 LMRFP. Consisteix en el fet que els funcionaris percebin les indemnitzacions corresponents per raó de servei. Retribueixen les despeses i disminucions patrimonials que el funcionari pateix o abona per raó d'algun servei (o en ocasions, la realització d'activitats extraordinàries o complementàries de les tasques habituals).
 
@@ -1020,7 +899,7 @@ Aquestes indemnitzacions es troben regulades al Reial Decret 462/2002, que afect
 - **Trasllats de residencia:** es tracta del trasllat forçós del funcionari i, en el seu cas, la seva família, per canvi de destí, tant a Espanya com a l'estranger, sempre que no sigui per motiu de sanció. El funcionari té dret a l'abonament de les despeses del viatge, inclosos els de la seva família, i a les despeses de transport de mobiliari i resta d'estris.
 - **Assistències:** aquest concepte remunera la concurrència del funcionari a determinats òrgans col·legiats de l'Administració i als consells d'administració d'empreses públiques. També remunera la participació en tribunals d'oposició i concursos, amb una quantitat fixa per dia. Per últim, també remunera la col·laboració no permanent ni habitual en instituts o escoles de formació i perfeccionament del personal al servei de l'Administració (conferències, cursos, congressos, seminaris, etc.). El total d'aquestes col·laboracions no pot superar les 75 hores a l'any, ni el seu import global el 25% de les retribucions del lloc principal.
 
-##### E) Retribucions diferides
+##### E) Retribucions diferides <a id="e-retribucions-diferides"></a>
 
 Es troben recollides a l'Art. 29 TREBEP. S'entenen com a tals, les quantitats que les Administracions Públiques destinen a finançar aportacions a plans de pensions de treball o contractes d'assegurances de col·lectives que incloguin la contingència de jubilació, en benefici del seu personal, conforme a la legislació de plans de pensions. No s'inclouen en aquesta categoria les quantitats aportades per les Administracions Públiques per a primes d'assegurança de vida o accident del seu personal (que són mesures d'acció social).
 
@@ -1028,7 +907,7 @@ Aquestes quantitats tenen el límit del percentatge de massa salarial que es fix
 
 Actualment aquest tipus d'aportacions estan suspeses en la majoria d'Administracions, per tal de contenir el dèficit (l'Ajuntament de Barcelona les ha reprès a partir de l'any 2018). El que sí es contempla es que siguin els propis empleats els qui facin aportacions periòdiques al pla de pensions mitjançant el descompte directe de l'import en la nòmina. Però això no són retribucions diferides ja que són els propis empleats els que fan les aportacions de la seva butxaca (cobrant-ho de menys).
 
-##### F) Retribucions dels funcionaris interins
+##### F) Retribucions dels funcionaris interins <a id="f-retribucions-dels-funcionaris-interins"></a>
 
 Segons l'Art. 25.1 TREBEP, **els funcionaris interins perceben les retribucions bàsiques i les pagues extraordinàries corresponents al grup o subgrup de classificació professional al que estiguin adscrits, més les retribucions complementàries vinculades a les característiques del lloc de treball que desenvolupin, més els complements derivats de la productivitat i gratificacions per serveis extraordinaris que els hi corresponguin**.
 
@@ -1040,19 +919,19 @@ L'Art. 25.2 TREBEP reconeix als **interins el dret a percebre els triennis pels 
 - Als interins se'ls hi fa una petita retenció per cotització a l'atur (1,55% sobre la base de cotització de contingències comunes per als interins d'estructura i els de substitució; 1,60% per als de punta de feina i programa). Els funcionaris de carrera no cotitzen per l'atur.
 - Abans de l'entrada en vigor de l'EBEP, els interins no cobraven triennis. A partir de l'entrada en vigor de l'EBEP van començar a cobrar-los, tot tenint en compte tota la seva antiguitat (l'anterior a l'EBEP també).
 
-##### G) Retribucions dels funcionaris en pràctiques i altres
+##### G) Retribucions dels funcionaris en pràctiques i altres <a id="g-retribucions-dels-funcionaris-en-practiques-i-altres"></a>
 
 L'Art. 26 TREBEP estableix que els funcionaris en pràctiques percebran les retribucions que fixin les Administracions Públiques competents i que, com a mínim, equivaldran al sou del grup o subgrup que els hi correspongui.
 
 La regulació catalana (Art. 104 bis DLeg 1/97) és força més generosa que la del TREBEP. Apart del sou inclou també les pagues extraordinàries. A més, especifica que en cas que les pràctiques consisteixin en desenvolupar un lloc de treball, els funcionaris en pràctiques hauran de percebre, a més, les retribucions complementàries corresponents al lloc. En cas que el funcionari en pràctiques tingués un vincle previ com a funcionari de carrera o interí, personal laboral fix o temporal amb la mateixa Administració a la que pertany el cos o escala a que aspira ingressar, podrà optar per rebre les retribucions que li corresponguin com a funcionari en pràctiques o bé percebre les retribucions del lloc que ocupava. En qualsevol dels dos casos haurà de seguir percebent l'antiguitat que se li tingui reconeguda.
 
-##### H) Deduccions de retribucions
+##### H) Deduccions de retribucions <a id="h-deduccions-de-retribucions"></a>
 
 L'Art. 30 TREBEP estableix que, sens perjudici de la sanció disciplinària que pugui correspondre, la part de la jornada no treballada donarà lloc a la deducció proporcional d'havers, que no tindrà caràcter sancionador.
 
 També s'aplica la mateixa regla de deducció d'havers, sense caràcter sancionador, al temps que l'empleat dediqui a l'exercici del seu dret de vaga. El dret a vaga no afectarà a les prestacions socials dels empleats públics.
 
-#### D) LA SEGURETAT SOCIAL DELS FUNCIONARIS
+#### D) LA SEGURETAT SOCIAL DELS FUNCIONARIS <a id="d-la-seguretat-social-dels-funcionaris"></a>
 
 Un altre dels drets dels empleats públics, reconegut a l'Art. 14.o TREBEP és **el drets a les prestacions de la Seguretat Social corresponents al règim que els hi sigui d'aplicació**. El TREBEP, però, no regula pas aquest règim.
 
@@ -1063,19 +942,19 @@ Segons l'Art. 2 de la Llei de la Seguretat Social dels Funcionaris Civils de l'E
 - Règim de classes passives de l'Estat.
 - Mutualisme administratiu.
 
-##### A) Règim de classes passives de l'Estat
+##### A) Règim de classes passives de l'Estat <a id="a-regim-de-classes-passives-de-l-estat"></a>
 
 Aquest règim cobreix la protecció davant els riscos de la vellesa, incapacitat, mort i supervivència als funcionaris que els hi és d'aplicació. Són únicament pensions de caràcter econòmic i periòdic. Poden ser ordinàries, extraordinàries i excepcionals. Són pensions de jubilació o retir, viduïtat, orfandat, i en favor de pares per mort del causant. El finançament d'aquest règim és de tipus pressupostari tot i que el causant contribueix durant la seva vida activa mitjançant una quota de drets passius retinguda mensualment a la nòmina. La quantia de les pensions es fixa en aplicació d'uns barems (fixats anualment a la Llei de Pressupostos Generals de l'Estat) que tenen en compte aspectes com el grup de titulació, els anys de servei prestats, etc.
 
 Aquest règim es basa en un seguit de principis, a saber, legalitat, inembargabilitat, irrenunciabilitat, inalienabilitat, imprescribilitat, pregament, no duplicitat de cobertura i igualtat de sexes dels causants i familiars.
 
-##### B) Mutualisme administratiu
+##### B) Mutualisme administratiu <a id="b-mutualisme-administratiu"></a>
 
 Aquest règim es gestiona per les 3 mutualitats obligatòries existents, MUFACE, ISFAS i MUGEJU. Són organismes públics autònoms, dependents del Ministeri competent en matèria d'Administracions Públiques. Aquestes mutualitats són d'incorporació forçosa per a tots els funcionaris de l'AGE en actiu i en altres situacions administratives assimilables. Els mutualistes abonen una quota mensualment retinguda de la nòmina i l'Estat fa també una aportació (els percentatge es fixa a la Llei de Pressupostos Generals de l'Estat).
 
 Aquest règim protegeix de les contingències de necessitat d'assistència mèdica, incapacitat temporal o permanent i càrregues familiars.
 
-#### E) DRETS FONAMENTALS
+#### E) DRETS FONAMENTALS <a id="e-drets-fonamentals"></a>
 
 Els empleats públics són, davant de tot, ciutadans. Per això estan dotats d'un status comú de ciutadà, el qual comporta un seguit de drets fonamentals i llibertats públiques reconegudes a la CE. Això, que sembla molt obvi, no sempre ha estat així, però ara no ens enrotllarem amb l'evolució històrica de les limitacions de llibertats dels funcionaris fins a arribar a com estem ara.
 
@@ -1085,7 +964,7 @@ Els empleats públics són, davant de tot, ciutadans. Per això estan dotats d'u
 
 **Algunes restriccions estan directament recollides a la CE, en canvi d'altres es troben especificades en lleis i reglaments**, i resulten admissibles sempre que responguin a finalitats constitucionalment legítimes i guardin una adequada i raonable relació i proporció amb les finalitats que pretenen protegir. **Aquestes limitacions sempre s'hauran d'interpretar restrictivament, de la manera més favorable a l'exercici dels drets i llibertats fonamentals.**
 
-##### A) Llibertat d'expressió
+##### A) Llibertat d'expressió <a id="a-llibertat-d-expressio"></a>
 
 Els drets de l'Art. 20 CE estan sotmesos a algunes limitacions específiques en l'àmbit del treball públic (a banda de les limitacions que imposa per a tothom el propi Art. 20 CE).
 
@@ -1099,7 +978,7 @@ La interpretació dels límits al dret a la llibertat d'expressió és una mica 
 
 Pel que fa a **les manifestacions de crítica política, aquestes, en principi, no haurien de patir restriccions específiques en l'àmbit del treball públic**. Només són apreciables en l'àmbit militar.
 
-##### B) Llibertat de reunió i associació polítiques
+##### B) Llibertat de reunió i associació polítiques <a id="b-llibertat-de-reunio-i-associacio-politiques"></a>
 
 **La regla general és que els empleats públics no tenen limitacions en l'exercici d'aquests drets fonamentals, més enllà dels que afecten a la totalitat de la ciutadania. Ara bé, l'ordenament jurídic imposa excepcions o restriccions per a col·lectius de funcionaris que tenen una especial càrrega d'imparcialitat o independència política associada a la realització de les tasques que tenen atribuïdes.**
 
@@ -1107,11 +986,11 @@ El dret a associació política o pertinença a partits polítics està exclòs 
 
 Pel que fa al dret de reunió i manifestació, aquests drets també tenen certa limitació per als militars i per als guàrdies civils (no poden organitzar ni assistir a les que tinguin caràcter polític o sindical, ni anar a aquestes o a qualsevol altra en llocs de trànsit públic vestint l'uniforme ni fent ús de la seva condició de militar; la resta hauran de ser autoritzades).
 
-##### C) Dret de sufragi passiu
+##### C) Dret de sufragi passiu <a id="c-dret-de-sufragi-passiu"></a>
 
 **Aquest dret també està exclòs per a alguns funcionaris amb la finalitat de garantir la seva imparcialitat i evitar possibles interferències espúries en els processos electorals. L'Art. 6 LOREG té un llarg recull de tots els funcionaris que no són elegibles en eleccions**. En cas que un d'aquests funcionaris vulgui ser candidat a unes eleccions, haurà de passar prèviament a alguna de les situacions administratives corresponents (excedència voluntària o serveis especials). Un cop finalitzat el mandat, o en cas que no resultin escollits, podran reingressar al servei actiu.
 
-##### D) Dret a la lliure associació professional
+##### D) Dret a la lliure associació professional <a id="d-dret-a-la-lliure-associacio-professional"></a>
 
 Aquest és un dret recollit a l'Art. 14.p TREBEP i **és diferent al dret d'associació sindical. Els empleats públics poden crear associacions professionals que no siguin sindicats, per a defensar els seus interessos** (però no tindran la legitimitat de negociar amb l'Administració ni el grau de protecció que la llei confereix als sindicats). Aquestes associacions professionals es regulen per la LO 1/2002, de 22 de març, del Dret d'Associació.
 
@@ -1119,13 +998,13 @@ Aquest és un dret recollit a l'Art. 14.p TREBEP i **és diferent al dret d'asso
 
 **Aquest dret també té una vessant negativa, la llibertat de no associar-se. És inconstitucional l'obligació dels funcionaris i empleats públics de formar part d'un col·legi professional**.
 
-##### E) Dret de petició col·lectiva
+##### E) Dret de petició col·lectiva <a id="e-dret-de-peticio-col-lectiva"></a>
 
 La CE prohibeix aquest dret als membres de les Forces o Instituts Armats o dels Cossos sotmesos a disciplina militar (Art. 29.2 CE). També es fa extensiva la prohibició als membres de la Guàrdia Civil, com a Institut armat de naturalesa militar.
 
-### 14.3.2.2 Drets d'exercici col·lectiu
+### 14.3.2.2 Drets d'exercici col·lectiu <a id="14-3-2-2-drets-d-exercici-col-lectiu"></a>
 
-#### A) EL RECONEIXEMENT DELS DRETS SINDICALS EN L'ÀMBIT DE LA FUNCIÓ PÚBLICA
+#### A) EL RECONEIXEMENT DELS DRETS SINDICALS EN L'ÀMBIT DE LA FUNCIÓ PÚBLICA <a id="a-el-reconeixement-dels-drets-sindicals-en-l-ambit-de-la-funcio-publica"></a>
 
 **La CE reconeix amb caràcter general els dret de lliure sindicació, del que només n'exclou als membres de les Forces o Instituts armats i demés Cossos sotmesos a disciplina militar (Art. 28.1 CE) i als jutges, magistrats i fiscals en actiu (Art. 127.1 CE). També permet establir per llei peculiaritats del seu exercici per a funcionaris públics (Art. 28.1 CE). Reconeix igualment el dret de vaga per als treballadors, amb el límit de les garanties de manteniment dels serveis essencials de la comunitat (Art. 28.2 CE). I garanteix el dret a la negociació col·lectiva laboral entre els representants dels treballadors i els empresaris (Art. 37.1 CE).**
 
@@ -1137,9 +1016,9 @@ La transposició d'aquests i altres drets en el TREBEP està plasmada al seu Art
 - Al plantejament de conflictes col·lectius de treball, d'acord amb la legislació aplicable en cada cas.
 - A la reunió, en els termes establerts en l'Art. 46 del propi TREBEP (que ja veurem).
 
-#### B) LA LLIBERTAT SINDICAL
+#### B) LA LLIBERTAT SINDICAL <a id="b-la-llibertat-sindical"></a>
 
-##### A) El dret de sindicació
+##### A) El dret de sindicació <a id="a-el-dret-de-sindicacio"></a>
 
 **El dret de llibertat sindical recollit a l'Art. 28.1 CE comprèn els dret a fundar sindicats i afiliar-se al de la seva elecció, així com el dret dels sindicats a formar confederacions i a fundar organitzacions sindicals internacionals o afiliar-se a les mateixes. També comprèn el dret a no afiliar-se a cap sindicat, al que mai ningú no pot ser obligat, ni directament ni indirecta.**
 
@@ -1147,7 +1026,7 @@ La transposició d'aquests i altres drets en el TREBEP està plasmada al seu Art
 
 **La LOLS també preveu peculiaritats de l'exercici del dret de sindicació per a membres dels Cossos i Forces de Seguretat que no tinguin caràcter militar, remetent-se a la seva legislació específica**. Per exemple, els policies nacionals només poden afiliar-se a sindicats integrats únicament per membres d'aquest cos.
 
-##### B) L'activitat sindical i el dret de reunió
+##### B) L'activitat sindical i el dret de reunió <a id="b-l-activitat-sindical-i-el-dret-de-reunio"></a>
 
 **La LOLS reconeix als treballadors afiliats a un sindicat el dret a constituir seccions sindicals a la seva empresa o lloc de treball, a celebrar reunions, recaptar quotes i distribuir informació sindical fora de les hores de treball i sense pertorbar l'activitat normal de l'empresa i a rebre la informació que els hi remeti el sindicat.**
 
@@ -1155,7 +1034,7 @@ Una de les limitacions que preveu la llei és que **tot això no es podrà fer a
 
 El dret de reunió sindical està regulat a l'Art. 46 TREBEP. Segons aquest precepte poden convocar reunions sindicals les organitzacions sindicals directament, o mitjançant els delegats sindicals, delegats de personal, juntes de personal, comitès d'empresa o un nombre d'empleats públics no inferior al 40% del col·lectiu convocat. Aquestes reunions en el centre de treball s'autoritzaran fora d'hores de treball, tret d'acord entre l'òrgan competent en matèria de personal i els qui estiguin legitimats per a convocar-la (en qualsevol cas la reunió no podrà perjudicar la prestació dels serveis i els convocants en seran responsables del normal desenvolupament).
 
-##### C) Representació del personal
+##### C) Representació del personal <a id="c-representacio-del-personal"></a>
 
 La LOLS també estableix que l'activitat sindical de les organitzacions comprèn, entre d'altres, el **dret a presentar candidatures per a l'elecció dels comitès d'empresa, delegats de personal i altres òrgans corresponents a les Administracions Públiques**.
 
@@ -1178,11 +1057,11 @@ Aquests òrgans poden emprendre procediments administratius i accions administra
 
 **Aquests membres també tenen dret a no ser discriminats en la seva promoció econòmica o professional per raó del desenvolupament de la seva representació. Pel que fa als seus deures, han d'observar sigil professional en els assumptes que l'Administració senyali expressament com de caràcter reservat, fins i tot després d'expirar el seu mandat, i a no emprar cap document reservat entregat per l'Administració fora de l'àmbit estricte d'aquesta o per a fins diferents dels que van motivar l'entrega.**
 
-##### D) Dret de participació institucional
+##### D) Dret de participació institucional <a id="d-dret-de-participacio-institucional"></a>
 
 L'Art. 31 TREBEP reconeix aquest **dret com a aquell a participar, a través d'organitzacions sindicals, en els òrgans de control i seguiment de les entitats o organismes que legalment es determinin.** A través d'aquest dret els sindicats s'integren en l'organització administrativa en virtut de criteris generals de representació d'interessos. Son altres normes, que no pas el TREBEP, les que hauran de determinar els òrgans de participació en que tindran el seu lloc els membres designats pels sindicats.
 
-#### C) DRET DE VAGA
+#### C) DRET DE VAGA <a id="c-dret-de-vaga"></a>
 
 El dret a la vaga es troba recollit a l'Art. 15.c TREBEP i en uns altres pocs preceptes de la mateixa norma, que fan referència a les conseqüències econòmiques del seu exercici i d'altres aspectes accessoris.
 
@@ -1200,7 +1079,7 @@ Pel que fa al tema dels **serveis mínims**, la seva definició és complicada. 
 
 **Econòmicament, l'exercici del dret de vaga implica la corresponent deducció d'havers**, que afectarà tant a les retribucions bàsiques com a les complementàries i, fins i tot, a les indirectes resultants de la paga extraordinària (però no a les vacances anuals i festes laborals). El càlcul es fa dividint el total de retribucions anuals pel nombre total d'hores de treball que el funcionari estava obligat a prestar, afegint a aquest divisor les hores corresponents al període anual de vacances i festes laborables.
 
-#### D) CONFLICTES COL·LECTIUS DE TREBALL I SOLUCIÓ EXTRAJUDICIAL
+#### D) CONFLICTES COL·LECTIUS DE TREBALL I SOLUCIÓ EXTRAJUDICIAL <a id="d-conflictes-col-lectius-de-treball-i-solucio-extrajudicial"></a>
 
 El dret a plantejar conflictes col·lectius és diferent al dret de vaga. Per als treballadors públics es troba recollit a l'Art. 15.d TREBEP, remetent-se a la legislació aplicable en cada cas (funcionaris o laborals).
 
@@ -1212,7 +1091,7 @@ L'Art. 45 TREBEP planteja la possibilitat d'un sistema de solució extrajudicial
 
 Aquests procediments de mediació i arbitratge hauran de ser regulats reglamentàriament, previ acord amb les organitzacions sindicals representatives.
 
-#### E) DRET DE PARTICIPACIÓ EN LA DETERMINACIÓ DE LES CONDICIONS DE TREBALL
+#### E) DRET DE PARTICIPACIÓ EN LA DETERMINACIÓ DE LES CONDICIONS DE TREBALL <a id="e-dret-de-participacio-en-la-determinacio-de-les-condicions-de-treball"></a>
 
 **La participació significa reconèixer la capacitat dels interessats, per sí mateixos o per mitjà dels seus representants, d'influir en la decisió administrativa, a través d'algun canal establert en la fase d'elaboració de la decisió (que en relació amb aquest dret, recau sobre la determinació de les condicions de treball).** Es manifesta a través de l'expressió d'opinions, propostes, suggeriments, consultes, informes, etc. **En l'àmbit que ara ens ocupa, aquest dret no arriba a atorgar un poder de codecisió als qui hi participen**.
 
@@ -1222,9 +1101,9 @@ Exemples d'aquest dret de participació són els Consells Superiors de la Funci�
 
 La participació en la determinació de les condicions de treball és especialment important en el cas del Cos Nacional de Policia i de la Guàrdia Civil, ja que no tenen reconegut el dret a la negociació col·lectiva.
 
-#### F) LA NEGOCIACIÓ COL·LECTIVA DELS FUNCIONARIS
+#### F) LA NEGOCIACIÓ COL·LECTIVA DELS FUNCIONARIS <a id="f-la-negociacio-col-lectiva-dels-funcionaris"></a>
 
-##### A) Configuració legal i consolidació del dret a la negociació col·lectiva
+##### A) Configuració legal i consolidació del dret a la negociació col·lectiva <a id="a-configuracio-legal-i-consolidacio-del-dret-a-la-negociacio-col-lectiva"></a>
 
 **La negociació col·lectiva es pot definir com l'autoregulació de les condicions de treball per acord de les parts, adoptat en virtut de la seva autonomia col·lectiva i formalitzat en un conveni col·lectiu.** Aquest dret no està plasmat de manera expressa per als funcionaris en l'Art. 37 CE. La doctrina jurídica i la jurisprudència entenen que el dret de negociació col·lectiva en la funció pública és un dret de configuració legal (i no pas sobreentès per extensió respecte la regulació que se'n fa per a les relacions laborals en l'àmbit de les empreses privades), recollit concretament a l'Art. 31.1 TREBEP.
 
@@ -1234,7 +1113,7 @@ Segons l'Art. 31.5 TREBEP, el dret de negociació col·lectiva, a l'igual que la
 
 **Per últim també cal saber que determinats grups de funcionaris públics (militars, Policia Nacional, Guàrdia Civil, jutges, magistrats i fiscals) no tenen reconegut legalment aquest dret, que es substitueix en el seu cas per formes de participació o consulta com les que ja hem vist.**
 
-##### B) Significat i principis de la negociació col·lectiva dels funcionaris
+##### B) Significat i principis de la negociació col·lectiva dels funcionaris <a id="b-significat-i-principis-de-la-negociacio-col-lectiva-dels-funcionaris"></a>
 
 **L'Art. 31.2 TREBEP afirma que per negociació col·lectiva s'entén el dret a negociar la determinació de les condicions de treball dels empleats de l'Administració Pública.**
 
@@ -1254,7 +1133,7 @@ Pel que fa als **principis de la negociació**, l'Art. 33.1 TREBEP els enumera, 
 - **Principi de responsabilitat sindical:** la negociació col·lectiva en la funció pública correspon als sindicats més representatius en aquest àmbit, de conformitat a allò establert al TREBEP i a la LOLS (Art. 33.1 TREBEP).
 - **Principi de competència:** els pactes i acords han de ser firmats i aprovats per l'òrgan competent sobre la matèria de que siguin objecte, i no poden implicar alteració d'aquestes regles de competència (Art. 38.2 TREBEP).
 
-##### C) Legitimació per a negociar i composició de les meses
+##### C) Legitimació per a negociar i composició de les meses <a id="c-legitimacio-per-a-negociar-i-composicio-de-les-meses"></a>
 
 L'Art. 33.1 TREBEP estableix que **la negociació col·lectiva s'efectuarà mitjançant l'exercici de la capacitat representativa reconeguda a les organitzacions sindicals en els termes establerts a la LOLS i al propi TREBEP. Estan legitimats per a formar part de les Meses de Negociació les organitzacions més representatives a nivell estatal, de les comunitats autònomes, així com els sindicats que hagin obtingut el 10% o més dels representants en les eleccions per als delegats i juntes de personal, en les unitats electorals compreses en l'àmbit específic de cada Mesa. Excloure ni que sigui a només un sindicat que tingui dret a formar part de la Mesa implica nul·litat de l'acord i de la norma reglamentària que el ratifica, per vulneració del dret de llibertat sindical.**
 
@@ -1270,7 +1149,7 @@ També existeix la **possibilitat de que les Administracions Públiques encarreg
 
 La composició numèrica de cada Mesa ha d'establir-se per les normes de desenvolupament del TREBEP, sense que pugui superar-se el nombre de 15 membres per cada part (Art. 35.4 TREBEP).
 
-##### D) Estructura de la negociació
+##### D) Estructura de la negociació <a id="d-estructura-de-la-negociacio"></a>
 
 Segons l'Art. 34.1 TREBEP, es preveu la constitució d'una **Mesa General de Negociació** en l'àmbit de l'AGE, així com en cadascuna de les Comunitats Autònomes (i Ciutats Autònomes) i entitats locals, amb competència per a la determinació de les condicions de treball dels funcionaris de l'àmbit corresponent.
 
@@ -1278,7 +1157,7 @@ També es preveu la constitució de **Meses Sectorials**, per acord de les Gener
 
 El TREBEP també estableix una **Mesa General de Negociació de les Administracions Públiques**, amb representació de totes les Administracions (presidida per l'AGE). A nivell dels sindicats, la representació correspon a les organitzacions més representatives a nivell estatal i autonòmic. Aquesta Mesa negocia les matèries que hagin de ser objecte de regulació per norma estatal de caràcter bàsic i, específicament, l'increment global de les retribucions de tot el personal al servei de les Administracions Públiques i que correspondrà incloure en el Projecte de Llei de Pressupostos Generals de l'Estat de cada any (Art. 36 TREBEP).
 
-##### E) Matèries objecte de negociació
+##### E) Matèries objecte de negociació <a id="e-materies-objecte-de-negociacio"></a>
 
 Segons l'Art. 37.1 TREBEP, han de ser objecte de negociació col·lectiva:
 
@@ -1304,7 +1183,7 @@ Per altra banda, l'Art. 37.2 TREBEP **exclou determinades matèries respecte a l
 - **Els poders de direcció i control propis de la relació jeràrquica.** És a dir, les facultats de direcció de l'Administració. Una negociació al respecte implicaria un poder de cogestió per part dels sindicats. Això inclou, entre d'altres, interpretació i aplicació del Dret Disciplinari, introducció de sistemes d'inspecció i control del compliment dels deures dels funcionaris, assignació de les concretes funcions a desenvolupar en els llocs de treball, el règim d'incompatibilitats, etc.
 - **La regulació i determinació concreta, en cada cas, dels sistemes, criteris, òrgans i procediments d'accés al treball públic i a la promoció professional.**
 
-##### F) Resultat de la negociació. Pactes i acords
+##### F) Resultat de la negociació. Pactes i acords <a id="f-resultat-de-la-negociacio-pactes-i-acords"></a>
 
 Segons l'Art. 38.1 TREBEP, **el resultat positiu de la negociació es tradueix en la signatura d'un pacte o l'aprovació d'un acord** (que són diferents a un conveni col·lectiu, que afecta a l'àmbit dels laborals).
 
@@ -1333,15 +1212,15 @@ Un altre aspecte a destacar és que, a diferència de la majoria de reglaments, 
 
 Per acabar, hem de parlar del **fracàs en les negociacions. En cas de no assolir-se un acord amb els sindicats, l'Administració pot, en darrer terme (i havent esgotat les possibilitats de resolució extrajudicial de conflictes, en cas que les parts decideixin voluntàriament sotmetre-s'hi), regular unilateralment les condicions de treball dels funcionaris o elaborar els projectes de llei corresponents, tret que s'acordi mantenir o prorrogar la vigència d'una pacte o acord anterior** (Art. 38.7 TREBEP). I és que l'Administració té l'obligació de negociar sobre determinades matèries (i de fer-ho de bona fe), però no té pas l'obligació d'arribar a un acord o pacte.
 
-# 14.4 DEURES DELS EMPLEATS PÚBLICS
+# 14.4 DEURES DELS EMPLEATS PÚBLICS <a id="14-4-deures-dels-empleats-publics"></a>
 
-## 14.4.1 Els deures dels empleats públics i l'ètica del servei públic
+## 14.4.1 Els deures dels empleats públics i l'ètica del servei públic <a id="14-4-1-els-deures-dels-empleats-publics-i-l-etica-del-servei-public"></a>
 
 **La regulació dels deures dels empleats públics pretén protegir determinats béns jurídics** (eficàcia, jerarquia, imparcialitat, respecte als drets dels ciutadans, etc.). **El seu incompliment sol portar aparellat la possibilitat d'imposició d'una sanció.**
 
 Els deures dels empleats públics es troben recollits en els Art. 52 a 54 TREBEP, sota l'epígraf de Codi de Conducta, i que afecta a tots els empleats públics, funcionaris i laborals, incloent els treballadors de les entitats del sector públic que no estan incloses en l'àmbit d'aplicació del TREBEP. Pel que fa a la legislació catalana, aquests es troben recollits als Art. 108 i següents DLeg 1/97.
 
-### 14.4.1.1 Deure de respecte a la CE i de subjecció a l'ordenament jurídic
+### 14.4.1.1 Deure de respecte a la CE i de subjecció a l'ordenament jurídic <a id="14-4-1-1-deure-de-respecte-a-la-ce-i-de-subjeccio-a-l-ordenament-juridic"></a>
 
 Aquest és un deure que apareix esmentat als Art. 52 i 53.1 TREBEP així com al 108.2.a DLeg 1/97 (el qual especifica també l'obediència a l'EAC). Així, **els empleats públics hauran d'actuar amb subjecció i observança de la CE i de la resta de l'ordenament jurídic** (també de l'EAC, que en forma part). **L'incompliment de la CE o dels corresponents Estatuts d'Autonomia són considerats com a falta molt greu** (Art. 95.2.a TREBEP).
 
@@ -1351,7 +1230,7 @@ Una manifestació d'aquest deure de respecte a la CE és el **deure dels empleat
 
 Pel que fa a la subjecció a la resta de l'ordenament jurídic, **els empleats públics tenen l'obligació de complir les lleis i resta de disposicions jurídiques vigents. La seva infracció també és considerada com a falta molt greu quan suposi l'adopció d'acords manifestament il·legals que causin perjudici greu a l'Administració i als ciutadans** (Art. 95.2.d TREBEP i 115.d DLeg 1/97) **i com a falta greu en la resta de casos** (Art. 116.f i j DLeg 1/97).
 
-### 14.4.1.2 Deures d'imparcialitat, neutralitat i objectivitat
+### 14.4.1.2 Deures d'imparcialitat, neutralitat i objectivitat <a id="14-4-1-2-deures-d-imparcialitat-neutralitat-i-objectivitat"></a>
 
 Aquests deures es troben recollits als Art. 52 i 53 TREBEP (l'Art. 52 TREBEP els esmenta com a principis d'actuació dels empleats públics) i 108.1 i 2.b DLeg 1/97.
 
@@ -1361,7 +1240,7 @@ Aquests deures es troben recollits als Art. 52 i 53 TREBEP (l'Art. 52 TREBEP els
 
 **L'empleat públic també ha de guardar-se de tota actuació que suposi afavorir il·legalment a persones, organitzacions socials o grups privats** (Art. 53.2 TREBEP, l'actuació dels empleats públics haurà de perseguir la satisfacció dels interessos generals dels ciutadans i es fonamentarà en consideracions objectives orientades cap a la imparcialitat i l'interès comú, al marge de qualsevol altre factor que expressi posicions personals, familiars, corporatives, clientelars o qualsevols altres que puguin col·lisionar amb aquest principi). **Aquest deure guarda una estreta relació amb factors com el règim d'incompatibilitats, l'abstenció i la recusació, amb tipificació com a faltes molt greus de les actuacions contràries al mateix** (Art. 95.2.j i n TREBEP; Art. 115.g i h DLeg 1/97).
 
-### 14.4.1.3 El deure d'obediència
+### 14.4.1.3 El deure d'obediència <a id="14-4-1-3-el-deure-d-obediencia"></a>
 
 Segons l'Art. 54.3 TREBEP i 108.2.b DLeg 1/97, **els empleats públics han d'obeir les instruccions i ordres professionals dels seus superiors, tret que constitueixin una infracció manifesta de l'ordenament jurídic, en qual cas les posaran immediatament en coneixement dels òrgans d'inspecció procedents.**
 
@@ -1369,7 +1248,7 @@ Segons l'Art. 54.3 TREBEP i 108.2.b DLeg 1/97, **els empleats públics han d'obe
 
 **Aquest deure també té uns límits.** Es tracta de les ordres il·legals. El nostre ordenament jurídic contempla l'eximent de responsabilitat per compliment d'un deure (com el d'obediència) i, alhora, allibera al funcionari del dret d'obediència respecte de les ordres que constitueixin una infracció manifesta de la legalitat. De fet, l'Art. 108.2.b DLeg 1/97 afegeix que en cap cas es compliran ordres que impliquin la comissió d'un delicte (l'obligació d'obediència no empara la comissió d'aquest tipus d'actes per part del funcionari). Davant la dificultat de diferenciar entre les il·legalitats manifestes i les que no ho són, l'Art. 54.3 TREBEP afegeix el deure d'informar als òrgans d'inspecció procedents en cas de dubte per part del funcionari, ja que seran ells els que assenyalaran si la possible il·legalitat eximeix del deure d'obediència.
 
-### 14.4.1.4 El deure d'integritat
+### 14.4.1.4 El deure d'integritat <a id="14-4-1-4-el-deure-d-integritat"></a>
 
 **Aquest deure comprèn l'exigència d'evitar totes aquelles conductes actives o passives que puguin suposar un benefici il·lícit per a l'empleat públic o persones del seu entorn, en detriment del servei, dels interessos generals i dels recursos o béns de l'Administració.**
 
@@ -1385,13 +1264,13 @@ L'Art. 54.6 TREBEP recull **l'obligació de rebutjar qualsevol regal, favor o se
 
 En correspondència amb aquest deure, l'Art. 95.2.j TREBEP tipifica com a **falta molt greu la prevalença de la condició de treballador públic per a obtenir algun benefici indegut per a sí mateix o per a un tercer.**
 
-### 14.4.1.5 Deures funcionals
+### 14.4.1.5 Deures funcionals <a id="14-4-1-5-deures-funcionals"></a>
 
 **És deure de tot treballador públic complir de manera exacta i puntual les funcions del seu càrrec** (Art. 52, 53.10 i 54.2 TREBEP, que fan referència al deure de diligència en el compliment de les funcions pròpies, als principis d'eficàcia, economia i eficiència, consecució de l'interès general i objectius de l'organització, etc.; Art. 108.2.b DLeg 1/97, que fa referència al compliment eficient de les obligacions pròpies del lloc de treball).
 
 **Hi ha determinades conductes de desobediència d'aquest deure que estan tipificades com a faltes disciplinàries** (abandonament del servei, incompliment notori de les funcions essencials, incompliment dels serveis essencials en temps de vaga, tolerància per part dels superiors en la comissió de faltes molt greus o greus per part dels subordinats, falta de rendiment que afecti al normal desenvolupament del servei, pertorbació greu del servei, negligència en l'exercici de les funcions i, en general, l'incompliment del deures i obligacions del funcionari).
 
-### 14.4.1.6 El deure de compliment de la jornada i horari de treball
+### 14.4.1.6 El deure de compliment de la jornada i horari de treball <a id="14-4-1-6-el-deure-de-compliment-de-la-jornada-i-horari-de-treball"></a>
 
 Els Art. 54.2 TREBEP i 108.2.g DLeg 1/97 **imposen el compliment de la jornada i horaris establerts. Aquesta és matèria objecte de negociació, de tal manera que, amb determinats límits bàsics, cada Administració ha de determinar, prèvia negociació col·lectiva, el seu propi règim de jornada i horari de treball.**
 
@@ -1399,7 +1278,7 @@ Normalment els acords de les diferents Administracions Públiques al respecte, r
 
 **L'incompliment d'aquest deure pot ser constitutiu de faltes disciplinàries greus (Art. 116.o DLeg 1/97) o lleus (Art. 117.d DLeg1/97).**
 
-### 14.4.1.7 Deures de lleialtat i bona fe en les relacions amb l'Administració i els ciutadans
+### 14.4.1.7 Deures de lleialtat i bona fe en les relacions amb l'Administració i els ciutadans <a id="14-4-1-7-deures-de-lleialtat-i-bona-fe-en-les-relacions-amb-l-administracio-i-els-ciutadans"></a>
 
 Es troben recollits a l'Art. 53.3 TREBEP. **L'empleat públic ha d'observar lleialtat i bona fe en la seva actuació envers l'Administració en la que presta els seus serveis així com envers els seus superiors, companys, subordinats i amb els ciutadans.**
 
@@ -1411,7 +1290,7 @@ L'Art. 54.11 TREBEP **exigeix que garanteixin l'atenció al ciutadà en la lleng
 
 En relació amb aquests deures hi ha tipificades faltes disciplinàries com ara l'abús d'autoritat (Art. 116.b DLeg 1/97), la greu desconsideració envers els superiors, companys i subordinats, causar danys greus en locals, material o documents dels serveis, atemptar contra la dignitat dels funcionaris o de l'Administració, la falta de consideració amb els administrats o la incorrecció amb el públic, superiors, companys o subordinats.
 
-### 14.4.1.8 Deures de secret i discreció, i deure d'informació als ciutadans
+### 14.4.1.8 Deures de secret i discreció, i deure d'informació als ciutadans <a id="14-4-1-8-deures-de-secret-i-discrecio-i-deure-d-informacio-als-ciutadans"></a>
 
 Actualment la CE i les lleis garanteixen la publicitat i l'accés a una bona part de la informació que obra en poder de l'Administració, mentre que els secrets i la falta de publicitat són l'excepció. Però de vegades les normes imposen deures de secret o reserva en l'esfera pública.
 
@@ -1425,11 +1304,11 @@ La violació del deure de secret (dolosa o negligent) constituirà falta molt gr
 
 Pel que fa al **deure dels empleats públics d'informar als ciutadans sobre aquelles matèries o assumptes que tinguin dret a conèixer**, no existeix sanció concreta per al seu incompliment, més enllà de les que castiguen en general l'incompliment dels deures del funcionari.
 
-### 14.4.1.9 Altres deures
+### 14.4.1.9 Altres deures <a id="14-4-1-9-altres-deures"></a>
 
 El TREBEP fa un breu esment a d'altres deures, com ara la **promoció de l'entorn cultural i mediambiental, el respecte a la igualtat entre dones i homes** (Art. 52 TREBEP), **el deure de custodiar els documents o de garantir-ne la seva constància i permanència per a la seva transmissió i entrega als seus possibles responsables** (Art. 54.7 TREBEP), **mantenir actualitzada la formació i qualificació** (Art. 54.8 TREBEP) **i observar les normes sobre seguretat i salut laboral** (Art. 54.9 TREBEP). També podem trobar obligacions complementàries més específiques en altres lleis i reglaments.
 
-### 14.4.1.10 Enumeració dels deures dels empleats públics segons l'Art. 108 DLeg 1/97
+### 14.4.1.10 Enumeració dels deures dels empleats públics segons l'Art. 108 DLeg 1/97 <a id="14-4-1-10-enumeracio-dels-deures-dels-empleats-publics-segons-l-art-108-dleg-1-97"></a>
 
 Ja hem comentat molts dels deures dels empleats públics de la normativa catalana. Tot i així, en fem ara una enumeració total, pels que puguin haver quedat sense comentar:
 
@@ -1443,9 +1322,9 @@ Ja hem comentat molts dels deures dels empleats públics de la normativa catalan
 - Complir estrictament la jornada i l'horari de treball, que reglamentàriament en determinaran, en funció de la millor atenció als administrats, dels objectius assenyalats en els serveis, i del bon funcionament d'aquests.
 - No alterar voluntàriament, per cap mitjà, les seves condicions físiques i psíquiques ni induir a altre personal a fer-ho, quan allò pugui afectar de forma considerable al funcionament regular dels serveis o a la tasca que té encomanada.
 
-# 14.5 RÈGIM D'INCOMPATIBILITATS
+# 14.5 RÈGIM D'INCOMPATIBILITATS <a id="14-5-regim-d-incompatibilitats"></a>
 
-## 14.5.1 Consideracions generals
+## 14.5.1 Consideracions generals <a id="14-5-1-consideracions-generals"></a>
 
 **En principi, aquells que realitzin la seva activitat professional al servei de l'Administració** (funcionaris o laborals) només tenen el deure de complir fidel i puntualment les seves funcions, respectant la jornada i horari establert. I **no poden exercir altres activitats professionals o lucratives, ja sigui en el sector públic o privat, tret dels casos i en les condicions previstes a la llei. Aquestes limitacions conformen el règim d'incompatibilitats**.
 
@@ -1455,7 +1334,7 @@ Una altra justificació és la finalitat de que cada empleat es dediqui en exclu
 
 Una última justificació també la trobem en la voluntat de repartiment del treball i de reducció del temps de treball.
 
-## 14.5.2 Legislació vigent i àmbit d'aplicació
+## 14.5.2 Legislació vigent i àmbit d'aplicació <a id="14-5-2-legislacio-vigent-i-ambit-d-aplicacio"></a>
 
 El règim d'incompatibilitats del personal al servei de les Administracions Públiques està regulat a la **L53/1984, de 26 de desembre, d'incompatibilitats del personal al servei de les Administracions Públiques**. Aquesta llei té caràcter bàsic, en base al repartiment competencial que fa l'Art. 149.1.18 CE respecte del règim estatutari dels empleats públics (competència compartida de regulació). Per tant, també hi ha una llei catalana que regula els aspectes no bàsics de la matèria, a saber, la **L21/1987, de 26 de novembre, d'incompatibilitats del personal al servei de l'Administració de la Generalitat de Catalunya** (però que com especifica al seu Art. 1, també s'aplica als membres de les corporacions locals).
 
@@ -1489,7 +1368,7 @@ De fet, només el personal de les Corts Generals escapa d'aquesta regulació com
 
 També és diferent el règim d'incompatibilitats dels Diputats i Senadors, Diputats del Parlament Europeu, membres de les Assemblees Legislatives de les Comunitats Autònomes i de les Corporacions Locals, regulades per la LOREG, ni dels membres del Govern i alts càrrecs de l'Administració de l'Estat o de les Comunitats Autònomes.
 
-## 14.5.3 Principis i regles generals
+## 14.5.3 Principis i regles generals <a id="14-5-3-principis-i-regles-generals"></a>
 
 La L53/84 pretén, per una banda, que **el personal del seu àmbit d'aplicació no pugui compatibilitzar les seves activitats professionals amb el desenvolupament d'un segon lloc de treball, càrrec o activitat en el sector públic (per sí mateix o mitjançant substitució), tret de les excepcions contemplades en la pròpia llei (Art. 1.1 L 53/84). És a dir, la L53/84 es basa en el principi de dedicació a un sol lloc de treball en el sector públic.**
 
@@ -1528,7 +1407,7 @@ Els òrgans als que correspongui la direcció, inspecció o el comandament dels 
 
 Per últim, cal tenir en compte que segons els Art. 20.1 L53/84 i 23 L21/87, **l'incompliment sobre les normes d'incompatibilitats poden constituir faltes disciplinàries molt greus** (Art. 95.2.n TREBEP, incompliment de les normes d'incompatibilitats quan donin lloc a una situació d'incompatibilitat) **o faltes greus**, quan afecti a terminis o altres disposicions de procediment i no suposi el manteniment d'una situació d'incompatibilitat (Art. 116.m DLeg 1/97, l'exercici d'activitats compatibles amb el desenvolupament de les funcions sense haver obtingut la pertinent autorització). De fet, si existeix una autorització o reconeixement de compatibilitat il·legal, aquest quedarà automàticament revocat per la resolució que qualifiqui la situació de falta greu o molt greu (Art. 20.2 L53/84).
 
-## 14.5.4 Activitats públiques
+## 14.5.4 Activitats públiques <a id="14-5-4-activitats-publiques"></a>
 
 Tornem a repetir aquí la **norma general de dedicació a un únic lloc de treball al sector públic**. Tot i així hi ha un seguit d'**excepcions**:
 
@@ -1562,7 +1441,7 @@ Segons els Art. 7.2 L53/84 i 6 L21/87, **els serveis prestats al segon lloc de t
 
 Per acabar, **en cas que un empleat públic accedeixi a un nou lloc de treball en el sector públic que sigui incompatible amb el que estigués desenvolupant fins al moment, haurà d'exercir l'opció per un d'ells dins del termini de presa de possessió. A falta d'opció expressa, s'entendrà que opta pel nou lloc de treball, passant en el primer a la situació administrativa d'excedència voluntària (sempre i quan no procedeixi una altra situació administrativa diferent, com ara els serveis especials). Si el nou lloc de treball fos compatible amb l'anterior, haurà de sol·licitar la compatibilitat en els primers 10 dies de termini de presa de possessió, termini que s'entendrà prorrogat fins a que hi recaigui resolució** (Art. 10 L53/84 i 10.1 a .3 L21/87). La llei catalana afegeix que **en cas que l'òrgan a qui correspongui la resolució esmentada apreciés que les activitats o llocs de treball resultessin incompatibles, i l'interessat no hagués efectuar l'elecció entre les dues dedicacions (cosa que sembla lògica, si en va demanar la compatibilitat), aquest òrgan haurà de notificar-li aquest fet per a que abans de 15 dies efectuï l'opció que estimi convenient. Si transcorregut aquest termini no exercís aquest dret, s'entendrà que opta pel nou lloc de treball, i que respecte de l'altre, quedarà en la situació administrativa que correspongui** (excedència voluntària, serveis especials, etc.). Aquest termini de 15 dies no podrà ser ampliat tret que es tracti d'un cas de força major degudament provat, a judici de l'Administració.
 
-## 14.5.5 Activitats privades
+## 14.5.5 Activitats privades <a id="14-5-5-activitats-privades"></a>
 
 Com ja hem comentat, el règim d'incompatibilitats de treballs públics amb altres dedicacions al sector privat té com a principal finalitat la salvaguarda de la imparcialitat dels empleats públics.
 
@@ -1591,13 +1470,13 @@ Fora d'aquestes limitacions, **les activitats privades no declarades expressamen
 
 Per últim, també cal saber que **el personal a que fan referència les lleis d'incompatibilitats no podrà invocar o fer ús de la seva condició pública per a l'exercici de l'activitat mercantil, industrial o professional** (Art. 15 L53/84 i 13 L21/87) i molt menys prevaldre's de la mateixa.
 
-## 14.5.6 Incompatibilitat amb pensions públiques
+## 14.5.6 Incompatibilitat amb pensions públiques <a id="14-5-6-incompatibilitat-amb-pensions-publiques"></a>
 
 **El desenvolupament d'un lloc de treball en el sector públic és incompatible amb la percepció de pensió de jubilació o retir per drets passius o per qualsevol règim públic de la Seguretat Social i obligatori** (Art. 3.2 L53/84 i 15 L21/87). La percepció d'aquestes pensions quedarà en suspens pel temps que es romangui en el lloc de treball, sense que això afecti a les seves actualitzacions. Aquesta incompatibilitat es basa en el principi de solidaritat que està en la base del sistema de pensions públiques i no vulnera cap dret adquirit de l'empleat públic.
 
 **En l'àmbit laboral sí serà compatible la pensió per jubilació parcial amb un lloc de treball a temps parcial.**
 
-## 14.5.7 Procediment
+## 14.5.7 Procediment <a id="14-5-7-procediment"></a>
 
 El primer que hem de tenir present és que tota persona que desitgi exercir una altra activitat o ocupar un lloc de treball públic o privat haurà de formular prèviament la corresponent **declaració d'activitats** (Art. 16 L21/87).
 
@@ -1616,7 +1495,7 @@ Sens perjudici d'allò expressat anteriorment per a dos llocs de treball al sect
 
 **Les resolucions de reconeixement de compatibilitat o declaració d'incompatibilitat es realitzen a nivell ministerial** (Ministeris per a l'AGE, Consellers per a Catalunya), **tret dels Ens Locals, per als quals la resolució correspondrà al Ple. El termini per a la resolució és de 2 mesos** (Art. 14 L53/84 i 22 L21/87).
 
-# 14.6 SITUACIONS ADMINISTRATIVES DELS FUNCIONARIS
+# 14.6 SITUACIONS ADMINISTRATIVES DELS FUNCIONARIS <a id="14-6-situacions-administratives-dels-funcionaris"></a>
 
 La relació de servei del funcionari amb l'Administració pot experimentar diverses vicissituds al llarg de la seva existència. **En ocasions, la situació normal d'ocupar el lloc corresponent** (la que, com ja veurem, es diu situació de servei actiu) **s'altera o interromp, sense extingir-se, per diverses causes**, ja sigui perquè el funcionari passa a exercir altres càrrecs i funcions públiques de naturalesa no professional o al servei d'òrgans constitucionals o Administracions distintes de la pròpia, ja sigui perquè manca transitòriament d'un lloc de treball propi, ja sigui perquè cessa temporalment en la relació de servei per pròpia voluntat o per decisió de l'Administració. **Tots aquests estats de la relació es coneixen amb el nom de situacions administratives i són objecte de regulació jurídica.**
 
@@ -1654,7 +1533,7 @@ Si observem totes dues llistes veurem que les úniques diferències són l'expec
 
 Analitzem ara una per una les diferents situacions administratives possibles.
 
-## 14.6.1 Servei actiu
+## 14.6.1 Servei actiu <a id="14-6-1-servei-actiu"></a>
 
 **El funcionari es troba en servei actiu quan, conforme a la legislació aplicable, presta servei en la seva condició de tal en una Administració Pública o organisme o entitat en que es trobi destinat i no li correspongui quedar en una altra situació** (Art. 86.1 TREBEP). La definició que fa l'Art. 85 DLeg 1/97 és força millor, ja que és més complerta i ens dona una idea d'altres "situacions especials" que han de ser considerades també com a servei actiu. Així, l'Art. 85 DLeg 1/97 afegeix respecte el que diu el TREBEP, que **també es consideraran en servei actiu aquells funcionaris que estiguin en situació de disponibilitat (entenent-se com a tal quan un funcionari cessa en un lloc de treball i encara no ha obtingut destí en un altre lloc), de comissió de serveis i de llicències o permisos que suposin reserva del lloc de treball**. La comissió de serveis tindrà caràcter temporal i no podrà durar més de 2 anys, es donarà exclusivament per necessitats del servei i suposarà el destí a un lloc de treball diferent del que estava ocupant el funcionari i comportarà al reserva del lloc de treball que ocupava. Si aquesta comissió de servei fos de caràcter forçós i suposés canvi de localitat de destí, donarà lloc a percebre les indemnitzacions reglamentàriament establertes (Art. 85.3 DLeg 1/97).
 
@@ -1662,7 +1541,7 @@ Analitzem ara una per una les diferents situacions administratives possibles.
 
 **Els funcionaris de carrera en situació de servei actiu gaudeixen de tots els drets inherents a la seva condició de funcionaris i queden subjectes als deures i responsabilitats derivats d'aquesta** (Art. 86.2 TREBEP). Aquest Art. fa referència als funcionaris de carrera no pas perquè els funcionaris interins no tinguin drets i responsabilitats, sinó pel fet, que ja sabem, de que el catàleg de drets no serà pas el mateix que el dels funcionaris de carrera.
 
-## 14.6.2 Serveis especials
+## 14.6.2 Serveis especials <a id="14-6-2-serveis-especials"></a>
 
 **Aquesta situació està pensada per tal de facilitar el desenvolupament temporal per part del funcionari de càrrecs d'especial responsabilitat, ja siguin càrrecs electius, de confiança política i personal o d'una altra naturalesa**. Tenen com a avantatge que **impliquen la reserva del lloc de treball o, si més no, dret a un altre lloc de treball similar i en la mateixa localitat** (Art. 87.3 TREBEP). Un altre aspecte a tenir en compte és **que el temps que el funcionari hagi estat en serveis especials computarà a efectes d'ascensos, triennis, promoció interna i drets passius (consolidació de grau personal) o Seguretat Social** (Art. 87.2 TREBEP), excepte que hagin ingressat al servei de les institucions de la Unió Europea i hagin exercit el dret de transferència a la funció pública comunitària. Durant aquest temps, **el funcionari percep les retribucions del lloc o càrrec que efectivament està desenvolupant, excepte els triennis, que els percep en relació amb el seu lloc de funcionari**. Si es tracta de funcionaris que han desenvolupat alts càrrecs o han estat membres d'òrgans constitucionals o estatutaris, inclòs el Poder Judicial, Alcaldes o Presidents de Diputacions, Cabildos o Consells Insulars, o parlamentaris estatals o autonòmics, tenen dret al seu regrés a la consolidació del grau i, com a mínim, als complements establerts per als Directors Generals o assimilats de la corresponent Administració Pública.
 
@@ -1696,8 +1575,9 @@ Quan un lloc de treball passa a estar desocupat per motiu de que el funcionari d
 > POSEM UN EXEMPLE QUE JA HEM COMENTAT A CLASSE: el polític socialista Alfredo Pérez Rubalcaba va exercir, entre d'altres càrrecs polítics, com a diputat del Congrés dels Diputats entre els anys 1993 i 2011. Anteriorment a la seva dedicació exclusiva a la política, va obtenir una plaça com a professor titular en química orgànica en la Universitat Complutense de Madrid. Quan va passar a ser diputat, respecte a l'Administració d'origen (Universitat Complutense) va passar de la situació de servei actiu a serveis especials. Al llarg del seu pelegrinatge pel Congrés, ell va cobrar el sou corresponent al seu càrrec de diputat més els triennis corresponents al càrrec de funcionari com a professor universitari. A més a més, els 18 anys que va estar al Congrés li van computar per anar acumulant triennis com a funcionari professor, per a la consolidació del grau professional, drets passius, etc. Altrament, la seva situació de serveis especials combinada amb el fet que quan era funcionari, ho era de carrera, (és a dir, tenia "en propietat" el lloc de treball que ocupava) li van permetre la reserva del lloc de treball de tal manera que, un cop va cessar com a diputat del Congrés, va poder tornar a la seva ocupació com a professor universitari, en les mateixes condicions que si mai ho hagués deixat de ser durant els 18 anys d'absència
 >
 > Al seu torn, la Universitat Complutense de Madrid, al llarg dels 18 anys en què el senyor Rubalcaba va estar absent, evidentment va haver de posar algú a impartir les classes corresponents al lloc de treball d'aquest senyor. Les opcions que tenia eren les de posar un funcionari amb nomenament interí per substitució (és a dir, temporalment, tot i que la temporalitat, en aquest cas, fos de 18 anys) o bé l'adscripció temporal d'un funcionari de carrera en comissió de serveis. Quan veiem els sistemes de provisió de llocs de treball veurem la figura de la comissió de serveis. De manera introductòria podem dir que és el cas en què un funcionari de carrera (que té en propietat un lloc de treball) passa, de manera temporal amb un màxim de durada de 2 anys, a ocupar un altre lloc de treball que no és el seu. En el cas del senyor Rubalcaba, si la Universitat hagués optat per aquest segon camí, amb la llei a la mà haurien hagut de canviar de persona com a màxim cada 2 anys (que és la durada màxima legalment prevista per a la comissió de serveis) tot i que en la vida real ens trobem en que hi ha funcionaris que estan treballant en comissió de serveis des de fa molt més de 2 anys i no passa absolutament res (la prorroguen per nous intervals de 2 anys)
+.
 
-## 14.6.3 Serveis en altres Administracions
+## 14.6.3 Serveis en altres Administracions <a id="14-6-3-serveis-en-altres-administracions"></a>
 
 Aquesta situació serveix per a afavorir la mobilitat voluntària del funcionari entre diferents Administracions Públiques. Aquesta situació es troba regulada als Art. 88 TREBEP i 87 DLeg 1/97. La situació administrativa de serveis en altres Administracions Públiques està pensada per aquells casos en que un funcionari passa a prestar els seus serveis en una altra Administració Pública amb caràcter permanent.
 
@@ -1710,7 +1590,7 @@ Es distingeixen dos casos:
 
 Per últim, si un funcionari està en servei actiu en una Administració, però és procedent d'una altra Administració d'origen (respecte de la qual es troba en situació de serveis en una altra Administració), en el moment que passi a prestar serveis en una altra Administració, amb caràcter permanent, perdrà totalment el vincle que tenia en la darrera Administració en la que va treballar (és a dir, seguirà sent funcionari en serveis a una altra Administració respecte la seva Administració d'origen, però perdrà el vincle respecte la segona Administració en la que treballar).
 
-## 14.6.4 Excedències
+## 14.6.4 Excedències <a id="14-6-4-excedencies"></a>
 
 La situació administrativa d'excedència és, per definició, una de les situacions administratives contemplades al TREBEP i a la resta de normativa legislativa autonòmica i reglamentària autonòmica. És, per tant, **una situació diferent a la de servei actiu però que, a més, presenta tot un ventall de diferents casuístiques que implicaran l'aplicació de diferents règims de drets en cadascun dels casos. El funcionari deixa de prestar servei a l'Administració durant un període més o menys llarg de la seva vida professional, però no perd la condició de funcionari, cosa que li permet el reingrés al servei actiu, amb condicions diferents per a cada cas.**
 
@@ -1731,7 +1611,7 @@ Les excedències voluntàries impliquen el cessament temporal de la relació de 
 
 A banda d'aquestes, el DLeg 1/97 regula també, en el seu Art. 90 l'**excedència forçosa**.
 
-### 14.6.4.1 Excedència voluntària per interès particular
+### 14.6.4.1 Excedència voluntària per interès particular <a id="14-6-4-1-excedencia-voluntaria-per-interes-particular"></a>
 
 Aquesta excedència es troba regulada als Art. 89.2 TREBEP, Art. 86.2 DLeg 1/97 i Art. 29.3.c LMRFP.
 
@@ -1755,7 +1635,7 @@ Aquesta excedència dona dret a una possibilitat de reingrés mitjançant sol·l
 
 Per últim, hem de saber que les sol·licituds d'excedència voluntària per interès particular, en el cas de les corporacions locals, hauran de ser resoltes en un termini de 30 dies pel president de l'entitat. En cas de silenci administratiu a la sol·licitud, aquesta s'entendrà desestimada, excepte en el cas de sol·licitud per motiu de cura d'un fill, cas en que l'efecte el silenci serà estimatori.
 
-### 14.6.4.2 Excedència voluntària per a agrupació familiar (també anomenada per al manteniment de la convivència)
+### 14.6.4.2 Excedència voluntària per a agrupació familiar (també anomenada per al manteniment de la convivència) <a id="14-6-4-2-excedencia-voluntaria-per-a-agrupacio-familiar-tambe-anomenada-per-al-manteniment-de-la-convivencia"></a>
 
 La regulació actual d'aquest tipus d'excedència s'extreu d'una lectura conjunta dels Art. 89.3 TREBEP i Art. 6 L8/06 i Art. 29.3.d LMRFP.
 
@@ -1771,7 +1651,7 @@ Les **característiques** d'aquesta excedència són:
 - **No computa a nivell de consolidació de grau, ni de triennis, ni ascensos, ni drets passius.**
 - **No està disponible per a funcionaris interins.**
 
-### 14.6.4.3 Excedència voluntària per a tenir cura d'un fill o filla
+### 14.6.4.3 Excedència voluntària per a tenir cura d'un fill o filla <a id="14-6-4-3-excedencia-voluntaria-per-a-tenir-cura-d-un-fill-o-filla"></a>
 
 A l'igual que passava en el cas anterior, l'excedència per a tenir cura dels fills està extreta d'una regulació conjunta del TREBEP (Art. 89.4), de la L8/06 (Art. 4) i de la LMRFP (Art. 29.4).
 
@@ -1792,7 +1672,7 @@ Les **característiques** d'aquesta excedència són:
 
 En el cas de que un causant (nen nascut o adoptat/acollit) confereixi simultàniament dret a l'excedència per al dos pares, el TREBEP diu que l'Administració podrà limitar l'exercici simultani per raons justificades relacionades amb el funcionament dels serveis. Més concretament, l'Art. 3.3 L8/06 estableix que només es permetrà el gaudi simultani, prèvia autorització, si ho sol·liciten de manera expressa els interessats i si no afecta al funcionament dels serveis.
 
-### 14.6.4.4 Excedència voluntària per a tenir cura d'un familiar
+### 14.6.4.4 Excedència voluntària per a tenir cura d'un familiar <a id="14-6-4-4-excedencia-voluntaria-per-a-tenir-cura-d-un-familiar"></a>
 
 Aquesta excedència també es posiciona com un **dret de l'empleat**. Es troba regulat als Art. 89.4 TREBEP i 5 L8/06. Tampoc requerirà de cap període mínim de treball abans de poder optar per aquesta excedència.
 
@@ -1811,8 +1691,10 @@ Les seves característiques són:
 
 > [!NOTE]
 > Cal que sapiguem comptar els graus de parentiu, tant en consanguinitat com en afinitat, en línia directa i colateral. Farem pràctiques a classe per a que s'entengui, però, per a aquells de vosaltres que no hi podeu assistir heu de saber que per a comptar el parentiu només ens podem moure verticalment cap a ascendents i descendents, buscant el tronc comú quan ens haguem de moure horitzontalment en l'arbre genealògic. És una descripció massa simplificada, i és normal que no s'entengui només llegint-la. És per això que ara posarem un seguit d'exemples amb un arbre genealògic, concretament un fragment de l'arbre meu i de la meva dona
+.
 
-![grafic1](data:image/webp;base64,xxxxxxxxxxxx)
+![grafic1](data:image/webp;base64,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)
+.
 
 > [!NOTE]
 > Com ja sabeu, jo em dic Xavi i la meva dona és la Saray. Com ja haureu deduït, les línies horitzontals consisteixen en matrimonis, mentre que les línies en verticals (o diagonals) es refereixen a la unió entre ascendents i descendents. Per tant, en el nostre fragment d'arbre hi han 6 matrimonis, a saber, jo i la Saray; Leonardo i Ramona (els meus pares); Aurelio i Sofía (el pares de la Saray i, per tant, els meus sogres); Ester i Pablo (els meus tiets per part de pare ja que la Maria Ester és la germana del meu pare, el Leonardo); Tomás i Tina (avis de la Saray per part de pare) i Manuel i Ester (els meus avis per part de pare)
@@ -1841,7 +1723,7 @@ Les seves característiques són:
 > 
 > EXEMPLE 4, parentiu entre la meva mare, la Ramona, i l'àvia per part de pare de la meva dona, la Tina: els moviments que hauria de fer són Ramona - Xavi (moviment vertical descendent); Xavi - Saray (moviment horitzontal entre cònjuges); Saray - Aurelio (moviment vertical ascendent); Aurelio - Tina (moviment vertical ascendent). En aquest cas, hauria fet un moviment horitzontal entre cònjuges en meitat de la connexió i no pas en un extrem. Per tant, ja no cal que fem més anàlisi ja que NO hi ha parentiu. Parentiu entre la Ramona i la Tina: cap, no tenen parentiu
 
-### 14.6.4.5 Excedència voluntària per violència de gènere
+### 14.6.4.5 Excedència voluntària per violència de gènere <a id="14-6-4-5-excedencia-voluntaria-per-violencia-de-genere"></a>
 
 Aquest tipus d'excedència es troba regulada als Art. 89.5 TREBEP i 7 L8/06. **Aquest tipus d'excedència també es planteja com un dret** i per tant no requereix de cap període mínim de prestació de serveis previs a la mateixa ni s'exigirà cap període de permanència en aquesta excedència. Es concedeix **a les dones** (les lleis no diuen res dels homes maltractats) que són víctimes de violència de gènere, pel temps que ho sol·licitin.
 
@@ -1851,13 +1733,13 @@ Les característiques d'aquesta excedència són:
 - **Dóna dret a la percepció de les retribucions íntegres durant els 2 primers mesos de l'excedència (i també, si s'escau, les ajudes o prestacions familiars per fills al càrrec).**
 - **Comporta la reserva de lloc de treball durant un període de 6 mesos (prorrogable de 3 en 3 mesos, fins a un termini de 18 mesos quan les actuacions judicials ho exigissin, per tal de garantir la protecció de la víctima). Aquest període computa a efectes de reconeixement de triennis, consolidació del grau personal i sistemes de previsió o drets passius.**
 
-### 14.6.4.6 Excedència voluntària per violència terrorista
+### 14.6.4.6 Excedència voluntària per violència terrorista <a id="14-6-4-6-excedencia-voluntaria-per-violencia-terrorista"></a>
 
 Aquesta excedència es troba recollida a l'Art. 89.6 TREBEP i està pensada per a aquells **funcionaris que hagin patit danys físics o psíquics com a conseqüència de l'activitat terrorista, així com els amenaçats** (segons els termes de la legislació sobre protecció a les víctimes del terrorisme). **Cal un reconeixement previ** del Ministeri de l'Interior o bé una sentència judicial ferma. **Les condicions de l'excedència són similars a les de violència de gènere contra les dones funcionàries.**
 
 Aquesta excedència **serà autoritzada i mantinguda durant el temps que resulti necessari per a la protecció i assistència social integral de la persona en favor de la qual es concedeix, ja sigui per raó de seqüeles provocades per l'acció terrorista, ja sigui per l'amenaça a la que es trobi sotmesa**, en els termes establerts reglamentàriament.
 
-### 14.6.4.7 Excedència per incompatibilitat
+### 14.6.4.7 Excedència per incompatibilitat <a id="14-6-4-7-excedencia-per-incompatibilitat"></a>
 
 Aquesta excedència es troba regulada a l'Art. 86 DLeg 1/97. Aquesta excedència **es concedeix si els funcionaris públics es troben en situació de servei actiu en un altre cos o escala de les Administracions Públiques, o passen a prestar serveis es organismes o entitats del sector públic, sempre i quan no els hi correspongui quedar en una altra situació administrativa** (i també tret que hagin obtingut la pertinent autorització de compatibilitat d'acord amb la legislació sobre incompatibilitats).
 
@@ -1870,7 +1752,7 @@ Característiques:
 - **La durada correspon al període en el que el funcionari estigui en actiu en l'altre lloc de treball.**
 - **Un cop finalitzada la circumstància que va motivar-ne la concessió, el funcionari haurà de demanar la reincorporació en un termini d'un mes. En cas de no fer-ho, entrarà de manera automàtica en excedència voluntària per interès particular.**
 
-### 14.6.4.8 Excedència voluntària incentivada
+### 14.6.4.8 Excedència voluntària incentivada <a id="14-6-4-8-excedencia-voluntaria-incentivada"></a>
 
 Aquesta és una excedència pensada per a situacions de sobreabundància d'efectius a les Administracions Públiques. Es troba recollida als Art. 86.5 DLeg 1/97 i Art. 29.7 LMRFP.
 
@@ -1888,7 +1770,7 @@ Altres coses que hem de saber d'aquest tipus d'excedència:
 - **No podrà concedir-se al funcionari que estigui sotmès a expedient disciplinari o pendent del compliment d'una sanció.**
 - **El temps que es romangui en aquesta excedència no computarà a efectes de triennis, grau, drets passius ni implicarà reserva de plaça ni destinació.**
 
-### 14.6.4.9 Excedència forçosa
+### 14.6.4.9 Excedència forçosa <a id="14-6-4-9-excedencia-forcosa"></a>
 
 Aquesta situació administrativa s'aplica per a supòsits en que el funcionari queda sense lloc de treball o no hi pot reingressar per causes objectives, independents de la seva voluntat. Es tracta, per tant, d'una situació provisional, en la que els perjudicis per al funcionari han de minimitzar-se, ja que no és pas responsable d'aquesta situació.
 
@@ -1911,7 +1793,7 @@ Característiques de l'excedència forçosa:
 - **No podran desenvolupar llocs de treball en el sector públic sota cap tipus de relació funcionarial o contractual, sigui de naturalesa laboral o administrativa**. Si obtinguessin un lloc de treball en aquest sector, passaran a la situació d'excedència voluntària per incompatibilitat, a no ser que es tracti d'un lloc de treball a temps parcial i estigués tramitada la corresponent compatibilitat.
 - **Passaran a situació d'excedència voluntària per interès particular els excedents forçosos que incompleixin les obligacions assenyalades pròpies d'aquesta situació administrativa**.
 
-## 14.6.5 Suspensió de funcions
+## 14.6.5 Suspensió de funcions <a id="14-6-5-suspensio-de-funcions"></a>
 
 El concepte de suspensió fa referència a la situació administrativa que esdevé quan un **funcionari queda privat de l'exercici de llurs funcions i de tots els drets inherents a la seva condició com a conseqüència d'un procediment sancionador, administratiu o penal, incoat en contra del funcionari**.
 
@@ -1923,7 +1805,7 @@ La suspensió pot ser **provisional o ferma.** La primera és una mesura cautela
 
 **El funcionari declarat en situació de suspensió de funcions no podrà prestar serveis en cap Administració Pública ni en els organismes públics, agències, o entitats de dret públic dependents o vinculades a elles durant el temps de compliment de la pena o sanció.**
 
-### 14.6.5.1 Suspensió provisional
+### 14.6.5.1 Suspensió provisional <a id="14-6-5-1-suspensio-provisional"></a>
 
 Quan la suspensió és **provisional pot ser per motiu de la tramitació d'un procediment judicial, o bé una suspensió cautelar per motiu de l'inici d'un expedient disciplinari** (amb una durada màxima de la suspensió, en aquest darrer cas, de 6 mesos). En cas de tractar-se d'un procediment judicial penal, si l'òrgan judicial penal decreta la presó provisional d'un funcionari, o altres mesures que li impedeixin l'acompliment del seu lloc de treball, l'autoritat administrativa competent el declararà en suspensió provisional pel temps que durin aquestes mesures, i això no suposarà la pèrdua del lloc de treball encara que aquesta suspensió excedeixi els 6 mesos. En aquest darrer cas, també es podrà acordar discrecionalment per part de l'òrgan administratiu competent per als casos en que l'òrgan judicial no determini la suspensió cautelar.
 
@@ -1935,7 +1817,7 @@ Quan la suspensió és **provisional pot ser per motiu de la tramitació d'un pr
 
 Aquesta suspensió provisional discrecional haurà d'aplicar-se tenint en compte diversos principis com ara el d'interdicció de l'arbitrarietat en l'actuació administrativa i el principi de proporcionalitat. **Com tota decisió discrecional, haurà de ser motivada amb referència als fets i fonaments de dret.** Només estarà justificada quan raons concretes d'interès públic determinin o aconsellin apartar els funcionaris de les seves responsabilitats mentre es tramita el procés o expedient disciplinari.
 
-### 14.6.5.2 Suspensió ferma
+### 14.6.5.2 Suspensió ferma <a id="14-6-5-2-suspensio-ferma"></a>
 
 La **suspensió ferma** s'imposarà en virtut d'una sentència dictada en causa criminal o bé en virtut d'una sanció disciplinària, ambdues fermes.
 
@@ -1949,7 +1831,7 @@ La **suspensió ferma** s'imposarà en virtut d'una sentència dictada en causa 
 
 Com ja hem esmentat quan parlàvem de l'excedència forçosa, quan un funcionari compleixi el temps de suspensió ferma imposat, i aquesta hagués implicat la pèrdua del lloc de treball, haurà de sol·licitar el reingrés al servei actiu en un termini de 30 dies. En cas que no ho faci se'l declararà en situació d'excedència voluntària per interès particular. Si havent demanat el reingrés, aquest no es produís per manca de vacant, passarà a situació d'excedència forçosa.
 
-## 14.6.6 Expectativa de destinació
+## 14.6.6 Expectativa de destinació <a id="14-6-6-expectativa-de-destinacio"></a>
 
 Aquesta situació administrativa està regulada als Art. 91 DLeg 1/97 i 29.5 i 29.6 LMRFP.
 
@@ -1971,7 +1853,7 @@ Pel que fa a les **obligacions** aparellades a la situació d'expectativa de des
 - El funcionari haurà de participar en els concursos per a la provisió de llocs de treballs adients al seu cos, escala o categoria, situats dins de la mateixa província en la que estava destinat.
 - El funcionari haurà de participar en els concursos de capacitació als quals se'l convoqui.
 
-## 14.6.7 Reingrés al servei actiu
+## 14.6.7 Reingrés al servei actiu <a id="14-6-7-reingres-al-servei-actiu"></a>
 
 Aquesta qüestió es troba regulada als Art. 91 TREBEP, 70 DLeg 1/97 i 29 bis LMRFP.
 
@@ -1982,31 +1864,31 @@ Per a totes aquelles situacions administratives diferents al servei actiu i que 
 - **Participant en convocatòries de provisió** de llocs de treball, mitjançant el concurs de mèrits o la lliure designació (sempre que el compleixin els requisits exigits).
 - **Per adscripció provisional** a un lloc de treball vacant dotat pressupostàriament, sempre que el funcionari tingui els requisits per ocupar-lo. El lloc que hagi estat assignat amb caràcter provisional, tret que estigui subjecte a amortització, serà inclòs en la propera convocatòria pública de provisió que s'efectuï, tenint el funcionari reingressat la obligació de participar-hi. **L'adscripció provisional restarà condicionada a les necessitats del servei.**
 
-# 14.7 RÈGIM DISCIPLINARI
+# 14.7 RÈGIM DISCIPLINARI <a id="14-7-regim-disciplinari"></a>
 
 Aquest bloc es troba regulat als Art. 93 a 98 TREBEP i 108 a 121 DLeg 1/97.
 
 És important tenir en compte tant la normativa bàsica estatal com la normativa autonòmica (catalana en el nostre cas) ja que **el TREBEP només fa una enumeració de les faltes molt greus, mentre que remet a les lleis de desenvolupament pel que fa a les faltes greus i lleus (i als conveni col·lectius pel que fa al personal laboral)**.
 
-## 14.7.1 Principis substantius del règim disciplinari
+## 14.7.1 Principis substantius del règim disciplinari <a id="14-7-1-principis-substantius-del-regim-disciplinari"></a>
 
-### 14.7.1.1 Principi de legalitat
+### 14.7.1.1 Principi de legalitat <a id="14-7-1-1-principi-de-legalitat"></a>
 
 Segons l'Art. 94.2.a TREBEP, la potestat disciplinària s'aplicarà d'acord amb aquest principi. Per tant, **la determinació normativa prèvia de les faltes sancionables i de les seves corresponents sancions és imprescindible per a l'exercici de la potestat disciplinària**.
 
-### 14.7.1.2 Principi de tipicitat de faltes i sancions
+### 14.7.1.2 Principi de tipicitat de faltes i sancions <a id="14-7-1-2-principi-de-tipicitat-de-faltes-i-sancions"></a>
 
 També consagrat a l'Art. 94.2.a TREBEP. Aquest principi obliga el legislador (i el titular de la potestat reglamentària) a **regular les infraccions, així com les sancions (i la correlació entre unes i altres) de tal manera que el conjunt de les normes aplicables permeti predir, amb suficient grau de certesa, el tipus i grau de sanció susceptible de ser imposat**, sense que sigui possible definir les conductes il·lícites en uns termes que per la seva amplitud i vaguetat les deixin en la més absoluta indefinició. És a dir, **que es pugui establir una predicció raonable de les conseqüències jurídiques de les conductes il·lícites.**
 
-### 14.7.1.3 Principi d'irretroactivitat de les disposicions sancionadores no favorables, i retroactivitat de les favorables al presumpte infractor
+### 14.7.1.3 Principi d'irretroactivitat de les disposicions sancionadores no favorables, i retroactivitat de les favorables al presumpte infractor <a id="14-7-1-3-principi-d-irretroactivitat-de-les-disposicions-sancionadores-no-favorables-i-retroactivitat-de-les-favorables-al-presumpte-infractor"></a>
 
 Aquest principi es troba recollit a l'Art. 94.2.b TREBEP. Implica que **les normes sancionadores no podran ser aplicades, en la mesura en que siguin desfavorables a l'inculpat, a fets o conductes anteriors a la seva entrada en vigor. Per contra, sí es reconeix expressament la retroactivitat de les normes sancionadores que siguin favorables** al presumpte infractor.
 
-### 14.7.1.4 Prohibició de l'analogia _in peius_
+### 14.7.1.4 Prohibició de l'analogia _in peius_ <a id="14-7-1-4-prohibicio-de-l-analogia-in-peius"></a>
 
 El TS ha acceptat unànimement aquest fet en la seva jurisprudència (malgrat que el TREBEP no s'hi refereix expressament). **S'exclou l'aplicació analògica de les normes sancionadores per a imposar una condemna.**
 
-### 14.7.1.5 _Non bis in idem_
+### 14.7.1.5 _Non bis in idem_ <a id="14-7-1-5-non-bis-in-idem"></a>
 
 Aquest és un principi que es considera inclòs en l'àmbit del principi de legalitat en matèria sancionadora (Art. 25.1 CE) per interpretació del TC, malgrat que tampoc s'hi fa referència expressa al TREBEP. Implica que **no podran imposar-se dos o més sancions per un mateix fet, sempre que s'apreciï identitat de subjecte, de fet i de fonament**.
 
@@ -2014,23 +1896,23 @@ Però **això no vol dir, ni molt menys, que quan l'actuació d'un funcionari im
 
 Una altra manifestació d'aquest principi és que **un mateix fet no pot ser qualificat com a constitutiu de dues faltes disciplinàries** (per exemple, abandonament del servei i incompliment de la jornada de treball; o falta de rendiment i notòria pertorbació del servei). **Tampoc és possible que la sola comissió de varies faltes de menor gravetat, que es sancionin com a tals, suposi a més la imputació automàtica d'una falta de major gravetat, degut a la reiteració de les anteriors.**
 
-### 14.7.1.6 Principi de proporcionalitat
+### 14.7.1.6 Principi de proporcionalitat <a id="14-7-1-6-principi-de-proporcionalitat"></a>
 
 Aquest es troba recollit a l'Art. 94.2.c TREBEP i **s'imposa tant a la classificació de les infraccions i sancions com a l'aplicació d'aquestes**.
 
 A aquest efecte, l'Art. 96.3 TREBEP imposa que l'abast de la sanció s'estableixi atenent a determinats criteris, com ara el grau d'intencionalitat, descuit o negligència de la conducta, el dany a l'interès públic, la reiteració o reincidència, així com el grau de participació. També **en aplicació d'aquest principi és que la resolució del procediment sancionador s'haurà de motivar.**
 
-### 14.7.1.7 Principi de culpabilitat i persones responsables
+### 14.7.1.7 Principi de culpabilitat i persones responsables <a id="14-7-1-7-principi-de-culpabilitat-i-persones-responsables"></a>
 
 Aquest principi es troba recollit a l'Art. 94.2.d TREBEP (únicament com a principi de culpabilitat). **Per a que s'apliqui una sanció disciplinària cal que l'empleat públic sigui culpable, responsable (dol, culpa, negligència més o menys greu o també a títol de simple inobservança, ja que el funcionari té un deure de diligència que li impedeix excusar la comissió d'una falta en la ignorància o en la simple inadvertència).**
 
 L'Art. 93.2 TREBEP també preveu la **responsabilitat del funcionari o personal laboral que indueixi a altres a realitzar actes o conductes constitutives de falta disciplinària** (fins i tot si la falta no es consuma). L'Art. 93.3 TREBEP preveu la **responsabilitat dels empleats públics per encobriment de les faltes consumades greus o molt greus d'altres, si d'aquests actes se'n deriven danys greus per a l'Administració o per als ciutadans**.
 
-### 14.7.1.8 Principi de presumpció d'innocència
+### 14.7.1.8 Principi de presumpció d'innocència <a id="14-7-1-8-principi-de-presumpcio-d-innocencia"></a>
 
 Aquest principi es troba recollit a l'Art. 94.2.e TREBEP. **No es pot sancionar el presumpte infractor sense una mínima prova de càrrec que mostri resultats susceptibles de destruir aquesta presumpció d'innocència** (tot i que en alguns casos també pot ser una prova indiciària).
 
-### 14.7.1.9 Extinció de la responsabilitat i prescripció
+### 14.7.1.9 Extinció de la responsabilitat i prescripció <a id="14-7-1-9-extincio-de-la-responsabilitat-i-prescripcio"></a>
 
 **La responsabilitat disciplinària s'extingeix, entre d'altres, pel compliment de la sanció**.
 
@@ -2038,15 +1920,15 @@ Pel que fa al tema de la prescripció, **cal distingir entre prescripció de les
 
 **La prescripció de les sancions comença a comptar-se des de la fermesa de la resolució sancionadora.**
 
-## 14.7.2 Faltes i sancions
+## 14.7.2 Faltes i sancions <a id="14-7-2-faltes-i-sancions"></a>
 
 Quan els treballadors públics incompleixen les obligacions que els hi són pròpies, **en el cas que aquests incompliments** (fets o omissions) **siguin constitutius d'alguna falta disciplinària** (d'entre el ventall legalment estipulat) **això donarà lloc a les sancions corresponents, al marge de que, segons els casos, se'n puguin derivar responsabilitats civils o penals.**
 
-### 14.7.2.1 Faltes
+### 14.7.2.1 Faltes <a id="14-7-2-1-faltes"></a>
 
 Segons l'Art. 95.1 TREBEP, **les faltes es classifiquen en molt greus, greus i lleus**. Abans d'entrar a veure-les en detall, hem de saber que **les infraccions molt greus prescriuen al cap de 3 anys, les greus al cap de 2 anys les lleus al cap de 6 mesos. El termini de prescripció de les faltes comença a comptar des que s'hagin comès, i des del cessament de la comissió quan es tracti de faltes continuades** (Art. 97 TREBEP).
 
-#### A) FALTES MOLT GREUS
+#### A) FALTES MOLT GREUS <a id="a-faltes-molt-greus"></a>
 
 Segons l'Art. 95.1 TREBEP, són faltes molt greus:
 
@@ -2087,7 +1969,7 @@ Al seu torn, l'enumeració com a faltes molt greus que fa l'Art. 115 DLeg 1/97 �
 - El fet d'haver estat sancionat per la comissió de tres faltes greus en el període d'un any.
 - L'incompliment, pels responsables dels registres d'Activitats i de Béns Patrimonials i d'Interessos i pel personal que hi tingui accés, del deure de reserva professional respecte a les dades i les informacions que coneguin per raó de llur funció, establert per la Llei d'incompatibilitats dels alts càrrecs al servei de la Generalitat.
 
-#### B) FALTES GREUS
+#### B) FALTES GREUS <a id="b-faltes-greus"></a>
 
 Segons l'Art. 95.3 TREBEP **les faltes greus s'estableixen per llei de les Corts Generals o de l'assemblea legislativa de la comunitat autònoma corresponent o pels convenis col·lectius en el cas de personal laboral, atenent les circumstàncies següents:**
 
@@ -2119,7 +2001,7 @@ Segons l'Art. 95.3 TREBEP **les faltes greus s'estableixen per llei de les Corts
 - La reincidència en faltes lleus.
 - La realització d'actes d'assetjament sexual o d'assetjament per raó de sexe, tipificats per l'Art. 5.tercer de la Llei del dret de les dones a eradicar la violència masclista, i d'actes que puguin comportar assetjament per raó de sexe o assetjament sexual i que no siguin constitutius de falta molt greu.
 
-#### C) FALTES LLEUS
+#### C) FALTES LLEUS <a id="c-faltes-lleus"></a>
 
 L'Art. 95.4 TREBEP estableix que **les lleis de funció pública que es dictin en desplegament del TREBEP han de determinar el règim aplicable a les faltes lleus, atenent les mateixes circumstàncies esmentades respecte de les faltes greus**.
 
@@ -2134,7 +2016,7 @@ L'Art. 117 DLeg 1/97 estableix que seran faltes lleus:
 - L'incompliment de les normes relatives a incompatibilitats, si no comporta l'execució de tasques incompatibles o que requereixen la compatibilització prèvia.
 - L'incompliment dels deures i les obligacions del funcionari, sempre que no constitueixi falta molt greu o greu.
 
-### 14.7.2.2 Sancions
+### 14.7.2.2 Sancions <a id="14-7-2-2-sancions"></a>
 
 L'Art. 97 TREBEP estableix que **les sancions imposades per faltes molt greus prescriuen al cap de 3 anys, les imposades per faltes greus al cap de 2 anys, i les imposades per faltes lleus al cap d'1 any. El termini de prescripció de les sancions comença a comptar des de la fermesa de la resolució sancionadora**.
 
@@ -2183,11 +2065,11 @@ Pel que fa als **criteris de graduació de les faltes i sancions**, l'Art. 120 D
 - **La reincidència.**
 - **La participació en la comissió o l'omissió.**
 
-### 14.7.2.3 Inscripció i cancel·lació
+### 14.7.2.3 Inscripció i cancel·lació <a id="14-7-2-3-inscripcio-i-cancel-lacio"></a>
 
 **Les faltes comeses i les sancions imposades s'han d'inscriure en el Registre General de Personal i es cancel·laran d'ofici, o a petició del personal laboral, un cop transcorregut un període equivalent al de la prescripció de la falta, si durant aquest període no hi ha hagut cap nova sanció. La cancel·lació produeix efectes pertinents, inclosos els relatius a l'apreciació de reincidència.**
 
-### 14.7.2.4 Procediment disciplinari i mesures provisionals
+### 14.7.2.4 Procediment disciplinari i mesures provisionals <a id="14-7-2-4-procediment-disciplinari-i-mesures-provisionals"></a>
 
 L'Art. 98 TREBEP estableix que **no es pot imposar sanció per la comissió de faltes molt greus o greus sinó mitjançant el procediment establert prèviament**.
 
