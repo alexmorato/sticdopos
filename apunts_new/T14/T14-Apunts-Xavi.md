@@ -278,11 +278,11 @@
 
 - EL RÈGIM JURÍDIC DE LA FUNCIÓ PÚBLICA ESPANYOLA. LES BASES DEL RÈGIM ESTATUTARI DELS FUNCIONARIS PÚBLICS: EL TEXT REFÓS DE L'ESTATUT BÀSIC DE L'EMPLEAT PÚBLIC (TREBEP). EL PERSONAL AL SERVEI DE LES ADMINISTRACIONS PÚBLIQUES. DRETS I DEURES DELS FUNCIONARIS PÚBLICS. RÈGIM D'INCOMPATIBILITATS DEL PERSONAL AL SERVEI DE LES ADMINISTRACIONS PÚBLIQUES. RÈGIM DISCIPLINARI.
 
-# LES FONTS DE DRET DEL TREBALL PÚBLIC
+# 14.1 LES FONTS DE DRET DEL TREBALL PÚBLIC
 
-## Regulació de la funció pública a la Constitució
+## 14.1.1 Regulació de la funció pública a la Constitució
 
-### Pressupòsits constitucionals
+### 14.1.1.1 Pressupòsits constitucionals
 
 La CE estableix els principis fonamentals de la vertebració de la funció pública i assenta les bases del model de distribució territorial de competències entre l'Estat i les Comunitats Autònomes.
 
@@ -315,7 +315,7 @@ L'Art. 1.3 TREBEP estableix els **fonaments d'actuació en la regulació de la f
 - Negociació col·lectiva i participació, a través de representants, en la determinació de les condicions d'ocupació.
 - Cooperació entre les Administracions Públiques en la regulació i gestió de l'ocupació pública.
 
-#### LA GARANTIA DE LA FUNCIÓ PÚBLICA PROFESSIONAL
+#### A) LA GARANTIA DE LA FUNCIÓ PÚBLICA PROFESSIONAL
 
 La reserva de llei imposada per l'Art. 103.3 CE en relació amb l'estatut dels funcionaris públics fa que se'n derivin un seguit de conseqüències jurídiques.
 
@@ -323,7 +323,7 @@ Per una banda, en un Estat social i democràtic de Dret, les Administracions Pú
 
 D'altra banda, el dret a l'accés en condicions d'igualtat a les funcions i càrrecs públics proclamat en l'Art. 23.2 CE té consideració de dret fonamental, amb el nivell de protecció especial que ja coneixem com ara el recurs d'empara judicial i constitucional (Art. 53.2 CE, mirar tema de drets fonamentals per a més concreció). I cal destacar que **els principis d'igualtat, mèrit i capacitat són consubstancials a un disseny professional de la funció pública ja que releguen a casos excepcionals les possibilitats d'accés al treball públic per raons de confiança política** (només per als casos estrictament i raonablement justificats, malgrat que en la realitat aquesta pràctica estigui més estesa del que seria desitjable).
 
-#### L'ESTATUT DELS FUNCIONARIS I LA LEGITIMITAT D'UN SISTEMA DUAL DE TREBALL PÚBLIC
+#### B) L'ESTATUT DELS FUNCIONARIS I LA LEGITIMITAT D'UN SISTEMA DUAL DE TREBALL PÚBLIC
 
 La referència constitucional de l'Art. 103.3 CE a "l'estatut dels funcionaris" va fonamentar la concepció de la funció pública basada en la denominada **teoria estatutària de la relació funcionarial**, la qual configura una situació jurídica objectiva del funcionari amb els següents elements essencials:
 
@@ -342,7 +342,7 @@ Aquest no és l'únic element de Dret Públic que s'aplica a les relacions de tr
 
 Per últim, cal destacar el fet que malgrat que s'intenta una concepció del funcionari com a un ciutadà i treballador més de la societat, amb els mateixos drets fonamentals que la resta, **en alguns casos, l'exercici d'alguns dels seus drets (tals com la sindicació, la vaga, sufragi passiu, llibertat d'expressió, etc.) poden veure's limitats**.
 
-##### Dualitat de règims: el règim estatutari (o funcionarial) i el règim laboral
+##### A) Dualitat de règims: el règim estatutari (o funcionarial) i el règim laboral
 
 Tal i com comentarem més endavant en aquest mateix tema, les Administracions Públiques, per poder realitzar les seves funcions, no només es nodreixen de funcionaris, sinó que també **està permès que tinguin treballadors (propis) sotmesos a dret laboral**. Tal i com comentarem en epígrafs propers, a aquesta categoria de treballadors (**els laborals) se'ls hi aplicarà tant el dret laboral com també determinats preceptes de les normes pròpies dels funcionaris.**
 
@@ -350,7 +350,7 @@ Aquesta dualitat de règims, sobre la constitucionalitat de la qual hi ha hagut 
 
 Tot i que ja parlarem més endavant sobre la qüestió de com farà l'Administració per a saber si ha de dotar-se de personal funcionari o laboral, ara avançarem una mica la idea. I és que segons l'Art. 9.2 TREBEP, en tot cas, **l'exercici de funcions que impliquin la participació directa o indirecta en l'exercici de les potestats públiques o en la salvaguarda dels interessos generals de l'Estat i de les Administracions Públiques, corresponen exclusivament als funcionaris públics**, en els termes en que la llei de desenvolupament de cara Administració Pública estableixi.
 
-### La reserva de llei en matèria de funció pública
+### 14.1.1.2 La reserva de llei en matèria de funció pública
 
 Ja hem comentat que **l'Art. 103.3 CE estableix reserva de llei en matèria de funció pública** (la llei regularà l'estatut dels funcionaris públics, l'accés a la funció pública d'acord amb els principis de mèrit i capacitat, les peculiaritats de l'exercici del seu dret de sindicació, el sistema d'incompatibilitats i les garanties per a la imparcialitat en l'exercici de llurs funcions). **Aquesta reserva de llei es fonamenta en el fet que hi ha un clar interès general que transcendeix més enllà dels subjectes de la relació i que afecta al conjunt dels ciutadans.**
 
@@ -366,7 +366,7 @@ Quant al **contingut d'aquest Estatut**, el TC aprecia que ha de contenir, en pr
 
 Aquesta reserva de llei descarta, doncs, tot apoderament explícit o implícit de la potestat reglamentària per tal de substituir la norma de Llei en la tasca que la CE li encomana. No és que no hi pugui haver reglaments **(la Llei podrà remetre al Reglament quan la remissió sigui, estrictament, per a desenvolupar i completar una determinació legislativa prèvia), però no es permet una deslegalització de la matèria en favor del reglament**. Paral·lelament **aquesta reserva de llei afecta també als legisladors autonòmics** (en el proper apartat veurem quin és repartiment competencial de la matèria i quin paper poden jugar les lleis autonòmiques).
 
-### La distribució de competències en matèria de funció pública
+### 14.1.1.3 La distribució de competències en matèria de funció pública
 
 Per tal de veure la distribució competencial en la matèria que ens ocupa hem d'atendre al que posa a l'Art. 149.1.18 CE, el qual **reserva en favor de l'Estat la competència exclusiva relativa a les bases** del règim jurídic de les Administracions Públiques i **del règim estatutari dels funcionaris** que, en tot cas, garantiran als administrats un tractament comú davant les mateixes. La Disp. Add. 1a TREBEP estableix que les disposicions d'aquesta norma es dicten a l'emparament de l'Art. 149.1.18 CE, constituint les bases del règim estatutari dels funcionaris, etc.
 
@@ -380,9 +380,9 @@ Pel que fa als **treballadors públics laborals** (que no pas funcionaris), el t
 
 Per últim, tot i que veurem en detall en els temes que tractin sobre els drets retributius dels treballadors públics, cal tenir present que **l'Estat, a través dels Pressupostos Generals de l'Estat, pot establir límits i prescripcions generals sobre l'increment de les retribucions dels funcionaris de totes les Administracions Públiques**, en virtut de l'Art. 149.1.13 CE i 149.1.14 CE i dels principis de solidaritat i igualtat i de coordinació financera de les Comunitats Autònomes per la Hisenda Estatal. **En matèria de Seguretat Social,** gràcies a l'Art. 149.1.17 CE, **l'Estat té la competència de regular-ne les bases del règim jurídic i econòmic, competència que abasta la Seguretat Social dels Funcionaris**.
 
-## L'Estatut Bàsic de l'Empleat Públic, el Reial Decret Legislatiu 5/2015, de 30 d'octubre, pel qual s'aprova el Text Refos de la Llei de l'Estatut Bàsic de l'Empleat Públic (TREBEP)
+## 14.1.2 L'Estatut Bàsic de l'Empleat Públic, el Reial Decret Legislatiu 5/2015, de 30 d'octubre, pel qual s'aprova el Text Refos de la Llei de l'Estatut Bàsic de l'Empleat Públic (TREBEP)
 
-### Estructura del TREBEP
+### 14.1.2.1 Estructura del TREBEP
 
 El RDLeg 5/2015, de 30 d'octubre, pel qual s'aprova el Text Refós de la Llei de l'Estatut Bàsic de l'Empleat Públic (TREBEP) es va publicar al BOE del 31/10/2015 i va entrar en vigor l'1/11/2015. La llei que va habilitar l'executiu per a poder dur a terme la refosa de l'anterior EBEP (L7/2007) va ser la L20/2014, de 29 d'octubre.
 
@@ -432,7 +432,7 @@ TREBEP).
 - 1 Disposició derogatòria.
 - 4 Disposicions finals.
 
-### L'objecte del TREBEP: funcionaris i laborals
+### 14.1.2.2 L'objecte del TREBEP: funcionaris i laborals
 
 La norma estatal bàsica amb la qual es duu a terme l'atribució competencial ja esmentada de l'Art. 149.1.18 CE i en la forma establerta per l'Art. 103.3 CE (matèria amb reserva de llei) és el **RDLeg 5/2015, pel qual s'aprova el Text Refós de la Llei de l'Estatut Bàsic de l'Empleat Públic**. Com el seu propi nom indica, es tracta d'una norma amb rang de llei per la qual es va refondre l'anterior Llei 7/2007 de l'Estatut Bàsic de l'Empleat Públic, la qual va ser objecte de múltiples modificacions des de la seva aprovació, modificacions que van motivar la seva refosa en un nou text legal.
 
@@ -446,7 +446,7 @@ Però aquest concepte d'empleat públic és amplia, ja que **aquesta llei no és
 - **Preceptes que s'apliquen només a funcionaris (i excepcionalment només a funcionaris de carrera).**
 - **Preceptes que s'apliquen només als treballadors públics laborals (minoritaris).**
 
-### El TREBEP com a norma bàsica i les lleis de desenvolupament del TREBEP
+### 14.1.2.3 El TREBEP com a norma bàsica i les lleis de desenvolupament del TREBEP
 
 Com ja hem comentat, el TREBEP es configura com a llei bàsica comuna a tots els empleats públics. Tot i així, en la seva pròpia exposició de motius afirma que el règim de la funció pública no pot configurar-se sobre la base d'un sistema homogeni que tingui com a model únic de referència l'Administració General de l'Estat. Cada Administració ha de poder configurar la seva pròpia política de personal, tot respectant allò establert com a bàsic, en els termes que hem exposat en apartats anteriors.
 
@@ -458,7 +458,7 @@ Per tant, cal tenir en compte que al llarg de l'estudi d'aquest tema, no només 
 
 De fet, les normes que hem esmentat fins ara no són pas, ni molt menys, les úniques que afecten la funció pública. N'hi ha moltes més, que només cal tenir-les en compte per a qüestions molt concretes (com ara, la llei catalana L26/2010), etc. La llista és força llarga, ja que hi ha multitud de reglaments, i no cal que l'aprenguem de memòria, més encara tenint en compte que en aquests apunts es fa referència a Art. de les normes que regulen allò que estiguem explicant.
 
-### Àmbit subjectiu d'aplicació del TREBEP
+### 14.1.2.4 Àmbit subjectiu d'aplicació del TREBEP
 
 L'Art. 2.1 TREBEP declara que **és d'aplicació al personal funcionari i, en allò que procedeixi, al personal laboral de totes les Administracions Públiques, ja siguin generals o territorials** (AGE, Comunitats Autònomes, Ceuta, Melilla i Entitats Locals) **o especialitzades** (Organismes Públics, Agències i demés Entitats de Dret Públic amb personalitat jurídica pròpia i vinculades o dependents d'alguna Administració Pública i també les Universitats Públiques).
 
@@ -466,7 +466,7 @@ Per a les denominades Administracions Independents (són una part de les Adminis
 
 També passa que **determinats articles del TREBEP son d'aplicació a entitats que no són exactament Administracions Públiques**, és a dir, entitats del sector públic estatal, autonòmic o local, que no estiguin incloses en les enumerades a l'Art. 2 TREBEP. Concretament se'ls hi apliquen els Art. 52 a 54 (deures del empleats públics i codis de conducta), 55 (principis d'accés al treball públic) i 59 TREBEP (reserva de contingent en favor de les persones amb discapacitat). Això és perquè aquests tipus d'entitats del sector públic, malgrat no ser Administracions Públiques, poden tenir una dotació de funcionaris o empleats públics al seu servei.
 
-### Personal amb legislació específica pròpia
+### 14.1.2.5 Personal amb legislació específica pròpia
 
 A banda del que acabem de comentar, el TREBEP contempla diferents col·lectius d'empleats públics amb regulacions singulars:
 
@@ -483,15 +483,15 @@ Tot i així, l'Art. 2.5 TREBEP estableix que sí s'aplicarà de manera supletòr
 
 Pel que fa al **personal funcionari de les Entitats Locals**, l'Art. 3 TREBEP preveu que aquest es regeix per la legislació estatal que resulti d'aplicació (de la qual forma part el TREBEP) i per la legislació de les Comunitats Autònomes, amb respecte a l'autonomia local.
 
-## La normativa catalana en matèria de funció pública
+## 14.1.3 La normativa catalana en matèria de funció pública
 
 A nivell català, la norma amb rang de llei mitjançant la qual es regula la funció pública (dins els límits constitucionalment establerts) és el **Decret Legislatiu 1/1997, de 31 d'octubre, pel qual s'aprova la refosa en un text únic dels preceptes de determinats textos legals vigents a Catalunya en matèria de funció pública** (DLeg 1/97). Segons el seu Art. 2, aquesta norma és aplicable al personal al servei de les corporacions locals situades en el territori de Catalunya, en els termes que estableix la legislació sobre funció pública local.
 
 També és molt important una altra llei, **la L8/2006, de 5 de juliol, de mesures de conciliació de la vida personal, familiar i laboral del personal al servei de les Administracions Públiques de Catalunya** (L8/06), la qual estudiarem en profunditat en els temes de drets dels funcionaris, en relació amb els permisos per a conciliació familiar i demés.
 
-# CLASSES DE TREBALLADORS PÚBLICS
+# 14.2 CLASSES DE TREBALLADORS PÚBLICS
 
-## Concepte i classes de treballadors públics
+## 14.2.1 Concepte i classes de treballadors públics
 
 Com ja hem comentat, l'Art. 8.1 TREBEP **defineix els empleats públics com aquelles persones que realitzen funcions retribuïdes a les Administracions Públiques al servei dels interessos generals. Ara afegim a aquesta definició el tret de que aquestes retribucions han de ser a càrrecs dels pressupostos de les Administracions Públiques**. Per tant, a partir d'aquesta definició més completa podem excloure, d'una banda, aquelles persones que desenvolupen activitats de manera voluntària i altruista (voluntaris), i de l'altra, els treballadors que desenvolupen funcions públiques, previ nomenament legal, però retribuïts mitjançant aranzel (notaris i registradors de la propietat).
 
@@ -521,9 +521,9 @@ Per últim **cal esmentar una categoria més dels treballadors públics** que, s
 > Emprar la contractació privada per a dotar-se d'auxiliars administratius (per posar un exemple) és una manera de saltar-se els camins habituals per a la selecció i nomenament de treballadors públics (això és, creació d'ofertes públiques d'ocupació, constitució de borses de treball, etc.). I per molta aparença de legalitat que se li doni a aquesta pràctica mitjançant la contractació administrativa, no deixa de ser una cobertura formal (de contractació administrativa) d'una relació materialment laboral i per tant, sentint-ho molt, és un frau de llei, com ja porten dient-ho diverses sentències com ara la STSJ de Galicia 7/5/2008. Si aquest tipus de pràctica fos correcta i lícita, no tindria cap sentit l'existència dels funcionaris ja que, per aquesta regla de tres, l'Administració podria contractar periòdicament el 100% dels seus treballadors mitjançant empreses privades. Jo entenc que hi hagi persones a les que aquesta visió els hi pugui semblar atractiva però, a data d'avui, i amb el model que hem creat, la figura del funcionari i de la seva esfera de protecció (la tan criticada inamobilitat del funcionari i també, perquè no dir-ho, mal utilitzada per part d'una minoria del personal) és una garantia d'imparcialitat, d'objectivitat i de no sotmetiment a pressions indegudes per part de la classe política en el desenvolupament de les seves funcions
 .
 
-## Els funcionaris de carrera
+## 14.2.2 Els funcionaris de carrera
 
-### Concepte
+### 14.2.2.1 Concepte
 
 L'Art. 9.1 TREBEP ens dona la definició dels funcionaris de carrera: **aquells que, en virtut d'un nomenament legal, estan vinculats a una Administració Pública per una relació estatutària regulada pel Dret Administratiu, per al desenvolupament de serveis professionals retribuïts amb caràcter permanent**.
 
@@ -556,7 +556,7 @@ Per últim, a l'Administració de la Generalitat, els funcionaris s'agrupen en c
 - **Els cossos generals** tenen assignades les tasques principalment administratives que requereixen el desenvolupament de les funcions comunes en l'exercici de l'activitat administrativa.
 - **Els cossos especials** tenen com a funció el desenvolupament d'activitats específiques d'una carrera, una professió o un ofici.
 
-### Selecció i nomenament
+### 14.2.2.2 Selecció i nomenament
 
 **El procés de selecció** per obtenir la condició de funcionari de carrera s'ha de realitzar **d'acord amb els principis d'igualtat, mèrit i capacitat, d'acord amb l'oferta d'ocupació pública i mitjançant una convocatòria pública de les places ofertades.**
 
@@ -564,7 +564,7 @@ Per últim, a l'Administració de la Generalitat, els funcionaris s'agrupen en c
 
 El **nomenament com a funcionari** correspon a l'autoritat que hagi efectuat la convocatòria un cop superat el corresponent procés de selecció (i curs de formació, quan s'escaigui), i en el cas de l'Administració de la Generalitat, aquest nomenament s'ha de publicar en el DOGC.
 
-### Funcions reservades a l'estatut funcionarial
+### 14.2.2.3 Funcions reservades a l'estatut funcionarial
 
 L'Art. 9.2 TREBEP estableix que, **en tot cas, l'exercici de funcions que impliquin la participació directa o indirecta en l'exercici de potestats públiques o en la salvaguarda d'interessos generals de l'Estat i de les Administracions Públiques correspondrà exclusivament als funcionaris públics, en els termes que la llei de desenvolupament de cada Administració Pública estableixi**.
 
@@ -576,7 +576,7 @@ Cal tenir en compte que, a nivell local, l'Art. 92.2 LRBRL estableix una prefer�
 
 **Com a resum podríem dir que en el treball públic poden dibuixar-se dos cercles concèntrics. Al cercle interior, corresponent al desenvolupament de funcions estrictament públiques, el personal ha de ser necessàriament funcionarial. Al cercle extern, relatiu a la resta de llocs de treball públic, si bé la regla general hauria de ser també el vincle funcionarial, a la pràctica, excepte disposició legal en contra, l'Administració pot optar per l'estatut funcionarial o laboral (sistema dual de treball públic).**
 
-### Funcionaris de carrera amb habilitació nacional (Art. 92 bis LRBRL)
+### 14.2.2.4 Funcionaris de carrera amb habilitació nacional (Art. 92 bis LRBRL)
 
 Aquesta subcategoria està constituïda per uns **funcionaris de carrera molt concrets**, que desenvolupen unes funcions públiques necessàries i reservades a uns determinats càrrecs en totes les corporacions locals. Aquestes funcions són:
 
@@ -587,7 +587,7 @@ Aquestes funcions s'habiliten a través de **3 sub-escales funcionarials:** secr
 
 Aquest personal es troba desenvolupat al RD128/2018, de règim jurídic dels funcionaris de l'Administració Local amb habilitació de caràcter nacional.
 
-### Funcionaris de carrera sense habilitació nacional
+### 14.2.2.5 Funcionaris de carrera sense habilitació nacional
 
 Es defineixen per oposició a aquells que sí tenen habilitació nacional. Són tota la resta. Aquests es divideixen en dues escales administratives segons la següent distribució:
 
@@ -601,9 +601,9 @@ Es defineixen per oposició a aquells que sí tenen habilitació nacional. Són 
   - **Tècnica:** aquells treballs específics per als quals es requereix una titulació específica.
   - **Serveis especials** (no confondre aquesta escala amb la situació administrativa que porta per nom "serveis especials", no té res a veure): tasques per a les quals es requereix una aptitud específica.
 
-## Els funcionaris interins
+## 14.2.3 Els funcionaris interins
 
-### Concepte
+### 14.2.3.1 Concepte
 
 Segons l'Art. 10.1 TREBEP, **són funcionaris interins els que, per raons expressament justificades de necessitat i urgència, són nomenats com a tals per al desenvolupament de funcions pròpies de funcionaris de carrera, quan es doni alguna de les següents circumstàncies:**
 
@@ -618,7 +618,7 @@ La retribució dels funcionaris interins és la mateixa que la dels funcionaris 
 
 Per últim, destaquem la definició de personal funcionari interí que fa l'Art.13 DLeg 1/97, tot i que és molt més incomplerta que la del TREBEP. Segons aquesta norma, és personal interí el que presta serveis amb caràcter transitori en virtut d'un nomenament subjecte al Dret Administratiu, i ocupa places dotades pressupostàriament que d'acord amb la RLT són reservades als funcionaris de carrera.
 
-### Selecció i règim
+### 14.2.3.2 Selecció i règim
 
 L'Art. 10.2 TREBEP estableix que **la selecció de funcionaris interins haurà de realitzar-se mitjançant procediments àgils que respectaran en tot cas els principis d'igualtat, mèrit, capacitat i publicitat.** Certament, els procediments per a la selecció de funcionaris interins no poden ser els mateixos que per al funcionaris de carrera, ja que això seria contrari a la urgència de la provisió, però tot i així han de garantir molt estrictament els principis d'igualtat i publicitat, ja que els que hagin treballat a l'Administració en règim d'interins tenen tots els números per a acabar treballant com a funcionaris de carrera, degut a que els temps treballats són considerats (i amb un pes molt gran) com a mèrits per a l'accés a la funció pública de carrera en els procediments de concurs-oposició.
 
@@ -626,9 +626,9 @@ L'Art. 10.5 TREBEP estableix que **als funcionaris interins els hi serà d'aplic
 
 Pel que fa a l'extinció de la relació laboral, l'Art. 10.3 TREBEP estableix que **el cessament dels funcionaris interins es produirà, a més de per les causes aplicables als funcionaris de carrera (Art. 63 TREBEP), quan es finalitzi la causa que va motivar els seus nomenaments** (finalització de la substitució, del programa, dels 6 mesos d'excés de feina, provisió del lloc de treball amb caràcter definitiu).
 
-## El personal laboral
+## 14.2.4 El personal laboral
 
-### Concepte i classes
+### 14.2.4.1 Concepte i classes
 
 Segons l'Art. 11.1 TREBEP, **el personal laboral és el que en virtut d'un contracte de treball formalitzat per escrit, en qualsevol de les modalitats de contractació de personal previstes en la legislació laboral, presta serveis retribuïts per les Administracions Públiques. En funció de la durada del contracte aquest podrà ser fix, per temps indefinit o temporal**.
 
@@ -636,7 +636,7 @@ El perquè de la **diferenciació entre fix i indefinit** és, si més no, curio
 
 Els contractats **laborals temporals** són, lògicament, els que es contracten per a una durada finita i determinada.
 
-### Règim jurídic del personal laboral
+### 14.2.4.2 Règim jurídic del personal laboral
 
 Com ja hem comentat, l'Art. 11.2 TREBEP estableix que **les lleis de la funció pública que es dictin en desenvolupament del TREBEP establiran els criteris per a la determinació dels llocs de treball que poden ser executats per personal laboral, respectant en tot cas la reserva per als funcionaris públics dels llocs de treball que impliquin la participació directa o indirecta en l'exercici de potestats públiques**. D'aquesta manera, els llocs reservats a funcionaris no poden ser coberts per laborals, ni tan sols de manera temporal. Doncs bé, **en el cas de la legislació catalana, aquest aspecte està desenvolupat a l'Art. 30 DLeg 1/97, el qual estableix que, com a excepció al criteri general de que els llocs de treball hauran de ser ocupats per defecte per funcionaris, podran ser ocupats per personal en règim laboral:**
 
@@ -655,7 +655,7 @@ Abans hem comentat que els contractats laboral fixos gaudeixen d'un nivell de pr
 
 Per últim cal saber que **respecte a l'ordre jurisdiccional competent per a resoldre els litigis sorgits en relació a la contractació laboral s'aplica la doctrina dels actes separables**, a saber, **jurisdicció contenciosa administrativa** respecte als actes de preparació i adjudicació de la contractació, **i jurisdicció social** per als litigis sorgits amb posterioritat a la formalització del contracte.
 
-## El personal eventual
+## 14.2.5 El personal eventual
 
 Segons l'Art. 12.1 TREBEP, **el personal eventual és el que, en virtut d'un nomenament lliure i amb caràcter no permanent, només realitza funcions expressament qualificades com de confiança o assessorament especial, essent retribuïts amb càrrec als crèdits pressupostaris consignats per a tal fi.** És una figura de suport logístic a les autoritats. No es pot emprar aquest tipus de nomenament lliure per a tasques normals, de manera que no han de poder exercir les actuacions de col·laboració professional que es projectin en les funcions normals de l'Administració Pública, ni tampoc han de desenvolupar funcions directives (per a això hi ha el personal directiu professional). Els nomenaments d'aquest tipus de personal han de ser excepcionals.
 
@@ -671,7 +671,7 @@ La llei 27/2013, de 27 de setembre, de Racionalitat i sostenibilitat de l'Admini
 
 Per últim, cal saber que **la condició de personal eventual no podrà constituir cap mèrit per a l'accés a la funció pública o per a la promoció interna**.
 
-## El personal directiu professional
+## 14.2.6 El personal directiu professional
 
 Segons l'Art. 13.1 TREBEP, **és personal directiu el que desenvolupa funcions directives professionals a les Administracions Públiques, definides com a tals en les normes específiques de cada Administració**. Segons el TREBEP no constitueixen una classe autònoma de treballador públic (recordem que l'Art. 8.2 TREBEP només parla de funcionaris de carrera, funcionaris interins, personal laboral i personal eventual) i és per això que **tan aviat podran ser funcionaris com laborals**. L'Art. 13.4 TREBEP estableix que **quan el personal directiu reuneixi la condició de personal laboral, estarà sotmès a la relació laboral de caràcter especial d'alta direcció.**
 
@@ -681,13 +681,13 @@ L'Art. 13 TREBEP també diu que **el Govern i els Òrgans de Govern de les Comun
 - **El personal directiu estarà subjecte a avaluació segons criteris d'eficàcia i eficiència, responsabilitat per la gestió i control de resultats en relació amb els objectius que els hi hagin estat assignats.**
 - **La determinació de les condicions de treball del personal directiu no tindrà la consideració de matèria objecte de negociació col·lectiva.**
 
-# DRETS DELS EMPLEATS PÚBLICS
+# 14.3 DRETS DELS EMPLEATS PÚBLICS
 
 **Els drets dels empleats públics és una part bàsica** de la regulació legal de l'estatut dels funcionaris públics prevista a l'Art. 103.3 CE. Per tant, **està inclosa en la reserva de llei de l'esmentat precepte constitucional i, altrament, forma part de la regulació bàsica reservada en favor de l'Estat en virtut de l'Art. 149.1.18 CE.** Concretament el TREBEP li dedica el seu Tít. III (Art. 14 a 54).
 
 Ara bé, ni el TREBEP ni les lleis que se'n dictin en desenvolupament d'aquest, no poden pas esgotar la regulació d'aquests drets. Les lleis només podran establir-ne una regulació general la qual es veurà desenvolupada per múltiples normes reglamentàries, pactes i acords de negociació col·lectiva, etc.
 
-## La modulació dels drets fonamentals
+## 14.3.1 La modulació dels drets fonamentals
 
 **El col·lectiu dels funcionaris públics està vinculat amb l'Administració Pública mitjançant una relació d'especial subjecció** en comparació amb la resta de ciutadans. Aquesta intensitat de vincle fa que, com ja sabem, en alguns casos els funcionaris públics puguin veure limitat l'exercici de determinats drets fonamentals.
 
@@ -695,21 +695,21 @@ Un exemple d'aquest fet el trobem a l'Art. 103.3 CE, en el que s'estableix que u
 
 En aquest sentit hem de tenir clar que **la mera existència d'aquesta relació funcionarial d'especial subjecció envers l'Administració no té perquè implicar necessàriament cap modulació de l'exercici de drets fonamentals**. En cas que es produeixin modulacions, restriccions o, fins i tot, prohibicions per a l'exercici de drets fonamentals, aquestes han d'estar justificades en la finalitat de protecció d'un bé jurídic concret amb el qual hi hauran de guardar una relació directa, aplicant sempre una interpretació restrictiva envers les limitacions, això és, el més favorable possible a l'exercici dels drets fonamentals.
 
-## Els drets dels empleats públics en l'àmbit del TREBEP
+## 14.3.2 Els drets dels empleats públics en l'àmbit del TREBEP
 
 Una de les característiques que tingué l'EBEP (posteriorment refós en el TREBEP) és la d'haver establert un catàleg explícit dels drets i deures dels empleats públics.
 
 Aquests drets es troben classificats en dos grups: **drets individuals d'exercici individual** (Art. 14 TREBEP) **i drets individuals d'exercici col·lectiu** (Art. 15 TREBEP).
 
-### Drets individuals dels empleats públics
+### 14.3.2.1 Drets individuals dels empleats públics
 
 Dins d'aquest grup trobem **drets de contingut no econòmic i drets de contingut econòmic.** Respecte del primer grup (els drets no econòmics), per a una millor comprensió els classificarem en 3 grups: **drets funcionals, drets laborals i drets fonamentals**.
 
-#### DRETS FUNCIONALS
+#### A) DRETS FUNCIONALS
 
 Aquests són els drets que estan específicament lligats als empleats públics en tant que exerceixen funcions i presten serveis de caràcter públic.
 
-##### Dret a la inamobilitat en la condició de funcionari de carrera (Art. 14.a TREBEP)
+##### A) Dret a la inamobilitat en la condició de funcionari de carrera (Art. 14.a TREBEP)
 
 La inamobilitat en la condició de funcionari de carrera es pot definir com el **dret a romandre en les funcions i càrrecs públics sense patir pertorbacions il·legítimes** o, dit d'una manera molt més senzilla, dret a mantenir la feina per sempre, a no perdre la condició de funcionari (no poder ser cessat) si no és per alguna causa legítima legalment establerta. Aquest dret protegeix el funcionari davant qualsevol pretensió arbitrària del poder públic de remoure'l o canviar-lo de lloc de treball sense que existeixi causa objectiva. Aquest **és un dret clarament lligat a la garantia d'imparcialitat en l'exercici de les funcions públiques a que fa referència l'Art. 103.3 CE**, en el sentit que és precisament aquesta seguretat respecte al manteniment del lloc de treball el que fa possible que el funcionari no es doblegui davant cap pressió del poder polític que intenti pertorbar la seva imparcialitat o el correcte desenvolupament de les seves funcions.
 
@@ -727,7 +727,7 @@ Aquest dret a la inamobilitat **no és pas un dret absolut** ja que, efectivamen
 > Dit d'una altra manera, l'estudiant (que es suposa que deu ser opositor) sap quant costa accedir a la funció pública i l'enorme preparació que s'exigeix (per la gran quantitat de continguts i l'afluència de competidors). Això acaba redundant en la selecció de personal amb un "alt grau d'excel·lència". I també, millor que ningú altre, sap que si es fa aquest sacrifici és, principalment, perquè la recompensa és tenir una feina amb determinades condicions avantatjoses, una de les quals és que se suposa que és "la feina més segura del món". Doncs bé, si no existís aquesta inamobilitat, si la feina no fos tan segura, és probable que aquest grau d'excel·lència tampoc s'assolís
 .
 
-##### Dret a l'acompliment efectiu de les funcions o tasques pròpies de la seva condició professional i d'acord amb la progressió assolida en la seva carrera professional (Art. 14.b TREBEP)
+##### B) Dret a l'acompliment efectiu de les funcions o tasques pròpies de la seva condició professional i d'acord amb la progressió assolida en la seva carrera professional (Art. 14.b TREBEP)
 
 A diferència de la inamobilitat, **aquest dret afecta a la totalitat dels empleats públics**, tot i que la delimitació concreta del seu contingut estarà clarament condicionada per l'estatus i el règim jurídic aplicable a cadascun dels col·lectius que formen el conjunt dels empleats públics.
 
@@ -743,15 +743,15 @@ Altrament, aquest dret té un segon contingut (recollit en les paraules "acompli
 > Quan diem que els funcionari té dret a que li atribueixin funcions i tasques inherents a la seva professió, ho fem sota l'entesa de que ens referim a la professió aconseguida dins l'Administració. És a dir, si un llicenciat en dret (jurista) entra a l'Administració com a Auxiliar Administratiu, no té pas dret a que li assignin un lloc de treball de Tècnic Superior en Dret (ni les tasques pròpies d'aquest lloc) només pel fet de tenir la titulació
 .
 
-##### Dret a la progressió en la carrera professional i promoció interna segons principis constitucionals d'igualtat, mèrit i capacitat mitjançant la implantació de sistemes objectius i transparents d'avaluació (Art. 14.c TREBEP)
+##### C) Dret a la progressió en la carrera professional i promoció interna segons principis constitucionals d'igualtat, mèrit i capacitat mitjançant la implantació de sistemes objectius i transparents d'avaluació (Art. 14.c TREBEP)
 
 Aquest dret es tradueix en un **conjunt d'oportunitats d'ascens i de canvi voluntari de destí, conforme a les modalitats previstes per la Llei**. **Aquest dret afecta només els funcionaris de carrera i el personal laboral fix.**
 
-##### Dret a participar en la consecució dels objectius atribuïts a la unitat on presti els seus serveis i a ser informat pels seus superiors de les tasques a desenvolupar (Art. 14.e TREBEP)
+##### D) Dret a participar en la consecució dels objectius atribuïts a la unitat on presti els seus serveis i a ser informat pels seus superiors de les tasques a desenvolupar (Art. 14.e TREBEP)
 
 Aquest dret és, simultàniament, una necessitat funcional de l'organització.
 
-##### Dret a la defensa jurídica i protecció de l'Administració Pública en els procediments que se segueixin davant qualsevol ordre jurisdiccional com a conseqüència de l'exercici legítim de les funcions o càrrecs públics (Art. 14.f TREBEP)
+##### E) Dret a la defensa jurídica i protecció de l'Administració Pública en els procediments que se segueixin davant qualsevol ordre jurisdiccional com a conseqüència de l'exercici legítim de les funcions o càrrecs públics (Art. 14.f TREBEP)
 
 Aquest dret comporta la defensa jurídica dels empleats públics per part dels serveis especialitzats de la seva Administració, o a costa d'aquesta, però sempre que l'afectat s'enfronti a un procediment judicial que tingui per objecte actuacions realitzades en exercici de les seves funcions públiques i quan aquest exercici hagi estat legítim (dins el marc de les seves atribucions i de les ordres i instruccions rebudes i sense incórrer en infracció, almenys manifesta, de l'ordenament jurídic). L'Estat brinda també protecció penal al funcionari o empleat públic davant els atemptats contra la seva autoritat.
 
@@ -759,13 +759,13 @@ Aquest dret comporta la defensa jurídica dels empleats públics per part dels s
 > Per últim també existeixen els drets honorífics del funcionari que es distingeixi en el compliment dels seus deures, això és, mencions honorífiques, premis en metàl·lic, condecoracions i honors. No estan recollits al TREBEP ja que no són pròpiament drets subjectius en sentit estricte (el seu atorgament es fa amb caràcter graciable, lliurement, sense subjecció a preceptes o normes)
 .
 
-#### DRETS LABORALS
+#### B) DRETS LABORALS
 
-##### Dret a la intimitat, orientació sexual, pròpia imatge i dignitat en el treball, especialment enfront l'assetjament sexual i per raó de sexe, moral i laboral (Art. 14.h TREBEP)
+##### A) Dret a la intimitat, orientació sexual, pròpia imatge i dignitat en el treball, especialment enfront l'assetjament sexual i per raó de sexe, moral i laboral (Art. 14.h TREBEP)
 
 En relació amb la intimitat, l'Art. 13.5 L30/84 prohibeix que en la documentació individual del personal de les Administracions Públiques figurin dades sobre la seva raça, religió o opinió. Pel que fa a la dignitat, aquest dret exclou tot tipus de vexacions o abusos per part dels superiors, companys o subordinats. Les conductes més greus d'aquesta naturalesa són les que el TREBEP defineix com assetjament (sexual o per raó de sexe, moral o laboral). Aquestes conductes estan tipificades com a faltes disciplinàries molt greus pel TREBEP (Art. 95.2.b i o TREBEP). Altrament, l'Art. 62 LO3/2007, de 22 de març, per a la igualtat efectiva entre dones i homes estableix que les Administracions Públiques han d'establir un protocol d'actuació davant l'assetjament sexual i per raó de sexe.
 
-##### Vacances, descansos, permisos i llicències (Art. 14.m TREBEP)
+##### B) Vacances, descansos, permisos i llicències (Art. 14.m TREBEP)
 
 Molts dels permisos i llicències tenen a veure amb la conciliació de la vida personal, familiar i laboral, també recollit com a dret a l'Art. 14.j TREBEP. El seu desenvolupament es troba recollit al Capítol V del Tít. III TREBEP (Art. 47 a 51), els preceptes del qual també seran aplicables al personal laboral, a part del que s'estableixi en la legislació laboral corresponent (Art. 51 TREBEP). De fet, aquest Art. 51 TREBEP estableix que **per al règim de jornada de treball, permisos i vacances del personal laboral, s'estarà a allò establert als Art. 47 a 50 TREBEP, i a la legislació laboral corresponent** (però recordem allò ja exposat sobre l'Art. 7 TREBEP, que diu que en matèria de permisos per naixement, adopció, permís del progenitor diferent a la mare biològica i lactància, el personal laboral al servei de les Administracions públiques es regirà per allò previst al TREBEP, i no se'ls aplicarà, per tant, les previsions del text refós de la Llei de l'Estatut dels Treballadors sobre les suspensions dels contractes de treball que, en el seu cas, correspondrien pels mateixos supòsits de fet).
 
@@ -915,7 +915,7 @@ Ara hem de fer una repassada a altres permisos i llicències no recollits explí
 .
 - **Reducció de jornada per discapacitat legalment reconeguda,** regulat a l'Art. 25 L08/2006, segons el qual les persones amb una discapacitat legalment reconeguda que per aquest motiu hagin de rebre tractament en centres públics o privats, tenen dret a una reducció de jornada de treball equivalent al temps que han de dedicar a aquest tractament, sense perdre les seves retribucions íntegres. Cal justificar mèdicament la necessitat del tractament, la periodicitat o durada aproximada i la necessitat de que es dugui a terme en horari laboral.
 
-##### Altres drets laborals
+##### C) Altres drets laborals
 
 Ara farem esment una mica a la resta de drets recollits a l'Art. 14 TREBEP i dels que encara no hem parlat, a excepció dels drets de caire econòmic i drets fonamentals, als quals es dedicaran sengles epígrafs específics:
 
@@ -927,9 +927,9 @@ Ara farem esment una mica a la resta de drets recollits a l'Art. 14 TREBEP i del
 
 També cal fer referència als drets d'assistència social i previsió social complementària i drets anàlegs, els quals, si bé no es troben directament recollits a l'Art. 14 TREBEP, sí es troben esmentats a l'Art. 37 i que seran objecte de negociació amb sindicats, mitjançant programes i fons d'acció social (ajuts per guarderies, beques d'estudi, transports, menjadors, etc.).
 
-#### DRETS ECONÒMICS. EL SISTEMA RETRIBUTIU DELS FUNCIONARIS PÚBLICS
+#### C) DRETS ECONÒMICS. EL SISTEMA RETRIBUTIU DELS FUNCIONARIS PÚBLICS
 
-##### Línies mestres del sistema i funció de les Lleis de Pressupostos Generals de l'Estat
+##### A) Línies mestres del sistema i funció de les Lleis de Pressupostos Generals de l'Estat
 
 Les retribucions dels funcionaris es basen en els principis de justícia, adequació a la feina feta i dignitat. El problema rau en determinar què s'entén per un salari just, adient i digne. No és pas fàcil objectivar aquests criteris en normes de caràcter general.
 
@@ -961,7 +961,7 @@ Els conceptes retributius dels funcionaris es troben regulats als Art. 22 a 24 T
 > Un trist exemple del que no s'ha de fer és el cas de l'Antonio David Flores, exparella de la Rocío Carrasco (filla de la difunta Rocío Jurado, la más grande, de Chipiona). Quan era Guàrdia Civil, abans de ser el que sigui que és ara, es va embutxacar les 50.000 pessetes d'una multa. Òbviament això no s'ha de fer.
 .
 
-##### Retribucions bàsiques
+##### B) Retribucions bàsiques
 
 El primer concepte salarial pertanyent al conjunt de retribucions bàsiques és **el sou** (Art. 23.a TREBEP). Es tracta d'una quantitat homogènia per a cada grup o subgrup de classificació professional dels que ja coneixem (A1, A2, B, C1 i C2). **La quantia del sou assignat als funcionaris de cada grup o subgrup es fixat per la Llei de Pressupostos Generals de l'Estat** per a cada any i per a totes les Administracions Públiques (Art. 21.1 TREBEP).
 
@@ -971,7 +971,7 @@ Per últim, el darrer concepte retributiu pertanyent al grup de les retribucions
 
 Per últim cal esmentar, com a cosa important, que segons el TREBEP, les pagues extraordinàries no formarien part de les retribucions bàsiques (només contempla com a tals el sou i els triennis) ni de les complementàries, sinó que serien una tercera categoria (Art. 22.2 TREBEP). Malgrat això, tota la doctrina jurídica les inclou en les retribucions bàsiques i així ho hem d'aprendre. Però cal estar alerta no fos cas que ens trobéssim amb una pregunta test que es referís al concepte de retribucions bàsiques segons els que posa concretament a l'Art. 22.2 TREBEP. Sí es considera retribució bàsica a l'Art. 23.2 LMRFP.
 
-##### _Retribucions complementàries_
+##### C) _Retribucions complementàries_
 
 Les retribucions complementàries presenten un nivell de variabilitat entre les diferents Administracions Públiques del que no gaudeixen les retribucions complementàries**. El TREBEP es limita a establir els factors o finalitats a que poden respondre els complements que regulin les Administracions Públiques**. Pel que fa al límit pressupostari de les mateixes, **el TREBEP no imposa que l'increment d'aquests conceptes salarials sigui el mateix per a cada funcionari i en totes les Administracions Públiques, sinó que en còmput global, l'increment es reflecteixi en la corresponent Llei de Pressupostos i que no superi els límits globals que es fixen anualment en la Llei de Pressupostos Generals de l'Estat a l'increment de la massa salarial de les Administracions Públiques**.
 
@@ -1009,7 +1009,7 @@ Però cal tenir present que **els funcionaris tenen dret a percebre, com a míni
 
 **Les Administracions Públiques no podran crear retribucions complementàries que no estiguin previstes per les lleis aplicables a cadascuna d'elles. Això no exclou que els funcionaris puguin rebre certes prestacions de contingut econòmic per altres conceptes, com puguin ser mesures d'assistència social per a determinats fins o contingències, o prestacions socials que puguin ser objecte de negociació col·lectiva**, conforme a l'Art. 37.1.g TREBEP (ajuts familiars, fons d'acció social, etc.).
 
-##### Indemnitzacions per raó de servei
+##### D) Indemnitzacions per raó de servei
 
 Aquestes es troben recollides a l'Art. 28 TREBEP i a l'Art. 23.4 LMRFP. Consisteix en el fet que els funcionaris percebin les indemnitzacions corresponents per raó de servei. Retribueixen les despeses i disminucions patrimonials que el funcionari pateix o abona per raó d'algun servei (o en ocasions, la realització d'activitats extraordinàries o complementàries de les tasques habituals).
 
@@ -1020,7 +1020,7 @@ Aquestes indemnitzacions es troben regulades al Reial Decret 462/2002, que afect
 - **Trasllats de residencia:** es tracta del trasllat forçós del funcionari i, en el seu cas, la seva família, per canvi de destí, tant a Espanya com a l'estranger, sempre que no sigui per motiu de sanció. El funcionari té dret a l'abonament de les despeses del viatge, inclosos els de la seva família, i a les despeses de transport de mobiliari i resta d'estris.
 - **Assistències:** aquest concepte remunera la concurrència del funcionari a determinats òrgans col·legiats de l'Administració i als consells d'administració d'empreses públiques. També remunera la participació en tribunals d'oposició i concursos, amb una quantitat fixa per dia. Per últim, també remunera la col·laboració no permanent ni habitual en instituts o escoles de formació i perfeccionament del personal al servei de l'Administració (conferències, cursos, congressos, seminaris, etc.). El total d'aquestes col·laboracions no pot superar les 75 hores a l'any, ni el seu import global el 25% de les retribucions del lloc principal.
 
-##### Retribucions diferides
+##### E) Retribucions diferides
 
 Es troben recollides a l'Art. 29 TREBEP. S'entenen com a tals, les quantitats que les Administracions Públiques destinen a finançar aportacions a plans de pensions de treball o contractes d'assegurances de col·lectives que incloguin la contingència de jubilació, en benefici del seu personal, conforme a la legislació de plans de pensions. No s'inclouen en aquesta categoria les quantitats aportades per les Administracions Públiques per a primes d'assegurança de vida o accident del seu personal (que són mesures d'acció social).
 
@@ -1028,7 +1028,7 @@ Aquestes quantitats tenen el límit del percentatge de massa salarial que es fix
 
 Actualment aquest tipus d'aportacions estan suspeses en la majoria d'Administracions, per tal de contenir el dèficit (l'Ajuntament de Barcelona les ha reprès a partir de l'any 2018). El que sí es contempla es que siguin els propis empleats els qui facin aportacions periòdiques al pla de pensions mitjançant el descompte directe de l'import en la nòmina. Però això no són retribucions diferides ja que són els propis empleats els que fan les aportacions de la seva butxaca (cobrant-ho de menys).
 
-##### Retribucions dels funcionaris interins
+##### F) Retribucions dels funcionaris interins
 
 Segons l'Art. 25.1 TREBEP, **els funcionaris interins perceben les retribucions bàsiques i les pagues extraordinàries corresponents al grup o subgrup de classificació professional al que estiguin adscrits, més les retribucions complementàries vinculades a les característiques del lloc de treball que desenvolupin, més els complements derivats de la productivitat i gratificacions per serveis extraordinaris que els hi corresponguin**.
 
@@ -1040,19 +1040,19 @@ L'Art. 25.2 TREBEP reconeix als **interins el dret a percebre els triennis pels 
 - Als interins se'ls hi fa una petita retenció per cotització a l'atur (1,55% sobre la base de cotització de contingències comunes per als interins d'estructura i els de substitució; 1,60% per als de punta de feina i programa). Els funcionaris de carrera no cotitzen per l'atur.
 - Abans de l'entrada en vigor de l'EBEP, els interins no cobraven triennis. A partir de l'entrada en vigor de l'EBEP van començar a cobrar-los, tot tenint en compte tota la seva antiguitat (l'anterior a l'EBEP també).
 
-##### Retribucions dels funcionaris en pràctiques i altres
+##### G) Retribucions dels funcionaris en pràctiques i altres
 
 L'Art. 26 TREBEP estableix que els funcionaris en pràctiques percebran les retribucions que fixin les Administracions Públiques competents i que, com a mínim, equivaldran al sou del grup o subgrup que els hi correspongui.
 
 La regulació catalana (Art. 104 bis DLeg 1/97) és força més generosa que la del TREBEP. Apart del sou inclou també les pagues extraordinàries. A més, especifica que en cas que les pràctiques consisteixin en desenvolupar un lloc de treball, els funcionaris en pràctiques hauran de percebre, a més, les retribucions complementàries corresponents al lloc. En cas que el funcionari en pràctiques tingués un vincle previ com a funcionari de carrera o interí, personal laboral fix o temporal amb la mateixa Administració a la que pertany el cos o escala a que aspira ingressar, podrà optar per rebre les retribucions que li corresponguin com a funcionari en pràctiques o bé percebre les retribucions del lloc que ocupava. En qualsevol dels dos casos haurà de seguir percebent l'antiguitat que se li tingui reconeguda.
 
-##### Deduccions de retribucions
+##### H) Deduccions de retribucions
 
 L'Art. 30 TREBEP estableix que, sens perjudici de la sanció disciplinària que pugui correspondre, la part de la jornada no treballada donarà lloc a la deducció proporcional d'havers, que no tindrà caràcter sancionador.
 
 També s'aplica la mateixa regla de deducció d'havers, sense caràcter sancionador, al temps que l'empleat dediqui a l'exercici del seu dret de vaga. El dret a vaga no afectarà a les prestacions socials dels empleats públics.
 
-#### LA SEGURETAT SOCIAL DELS FUNCIONARIS
+#### D) LA SEGURETAT SOCIAL DELS FUNCIONARIS
 
 Un altre dels drets dels empleats públics, reconegut a l'Art. 14.o TREBEP és **el drets a les prestacions de la Seguretat Social corresponents al règim que els hi sigui d'aplicació**. El TREBEP, però, no regula pas aquest règim.
 
@@ -1063,19 +1063,19 @@ Segons l'Art. 2 de la Llei de la Seguretat Social dels Funcionaris Civils de l'E
 - Règim de classes passives de l'Estat.
 - Mutualisme administratiu.
 
-##### Règim de classes passives de l'Estat
+##### A) Règim de classes passives de l'Estat
 
 Aquest règim cobreix la protecció davant els riscos de la vellesa, incapacitat, mort i supervivència als funcionaris que els hi és d'aplicació. Són únicament pensions de caràcter econòmic i periòdic. Poden ser ordinàries, extraordinàries i excepcionals. Són pensions de jubilació o retir, viduïtat, orfandat, i en favor de pares per mort del causant. El finançament d'aquest règim és de tipus pressupostari tot i que el causant contribueix durant la seva vida activa mitjançant una quota de drets passius retinguda mensualment a la nòmina. La quantia de les pensions es fixa en aplicació d'uns barems (fixats anualment a la Llei de Pressupostos Generals de l'Estat) que tenen en compte aspectes com el grup de titulació, els anys de servei prestats, etc.
 
 Aquest règim es basa en un seguit de principis, a saber, legalitat, inembargabilitat, irrenunciabilitat, inalienabilitat, imprescribilitat, pregament, no duplicitat de cobertura i igualtat de sexes dels causants i familiars.
 
-##### Mutualisme administratiu
+##### B) Mutualisme administratiu
 
 Aquest règim es gestiona per les 3 mutualitats obligatòries existents, MUFACE, ISFAS i MUGEJU. Són organismes públics autònoms, dependents del Ministeri competent en matèria d'Administracions Públiques. Aquestes mutualitats són d'incorporació forçosa per a tots els funcionaris de l'AGE en actiu i en altres situacions administratives assimilables. Els mutualistes abonen una quota mensualment retinguda de la nòmina i l'Estat fa també una aportació (els percentatge es fixa a la Llei de Pressupostos Generals de l'Estat).
 
 Aquest règim protegeix de les contingències de necessitat d'assistència mèdica, incapacitat temporal o permanent i càrregues familiars.
 
-#### DRETS FONAMENTALS
+#### E) DRETS FONAMENTALS
 
 Els empleats públics són, davant de tot, ciutadans. Per això estan dotats d'un status comú de ciutadà, el qual comporta un seguit de drets fonamentals i llibertats públiques reconegudes a la CE. Això, que sembla molt obvi, no sempre ha estat així, però ara no ens enrotllarem amb l'evolució històrica de les limitacions de llibertats dels funcionaris fins a arribar a com estem ara.
 
@@ -1085,7 +1085,7 @@ Els empleats públics són, davant de tot, ciutadans. Per això estan dotats d'u
 
 **Algunes restriccions estan directament recollides a la CE, en canvi d'altres es troben especificades en lleis i reglaments**, i resulten admissibles sempre que responguin a finalitats constitucionalment legítimes i guardin una adequada i raonable relació i proporció amb les finalitats que pretenen protegir. **Aquestes limitacions sempre s'hauran d'interpretar restrictivament, de la manera més favorable a l'exercici dels drets i llibertats fonamentals.**
 
-##### Llibertat d'expressió
+##### A) Llibertat d'expressió
 
 Els drets de l'Art. 20 CE estan sotmesos a algunes limitacions específiques en l'àmbit del treball públic (a banda de les limitacions que imposa per a tothom el propi Art. 20 CE).
 
@@ -1099,7 +1099,7 @@ La interpretació dels límits al dret a la llibertat d'expressió és una mica 
 
 Pel que fa a **les manifestacions de crítica política, aquestes, en principi, no haurien de patir restriccions específiques en l'àmbit del treball públic**. Només són apreciables en l'àmbit militar.
 
-##### Llibertat de reunió i associació polítiques
+##### B) Llibertat de reunió i associació polítiques
 
 **La regla general és que els empleats públics no tenen limitacions en l'exercici d'aquests drets fonamentals, més enllà dels que afecten a la totalitat de la ciutadania. Ara bé, l'ordenament jurídic imposa excepcions o restriccions per a col·lectius de funcionaris que tenen una especial càrrega d'imparcialitat o independència política associada a la realització de les tasques que tenen atribuïdes.**
 
@@ -1107,11 +1107,11 @@ El dret a associació política o pertinença a partits polítics està exclòs 
 
 Pel que fa al dret de reunió i manifestació, aquests drets també tenen certa limitació per als militars i per als guàrdies civils (no poden organitzar ni assistir a les que tinguin caràcter polític o sindical, ni anar a aquestes o a qualsevol altra en llocs de trànsit públic vestint l'uniforme ni fent ús de la seva condició de militar; la resta hauran de ser autoritzades).
 
-##### Dret de sufragi passiu
+##### C) Dret de sufragi passiu
 
 **Aquest dret també està exclòs per a alguns funcionaris amb la finalitat de garantir la seva imparcialitat i evitar possibles interferències espúries en els processos electorals. L'Art. 6 LOREG té un llarg recull de tots els funcionaris que no són elegibles en eleccions**. En cas que un d'aquests funcionaris vulgui ser candidat a unes eleccions, haurà de passar prèviament a alguna de les situacions administratives corresponents (excedència voluntària o serveis especials). Un cop finalitzat el mandat, o en cas que no resultin escollits, podran reingressar al servei actiu.
 
-##### Dret a la lliure associació professional
+##### D) Dret a la lliure associació professional
 
 Aquest és un dret recollit a l'Art. 14.p TREBEP i **és diferent al dret d'associació sindical. Els empleats públics poden crear associacions professionals que no siguin sindicats, per a defensar els seus interessos** (però no tindran la legitimitat de negociar amb l'Administració ni el grau de protecció que la llei confereix als sindicats). Aquestes associacions professionals es regulen per la LO 1/2002, de 22 de març, del Dret d'Associació.
 
@@ -1119,13 +1119,13 @@ Aquest és un dret recollit a l'Art. 14.p TREBEP i **és diferent al dret d'asso
 
 **Aquest dret també té una vessant negativa, la llibertat de no associar-se. És inconstitucional l'obligació dels funcionaris i empleats públics de formar part d'un col·legi professional**.
 
-##### Dret de petició col·lectiva
+##### E) Dret de petició col·lectiva
 
 La CE prohibeix aquest dret als membres de les Forces o Instituts Armats o dels Cossos sotmesos a disciplina militar (Art. 29.2 CE). També es fa extensiva la prohibició als membres de la Guàrdia Civil, com a Institut armat de naturalesa militar.
 
-### Drets d'exercici col·lectiu
+### 14.3.2.2 Drets d'exercici col·lectiu
 
-#### EL RECONEIXEMENT DELS DRETS SINDICALS EN L'ÀMBIT DE LA FUNCIÓ PÚBLICA
+#### A) EL RECONEIXEMENT DELS DRETS SINDICALS EN L'ÀMBIT DE LA FUNCIÓ PÚBLICA
 
 **La CE reconeix amb caràcter general els dret de lliure sindicació, del que només n'exclou als membres de les Forces o Instituts armats i demés Cossos sotmesos a disciplina militar (Art. 28.1 CE) i als jutges, magistrats i fiscals en actiu (Art. 127.1 CE). També permet establir per llei peculiaritats del seu exercici per a funcionaris públics (Art. 28.1 CE). Reconeix igualment el dret de vaga per als treballadors, amb el límit de les garanties de manteniment dels serveis essencials de la comunitat (Art. 28.2 CE). I garanteix el dret a la negociació col·lectiva laboral entre els representants dels treballadors i els empresaris (Art. 37.1 CE).**
 
@@ -1137,9 +1137,9 @@ La transposició d'aquests i altres drets en el TREBEP està plasmada al seu Art
 - Al plantejament de conflictes col·lectius de treball, d'acord amb la legislació aplicable en cada cas.
 - A la reunió, en els termes establerts en l'Art. 46 del propi TREBEP (que ja veurem).
 
-#### LA LLIBERTAT SINDICAL
+#### B) LA LLIBERTAT SINDICAL
 
-##### El dret de sindicació
+##### A) El dret de sindicació
 
 **El dret de llibertat sindical recollit a l'Art. 28.1 CE comprèn els dret a fundar sindicats i afiliar-se al de la seva elecció, així com el dret dels sindicats a formar confederacions i a fundar organitzacions sindicals internacionals o afiliar-se a les mateixes. També comprèn el dret a no afiliar-se a cap sindicat, al que mai ningú no pot ser obligat, ni directament ni indirecta.**
 
@@ -1147,7 +1147,7 @@ La transposició d'aquests i altres drets en el TREBEP està plasmada al seu Art
 
 **La LOLS també preveu peculiaritats de l'exercici del dret de sindicació per a membres dels Cossos i Forces de Seguretat que no tinguin caràcter militar, remetent-se a la seva legislació específica**. Per exemple, els policies nacionals només poden afiliar-se a sindicats integrats únicament per membres d'aquest cos.
 
-##### L'activitat sindical i el dret de reunió
+##### B) L'activitat sindical i el dret de reunió
 
 **La LOLS reconeix als treballadors afiliats a un sindicat el dret a constituir seccions sindicals a la seva empresa o lloc de treball, a celebrar reunions, recaptar quotes i distribuir informació sindical fora de les hores de treball i sense pertorbar l'activitat normal de l'empresa i a rebre la informació que els hi remeti el sindicat.**
 
@@ -1155,7 +1155,7 @@ Una de les limitacions que preveu la llei és que **tot això no es podrà fer a
 
 El dret de reunió sindical està regulat a l'Art. 46 TREBEP. Segons aquest precepte poden convocar reunions sindicals les organitzacions sindicals directament, o mitjançant els delegats sindicals, delegats de personal, juntes de personal, comitès d'empresa o un nombre d'empleats públics no inferior al 40% del col·lectiu convocat. Aquestes reunions en el centre de treball s'autoritzaran fora d'hores de treball, tret d'acord entre l'òrgan competent en matèria de personal i els qui estiguin legitimats per a convocar-la (en qualsevol cas la reunió no podrà perjudicar la prestació dels serveis i els convocants en seran responsables del normal desenvolupament).
 
-##### Representació del personal
+##### C) Representació del personal
 
 La LOLS també estableix que l'activitat sindical de les organitzacions comprèn, entre d'altres, el **dret a presentar candidatures per a l'elecció dels comitès d'empresa, delegats de personal i altres òrgans corresponents a les Administracions Públiques**.
 
@@ -1178,11 +1178,11 @@ Aquests òrgans poden emprendre procediments administratius i accions administra
 
 **Aquests membres també tenen dret a no ser discriminats en la seva promoció econòmica o professional per raó del desenvolupament de la seva representació. Pel que fa als seus deures, han d'observar sigil professional en els assumptes que l'Administració senyali expressament com de caràcter reservat, fins i tot després d'expirar el seu mandat, i a no emprar cap document reservat entregat per l'Administració fora de l'àmbit estricte d'aquesta o per a fins diferents dels que van motivar l'entrega.**
 
-##### Dret de participació institucional
+##### D) Dret de participació institucional
 
 L'Art. 31 TREBEP reconeix aquest **dret com a aquell a participar, a través d'organitzacions sindicals, en els òrgans de control i seguiment de les entitats o organismes que legalment es determinin.** A través d'aquest dret els sindicats s'integren en l'organització administrativa en virtut de criteris generals de representació d'interessos. Son altres normes, que no pas el TREBEP, les que hauran de determinar els òrgans de participació en que tindran el seu lloc els membres designats pels sindicats.
 
-#### DRET DE VAGA
+#### C) DRET DE VAGA
 
 El dret a la vaga es troba recollit a l'Art. 15.c TREBEP i en uns altres pocs preceptes de la mateixa norma, que fan referència a les conseqüències econòmiques del seu exercici i d'altres aspectes accessoris.
 
@@ -1200,7 +1200,7 @@ Pel que fa al tema dels **serveis mínims**, la seva definició és complicada. 
 
 **Econòmicament, l'exercici del dret de vaga implica la corresponent deducció d'havers**, que afectarà tant a les retribucions bàsiques com a les complementàries i, fins i tot, a les indirectes resultants de la paga extraordinària (però no a les vacances anuals i festes laborals). El càlcul es fa dividint el total de retribucions anuals pel nombre total d'hores de treball que el funcionari estava obligat a prestar, afegint a aquest divisor les hores corresponents al període anual de vacances i festes laborables.
 
-#### CONFLICTES COL·LECTIUS DE TREBALL I SOLUCIÓ EXTRAJUDICIAL
+#### D) CONFLICTES COL·LECTIUS DE TREBALL I SOLUCIÓ EXTRAJUDICIAL
 
 El dret a plantejar conflictes col·lectius és diferent al dret de vaga. Per als treballadors públics es troba recollit a l'Art. 15.d TREBEP, remetent-se a la legislació aplicable en cada cas (funcionaris o laborals).
 
@@ -1212,7 +1212,7 @@ L'Art. 45 TREBEP planteja la possibilitat d'un sistema de solució extrajudicial
 
 Aquests procediments de mediació i arbitratge hauran de ser regulats reglamentàriament, previ acord amb les organitzacions sindicals representatives.
 
-#### DRET DE PARTICIPACIÓ EN LA DETERMINACIÓ DE LES CONDICIONS DE TREBALL
+#### E) DRET DE PARTICIPACIÓ EN LA DETERMINACIÓ DE LES CONDICIONS DE TREBALL
 
 **La participació significa reconèixer la capacitat dels interessats, per sí mateixos o per mitjà dels seus representants, d'influir en la decisió administrativa, a través d'algun canal establert en la fase d'elaboració de la decisió (que en relació amb aquest dret, recau sobre la determinació de les condicions de treball).** Es manifesta a través de l'expressió d'opinions, propostes, suggeriments, consultes, informes, etc. **En l'àmbit que ara ens ocupa, aquest dret no arriba a atorgar un poder de codecisió als qui hi participen**.
 
@@ -1222,9 +1222,9 @@ Exemples d'aquest dret de participació són els Consells Superiors de la Funci�
 
 La participació en la determinació de les condicions de treball és especialment important en el cas del Cos Nacional de Policia i de la Guàrdia Civil, ja que no tenen reconegut el dret a la negociació col·lectiva.
 
-#### LA NEGOCIACIÓ COL·LECTIVA DELS FUNCIONARIS
+#### F) LA NEGOCIACIÓ COL·LECTIVA DELS FUNCIONARIS
 
-##### Configuració legal i consolidació del dret a la negociació col·lectiva
+##### A) Configuració legal i consolidació del dret a la negociació col·lectiva
 
 **La negociació col·lectiva es pot definir com l'autoregulació de les condicions de treball per acord de les parts, adoptat en virtut de la seva autonomia col·lectiva i formalitzat en un conveni col·lectiu.** Aquest dret no està plasmat de manera expressa per als funcionaris en l'Art. 37 CE. La doctrina jurídica i la jurisprudència entenen que el dret de negociació col·lectiva en la funció pública és un dret de configuració legal (i no pas sobreentès per extensió respecte la regulació que se'n fa per a les relacions laborals en l'àmbit de les empreses privades), recollit concretament a l'Art. 31.1 TREBEP.
 
@@ -1234,7 +1234,7 @@ Segons l'Art. 31.5 TREBEP, el dret de negociació col·lectiva, a l'igual que la
 
 **Per últim també cal saber que determinats grups de funcionaris públics (militars, Policia Nacional, Guàrdia Civil, jutges, magistrats i fiscals) no tenen reconegut legalment aquest dret, que es substitueix en el seu cas per formes de participació o consulta com les que ja hem vist.**
 
-##### Significat i principis de la negociació col·lectiva dels funcionaris
+##### B) Significat i principis de la negociació col·lectiva dels funcionaris
 
 **L'Art. 31.2 TREBEP afirma que per negociació col·lectiva s'entén el dret a negociar la determinació de les condicions de treball dels empleats de l'Administració Pública.**
 
@@ -1254,7 +1254,7 @@ Pel que fa als **principis de la negociació**, l'Art. 33.1 TREBEP els enumera, 
 - **Principi de responsabilitat sindical:** la negociació col·lectiva en la funció pública correspon als sindicats més representatius en aquest àmbit, de conformitat a allò establert al TREBEP i a la LOLS (Art. 33.1 TREBEP).
 - **Principi de competència:** els pactes i acords han de ser firmats i aprovats per l'òrgan competent sobre la matèria de que siguin objecte, i no poden implicar alteració d'aquestes regles de competència (Art. 38.2 TREBEP).
 
-##### Legitimació per a negociar i composició de les meses
+##### C) Legitimació per a negociar i composició de les meses
 
 L'Art. 33.1 TREBEP estableix que **la negociació col·lectiva s'efectuarà mitjançant l'exercici de la capacitat representativa reconeguda a les organitzacions sindicals en els termes establerts a la LOLS i al propi TREBEP. Estan legitimats per a formar part de les Meses de Negociació les organitzacions més representatives a nivell estatal, de les comunitats autònomes, així com els sindicats que hagin obtingut el 10% o més dels representants en les eleccions per als delegats i juntes de personal, en les unitats electorals compreses en l'àmbit específic de cada Mesa. Excloure ni que sigui a només un sindicat que tingui dret a formar part de la Mesa implica nul·litat de l'acord i de la norma reglamentària que el ratifica, per vulneració del dret de llibertat sindical.**
 
@@ -1270,7 +1270,7 @@ També existeix la **possibilitat de que les Administracions Públiques encarreg
 
 La composició numèrica de cada Mesa ha d'establir-se per les normes de desenvolupament del TREBEP, sense que pugui superar-se el nombre de 15 membres per cada part (Art. 35.4 TREBEP).
 
-##### Estructura de la negociació
+##### D) Estructura de la negociació
 
 Segons l'Art. 34.1 TREBEP, es preveu la constitució d'una **Mesa General de Negociació** en l'àmbit de l'AGE, així com en cadascuna de les Comunitats Autònomes (i Ciutats Autònomes) i entitats locals, amb competència per a la determinació de les condicions de treball dels funcionaris de l'àmbit corresponent.
 
@@ -1278,7 +1278,7 @@ També es preveu la constitució de **Meses Sectorials**, per acord de les Gener
 
 El TREBEP també estableix una **Mesa General de Negociació de les Administracions Públiques**, amb representació de totes les Administracions (presidida per l'AGE). A nivell dels sindicats, la representació correspon a les organitzacions més representatives a nivell estatal i autonòmic. Aquesta Mesa negocia les matèries que hagin de ser objecte de regulació per norma estatal de caràcter bàsic i, específicament, l'increment global de les retribucions de tot el personal al servei de les Administracions Públiques i que correspondrà incloure en el Projecte de Llei de Pressupostos Generals de l'Estat de cada any (Art. 36 TREBEP).
 
-##### Matèries objecte de negociació
+##### E) Matèries objecte de negociació
 
 Segons l'Art. 37.1 TREBEP, han de ser objecte de negociació col·lectiva:
 
@@ -1304,7 +1304,7 @@ Per altra banda, l'Art. 37.2 TREBEP **exclou determinades matèries respecte a l
 - **Els poders de direcció i control propis de la relació jeràrquica.** És a dir, les facultats de direcció de l'Administració. Una negociació al respecte implicaria un poder de cogestió per part dels sindicats. Això inclou, entre d'altres, interpretació i aplicació del Dret Disciplinari, introducció de sistemes d'inspecció i control del compliment dels deures dels funcionaris, assignació de les concretes funcions a desenvolupar en els llocs de treball, el règim d'incompatibilitats, etc.
 - **La regulació i determinació concreta, en cada cas, dels sistemes, criteris, òrgans i procediments d'accés al treball públic i a la promoció professional.**
 
-##### Resultat de la negociació. Pactes i acords
+##### F) Resultat de la negociació. Pactes i acords
 
 Segons l'Art. 38.1 TREBEP, **el resultat positiu de la negociació es tradueix en la signatura d'un pacte o l'aprovació d'un acord** (que són diferents a un conveni col·lectiu, que afecta a l'àmbit dels laborals).
 
@@ -1333,15 +1333,15 @@ Un altre aspecte a destacar és que, a diferència de la majoria de reglaments, 
 
 Per acabar, hem de parlar del **fracàs en les negociacions. En cas de no assolir-se un acord amb els sindicats, l'Administració pot, en darrer terme (i havent esgotat les possibilitats de resolució extrajudicial de conflictes, en cas que les parts decideixin voluntàriament sotmetre-s'hi), regular unilateralment les condicions de treball dels funcionaris o elaborar els projectes de llei corresponents, tret que s'acordi mantenir o prorrogar la vigència d'una pacte o acord anterior** (Art. 38.7 TREBEP). I és que l'Administració té l'obligació de negociar sobre determinades matèries (i de fer-ho de bona fe), però no té pas l'obligació d'arribar a un acord o pacte.
 
-# DEURES DELS EMPLEATS PÚBLICS
+# 14.4 DEURES DELS EMPLEATS PÚBLICS
 
-## Els deures dels empleats públics i l'ètica del servei públic
+## 14.4.1 Els deures dels empleats públics i l'ètica del servei públic
 
 **La regulació dels deures dels empleats públics pretén protegir determinats béns jurídics** (eficàcia, jerarquia, imparcialitat, respecte als drets dels ciutadans, etc.). **El seu incompliment sol portar aparellat la possibilitat d'imposició d'una sanció.**
 
 Els deures dels empleats públics es troben recollits en els Art. 52 a 54 TREBEP, sota l'epígraf de Codi de Conducta, i que afecta a tots els empleats públics, funcionaris i laborals, incloent els treballadors de les entitats del sector públic que no estan incloses en l'àmbit d'aplicació del TREBEP. Pel que fa a la legislació catalana, aquests es troben recollits als Art. 108 i següents DLeg 1/97.
 
-### Deure de respecte a la CE i de subjecció a l'ordenament jurídic
+### 14.4.1.1 Deure de respecte a la CE i de subjecció a l'ordenament jurídic
 
 Aquest és un deure que apareix esmentat als Art. 52 i 53.1 TREBEP així com al 108.2.a DLeg 1/97 (el qual especifica també l'obediència a l'EAC). Així, **els empleats públics hauran d'actuar amb subjecció i observança de la CE i de la resta de l'ordenament jurídic** (també de l'EAC, que en forma part). **L'incompliment de la CE o dels corresponents Estatuts d'Autonomia són considerats com a falta molt greu** (Art. 95.2.a TREBEP).
 
@@ -1351,7 +1351,7 @@ Una manifestació d'aquest deure de respecte a la CE és el **deure dels empleat
 
 Pel que fa a la subjecció a la resta de l'ordenament jurídic, **els empleats públics tenen l'obligació de complir les lleis i resta de disposicions jurídiques vigents. La seva infracció també és considerada com a falta molt greu quan suposi l'adopció d'acords manifestament il·legals que causin perjudici greu a l'Administració i als ciutadans** (Art. 95.2.d TREBEP i 115.d DLeg 1/97) **i com a falta greu en la resta de casos** (Art. 116.f i j DLeg 1/97).
 
-### Deures d'imparcialitat, neutralitat i objectivitat
+### 14.4.1.2 Deures d'imparcialitat, neutralitat i objectivitat
 
 Aquests deures es troben recollits als Art. 52 i 53 TREBEP (l'Art. 52 TREBEP els esmenta com a principis d'actuació dels empleats públics) i 108.1 i 2.b DLeg 1/97.
 
@@ -1361,7 +1361,7 @@ Aquests deures es troben recollits als Art. 52 i 53 TREBEP (l'Art. 52 TREBEP els
 
 **L'empleat públic també ha de guardar-se de tota actuació que suposi afavorir il·legalment a persones, organitzacions socials o grups privats** (Art. 53.2 TREBEP, l'actuació dels empleats públics haurà de perseguir la satisfacció dels interessos generals dels ciutadans i es fonamentarà en consideracions objectives orientades cap a la imparcialitat i l'interès comú, al marge de qualsevol altre factor que expressi posicions personals, familiars, corporatives, clientelars o qualsevols altres que puguin col·lisionar amb aquest principi). **Aquest deure guarda una estreta relació amb factors com el règim d'incompatibilitats, l'abstenció i la recusació, amb tipificació com a faltes molt greus de les actuacions contràries al mateix** (Art. 95.2.j i n TREBEP; Art. 115.g i h DLeg 1/97).
 
-### El deure d'obediència
+### 14.4.1.3 El deure d'obediència
 
 Segons l'Art. 54.3 TREBEP i 108.2.b DLeg 1/97, **els empleats públics han d'obeir les instruccions i ordres professionals dels seus superiors, tret que constitueixin una infracció manifesta de l'ordenament jurídic, en qual cas les posaran immediatament en coneixement dels òrgans d'inspecció procedents.**
 
@@ -1369,7 +1369,7 @@ Segons l'Art. 54.3 TREBEP i 108.2.b DLeg 1/97, **els empleats públics han d'obe
 
 **Aquest deure també té uns límits.** Es tracta de les ordres il·legals. El nostre ordenament jurídic contempla l'eximent de responsabilitat per compliment d'un deure (com el d'obediència) i, alhora, allibera al funcionari del dret d'obediència respecte de les ordres que constitueixin una infracció manifesta de la legalitat. De fet, l'Art. 108.2.b DLeg 1/97 afegeix que en cap cas es compliran ordres que impliquin la comissió d'un delicte (l'obligació d'obediència no empara la comissió d'aquest tipus d'actes per part del funcionari). Davant la dificultat de diferenciar entre les il·legalitats manifestes i les que no ho són, l'Art. 54.3 TREBEP afegeix el deure d'informar als òrgans d'inspecció procedents en cas de dubte per part del funcionari, ja que seran ells els que assenyalaran si la possible il·legalitat eximeix del deure d'obediència.
 
-### El deure d'integritat
+### 14.4.1.4 El deure d'integritat
 
 **Aquest deure comprèn l'exigència d'evitar totes aquelles conductes actives o passives que puguin suposar un benefici il·lícit per a l'empleat públic o persones del seu entorn, en detriment del servei, dels interessos generals i dels recursos o béns de l'Administració.**
 
@@ -1385,13 +1385,13 @@ L'Art. 54.6 TREBEP recull **l'obligació de rebutjar qualsevol regal, favor o se
 
 En correspondència amb aquest deure, l'Art. 95.2.j TREBEP tipifica com a **falta molt greu la prevalença de la condició de treballador públic per a obtenir algun benefici indegut per a sí mateix o per a un tercer.**
 
-### Deures funcionals
+### 14.4.1.5 Deures funcionals
 
 **És deure de tot treballador públic complir de manera exacta i puntual les funcions del seu càrrec** (Art. 52, 53.10 i 54.2 TREBEP, que fan referència al deure de diligència en el compliment de les funcions pròpies, als principis d'eficàcia, economia i eficiència, consecució de l'interès general i objectius de l'organització, etc.; Art. 108.2.b DLeg 1/97, que fa referència al compliment eficient de les obligacions pròpies del lloc de treball).
 
 **Hi ha determinades conductes de desobediència d'aquest deure que estan tipificades com a faltes disciplinàries** (abandonament del servei, incompliment notori de les funcions essencials, incompliment dels serveis essencials en temps de vaga, tolerància per part dels superiors en la comissió de faltes molt greus o greus per part dels subordinats, falta de rendiment que afecti al normal desenvolupament del servei, pertorbació greu del servei, negligència en l'exercici de les funcions i, en general, l'incompliment del deures i obligacions del funcionari).
 
-### El deure de compliment de la jornada i horari de treball
+### 14.4.1.6 El deure de compliment de la jornada i horari de treball
 
 Els Art. 54.2 TREBEP i 108.2.g DLeg 1/97 **imposen el compliment de la jornada i horaris establerts. Aquesta és matèria objecte de negociació, de tal manera que, amb determinats límits bàsics, cada Administració ha de determinar, prèvia negociació col·lectiva, el seu propi règim de jornada i horari de treball.**
 
@@ -1399,7 +1399,7 @@ Normalment els acords de les diferents Administracions Públiques al respecte, r
 
 **L'incompliment d'aquest deure pot ser constitutiu de faltes disciplinàries greus (Art. 116.o DLeg 1/97) o lleus (Art. 117.d DLeg1/97).**
 
-### Deures de lleialtat i bona fe en les relacions amb l'Administració i els ciutadans
+### 14.4.1.7 Deures de lleialtat i bona fe en les relacions amb l'Administració i els ciutadans
 
 Es troben recollits a l'Art. 53.3 TREBEP. **L'empleat públic ha d'observar lleialtat i bona fe en la seva actuació envers l'Administració en la que presta els seus serveis així com envers els seus superiors, companys, subordinats i amb els ciutadans.**
 
@@ -1411,7 +1411,7 @@ L'Art. 54.11 TREBEP **exigeix que garanteixin l'atenció al ciutadà en la lleng
 
 En relació amb aquests deures hi ha tipificades faltes disciplinàries com ara l'abús d'autoritat (Art. 116.b DLeg 1/97), la greu desconsideració envers els superiors, companys i subordinats, causar danys greus en locals, material o documents dels serveis, atemptar contra la dignitat dels funcionaris o de l'Administració, la falta de consideració amb els administrats o la incorrecció amb el públic, superiors, companys o subordinats.
 
-### Deures de secret i discreció, i deure d'informació als ciutadans
+### 14.4.1.8 Deures de secret i discreció, i deure d'informació als ciutadans
 
 Actualment la CE i les lleis garanteixen la publicitat i l'accés a una bona part de la informació que obra en poder de l'Administració, mentre que els secrets i la falta de publicitat són l'excepció. Però de vegades les normes imposen deures de secret o reserva en l'esfera pública.
 
@@ -1425,11 +1425,11 @@ La violació del deure de secret (dolosa o negligent) constituirà falta molt gr
 
 Pel que fa al **deure dels empleats públics d'informar als ciutadans sobre aquelles matèries o assumptes que tinguin dret a conèixer**, no existeix sanció concreta per al seu incompliment, més enllà de les que castiguen en general l'incompliment dels deures del funcionari.
 
-### Altres deures
+### 14.4.1.9 Altres deures
 
 El TREBEP fa un breu esment a d'altres deures, com ara la **promoció de l'entorn cultural i mediambiental, el respecte a la igualtat entre dones i homes** (Art. 52 TREBEP), **el deure de custodiar els documents o de garantir-ne la seva constància i permanència per a la seva transmissió i entrega als seus possibles responsables** (Art. 54.7 TREBEP), **mantenir actualitzada la formació i qualificació** (Art. 54.8 TREBEP) **i observar les normes sobre seguretat i salut laboral** (Art. 54.9 TREBEP). També podem trobar obligacions complementàries més específiques en altres lleis i reglaments.
 
-### Enumeració dels deures dels empleats públics segons l'Art. 108 DLeg 1/97
+### 14.4.1.10 Enumeració dels deures dels empleats públics segons l'Art. 108 DLeg 1/97
 
 Ja hem comentat molts dels deures dels empleats públics de la normativa catalana. Tot i així, en fem ara una enumeració total, pels que puguin haver quedat sense comentar:
 
@@ -1443,9 +1443,9 @@ Ja hem comentat molts dels deures dels empleats públics de la normativa catalan
 - Complir estrictament la jornada i l'horari de treball, que reglamentàriament en determinaran, en funció de la millor atenció als administrats, dels objectius assenyalats en els serveis, i del bon funcionament d'aquests.
 - No alterar voluntàriament, per cap mitjà, les seves condicions físiques i psíquiques ni induir a altre personal a fer-ho, quan allò pugui afectar de forma considerable al funcionament regular dels serveis o a la tasca que té encomanada.
 
-# RÈGIM D'INCOMPATIBILITATS
+# 14.5 RÈGIM D'INCOMPATIBILITATS
 
-## Consideracions generals
+## 14.5.1 Consideracions generals
 
 **En principi, aquells que realitzin la seva activitat professional al servei de l'Administració** (funcionaris o laborals) només tenen el deure de complir fidel i puntualment les seves funcions, respectant la jornada i horari establert. I **no poden exercir altres activitats professionals o lucratives, ja sigui en el sector públic o privat, tret dels casos i en les condicions previstes a la llei. Aquestes limitacions conformen el règim d'incompatibilitats**.
 
@@ -1455,7 +1455,7 @@ Una altra justificació és la finalitat de que cada empleat es dediqui en exclu
 
 Una última justificació també la trobem en la voluntat de repartiment del treball i de reducció del temps de treball.
 
-## Legislació vigent i àmbit d'aplicació
+## 14.5.2 Legislació vigent i àmbit d'aplicació
 
 El règim d'incompatibilitats del personal al servei de les Administracions Públiques està regulat a la **L53/1984, de 26 de desembre, d'incompatibilitats del personal al servei de les Administracions Públiques**. Aquesta llei té caràcter bàsic, en base al repartiment competencial que fa l'Art. 149.1.18 CE respecte del règim estatutari dels empleats públics (competència compartida de regulació). Per tant, també hi ha una llei catalana que regula els aspectes no bàsics de la matèria, a saber, la **L21/1987, de 26 de novembre, d'incompatibilitats del personal al servei de l'Administració de la Generalitat de Catalunya** (però que com especifica al seu Art. 1, també s'aplica als membres de les corporacions locals).
 
@@ -1489,7 +1489,7 @@ De fet, només el personal de les Corts Generals escapa d'aquesta regulació com
 
 També és diferent el règim d'incompatibilitats dels Diputats i Senadors, Diputats del Parlament Europeu, membres de les Assemblees Legislatives de les Comunitats Autònomes i de les Corporacions Locals, regulades per la LOREG, ni dels membres del Govern i alts càrrecs de l'Administració de l'Estat o de les Comunitats Autònomes.
 
-## Principis i regles generals
+## 14.5.3 Principis i regles generals
 
 La L53/84 pretén, per una banda, que **el personal del seu àmbit d'aplicació no pugui compatibilitzar les seves activitats professionals amb el desenvolupament d'un segon lloc de treball, càrrec o activitat en el sector públic (per sí mateix o mitjançant substitució), tret de les excepcions contemplades en la pròpia llei (Art. 1.1 L 53/84). És a dir, la L53/84 es basa en el principi de dedicació a un sol lloc de treball en el sector públic.**
 
@@ -1528,7 +1528,7 @@ Els òrgans als que correspongui la direcció, inspecció o el comandament dels 
 
 Per últim, cal tenir en compte que segons els Art. 20.1 L53/84 i 23 L21/87, **l'incompliment sobre les normes d'incompatibilitats poden constituir faltes disciplinàries molt greus** (Art. 95.2.n TREBEP, incompliment de les normes d'incompatibilitats quan donin lloc a una situació d'incompatibilitat) **o faltes greus**, quan afecti a terminis o altres disposicions de procediment i no suposi el manteniment d'una situació d'incompatibilitat (Art. 116.m DLeg 1/97, l'exercici d'activitats compatibles amb el desenvolupament de les funcions sense haver obtingut la pertinent autorització). De fet, si existeix una autorització o reconeixement de compatibilitat il·legal, aquest quedarà automàticament revocat per la resolució que qualifiqui la situació de falta greu o molt greu (Art. 20.2 L53/84).
 
-## Activitats públiques
+## 14.5.4 Activitats públiques
 
 Tornem a repetir aquí la **norma general de dedicació a un únic lloc de treball al sector públic**. Tot i així hi ha un seguit d'**excepcions**:
 
@@ -1562,7 +1562,7 @@ Segons els Art. 7.2 L53/84 i 6 L21/87, **els serveis prestats al segon lloc de t
 
 Per acabar, **en cas que un empleat públic accedeixi a un nou lloc de treball en el sector públic que sigui incompatible amb el que estigués desenvolupant fins al moment, haurà d'exercir l'opció per un d'ells dins del termini de presa de possessió. A falta d'opció expressa, s'entendrà que opta pel nou lloc de treball, passant en el primer a la situació administrativa d'excedència voluntària (sempre i quan no procedeixi una altra situació administrativa diferent, com ara els serveis especials). Si el nou lloc de treball fos compatible amb l'anterior, haurà de sol·licitar la compatibilitat en els primers 10 dies de termini de presa de possessió, termini que s'entendrà prorrogat fins a que hi recaigui resolució** (Art. 10 L53/84 i 10.1 a .3 L21/87). La llei catalana afegeix que **en cas que l'òrgan a qui correspongui la resolució esmentada apreciés que les activitats o llocs de treball resultessin incompatibles, i l'interessat no hagués efectuar l'elecció entre les dues dedicacions (cosa que sembla lògica, si en va demanar la compatibilitat), aquest òrgan haurà de notificar-li aquest fet per a que abans de 15 dies efectuï l'opció que estimi convenient. Si transcorregut aquest termini no exercís aquest dret, s'entendrà que opta pel nou lloc de treball, i que respecte de l'altre, quedarà en la situació administrativa que correspongui** (excedència voluntària, serveis especials, etc.). Aquest termini de 15 dies no podrà ser ampliat tret que es tracti d'un cas de força major degudament provat, a judici de l'Administració.
 
-## Activitats privades
+## 14.5.5 Activitats privades
 
 Com ja hem comentat, el règim d'incompatibilitats de treballs públics amb altres dedicacions al sector privat té com a principal finalitat la salvaguarda de la imparcialitat dels empleats públics.
 
@@ -1591,13 +1591,13 @@ Fora d'aquestes limitacions, **les activitats privades no declarades expressamen
 
 Per últim, també cal saber que **el personal a que fan referència les lleis d'incompatibilitats no podrà invocar o fer ús de la seva condició pública per a l'exercici de l'activitat mercantil, industrial o professional** (Art. 15 L53/84 i 13 L21/87) i molt menys prevaldre's de la mateixa.
 
-## Incompatibilitat amb pensions públiques
+## 14.5.6 Incompatibilitat amb pensions públiques
 
 **El desenvolupament d'un lloc de treball en el sector públic és incompatible amb la percepció de pensió de jubilació o retir per drets passius o per qualsevol règim públic de la Seguretat Social i obligatori** (Art. 3.2 L53/84 i 15 L21/87). La percepció d'aquestes pensions quedarà en suspens pel temps que es romangui en el lloc de treball, sense que això afecti a les seves actualitzacions. Aquesta incompatibilitat es basa en el principi de solidaritat que està en la base del sistema de pensions públiques i no vulnera cap dret adquirit de l'empleat públic.
 
 **En l'àmbit laboral sí serà compatible la pensió per jubilació parcial amb un lloc de treball a temps parcial.**
 
-## Procediment
+## 14.5.7 Procediment
 
 El primer que hem de tenir present és que tota persona que desitgi exercir una altra activitat o ocupar un lloc de treball públic o privat haurà de formular prèviament la corresponent **declaració d'activitats** (Art. 16 L21/87).
 
@@ -1616,7 +1616,7 @@ Sens perjudici d'allò expressat anteriorment per a dos llocs de treball al sect
 
 **Les resolucions de reconeixement de compatibilitat o declaració d'incompatibilitat es realitzen a nivell ministerial** (Ministeris per a l'AGE, Consellers per a Catalunya), **tret dels Ens Locals, per als quals la resolució correspondrà al Ple. El termini per a la resolució és de 2 mesos** (Art. 14 L53/84 i 22 L21/87).
 
-# SITUACIONS ADMINISTRATIVES DELS FUNCIONARIS
+# 14.6 SITUACIONS ADMINISTRATIVES DELS FUNCIONARIS
 
 La relació de servei del funcionari amb l'Administració pot experimentar diverses vicissituds al llarg de la seva existència. **En ocasions, la situació normal d'ocupar el lloc corresponent** (la que, com ja veurem, es diu situació de servei actiu) **s'altera o interromp, sense extingir-se, per diverses causes**, ja sigui perquè el funcionari passa a exercir altres càrrecs i funcions públiques de naturalesa no professional o al servei d'òrgans constitucionals o Administracions distintes de la pròpia, ja sigui perquè manca transitòriament d'un lloc de treball propi, ja sigui perquè cessa temporalment en la relació de servei per pròpia voluntat o per decisió de l'Administració. **Tots aquests estats de la relació es coneixen amb el nom de situacions administratives i són objecte de regulació jurídica.**
 
@@ -1654,7 +1654,7 @@ Si observem totes dues llistes veurem que les úniques diferències són l'expec
 
 Analitzem ara una per una les diferents situacions administratives possibles.
 
-## Servei actiu
+## 14.6.1 Servei actiu
 
 **El funcionari es troba en servei actiu quan, conforme a la legislació aplicable, presta servei en la seva condició de tal en una Administració Pública o organisme o entitat en que es trobi destinat i no li correspongui quedar en una altra situació** (Art. 86.1 TREBEP). La definició que fa l'Art. 85 DLeg 1/97 és força millor, ja que és més complerta i ens dona una idea d'altres "situacions especials" que han de ser considerades també com a servei actiu. Així, l'Art. 85 DLeg 1/97 afegeix respecte el que diu el TREBEP, que **també es consideraran en servei actiu aquells funcionaris que estiguin en situació de disponibilitat (entenent-se com a tal quan un funcionari cessa en un lloc de treball i encara no ha obtingut destí en un altre lloc), de comissió de serveis i de llicències o permisos que suposin reserva del lloc de treball**. La comissió de serveis tindrà caràcter temporal i no podrà durar més de 2 anys, es donarà exclusivament per necessitats del servei i suposarà el destí a un lloc de treball diferent del que estava ocupant el funcionari i comportarà al reserva del lloc de treball que ocupava. Si aquesta comissió de servei fos de caràcter forçós i suposés canvi de localitat de destí, donarà lloc a percebre les indemnitzacions reglamentàriament establertes (Art. 85.3 DLeg 1/97).
 
@@ -1662,7 +1662,7 @@ Analitzem ara una per una les diferents situacions administratives possibles.
 
 **Els funcionaris de carrera en situació de servei actiu gaudeixen de tots els drets inherents a la seva condició de funcionaris i queden subjectes als deures i responsabilitats derivats d'aquesta** (Art. 86.2 TREBEP). Aquest Art. fa referència als funcionaris de carrera no pas perquè els funcionaris interins no tinguin drets i responsabilitats, sinó pel fet, que ja sabem, de que el catàleg de drets no serà pas el mateix que el dels funcionaris de carrera.
 
-## Serveis especials
+## 14.6.2 Serveis especials
 
 **Aquesta situació està pensada per tal de facilitar el desenvolupament temporal per part del funcionari de càrrecs d'especial responsabilitat, ja siguin càrrecs electius, de confiança política i personal o d'una altra naturalesa**. Tenen com a avantatge que **impliquen la reserva del lloc de treball o, si més no, dret a un altre lloc de treball similar i en la mateixa localitat** (Art. 87.3 TREBEP). Un altre aspecte a tenir en compte és **que el temps que el funcionari hagi estat en serveis especials computarà a efectes d'ascensos, triennis, promoció interna i drets passius (consolidació de grau personal) o Seguretat Social** (Art. 87.2 TREBEP), excepte que hagin ingressat al servei de les institucions de la Unió Europea i hagin exercit el dret de transferència a la funció pública comunitària. Durant aquest temps, **el funcionari percep les retribucions del lloc o càrrec que efectivament està desenvolupant, excepte els triennis, que els percep en relació amb el seu lloc de funcionari**. Si es tracta de funcionaris que han desenvolupat alts càrrecs o han estat membres d'òrgans constitucionals o estatutaris, inclòs el Poder Judicial, Alcaldes o Presidents de Diputacions, Cabildos o Consells Insulars, o parlamentaris estatals o autonòmics, tenen dret al seu regrés a la consolidació del grau i, com a mínim, als complements establerts per als Directors Generals o assimilats de la corresponent Administració Pública.
 
@@ -1697,7 +1697,7 @@ Quan un lloc de treball passa a estar desocupat per motiu de que el funcionari d
 >
 > Al seu torn, la Universitat Complutense de Madrid, al llarg dels 18 anys en què el senyor Rubalcaba va estar absent, evidentment va haver de posar algú a impartir les classes corresponents al lloc de treball d'aquest senyor. Les opcions que tenia eren les de posar un funcionari amb nomenament interí per substitució (és a dir, temporalment, tot i que la temporalitat, en aquest cas, fos de 18 anys) o bé l'adscripció temporal d'un funcionari de carrera en comissió de serveis. Quan veiem els sistemes de provisió de llocs de treball veurem la figura de la comissió de serveis. De manera introductòria podem dir que és el cas en què un funcionari de carrera (que té en propietat un lloc de treball) passa, de manera temporal amb un màxim de durada de 2 anys, a ocupar un altre lloc de treball que no és el seu. En el cas del senyor Rubalcaba, si la Universitat hagués optat per aquest segon camí, amb la llei a la mà haurien hagut de canviar de persona com a màxim cada 2 anys (que és la durada màxima legalment prevista per a la comissió de serveis) tot i que en la vida real ens trobem en que hi ha funcionaris que estan treballant en comissió de serveis des de fa molt més de 2 anys i no passa absolutament res (la prorroguen per nous intervals de 2 anys)
 
-## Serveis en altres Administracions
+## 14.6.3 Serveis en altres Administracions
 
 Aquesta situació serveix per a afavorir la mobilitat voluntària del funcionari entre diferents Administracions Públiques. Aquesta situació es troba regulada als Art. 88 TREBEP i 87 DLeg 1/97. La situació administrativa de serveis en altres Administracions Públiques està pensada per aquells casos en que un funcionari passa a prestar els seus serveis en una altra Administració Pública amb caràcter permanent.
 
@@ -1710,7 +1710,7 @@ Es distingeixen dos casos:
 
 Per últim, si un funcionari està en servei actiu en una Administració, però és procedent d'una altra Administració d'origen (respecte de la qual es troba en situació de serveis en una altra Administració), en el moment que passi a prestar serveis en una altra Administració, amb caràcter permanent, perdrà totalment el vincle que tenia en la darrera Administració en la que va treballar (és a dir, seguirà sent funcionari en serveis a una altra Administració respecte la seva Administració d'origen, però perdrà el vincle respecte la segona Administració en la que treballar).
 
-## Excedències
+## 14.6.4 Excedències
 
 La situació administrativa d'excedència és, per definició, una de les situacions administratives contemplades al TREBEP i a la resta de normativa legislativa autonòmica i reglamentària autonòmica. És, per tant, **una situació diferent a la de servei actiu però que, a més, presenta tot un ventall de diferents casuístiques que implicaran l'aplicació de diferents règims de drets en cadascun dels casos. El funcionari deixa de prestar servei a l'Administració durant un període més o menys llarg de la seva vida professional, però no perd la condició de funcionari, cosa que li permet el reingrés al servei actiu, amb condicions diferents per a cada cas.**
 
@@ -1731,7 +1731,7 @@ Les excedències voluntàries impliquen el cessament temporal de la relació de 
 
 A banda d'aquestes, el DLeg 1/97 regula també, en el seu Art. 90 l'**excedència forçosa**.
 
-### Excedència voluntària per interès particular
+### 14.6.4.1 Excedència voluntària per interès particular
 
 Aquesta excedència es troba regulada als Art. 89.2 TREBEP, Art. 86.2 DLeg 1/97 i Art. 29.3.c LMRFP.
 
@@ -1755,7 +1755,7 @@ Aquesta excedència dona dret a una possibilitat de reingrés mitjançant sol·l
 
 Per últim, hem de saber que les sol·licituds d'excedència voluntària per interès particular, en el cas de les corporacions locals, hauran de ser resoltes en un termini de 30 dies pel president de l'entitat. En cas de silenci administratiu a la sol·licitud, aquesta s'entendrà desestimada, excepte en el cas de sol·licitud per motiu de cura d'un fill, cas en que l'efecte el silenci serà estimatori.
 
-### Excedència voluntària per a agrupació familiar (també anomenada per al manteniment de la convivència)
+### 14.6.4.2 Excedència voluntària per a agrupació familiar (també anomenada per al manteniment de la convivència)
 
 La regulació actual d'aquest tipus d'excedència s'extreu d'una lectura conjunta dels Art. 89.3 TREBEP i Art. 6 L8/06 i Art. 29.3.d LMRFP.
 
@@ -1771,7 +1771,7 @@ Les **característiques** d'aquesta excedència són:
 - **No computa a nivell de consolidació de grau, ni de triennis, ni ascensos, ni drets passius.**
 - **No està disponible per a funcionaris interins.**
 
-### Excedència voluntària per a tenir cura d'un fill o filla
+### 14.6.4.3 Excedència voluntària per a tenir cura d'un fill o filla
 
 A l'igual que passava en el cas anterior, l'excedència per a tenir cura dels fills està extreta d'una regulació conjunta del TREBEP (Art. 89.4), de la L8/06 (Art. 4) i de la LMRFP (Art. 29.4).
 
@@ -1792,7 +1792,7 @@ Les **característiques** d'aquesta excedència són:
 
 En el cas de que un causant (nen nascut o adoptat/acollit) confereixi simultàniament dret a l'excedència per al dos pares, el TREBEP diu que l'Administració podrà limitar l'exercici simultani per raons justificades relacionades amb el funcionament dels serveis. Més concretament, l'Art. 3.3 L8/06 estableix que només es permetrà el gaudi simultani, prèvia autorització, si ho sol·liciten de manera expressa els interessats i si no afecta al funcionament dels serveis.
 
-### Excedència voluntària per a tenir cura d'un familiar
+### 14.6.4.4 Excedència voluntària per a tenir cura d'un familiar
 
 Aquesta excedència també es posiciona com un **dret de l'empleat**. Es troba regulat als Art. 89.4 TREBEP i 5 L8/06. Tampoc requerirà de cap període mínim de treball abans de poder optar per aquesta excedència.
 
@@ -1841,7 +1841,7 @@ Les seves característiques són:
 > 
 > EXEMPLE 4, parentiu entre la meva mare, la Ramona, i l'àvia per part de pare de la meva dona, la Tina: els moviments que hauria de fer són Ramona - Xavi (moviment vertical descendent); Xavi - Saray (moviment horitzontal entre cònjuges); Saray - Aurelio (moviment vertical ascendent); Aurelio - Tina (moviment vertical ascendent). En aquest cas, hauria fet un moviment horitzontal entre cònjuges en meitat de la connexió i no pas en un extrem. Per tant, ja no cal que fem més anàlisi ja que NO hi ha parentiu. Parentiu entre la Ramona i la Tina: cap, no tenen parentiu
 
-### Excedència voluntària per violència de gènere
+### 14.6.4.5 Excedència voluntària per violència de gènere
 
 Aquest tipus d'excedència es troba regulada als Art. 89.5 TREBEP i 7 L8/06. **Aquest tipus d'excedència també es planteja com un dret** i per tant no requereix de cap període mínim de prestació de serveis previs a la mateixa ni s'exigirà cap període de permanència en aquesta excedència. Es concedeix **a les dones** (les lleis no diuen res dels homes maltractats) que són víctimes de violència de gènere, pel temps que ho sol·licitin.
 
@@ -1851,13 +1851,13 @@ Les característiques d'aquesta excedència són:
 - **Dóna dret a la percepció de les retribucions íntegres durant els 2 primers mesos de l'excedència (i també, si s'escau, les ajudes o prestacions familiars per fills al càrrec).**
 - **Comporta la reserva de lloc de treball durant un període de 6 mesos (prorrogable de 3 en 3 mesos, fins a un termini de 18 mesos quan les actuacions judicials ho exigissin, per tal de garantir la protecció de la víctima). Aquest període computa a efectes de reconeixement de triennis, consolidació del grau personal i sistemes de previsió o drets passius.**
 
-### Excedència voluntària per violència terrorista
+### 14.6.4.6 Excedència voluntària per violència terrorista
 
 Aquesta excedència es troba recollida a l'Art. 89.6 TREBEP i està pensada per a aquells **funcionaris que hagin patit danys físics o psíquics com a conseqüència de l'activitat terrorista, així com els amenaçats** (segons els termes de la legislació sobre protecció a les víctimes del terrorisme). **Cal un reconeixement previ** del Ministeri de l'Interior o bé una sentència judicial ferma. **Les condicions de l'excedència són similars a les de violència de gènere contra les dones funcionàries.**
 
 Aquesta excedència **serà autoritzada i mantinguda durant el temps que resulti necessari per a la protecció i assistència social integral de la persona en favor de la qual es concedeix, ja sigui per raó de seqüeles provocades per l'acció terrorista, ja sigui per l'amenaça a la que es trobi sotmesa**, en els termes establerts reglamentàriament.
 
-### Excedència per incompatibilitat
+### 14.6.4.7 Excedència per incompatibilitat
 
 Aquesta excedència es troba regulada a l'Art. 86 DLeg 1/97. Aquesta excedència **es concedeix si els funcionaris públics es troben en situació de servei actiu en un altre cos o escala de les Administracions Públiques, o passen a prestar serveis es organismes o entitats del sector públic, sempre i quan no els hi correspongui quedar en una altra situació administrativa** (i també tret que hagin obtingut la pertinent autorització de compatibilitat d'acord amb la legislació sobre incompatibilitats).
 
@@ -1870,7 +1870,7 @@ Característiques:
 - **La durada correspon al període en el que el funcionari estigui en actiu en l'altre lloc de treball.**
 - **Un cop finalitzada la circumstància que va motivar-ne la concessió, el funcionari haurà de demanar la reincorporació en un termini d'un mes. En cas de no fer-ho, entrarà de manera automàtica en excedència voluntària per interès particular.**
 
-### Excedència voluntària incentivada
+### 14.6.4.8 Excedència voluntària incentivada
 
 Aquesta és una excedència pensada per a situacions de sobreabundància d'efectius a les Administracions Públiques. Es troba recollida als Art. 86.5 DLeg 1/97 i Art. 29.7 LMRFP.
 
@@ -1888,7 +1888,7 @@ Altres coses que hem de saber d'aquest tipus d'excedència:
 - **No podrà concedir-se al funcionari que estigui sotmès a expedient disciplinari o pendent del compliment d'una sanció.**
 - **El temps que es romangui en aquesta excedència no computarà a efectes de triennis, grau, drets passius ni implicarà reserva de plaça ni destinació.**
 
-### Excedència forçosa
+### 14.6.4.9 Excedència forçosa
 
 Aquesta situació administrativa s'aplica per a supòsits en que el funcionari queda sense lloc de treball o no hi pot reingressar per causes objectives, independents de la seva voluntat. Es tracta, per tant, d'una situació provisional, en la que els perjudicis per al funcionari han de minimitzar-se, ja que no és pas responsable d'aquesta situació.
 
@@ -1911,7 +1911,7 @@ Característiques de l'excedència forçosa:
 - **No podran desenvolupar llocs de treball en el sector públic sota cap tipus de relació funcionarial o contractual, sigui de naturalesa laboral o administrativa**. Si obtinguessin un lloc de treball en aquest sector, passaran a la situació d'excedència voluntària per incompatibilitat, a no ser que es tracti d'un lloc de treball a temps parcial i estigués tramitada la corresponent compatibilitat.
 - **Passaran a situació d'excedència voluntària per interès particular els excedents forçosos que incompleixin les obligacions assenyalades pròpies d'aquesta situació administrativa**.
 
-## Suspensió de funcions
+## 14.6.5 Suspensió de funcions
 
 El concepte de suspensió fa referència a la situació administrativa que esdevé quan un **funcionari queda privat de l'exercici de llurs funcions i de tots els drets inherents a la seva condició com a conseqüència d'un procediment sancionador, administratiu o penal, incoat en contra del funcionari**.
 
@@ -1923,7 +1923,7 @@ La suspensió pot ser **provisional o ferma.** La primera és una mesura cautela
 
 **El funcionari declarat en situació de suspensió de funcions no podrà prestar serveis en cap Administració Pública ni en els organismes públics, agències, o entitats de dret públic dependents o vinculades a elles durant el temps de compliment de la pena o sanció.**
 
-### Suspensió provisional
+### 14.6.5.1 Suspensió provisional
 
 Quan la suspensió és **provisional pot ser per motiu de la tramitació d'un procediment judicial, o bé una suspensió cautelar per motiu de l'inici d'un expedient disciplinari** (amb una durada màxima de la suspensió, en aquest darrer cas, de 6 mesos). En cas de tractar-se d'un procediment judicial penal, si l'òrgan judicial penal decreta la presó provisional d'un funcionari, o altres mesures que li impedeixin l'acompliment del seu lloc de treball, l'autoritat administrativa competent el declararà en suspensió provisional pel temps que durin aquestes mesures, i això no suposarà la pèrdua del lloc de treball encara que aquesta suspensió excedeixi els 6 mesos. En aquest darrer cas, també es podrà acordar discrecionalment per part de l'òrgan administratiu competent per als casos en que l'òrgan judicial no determini la suspensió cautelar.
 
@@ -1935,7 +1935,7 @@ Quan la suspensió és **provisional pot ser per motiu de la tramitació d'un pr
 
 Aquesta suspensió provisional discrecional haurà d'aplicar-se tenint en compte diversos principis com ara el d'interdicció de l'arbitrarietat en l'actuació administrativa i el principi de proporcionalitat. **Com tota decisió discrecional, haurà de ser motivada amb referència als fets i fonaments de dret.** Només estarà justificada quan raons concretes d'interès públic determinin o aconsellin apartar els funcionaris de les seves responsabilitats mentre es tramita el procés o expedient disciplinari.
 
-### Suspensió ferma
+### 14.6.5.2 Suspensió ferma
 
 La **suspensió ferma** s'imposarà en virtut d'una sentència dictada en causa criminal o bé en virtut d'una sanció disciplinària, ambdues fermes.
 
@@ -1949,7 +1949,7 @@ La **suspensió ferma** s'imposarà en virtut d'una sentència dictada en causa 
 
 Com ja hem esmentat quan parlàvem de l'excedència forçosa, quan un funcionari compleixi el temps de suspensió ferma imposat, i aquesta hagués implicat la pèrdua del lloc de treball, haurà de sol·licitar el reingrés al servei actiu en un termini de 30 dies. En cas que no ho faci se'l declararà en situació d'excedència voluntària per interès particular. Si havent demanat el reingrés, aquest no es produís per manca de vacant, passarà a situació d'excedència forçosa.
 
-## Expectativa de destinació
+## 14.6.6 Expectativa de destinació
 
 Aquesta situació administrativa està regulada als Art. 91 DLeg 1/97 i 29.5 i 29.6 LMRFP.
 
@@ -1971,7 +1971,7 @@ Pel que fa a les **obligacions** aparellades a la situació d'expectativa de des
 - El funcionari haurà de participar en els concursos per a la provisió de llocs de treballs adients al seu cos, escala o categoria, situats dins de la mateixa província en la que estava destinat.
 - El funcionari haurà de participar en els concursos de capacitació als quals se'l convoqui.
 
-## Reingrés al servei actiu
+## 14.6.7 Reingrés al servei actiu
 
 Aquesta qüestió es troba regulada als Art. 91 TREBEP, 70 DLeg 1/97 i 29 bis LMRFP.
 
@@ -1982,31 +1982,31 @@ Per a totes aquelles situacions administratives diferents al servei actiu i que 
 - **Participant en convocatòries de provisió** de llocs de treball, mitjançant el concurs de mèrits o la lliure designació (sempre que el compleixin els requisits exigits).
 - **Per adscripció provisional** a un lloc de treball vacant dotat pressupostàriament, sempre que el funcionari tingui els requisits per ocupar-lo. El lloc que hagi estat assignat amb caràcter provisional, tret que estigui subjecte a amortització, serà inclòs en la propera convocatòria pública de provisió que s'efectuï, tenint el funcionari reingressat la obligació de participar-hi. **L'adscripció provisional restarà condicionada a les necessitats del servei.**
 
-# RÈGIM DISCIPLINARI
+# 14.7 RÈGIM DISCIPLINARI
 
 Aquest bloc es troba regulat als Art. 93 a 98 TREBEP i 108 a 121 DLeg 1/97.
 
 És important tenir en compte tant la normativa bàsica estatal com la normativa autonòmica (catalana en el nostre cas) ja que **el TREBEP només fa una enumeració de les faltes molt greus, mentre que remet a les lleis de desenvolupament pel que fa a les faltes greus i lleus (i als conveni col·lectius pel que fa al personal laboral)**.
 
-## Principis substantius del règim disciplinari
+## 14.7.1 Principis substantius del règim disciplinari
 
-### Principi de legalitat
+### 14.7.1.1 Principi de legalitat
 
 Segons l'Art. 94.2.a TREBEP, la potestat disciplinària s'aplicarà d'acord amb aquest principi. Per tant, **la determinació normativa prèvia de les faltes sancionables i de les seves corresponents sancions és imprescindible per a l'exercici de la potestat disciplinària**.
 
-### Principi de tipicitat de faltes i sancions
+### 14.7.1.2 Principi de tipicitat de faltes i sancions
 
 També consagrat a l'Art. 94.2.a TREBEP. Aquest principi obliga el legislador (i el titular de la potestat reglamentària) a **regular les infraccions, així com les sancions (i la correlació entre unes i altres) de tal manera que el conjunt de les normes aplicables permeti predir, amb suficient grau de certesa, el tipus i grau de sanció susceptible de ser imposat**, sense que sigui possible definir les conductes il·lícites en uns termes que per la seva amplitud i vaguetat les deixin en la més absoluta indefinició. És a dir, **que es pugui establir una predicció raonable de les conseqüències jurídiques de les conductes il·lícites.**
 
-### Principi d'irretroactivitat de les disposicions sancionadores no favorables, i retroactivitat de les favorables al presumpte infractor
+### 14.7.1.3 Principi d'irretroactivitat de les disposicions sancionadores no favorables, i retroactivitat de les favorables al presumpte infractor
 
 Aquest principi es troba recollit a l'Art. 94.2.b TREBEP. Implica que **les normes sancionadores no podran ser aplicades, en la mesura en que siguin desfavorables a l'inculpat, a fets o conductes anteriors a la seva entrada en vigor. Per contra, sí es reconeix expressament la retroactivitat de les normes sancionadores que siguin favorables** al presumpte infractor.
 
-### Prohibició de l'analogia _in peius_
+### 14.7.1.4 Prohibició de l'analogia _in peius_
 
 El TS ha acceptat unànimement aquest fet en la seva jurisprudència (malgrat que el TREBEP no s'hi refereix expressament). **S'exclou l'aplicació analògica de les normes sancionadores per a imposar una condemna.**
 
-### _Non bis in idem_
+### 14.7.1.5 _Non bis in idem_
 
 Aquest és un principi que es considera inclòs en l'àmbit del principi de legalitat en matèria sancionadora (Art. 25.1 CE) per interpretació del TC, malgrat que tampoc s'hi fa referència expressa al TREBEP. Implica que **no podran imposar-se dos o més sancions per un mateix fet, sempre que s'apreciï identitat de subjecte, de fet i de fonament**.
 
@@ -2014,23 +2014,23 @@ Però **això no vol dir, ni molt menys, que quan l'actuació d'un funcionari im
 
 Una altra manifestació d'aquest principi és que **un mateix fet no pot ser qualificat com a constitutiu de dues faltes disciplinàries** (per exemple, abandonament del servei i incompliment de la jornada de treball; o falta de rendiment i notòria pertorbació del servei). **Tampoc és possible que la sola comissió de varies faltes de menor gravetat, que es sancionin com a tals, suposi a més la imputació automàtica d'una falta de major gravetat, degut a la reiteració de les anteriors.**
 
-### Principi de proporcionalitat
+### 14.7.1.6 Principi de proporcionalitat
 
 Aquest es troba recollit a l'Art. 94.2.c TREBEP i **s'imposa tant a la classificació de les infraccions i sancions com a l'aplicació d'aquestes**.
 
 A aquest efecte, l'Art. 96.3 TREBEP imposa que l'abast de la sanció s'estableixi atenent a determinats criteris, com ara el grau d'intencionalitat, descuit o negligència de la conducta, el dany a l'interès públic, la reiteració o reincidència, així com el grau de participació. També **en aplicació d'aquest principi és que la resolució del procediment sancionador s'haurà de motivar.**
 
-### Principi de culpabilitat i persones responsables
+### 14.7.1.7 Principi de culpabilitat i persones responsables
 
 Aquest principi es troba recollit a l'Art. 94.2.d TREBEP (únicament com a principi de culpabilitat). **Per a que s'apliqui una sanció disciplinària cal que l'empleat públic sigui culpable, responsable (dol, culpa, negligència més o menys greu o també a títol de simple inobservança, ja que el funcionari té un deure de diligència que li impedeix excusar la comissió d'una falta en la ignorància o en la simple inadvertència).**
 
 L'Art. 93.2 TREBEP també preveu la **responsabilitat del funcionari o personal laboral que indueixi a altres a realitzar actes o conductes constitutives de falta disciplinària** (fins i tot si la falta no es consuma). L'Art. 93.3 TREBEP preveu la **responsabilitat dels empleats públics per encobriment de les faltes consumades greus o molt greus d'altres, si d'aquests actes se'n deriven danys greus per a l'Administració o per als ciutadans**.
 
-### Principi de presumpció d'innocència
+### 14.7.1.8 Principi de presumpció d'innocència
 
 Aquest principi es troba recollit a l'Art. 94.2.e TREBEP. **No es pot sancionar el presumpte infractor sense una mínima prova de càrrec que mostri resultats susceptibles de destruir aquesta presumpció d'innocència** (tot i que en alguns casos també pot ser una prova indiciària).
 
-### Extinció de la responsabilitat i prescripció
+### 14.7.1.9 Extinció de la responsabilitat i prescripció
 
 **La responsabilitat disciplinària s'extingeix, entre d'altres, pel compliment de la sanció**.
 
@@ -2038,15 +2038,15 @@ Pel que fa al tema de la prescripció, **cal distingir entre prescripció de les
 
 **La prescripció de les sancions comença a comptar-se des de la fermesa de la resolució sancionadora.**
 
-## Faltes i sancions
+## 14.7.2 Faltes i sancions
 
 Quan els treballadors públics incompleixen les obligacions que els hi són pròpies, **en el cas que aquests incompliments** (fets o omissions) **siguin constitutius d'alguna falta disciplinària** (d'entre el ventall legalment estipulat) **això donarà lloc a les sancions corresponents, al marge de que, segons els casos, se'n puguin derivar responsabilitats civils o penals.**
 
-### Faltes
+### 14.7.2.1 Faltes
 
 Segons l'Art. 95.1 TREBEP, **les faltes es classifiquen en molt greus, greus i lleus**. Abans d'entrar a veure-les en detall, hem de saber que **les infraccions molt greus prescriuen al cap de 3 anys, les greus al cap de 2 anys les lleus al cap de 6 mesos. El termini de prescripció de les faltes comença a comptar des que s'hagin comès, i des del cessament de la comissió quan es tracti de faltes continuades** (Art. 97 TREBEP).
 
-#### FALTES MOLT GREUS
+#### A) FALTES MOLT GREUS
 
 Segons l'Art. 95.1 TREBEP, són faltes molt greus:
 
@@ -2087,7 +2087,7 @@ Al seu torn, l'enumeració com a faltes molt greus que fa l'Art. 115 DLeg 1/97 �
 - El fet d'haver estat sancionat per la comissió de tres faltes greus en el període d'un any.
 - L'incompliment, pels responsables dels registres d'Activitats i de Béns Patrimonials i d'Interessos i pel personal que hi tingui accés, del deure de reserva professional respecte a les dades i les informacions que coneguin per raó de llur funció, establert per la Llei d'incompatibilitats dels alts càrrecs al servei de la Generalitat.
 
-#### FALTES GREUS
+#### B) FALTES GREUS
 
 Segons l'Art. 95.3 TREBEP **les faltes greus s'estableixen per llei de les Corts Generals o de l'assemblea legislativa de la comunitat autònoma corresponent o pels convenis col·lectius en el cas de personal laboral, atenent les circumstàncies següents:**
 
@@ -2119,7 +2119,7 @@ Segons l'Art. 95.3 TREBEP **les faltes greus s'estableixen per llei de les Corts
 - La reincidència en faltes lleus.
 - La realització d'actes d'assetjament sexual o d'assetjament per raó de sexe, tipificats per l'Art. 5.tercer de la Llei del dret de les dones a eradicar la violència masclista, i d'actes que puguin comportar assetjament per raó de sexe o assetjament sexual i que no siguin constitutius de falta molt greu.
 
-#### FALTES LLEUS
+#### C) FALTES LLEUS
 
 L'Art. 95.4 TREBEP estableix que **les lleis de funció pública que es dictin en desplegament del TREBEP han de determinar el règim aplicable a les faltes lleus, atenent les mateixes circumstàncies esmentades respecte de les faltes greus**.
 
@@ -2134,7 +2134,7 @@ L'Art. 117 DLeg 1/97 estableix que seran faltes lleus:
 - L'incompliment de les normes relatives a incompatibilitats, si no comporta l'execució de tasques incompatibles o que requereixen la compatibilització prèvia.
 - L'incompliment dels deures i les obligacions del funcionari, sempre que no constitueixi falta molt greu o greu.
 
-### Sancions
+### 14.7.2.2 Sancions
 
 L'Art. 97 TREBEP estableix que **les sancions imposades per faltes molt greus prescriuen al cap de 3 anys, les imposades per faltes greus al cap de 2 anys, i les imposades per faltes lleus al cap d'1 any. El termini de prescripció de les sancions comença a comptar des de la fermesa de la resolució sancionadora**.
 
@@ -2183,11 +2183,11 @@ Pel que fa als **criteris de graduació de les faltes i sancions**, l'Art. 120 D
 - **La reincidència.**
 - **La participació en la comissió o l'omissió.**
 
-### Inscripció i cancel·lació
+### 14.7.2.3 Inscripció i cancel·lació
 
 **Les faltes comeses i les sancions imposades s'han d'inscriure en el Registre General de Personal i es cancel·laran d'ofici, o a petició del personal laboral, un cop transcorregut un període equivalent al de la prescripció de la falta, si durant aquest període no hi ha hagut cap nova sanció. La cancel·lació produeix efectes pertinents, inclosos els relatius a l'apreciació de reincidència.**
 
-### Procediment disciplinari i mesures provisionals
+### 14.7.2.4 Procediment disciplinari i mesures provisionals
 
 L'Art. 98 TREBEP estableix que **no es pot imposar sanció per la comissió de faltes molt greus o greus sinó mitjançant el procediment establert prèviament**.
 
