@@ -8,6 +8,9 @@ Paser word a Markdown
 URL: https://word2md.com/
 
 Corregir header, para que los headers sean secuenciales.
+Pero antes de corregir headers buscar los comentarios en azul que fastidia los headers. Y ponerle 
+> [!NOTE]
+> xx
 PS D:\GIT\alex\sticdopos> python .\assets\python\retocar_md.py .\apunts_new\T12\T12-Apunts-Xavi.md --corregirHeaders
 
 Poner numeros a los headers. Se pone el primer numero del word origen.
@@ -51,3 +54,5 @@ type [youtube o notebook]
 newtab nova pestanya directamente sense iframe
 
 --------------
+> [!NOTE]
+> XXXXXXXXX
