@@ -959,6 +959,8 @@
      */
     function getHintTextForQuestion(pregunta) {
       let hint = pregunta && (pregunta.hint || pregunta.pista || pregunta.clue);
+      let examTrap = pregunta && pregunta.examTrap;
+      let legalReference = pregunta && pregunta.legalReference;
 
       // Si es tipo flashcard, ofuscar el rationale del answerOption correcto
       if (pregunta && pregunta.type === 'flashcard' && Array.isArray(pregunta.answerOptions)) {
@@ -972,7 +974,18 @@
         }
       }
 
-      return hint ? hint : '(No hi ha pista per aquesta pregunta)';
+      // Construir el texto completo concatenando hint + examTrap + legalReference
+      let fullText = hint ? hint : '(No hi ha pista per aquesta pregunta)';
+      
+      if (examTrap) {
+        fullText += '\n\n--- TRAMPA ---\n' + examTrap;
+      }
+      
+      if (legalReference && Array.isArray(legalReference) && legalReference.length > 0) {
+        fullText += '\n\n--- LEGAL REF. ---\n' + legalReference.join('\n');
+      }
+
+      return fullText;
     }
 
     function mostrarHint() {

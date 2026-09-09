@@ -1,0 +1,985 @@
+[
+			{
+				"guid": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué artículo de la Constitución Española establece la reserva de ley para la regulación del estatuto de los funcionarios públicos?",
+				"answerOptions": [
+					{
+						"text": "Artículo 23.2 de la CE (Constitución Española), que regula el derecho de acceso a cargos públicos.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El Art. 23.2 CE reconoce el derecho de acceso a cargos públicos, pero no la reserva de ley para el estatuto de los funcionarios."
+					},
+					{
+						"text": "Artículo 103.3 de la CE (Constitución Española), que regula el estatuto de los funcionarios y el acceso por mérito y capacidad.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 103.3 CE establece la reserva de ley para regular el estatuto de los funcionarios públicos, el acceso por mérito y capacidad, y las incompatibilidades."
+					},
+					{
+						"text": "Artículo 149.1.18 de la CE (Constitución Española), que regula las bases del régimen estatutario de los funcionarios.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El Art. 149.1.18 CE regula la distribución de competencias entre el Estado y las CCAA, no la reserva de ley."
+					},
+					{
+						"text": "Artículo 28.1 de la CE (Constitución Española), que reconoce el derecho de sindicación de los funcionarios.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El Art. 28.1 CE regula el derecho de sindicación, no la reserva de ley para el estatuto de los funcionarios."
+					}
+				],
+				"hint": "La Constitución Española dedica un artículo específico a la regulación del estatuto de los funcionarios públicos, estableciendo que debe ser por ley y respetando los principios de mérito, capacidad e imparcialidad.",
+				"legalReference": [
+					"Art. 103.3 CE (Constitución Española)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir el Art. 103.3 CE (estatuto de los funcionarios) con el Art. 149.1.18 CE (competencias del Estado) o con el Art. 23.2 CE (derecho de acceso a cargos públicos)."
+			},
+			{
+				"guid": "b2c3d4e5-f6a7-890b-cdef-1234567890ab",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "✅ ¿Cuál de las siguientes NO es una retribución básica de los funcionarios públicos según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "El sueldo, que es una cantidad homogénea para cada grupo o subgrupo de clasificación profesional.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El sueldo es una retribución básica según el Art. 23.a TREBEP."
+					},
+					{
+						"text": "Los trienios, que retribuyen la antigüedad cada tres años de servicios prestados.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Los trienios son retribuciones básicas según el Art. 23.b TREBEP."
+					},
+					{
+						"text": "El complemento de destino, que retribuye el nivel del puesto de trabajo desempeñado.",
+						"isCorrect": true,
+						"rationale": "Correcto. El complemento de destino es una retribución complementaria (Art. 24.a TREBEP), no una retribución básica."
+					},
+					{
+						"text": "Las pagas extraordinarias, que se cobran en junio y diciembre.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Aunque el TREBEP no las incluye en las retribuciones básicas, la doctrina y el Art. 23.2 LMRFP las consideran como tales."
+					}
+				],
+				"hint": "Las retribuciones básicas son el sueldo y los trienios (Art. 23 TREBEP). Las complementarias incluyen destino, específico y productividad (Art. 24 TREBEP).",
+				"legalReference": [
+					"Art. 22 a 24 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es confundir el complemento de destino (retribución complementaria) con las retribuciones básicas. También se suele confundir con el complemento específico."
+			},
+			{
+				"guid": "c3d4e5f6-a7b8-90c1-d2e3-f4567890abcd",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué tipo de personal es el que, en virtud de un nomenament lliure i amb caràcter no permanent, realitza funciones de confianza o asesoramiento especial?",
+				"answerOptions": [
+					{
+						"text": "Funcionario de carrera, que accede por oposición y tiene carácter permanente.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Los funcionarios de carrera acceden por oposición o concurso-oposición, no por nomenament lliure."
+					},
+					{
+						"text": "Funcionario interino, que es nombrado por necesidades urgentes y justificadas.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Los interinos son nombrados por necesidad y urgencia (vacantes, sustituciones, programas temporales)."
+					},
+					{
+						"text": "Personal eventual, que realiza funciones de confianza o asesoramiento especial.",
+						"isCorrect": true,
+						"rationale": "Correcto. El personal eventual es definido en el Art. 12.1 TREBEP como aquel que, en virtud de nomenament lliure, realiza funciones de confianza o asesoramiento especial."
+					},
+					{
+						"text": "Personal laboral, que se rige por el Derecho laboral y puede ser fijo o temporal.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El personal laboral se vincula mediante contrato de trabajo, no por nomenament lliure."
+					}
+				],
+				"hint": "El personal eventual es una figura de apoyo a las autoridades políticas, basada en la confianza. Su nomenament es lliure y no constituye mérito para el acceso a la función pública.",
+				"legalReference": [
+					"Art. 12.1 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir el personal eventual (confianza) con el personal laboral (contrato) o con los funcionarios interinos (necesidad urgente)."
+			},
+			{
+				"guid": "d4e5f6a7-b8c9-0d1e-2f34-567890abcdef",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Cuál es la duración máxima para la ejecución de programas de carácter temporal que motiva el nomenament de funcionarios interinos según el Art. 10 del TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "1 año, ampliable por otro año más, según las necesidades del servicio.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El TREBEP establece un plazo mayor para los programas temporales."
+					},
+					{
+						"text": "2 años, sin posibilidad de prórroga, salvo excepciones justificadas.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La duración máxima es de 3 años, no 2."
+					},
+					{
+						"text": "3 años, ampliables 12 meses más por las leyes de función pública.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 10.1 TREBEP establece que los programas de carácter temporal no podrán tener una duración superior a 3 años, ampliables 12 meses más por las leyes de función pública."
+					},
+					{
+						"text": "6 meses, dentro de un período de 12 meses, por acumulación de tareas.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Ese es el plazo para la acumulación de tareas, no para programas temporales."
+					}
+				],
+				"hint": "Los programas temporales tienen una duración máxima de 3 años (ampliables 12 meses). La acumulación de tareas tiene un plazo diferente: 6 meses en 12.",
+				"legalReference": [
+					"Art. 10.1 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es confundir la duración de los programas temporales (3 años + 12 meses) con la acumulación de tareas (6 meses en 12 meses)."
+			},
+			{
+				"guid": "e5f6a7b8-c9d0-1e2f-3456-7890abcdef12",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "✅ ¿Cuál de las siguientes afirmaciones sobre el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público) es CORRECTA?",
+				"answerOptions": [
+					{
+						"text": "El TREBEP solo es aplicable a los funcionarios de carrera, excluyendo al resto de empleados públicos.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El TREBEP se aplica a todos los empleados públicos: funcionarios, interinos, laborales y eventuales."
+					},
+					{
+						"text": "El TREBEP es una norma básica dictada al amparo del Art. 149.1.18 CE (Constitución Española), que regula las bases del régimen estatutario.",
+						"isCorrect": true,
+						"rationale": "Correcto. La Disposición Adicional 1ª TREBEP establece que sus disposiciones se dictan al amparo del Art. 149.1.18 CE, constituyendo las bases del régimen estatutario de los funcionarios."
+					},
+					{
+						"text": "El TREBEP solo es aplicable a la Administración General del Estado, no a las Comunidades Autónomas.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El TREBEP se aplica a todas las Administraciones Públicas, incluyendo las Comunidades Autónomas y Entidades Locales."
+					},
+					{
+						"text": "El TREBEP es una norma con rango reglamentario, dictada para desarrollar la Ley de Función Pública.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El TREBEP es un Real Decreto Legislativo, por lo que tiene rango de ley, no reglamentario."
+					}
+				],
+				"hint": "El TREBEP es la norma básica estatal para los empleados públicos, dictada al amparo del Art. 149.1.18 CE. Se aplica a todas las Administraciones Públicas.",
+				"legalReference": [
+					"Art. 149.1.18 CE (Constitución Española)",
+					"Disp. Ad. 1ª TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es pensar que el TREBEP solo aplica a la AGE o que es una norma reglamentaria. En realidad tiene rango de ley y aplica a todas las Administraciones."
+			},
+			{
+				"guid": "f6a7b8c9-d0e1-2f34-5678-90abcdef1234",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 Según la Constitución Española, ¿qué competencia tiene el Estado en materia de función pública?",
+				"answerOptions": [
+					{
+						"text": "La competencia exclusiva sobre toda la regulación de la función pública, sin dejar margen a las Comunidades Autónomas.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El Estado tiene competencia sobre las bases, pero las CCAA pueden desarrollar y complementar esa regulación."
+					},
+					{
+						"text": "La competencia para dictar las bases del régimen estatutario de los funcionarios, garantizando un tratamiento común.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 149.1.18 CE reserva al Estado la competencia exclusiva para dictar las bases del régimen estatutario de los funcionarios."
+					},
+					{
+						"text": "La competencia exclusiva sobre la función pública de las Entidades Locales, pero no sobre la de las CCAA.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La competencia estatal sobre las bases alcanza a todas las Administraciones Públicas, incluidas las Entidades Locales."
+					},
+					{
+						"text": "La competencia para regular la función pública solo en lo relativo a la Seguridad Social de los funcionarios.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La Seguridad Social es un título competencial diferente (Art. 149.1.17 CE), no el único de la función pública."
+					}
+				],
+				"hint": "El Art. 149.1.18 CE establece que el Estado tiene competencia exclusiva sobre las bases del régimen estatutario de los funcionarios, asegurando un tratamiento común en toda España.",
+				"legalReference": [
+					"Art. 149.1.18 CE (Constitución Española)"
+				],
+				"examTrap": "⚠️ La trampa típica es pensar que el Estado tiene competencia exclusiva total (no es así: son bases) o que las CCAA no pueden legislar en esta materia."
+			},
+			{
+				"guid": "a7b8c9d0-e1f2-3456-7890-abcdef123456",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "✅ ¿Cuál de las siguientes NO es una causa para el nomenament de un funcionario interino según el Art. 10 del TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "La existencia de plazas vacantes cuando no es posible cubrirlas por funcionarios de carrera.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es una causa legítima para el nomenament de interinos según Art. 10.1.a TREBEP."
+					},
+					{
+						"text": "La sustitución transitoria de los titulares de plazas reservadas a funcionarios de carrera.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es una causa legítima según Art. 10.1.b TREBEP."
+					},
+					{
+						"text": "La ejecución de programas de carácter temporal con duración máxima de 3 años.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es una causa legítima según Art. 10.1.c TREBEP."
+					},
+					{
+						"text": "La creación de una nueva estructura organizativa que requiera personal especializado.",
+						"isCorrect": true,
+						"rationale": "Correcto. Esta no es una causa prevista en el Art. 10 TREBEP para el nomenament de interinos. Las causas son: vacantes, sustituciones, programas temporales y acumulación de tareas."
+					}
+				],
+				"hint": "Las causas para el nomenament de interinos son taxativas: vacantes, sustituciones, programas temporales (3 años + 12 meses) y acumulación de tareas (6 meses en 12).",
+				"legalReference": [
+					"Art. 10.1 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es inventar causas que parecen lógicas (como creación de nuevas estructuras) pero que no están en la ley. Solo son válidas las del Art. 10 TREBEP."
+			},
+			{
+				"guid": "b8c9d0e1-f2a3-4567-890a-bcdef1234567",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué principio constitucional justifica la inamovilidad del funcionario de carrera como garantía de imparcialidad?",
+				"answerOptions": [
+					{
+						"text": "El principio de igualdad, mérito y capacidad para acceder a la función pública.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Ese principio regula el acceso a la función pública (Art. 103.3 CE), pero no la inamovilidad."
+					},
+					{
+						"text": "El principio de imparcialidad en el ejercicio de las funciones públicas (Art. 103.1 y 103.3 CE).",
+						"isCorrect": true,
+						"rationale": "Correcto. La inamovilidad protege al funcionario de presiones políticas, garantizando su imparcialidad (Art. 103.1 y 103.3 CE)."
+					},
+					{
+						"text": "El principio de eficacia en la actuación de la Administración Pública.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La eficacia es un principio general de la Administración, pero no el que justifica específicamente la inamovilidad."
+					},
+					{
+						"text": "El principio de jerarquía en la estructura administrativa y la obediencia a los superiores.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La jerarquía y la obediencia son principios organizativos, no la base de la inamovilidad."
+					}
+				],
+				"hint": "La inamovilidad es un derecho del funcionario de carrera que garantiza su imparcialidad (Art. 103.1 y 103.3 CE), protegiéndolo de ceses arbitrarios por razones políticas.",
+				"legalReference": [
+					"Art. 103.1 y 103.3 CE (Constitución Española)",
+					"Art. 14.a TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir la inamovilidad con el acceso por mérito y capacidad. Ambos están en el Art. 103.3 CE, pero la inamovilidad protege la imparcialidad, no el acceso."
+			},
+			{
+				"guid": "c9d0e1f2-a3b4-5678-90ab-cdef12345678",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 Según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público), ¿qué personal tiene la función de desarrollar funciones directivas profesionales en las Administraciones Públicas?",
+				"answerOptions": [
+					{
+						"text": "El personal eventual, que realiza funciones de confianza y asesoramiento especial.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El personal eventual realiza funciones de confianza, no directivas profesionales."
+					},
+					{
+						"text": "El personal directivo profesional, que puede ser funcionario o laboral y está sujeto a evaluación.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 13 TREBEP define al personal directivo como el que desarrolla funciones directivas profesionales, pudiendo ser funcionario o laboral."
+					},
+					{
+						"text": "Los funcionarios de carrera, que son los únicos que pueden ejercer funciones directivas.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El personal directivo puede ser también laboral (Art. 13.4 TREBEP)."
+					},
+					{
+						"text": "El personal laboral fijo, que tiene estabilidad similar a la de los funcionarios de carrera.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El personal laboral fijo no tiene atribuidas funciones directivas por defecto, solo si es designado como directivo."
+					}
+				],
+				"hint": "El personal directivo profesional (Art. 13 TREBEP) es una categoría especial que puede ser funcionario o laboral, y está sujeto a evaluación por criterios de eficacia y eficiencia.",
+				"legalReference": [
+					"Art. 13 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es pensar que el personal directivo solo puede ser funcionario (puede ser laboral también) o confundirlo con el personal eventual."
+			},
+			{
+				"guid": "d0e1f2a3-b4c5-6789-0abc-def123456789",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "✅ ¿Cuál de las siguientes afirmaciones sobre los funcionarios de carrera es FALSA según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "Los funcionarios de carrera están vinculados a la Administración por una relación estatutaria regulada por el Derecho Administrativo.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es cierto: la relación es estatutaria (Art. 9.1 TREBEP)."
+					},
+					{
+						"text": "El acceso a la condición de funcionario de carrera se realiza mediante oposición o concurso-oposición.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es cierto: el acceso es por oposición o concurso-oposición (Art. 61 TREBEP)."
+					},
+					{
+						"text": "La inamovilidad del funcionario de carrera es absoluta y no admite excepciones bajo ningún concepto.",
+						"isCorrect": true,
+						"rationale": "Correcto. Es falso: la inamovilidad no es absoluta. El funcionario puede ser separado por sanción disciplinaria por faltas muy graves."
+					},
+					{
+						"text": "Los funcionarios de carrera se agrupan en grupos y subgrupos según la titulación exigida para el acceso.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es cierto: los grupos son A1, A2, B, C1 y C2 (Art. 76 TREBEP)."
+					}
+				],
+				"hint": "La inamovilidad no es absoluta. Aunque protege la imparcialidad, el funcionario puede ser separado del servicio como sanción por faltas muy graves (Art. 96.1 TREBEP).",
+				"legalReference": [
+					"Art. 9.1, Art. 76 y Art. 96.1 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es pensar que la inamovilidad es absoluta y que un funcionario nunca puede ser separado. Sí puede serlo por faltas muy graves."
+			},
+			{
+				"guid": "e1f2a3b4-c5d6-7890-abcd-ef1234567890",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué norma es la que regula la función pública en el ámbito de la Generalitat de Catalunya?",
+				"answerOptions": [
+					{
+						"text": "El Decreto Legislativo 1/1997, de 31 de octubre, que aprueba el Texto Refundido de la Función Pública de Cataluña.",
+						"isCorrect": true,
+						"rationale": "Correcto. El DLeg 1/1997 es la norma catalana que regula la función pública en el ámbito de la Generalitat."
+					},
+					{
+						"text": "La Ley 8/2006, de 5 de julio, de medidas de conciliación de la vida personal, familiar y laboral.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La L8/2006 regula permisos y conciliación, pero no es la norma general de función pública."
+					},
+					{
+						"text": "El Texto Refundido de la Ley del Estatuto Básico del Empleado Público (TREBEP).",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El TREBEP es la norma estatal básica, pero la norma de desarrollo autonómico en Catalunya es el DLeg 1/1997."
+					},
+					{
+						"text": "La Ley 30/1984, de 2 de agosto, de Medidas para la Reforma de la Función Pública.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La L30/1984 es una norma estatal anterior, parcialmente derogada, no la norma catalana."
+					}
+				],
+				"hint": "La normativa catalana de función pública es el Decreto Legislativo 1/1997. La L8/2006 regula permisos y conciliación, y el TREBEP es la norma estatal básica.",
+				"legalReference": [
+					"Art. 2 DLeg 1/1997 (Catalunya)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir la norma catalana general (DLeg 1/1997) con la ley de conciliación (L8/2006) o con la norma estatal (TREBEP)."
+			},
+			{
+				"guid": "f2a3b4c5-d6e7-890a-bcde-f12345678901",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 Según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público), ¿qué función está reservada exclusivamente a los funcionarios públicos?",
+				"answerOptions": [
+					{
+						"text": "La realización de tareas administrativas de carácter instrumental y de apoyo a la gestión.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Estas tareas pueden ser realizadas por personal laboral (Art. 11.2 TREBEP)."
+					},
+					{
+						"text": "La participación directa o indirecta en el ejercicio de potestades públicas o en la salvaguarda de intereses generales.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 9.2 TREBEP establece que estas funciones corresponden exclusivamente a los funcionarios públicos."
+					},
+					{
+						"text": "La prestación de servicios de carácter técnico y especializado que requieran titulación universitaria.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Estas funciones pueden ser realizadas por personal laboral si así se determina en la RLT (Relación de Puestos de Trabajo)."
+					},
+					{
+						"text": "El desarrollo de funciones de confianza y asesoramiento especial a las autoridades políticas.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Esas funciones corresponden al personal eventual (Art. 12.1 TREBEP)."
+					}
+				],
+				"hint": "La reserva de funciones para funcionarios (Art. 9.2 TREBEP) se refiere al ejercicio de potestades públicas y salvaguarda de intereses generales.",
+				"legalReference": [
+					"Art. 9.2 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es pensar que todas las funciones de la Administración son para funcionarios. Las tareas instrumentales y de apoyo pueden ser para personal laboral."
+			},
+			{
+				"guid": "a3b4c5d6-e7f8-901a-bcde-f23456789012",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Cuántos días hábiles de vacaciones anuales corresponden a los funcionarios públicos según el Art. 50 del TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "30 días naturales, que es el estándar en el sector privado para trabajadores con más de 5 años de antigüedad.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El TREBEP establece 22 días hábiles, no 30 naturales."
+					},
+					{
+						"text": "22 días hábiles, o los días que correspondan en proporción al tiempo servido.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 50 TREBEP establece 22 días hábiles de vacaciones anuales retribuidas."
+					},
+					{
+						"text": "1 mes natural, que es lo que establece el Decreto Legislativo 1/1997 para el personal de la Generalitat.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El DLeg 1/1997 menciona 1 mes, pero el TREBEP prevalece por ser norma básica."
+					},
+					{
+						"text": "15 días hábiles, que es el mínimo legal establecido en el Estatuto de los Trabajadores.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El Estatuto de los Trabajadores establece 30 días naturales, no 15 días hábiles."
+					}
+				],
+				"hint": "El Art. 50 TREBEP establece 22 días hábiles de vacaciones. El DLeg 1/1997 menciona 1 mes, pero prevalece el TREBEP por ser norma básica.",
+				"legalReference": [
+					"Art. 50 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es confundir los 22 días hábiles del TREBEP con los 30 días naturales del Estatuto de los Trabajadores, o con el mes del DLeg 1/1997."
+			},
+			{
+				"guid": "b4c5d6e7-f8a9-0123-cdef-345678901234",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "✅ ¿Cuál de las siguientes es una causa de excedencia voluntaria por interés particular según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "La necesidad de cuidar a un familiar de primer grado que no pueda valerse por sí mismo.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es una excedencia por cuidado de familiar, no por interés particular."
+					},
+					{
+						"text": "La conciliación de la vida personal, familiar y laboral, que es un derecho reconocido en el Art. 14.j TREBEP.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La conciliación es un derecho, pero no es una excedencia por interés particular."
+					},
+					{
+						"text": "El deseo del funcionario de atender asuntos propios, previa acreditación de 5 años de servicios efectivos.",
+						"isCorrect": true,
+						"rationale": "Correcto. La excedencia voluntaria por interés particular (Art. 89.2 TREBEP) requiere 5 años de servicios efectivos y no exige causa concreta."
+					},
+					{
+						"text": "La agrupación familiar por el traslado del cónyuge a otra localidad por razones laborales.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es una excedencia por agrupación familiar (Art. 89.3 TREBEP), no por interés particular."
+					}
+				],
+				"hint": "La excedencia por interés particular (Art. 89.2 TREBEP) requiere 5 años de servicios efectivos y es por voluntad del funcionario, sin causa concreta.",
+				"legalReference": [
+					"Art. 89.2 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir las diferentes excedencias: interés particular (5 años), agrupación familiar, cuidado de hijo/familiar, etc."
+			},
+			{
+				"guid": "c5d6e7f8-a9b0-1234-5678-901234567890",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué establece el principio de legalidad en el régimen disciplinario de los empleados públicos según el Art. 94.2.a del TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "Que las sanciones se imponen por el órgano competente y previa audiencia del interesado.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso se refiere al procedimiento, no al principio de legalidad."
+					},
+					{
+						"text": "Que las faltas y sanciones deben estar predeterminadas normativamente y ser conocidas por el empleado.",
+						"isCorrect": true,
+						"rationale": "Correcto. El principio de legalidad exige que las faltas y sanciones estén previstas en la ley (tipicidad)."
+					},
+					{
+						"text": "Que las sanciones deben ser proporcionales a la gravedad de la falta cometida.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es el principio de proporcionalidad (Art. 94.2.c TREBEP)."
+					},
+					{
+						"text": "Que el empleado es inocente hasta que se demuestre lo contrario en el procedimiento disciplinario.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es el principio de presunción de inocencia (Art. 94.2.e TREBEP)."
+					}
+				],
+				"hint": "El principio de legalidad (Art. 94.2.a TREBEP) exige que las faltas y sanciones estén predeterminadas normativamente, garantizando la seguridad jurídica.",
+				"legalReference": [
+					"Art. 94.2.a TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es confundir el principio de legalidad con otros principios como proporcionalidad, presunción de inocencia o tipicidad."
+			},
+			{
+				"guid": "d6e7f8a9-b0c1-2345-6789-abcdef234567",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 Según la Ley 53/1984 de incompatibilidades, ¿qué principio general rige para el personal al servicio de las Administraciones Públicas?",
+				"answerOptions": [
+					{
+						"text": "La compatibilidad general con cualquier actividad privada, siempre que no perjudique el servicio público.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La regla general es la incompatibilidad, no la compatibilidad."
+					},
+					{
+						"text": "La dedicación a un solo puesto de trabajo en el sector público, con excepciones tasadas.",
+						"isCorrect": true,
+						"rationale": "Correcto. La Ley 53/1984 (Art. 1.1) establece el principio de dedicación a un solo puesto en el sector público."
+					},
+					{
+						"text": "La prohibición absoluta de cualquier actividad privada, sin excepción alguna.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La ley permite excepciones como profesor asociado, investigación, etc."
+					},
+					{
+						"text": "La libertad para compatibilizar cualquier actividad pública o privada sin necesidad de autorización.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La compatibilidad requiere autorización o reconocimiento previo."
+					}
+				],
+				"hint": "La Ley 53/1984 establece el principio de dedicación a un solo puesto en el sector público (Art. 1.1), con excepciones tasadas y autorización expresa.",
+				"legalReference": [
+					"Art. 1.1 Ley 53/1984"
+				],
+				"examTrap": "⚠️ La trampa típica es pensar que la regla es la compatibilidad o que la incompatibilidad es absoluta. La regla es incompatibilidad con excepciones autorizadas."
+			},
+			{
+				"guid": "e7f8a9b0-c1d2-3456-789a-bcdef3456789",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Cuál es la duración máxima de la suspensión firme de funciones para los funcionarios por faltas muy graves según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "3 años, que es el plazo de prescripción de las faltas muy graves.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. 3 años es el plazo de prescripción, no la duración máxima de la suspensión."
+					},
+					{
+						"text": "6 años, que es el máximo establecido para las faltas muy graves.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 96.1.c TREBEP establece que la suspensión firme no puede exceder de 6 años para faltas muy graves."
+					},
+					{
+						"text": "4 años, que es el plazo general para la prescripción de las sanciones disciplinarias.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. 4 años no es un plazo ni de prescripción ni de suspensión."
+					},
+					{
+						"text": "No hay límite máximo, ya que depende de la gravedad de la falta cometida.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El TREBEP establece un límite máximo de 6 años."
+					}
+				],
+				"hint": "La suspensión firme tiene un límite de 6 años para faltas muy graves y 3 años para faltas graves (Art. 96.1.c TREBEP).",
+				"legalReference": [
+					"Art. 96.1.c TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es confundir los plazos de prescripción (3 años muy graves, 2 años graves, 6 meses leves) con la duración máxima de la suspensión (6 años muy graves, 3 años graves)."
+			},
+			{
+				"guid": "f8a9b0c1-d2e3-4567-89ab-cdef4567890a",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué situación administrativa implica la reserva del puesto de trabajo y el cómputo del tiempo como servicio activo a todos los efectos?",
+				"answerOptions": [
+					{
+						"text": "La excedencia voluntaria por interés particular, que permite al funcionario atender asuntos propios.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La excedencia por interés particular no reserva el puesto ni computa para trienios."
+					},
+					{
+						"text": "Los servicios especiales, cuando el funcionario pasa a ocupar cargos políticos o electivos.",
+						"isCorrect": true,
+						"rationale": "Correcto. Los servicios especiales (Art. 87 TREBEP) implican reserva de puesto y cómputo del tiempo para trienios y derechos pasivos."
+					},
+					{
+						"text": "La excedencia forzosa, que se da cuando el funcionario queda sin puesto de trabajo.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La excedencia forzosa no reserva el puesto, aunque sí computa para trienios y derechos pasivos."
+					},
+					{
+						"text": "La suspensión de funciones, que priva al funcionario del ejercicio de sus funciones.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La suspensión no reserva el puesto ni computa como servicio activo."
+					}
+				],
+				"hint": "Los servicios especiales (Art. 87 TREBEP) son la única situación que reserva el puesto y computa el tiempo como servicio activo para todos los efectos.",
+				"legalReference": [
+					"Art. 87.2 y 87.3 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir los servicios especiales con la excedencia por cuidado de hijo (que también reserva puesto pero no siempre computa igual) o con el servicio en otras Administraciones."
+			},
+			{
+				"guid": "a9b0c1d2-e3f4-5678-9abc-def5678901bc",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué actividad está EXCEPTUADA del régimen de incompatibilidades según la Ley 53/1984?",
+				"answerOptions": [
+					{
+						"text": "La participación en tribunales de oposición y concursos para el ingreso a la función pública.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 19 Ley 53/1984 exceptúa la participación en tribunales de oposición y concursos."
+					},
+					{
+						"text": "El ejercicio de una segunda profesión privada que no se relacione con el puesto público.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Las actividades privadas requieren reconocimiento de compatibilidad (Art. 14 Ley 53/1984)."
+					},
+					{
+						"text": "La pertenencia a consejos de administración de empresas privadas con ánimo de lucro.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Esa actividad está expresamente prohibida (Art. 12.1.b Ley 53/1984) salvo representación del sector público."
+					},
+					{
+						"text": "El desarrollo de actividades profesionales en empresas contratistas de la Administración.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Esa actividad está prohibida (Art. 12.1.c Ley 53/1984)."
+					}
+				],
+				"hint": "El Art. 19 Ley 53/1984 enumera actividades exceptuadas: tribunales de oposición, docencia ocasional, producción literaria/artística, entre otras.",
+				"legalReference": [
+					"Art. 19 Ley 53/1984"
+				],
+				"examTrap": "⚠️ La trampa típica es pensar que todas las actividades relacionadas con la función pública están sujetas a incompatibilidad. La ley exceptúa algunas claramente."
+			},
+			{
+				"guid": "b0c1d2e3-f4a5-6789-abcd-ef6789012cd3",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué principio del régimen disciplinario prohíbe imponer dos sanciones por un mismo hecho?",
+				"answerOptions": [
+					{
+						"text": "El principio de proporcionalidad, que exige que la sanción sea adecuada a la gravedad de la falta.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La proporcionalidad (Art. 94.2.c TREBEP) se refiere a la adecuación entre falta y sanción."
+					},
+					{
+						"text": "El principio de non bis in idem, que prohíbe la doble sanción por un mismo hecho.",
+						"isCorrect": true,
+						"rationale": "Correcto. El principio non bis in idem prohíbe imponer dos sanciones por un mismo hecho con identidad de sujeto, hecho y fundamento."
+					},
+					{
+						"text": "El principio de tipicidad, que exige que las faltas estén predeterminadas normativamente.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La tipicidad (Art. 94.2.a TREBEP) se refiere a la predeterminación normativa de las faltas."
+					},
+					{
+						"text": "El principio de culpabilidad, que exige que el empleado sea responsable de la falta.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. La culpabilidad (Art. 94.2.d TREBEP) exige dolo o negligencia para sancionar."
+					}
+				],
+				"hint": "El principio non bis in idem prohíbe la doble sanción por un mismo hecho. Está implícito en el principio de legalidad del Art. 25.1 CE y reconocido en la jurisprudencia del TC.",
+				"legalReference": [
+					"Art. 94.2 TREBEP (RDLeg 5/2015)",
+					"Art. 25.1 CE"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir el non bis in idem con otros principios disciplinarios como proporcionalidad o tipicidad."
+			},
+			{
+				"guid": "c1d2e3f4-a5b6-7890-bcde-f7890123ef45",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "✅ ¿Cuál de las siguientes es una característica del personal eventual según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "Tienen derecho a la carrera profesional y a la promoción interna como los funcionarios de carrera.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El personal eventual no tiene derecho a carrera profesional (Art. 12.5 TREBEP)."
+					},
+					{
+						"text": "Su nomenamiento y cese son libres por la autoridad que los designa.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 12.1 y 12.3 TREBEP establece que el personal eventual es nombrado y cesado libremente."
+					},
+					{
+						"text": "Pueden ser contratados para realizar funciones de carácter permanente y estructural.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Son de carácter no permanente (Art. 12.1 TREBEP)."
+					},
+					{
+						"text": "Su nomenamiento constituye un mérito para el acceso a la función pública.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El Art. 12.5 TREBEP establece que no constituye mérito para el acceso o la promoción interna."
+					}
+				],
+				"hint": "El personal eventual (Art. 12 TREBEP) es de confianza, nombrado y cesado libremente, no constituye mérito para la función pública.",
+				"legalReference": [
+					"Art. 12.1, 12.3 y 12.5 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es pensar que el personal eventual tiene los mismos derechos que los funcionarios de carrera (no, no tienen carrera) o que su experiencia es mérito (no lo es)."
+			},
+			{
+				"guid": "d2e3f4a5-b6c7-8901-bcde-f8901234ef56",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué tipo de personal laboral es aquel que ha superado un proceso de selección garantizando los principios de igualdad, mérito y capacidad?",
+				"answerOptions": [
+					{
+						"text": "El personal laboral temporal, que es contratado por un período determinado.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El temporal no ha superado necesariamente un proceso selectivo."
+					},
+					{
+						"text": "El personal laboral fijo, que ha superado un proceso selectivo con garantía de los principios constitucionales.",
+						"isCorrect": true,
+						"rationale": "Correcto. El personal laboral fijo es el que ha superado un proceso selectivo regular, garantizando igualdad, mérito y capacidad."
+					},
+					{
+						"text": "El personal laboral indefinido no fijo, que proviene de la irregularidad de encadenar contratos temporales.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El indefinido no fijo no ha superado un proceso selectivo regular, sino que deriva de una irregularidad."
+					},
+					{
+						"text": "Todos los laborales, independientemente de su modalidad, porque la Administración siempre garantiza estos principios.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El principio de igualdad, mérito y capacidad no se garantiza en todos los casos (ej: personal temporal)."
+					}
+				],
+				"hint": "El personal laboral fijo es el que ha superado un proceso selectivo regular (Art. 11 TREBEP). El indefinido no fijo deriva de una irregularidad en la contratación.",
+				"legalReference": [
+					"Art. 11 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir el laboral fijo (selectivo regular) con el indefinido no fijo (irregularidad temporal) o con el temporal."
+			},
+			{
+				"guid": "e3f4a5b6-c7d8-9012-bcde-f9012345ef67",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Cuál es el plazo de prescripción de las faltas disciplinarias muy graves según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "1 año desde la comisión de la falta, que es el plazo general para las faltas leves.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. 1 año es el plazo de prescripción de las sanciones leves, no de las faltas."
+					},
+					{
+						"text": "2 años desde la comisión de la falta, que es el plazo para las faltas graves.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. 2 años es el plazo para faltas graves, no muy graves."
+					},
+					{
+						"text": "3 años desde la comisión de la falta, o desde el cese si es continuada.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 97 TREBEP establece que las faltas muy graves prescriben a los 3 años desde su comisión."
+					},
+					{
+						"text": "6 años desde la comisión de la falta, que es el plazo máximo de suspensión.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. 6 años es la duración máxima de la suspensión firme, no el plazo de prescripción."
+					}
+				],
+				"hint": "Los plazos de prescripción son: muy graves 3 años, graves 2 años, leves 6 meses (Art. 97 TREBEP). No se confundan con la duración de las sanciones.",
+				"legalReference": [
+					"Art. 97 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es confundir los plazos de prescripción (3, 2 y 0,5 años) con la duración de las sanciones de suspensión (6 y 3 años) o con otros plazos."
+			},
+			{
+				"guid": "f4a5b6c7-d8e9-0123-bcde-f0123456ef78",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué establece el principio de proporcionalidad en el régimen disciplinario de los empleados públicos según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "Que la sanción debe ser adecuada a la gravedad de la falta, considerando la intencionalidad y el daño causado.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 94.2.c y 96.3 TREBEP establecen el principio de proporcionalidad, considerando el grado de intencionalidad, el daño, la reiteración, etc."
+					},
+					{
+						"text": "Que las faltas y sanciones deben estar predeterminadas normativamente para garantizar la seguridad jurídica.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es el principio de legalidad/tipicidad (Art. 94.2.a TREBEP)."
+					},
+					{
+						"text": "Que el empleado es inocente hasta que se demuestre lo contrario en el procedimiento disciplinario.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es el principio de presunción de inocencia (Art. 94.2.e TREBEP)."
+					},
+					{
+						"text": "Que no se puede sancionar dos veces por un mismo hecho con identidad de sujeto, hecho y fundamento.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es el principio de non bis in idem."
+					}
+				],
+				"hint": "El principio de proporcionalidad (Art. 94.2.c y 96.3 TREBEP) exige adecuar la sanción a la gravedad de la falta, considerando intencionalidad, daño, reincidencia, etc.",
+				"legalReference": [
+					"Art. 94.2.c y 96.3 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir la proporcionalidad con otros principios como legalidad, tipicidad o non bis in idem."
+			},
+			{
+				"guid": "a5b6c7d8-e9f0-1234-bcde-1234567890ef",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Qué son los trienios en el sistema retributivo de los funcionarios públicos?",
+				"answerOptions": [
+					{
+						"text": "Un complemento retributivo que se otorga por la especial dificultad técnica del puesto de trabajo.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es el complemento específico, no los trienios."
+					},
+					{
+						"text": "Una retribución básica que se percibe cada tres años de servicios prestados a la Administración.",
+						"isCorrect": true,
+						"rationale": "Correcto. Los trienios son retribuciones básicas que incrementan la nómina cada tres años de servicios (Art. 23.b TREBEP)."
+					},
+					{
+						"text": "Un complemento de productividad que retribuye el rendimiento y la iniciativa del funcionario.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es el complemento de productividad, no los trienios."
+					},
+					{
+						"text": "Un complemento de destino que retribuye el nivel del puesto de trabajo desempeñado.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Eso es el complemento de destino, no los trienios."
+					}
+				],
+				"hint": "Los trienios son retribuciones básicas (Art. 23.b TREBEP) que se perciben cada tres años de servicios, con igual cuantía para cada grupo o subgrupo.",
+				"legalReference": [
+					"Art. 23.b TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "❌ La trampa típica es confundir los trienios (antigüedad) con el complemento específico (dificultad técnica) o con el complemento de destino (nivel del puesto)."
+			},
+			{
+				"guid": "b6c7d8e9-f0a1-2345-bcde-2345678901ef",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "✅ Según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público), ¿cuál de las siguientes NO es una causa de nomenamiento de funcionario interino?",
+				"answerOptions": [
+					{
+						"text": "La existencia de plazas vacantes cuando no es posible cubrirlas por funcionarios de carrera.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es una causa legítima (Art. 10.1.a TREBEP)."
+					},
+					{
+						"text": "La sustitución transitoria de los titulares de plazas reservadas a funcionarios de carrera.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es una causa legítima (Art. 10.1.b TREBEP)."
+					},
+					{
+						"text": "La necesidad de cubrir un puesto de libre designación de carácter temporal.",
+						"isCorrect": true,
+						"rationale": "Correcto. Los puestos de libre designación son para funcionarios de carrera o personal eventual, no para interinos."
+					},
+					{
+						"text": "La ejecución de programas de carácter temporal por un máximo de 3 años.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Es una causa legítima (Art. 10.1.c TREBEP)."
+					}
+				],
+				"hint": "Las causas de interinidad son taxativas (Art. 10.1 TREBEP): vacantes, sustituciones, programas temporales y acumulación de tareas. Los puestos de libre designación no son una causa.",
+				"legalReference": [
+					"Art. 10.1 TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es pensar que la libre designación es una causa de interinidad. La libre designación es un sistema de provisión, no una causa de interinidad."
+			},
+			{
+				"guid": "c7d8e9f0-a1b2-3456-bcde-3456789012ef",
+				"subjectId": "T14",
+				"difficulty": 2,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "📌 ¿Cuál es el límite máximo para la permanencia en la situación de expectativa de destino según el DLeg 1/1997?",
+				"answerOptions": [
+					{
+						"text": "6 meses, que es el plazo de la acumulación de tareas para los interinos.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. 6 meses es el plazo para la acumulación de tareas, no para la expectativa de destino."
+					},
+					{
+						"text": "1 año, tras el cual el funcionario pasa a excedencia forzosa.",
+						"isCorrect": true,
+						"rationale": "Correcto. El Art. 91 DLeg 1/1997 establece que el tiempo máximo en expectativa de destino es 1 año, pasando luego a excedencia forzosa."
+					},
+					{
+						"text": "2 años, que es el plazo de prescripción de las faltas graves.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. 2 años es el plazo de prescripción de faltas graves, no de expectativa de destino."
+					},
+					{
+						"text": "No hay límite, ya que depende de la existencia de vacantes en la Administración.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. Hay un límite de 1 año establecido por el DLeg 1/1997."
+					}
+				],
+				"hint": "La expectativa de destino (Art. 91 DLeg 1/1997) tiene una duración máxima de 1 año. Después de ese plazo, el funcionario pasa a excedencia forzosa.",
+				"legalReference": [
+					"Art. 91 DLeg 1/1997 (Catalunya)"
+				],
+				"examTrap": "⚠️ La trampa típica es confundir el plazo de expectativa de destino (1 año) con otros plazos como la acumulación de tareas (6 meses) o la prescripción de faltas (3/2/0,5 años)."
+			},
+			{
+				"guid": "d8e9f0a1-b2c3-4567-bcde-4567890123ef",
+				"subjectId": "T14",
+				"difficulty": 1,
+				"origin": "deepseek",
+				"type": "test",
+				"question": "✅ ¿Cuál de las siguientes afirmaciones sobre los derechos de los empleados públicos es CORRECTA según el TREBEP (Texto Refundido de la Ley del Estatuto Básico del Empleado Público)?",
+				"answerOptions": [
+					{
+						"text": "Todos los empleados públicos tienen el mismo catálogo de derechos, independientemente de su modalidad de vinculación.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El catálogo de derechos varía según el tipo de personal (carrera, interino, eventual, laboral)."
+					},
+					{
+						"text": "El derecho a la inamovilidad protege al funcionario de carrera frente a ceses arbitrarios, garantizando la imparcialidad.",
+						"isCorrect": true,
+						"rationale": "Correcto. La inamovilidad (Art. 14.a TREBEP) es un derecho del funcionario de carrera que garantiza su imparcialidad."
+					},
+					{
+						"text": "El derecho a la carrera profesional solo corresponde al personal eventual y directivo.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El personal eventual no tiene derecho a carrera profesional (Art. 12.5 TREBEP)."
+					},
+					{
+						"text": "El personal laboral no tiene derecho a la inamovilidad ni a ninguna protección similar.",
+						"isCorrect": false,
+						"rationale": "Incorrecto. El personal laboral fijo tiene estabilidad similar a la del funcionario de carrera, aunque no es idéntica."
+					}
+				],
+				"hint": "La inamovilidad (Art. 14.a TREBEP) es un derecho del funcionario de carrera que garantiza su imparcialidad, protegiéndolo de ceses arbitrarios.",
+				"legalReference": [
+					"Art. 14.a TREBEP (RDLeg 5/2015)"
+				],
+				"examTrap": "⚠️ La trampa típica es pensar que el derecho a la inamovilidad es absoluto (no lo es, hay excepciones) o que todos los empleados públicos tienen los mismos derechos."
+			}
+		]
