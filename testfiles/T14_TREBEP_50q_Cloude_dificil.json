@@ -1,0 +1,1552 @@
+[
+  {
+    "guid": "046f4dab-a8d6-4702-ab9a-707c9b5bfb81",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Dins l'estructura del Text refós de l'Estatut Bàsic de l'Empleat Públic (RDLeg 5/2015), en quin títol es regula el règim disciplinari?",
+    "answerOptions": [
+      {
+        "text": "Al títol VII, en els articles 93 a 98",
+        "isCorrect": true,
+        "rationale": "Correcta. El títol VII del TREBEP (art. 93-98) regula el règim disciplinari: principis, faltes, sancions, prescripció i procediment."
+      },
+      {
+        "text": "Al títol VI, juntament amb les situacions administratives",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El títol VI (art. 85-92) regula exclusivament les situacions administratives."
+      },
+      {
+        "text": "Al títol VIII, dedicat a la cooperació entre administracions",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El títol VIII (art. 99-100) regula la cooperació entre administracions públiques."
+      },
+      {
+        "text": "Al títol III, dins el capítol del codi de conducta",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El títol III conté drets, deures i codi de conducta (art. 14-54); el codi de conducta informa el règim disciplinari, però no el conté."
+      }
+    ],
+    "hint": "El TREBEP té 8 títols i 100 articles; el disciplinari és el penúltim."
+  },
+  {
+    "guid": "8b2cf36d-9695-473c-aa54-c2ad1b58adcf",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin dels col·lectius següents NO apareix a l'article 4 del TREBEP entre el personal amb legislació específica pròpia, al qual el TREBEP només s'aplica supletòriament?",
+    "answerOptions": [
+      {
+        "text": "El personal que presta serveis retribuïts per aranzel",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Figura expressament a l'art. 4.d) TREBEP."
+      },
+      {
+        "text": "El personal del Centre Nacional d'Intel·ligència i dels serveis d'informació",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Figura expressament a l'art. 4.e) TREBEP."
+      },
+      {
+        "text": "El personal laboral de la Societat Estatal Correus i Telègrafs",
+        "isCorrect": true,
+        "rationale": "Correcta. Correus es regula a l'art. 5 TREBEP: els funcionaris de Correus es regeixen per les seves normes específiques i supletòriament pel TREBEP; el personal laboral, per la legislació laboral i altres normes convencionals."
+      },
+      {
+        "text": "El personal del Banc d'Espanya i del Fons de Garantia de Dipòsits d'Entitats de Crèdit",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Figura expressament a l'art. 4.f) TREBEP."
+      }
+    ],
+    "hint": "Correus té article propi (el 5), separat de la llista de l'article 4."
+  },
+  {
+    "guid": "b8ab46e1-b4c6-4df1-9eb7-59c3d7160100",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 8.2 del TREBEP, els empleats públics es classifiquen en quatre classes. Quina de les següents NO n'és una?",
+    "answerOptions": [
+      {
+        "text": "Funcionaris interins",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la classe de l'art. 8.2.b), regulada a l'art. 10."
+      },
+      {
+        "text": "Personal directiu professional",
+        "isCorrect": true,
+        "rationale": "Correcta. El personal directiu (art. 13) no és una classe d'empleat públic de l'art. 8.2: pot ser funcionari o laboral. Les quatre classes són funcionaris de carrera, funcionaris interins, personal laboral i personal eventual."
+      },
+      {
+        "text": "Personal laboral, ja sigui fix, per temps indefinit o temporal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la classe de l'art. 8.2.c), regulada a l'art. 11."
+      },
+      {
+        "text": "Personal eventual",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la classe de l'art. 8.2.d), regulada a l'art. 12."
+      }
+    ],
+    "hint": "L'article 13 regula el directiu com a règim especial, no com a classe."
+  },
+  {
+    "guid": "f3ba9a0b-b751-4cf8-a967-b71829a317cb",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "D'acord amb l'article 9.2 del TREBEP, quines funcions corresponen exclusivament als funcionaris públics?",
+    "answerOptions": [
+      {
+        "text": "Totes les funcions de caràcter permanent i estructural de qualsevol Administració pública",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El caràcter permanent no és el criteri: el personal laboral fix també pot ocupar llocs estructurals."
+      },
+      {
+        "text": "Les que exigeixin titulació universitària de Grau pròpia dels subgrups A1 o A2",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La titulació determina el grup de classificació (art. 76), no la reserva funcionarial."
+      },
+      {
+        "text": "Les de direcció de les unitats administratives i de gestió econòmica i pressupostària",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El TREBEP no formula la reserva en termes de direcció o gestió pressupostària."
+      },
+      {
+        "text": "Les que impliquin exercici de potestats públiques o salvaguarda dels interessos generals",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 9.2 reserva als funcionaris l'exercici de funcions que impliquin participació directa o indirecta en l'exercici de potestats públiques o en la salvaguarda dels interessos generals, en els termes de la llei de desenvolupament de cada Administració."
+      }
+    ],
+    "hint": "Potestats públiques + interessos generals: la fórmula clàssica."
+  },
+  {
+    "guid": "8adc2109-066e-4147-bbf8-113494ff49c3",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 10 del TREBEP, en la redacció donada per la Llei 20/2021, quina afirmació sobre el personal funcionari interí és correcta?",
+    "answerOptions": [
+      {
+        "text": "Adquireix la condició de funcionari de carrera un cop superats els tres anys de permanència en la plaça",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El transcurs del termini màxim no converteix l'interí en funcionari de carrera; genera, si escau, responsabilitats i compensacions, però no una adquisició de la condició."
+      },
+      {
+        "text": "Només pot ser nomenat per a substitucions transitòries de titulars, mai per a places vacants",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 10.1.a) preveu expressament el nomenament per a places vacants que no puguin cobrir-se per funcionaris de carrera."
+      },
+      {
+        "text": "No adquireix en cap cas la condició de funcionari de carrera, sigui quin sigui el temps de serveis prestats",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 10 TREBEP estableix que el personal interí no adquireix la condició de funcionari de carrera pel fet de la prestació de serveis, i li és aplicable el règim general dels funcionaris de carrera en allò adequat a la naturalesa de la seva condició."
+      },
+      {
+        "text": "Es selecciona lliurement per l'òrgan competent, sense subjecció als principis d'igualtat, mèrit, capacitat i publicitat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La selecció ha de fer-se per procediments àgils que respectin igualtat, mèrit, capacitat, publicitat i celeritat."
+      }
+    ],
+    "hint": "La Llei 20/2021 va reforçar la temporalitat màxima, no la conversió en carrera."
+  },
+  {
+    "guid": "065a26dd-3f95-4912-8afd-d76518b7cec6",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin efecte té, segons l'article 12 del TREBEP, la condició de personal eventual sobre l'accés a la funció pública o la promoció interna?",
+    "answerOptions": [
+      {
+        "text": "No pot constituir mèrit en cap cas per a l'accés ni per a la promoció interna",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 12.4 TREBEP: la condició de personal eventual no podrà constituir mèrit per a l'accés a la funció pública ni per a la promoció interna."
+      },
+      {
+        "text": "Es valora com a mèrit únicament en els processos de promoció interna",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'exclusió abasta tant l'accés com la promoció interna."
+      },
+      {
+        "text": "Es valora com a mèrit sempre que s'hagin prestat més de dos anys de serveis continuats",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No hi ha cap llindar temporal que converteixi els serveis d'eventual en mèrit."
+      },
+      {
+        "text": "Es computa com a experiència en el subgrup equivalent al lloc ocupat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'eventual no està adscrit a cap subgrup de classificació."
+      }
+    ],
+    "hint": "Confiança i assessorament especial: cessament lliure i automàtic, i zero mèrit."
+  },
+  {
+    "guid": "0de6c19a-15c3-47c7-9e9c-91cac3d19b9e",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Respecte del personal directiu professional (article 13 TREBEP), quina afirmació és correcta?",
+    "answerOptions": [
+      {
+        "text": "Té sempre la condició de funcionari de carrera del subgrup A1",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El directiu pot ser funcionari o laboral; l'art. 13.4 preveu el laboral d'alta direcció."
+      },
+      {
+        "text": "És designat lliurement per l'autoritat política sense cap procediment de publicitat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 13.2 exigeix designació d'acord amb mèrit i capacitat i criteris d'idoneïtat, mitjançant procediments que garanteixin publicitat i concurrència."
+      },
+      {
+        "text": "Quan és personal laboral, es contracta mitjançant contracte temporal per obra o servei",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Quan és laboral, està sotmès a la relació laboral de caràcter especial d'alta direcció."
+      },
+      {
+        "text": "Les seves condicions d'ocupació no poden ser objecte de negociació col·lectiva",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 13.4 TREBEP estableix que la determinació de les condicions d'ocupació del personal directiu no tindrà la consideració de matèria objecte de negociació col·lectiva."
+      }
+    ],
+    "hint": "Directiu: mèrit + idoneïtat + publicitat + avaluació; i fora de la mesa de negociació."
+  },
+  {
+    "guid": "a8c4c27e-c771-4a02-a1a8-2dcc13443b40",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 76 del TREBEP, quina titulació s'exigeix per a l'accés als cossos i escales del grup B?",
+    "answerOptions": [
+      {
+        "text": "Títol universitari de Grau",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Grau és la titulació del grup A (subgrups A1 i A2)."
+      },
+      {
+        "text": "Títol de Tècnic Superior",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 76 TREBEP exigeix el títol de Tècnic Superior per a l'accés al grup B."
+      },
+      {
+        "text": "Títol de Batxiller o Tècnic",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Batxiller o Tècnic és la titulació del subgrup C1."
+      },
+      {
+        "text": "Títol de Graduat en Educació Secundària Obligatòria",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El graduat en ESO és la titulació del subgrup C2."
+      }
+    ],
+    "hint": "A = Grau; B = Tècnic Superior; C1 = Batxiller/Tècnic; C2 = ESO."
+  },
+  {
+    "guid": "8e89a3ab-bd58-4dd1-bbbe-143545efd7fd",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin dels drets individuals de l'article 14 del TREBEP es reconeix expressament només als funcionaris de carrera i no a la resta d'empleats públics?",
+    "answerOptions": [
+      {
+        "text": "El dret a la formació continuada i a l'actualització permanent",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 14.g) reconeix la formació a tots els empleats públics."
+      },
+      {
+        "text": "El dret a la inamovibilitat en la condició de funcionari de carrera",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 14.a) reconeix la inamovibilitat en la condició de funcionari de carrera, dret propi d'aquesta classe de personal."
+      },
+      {
+        "text": "El dret a la desconnexió digital en els termes de la normativa vigent",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 14.j bis) reconeix aquest dret a tots els empleats públics."
+      },
+      {
+        "text": "El dret a les vacances, descansos i permisos",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 14.m) reconeix vacances, descansos, permisos i llicències a tots els empleats públics."
+      }
+    ],
+    "hint": "L'article 14 comença amb la inamovibilitat: la lletra a)."
+  },
+  {
+    "guid": "e5ba8a7d-f634-4532-9c42-349aa00d1d8a",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "El dret a la intimitat en l'ús de dispositius digitals i a la desconnexió digital (article 14.j bis TREBEP) va ser incorporat per:",
+    "answerOptions": [
+      {
+        "text": "La Llei 20/2021, de mesures urgents per a la reducció de la temporalitat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Llei 20/2021 va reformar l'art. 10 (interins) i l'art. 11 (laboral temporal)."
+      },
+      {
+        "text": "El Reial decret llei 6/2019, de mesures urgents per a la igualtat de tracte",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El RDL 6/2019 va reformar permisos de conciliació (art. 48 i 49), no els drets digitals."
+      },
+      {
+        "text": "El Reial decret llei 29/2020, de mesures urgents en matèria de teletreball a les administracions públiques",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El RDL 29/2020 va introduir l'art. 47 bis (teletreball), no la lletra j bis) de l'art. 14."
+      },
+      {
+        "text": "La Llei orgànica 3/2018, de protecció de dades personals i garantia dels drets digitals",
+        "isCorrect": true,
+        "rationale": "Correcta. La disposició final catorzena de la LO 3/2018 va afegir la lletra j bis) a l'art. 14 TREBEP."
+      }
+    ],
+    "hint": "Drets digitals = LOPDGDD (2018)."
+  },
+  {
+    "guid": "83e350cb-1691-4f06-9795-0253a4d2bfaf",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin dels següents NO figura entre els drets col·lectius de l'article 15 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "El dret a la lliure associació professional",
+        "isCorrect": true,
+        "rationale": "Correcta. La lliure associació professional és un dret individual de l'art. 14.l), no un dret col·lectiu de l'art. 15. Els col·lectius són: llibertat sindical, negociació col·lectiva, vaga, conflictes col·lectius i reunió."
+      },
+      {
+        "text": "El dret de reunió, en els termes de l'article 46",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És l'art. 15.e) TREBEP."
+      },
+      {
+        "text": "El dret a la negociació col·lectiva, representació i participació institucional",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És l'art. 15.b) TREBEP."
+      },
+      {
+        "text": "El dret a plantejar conflictes col·lectius de treball",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És l'art. 15.d) TREBEP."
+      }
+    ],
+    "hint": "Cinc drets col·lectius; l'associació professional queda a l'article 14."
+  },
+  {
+    "guid": "83418498-8883-49be-beb9-2c1a2b4cdcb4",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 16.3 del TREBEP, en què consisteix la promoció interna horitzontal?",
+    "answerOptions": [
+      {
+        "text": "En l'ascens en l'estructura de llocs de treball pels procediments de provisió",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això és la carrera vertical (art. 16.3.b)."
+      },
+      {
+        "text": "En l'ascens des d'un cos o escala d'un subgrup a un altre de superior",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això és la promoció interna vertical (art. 16.3.c)."
+      },
+      {
+        "text": "En l'accés a cossos o escales del mateix subgrup professional",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 16.3.d) defineix la promoció interna horitzontal com l'accés a cossos o escales del mateix subgrup professional."
+      },
+      {
+        "text": "En la progressió de grau o categoria sense canviar de lloc de treball",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això és la carrera horitzontal (art. 16.3.a i art. 17)."
+      }
+    ],
+    "hint": "Horitzontal = mateix nivell; promoció interna = canvi de cos."
+  },
+  {
+    "guid": "4a0d710b-92f1-4a25-93c4-9b4a745f3649",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "La carrera horitzontal (article 17 TREBEP) es caracteritza per:",
+    "answerOptions": [
+      {
+        "text": "L'accés a un cos o escala del subgrup immediatament superior mitjançant promoció interna",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això és la promoció interna vertical (art. 16.3.c)."
+      },
+      {
+        "text": "L'ascens en l'estructura de llocs de treball mitjançant concurs de mèrits o lliure designació",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això descriu la carrera vertical (art. 16.3.b)."
+      },
+      {
+        "text": "La mobilitat voluntària entre administracions públiques diferents per concurs de trasllats",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La mobilitat interadministrativa es regula a l'art. 84, no és una modalitat de carrera."
+      },
+      {
+        "text": "La progressió de grau, categoria o escaló sense necessitat de canviar de lloc de treball",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 17 configura la carrera horitzontal com un sistema de graus, categories o escalons d'ascens fixats de manera consecutiva, amb progressió sense canvi de lloc de treball."
+      }
+    ],
+    "hint": "Carrera horitzontal: creixes sense moure't de lloc."
+  },
+  {
+    "guid": "1016c92a-2888-4c8c-98c4-ab27c1e19010",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin temps mínim de serveis actius exigeix l'article 18.2 del TREBEP en el subgrup inferior per participar en la promoció interna?",
+    "answerOptions": [
+      {
+        "text": "Un any de servei actiu en el subgrup o grup d'origen",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El TREBEP no admet un termini d'un any."
+      },
+      {
+        "text": "Dos anys de servei actiu en el subgrup o grup d'origen",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 18.2 exigeix posseir els requisits de titulació, tenir una antiguitat mínima de dos anys de servei actiu en el subgrup inferior (o grup, si no hi ha subgrup) i superar les proves corresponents."
+      },
+      {
+        "text": "Tres anys de servei actiu en el subgrup o grup d'origen",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Tres anys no és el termini del TREBEP per a la promoció interna."
+      },
+      {
+        "text": "No s'exigeix cap període mínim, només la titulació",
+        "isCorrect": false,
+        "rationale": "Incorrecta. A més de la titulació, cal l'antiguitat mínima de dos anys."
+      }
+    ],
+    "hint": "Promoció interna: 2 anys en el subgrup inferior."
+  },
+  {
+    "guid": "c853e906-6e24-4eb8-aab8-d98933c5084c",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 20 del TREBEP, quin dels següents efectes pot tenir l'avaluació de l'acompliment?",
+    "answerOptions": [
+      {
+        "text": "La pèrdua de la condició de funcionari de carrera per avaluació negativa reiterada",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les causes de pèrdua de la condició de funcionari són les de l'art. 63, i l'avaluació negativa no hi figura."
+      },
+      {
+        "text": "La modificació del sou base i dels triennis reconeguts al funcionari",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'avaluació incideix en les retribucions complementàries (art. 24.c), no en les bàsiques."
+      },
+      {
+        "text": "La continuïtat en un lloc obtingut per concurs pot quedar vinculada a l'avaluació",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 20 preveu que la continuïtat en un lloc de treball obtingut per concurs quedarà vinculada a l'avaluació de l'acompliment, amb audiència i resolució motivada."
+      },
+      {
+        "text": "La imposició directa de sancions disciplinàries sense procediment previ",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cap sanció pot imposar-se sense procediment (art. 98.1)."
+      }
+    ],
+    "hint": "Avaluació: carrera horitzontal, formació, provisió, complement de rendiment i continuïtat en el lloc."
+  },
+  {
+    "guid": "fefc9c7d-68ab-4e95-b196-79271553017a",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 23 del TREBEP, les retribucions bàsiques dels funcionaris estan integrades única i exclusivament per:",
+    "answerOptions": [
+      {
+        "text": "El sou i els triennis",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 23 TREBEP: les retribucions bàsiques, fixades a la LPGE, estan integrades única i exclusivament pel sou (assignat a cada subgrup o grup) i els triennis."
+      },
+      {
+        "text": "El sou, els triennis i les pagues extraordinàries",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les pagues extraordinàries es regulen a part (art. 22.4) i inclouen també retribucions complementàries."
+      },
+      {
+        "text": "El sou i el complement de destinació",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El complement de destinació no és una retribució bàsica ni una categoria del TREBEP."
+      },
+      {
+        "text": "El sou, els triennis i el complement específic",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El complement específic és una retribució complementària (factors de l'art. 24.b)."
+      }
+    ],
+    "hint": "Bàsiques: només sou i triennis."
+  },
+  {
+    "guid": "1baa4e3f-93d4-46b1-b41c-4e049f3bec23",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "D'acord amb l'article 22.4 del TREBEP, les pagues extraordinàries dels funcionaris de carrera:",
+    "answerOptions": [
+      {
+        "text": "Són dues a l'any i cadascuna inclou una mensualitat de retribucions bàsiques i la totalitat de les complementàries, llevat de les dels apartats c) i d) de l'article 24",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 22.4 fixa dues pagues anuals, cadascuna per l'import d'una mensualitat de retribucions bàsiques i de la totalitat de les complementàries, excloses les dels apartats c) i d) de l'art. 24 (rendiment i serveis extraordinaris)."
+      },
+      {
+        "text": "Són tres a l'any i cadascuna inclou una mensualitat de retribucions bàsiques i la totalitat de les retribucions complementàries de l'article 24",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són dues, no tres, i s'exclouen els apartats c) i d) de l'art. 24."
+      },
+      {
+        "text": "Són dues a l'any i el seu import es fixa lliurement per cada administració en la negociació col·lectiva, sense cap mínim legal ni referència a les retribucions bàsiques",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'import mínim de cada paga el fixa el TREBEP: una mensualitat de bàsiques més complementàries a) i b)."
+      },
+      {
+        "text": "Són dues a l'any i cadascuna inclou només una mensualitat de sou i triennis, sense cap retribució complementària de les previstes a l'article 24",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les pagues incorporen també les complementàries dels apartats a) i b) de l'art. 24."
+      }
+    ],
+    "hint": "Fora de les pagues extra: rendiment (c) i serveis extraordinaris (d)."
+  },
+  {
+    "guid": "5fefd6c4-7bdd-415c-9b81-6ead112909c4",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin dels factors següents NO és un dels que, segons l'article 24 del TREBEP, retribueixen les retribucions complementàries?",
+    "answerOptions": [
+      {
+        "text": "La dificultat tècnica, responsabilitat, dedicació o incompatibilitat del lloc",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el factor de l'art. 24.b)."
+      },
+      {
+        "text": "Els serveis extraordinaris prestats fora de la jornada normal de treball",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el factor de l'art. 24.d)."
+      },
+      {
+        "text": "La progressió assolida pel funcionari dins el sistema de carrera administrativa",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el factor de l'art. 24.a)."
+      },
+      {
+        "text": "El nivell de titulació exigit per a l'accés al cos o escala corresponent",
+        "isCorrect": true,
+        "rationale": "Correcta. La titulació d'accés es retribueix mitjançant el sou (retribució bàsica assignada al subgrup), no per cap complement de l'art. 24."
+      }
+    ],
+    "hint": "Quatre factors: carrera, lloc, rendiment, serveis extraordinaris."
+  },
+  {
+    "guid": "fab2a895-4f27-41a5-aeb5-d7c4630d6119",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 25 del TREBEP, els funcionaris interins perceben les retribucions complementàries de l'article 24 corresponents als apartats:",
+    "answerOptions": [
+      {
+        "text": "Únicament els apartats b) i c), a més de les bàsiques i les pagues extraordinàries",
+        "isCorrect": false,
+        "rationale": "Incorrecta. També perceben la d) (serveis extraordinaris fora de la jornada)."
+      },
+      {
+        "text": "Apartats b), c) i d), però no el a) relatiu a la progressió en la carrera",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 25.1: els interins perceben bàsiques i pagues extraordinàries del subgrup, i les complementàries dels apartats b), c) i d) de l'art. 24, més les de la categoria d'entrada. Queda fora la progressió de carrera (a)."
+      },
+      {
+        "text": "Apartats a), b), c) i d), en les mateixes condicions que els funcionaris de carrera",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'apartat a) (progressió en la carrera) no correspon als interins."
+      },
+      {
+        "text": "Apartats a), b) i c), però no el d) relatiu als serveis extraordinaris",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'apartat exclòs és a), no d)."
+      }
+    ],
+    "hint": "L'interí no fa carrera: fora l'apartat a). Els triennis reconeguts sí (art. 25.2)."
+  },
+  {
+    "guid": "bcebd819-353b-42e0-8393-b1e6c8f5c32f",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "D'acord amb l'article 30 del TREBEP, la deducció de retribucions pel temps en què el funcionari ha exercit el dret de vaga:",
+    "answerOptions": [
+      {
+        "text": "Només és possible si la vaga ha estat declarada il·legal per l'autoritat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La deducció opera per l'exercici del dret de vaga, legal, sense cap declaració prèvia."
+      },
+      {
+        "text": "Afecta el règim de prestacions socials del funcionari durant aquell període",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 30.2 diu expressament que no afecta el règim de prestacions socials."
+      },
+      {
+        "text": "No té caràcter de sanció ni afecta el règim de prestacions socials",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 30.2 TREBEP: qui exerceix el dret de vaga no merita ni percep les retribucions del temps en vaga, sense que la deducció tingui caràcter de sanció ni afecti el règim de prestacions socials."
+      },
+      {
+        "text": "Té caràcter de sanció disciplinària i requereix procediment previ",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 30.2 exclou expressament el caràcter sancionador de la deducció."
+      }
+    ],
+    "hint": "Vaga: deducció proporcional, mai sanció."
+  },
+  {
+    "guid": "9d5b5a02-48c2-48f3-8c7c-e40564851f4d",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin dels següents NO és un dels principis que, segons l'article 33 del TREBEP, han de regir la negociació col·lectiva dels empleats públics?",
+    "answerOptions": [
+      {
+        "text": "Publicitat i transparència",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són principis de l'art. 33.1 TREBEP."
+      },
+      {
+        "text": "Obligatorietat i bona fe negocial",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són principis de l'art. 33.1 TREBEP."
+      },
+      {
+        "text": "Discrecionalitat tècnica i celeritat",
+        "isCorrect": true,
+        "rationale": "Correcta. La discrecionalitat tècnica i l'agilitat són principis dels processos selectius (art. 55.2), no de la negociació col·lectiva. Els de l'art. 33 són: legalitat, cobertura pressupostària, obligatorietat, bona fe negocial, publicitat i transparència."
+      },
+      {
+        "text": "Legalitat i cobertura pressupostària",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són principis de l'art. 33.1 TREBEP."
+      }
+    ],
+    "hint": "Article 33 = 6 principis; la discrecionalitat tècnica viu a l'article 55."
+  },
+  {
+    "guid": "ffafc7cf-eead-428f-a0c8-3dbc005e9777",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 34.2 del TREBEP, a més de les organitzacions sindicals més representatives, estan legitimades per ser presents a les meses de negociació les que hagin obtingut, en l'àmbit de la mesa, com a mínim:",
+    "answerOptions": [
+      {
+        "text": "El 5% dels representants a les eleccions a delegats i juntes de personal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El llindar del TREBEP no és el 5%."
+      },
+      {
+        "text": "El 10% dels representants a les eleccions a delegats i juntes de personal",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 34.2 legitima les OS dels art. 6.3.c) i 7.1 LOLS i els sindicats que hagin obtingut el 10% o més dels representants a les eleccions a delegats i juntes de personal en l'àmbit de la mesa."
+      },
+      {
+        "text": "El 20% dels representants a les eleccions a delegats i juntes de personal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El llindar del TREBEP no és el 20%."
+      },
+      {
+        "text": "El 15% dels representants a les eleccions a delegats i juntes de personal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El llindar del TREBEP no és el 15%."
+      }
+    ],
+    "hint": "10% és el nombre màgic de la legitimació sindical en àmbit de mesa."
+  },
+  {
+    "guid": "5832bc84-57e4-4a3b-a2d0-2cce519f0df5",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina de les matèries següents queda EXCLOSA de l'obligatorietat de negociació segons l'article 37.2 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "La regulació dels drets dels ciutadans i dels usuaris dels serveis públics",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 37.2.b) exclou de la negociació la regulació de l'exercici dels drets dels ciutadans i dels usuaris dels serveis públics."
+      },
+      {
+        "text": "L'aplicació de l'increment retributiu fixat a la Llei de pressupostos generals de l'Estat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És matèria negociable de l'art. 37.1.a)."
+      },
+      {
+        "text": "Els criteris generals dels plans i fons per a la formació i la promoció interna",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És matèria negociable de l'art. 37.1.f)."
+      },
+      {
+        "text": "Les matèries que estableixi la normativa de prevenció de riscos laborals",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És matèria negociable de l'art. 37.1.j)."
+      }
+    ],
+    "hint": "Excloses: organització (llevat repercussió en condicions), drets de ciutadans, procediment d'actes, direcció i control, concreció de sistemes d'accés."
+  },
+  {
+    "guid": "91d4727a-8b57-4d9f-8c14-5b532009d874",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 38 del TREBEP, què distingeix els Acords dels Pactes?",
+    "answerOptions": [
+      {
+        "text": "Els Acords només poden subscriure's amb el personal laboral, mentre que els Pactes es reserven exclusivament al personal funcionari",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Pactes i Acords es distingeixen per l'òrgan competent sobre la matèria, no pel tipus de personal."
+      },
+      {
+        "text": "Els Acords versen sobre matèries de competència estricta de l'òrgan que els subscriu i s'apliquen directament sense cap aprovació posterior",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquesta és la definició dels Pactes (art. 38.2)."
+      },
+      {
+        "text": "Els Acords tenen sempre rang de llei un cop signats, mentre que els Pactes tenen rang reglamentari i poden ser modificats per l'òrgan signant",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els Acords sobre matèries reservades a llei es tramiten com a projecte de llei (art. 38.3); no adquireixen rang legal per la signatura."
+      },
+      {
+        "text": "Els Acords versen sobre matèries competència dels òrgans de govern i necessiten la seva aprovació expressa i formal per ser vàlids i eficaços",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 38.3: els Acords versen sobre matèries competència dels òrgans de govern de les AP i, per a la seva validesa i eficàcia, cal l'aprovació expressa i formal d'aquests òrgans."
+      }
+    ],
+    "hint": "Pacte = competència estricta de l'òrgan, aplicació directa. Acord = òrgans de govern, aprovació expressa."
+  },
+  {
+    "guid": "454adf9b-700a-46e4-b750-2d6bfe593152",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "En una unitat electoral amb 40 funcionaris, quants delegats de personal s'han d'elegir segons l'article 39 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Cap: s'ha de constituir una junta de personal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La junta de personal es constitueix a partir de 50 funcionaris."
+      },
+      {
+        "text": "Tres delegats de personal",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 39.2: a les unitats electorals amb un cens d'entre 6 i menys de 50 funcionaris s'elegeixen delegats de personal; fins a 30, un delegat; de 31 a 49, tres delegats."
+      },
+      {
+        "text": "Cinc delegats de personal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cinc és el nombre mínim de membres d'una junta de personal (50 a 100 funcionaris)."
+      },
+      {
+        "text": "Un delegat de personal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Un delegat correspon a unitats de fins a 30 funcionaris."
+      }
+    ],
+    "hint": "6-30 → 1 delegat; 31-49 → 3 delegats; ≥50 → junta."
+  },
+  {
+    "guid": "03fff6aa-f4b7-43c9-b371-b1561b380d14",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 46 del TREBEP, quin percentatge mínim del col·lectiu d'empleats públics pot convocar una reunió, i amb quina antelació s'ha de comunicar?",
+    "answerOptions": [
+      {
+        "text": "El 40% del col·lectiu, amb dos dies hàbils d'antelació",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 46 legitima per convocar reunions, entre d'altres, els empleats públics en nombre no inferior al 40% del col·lectiu, i exigeix comunicació a l'òrgan competent amb una antelació de dos dies hàbils."
+      },
+      {
+        "text": "El 25% del col·lectiu, amb dos dies hàbils d'antelació",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El percentatge de l'art. 46.1.e) és el 40%."
+      },
+      {
+        "text": "El 50% del col·lectiu, amb tres dies hàbils d'antelació",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Ni el percentatge ni l'antelació coincideixen amb l'art. 46."
+      },
+      {
+        "text": "El 40% del col·lectiu, amb cinc dies hàbils d'antelació",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'antelació és de dos dies hàbils, no cinc."
+      }
+    ],
+    "hint": "Reunió: 40% i 2 dies hàbils."
+  },
+  {
+    "guid": "18aab756-629b-4368-a8e5-30b73f064daa",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quants dies de permís per assumptes particulars reconeix, amb caràcter general, l'article 48.k del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Tres dies a l'any",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Tres dies va ser una reducció conjuntural del RDL 20/2012, recuperada després."
+      },
+      {
+        "text": "Nou dies a l'any",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Nou no és la xifra del TREBEP."
+      },
+      {
+        "text": "Vuit dies a l'any",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Vuit no és la xifra del TREBEP."
+      },
+      {
+        "text": "Sis dies a l'any",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 48.k) TREBEP reconeix sis dies de permís per assumptes particulars a l'any, sense perjudici dels addicionals per antiguitat de la DA 14a."
+      }
+    ],
+    "hint": "Els 6 dies són el mínim bàsic; l'antiguitat n'afegeix."
+  },
+  {
+    "guid": "ea43eef4-23bd-418e-93bd-b7ec07783798",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons la disposició addicional catorzena del TREBEP, els dies addicionals de permís per assumptes particulars per antiguitat són:",
+    "answerOptions": [
+      {
+        "text": "Dos dies en complir el cinquè trienni, i un més per cada trienni a partir del sisè",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El primer llindar és el sisè trienni, no el cinquè."
+      },
+      {
+        "text": "Un dia en complir el sisè trienni, i un més per cada trienni a partir del setè",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són dos dies en complir el sisè trienni, i el còmput addicional comença al vuitè."
+      },
+      {
+        "text": "Dos dies en complir el sisè trienni, i un més per cada trienni a partir del vuitè",
+        "isCorrect": true,
+        "rationale": "Correcta. La DA 14a TREBEP: dos dies addicionals en complir el sisè trienni, incrementats en un dia addicional per cada trienni complert a partir del vuitè."
+      },
+      {
+        "text": "Un dia per cada trienni complert a partir del quart, sense cap límit",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El sistema no és lineal des del quart trienni."
+      }
+    ],
+    "hint": "6è trienni: +2; 8è, 9è, 10è...: +1 cadascun."
+  },
+  {
+    "guid": "2930d981-d5d9-40c2-bfea-0e5e6462c227",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Un funcionari amb 25 anys de servei complerts: quants dies hàbils addicionals de vacances li corresponen segons la disposició addicional quinzena del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Tres dies hàbils addicionals",
+        "isCorrect": true,
+        "rationale": "Correcta. La DA 15a TREBEP afegeix un dia hàbil addicional als 15 anys de servei, i un altre en complir 20, 25 i 30 anys: als 25 anys en són tres (25 dies hàbils en total)."
+      },
+      {
+        "text": "Un dia hàbil addicional",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Un dia correspon en complir 15 anys de servei."
+      },
+      {
+        "text": "Dos dies hàbils addicionals",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Dos dies corresponen en complir 20 anys de servei."
+      },
+      {
+        "text": "Quatre dies hàbils addicionals",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Quatre dies corresponen en complir 30 o més anys de servei."
+      }
+    ],
+    "hint": "15/20/25/30 anys → 1/2/3/4 dies. Base: 22 dies hàbils (art. 50)."
+  },
+  {
+    "guid": "f153afd9-a517-4d2b-ac03-d015d35f319c",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Sobre el permís per lactància d'un fill menor de dotze mesos (article 48.f TREBEP), quina afirmació és correcta?",
+    "answerOptions": [
+      {
+        "text": "No pot substituir-se ni acumular-se en jornades completes en cap cas, ni tan sols per acord amb l'Administració",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 48.f) permet substituir-lo per un permís retribuït que acumuli en jornades completes el temps corresponent."
+      },
+      {
+        "text": "És un dret individual dels funcionaris que no es pot transferir a l'altre progenitor",
+        "isCorrect": true,
+        "rationale": "Correcta. Des del RDL 6/2019, l'art. 48.f) configura el permís com un dret individual dels funcionaris, sense que pugui transferir-se el seu exercici a l'altre progenitor, adoptant, guardador o acollidor."
+      },
+      {
+        "text": "Consisteix en una reducció d'una hora diària de la jornada, no retribuïda, fins que el fill compleix un any",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El permís de lactància és retribuït."
+      },
+      {
+        "text": "Només pot exercir-lo la mare biològica, que pot cedir-lo totalment o parcialment a l'altre progenitor si tots dos treballen",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La cessió era el règim anterior a 2019; ara és un dret individual i intransferible."
+      }
+    ],
+    "hint": "Parany transferible/no transferible: lactància = intransferible."
+  },
+  {
+    "guid": "89466774-8b63-44c2-b9a9-632aa2b9e4e5",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "El permís per força major per motius familiars urgents (article 48.l TREBEP, introduït pel RDL 5/2023) té una durada de:",
+    "answerOptions": [
+      {
+        "text": "Dos dies l'any, retribuïts, sense possibilitat de gaudi per hores",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La durada és de quatre dies i pot gaudir-se per hores."
+      },
+      {
+        "text": "Quatre dies l'any, no retribuïts, que poden gaudir-se per hores",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els quatre dies són retribuïts."
+      },
+      {
+        "text": "Quatre dies l'any, retribuïts, que poden gaudir-se per hores",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 48.l) TREBEP reconeix per absentar-se per força major, per motius familiars urgents i imprevisibles, fins a quatre dies retribuïts a l'any, que poden gaudir-se per hores."
+      },
+      {
+        "text": "Sis dies l'any, retribuïts, de gaudi obligatòriament en jornades completes",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són quatre dies, i el TREBEP permet expressament el gaudi per hores."
+      }
+    ],
+    "hint": "Força major: 4 dies retribuïts, per hores. No confondre amb els 6 d'assumptes particulars."
+  },
+  {
+    "guid": "db6bd75b-2164-4e29-98b2-f3d7275780cd",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Després del Reial decret llei 9/2025, quina és la durada del permís per naixement de fill per a la mare biològica (article 49.a TREBEP), i com es distribueix?",
+    "answerOptions": [
+      {
+        "text": "Dinou setmanes: totes de gaudi obligatori, ininterromput i a jornada completa immediatament després del part, sense cap tram de gaudi flexible posterior",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Només les sis primeres són obligatòries i ininterrompudes; la resta és de gaudi flexible."
+      },
+      {
+        "text": "Setze setmanes: sis ininterrompudes i obligatòries immediatament després del part i deu de gaudi flexible fins que el fill compleixi dotze mesos",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Setze setmanes era la durada anterior al RDL 9/2025."
+      },
+      {
+        "text": "Divuit setmanes: sis ininterrompudes i obligatòries immediatament després del part i dotze de gaudi flexible fins que el fill compleixi dotze mesos",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són dinou setmanes, no divuit, amb una distribució 6 + 11 + 2."
+      },
+      {
+        "text": "Dinou setmanes: sis obligatòries després del part, onze de gaudi flexible fins als dotze mesos i dues fins que el fill faci vuit anys",
+        "isCorrect": true,
+        "rationale": "Correcta. El RDL 9/2025 amplia el permís a dinou setmanes: sis ininterrompudes i obligatòries immediatament després del part, onze de gaudi flexible fins que el fill compleixi dotze mesos i dues addicionals fins als vuit anys. En famílies monoparentals, trenta-dues setmanes."
+      }
+    ],
+    "hint": "6 + 11 + 2 = 19; monoparentals 32."
+  },
+  {
+    "guid": "eda3231f-c530-4137-99b8-6619eceaf597",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "El permís parental per a la cura de fill menor de vuit anys de l'article 49.g del TREBEP:",
+    "answerOptions": [
+      {
+        "text": "Té una durada màxima de setze setmanes i es pot gaudir fins que el fill faci dotze anys",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són vuit setmanes fins als vuit anys del menor."
+      },
+      {
+        "text": "Es regula a l'article 48 bis del TREBEP, per remissió a l'Estatut dels Treballadors",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'article 48 bis és el de l'Estatut dels Treballadors; al TREBEP el permís parental és l'art. 49.g). Error de cita freqüent."
+      },
+      {
+        "text": "Té una durada màxima de vuit setmanes, contínues o discontínues, i és retribuït íntegrament",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El permís parental de l'art. 49.g) no és retribuït: el parany clàssic retribuït/no retribuït."
+      },
+      {
+        "text": "Té una durada màxima de vuit setmanes, contínues o discontínues, i no és retribuït",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 49.g) TREBEP (RDL 5/2023) preveu un permís parental de durada no superior a vuit setmanes, contínues o discontínues, fins que el menor faci vuit anys, i no retribuït."
+      }
+    ],
+    "hint": "ET: art. 48 bis. TREBEP: art. 49.g). Vuit setmanes, vuit anys, zero retribució."
+  },
+  {
+    "guid": "928915cd-e6ec-4b59-85c8-fa1b1213c443",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 49.f del TREBEP, el permís de les funcionàries en estat de gestació s'inicia:",
+    "answerOptions": [
+      {
+        "text": "A partir de la setmana 37 de l'embaràs, o de la 35 en cas de gestació múltiple",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 49.f) TREBEP (RDL 6/2019) reconeix un permís retribuït des del dia primer de la setmana 37 fins al part, i des de la setmana 35 en cas de gestació múltiple."
+      },
+      {
+        "text": "A partir de la setmana 38 de l'embaràs, sense variació en cas de gestació múltiple",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'inici és la setmana 37, i la gestació múltiple l'avança a la 35."
+      },
+      {
+        "text": "A partir de la setmana 36 de l'embaràs, o de la 34 en cas de gestació múltiple",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les setmanes del TREBEP són la 37 i la 35."
+      },
+      {
+        "text": "A partir de la setmana 35 de l'embaràs, o de la 33 en cas de gestació múltiple",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La setmana 35 és el punt d'inici només per a la gestació múltiple."
+      }
+    ],
+    "hint": "Gestació: 37 (35 múltiple) fins al part, retribuït."
+  },
+  {
+    "guid": "2baa840e-c6ab-4e1c-aac4-4e9891def0aa",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 52 del TREBEP, quina funció tenen els principis i regles del codi de conducta respecte del règim disciplinari?",
+    "answerOptions": [
+      {
+        "text": "No tenen cap relació amb el règim disciplinari, que és autònom",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El TREBEP vincula expressament ambdós capítols."
+      },
+      {
+        "text": "Informen la interpretació i aplicació del règim disciplinari dels empleats públics",
+        "isCorrect": true,
+        "rationale": "Correcta. L'últim paràgraf de l'art. 52 TREBEP: els principis i regles del capítol VI informaran la interpretació i aplicació del règim disciplinari."
+      },
+      {
+        "text": "Constitueixen per si mateixos un catàleg de faltes disciplinàries directament sancionables",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les faltes es tipifiquen a l'art. 95 i a les lleis de desenvolupament, no al codi de conducta."
+      },
+      {
+        "text": "Substitueixen el règim disciplinari en el cas de les infraccions lleus, que es resolen per amonestació",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El codi de conducta no substitueix cap part del règim disciplinari."
+      }
+    ],
+    "hint": "Codi de conducta = criteri interpretatiu del disciplinari."
+  },
+  {
+    "guid": "213f382d-0e0f-4291-b837-5b8f78c8a61a",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "El deure de rebutjar qualsevol regal, favor o servei en condicions avantatjoses que vagi més enllà dels usos habituals, socials i de cortesia és, segons el TREBEP:",
+    "answerOptions": [
+      {
+        "text": "Una falta molt greu de l'article 95.2",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 95.2 no tipifica els regals com a tals; la falta connexa seria la prevalença de la condició per obtenir beneficis indeguts (95.2.j)."
+      },
+      {
+        "text": "Un dels deures generals de l'article 52.1",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 52 enumera principis genèrics (objectivitat, integritat...), sense concretar la regla dels regals."
+      },
+      {
+        "text": "Un principi de conducta de l'article 54",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 54.6 TREBEP, dins els principis de conducta, imposa rebutjar qualsevol regal, favor o servei en condicions avantatjoses més enllà dels usos habituals, socials i de cortesia."
+      },
+      {
+        "text": "Un principi ètic de l'article 53",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 53 conté els principis ètics (lleialtat, imparcialitat, abstenció...), no la regla dels regals."
+      }
+    ],
+    "hint": "Ètics (53): valors. Conducta (54): comportaments concrets (regals, informació, obediència)."
+  },
+  {
+    "guid": "f35ad03e-8398-473c-be39-e7b7327e7104",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 54.3 del TREBEP, si un empleat públic rep una instrucció que suposa una infracció manifesta de l'ordenament jurídic, ha de:",
+    "answerOptions": [
+      {
+        "text": "Complir-la i presentar recurs d'alçada contra la instrucció davant el superior",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El TREBEP no exigeix compliment ni preveu recurs d'alçada com a via."
+      },
+      {
+        "text": "No complir-la i posar-ho immediatament en coneixement dels òrgans d'inspecció procedents",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 54.3 TREBEP: s'obeeixen les instruccions i ordres dels superiors llevat que constitueixin infracció manifesta de l'ordenament, cas en què es posen immediatament en coneixement dels òrgans d'inspecció procedents."
+      },
+      {
+        "text": "Complir-la igualment i deixar constància escrita del seu desacord davant el superior jeràrquic que l'ha dictada",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La instrucció manifestament il·legal no s'ha de complir."
+      },
+      {
+        "text": "Sol·licitar dictamen previ i vinculant al servei jurídic abans de decidir si la compleix o no",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No hi ha cap tràmit de dictamen previ; la reacció és no complir i comunicar-ho a inspecció."
+      }
+    ],
+    "hint": "Il·legalitat manifesta → desobediència legítima + comunicació a inspecció (i no és falta de l'art. 95.2.i)."
+  },
+  {
+    "guid": "eb2d3562-365c-41d1-85f7-33e38bedb4ab",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quants principis ètics enumera l'article 53 del TREBEP i quants principis de conducta enumera l'article 54?",
+    "answerOptions": [
+      {
+        "text": "Dotze principis ètics i dotze principis de conducta",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els principis de conducta són onze."
+      },
+      {
+        "text": "Onze principis ètics i dotze principis de conducta",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les xifres estan invertides: dotze ètics i onze de conducta."
+      },
+      {
+        "text": "Dotze principis ètics i onze principis de conducta",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 53 enumera dotze principis ètics i l'art. 54 enumera onze principis de conducta."
+      },
+      {
+        "text": "Deu principis ètics i deu principis de conducta",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les llistes no són simètriques de deu."
+      }
+    ],
+    "hint": "53 → 12 ètics; 54 → 11 de conducta (els de conducta són un menys)."
+  },
+  {
+    "guid": "6ca3b755-db9a-4a4c-aff9-3816e52b690e",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin és el principi general de la Llei 53/1984, d'incompatibilitats del personal al servei de les administracions públiques?",
+    "answerOptions": [
+      {
+        "text": "Qualsevol activitat privada, per compte propi o aliè, és compatible sense necessitat d'autorització sempre que es desenvolupi fora de la jornada de treball",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les activitats privades requereixen reconeixement previ de compatibilitat (art. 14) i tenen límits (art. 11-13)."
+      },
+      {
+        "text": "El personal pot compatibilitzar fins a dos llocs de treball al sector públic sempre que la suma de les jornades no superi la jornada ordinària i ho comuniqui prèviament",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La regla és la incompatibilitat amb un segon lloc públic, llevat de les excepcions legals (art. 3 a 6)."
+      },
+      {
+        "text": "La compatibilitat amb altres activitats es presumeix sempre, i l'Administració només pot denegar-la mitjançant resolució motivada i amb audiència prèvia de l'interessat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La regla general és la incompatibilitat; la compatibilitat és l'excepció que requereix autorització o reconeixement."
+      },
+      {
+        "text": "El personal no pot compatibilitzar les seves activitats amb un segon lloc, càrrec o activitat al sector públic, llevat dels supòsits previstos a la llei",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 1.1 Llei 53/1984: el personal comprès en el seu àmbit no pot compatibilitzar les seves activitats amb l'exercici de qualsevol càrrec, professió o activitat, públics o privats, per compte propi o aliè, llevat dels supòsits previstos a la mateixa llei."
+      }
+    ],
+    "hint": "Regla: un sol lloc públic. Excepció: autorització (públic) o reconeixement (privat)."
+  },
+  {
+    "guid": "0dcb01e0-b3fc-412d-a078-6766b96fd3a0",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 16.4 de la Llei 53/1984, es pot reconèixer compatibilitat per a activitats privades al personal que percebi complement específic sempre que aquest no superi el:",
+    "answerOptions": [
+      {
+        "text": "30% de les retribucions bàsiques, exclosos els conceptes d'antiguitat",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 16.4 Llei 53/1984 permet reconèixer compatibilitat per a activitats privades quan el complement específic o concepte equiparable no superi el 30% de la retribució bàsica, exclosos els conceptes que tinguin el seu origen en l'antiguitat."
+      },
+      {
+        "text": "30% de les retribucions totals, inclosos els conceptes d'antiguitat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La base són les retribucions bàsiques, i l'antiguitat s'exclou."
+      },
+      {
+        "text": "50% de les retribucions bàsiques, inclosos els conceptes d'antiguitat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Ni el 50% ni la inclusió de l'antiguitat responen a la llei."
+      },
+      {
+        "text": "20% de les retribucions bàsiques, exclosos els conceptes d'antiguitat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El percentatge legal és el 30%."
+      }
+    ],
+    "hint": "30% de bàsiques sense antiguitat: l'excepció al bloqueig del complement específic (art. 16.1)."
+  },
+  {
+    "guid": "ad0473ec-62d0-4def-bd1d-4d85b079dc44",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 19 de la Llei 53/1984, queda exceptuada del règim d'incompatibilitats la direcció de seminaris o el dictat de cursos o conferències en centres oficials, sempre que no tinguin caràcter permanent o habitual ni superin:",
+    "answerOptions": [
+      {
+        "text": "Les 75 hores anuals",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 19.b) Llei 53/1984 exceptua la direcció de seminaris o el dictat de cursos o conferències en centres oficials destinats a la formació de funcionaris o professorat, quan no tinguin caràcter permanent o habitual ni suposin més de 75 hores a l'any."
+      },
+      {
+        "text": "Les 50 hores anuals",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El límit legal és de 75 hores anuals."
+      },
+      {
+        "text": "Les 100 hores anuals",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El límit legal és de 75 hores anuals."
+      },
+      {
+        "text": "Les 120 hores anuals",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El límit legal és de 75 hores anuals."
+      }
+    ],
+    "hint": "Activitats exceptuades (art. 19): patrimoni personal, cursos ≤75 h, tribunals, creació literària/artística, col·loquis ocasionals."
+  },
+  {
+    "guid": "c7ba2a88-0727-494f-8429-9ef3b2acfe71",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Com qualifica l'article 95.2.n del TREBEP l'incompliment de les normes sobre incompatibilitats quan dona lloc a una situació d'incompatibilitat?",
+    "answerOptions": [
+      {
+        "text": "No el tipifica: la qualificació correspon a la Llei 53/1984",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El TREBEP el tipifica expressament; la Llei 53/1984 (art. 20) coincideix en la qualificació de molt greu."
+      },
+      {
+        "text": "Com a falta molt greu",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 95.2.n) TREBEP tipifica com a falta molt greu l'incompliment de les normes sobre incompatibilitats quan això doni lloc a una situació d'incompatibilitat; en el mateix sentit, l'art. 20 Llei 53/1984."
+      },
+      {
+        "text": "Com a falta greu, per la gravetat dels danys causats",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les faltes greus les tipifiquen les lleis de desenvolupament; aquesta conducta és molt greu al mateix TREBEP."
+      },
+      {
+        "text": "Com a falta lleu, sancionable amb advertència",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No és falta lleu: el TREBEP la situa en el grau màxim."
+      }
+    ],
+    "hint": "Incompatibilitats → sempre molt greu, tant al TREBEP (95.2.n) com a la Llei 53/1984 (art. 20)."
+  },
+  {
+    "guid": "9061a276-2bdf-4eda-a1a8-4325459e86b6",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin dels següents NO és un dels principis de la potestat disciplinària enumerats a l'article 94.2 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Principi de presumpció d'innocència",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És l'art. 94.2.e) TREBEP."
+      },
+      {
+        "text": "Principi de legalitat i tipicitat de les faltes i sancions",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És l'art. 94.2.a) TREBEP."
+      },
+      {
+        "text": "Principi d'irretroactivitat de les disposicions sancionadores no favorables",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És l'art. 94.2.b) TREBEP, amb retroactivitat de les favorables."
+      },
+      {
+        "text": "Principi d'oportunitat en l'exercici de l'acció disciplinària",
+        "isCorrect": true,
+        "rationale": "Correcta. L'oportunitat no figura a l'art. 94.2. Els principis són: legalitat i tipicitat, irretroactivitat (amb retroactivitat de les favorables), proporcionalitat, culpabilitat i presumpció d'innocència."
+      }
+    ],
+    "hint": "Cinc principis: L-I-P-C-P (legalitat, irretroactivitat, proporcionalitat, culpabilitat, presumpció)."
+  },
+  {
+    "guid": "8f8a5613-3f20-4328-9e35-bf0326a33a3b",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 94.3 del TREBEP, si durant la instrucció d'un procediment disciplinari apareixen indicis fonamentats de criminalitat, l'Administració ha de:",
+    "answerOptions": [
+      {
+        "text": "Continuar la tramitació i imposar la sanció, sense perjudici de la responsabilitat penal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 94.3 imposa la suspensió del procediment disciplinari."
+      },
+      {
+        "text": "Arxivar definitivament l'expedient disciplinari, ja que la via penal exclou la disciplinària",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El procediment se suspèn, no s'arxiva: la responsabilitat penal i la disciplinària són compatibles."
+      },
+      {
+        "text": "Suspendre la tramitació i posar-ho en coneixement del Ministeri Fiscal",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 94.3 TREBEP: quan de la instrucció resultin indicis fonamentats de criminalitat, se suspèn la tramitació i es posa en coneixement del Ministeri Fiscal; els fets declarats provats per resolució judicial ferma vinculen l'Administració."
+      },
+      {
+        "text": "Remetre les actuacions al Consell General del Poder Judicial perquè decideixi",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El destinatari legal és el Ministeri Fiscal, no el CGPJ."
+      }
+    ],
+    "hint": "Indicis de delicte → suspensió + Fiscalia. Fets provats penalment vinculen."
+  },
+  {
+    "guid": "8c65f7f0-2938-43ad-9bc7-66e40d8730dc",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina de les conductes següents NO està tipificada com a falta molt greu a l'article 95.2 del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "La desobediència oberta a les ordres o instruccions d'un superior, llevat que constitueixin infracció manifesta de l'ordenament",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la falta molt greu de l'art. 95.2.i)."
+      },
+      {
+        "text": "La incompareixença injustificada a les Comissions d'Investigació de les Corts Generals i de les Assemblees Legislatives de les CA",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la falta molt greu de l'art. 95.2.ñ)."
+      },
+      {
+        "text": "Les faltes reiterades de puntualitat sense causa justificada",
+        "isCorrect": true,
+        "rationale": "Correcta. La impuntualitat no figura al catàleg de faltes molt greus de l'art. 95.2; la seva qualificació (greu o lleu) correspon a les lleis de desenvolupament segons l'art. 95.3 i 95.4."
+      },
+      {
+        "text": "L'abandonament del servei, així com no fer-se càrrec voluntàriament de les tasques o funcions encomanades",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la falta molt greu de l'art. 95.2.c)."
+      }
+    ],
+    "hint": "El catàleg del 95.2 (a-p) és tancat; la puntualitat queda per a les lleis de desenvolupament."
+  },
+  {
+    "guid": "a07e58d1-b246-4582-9033-c1aedefbc1ef",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 95.3 del TREBEP, les faltes greus dels empleats públics són establertes per:",
+    "answerOptions": [
+      {
+        "text": "Reglament de cada administració pública, prèvia negociació col·lectiva amb les organitzacions sindicals més representatives en la mesa general corresponent",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La tipificació de faltes greus exigeix norma amb rang de llei (o conveni per al laboral), no reglament."
+      },
+      {
+        "text": "El mateix TREBEP, en un catàleg tancat, sense possibilitat de desenvolupament autonòmic ni convencional",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El TREBEP només tipifica directament les faltes molt greus (art. 95.2)."
+      },
+      {
+        "text": "Resolució motivada de l'òrgan competent per sancionar, atenent en cada cas concret la gravetat dels fets",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això vulneraria el principi de legalitat i tipicitat (art. 94.2.a)."
+      },
+      {
+        "text": "Llei de les Corts Generals o de l'Assemblea Legislativa de la CA corresponent, o convenis col·lectius en el cas del personal laboral",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 95.3 TREBEP: les faltes greus s'estableixen per llei de les Corts Generals o de l'Assemblea Legislativa de la CA, o pels convenis col·lectius en el cas del personal laboral, atenent la gravetat dels danys, el descrèdit per a la imatge pública i el grau d'intencionalitat."
+      }
+    ],
+    "hint": "Molt greus: TREBEP. Greus i lleus: lleis de desenvolupament (i convenis per al laboral)."
+  },
+  {
+    "guid": "bd27c85e-761b-41de-a62f-661bf9e2601d",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina és la durada màxima de la sanció de suspensió ferma de funcions segons l'article 96.1.b del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "Sis anys",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 96.1.b) TREBEP: suspensió ferma de funcions, o de feina i sou per al laboral, amb una durada màxima de sis anys."
+      },
+      {
+        "text": "Sis mesos",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Sis mesos és el màxim de la suspensió provisional cautelar (art. 98.3), no de la sanció."
+      },
+      {
+        "text": "Un any",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Un any és el termini de prescripció de les sancions per faltes lleus (art. 97)."
+      },
+      {
+        "text": "Tres anys",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Tres anys és el termini de prescripció de les faltes i sancions molt greus (art. 97), no el màxim de la suspensió."
+      }
+    ],
+    "hint": "Suspensió-sanció: 6 anys. Suspensió-cautelar: 6 mesos."
+  },
+  {
+    "guid": "ccee7124-ea53-4e73-89dd-c90eb779ee69",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "En què consisteix la sanció de demèrit prevista a l'article 96.1.d del TREBEP?",
+    "answerOptions": [
+      {
+        "text": "En la reducció temporal de les retribucions complementàries del funcionari",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El TREBEP no preveu cap sanció de reducció retributiva."
+      },
+      {
+        "text": "En la penalització a efectes de carrera, promoció o mobilitat voluntària",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 96.1.d) TREBEP defineix el demèrit com la penalització a efectes de carrera, promoció o mobilitat voluntària."
+      },
+      {
+        "text": "En la pèrdua definitiva del grau personal consolidat pel funcionari",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El TREBEP no configura el demèrit com a pèrdua de grau."
+      },
+      {
+        "text": "En el trasllat forçós amb canvi de localitat de residència del funcionari",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El trasllat forçós és una sanció autònoma de l'art. 96.1.c)."
+      }
+    ],
+    "hint": "Sancions (art. 96): separació, suspensió (≤6 anys), trasllat forçós, demèrit, advertència."
+  },
+  {
+    "guid": "f392e54a-e6d0-4b36-8116-3545c2d91734",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'article 97 del TREBEP, en quin termini prescriuen les sancions imposades per faltes lleus?",
+    "answerOptions": [
+      {
+        "text": "Als dos anys",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Dos anys és el termini per a les faltes greus i les seves sancions."
+      },
+      {
+        "text": "A l'any",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 97 TREBEP: les sancions imposades per faltes molt greus prescriuen als tres anys, les de faltes greus als dos anys i les de faltes lleus a l'any, comptats des de la fermesa de la resolució sancionadora."
+      },
+      {
+        "text": "Als tres anys",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Tres anys és el termini per a les faltes molt greus i les seves sancions."
+      },
+      {
+        "text": "Als sis mesos",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Sis mesos és el termini de prescripció de les faltes lleus, no de les sancions que s'hi imposen."
+      }
+    ],
+    "hint": "Faltes: 3 anys / 2 anys / 6 mesos. Sancions: 3 anys / 2 anys / 1 any. L'asimetria és a les lleus."
+  },
+  {
+    "guid": "654a4747-5be8-4966-9ac9-501bdf501ca0",
+    "subjectId": "T14",
+    "difficulty": 3,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Durant la suspensió provisional com a mesura cautelar en un procediment disciplinari (article 98.3 TREBEP), el funcionari:",
+    "answerOptions": [
+      {
+        "text": "Percep les retribucions bàsiques, i la suspensió no pot excedir de sis mesos llevat de paralització imputable a l'interessat",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 98.3 TREBEP: la suspensió provisional no pot excedir de sis mesos, llevat de paralització del procediment imputable a l'interessat, i durant aquest temps el funcionari percep les retribucions bàsiques."
+      },
+      {
+        "text": "Percep les retribucions bàsiques i complementàries, i la suspensió no pot excedir d'un any llevat de paralització imputable a l'interessat",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les complementàries no es perceben durant la suspensió provisional, i el límit és de sis mesos."
+      },
+      {
+        "text": "No percep cap retribució, i la suspensió pot prolongar-se fins que finalitzi el procediment sense cap límit temporal",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El funcionari manté les retribucions bàsiques i la mesura té un límit de sis mesos."
+      },
+      {
+        "text": "Percep la totalitat de les retribucions, i la suspensió no pot excedir de tres mesos en cap cas",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Només percep les bàsiques, i el límit és de sis mesos, no tres."
+      }
+    ],
+    "hint": "Cautelar: 6 mesos + bàsiques. Si la sanció final no és suspensió (o és més curta), es restitueixen les diferències."
+  }
+]
