@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <title>Extractor MADAMES (HTML a JSON)</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 2rem;
+      background: #f6f8fa;
+      color: #222;
+    }
+    h1 { color: #333; }
+    textarea {
+      width: 100%;
+      height: 160px;
+      padding: 10px;
+      font-family: monospace;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      resize: vertical;
+      background: #fff;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover { background: #005fa3; }
+    pre {
+      background: #fff;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      max-height: 420px;
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    #status {
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <h1>🧠 Extractor SADAM</h1>
+  <div style="margin-bottom:18px;">
+    <label for="temaSelect"><b>Tema:</b></label>
+    <select id="temaSelect" style="min-width:220px;"></select>
+  </div>
+  <div style="margin-bottom:1px;">
+    <label style="display:inline-flex;align-items:center;gap:10px;">
+      <span style="font-size:0.98em;">Dificultat:</span>
+      <select id="difficultySelect" style="min-width:80px;"></select>
+    </label>
+  </div>
+  <p>Enganxa aquí l'HTML del qüestionari (el bloc <code>&lt;div id="cuestionario"&gt;</code> o la pàgina sencera):</p>
+  <textarea id="input"></textarea>
+  <div class="buttons">
+    <button id="convertBtn">Convertir a JSON</button>
+    <button id="copyBtn">📋 Copiar JSON</button>
+    <button id="downloadBtn">📁 Descargar fichero .json</button>
+    <button id="saveBtn">💾 API</button>
+    <button onclick="window.location.href='index.html'">⬅️ Tornar al menú</button>
+    <span id="status"></span>
+  </div>
+  <h2>Resultado:</h2>
+  <pre id="output"></pre>
+
+  <script src="assets/js/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+
+  <script>
+    const ORIGIN = 'sadam';
+    const LS_TEMA_KEY = 'sadamextractor_tema';
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const userName = localStorage.getItem(LS_KEYS.USER_NAME);
+      const userPass = localStorage.getItem(LS_KEYS.USER_PASS);
+      login.checkUserAuth(userName, userPass);
+    }, {once:true});
+
+    let difficultyOptions = [];
+
+    window.addEventListener('DOMContentLoaded', function() {
+      fetch('assets/difficulty.json')
+        .then(r => r.json())
+        .then(arr => {
+          difficultyOptions = arr;
+          const sel = document.getElementById('difficultySelect');
+          if (!sel) return;
+          sel.innerHTML = '';
+          arr.forEach(d => {
+            const opt = document.createElement('option');
+            opt.value = d.id;
+            opt.textContent = d.text;
+            sel.appendChild(opt);
+          });
+        });
+
+      fetch('assets/opos24_temes.json')
+        .then(r => r.json())
+        .then(temes => {
+          const select = document.getElementById('temaSelect');
+          select.innerHTML = '';
+          const temaGuardado = localStorage.getItem(LS_TEMA_KEY);
+          let temaSeleccionado = false;
+          temes.forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = t.tema;
+            opt.textContent = t.tema + ' - ' + t.titol;
+            if (temaGuardado && t.tema === temaGuardado) {
+              opt.selected = true;
+              temaSeleccionado = true;
+            }
+            select.appendChild(opt);
+          });
+          if (!temaSeleccionado && select.options.length > 0) {
+            select.selectedIndex = 0;
+          }
+        })
+        .catch(() => {
+          const select = document.getElementById('temaSelect');
+          select.innerHTML = '<option>Error carregant temes</option>';
+        });
+    });
+
+    const input = document.getElementById("input");
+    const output = document.getElementById("output");
+    const status = document.getElementById("status");
+
+    function guid() {
+      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+      });
+    }
+
+    function getCurrentYear() {
+      return new Date().getFullYear();
+    }
+
+    function cleanText(str) {
+      return (str || '')
+        .replace(/\u00a0/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    // Extrae el texto de un <li> de respuesta, quitando label oculto, iconos y el prefijo "a) "
+    function answerText(li) {
+      const clone = li.cloneNode(true);
+      clone.querySelectorAll('label, img, input, script').forEach(el => el.remove());
+      return cleanText(clone.textContent).replace(/^[a-zA-Z]\)\s*/, '');
+    }
+
+    function parseSadamHtml(html) {
+      const doc = new DOMParser().parseFromString(html, 'text/html');
+      const blocks = doc.querySelectorAll('div.ejerContent');
+      const questions = [];
+      const warnings = [];
+
+      blocks.forEach((block, idx) => {
+        const strong = block.querySelector('.texto-enunciado strong');
+        const questionText = cleanText(strong ? strong.textContent : '')
+          .replace(/^\d+\.\s*/, '');
+        if (!questionText) {
+          warnings.push(`Pregunta ${idx + 1} sense enunciat`);
+          return;
+        }
+
+        const explanationEl = block.querySelector('.texto-explicacion');
+        const explanation = cleanText(explanationEl ? explanationEl.textContent : '');
+
+        const options = [];
+        block.querySelectorAll('li.ejercicioA').forEach(li => {
+          const text = answerText(li);
+          if (!text) return;
+          const isCorrect = !!li.querySelector('img.respuesta_correcta');
+          options.push({
+            text: text,
+            rationale: isCorrect ? explanation : '',
+            isCorrect: isCorrect
+          });
+        });
+
+        if (options.length < 2) {
+          warnings.push(`Pregunta ${idx + 1} amb menys de 2 respostes`);
+          return;
+        }
+        if (!options.some(o => o.isCorrect)) {
+          warnings.push(`Pregunta ${idx + 1} sense resposta correcta marcada`);
+        }
+
+        questions.push({ question: questionText, answerOptions: options });
+      });
+
+      return { questions, warnings };
+    }
+
+    document.getElementById("convertBtn").addEventListener("click", () => {
+      try {
+        const temaSel = document.getElementById('temaSelect');
+        if (temaSel) {
+          localStorage.setItem(LS_TEMA_KEY, temaSel.value);
+        }
+        const tema = temaSel ? temaSel.value : '';
+        const diffSel = document.getElementById('difficultySelect');
+        const dificultadElegida = diffSel ? Number(diffSel.value) : 0;
+
+        const { questions, warnings } = parseSadamHtml(input.value);
+
+        if (!questions.length) {
+          output.textContent = "❌ No s'ha trobat cap pregunta a l'HTML.";
+          status.textContent = "";
+          return;
+        }
+
+        const result = questions.map(q => ({
+          guid: guid(),
+          subjectId: tema,
+          origin: ORIGIN,
+          type: 'test',
+          difficulty: dificultadElegida,
+          question: q.question,
+          answerOptions: q.answerOptions,
+          hint: ''
+        }));
+
+        output.textContent = JSON.stringify(result, null, 2);
+        status.textContent = `✅ ${result.length} preguntes convertides.` +
+          (warnings.length ? ` ⚠️ ${warnings.length} avisos: ${warnings.join(' | ')}` : '');
+      } catch (err) {
+        output.textContent = "❌ Error al convertir: " + err.message;
+        status.textContent = "";
+      }
+    });
+
+    document.getElementById('saveBtn').addEventListener('click', function() {
+      const temaSel = document.getElementById('temaSelect');
+      const tema = temaSel ? temaSel.value : '';
+      let jsonData;
+      try {
+        jsonData = JSON.parse(output.textContent);
+      } catch (e) {
+        alert('El JSON no es válido.');
+        return;
+      }
+      if (!Array.isArray(jsonData) || !jsonData.length) {
+        alert('No hi ha preguntes per guardar.');
+        return;
+      }
+      const info = {
+        tema: tema,
+        font: ORIGIN,
+        any: getCurrentYear(),
+        dades: jsonData
+      };
+      const msg =
+        '¿Guardar en la base de datos?\n' +
+        'Tema: ' + info.tema + '\n' +
+        'Font: ' + info.font + '\n' +
+        'Any: ' + info.any + '\n' +
+        'Preguntes: ' + info.dades.length;
+      if (confirm(msg)) {
+        send_question_toDB(info);
+      } else {
+        status.textContent = '❌ Cancel·lat';
+      }
+
+      function send_question_toDB(info) {
+        fetch('assets/API_config.json')
+          .then(r => r.json())
+          .then(config => {
+            const API_URL = config.BASE_URL.replace(/\/?$/, '') + '/preguntas-notelm';
+            const API_KEY = config.API_KEY;
+            const total = info.dades.length;
+            let guardadas = 0, fallidas = 0;
+            status.textContent = `⏳ Guardant ${total} preguntes...`;
+            info.dades.forEach(q => {
+              const data = {
+                tema: info.tema,
+                font: info.font,
+                any: info.any,
+                ...q
+              };
+              fetch(API_URL, {
+                method: 'POST',
+                headers: {
+                  'content-type': 'application/json',
+                  'x-apikey': API_KEY,
+                  'cache-control': 'no-cache'
+                },
+                body: JSON.stringify(data)
+              })
+              .then(resp => {
+                if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                return resp.json();
+              })
+              .then(() => {
+                guardadas++;
+                status.textContent = `✅ Guardades: ${guardadas} / ${total}  ❌ Fallides: ${fallidas}`;
+              })
+              .catch(() => {
+                fallidas++;
+                status.textContent = `✅ Guardades: ${guardadas} / ${total}  ❌ Fallides: ${fallidas}`;
+              });
+            });
+          })
+          .catch(() => {
+            status.textContent = '❌ Error carregant configuració de la API.';
+          });
+    }
+    });
+
+    document.getElementById('downloadBtn').addEventListener('click', function() {
+      const data = output.textContent;
+      if (!data) return;
+      const temaSel = document.getElementById('temaSelect');
+      const temaId = temaSel ? temaSel.value : 'tema';
+      let temaNombre = '';
+      const opts = temaSel && temaSel.options;
+      if (opts && opts.length) {
+        const opt = opts[temaSel.selectedIndex];
+        if (opt) {
+          temaNombre = opt.textContent.replace(/^\w+\s*-\s*/, '');
+        }
+      }
+      temaNombre = temaNombre.normalize('NFD').replace(/[^\w\s-]/g, '').replace(/\s+/g, '_').toLowerCase();
+      const MAX_LEN = 45;
+      if (temaNombre.length > MAX_LEN) temaNombre = temaNombre.slice(0, MAX_LEN);
+
+      let userName = localStorage.getItem(LS_KEYS.USER_NAME) || 'user';
+      userName = userName.normalize('NFD').replace(/[^\w\s-]/g, '').replace(/\s+/g, '_').toLowerCase();
+      if (userName.length > 20) userName = userName.slice(0, 20);
+
+      const diffSel = document.getElementById('difficultySelect');
+      const diffId = diffSel ? Number(diffSel.value) : 1;
+      const diffObj = difficultyOptions.find(d => d.id === diffId);
+      const diffNormalized = (diffObj && diffObj.textNormalized) ? diffObj.textNormalized.toLowerCase() : 'normal';
+
+      const filename = `${temaId}-${temaNombre}-${userName}-${diffNormalized}-sadam.json`;
+      const blob = new Blob([data], {type: 'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, 100);
+    });
+
+    document.getElementById('copyBtn').addEventListener("click", () => {
+      navigator.clipboard.writeText(output.textContent)
+        .then(() => { status.textContent = "📋 JSON copiado al portapapeles."; })
+        .catch(() => { status.textContent = "⚠️ No se pudo copiar."; });
+    });
+  </script>
+</body>
+</html>
