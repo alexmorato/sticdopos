@@ -1,0 +1,170 @@
+[
+    {
+        "guid": "c236dbd9-caf4-4381-b5f2-6e2826d59b30",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "La Llei 29/2010 regula principalment...",
+        "answerOptions": [
+     {"text":"L'ús dels mitjans electrònics al sector públic de Catalunya","isCorrect":true,"rationale":"És l'objecte principal de la Llei 29/2010."},
+     {"text":"El règim jurídic dels empleats públics","isCorrect":false,"rationale":"Aquesta matèria es regula en altres normes."},
+     {"text":"L'organització judicial de Catalunya","isCorrect":false,"rationale":"No forma part de l'objecte de la llei."},
+     {"text":"La contractació laboral privada","isCorrect":false,"rationale":"No és una norma laboral."}
+    ]
+    },
+    {
+        "guid": "f977ac0d-d593-4ada-b3b9-efa2cbe10214",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina és una finalitat de la Llei 29/2010?",
+        "answerOptions": [
+     {"text":"Millorar l'eficàcia i l'eficiència de les administracions públiques","isCorrect":true,"rationale":"És una de les finalitats principals de l'administració electrònica."},
+     {"text":"Limitar l'accés de la ciutadania als serveis públics","isCorrect":false,"rationale":"La llei pretén exactament el contrari."},
+     {"text":"Eliminar tots els procediments administratius","isCorrect":false,"rationale":"Els procediments continuen existint."},
+     {"text":"Substituir la legislació estatal","isCorrect":false,"rationale":"La normativa catalana complementa la normativa estatal."}
+    ]
+    },
+    {
+        "guid": "13ae4a93-eabd-4f4b-b887-f50e9cf80b94",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin dels següents és un principi de la Llei 29/2010?",
+        "answerOptions": [
+     {"text":"Interoperabilitat","isCorrect":true,"rationale":"Permet l'intercanvi d'informació i dades entre administracions."},
+     {"text":"Autoritat militar","isCorrect":false,"rationale":"No és un principi de l'administració electrònica."},
+     {"text":"Centralització obligatòria","isCorrect":false,"rationale":"No apareix com a principi de la llei."},
+     {"text":"Jerarquia normativa","isCorrect":false,"rationale":"És un principi jurídic general,no específic de la Llei 29/2010."}
+    ]
+    },
+    {
+        "guid": "076b12de-d9dd-4bd8-8dbd-8b06d3285822",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina norma regula l'administració digital de la Generalitat de Catalunya?",
+        "answerOptions": [
+     {"text":"Decret 76/2020","isCorrect":true,"rationale":"És la norma que regula l'Administració digital de la Generalitat."},
+     {"text":"Llei 29/2010","isCorrect":false,"rationale":"És el marc general de l'ús de mitjans electrònics."},
+     {"text":"Llei 40/2015","isCorrect":false,"rationale":"Regula el règim jurídic del sector públic."},
+     {"text":"Llei 7/1985","isCorrect":false,"rationale":"Correspon al règim local."}
+    ]
+    },
+    {
+        "guid": "ef2b4bb8-1e9a-4bc5-af1c-fd2cc24c944d",
+        "subjectId": "T17",
+        "difficulty": 1,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Segons el Decret 76/2020, quin és el canal ordinari de relació amb la ciutadania?",
+        "answerOptions": [
+     {"text":"El canal electrònic","isCorrect":true,"rationale":"La norma impulsa la relació digital com a model ordinari."},
+     {"text":"El correu postal","isCorrect":false,"rationale":"És un canal complementari."},
+     {"text":"La compareixença presencial exclusiva","isCorrect":false,"rationale":"No és el model preferent."},
+     {"text":"Les trucades telefòniques","isCorrect":false,"rationale":"No són el canal ordinari establert."}
+    ]
+    },
+    {
+        "guid": "81521732-29c6-4ba8-b489-18b0ce10b9cf",
+        "subjectId": "T17",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin article de la Llei 39/2015 regula l'expedient administratiu electrònic?",
+        "answerOptions": [
+     {"text":"Article 70","isCorrect":true,"rationale":"L'article 70 regula l'expedient administratiu."},
+     {"text":"Article 17","isCorrect":false,"rationale":"L'article 17 regula l'arxiu electrònic."},
+     {"text":"Article 53","isCorrect":false,"rationale":"Regula drets dels interessats."},
+     {"text":"Article 13","isCorrect":false,"rationale":"Recull drets de les persones."}
+    ]
+    },
+    {
+        "guid": "6750cd37-78a1-419b-869d-f1d0942abd22",
+        "subjectId": "T17",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què és un expedient electrònic?",
+        "answerOptions": [
+     {"text":"El conjunt ordenat de documents i actuacions d'un procediment administratiu","isCorrect":true,"rationale":"És la definició recollida a l'article 70 de la Llei 39/2015."},
+     {"text":"Un registre electrònic d'entrada","isCorrect":false,"rationale":"Són figures diferents."},
+     {"text":"Un arxiu històric digital","isCorrect":false,"rationale":"No és la definició legal."},
+     {"text":"Una base de dades de personal","isCorrect":false,"rationale":"No està relacionada amb l'expedient administratiu."}
+    ]
+    },
+    {
+        "guid": "24603ff5-31c0-4030-8a67-cd8b7c0a15d9",
+        "subjectId": "T17",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "L'índex numerat d'un expedient electrònic té com a finalitat principal...",
+        "answerOptions": [
+     {"text":"Garantir la integritat i identificar els documents de l'expedient","isCorrect":true,"rationale":"L'índex permet conèixer el contingut complet de l'expedient."},
+     {"text":"Substituir els documents de l'expedient","isCorrect":false,"rationale":"Només els relaciona i identifica."},
+     {"text":"Resoldre el procediment","isCorrect":false,"rationale":"La resolució és un tràmit diferent."},
+     {"text":"Notificar els interessats","isCorrect":false,"rationale":"No és la seva funció."}
+    ]
+    },
+    {
+        "guid": "41cc9d40-c441-4406-b470-23167536a981",
+        "subjectId": "T17",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina d'aquestes opcions NO forma part de l'expedient administratiu?",
+        "answerOptions": [
+     {"text":"Les notes internes i informació auxiliar o de suport","isCorrect":true,"rationale":"La Llei 39/2015 les exclou expressament."},
+     {"text":"Els informes","isCorrect":false,"rationale":"Formen part de l'expedient."},
+     {"text":"Les resolucions","isCorrect":false,"rationale":"Formen part de l'expedient."},
+     {"text":"Les sol·licituds","isCorrect":false,"rationale":"Formen part de l'expedient."}
+    ]
+    },
+    {
+        "guid": "0b75de9e-807b-4c46-8a94-84c68746e729",
+        "subjectId": "T17",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quin article de la Llei 39/2015 regula l'arxiu electrònic?",
+        "answerOptions": [
+     {"text":"Article 17","isCorrect":true,"rationale":"L'article 17 regula l'arxiu electrònic únic."},
+     {"text":"Article 70","isCorrect":false,"rationale":"Regula l'expedient electrònic."},
+     {"text":"Article 35","isCorrect":false,"rationale":"No regula aquesta matèria."},
+     {"text":"Article 9","isCorrect":false,"rationale":"Regula sistemes d'identificació."}
+    ]
+    },
+    {
+        "guid": "3c87fddc-ca09-4a8c-8083-22822cfd9ea1",
+        "subjectId": "T17",
+        "difficulty": 2,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Què ha de garantir un arxiu electrònic?",
+        "answerOptions": [
+     {"text":"Autenticitat,integritat,conservació i accessibilitat dels documents","isCorrect":true,"rationale":"Són garanties essencials de l'article 17."},
+     {"text":"Només la conservació física","isCorrect":false,"rationale":"La norma exigeix més garanties."},
+     {"text":"La destrucció automàtica dels documents","isCorrect":false,"rationale":"És contrari a la seva finalitat."},
+     {"text":"La publicació de tots els expedients","isCorrect":false,"rationale":"L'accés està limitat per la normativa aplicable."}
+    ]
+    },
+    {
+        "guid": "2fe33ad5-60db-4894-b39d-c1e9917498e1",
+        "subjectId": "T17",
+        "difficulty": 3,
+        "origin": "copilot",
+        "type": "test",
+        "question": "Quina afirmació és correcta?",
+        "answerOptions": [
+     {"text":"L'expedient electrònic serveix per tramitar un procediment i l'arxiu electrònic per conservar-lo un cop finalitzat","isCorrect":true,"rationale":"És la diferència fonamental entre ambdós conceptes."},
+     {"text":"Expedient i arxiu electrònic són exactament el mateix","isCorrect":false,"rationale":"Tenen funcions diferents."},
+     {"text":"L'arxiu electrònic només existeix per a documents en paper digitalitzats","isCorrect":false,"rationale":"Conserva qualsevol document electrònic."},
+     {"text":"L'expedient només inclou la resolució final","isCorrect":false,"rationale":"Inclou totes les actuacions i documents rellevants."}
+    ]
+    }
+]
