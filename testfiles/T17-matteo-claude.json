@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "4f6ca302-fa1e-4893-a141-29d4c8f346fb",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quan la notificació per mitjans electrònics és obligatòria o l'ha triada expressament la persona interessada, s'entén rebutjada si, des de la posada a disposició i sense que s'hi accedeixi, han transcorregut:",
+    "answerOptions": [
+      {
+        "text": "Deu dies hàbils.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el parany clàssic: el termini de l'art. 43.2 es compta en dies naturals, no hàbils."
+      },
+      {
+        "text": "Quinze dies naturals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 43.2 de la Llei 39/2015 parla de deu dies, no de quinze."
+      },
+      {
+        "text": "Deu dies naturals.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 43.2 de la Llei 39/2015 fixa deu dies naturals des de la posada a disposició sense accés al contingut."
+      },
+      {
+        "text": "Cinc dies hàbils.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Ni la durada ni el tipus de dies coincideixen amb l'art. 43.2 (deu dies naturals)."
+      }
+    ],
+    "hint": "Art. 43.2 Llei 39/2015. Fixa't en el tipus de dies."
+  },
+  {
+    "guid": "ca242e2e-c005-4de1-9ac0-96c5f47e96b1",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 41.6 de la Llei 39/2015, l'avís que l'Administració envia al dispositiu electrònic o al correu de la persona interessada per informar-la de la posada a disposició d'una notificació:",
+    "answerOptions": [
+      {
+        "text": "Si no s'arriba a enviar, no impedeix que la notificació es consideri plenament vàlida.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 41.6 de la Llei 39/2015 estableix que la manca de pràctica de l'avís no impedeix que la notificació sigui plenament vàlida."
+      },
+      {
+        "text": "És un requisit d'eficàcia de la notificació i inicia el còmput dels terminis.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'avís és informatiu; la notificació es practica amb l'accés al contingut (art. 43.2) i l'avís no en condiciona la validesa (art. 41.6)."
+      },
+      {
+        "text": "Substitueix la notificació quan la persona interessada hi ha consentit expressament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'avís no és la notificació ni la pot substituir (art. 41.6 Llei 39/2015)."
+      },
+      {
+        "text": "Només s'envia a les persones físiques que no estan obligades a relacionar-se electrònicament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 41.6 preveu l'avís amb independència que la notificació es faci en paper o per mitjans electrònics, i sigui qui sigui l'interessat."
+      }
+    ],
+    "hint": "Pensa en la relació entre l'avís i la validesa de la notificació."
+  },
+  {
+    "guid": "476c28b6-17d1-4816-9043-3708b55e17e0",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Les previsions de la Llei 39/2015 relatives al registre electrònic d'apoderaments, el registre electrònic, el registre d'empleats públics habilitats, el punt d'accés general electrònic i l'arxiu únic electrònic van produir plens efectes a partir del:",
+    "answerOptions": [
+      {
+        "text": "2 d'octubre de 2016.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la data d'entrada en vigor general de la Llei 39/2015, però la DF 7a en va diferir aquestes previsions."
+      },
+      {
+        "text": "2 d'octubre de 2018.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Era la data inicial prevista per la DF 7a (dos anys), que es va ajornar."
+      },
+      {
+        "text": "2 d'octubre de 2020.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Era la data fixada pel RDL 11/2018, que el RDL 28/2020 va tornar a ajornar fins al 2 d'abril de 2021."
+      },
+      {
+        "text": "2 d'abril de 2021.",
+        "isCorrect": true,
+        "rationale": "Correcta. Després dels ajornaments de la DF 7a (RDL 11/2018 i RDL 28/2020), aquestes previsions van ser plenament efectives el 2 d'abril de 2021, el mateix dia que va entrar en vigor el RD 203/2021."
+      }
+    ],
+    "hint": "Disposició final setena, després de diversos ajornaments."
+  },
+  {
+    "guid": "43cb229f-89bf-4d5c-b546-1e8fb7ea46f4",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 14.2 de la Llei 39/2015, els empleats de les administracions públiques estan obligats a relacionar-se electrònicament amb elles:",
+    "answerOptions": [
+      {
+        "text": "Per a qualsevol tràmit que facin, sigui quina sigui la condició en què actuïn davant de l'Administració pública.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'obligació de l'art. 14.2.e) només abasta els tràmits fets per raó de la condició d'empleat públic, no els personals."
+      },
+      {
+        "text": "Per als tràmits que facin per raó de la seva condició d'empleat públic, com determini cada administració.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 14.2.e) limita l'obligació als tràmits i actuacions que facin per raó de la seva condició d'empleat públic, en la forma que es determini reglamentàriament."
+      },
+      {
+        "text": "Només quan ocupin llocs de treball dels subgrups A1 o A2 de classificació professional.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 14.2.e) no distingeix per subgrups de classificació."
+      },
+      {
+        "text": "Només quan ho prevegi el conveni col·lectiu o l'acord de condicions de treball aplicable.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'obligació la imposa la llei i es concreta reglamentàriament per cada administració, no per conveni."
+      }
+    ],
+    "hint": "Art. 14.2.e) Llei 39/2015."
+  },
+  {
+    "guid": "78db7949-3f47-430c-a9d2-2308c203af03",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Per establir l'obligació de relacionar-se electrònicament per a determinats col·lectius de persones físiques, l'art. 14.3 de la Llei 39/2015 exigeix:",
+    "answerOptions": [
+      {
+        "text": "Que ho prevegi la convocatòria o l'acte d'inici del procediment, motivant-ne la necessitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La jurisprudència (STS 635/2021) rebutja imposar l'obligació a persones físiques per mitjà d'una convocatòria o acte administratiu: cal norma reglamentària."
+      },
+      {
+        "text": "Que es faci per reglament i quedi acreditat que tenen accés i disponibilitat dels mitjans.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 14.3 exigeix una previsió reglamentària i que per capacitat econòmica, tècnica, dedicació professional o altres motius quedi acreditat l'accés als mitjans. El TS (STS 635/2021) no admet imposar-ho per una simple convocatòria o resolució."
+      },
+      {
+        "text": "El consentiment exprés de les persones afectades, que el poden revocar en qualsevol moment.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 14.3 no es basa en el consentiment sinó en una obligació establerta reglamentàriament."
+      },
+      {
+        "text": "Una llei de l'Estat, perquè és una matèria reservada a llei formal per l'art. 105 CE.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 14.3 habilita expressament la via reglamentària."
+      }
+    ],
+    "hint": "Quin rang ha de tenir la norma? Recorda la STS 635/2021 (aspirants MIR)."
+  },
+  {
+    "guid": "845a5b25-1e33-4b9e-b7af-6feaa890cfc3",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Una advocada col·legiada sol·licita, a títol personal, una llicència d'obres per al seu habitatge. D'acord amb l'art. 14 de la Llei 39/2015:",
+    "answerOptions": [
+      {
+        "text": "Està obligada a relacionar-se electrònicament perquè la col·legiació obligatòria l'hi imposa en tot cas.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'obligació de l'art. 14.2.c) es limita als tràmits fets en exercici de l'activitat professional."
+      },
+      {
+        "text": "Només està obligada si el pressupost de l'obra supera l'import que fixi l'ordenança fiscal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 14 no fa dependre l'obligació de cap import econòmic."
+      },
+      {
+        "text": "Ha de presentar la sol·licitud en paper, perquè els tràmits personals no admeten la via electrònica.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Com a persona física pot triar qualsevol canal, també l'electrònic (art. 14.1)."
+      },
+      {
+        "text": "Pot triar el canal, perquè no actua en exercici de la seva activitat professional.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 14.2.c) només obliga els professionals col·legiats en els tràmits que fan en exercici de l'activitat professional; com a persona física actuant a títol personal, s'aplica l'art. 14.1."
+      }
+    ],
+    "hint": "La col·legiació obliga només en determinats tràmits."
+  },
+  {
+    "guid": "a84daff9-e512-4b2e-bda6-43c30625911f",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin d'aquests drets NO figura a l'art. 13 de la Llei 39/2015 (drets de les persones), sinó entre els drets dels interessats en el procediment de l'art. 53?",
+    "answerOptions": [
+      {
+        "text": "Conèixer, en qualsevol moment, l'estat de tramitació dels procediments en què siguin interessats.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el dret de l'art. 53.1.a), propi dels interessats en un procediment, no un dret general de l'art. 13."
+      },
+      {
+        "text": "Comunicar-se amb les administracions públiques a través d'un punt d'accés general electrònic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el dret de l'art. 13.a) de la Llei 39/2015."
+      },
+      {
+        "text": "Obtenir i utilitzar els mitjans d'identificació i signatura electrònica previstos en la mateixa llei.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el dret de l'art. 13.g) de la Llei 39/2015."
+      },
+      {
+        "text": "Ser tractats amb respecte i deferència per les autoritats i pels empleats públics.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el dret de l'art. 13.e) de la Llei 39/2015."
+      }
+    ],
+    "hint": "Distingeix la relació general amb l'Administració d'un expedient concret."
+  },
+  {
+    "guid": "755eaf81-0495-4907-a007-0959047dff6b",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons el Reglament (UE) 910/2014 (eIDAS), la signatura electrònica que té un efecte jurídic equivalent al de la signatura manuscrita és:",
+    "answerOptions": [
+      {
+        "text": "La signatura electrònica avançada.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'avançada té efectes jurídics i valor probatori, però no l'equivalència automàtica amb la manuscrita, reservada a la qualificada (art. 25.2 eIDAS)."
+      },
+      {
+        "text": "Qualsevol signatura electrònica, sigui simple, avançada o qualificada.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Totes tenen efectes jurídics (art. 25.1), però l'equivalència amb la manuscrita només la té la qualificada (art. 25.2)."
+      },
+      {
+        "text": "La signatura electrònica qualificada.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 25.2 eIDAS atribueix a la signatura qualificada un efecte jurídic equivalent al de la manuscrita; les altres no poden ser rebutjades pel sol fet de ser electròniques (art. 25.1)."
+      },
+      {
+        "text": "La signatura electrònica reconeguda basada en un certificat de persona jurídica.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. «Reconeguda» és terminologia de la derogada Llei 59/2003, i la signatura és pròpia de persones físiques; les jurídiques usen segell."
+      }
+    ],
+    "hint": "Art. 25.2 del Reglament eIDAS."
+  },
+  {
+    "guid": "465cb534-1ce3-4040-b892-e3a0525a4a91",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "D'acord amb la redacció vigent de l'art. 9.2.c) de la Llei 39/2015, per admetre un sistema d'identificació diferent dels basats en certificats qualificats cal, entre altres requisits:",
+    "answerOptions": [
+      {
+        "text": "Obtenir l'autorització expressa de la Secretaria General d'Administració Digital en un termini màxim de tres mesos.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Era el règim d'autorització prèvia introduït pel RDL 14/2019 (amb silenci negatiu), substituït el 2022 per la comunicació prèvia."
+      },
+      {
+        "text": "Obtenir l'informe favorable de l'Agència Espanyola de Protecció de Dades en el termini de deu dies.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'informe vinculant previst és de la Secretaria d'Estat de Seguretat, i només si l'Estat acudeix a la via jurisdiccional."
+      },
+      {
+        "text": "Publicar-lo al butlletí oficial corresponent, moment a partir del qual és eficaç de manera immediata.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.2.c) no preveu eficàcia immediata: cal comunicació prèvia i esperar dos mesos."
+      },
+      {
+        "text": "Comunicar-ho abans a la Secretaria General d'Administració Digital i esperar dos mesos perquè sigui eficaç.",
+        "isCorrect": true,
+        "rationale": "Correcta. Des de la Llei 11/2022, l'art. 9.2.c) exigeix registre previ de l'usuari, comunicació prèvia a la SGAD amb declaració responsable i el transcurs de dos mesos abans de l'eficàcia jurídica."
+      }
+    ],
+    "hint": "Règim introduït per la Llei 11/2022, General de Telecomunicacions."
+  },
+  {
+    "guid": "f79917f9-e3b3-4a32-9966-8e4f005ec7e8",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Els recursos tècnics dels sistemes d'identificació de l'art. 9.2.c) de la Llei 39/2015 que tractin categories especials de dades (art. 9 RGPD) han d'estar situats:",
+    "answerOptions": [
+      {
+        "text": "En territori de la Unió Europea.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquesta és la regla general de l'art. 9.3; per a categories especials de dades s'exigeix territori espanyol."
+      },
+      {
+        "text": "En qualsevol Estat amb una decisió d'adequació de la Comissió Europea.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La decisió d'adequació és l'excepció a la prohibició de transferència, no un criteri de localització dels recursos tècnics."
+      },
+      {
+        "text": "En territori espanyol.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 9.3 exigeix, amb caràcter general, que siguin a la Unió Europea i, si es tracta de categories especials de dades, en territori espanyol."
+      },
+      {
+        "text": "En els centres de dades de l'Administració General de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.3 fixa un àmbit territorial, no la titularitat estatal de les infraestructures."
+      }
+    ],
+    "hint": "Art. 9.3 Llei 39/2015: hi ha una regla general i una d'especial."
+  },
+  {
+    "guid": "e99907d0-dc1f-41d0-b20f-67196556653c",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 9.4 de la Llei 39/2015, l'acceptació d'un sistema d'identificació per part de l'Administració General de l'Estat:",
+    "answerOptions": [
+      {
+        "text": "Només produeix efectes en els procediments que siguin de competència de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.4 estén l'eficàcia a totes les administracions públiques."
+      },
+      {
+        "text": "Serveix per acreditar la identificació davant totes les administracions, llevat de prova en contrari.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 9.4 estableix que l'acceptació per l'AGE serveix davant totes les administracions, llevat de prova en contrari."
+      },
+      {
+        "text": "Obliga totes les comunitats autònomes a admetre'l, sense que s'hi pugui oposar cap prova en contrari.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.4 admet expressament la prova en contrari."
+      },
+      {
+        "text": "Requereix la ratificació posterior de la Conferència Sectorial d'Administració Pública.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.4 no preveu cap ratificació."
+      }
+    ],
+    "hint": "És una presumpció."
+  },
+  {
+    "guid": "aff2f720-6482-48fb-b0bb-12cb9957dd3a",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 10 de la Llei 39/2015, quan les persones interessades utilitzen un dels sistemes de signatura que preveu aquest article:",
+    "answerOptions": [
+      {
+        "text": "La seva identitat s'entén acreditada pel mateix acte de la signatura.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 10.5 estableix que, en signar amb un sistema de l'art. 10, la identitat ja s'entén acreditada."
+      },
+      {
+        "text": "Han d'identificar-se igualment amb un sistema de l'art. 9 abans de signar el document.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 10.5 evita la doble acreditació: signar implica identificar-se."
+      },
+      {
+        "text": "La signatura només és vàlida si va acompanyada d'una còpia del document d'identitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 10 no exigeix aportar còpia del document d'identitat."
+      },
+      {
+        "text": "La identitat s'ha d'acreditar en el termini de deu dies des de la signatura.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El termini de deu dies és el d'esmena de la representació (art. 5.6), no aplicable aquí."
+      }
+    ],
+    "hint": "Art. 10.5 Llei 39/2015."
+  },
+  {
+    "guid": "d4279401-e60a-489f-8794-5c3e32d030c6",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 11.2 de la Llei 39/2015, en quin d'aquests casos les administracions NO poden exigir l'ús obligatori de signatura?",
+    "answerOptions": [
+      {
+        "text": "Consultar l'estat de tramitació d'un expedient.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 11.2 només permet exigir signatura per sol·licituds, declaracions responsables o comunicacions, recursos, desistiments i renúncies; per a la resta n'hi ha prou amb la identificació (art. 11.1)."
+      },
+      {
+        "text": "Interposar un recurs d'alçada.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Interposar recursos és un dels supòsits de l'art. 11.2.c)."
+      },
+      {
+        "text": "Presentar una declaració responsable.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les declaracions responsables són a l'art. 11.2.b)."
+      },
+      {
+        "text": "Renunciar a un dret reconegut per una resolució.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Renunciar a drets és el supòsit de l'art. 11.2.e)."
+      }
+    ],
+    "hint": "Per regla general n'hi ha prou amb identificar-se (art. 11.1)."
+  },
+  {
+    "guid": "6f0eed81-1813-4513-afa2-f9478a6006d2",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Si una persona interessada no obligada a relacionar-se electrònicament no disposa dels mitjans necessaris, un funcionari habilitat pot fer-ne la identificació o signatura electrònica:",
+    "answerOptions": [
+      {
+        "text": "Sense necessitat de consentiment, perquè és una actuació d'ofici de l'oficina d'assistència en matèria de registres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 12.2 exigeix el consentiment exprés de la persona interessada."
+      },
+      {
+        "text": "Si la persona s'identifica davant el funcionari i hi consent de forma expressa, i en queda constància.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 12.2 exigeix identificació davant el funcionari i consentiment exprés, amb constància per als casos de discrepància o litigi."
+      },
+      {
+        "text": "Només si la persona interessada és una persona jurídica sense certificat de representant.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'assistència de l'art. 12.2 és per a interessats no inclosos als apartats 2 i 3 de l'art. 14; les persones jurídiques hi estan obligades."
+      },
+      {
+        "text": "Si la persona hi dona consentiment verbal, sense que calgui deixar-ne cap constància escrita.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 12.2 exigeix que quedi constància del consentiment."
+      }
+    ],
+    "hint": "Art. 12.2 Llei 39/2015."
+  },
+  {
+    "guid": "a76e0548-9812-4aec-82cc-c792fe543552",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Els poders inscrits en el registre electrònic d'apoderaments tenen una validesa màxima de:",
+    "answerOptions": [
+      {
+        "text": "Deu anys des de l'atorgament, no prorrogables.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El màxim és de cinc anys, es compta des de la inscripció i admet pròrroga (art. 6.6)."
+      },
+      {
+        "text": "Tres anys des de la inscripció, prorrogables un cop.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 6.6 fixa cinc anys i no limita a una sola pròrroga."
+      },
+      {
+        "text": "Indefinida, mentre el poderdant no el revoqui.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 6.6 estableix una validesa determinada màxima de cinc anys."
+      },
+      {
+        "text": "Cinc anys des de la inscripció, prorrogables.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 6.6 fixa una validesa màxima de cinc anys des de la inscripció; el poderdant el pot revocar o prorrogar, i cada pròrroga també té un màxim de cinc anys."
+      }
+    ],
+    "hint": "Art. 6.6 Llei 39/2015."
+  },
+  {
+    "guid": "ecbe0ecd-7a5c-4417-ace8-e31656ec506d",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina d'aquestes tipologies de poder NO preveu l'art. 6.4 de la Llei 39/2015 per a la inscripció en el registre electrònic d'apoderaments?",
+    "answerOptions": [
+      {
+        "text": "Un poder general per actuar en qualsevol actuació administrativa i davant de qualsevol administració.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la tipologia de l'art. 6.4.a)."
+      },
+      {
+        "text": "Un poder per actuar en qualsevol actuació davant d'una administració o organisme concret.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la tipologia de l'art. 6.4.b)."
+      },
+      {
+        "text": "Un poder per actuar davant de qualsevol administració, però limitat a un import econòmic màxim.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 6.4 preveu tres tipologies segons l'abast (general, davant una administració o organisme concret, i per a tràmits determinats); no n'hi ha cap de limitada per import."
+      },
+      {
+        "text": "Un poder per actuar únicament en determinats tràmits especificats en el mateix poder.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la tipologia de l'art. 6.4.c)."
+      }
+    ],
+    "hint": "Les tres tipologies es diferencien per l'abast, no per l'import."
+  },
+  {
+    "guid": "e25f42e2-9f86-4ca2-8a2a-570a544f7c5f",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "La STC 55/2018, en relació amb el registre electrònic d'apoderaments, va declarar inconstitucional i nul:",
+    "answerOptions": [
+      {
+        "text": "La tipologia de poder general per actuar davant de qualsevol administració pública.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La tipologia general de l'art. 6.4.a) continua vigent."
+      },
+      {
+        "text": "La possibilitat d'atorgar l'apoderament apud acta per compareixença electrònica a la seu.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 6.5 (apud acta) no va ser anul·lat."
+      },
+      {
+        "text": "El paràgraf que preveia aprovar per ordre ministerial els models de poders inscribibles.",
+        "isCorrect": true,
+        "rationale": "Correcta. La STC 55/2018 va anul·lar el segon paràgraf de l'art. 6.4 de la Llei 39/2015 per invasió de competències autonòmiques."
+      },
+      {
+        "text": "La validesa màxima de cinc anys dels poders inscrits en el registre d'apoderaments.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 6.6 continua vigent."
+      }
+    ],
+    "hint": "Art. 6.4, segon paràgraf."
+  },
+  {
+    "guid": "10898d94-0e6e-4079-8607-82c0c9d8c93c",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "En el registre electrònic d'una administració, la presentació d'un document en un dia inhàbil:",
+    "answerOptions": [
+      {
+        "text": "S'entén feta a l'última hora del dia hàbil immediatament anterior al de la presentació efectiva.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 31.2.b) remet al primer dia hàbil següent, no a l'anterior."
+      },
+      {
+        "text": "No s'admet, perquè el registre electrònic no funciona els dies inhàbils.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El registre electrònic permet la presentació tots els dies de l'any durant les vint-i-quatre hores (art. 31.2.a)."
+      },
+      {
+        "text": "S'entén feta en el moment exacte de la presentació, a tots els efectes del còmput dels terminis legals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. A efectes de còmput, la presentació en dia inhàbil es trasllada al primer dia hàbil següent (art. 31.2.b)."
+      },
+      {
+        "text": "S'entén feta a la primera hora del primer dia hàbil següent, tret que una norma en permeti la recepció.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 31.2.b) disposa que s'entén feta a la primera hora del primer dia hàbil següent, llevat que una norma permeti expressament la recepció en dia inhàbil."
+      }
+    ],
+    "hint": "Art. 31.2 Llei 39/2015."
+  },
+  {
+    "guid": "bdabaac7-1a6d-4c5b-a479-97ac1cc04959",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 70.4 de la Llei 39/2015, NO forma part de l'expedient administratiu:",
+    "answerOptions": [
+      {
+        "text": "Els esborranys i les notes que tinguin caràcter auxiliar o de suport.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 70.4 exclou de l'expedient la informació auxiliar o de suport: notes, esborranys, opinions, resums, comunicacions i informes interns i judicis de valor."
+      },
+      {
+        "text": "Els informes facultatius sol·licitats abans de la resolució que posi fi al procediment.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 70.4 exceptua de l'exclusió els informes preceptius i facultatius sol·licitats abans de la resolució."
+      },
+      {
+        "text": "Els informes preceptius sol·licitats abans de dictar la resolució.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els informes preceptius sí que formen part de l'expedient (art. 70.4)."
+      },
+      {
+        "text": "La còpia electrònica certificada de la resolució que s'hagi adoptat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 70.2 exigeix que hi consti la còpia electrònica certificada de la resolució."
+      }
+    ],
+    "hint": "Informació auxiliar o de suport."
+  },
+  {
+    "guid": "f0a78228-7658-4584-bcef-cc5eb6d304af",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 17.1 de la Llei 39/2015, cada administració ha de mantenir un arxiu electrònic únic dels documents electrònics corresponents a:",
+    "answerOptions": [
+      {
+        "text": "Procediments en tramitació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'arxiu electrònic únic és per als procediments finalitzats (art. 17.1)."
+      },
+      {
+        "text": "Procediments finalitzats.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 17.1 refereix l'arxiu electrònic únic als documents electrònics de procediments finalitzats."
+      },
+      {
+        "text": "Procediments de més de cinc anys d'antiguitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 17.1 no fixa cap antiguitat; el criteri és que el procediment hagi finalitzat."
+      },
+      {
+        "text": "Expedients sancionadors i de responsabilitat patrimonial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 17.1 no es limita a cap tipus de procediment."
+      }
+    ],
+    "hint": "Quan entren els documents a l'arxiu únic?"
+  },
+  {
+    "guid": "d69ece18-f7c1-41c6-b009-78f5cdbd35bd",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 41.1 de la Llei 40/2015, s'entén per actuació administrativa automatitzada:",
+    "answerOptions": [
+      {
+        "text": "Qualsevol actuació d'un empleat públic que utilitzi una aplicació informàtica per tramitar el procediment administratiu.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Si hi intervé directament un empleat públic, no és actuació automatitzada (art. 41.1)."
+      },
+      {
+        "text": "L'acte fet íntegrament per mitjans electrònics en un procediment, sense intervenció directa d'un empleat públic.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 41.1 de la Llei 40/2015 la defineix com qualsevol acte o actuació feta íntegrament per mitjans electrònics en un procediment i en què no hagi intervingut de forma directa un empleat públic."
+      },
+      {
+        "text": "L'acte que adopta un òrgan col·legiat reunit a distància per mitjans electrònics.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les sessions a distància dels òrgans col·legiats es regulen a l'art. 17 de la Llei 40/2015, i no són actuació automatitzada."
+      },
+      {
+        "text": "La resolució signada per l'òrgan competent amb un certificat electrònic qualificat de signatura.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La signatura per un titular d'òrgan implica intervenció humana; l'actuació automatitzada se signa amb segell d'òrgan o CSV (art. 42)."
+      }
+    ],
+    "hint": "La clau és la intervenció humana."
+  },
+  {
+    "guid": "38c109de-e350-4aea-a239-f9f0121509f3",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "D'acord amb la Llei 40/2015, la seu electrònica es distingeix del portal d'internet perquè:",
+    "answerOptions": [
+      {
+        "text": "El titular de la seu respon de la integritat, veracitat i actualització de la informació i els serveis.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 38.2 de la Llei 40/2015 vincula l'establiment de la seu a la responsabilitat del titular sobre la integritat, veracitat i actualització; el portal (art. 39) és un punt d'accés a la informació publicada."
+      },
+      {
+        "text": "La seu és un espai merament informatiu sense efectes jurídics, i el portal permet fer tràmits amb garanties.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És a l'inrevés: la seu ofereix els serveis amb garanties i el portal dona accés a la informació publicada."
+      },
+      {
+        "text": "Només la seu pot ser de titularitat d'un organisme públic o d'una entitat de dret públic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 39 també admet que el titular del portal sigui un organisme públic o una entitat de dret públic."
+      },
+      {
+        "text": "El portal és d'ús obligatori per a les persones jurídiques, i la seu ho és per a les persones físiques.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Llei 40/2015 no assigna l'ús de la seu o del portal segons el tipus de persona."
+      }
+    ],
+    "hint": "Arts. 38 i 39 Llei 40/2015."
+  },
+  {
+    "guid": "4663f645-0ee2-4c7e-b710-ed3c4e6db32d",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Si l'administració cessionària vol fer servir les dades rebudes d'una altra administració per a una finalitat nova que considera compatible amb la inicial, segons l'art. 155.3 de la Llei 40/2015:",
+    "answerOptions": [
+      {
+        "text": "Pot fer-ho directament, perquè la compatibilitat la valora en tot cas l'administració cessionària.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 155.3 exigeix comunicar-ho abans a l'administració cedent perquè comprovi la compatibilitat."
+      },
+      {
+        "text": "Necessita, en tot cas, el consentiment exprés de les persones titulars de les dades.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 155.3 no es basa en el consentiment, sinó en la comprovació de compatibilitat per l'administració cedent."
+      },
+      {
+        "text": "Ho ha de comunicar abans a l'administració cedent, que s'hi pot oposar motivadament en deu dies.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 155.3 exigeix comunicació prèvia a l'administració cedent perquè comprovi la compatibilitat; pot oposar-s'hi motivadament en deu dies i, mentre no respongui, no es poden usar les dades per a la nova finalitat."
+      },
+      {
+        "text": "Ho ha de comunicar a l'Agència Espanyola de Protecció de Dades, que resol en el termini d'un mes.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 155.3 no hi fa intervenir l'AEPD; la comunicació es fa a l'administració cedent."
+      }
+    ],
+    "hint": "Qui comprova la compatibilitat i en quin termini?"
+  },
+  {
+    "guid": "cc29971d-0031-4e26-b29c-a08147f34f11",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons la redacció vigent de l'art. 28.2 de la Llei 39/2015, l'administració actuant pot consultar documents elaborats per una altra administració:",
+    "answerOptions": [
+      {
+        "text": "Només amb el consentiment exprés de la persona interessada, d'acord amb l'art. 7 del RGPD.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El consentiment exprés només s'exigeix si una llei especial ho preveu; la regla general és la consulta llevat d'oposició."
+      },
+      {
+        "text": "Perquè es presumeix que la persona interessada hi consent, sempre que no consti la seva oposició expressa.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la redacció original del 2015 (consentiment presumpte), incompatible amb el RGPD i modificada per la LOPDGDD."
+      },
+      {
+        "text": "Només si la persona interessada indica en quin moment i davant de quin òrgan es va emetre el document.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Indicar moment i òrgan es preveu per als documents aportats prèviament per l'interessat, no per als elaborats per altres administracions."
+      },
+      {
+        "text": "Llevat que la persona interessada s'hi oposi; no cap oposició en potestats sancionadores o d'inspecció.",
+        "isCorrect": true,
+        "rationale": "Correcta. Després de la DF 12a de la LO 3/2018 (LOPDGDD), es pot consultar llevat d'oposició, que no és possible en l'exercici de potestats sancionadores o d'inspecció. La base jurídica és l'art. 6.1.c) i e) RGPD, no el consentiment."
+      }
+    ],
+    "hint": "Redacció donada per la disposició final dotzena de la LOPDGDD."
+  },
+  {
+    "guid": "a1f8634d-0b1a-48ba-b802-c6df47a3f165",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin d'aquests principis NO figura entre els principis generals de l'art. 2 del Reglament aprovat pel Reial decret 203/2021?",
+    "answerOptions": [
+      {
+        "text": "El principi de facilitat d'ús.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Figura a l'art. 2.c) del RD 203/2021."
+      },
+      {
+        "text": "El principi de personalització i proactivitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Figura a l'art. 2.f) del RD 203/2021."
+      },
+      {
+        "text": "El principi de neutralitat tecnològica i d'adaptabilitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Figura a l'art. 2.a) del RD 203/2021."
+      },
+      {
+        "text": "El principi de proximitat.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 2 del RD 203/2021 recull neutralitat tecnològica i adaptabilitat, accessibilitat, facilitat d'ús, interoperabilitat, proporcionalitat, i personalització i proactivitat. La proximitat és un principi de la Llei catalana 29/2010."
+      }
+    ],
+    "hint": "El RD 203/2021 en recull sis (NAFIPP)."
+  },
+  {
+    "guid": "3d72d579-4f3a-454e-ac5d-55798348597b",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons la Llei 29/2010, el principi que obliga les entitats del sector públic a permetre l'ús dels mitjans electrònics independentment de les opcions tecnològiques dels destinataris i a promoure l'ús d'estàndards oberts és el de:",
+    "answerOptions": [
+      {
+        "text": "Proporcionalitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La proporcionalitat (principi novè) es refereix a les garanties i mesures de seguretat exigides i a les dades sol·licitades."
+      },
+      {
+        "text": "Neutralitat tecnològica.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el principi setè de l'art. 4 de la Llei 29/2010."
+      },
+      {
+        "text": "Cooperació i col·laboració.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest principi (vuitè) es refereix a treballar en comú i garantir la interoperabilitat dels sistemes."
+      },
+      {
+        "text": "Accessibilitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'accessibilitat (principi tercer) evita discriminacions per raó del mitjà o de discapacitats."
+      }
+    ],
+    "hint": "Art. 4 Llei 29/2010 (principi setè)."
+  },
+  {
+    "guid": "10b02fa6-7af8-4c75-8b4c-ec1b0ab8d09c",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons la Llei 29/2010, l'eina que fa efectiu el dret de la ciutadania a no aportar les dades i els documents que ja són en poder de les administracions públiques és:",
+    "answerOptions": [
+      {
+        "text": "El Catàleg de dades i documents interoperables, gestionat pel Consorci AOC.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 21 de la Llei 29/2010 defineix el Catàleg com l'eina per fer efectiu aquest dret, i n'atribueix la gestió al Consorci Administració Oberta de Catalunya."
+      },
+      {
+        "text": "El Marc d'interoperabilitat de Catalunya, aprovat per ordre del departament competent.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Marc (arts. 19-20) recull recomanacions i estàndards, i l'aprova el Govern per decret, no per ordre."
+      },
+      {
+        "text": "L'espai personalitzat de cada ciutadà a la seu electrònica corporativa de l'entitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'espai personalitzat (art. 13) permet consultar tràmits i notificacions, però no és l'eina del dret a no aportar documents."
+      },
+      {
+        "text": "La Xarxa de comunicacions electròniques de les administracions públiques catalanes.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Xarxa (art. 23) garanteix la comunicació segura entre administracions, però no és l'eina d'aquest dret."
+      }
+    ],
+    "hint": "Art. 21 Llei 29/2010."
+  },
+  {
+    "guid": "35903f5f-d6b2-4bb5-aae6-7c960b05cf16",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 12.3 de l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona, quin d'aquests continguts figura expressament entre els de la seu electrònica?",
+    "answerOptions": [
+      {
+        "text": "L'agenda d'activitats culturals de la ciutat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No figura a l'art. 12.3; és informació d'interès general pròpia del portal d'internet (art. 11)."
+      },
+      {
+        "text": "La guia d'equipaments municipals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No figura a l'art. 12.3 (va ser la resposta correcta de la pregunta 69 de l'A1-2021); és contingut del portal."
+      },
+      {
+        "text": "El registre d'apoderaments.",
+        "isCorrect": true,
+        "rationale": "Correcta. Figura a l'art. 12.3.k) de l'Ordenança."
+      },
+      {
+        "text": "Les notícies d'actualitat municipal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No figura a l'art. 12.3; correspon al portal d'internet (art. 11)."
+      }
+    ],
+    "hint": "Recorda la llista d'onze continguts de l'art. 12.3."
+  },
+  {
+    "guid": "32ab8c00-0e10-4536-a647-71ba3961f1e8",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona, la publicació d'anuncis i edictes en el tauler d'edictes electrònic:",
+    "answerOptions": [
+      {
+        "text": "És prèvia i complementària a la publicació en el Tauler Edictal Únic del BOE.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 16 de l'Ordenança configura la publicació al tauler municipal, oficial i autèntica, com a prèvia i complementària al Tauler Edictal Únic."
+      },
+      {
+        "text": "Substitueix la publicació en el Tauler Edictal Únic del BOE en els procediments municipals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No el substitueix: n'és prèvia i complementària (art. 16 de l'Ordenança i art. 44 de la Llei 39/2015)."
+      },
+      {
+        "text": "Només és accessible per a les persones que s'hagin identificat a la seu electrònica.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'Ordenança preveu que per consultar el tauler no calgui identificació."
+      },
+      {
+        "text": "Té caràcter merament informatiu i no produeix cap efecte jurídic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La publicació al tauler té caràcter oficial i autèntic."
+      }
+    ],
+    "hint": "Art. 16 de l'Ordenança i art. 44 de la Llei 39/2015."
+  },
+  {
+    "guid": "4041735a-bc96-4c91-bbc5-3374a6bf64c2",
+    "subjectId": "T17",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona, l'obligació de relacionar-se electrònicament es pot estendre a determinats col·lectius de persones físiques mitjançant:",
+    "answerOptions": [
+      {
+        "text": "Un decret de l'Alcaldia publicat a la Gaseta Municipal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'Ordenança atribueix aquesta competència a la Comissió de Govern, no a l'Alcaldia."
+      },
+      {
+        "text": "Una disposició de caràcter general de la Comissió de Govern.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 9.3 de l'Ordenança atribueix a la Comissió de Govern, per disposició de caràcter general, l'extensió de l'obligació (en desplegament de l'art. 14.3 de la Llei 39/2015)."
+      },
+      {
+        "text": "Un acord del Plenari del Consell Municipal adoptat per majoria absoluta.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.3 no la reserva al Plenari, sinó a la Comissió de Govern."
+      },
+      {
+        "text": "Una instrucció de la Secretaria General de l'Ajuntament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Una instrucció no té caràcter de disposició general; l'òrgan competent és la Comissió de Govern."
+      }
+    ],
+    "hint": "Art. 9.3 de l'Ordenança."
+  }
+]
