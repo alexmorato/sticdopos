@@ -92,9 +92,13 @@ for f in os.listdir(carpeta):
         if not any(palabra in f for palabra in palabras_prohibidas):
             ficheros.append(f)
 
+# Mantener un orden estable en manifest.json sin alterar el orden de entrada
+# que utiliza manifest_date.json para resolver fechas iguales.
+ficheros_ordenados = sorted(ficheros)
+
 # Crear el diccionario con el formato requerido
 manifest = {
-    "files": ficheros
+    "files": ficheros_ordenados
 }
 
 
