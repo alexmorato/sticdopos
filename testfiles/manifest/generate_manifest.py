@@ -1,6 +1,8 @@
 import os
 import json
 import sys
+import subprocess
+from datetime import datetime, timezone
 
 
 # CONFIGURACIÓN
@@ -39,6 +41,20 @@ def normalizar_nombre_archivo(nombre):
     return nombre_normalizado + extension
 
 
+def obtener_fecha_commit(raiz_git, ruta_relativa):
+    resultado = subprocess.run(
+        ["git", "-C", raiz_git, "log", "-1", "--format=%ct", "--", ruta_relativa],
+        check=True,
+        capture_output=True,
+        text=True
+    )
+    timestamp = resultado.stdout.strip()
+    if not timestamp:
+        return None
+
+    return datetime.fromtimestamp(int(timestamp), timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 # Leer carpeta desde parámetros
 if len(sys.argv) != 2:
     print("Uso: python generate_manifest.py <ruta_carpeta>")
@@ -49,6 +65,18 @@ carpeta_destino = carpeta  # Carpeta y destino son iguales
 
 if not os.path.isdir(carpeta):
     print(f"Error: La carpeta '{carpeta}' no existe")
+    sys.exit(1)
+
+try:
+    resultado_git = subprocess.run(
+        ["git", "-C", os.path.abspath(carpeta), "rev-parse", "--show-toplevel"],
+        check=True,
+        capture_output=True,
+        text=True
+    )
+    raiz_git = resultado_git.stdout.strip()
+except (OSError, subprocess.CalledProcessError):
+    print(f"Error: La carpeta '{carpeta}' no pertenece a un repositorio Git")
     sys.exit(1)
 
 # PASO 1: Renombrar archivos que necesiten normalización
@@ -110,19 +138,28 @@ with open(manifest_path, "w", encoding="utf-8") as f:
 # PASO 3: Generar manifest_date.json con fechas de actualización
 print("\nPASO 3: Generando manifest_date.json...")
 manifest_date_list = []
+archivos_sin_commit = []
+fecha_actual = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 for fname in ficheros:
-    ruta = os.path.join(carpeta, fname)
-    try:
-        updated = os.path.getmtime(ruta)
-        # Convertir a formato legible
-        from datetime import datetime
-        updated_str = datetime.fromtimestamp(updated).strftime('%Y-%m-%d %H:%M:%S')
-    except Exception as e:
-        updated_str = "error"
+    ruta = os.path.relpath(os.path.join(os.path.abspath(carpeta), fname), raiz_git)
+    updated_str = obtener_fecha_commit(raiz_git, ruta)
+    if updated_str is None:
+        archivos_sin_commit.append(fname)
+        updated_str = fecha_actual
     manifest_date_list.append({"file": fname, "updated": updated_str})
 
-# Ordenar descendentemente por fecha
-manifest_date_list.sort(key=lambda x: x["updated"], reverse=True)
+# Fechas descendentes, con orden estable por nombre para fechas iguales.
+manifest_date_list.sort(key=lambda item: item["file"])
+manifest_date_list.sort(
+    key=lambda item: item["updated"],
+    reverse=True
+)
+
+if archivos_sin_commit:
+    print(
+        f"Aviso: {len(archivos_sin_commit)} archivo(s) sin commit; "
+        "se usa la fecha actual UTC."
+    )
 
 manifest_date = {"files": manifest_date_list}
 manifest_date_path = os.path.join(carpeta_destino, "manifest_date.json")
