@@ -108,14 +108,13 @@ Passa de parlar només de tecnologia a parlar de:
 
 ## Pilars
 
-```mermaid
-graph LR
-A[Administració Digital] --> B[Ciutadania]
-A --> C[Dades]
-A --> D[Serveis]
-A --> E[Seguretat]
-A --> F[Interoperabilitat]
-```
+| Pilar | Idea clau |
+|-----------|-----------|
+| Ciutadania | Administració orientada a les necessitats de la ciutadania |
+| Dades | Ús i reutilització de les dades |
+| Serveis | Serveis digitals accessibles i útils |
+| Seguretat | Protecció de la informació i dels sistemes |
+| Interoperabilitat | Intercanvi de dades entre administracions |
 
 ---
 
@@ -156,20 +155,26 @@ L'Administració consulta aquestes dades per interoperabilitat.
 
 Conjunt ordenat de documents i actuacions corresponents a un procediment administratiu.
 
-```mermaid
-graph TD
-A[Procediment] --> B[Sol·licitud]
-B --> C[Informes]
-C --> D[Tràmits]
-D --> E[Resolució]
-E --> F[Expedient Electrònic]
+```text
+Procediment administratiu
+          |
+          v
++-----------------------------------+
+| EXPEDIENT ELECTRÒNIC              |
+| Conjunt ordenat de:               |
+|   - Documents: sol·licitud, etc.  |
+|   - Actuacions: informes, tràmits  |
++-----------------------------------+
+          |
+          v
+Serveix de base per a la resolució
 ```
 
 ---
 
 # Què integra l'expedient?
 
-## Inclou
+## Inclou (SIDIR)
 
 ✅ Sol·licitud
 
@@ -185,9 +190,13 @@ E --> F[Expedient Electrònic]
 
 ✅ Índex electrònic
 
+### Mnemotècnic: SIDIR
+
+**S**ol·licitud · **I**nformes · **D**ocuments · **I**ndex · **R**esolució
+
 ---
 
-## NO inclou
+## NO inclou (NEO)
 
 ❌ Notes internes
 
@@ -202,7 +211,7 @@ E --> F[Expedient Electrònic]
 ## Estructura
 
 ```text
-EXPEDIENT
+EXPEDIENT (SIDIR)
 
 ├── Índex electrònic
 ├── Sol·licitud
@@ -225,24 +234,29 @@ Relació numerada de tots els documents de l'expedient.
 
 ### Serveix per:
 
-- Garantir la integritat.
-- Evitar manipulacions.
+- Garantir la integritat. (IA)
+- Evitar manipulacions. (IA)
 - Ordenar la documentació.
 - Facilitar la consulta.
+
+### Mnemotècnic: IA
+
+**I**ntegritat · **A**utenticitat
 
 ---
 
 ## Esquema
 
-```mermaid
-graph TD
-A[Índex electrònic] --> B[Document 1]
-A --> C[Document 2]
-A --> D[Document 3]
-A --> E[Document N]
-
-A --> F[Integritat]
-A --> G[Autenticitat]
+```text
+Índex electrònic
+├── Identifica i ordena els documents
+│   ├── 1. Document 1
+│   ├── 2. Document 2
+│   ├── 3. Document 3
+│   └── N. Document N
+└── Garanteix (IA)
+  ├── Integritat
+  └── Autenticitat
 ```
 
 ---
