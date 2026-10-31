@@ -1,0 +1,257 @@
+[
+  {
+    "guid": "3f8a1c52-7d4e-4b19-9a36-c1e5d2b80f41",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin dels següents drets NO és susceptible de recurs d'empara davant el Tribunal Constitucional?",
+    "answerOptions": [
+      { "text": "El dret de vaga.", "isCorrect": false },
+      { "text": "El dret a l'educació.", "isCorrect": false },
+      {
+        "text": "El dret a la protecció de la salut.",
+        "isCorrect": true,
+        "rationale": "El dret a la protecció de la salut es recull a l'art. 43 de la Constitució, dins del Capítol tercer del Títol primer (principis rectors de la política social i econòmica). Segons l'art. 53.3, aquests principis només es poden al·legar davant la jurisdicció ordinària d'acord amb el que disposin les lleis que els desenvolupin. El recurs d'empara només cobreix l'art. 14, la Secció primera del Capítol segon (arts. 15 a 29) i l'objecció de consciència de l'art. 30."
+      },
+      { "text": "El dret a la tutela judicial efectiva.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "b92d6e07-1a5c-4f83-8e40-5a7c9d3e21b6",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Segons l'art. 53.2 de la Constitució, quin dels següents drets està protegit pel recurs d'empara?",
+    "answerOptions": [
+      { "text": "El dret a la propietat privada.", "isCorrect": false },
+      {
+        "text": "L'objecció de consciència.",
+        "isCorrect": true,
+        "rationale": "L'art. 53.2 estén expressament el recurs d'empara a l'objecció de consciència reconeguda a l'art. 30 (apartat 2), a més de l'art. 14 i la Secció primera del Capítol segon. La propietat privada (art. 33), el dret al treball (art. 35) i la llibertat d'empresa (art. 38) estan fora de la Secció primera i no tenen empara."
+      },
+      { "text": "El dret al treball.", "isCorrect": false },
+      { "text": "La llibertat d'empresa.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "e17c4a90-62bd-4d35-b8f2-0c9a7e5d4318",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "D'acord amb l'art. 53.1 de la Constitució, l'exercici dels drets i llibertats del Capítol segon només es pot regular:",
+    "answerOptions": [
+      {
+        "text": "Per llei, que en tot cas ha de respectar-ne el contingut essencial.",
+        "isCorrect": true,
+        "rationale": "L'art. 53.1 estableix que els drets i llibertats del Capítol segon vinculen tots els poders públics i que només per llei, que en tot cas ha de respectar-ne el contingut essencial, es pot regular el seu exercici. La tutela es regula segons l'art. 161.1.a pel recurs d'inconstitucionalitat."
+      },
+      { "text": "Per reglament dictat pel Govern.", "isCorrect": false },
+      { "text": "Per decret llei, amb la ratificació posterior del Congrés.", "isCorrect": false },
+      { "text": "Per llei, sense cap límit material.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "0a5f83d1-c4e9-4276-9b18-d3e6a2f7c059",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Els articles 114 i següents de la Llei 29/1998, reguladora de la jurisdicció contenciosa administrativa, regulen:",
+    "answerOptions": [
+      { "text": "El recurs d'empara davant el Tribunal Constitucional.", "isCorrect": false },
+      { "text": "El recurs de cassació en interès de la llei.", "isCorrect": false },
+      { "text": "El procediment abreujat.", "isCorrect": false },
+      {
+        "text": "El procediment per a la protecció dels drets fonamentals de la persona.",
+        "isCorrect": true,
+        "rationale": "Els arts. 114 i següents de la Llei 29/1998 desenvolupen en l'àmbit contenciós administratiu el procediment preferent i sumari que preveu l'art. 53.2 de la Constitució per a la tutela de l'art. 14 i de la Secció primera del Capítol segon. És la via judicial prèvia al recurs d'empara, però no és el recurs d'empara."
+      }
+    ]
+  },
+  {
+    "guid": "5c2e9b64-8f10-4a7d-a3c5-e1b0d7f92486",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Segons l'art. 54 de la Constitució, el Defensor del Poble és:",
+    "answerOptions": [
+      { "text": "Un alt comissionat del Govern per supervisar l'activitat de l'Administració.", "isCorrect": false },
+      {
+        "text": "Un alt comissionat de les Corts Generals, designat per aquestes per defendre els drets del Títol primer.",
+        "isCorrect": true,
+        "rationale": "L'art. 54 de la Constitució configura el Defensor del Poble com a alt comissionat de les Corts Generals, designat per aquestes per a la defensa dels drets compresos en el Títol primer. Per a aquesta finalitat pot supervisar l'activitat de l'Administració, donant compte a les Corts Generals."
+      },
+      { "text": "Un òrgan del Poder Judicial amb competència per revisar les resolucions administratives.", "isCorrect": false },
+      { "text": "Un òrgan auxiliar del Tribunal Constitucional.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "d84b1f37-9e62-4c0a-8d75-2a6c5b9e0f13",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Segons la Llei orgànica 3/1981, el Defensor del Poble és elegit per un període de:",
+    "answerOptions": [
+      { "text": "Quatre anys.", "isCorrect": false },
+      { "text": "Sis anys.", "isCorrect": false },
+      {
+        "text": "Cinc anys.",
+        "isCorrect": true,
+        "rationale": "L'art. 2 de la LO 3/1981 estableix que el Defensor del Poble és elegit per les Corts Generals per un període de cinc anys."
+      },
+      { "text": "Nou anys, renovables per terços.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "91e6a3c8-0d5b-4f27-b4a1-7c8e2d6f3a90",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Quina majoria exigeix la Llei orgànica 3/1981 per a la designació del Defensor del Poble?",
+    "answerOptions": [
+      {
+        "text": "Tres cinquenes parts del Congrés dels Diputats i ratificació per la mateixa majoria del Senat.",
+        "isCorrect": true,
+        "rationale": "L'art. 2 de la LO 3/1981 preveu que una Comissió mixta Congrés-Senat proposi candidats i que sigui designat qui obtingui el vot favorable de les tres cinquenes parts del Congrés i, posteriorment, la ratificació per la mateixa majoria del Senat."
+      },
+      { "text": "Majoria absoluta del Congrés dels Diputats.", "isCorrect": false },
+      { "text": "Dos terços del Congrés i majoria simple del Senat.", "isCorrect": false },
+      { "text": "Majoria simple de cada Cambra.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "7b03d5e2-a6f9-4813-9c4e-b1d8f0a27e65",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin és el termini per presentar una queixa davant el Defensor del Poble segons la LO 3/1981?",
+    "answerOptions": [
+      { "text": "Tres mesos des de la resolució de l'Administració.", "isCorrect": false },
+      { "text": "Sis mesos des de la notificació.", "isCorrect": false },
+      { "text": "Dos anys des dels fets.", "isCorrect": false },
+      {
+        "text": "Un any a comptar del moment en què es va tenir coneixement dels fets.",
+        "isCorrect": true,
+        "rationale": "L'art. 15 de la LO 3/1981 estableix que la queixa s'ha de presentar en el termini màxim d'un any a comptar del moment en què es va tenir coneixement dels fets objecte d'investigació. La queixa és gratuïta, no requereix advocat i no suspèn els terminis per recórrer."
+      }
+    ]
+  },
+  {
+    "guid": "c46f2a19-3e8d-4b50-a7d3-9f1e6c8b0d24",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Segons l'art. 162.1 de la Constitució, el Defensor del Poble està legitimat per interposar:",
+    "answerOptions": [
+      { "text": "Només el recurs d'inconstitucionalitat.", "isCorrect": false },
+      { "text": "Només el recurs d'empara.", "isCorrect": false },
+      {
+        "text": "El recurs d'inconstitucionalitat i el recurs d'empara.",
+        "isCorrect": true,
+        "rationale": "L'art. 162.1 de la Constitució legitima el Defensor del Poble per interposar el recurs d'inconstitucionalitat (apartat a) i el recurs d'empara (apartat b), juntament amb el Ministeri Fiscal i, per a l'empara, tota persona natural o jurídica que invoqui un interès legítim."
+      },
+      { "text": "Cap dels dos; només pot formular recomanacions a l'Administració.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "28d9e7b5-4a1c-4e63-8f02-d5c3a9b17e48",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin dels següents drets NO pot ser suspès quan es declari l'estat d'excepció o de setge?",
+    "answerOptions": [
+      { "text": "La llibertat de residència i de circulació.", "isCorrect": false },
+      { "text": "La llibertat de reunió i de manifestació.", "isCorrect": false },
+      { "text": "El dret de vaga.", "isCorrect": false },
+      {
+        "text": "La llibertat ideològica i religiosa.",
+        "isCorrect": true,
+        "rationale": "L'art. 55.1 de la Constitució enumera els drets que es poden suspendre en l'estat d'excepció o de setge: arts. 17, 18 (apartats 2 i 3), 19, 20 (apartats 1.a i d, i 5), 21, 28.2 i 37.2. La llibertat ideològica i religiosa (art. 16) no figura en aquesta llista."
+      }
+    ]
+  },
+  {
+    "guid": "f05a8c31-b7e2-4d96-a6c4-1e9d3b7f5082",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin dels següents drets de l'art. 17 NO es pot suspendre en cas de declaració de l'estat d'excepció?",
+    "answerOptions": [
+      { "text": "El termini màxim de setanta-dues hores de la detenció preventiva.", "isCorrect": false },
+      {
+        "text": "L'assistència d'advocat al detingut en les diligències policials i judicials.",
+        "isCorrect": true,
+        "rationale": "L'art. 55.1 de la Constitució exceptua expressament l'apartat 3 de l'art. 17 per al supòsit de declaració de l'estat d'excepció. Aquest apartat recull, entre altres garanties, l'assistència d'advocat al detingut en les diligències policials i judicials."
+      },
+      { "text": "La inviolabilitat del domicili.", "isCorrect": false },
+      { "text": "El secret de les comunicacions.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "6e1b4d98-2c7a-4f05-b9e3-a8d0c5f12b73",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Segons l'art. 55.2 de la Constitució, la suspensió individual de determinats drets requereix:",
+    "answerOptions": [
+      {
+        "text": "Una llei orgànica, per a persones determinades i en relació amb investigacions de bandes armades o elements terroristes.",
+        "isCorrect": true,
+        "rationale": "L'art. 55.2 permet que una llei orgànica determini la forma i els casos en què, de manera individual i amb la necessària intervenció judicial i el control parlamentari, es puguin suspendre drets per a persones determinades en relació amb investigacions corresponents a l'actuació de bandes armades o elements terroristes. No cal declarar cap estat excepcional."
+      },
+      { "text": "La prèvia declaració de l'estat d'alarma.", "isCorrect": false },
+      { "text": "Un decret llei del Govern convalidat pel Congrés.", "isCorrect": false },
+      { "text": "Una resolució judicial, sense necessitat de cap llei orgànica.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "a3c7f592-8d04-4e1b-97a6-4b2e0d8c6f19",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Quins drets es poden suspendre de manera individual segons l'art. 55.2 de la Constitució?",
+    "answerOptions": [
+      { "text": "Els de l'art. 17.1, 18.1 i 19.", "isCorrect": false },
+      { "text": "Els de l'art. 20.1.a i d, 21 i 28.2.", "isCorrect": false },
+      {
+        "text": "Els de l'art. 17.2, 18.2 i 18.3.",
+        "isCorrect": true,
+        "rationale": "L'art. 55.2 limita la suspensió individual als drets de l'art. 17.2 (termini de la detenció preventiva), 18.2 (inviolabilitat del domicili) i 18.3 (secret de les comunicacions). La resta de la llista de l'art. 55.1 només es pot suspendre amb la declaració de l'estat d'excepció o de setge."
+      },
+      { "text": "Els de l'art. 37.2 i 28.2.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "19d6e0a4-5b83-4c72-a1f8-c7e9b3d02a56",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Segons l'art. 116 de la Constitució i la LO 4/1981, l'estat d'alarma:",
+    "answerOptions": [
+      { "text": "El declara el Congrés dels Diputats per majoria absoluta.", "isCorrect": false },
+      {
+        "text": "El declara el Govern per decret, per un termini màxim de quinze dies, i en dona compte al Congrés.",
+        "isCorrect": true,
+        "rationale": "L'art. 116.2 de la Constitució i la LO 4/1981 estableixen que l'estat d'alarma el declara el Govern mitjançant decret acordat en Consell de Ministres, per un termini màxim de quinze dies, donant-ne compte al Congrés. Per prorrogar-lo cal l'autorització del Congrés. L'estat d'alarma limita drets, però no els suspèn."
+      },
+      { "text": "El declara el Govern amb autorització prèvia del Congrés, per trenta dies.", "isCorrect": false },
+      { "text": "El declara el Cap de l'Estat a proposta de les Corts Generals.", "isCorrect": false }
+    ]
+  },
+  {
+    "guid": "84f2b7c6-1e9a-4d30-8b57-e0a4c6d91f32",
+    "subjectId": "T01",
+    "origin": "claude",
+    "type": "test",
+    "question": "Quin dels següents NO és un principi rector de la política social i econòmica del Capítol tercer del Títol primer?",
+    "answerOptions": [
+      { "text": "La protecció de la salut.", "isCorrect": false },
+      { "text": "L'accés a la cultura.", "isCorrect": false },
+      { "text": "La conservació del medi ambient.", "isCorrect": false },
+      {
+        "text": "El dret a la propietat privada i a l'herència.",
+        "isCorrect": true,
+        "rationale": "El dret a la propietat privada i a l'herència es reconeix a l'art. 33, dins del Capítol segon (drets i llibertats), Secció segona. La salut (art. 43), la cultura (art. 44) i el medi ambient (art. 45) són principis rectors del Capítol tercer (arts. 39 a 52)."
+      }
+    ]
+  }
+]
