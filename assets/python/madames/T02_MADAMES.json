@@ -1,0 +1,2758 @@
+[
+  {
+    "guid": "e3a5a2e4-1506-4eb6-80f1-45e939a5b233-14175",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Els ministres són proposats per:",
+    "answerOptions": [
+      {
+        "text": "President de Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 100 de la Constitució espanyola: \"Els altres membres del Govern seran nomenats i remoguts pel Rei a proposta del seu President\"."
+      },
+      {
+        "text": "Senat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rei.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "64573d67-0bd2-4d85-ad10-9e2951a644b5-16865",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quin dels següents no és un dels requisits per ser membre del Govern?",
+    "answerOptions": [
+      {
+        "text": "Tenir més de 16 anys.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 11 de la Llei 50/1997, de 27 de novembre, per ser membre del Govern es requereix: ser espanyol, major d'edat; gaudir dels drets de sufragi actiu i passiu; no estar inhabilitat per exercir una feina o un càrrec públic per sentència judicial ferma."
+      },
+      {
+        "text": "Ser espanyol.",
+        "isCorrect": false
+      },
+      {
+        "text": "No estar inhabilitat per exercir una feina o un càrrec públic per sentència judicial ferma.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gaudir del dret de sufragi passiu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "c96db817-e3cb-4977-b5a5-60e14707abf2-17469",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La no aprovació de la moció de censura té com a conseqüència per als signataris que aquests:",
+    "answerOptions": [
+      {
+        "text": "Només podran presentar una altra durant la mateixa legislatura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Només podran presentar una altra durant el mateix període de sessions.",
+        "isCorrect": false
+      },
+      {
+        "text": "No en podran presentar cap més durant el mateix període de sessions.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.4 de la Constitució espanyola: \"Si la moció de censura no fos aprovada pel Congrés, els signataris no en podran presentar cap més durant el mateix període de sessions\"."
+      },
+      {
+        "text": "No en podran presentar cap més durant un període de dos anys.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "71ba7018-d6bf-4d6f-9457-b31f77e4cdb7-16943",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Assenyala l'afirmació correcta en relació amb la responsabilitat del Govern:",
+    "answerOptions": [
+      {
+        "text": "El President és qui exigeix responsabilitats als Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilitat dels membres de Govern és directa.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.2 de la Constitució espanyola: \"El President dirigeix l'acció del Govern i coordina les funcions dels altres membres d'aquest, sens perjudici de la competència i de la responsabilitat directa d'aquells en la seva gestió\"."
+      },
+      {
+        "text": "No hi ha manera d'exigir responsabilitat als membres de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilitat dels membres de Govern és judicial.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "ca624e55-3d14-4f26-b212-563b7cb787d5-16683",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució Espanyola, indiqui quin dels següents és el suprem òrgan consultiu de Govern:",
+    "answerOptions": [
+      {
+        "text": "El Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consell d'Estat.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 107 de la Constitució espanyola: \"El Consell d'Estat és l'òrgan consultiu suprem del Govern. Una llei orgànica en regularà la composició i la competència\"."
+      },
+      {
+        "text": "El Tribunal de Comptes.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "1c69e65e-3aef-42bf-a4b8-26f61587acbe-14327",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El President de Govern, prèvia deliberació del Consell de Ministres, i sota la seva exclusiva responsabilitat, podrà proposar la dissolució de:",
+    "answerOptions": [
+      {
+        "text": "Les Corts Generals.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 115.1 de la Constitució espanyola: \"El President del Govern, prèvia deliberació del Consell de Ministres, i sota la seva exclusiva responsabilitat, podrà proposar la dissolució del Congrés, del Senat o de les Corts Generals, la qual serà decretada pel Rei. El decret de dissolució fixarà la data de les eleccions\"."
+      },
+      {
+        "text": "Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tribunal Superior de Justícia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consell d'Estat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "5e744323-0c47-4b59-8b5f-cd122b0c1c63-18437",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Podran presentar-se mocions alternatives de censura en el termini de:",
+    "answerOptions": [
+      {
+        "text": "En els 5 primers dies.",
+        "isCorrect": false
+      },
+      {
+        "text": "En els 2 primers dies.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.3 de la Constitució espanyola: \"La moció de censura no podrà ser votada fins a cinc dies de la presentació. En els dos primers dies d'aquest termini podran presentar-se mocions alternatives\"."
+      },
+      {
+        "text": "En els 7 primers dies.",
+        "isCorrect": false
+      },
+      {
+        "text": "En els 10 primers dies.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "9431be0c-3859-45d2-af1e-9ba09ffe63f5-14761",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La proposta de dissolució de les Cambres no podrà presentar-se:",
+    "answerOptions": [
+      {
+        "text": "Quan estigui en tràmit una moció de censura.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 115.2 de la Constitució espanyola: \"La proposta de dissolució no podrà presentar-se quan hi hagi en tràmit una moció de censura\"."
+      },
+      {
+        "text": "Quan estigui reunida la Diputació Permanent.",
+        "isCorrect": false
+      },
+      {
+        "text": "En el primer període de sessions.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sense el vistiplau del Rei.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "249b0555-ca7c-434c-824c-cc255ac2c39d-13435",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El títol V de la Constitució espanyola de 1978 és:",
+    "answerOptions": [
+      {
+        "text": "Del Poder Judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Del Govern i de l'Administració.",
+        "isCorrect": false
+      },
+      {
+        "text": "De les relacions entre el Govern i les Corts Generals.",
+        "isCorrect": true,
+        "rationale": "Títol V de la Constitució espanyola: \" De les relacions entre el Govern i les Corts Generals\"."
+      },
+      {
+        "text": "De l'organització territorial de l'Estat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "9eff0728-fd86-48eb-ad20-d8890d8b5999-18291",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució, el Govern exerceix:",
+    "answerOptions": [
+      {
+        "text": "La funció legislativa i executiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "La funció executiva i la potestat reglamentària.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 97 de la Constitució espanyola: \"El Govern dirigeix la política interior i l'exterior, l'Administració civil i militar i la defensa de l'Estat. Exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i amb les lleis\"."
+      },
+      {
+        "text": "La potestat reglamentària i legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "La funció executiva, la potestat reglamentària i legislativa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "b055b07c-a09c-4ba0-84af-2b98fc590a71-17477",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució espanyola, indica davant de qui el Govern respon solidàriament de la seva gestió política:",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 108 de la Constitució espanyola: \"El Govern respon solidàriament de la seva gestió política davant el Congrés dels Diputats\"."
+      },
+      {
+        "text": "El Senat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Les Corts Generals.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consell d'Estat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "fce1c38e-8163-4faa-8054-1eaab9141683-17513",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "A qui atribueix la Constitució l'exercici de la potestat reglamentària?",
+    "answerOptions": [
+      {
+        "text": "Al Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 97 de la Constitució espanyola: \"El Govern dirigeix la política interior i l'exterior, l'Administració civil i militar i la defensa de l'Estat. Exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i amb les lleis\"."
+      },
+      {
+        "text": "Al Tribunal de comptes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Defensor del Poble.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al gabinet del President.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "e5905508-0993-4ace-bc30-367fbf696c9e-13831",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Les decisions del Consell de Ministres són:",
+    "answerOptions": [
+      {
+        "text": "Polítiques.",
+        "isCorrect": false
+      },
+      {
+        "text": "Administratives.",
+        "isCorrect": true,
+        "rationale": "El Govern és un òrgan de naturalesa política que adopta decisions d'aquest caràcter, i el Consell de Ministres (compost per les mateixes persones que el Govern) ha de ser conceptuat com un òrgan superior de l'Administració civil de l'Estat amb funcions estrictament administratives i no polítiques. Cal tenir en compte, en tot cas, la naturalesa diferent de les decisions que s'adopten per un i altre; el Govern, polítiques i el Consell de Ministres, administratives."
+      },
+      {
+        "text": "Jurídiques.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consell de Ministres no pren decisions.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "90408cc5-67f9-41f0-8bc8-6f861deb343e-14983",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La convocatòria de les reunions de Consell de Ministres correspon:",
+    "answerOptions": [
+      {
+        "text": "Al President del Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 18.1 de la Llei 50/1997, de 27 de novembre: \"El President de Govern convoca i presideix les reunions de Consell de Ministres, actuant com a secretari el ministre de la Presidència\"."
+      },
+      {
+        "text": "Al Ministre competent en Funció Pública, per indicació de President.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Vicepresident.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Rei.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "ee92c59f-9bfb-4bd8-a1b1-6b911e887222-14759",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El Govern i cadascun dels seus membres estan sotmesos a les interpel·lacions i a les preguntes que els formulin davant les Cambres. Per a aquesta classe de debat els Reglaments establiran:",
+    "answerOptions": [
+      {
+        "text": "Un temps mínim setmanal.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 111.1 de la Constitució espanyola: \"El Govern i cadascun dels seus membres resten sotmesos a les interpel·lacions i a les preguntes que els formulin davant les Cambres. Per a aquesta classe de debat els Reglaments establiran un temps mínim setmanal\"."
+      },
+      {
+        "text": "Un temps mínim diari.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un temps màxim setmanal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un temps màxim diari.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "998781fa-edbc-4ec8-939b-7e2c1b040f0e-14029",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Correspon proposar un candidat a la Presidència del Govern, a través del President del Congrés a:",
+    "answerOptions": [
+      {
+        "text": "El Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rei.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.1 de la Constitució espanyola: \"Després de cada renovació del Congrés, i en els altres supòsits previstos per la Constitució en què sigui procedent, el Rei, prèvia consulta amb els representants designats pels grups polítics amb representació parlamentària, i a través del President del Congrés, proposarà un candidat a la Presidència del Govern\"."
+      },
+      {
+        "text": "El Ministre d'Interior.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Senat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "b53cb2a9-2259-4cb0-8378-6199bcec7f6b-18311",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "L'estatut i incompatibilitats dels membres de Govern es regularà:",
+    "answerOptions": [
+      {
+        "text": "Mitjançant reglament.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per llei.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.4 de la Constitució espanyola: \"La llei regularà l'Estatut i les incompatibilitats dels membres del Govern\"."
+      },
+      {
+        "text": "Per llei orgànica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per Decret-Llei.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "9259378e-0951-4781-9d6f-d510578b15c2-17913",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El Rei dissoldrà totes dues Cambres i convocarà noves eleccions amb la ratificació del President de Congrés, si cap candidat hagués obtingut la confiança de Congrés, un cop transcorregut el termini de:",
+    "answerOptions": [
+      {
+        "text": "1 mes.",
+        "isCorrect": false
+      },
+      {
+        "text": "2 mesos.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.5 de la Constitució espanyola: \"Si després d'haver transcorregut el termini de dos mesos a partir de la primera votació d'investidura, cap candidat hagués obtingut la confiança del Congrés, el Rei dissoldrà totes dues Cambres i convocarà noves eleccions amb el referendament del President del Congrés\"."
+      },
+      {
+        "text": "20 dies.",
+        "isCorrect": false
+      },
+      {
+        "text": "15 dies.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "31069bce-be4c-425f-b1ad-8e96f3b3a0b5-13705",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quan la disposició o resolució afecti a diversos departaments revestirà la forma de:",
+    "answerOptions": [
+      {
+        "text": "Acord del Consell de Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reial Decret.",
+        "isCorrect": false
+      },
+      {
+        "text": "Acord del President del Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ordre del Ministre de la Presidència.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 24.1 de la Llei 50/1997, de 27 de novembre: \"Les decisions del Govern de la Nació i dels seus membres revesteixen les formes següents: (...) f) Ordres Ministerials, les disposicions i resolucions dels Ministres. Quan la disposició o resolució afecti diversos Departaments revestirà la forma d'Ordre del Ministre de la Presidència, dictada a proposta dels Ministres interessats\"."
+      }
+    ]
+  },
+  {
+    "guid": "22eedfc3-5bec-4f06-a891-ec04accded62-18241",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La proposta del Rei de candidat a la Presidència de el Govern es canalitza a través del:",
+    "answerOptions": [
+      {
+        "text": "Senat i Congrés.",
+        "isCorrect": false
+      },
+      {
+        "text": "Govern en ple.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vicepresident.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cap és correcta.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.1 de la Constitució espanyola: \"Després de cada renovació del Congrés dels Diputats, i en els altres supòsits previstos per la Constitució en què sigui procedent, el Rei, prèvia consulta amb els representants designats pels grups polítics amb representació parlamentària, i a través del President del Congrés, proposarà un candidat a la Presidència del Govern\"."
+      }
+    ]
+  },
+  {
+    "guid": "e0b9fb3f-6ccb-465f-9914-20a4d8bcaf03-13913",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La confiança a President de Govern s'entendrà atorgada quan hi voti a favor de la mateixa:",
+    "answerOptions": [
+      {
+        "text": "La majoria simple dels membres del Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "La majoria absoluta dels membres de Congrés.",
+        "isCorrect": false
+      },
+      {
+        "text": "La majoria simple dels membres del Congrés.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 112 de la Constitució espanyola: \"El President del Govern, prèvia deliberació del Consell de Ministres, pot plantejar davant el Congrés dels Diputats la qüestió de confiança sobre el seu programa o sobre una declaració de política general. S'entendrà que la confiança ha estat atorgada si voten favorablement la majoria simple dels Diputats\"."
+      },
+      {
+        "text": "La majoria absoluta dels membres de Govern.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "715413ea-c9e0-452c-bad6-ed0ac79be917-16045",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Correspon al ___ coordinar les funcions dels membres del Govern:",
+    "answerOptions": [
+      {
+        "text": "President del Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.2 de la Constitució espanyola: \"El President dirigeix l'acció del Govern i coordina les funcions dels altres membres d'aquest, sens perjudici de la competència i de la responsabilitat directa d'aquells en la seva gestió\"."
+      },
+      {
+        "text": "Ministeri competent en matèria de Funció Pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consell de Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ministre de l'Interior.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "64a2fd9d-02ce-419a-95a0-0c5666303181-15751",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "En relació amb la moció de censura, assenyala l'afirmació correcta:",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats pot exigir la responsabilitat política de Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.1 de la Constitució espanyola: \"El Congrés dels Diputats pot exigir la responsabilitat política del Govern mitjançant l'adopció de la moció de censura per majoria absoluta\"."
+      },
+      {
+        "text": "El Govern pot exigir la responsabilitat política del President de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern pot exigir la responsabilitat política de Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Consell d'Estat pot exigir la responsabilitat política de Congrés dels Diputats.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "3c97e12e-0a62-4f62-97ca-556ed12653b7-17495",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quina norma ha de regular la composició i la competència del Consell d'Estat?",
+    "answerOptions": [
+      {
+        "text": "Pot ser mitjançant llei de bases.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pot ser objecte la seva regulació de delegació legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mitjançant una llei orgànica.",
+        "isCorrect": true,
+        "rationale": "Segons l'art 107 de la Constitució espanyola: \"El Consell d'Estat és l'òrgan consultiu suprem del Govern. Una llei orgànica en regularà la composició i la competència\"."
+      },
+      {
+        "text": "Mitjançant reglament.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "153c0f53-fb88-4204-a552-e47ab4164f8e-17763",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "No forma part del Govern:",
+    "answerOptions": [
+      {
+        "text": "El President de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "El vicepresident.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretari d'Estat.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.1 de la Constitució: \"El Govern es compon del President, els Vicepresidents en el seu cas, els Ministres i els altres membres que estableixi la llei\"."
+      },
+      {
+        "text": "Els altres membres que estableixi la llei.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "c8d73799-7241-4a61-a70e-94e806465b20-17559",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quina de les següents normes regula el règim d'incompatibilitats dels alts càrrecs de l'Administració general de l'Estat?",
+    "answerOptions": [
+      {
+        "text": "Llei 39/2015, d'1 d'octubre.",
+        "isCorrect": false
+      },
+      {
+        "text": "Llei 3/2015, de 30 de març.",
+        "isCorrect": true,
+        "rationale": "El règim d'incompatibilitats dels alts càrrecs de l'Administració general de l'Estat està regulat en la Llei 3/2015, de 30 de març, reguladora de l'exercici de l'alt càrrec de l'Administració General de l'Estat i el Reglament pel qual es desenvolupa la Llei 3/2015, de 30 de març, reguladora de l'exercici de l'alt càrrec de l'Administració General de l'Estat."
+      },
+      {
+        "text": "Llei 40/2015, d'1 d'octubre.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reial Decret Legislatiu 5/2015, de 30 d'octubre.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "ab632461-53be-47f1-8229-8aa4ba9b0e4e-16741",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Indica quina de les següents funcions no correspon al President del Govern:",
+    "answerOptions": [
+      {
+        "text": "La presidència del Consell de Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "El nomenament dels altres membres de Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 100 de la Constitució espanyola: \"Els altres membres del Govern seran nomenats i remoguts pel Rei a proposta del seu President\"."
+      },
+      {
+        "text": "Coordinar l'acció de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Plantejar davant el Congrés dels Diputats, prèvia deliberació del Consell de Ministres, la qüestió de confiança.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "e8887850-d49b-4719-aeef-dd1e02c9e73e-15151",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "L'adopció de la moció de censura serà per:",
+    "answerOptions": [
+      {
+        "text": "Majoria simple.",
+        "isCorrect": false
+      },
+      {
+        "text": "Majoria absoluta.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.1 de la Constitució espanyola: \"El Congrés dels Diputats pot exigir la responsabilitat política del Govern mitjançant l'adopció de la moció de censura per majoria absoluta\"."
+      },
+      {
+        "text": "Unanimitat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Majoria de tres quarts.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "de636903-aa85-4458-93ec-302536b99a07-16629",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució espanyola, indiqui de qui es competència l'aprovació d'exigència de responsabilitat d'un ministre per un delicte de traïció en l'exercici de les seves funcions:",
+    "answerOptions": [
+      {
+        "text": "Majoria absoluta dels membres de Congrés.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 102.2 de la Constitució espanyola: \"Si l'acusació fos per traïció o per qualsevol delicte contra la seguretat de l'Estat en l'exercici de les seves funcions, només podrà ser plantejada per iniciativa de la quarta part dels membres del Congrés i amb l'aprovació de la majoria absoluta d'aquesta Cambra\"."
+      },
+      {
+        "text": "Tercera part del membres del Congrés.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consell de Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tribunal Contenciós administratiu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "88b80363-5fad-43df-adc6-5941d00747ba-16789",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "A qui correspon nomenar i separar al Vicepresident del Govern?",
+    "answerOptions": [
+      {
+        "text": "Rei.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 12.2 de la Llei 50/1997, de 27 de novembre: \"Els Vicepresidents i Ministres seran nomenats i separats pel Rei, a proposta del President del Govern\"."
+      },
+      {
+        "text": "Consell de Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "Corts Generals.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consell d'Estat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "b9ed2c51-dc32-4980-a83a-bf5b81213012-15631",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució espanyola, indiqui qui no forma part del Govern:",
+    "answerOptions": [
+      {
+        "text": "El vicepresident.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Ministre.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Secretari d'Estat.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.1 de la Constitució: \"El Govern es compon del President, els Vicepresidents en el seu cas, els Ministres i els altres membres que estableixi la llei\"."
+      },
+      {
+        "text": "Els altres membres que estableixi la llei.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "0d4a9b1b-6dd5-4b48-b4cb-547e1495264f-16937",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució Espanyola, mitjançant quina norma es regularà l'Estatut i les incompatibilitats dels membres del Govern?",
+    "answerOptions": [
+      {
+        "text": "Per llei.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.4 de la Constitució espanyola: \"La llei regularà l'Estatut i les incompatibilitats dels membres del Govern\"."
+      },
+      {
+        "text": "Per llei orgànica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per Decret-Llei.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per nomenament.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "a9f48f57-6d15-4075-9e32-e45a26fccfa8-13393",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "En relació amb el Govern, es correcte afirmar que:",
+    "answerOptions": [
+      {
+        "text": "El Govern es compon del Cap de l'Estat i el President.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern es compon del Cap de l'Estat i el rei.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern es compon dels Parlamentaris.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern es compon del President, dels Vicepresidents si és el cas, dels Ministres i dels altres membres que estableixi la llei",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.1 de la Constitució espanyola: \"El Govern es compon del President, els Vicepresidents en el seu cas, els Ministres i els altres membres que estableixi la llei\"."
+      }
+    ]
+  },
+  {
+    "guid": "ad59c8f7-938b-453a-bd63-56e0a560876b-16875",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució Espanyola de 1978, indica com es diu el seu títol V:",
+    "answerOptions": [
+      {
+        "text": "Del Govern i de l'Administració.",
+        "isCorrect": false
+      },
+      {
+        "text": "De les relacions entre el Govern i les Corts Generals.",
+        "isCorrect": true,
+        "rationale": "Títol V de la Constitució espanyola: \" De les relacions entre el Govern i les Corts Generals\"."
+      },
+      {
+        "text": "De l'organització territorial de l'Estat.",
+        "isCorrect": false
+      },
+      {
+        "text": "De la Corona.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "d471b5b2-2834-416d-95cd-8f2e2582fe86-13503",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Assenyala l'afirmació correcte al respecte de la regulació de la responsabilitat criminal del Govern en la Constitució:",
+    "answerOptions": [
+      {
+        "text": "La responsabilitat criminal del President i els altres membres de Govern serà exigible, si escau, davant el Consell d'Estat.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilitat criminal del President i els altres membres de Govern serà exigible, si escau, davant el Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilitat criminal del President i els altres membres de Govern serà exigible, si escau, davant la Sala Penal del Tribunal Suprem.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 102.1 de la Constitució espanyola: \"La responsabilitat criminal del President i dels altres membres del Govern serà exigible, en el seu cas, davant la Sala Penal del Tribunal Suprem\"."
+      },
+      {
+        "text": "La responsabilitat criminal del President i els altres membres de Govern serà exigible, si escau, davant el Tribunal Contenciós administratiu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "fbcc262e-cffd-40e5-8d10-9559481a6fd0-16679",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Si un candidat a President de Govern obté majoria simple en primera votació:",
+    "answerOptions": [
+      {
+        "text": "No resulta investit President de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resulta investit President i té 48 hores per elegir els membres del seu Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "No resulta investit President i torna a comparèixer davant la Cambra 48 hores després.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.3 de la Constitució espanyola: \"Si el Congrés dels Diputats atorgava la seva confiança al dit candidat mitjançant el vot de la majoria absoluta dels seus membres, el Rei el nomenarà President. En el cas de no assolir-se la dita majoria, la mateixa proposta serà sotmesa a una nova votació quaranta-vuit hores després de l'anterior i s'entendrà que la confiança ha estat atorgada si obtenia la majoria simple\"."
+      },
+      {
+        "text": "No resulta investit President i torna a comparèixer davant la Cambra 72 hores després.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "3cc00d93-0986-4acc-b57c-bf7f132cfefe-13883",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Els ministres sense cartera:",
+    "answerOptions": [
+      {
+        "text": "Formen part del Govern.",
+        "isCorrect": true,
+        "rationale": "Els ministres sense cartera formen part del Govern, amb veu i vot, i per tant, participen de les decisions de naturalesa política que s'hi adopten, però no tenen una unitat administrativa o ministeri a dirigir, perquè el seu equip es limita a un reduït cercle de funcionaris que col·laboren en el desenvolupament de les seves funcions, però sense tenir la macrounitat de gestió administrativa que constitueix un departament ministerial."
+      },
+      {
+        "text": "No formen part del Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Formen part del Ministeri de Presidència, Relacions amb les Corts i Memòria Democràtica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cap es correcta.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "85eef58a-d3d6-4515-86f1-a24a3bc217e2-15811",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Assenyala quina de les següents afirmacions en relació amb el President del Govern es correcta:",
+    "answerOptions": [
+      {
+        "text": "El President dirigeix les Comunitats Autònomes.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President dirigeix l'acció de Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.2 de la Constitució espanyola: \"El President dirigeix l'acció del Govern i coordina les funcions dels altres membres d'aquest, sens perjudici de la competència i de la responsabilitat directa d'aquells en la seva gestió\"."
+      },
+      {
+        "text": "El President dirigeix el control extern.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President dirigeix el poder judicial.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "d49144ec-6b86-4bcd-a76c-5cc4273c1194-14195",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Davant de qui és exigible la responsabilitat penal del President de Govern?",
+    "answerOptions": [
+      {
+        "text": "Davant la Sala II del Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Davant la Sala I del Tribunal Contenciós administratiu.",
+        "isCorrect": false
+      },
+      {
+        "text": "Davant la Sala I del Jutjat Social.",
+        "isCorrect": false
+      },
+      {
+        "text": "Davant la Sala II del Tribunal Suprem.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 102.1 de la Constitució espanyola: \"La responsabilitat criminal del President i dels altres membres del Govern serà exigible, en el seu cas, davant la Sala Penal del Tribunal Suprem\"."
+      }
+    ]
+  },
+  {
+    "guid": "ed2a8348-e78f-41df-b11a-eb21bc00d37d-16745",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Com a regla general, no podran dissoldre's les Cambres novament abans que:",
+    "answerOptions": [
+      {
+        "text": "Transcorri un any des de l'anterior.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 115.3 de la Constitució espanyola: \"No serà procedent cap nova dissolució abans que hagi transcorregut un any des de l'anterior, llevat del que disposa l'article 99, apartat 5\"."
+      },
+      {
+        "text": "Se celebri el primer Ple.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transcorri el primer any de cada legislatura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ho aprovi el President del Congrés.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "667036d9-afb9-4eac-bb39-0d8d5365e588-17079",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "En quin dels següents supòsits no es podrà presentar proposta de dissolució de les Cambres?",
+    "answerOptions": [
+      {
+        "text": "Quan estigui en tràmit una moció de censura.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 115.2 de la Constitució espanyola: \"La proposta de dissolució no podrà presentar-se quan hi hagi en tràmit una moció de censura\"."
+      },
+      {
+        "text": "En el primer període de sessions.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sense el vistiplau del Rei.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sense el vistiplau del Consell d'Estat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "ffccf7ff-40c0-4e63-a6a8-72908b5fdec6-14493",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quines són les competències del Govern de l'Estat segons la Constitució?",
+    "answerOptions": [
+      {
+        "text": "Exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i les lleis.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 97 de la Constitució espanyola: \"El Govern dirigeix la política interior i l'exterior, l'Administració civil i militar i la defensa de l'Estat. Exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i amb les lleis\"."
+      },
+      {
+        "text": "Exerceix la funció de control extern econòmic.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exerceix el poder judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exerceix la funció legislativa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "b38025f8-21f3-42c7-ac4e-1db215f39caa-15299",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Assenyala quina afirmació no és correcta respecte al Vicepresident del Govern:",
+    "answerOptions": [
+      {
+        "text": "És membre de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "No és d'obligada existència.",
+        "isCorrect": false
+      },
+      {
+        "text": "Assumeix les funcions de President en cas d'absència.",
+        "isCorrect": false
+      },
+      {
+        "text": "Convoca el Consell de Ministres.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 18.1 de la Llei 50/1997, de 27 de novembre: \"El President de Govern convoca i presideix les reunions de Consell de Ministres, actuant com a secretari el ministre de la Presidència\"."
+      }
+    ]
+  },
+  {
+    "guid": "26496714-d5a0-4982-a832-46110fbb2548-14281",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Els Vicepresidents del Govern seran nomenats i separats pel:",
+    "answerOptions": [
+      {
+        "text": "President de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rei.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 12.2 de la Llei 50/1997, de 27 de novembre: \"Els Vicepresidents i Ministres seran nomenats i separats pel Rei, a proposta del President del Govern\"."
+      },
+      {
+        "text": "Consell de Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "Corts Generals.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "391f98f6-90e4-4dca-b1bf-7c4ac1ff9d1d-13379",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "No és funció de President del Govern:",
+    "answerOptions": [
+      {
+        "text": "La convocatòria del Consell de Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "La presidència del Consell de Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "El nomenament dels altres membres de Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 100 de la Constitució espanyola: \"Els altres membres del Govern seran nomenats i remoguts pel Rei a proposta del seu President\"."
+      },
+      {
+        "text": "Coordinar l'acció de Govern.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "84f61cee-4d7c-41b9-bd9c-9e80bad5a4e4-16465",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quina de les següents funcions del Govern no és una de les seves funcions polítiques?",
+    "answerOptions": [
+      {
+        "text": "Potestat reglamentària.",
+        "isCorrect": true,
+        "rationale": "La potestat reglamentària és una de les funcions administratives del Govern."
+      },
+      {
+        "text": "Direcció de la defensa de l'Estat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Direcció de l'Administració civil i militar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Direcció de la política interior.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "e2f7a3a7-92c3-4e41-a6c6-ab1f770504a4-14257",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El Govern respon solidàriament de la seva gestió política davant:",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 108 de la Constitució espanyola: \"El Govern respon solidàriament de la seva gestió política davant el Congrés dels Diputats\"."
+      },
+      {
+        "text": "Els Tribunals.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Senat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Les Corts Generals.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "95fa827d-ef1a-4cf0-beaa-9c5363455f45-15571",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Com es defineixen les decisions del Consell de Ministres:",
+    "answerOptions": [
+      {
+        "text": "Administratives.",
+        "isCorrect": true,
+        "rationale": "El Govern és un òrgan de naturalesa política que adopta decisions d'aquest caràcter, i el Consell de Ministres (compost per les mateixes persones que el Govern) ha de ser conceptuat com un òrgan superior de l'Administració civil de l'Estat amb funcions estrictament administratives i no polítiques. Cal tenir en compte, en tot cas, la naturalesa diferent de les decisions que s'adopten per un i altre; el Govern, polítiques i el Consell de Ministres, administratives."
+      },
+      {
+        "text": "Jurídiques.",
+        "isCorrect": false
+      },
+      {
+        "text": "Legislatives.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reglamentàries.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "e5142257-c31e-4f3c-952a-8690f27c9da5-18293",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La moció de censura haurà d'incloure un candidat a la Presidència del Govern i l'ha de proposar:",
+    "answerOptions": [
+      {
+        "text": "La majoria simple dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "La majoria absoluta dels diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "La cinquena part dels diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "La desena part dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.2 de la Constitució espanyola: \"La moció de censura haurà de ser proposada com a mínim per la desena part dels Diputats i haurà d'incloure un candidat a la Presidència del Govern\"."
+      }
+    ]
+  },
+  {
+    "guid": "883bee6c-a14c-4d9d-b4dc-085233195ba5-14963",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La moció de censura no podrà ser votada fins a:",
+    "answerOptions": [
+      {
+        "text": "2 dies de la presentació.",
+        "isCorrect": false
+      },
+      {
+        "text": "5 dies des de la seva presentació.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.3 de la Constitució espanyola: \"La moció de censura no podrà ser votada fins que hagin transcorregut cinc dies des de la presentació. Dins els dos primers dies d'aquest termini podran presentar-se mocions alternatives\"."
+      },
+      {
+        "text": "7 dies des de la seva presentació.",
+        "isCorrect": false
+      },
+      {
+        "text": "10 dies des de la seva presentació.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "66117a24-c293-4714-bce9-9b25ab694230-13761",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Si la moció de censura no fos aprovada pel Congrés, els signataris:",
+    "answerOptions": [
+      {
+        "text": "No en podran presentar una altra durant la mateixa legislatura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Només podran presentar una altra durant la mateixa legislatura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Només podran presentar una altra durant el mateix període de sessions.",
+        "isCorrect": false
+      },
+      {
+        "text": "No en podran presentar cap més durant el mateix període de sessions.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.4 de la Constitució espanyola: \"Si la moció de censura no fos aprovada pel Congrés, els signataris no en podran presentar cap més durant el mateix període de sessions\"."
+      }
+    ]
+  },
+  {
+    "guid": "71706efb-9638-40ba-8ee0-6a75a5773a31-17061",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Un cop presentada una moció de censura, es podran presentar mocions alternatives:",
+    "answerOptions": [
+      {
+        "text": "En els 2 primers dies.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.3 de la Constitució espanyola: \"La moció de censura no podrà ser votada fins a cinc dies de la presentació. En els dos primers dies d'aquest termini podran presentar-se mocions alternatives\"."
+      },
+      {
+        "text": "En els 7 primers dies.",
+        "isCorrect": false
+      },
+      {
+        "text": "En els 10 primers dies.",
+        "isCorrect": false
+      },
+      {
+        "text": "En els 12 primers dies.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "824e696b-fd01-4b8a-b201-6a4abfa1dcd8-13305",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El President de Govern:",
+    "answerOptions": [
+      {
+        "text": "Prèvia deliberació del Consell de Ministres, pot plantejar davant les Corts Generals la qüestió de confiança sobre el seu programa o sobre una declaració de política general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prèvia comunicació al Consell de Ministres, pot plantejar davant el Congrés dels Diputats la qüestió de confiança sobre el seu programa o sobre una declaració de política general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prèvia comunicació al Consell de Ministres, pot plantejar davant les Corts Generals la qüestió de confiança sobre el seu programa o sobre una declaració de política general.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prèvia deliberació del Consell de Ministres, pot plantejar davant el Congrés dels Diputats la qüestió de confiança sobre el seu programa o sobre una declaració de política general.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 112 de la Constitució espanyola: \"El President del Govern, prèvia deliberació del Consell de Ministres, pot plantejar davant el Congrés dels Diputats la qüestió de confiança sobre el seu programa o sobre una declaració de política general. S'entendrà que la confiança ha estat atorgada si voten favorablement la majoria simple dels Diputats\"."
+      }
+    ]
+  },
+  {
+    "guid": "b4ec5e89-338c-42b4-ae75-2f132c59e081-13343",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El cap de Govern és:",
+    "answerOptions": [
+      {
+        "text": "El Rei.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President del Govern.",
+        "isCorrect": true,
+        "rationale": "El president del Govern és, segons la Constitució (art. 98), un dels membres del Govern, però té especials característiques que li confereixen el caràcter no d'un primer entre iguals sinó d'un veritable cap de Govern."
+      },
+      {
+        "text": "El Vicepresident del Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President del Congrés.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "84552691-afdb-48c1-ae7c-d714ab2fdb72-16971",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La moció de censura serà positiva si el candidat a president del Govern obté:",
+    "answerOptions": [
+      {
+        "text": "Majoria absoluta.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.1 de la Constitució espanyola: \"El Congrés dels Diputats pot exigir la responsabilitat política del Govern mitjançant l'adopció de la moció de censura per majoria absoluta\"."
+      },
+      {
+        "text": "Unanimitat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Majoria de tres quarts.",
+        "isCorrect": false
+      },
+      {
+        "text": "Majoria de dos terços.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "f87e9015-7828-48e6-9bfd-700eae86b1c2-14449",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El Govern no cessa:",
+    "answerOptions": [
+      {
+        "text": "Després de la celebració d'eleccions generals.",
+        "isCorrect": false
+      },
+      {
+        "text": "En els casos de pèrdua de la confiança parlamentària previstos per la Constitució.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per dimissió del seu President.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per aprovació de les Corts Generals.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 101.1 de la Constitució espanyola: \"El Govern cessa després de la celebració d'eleccions generals, en els casos de pèrdua de la confiança parlamentària previstos per la Constitució, o per dimissió o defunció del seu President\"."
+      }
+    ]
+  },
+  {
+    "guid": "82fc427a-8487-4cd3-94d7-5f437397fc46-16763",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quan el President del Govern plantegi una qüestió de confiança, s'entendrà que s'otorga la confiança quan votin favorablement:",
+    "answerOptions": [
+      {
+        "text": "La majoria absoluta dels membres de Congrés.",
+        "isCorrect": false
+      },
+      {
+        "text": "La majoria simple dels membres del Congrés.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 112 de la Constitució espanyola: \"El President del Govern, prèvia deliberació del Consell de Ministres, pot plantejar davant el Congrés dels Diputats la qüestió de confiança sobre el seu programa o sobre una declaració de política general. S'entendrà que la confiança ha estat atorgada si voten favorablement la majoria simple dels Diputats\"."
+      },
+      {
+        "text": "La majoria absoluta dels membres de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos terços de les Corts generals.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "b2e3b746-b2a1-40c7-b780-8f17c6658a6b-16833",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Les decisions Del Govern d'Espanya i dels seus membres poden adoptar diverses formes. Les disposicions o resolucions que afectin a diversos departaments, quina forma revestiran?",
+    "answerOptions": [
+      {
+        "text": "Reial Decret.",
+        "isCorrect": false
+      },
+      {
+        "text": "Acord del President del Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ordre del Ministre de la Presidència.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 24.1 de la Llei 50/1997, de 27 de novembre: \"Les decisions del Govern de la Nació i dels seus membres revesteixen les formes següents: (...) f) Ordres Ministerials, les disposicions i resolucions dels Ministres. Quan la disposició o resolució afecti diversos Departaments revestirà la forma d'Ordre del Ministre de la Presidència, dictada a proposta dels Ministres interessats\"."
+      },
+      {
+        "text": "Reial decret llei.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "9fc49be4-20c8-4bbf-aa81-523fe27dc0a1-16917",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució, són pròpies del Govern:",
+    "answerOptions": [
+      {
+        "text": "La funció executiva i la potestat reglamentària.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 97 de la Constitució espanyola: \"El Govern dirigeix la política interior i l'exterior, l'Administració civil i militar i la defensa de l'Estat. Exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i amb les lleis\"."
+      },
+      {
+        "text": "La potestat reglamentària i legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "La funció executiva, la potestat reglamentària i legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "La funció executiva i judicial.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "2babc378-369a-4b3e-b518-5dde3e8bd057-14901",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Una de les següents afirmacions és falsa. El Govern cessa:",
+    "answerOptions": [
+      {
+        "text": "Després de la celebració d'eleccions generals.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per malaltia greu del seu president.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 101.1 de la Constitució espanyola: \"El Govern cessa després de la celebració d'eleccions generals, en els casos de pèrdua de la confiança parlamentària previstos per la Constitució, o per dimissió o defunció del seu President\"."
+      },
+      {
+        "text": "Per dimissió del seu president.",
+        "isCorrect": false
+      },
+      {
+        "text": "En els casos de pèrdua de confiança que preveu la Constitució.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "f5bcadb0-3285-4645-b98d-fb4edbeecd92-15409",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la CE, el Govern es compon:",
+    "answerOptions": [
+      {
+        "text": "Rei, que el presideix, de President de Govern i els Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rei, President de Govern, de el vicepresident i els Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "President, Vicepresident i Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "President, Vicepresidents en el seu cas, Ministres, i els altres membres que estableixi la llei.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.1 de la Constitució espanyola: \"El Govern es compon del President, els Vicepresidents en el seu cas, els Ministres i els altres membres que estableixi la llei\","
+      }
+    ]
+  },
+  {
+    "guid": "6fa5d849-9dc4-4c19-8f2f-33b1e83c8a7c-14669",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El President del Govern:",
+    "answerOptions": [
+      {
+        "text": "El President dirigeix l'acció de les Corts Generals.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President dirigeix les Comunitats Autònomes.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President dirigeix l'acció de Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.2 de la Constitució espanyola: \"El President dirigeix l'acció del Govern i coordina les funcions dels altres membres d'aquest, sens perjudici de la competència i de la responsabilitat directa d'aquells en la seva gestió\"."
+      },
+      {
+        "text": "El President dirigeix el control extern.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "484da0d0-09f4-4b49-a5b6-68383e06e222-16287",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Assenyala la resposta correcta:",
+    "answerOptions": [
+      {
+        "text": "El Govern es compon del Cap de l'Estat i el rei.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern es compon dels Parlamentaris.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern es compon del President, dels Vicepresidents si és el cas, dels Ministres i dels altres membres que estableixi la llei",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.1 de la Constitució espanyola: \"El Govern es compon del President, els Vicepresidents en el seu cas, els Ministres i els altres membres que estableixi la llei\"."
+      },
+      {
+        "text": "El Govern es compon del rei, el President del Govern i els Ministres.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "af69db2c-a305-4245-ad19-204e01aef88a-15241",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Respecte a la responsabilitat de Govern:",
+    "answerOptions": [
+      {
+        "text": "La responsabilitat dels membres de Govern és política.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President és qui exigeix responsabilitats als Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilitat dels membres de Govern és directa.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.2 de la Constitució espanyola: \"El President dirigeix l'acció del Govern i coordina les funcions dels altres membres d'aquest, sens perjudici de la competència i de la responsabilitat directa d'aquells en la seva gestió\"."
+      },
+      {
+        "text": "No hi ha manera d'exigir responsabilitat als membres de Govern.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "d9761fcc-4152-45e0-9947-67ac4ff60dbc-17543",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució espanyola, no es podrà votar la moció de censura fins que transcorrin:",
+    "answerOptions": [
+      {
+        "text": "5 dies des de la seva presentació.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.3 de la Constitució espanyola: \"La moció de censura no podrà ser votada fins que hagin transcorregut cinc dies des de la presentació. Dins els dos primers dies d'aquest termini podran presentar-se mocions alternatives\"."
+      },
+      {
+        "text": "7 dies des de la seva presentació.",
+        "isCorrect": false
+      },
+      {
+        "text": "10 dies des de la seva presentació.",
+        "isCorrect": false
+      },
+      {
+        "text": "15 dies des de la seva presentació.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "a3088c96-d69a-4ba9-88e1-56a0610b5a3d-14919",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Llevat del que disposa l'article 99, apartat 5, no serà procedent cap nova dissolució de les Cambres abans que:",
+    "answerOptions": [
+      {
+        "text": "Finalitzi el primer període de sessions.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transcorri un any des de l'anterior.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 115.3 de la Constitució espanyola: \"No serà procedent cap nova dissolució abans que hagi transcorregut un any des de l'anterior, llevat del que disposa l'article 99, apartat 5\"."
+      },
+      {
+        "text": "Se celebri el primer Ple.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transcorri el primer any de cada legislatura.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "35e44961-dd20-4622-993b-3ccef2ccf761-17491",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El Govern respon de la seva gestió política davant el Congrés de forma:",
+    "answerOptions": [
+      {
+        "text": "Col·lectiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solidària.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 108 de la Constitució espanyola: \"El Govern respon solidàriament de la seva gestió política davant el Congrés dels Diputats\"."
+      },
+      {
+        "text": "No se li pot exigir responsabilitat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Subsidiària.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "76e3d6c1-87fc-4214-b648-e0402e7762b0-16621",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La responsabilitat criminal del President i dels altres membres del Govern serà exigible, en el seu cas:",
+    "answerOptions": [
+      {
+        "text": "Davant la Sala I del Tribunal Contenciós administratiu.",
+        "isCorrect": false
+      },
+      {
+        "text": "Davant la Sala I del Jutjat Social.",
+        "isCorrect": false
+      },
+      {
+        "text": "Davant la Sala II del Tribunal Suprem.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 102.1 de la Constitució espanyola: \"La responsabilitat criminal del President i dels altres membres del Govern serà exigible, en el seu cas, davant la Sala Penal del Tribunal Suprem\"."
+      },
+      {
+        "text": "Davant el Consell d'Estat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "db93ecdb-e950-4c2e-a00f-a051ab00117a-15293",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La Constitució estableix els principis i criteris bàsics que han de presidir el règim jurídic del Govern en el seu:",
+    "answerOptions": [
+      {
+        "text": "Títol III.",
+        "isCorrect": false
+      },
+      {
+        "text": "Títol II.",
+        "isCorrect": false
+      },
+      {
+        "text": "Títol VI.",
+        "isCorrect": false
+      },
+      {
+        "text": "Títol IV.",
+        "isCorrect": true,
+        "rationale": "La Constitució de 1978 estableix en el seu Títol IV, anomenat \"Del Govern i de l'Administració\" els principis i criteris bàsics que han de presidir el règim jurídic del Govern."
+      }
+    ]
+  },
+  {
+    "guid": "faa2f703-a9eb-42c0-b816-851bd9efab79-16539",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quin caràcter tenen els dictàmens del Consell d'Estat?",
+    "answerOptions": [
+      {
+        "text": "No vinculants, en tot cas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vinculants, llevat que la llei disposi el contrari.",
+        "isCorrect": false
+      },
+      {
+        "text": "No vinculants, llevat que la llei disposi el contrari.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 2.2 de la Llei orgànica 3/1980, de 22 d'abril: \"(...) La consulta al Consell serà preceptiva quan en aquesta o en altres lleis així s'estableixi, i facultativa en els altres casos. Els dictàmens del Consell no seran vinculants, tret que la llei disposi el contrari (...)"
+      },
+      {
+        "text": "No vinculants, llevat que el President del Govern disposi el contrari.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "0030b27c-9118-407e-8978-1ff8d6459df7-16625",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Indica la resposta incorrecta respecte del Govern:",
+    "answerOptions": [
+      {
+        "text": "Aprova els pressupostos.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 134.1 de la Constitució espanyola: \"Correspon al Govern d'elaborar els Pressupostos Generals de l'Estat, i a les Corts Generals d'examinar-los, esmenar-los i aprovarlos\"."
+      },
+      {
+        "text": "Exerceix la funció executiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dirigeix la política interior i exterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Proposa dos magistrats al Tribunal Constitucional.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "3b5d4231-19f8-4636-8eb7-a1119c7fa2ce-17531",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Qui pot reclamar la presència dels membres del Govern?",
+    "answerOptions": [
+      {
+        "text": "El Senat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congrés i el Senat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congrés, el Senat i les seves Comissions.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 110.1 de la Constitució espanyola: \"Les Cambres i les seves Comissions poden requerir la presència dels membres del Govern\"."
+      },
+      {
+        "text": "El Rei.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "e938bb63-f2b8-45ba-b0b1-af145ff2161d-15237",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La responsabilitat política de Govern és:",
+    "answerOptions": [
+      {
+        "text": "Individual.",
+        "isCorrect": false
+      },
+      {
+        "text": "Col·lectiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solidària.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 108 de la Constitució espanyola: \"El Govern respon solidàriament de la seva gestió política davant el Congrés dels Diputats\"."
+      },
+      {
+        "text": "No se li pot exigir responsabilitat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "e3e77f8c-5037-4b83-8c29-7f930e5334c0-15027",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "A qui correspon l'exercici de la potestat reglamentària?",
+    "answerOptions": [
+      {
+        "text": "Al Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 97 de la Constitució espanyola: \"El Govern dirigeix la política interior i l'exterior, l'Administració civil i militar i la defensa de l'Estat. Exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i amb les lleis\"."
+      },
+      {
+        "text": "Al Consell d'Estat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Tribunal de comptes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Al Defensor del Poble.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "b237cae1-29e0-49f5-a77a-3f46a2ff6d55-17339",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons estableix l'art. 24 de la Llei 50/1997, de 27 de novembre, quan el Govern adopti una decisió que no hagi de revestir la forma de Reial decret, es denominarà:",
+    "answerOptions": [
+      {
+        "text": "Acord.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 24.1 de la Llei 50/1997, de 27 de novembre: \"Les decisions del Govern de la Nació i dels seus membres revesteixen les formes següents: (...) d) Acords del Consell de Ministres, les decisions d'aquest òrgan col·legiat que no hagin d'adoptar la forma de reial decret\"."
+      },
+      {
+        "text": "Decret legislatiu.",
+        "isCorrect": false
+      },
+      {
+        "text": "Llei ordinària.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resolució.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "d23ae131-d124-4d30-b724-0d071d0d94ab-15165",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Una de les següents afirmacions no és certa. El Govern:",
+    "answerOptions": [
+      {
+        "text": "Dirigeix l'Administració militar i la defensa de l'Estat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprova els pressupostos.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 134.1 de la Constitució espanyola: \"Correspon al Govern d'elaborar els Pressupostos Generals de l'Estat, i a les Corts Generals d'examinar-los, esmenar-los i aprovarlos\"."
+      },
+      {
+        "text": "Exerceix la funció executiva.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dirigeix la política interior i exterior.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "d4993000-8e4b-45d6-bbed-8a37a1b4ac62-16353",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "En relació amb el Vicepresident del Govern no es correcte que:",
+    "answerOptions": [
+      {
+        "text": "No és d'obligada existència.",
+        "isCorrect": false
+      },
+      {
+        "text": "Assumeix les funcions de President en cas d'absència.",
+        "isCorrect": false
+      },
+      {
+        "text": "Convoca el Consell de Ministres.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 18.1 de la Llei 50/1997, de 27 de novembre: \"El President de Govern convoca i presideix les reunions de Consell de Ministres, actuant com a secretari el ministre de la Presidència\"."
+      },
+      {
+        "text": "El vicepresident que assumeixi la titularitat d'un departament ministerial, ostentarà, a més, la condició de Ministre.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "17a97a37-2087-4364-bcf4-720843541458-14827",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Les decisions del Consell Ministres que no hagin d'adoptar la forma de Reial decret, revestiran la de:",
+    "answerOptions": [
+      {
+        "text": "Acord.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 24.1 de la Llei 50/1997, de 27 de novembre: \"Les decisions del Govern de la Nació i dels seus membres revesteixen les formes següents: (...) d) Acords del Consell de Ministres, les decisions d'aquest òrgan col·legiat que no hagin d'adoptar la forma de reial decret\"."
+      },
+      {
+        "text": "Ordre Ministerial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decret legislatiu.",
+        "isCorrect": false
+      },
+      {
+        "text": "Llei ordinària.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "d469e427-1a13-4a46-a51f-7d4d3d39b14b-16583",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Qui és el cap de Govern?",
+    "answerOptions": [
+      {
+        "text": "El President del Govern.",
+        "isCorrect": true,
+        "rationale": "El president del Govern és, segons la Constitució (art. 98), un dels membres del Govern, però té especials característiques que li confereixen el caràcter no d'un primer entre iguals sinó d'un veritable cap de Govern."
+      },
+      {
+        "text": "El Vicepresident del Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President del Congrés.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President de les Corts Generals.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "fd609f93-1614-4c70-adaf-de3f26b619f4-16653",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Assenyala l'afirmació correcta en relació amb el Consell d'Estat:",
+    "answerOptions": [
+      {
+        "text": "És un òrgan consultiu dependent de les Corts Generals.",
+        "isCorrect": false
+      },
+      {
+        "text": "És un òrgan consultiu dependent del Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 107 de la Constitució espanyola: \"El Consell d'Estat és l'òrgan consultiu suprem del Govern. Una llei orgànica en regularà la composició i la competència\"."
+      },
+      {
+        "text": "És un òrgan consultiu dependent del Cap d'Estat.",
+        "isCorrect": false
+      },
+      {
+        "text": "És un òrgan consultiu dependent del Tribunal Constitucional.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "c9d1f054-de35-4ad3-aceb-2cbc8fd11fc2-16667",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució espanyola, el President del Govern podrà proposar, sota la seva exclusiva responsabilitat, la dissolució de:",
+    "answerOptions": [
+      {
+        "text": "Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tribunal Superior de Justícia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consell d'Estat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Senat.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 115.1 de la Constitució espanyola: \"El President del Govern, prèvia deliberació del Consell de Ministres, i sota la seva exclusiva responsabilitat, podrà proposar la dissolució del Congrés, del Senat o de les Corts Generals, la qual serà decretada pel Rei. El decret de dissolució fixarà la data de les eleccions\"."
+      }
+    ]
+  },
+  {
+    "guid": "ae819de9-1ecb-49f7-9ee5-13794b5c7098-13969",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "L'aprovació d'exigència de responsabilitat d'un ministre per un delicte contra la seguretat de l'Estat en l'exercici de les seves funcions és competència del/de la:",
+    "answerOptions": [
+      {
+        "text": "Sala Penal del Tribunal Suprem",
+        "isCorrect": false
+      },
+      {
+        "text": "Majoria absoluta dels membres de Congrés.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 102.2 de la Constitució espanyola: \"Si l'acusació fos per traïció o per qualsevol delicte contra la seguretat de l'Estat en l'exercici de les seves funcions, només podrà ser plantejada per iniciativa de la quarta part dels membres del Congrés i amb l'aprovació de la majoria absoluta d'aquesta Cambra\"."
+      },
+      {
+        "text": "Tercera part del membres del Congrés.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consell de Ministres.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "5fe0e824-cbb4-4770-aff5-a71e166c1b74-16837",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "A qui correspon proposar als membres del Govern?",
+    "answerOptions": [
+      {
+        "text": "President de Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 100 de la Constitució espanyola: \"Els altres membres del Govern seran nomenats i remoguts pel Rei a proposta del seu President\"."
+      },
+      {
+        "text": "Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Rei.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President de Senat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "68df7f03-e11b-421e-8453-05dd7cf7379e-15435",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Mitjançant la moció de censura:",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats pot exigir la responsabilitat política de Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.1 de la Constitució espanyola: \"El Congrés dels Diputats pot exigir la responsabilitat política del Govern mitjançant l'adopció de la moció de censura per majoria absoluta\"."
+      },
+      {
+        "text": "El President de Govern pot exigir la responsabilitat política de Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern pot exigir la responsabilitat política del President de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern pot exigir la responsabilitat política de Congrés dels Diputats.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "22986df5-1e03-49da-80b0-678715d9b275-16059",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quina majoria necessita el candidat a la Presidència del Govern en la primera votació per a ser investit President?",
+    "answerOptions": [
+      {
+        "text": "El vot favorable de la majoria absoluta dels membres de Congrés dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.3 de la Constitució espanyola: \"Si el Congrés dels Diputats atorgava la seva confiança al dit candidat mitjançant el vot de la majoria absoluta dels seus membres, el Rei el nomenarà President. En el cas de no assolir-se la dita majoria, la mateixa proposta serà sotmesa a una nova votació quaranta vuit hores després de l'anterior i s'entendrà que la confiança ha estat atorgada si obtenia la majoria simple\"."
+      },
+      {
+        "text": "El vot favorable de dues terceres parts dels membres de Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El vot favorable de tres cinquenes parts dels membres de Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El vot favorable del 50% dels membres de Congrés dels Diputats.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "13062c9f-e4c4-4506-8b2d-240938b2dbb2-14589",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La coordinació de les funcions dels membres de Govern és competència del:",
+    "answerOptions": [
+      {
+        "text": "President del Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.2 de la Constitució espanyola: \"El President dirigeix l'acció del Govern i coordina les funcions dels altres membres d'aquest, sens perjudici de la competència i de la responsabilitat directa d'aquells en la seva gestió\"."
+      },
+      {
+        "text": "Vicepresident del Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ministeri competent en matèria de Funció Pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Consell de Ministres.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "71c89147-8d24-4fc0-9b84-2044d3bd7284-13991",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Un candidat a President de Govern que obtingui majoria simple en la primera votació:",
+    "answerOptions": [
+      {
+        "text": "Resulta investit President de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "No resulta investit President de Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resulta investit President i té 48 hores per elegir els membres del seu Govern.",
+        "isCorrect": false
+      },
+      {
+        "text": "No resulta investit President i torna a comparèixer davant la Cambra 48 hores després.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.3 de la Constitució espanyola: \"Si el Congrés dels Diputats atorgava la seva confiança al dit candidat mitjançant el vot de la majoria absoluta dels seus membres, el Rei el nomenarà President. En el cas de no assolir-se la dita majoria, la mateixa proposta serà sotmesa a una nova votació quaranta-vuit hores després de l'anterior i s'entendrà que la confiança ha estat atorgada si obtenia la majoria simple\"."
+      }
+    ]
+  },
+  {
+    "guid": "1e3bf9a8-b3ee-4bf9-a858-395ed5970391-15781",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Si després d'haver transcorregut el termini de ___ a partir de la primera votació d'investidura, cap candidat hagués obtingut la confiança del Congrés, el Rei dissoldrà totes dues Cambres i convocarà noves eleccions amb el referendament del President del Congrés:",
+    "answerOptions": [
+      {
+        "text": "2 mesos.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.5 de la Constitució espanyola: \"Si després d'haver transcorregut el termini de dos mesos a partir de la primera votació d'investidura, cap candidat hagués obtingut la confiança del Congrés, el Rei dissoldrà totes dues Cambres i convocarà noves eleccions amb el referendament del President del Congrés\"."
+      },
+      {
+        "text": "20 dies.",
+        "isCorrect": false
+      },
+      {
+        "text": "10 dies.",
+        "isCorrect": false
+      },
+      {
+        "text": "15 dies.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "c17eda6f-a81f-427f-8f63-20f1ac44e1ff-16919",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons l'art. 113 de la Constitució, la moció de censura haurà de ser proposada com a mínim per:",
+    "answerOptions": [
+      {
+        "text": "La majoria absoluta dels diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "La desena part dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 113.2 de la Constitució espanyola: \"La moció de censura haurà de ser proposada com a mínim per la desena part dels Diputats i haurà d'incloure un candidat a la Presidència del Govern\"."
+      },
+      {
+        "text": "La cinquena part dels diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dos terços dels Diputats.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "ee2cd98d-7d89-4ed4-8626-e3553b8bdeb1-16627",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució espanyola, indica qui proposa un candidat a la Presidència del Govern, a través del President del Congrés:",
+    "answerOptions": [
+      {
+        "text": "El Rei.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.1 de la Constitució espanyola: \"Després de cada renovació del Congrés, i en els altres supòsits previstos per la Constitució en què sigui procedent, el Rei, prèvia consulta amb els representants designats pels grups polítics amb representació parlamentària, i a través del President del Congrés, proposarà un candidat a la Presidència del Govern\"."
+      },
+      {
+        "text": "El Ministre d'Interior.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Senat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El President del Senat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "cedff780-92eb-4372-a41c-6df5e9a9b91d-17241",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quina afirmació relativa a la responsabilitat criminal del Govern és correcta segons la Constitució?",
+    "answerOptions": [
+      {
+        "text": "La responsabilitat criminal del President i els altres membres de Govern serà exigible, si escau, davant el Tribunal Constitucional.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilitat criminal del President i els altres membres de Govern serà exigible, si escau, davant la Sala Penal del Tribunal Suprem.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 102.1 de la Constitució espanyola: \"La responsabilitat criminal del President i dels altres membres del Govern serà exigible, en el seu cas, davant la Sala Penal del Tribunal Suprem\"."
+      },
+      {
+        "text": "La responsabilitat criminal del President i els altres membres de Govern serà exigible, si escau, davant el Tribunal Contenciós administratiu.",
+        "isCorrect": false
+      },
+      {
+        "text": "La responsabilitat criminal del President i els altres membres de Govern serà exigible, si escau, davant el Consell del Poder Judicial.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "b3168dbb-c2bd-49a6-a0f2-770e4f8acd2d-15087",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Pot/Poden reclamar la presència dels membres del Govern:",
+    "answerOptions": [
+      {
+        "text": "El Congrés.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Senat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congrés i el Senat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Congrés, el Senat i les seves Comissions.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 110.1 de la Constitució espanyola: \"Les Cambres i les seves Comissions poden requerir la presència dels membres del Govern\"."
+      }
+    ]
+  },
+  {
+    "guid": "987b4470-253e-4cbf-8332-222c8b544959-16039",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució espanyola, el Govern i els seus membres estan sotmesos a les interpel·lacions i a les preguntes que els formulin davant les Cambres. Quins temps establiran els reglaments per aquesta classe de debat?",
+    "answerOptions": [
+      {
+        "text": "Un temps mínim setmanal.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 111.1 de la Constitució espanyola: \"El Govern i cadascun dels seus membres resten sotmesos a les interpel·lacions i a les preguntes que els formulin davant les Cambres. Per a aquesta classe de debat els Reglaments establiran un temps mínim setmanal\"."
+      },
+      {
+        "text": "Un temps màxim setmanal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un temps màxim diari.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un temps màxim mensual.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "1ba96fee-b326-4153-acf5-e850d11f5738-14835",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El Consell d'Estat ha de ser regulat:",
+    "answerOptions": [
+      {
+        "text": "Mitjançant llei ordinària.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pot ser mitjançant llei de bases.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pot ser objecte la seva regulació de delegació legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mitjançant una llei orgànica.",
+        "isCorrect": true,
+        "rationale": "Segons l'art 107 de la Constitució espanyola: \"El Consell d'Estat és l'òrgan consultiu suprem del Govern. Una llei orgànica en regularà la composició i la competència\"."
+      }
+    ]
+  },
+  {
+    "guid": "646707cc-bc10-4c8a-aae8-15da9e47f312-13667",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Per ser membre del Govern es requereix (assenyala la incorrecta):",
+    "answerOptions": [
+      {
+        "text": "Gaudir del dret de sufragi actiu.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tenir més de 16 anys.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 11 de la Llei 50/1997, de 27 de novembre, per ser membre del Govern es requereix: ser espanyol, major d'edat; gaudir dels drets de sufragi actiu i passiu; no estar inhabilitat per exercir una feina o un càrrec públic per sentència judicial ferma."
+      },
+      {
+        "text": "Ser espanyol.",
+        "isCorrect": false
+      },
+      {
+        "text": "No estar inhabilitat per exercir una feina o un càrrec públic per sentència judicial ferma.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "785ba060-c364-4cec-a4cb-7802353db3ca-15171",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "La Llei 50/1997, de 27 de novembre estableix una configuració del Govern fonamentada en:",
+    "answerOptions": [
+      {
+        "text": "El principi de direcció presidencial.",
+        "isCorrect": false
+      },
+      {
+        "text": "El principi de col·legialitat.",
+        "isCorrect": false
+      },
+      {
+        "text": "El principi departamental.",
+        "isCorrect": false
+      },
+      {
+        "text": "Totes són correctes.",
+        "isCorrect": true,
+        "rationale": "La Llei 50/1997, de 27 de novembre estableix una configuració del Govern fonamentada en tres principis bàsics: el principi de direcció presidencial, el principi de col·legialitat i el principi departamental."
+      }
+    ]
+  },
+  {
+    "guid": "8e1cd14c-e535-4140-9638-316e519f9dcc-14987",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Les funcions polítiques del Govern són les següents (assenyala la incorrecta):",
+    "answerOptions": [
+      {
+        "text": "Direcció de la política exterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Potestat reglamentària.",
+        "isCorrect": true,
+        "rationale": "La potestat reglamentària és una de les funcions administratives del Govern."
+      },
+      {
+        "text": "Direcció de la defensa de l'Estat.",
+        "isCorrect": false
+      },
+      {
+        "text": "Direcció de l'Administració civil i militar.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "60d922cc-71c4-4cd8-891a-63924c1a4f1b-16847",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució Espanyola de 1978, indica la resposta incorrecte al respecte de quan cessa el Govern:",
+    "answerOptions": [
+      {
+        "text": "Per malaltia greu del seu president.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 101.1 de la Constitució espanyola: \"El Govern cessa després de la celebració d'eleccions generals, en els casos de pèrdua de la confiança parlamentària previstos per la Constitució, o per dimissió o defunció del seu President\"."
+      },
+      {
+        "text": "Per dimissió del seu president.",
+        "isCorrect": false
+      },
+      {
+        "text": "En els casos de pèrdua de confiança que preveu la Constitució.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per defunció del seu president.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "bd42e1fc-f6d5-4454-acf4-be0c85ac4d07-16609",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Indica la composició del Govern segons la Constitució espanyola:",
+    "answerOptions": [
+      {
+        "text": "Rei, President de Govern, de el vicepresident i els Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "President, Vicepresident i Ministres.",
+        "isCorrect": false
+      },
+      {
+        "text": "President, Vicepresidents en el seu cas, Ministres, i els altres membres que estableixi la llei.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 98.1 de la Constitució espanyola: \"El Govern es compon del President, els Vicepresidents en el seu cas, els Ministres i els altres membres que estableixi la llei\","
+      },
+      {
+        "text": "Vicepresidents i Ministres.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "e7ad2fae-e479-494e-8239-feceef08b3de-14211",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El règim d'incompatibilitats dels alts càrrecs de l'Administració general de l'Estat es troba regulat a:",
+    "answerOptions": [
+      {
+        "text": "Llei 1/2015, de 27 de febrer.",
+        "isCorrect": false
+      },
+      {
+        "text": "Llei 39/2015, d'1 d'octubre.",
+        "isCorrect": false
+      },
+      {
+        "text": "Llei 3/2015, de 30 de març.",
+        "isCorrect": true,
+        "rationale": "El règim d'incompatibilitats dels alts càrrecs de l'Administració general de l'Estat està regulat en la Llei 3/2015, de 30 de març, reguladora de l'exercici de l'alt càrrec de l'Administració General de l'Estat i el Reglament pel qual es desenvolupa la Llei 3/2015, de 30 de març, reguladora de l'exercici de l'alt càrrec de l'Administració General de l'Estat."
+      },
+      {
+        "text": "Llei 40/2015, d'1 d'octubre.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "355b7a4d-5c0d-465a-97d4-ff5221b41e0c-15053",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El candidat a la Presidència del Govern necessitarà, en primera votació:",
+    "answerOptions": [
+      {
+        "text": "El vot favorable de la majoria simple dels membres de Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El vot favorable de la majoria absoluta dels membres de Congrés dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.3 de la Constitució espanyola: \"Si el Congrés dels Diputats atorgava la seva confiança al dit candidat mitjançant el vot de la majoria absoluta dels seus membres, el Rei el nomenarà President. En el cas de no assolir-se la dita majoria, la mateixa proposta serà sotmesa a una nova votació quaranta vuit hores després de l'anterior i s'entendrà que la confiança ha estat atorgada si obtenia la majoria simple\"."
+      },
+      {
+        "text": "El vot favorable de dues terceres parts dels membres de Congrés dels Diputats.",
+        "isCorrect": false
+      },
+      {
+        "text": "El vot favorable de tres cinquenes parts dels membres de Congrés dels Diputats.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "15206e64-7192-4b3a-8083-d31578647762-16037",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Quin Títol de la Constitució porta per nom \"Del Govern i de l'Administració\"?",
+    "answerOptions": [
+      {
+        "text": "Títol II.",
+        "isCorrect": false
+      },
+      {
+        "text": "Títol VI.",
+        "isCorrect": false
+      },
+      {
+        "text": "Títol IV.",
+        "isCorrect": true,
+        "rationale": "La Constitució de 1978 estableix en el seu Títol IV, anomenat \"Del Govern i de l'Administració\" els principis i criteris bàsics que han de presidir el règim jurídic del Govern."
+      },
+      {
+        "text": "Títol VII.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "1b9c8e99-e155-42e3-b69a-1b8b9d3cc021-15365",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El Consell d'Estat:",
+    "answerOptions": [
+      {
+        "text": "Pot vetar els projectes de Govern que siguin inconstitucionals o clarament il·legals.",
+        "isCorrect": false
+      },
+      {
+        "text": "És un òrgan consultiu dependent de les Corts Generals.",
+        "isCorrect": false
+      },
+      {
+        "text": "És un òrgan consultiu dependent del Govern.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 107 de la Constitució espanyola: \"El Consell d'Estat és l'òrgan consultiu suprem del Govern. Una llei orgànica en regularà la composició i la competència\"."
+      },
+      {
+        "text": "És un òrgan consultiu dependent del Cap d'Estat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "14cdf1f1-a0c0-44fd-9c55-d26300109012-15741",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "El Govern cessa en els següents supòsits (assenyala la resposta incorrecta):",
+    "answerOptions": [
+      {
+        "text": "En els casos de pèrdua de la confiança parlamentària previstos per la Constitució.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per dimissió del seu President.",
+        "isCorrect": false
+      },
+      {
+        "text": "Per aprovació de les Corts Generals.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 101.1 de la Constitució espanyola: \"El Govern cessa després de la celebració d'eleccions generals, en els casos de pèrdua de la confiança parlamentària previstos per la Constitució, o per dimissió o defunció del seu President\"."
+      },
+      {
+        "text": "Per defunció del seu President.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "50a72c12-b1a3-4060-9851-d52dda3d323a-16733",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Segons la Constitució espanyola, el Govern:",
+    "answerOptions": [
+      {
+        "text": "Exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i les lleis.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 97 de la Constitució espanyola: \"El Govern dirigeix la política interior i l'exterior, l'Administració civil i militar i la defensa de l'Estat. Exerceix la funció executiva i la potestat reglamentària d'acord amb la Constitució i amb les lleis\"."
+      },
+      {
+        "text": "Exerceix el poder judicial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Exerceix la funció legislativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "El Govern exerceix funcions de cap d'Estat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "guid": "f07e2641-3049-4999-b2e4-00325c99d622-16711",
+    "subjectId": "T02",
+    "origin": "madames",
+    "type": "test",
+    "question": "Després de cada renovació del Congrés dels Diputats, i en els altres supòsits constitucionals en què així procedeixi, el rei, prèvia consulta amb els representants designats pels grups polítics amb representació parlamentària proposarà un candidat a la presidència del Govern a través del:",
+    "answerOptions": [
+      {
+        "text": "President de Congrés.",
+        "isCorrect": true,
+        "rationale": "Segons l'art. 99.1 de la Constitució espanyola: \"Després de cada renovació del Congrés dels Diputats, i en els altres supòsits previstos per la Constitució en què sigui procedent, el Rei, prèvia consulta amb els representants designats pels grups polítics amb representació parlamentària, i a través del President del Congrés, proposarà un candidat a la Presidència del Govern\"."
+      },
+      {
+        "text": "Senat i Congrés.",
+        "isCorrect": false
+      },
+      {
+        "text": "Grup polític majoritari.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vicepresident.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

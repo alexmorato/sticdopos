@@ -8,7 +8,8 @@
     "answerOptions": [
       {
         "text": "De manera individualitzada, per a cada procediment administratiu.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'art. 26 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"1. L'Administració municipal potencia l'ús de declaracions responsables i comunicacions, prèvies o posteriors a l'inici d'una activitat o a l'exercici d'un dret, a fi de simplificar les càrregues administratives que recauen en la ciutadania i les empreses. 2. El contingut i la funció d'aquests documents, així com les possibles plantilles o models actualitzats, es determinen, de manera individualitzada, per a cada procediment administratiu\"."
       },
       {
         "text": "De manera individualitzada, per a cada ciutadà o sol·licitant.",
@@ -22,8 +23,7 @@
         "text": "De manera global, ja que la majoria de comunicacions i declaracions responsables són de temes transversals.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'art. 26 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"1. L'Administració municipal potencia l'ús de declaracions responsables i comunicacions, prèvies o posteriors a l'inici d'una activitat o a l'exercici d'un dret, a fi de simplificar les càrregues administratives que recauen en la ciutadania i les empreses. 2. El contingut i la funció d'aquests documents, així com les possibles plantilles o models actualitzats, es determinen, de manera individualitzada, per a cada procediment administratiu\"."
+    ]
   },
   {
     "guid": "ba8b4b0e-1b1b-4260-9689-3de690c10d69-14179",
@@ -46,10 +46,10 @@
       },
       {
         "text": "L'accés al Tauler d'edictes electrònic no requereix cap mecanisme d'acreditació de la identitat del ciutadà o la ciutadana.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 16.5 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"L'accés al Tauler d'edictes electrònic no requereix cap mecanisme d'acreditació de la identitat del ciutadà o la ciutadana\"."
       }
-    ],
-    "hint": "D'acord amb l'article 16.5 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"L'accés al Tauler d'edictes electrònic no requereix cap mecanisme d'acreditació de la identitat del ciutadà o la ciutadana\"."
+    ]
   },
   {
     "guid": "f4c301bd-4293-497a-95f2-9241561e9765-13959",
@@ -68,14 +68,14 @@
       },
       {
         "text": "Només és obligatòria quan estigui prevista en una norma amb rang de llei.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 19.1 de la Llei 39/2015, d'1 d'octubre: \"La compareixença de les persones davant les oficines públiques, ja sigui presencialment o per mitjans electrònics, només és obligatòria quan així ho prevegi una norma amb rang de llei\"."
       },
       {
         "text": "Només és obligatòria quan estigui prevista en un reglament.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 19.1 de la Llei 39/2015, d'1 d'octubre: \"La compareixença de les persones davant les oficines públiques, ja sigui presencialment o per mitjans electrònics, només és obligatòria quan així ho prevegi una norma amb rang de llei\"."
+    ]
   },
   {
     "guid": "07129f50-e348-41ea-866b-a834eed2caa7-15721",
@@ -86,7 +86,8 @@
     "answerOptions": [
       {
         "text": "Permet l'autenticació de la competència mitjançant l'ús de certificats digitals de segell electrònic que identifiquin l'òrgan actuant.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 20.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"L'actuació administrativa automatitzada permet l'autenticació de la competència mitjançant l'ús de certificats digitals de segell electrònic que identifiquin l'òrgan actuant, sempre que es pugui garantir la validació dels certificats. L'Ajuntament de Barcelona ha de publicar a la Seu electrònica una relació dels segells electrònics emprats\"."
       },
       {
         "text": "Permet l'autenticació de la competència mitjançant l'ús de signatura electrònica reconeguda o qualificada que identifiqui l'òrgan actuant.",
@@ -100,8 +101,7 @@
         "text": "Permet la verificació de la identitat mitjançant l'ús de certificats digitals de segell electrònic que identifiquin l'òrgan actuant.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 20.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"L'actuació administrativa automatitzada permet l'autenticació de la competència mitjançant l'ús de certificats digitals de segell electrònic que identifiquin l'òrgan actuant, sempre que es pugui garantir la validació dels certificats. L'Ajuntament de Barcelona ha de publicar a la Seu electrònica una relació dels segells electrònics emprats\"."
+    ]
   },
   {
     "guid": "c12fbe35-3d28-47f3-b93e-f62f8bd2ce86-15933",
@@ -120,14 +120,14 @@
       },
       {
         "text": "Ofereixen assistència i orientació quan sigui oportú.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 4.3.c) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, les oficines d'atenció en matèria de registres posen a disposició de la ciutadania, de manera lliure i gratuïta, els mitjans i instruments necessaris per exercir els drets reconeguts en aquesta ordenança, sobre els quals el personal d'aquestes oficines ofereix assistència i orientació quan sigui oportú."
       },
       {
         "text": "Disposen de la majoria dels mitjans i instrument necessaris per exercir els drets ciutadans.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 4.3.c) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, les oficines d'atenció en matèria de registres posen a disposició de la ciutadania, de manera lliure i gratuïta, els mitjans i instruments necessaris per exercir els drets reconeguts en aquesta ordenança, sobre els quals el personal d'aquestes oficines ofereix assistència i orientació quan sigui oportú."
+    ]
   },
   {
     "guid": "dffe7332-4403-44a1-b750-54c36ad4fa54-18135",
@@ -138,7 +138,8 @@
     "answerOptions": [
       {
         "text": "Tots els drets esmentats són garantits per l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Així s'estableix en l'art. 7.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona."
       },
       {
         "text": "Dret a no haver d'aportar cap document que hagi estat emès per una altra Administració pública.",
@@ -152,8 +153,7 @@
         "text": "Són correctes b) i c).",
         "isCorrect": false
       }
-    ],
-    "hint": "Així s'estableix en l'art. 7.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona."
+    ]
   },
   {
     "guid": "9c158260-f0da-452a-aa6a-c7fd6b10736c-14621",
@@ -164,7 +164,8 @@
     "answerOptions": [
       {
         "text": "Es denomina interoperabilitat.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La interoperabilitat és un dels conceptes essencials per assolir una veritable administració en xarxa. La interoperabilitat pot definir-se com la capacitat que tenen les organitzacions per compartir i reutilitzar la informació de què disposen en els seus sistemes i en els procediments als quals donen suport, per assolir uns objectius comuns i possibilitar l'intercanvi d'informació i coneixements entre aquests."
       },
       {
         "text": "Es denomina multicanalitat.",
@@ -178,8 +179,7 @@
         "text": "Es garanteix mitjançant la certificació digital.",
         "isCorrect": false
       }
-    ],
-    "hint": "La interoperabilitat és un dels conceptes essencials per assolir una veritable administració en xarxa. La interoperabilitat pot definir-se com la capacitat que tenen les organitzacions per compartir i reutilitzar la informació de què disposen en els seus sistemes i en els procediments als quals donen suport, per assolir uns objectius comuns i possibilitar l'intercanvi d'informació i coneixements entre aquests."
+    ]
   },
   {
     "guid": "6ad4d7d9-2e7a-4282-8431-a16d3d3410c7-13573",
@@ -194,7 +194,8 @@
       },
       {
         "text": "Els òrgans col·legiats de l'Ajuntament de Barcelona utilitzen, de manera preferent, els mitjans electrònics per aprovar seves les actes.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 33.1 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Tots els òrgans col·legiats de l'Ajuntament de Barcelona utilitzen, de manera preferent, els mitjans electrònics per constituir-se, convocar les seves sessions, celebrar-les, adoptar acords i remetre i aprovar les actes, excepte que les normes pròpies de funcionament estableixin excepcionalment el contrari\"."
       },
       {
         "text": "Els òrgans col·legiats de l'Ajuntament de Barcelona utilitzen sempre els mitjans electrònics i només en casos excepcionals i justificats utilitzen altres mitjans.",
@@ -204,8 +205,7 @@
         "text": "No hi ha cap especificació normativa sobre quins mitjans han d'utilitzar els òrgans col·legiats de l'Ajuntament de Barcelona, s'utilitzen els que es considerin més adients segons el cas.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 33.1 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Tots els òrgans col·legiats de l'Ajuntament de Barcelona utilitzen, de manera preferent, els mitjans electrònics per constituir-se, convocar les seves sessions, celebrar-les, adoptar acords i remetre i aprovar les actes, excepte que les normes pròpies de funcionament estableixin excepcionalment el contrari\"."
+    ]
   },
   {
     "guid": "bee4bc3b-ffd5-471f-ba4a-9df72c032cdb-14821",
@@ -224,14 +224,14 @@
       },
       {
         "text": "S'han de retornar a les persones interessades.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 13.9 de l'Ordenança reguladora de l'administració electrònica: \"Els documents que es presentin de manera presencial o per correu, ja sigui certificat o no, davant l'Administració municipal en suport paper han de ser digitalitzats per les oficines d'assistència en matèria de registres, i registrats. Aquestes còpies electròniques incorporen les mesures de seguretat apropiades, segons el que estableixin les dis-posicions sobre digitalització de documents que aprovi l'Ajuntament. Un cop registrats, els documents originals s'han de retornar a la persona interessada en el termini més breu possible, sens perjudici dels casos en què la norma determini que l'Administració ha de custodiar els documents presentats o que sigui obligatòria la presentació d'objectes o de documents en un suport específic no susceptible de digitalització\"."
       },
       {
         "text": "S'han de custodiar a l'arxiu de registre per si les persones interessades els volen recuperar.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 13.9 de l'Ordenança reguladora de l'administració electrònica: \"Els documents que es presentin de manera presencial o per correu, ja sigui certificat o no, davant l'Administració municipal en suport paper han de ser digitalitzats per les oficines d'assistència en matèria de registres, i registrats. Aquestes còpies electròniques incorporen les mesures de seguretat apropiades, segons el que estableixin les dis-posicions sobre digitalització de documents que aprovi l'Ajuntament. Un cop registrats, els documents originals s'han de retornar a la persona interessada en el termini més breu possible, sens perjudici dels casos en què la norma determini que l'Administració ha de custodiar els documents presentats o que sigui obligatòria la presentació d'objectes o de documents en un suport específic no susceptible de digitalització\"."
+    ]
   },
   {
     "guid": "cea1cf48-67a0-44f3-9916-1f156bbe03bc-13701",
@@ -250,14 +250,14 @@
       },
       {
         "text": "Són dades que serveixen per garantir la disponibilitat, l'accés, la conservació i la interoperabilitat dels documents.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Les metadades són qualsevol tipus d'informació en forma electrònica associada als documents electrònics, de caràcter instrumental i independent del seu contingut, destinada al coneixement immediat i automatitzable d'alguna de les seves característiques, amb la finalitat de garantir la disponibilitat, l'accés, la conservació i la interoperabilitat del mateix Les metadades, a més, poden assignar-se a diferents agrupacions, de les quals la més visible pel fet que està definida en la legislació és l'expedient electrònic. Segons el Reial decret 203/2021, de 30 de març, pel qual s'aprova el Reglament d'actuació i funcionament del sector públic per mitjans electrònics, disposa queés una metadada la dada que defineix i descriu altres dades. Existeixen diferents tipus de metadades segons la seva aplicació."
       },
       {
         "text": "Són les dades bàsiques dels documents electrònics: el nom de l'arxiu, la data de creació i l'autor.",
         "isCorrect": false
       }
-    ],
-    "hint": "Les metadades són qualsevol tipus d'informació en forma electrònica associada als documents electrònics, de caràcter instrumental i independent del seu contingut, destinada al coneixement immediat i automatitzable d'alguna de les seves característiques, amb la finalitat de garantir la disponibilitat, l'accés, la conservació i la interoperabilitat del mateix Les metadades, a més, poden assignar-se a diferents agrupacions, de les quals la més visible pel fet que està definida en la legislació és l'expedient electrònic. Segons el Reial decret 203/2021, de 30 de març, pel qual s'aprova el Reglament d'actuació i funcionament del sector públic per mitjans electrònics, disposa queés una metadada la dada que defineix i descriu altres dades. Existeixen diferents tipus de metadades segons la seva aplicació."
+    ]
   },
   {
     "guid": "0d19a0a7-0793-4374-bcbf-370bf5f22bf1-15905",
@@ -268,7 +268,8 @@
     "answerOptions": [
       {
         "text": "Que l'Administració pública ha de promoure la provisió de serveis que s'ofereixen mitjançant tots els canals a disposició dels usuaris.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La multicanalitat és la utilització de múltiples mitjans, no tan sols Internet. A banda d'això cal recordar que en principi el ciutadà té dret a triar la forma de posar-se en contacte amb l'Administració, sigui per mitjans electrònics o no, i que el fet d'haver triat no vincula al ciutadà a continuar amb aquest camí."
       },
       {
         "text": "Que segons les característiques del servei, la ciutadania haurà d'utilitzar un determinat canal per comunicar-se amb l'administració pública.",
@@ -282,8 +283,7 @@
         "text": "Que el ciutadà ha d'utilitzar el mitjà de comunicació que li quedi més proper per a fer el tràmit administratiu corresponent.",
         "isCorrect": false
       }
-    ],
-    "hint": "La multicanalitat és la utilització de múltiples mitjans, no tan sols Internet. A banda d'això cal recordar que en principi el ciutadà té dret a triar la forma de posar-se en contacte amb l'Administració, sigui per mitjans electrònics o no, i que el fet d'haver triat no vincula al ciutadà a continuar amb aquest camí."
+    ]
   },
   {
     "guid": "48ba2d9b-1694-49e4-9e0b-b191bbfd666c-17841",
@@ -294,7 +294,8 @@
     "answerOptions": [
       {
         "text": "En sistemes codi segur de verificació (CSV) emesos per l'Administració.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 15.4 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El personal del servei d'atenció telefònica es pot recolzar, si així ho preveu la Política de signatura de l'Ajuntament, en mecanismes d'identificació basats en l'ús d'informació coneguda per ambdues parts, en particular emprant sistemes de codi segur de verificació emesos per l'Administració\"."
       },
       {
         "text": "En sistemes de preguntes i respostes sobre les dades personals de la persona interessada.",
@@ -308,8 +309,7 @@
         "text": "En sistemes de reconeixement de la veu.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 15.4 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El personal del servei d'atenció telefònica es pot recolzar, si així ho preveu la Política de signatura de l'Ajuntament, en mecanismes d'identificació basats en l'ús d'informació coneguda per ambdues parts, en particular emprant sistemes de codi segur de verificació emesos per l'Administració\"."
+    ]
   },
   {
     "guid": "fb5aff4a-bec5-45c1-a783-59a5777b07bb-15587",
@@ -320,7 +320,8 @@
     "answerOptions": [
       {
         "text": "La signatura electrònica reconeguda.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La signatura electrònica reconeguda té el mateix valor legal que la firma manuscrita."
       },
       {
         "text": "La signatura electrònica avançada.",
@@ -334,8 +335,7 @@
         "text": "La signatura electrònica bàsica.",
         "isCorrect": false
       }
-    ],
-    "hint": "La signatura electrònica reconeguda té el mateix valor legal que la firma manuscrita."
+    ]
   },
   {
     "guid": "7148a216-665a-48ec-a6f3-de632afca40c-15941",
@@ -346,7 +346,8 @@
     "answerOptions": [
       {
         "text": "La Llei 29/2010, del 3 d'agost.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 1 de la Llei 29/2010, del 3 d'agost, de l'ús dels mitjans electrònics al sector públic de Catalunya, l'objecte d'aquesta llei és regular: a) L'ús dels mitjans electrònics en les actuacions del sector públic de Catalunya. b) L'ús dels mitjans electrònics en les relacions entre les entitats del sector públic i els ciutadans a Catalunya. c) La definició dels instruments per a desenvolupar i fomentar la relació entre les entitats i els organismes que conformen el sector públic de Catalunya, i entre aquests i els ciutadans, per mitjans electrònics. d) La concreció del model català d'administració electrònica entre les entitats del sector públic de Catalunya."
       },
       {
         "text": "La Llei 40/2015, d'1 d'octubre.",
@@ -360,8 +361,7 @@
         "text": "La Llei 26/2010, del 3 d'agost.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 1 de la Llei 29/2010, del 3 d'agost, de l'ús dels mitjans electrònics al sector públic de Catalunya, l'objecte d'aquesta llei és regular: a) L'ús dels mitjans electrònics en les actuacions del sector públic de Catalunya. b) L'ús dels mitjans electrònics en les relacions entre les entitats del sector públic i els ciutadans a Catalunya. c) La definició dels instruments per a desenvolupar i fomentar la relació entre les entitats i els organismes que conformen el sector públic de Catalunya, i entre aquests i els ciutadans, per mitjans electrònics. d) La concreció del model català d'administració electrònica entre les entitats del sector públic de Catalunya."
+    ]
   },
   {
     "guid": "f2f6e24d-3da3-4960-b13f-7ff15c7283d3-13529",
@@ -376,7 +376,8 @@
       },
       {
         "text": "Registre de procediments municipals.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 2.h) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, el Registre de procediments municipals és el repositori de coneixement complet que inclou tots els procediments administratius que corresponen a les competències i funcions de l'Administració municipal, els quals no es poden desplegar sense que abans s'hagin incorporat al Registre. Serveix de guia a les persones usuàries i aplicacions per efectuar de manera garant i legal les seqüències d'operacions i decisions que formen el cicle de vida complet d'un procediment determinat."
       },
       {
         "text": "Sistema d'atenció municipal.",
@@ -386,8 +387,7 @@
         "text": "Punt d'accés general electrònic.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 2.h) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, el Registre de procediments municipals és el repositori de coneixement complet que inclou tots els procediments administratius que corresponen a les competències i funcions de l'Administració municipal, els quals no es poden desplegar sense que abans s'hagin incorporat al Registre. Serveix de guia a les persones usuàries i aplicacions per efectuar de manera garant i legal les seqüències d'operacions i decisions que formen el cicle de vida complet d'un procediment determinat."
+    ]
   },
   {
     "guid": "69cc631a-c5c8-4bd3-8076-c5f87e606175-18647",
@@ -410,10 +410,10 @@
       },
       {
         "text": "Autenticació.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Autenticació: acreditació per mitjans electrònics de la identitat d'una persona o ens, del contingut i voluntat expressa en les seves operacions, transaccions i documents, i de la integritat i autoria dels mateixos."
       }
-    ],
-    "hint": "Autenticació: acreditació per mitjans electrònics de la identitat d'una persona o ens, del contingut i voluntat expressa en les seves operacions, transaccions i documents, i de la integritat i autoria dels mateixos."
+    ]
   },
   {
     "guid": "eabb6f33-8d5a-4417-846c-e699416ed4ad-15895",
@@ -424,7 +424,8 @@
     "answerOptions": [
       {
         "text": "Al Portal d'internet.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 12.2 de la Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"La Seu electrònica ha d'estar disponible per mitjà de les xarxes de telecomunicacions a través de l'enllaç disponible des del Portal d'internet\"."
       },
       {
         "text": "Al Registre electrònic únic.",
@@ -438,8 +439,7 @@
         "text": "A la pàgina web de l'Ajuntament de Barcelona.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 12.2 de la Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"La Seu electrònica ha d'estar disponible per mitjà de les xarxes de telecomunicacions a través de l'enllaç disponible des del Portal d'internet\"."
+    ]
   },
   {
     "guid": "9e2eb7a0-75d2-4b4d-95e7-154c38533de6-17991",
@@ -458,14 +458,14 @@
       },
       {
         "text": "Per una finalitat comercial o no comercial, en els termes que preveu la normativa vigent.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'art. 7.2.f) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"En especial, aquesta ordenança garanteix els drets següents: (...) f) Dret a disposar, sempre que sigui possible, de la informació pública en format obert i llegible per màquina, conjuntament amb les seves metadades, amb el nivell més elevat de precisió i desagregació, per a la seva reutilització, comercial o no comercial, en els termes que preveu la normativa vigent sobre reutilització de la informació del sector públic\"."
       },
       {
         "text": "Cada vegada que l'Ajuntament de Barcelona posa a disposició de la ciutadania informació pública especifica amb quina finalitat es poden utilitzar les dades facilitades.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'art. 7.2.f) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"En especial, aquesta ordenança garanteix els drets següents: (...) f) Dret a disposar, sempre que sigui possible, de la informació pública en format obert i llegible per màquina, conjuntament amb les seves metadades, amb el nivell més elevat de precisió i desagregació, per a la seva reutilització, comercial o no comercial, en els termes que preveu la normativa vigent sobre reutilització de la informació del sector públic\"."
+    ]
   },
   {
     "guid": "b678d1cd-b40c-464d-af7b-4640270fb265-18567",
@@ -480,7 +480,8 @@
       },
       {
         "text": "La notificació es fa de manera preferent per mitjans electrònics i, en tot cas, quan la persona interessada estigui obligada a rebre-la per aquesta via.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 23.1 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El sector públic municipal practica la notificació, de manera preferent, per mitjans electrònics i, en tot cas, quan la persona interessada estigui obligada a rebre-la per aquesta via\"."
       },
       {
         "text": "La notificació es fa en tot cas en paper i, supletòriament, quan la persona interessada estigui obligada a rebre-la per mitjans electrònics, també es fa per aquesta via.",
@@ -490,8 +491,7 @@
         "text": "La notificació es fa de manera preferent en paper i, en tot cas, quan la persona interessada no estigui obligada a rebre-la per mitjans electrònics.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 23.1 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El sector públic municipal practica la notificació, de manera preferent, per mitjans electrònics i, en tot cas, quan la persona interessada estigui obligada a rebre-la per aquesta via\"."
+    ]
   },
   {
     "guid": "87960368-f2ad-43c1-a62d-e9df7bf961e1-15787",
@@ -502,7 +502,8 @@
     "answerOptions": [
       {
         "text": "Si, sempre que sigui possible deixar evidència suficient de la identitat i voluntat de la persona interessada.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 15.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"A través dels canals d'atenció telefònica també es poden dur a terme els tràmits administratius que l'Administració municipal determini, sempre que sigui possible deixar evidència suficient de la identitat i voluntat de la persona interessada, d'acord amb els requeriments de seguretat del tràmit en qüestió\"."
       },
       {
         "text": "No, no és possible que el ciutadà tramiti via telefònica perquè no es poden garantir els requeriments de seguretat necessaris.",
@@ -516,8 +517,7 @@
         "text": "Si, és un servei municipal que poden utilitzar tant les persones interessades com les que no ho són.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 15.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"A través dels canals d'atenció telefònica també es poden dur a terme els tràmits administratius que l'Administració municipal determini, sempre que sigui possible deixar evidència suficient de la identitat i voluntat de la persona interessada, d'acord amb els requeriments de seguretat del tràmit en qüestió\"."
+    ]
   },
   {
     "guid": "dc006c8e-a872-40e7-886b-2f53e75b8252-16183",
@@ -528,7 +528,8 @@
     "answerOptions": [
       {
         "text": "Cada dia de l'any durant les vint-i-quatre hores.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 31.2.a) de la Llei 39/2015, d'1 d'octubre, el registre electrònic de cada Administració o organisme ha de permetre presentar documents cada dia de l'any durant les vint-i-quatre hores."
       },
       {
         "text": "Només els dies hàbils durant les vint-i-quatre hores.",
@@ -542,8 +543,7 @@
         "text": "Cada entitat municipal podrà establir l'horari del registre electrònic en funció de les seves necessitats.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 31.2.a) de la Llei 39/2015, d'1 d'octubre, el registre electrònic de cada Administració o organisme ha de permetre presentar documents cada dia de l'any durant les vint-i-quatre hores."
+    ]
   },
   {
     "guid": "a985b3ce-3db6-49c5-bfae-2daffea7abd8-18557",
@@ -558,7 +558,8 @@
       },
       {
         "text": "Les persones titulars de les unitats encarregades dels àmbits organitzatius de l'Ajuntament.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 6.1 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Les persones titulars de les unitats encarregades dels àmbits organitzatius i, si escau, els i les responsables polítics locals de cada entitat del sector públic municipal, són responsables del compliment dels deures i les obligacions que estableix aquesta ordenança\"."
       },
       {
         "text": "Els ciutadans i ciutadanes, que han d'exercir els seus drets i obligacions de forma responsable.",
@@ -568,8 +569,7 @@
         "text": "Les persones titulars de les unitats encarregades dels àmbits d'administració digital de l'Ajuntament.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 6.1 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Les persones titulars de les unitats encarregades dels àmbits organitzatius i, si escau, els i les responsables polítics locals de cada entitat del sector públic municipal, són responsables del compliment dels deures i les obligacions que estableix aquesta ordenança\"."
+    ]
   },
   {
     "guid": "d1eb18b8-3904-4e76-82bc-0b69c47f9b7f-17847",
@@ -588,14 +588,14 @@
       },
       {
         "text": "La creació de pàgines web que puguin ser accessibles per a tots els usuaris independentment de les seves discapacitats.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'accessibilitat web consisteix en la creació de pàgines web que puguin ser accessibles per a tots els usuaris independentment de les seves discapacitats (visuals, auditives, cognitives, motrius, tècniques o ambientals)."
       },
       {
         "text": "La creació de pàgines web especialment dissenyades per a usuaris/àries majors de 65 anys.",
         "isCorrect": false
       }
-    ],
-    "hint": "L'accessibilitat web consisteix en la creació de pàgines web que puguin ser accessibles per a tots els usuaris independentment de les seves discapacitats (visuals, auditives, cognitives, motrius, tècniques o ambientals)."
+    ]
   },
   {
     "guid": "a9e294dc-40cb-48f1-be6c-8c613b1c99cc-15857",
@@ -606,7 +606,8 @@
     "answerOptions": [
       {
         "text": "L'extranet de les administracions catalanes.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'EACAT és una plataforma de servei orientada a facilitar la comunicació electrònica entre les diferents administracions catalanes (l'extranet de les administracions catalanes), és a dir, és un canal bidireccional de comunicació electrònic segur tant en l'àmbit jurídic com en l'àmbit tècnic entre les administracions catalanes."
       },
       {
         "text": "L'espai on les administracions catalanes poden publicar informació d'interès per als ciutadans/anes.",
@@ -620,8 +621,7 @@
         "text": "La plataforma que habilita les comunicacions de determinats ajuntaments cap a la Generalitat de Catalunya.",
         "isCorrect": false
       }
-    ],
-    "hint": "L'EACAT és una plataforma de servei orientada a facilitar la comunicació electrònica entre les diferents administracions catalanes (l'extranet de les administracions catalanes), és a dir, és un canal bidireccional de comunicació electrònic segur tant en l'àmbit jurídic com en l'àmbit tècnic entre les administracions catalanes."
+    ]
   },
   {
     "guid": "deef7140-9948-4817-bbd2-dd98c2c7b5ce-17699",
@@ -636,7 +636,8 @@
       },
       {
         "text": "Aquesta informació ha d'estar tant a la Seu electrònica com en la informació relativa a cadascun dels procediments.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 18.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"L'Ajuntament de Barcelona manté actualitzada la informació relativa als sistemes que s'admeten per a la signatura electrònica, i els procediments per als quals són admissibles, tant a la Seu electrònica com en la informació relativa a cadascun dels procediments\"."
       },
       {
         "text": "Aquesta informació ha d'estar tant a la Seu electrònica com al Tauler d'edictes electrònic.",
@@ -646,8 +647,7 @@
         "text": "Aquesta informació ha d'estar, com a mínim, al Punt d'accés general electrònic.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 18.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"L'Ajuntament de Barcelona manté actualitzada la informació relativa als sistemes que s'admeten per a la signatura electrònica, i els procediments per als quals són admissibles, tant a la Seu electrònica com en la informació relativa a cadascun dels procediments\"."
+    ]
   },
   {
     "guid": "d35cb882-2e56-48ce-af2e-1d449a922728-13837",
@@ -658,7 +658,8 @@
     "answerOptions": [
       {
         "text": "La signatura electrònica és el conjunt de dades en forma electrònica que poden ser utilitzades com a mitjà d'identificació de la persona signant. Un certificat electrònic és un document signat electrònicament per un prestador de serveis de certificació que verifica la signatura i confirma la identitat de la persona.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La signatura electrònica és el conjunt de dades en forma electrònica que poden ser utilitzades com a mitjà d'identificació de la persona signant, mentre que un certificat electrònic és un document signat electrònicament per un prestador de serveis de certificació que verifica la signatura i confirma la identitat de la persona."
       },
       {
         "text": "Són sinònims i que es poden utilitzar indistintament.",
@@ -672,8 +673,7 @@
         "text": "El certificat digital no permet identificar la persona, i la signatura electrònica, sí.",
         "isCorrect": false
       }
-    ],
-    "hint": "La signatura electrònica és el conjunt de dades en forma electrònica que poden ser utilitzades com a mitjà d'identificació de la persona signant, mentre que un certificat electrònic és un document signat electrònicament per un prestador de serveis de certificació que verifica la signatura i confirma la identitat de la persona."
+    ]
   },
   {
     "guid": "3f0aae79-5e87-4467-919e-10800fd0c0f0-16335",
@@ -692,14 +692,14 @@
       },
       {
         "text": "S'ha de fer per mitjans electrònics. Això no obstant, l'Ajuntament de Barcelona ha de facilitar que les persones que no es relacionin amb ell a través de mitjans electrònics puguin participar activament en aquests tràmits.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 34.6 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Els tràmits de consulta prèvia, d'audiència i d'informació públiques en el procediment d'elaboració de disposicions generals, així com la publicació de les aprovades, s'han de fer per mitjans electrònics. Això no obstant, l'Ajuntament de Barcelona ha de facilitar que les persones que no es relacionin amb ell a través de mitjans electrònics puguin participar activament en aquests tràmits\"."
       },
       {
         "text": "S'utilitzaran mitjans electrònics o d'altres en funció de cada cas i moment.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 34.6 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Els tràmits de consulta prèvia, d'audiència i d'informació públiques en el procediment d'elaboració de disposicions generals, així com la publicació de les aprovades, s'han de fer per mitjans electrònics. Això no obstant, l'Ajuntament de Barcelona ha de facilitar que les persones que no es relacionin amb ell a través de mitjans electrònics puguin participar activament en aquests tràmits\"."
+    ]
   },
   {
     "guid": "7af3a3d8-683b-42c4-b138-f4c703c74abc-17671",
@@ -718,14 +718,14 @@
       },
       {
         "text": "El sector públic municipal pot comprovar la veracitat de la relació de representació mitjançant la consulta a altres registres d'apoderaments.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 19.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El sector públic municipal pot comprovar la veracitat de la relació de representació mitjançant la consulta a altres registres d'apoderaments, o pot sol·licitar a les persones interessades la presentació de documents que l'acreditin\"."
       },
       {
         "text": "L'apoderament apud acta mitjançant compareixença personal s'utilitza quan són persones físiques que realitzen tràmits a les oficines municipal.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 19.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El sector públic municipal pot comprovar la veracitat de la relació de representació mitjançant la consulta a altres registres d'apoderaments, o pot sol·licitar a les persones interessades la presentació de documents que l'acreditin\"."
+    ]
   },
   {
     "guid": "6dcd92a2-a1cf-47dd-8684-33afc504826d-18269",
@@ -748,10 +748,10 @@
       },
       {
         "text": "La publicació al Tauler d'edictes electrònic és prèvia i complementària a la publicació de les notificacions al Tauler edictal únic del Butlletí Oficial de l'Estat.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 16.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"La publicació al Tauler d'edictes electrònic és prèvia i complementària a la publicació de les notificacions al Tauler edictal únic del Butlletí Oficial de l'Estat\"."
       }
-    ],
-    "hint": "D'acord amb l'article 16.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"La publicació al Tauler d'edictes electrònic és prèvia i complementària a la publicació de les notificacions al Tauler edictal únic del Butlletí Oficial de l'Estat\"."
+    ]
   },
   {
     "guid": "5334d2f2-f61f-4d09-b433-25794b6dd8a8-18161",
@@ -774,10 +774,10 @@
       },
       {
         "text": "Cap és correcta.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Tot sistema d'arxiu electrònic ha d'incloure la identificació dels/de les usuaris/àries, el control d'accessos i el compliment de totes les garanties previstes a la legislació en matèria de protecció de dades de caràcter personal."
       }
-    ],
-    "hint": "Tot sistema d'arxiu electrònic ha d'incloure la identificació dels/de les usuaris/àries, el control d'accessos i el compliment de totes les garanties previstes a la legislació en matèria de protecció de dades de caràcter personal."
+    ]
   },
   {
     "guid": "49ca1754-fef6-4f9a-b793-7574403c3f35-18027",
@@ -788,7 +788,8 @@
     "answerOptions": [
       {
         "text": "Al Portal d'internet.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 12.2 de la Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"La Seu electrònica ha d'estar disponible per mitjà de les xarxes de telecomunicacions a través de l'enllaç disponible des del Portal d'internet\"."
       },
       {
         "text": "Al Punt d'accés general electrònic.",
@@ -802,8 +803,7 @@
         "text": "A la pàgina web de l'Ajuntament de Barcelona.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 12.2 de la Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"La Seu electrònica ha d'estar disponible per mitjà de les xarxes de telecomunicacions a través de l'enllaç disponible des del Portal d'internet\"."
+    ]
   },
   {
     "guid": "67cda005-8256-48ab-beac-6f3710c9ff52-15733",
@@ -822,14 +822,14 @@
       },
       {
         "text": "Informació sobre transparència.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 12.3 de l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"A la Seu electrònica de l'Ajuntament de Barcelona hi ha: a) La relació de procediments i tràmits, la informació que els caracteritza, així com el seu accés directe. b) El Punt d'accés general electrònic. c) L'accés a la Gaseta Municipal de Barcelona i al Tauler d'edictes electrònic. d) La informació sobre l'oferta pública d'ocupació en l'àmbit de l'Administració municipal. e) La informació sobre la contractació pública municipal i l'accés al perfil del contractant municipal. f) La informació sobre el Registre electrònic únic, les oficines d'assistència en matèria de registres, els horaris i la seva normativa. g) L'accés a la possibilitat de formular queixes i suggeriments. h) Altres utilitats, com ara la signatura i verificació de documents electrònics. i) L'accés als serveis electrònics de la resta d'organismes i entitats del sector públic municipal. j) Informació sobre protecció de dades de caràcter personal. k) Registre d'apoderaments\"."
       },
       {
         "text": "La verificació de documents electrònics.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 12.3 de l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"A la Seu electrònica de l'Ajuntament de Barcelona hi ha: a) La relació de procediments i tràmits, la informació que els caracteritza, així com el seu accés directe. b) El Punt d'accés general electrònic. c) L'accés a la Gaseta Municipal de Barcelona i al Tauler d'edictes electrònic. d) La informació sobre l'oferta pública d'ocupació en l'àmbit de l'Administració municipal. e) La informació sobre la contractació pública municipal i l'accés al perfil del contractant municipal. f) La informació sobre el Registre electrònic únic, les oficines d'assistència en matèria de registres, els horaris i la seva normativa. g) L'accés a la possibilitat de formular queixes i suggeriments. h) Altres utilitats, com ara la signatura i verificació de documents electrònics. i) L'accés als serveis electrònics de la resta d'organismes i entitats del sector públic municipal. j) Informació sobre protecció de dades de caràcter personal. k) Registre d'apoderaments\"."
+    ]
   },
   {
     "guid": "b45217d0-73ed-4d23-bfc4-103d12411b93-14657",
@@ -848,14 +848,14 @@
       },
       {
         "text": "No produeixen efectes jurídics; l'òrgan administratiu competent requerirà que la persona interessada faci l'esmena a través de la seva presentació apropiada.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 13.10 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"No produeixen efectes jurídics la presentació en el registre de: a) La documentació o informació el règim especial de les quals estableix una altra forma de presentació. b) Les sol·licituds a través del canal presencial per part de subjectes obligats a relacionar-se electrònicament amb l'Administració municipal. En aquests casos, l'òrgan administratiu competent requerirà la persona interessada per tal que faci l'esmena a través de la seva presentació apropiada, i li advertirà que, si no atén el requeriment, la presentació no tindrà validesa. A aquest efecte, es considera com a data de presentació de la sol·licitud la data en que hagi efectuat l'esmena corresponent\"."
       },
       {
         "text": "No produeixen efectes jurídics; el personal de l'oficina d'assistència en matèria de registres requerirà que la persona interessada faci l'esmena a través de la seva presentació apropiada.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 13.10 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"No produeixen efectes jurídics la presentació en el registre de: a) La documentació o informació el règim especial de les quals estableix una altra forma de presentació. b) Les sol·licituds a través del canal presencial per part de subjectes obligats a relacionar-se electrònicament amb l'Administració municipal. En aquests casos, l'òrgan administratiu competent requerirà la persona interessada per tal que faci l'esmena a través de la seva presentació apropiada, i li advertirà que, si no atén el requeriment, la presentació no tindrà validesa. A aquest efecte, es considera com a data de presentació de la sol·licitud la data en que hagi efectuat l'esmena corresponent\"."
+    ]
   },
   {
     "guid": "ae1f195c-791a-4c56-b4ca-30d47a21543b-17901",
@@ -870,7 +870,8 @@
       },
       {
         "text": "https://www.decidim.barcelona/",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Decidim Barcelona (https://www.decidim.barcelona/) és la plataforma de participació de Barcelona, per construir una ciutat més oberta, transparent i col·laborativa, on el ciutadà participa i decideix."
       },
       {
         "text": "https://www.participa.barcelona/",
@@ -880,8 +881,7 @@
         "text": "https://www.decideix.barcelona/",
         "isCorrect": false
       }
-    ],
-    "hint": "Decidim Barcelona (https://www.decidim.barcelona/) és la plataforma de participació de Barcelona, per construir una ciutat més oberta, transparent i col·laborativa, on el ciutadà participa i decideix."
+    ]
   },
   {
     "guid": "6c90528a-b72e-4e43-aa2b-5df7afa89cc3-15829",
@@ -892,7 +892,8 @@
     "answerOptions": [
       {
         "text": "Sempre que sigui possible, s'ha d'associar el document rebut (o sortint) a l'expedient administratiu electrònic al qual s'incorpora (o que el genera).",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 13.3 de l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"Sempre que sigui possible, s'ha d'associar el document rebut (o sortint) a l'expedient administratiu electrònic al qual s'incorpora (o que el genera)\"."
       },
       {
         "text": "Sempre s'ha d'associar el document rebut (o sortint) a l'expedient administratiu electrònic al qual s'incorpora (o que el genera).",
@@ -906,8 +907,7 @@
         "text": "El Registre electrònic únic ha de cursar els documents a les persones destinatàries i a les unitats administratives corresponents de forma immediata.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 13.3 de l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"Sempre que sigui possible, s'ha d'associar el document rebut (o sortint) a l'expedient administratiu electrònic al qual s'incorpora (o que el genera)\"."
+    ]
   },
   {
     "guid": "e0ffc494-4746-4930-b366-a85337957652-15539",
@@ -922,7 +922,8 @@
       },
       {
         "text": "El sector públic municipal pot comprovar la veracitat de la relació de representació mitjançant la consulta a altres registres d'apoderaments.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 19.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El sector públic municipal pot comprovar la veracitat de la relació de representació mitjançant la consulta a altres registres d'apoderaments, o pot sol·licitar a les persones interessades la presentació de documents que l'acreditin\"."
       },
       {
         "text": "Per poder acreditar la representació cal inscriure's al Registre electrònic d'apoderaments de l'Ajuntament de Barcelona.",
@@ -932,8 +933,7 @@
         "text": "L'apoderament apud acta mitjançant compareixença personal s'utilitza quan són persones físiques que realitzen tràmits a les oficines municipal.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 19.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El sector públic municipal pot comprovar la veracitat de la relació de representació mitjançant la consulta a altres registres d'apoderaments, o pot sol·licitar a les persones interessades la presentació de documents que l'acreditin\"."
+    ]
   },
   {
     "guid": "cd6ff7f4-49a3-42ad-803f-6d8ed9c5f43b-14573",
@@ -956,10 +956,10 @@
       },
       {
         "text": "És conjunt de dades en forma electrònica.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La signatura electrònica és conjunt de dades en forma electrònica consignades amb altres dades o associades amb elles, que s'utilitzen com un mitjà d'identificació de la persona signant, que permeten obtenir les mateixes funcions, amb tècniques electròniques, informàtiques i telemàtiques, que la signatura de documents en suport paper."
       }
-    ],
-    "hint": "La signatura electrònica és conjunt de dades en forma electrònica consignades amb altres dades o associades amb elles, que s'utilitzen com un mitjà d'identificació de la persona signant, que permeten obtenir les mateixes funcions, amb tècniques electròniques, informàtiques i telemàtiques, que la signatura de documents en suport paper."
+    ]
   },
   {
     "guid": "c82e9640-ef3d-431a-9915-4cbb51825300-14743",
@@ -982,10 +982,10 @@
       },
       {
         "text": "Tots els drets esmentats són garantits per l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Així s'estableix en l'art. 7.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona."
       }
-    ],
-    "hint": "Així s'estableix en l'art. 7.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona."
+    ]
   },
   {
     "guid": "9a9f60b8-dfa2-43cd-b805-d4528525b7f3-17769",
@@ -1008,10 +1008,10 @@
       },
       {
         "text": "Les persones jurídiques.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Segons l'art. 14.2 de la Llei 39/2015, d'1 d'octubre: \"En tot cas, estan obligats a relacionar-se a través de mitjans electrònics amb les administracions públiques per efectuar qualsevol tràmit d'un procediment administratiu, almenys, els subjectes següents: a) Les persones jurídiques. b) Les entitats sense personalitat jurídica. c) Els qui exerceixin una activitat professional per a la qual es requereixi la col·legiació obligatòria, per als tràmits i actuacions que portin a terme amb les administracions públiques en exercici de l'activitat professional esmentada. En tot cas, dins d'aquest col·lectiu s'hi entenen inclosos els notaris i registradors de la propietat i mercantils. d) Els qui representin un interessat que estigui obligat a relacionar-se electrònicament amb l'Administració. e) Els empleats de les administracions públiques per als tràmits i actuacions que efectuïn amb elles per raó de la seva condició d'empleat públic, tal com determini reglamentàriament cada Administració\"."
       }
-    ],
-    "hint": "Segons l'art. 14.2 de la Llei 39/2015, d'1 d'octubre: \"En tot cas, estan obligats a relacionar-se a través de mitjans electrònics amb les administracions públiques per efectuar qualsevol tràmit d'un procediment administratiu, almenys, els subjectes següents: a) Les persones jurídiques. b) Les entitats sense personalitat jurídica. c) Els qui exerceixin una activitat professional per a la qual es requereixi la col·legiació obligatòria, per als tràmits i actuacions que portin a terme amb les administracions públiques en exercici de l'activitat professional esmentada. En tot cas, dins d'aquest col·lectiu s'hi entenen inclosos els notaris i registradors de la propietat i mercantils. d) Els qui representin un interessat que estigui obligat a relacionar-se electrònicament amb l'Administració. e) Els empleats de les administracions públiques per als tràmits i actuacions que efectuïn amb elles per raó de la seva condició d'empleat públic, tal com determini reglamentàriament cada Administració\"."
+    ]
   },
   {
     "guid": "27200681-3654-48e1-bffb-337db37d56be-17271",
@@ -1026,7 +1026,8 @@
       },
       {
         "text": "Autenticació.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Autenticació: acreditació per mitjans electrònics de la identitat d'una persona o ens, del contingut i voluntat expressa en les seves operacions, transaccions i documents, i de la integritat i autoria dels mateixos."
       },
       {
         "text": "Interoperabilitat.",
@@ -1036,8 +1037,7 @@
         "text": "Signatura electrònica avançada.",
         "isCorrect": false
       }
-    ],
-    "hint": "Autenticació: acreditació per mitjans electrònics de la identitat d'una persona o ens, del contingut i voluntat expressa en les seves operacions, transaccions i documents, i de la integritat i autoria dels mateixos."
+    ]
   },
   {
     "guid": "707140ed-b182-4b3b-b5e5-4a9027fb71a6-18037",
@@ -1052,7 +1052,8 @@
       },
       {
         "text": "Que l'Administració pública ha de promoure la provisió de serveis que s'ofereixen mitjançant tots els canals a disposició dels usuaris.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La multicanalitat és la utilització de múltiples mitjans, no tan sols Internet. A banda d'això cal recordar que en principi el ciutadà té dret a triar la forma de posar-se en contacte amb l'Administració, sigui per mitjans electrònics o no, i que el fet d'haver triat no vincula al ciutadà a continuar amb aquest camí."
       },
       {
         "text": "Que segons les característiques del servei, la ciutadania haurà d'utilitzar un determinat canal per comunicar-se amb l'administració pública.",
@@ -1062,8 +1063,7 @@
         "text": "Que el ciutadà ha d'utilitzar el mitjà de comunicació que li quedi més proper per a fer el tràmit administratiu corresponent.",
         "isCorrect": false
       }
-    ],
-    "hint": "La multicanalitat és la utilització de múltiples mitjans, no tan sols Internet. A banda d'això cal recordar que en principi el ciutadà té dret a triar la forma de posar-se en contacte amb l'Administració, sigui per mitjans electrònics o no, i que el fet d'haver triat no vincula al ciutadà a continuar amb aquest camí."
+    ]
   },
   {
     "guid": "c36a2730-d485-453d-980e-447923a2ef33-13999",
@@ -1082,14 +1082,14 @@
       },
       {
         "text": "A la bústia de notificacions electròniques de l'Ajuntament, que ha de ser, en tot cas, accessible a través del Punt d'accés general electrònic.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'art. 25.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"La notificació es posa a disposició de la persona interessada a la bústia de notificacions electròniques de l'Ajuntament, que ha de ser, en tot cas, accessible a través del Punt d'accés general electrònic. Addicionalment s'ha de remetre un avís al dispositiu electrònic o l'adreça electrònica que s'hagi designat\"."
       },
       {
         "text": "A la bústia de notificacions electròniques de l'Ajuntament, que ha de ser, en tot cas, accessible a través del Tauler d'edictes.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'art. 25.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"La notificació es posa a disposició de la persona interessada a la bústia de notificacions electròniques de l'Ajuntament, que ha de ser, en tot cas, accessible a través del Punt d'accés general electrònic. Addicionalment s'ha de remetre un avís al dispositiu electrònic o l'adreça electrònica que s'hagi designat\"."
+    ]
   },
   {
     "guid": "a91320ad-0e28-4410-8e83-01eeeb9dcd1a-17823",
@@ -1108,14 +1108,14 @@
       },
       {
         "text": "Les persones físiques poden triar en tot moment la manera de comunicar-se, sigui o no per mitjans electrònics, i poden optar en qualsevol moment per un mitjà diferent al triat inicialment.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Segons l'art. 14.1 de la Llei 39/2015, d'1 d'octubre: \"Les persones físiques poden escollir en tot moment si es comuniquen amb les administracions públiques per exercir els seus drets i obligacions a través de mitjans electrònics o no, llevat que estiguin obligades a relacionar-se a través de mitjans electrònics amb les administracions públiques. El mitjà escollit per la persona per comunicar-se amb les administracions públiques pot ser modificat per aquella en qualsevol moment\"."
       },
       {
         "text": "Les persones físiques poden triar la manera de comunicar-se, sigui o no per mitjans electrònics, però un cop escollit un mitjà no podran canviar-lo fins que hagin passat dos mesos.",
         "isCorrect": false
       }
-    ],
-    "hint": "Segons l'art. 14.1 de la Llei 39/2015, d'1 d'octubre: \"Les persones físiques poden escollir en tot moment si es comuniquen amb les administracions públiques per exercir els seus drets i obligacions a través de mitjans electrònics o no, llevat que estiguin obligades a relacionar-se a través de mitjans electrònics amb les administracions públiques. El mitjà escollit per la persona per comunicar-se amb les administracions públiques pot ser modificat per aquella en qualsevol moment\"."
+    ]
   },
   {
     "guid": "f16cb4cc-1c34-4bc8-9051-0aad6169ad15-15537",
@@ -1134,14 +1134,14 @@
       },
       {
         "text": "Quan la còpia electrònica ho sigui d'un document original en paper, tindrà el caràcter de còpia autèntica.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 14.3.g) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, les oficines d'assistència en matèria de registres són les encarregades de digitalitzar com a còpia electrònica els documents que es presentin de manera presencial davant l'Administració municipal per una persona que no tingui l'obligació d'utilitzar els mitjans electrònics. Quan la còpia electrònica ho sigui d'un document original en paper, tindrà el caràcter de còpia autèntica."
       },
       {
         "text": "Quan la còpia electrònica ho sigui d'un document original en paper, tindrà el caràcter de còpia electrònica.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 14.3.g) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, les oficines d'assistència en matèria de registres són les encarregades de digitalitzar com a còpia electrònica els documents que es presentin de manera presencial davant l'Administració municipal per una persona que no tingui l'obligació d'utilitzar els mitjans electrònics. Quan la còpia electrònica ho sigui d'un document original en paper, tindrà el caràcter de còpia autèntica."
+    ]
   },
   {
     "guid": "902be85c-0b0c-48d4-9fe8-11c505c0bb4f-16207",
@@ -1152,7 +1152,8 @@
     "answerOptions": [
       {
         "text": "L'òrgan o els òrgans responsables de la definició de les especificacions tècniques, la programació del sistema, el manteniment, la supervisió i l'auditoria, així com l'òrgan responsable de l'actuació en cas d'impugnació.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'art. 35.5 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: Quan una entitat del sector públic municipal desenvolupi una activitat en règim d'actuació administrativa automatitzada, ha d'establir, a través d'una norma específica, l'òrgan o els òrgans responsables de la definició de les especificacions tècniques, la programació del sistema, el manteniment, la supervisió i l'auditoria, així com l'òrgan responsable de l'actuació en cas d'impugnació\"."
       },
       {
         "text": "L'òrgan o els òrgans responsables de la definició normativa de l'actuació, la programació del sistema, el manteniment, la supervisió i l'auditoria, així com l'òrgan responsable de l'actuació en cas d'impugnació.",
@@ -1166,8 +1167,7 @@
         "text": "Les activitats en règim d'actuació administrativa automatizada de les entitats del sector públic municipal no necessiten una norma específica que les reguli.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'art. 35.5 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: Quan una entitat del sector públic municipal desenvolupi una activitat en règim d'actuació administrativa automatitzada, ha d'establir, a través d'una norma específica, l'òrgan o els òrgans responsables de la definició de les especificacions tècniques, la programació del sistema, el manteniment, la supervisió i l'auditoria, així com l'òrgan responsable de l'actuació en cas d'impugnació\"."
+    ]
   },
   {
     "guid": "a7dd726e-995b-4c4f-9a9a-b7b83a46ba2e-16121",
@@ -1182,7 +1182,8 @@
       },
       {
         "text": "Sistemes d'identificació criptogràfics.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 17.1 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Per a la identificació de les persones interessades s'admeten els sistemes següents: a) Sistemes d'identificació basats en certificats electrònics reconeguts o qualificats de signatura electrònica expedits per prestadors inclosos a la Llista de confiança de prestadors de serveis de certificació. b) Sistemes d'identificació basats en certificats reconeguts o qualificats de segell electrònic expedits per prestadors inclosos a la Llista de confiança de prestadors de serveis de certificació. c) Sistemes d'identificació no criptogràfics. L'ús d'aquests sistemes pot estar condicionat a la identificació prèvia de manera presencial o amb d'altres sistemes fiables d'identificació, en funció dels requeriments de seguretat de cada tràmit. d) Sistemes d'identificació en mobilitat. En cas que s'habiliti l'ús d'aquests sistemes, s'ha d'informar suficientment la ciutadania sobre els requeriments d'identificació prèvia, així com les funcions habilitades en els diferents sistemes, plataformes o aplicacions\"."
       },
       {
         "text": "Sistemes d'identificació no criptogràfics.",
@@ -1192,8 +1193,7 @@
         "text": "Sistemes d'identificació basats en certificats reconeguts o qualificats de segell electrònic expedits per prestadors inclosos a la Llista de confiança de prestadors de serveis de certificació.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 17.1 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Per a la identificació de les persones interessades s'admeten els sistemes següents: a) Sistemes d'identificació basats en certificats electrònics reconeguts o qualificats de signatura electrònica expedits per prestadors inclosos a la Llista de confiança de prestadors de serveis de certificació. b) Sistemes d'identificació basats en certificats reconeguts o qualificats de segell electrònic expedits per prestadors inclosos a la Llista de confiança de prestadors de serveis de certificació. c) Sistemes d'identificació no criptogràfics. L'ús d'aquests sistemes pot estar condicionat a la identificació prèvia de manera presencial o amb d'altres sistemes fiables d'identificació, en funció dels requeriments de seguretat de cada tràmit. d) Sistemes d'identificació en mobilitat. En cas que s'habiliti l'ús d'aquests sistemes, s'ha d'informar suficientment la ciutadania sobre els requeriments d'identificació prèvia, així com les funcions habilitades en els diferents sistemes, plataformes o aplicacions\"."
+    ]
   },
   {
     "guid": "c26e481a-9487-4cb0-a111-c3b67ef686cf-14565",
@@ -1208,7 +1208,8 @@
       },
       {
         "text": "La signatura electrònica reconeguda.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La signatura electrònica reconeguda té el mateix valor legal que la firma manuscrita."
       },
       {
         "text": "La signatura electrònica avançada.",
@@ -1218,8 +1219,7 @@
         "text": "La signatura electrònica certificada.",
         "isCorrect": false
       }
-    ],
-    "hint": "La signatura electrònica reconeguda té el mateix valor legal que la firma manuscrita."
+    ]
   },
   {
     "guid": "68809891-9b6e-429d-804e-7ba2ee54799e-15443",
@@ -1238,14 +1238,14 @@
       },
       {
         "text": "El codi segur de verificació.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'art. 20.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, alternativament a l'actuació administrativa automatizada, es poden fer servir codis segurs de verificació per autenticar els documents generats en l'actuació administrativa automatitzada, i s'ha de garantir, en tot cas, que aquests documents es poden verificar, durant el termini que s'estableixi, contra el sistema de verificació que es pot trobar a la Seu electrònica."
       },
       {
         "text": "El certificat electrònic reconegut o qualificat.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'art. 20.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, alternativament a l'actuació administrativa automatizada, es poden fer servir codis segurs de verificació per autenticar els documents generats en l'actuació administrativa automatitzada, i s'ha de garantir, en tot cas, que aquests documents es poden verificar, durant el termini que s'estableixi, contra el sistema de verificació que es pot trobar a la Seu electrònica."
+    ]
   },
   {
     "guid": "90008bbf-f964-4751-a624-ed459a351fab-17123",
@@ -1256,7 +1256,8 @@
     "answerOptions": [
       {
         "text": "Es denomina interoperabilitat.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La interoperabilitat és un dels conceptes essencials per assolir una veritable administració en xarxa. La interoperabilitat pot definir-se com la capacitat que tenen les organitzacions per compartir i reutilitzar la informació de què disposen en els seus sistemes i en els procediments als quals donen suport, per assolir uns objectius comuns i possibilitar l'intercanvi d'informació i coneixements entre aquests."
       },
       {
         "text": "Es garanteix mitjançant la signatura digital.",
@@ -1270,8 +1271,7 @@
         "text": "Es basa en programari lliure.",
         "isCorrect": false
       }
-    ],
-    "hint": "La interoperabilitat és un dels conceptes essencials per assolir una veritable administració en xarxa. La interoperabilitat pot definir-se com la capacitat que tenen les organitzacions per compartir i reutilitzar la informació de què disposen en els seus sistemes i en els procediments als quals donen suport, per assolir uns objectius comuns i possibilitar l'intercanvi d'informació i coneixements entre aquests."
+    ]
   },
   {
     "guid": "44d4bbfb-cfc8-4feb-a96b-d6179eb54d4d-15221",
@@ -1286,7 +1286,8 @@
       },
       {
         "text": "La seu electrònica.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 2.e) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, la seu electrònica és l'espai electrònic de l'Ajuntament al qual els ciutadans i ciutadanes es poden adreçar per efectuar tràmits administratius i consultar els seus expedients amb plena garantia de la seguretat tecnològica i jurídica de la seva informació."
       },
       {
         "text": "El punt d'accés general electrònic.",
@@ -1296,8 +1297,7 @@
         "text": "El portal de transparència.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 2.e) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, la seu electrònica és l'espai electrònic de l'Ajuntament al qual els ciutadans i ciutadanes es poden adreçar per efectuar tràmits administratius i consultar els seus expedients amb plena garantia de la seguretat tecnològica i jurídica de la seva informació."
+    ]
   },
   {
     "guid": "20eb801e-e488-4993-99d6-162484e59a47-15567",
@@ -1308,7 +1308,8 @@
     "answerOptions": [
       {
         "text": "Aquesta informació ha d'estar tant a la Seu electrònica com en la informació relativa a cadascun dels procediments.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 18.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"L'Ajuntament de Barcelona manté actualitzada la informació relativa als sistemes que s'admeten per a la signatura electrònica, i els procediments per als quals són admissibles, tant a la Seu electrònica com en la informació relativa a cadascun dels procediments\"."
       },
       {
         "text": "Aquesta informació ha d'estar tant a la Seu electrònica com al Tauler d'edictes electrònic.",
@@ -1322,8 +1323,7 @@
         "text": "Aquesta informació ha d'estar, com a mínim, al Punt d'accés general electrònic.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 18.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"L'Ajuntament de Barcelona manté actualitzada la informació relativa als sistemes que s'admeten per a la signatura electrònica, i els procediments per als quals són admissibles, tant a la Seu electrònica com en la informació relativa a cadascun dels procediments\"."
+    ]
   },
   {
     "guid": "5d15b5fd-c538-4d6e-b8ec-05e3e93992f7-17865",
@@ -1342,14 +1342,14 @@
       },
       {
         "text": "Informació sobre transparència.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 12.3 de l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"A la Seu electrònica de l'Ajuntament de Barcelona hi ha: a) La relació de procediments i tràmits, la informació que els caracteritza, així com el seu accés directe. b) El Punt d'accés general electrònic. c) L'accés a la Gaseta Municipal de Barcelona i al Tauler d'edictes electrònic. d) La informació sobre l'oferta pública d'ocupació en l'àmbit de l'Administració municipal. e) La informació sobre la contractació pública municipal i l'accés al perfil del contractant municipal. f) La informació sobre el Registre electrònic únic, les oficines d'assistència en matèria de registres, els horaris i la seva normativa. g) L'accés a la possibilitat de formular queixes i suggeriments. h) Altres utilitats, com ara la signatura i verificació de documents electrònics. i) L'accés als serveis electrònics de la resta d'organismes i entitats del sector públic municipal. j) Informació sobre protecció de dades de caràcter personal. k) Registre d'apoderaments\"."
       },
       {
         "text": "La verificació de documents electrònics.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 12.3 de l'Ordenança reguladora de l'administració electrònica de l'Ajuntament de Barcelona: \"A la Seu electrònica de l'Ajuntament de Barcelona hi ha: a) La relació de procediments i tràmits, la informació que els caracteritza, així com el seu accés directe. b) El Punt d'accés general electrònic. c) L'accés a la Gaseta Municipal de Barcelona i al Tauler d'edictes electrònic. d) La informació sobre l'oferta pública d'ocupació en l'àmbit de l'Administració municipal. e) La informació sobre la contractació pública municipal i l'accés al perfil del contractant municipal. f) La informació sobre el Registre electrònic únic, les oficines d'assistència en matèria de registres, els horaris i la seva normativa. g) L'accés a la possibilitat de formular queixes i suggeriments. h) Altres utilitats, com ara la signatura i verificació de documents electrònics. i) L'accés als serveis electrònics de la resta d'organismes i entitats del sector públic municipal. j) Informació sobre protecció de dades de caràcter personal. k) Registre d'apoderaments\"."
+    ]
   },
   {
     "guid": "e7d38669-f446-4541-b8bd-62fe4be97c15-15859",
@@ -1364,7 +1364,8 @@
       },
       {
         "text": "Per una finalitat comercial o no comercial, en els termes que preveu la normativa vigent.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'art. 7.2.f) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"En especial, aquesta ordenança garanteix els drets següents: (...) f) Dret a disposar, sempre que sigui possible, de la informació pública en format obert i llegible per màquina, conjuntament amb les seves metadades, amb el nivell més elevat de precisió i desagregació, per a la seva reutilització, comercial o no comercial, en els termes que preveu la normativa vigent sobre reutilització de la informació del sector públic\"."
       },
       {
         "text": "L'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona no especifica com ha de ser la finalitat de la reutilització, queda a criteri del ciutadà sol·licitant de la informació pública.",
@@ -1374,8 +1375,7 @@
         "text": "Cada vegada que l'Ajuntament de Barcelona posa a disposició de la ciutadania informació pública especifica amb quina finalitat es poden utilitzar les dades facilitades.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'art. 7.2.f) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"En especial, aquesta ordenança garanteix els drets següents: (...) f) Dret a disposar, sempre que sigui possible, de la informació pública en format obert i llegible per màquina, conjuntament amb les seves metadades, amb el nivell més elevat de precisió i desagregació, per a la seva reutilització, comercial o no comercial, en els termes que preveu la normativa vigent sobre reutilització de la informació del sector públic\"."
+    ]
   },
   {
     "guid": "cc67fd6b-b659-4282-8327-fcf45dfaca3a-14641",
@@ -1398,10 +1398,10 @@
       },
       {
         "text": "Ofereixen assistència i orientació quan sigui oportú.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 4.3.c) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, les oficines d'atenció en matèria de registres posen a disposició de la ciutadania, de manera lliure i gratuïta, els mitjans i instruments necessaris per exercir els drets reconeguts en aquesta ordenança, sobre els quals el personal d'aquestes oficines ofereix assistència i orientació quan sigui oportú."
       }
-    ],
-    "hint": "D'acord amb l'article 4.3.c) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, les oficines d'atenció en matèria de registres posen a disposició de la ciutadania, de manera lliure i gratuïta, els mitjans i instruments necessaris per exercir els drets reconeguts en aquesta ordenança, sobre els quals el personal d'aquestes oficines ofereix assistència i orientació quan sigui oportú."
+    ]
   },
   {
     "guid": "885c547d-86fd-4c8c-a76c-e15769e46c48-17721",
@@ -1420,14 +1420,14 @@
       },
       {
         "text": "El gestor o la gestora de l'expedient enviarà l'avís d'emissió de la notificació al dispositiu que consti associat a la persona interessada en les bases de dades de l'Ajuntament, sempre que no contravingui la regulació vigent en matèria de protecció de dades.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 23.4 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El sector públic municipal envia un avís de l'emissió de la notificació, mitjançant un missatge al dispositiu electrònic o a l'adreça electrònica que hagi indicat la persona interessada en la seva sol·licitud, o, en cas que no s'hi hagi indicat, al dispositiu que consti associat a la persona interessada en les bases de dades de l'Ajuntament, sempre que no contravingui la regulació vigent en matèria de protecció de dades personals. Aquest avís no conté informació substancial sobre el contingut de la notificació, sinó únicament una referència per a la seva recuperació\"."
       },
       {
         "text": "El gestor o gestora especificarà aquest fet a les observacions de l'expedient i el deixarà parat fins que la persona interessada aporti aquestes dades.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 23.4 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El sector públic municipal envia un avís de l'emissió de la notificació, mitjançant un missatge al dispositiu electrònic o a l'adreça electrònica que hagi indicat la persona interessada en la seva sol·licitud, o, en cas que no s'hi hagi indicat, al dispositiu que consti associat a la persona interessada en les bases de dades de l'Ajuntament, sempre que no contravingui la regulació vigent en matèria de protecció de dades personals. Aquest avís no conté informació substancial sobre el contingut de la notificació, sinó únicament una referència per a la seva recuperació\"."
+    ]
   },
   {
     "guid": "ec5109e7-85f5-4f09-89e5-660dccd310fa-16409",
@@ -1438,7 +1438,8 @@
     "answerOptions": [
       {
         "text": "Ofereix informació de procediment útil a la ciutadania i la llista de documentació necessària per efectuar un tràmit a través de la Seu electrònica.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'art. 36.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El Registre de procediments municipals ofereix informació de procediment útil a la ciutadania i la llista de documentació necessària per efectuar un tràmit a través de la Seu electrònica\"."
       },
       {
         "text": "Ofereix informació de procediment útil a la ciutadania però no la llista de documentació necessària per efectuar un tràmit ja que aquesta es modifica freqüentment i depèn de cada cas.",
@@ -1452,8 +1453,7 @@
         "text": "Ofereix informació de procediment útil a la ciutadania, que inclou la persona responsable del tràmit i la llista de documentació necessària per efectuar un tràmit.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'art. 36.2 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"El Registre de procediments municipals ofereix informació de procediment útil a la ciutadania i la llista de documentació necessària per efectuar un tràmit a través de la Seu electrònica\"."
+    ]
   },
   {
     "guid": "8d21d290-7f48-4782-8237-d89441e1a659-14225",
@@ -1464,7 +1464,8 @@
     "answerOptions": [
       {
         "text": "Si, sempre que sigui possible deixar evidència suficient de la identitat i voluntat de la persona interessada.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 15.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"A través dels canals d'atenció telefònica també es poden dur a terme els tràmits administratius que l'Administració municipal determini, sempre que sigui possible deixar evidència suficient de la identitat i voluntat de la persona interessada, d'acord amb els requeriments de seguretat del tràmit en qüestió\"."
       },
       {
         "text": "Si, en qualsevol cas, és un dels serveis que ofereix l'Ajuntament de Barcelona.",
@@ -1478,8 +1479,7 @@
         "text": "No, el canal d'atenció telefònica només ofereix informació i ho fa quan la persona interessada s'hagi pogut identificar en termes suficient per garantir el nivell de confidencialitat adequat.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 15.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"A través dels canals d'atenció telefònica també es poden dur a terme els tràmits administratius que l'Administració municipal determini, sempre que sigui possible deixar evidència suficient de la identitat i voluntat de la persona interessada, d'acord amb els requeriments de seguretat del tràmit en qüestió\"."
+    ]
   },
   {
     "guid": "89fdc3bc-f944-44b1-8e64-a86c43a37cb9-15067",
@@ -1490,7 +1490,8 @@
     "answerOptions": [
       {
         "text": "L'extranet de les administracions catalanes.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'EACAT és una plataforma de servei orientada a facilitar la comunicació electrònica entre les diferents administracions catalanes (l'extranet de les administracions catalanes), és a dir, és un canal bidireccional de comunicació electrònic segur tant en l'àmbit jurídic com en l'àmbit tècnic entre les administracions catalanes."
       },
       {
         "text": "L'intranet dels ens locals de Catalunya.",
@@ -1504,8 +1505,7 @@
         "text": "L'extranet dels ens locals de Catalunya.",
         "isCorrect": false
       }
-    ],
-    "hint": "L'EACAT és una plataforma de servei orientada a facilitar la comunicació electrònica entre les diferents administracions catalanes (l'extranet de les administracions catalanes), és a dir, és un canal bidireccional de comunicació electrònic segur tant en l'àmbit jurídic com en l'àmbit tècnic entre les administracions catalanes."
+    ]
   },
   {
     "guid": "0866d27c-f50b-4bde-97ab-e9b32a1c9b47-15665",
@@ -1516,7 +1516,8 @@
     "answerOptions": [
       {
         "text": "Registre de procediments municipals.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 2.h) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, el Registre de procediments municipals és el repositori de coneixement complet que inclou tots els procediments administratius que corresponen a les competències i funcions de l'Administració municipal, els quals no es poden desplegar sense que abans s'hagin incorporat al Registre. Serveix de guia a les persones usuàries i aplicacions per efectuar de manera garant i legal les seqüències d'operacions i decisions que formen el cicle de vida complet d'un procediment determinat."
       },
       {
         "text": "Sistema d'atenció municipal.",
@@ -1530,8 +1531,7 @@
         "text": "Repositori de procediments de l'Ajuntament.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 2.h) de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona, el Registre de procediments municipals és el repositori de coneixement complet que inclou tots els procediments administratius que corresponen a les competències i funcions de l'Administració municipal, els quals no es poden desplegar sense que abans s'hagin incorporat al Registre. Serveix de guia a les persones usuàries i aplicacions per efectuar de manera garant i legal les seqüències d'operacions i decisions que formen el cicle de vida complet d'un procediment determinat."
+    ]
   },
   {
     "guid": "e1830793-8399-4de0-897c-04ea5a771128-15943",
@@ -1546,7 +1546,8 @@
       },
       {
         "text": "El ciutadà o la ciutadana rebrà avisos de les notificacions electròniques, els quals no tenen efectes jurídics.",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "D'acord amb l'article 23.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Correspon a l'Ajuntament de Barcelona constituir un registre de subscriptors de notificacions electròniques, de subscripció voluntària per part de la ciutadania, al qual adreçar els avisos de les notificacions electròniques que el sector públic municipal realitzi. Aquests avisos no tenen efectes jurídics i no substitueixen la pràctica efectiva de la notificació\"."
       },
       {
         "text": "El ciutadà o la ciutadana rebrà avisos de les notificacions electròniques al telèfon mòbil android que hagi indicat.",
@@ -1556,7 +1557,6 @@
         "text": "El ciutadà o la ciutadana rebrà avisos de les notificacions electròniques al telèfon mòbil ios que hagi indicat.",
         "isCorrect": false
       }
-    ],
-    "hint": "D'acord amb l'article 23.3 de l'Ordenança reguladora d'administració electrònica de l'Ajuntament de Barcelona: \"Correspon a l'Ajuntament de Barcelona constituir un registre de subscriptors de notificacions electròniques, de subscripció voluntària per part de la ciutadania, al qual adreçar els avisos de les notificacions electròniques que el sector públic municipal realitzi. Aquests avisos no tenen efectes jurídics i no substitueixen la pràctica efectiva de la notificació\"."
+    ]
   }
 ]

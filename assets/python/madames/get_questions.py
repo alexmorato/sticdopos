@@ -10,26 +10,27 @@ from bs4 import BeautifulSoup
 
 
 N_CALLS = 4
-SUBJECT_ID = "T17"
+SUBJECT_ID = "T02"
+TEMAS = "85"  # T01-87,T02-85
 PAUSE_SECONDS = 3
 TIMEOUT_SECONDS = 30
-ENDPOINT = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ENDPOINT = "https://www.campusadams.com/AJAXautoevaluacion.php?nocache=1793430348074"
 COOKIES = {
-	"PHPSESSID": "dtp21l9r4g9h11fcoq3bh4u1ft",
-	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": "23c24a36844b10aeb62cd5b527cb684e",
-	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx": "23c24a36844b10aeb62cd5b527cb684e",
+	"PHPSESSID": "4j3s671cuf07o73c5h56c3u2fn",
+	"adams_0": "cbcaa63abada31aff0ef98d0cb3c2a05",
+	"adams_semana": "cbcaa63abada31aff0ef98d0cb3c2a05",
 }
 REQUEST_DATA = {
 	"accion": "autoevaluacionEjercicioAPersonalizado",
-	"temas": "107",
+	"temas": TEMAS,
 	"modopreguntas": "undefined",
 	"numPreguntas": "30",
 }
 HEADERS = {
 	"User-Agent": "Mozilla/5.0",
 	"Accept": "application/json, text/javascript, */*; q=0.01",
-	"Referer": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-	"Origin": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+	"Referer": "https://www.campusadams.com/aula.php",
+	"Origin": "https://www.campusadams.com",
 	"X-Requested-With": "XMLHttpRequest",
 }
 OUTPUT_DIRECTORY = Path(__file__).resolve().parent
@@ -60,20 +61,24 @@ def parse_questions(payload, subject_id):
 		statement = container.select_one(".texto-enunciado strong div")
 		if statement is None:
 			raise ValueError(f"Pregunta {source_id}: falta el enunciado")
+		explanation = container.select_one(".texto-explicacion")
+		if explanation is None:
+			raise ValueError(f"Pregunta {source_id}: falta la explicacion")
+		rationale = clean_text(explanation)
 		options = []
 		for item in container.select("ul.lista-respuestas > li"):
 			label = item.select_one("label")
 			if label is None:
 				raise ValueError(f"Pregunta {source_id}: falta una opcion")
-			options.append({
+			option = {
 				"text": re.sub(r"^[a-dA-D][.)]\s*", "", clean_text(label)),
 				"isCorrect": item.select_one("img.respuesta_correcta") is not None,
-			})
+			}
+			if option["isCorrect"]:
+				option["rationale"] = rationale
+			options.append(option)
 		if len(options) != 4 or sum(option["isCorrect"] for option in options) != 1:
 			raise ValueError(f"Pregunta {source_id}: se requieren 4 opciones y 1 correcta")
-		explanation = container.select_one(".texto-explicacion")
-		if explanation is None:
-			raise ValueError(f"Pregunta {source_id}: falta la explicacion")
 		question = {
 			"guid": f"{uuid4()}-{source_id}",
 			"subjectId": subject_id,
@@ -81,7 +86,6 @@ def parse_questions(payload, subject_id):
 			"type": "test",
 			"question": clean_text(statement),
 			"answerOptions": options,
-			"hint": clean_text(explanation),
 		}
 		if not question["question"] or any(not option["text"] for option in options):
 			raise ValueError(f"Pregunta {source_id}: hay textos vacios")
