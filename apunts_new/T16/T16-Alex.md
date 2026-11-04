@@ -16,6 +16,20 @@ El tema se centra en el III Pla d'igualtat d'oportunitats entre dones i homes de
 | 6 | Assetjament | Prevenir i abordar l'assetjament en l'àmbit laboral. |
 | 7 | Comunicació i llenguatge | Promoure una comunicació inclusiva i evitar el llenguatge sexista. |
 
+## Dades numèriques clau
+
+| Dada | Xifra | Recordatori |
+|---|---:|---|
+| Vigència del III Pla | 2020–2023 (4 anys) | És el pla vigent en el temari. |
+| Àmbits d'intervenció | 7 | Cultura, retribució, persones, conciliació, salut laboral, assetjament, comunicació i llenguatge. |
+| Bretxa salarial estructural | 13,23% | Xifra que indica el banc de preguntes del III Pla. |
+| Reunions ordinàries de la Comissió Tècnica d'Igualtat | Mensuals | Seguiment de l'evolució de les mesures. |
+| Reunions ordinàries de la Comissió Paritària | Semestrals | S'hi aporten dades de seguiment i avaluació. |
+| Informes de seguiment | Anuals | Recullen el desenvolupament de les mesures i els ajustos necessaris. |
+| Actuacions del II Pla | 27 | Dada històrica del pla 2015–2019; no correspon al III Pla. |
+
+Les xifres sobre la bretxa salarial i la periodicitat del seguiment s'han extret del [banc de preguntes T16](../../testfiles/T16_MADAMES.json).
+
 ## Normativa
 
 - III Pla d'igualtat d'oportunitats entre dones i homes (2020–2023)
