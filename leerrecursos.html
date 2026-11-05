@@ -204,6 +204,10 @@
       transition: all 0.3s;
       cursor: pointer;
     }
+    a.recurso-item {
+      color: inherit;
+      text-decoration: none;
+    }
     .recurso-item:hover {
       border-color: #6ae0a7;
       background: #141a2a;
@@ -720,6 +724,7 @@
           infografies: [],
           apunts: [],
           tts: [],
+          pdfs: [],
           tests: [],
           urls: []
         };
@@ -773,6 +778,11 @@
                 file: tts
               });
             });
+          }
+
+          // PDFs
+          if (temaData.pdfs && temaData.pdfs.length > 0) {
+            recursos.pdfs = temaData.pdfs;
           }
 
           // URLs
@@ -892,6 +902,7 @@
         tema.recursos.infografies.length + 
         tema.recursos.apunts.length + 
         tema.recursos.tts.length + 
+        tema.recursos.pdfs.length +
         tema.recursos.tests.length + 
         tema.recursos.urls.length;
 
@@ -900,6 +911,7 @@
       if (tema.recursos.infografies.length > 0) summary.push(`🖼️ ${tema.recursos.infografies.length} infografia${tema.recursos.infografies.length > 1 ? 'es' : ''}`);
       if (tema.recursos.apunts.length > 0) summary.push(`📝 ${tema.recursos.apunts.length} apunt${tema.recursos.apunts.length > 1 ? 's' : ''}`);
       if (tema.recursos.tts.length > 0) summary.push(`🔊 ${tema.recursos.tts.length} text TTS${tema.recursos.tts.length > 1 ? 'os' : ''}`);
+      if (tema.recursos.pdfs.length > 0) summary.push(`📄 ${tema.recursos.pdfs.length} PDF${tema.recursos.pdfs.length > 1 ? 's' : ''}`);
       if (tema.recursos.tests.length > 0) summary.push(`✅ ${tema.recursos.tests.length} test${tema.recursos.tests.length > 1 ? 's' : ''}`);
       if (tema.recursos.urls.length > 0) summary.push(`🔗 ${tema.recursos.urls.length} enllaç${tema.recursos.urls.length > 1 ? 'os' : ''}`);
 
@@ -1016,6 +1028,23 @@
         `;
       }
 
+      // PDFs
+      if (tema.recursos.pdfs.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">📄 PDFs</div>
+            <div class="recursos-list">
+              ${tema.recursos.pdfs.map(pdf => `
+                <a class="recurso-item" href="${root}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">
+                  <div class="recurso-name">${escaparHtml(pdf)}</div>
+                  <span class="recurso-btn btn-info">📄 Obrir PDF</span>
+                </a>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
       // Tests
       if (tema.recursos.tests.length > 0) {
         html += `
@@ -1071,6 +1100,16 @@
       }
 
       return html;
+    }
+
+    function escaparHtml(text) {
+      return String(text).replace(/[&<>"']/g, character => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      })[character]);
     }
 
     // Funciones para abrir recursos

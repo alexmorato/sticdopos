@@ -85,6 +85,12 @@ def generate_manifest(base_dir):
             if not os.path.isdir(item_path):
                 continue
 
+            if item.upper() == "PDFS":
+                pdf_files = list_files_with_ext(item_path, ".pdf")
+                if pdf_files:
+                    tema_data["pdfs"] = pdf_files
+                continue
+
             imgs = list_files_with_ext(item_path, IMG_EXT)
             if imgs:
                 slides.append({
