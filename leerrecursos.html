@@ -1035,7 +1035,7 @@
             <div class="recursos-title">📄 PDFs</div>
             <div class="recursos-list">
               ${tema.recursos.pdfs.map(pdf => `
-                <a class="recurso-item" href="${root}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">
+                <a class="recurso-item" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">
                   <div class="recurso-name">${escaparHtml(pdf)}</div>
                   <span class="recurso-btn btn-info">📄 Obrir PDF</span>
                 </a>
