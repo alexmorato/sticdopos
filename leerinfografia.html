@@ -27,6 +27,7 @@
     }
 
     body {
+      --side-padding: 20px;
       font-family: system-ui, sans-serif;
       background: #0b1020;
       color: #e7ecff;
@@ -35,12 +36,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 20px;
+      padding: 20px var(--side-padding);
     }
 
     .image-container {
-      max-width: 100%;
-      max-height: 90vh;
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -48,8 +48,7 @@
 
     .image-container img {
       max-width: 100%;
-      max-height: 90vh;
-      width: auto;
+      width: 100%;
       height: auto;
       border-radius: 12px;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
@@ -162,6 +161,24 @@
       transform: translateY(-1px);
     }
 
+    .padding-controls {
+      display: flex;
+      gap: 10px;
+    }
+
+    .padding-controls button {
+      width: 50%;
+      height: 44px;
+      padding: 0;
+      font-size: 1.5rem;
+    }
+
+    .padding-controls button:disabled {
+      opacity: 0.4;
+      cursor: default;
+      transform: none;
+    }
+
     .btn-fullscreen {
       width: 100%;
       padding: 12px;
@@ -224,7 +241,8 @@
 
     @media (max-width: 768px) {
       body {
-        padding: 10px;
+        --side-padding: 10px;
+        padding: 10px var(--side-padding);
       }
 
       .menu-btn {
@@ -267,6 +285,12 @@
     <button class="btn-fullscreen" id="fullscreenBtn">
       ⛶ Pantalla completa
     </button>
+    <div class="padding-controls" role="group" aria-label="Marges laterals">
+      <button class="btn-tornar" id="decreasePaddingBtn" type="button"
+        title="Reduir marges laterals" aria-label="Reduir marges laterals">+</button>
+      <button class="btn-tornar" id="increasePaddingBtn" type="button"
+        title="Augmentar marges laterals" aria-label="Augmentar marges laterals">-</button>
+    </div>
     <button class="btn-tornar" id="tornarBtn">
       ⬅️ Tornar
     </button>
@@ -309,6 +333,21 @@
     const menuCloseBtn = document.getElementById('menuCloseBtn');
     const tornarBtn = document.getElementById('tornarBtn');
     const menuIndexBtn = document.getElementById('menuIndexBtn');
+
+    const decreasePaddingBtn = document.getElementById('decreasePaddingBtn');
+    const increasePaddingBtn = document.getElementById('increasePaddingBtn');
+    let lateralPadding = parseFloat(getComputedStyle(document.body).paddingLeft)
+      / window.innerWidth * 100;
+
+    function adjustPadding(change) {
+      lateralPadding = Math.min(40, Math.max(0, lateralPadding + change));
+      document.body.style.setProperty('--side-padding', `${lateralPadding}%`);
+      decreasePaddingBtn.disabled = lateralPadding === 0;
+      increasePaddingBtn.disabled = lateralPadding === 40;
+    }
+
+    decreasePaddingBtn.addEventListener('click', () => adjustPadding(-2));
+    increasePaddingBtn.addEventListener('click', () => adjustPadding(2));
 
     // Cargar imagen
     function cargarImagen() {
