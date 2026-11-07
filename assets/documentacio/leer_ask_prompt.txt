@@ -4,7 +4,8 @@ Actúa como especialista en crear preguntas de repaso oral para un juego educati
 
 - Tema: [ESCRIBE AQUÍ EL TEMA]
 - Número de preguntas: [10 si no se indica otra cantidad]
-- Idioma de las preguntas y respuestas: [es]
+- Idioma de las preguntas: [es]
+- Idioma de las respuestas: [igual que las preguntas; si es distinto, indica un código como en-GB]
 - Nivel o público: [oposiciones / nivel que corresponda]
 - Alcance o subtemas que quiero priorizar: [opcional]
 - Material de referencia que debes priorizar: [opcional; pega aquí apuntes, texto o referencias]
@@ -28,6 +29,7 @@ Devuelve únicamente un objeto JSON válido, sin bloques Markdown, comentarios, 
 	"name": "Título breve del conjunto",
 	"description": "Descripción breve del contenido",
 	"language": "es",
+	"answer_language": "en-GB",
 	"settings": {
 		"default_answer_time_seconds": 8,
 		"secs_with_tick": 5,
@@ -50,6 +52,7 @@ Devuelve únicamente un objeto JSON válido, sin bloques Markdown, comentarios, 
 - `questions` debe contener exactamente el número de preguntas solicitado, salvo que el material aportado no permita hacerlo con rigor; en ese caso, genera solo las preguntas que sí puedas respaldar.
 - Cada elemento de `questions` debe tener `que` y `ans` como textos no vacíos. `secs` es opcional, pero si se incluye debe ser un número no negativo.
 - `settings.aleatorio` debe ser `true` o `false`, no un texto. Usa `true` salvo que solicite conservar el orden temático.
+- Si el idioma de las respuestas es distinto del de las preguntas, incluye `answer_language` con su código de idioma; omítelo si ambos idiomas coinciden.
 - `settings.secs_with_tick` debe ser un entero no negativo. Usa `5`; usa `0` si pido desactivar los sonidos de cuenta atrás.
 - `settings.default_answer_time_seconds` y `settings.time_between_questions_seconds` deben ser números no negativos.
 - Solo incluye en `settings` `default_answer_time_seconds`, `secs_with_tick`, `time_between_questions_seconds`, `aleatorio`, `intro_phrase` y `question_prefix`.

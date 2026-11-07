@@ -1,0 +1,60 @@
+{
+  "name": "Parts del cos en anglès",
+  "description": "Pràctica oral de vocabulari bàsic de les parts del cos en anglès",
+  "language": "ca-ES",
+  "answer_language": "en-GB",
+  "settings": {
+    "default_answer_time_seconds": 5,
+    "secs_with_tick": 5,
+    "time_between_questions_seconds": 1,
+    "aleatorio": true,
+    "intro_phrase": "Comencem la sessió d'aprenentatge.",
+    "question_prefix": "Pregunta nova."
+  },
+  "questions": [
+    {
+      "que": "Com es diu en anglès 'cara'?",
+      "ans": "face"
+    },
+    {
+      "que": "Com es diu en anglès 'cap'?",
+      "ans": "head"
+    },
+    {
+      "que": "Com es diu en anglès 'ull'?",
+      "ans": "eye"
+    },
+    {
+      "que": "Com es diu en anglès 'nas'?",
+      "ans": "nose"
+    },
+    {
+      "que": "Com es diu en anglès 'boca'?",
+      "ans": "mouth"
+    },
+    {
+      "que": "Com es diu en anglès 'orella'?",
+      "ans": "ear"
+    },
+    {
+      "que": "Com es diu en anglès 'mà'?",
+      "ans": "hand"
+    },
+    {
+      "que": "Com es diu en anglès 'braç'?",
+      "ans": "arm"
+    },
+    {
+      "que": "Com es diu en anglès 'cama'?",
+      "ans": "leg"
+    },
+    {
+      "que": "Com es diu en anglès 'genoll'?",
+      "ans": "knee"
+    },
+    {
+      "que": "Com es diu en anglès 'peu'?",
+      "ans": "foot"
+    }
+  ]
+}

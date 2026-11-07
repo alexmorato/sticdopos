@@ -40,7 +40,8 @@ El contrato formal está en [ask.schema.json](ask.schema.json), compatible con J
 ```
 
 - `name` es el título preferido; si falta, se usa el nombre del archivo sin extensión.
-- `description`, `language` y `settings` son opcionales. Si aparece `name` o `language`, debe ser texto no vacío.
+- `description`, `language`, `answer_language` y `settings` son opcionales. Si aparecen `name`, `language` o `answer_language`, deben ser textos no vacíos.
+- `language` determina la voz de la introducción y las preguntas. Si se indica `answer_language`, determina la voz de las respuestas; si se omite, se usa `language`.
 - `settings.aleatorio` es opcional y debe ser booleano. Con `true`, las preguntas se mezclan una vez al cargar; con `false` o si se omite, se conserva su orden en el JSON.
 - Si se vuelve desde Admin durante una sesión, se conserva la mezcla existente y se repite desde el inicio la pregunta actual.
 - `questions` es obligatorio y debe ser un array no vacío. Cada elemento requiere `que` y `ans` como textos no vacíos.

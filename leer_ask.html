@@ -383,11 +383,12 @@
 
 		function validateData(data) {
 			if (!data || typeof data !== 'object' || Array.isArray(data)) return 'El JSON ha de contenir un objecte.';
-			for (const field of ['name', 'description', 'language']) {
+			for (const field of ['name', 'description', 'language', 'answer_language']) {
 				if (data[field] !== undefined && typeof data[field] !== 'string') return `El camp ${field} ha de ser text.`;
 			}
 			if (data.name !== undefined && data.name.length === 0) return 'El camp name no pot estar buit.';
 			if (data.language !== undefined && data.language.length === 0) return 'El camp language no pot estar buit.';
+			if (data.answer_language !== undefined && data.answer_language.length === 0) return 'El camp answer_language no pot estar buit.';
 			if (data.settings !== undefined && (!data.settings || typeof data.settings !== 'object' || Array.isArray(data.settings))) return 'El camp settings ha de ser un objecte.';
 			if (data.settings) {
 				if (data.settings.aleatorio !== undefined && typeof data.settings.aleatorio !== 'boolean') return 'El camp settings.aleatorio ha de ser true o false.';
@@ -473,9 +474,9 @@
 			elements.errorText.textContent = '';
 		}
 
-		function getVoiceSettings() {
+		function getVoiceSettings(languageOverride = '') {
 			const prefs = readPreferences();
-			const jsonLanguage = String(gameData?.language || '').trim();
+			const jsonLanguage = String(languageOverride || gameData?.language || '').trim();
 			const requestedLanguage = String(jsonLanguage || prefs.language || '').toLowerCase();
 			const savedRate = Number(prefs.rate);
 			const savedPitch = Number(prefs.pitch);
@@ -501,14 +502,14 @@
 			window.speechSynthesis.addEventListener('voiceschanged', assign);
 		}
 
-		function speak(text, onComplete) {
+		function speak(text, onComplete, languageOverride = '') {
 			if (!text || !('speechSynthesis' in window)) {
 				if (typeof onComplete === 'function') setTimeout(onComplete, 0);
 				return;
 			}
 			const token = ++speechToken;
 			window.speechSynthesis.cancel();
-			const settings = getVoiceSettings();
+			const settings = getVoiceSettings(languageOverride);
 			const utterance = new SpeechSynthesisUtterance(text);
 			utterance.lang = settings.language;
 			utterance.rate = settings.rate;
@@ -676,7 +677,7 @@
 			speak(answer, () => {
 				if (phase !== 'revealing' || paused) return;
 				startBetweenQuestions();
-			});
+			}, gameData.answer_language);
 		}
 
 		function startBetweenQuestions() {

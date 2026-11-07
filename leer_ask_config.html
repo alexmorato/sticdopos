@@ -313,11 +313,12 @@
 
     function validateData(data) {
       if (!data || typeof data !== 'object' || Array.isArray(data)) return 'El contingut ha de ser un objecte JSON.';
-      for (const field of ['name', 'description', 'language']) {
+      for (const field of ['name', 'description', 'language', 'answer_language']) {
         if (data[field] !== undefined && typeof data[field] !== 'string') return `El camp ${field} ha de ser text.`;
       }
       if (data.name !== undefined && data.name.length === 0) return 'El camp name no pot estar buit.';
       if (data.language !== undefined && data.language.length === 0) return 'El camp language no pot estar buit.';
+      if (data.answer_language !== undefined && data.answer_language.length === 0) return 'El camp answer_language no pot estar buit.';
       if (data.settings !== undefined && (!data.settings || typeof data.settings !== 'object' || Array.isArray(data.settings))) return 'El camp settings ha de ser un objecte.';
       if (data.settings) {
         if (data.settings.aleatorio !== undefined && typeof data.settings.aleatorio !== 'boolean') return 'El camp settings.aleatorio ha de ser true o false.';
