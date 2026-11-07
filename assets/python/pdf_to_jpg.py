@@ -1,5 +1,6 @@
 import os
 import sys
+import argparse
 import fitz  # PyMuPDF
 from PIL import Image
 
@@ -88,48 +89,57 @@ def png_to_jpg_optimized(png_path, target_size_kb=450):
     print(f"✓ PNG '{os.path.basename(png_path)}' convertido a JPG ({file_size_kb:.0f}KB)")
 
 
-def process_folder(folder_path):
-    """Procesa todos los PDFs y PNGs en una carpeta y sus subcarpetas recursivamente"""
+def process_folder(folder_path, file_type="both"):
+    """Procesa PDFs, PNGs o ambos en una carpeta y sus subcarpetas recursivamente."""
     if not os.path.isdir(folder_path):
         raise NotADirectoryError(f"No existe la carpeta: {folder_path}")
 
-    # Buscar todos los archivos PDF y PNG recursivamente
+    if file_type not in {"pdf", "png", "both"}:
+        raise ValueError("El tipo debe ser 'pdf', 'png' o 'both'")
+
     pdfs = []
     pngs = []
-    
-    print(f"🔍 Buscando PDFs y PNGs en '{folder_path}' y subcarpetas...")
+
+    search_description = {"pdf": "PDFs", "png": "PNGs", "both": "PDFs y PNGs"}[file_type]
+    print(f"🔍 Buscando {search_description} en '{folder_path}' y subcarpetas...")
     
     for root, dirs, files in os.walk(folder_path):
+        dirs[:] = [directory for directory in dirs if directory.casefold() != "pdfs"]
         for file in files:
             file_path = os.path.join(root, file)
-            if file.lower().endswith(".pdf"):
+            if file_type in {"pdf", "both"} and file.lower().endswith(".pdf"):
                 pdfs.append(file_path)
-            elif file.lower().endswith(".png"):
+            elif file_type in {"png", "both"} and file.lower().endswith(".png"):
                 pngs.append(file_path)
-    
-    # Procesar PDFs
-    print(f"\n📄 Encontrados {len(pdfs)} PDFs para procesar...")
-    for pdf_path in pdfs:
-        try:
-            pdf_to_jpg_in_folder(pdf_path)
-        except Exception as e:
-            print(f"✗ Error procesando {os.path.basename(pdf_path)}: {e}")
-    
-    # Procesar PNGs
-    print(f"\n🖼️  Encontrados {len(pngs)} PNGs para convertir...")
-    for png_path in pngs:
-        try:
-            png_to_jpg_optimized(png_path)
-        except Exception as e:
-            print(f"✗ Error procesando {os.path.basename(png_path)}: {e}")
-    
+
+    if file_type in {"pdf", "both"}:
+        print(f"\n📄 Encontrados {len(pdfs)} PDFs para procesar...")
+        for pdf_path in pdfs:
+            try:
+                pdf_to_jpg_in_folder(pdf_path)
+            except Exception as e:
+                print(f"✗ Error procesando {os.path.basename(pdf_path)}: {e}")
+
+    if file_type in {"png", "both"}:
+        print(f"\n🖼️  Encontrados {len(pngs)} PNGs para convertir...")
+        for png_path in pngs:
+            try:
+                png_to_jpg_optimized(png_path)
+            except Exception as e:
+                print(f"✗ Error procesando {os.path.basename(png_path)}: {e}")
+
     print(f"\n✅ Proceso completado: {len(pdfs)} PDFs y {len(pngs)} PNGs procesados")
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Uso: python pdf_to_jpg.py <ruta_carpeta>")
-        sys.exit(1)
-
-    folder_path = sys.argv[1]
-    process_folder(folder_path)
+    parser = argparse.ArgumentParser(description="Convierte PDFs y/o PNGs a JPG.")
+    parser.add_argument("ruta_carpeta", help="Carpeta raíz que se procesará recursivamente")
+    parser.add_argument(
+        "tipo",
+        nargs="?",
+        choices=("pdf", "png", "both"),
+        default="both",
+        help="Tipo de archivo a procesar (por defecto: both)",
+    )
+    args = parser.parse_args()
+    process_folder(args.ruta_carpeta, args.tipo)
