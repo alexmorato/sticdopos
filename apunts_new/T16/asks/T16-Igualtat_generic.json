@@ -1,0 +1,65 @@
+{
+	"name": "III Pla d'Igualtat d'oportunitats 2020-2023",
+	"description": "Preguntes de repàs sobre el III Pla d'Igualtat de l'Ajuntament de Barcelona",
+	"language": "es",
+	"settings": {
+		"default_answer_time_seconds": 8,
+		"secs_with_tick": 5,
+		"time_between_questions_seconds": 2,
+		"aleatorio": true,
+		"intro_phrase": "Empezamos la sesión de aprendizaje.",
+		"question_prefix": "Nueva pregunta."
+	},
+	"questions": [
+		{
+			"que": "¿Qué es un plan de igualdad dentro de una organización?",
+			"ans": "Un conjunto ordenado de medidas que fija objetivos, estrategias y prácticas para garantizar la igualdad de oportunidades de forma transversal.",
+			"secs": 10
+		},
+		{
+			"que": "¿Qué ámbitos debe tratar como mínimo un plan de igualdad?",
+			"ans": "Acceso al empleo, clasificación profesional, promoción y formación, retribuciones, conciliación del tiempo de trabajo y prevención del acoso.",
+			"secs": 12
+		},
+		{
+			"que": "¿Qué es un agente de igualdad?",
+			"ans": "Un profesional con formación o experiencia especializada que coordina el diseño, la implementación y la evaluación de las políticas de igualdad.",
+			"secs": 8
+		},
+		{
+			"que": "¿Cuál es la vigencia del III Pla d'Igualtat d'oportunitats de l'Ajuntament de Barcelona?",
+			"ans": "Cuatro años, de 2020 a 2023.",
+			"secs": 6
+		},
+		{
+			"que": "¿A qué personal se aplica el III Pla d'Igualtat de l'Ajuntament de Barcelona?",
+			"ans": "Al personal del Ayuntamiento de Barcelona adscrito a la organización ejecutiva, a los organismos autónomos municipales y a los entes adheridos al acuerdo de condiciones laborales.",
+			"secs": 12
+		},
+		{
+			"que": "¿Qué ley estatal se menciona como referencia principal para los conceptos de igualdad recogidos en el plan?",
+			"ans": "La Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres.",
+			"secs": 7
+		},
+		{
+			"que": "¿Cuál es la función principal de la Comissió Paritària de Seguiment del III Pla d'Igualtat?",
+			"ans": "Aprobar el plan y realizar su seguimiento.",
+			"secs": 7
+		},
+		{
+			"que": "¿Qué órgano ejecutivo tiene la competencia de implementación del plan en el Ayuntamiento de Barcelona?",
+			"ans": "La Gerència de Persones i Desenvolupament Organitzatiu, a través del Departament d'Igualtat.",
+			"secs": 9
+		},
+		{
+			"que": "¿Cuántos ámbitos de intervención prioriza el III Pla d'Igualtat?",
+			"ans": "Siete ámbitos de intervención, cada uno con su objetivo estratégico.",
+			"secs": 6
+		},
+		{
+			"que": "¿Qué objetivo persigue implantar un sistema de indicadores sobre la brecha salarial de género?",
+			"ans": "Informar del efecto de las medidas aplicadas y contribuir a la reducción de la brecha salarial de género.",
+			"secs": 9
+		}
+	]
+}

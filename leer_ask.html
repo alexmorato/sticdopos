@@ -413,7 +413,13 @@
 		}
 
 		async function loadGameData() {
-			const manualJson = sessionStorage.getItem(MANUAL_JSON_KEY);
+			const navigationEntry = performance.getEntriesByType('navigation')[0];
+			const isReload = navigationEntry?.type === 'reload';
+			if (isReload) {
+				sessionStorage.removeItem(MANUAL_JSON_KEY);
+				sessionStorage.removeItem('sTICdOpos_ask_manual_name');
+			}
+			const manualJson = isReload ? null : sessionStorage.getItem(MANUAL_JSON_KEY);
 			if (manualJson) {
 				try {
 					const parsed = JSON.parse(manualJson);
@@ -428,7 +434,7 @@
 			if (!tema || !filename) throw new Error('Falten els paràmetres tema o fitxer a la URL.');
 			const safeRoot = normalizeRoot(root);
 			const path = `${safeRoot}/${encodeURIComponent(tema)}/asks/${encodeURIComponent(filename)}`;
-			const response = await fetch(`${path}?v=${Date.now()}`);
+			const response = await fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' });
 			if (!response.ok) throw new Error(`No s'ha pogut carregar el fitxer (HTTP ${response.status}).`);
 			const data = await response.json();
 			const error = validateData(data);
@@ -448,16 +454,20 @@
 
 		function getVoiceSettings() {
 			const prefs = readPreferences();
-			const requestedLanguage = String(prefs.language || gameData?.language || '').toLowerCase();
+			const jsonLanguage = String(gameData?.language || '').trim();
+			const requestedLanguage = String(jsonLanguage || prefs.language || '').toLowerCase();
 			const savedRate = Number(prefs.rate);
 			const savedPitch = Number(prefs.pitch);
 			const exactVoice = voices.find(voice => voice.name === prefs.voice);
 			const languageVoice = voices.find(voice => requestedLanguage && voice.lang.toLowerCase() === requestedLanguage)
 				|| voices.find(voice => requestedLanguage && voice.lang.toLowerCase().startsWith(requestedLanguage));
-			const voice = exactVoice || languageVoice || voices.find(item => item.default) || voices[0] || null;
+			const exactJsonVoice = jsonLanguage && exactVoice?.lang.toLowerCase().startsWith(requestedLanguage) ? exactVoice : null;
+			const voice = jsonLanguage
+				? exactJsonVoice || languageVoice || null
+				: exactVoice || languageVoice || voices.find(item => item.default) || voices[0] || null;
 			return {
 				voice,
-				language: voice?.lang || prefs.language || gameData?.language || 'es-ES',
+				language: jsonLanguage ? voice?.lang || jsonLanguage : voice?.lang || prefs.language || 'es-ES',
 				rate: Number.isFinite(savedRate) ? Math.min(2, Math.max(0.5, savedRate)) : 1,
 				pitch: Number.isFinite(savedPitch) ? Math.min(2, Math.max(0, savedPitch)) : 1
 			};

@@ -1,0 +1,57 @@
+Actúa como especialista en crear preguntas de repaso oral para un juego educativo. Genera un conjunto riguroso, claro y equilibrado sobre el tema que indico abajo.
+
+## Parámetros
+
+- Tema: [ESCRIBE AQUÍ EL TEMA]
+- Número de preguntas: [10 si no se indica otra cantidad]
+- Idioma de las preguntas y respuestas: [es]
+- Nivel o público: [oposiciones / nivel que corresponda]
+- Alcance o subtemas que quiero priorizar: [opcional]
+- Material de referencia que debes priorizar: [opcional; pega aquí apuntes, texto o referencias]
+
+## Criterios para las preguntas
+
+1. Cubre los conceptos más importantes del tema de forma equilibrada y evita repetir la misma idea.
+2. Escribe cada pregunta para que se entienda por sí sola al escucharla. No hagas referencias a preguntas anteriores.
+3. Formula preguntas abiertas, concretas y adecuadas para responder en voz alta. No uses opciones múltiples, preguntas capciosas ni enunciados ambiguos.
+4. Mantén cada pregunta centrada en un concepto o relación principal.
+5. Escribe respuestas correctas, directas y suficientemente completas para distinguir una respuesta válida. Evita explicaciones largas, salvo que sean necesarias para no perder precisión.
+6. Prioriza el material de referencia proporcionado. No inventes datos, artículos, fechas, definiciones ni excepciones. Si una afirmación no puede sostenerse con suficiente seguridad, no la conviertas en pregunta.
+7. Si el tema depende de una jurisdicción, normativa o fecha y esos datos no están especificados ni se deducen del material, evita preguntas que dependan de ese dato.
+8. Asigna a cada pregunta un tiempo `secs` razonable para pensar y decir la respuesta: normalmente entre 5 y 15 segundos, más si la respuesta exige varios elementos.
+
+## Formato obligatorio
+
+Devuelve únicamente un objeto JSON válido, sin bloques Markdown, comentarios, texto introductorio ni texto posterior. Usa exactamente esta estructura y no añadas propiedades:
+
+{
+	"name": "Título breve del conjunto",
+	"description": "Descripción breve del contenido",
+	"language": "es",
+	"settings": {
+		"default_answer_time_seconds": 8,
+		"secs_with_tick": 5,
+		"time_between_questions_seconds": 2,
+		"aleatorio": true,
+		"intro_phrase": "Empezamos la sesión de aprendizaje.",
+		"question_prefix": "Nueva pregunta."
+	},
+	"questions": [
+		{
+			"que": "Pregunta clara y autónoma",
+			"ans": "Respuesta correcta y concisa",
+			"secs": 8
+		}
+	]
+}
+
+## Reglas del JSON
+
+- `questions` debe contener exactamente el número de preguntas solicitado, salvo que el material aportado no permita hacerlo con rigor; en ese caso, genera solo las preguntas que sí puedas respaldar.
+- Cada elemento de `questions` debe tener `que` y `ans` como textos no vacíos. `secs` es opcional, pero si se incluye debe ser un número no negativo.
+- `settings.aleatorio` debe ser `true` o `false`, no un texto. Usa `true` salvo que solicite conservar el orden temático.
+- `settings.secs_with_tick` debe ser un entero no negativo. Usa `5`; usa `0` si pido desactivar los sonidos de cuenta atrás.
+- `settings.default_answer_time_seconds` y `settings.time_between_questions_seconds` deben ser números no negativos.
+- Solo incluye en `settings` `default_answer_time_seconds`, `secs_with_tick`, `time_between_questions_seconds`, `aleatorio`, `intro_phrase` y `question_prefix`.
+- Escapa correctamente las comillas y caracteres especiales para que el resultado se pueda analizar directamente con `JSON.parse`.
+

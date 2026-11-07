@@ -111,14 +111,15 @@ La página `leer_ask_config.html` permite ajustar las preferencias del lector:
 - Voz disponible para el idioma seleccionado.
 - Velocidad TTS.
 - Tono TTS.
+- Texto de prueba editable y botón para escucharlo con los parámetros seleccionados.
 - Tiempo de respuesta predeterminado.
 - Tiempo entre preguntas.
-- Cargar un JSON manual desde el dispositivo.
+- Pegar un JSON manual en el textarea o cargarlo desde un archivo.
 - Restaurar valores predeterminados y volver al juego.
 
-Las preferencias se guardan en `localStorage`. El idioma inicial se obtiene de `language` cuando existe; se busca una voz cuyo código de idioma coincida o empiece por ese valor (por ejemplo, `es` con `es-ES`). Si no hay coincidencia, se usa una voz disponible de respaldo. La lista debe actualizarse cuando el navegador notifique que sus voces ya están disponibles. Admin se abre en la misma pestaña para compartir el JSON temporal; al volver, la ronda activa se repite desde el comienzo de la pregunta actual.
+Las preferencias se guardan en `localStorage`. El idioma definido en `language` por el JSON prevalece siempre sobre la preferencia local; el lector usa una voz compatible con ese idioma y, si no hay ninguna disponible, conserva el código de idioma del JSON para que el navegador elija la voz. Al abrir Admin desde un juego con idioma definido, el selector queda fijado a ese idioma. La lista de voces se actualiza cuando el navegador notifica que están disponibles. Admin se abre en la misma pestaña para compartir el JSON temporal; al volver, la ronda activa se repite desde el comienzo de la pregunta actual.
 
-El JSON manual se valida antes de aceptarse y se conserva en `sessionStorage` durante la sesión. La configuración es local al navegador y no constituye una zona protegida por permisos de administrador.
+El JSON manual se valida antes de aceptarse y se conserva en `sessionStorage` durante la navegación actual. Al abrir Admin, el JSON manual activo se muestra en el textarea para editarlo o sustituirlo. Al recargar el lector con F5, se elimina el override manual y se vuelve a descargar el JSON de la URL con una marca temporal y caché desactivada. La configuración es local al navegador y no constituye una zona protegida por permisos de administrador.
 
 ## Validación y estados de error
 

@@ -37,6 +37,11 @@
       width: 100%; min-height: 42px; padding: 9px 11px; border: 1px solid var(--border); border-radius: 7px;
       background: var(--bg); color: var(--text); font: inherit;
     }
+    .json-textarea {
+      width: 100%; min-height: 210px; margin: 10px 0; padding: 12px; resize: vertical;
+      border: 1px solid var(--border); border-radius: 7px; background: var(--bg); color: var(--text);
+      font: 0.9rem/1.5 Consolas, monospace;
+    }
     input[type="range"] { width: 100%; accent-color: var(--accent-strong); }
     .range-line { display: grid; grid-template-columns: 1fr 54px; align-items: center; gap: 12px; }
     output { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
@@ -72,7 +77,7 @@
         <h1>Configuració del joc Ask</h1>
         <p class="subtitle">Preferències de veu, temps i preguntes per a aquesta sessió.</p>
       </div>
-      <button class="button primary" id="returnBtn" type="button">← Tornar al joc</button>
+      <button class="button primary" id="returnBtn" type="button">🎲 Tornar al joc</button>
     </header>
 
     <section class="panel" aria-labelledby="voiceTitle">
@@ -96,6 +101,12 @@
           <div class="range-line"><input id="pitchSlider" type="range" min="0" max="2" step="0.1"><output id="pitchValue"></output></div>
         </div>
       </div>
+      <div class="field" style="margin-top: 16px;">
+        <label for="ttsTestText">Text de prova</label>
+        <textarea id="ttsTestText" rows="3">Hola, aquesta és una prova de veu en català. Hola, esto es una prueba de voz en español</textarea>
+        <button class="button primary" id="testTtsBtn" type="button">▶ Escoltar prova</button>
+        <div class="status" id="ttsTestStatus" aria-live="polite"></div>
+      </div>
     </section>
 
     <section class="panel" aria-labelledby="timingTitle">
@@ -115,7 +126,13 @@
 
     <section class="panel" aria-labelledby="manualTitle">
       <h2 id="manualTitle">JSON manual</h2>
-      <p class="hint">El fitxer seleccionat substitueix temporalment el JSON de l'enllaç durant aquesta sessió del navegador.</p>
+      <p class="hint">Pega un JSON o selecciona un archivo. El contenido validado sustituye temporalmente el JSON del enlace durante esta sesión.</p>
+      <label for="manualJsonText">Pegar JSON</label>
+      <textarea class="json-textarea" id="manualJsonText" spellcheck="false" placeholder='{"questions":[{"que":"Pregunta","ans":"Respuesta"}]}'></textarea>
+      <div class="buttons">
+        <button class="button primary" id="loadPastedJsonBtn" type="button">Usar JSON pegado</button>
+        <a class="button" href="assets/documentacio/leer_ask_prompt.txt" target="_blank" rel="noopener noreferrer">Abrir prompt de generación</a>
+      </div>
       <div class="file-row">
         <input id="jsonFile" type="file" accept=".json,application/json">
         <button class="button warn" id="clearJsonBtn" type="button">Treure JSON manual</button>
@@ -126,6 +143,7 @@
     <div class="buttons">
       <button class="button primary" id="saveBtn" type="button">Desar preferències</button>
       <button class="button" id="resetBtn" type="button">Restaurar valors</button>
+      <button class="button primary" id="returnBottomBtn" type="button">🎲 Tornar al joc</button>
     </div>
     <div class="status" id="statusMsg" aria-live="polite"></div>
   </main>
@@ -143,8 +161,13 @@
       pitch: document.getElementById('pitchSlider'),
       rateValue: document.getElementById('rateValue'),
       pitchValue: document.getElementById('pitchValue'),
+      ttsTestText: document.getElementById('ttsTestText'),
+      testTts: document.getElementById('testTtsBtn'),
+      ttsTestStatus: document.getElementById('ttsTestStatus'),
       answerSeconds: document.getElementById('answerSeconds'),
       betweenSeconds: document.getElementById('betweenSeconds'),
+      manualText: document.getElementById('manualJsonText'),
+      loadPastedJson: document.getElementById('loadPastedJsonBtn'),
       file: document.getElementById('jsonFile'),
       manualStatus: document.getElementById('manualStatus'),
       status: document.getElementById('statusMsg'),
@@ -167,7 +190,7 @@
       voices = window.speechSynthesis.getVoices();
       const saved = readPreferences();
       const languages = Array.from(new Set(voices.map(voice => voice.lang))).sort((a, b) => a.localeCompare(b));
-      const wantedLanguage = saved.language || requestedLanguage;
+      const wantedLanguage = requestedLanguage || saved.language;
       const matchedLanguage = languages.find(language => language.toLowerCase() === wantedLanguage.toLowerCase())
         || languages.find(language => wantedLanguage && language.toLowerCase().startsWith(wantedLanguage.toLowerCase()));
       const initialLanguage = matchedLanguage || wantedLanguage || languages.find(language => language.startsWith('ca'))
@@ -184,6 +207,7 @@
         controls.language.innerHTML = '<option value="">Sense idiomes detectats</option>';
       }
       controls.language.value = initialLanguage;
+      controls.language.disabled = Boolean(requestedLanguage);
       populateVoiceOptions(saved.voice);
     }
 
@@ -211,12 +235,46 @@
       controls.pitchValue.value = Number(controls.pitch.value).toFixed(1);
     }
 
+    function testTtsVoice() {
+      const text = controls.ttsTestText.value.trim();
+      if (!text) {
+        controls.ttsTestStatus.textContent = 'Escriu un text per provar la veu.';
+        controls.ttsTestStatus.className = 'status error';
+        return;
+      }
+      if (!('speechSynthesis' in window)) {
+        controls.ttsTestStatus.textContent = 'Aquest navegador no disposa de síntesi de veu.';
+        controls.ttsTestStatus.className = 'status error';
+        return;
+      }
+
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      const selectedVoice = voices.find(voice => voice.name === controls.voice.value);
+      utterance.voice = selectedVoice || null;
+      utterance.lang = selectedVoice?.lang || controls.language.value || requestedLanguage || 'es-ES';
+      utterance.rate = Number(controls.rate.value);
+      utterance.pitch = Number(controls.pitch.value);
+      controls.ttsTestStatus.textContent = 'Reproduint la prova...';
+      controls.ttsTestStatus.className = 'status';
+      utterance.onend = () => {
+        controls.ttsTestStatus.textContent = 'Prova finalitzada.';
+        controls.ttsTestStatus.className = 'status success';
+      };
+      utterance.onerror = event => {
+        controls.ttsTestStatus.textContent = `Error de reproducció: ${event.error || 'desconegut'}.`;
+        controls.ttsTestStatus.className = 'status error';
+      };
+      window.speechSynthesis.speak(utterance);
+    }
+
     function loadSettings() {
       const saved = readPreferences();
       controls.rate.value = saved.rate ?? '1';
       controls.pitch.value = saved.pitch ?? '1';
       controls.answerSeconds.value = saved.defaultAnswerSeconds ?? '';
       controls.betweenSeconds.value = saved.betweenQuestionsSeconds ?? '';
+      controls.manualText.value = sessionStorage.getItem(MANUAL_JSON_KEY) || '';
       updateRangeLabels();
       populateVoices();
       updateManualStatus();
@@ -280,22 +338,31 @@
       return '';
     }
 
-    async function importJson(file) {
-      if (!file) return;
-      controls.manualStatus.textContent = `Llegint ${file.name}...`;
+    function activateManualJson(raw, sourceName) {
+      controls.manualStatus.textContent = `Validant ${sourceName}...`;
       controls.manualStatus.className = 'status';
       try {
-        const raw = await file.text();
         const parsed = JSON.parse(raw.replace(/^\uFEFF/, ''));
         const validationError = validateData(parsed);
         if (validationError) throw new Error(validationError);
         sessionStorage.setItem(MANUAL_JSON_KEY, JSON.stringify(parsed));
-        sessionStorage.setItem(MANUAL_NAME_KEY, file.name);
+        sessionStorage.setItem(MANUAL_NAME_KEY, sourceName);
+        controls.manualText.value = JSON.stringify(parsed, null, 2);
         updateManualStatus();
         controls.manualStatus.classList.add('success');
       } catch (error) {
         controls.manualStatus.textContent = `No s'ha pogut carregar: ${error.message}`;
         controls.manualStatus.classList.add('error');
+      }
+    }
+
+    async function importJson(file) {
+      if (!file) return;
+      try {
+        activateManualJson(await file.text(), file.name);
+      } catch (error) {
+        controls.manualStatus.textContent = `No s'ha pogut llegir el fitxer: ${error.message}`;
+        controls.manualStatus.className = 'status error';
       } finally {
         controls.file.value = '';
       }
@@ -323,6 +390,8 @@
     }
 
     document.getElementById('returnBtn').addEventListener('click', returnToGame);
+    document.getElementById('returnBottomBtn').addEventListener('click', returnToGame);
+    controls.testTts.addEventListener('click', testTtsVoice);
     document.getElementById('saveBtn').addEventListener('click', () => saveSettings(true));
     document.getElementById('resetBtn').addEventListener('click', () => {
       localStorage.removeItem(PREFS_KEY);
@@ -343,10 +412,20 @@
     controls.voice.addEventListener('change', () => saveSettings(false));
     controls.answerSeconds.addEventListener('change', () => saveSettings(false));
     controls.betweenSeconds.addEventListener('change', () => saveSettings(false));
+    controls.loadPastedJson.addEventListener('click', () => {
+      const raw = controls.manualText.value.trim();
+      if (!raw) {
+        controls.manualStatus.textContent = 'Pega el contingut JSON abans de carregar-lo.';
+        controls.manualStatus.className = 'status error';
+        return;
+      }
+      activateManualJson(raw, 'JSON pegat');
+    });
     controls.file.addEventListener('change', event => importJson(event.target.files[0]));
     controls.clearJson.addEventListener('click', () => {
       sessionStorage.removeItem(MANUAL_JSON_KEY);
       sessionStorage.removeItem(MANUAL_NAME_KEY);
+      controls.manualText.value = '';
       updateManualStatus();
       controls.manualStatus.classList.remove('error', 'success');
     });

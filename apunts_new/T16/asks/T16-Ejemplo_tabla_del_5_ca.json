@@ -1,0 +1,56 @@
+{
+  "name": "Taula del 5",
+  "description": "Pràctica oral de la taula de multiplicar del 5",
+  "language": "ca-ES",
+  "settings": {
+    "default_answer_time_seconds": 8,
+    "secs_with_tick": 5,
+    "time_between_questions_seconds": 2,
+    "aleatorio": true,
+    "intro_phrase": "Comencem la sessió d'aprenentatge.",
+    "question_prefix": "Pregunta nova."
+  },
+  "questions": [
+    {
+      "que": "Cinc per u",
+      "ans": "cinc",
+      "secs": 6
+    },
+    {
+      "que": "Cinc per dos",
+      "ans": "deu"
+    },
+    {
+      "que": "Cinc per tres",
+      "ans": "quinze"
+    },
+    {
+      "que": "Cinc per quatre",
+      "ans": "vint"
+    },
+    {
+      "que": "Cinc per cinc",
+      "ans": "vint-i-cinc"
+    },
+    {
+      "que": "Cinc per sis",
+      "ans": "trenta"
+    },
+    {
+      "que": "Cinc per set",
+      "ans": "trenta-cinc"
+    },
+    {
+      "que": "Cinc per vuit",
+      "ans": "quaranta"
+    },
+    {
+      "que": "Cinc per nou",
+      "ans": "quaranta-cinc"
+    },
+    {
+      "que": "Cinc per deu",
+      "ans": "cinquanta"
+    }
+  ]
+}
