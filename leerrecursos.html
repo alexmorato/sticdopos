@@ -982,7 +982,7 @@
             <div class="recursos-list">
               ${tema.recursos.slides.map((slide, idx) => `
                 <div class="recurso-item" id="recurso-slides-${tema.tema}-${slide.dir.replace(/[^a-zA-Z0-9]/g, '_')}" onclick='abrirSlides("${tema.tema}", "${slide.dir}", ${JSON.stringify(slide.imgs)})'>
-                  <div class="recurso-name">${slide.dir}</div>
+                  <div class="recurso-name">${slide.dir.replace(/^slides\//i, '')}</div>
                   <button class="recurso-btn btn-slides" onclick='event.stopPropagation(); abrirSlides("${tema.tema}", "${slide.dir}", ${JSON.stringify(slide.imgs)})'>
                     👁️ Veure
                   </button>

@@ -1365,11 +1365,6 @@
       "md": [
         "T16-Alex.md"
       ],
-      "info": [
-        "T16_conceptes_7ambits.jpg",
-        "T16_conceptes_clau.jpg",
-        "T16_conceptes_general.jpg"
-      ],
       "tts": [
         "T16-Alex.tts"
       ],
@@ -1385,17 +1380,27 @@
           "type": "pdf"
         }
       ],
+      "ask": [
+        "T16-Ejemplo_tabla_del_5_ca.json",
+        "T16-Ejemplo_tabla_del_5_es.json",
+        "T16-Igualtat_generic.json",
+        "T16-Traduccions_Ca_to_ENG.json"
+      ],
       "pdfs": [
         "T16  RESUM - Protecció de dades_Resum.pdf",
         "T16 RESUM - III Pla d_Igualtat.pdf",
         "T16_part1_FORMAR-TE.pdf",
         "T16_part2_FORMAR-TE.pdf"
       ],
-      "ask": [
-        "T16-Ejemplo_tabla_del_5_ca.json",
-        "T16-Ejemplo_tabla_del_5_es.json",
-        "T16-Igualtat_generic.json",
-        "T16-Traduccions_Ca_to_ENG.json"
+      "slides": [
+        {
+          "dir": "slides/T16 igualtat Alex",
+          "imgs": [
+            "0_general.jpg",
+            "1_7ambits.jpg",
+            "2_conceptes_clau.jpg"
+          ]
+        }
       ]
     },
     "T17": {

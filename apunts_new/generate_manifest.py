@@ -85,6 +85,20 @@ def generate_manifest(base_dir):
             if not os.path.isdir(item_path):
                 continue
 
+            if item.lower() == "slides":
+                for presentation in sorted(os.listdir(item_path)):
+                    presentation_path = os.path.join(item_path, presentation)
+                    if not os.path.isdir(presentation_path):
+                        continue
+
+                    imgs = list_files_with_ext(presentation_path, IMG_EXT)
+                    if imgs:
+                        slides.append({
+                            "dir": os.path.join(item, presentation).replace(os.sep, "/"),
+                            "imgs": imgs
+                        })
+                continue
+
             if item.upper() == "PDFS":
                 pdf_files = list_files_with_ext(item_path, ".pdf")
                 if pdf_files:
