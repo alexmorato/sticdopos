@@ -725,6 +725,7 @@
           apunts: [],
           tts: [],
           pdfs: [],
+          ask: [],
           tests: [],
           urls: []
         };
@@ -783,6 +784,11 @@
           // PDFs
           if (temaData.pdfs && temaData.pdfs.length > 0) {
             recursos.pdfs = temaData.pdfs;
+          }
+
+          // Ask
+          if (temaData.ask && temaData.ask.length > 0) {
+            recursos.ask = temaData.ask;
           }
 
           // URLs
@@ -903,6 +909,7 @@
         tema.recursos.apunts.length + 
         tema.recursos.tts.length + 
         tema.recursos.pdfs.length +
+        tema.recursos.ask.length +
         tema.recursos.tests.length + 
         tema.recursos.urls.length;
 
@@ -912,6 +919,7 @@
       if (tema.recursos.apunts.length > 0) summary.push(`📝 ${tema.recursos.apunts.length} apunt${tema.recursos.apunts.length > 1 ? 's' : ''}`);
       if (tema.recursos.tts.length > 0) summary.push(`🔊 ${tema.recursos.tts.length} text TTS${tema.recursos.tts.length > 1 ? 'os' : ''}`);
       if (tema.recursos.pdfs.length > 0) summary.push(`📄 ${tema.recursos.pdfs.length} PDF${tema.recursos.pdfs.length > 1 ? 's' : ''}`);
+      if (tema.recursos.ask.length > 0) summary.push(`❓ ${tema.recursos.ask.length} Ask${tema.recursos.ask.length > 1 ? 's' : ''}`);
       if (tema.recursos.tests.length > 0) summary.push(`✅ ${tema.recursos.tests.length} test${tema.recursos.tests.length > 1 ? 's' : ''}`);
       if (tema.recursos.urls.length > 0) summary.push(`🔗 ${tema.recursos.urls.length} enllaç${tema.recursos.urls.length > 1 ? 'os' : ''}`);
 
@@ -1038,6 +1046,23 @@
                 <a class="recurso-item" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">
                   <div class="recurso-name">${escaparHtml(pdf)}</div>
                   <span class="recurso-btn btn-info">📄 Obrir PDF</span>
+                </a>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // Ask files
+      if (tema.recursos.ask.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">❓ Ask</div>
+            <div class="recursos-list">
+              ${tema.recursos.ask.map(askFile => `
+                <a class="recurso-item" href="leer_ask.html?root=${encodeURIComponent(rootSinOpos)}&amp;tema=${encodeURIComponent(tema.tema)}&amp;fitxer=${encodeURIComponent(askFile)}">
+                  <div class="recurso-name">${escaparHtml(askFile)}</div>
+                  <span class="recurso-btn btn-info">▶ Iniciar</span>
                 </a>
               `).join('')}
             </div>

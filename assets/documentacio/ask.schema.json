@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sTIC d'Opos Ask game",
+  "type": "object",
+  "required": ["questions"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "language": { "type": "string", "minLength": 1 },
+    "settings": {
+      "type": "object",
+      "properties": {
+        "default_answer_time_seconds": { "type": "number", "minimum": 0 },
+        "secs_with_tick": { "type": "integer", "minimum": 0 },
+        "time_between_questions_seconds": { "type": "number", "minimum": 0 },
+        "aleatorio": { "type": "boolean" },
+        "intro_phrase": { "type": "string" },
+        "question_prefix": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["que", "ans"],
+        "properties": {
+          "que": { "type": "string", "minLength": 1 },
+          "ans": { "type": "string", "minLength": 1 },
+          "secs": { "type": "number", "minimum": 0 }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

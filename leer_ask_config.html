@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configuració Ask - sTIC d'Opos</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <script src="assets/js/login.js"></script>
+  <script src="assets/js/localstorage-utils.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      --bg: #0b1020;
+      --surface: #141a2a;
+      --border: #27304a;
+      --text: #e7ecff;
+      --muted: #a0a8c0;
+      --accent: #6ae0a7;
+      --accent-strong: #2aebad;
+      margin: 0;
+      min-height: 100vh;
+      padding: 28px 18px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, sans-serif;
+    }
+    .page { width: min(860px, 100%); margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 20px; }
+    h1 { margin: 0; color: var(--accent); font-size: 1.65rem; }
+    .subtitle { margin: 7px 0 0; color: var(--muted); }
+    .panel { margin-bottom: 14px; padding: 18px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+    h2 { margin: 0 0 15px; font-size: 1.1rem; color: var(--accent); }
+    .field-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .field { min-width: 0; display: flex; flex-direction: column; gap: 7px; }
+    label { color: #c6cee7; font-weight: 650; }
+    select, input[type="number"], input[type="file"] {
+      width: 100%; min-height: 42px; padding: 9px 11px; border: 1px solid var(--border); border-radius: 7px;
+      background: var(--bg); color: var(--text); font: inherit;
+    }
+    input[type="range"] { width: 100%; accent-color: var(--accent-strong); }
+    .range-line { display: grid; grid-template-columns: 1fr 54px; align-items: center; gap: 12px; }
+    output { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+    .hint, .status { color: var(--muted); font-size: 0.9rem; line-height: 1.45; }
+    .status { min-height: 1.4em; margin-top: 10px; }
+    .status.error { color: #ff8b8b; }
+    .status.success { color: var(--accent); }
+    .file-row { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 10px; }
+    .buttons { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .button {
+      min-height: 42px; padding: 9px 15px; border: 0; border-radius: 7px; background: #27304a; color: var(--text);
+      font: inherit; font-weight: 700; cursor: pointer;
+    }
+    .button:hover { background: #3a4a6a; }
+    .button.primary { background: var(--accent-strong); color: #032217; }
+    .button.primary:hover { background: #21c08d; }
+    .button.warn { background: #8a2a2a; }
+    .button:disabled { opacity: 0.5; cursor: not-allowed; }
+    @media (max-width: 620px) {
+      body { padding: 18px 12px; }
+      header { align-items: flex-start; }
+      h1 { font-size: 1.35rem; }
+      .field-grid { grid-template-columns: 1fr; }
+      .file-row { grid-template-columns: 1fr; }
+      .buttons .button { flex: 1 1 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <h1>Configuració del joc Ask</h1>
+        <p class="subtitle">Preferències de veu, temps i preguntes per a aquesta sessió.</p>
+      </div>
+      <button class="button primary" id="returnBtn" type="button">← Tornar al joc</button>
+    </header>
+
+    <section class="panel" aria-labelledby="voiceTitle">
+      <h2 id="voiceTitle">Veu TTS</h2>
+      <div class="field-grid">
+        <div class="field">
+          <label for="languageSelect">Idioma per defecte</label>
+          <select id="languageSelect"></select>
+          <span class="hint">L'idioma del JSON s'utilitza com a valor inicial quan no hi ha una preferència desada.</span>
+        </div>
+        <div class="field">
+          <label for="voiceSelect">Veu</label>
+          <select id="voiceSelect"></select>
+        </div>
+        <div class="field">
+          <label for="rateSlider">Velocitat</label>
+          <div class="range-line"><input id="rateSlider" type="range" min="0.5" max="2" step="0.05"><output id="rateValue"></output></div>
+        </div>
+        <div class="field">
+          <label for="pitchSlider">To</label>
+          <div class="range-line"><input id="pitchSlider" type="range" min="0" max="2" step="0.1"><output id="pitchValue"></output></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="timingTitle">
+      <h2 id="timingTitle">Temps</h2>
+      <div class="field-grid">
+        <div class="field">
+          <label for="answerSeconds">Temps per respondre (segons)</label>
+          <input id="answerSeconds" type="number" min="1" max="300" step="1" placeholder="Segons definits al JSON">
+          <span class="hint">Les preguntes amb `secs` propi mantenen aquest temps.</span>
+        </div>
+        <div class="field">
+          <label for="betweenSeconds">Pausa entre preguntes (segons)</label>
+          <input id="betweenSeconds" type="number" min="0" max="120" step="1" placeholder="Segons definits al JSON">
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="manualTitle">
+      <h2 id="manualTitle">JSON manual</h2>
+      <p class="hint">El fitxer seleccionat substitueix temporalment el JSON de l'enllaç durant aquesta sessió del navegador.</p>
+      <div class="file-row">
+        <input id="jsonFile" type="file" accept=".json,application/json">
+        <button class="button warn" id="clearJsonBtn" type="button">Treure JSON manual</button>
+      </div>
+      <div class="status" id="manualStatus" aria-live="polite"></div>
+    </section>
+
+    <div class="buttons">
+      <button class="button primary" id="saveBtn" type="button">Desar preferències</button>
+      <button class="button" id="resetBtn" type="button">Restaurar valors</button>
+    </div>
+    <div class="status" id="statusMsg" aria-live="polite"></div>
+  </main>
+
+  <script>
+    const PREFS_KEY = 'sTICdOpos_ask_preferences';
+    const MANUAL_JSON_KEY = 'sTICdOpos_ask_manual_json';
+    const MANUAL_NAME_KEY = 'sTICdOpos_ask_manual_name';
+    const RESUME_KEY = 'sTICdOpos_ask_resume';
+    const requestedLanguage = new URLSearchParams(location.search).get('language') || '';
+    const controls = {
+      language: document.getElementById('languageSelect'),
+      voice: document.getElementById('voiceSelect'),
+      rate: document.getElementById('rateSlider'),
+      pitch: document.getElementById('pitchSlider'),
+      rateValue: document.getElementById('rateValue'),
+      pitchValue: document.getElementById('pitchValue'),
+      answerSeconds: document.getElementById('answerSeconds'),
+      betweenSeconds: document.getElementById('betweenSeconds'),
+      file: document.getElementById('jsonFile'),
+      manualStatus: document.getElementById('manualStatus'),
+      status: document.getElementById('statusMsg'),
+      clearJson: document.getElementById('clearJsonBtn')
+    };
+    let voices = [];
+
+    function readPreferences() {
+      try { return JSON.parse(localStorage.getItem(PREFS_KEY) || '{}'); }
+      catch { return {}; }
+    }
+
+    function populateVoices() {
+      if (!('speechSynthesis' in window)) {
+        controls.language.innerHTML = '<option value="">TTS no disponible</option>';
+        controls.voice.innerHTML = '<option value="">TTS no disponible</option>';
+        setStatus('Aquest navegador no disposa de síntesi de veu.', true);
+        return;
+      }
+      voices = window.speechSynthesis.getVoices();
+      const saved = readPreferences();
+      const languages = Array.from(new Set(voices.map(voice => voice.lang))).sort((a, b) => a.localeCompare(b));
+      const wantedLanguage = saved.language || requestedLanguage;
+      const matchedLanguage = languages.find(language => language.toLowerCase() === wantedLanguage.toLowerCase())
+        || languages.find(language => wantedLanguage && language.toLowerCase().startsWith(wantedLanguage.toLowerCase()));
+      const initialLanguage = matchedLanguage || wantedLanguage || languages.find(language => language.startsWith('ca'))
+        || languages.find(language => language.startsWith('es')) || languages[0] || '';
+      controls.language.innerHTML = '';
+      if (initialLanguage && !languages.includes(initialLanguage)) languages.unshift(initialLanguage);
+      languages.forEach(language => {
+        const option = document.createElement('option');
+        option.value = language;
+        option.textContent = language;
+        controls.language.appendChild(option);
+      });
+      if (!languages.length) {
+        controls.language.innerHTML = '<option value="">Sense idiomes detectats</option>';
+      }
+      controls.language.value = initialLanguage;
+      populateVoiceOptions(saved.voice);
+    }
+
+    function populateVoiceOptions(preferredVoice = '') {
+      const language = controls.language.value.toLowerCase();
+      const matchingVoices = voices.filter(voice => voice.lang.toLowerCase() === language || voice.lang.toLowerCase().startsWith(language));
+      controls.voice.innerHTML = '';
+      if (!matchingVoices.length) {
+        controls.voice.innerHTML = '<option value="">Veu predeterminada del navegador</option>';
+        return;
+      }
+      matchingVoices.forEach(voice => {
+        const option = document.createElement('option');
+        option.value = voice.name;
+        option.textContent = `${voice.name} (${voice.lang})`;
+        controls.voice.appendChild(option);
+      });
+      const preferred = matchingVoices.find(voice => voice.name === preferredVoice);
+      const defaultVoice = preferred || matchingVoices.find(voice => voice.default) || matchingVoices[0];
+      controls.voice.value = defaultVoice.name;
+    }
+
+    function updateRangeLabels() {
+      controls.rateValue.value = Number(controls.rate.value).toFixed(2);
+      controls.pitchValue.value = Number(controls.pitch.value).toFixed(1);
+    }
+
+    function loadSettings() {
+      const saved = readPreferences();
+      controls.rate.value = saved.rate ?? '1';
+      controls.pitch.value = saved.pitch ?? '1';
+      controls.answerSeconds.value = saved.defaultAnswerSeconds ?? '';
+      controls.betweenSeconds.value = saved.betweenQuestionsSeconds ?? '';
+      updateRangeLabels();
+      populateVoices();
+      updateManualStatus();
+    }
+
+    function saveSettings(showMessage = true) {
+      const current = readPreferences();
+      const answerValue = controls.answerSeconds.value.trim();
+      const betweenValue = controls.betweenSeconds.value.trim();
+      if (answerValue && (Number(answerValue) < 1 || Number(answerValue) > 300)) {
+        setStatus("El temps per respondre ha d'estar entre 1 i 300 segons.", true);
+        return false;
+      }
+      if (betweenValue && (Number(betweenValue) < 0 || Number(betweenValue) > 120)) {
+        setStatus("La pausa ha d'estar entre 0 i 120 segons.", true);
+        return false;
+      }
+      const next = {
+        ...current,
+        language: controls.language.value,
+        voice: controls.voice.value,
+        rate: Number(controls.rate.value),
+        pitch: Number(controls.pitch.value),
+        defaultAnswerSeconds: answerValue ? Number(answerValue) : '',
+        betweenQuestionsSeconds: betweenValue ? Number(betweenValue) : ''
+      };
+      try {
+        localStorage.setItem(PREFS_KEY, JSON.stringify(next));
+        if (showMessage) setStatus('Preferències desades.', false);
+        return true;
+      } catch (error) {
+        setStatus(`No s'han pogut desar les preferències: ${error.message}`, true);
+        return false;
+      }
+    }
+
+    function validateData(data) {
+      if (!data || typeof data !== 'object' || Array.isArray(data)) return 'El contingut ha de ser un objecte JSON.';
+      for (const field of ['name', 'description', 'language']) {
+        if (data[field] !== undefined && typeof data[field] !== 'string') return `El camp ${field} ha de ser text.`;
+      }
+      if (data.name !== undefined && data.name.length === 0) return 'El camp name no pot estar buit.';
+      if (data.language !== undefined && data.language.length === 0) return 'El camp language no pot estar buit.';
+      if (data.settings !== undefined && (!data.settings || typeof data.settings !== 'object' || Array.isArray(data.settings))) return 'El camp settings ha de ser un objecte.';
+      if (data.settings) {
+        if (data.settings.aleatorio !== undefined && typeof data.settings.aleatorio !== 'boolean') return 'El camp settings.aleatorio ha de ser true o false.';
+        for (const field of ['default_answer_time_seconds', 'time_between_questions_seconds']) {
+          const value = data.settings[field];
+          if (value !== undefined && (!Number.isFinite(value) || value < 0)) return `El camp settings.${field} ha de ser un número igual o superior a zero.`;
+        }
+        if (data.settings.secs_with_tick !== undefined && (!Number.isInteger(data.settings.secs_with_tick) || data.settings.secs_with_tick < 0)) return 'El camp settings.secs_with_tick ha de ser un enter igual o superior a zero.';
+        for (const field of ['intro_phrase', 'question_prefix']) {
+          if (data.settings[field] !== undefined && typeof data.settings[field] !== 'string') return `El camp settings.${field} ha de ser text.`;
+        }
+      }
+      if (!Array.isArray(data.questions) || data.questions.length === 0) return 'El JSON ha de contenir una llista questions no buida.';
+      const invalidIndex = data.questions.findIndex(question => !question || typeof question.que !== 'string' || question.que.length === 0 || typeof question.ans !== 'string' || question.ans.length === 0);
+      if (invalidIndex !== -1) return `La pregunta ${invalidIndex + 1} ha de contenir que i ans com a text.`;
+      const invalidTime = data.questions.findIndex(question => question.secs !== undefined && (!Number.isFinite(question.secs) || question.secs < 0));
+      if (invalidTime !== -1) return `El temps secs de la pregunta ${invalidTime + 1} ha de ser un número igual o superior a zero.`;
+      return '';
+    }
+
+    async function importJson(file) {
+      if (!file) return;
+      controls.manualStatus.textContent = `Llegint ${file.name}...`;
+      controls.manualStatus.className = 'status';
+      try {
+        const raw = await file.text();
+        const parsed = JSON.parse(raw.replace(/^\uFEFF/, ''));
+        const validationError = validateData(parsed);
+        if (validationError) throw new Error(validationError);
+        sessionStorage.setItem(MANUAL_JSON_KEY, JSON.stringify(parsed));
+        sessionStorage.setItem(MANUAL_NAME_KEY, file.name);
+        updateManualStatus();
+        controls.manualStatus.classList.add('success');
+      } catch (error) {
+        controls.manualStatus.textContent = `No s'ha pogut carregar: ${error.message}`;
+        controls.manualStatus.classList.add('error');
+      } finally {
+        controls.file.value = '';
+      }
+    }
+
+    function updateManualStatus() {
+      const manualName = sessionStorage.getItem(MANUAL_NAME_KEY);
+      controls.manualStatus.textContent = manualName ? `JSON manual actiu: ${manualName}` : 'S’utilitzarà el JSON indicat a l’enllaç del joc.';
+      controls.clearJson.disabled = !manualName;
+    }
+
+    function setStatus(message, isError) {
+      controls.status.textContent = message;
+      controls.status.className = `status${isError ? ' error' : ' success'}`;
+    }
+
+    function returnToGame() {
+      if (!saveSettings(false)) return;
+      let resumeState = null;
+      try { resumeState = JSON.parse(sessionStorage.getItem(RESUME_KEY) || 'null'); }
+      catch { resumeState = null; }
+      if (resumeState?.url) location.href = resumeState.url;
+      else if (history.length > 1) history.back();
+      else location.href = 'leerrecursos.html';
+    }
+
+    document.getElementById('returnBtn').addEventListener('click', returnToGame);
+    document.getElementById('saveBtn').addEventListener('click', () => saveSettings(true));
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      localStorage.removeItem(PREFS_KEY);
+      controls.rate.value = '1';
+      controls.pitch.value = '1';
+      controls.answerSeconds.value = '';
+      controls.betweenSeconds.value = '';
+      populateVoices();
+      updateRangeLabels();
+      setStatus('Preferències restaurades. Les veus i l’idioma es tornaran a detectar.', false);
+    });
+    controls.rate.addEventListener('input', () => { updateRangeLabels(); saveSettings(false); });
+    controls.pitch.addEventListener('input', () => { updateRangeLabels(); saveSettings(false); });
+    controls.language.addEventListener('change', () => {
+      populateVoiceOptions();
+      saveSettings(false);
+    });
+    controls.voice.addEventListener('change', () => saveSettings(false));
+    controls.answerSeconds.addEventListener('change', () => saveSettings(false));
+    controls.betweenSeconds.addEventListener('change', () => saveSettings(false));
+    controls.file.addEventListener('change', event => importJson(event.target.files[0]));
+    controls.clearJson.addEventListener('click', () => {
+      sessionStorage.removeItem(MANUAL_JSON_KEY);
+      sessionStorage.removeItem(MANUAL_NAME_KEY);
+      updateManualStatus();
+      controls.manualStatus.classList.remove('error', 'success');
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof login !== 'undefined' && typeof LS_KEYS !== 'undefined') {
+        login.checkUserAuth(localStorage.getItem(LS_KEYS.USER_NAME), localStorage.getItem(LS_KEYS.USER_PASS), login.ROLES.VIP);
+      }
+      loadSettings();
+      if ('speechSynthesis' in window) window.speechSynthesis.addEventListener('voiceschanged', populateVoices);
+    }, { once: true });
+  </script>
+</body>
+</html>

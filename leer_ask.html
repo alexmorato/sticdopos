@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ask TTS - sTIC d'Opos</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+	<script src="assets/js/login.js"></script>
+	<script src="assets/js/localstorage-utils.js"></script>
+	<style>
+		* { box-sizing: border-box; }
+		html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+		body {
+			--bg: #0b1020;
+			--surface: #141a2a;
+			--border: #27304a;
+			--text: #e7ecff;
+			--muted: #a0a8c0;
+			--accent: #6ae0a7;
+			--accent-strong: #2aebad;
+			--danger: #ff7777;
+			background: var(--bg);
+			color: var(--text);
+			font-family: system-ui, sans-serif;
+		}
+		button { font: inherit; }
+		.app {
+			width: 100%;
+			height: 100vh;
+			height: 100dvh;
+			padding: 2vh 2vw;
+			display: grid;
+			grid-template-rows: 9% 1fr 8%;
+			gap: 1.2%;
+		}
+		.topbar {
+			min-height: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 70px;
+			position: relative;
+		}
+		.game-title {
+			max-width: 100%;
+			color: var(--accent);
+			font-size: 1.55rem;
+			font-weight: 750;
+			text-align: center;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		.progress-label {
+			position: absolute;
+			left: 0;
+			color: var(--muted);
+			font-size: 0.9rem;
+		}
+		.game-grid {
+			min-height: 0;
+			display: grid;
+			grid-template-columns: 69.45% 29.45%;
+			grid-template-rows: 59.45% 39.45%;
+			gap: 1.1%;
+		}
+		.panel {
+			min-width: 0;
+			min-height: 0;
+			border: 2px solid var(--border);
+			border-radius: 12px;
+			background: var(--surface);
+			padding: 2.2% 2.5%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			overflow: auto;
+		}
+		.question-panel { grid-column: 1; grid-row: 1; border-color: #3a7faa; }
+		.answer-panel { grid-column: 1; grid-row: 2; border-color: #2aebad; }
+		.timer-panel {
+			grid-column: 2;
+			grid-row: 1 / span 2;
+			align-items: center;
+			text-align: center;
+			padding: 3%;
+		}
+		.panel-label {
+			margin: 0 0 1.5%;
+			color: var(--muted);
+			font-size: 0.95rem;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+		.panel-content {
+			margin: 0;
+			font-size: 2.35rem;
+			line-height: 1.22;
+			font-weight: 650;
+			white-space: pre-wrap;
+			overflow-wrap: anywhere;
+		}
+		.answer-panel .panel-content { color: var(--accent); }
+		.answer-placeholder { color: #64708b; font-size: 1.2rem; font-weight: 500; }
+		.phase-label {
+			min-height: 2.5em;
+			color: var(--muted);
+			font-weight: 650;
+			font-size: 1rem;
+		}
+		.timer-value {
+			margin: 2% 0;
+			color: var(--accent-strong);
+			font-size: 5rem;
+			font-weight: 800;
+			font-variant-numeric: tabular-nums;
+			line-height: 1;
+		}
+		.timer-panel.urgent .timer-value { color: var(--danger); }
+		.timer-track {
+			width: 82%;
+			height: 10px;
+			margin-top: 5%;
+			border-radius: 99px;
+			background: #27304a;
+			overflow: hidden;
+		}
+		.timer-fill {
+			height: 100%;
+			width: 0;
+			background: var(--accent-strong);
+			transition: width 0.1s linear;
+		}
+		.timer-panel.urgent .timer-fill { background: var(--danger); }
+		.timer-hint { margin-top: 5%; color: var(--muted); font-size: 0.9rem; }
+		.status-line {
+			align-self: center;
+			color: var(--muted);
+			font-size: 0.88rem;
+			text-align: center;
+		}
+		.status-line.error { color: #ff8b8b; }
+		.toolbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+		}
+		.control-btn {
+			min-width: 120px;
+			padding: 10px 16px;
+			border: 0;
+			border-radius: 8px;
+			background: #27304a;
+			color: var(--text);
+			cursor: pointer;
+			font-weight: 700;
+		}
+		.control-btn:hover { background: #3a4a6a; }
+		.control-btn.primary { background: var(--accent-strong); color: #032217; }
+		.control-btn.primary:hover { background: #21c08d; }
+		.menu-btn {
+			position: fixed;
+			z-index: 20;
+			top: 14px;
+			right: 16px;
+			width: 48px;
+			height: 48px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 5px;
+			border: 0;
+			border-radius: 9px;
+			background: var(--accent-strong);
+			cursor: pointer;
+		}
+		.menu-btn span { width: 25px; height: 3px; border-radius: 2px; background: #032217; }
+		.menu-panel {
+			position: fixed;
+			z-index: 21;
+			top: 14px;
+			right: 16px;
+			width: min(260px, calc(100vw - 32px));
+			display: none;
+			flex-direction: column;
+			gap: 8px;
+			padding: 12px;
+			border: 2px solid var(--border);
+			border-radius: 10px;
+			background: var(--surface);
+			box-shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
+		}
+		.menu-panel.visible { display: flex; }
+		.menu-action {
+			min-height: 42px;
+			padding: 9px 12px;
+			border: 0;
+			border-radius: 7px;
+			background: #27304a;
+			color: var(--text);
+			text-align: left;
+			cursor: pointer;
+			font-weight: 650;
+		}
+		.menu-action:hover { background: #3a4a6a; }
+		.menu-action.primary { background: var(--accent-strong); color: #032217; }
+		.menu-action.danger { background: #8a2a2a; }
+		.menu-separator { height: 1px; background: var(--border); margin: 2px 0; }
+		.error-message {
+			position: fixed;
+			z-index: 10;
+			left: 50%;
+			bottom: 11%;
+			transform: translateX(-50%);
+			max-width: 90vw;
+			padding: 12px 16px;
+			border: 1px solid #8a2a2a;
+			border-radius: 8px;
+			background: #311b28;
+			color: #ffdede;
+			text-align: center;
+		}
+		[hidden] { display: none !important; }
+		@media (max-width: 700px) {
+			.app { padding: 1.5vh 3vw; grid-template-rows: 8% 1fr 10%; gap: 1%; }
+			.topbar { padding: 0 52px; }
+			.game-title { font-size: 1.15rem; }
+			.progress-label { display: none; }
+			.game-grid { grid-template-columns: 100%; grid-template-rows: 38% 21% 39%; gap: 1%; }
+			.question-panel { grid-column: 1; grid-row: 1; }
+			.timer-panel { grid-column: 1; grid-row: 2; flex-direction: row; justify-content: space-around; gap: 8px; padding: 2%; }
+			.timer-panel .panel-label, .timer-panel .timer-hint, .timer-track { display: none; }
+			.phase-label { min-height: 0; text-align: left; }
+			.timer-value { margin: 0; font-size: 2.8rem; }
+			.answer-panel { grid-column: 1; grid-row: 3; }
+			.panel { padding: 4%; }
+			.panel-content { font-size: 1.55rem; }
+			.answer-placeholder { font-size: 1rem; }
+			.toolbar { gap: 7px; }
+			.control-btn { min-width: 0; flex: 1; padding: 9px 6px; font-size: 0.85rem; }
+			.error-message { bottom: 13%; }
+		}
+		@media (max-height: 520px) and (min-width: 701px) {
+			.app { grid-template-rows: 10% 1fr 12%; padding-top: 1vh; padding-bottom: 1vh; }
+			.panel-content { font-size: 1.6rem; }
+			.timer-value { font-size: 3.5rem; }
+		}
+	</style>
+</head>
+<body>
+	<button class="menu-btn" id="menuBtn" type="button" aria-label="Obrir menú" aria-expanded="false">
+		<span></span><span></span><span></span>
+	</button>
+	<nav class="menu-panel" id="menuPanel" aria-label="Menú del joc">
+		<button class="menu-action" id="menuCloseBtn" type="button">Tancar menú</button>
+		<button class="menu-action" id="backBtn" type="button">← Enrere</button>
+		<button class="menu-action" id="fullscreenBtn" type="button">⛶ Pantalla completa</button>
+		<button class="menu-action" id="indexBtn" type="button">⌂ Menú principal</button>
+		<button class="menu-action" id="adminBtn" type="button">⚙ Admin</button>
+		<div class="menu-separator"></div>
+		<button class="menu-action primary" id="menuPauseBtn" type="button">⏸ Pausa</button>
+		<button class="menu-action" id="skipBtn" type="button">⏭ Saltar pregunta</button>
+		<button class="menu-action danger" id="restartBtn" type="button">↻ Reiniciar</button>
+	</nav>
+
+	<main class="app">
+		<header class="topbar">
+			<span class="progress-label" id="progressLabel">Preparant</span>
+			<h1 class="game-title" id="gameTitle">Carregant preguntes...</h1>
+		</header>
+		<div class="game-grid">
+			<section class="panel question-panel" aria-labelledby="questionHeading">
+				<h2 class="panel-label" id="questionHeading">Pregunta</h2>
+				<p class="panel-content" id="questionText">Carregant el joc...</p>
+			</section>
+			<section class="panel answer-panel" aria-labelledby="answerHeading">
+				<h2 class="panel-label" id="answerHeading">Resposta</h2>
+				<p class="panel-content answer-placeholder" id="answerText">La resposta es mostrarà quan acabi el temps</p>
+			</section>
+			<section class="panel timer-panel" id="timerPanel" aria-labelledby="timerHeading">
+				<h2 class="panel-label" id="timerHeading">Temps</h2>
+				<div class="phase-label" id="phaseLabel">Carregant...</div>
+				<div class="timer-value" id="timerValue" aria-live="off">--</div>
+				<div class="timer-track" aria-hidden="true"><div class="timer-fill" id="timerFill"></div></div>
+				<div class="timer-hint" id="timerHint">Esperant</div>
+			</section>
+		</div>
+		<div class="toolbar">
+			<button class="control-btn primary" id="startBtn" type="button" disabled>Carregant...</button>
+			<button class="control-btn" id="pauseBtn" type="button" disabled>⏸ Pausa</button>
+			<button class="control-btn" id="nextBtn" type="button" disabled>⏭ Saltar</button>
+		</div>
+	</main>
+	<div class="error-message" id="errorMessage" role="alert" hidden></div>
+
+	<script>
+		const PREFS_KEY = 'sTICdOpos_ask_preferences';
+		const MANUAL_JSON_KEY = 'sTICdOpos_ask_manual_json';
+		const urlParams = new URLSearchParams(location.search);
+		const root = (urlParams.get('root') || 'apunts_new').replace(/\/$/, '');
+		const tema = urlParams.get('tema') || '';
+		const filename = urlParams.get('fitxer') || '';
+		const elements = {
+			title: document.getElementById('gameTitle'),
+			progress: document.getElementById('progressLabel'),
+			question: document.getElementById('questionText'),
+			answer: document.getElementById('answerText'),
+			phase: document.getElementById('phaseLabel'),
+			timer: document.getElementById('timerValue'),
+			timerFill: document.getElementById('timerFill'),
+			timerPanel: document.getElementById('timerPanel'),
+			timerHint: document.getElementById('timerHint'),
+			error: document.getElementById('errorMessage'),
+			start: document.getElementById('startBtn'),
+			pause: document.getElementById('pauseBtn'),
+			next: document.getElementById('nextBtn'),
+			menu: document.getElementById('menuPanel'),
+			menuButton: document.getElementById('menuBtn'),
+			menuPause: document.getElementById('menuPauseBtn'),
+			fullscreen: document.getElementById('fullscreenBtn')
+		};
+		let gameData = null;
+		let questions = [];
+		let questionOrder = [];
+		let questionSignature = '';
+		let questionIndex = 0;
+		let voices = [];
+		let phase = 'loading';
+		let paused = false;
+		let timerInterval = null;
+		let timerDeadline = 0;
+		let timerRemaining = 0;
+		let timerDuration = 0;
+		let timerLabel = '';
+		let timerCallback = null;
+		let tickAudioContext = null;
+		let lastTickSecond = null;
+		let speechToken = 0;
+		let visibilityPaused = false;
+
+		function readPreferences() {
+			try {
+				return JSON.parse(localStorage.getItem(PREFS_KEY) || '{}');
+			} catch {
+				return {};
+			}
+		}
+
+		function normalizeRoot(value) {
+			let normalized = value.replace(/^\/+|\/+$/g, '');
+			const path = location.pathname;
+			if (path.includes('/sticdopos/') && normalized.startsWith('sticdopos/')) {
+				normalized = normalized.slice('sticdopos/'.length);
+			}
+			if (path.includes('/opos/') && normalized.startsWith('opos/')) {
+				normalized = normalized.slice('opos/'.length);
+			}
+			return normalized;
+		}
+
+		function validateData(data) {
+			if (!data || typeof data !== 'object' || Array.isArray(data)) return 'El JSON ha de contenir un objecte.';
+			for (const field of ['name', 'description', 'language']) {
+				if (data[field] !== undefined && typeof data[field] !== 'string') return `El camp ${field} ha de ser text.`;
+			}
+			if (data.name !== undefined && data.name.length === 0) return 'El camp name no pot estar buit.';
+			if (data.language !== undefined && data.language.length === 0) return 'El camp language no pot estar buit.';
+			if (data.settings !== undefined && (!data.settings || typeof data.settings !== 'object' || Array.isArray(data.settings))) return 'El camp settings ha de ser un objecte.';
+			if (data.settings) {
+				if (data.settings.aleatorio !== undefined && typeof data.settings.aleatorio !== 'boolean') return 'El camp settings.aleatorio ha de ser true o false.';
+				for (const field of ['default_answer_time_seconds', 'time_between_questions_seconds']) {
+					const value = data.settings[field];
+					if (value !== undefined && (!Number.isFinite(value) || value < 0)) return `El camp settings.${field} ha de ser un número igual o superior a zero.`;
+				}
+				if (data.settings.secs_with_tick !== undefined && (!Number.isInteger(data.settings.secs_with_tick) || data.settings.secs_with_tick < 0)) return 'El camp settings.secs_with_tick ha de ser un enter igual o superior a zero.';
+				for (const field of ['intro_phrase', 'question_prefix']) {
+					if (data.settings[field] !== undefined && typeof data.settings[field] !== 'string') return `El camp settings.${field} ha de ser text.`;
+				}
+			}
+			if (!Array.isArray(data.questions) || data.questions.length === 0) return 'El JSON no conté preguntes.';
+			const invalid = data.questions.findIndex(question => !question || typeof question.que !== 'string' || question.que.length === 0 || typeof question.ans !== 'string' || question.ans.length === 0);
+			if (invalid !== -1) return `La pregunta ${invalid + 1} ha de contenir que i ans com a text.`;
+			const invalidTime = data.questions.findIndex(question => question.secs !== undefined && (!Number.isFinite(question.secs) || question.secs < 0));
+			if (invalidTime !== -1) return `El temps secs de la pregunta ${invalidTime + 1} ha de ser un número igual o superior a zero.`;
+			return '';
+		}
+
+		function getQuestionSignature(data) {
+			const serialized = JSON.stringify(data.questions);
+			let hash = 2166136261;
+			for (let index = 0; index < serialized.length; index += 1) {
+				hash = Math.imul(hash ^ serialized.charCodeAt(index), 16777619);
+			}
+			return `${serialized.length}:${hash >>> 0}`;
+		}
+
+		function createQuestionOrder(count) {
+			const order = Array.from({ length: count }, (_, index) => index);
+			for (let currentIndex = order.length - 1; currentIndex > 0; currentIndex -= 1) {
+				const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+				[order[currentIndex], order[randomIndex]] = [order[randomIndex], order[currentIndex]];
+			}
+			return order;
+		}
+
+		function isValidQuestionOrder(order, count) {
+			return Array.isArray(order)
+				&& order.length === count
+				&& order.every(index => Number.isInteger(index) && index >= 0 && index < count)
+				&& new Set(order).size === count;
+		}
+
+		async function loadGameData() {
+			const manualJson = sessionStorage.getItem(MANUAL_JSON_KEY);
+			if (manualJson) {
+				try {
+					const parsed = JSON.parse(manualJson);
+					const error = validateData(parsed);
+					if (error) throw new Error(error);
+					return parsed;
+				} catch (error) {
+					sessionStorage.removeItem(MANUAL_JSON_KEY);
+					showError(`No s'ha pogut utilitzar el JSON manual: ${error.message}`);
+				}
+			}
+			if (!tema || !filename) throw new Error('Falten els paràmetres tema o fitxer a la URL.');
+			const safeRoot = normalizeRoot(root);
+			const path = `${safeRoot}/${encodeURIComponent(tema)}/asks/${encodeURIComponent(filename)}`;
+			const response = await fetch(`${path}?v=${Date.now()}`);
+			if (!response.ok) throw new Error(`No s'ha pogut carregar el fitxer (HTTP ${response.status}).`);
+			const data = await response.json();
+			const error = validateData(data);
+			if (error) throw new Error(error);
+			return data;
+		}
+
+		function showError(message) {
+			elements.error.textContent = message;
+			elements.error.hidden = false;
+		}
+
+		function clearError() {
+			elements.error.hidden = true;
+			elements.error.textContent = '';
+		}
+
+		function getVoiceSettings() {
+			const prefs = readPreferences();
+			const requestedLanguage = String(prefs.language || gameData?.language || '').toLowerCase();
+			const savedRate = Number(prefs.rate);
+			const savedPitch = Number(prefs.pitch);
+			const exactVoice = voices.find(voice => voice.name === prefs.voice);
+			const languageVoice = voices.find(voice => requestedLanguage && voice.lang.toLowerCase() === requestedLanguage)
+				|| voices.find(voice => requestedLanguage && voice.lang.toLowerCase().startsWith(requestedLanguage));
+			const voice = exactVoice || languageVoice || voices.find(item => item.default) || voices[0] || null;
+			return {
+				voice,
+				language: voice?.lang || prefs.language || gameData?.language || 'es-ES',
+				rate: Number.isFinite(savedRate) ? Math.min(2, Math.max(0.5, savedRate)) : 1,
+				pitch: Number.isFinite(savedPitch) ? Math.min(2, Math.max(0, savedPitch)) : 1
+			};
+		}
+
+		function loadVoices() {
+			if (!('speechSynthesis' in window)) return;
+			const assign = () => { voices = window.speechSynthesis.getVoices(); };
+			assign();
+			window.speechSynthesis.addEventListener('voiceschanged', assign);
+		}
+
+		function speak(text, onComplete) {
+			if (!text || !('speechSynthesis' in window)) {
+				if (typeof onComplete === 'function') setTimeout(onComplete, 0);
+				return;
+			}
+			const token = ++speechToken;
+			window.speechSynthesis.cancel();
+			const settings = getVoiceSettings();
+			const utterance = new SpeechSynthesisUtterance(text);
+			utterance.lang = settings.language;
+			utterance.rate = settings.rate;
+			utterance.pitch = settings.pitch;
+			if (settings.voice) utterance.voice = settings.voice;
+			const finish = () => {
+				if (token !== speechToken) return;
+				if (typeof onComplete === 'function') onComplete();
+			};
+			utterance.onend = finish;
+			utterance.onerror = finish;
+			window.speechSynthesis.speak(utterance);
+		}
+
+		function stopSpeech() {
+			speechToken += 1;
+			if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+		}
+
+		function renderTimer(seconds, totalSeconds, label) {
+			const shown = Math.max(0, Math.ceil(seconds));
+			elements.timer.textContent = String(shown);
+			elements.phase.textContent = label;
+			const progress = totalSeconds > 0 ? Math.min(1, Math.max(0, 1 - seconds / totalSeconds)) : 1;
+			elements.timerFill.style.width = `${progress * 100}%`;
+			elements.timerPanel.classList.toggle('urgent', label === 'Temps per respondre' && seconds <= 5);
+			elements.timerHint.textContent = label === 'Temps per respondre' ? 'Pensa la resposta' : 'Preparant la següent pregunta';
+		}
+
+		async function enableTickAudio() {
+			const AudioContextConstructor = window.AudioContext || window.webkitAudioContext;
+			if (!AudioContextConstructor) return;
+			if (!tickAudioContext) tickAudioContext = new AudioContextConstructor();
+			if (tickAudioContext.state !== 'running') {
+				try {
+					await tickAudioContext.resume();
+				} catch {
+					return;
+				}
+			}
+		}
+
+		function playCountdownTick() {
+			try {
+				const AudioContextConstructor = window.AudioContext || window.webkitAudioContext;
+				if (!AudioContextConstructor) return;
+				const context = tickAudioContext || (tickAudioContext = new AudioContextConstructor());
+				const oscillator = context.createOscillator();
+				const gain = context.createGain();
+				oscillator.type = 'sine';
+				oscillator.frequency.value = 700;
+				gain.gain.value = 0.16;
+				oscillator.connect(gain);
+				gain.connect(context.destination);
+				oscillator.start();
+				oscillator.stop(context.currentTime + 0.06);
+				oscillator.onended = () => {
+					gain.disconnect();
+					oscillator.disconnect();
+				};
+			} catch (error) {
+				console.error('No s’ha pogut reproduir el tick:', error);
+			}
+		}
+
+		function clearTimer() {
+			if (timerInterval !== null) clearInterval(timerInterval);
+			timerInterval = null;
+		}
+
+		function startTimer(durationSeconds, label, onComplete, existingRemaining = null) {
+			clearTimer();
+			if (label === 'Temps per respondre' && existingRemaining === null) lastTickSecond = null;
+			timerDuration = Math.max(0, durationSeconds);
+			timerRemaining = existingRemaining === null ? timerDuration * 1000 : Math.max(0, existingRemaining);
+			timerLabel = label;
+			timerCallback = onComplete;
+			if (paused) return;
+			timerDeadline = Date.now() + timerRemaining;
+			const tick = () => {
+				timerRemaining = Math.max(0, timerDeadline - Date.now());
+				const remainingSeconds = timerRemaining / 1000;
+				renderTimer(remainingSeconds, timerDuration, timerLabel);
+				const shownSeconds = Math.ceil(remainingSeconds);
+				const tickThreshold = gameData.settings?.secs_with_tick || 0;
+				if (timerLabel === 'Temps per respondre' && shownSeconds > 0 && shownSeconds <= tickThreshold && shownSeconds !== lastTickSecond) {
+					lastTickSecond = shownSeconds;
+					playCountdownTick();
+				}
+				if (timerRemaining <= 0) {
+					clearTimer();
+					const complete = timerCallback;
+					timerCallback = null;
+					if (typeof complete === 'function') complete();
+				}
+			};
+			tick();
+			if (timerCallback) timerInterval = setInterval(tick, 100);
+		}
+
+		function answerSeconds(question) {
+			const prefs = readPreferences();
+			const configured = prefs.defaultAnswerSeconds !== '' && prefs.defaultAnswerSeconds != null
+				? Number(prefs.defaultAnswerSeconds)
+				: null;
+			const fromData = Number(gameData.settings?.default_answer_time_seconds);
+			const questionSeconds = question.secs;
+			const seconds = Number.isFinite(questionSeconds)
+				? questionSeconds
+				: Number.isFinite(configured) ? configured
+					: Number.isFinite(fromData) ? fromData : 7;
+			return Math.max(0, seconds);
+		}
+
+		function gapSeconds() {
+			const prefs = readPreferences();
+			const configured = prefs.betweenQuestionsSeconds !== '' && prefs.betweenQuestionsSeconds != null
+				? Number(prefs.betweenQuestionsSeconds)
+				: null;
+			const fromData = Number(gameData.settings?.time_between_questions_seconds);
+			const seconds = Number.isFinite(configured) ? configured : Number.isFinite(fromData) ? fromData : 2;
+			return Math.max(0, seconds);
+		}
+
+		function updateProgress() {
+			elements.progress.textContent = questions.length ? `Pregunta ${Math.min(questionIndex + 1, questions.length)} / ${questions.length}` : 'Preparant';
+		}
+
+		function prepareQuestion() {
+			if (questionIndex >= questions.length) {
+				finishSession();
+				return;
+			}
+			paused = false;
+			phase = 'reading-question';
+			const question = questions[questionIndex];
+			elements.question.textContent = question.que;
+			elements.answer.textContent = 'La resposta es mostrarà quan acabi el temps';
+			elements.answer.classList.add('answer-placeholder');
+			elements.start.hidden = true;
+			elements.pause.disabled = false;
+			elements.next.disabled = false;
+			elements.pause.textContent = '⏸ Pausa';
+			elements.menuPause.textContent = '⏸ Pausa';
+			updateProgress();
+			elements.timer.textContent = '...';
+			elements.phase.textContent = 'Escolta la pregunta';
+			const prefix = gameData.settings?.question_prefix;
+			speak([prefix, question.que].filter(Boolean).join(' '), () => {
+				if (phase !== 'reading-question' || paused) return;
+				phase = 'answering';
+				startTimer(answerSeconds(question), 'Temps per respondre', revealAnswer);
+			});
+		}
+
+		function revealAnswer() {
+			if (phase !== 'answering') return;
+			phase = 'revealing';
+			const answer = questions[questionIndex].ans;
+			elements.answer.textContent = answer;
+			elements.answer.classList.remove('answer-placeholder');
+			elements.phase.textContent = 'Resposta';
+			elements.timer.textContent = '✓';
+			elements.timerFill.style.width = '100%';
+			speak(answer, () => {
+				if (phase !== 'revealing' || paused) return;
+				phase = 'between';
+				startTimer(gapSeconds(), 'Següent pregunta', moveNextQuestion);
+			});
+		}
+
+		function moveNextQuestion() {
+			if (phase !== 'between') return;
+			questionIndex += 1;
+			prepareQuestion();
+		}
+
+		function finishSession() {
+			clearTimer();
+			stopSpeech();
+			phase = 'finished';
+			paused = false;
+			elements.progress.textContent = `${questions.length} preguntes completades`;
+			elements.question.textContent = 'Sessió completada';
+			elements.answer.textContent = '';
+			elements.answer.classList.add('answer-placeholder');
+			elements.phase.textContent = 'Final';
+			elements.timer.textContent = '✓';
+			elements.timerFill.style.width = '100%';
+			elements.timerHint.textContent = 'Ja has acabat';
+			elements.start.textContent = '↻ Tornar a començar';
+			elements.start.hidden = false;
+			elements.pause.disabled = true;
+			elements.next.disabled = true;
+		}
+
+		async function startSession() {
+			if (!gameData || phase === 'starting') return;
+			phase = 'starting';
+			await enableTickAudio();
+			clearTimer();
+			stopSpeech();
+			questionIndex = 0;
+			paused = false;
+			elements.start.hidden = true;
+			elements.pause.disabled = false;
+			elements.next.disabled = false;
+			const intro = gameData.settings?.intro_phrase;
+			if (intro) {
+				phase = 'intro';
+				elements.phase.textContent = 'Iniciant sessió';
+				speak(intro, () => {
+					if (phase === 'intro' && !paused) prepareQuestion();
+				});
+			} else {
+				prepareQuestion();
+			}
+		}
+
+		function togglePause() {
+			if (['loading', 'ready', 'finished', 'error'].includes(phase)) return;
+			if (!paused) {
+				paused = true;
+				if (timerInterval !== null) {
+					timerRemaining = Math.max(0, timerDeadline - Date.now());
+					clearTimer();
+					renderTimer(timerRemaining / 1000, timerDuration, timerLabel);
+				} else if ('speechSynthesis' in window && window.speechSynthesis.speaking) {
+					window.speechSynthesis.pause();
+				}
+				elements.phase.textContent = 'En pausa';
+				elements.pause.textContent = '▶ Continuar';
+				elements.menuPause.textContent = '▶ Continuar';
+			} else {
+				paused = false;
+				elements.pause.textContent = '⏸ Pausa';
+				elements.menuPause.textContent = '⏸ Pausa';
+				if (timerCallback) {
+					startTimer(timerDuration, timerLabel, timerCallback, timerRemaining);
+				} else if ('speechSynthesis' in window && window.speechSynthesis.paused) {
+					elements.phase.textContent = phase === 'intro' ? 'Iniciant sessió' : 'Escolta la pregunta';
+					window.speechSynthesis.resume();
+				} else if (phase === 'reading-question') {
+					prepareQuestion();
+				}
+			}
+		}
+
+		function skipQuestion() {
+			if (['loading', 'ready', 'finished', 'error'].includes(phase)) return;
+			clearTimer();
+			timerCallback = null;
+			stopSpeech();
+			paused = false;
+			questionIndex += 1;
+			prepareQuestion();
+		}
+
+		function resetSession() {
+			clearTimer();
+			timerCallback = null;
+			stopSpeech();
+			questionIndex = 0;
+			paused = false;
+			phase = 'ready';
+			elements.question.textContent = 'Prem començar per iniciar el joc';
+			elements.answer.textContent = 'La resposta es mostrarà quan acabi el temps';
+			elements.answer.classList.add('answer-placeholder');
+			elements.phase.textContent = 'Preparat';
+			elements.timer.textContent = '--';
+			elements.timerFill.style.width = '0';
+			elements.timerHint.textContent = 'Esperant';
+			elements.start.textContent = '▶ Començar';
+			elements.start.hidden = false;
+			elements.pause.disabled = true;
+			elements.next.disabled = true;
+			updateProgress();
+		}
+
+		function closeMenu() {
+			elements.menu.classList.remove('visible');
+			elements.menuButton.setAttribute('aria-expanded', 'false');
+		}
+
+		function openAdmin() {
+			const language = encodeURIComponent(gameData?.language || '');
+			const active = !['loading', 'ready', 'finished', 'error'].includes(phase);
+			sessionStorage.setItem('sTICdOpos_ask_resume', JSON.stringify({
+				url: location.href,
+				active,
+				questionIndex,
+				questionSignature,
+				questionOrder
+			}));
+			location.href = `leer_ask_config.html?language=${language}`;
+		}
+
+		function initMenu() {
+			elements.menuButton.addEventListener('click', () => {
+				const open = elements.menu.classList.toggle('visible');
+				elements.menuButton.setAttribute('aria-expanded', String(open));
+			});
+			document.getElementById('menuCloseBtn').addEventListener('click', closeMenu);
+			document.addEventListener('click', event => {
+				if (!elements.menu.contains(event.target) && !elements.menuButton.contains(event.target)) closeMenu();
+			});
+			document.getElementById('backBtn').addEventListener('click', () => {
+				if (history.length > 1) history.back();
+				else location.href = 'leerrecursos.html';
+			});
+			document.getElementById('indexBtn').addEventListener('click', () => { location.href = 'index.html'; });
+			document.getElementById('adminBtn').addEventListener('click', openAdmin);
+			document.getElementById('skipBtn').addEventListener('click', () => { skipQuestion(); closeMenu(); });
+			document.getElementById('restartBtn').addEventListener('click', () => { resetSession(); closeMenu(); });
+			elements.menuPause.addEventListener('click', () => { togglePause(); closeMenu(); });
+			elements.fullscreen.addEventListener('click', async () => {
+				try {
+					if (!document.fullscreenElement) await document.documentElement.requestFullscreen();
+					else await document.exitFullscreen();
+				} catch (error) {
+					showError(`No s'ha pogut canviar la pantalla completa: ${error.message}`);
+				}
+				updateFullscreenLabel();
+				closeMenu();
+			});
+			document.addEventListener('fullscreenchange', updateFullscreenLabel);
+		}
+
+		function updateFullscreenLabel() {
+			elements.fullscreen.textContent = document.fullscreenElement ? '⛶ Sortir de pantalla completa' : '⛶ Pantalla completa';
+		}
+
+		async function initGame() {
+			document.getElementById('startBtn').addEventListener('click', startSession);
+			elements.pause.addEventListener('click', togglePause);
+			elements.next.addEventListener('click', skipQuestion);
+			initMenu();
+			loadVoices();
+			if (typeof login !== 'undefined' && typeof LS_KEYS !== 'undefined') {
+				login.checkUserAuth(localStorage.getItem(LS_KEYS.USER_NAME), localStorage.getItem(LS_KEYS.USER_PASS), login.ROLES.VIP);
+			}
+			try {
+				let resumeState = null;
+				try {
+					resumeState = JSON.parse(sessionStorage.getItem('sTICdOpos_ask_resume') || 'null');
+				} catch {
+					resumeState = null;
+				}
+				gameData = await loadGameData();
+				clearError();
+				questionSignature = getQuestionSignature(gameData);
+				const savedOrder = resumeState?.questionSignature === questionSignature
+					&& isValidQuestionOrder(resumeState.questionOrder, gameData.questions.length)
+					? resumeState.questionOrder
+					: null;
+				questionOrder = gameData.settings?.aleatorio === true
+					? (savedOrder || createQuestionOrder(gameData.questions.length))
+					: Array.from({ length: gameData.questions.length }, (_, index) => index);
+				questions = questionOrder.map(index => gameData.questions[index]);
+				const fallbackName = filename.replace(/\.[^/.]+$/, '') || 'Joc de preguntes';
+				elements.title.textContent = gameData.name || fallbackName;
+				elements.question.textContent = 'Prem començar per iniciar el joc';
+				elements.progress.textContent = `${questions.length} preguntes`;
+				elements.phase.textContent = 'Preparat';
+				elements.timer.textContent = '--';
+				elements.start.disabled = false;
+				elements.start.textContent = '▶ Començar';
+				elements.pause.disabled = true;
+				elements.next.disabled = true;
+				phase = 'ready';
+				sessionStorage.removeItem('sTICdOpos_ask_resume');
+				if (resumeState?.active) {
+					questionIndex = Math.min(Math.max(0, Number(resumeState.questionIndex) || 0), questions.length - 1);
+					prepareQuestion();
+				}
+				if (!('speechSynthesis' in window)) showError('Aquest navegador no disposa de síntesi de veu. Les preguntes continuaran visibles.');
+			} catch (error) {
+				phase = 'error';
+				elements.title.textContent = 'No s’ha pogut carregar el joc';
+				elements.question.textContent = 'Revisa la ruta i el format del JSON.';
+				elements.phase.textContent = 'Error';
+				elements.start.disabled = true;
+				showError(error.message);
+			}
+		}
+
+		document.addEventListener('visibilitychange', () => {
+			if (document.hidden && !paused && !['loading', 'ready', 'finished', 'error'].includes(phase)) {
+				visibilityPaused = true;
+				togglePause();
+			} else if (!document.hidden && visibilityPaused) {
+				visibilityPaused = false;
+				showError('Joc en pausa. Prem “Continuar” quan vulguis reprendre’l.');
+			}
+		});
+		window.addEventListener('beforeunload', () => {
+			clearTimer();
+			stopSpeech();
+		});
+		document.addEventListener('DOMContentLoaded', initGame, { once: true });
+	</script>
+</body>
+</html>

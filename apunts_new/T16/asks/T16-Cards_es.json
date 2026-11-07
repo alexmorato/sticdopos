@@ -1,0 +1,56 @@
+{
+  "name": "Tabla del 5",
+  "description": "Práctica oral de la tabla de multiplicar del 5",
+  "language": "es",
+  "settings": {
+    "default_answer_time_seconds": 8,
+    "secs_with_tick": 5,
+    "time_between_questions_seconds": 2,
+    "aleatorio": true,
+    "intro_phrase": "Empezamos la sesión de aprendizaje.",
+    "question_prefix": "Nueva pregunta."
+  },
+  "questions": [
+    {
+      "que": "Cinco por uno",
+      "ans": "cinco",
+      "secs": 6
+    },
+    {
+      "que": "Cinco por dos",
+      "ans": "diez"
+    },
+    {
+      "que": "Cinco por tres",
+      "ans": "quince"
+    },
+    {
+      "que": "Cinco por cuatro",
+      "ans": "veinte"
+    },
+    {
+      "que": "Cinco por cinco",
+      "ans": "veinticinco"
+    },
+    {
+      "que": "Cinco por seis",
+      "ans": "treinta"
+    },
+    {
+      "que": "Cinco por siete",
+      "ans": "treinta y cinco"
+    },
+    {
+      "que": "Cinco por ocho",
+      "ans": "cuarenta"
+    },
+    {
+      "que": "Cinco por nueve",
+      "ans": "cuarenta y cinco"
+    },
+    {
+      "que": "Cinco por diez",
+      "ans": "cincuenta"
+    }
+  ]
+}

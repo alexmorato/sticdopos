@@ -91,6 +91,12 @@ def generate_manifest(base_dir):
                     tema_data["pdfs"] = pdf_files
                 continue
 
+            if item.lower() == "asks":
+                ask_files = list_files_with_ext(item_path, ".json")
+                if ask_files:
+                    tema_data["ask"] = ask_files
+                continue
+
             imgs = list_files_with_ext(item_path, IMG_EXT)
             if imgs:
                 slides.append({
