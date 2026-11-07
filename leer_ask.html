@@ -220,8 +220,25 @@
 			border-radius: 8px;
 			background: #311b28;
 			color: #ffdede;
-			text-align: center;
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			text-align: left;
 		}
+		.error-message-text { flex: 1; }
+		.error-close {
+			flex: 0 0 32px;
+			width: 32px;
+			height: 32px;
+			border: 0;
+			border-radius: 6px;
+			background: transparent;
+			color: inherit;
+			font-size: 1.35rem;
+			line-height: 1;
+			cursor: pointer;
+		}
+		.error-close:hover { background: rgba(255, 255, 255, 0.12); }
 		[hidden] { display: none !important; }
 		@media (max-width: 700px) {
 			.app { padding: 1.5vh 3vw; grid-template-rows: 8% 1fr 10%; gap: 1%; }
@@ -261,7 +278,7 @@
 		<button class="menu-action" id="adminBtn" type="button">⚙ Admin</button>
 		<div class="menu-separator"></div>
 		<button class="menu-action primary" id="menuPauseBtn" type="button">⏸ Pausa</button>
-		<button class="menu-action" id="skipBtn" type="button">⏭ Saltar pregunta</button>
+		<button class="menu-action" id="skipBtn" type="button">⏭ Saltar fase</button>
 		<button class="menu-action danger" id="restartBtn" type="button">↻ Reiniciar</button>
 	</nav>
 
@@ -290,10 +307,13 @@
 		<div class="toolbar">
 			<button class="control-btn primary" id="startBtn" type="button" disabled>Carregant...</button>
 			<button class="control-btn" id="pauseBtn" type="button" disabled>⏸ Pausa</button>
-			<button class="control-btn" id="nextBtn" type="button" disabled>⏭ Saltar</button>
+			<button class="control-btn" id="nextBtn" type="button" disabled>⏭ Saltar fase</button>
 		</div>
 	</main>
-	<div class="error-message" id="errorMessage" role="alert" hidden></div>
+	<div class="error-message" id="errorMessage" role="alert" hidden>
+		<span class="error-message-text" id="errorText"></span>
+		<button class="error-close" id="closeErrorBtn" type="button" aria-label="Tancar missatge d'error">×</button>
+	</div>
 
 	<script>
 		const PREFS_KEY = 'sTICdOpos_ask_preferences';
@@ -313,6 +333,7 @@
 			timerPanel: document.getElementById('timerPanel'),
 			timerHint: document.getElementById('timerHint'),
 			error: document.getElementById('errorMessage'),
+			errorText: document.getElementById('errorText'),
 			start: document.getElementById('startBtn'),
 			pause: document.getElementById('pauseBtn'),
 			next: document.getElementById('nextBtn'),
@@ -443,13 +464,13 @@
 		}
 
 		function showError(message) {
-			elements.error.textContent = message;
+			elements.errorText.textContent = message;
 			elements.error.hidden = false;
 		}
 
 		function clearError() {
 			elements.error.hidden = true;
-			elements.error.textContent = '';
+			elements.errorText.textContent = '';
 		}
 
 		function getVoiceSettings() {
@@ -654,9 +675,13 @@
 			elements.timerFill.style.width = '100%';
 			speak(answer, () => {
 				if (phase !== 'revealing' || paused) return;
-				phase = 'between';
-				startTimer(gapSeconds(), 'Següent pregunta', moveNextQuestion);
+				startBetweenQuestions();
 			});
+		}
+
+		function startBetweenQuestions() {
+			phase = 'between';
+			startTimer(gapSeconds(), 'Següent pregunta', moveNextQuestion);
 		}
 
 		function moveNextQuestion() {
@@ -737,13 +762,32 @@
 		}
 
 		function skipQuestion() {
-			if (['loading', 'ready', 'finished', 'error'].includes(phase)) return;
+			if (['loading', 'ready', 'finished', 'error', 'starting'].includes(phase)) return;
+			const skippedPhase = phase;
 			clearTimer();
 			timerCallback = null;
 			stopSpeech();
 			paused = false;
-			questionIndex += 1;
-			prepareQuestion();
+			elements.pause.textContent = '⏸ Pausa';
+			elements.menuPause.textContent = '⏸ Pausa';
+			switch (skippedPhase) {
+				case 'intro':
+					prepareQuestion();
+					break;
+				case 'reading-question':
+					phase = 'answering';
+					startTimer(answerSeconds(questions[questionIndex]), 'Temps per respondre', revealAnswer);
+					break;
+				case 'answering':
+					revealAnswer();
+					break;
+				case 'revealing':
+					startBetweenQuestions();
+					break;
+				case 'between':
+					moveNextQuestion();
+					break;
+			}
 		}
 
 		function resetSession() {
@@ -791,6 +835,7 @@
 				elements.menuButton.setAttribute('aria-expanded', String(open));
 			});
 			document.getElementById('menuCloseBtn').addEventListener('click', closeMenu);
+			document.getElementById('closeErrorBtn').addEventListener('click', clearError);
 			document.addEventListener('click', event => {
 				if (!elements.menu.contains(event.target) && !elements.menuButton.contains(event.target)) closeMenu();
 			});

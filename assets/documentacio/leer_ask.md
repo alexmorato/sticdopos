@@ -98,7 +98,7 @@ El botón hamburguesa reutiliza el estilo del resto de la aplicación y contiene
 - **Menú**: ir a `index.html`.
 - **Admin**: abrir `leer_ask_config.html`.
 - **Pausa / continuar**: detener o reanudar tanto el TTS como el temporizador.
-- **Saltar**: detener la locución y pasar de forma segura a la siguiente pregunta.
+- **Saltar fase**: omitir solo la fase activa. La introducción pasa a la pregunta; la lectura de la pregunta inicia el tiempo para responder; el temporizador de respuesta revela la respuesta; la locución de la respuesta inicia la pausa; la pausa pasa a la pregunta siguiente.
 - **Reiniciar**: volver a la primera pregunta y comenzar una nueva sesión.
 
 En el final de la sesión debe haber una acción visible para reiniciarla. Las acciones de salto, reinicio y navegación deben cancelar la locución y los temporizadores pendientes para evitar que una ronda anterior siga activa.

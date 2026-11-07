@@ -3,9 +3,9 @@
   "description": "Práctica oral de la tabla de multiplicar del 5",
   "language": "es",
   "settings": {
-    "default_answer_time_seconds": 8,
+    "default_answer_time_seconds": 5,
     "secs_with_tick": 5,
-    "time_between_questions_seconds": 2,
+    "time_between_questions_seconds": 1,
     "aleatorio": true,
     "intro_phrase": "Empezamos la sesión de aprendizaje.",
     "question_prefix": "Nueva pregunta."
