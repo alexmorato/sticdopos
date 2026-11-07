@@ -128,6 +128,8 @@ La interfaz debe informar de forma clara si falta algún parámetro, falla la ca
 
 El temporizador y el estado de TTS deben permanecer sincronizados al pausar, reanudar, saltar, reiniciar, cambiar de página o finalizar la sesión. Debe comprobarse en un navegador de escritorio y en una ventana móvil.
 
+Mientras la sesión está activa, el lector solicita Screen Wake Lock para evitar que el dispositivo apague la pantalla. Libera el bloqueo al pausar, terminar, reiniciar o salir. La API requiere un navegador compatible, una página visible y un contexto seguro (normalmente HTTPS); si no está disponible, el juego sigue funcionando sin impedir que la pantalla se apague.
+
 ## Decisiones cerradas
 
 - La pregunta se lee antes de iniciar el tiempo de respuesta.

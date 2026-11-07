@@ -358,6 +358,7 @@
 		let timerCallback = null;
 		let tickAudioContext = null;
 		let lastTickSecond = null;
+		let wakeLockSentinel = null;
 		let speechToken = 0;
 		let visibilityPaused = false;
 
@@ -472,6 +473,32 @@
 		function clearError() {
 			elements.error.hidden = true;
 			elements.errorText.textContent = '';
+		}
+
+		async function requestScreenWakeLock() {
+			if (!('wakeLock' in navigator) || document.hidden || paused || ['loading', 'ready', 'finished', 'error'].includes(phase)) return;
+			try {
+				if (!wakeLockSentinel || wakeLockSentinel.released) {
+					const sentinel = await navigator.wakeLock.request('screen');
+					wakeLockSentinel = sentinel;
+					sentinel.addEventListener('release', () => {
+						if (wakeLockSentinel === sentinel) wakeLockSentinel = null;
+					});
+				}
+			} catch (error) {
+				console.warn('Screen Wake Lock no disponible:', error);
+			}
+		}
+
+		async function releaseScreenWakeLock() {
+			const sentinel = wakeLockSentinel;
+			wakeLockSentinel = null;
+			if (!sentinel || sentinel.released) return;
+			try {
+				await sentinel.release();
+			} catch (error) {
+				console.warn('No s’ha pogut alliberar Screen Wake Lock:', error);
+			}
 		}
 
 		function getVoiceSettings(languageOverride = '') {
@@ -645,6 +672,7 @@
 			}
 			paused = false;
 			phase = 'reading-question';
+			requestScreenWakeLock();
 			const question = questions[questionIndex];
 			elements.question.textContent = question.que;
 			elements.answer.textContent = 'La resposta es mostrarà quan acabi el temps';
@@ -694,6 +722,7 @@
 		function finishSession() {
 			clearTimer();
 			stopSpeech();
+			releaseScreenWakeLock();
 			phase = 'finished';
 			paused = false;
 			elements.progress.textContent = `${questions.length} preguntes completades`;
@@ -713,6 +742,7 @@
 		async function startSession() {
 			if (!gameData || phase === 'starting') return;
 			phase = 'starting';
+			requestScreenWakeLock();
 			await enableTickAudio();
 			clearTimer();
 			stopSpeech();
@@ -737,6 +767,7 @@
 			if (['loading', 'ready', 'finished', 'error'].includes(phase)) return;
 			if (!paused) {
 				paused = true;
+				releaseScreenWakeLock();
 				if (timerInterval !== null) {
 					timerRemaining = Math.max(0, timerDeadline - Date.now());
 					clearTimer();
@@ -749,6 +780,7 @@
 				elements.menuPause.textContent = '▶ Continuar';
 			} else {
 				paused = false;
+				requestScreenWakeLock();
 				elements.pause.textContent = '⏸ Pausa';
 				elements.menuPause.textContent = '⏸ Pausa';
 				if (timerCallback) {
@@ -795,6 +827,7 @@
 			clearTimer();
 			timerCallback = null;
 			stopSpeech();
+			releaseScreenWakeLock();
 			questionIndex = 0;
 			paused = false;
 			phase = 'ready';
@@ -818,6 +851,7 @@
 		}
 
 		function openAdmin() {
+			releaseScreenWakeLock();
 			const language = encodeURIComponent(gameData?.language || '');
 			const active = !['loading', 'ready', 'finished', 'error'].includes(phase);
 			sessionStorage.setItem('sTICdOpos_ask_resume', JSON.stringify({
@@ -932,6 +966,7 @@
 		window.addEventListener('beforeunload', () => {
 			clearTimer();
 			stopSpeech();
+			releaseScreenWakeLock();
 		});
 		document.addEventListener('DOMContentLoaded', initGame, { once: true });
 	</script>
