@@ -237,6 +237,13 @@
       transition: all 0.2s;
       white-space: nowrap;
     }
+    a.recurso-btn {
+      display: block;
+      box-sizing: border-box;
+      max-width: 100%;
+      text-align: center;
+      text-decoration: none;
+    }
     .btn-slides {
       background: #2a5f8a;
       color: #e7ecff;
@@ -250,6 +257,13 @@
     }
     .btn-info:hover {
       background: #aa7f3a;
+    }
+    .btn-ask {
+      background: #8a2a3a;
+      color: #e7ecff;
+    }
+    .btn-ask:hover {
+      background: #aa3a4a;
     }
     .btn-apunts {
       background: #5f2a8a;
@@ -1043,10 +1057,10 @@
             <div class="recursos-title">📄 PDFs</div>
             <div class="recursos-list">
               ${tema.recursos.pdfs.map(pdf => `
-                <a class="recurso-item" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">
+                <div class="recurso-item">
                   <div class="recurso-name">${escaparHtml(pdf)}</div>
-                  <span class="recurso-btn btn-info">📄 Obrir PDF</span>
-                </a>
+                  <a class="recurso-btn btn-info" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">📄 Obrir PDF</a>
+                </div>
               `).join('')}
             </div>
           </div>
@@ -1060,10 +1074,10 @@
             <div class="recursos-title">❓ Ask</div>
             <div class="recursos-list">
               ${tema.recursos.ask.map(askFile => `
-                <a class="recurso-item" href="leer_ask.html?root=${encodeURIComponent(rootSinOpos)}&amp;tema=${encodeURIComponent(tema.tema)}&amp;fitxer=${encodeURIComponent(askFile)}">
+                <div class="recurso-item">
                   <div class="recurso-name">${escaparHtml(askFile)}</div>
-                  <span class="recurso-btn btn-info">▶ Iniciar</span>
-                </a>
+                  <a class="recurso-btn btn-ask" href="leer_ask.html?root=${encodeURIComponent(rootSinOpos)}&amp;tema=${encodeURIComponent(tema.tema)}&amp;fitxer=${encodeURIComponent(askFile)}">❓ Ask me</a>
+                </div>
               `).join('')}
             </div>
           </div>
