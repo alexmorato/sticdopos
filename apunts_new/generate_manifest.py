@@ -99,6 +99,12 @@ def generate_manifest(base_dir):
                         })
                 continue
 
+            if item.lower() == "svg":
+                svg_files = list_files_with_ext(item_path, ".svg")
+                if svg_files:
+                    tema_data["infografies_svg"] = svg_files
+                continue
+
             if item.upper() == "PDFS":
                 pdf_files = list_files_with_ext(item_path, ".pdf")
                 if pdf_files:
