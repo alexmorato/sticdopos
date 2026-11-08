@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="2360" viewBox="0 0 1400 2360" role="img" aria-labelledby="title description">
+  <title id="title">Model organitzatiu del III Pla d'Igualtat de Barcelona</title>
+  <desc id="description">Òrgans polítics, executius municipals i executius paritaris del Pla d'Igualtat 2020-2023, amb composició, funcions i periodicitat.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .eyebrow { font-size: 19px; font-weight: 700; letter-spacing: 1.2px; }
+      .main-title { font-size: 61px; font-weight: 800; }
+      .subtitle { font-size: 25px; font-weight: 500; }
+      .section-title { font-size: 32px; font-weight: 800; }
+      .section-subtitle { font-size: 18px; font-weight: 500; }
+      .card-title { font-size: 24px; font-weight: 750; }
+      .label { font-size: 15px; font-weight: 800; letter-spacing: 1px; }
+      .body-copy { font-size: 19px; font-weight: 500; }
+      .small-copy { font-size: 17px; font-weight: 500; }
+      .number { font-size: 19px; font-weight: 800; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="2360" fill="#eff5f5"/>
+  <rect x="42" y="38" width="1316" height="222" rx="26" fill="#123d4a"/>
+  <path d="M42 64 Q42 38 68 38 H90 V260 H68 Q42 260 42 234 Z" fill="#e85b74"/>
+  <text x="122" y="92" class="eyebrow" fill="#a9e3d4">AJUNTAMENT DE BARCELONA · 2020–2023</text>
+  <text x="122" y="172" class="main-title" fill="#ffffff">Model organitzatiu</text>
+  <text x="126" y="222" class="subtitle" fill="#d5e8e8">III Pla d'Igualtat d'Oportunitats entre Dones i Homes</text>
+  <circle cx="1285" cy="112" r="37" fill="#e85b74"/>
+  <text x="1285" y="121" text-anchor="middle" font-size="25" font-weight="800" fill="#ffffff">T16</text>
+
+  <circle cx="82" cy="319" r="22" fill="#177d91"/>
+  <text x="82" y="326" text-anchor="middle" class="number" fill="#ffffff">01</text>
+  <text x="120" y="329" class="section-title" fill="#123d4a">ÒRGANS POLÍTICS</text>
+  <text x="120" y="359" class="section-subtitle" fill="#526b72">Quatre òrgans polítics principals</text>
+
+  <g>
+    <rect x="60" y="385" width="625" height="145" rx="17" fill="#ffffff" stroke="#31849a" stroke-width="3"/>
+    <circle cx="106" cy="430" r="22" fill="#dceff2"/>
+    <text x="106" y="437" text-anchor="middle" class="number" fill="#17687c">1</text>
+    <text x="146" y="429" class="card-title" fill="#123d4a">4a Tinència d'Alcaldia</text>
+    <text x="146" y="467" class="small-copy" fill="#405962">Drets Socials, Justícia Global, Feminismes</text>
+    <text x="146" y="496" class="small-copy" fill="#405962">i LGBTI</text>
+
+    <rect x="715" y="385" width="625" height="145" rx="17" fill="#ffffff" stroke="#dd8260" stroke-width="3"/>
+    <circle cx="761" cy="430" r="22" fill="#fbe9df"/>
+    <text x="761" y="437" text-anchor="middle" class="number" fill="#a44e36">2</text>
+    <text x="801" y="426" class="card-title" fill="#123d4a">Regidoria de Comerç, Mercats,</text>
+    <text x="801" y="465" class="card-title" fill="#123d4a">Règim Intern i Hisenda</text>
+
+    <rect x="60" y="550" width="625" height="125" rx="17" fill="#ffffff" stroke="#8a78ad" stroke-width="3"/>
+    <circle cx="106" cy="612" r="22" fill="#eee9f5"/>
+    <text x="106" y="619" text-anchor="middle" class="number" fill="#635184">3</text>
+    <text x="146" y="621" class="card-title" fill="#123d4a">Comissió de Govern</text>
+
+    <rect x="715" y="550" width="625" height="125" rx="17" fill="#ffffff" stroke="#468a68" stroke-width="3"/>
+    <circle cx="761" cy="612" r="22" fill="#e2f0e5"/>
+    <text x="761" y="619" text-anchor="middle" class="number" fill="#286447">4</text>
+    <text x="801" y="621" class="card-title" fill="#123d4a">Ple Municipal</text>
+  </g>
+
+  <circle cx="82" cy="738" r="22" fill="#bf7a2c"/>
+  <text x="82" y="745" text-anchor="middle" class="number" fill="#ffffff">02</text>
+  <text x="120" y="748" class="section-title" fill="#123d4a">ÒRGANS EXECUTIUS MUNICIPALS</text>
+  <text x="120" y="778" class="section-subtitle" fill="#526b72">Execució, supervisió i implementació del Pla</text>
+
+  <g>
+    <rect x="60" y="805" width="625" height="315" rx="20" fill="#ffffff" stroke="#bf7a2c" stroke-width="3"/>
+    <path d="M80 805 H665 Q685 805 685 825 V895 H60 V825 Q60 805 80 805 Z" fill="#bf7a2c"/>
+    <circle cx="105" cy="850" r="22" fill="#ffffff" fill-opacity=".2"/>
+    <text x="105" y="857" text-anchor="middle" class="number" fill="#ffffff">M</text>
+    <text x="145" y="858" class="card-title" fill="#ffffff">Gerència Municipal</text>
+    <text x="100" y="946" class="label" fill="#945a1a">COMPETÈNCIA</text>
+    <text x="100" y="987" class="body-copy" fill="#29434e">Òrgan màxim amb competència per a</text>
+    <text x="100" y="1020" class="body-copy" fill="#29434e">l'execució i la supervisió del Pla</text>
+    <text x="100" y="1053" class="body-copy" fill="#29434e">d'Igualtat.</text>
+
+    <rect x="715" y="805" width="625" height="315" rx="20" fill="#ffffff" stroke="#8874ab" stroke-width="3"/>
+    <path d="M735 805 H1320 Q1340 805 1340 825 V895 H715 V825 Q715 805 735 805 Z" fill="#76649b"/>
+    <circle cx="760" cy="850" r="22" fill="#ffffff" fill-opacity=".2"/>
+    <text x="760" y="857" text-anchor="middle" class="number" fill="#ffffff">P</text>
+    <text x="800" y="846" class="card-title" fill="#ffffff">Gerència de Persones i</text>
+    <text x="800" y="878" font-size="21" font-weight="750" fill="#ffffff">Desenvolupament Organitzatiu</text>
+    <text x="755" y="946" class="label" fill="#635184">IMPLEMENTACIÓ</text>
+    <text x="755" y="987" class="body-copy" fill="#29434e">Mitjançant la Direcció de Serveis</text>
+    <text x="755" y="1020" class="body-copy" fill="#29434e">i Relacions Laborals, a través del</text>
+    <text x="755" y="1053" class="body-copy" fill="#29434e">Departament d'Igualtat.</text>
+  </g>
+
+  <circle cx="82" cy="1175" r="22" fill="#31856c"/>
+  <text x="82" y="1182" text-anchor="middle" class="number" fill="#ffffff">03</text>
+  <text x="120" y="1185" class="section-title" fill="#123d4a">ÒRGANS EXECUTIUS PARITARIS</text>
+  <text x="120" y="1215" class="section-subtitle" fill="#526b72">Representació de l'Administració i dels sindicats</text>
+
+  <g>
+    <rect x="60" y="1242" width="625" height="850" rx="22" fill="#ffffff" stroke="#d66b80" stroke-width="3"/>
+    <path d="M82 1242 H663 Q685 1242 685 1264 V1362 H60 V1264 Q60 1242 82 1242 Z" fill="#c4546b"/>
+    <circle cx="105" cy="1302" r="24" fill="#ffffff" fill-opacity=".2"/>
+    <text x="105" y="1310" text-anchor="middle" class="number" fill="#ffffff">1</text>
+    <text x="148" y="1295" class="card-title" fill="#ffffff">Comissió Paritària de Seguiment</text>
+    <text x="148" y="1330" class="card-title" fill="#ffffff">del III Pla d'Igualtat</text>
+    <text x="100" y="1415" class="label" fill="#a53b56">COMPOSICIÓ</text>
+    <text x="100" y="1455" class="body-copy" fill="#29434e">9 representants de l'Administració</text>
+    <text x="100" y="1488" class="body-copy" fill="#29434e">+ 9 representants sindicals</text>
+    <line x1="100" y1="1518" x2="645" y2="1518" stroke="#e1e8e8" stroke-width="2"/>
+    <text x="100" y="1560" class="label" fill="#a53b56">REUNIÓ ORDINÀRIA</text>
+    <rect x="100" y="1578" width="245" height="48" rx="12" fill="#f9e8ec"/>
+    <text x="222" y="1611" text-anchor="middle" class="body-copy" font-weight="700" fill="#8d2940">Semestral</text>
+    <line x1="100" y1="1650" x2="645" y2="1650" stroke="#e1e8e8" stroke-width="2"/>
+    <text x="100" y="1692" class="label" fill="#a53b56">FUNCIÓ</text>
+    <text x="100" y="1735" class="body-copy" fill="#29434e">Seguiment i aprovació del Pla</text>
+    <rect x="100" y="1840" width="545" height="88" rx="14" fill="#f4f6f7"/>
+    <text x="122" y="1877" class="label" fill="#526b72">CLAU PER RECORDAR</text>
+    <text x="122" y="1910" class="body-copy" fill="#29434e">Composició paritària: 9 + 9</text>
+
+    <rect x="715" y="1242" width="625" height="850" rx="22" fill="#ffffff" stroke="#31856c" stroke-width="3"/>
+    <path d="M737 1242 H1318 Q1340 1242 1340 1264 V1362 H715 V1264 Q715 1242 737 1242 Z" fill="#31856c"/>
+    <circle cx="760" cy="1302" r="24" fill="#ffffff" fill-opacity=".2"/>
+    <text x="760" y="1310" text-anchor="middle" class="number" fill="#ffffff">2</text>
+    <text x="803" y="1295" class="card-title" fill="#ffffff">Comissió Tècnica</text>
+    <text x="803" y="1330" class="card-title" fill="#ffffff">d'Igualtat</text>
+    <text x="755" y="1415" class="label" fill="#287052">COMPOSICIÓ</text>
+    <text x="755" y="1455" class="body-copy" fill="#29434e">6 persones de l'Administració</text>
+    <text x="755" y="1488" class="body-copy" fill="#29434e">+ 6 representants sindicals</text>
+    <line x1="755" y1="1518" x2="1300" y2="1518" stroke="#e1e8e8" stroke-width="2"/>
+    <text x="755" y="1560" class="label" fill="#287052">REUNIÓ ORDINÀRIA</text>
+    <rect x="755" y="1578" width="245" height="48" rx="12" fill="#e5f3e9"/>
+    <text x="877" y="1611" text-anchor="middle" class="body-copy" font-weight="700" fill="#246a50">Mensual</text>
+    <line x1="755" y1="1650" x2="1300" y2="1650" stroke="#e1e8e8" stroke-width="2"/>
+    <text x="755" y="1692" class="label" fill="#287052">FUNCIONS</text>
+    <circle cx="765" cy="1735" r="5" fill="#31856c"/>
+    <text x="785" y="1742" class="small-copy" fill="#29434e">Acompanyar i impulsar la implementació.</text>
+    <circle cx="765" cy="1780" r="5" fill="#31856c"/>
+    <text x="785" y="1787" class="small-copy" fill="#29434e">Informar i assessorar sobre l'aplicació</text>
+    <text x="785" y="1815" class="small-copy" fill="#29434e">de les mesures.</text>
+    <circle cx="765" cy="1850" r="5" fill="#31856c"/>
+    <text x="785" y="1857" class="small-copy" fill="#29434e">Vigilar-ne l'acompliment.</text>
+    <circle cx="765" cy="1895" r="5" fill="#31856c"/>
+    <text x="785" y="1902" class="small-copy" fill="#29434e">Avaluar l'execució i l'impacte del Pla.</text>
+    <rect x="755" y="1950" width="545" height="88" rx="14" fill="#f4f6f7"/>
+    <text x="777" y="1987" class="label" fill="#526b72">CLAU PER RECORDAR</text>
+    <text x="777" y="2020" class="body-copy" fill="#29434e">Composició paritària: 6 + 6</text>
+  </g>
+
+  <rect x="60" y="2140" width="1280" height="125" rx="22" fill="#123d4a"/>
+  <text x="100" y="2188" class="eyebrow" fill="#a9e3d4">RESUM RÀPID</text>
+  <text x="100" y="2232" font-size="24" font-weight="700" fill="#ffffff">4 òrgans polítics</text>
+  <circle cx="375" cy="2222" r="6" fill="#e85b74"/>
+  <text x="410" y="2232" font-size="24" font-weight="700" fill="#ffffff">2 executius municipals</text>
+  <circle cx="770" cy="2222" r="6" fill="#e85b74"/>
+  <text x="805" y="2232" font-size="24" font-weight="700" fill="#ffffff">2 executius paritaris</text>
+  <text x="700" y="2315" text-anchor="middle" font-size="16" fill="#526b72">Font: apartat 3, «Model organitzatiu», pàgines 38–42</text>
+</svg>

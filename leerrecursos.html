@@ -1009,10 +1009,27 @@
             <div class="recursos-list">
               ${tema.recursos.infografies.map((info, idx) => `
                 <div class="recurso-item" id="recurso-info-${tema.tema}-${info.file.replace(/[^a-zA-Z0-9]/g, '_')}" onclick="abrirInfografia('${tema.tema}', '${info.file}')">
-                  <div class="recurso-name">${info.file}</div>
+                  <div class="recurso-name">${info.file.replace(/^info\//i, '')}</div>
                   <button class="recurso-btn btn-info" onclick="event.stopPropagation(); abrirInfografia('${tema.tema}', '${info.file}')">
                     👁️ Veure
                   </button>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // Infografies SVG
+      if (tema.recursos.infografiesSvg.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">🖼️ Infografies SVG</div>
+            <div class="recursos-list">
+              ${tema.recursos.infografiesSvg.map(svgFile => `
+                <div class="recurso-item">
+                  <div class="recurso-name">${escaparHtml(svgFile)}</div>
+                  <a class="recurso-btn btn-info" href="leerinfografia.html?root=${encodeURIComponent(rootSinOpos)}&amp;tema=${encodeURIComponent(tema.tema)}&amp;fitxer=${encodeURIComponent('svg/' + svgFile)}">🖼️ Veure</a>
                 </div>
               `).join('')}
             </div>
@@ -1068,23 +1085,6 @@
                 <div class="recurso-item">
                   <div class="recurso-name">${escaparHtml(pdf)}</div>
                   <a class="recurso-btn btn-info" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">📄 Obrir PDF</a>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        `;
-      }
-
-      // Infografies SVG
-      if (tema.recursos.infografiesSvg.length > 0) {
-        html += `
-          <div class="recursos-section">
-            <div class="recursos-title">🖼️ Infografies SVG</div>
-            <div class="recursos-list">
-              ${tema.recursos.infografiesSvg.map(svgFile => `
-                <div class="recurso-item">
-                  <div class="recurso-name">${escaparHtml(svgFile)}</div>
-                  <a class="recurso-btn btn-info" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/svg/${encodeURIComponent(svgFile)}" target="_blank" rel="noopener noreferrer">🖼️ Obrir</a>
                 </div>
               `).join('')}
             </div>

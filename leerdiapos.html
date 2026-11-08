@@ -10,6 +10,7 @@
   <!-- End Google Tag Manager -->
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Presentación por imágenes</title>
   <style>
     * {
@@ -25,8 +26,12 @@
       padding-top: 20px;
     }
 
+    #slidesContainer {
+      --side-padding: max(0px, calc((100% - 1200px) / 2));
+      padding: 0 var(--side-padding);
+    }
+
     .slide {
-      max-width: 1200px;
       margin: 40px auto;
       box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     }
@@ -162,6 +167,24 @@
       transform: translateY(-1px);
     }
 
+    .padding-controls {
+      display: flex;
+      gap: 10px;
+    }
+
+    .padding-controls button {
+      width: 50%;
+      height: 44px;
+      padding: 0;
+      font-size: 1.5rem;
+    }
+
+    .padding-controls button:disabled {
+      opacity: 0.4;
+      cursor: default;
+      transform: none;
+    }
+
     .btn-pausar-diapos {
       width: 100%;
       padding: 12px;
@@ -288,6 +311,12 @@
     <button class="btn-fullscreen" id="fullscreenBtn">
       ⛶ Pantalla completa
     </button>
+    <div class="padding-controls" role="group" aria-label="Marges laterals">
+      <button class="btn-tornar" id="decreasePaddingBtn" type="button"
+        title="Reduir marges laterals" aria-label="Reduir marges laterals">+</button>
+      <button class="btn-tornar" id="increasePaddingBtn" type="button"
+        title="Augmentar marges laterals" aria-label="Augmentar marges laterals">-</button>
+    </div>
     <button class="btn-tornar" id="tornarBtn">
       ⬅️ Tornar
     </button>
@@ -395,6 +424,23 @@
     const tornarBtn = document.getElementById('tornarBtn');
     const menuIndexBtn = document.getElementById('menuIndexBtn');
     const pausarDiaposBtn = document.getElementById('pausarDiaposBtn');
+
+    const decreasePaddingBtn = document.getElementById('decreasePaddingBtn');
+    const increasePaddingBtn = document.getElementById('increasePaddingBtn');
+    let lateralPadding = parseFloat(getComputedStyle(container).paddingLeft)
+      / container.clientWidth * 100;
+
+    function adjustPadding(change) {
+      lateralPadding = Math.min(40, Math.max(0, lateralPadding + change));
+      container.style.setProperty('--side-padding', `${lateralPadding}%`);
+      decreasePaddingBtn.disabled = lateralPadding === 0;
+      increasePaddingBtn.disabled = lateralPadding === 40;
+    }
+
+    decreasePaddingBtn.disabled = lateralPadding === 0;
+    increasePaddingBtn.disabled = lateralPadding >= 40;
+    decreasePaddingBtn.addEventListener('click', () => adjustPadding(-2));
+    increasePaddingBtn.addEventListener('click', () => adjustPadding(2));
 
     // Función para obtener la diapositiva más visible
     function getVisibleSlideIndex() {

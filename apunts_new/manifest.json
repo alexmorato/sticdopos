@@ -10,9 +10,6 @@
       "md": [
         "T01-constitucion-espanola-1978.md"
       ],
-      "info": [
-        "T01_CE_empara_reforma.jpg"
-      ],
       "urls": [
         {
           "url": "https://youtu.be/PESajUDrALY",
@@ -35,11 +32,15 @@
       ],
       "pdfs": [
         "CE_empara_reforma.pdf",
-        "T01 RESUM - La CE.pdf"
+        "T01 RESUM - La CE.pdf",
+        "T01_FORMAR-TE.pdf"
+      ],
+      "info": [
+        "info/T01_CE_empara_reforma.jpg"
       ],
       "slides": [
         {
-          "dir": "CE_Ppis_rectors_39-55",
+          "dir": "slides/CE_Ppis_rectors_39-55",
           "imgs": [
             "img_01.jpg",
             "img_02.jpg",
@@ -59,7 +60,7 @@
           ]
         },
         {
-          "dir": "T01 - Bloc 2 · Drets de la persona (art. 10–18)",
+          "dir": "slides/T01 - Bloc 2 · Drets de la persona (art. 10–18)",
           "imgs": [
             "img_01.jpg",
             "img_02.jpg",
@@ -78,20 +79,7 @@
           ]
         },
         {
-          "dir": "T01 RESUM - La CE",
-          "imgs": [
-            "img_01.jpg",
-            "img_02.jpg",
-            "img_03.jpg",
-            "img_04.jpg",
-            "img_05.jpg",
-            "img_06.jpg",
-            "img_07.jpg",
-            "img_08.jpg"
-          ]
-        },
-        {
-          "dir": "T01-alex",
+          "dir": "slides/T01-alex",
           "imgs": [
             "img_01.jpg",
             "img_02.jpg",
@@ -113,48 +101,6 @@
             "img_18.jpg",
             "img_19.jpg",
             "img_20.jpg"
-          ]
-        },
-        {
-          "dir": "T01_FORMAR-TE",
-          "imgs": [
-            "img_01.jpg",
-            "img_02.jpg",
-            "img_03.jpg",
-            "img_04.jpg",
-            "img_05.jpg",
-            "img_06.jpg",
-            "img_07.jpg",
-            "img_08.jpg",
-            "img_09.jpg",
-            "img_10.jpg",
-            "img_11.jpg",
-            "img_12.jpg",
-            "img_13.jpg",
-            "img_14.jpg",
-            "img_15.jpg",
-            "img_16.jpg",
-            "img_17.jpg",
-            "img_18.jpg",
-            "img_19.jpg",
-            "img_20.jpg",
-            "img_21.jpg",
-            "img_22.jpg",
-            "img_23.jpg",
-            "img_24.jpg",
-            "img_25.jpg",
-            "img_26.jpg",
-            "img_27.jpg",
-            "img_28.jpg",
-            "img_29.jpg",
-            "img_30.jpg",
-            "img_31.jpg",
-            "img_32.jpg",
-            "img_33.jpg",
-            "img_34.jpg",
-            "img_35.jpg",
-            "img_36.jpg",
-            "img_37.jpg"
           ]
         }
       ]
@@ -1393,13 +1339,14 @@
         "T16_part2_FORMAR-TE.pdf"
       ],
       "infografies_svg": [
-        "T16_organigrama_igualtat.svg"
+        "igualtat_model_organitzatiu.svg"
       ],
       "slides": [
         {
           "dir": "slides/T16 igualtat Alex",
           "imgs": [
             "0_general.jpg",
+            "0_model_organitzatiu.jpg",
             "1_7ambits.jpg",
             "2_conceptes_clau.jpg"
           ]

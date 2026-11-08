@@ -99,6 +99,15 @@ def generate_manifest(base_dir):
                         })
                 continue
 
+            if item.lower() == "info":
+                info_files = list_files_with_ext(item_path, IMG_EXT)
+                if info_files:
+                    tema_data.setdefault("info", []).extend(
+                        os.path.join(item, info_file).replace(os.sep, "/")
+                        for info_file in info_files
+                    )
+                continue
+
             if item.lower() == "svg":
                 svg_files = list_files_with_ext(item_path, ".svg")
                 if svg_files:
@@ -126,6 +135,9 @@ def generate_manifest(base_dir):
 
         if slides:
             tema_data["slides"] = slides
+
+        if tema_data.get("info"):
+            tema_data["info"] = sorted(set(tema_data["info"]))
 
         # Solo añadir el tema si tiene contenido relevante
         if tema_data:
