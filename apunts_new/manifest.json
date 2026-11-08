@@ -1309,11 +1309,14 @@
     },
     "T16": {
       "md": [
-        "T16-Alex.md"
+        "T16-Alex_igualtat.md"
       ],
       "tts": [
         "T16-Alex.tts",
-        "T16-Alex_2.tts"
+        "T16-Alex_Igualtat_2.tts",
+        "T16-Alex_RPGD_7drets.tts",
+        "T16-Alex_RPGD_7ppis.tts",
+        "T16-Alex_RPGD_general.tts"
       ],
       "urls": [
         {
@@ -1353,6 +1356,13 @@
         "igualtat_model_organitzatiu.svg"
       ],
       "slides": [
+        {
+          "dir": "slides/T16 RGPD Alex",
+          "imgs": [
+            "0_RPGD_general.jpg",
+            "1_RGPD_detall.jpg"
+          ]
+        },
         {
           "dir": "slides/T16 igualtat Alex",
           "imgs": [
