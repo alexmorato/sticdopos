@@ -237,7 +237,8 @@
       transition: all 0.2s;
       white-space: nowrap;
     }
-    a.recurso-btn {
+    a.recurso-btn,
+    a.recurso-item > .recurso-btn {
       display: block;
       box-sizing: border-box;
       max-width: 100%;
@@ -696,6 +697,15 @@
 
     // Guardar último recurso clicado
     function guardarUltimoRecursoClicado(tipo, temaId, identificador) {
+      document.querySelectorAll('.recurso-item.destacado').forEach(recurso => {
+        recurso.classList.remove('destacado');
+      });
+      const recursoElement = document.getElementById(`recurso-${tipo}-${temaId}-${identificador}`);
+      if (recursoElement) {
+        recursoElement.classList.add('destacado');
+        recursoElement.tabIndex = -1;
+        recursoElement.focus({ preventScroll: true });
+      }
       const recursoData = {
         tipo: tipo,
         temaId: temaId,
@@ -1007,11 +1017,11 @@
           <div class="recursos-section">
             <div class="recursos-title">📄 PDFs</div>
             <div class="recursos-list">
-              ${tema.recursos.pdfs.map(pdf => `
-                <div class="recurso-item">
+              ${tema.recursos.pdfs.map((pdf, idx) => `
+                <a class="recurso-item" id="recurso-pdf-${tema.tema}-${idx}" onclick="guardarUltimoRecursoClicado('pdf', ${escaparHtml(JSON.stringify(tema.tema))}, ${idx})" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">
                   <div class="recurso-name">${escaparHtml(pdf)}</div>
-                  <a class="recurso-btn btn-info" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">📄 Obrir PDF</a>
-                </div>
+                  <span class="recurso-btn btn-info">📄 Obrir PDF</span>
+                </a>
               `).join('')}
             </div>
           </div>
@@ -1043,11 +1053,11 @@
           <div class="recursos-section">
             <div class="recursos-title">🖼️ Infografies SVG</div>
             <div class="recursos-list">
-              ${tema.recursos.infografiesSvg.map(svgFile => `
-                <div class="recurso-item">
+              ${tema.recursos.infografiesSvg.map((svgFile, idx) => `
+                <a class="recurso-item" id="recurso-svg-${tema.tema}-${idx}" onclick="guardarUltimoRecursoClicado('svg', ${escaparHtml(JSON.stringify(tema.tema))}, ${idx})" href="leerinfografia.html?root=${encodeURIComponent(rootSinOpos)}&amp;tema=${encodeURIComponent(tema.tema)}&amp;fitxer=${encodeURIComponent('svg/' + svgFile)}">
                   <div class="recurso-name">${escaparHtml(svgFile)}</div>
-                  <a class="recurso-btn btn-info" href="leerinfografia.html?root=${encodeURIComponent(rootSinOpos)}&amp;tema=${encodeURIComponent(tema.tema)}&amp;fitxer=${encodeURIComponent('svg/' + svgFile)}">🖼️ Veure</a>
-                </div>
+                  <span class="recurso-btn btn-info">🖼️ Veure</span>
+                </a>
               `).join('')}
             </div>
           </div>
@@ -1098,11 +1108,11 @@
           <div class="recursos-section">
             <div class="recursos-title">❓ Ask</div>
             <div class="recursos-list">
-              ${tema.recursos.ask.map(askFile => `
-                <div class="recurso-item">
+              ${tema.recursos.ask.map((askFile, idx) => `
+                <a class="recurso-item" id="recurso-ask-${tema.tema}-${idx}" onclick="guardarUltimoRecursoClicado('ask', ${escaparHtml(JSON.stringify(tema.tema))}, ${idx})" href="leer_ask.html?root=${encodeURIComponent(rootSinOpos)}&amp;tema=${encodeURIComponent(tema.tema)}&amp;fitxer=${encodeURIComponent(askFile)}">
                   <div class="recurso-name">${escaparHtml(askFile)}</div>
-                  <a class="recurso-btn btn-ask" href="leer_ask.html?root=${encodeURIComponent(rootSinOpos)}&amp;tema=${encodeURIComponent(tema.tema)}&amp;fitxer=${encodeURIComponent(askFile)}">❓ Ask me</a>
-                </div>
+                  <span class="recurso-btn btn-ask">❓ Ask me</span>
+                </a>
               `).join('')}
             </div>
           </div>
