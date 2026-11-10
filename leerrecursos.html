@@ -766,6 +766,16 @@
             });
           }
 
+          // PDFs
+          if (temaData.pdfs && temaData.pdfs.length > 0) {
+            recursos.pdfs = temaData.pdfs;
+          }
+
+          // Infografies SVG
+          if (temaData.infografies_svg && temaData.infografies_svg.length > 0) {
+            recursos.infografiesSvg = temaData.infografies_svg;
+          }
+
           // Infografies (info)
           if (temaData.info && temaData.info.length > 0) {
             temaData.info.forEach((info, idx) => {
@@ -794,16 +804,6 @@
                 file: tts
               });
             });
-          }
-
-          // PDFs
-          if (temaData.pdfs && temaData.pdfs.length > 0) {
-            recursos.pdfs = temaData.pdfs;
-          }
-
-          // Infografies SVG
-          if (temaData.infografies_svg && temaData.infografies_svg.length > 0) {
-            recursos.infografiesSvg = temaData.infografies_svg;
           }
 
           // Ask
@@ -1001,6 +1001,23 @@
         `;
       }
 
+      // PDFs
+      if (tema.recursos.pdfs.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">📄 PDFs</div>
+            <div class="recursos-list">
+              ${tema.recursos.pdfs.map(pdf => `
+                <div class="recurso-item">
+                  <div class="recurso-name">${escaparHtml(pdf)}</div>
+                  <a class="recurso-btn btn-info" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">📄 Obrir PDF</a>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
       // Infografías
       if (tema.recursos.infografies.length > 0) {
         html += `
@@ -1068,23 +1085,6 @@
                   <button class="recurso-btn btn-tts" onclick="event.stopPropagation(); abrirTTS('${tema.tema}', '${tts.file}')">
                     🔊 Escoltar
                   </button>
-                </div>
-              `).join('')}
-            </div>
-          </div>
-        `;
-      }
-
-      // PDFs
-      if (tema.recursos.pdfs.length > 0) {
-        html += `
-          <div class="recursos-section">
-            <div class="recursos-title">📄 PDFs</div>
-            <div class="recursos-list">
-              ${tema.recursos.pdfs.map(pdf => `
-                <div class="recurso-item">
-                  <div class="recurso-name">${escaparHtml(pdf)}</div>
-                  <a class="recurso-btn btn-info" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/PDFS/${encodeURIComponent(pdf)}" target="_blank" rel="noopener noreferrer">📄 Obrir PDF</a>
                 </div>
               `).join('')}
             </div>
