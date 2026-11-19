@@ -552,7 +552,8 @@
     const url = viewerParams.get('url') || localStorage.getItem(LS_KEYS.IFRAME_URL);
     const name = viewerParams.get('name') || localStorage.getItem(LS_KEYS.IFRAME_NAME);
     const tema = localStorage.getItem(LS_KEYS.IFRAME_TEMA);
-    const type = localStorage.getItem(LS_KEYS.IFRAME_TYPE) || 'web';
+    const type = viewerParams.get('type') ||
+      (viewerParams.has('url') ? 'web' : localStorage.getItem(LS_KEYS.IFRAME_TYPE) || 'web');
     const originUrl = localStorage.getItem(LS_KEYS.IFRAME_ORIGIN) || '';
     const notesText = localStorage.getItem(LS_KEYS.IFRAME_NOTES) || '';
 
