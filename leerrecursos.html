@@ -227,6 +227,17 @@
       color: #e7ecff;
       flex: 1;
     }
+    .recurso-item-static {
+      cursor: default;
+    }
+    .recurso-tag {
+      padding: 6px 12px;
+      border-radius: 6px;
+      background: #2a5f8a;
+      color: #e7ecff;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
     .recurso-btn {
       padding: 6px 16px;
       border-radius: 6px;
@@ -745,6 +756,7 @@
         const temaId = tema.tema;
         const recursos = {
           slides: [],
+          htmls: [],
           infografies: [],
           apunts: [],
           tts: [],
@@ -774,6 +786,11 @@
                 imgs: slideGroup.imgs
               });
             });
+          }
+
+          // HTML
+          if (temaData.htmls && temaData.htmls.length > 0) {
+            recursos.htmls = temaData.htmls;
           }
 
           // PDFs
@@ -935,6 +952,7 @@
 
       const totalRecursos = 
         tema.recursos.slides.length + 
+        tema.recursos.htmls.length +
         tema.recursos.infografies.length + 
         tema.recursos.apunts.length + 
         tema.recursos.tts.length + 
@@ -946,6 +964,7 @@
 
       const summary = [];
       if (tema.recursos.slides.length > 0) summary.push(`📊 ${tema.recursos.slides.length} presentació${tema.recursos.slides.length > 1 ? 'ns' : ''}`);
+      if (tema.recursos.htmls.length > 0) summary.push(`🌐 ${tema.recursos.htmls.length} HTML${tema.recursos.htmls.length > 1 ? 's' : ''}`);
       if (tema.recursos.infografies.length > 0) summary.push(`🖼️ ${tema.recursos.infografies.length} infografia${tema.recursos.infografies.length > 1 ? 'es' : ''}`);
       if (tema.recursos.apunts.length > 0) summary.push(`📝 ${tema.recursos.apunts.length} apunt${tema.recursos.apunts.length > 1 ? 's' : ''}`);
       if (tema.recursos.tts.length > 0) summary.push(`🔊 ${tema.recursos.tts.length} text TTS${tema.recursos.tts.length > 1 ? 'os' : ''}`);
@@ -1005,6 +1024,23 @@
                     👁️ Veure
                   </button>
                 </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // HTML
+      if (tema.recursos.htmls.length > 0) {
+        html += `
+          <div class="recursos-section">
+            <div class="recursos-title">🌐 Recursos HTML</div>
+            <div class="recursos-list">
+              ${tema.recursos.htmls.map((htmlFile, idx) => `
+                <a class="recurso-item" id="recurso-html-${tema.tema}-${idx}" onclick="guardarUltimoRecursoClicado('html', ${escaparHtml(JSON.stringify(tema.tema))}, ${idx})" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/htmls/${encodeURIComponent(htmlFile)}" target="_blank" rel="noopener noreferrer">
+                  <div class="recurso-name">${escaparHtml(htmlFile)}</div>
+                  <span class="recurso-tag">↗ Abrir HTML</span>
+                </a>
               `).join('')}
             </div>
           </div>

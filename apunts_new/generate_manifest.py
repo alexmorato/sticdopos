@@ -10,6 +10,7 @@ OUTPUT_FILE = "apunts_new/manifest.json"
 MD_EXT = ".md"
 IMG_EXT = ".jpg"
 TTS_EXT = ".tts"
+HTML_EXT = ".html"
 URL_MANIFEST = "manifest_url.json"
 
 # =========================
@@ -118,6 +119,12 @@ def generate_manifest(base_dir):
                 pdf_files = list_files_with_ext(item_path, ".pdf")
                 if pdf_files:
                     tema_data["pdfs"] = pdf_files
+                continue
+
+            if item.lower() == "htmls":
+                html_files = list_files_with_ext(item_path, HTML_EXT)
+                if html_files:
+                    tema_data["htmls"] = html_files
                 continue
 
             if item.lower() == "asks":
