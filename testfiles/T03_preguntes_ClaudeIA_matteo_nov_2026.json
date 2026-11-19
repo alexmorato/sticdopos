@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "6ac9423d-3de2-4071-bf6d-3ed37da7e29b",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina d'aquestes funcions NO atribueix l'art. 66.2 de la Constitució a les Corts Generals?",
+    "answerOptions": [
+      {
+        "text": "Exercir la potestat legislativa de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la primera funció que l'art. 66.2 CE atribueix a les Corts Generals."
+      },
+      {
+        "text": "Dirigir la política interior i l'exterior.",
+        "isCorrect": true,
+        "rationale": "Correcta. Dirigir la política interior i exterior, l'Administració civil i militar i la defensa de l'Estat correspon al Govern (art. 97 CE). L'art. 66.2 atribueix a les Corts Generals la potestat legislativa, els Pressupostos i el control del Govern."
+      },
+      {
+        "text": "Aprovar els Pressupostos de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 66.2 CE atribueix a les Corts Generals l'aprovació dels Pressupostos."
+      },
+      {
+        "text": "Controlar l'acció del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El control del Govern és una funció de l'art. 66.2 CE, que s'exerceix per les vies del Títol V (relacions Govern–Corts)."
+      }
+    ],
+    "hint": "Pensa en el que fa el Govern (art. 97 CE) i no pas les Corts."
+  },
+  {
+    "guid": "836109e2-7273-4dd8-ac83-9c0c851032cc",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 67.3 de la Constitució, una reunió de parlamentaris celebrada sense convocatòria reglamentària:",
+    "answerOptions": [
+      {
+        "text": "Vincula la cambra si hi assisteix la majoria dels seus membres, tot i que no hagi estat convocada reglamentàriament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 67.3 CE nega efecte vinculant a aquestes reunions encara que hi assisteixi la majoria; el quòrum de l'art. 79.1 CE només val per a sessions reglamentàriament reunides."
+      },
+      {
+        "text": "Esdevé vàlida si la Mesa de la cambra la ratifica en la primera sessió plenària que se celebri posteriorment.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 67.3 CE no preveu cap ratificació posterior per la Mesa: la reunió no vincula les cambres."
+      },
+      {
+        "text": "Produeix efectes jurídics si els acords s'adopten per majoria absoluta dels parlamentaris que hi assisteixen.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La majoria no esmena la manca de convocatòria reglamentària; l'art. 67.3 CE no hi atribueix cap efecte."
+      },
+      {
+        "text": "No vincula les cambres, i els qui hi participen no poden exercir-hi funcions ni gaudir dels privilegis del càrrec.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 67.3 CE disposa que aquestes reunions no vinculen les cambres i que els parlamentaris no hi poden exercir les seves funcions ni ostentar-hi els seus privilegis."
+      }
+    ],
+    "hint": "Art. 67.3 CE: cal convocatòria reglamentària perquè la reunió tingui efectes."
+  },
+  {
+    "guid": "aaa731e6-0648-4daf-a222-2dfac2505fe9",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Dins de la forquilla que fixa l'art. 68.1 de la Constitució, quants diputats integren el Congrés segons la LOREG (art. 162.1)?",
+    "answerOptions": [
+      {
+        "text": "350 diputats.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 162.1 de la LOREG fixa 350 diputats: 2 de mínim inicial per província (art. 162.2), 1 per a Ceuta i 1 per a Melilla, i els 248 restants repartits en proporció a la població."
+      },
+      {
+        "text": "300 diputats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el mínim que permet l'art. 68.1 CE, no el nombre que fixa la LOREG."
+      },
+      {
+        "text": "325 diputats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquesta xifra no apareix ni a la Constitució ni a la LOREG."
+      },
+      {
+        "text": "400 diputats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el màxim que permet l'art. 68.1 CE, no el nombre que fixa la LOREG."
+      }
+    ],
+    "hint": "La Constitució dona una forquilla; la LOREG concreta el nombre exacte."
+  },
+  {
+    "guid": "43327b4a-c778-497f-bf92-e1fde7918524",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 68.2 de la Constitució, la llei electoral ha de distribuir els diputats entre les circumscripcions:",
+    "answerOptions": [
+      {
+        "text": "Assignant el mateix nombre de diputats a cada província, amb independència de la seva població respectiva.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 68.2 CE només fixa un mínim inicial igual; la resta es reparteix segons la població."
+      },
+      {
+        "text": "Repartint-los només en proporció a la població, sense garantir cap representació mínima a cap circumscripció.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 68.2 CE exigeix expressament una representació mínima inicial per a cada circumscripció."
+      },
+      {
+        "text": "Assignant una representació mínima inicial a cada circumscripció i repartint la resta segons la població.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 68.2 CE combina un mínim inicial per circumscripció amb el repartiment proporcional de la resta; la LOREG el concreta en 2 diputats per província (art. 162.2)."
+      },
+      {
+        "text": "Assignant un diputat per cada milió d'habitants de cada comunitat autònoma, amb dos més per província.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La circumscripció és la província (art. 68.2 CE), no la comunitat autònoma; la fórmula «1 + 1 per milió» és la dels senadors autonòmics (art. 69.5)."
+      }
+    ],
+    "hint": "Dues peces: una base igual per a tothom i un repartiment proporcional."
+  },
+  {
+    "guid": "ce9d7158-a53d-494e-a84e-77ccdec9e882",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 68.6 de la Constitució, el Congrés electe ha de ser convocat:",
+    "answerOptions": [
+      {
+        "text": "Dins dels quinze dies següents a la proclamació oficial dels resultats electorals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Quinze dies és el termini de sanció de les lleis pel Rei (art. 91 CE); el de l'art. 68.6 és de vint-i-cinc dies des de la celebració de les eleccions."
+      },
+      {
+        "text": "Dins dels vint-i-cinc dies següents a la celebració de les eleccions.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 68.6 CE: el Congrés electe s'ha de convocar dins dels vint-i-cinc dies següents a les eleccions, que se celebren entre trenta i seixanta dies després de la fi del mandat."
+      },
+      {
+        "text": "Dins dels trenta dies següents a la celebració de les eleccions.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Trenta dies és el mínim de la forquilla per celebrar les eleccions (entre trenta i seixanta dies des de la fi del mandat), no el termini per convocar el Congrés electe."
+      },
+      {
+        "text": "Dins dels seixanta dies següents a la finalització de la legislatura anterior.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Seixanta dies és el màxim de la forquilla per celebrar les eleccions des de la fi del mandat, no el termini per convocar el Congrés electe."
+      }
+    ],
+    "hint": "Art. 68.6 CE. Distingeix el termini per convocar el Congrés electe del termini per celebrar les eleccions."
+  },
+  {
+    "guid": "c5af0cb5-34df-4b96-ae4b-3e1b76cf5312",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quants senadors elegeixen les ciutats de Ceuta i Melilla, segons l'art. 69.4 de la Constitució?",
+    "answerOptions": [
+      {
+        "text": "Dos cadascuna, el doble que al Congrés.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 69.4 CE assigna dos senadors a cada ciutat; al Congrés cadascuna en té un (art. 68.2 CE)."
+      },
+      {
+        "text": "Un cadascuna, igual que al Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquesta és la representació que tenen al Congrés (art. 68.2 CE), no al Senat."
+      },
+      {
+        "text": "Cap: només estan representades al Congrés dels Diputats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 69.4 CE els reconeix representació pròpia al Senat, amb dos senadors cadascuna."
+      },
+      {
+        "text": "Quatre cadascuna, com les províncies.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Quatre senadors és la representació de cada província (art. 69.2 CE)."
+      }
+    ],
+    "hint": "Al Congrés en té una cadascuna; al Senat la xifra és diferent."
+  },
+  {
+    "guid": "aaa50eb4-daeb-47b4-b9f5-30632bf658d7",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Com es designen els senadors que corresponen a cada comunitat autònoma segons l'art. 69.5 de la Constitució?",
+    "answerOptions": [
+      {
+        "text": "Els elegeix directament el cos electoral de la comunitat en una circumscripció única, per sufragi universal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els senadors autonòmics no són d'elecció directa: són designats per l'assemblea legislativa (art. 69.5 CE)."
+      },
+      {
+        "text": "Els nomena el Govern de la comunitat autònoma a proposta del seu president, amb ratificació de l'assemblea.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 69.5 CE atribueix la designació a l'assemblea legislativa, no al Govern autonòmic."
+      },
+      {
+        "text": "Els designa el Senat per majoria absoluta, a proposta del Govern de l'Estat i del de la comunitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Senat no designa els senadors autonòmics; ho fa l'òrgan legislatiu de la comunitat (art. 69.5 CE)."
+      },
+      {
+        "text": "Els designa l'assemblea legislativa de la comunitat o, en defecte, el seu òrgan col·legiat superior.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 69.5 CE atribueix la designació a l'assemblea legislativa o, en defecte, a l'òrgan col·legiat superior, d'acord amb l'Estatut, que n'ha d'assegurar l'adequada representació proporcional."
+      }
+    ],
+    "hint": "Cada comunitat n'designa un més un per milió d'habitants; qui els designa?"
+  },
+  {
+    "guid": "4886070e-acae-4349-8517-7362f77b4b23",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin d'aquests càrrecs NO figura entre els que l'art. 70.1 de la Constitució fa inelegibles i incompatibles en tot cas amb l'escó de diputat o senador?",
+    "answerOptions": [
+      {
+        "text": "Els magistrats del Tribunal Constitucional en actiu.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els components del Tribunal Constitucional figuren a l'art. 70.1.a CE."
+      },
+      {
+        "text": "Els membres de les juntes electorals competents.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els membres de les juntes electorals figuren a l'art. 70.1.f CE."
+      },
+      {
+        "text": "Els membres del Govern, com ara els ministres.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 70.1.b CE inclou els alts càrrecs de l'Administració de l'Estat que determini la llei, amb l'excepció dels membres del Govern, que poden ser diputats o senadors."
+      },
+      {
+        "text": "Els militars professionals en situació d'actiu.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els militars professionals i els membres dels cossos de seguretat i policia en actiu figuren a l'art. 70.1.e CE."
+      }
+    ],
+    "hint": "L'art. 70.1.b exceptua expressament un col·lectiu d'alts càrrecs."
+  },
+  {
+    "guid": "1e86d9bc-7bfb-4b43-b57d-400607b289a8",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 71.2 de la Constitució, durant el seu mandat els diputats i senadors només poden ser detinguts:",
+    "answerOptions": [
+      {
+        "text": "Si ho ordena la Sala Penal del Tribunal Suprem, amb comunicació immediata a la cambra respectiva.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Sala Penal del Tribunal Suprem és competent per jutjar-los (art. 71.3 CE), però no pot ordenar-ne la detenció fora del flagrant delicte."
+      },
+      {
+        "text": "En cas de flagrant delicte; per inculpar-los o processar-los cal l'autorització prèvia de la cambra.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 71.2 CE només permet detenir-los en cas de flagrant delicte, i exigeix l'autorització prèvia de la cambra respectiva (suplicatori) per inculpar-los o processar-los."
+      },
+      {
+        "text": "Amb l'autorització prèvia de la Mesa de la cambra respectiva, que ha de resoldre en el termini d'un mes.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 71.2 CE no preveu cap autorització de la Mesa per detenir-los; l'autorització de la cambra es refereix a la inculpació i el processament."
+      },
+      {
+        "text": "Quan ho decideixi un jutge instructor, que n'ha d'informar la cambra en les quaranta-vuit hores següents.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Fora del flagrant delicte la detenció no és possible durant el mandat, ni tan sols amb comunicació posterior a la cambra."
+      }
+    ],
+    "hint": "La immunitat parlamentària té dues cares: detenció i processament."
+  },
+  {
+    "guid": "4be9e2a5-4e7b-418a-8f45-e41924486d30",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 72.1 de la Constitució, la reforma del reglament d'una cambra requereix una votació final sobre la totalitat que exigeix:",
+    "answerOptions": [
+      {
+        "text": "Majoria simple.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La majoria simple és la regla general d'adopció d'acords (art. 79.2 CE), però no la de l'art. 72.1."
+      },
+      {
+        "text": "Majoria de tres cinquenes parts.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les tres cinquenes parts s'exigeixen per elegir el Defensor del Poble o els consellers de comptes, no per reformar els reglaments."
+      },
+      {
+        "text": "Majoria de dos terços.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 72.1 CE no exigeix majoria de dos terços per reformar els reglaments."
+      },
+      {
+        "text": "Majoria absoluta.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 72.1 CE exigeix, per als reglaments i la seva reforma, una votació final sobre el conjunt per majoria absoluta."
+      }
+    ],
+    "hint": "Els reglaments i la seva reforma segueixen la mateixa majoria."
+  },
+  {
+    "guid": "c2a1acf1-8413-45bb-8bf9-0d77490eb79b",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Qui presideix les sessions conjuntes de les Corts Generals, segons l'art. 72.2 de la Constitució?",
+    "answerOptions": [
+      {
+        "text": "El president del Congrés dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 72.2 CE: les sessions conjuntes les presideix el president del Congrés i es regeixen per un Reglament de les Corts Generals aprovat per majoria absoluta de cada cambra."
+      },
+      {
+        "text": "El president del Senat, per ser la cambra territorial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les sessions conjuntes les presideix el president del Congrés, no el del Senat."
+      },
+      {
+        "text": "El president del Govern, amb vot de qualitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El president del Govern no forma part de les Corts ni en presideix les sessions."
+      },
+      {
+        "text": "El Rei, com a cap de l'Estat i de les Corts.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Rei no presideix les sessions conjuntes ni és cap de les Corts Generals."
+      }
+    ],
+    "hint": "Les presideix el president d'una de les dues cambres, no del Govern."
+  },
+  {
+    "guid": "422cabc1-154d-4d71-a5fd-2eaa346ff0aa",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina és la composició de la Mesa del Senat segons el seu Reglament (art. 5.1)?",
+    "answerOptions": [
+      {
+        "text": "Un president, quatre vicepresidents i quatre secretaris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la composició de la Mesa del Congrés (art. 30 del seu Reglament), no la del Senat."
+      },
+      {
+        "text": "Un president, dos vicepresidents i dos secretaris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Mesa del Senat té quatre secretaris, no dos."
+      },
+      {
+        "text": "Un president, dos vicepresidents i quatre secretaris.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 5.1 del Reglament del Senat fixa un president, dos vicepresidents i quatre secretaris."
+      },
+      {
+        "text": "Un president, tres vicepresidents i quatre secretaris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Mesa del Senat té dos vicepresidents, no tres."
+      }
+    ],
+    "hint": "Compara-la amb la del Congrés: tenen el mateix nombre de secretaris però no de vicepresidents."
+  },
+  {
+    "guid": "785a1112-296a-40ad-8b7f-67679b6b7797",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin és el nombre mínim de senadors necessaris per constituir un grup parlamentari propi al Senat, segons el seu Reglament (art. 27.1)?",
+    "answerOptions": [
+      {
+        "text": "Quinze senadors, com al Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Quinze és el mínim de diputats per formar grup al Congrés (art. 23 del seu Reglament), no al Senat."
+      },
+      {
+        "text": "Deu senadors.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 27.1 del Reglament del Senat exigeix, almenys, deu senadors per constituir grup parlamentari."
+      },
+      {
+        "text": "Vint senadors.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 27.1 del Reglament del Senat no n'exigeix vint."
+      },
+      {
+        "text": "Cinc senadors.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 27.1 del Reglament del Senat fixa el mínim en deu senadors, no en cinc."
+      }
+    ],
+    "hint": "No és el mateix que al Congrés."
+  },
+  {
+    "guid": "af261e15-5599-43f8-af22-b5c792b9ab32",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quins són els períodes ordinaris de sessions de les cambres, segons l'art. 73.1 de la Constitució?",
+    "answerOptions": [
+      {
+        "text": "El primer, de setembre a desembre, i el segon, de febrer a juny.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 73.1 CE fixa dos períodes ordinaris: de setembre a desembre i de febrer a juny."
+      },
+      {
+        "text": "El primer, d'octubre a gener, i el segon, de març a juliol.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els mesos no coincideixen amb els de l'art. 73.1 CE."
+      },
+      {
+        "text": "El primer, de setembre a gener, i el segon, de març a juny.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 73.1 CE no estén el primer període fins al gener ni obre el segon al març."
+      },
+      {
+        "text": "El primer, de setembre a desembre, i el segon, de gener a juliol.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El segon període va de febrer a juny, no de gener a juliol."
+      }
+    ],
+    "hint": "Dos períodes: un de tardor i un de primavera."
+  },
+  {
+    "guid": "dd3b560c-9cf6-4b88-9471-43a45686698f",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 73.2 de la Constitució, les cambres es poden reunir en sessions extraordinàries a petició:",
+    "answerOptions": [
+      {
+        "text": "Del Govern, de la Diputació Permanent o d'una cinquena part dels membres de qualsevol de les cambres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 73.2 CE exigeix la majoria absoluta dels membres, no una cinquena part."
+      },
+      {
+        "text": "Del president del Govern o de dos grups parlamentaris, amb l'ordre del dia que fixi la Junta de Portaveus.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els grups parlamentaris no estan legitimats per l'art. 73.2 CE, i l'ordre del dia ha de ser determinat en la convocatòria."
+      },
+      {
+        "text": "De la Mesa de la cambra, a proposta de la majoria simple dels grups parlamentaris representats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Mesa no figura entre els legitimats per l'art. 73.2 CE."
+      },
+      {
+        "text": "Del Govern, de la Diputació Permanent o de la majoria absoluta dels membres de qualsevol de les cambres.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 73.2 CE legitima el Govern, la Diputació Permanent i la majoria absoluta dels membres de qualsevol de les cambres; l'ordre del dia ha de ser determinat."
+      }
+    ],
+    "hint": "Tres legitimats; fixa't en la majoria que s'exigeix als membres de la cambra."
+  },
+  {
+    "guid": "69add3d4-d24d-4037-b879-fd56e1248518",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin d'aquests textos NO es pot aprovar per delegació en una comissió legislativa permanent, segons l'art. 75.3 de la Constitució?",
+    "answerOptions": [
+      {
+        "text": "Un projecte de llei ordinària presentat pel Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els projectes de llei ordinària es poden delegar en les comissions legislatives permanents (art. 75.2 CE)."
+      },
+      {
+        "text": "Una proposició de llei ordinària d'un grup parlamentari.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les proposicions de llei ordinària també es poden delegar (art. 75.2 CE); el Ple pot recabar-ne el debat en qualsevol moment."
+      },
+      {
+        "text": "Els Pressupostos Generals de l'Estat.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 75.3 CE exclou de la delegació la reforma constitucional, les qüestions internacionals, les lleis orgàniques i de bases i els Pressupostos Generals de l'Estat."
+      },
+      {
+        "text": "Una proposició de llei ordinària d'una assemblea autonòmica.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 75.2 CE permet delegar tant projectes com proposicions de llei, sempre que no siguin de les matèries de l'art. 75.3."
+      }
+    ],
+    "hint": "Art. 75.3 CE. Hi ha una llista tancada de matèries excloses de la delegació; una d'elles és una funció financera de les Corts."
+  },
+  {
+    "guid": "9431c632-fab2-4df1-80f2-f54fe3ccac6f",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quan les cambres s'han dissolt o ha expirat el seu mandat, segons l'art. 78.3 de la Constitució les Diputacions Permanents:",
+    "answerOptions": [
+      {
+        "text": "Cessen amb la cambra i les seves facultats passen al Govern en funcions fins a les noves eleccions.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Precisament per evitar un buit de poder, les Diputacions Permanents continuen en funcions (art. 78.3 CE)."
+      },
+      {
+        "text": "Continuen exercint les seves funcions fins a la constitució de les noves Corts Generals.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 78.3 CE: expirat el mandat o dissoltes les cambres, les Diputacions Permanents continuen exercint les funcions fins que es constitueixin les noves Corts Generals (i assumeixen les facultats dels arts. 86 i 116, art. 78.2)."
+      },
+      {
+        "text": "Es fusionen en una única Diputació Permanent de les Corts, presidida pel president del Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Hi ha una Diputació Permanent a cada cambra (art. 78.1 CE), presidida pel president de la cambra respectiva (art. 78.2)."
+      },
+      {
+        "text": "Només mantenen la funció de vetllar pels poders de la cambra, sense assumir les facultats dels arts. 86 i 116.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 78.2 CE els atribueix justament les facultats dels arts. 86 (decrets llei) i 116 (estats excepcionals) si les cambres són dissoltes o ha expirat el mandat."
+      }
+    ],
+    "hint": "Hi ha una Diputació Permanent a cada cambra; què passa amb la seva vigència?"
+  },
+  {
+    "guid": "1f9a43d3-be73-4323-b422-1238c4b8107e",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 76.1 de la Constitució, les conclusions de les comissions d'investigació:",
+    "answerOptions": [
+      {
+        "text": "Vinculen els tribunals, que les han de tenir en compte en els procediments judicials oberts sobre els mateixos fets.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 76.1 CE nega expressament que vinculin els tribunals."
+      },
+      {
+        "text": "Només vinculen els tribunals quan el Ple de la cambra les aprova per majoria absoluta, i no es comuniquen al Ministeri Fiscal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cap majoria les fa vinculants, i l'art. 76.1 CE preveu la comunicació al Ministeri Fiscal."
+      },
+      {
+        "text": "Són secretes i només es comuniquen al Govern, sense possibilitat de remetre-les al Ministeri Fiscal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 76.1 CE no les declara secretes i n'admet la comunicació al Ministeri Fiscal."
+      },
+      {
+        "text": "No vinculen els tribunals ni afecten les resolucions judicials, però es poden comunicar al Ministeri Fiscal.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 76.1 CE: les conclusions no vinculen els tribunals ni afecten les resolucions judicials, sense perjudici que el resultat es comuniqui al Ministeri Fiscal perquè exerceixi, si escau, les accions oportunes."
+      }
+    ],
+    "hint": "Art. 76.1 CE. Distingeix entre l'efecte sobre els tribunals i la comunicació al Ministeri Fiscal."
+  },
+  {
+    "guid": "c87a3d75-e5fa-4cf6-9312-20ebde35f10b",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 77.1 de la Constitució, el dret de petició davant les cambres:",
+    "answerOptions": [
+      {
+        "text": "Admet peticions individuals i col·lectives, sempre per escrit, i en prohibeix la presentació directa per manifestacions.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 77.1 CE admet peticions individuals i col·lectives, sempre per escrit, i prohibeix la presentació directa mitjançant manifestacions ciutadanes."
+      },
+      {
+        "text": "Només es pot exercir de manera individual, i les peticions es poden presentar oralment davant les comissions de la cambra.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 77.1 CE admet també peticions col·lectives, i exigeix que sempre siguin per escrit."
+      },
+      {
+        "text": "Permet rebre peticions individuals i col·lectives, per escrit o mitjançant manifestacions davant la seu de la cambra.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La presentació directa per manifestacions ciutadanes està expressament prohibida (art. 77.1 CE)."
+      },
+      {
+        "text": "Només es pot exercir a través d'un diputat o senador, que ha de fer seva la petició i defensar-la davant el Ple.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 77.1 CE no exigeix cap intermediació parlamentària: les cambres reben les peticions directament."
+      }
+    ],
+    "hint": "Hi ha una forma obligatòria i una modalitat expressament prohibida."
+  },
+  {
+    "guid": "531672c6-04f3-47ad-be22-cade2a13023b",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Dels supòsits que recull l'art. 74.2 de la Constitució (arts. 94.1, 145.2 i 158.2), quins s'inicien al Senat?",
+    "answerOptions": [
+      {
+        "text": "Només l'autorització dels tractats de l'art. 94.1, perquè afecten la integritat territorial de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els tractats de l'art. 94.1 s'inicien al Congrés, segons l'art. 74.2 CE."
+      },
+      {
+        "text": "Només els acords de cooperació entre comunitats autònomes de l'art. 145.2, no el Fons de Compensació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. També el Fons de Compensació Interterritorial (art. 158.2) s'inicia al Senat."
+      },
+      {
+        "text": "Els acords de cooperació entre comunitats (art. 145.2) i el Fons de Compensació (art. 158.2).",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 74.2 CE: en el primer cas (art. 94.1, tractats) el procediment s'inicia al Congrés, i en els altres dos (arts. 145.2 i 158.2) s'inicia al Senat. Si no hi ha acord, una comissió mixta paritària i, en darrer terme, el Congrés per majoria absoluta."
+      },
+      {
+        "text": "Els tres: tractats (art. 94.1), acords de cooperació (art. 145.2) i Fons de Compensació (art. 158.2).",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els tractats de l'art. 94.1 s'inicien al Congrés; només els dels arts. 145.2 i 158.2 s'inicien al Senat."
+      }
+    ],
+    "hint": "Art. 74.2 CE. Dels tres supòsits, un s'inicia al Congrés i els altres dos al Senat."
+  },
+  {
+    "guid": "ccf31eb2-06b5-4012-a7c1-6ba198d25a99",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Si el Senat posa el seu veto a un text aprovat pel Congrés, segons l'art. 90.2 de la Constitució el Congrés pot aixecar-lo:",
+    "answerOptions": [
+      {
+        "text": "Per majoria absoluta o, passats dos mesos des de la interposició del veto, per majoria simple.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 90.2 CE: el Congrés ratifica el text inicial per majoria absoluta o, un cop transcorreguts dos mesos des de la interposició del veto, per majoria simple. El veto del Senat s'ha d'aprovar per majoria absoluta, i els dos mesos es redueixen a vint dies naturals si el projecte és urgent."
+      },
+      {
+        "text": "Només per majoria de tres cinquenes parts, sense que la majoria simple n'hi hagi mai prou.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 90.2 CE no exigeix tres cinquenes parts; admet la majoria simple un cop passats dos mesos."
+      },
+      {
+        "text": "Per majoria simple immediatament, perquè el veto del Senat no té caràcter vinculant per al Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Si no han passat dos mesos, el Congrés necessita majoria absoluta per aixecar el veto."
+      },
+      {
+        "text": "Per majoria absoluta de les dues cambres reunides en sessió conjunta, en un termini de vint dies.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 90.2 CE atribueix la decisió només al Congrés; els vint dies són el termini del Senat en projectes urgents (art. 90.3)."
+      }
+    ],
+    "hint": "Hi ha dues vies, una de les quals depèn del pas del temps."
+  },
+  {
+    "guid": "08684691-5573-42b4-a616-69ee4c4fb6cc",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 94.2 de la Constitució, de la conclusió dels tractats que no requereixen la previa autorització de les Corts Generals:",
+    "answerOptions": [
+      {
+        "text": "El Govern només ha d'informar-ne el Congrés, en el termini de tres mesos.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 94.2 CE obliga a informar tant el Congrés com el Senat, i immediatament."
+      },
+      {
+        "text": "El Congrés i el Senat han de ser immediatament informats.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 94.2 CE obliga a informar immediatament el Congrés i el Senat de la conclusió dels restants tractats o convenis."
+      },
+      {
+        "text": "Les Corts els han de ratificar posteriorment per majoria simple de cada cambra.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 94.2 CE no preveu cap ratificació posterior: només informació."
+      },
+      {
+        "text": "No cal informar-ne les Corts: n'hi ha prou amb la publicació oficial per integrar-los a l'ordenament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La publicació oficial (art. 96.1 CE) no substitueix l'obligació d'informar el Congrés i el Senat."
+      }
+    ],
+    "hint": "Els tractats de l'art. 94.1 requereixen autorització; per a la resta hi ha una altra obligació."
+  },
+  {
+    "guid": "1ce842a3-d4ff-4ad0-9822-25e9c25810c8",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina majoria exigeix l'art. 2 de la LO 3/1981 per designar el Defensor del Poble en primera votació?",
+    "answerOptions": [
+      {
+        "text": "Majoria absoluta del Congrés, ratificada en un mes pel Senat per majoria simple.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les majories de l'art. 2.4 LO 3/1981 són de tres cinquenes parts, i el termini del Senat és de vint dies."
+      },
+      {
+        "text": "Dos terços de les Corts Generals reunides en sessió conjunta, en un termini de vint dies.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'elecció no es fa en sessió conjunta: primer al Congrés (3/5) i després al Senat (3/5, en vint dies)."
+      },
+      {
+        "text": "Majoria absoluta de cada cambra, amb la conformitat prèvia de la Comissió Mixta Congrés-Senat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La majoria exigida és de tres cinquenes parts; la Comissió Mixta proposa els candidats i dona la conformitat prèvia als adjunts (art. 2.6)."
+      },
+      {
+        "text": "Tres cinquenes parts del Congrés, ratificades en vint dies pel Senat per la mateixa majoria.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 2.4 de la LO 3/1981 exigeix el vot favorable de tres cinquenes parts del Congrés i, en un termini màxim de vint dies, la ratificació del Senat per la mateixa majoria. Si no s'assoleix, amb 3/5 al Congrés n'hi ha prou amb la majoria absoluta del Senat (art. 2.5)."
+      }
+    ],
+    "hint": "Dues votacions, amb la mateixa majoria i un termini per al Senat."
+  },
+  {
+    "guid": "d937bccb-3523-42b4-be6f-651452329ed6",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina d'aquestes NO és causa de cessament del Defensor del Poble, segons l'art. 5 de la LO 3/1981?",
+    "answerOptions": [
+      {
+        "text": "La notòria negligència en el compliment de les obligacions i els deures del càrrec.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És una de les causes de cessament de l'art. 5.1 LO 3/1981."
+      },
+      {
+        "text": "La condemna per delicte dolós mitjançant sentència ferma.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És una de les causes de cessament de l'art. 5.1 LO 3/1981."
+      },
+      {
+        "text": "La pèrdua de la confiança política de la Comissió Mixta Congrés-Senat.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 5 LO 3/1981 no preveu cap cessament per pèrdua de confiança: el Defensor, que no està subjecte a mandat imperatiu (art. 6), només cessa per les causes tàxades."
+      },
+      {
+        "text": "L'expiració del termini del nomenament, que és de cinc anys.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'expiració del termini és causa de cessament (art. 5.1 LO 3/1981), i el mandat és de cinc anys (art. 2.1)."
+      }
+    ],
+    "hint": "Les causes són renúncia, expiració del mandat, mort o incapacitat, notòria negligència i condemna per delicte dolós."
+  },
+  {
+    "guid": "f57a7b65-7915-4298-a9ca-8d5e8b24e26b",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "En quin termini màxim s'ha de presentar una queixa davant el Defensor del Poble, segons l'art. 15 de la LO 3/1981?",
+    "answerOptions": [
+      {
+        "text": "Un any des de la data en què van ocórrer els fets que motiven la queixa.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'any no es compta des dels fets, sinó des que la persona en va tenir coneixement."
+      },
+      {
+        "text": "Un any des que la persona va tenir coneixement dels fets.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 15.1 LO 3/1981 fixa un termini màxim d'un any, comptat des del moment en què la persona va tenir coneixement dels fets; la queixa ha d'estar signada i les actuacions són gratuïtes, sense advocat ni procurador (art. 15.2)."
+      },
+      {
+        "text": "Tres mesos des de la notificació de l'acte impugnat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 15 LO 3/1981 no preveu un termini de tres mesos des de la notificació."
+      },
+      {
+        "text": "Dos mesos des que acaba la via administrativa.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El termini no es vincula a la fi de la via administrativa, sinó al coneixement dels fets."
+      }
+    ],
+    "hint": "Fixa't en el moment des del qual es compta el termini."
+  },
+  {
+    "guid": "18092ff0-a34e-48b7-80c0-5c3758da4416",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina d'aquestes actuacions NO pot fer el Defensor del Poble segons la LO 3/1981?",
+    "answerOptions": [
+      {
+        "text": "Anul·lar o modificar els actes i resolucions de l'Administració.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 28.1 LO 3/1981: el Defensor no és competent per modificar o anul·lar els actes i resolucions de l'Administració, però pot suggerir-ne la modificació dels criteris."
+      },
+      {
+        "text": "Interposar recursos d'inconstitucionalitat i d'empara.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 29 LO 3/1981 (i l'art. 162 CE) el legitima per interposar-los."
+      },
+      {
+        "text": "Formular advertiments, recomanacions i recordatoris de deures legals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 30.1 LO 3/1981 li ho permet; les autoritats han de respondre per escrit en un termini no superior a un mes."
+      },
+      {
+        "text": "Suggerir la modificació de normes que puguin provocar situacions injustes.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 28.2 LO 3/1981 li permet suggerir al legislador o a l'Administració la modificació de la norma."
+      }
+    ],
+    "hint": "Suggereix, recomana i recorre, però no resol."
+  },
+  {
+    "guid": "70fe5299-e7dd-4671-a567-b734ad64002a",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina d'aquestes NO és una funció del Tribunal de Comptes?",
+    "answerOptions": [
+      {
+        "text": "La fiscalització externa, permanent i consuntiva del sector públic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la funció de l'art. 2.a LO 2/1982."
+      },
+      {
+        "text": "L'enjudiciament de la responsabilitat comptable dels gestors de fons públics.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la funció jurisdiccional de l'art. 2.b LO 2/1982, que el Tribunal exerceix amb jurisdicció pròpia (art. 1.1)."
+      },
+      {
+        "text": "Enjudiciar la responsabilitat penal dels gestors de fons públics.",
+        "isCorrect": true,
+        "rationale": "Correcta. El Tribunal de Comptes només enjudicia la responsabilitat comptable (art. 2.b LO 2/1982); la responsabilitat penal correspon a la jurisdicció penal."
+      },
+      {
+        "text": "L'examen i la comprovació del Compte General de l'Estat, per delegació de les Corts.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 136.1 CE l'hi encomana per delegació de les Corts Generals."
+      }
+    ],
+    "hint": "La seva jurisdicció pròpia és la comptable, no la penal."
+  },
+  {
+    "guid": "ddaf2acc-af88-45bb-8850-6b2ebc3e36a9",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "El Ple del Tribunal de Comptes està integrat per:",
+    "answerOptions": [
+      {
+        "text": "Dotze consellers de comptes, sense el fiscal, que només hi assisteix amb veu i sense vot.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El fiscal forma part del Ple (art. 21.1 LO 2/1982)."
+      },
+      {
+        "text": "Els sis consellers designats pel Congrés i els sis designats pel Senat, sense el president ni el fiscal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El president és un dels dotze consellers i el fiscal també forma part del Ple."
+      },
+      {
+        "text": "Vint consellers de comptes, designats per meitat pel Congrés i pel Senat, i el fiscal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són dotze consellers (sis designats pel Congrés i sis pel Senat), no vint."
+      },
+      {
+        "text": "Dotze consellers de comptes, un dels quals n'és el president, i el fiscal.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 21.1 LO 2/1982: el Ple el formen dotze consellers de comptes, un dels quals és el president, i el fiscal; el quòrum és de dos terços (art. 21.2)."
+      }
+    ],
+    "hint": "Compta els consellers i no oblidis qui és el membre que no ho és."
+  },
+  {
+    "guid": "ce5f2c87-8752-4093-86f8-6d67a723a8c0",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Com es designen els consellers de comptes, segons l'art. 30 de la LO 2/1982?",
+    "answerOptions": [
+      {
+        "text": "Sis pel Congrés i sis pel Senat, per majoria absoluta de cada cambra, per un període de nou anys.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La majoria exigida és de tres cinquenes parts de cada cambra, no absoluta."
+      },
+      {
+        "text": "Sis pel Congrés i sis pel Senat, per tres cinquenes parts de cada cambra, per un període de nou anys.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 30.1 LO 2/1982: sis consellers els designa el Congrés i sis el Senat, per tres cinquenes parts de cada cambra, per nou anys, entre persones de reconeguda competència amb més de quinze anys d'exercici professional. Des de la LO 2/2024, cada sexe ha de representar com a mínim el 40 % dels designats per cada cambra (art. 30.2)."
+      },
+      {
+        "text": "Vuit pel Congrés i quatre pel Senat, per tres cinquenes parts de cada cambra, per un període de cinc anys.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El repartiment és de sis i sis, i el mandat és de nou anys; cinc anys és el del Defensor del Poble."
+      },
+      {
+        "text": "Sis pel Congrés i sis pel Senat, per tres cinquenes parts de cada cambra, per un període de tres anys.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El mandat dels consellers és de nou anys; tres anys és el del president del Tribunal (art. 29)."
+      }
+    ],
+    "hint": "Compta: nombre per cambra, majoria i durada del mandat."
+  },
+  {
+    "guid": "2dd054a8-ba3c-4a2a-aaaa-012eb898c466",
+    "subjectId": "T03",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Qui nomena el president del Tribunal de Comptes i per quant de temps, segons l'art. 29 de la LO 2/1982?",
+    "answerOptions": [
+      {
+        "text": "El Rei, a proposta del Ple i entre els seus membres, per un període de tres anys.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 29 LO 2/1982: el president és nomenat pel Rei, a proposta del Ple i entre els membres del Tribunal, per tres anys."
+      },
+      {
+        "text": "El Rei, a proposta del Govern i entre els consellers, per un període de nou anys.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La proposta la fa el Ple del Tribunal, no el Govern, i nou anys és el mandat dels consellers."
+      },
+      {
+        "text": "Les Corts Generals, per tres cinquenes parts del Congrés i del Senat, per un període de cinc anys.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les Corts designen els consellers (art. 30), no el president, que és nomenat pel Rei."
+      },
+      {
+        "text": "El Ple del Tribunal, per majoria absoluta i entre els consellers, per un període d'un any.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Ple en fa la proposta, però el nomenament és del Rei, i el mandat és de tres anys."
+      }
+    ],
+    "hint": "El nomenament formal és del Rei; la proposta, de l'òrgan col·legiat."
+  }
+]

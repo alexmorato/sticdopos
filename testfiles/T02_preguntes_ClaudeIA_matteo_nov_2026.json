@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "e2ea31ea-db58-4927-9b87-241150df37fb",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 97 CE, el Govern:",
+    "answerOptions": [
+      {
+        "text": "Exerceix la funció executiva i la potestat legislativa, d'acord amb la Constitució, les lleis i els tractats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 97 li atribueix la funció executiva i la potestat reglamentària; la potestat legislativa és de les Corts Generals (art. 66.2 CE)."
+      },
+      {
+        "text": "Dirigeix la política interior i exterior, l'Administració de justícia i la defensa de l'Estat, i exerceix la potestat reglamentària.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 97 parla de l'Administració civil i militar; el poder judicial és independent del Govern (art. 117 CE)."
+      },
+      {
+        "text": "Dirigeix la política interior i exterior, l'Administració civil i militar i la defensa de l'Estat.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el text de l'art. 97 CE, que repeteix l'art. 1.1 de la Llei 50/1997. Hi afegeix que exerceix la funció executiva i la potestat reglamentària."
+      },
+      {
+        "text": "Exerceix la funció jurisdiccional en l'àmbit administratiu i la potestat reglamentària.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La funció jurisdiccional correspon exclusivament als jutjats i tribunals (art. 117.3 CE), no al Govern."
+      }
+    ],
+    "hint": "Art. 97 CE: què «dirigeix» i què «exerceix»."
+  },
+  {
+    "guid": "ce2190d3-69ec-44ad-8b28-bdf7082ffe64",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin d'aquests càrrecs NO és membre del Govern, segons l'art. 98.1 CE i la Llei 50/1997?",
+    "answerOptions": [
+      {
+        "text": "Un secretari d'Estat.",
+        "isCorrect": true,
+        "rationale": "Correcta. El Govern es compon del President, dels vicepresidents (si n'hi ha) i dels ministres. Els secretaris d'Estat són òrgans superiors de col·laboració i suport (art. 7 Llei 50/1997)."
+      },
+      {
+        "text": "Un ministre sense cartera.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És membre del Govern: és un ministre (art. 4.2 Llei 50/1997) i el seu àmbit el fixa un reial decret."
+      },
+      {
+        "text": "Un vicepresident, si n'hi ha.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els vicepresidents, «en el seu cas», formen part del Govern (art. 98.1 CE)."
+      },
+      {
+        "text": "El President del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El President és el primer membre del Govern i en dirigeix l'acció (art. 98.1 i 98.2 CE)."
+      }
+    ],
+    "hint": "Art. 98.1 CE i art. 1 Llei 50/1997: tres categories de membres."
+  },
+  {
+    "guid": "26625a9c-039c-4a21-9cf8-c632cf1f8fb2",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 98.2 CE, el President dirigeix l'acció del Govern i coordina les funcions dels altres membres:",
+    "answerOptions": [
+      {
+        "text": "I n'assumeix la responsabilitat directa, de manera que els ministres no responen de la gestió dels seus departaments.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 98.2 manté expressament la competència i la responsabilitat directa dels ministres en la seva gestió."
+      },
+      {
+        "text": "I els ministres només en responen davant seu, no pas davant el Congrés dels Diputats ni davant les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Govern respon solidàriament de la seva gestió política davant el Congrés (art. 108 CE)."
+      },
+      {
+        "text": "Però només en els assumptes que el Consell de Ministres li delegui expressament en cada sessió.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La coordinació és una funció pròpia del President (art. 98.2 CE; art. 2.1 Llei 50/1997), no una delegació del Consell."
+      },
+      {
+        "text": "Sense perjudici de la competència i la responsabilitat directa d'aquests en la seva gestió.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 98.2 CE: el President coordina, però cada ministre manté la competència i respon directament de la seva gestió."
+      }
+    ],
+    "hint": "Art. 98.2 CE: coordinar no és absorbir la responsabilitat dels ministres."
+  },
+  {
+    "guid": "2ea5be9d-446d-4147-a26b-3304ba0f244e",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 98.3 CE, quina d'aquestes activitats és compatible amb la condició de membre del Govern?",
+    "answerOptions": [
+      {
+        "text": "Exercir esporàdicament una activitat professional pròpia.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 98.3 exclou qualsevol activitat professional o mercantil, sense distingir-ne la freqüència."
+      },
+      {
+        "text": "Mantenir la condició de diputat o de senador.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'única funció representativa permesa és la pròpia del mandat parlamentari (art. 98.3 CE; art. 14 Llei 50/1997)."
+      },
+      {
+        "text": "Ser regidor d'un ajuntament, sense percebre retribució per aquest càrrec.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 98.3 només admet com a funció representativa el mandat parlamentari; un càrrec local és una altra funció representativa."
+      },
+      {
+        "text": "Exercir una funció pública aliena al seu càrrec, si és gratuïta.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 98.3 prohibeix qualsevol funció pública que no derivi del càrrec, sigui o no retribuïda."
+      }
+    ],
+    "hint": "Art. 98.3 CE: només una funció representativa és compatible."
+  },
+  {
+    "guid": "bbb1f849-919d-44b7-ae8e-6886fbfd7f40",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Després de cada renovació del Congrés dels Diputats, segons l'art. 99.1 CE, el candidat a la Presidència del Govern el proposa:",
+    "answerOptions": [
+      {
+        "text": "El Rei, prèvia consulta amb els representants dels grups polítics amb representació parlamentària, a través del President del Congrés.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 99.1 CE. El Rei consulta els grups i la proposta es fa a través del President del Congrés, que també en refrenda el nomenament (art. 64.1 CE)."
+      },
+      {
+        "text": "El President del Congrés, per iniciativa pròpia i després de consultar els portaveus dels grups del Congrés i del Senat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La proposta és del Rei; el President del Congrés hi actua només com a canal i, després, refrenda el nomenament."
+      },
+      {
+        "text": "El Rei, a proposta del President del Govern en funcions, amb l'informe favorable previ de la Mesa del Congrés dels Diputats i del Senat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Rei no actua a proposta del President sortint: consulta els grups amb representació parlamentària."
+      },
+      {
+        "text": "El Congrés dels Diputats, per majoria absoluta, a proposta del grup parlamentari que tingui més escons a la Cambra.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Congrés no proposa el candidat: només li atorga o li nega la confiança (art. 99.2 i 99.3 CE)."
+      }
+    ],
+    "hint": "Art. 99.1 CE: qui proposa i a través de qui."
+  },
+  {
+    "guid": "de067fd0-5555-45ee-b567-9d7da0e67346",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "En la primera votació d'investidura, sobre 350 diputats, un candidat obté 170 vots a favor, 150 en contra i 30 abstencions. Segons l'art. 99 CE:",
+    "answerOptions": [
+      {
+        "text": "Queda investit en aquesta votació, perquè els vots a favor són més que els vots en contra.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. En primera votació cal la majoria absoluta (176); la majoria simple només val en la votació posterior."
+      },
+      {
+        "text": "No queda investit, i no es pot tornar a votar fins que hagin passat dos mesos des d'aquesta primera votació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els dos mesos són el termini de l'art. 99.5 per a la dissolució automàtica; la nova votació es fa 48 hores després."
+      },
+      {
+        "text": "No obté la majoria absoluta (176); es pot repetir la votació 48 hores després i hi bastarà la majoria simple.",
+        "isCorrect": true,
+        "rationale": "Correcta. La majoria absoluta són 176 vots. En no assolir-la, la mateixa proposta es vota 48 hores després, i la confiança s'entén atorgada amb la majoria simple (art. 99.3 CE)."
+      },
+      {
+        "text": "No queda investit, i el Rei ha de dissoldre de seguida les dues Cambres, perquè s'ha esgotat la via d'investidura.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La dissolució de l'art. 99.5 només arriba si passen dos mesos des de la primera votació sense cap investidura."
+      }
+    ],
+    "hint": "Art. 99.3 CE: majoria absoluta primer, 48 hores i majoria simple després."
+  },
+  {
+    "guid": "a3a8100f-fbc3-4b01-93d2-91ed545fed01",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 99.5 CE, si passen dos mesos sense que cap candidat obtingui la confiança del Congrés, el Rei dissol les Cambres. Aquests dos mesos es compten des de:",
+    "answerOptions": [
+      {
+        "text": "La proposta del primer candidat per part del Rei.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El termini no s'inicia amb la proposta, sinó amb la primera votació (art. 99.5 CE)."
+      },
+      {
+        "text": "La constitució del Congrés després de les eleccions.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cap precepte no compta aquest termini des de la constitució de la Cambra."
+      },
+      {
+        "text": "La segona votació d'investidura, feta 48 hores després.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es compta des de la primera votació; des de la segona el termini seria més llarg del que preveu l'art. 99.5."
+      },
+      {
+        "text": "La primera votació d'investidura.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 99.5 CE compta els dos mesos des de la primera votació d'investidura, no des de la proposta del Rei ni de la segona votació."
+      }
+    ],
+    "hint": "Art. 99.5 CE: fixa't en el punt de partida del termini."
+  },
+  {
+    "guid": "0f71a9db-faec-45f1-b6c1-60bd2dca1239",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 64.1 CE, la proposta i el nomenament del President del Govern, així com la dissolució prevista a l'art. 99, els refrenda:",
+    "answerOptions": [
+      {
+        "text": "El President del Govern en funcions, com a la resta d'actes del Rei.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la regla general de l'art. 64.1, però aquests actes en són l'excepció."
+      },
+      {
+        "text": "El President del Congrés dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 64.1 CE: és una excepció a la regla general, segons la qual refrenden els actes del Rei el President del Govern i, si escau, els ministres competents."
+      },
+      {
+        "text": "El President del Senat, perquè el Senat és la Cambra de representació territorial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Senat no intervé en la investidura (art. 99 CE)."
+      },
+      {
+        "text": "El ministre de la Presidència, com a secretari del Consell de Ministres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquests actes tenen un refrendador propi, el President del Congrés, i no el ministre de la Presidència."
+      }
+    ],
+    "hint": "Art. 64.1 CE: excepció a la regla general del refrendament."
+  },
+  {
+    "guid": "edfd3d25-f4be-4c45-82ab-9bd000beea43",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 101.2 CE, el Govern cessant continua en funcions fins que:",
+    "answerOptions": [
+      {
+        "text": "El Congrés atorga la confiança al nou candidat a President.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La investidura no posa fi al Govern en funcions: cal també el nomenament i la presa de possessió del nou Govern."
+      },
+      {
+        "text": "El Rei nomena el nou President del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El nomenament del President és previ a la formació del Govern; el cessant continua fins que el nou Govern pren possessió."
+      },
+      {
+        "text": "Pren possessió el nou Govern.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 101.2 CE; l'art. 21.2 de la Llei 50/1997 afegeix que actua amb les limitacions que fixa la Llei."
+      },
+      {
+        "text": "Transcorren dos mesos des de les eleccions generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cap termini no posa fi al Govern en funcions; el que compta és la presa de possessió del nou Govern."
+      }
+    ],
+    "hint": "Art. 101.2 CE: investidura, nomenament i presa de possessió no són el mateix."
+  },
+  {
+    "guid": "774dfec9-a624-4ea4-8c8e-062aa4fda7f5",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina d'aquestes facultats té expressament vedada el Govern en funcions segons l'art. 21.5 de la Llei 50/1997?",
+    "answerOptions": [
+      {
+        "text": "Aprovar el projecte de llei de Pressupostos Generals de l'Estat.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 21.5 li veda aprovar el projecte de llei de Pressupostos i presentar projectes de llei al Congrés o al Senat."
+      },
+      {
+        "text": "Aprovar reials decrets-llei en casos d'extraordinària i urgent necessitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No figuren a la llista de l'art. 21.5. S'hi aplica el límit general de l'art. 21.3: despatx ordinari, llevat d'urgència acreditada o d'interès general justificat."
+      },
+      {
+        "text": "Convocar i presidir les reunions del Consell de Ministres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És una funció ordinària del President, que continua exercint (art. 2.2.g)."
+      },
+      {
+        "text": "Despatxar els assumptes ordinaris dels departaments ministerials.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És precisament el que sí que pot fer: l'art. 21.3 limita la seva gestió al despatx ordinari."
+      }
+    ],
+    "hint": "Art. 21.5 Llei 50/1997: dues prohibicions expresses."
+  },
+  {
+    "guid": "12d3e07a-7930-4e68-b283-7d60feee4c6e",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Després d'unes eleccions generals, el President del Govern en funcions vol plantejar una qüestió de confiança davant el Congrés. Segons l'art. 21.4 de la Llei 50/1997:",
+    "answerOptions": [
+      {
+        "text": "Ho pot fer si abans el Consell de Ministres ho delibera, com en qualsevol altre moment de la legislatura.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La deliberació prèvia és el requisit de l'art. 112 CE en situació normal; en funcions, l'art. 21.4 directament ho veda."
+      },
+      {
+        "text": "No ho pot fer; tampoc no pot proposar la dissolució de les Cambres ni un referèndum consultiu.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 21.4 veda al President en funcions proposar la dissolució, plantejar la qüestió de confiança i proposar un referèndum consultiu."
+      },
+      {
+        "text": "Ho pot fer, però només si el Congrés l'hi autoritza abans per majoria absoluta.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'autorització prèvia del Congrés és la del referèndum consultiu (art. 92 CE), i en funcions tampoc no el pot proposar."
+      },
+      {
+        "text": "Ho pot fer, però només sobre una declaració de política general i no sobre un programa.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 112 permet els dos objectes en situació normal, però en funcions el President no pot plantejar la qüestió."
+      }
+    ],
+    "hint": "Art. 21.4 Llei 50/1997: tres facultats vedades al President en funcions."
+  },
+  {
+    "guid": "f6e4fc43-c76a-4c21-a58a-9d718f00fe3e",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quina d'aquestes facultats correspon al President del Govern, i no al Consell de Ministres, segons l'art. 2.2 de la Llei 50/1997?",
+    "answerOptions": [
+      {
+        "text": "Aprovar els reials decrets legislatius.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els aprova el Consell de Ministres (art. 5.1.c)."
+      },
+      {
+        "text": "Declarar l'estat d'alarma.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El declara el Govern per decret acordat en Consell de Ministres (art. 116.2 CE; art. 5.1.f)."
+      },
+      {
+        "text": "Aprovar el projecte de llei de Pressupostos Generals de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Correspon al Consell de Ministres (art. 5.1.b)."
+      },
+      {
+        "text": "Interposar el recurs d'inconstitucionalitat.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 2.2.i) de la Llei 50/1997, en connexió amb l'art. 162.1.a) CE."
+      }
+    ],
+    "hint": "Art. 2.2 Llei 50/1997 (President) davant art. 5.1 (Consell)."
+  },
+  {
+    "guid": "070a9acc-8af3-42ca-94a2-da37d7574e4c",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 5.1 de la Llei 50/1997, el Consell de Ministres aprova els reglaments per al desenvolupament i l'execució de les lleis:",
+    "answerOptions": [
+      {
+        "text": "Previ dictamen del Consell d'Estat.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 5.1.h) de la Llei 50/1997: el dictamen previ del Consell d'Estat és el tràmit propi dels reglaments executius de lleis."
+      },
+      {
+        "text": "Previ informe vinculant del Tribunal Constitucional.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Tribunal Constitucional controla la constitucionalitat de lleis i normes amb força de llei; no informa prèviament els reglaments."
+      },
+      {
+        "text": "Previ informe del Consell General del Poder Judicial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El CGPJ només informa sobre determinades normes que afecten el poder judicial, no sobre tots els reglaments executius."
+      },
+      {
+        "text": "Previ autorització del Congrés dels Diputats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La potestat reglamentària és pròpia del Govern (art. 97 CE) i no requereix autorització de les Corts."
+      }
+    ],
+    "hint": "Art. 5.1.h) Llei 50/1997: quin òrgan consultiu intervé."
+  },
+  {
+    "guid": "06e63457-6995-468d-8e25-225c3768a086",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 6 de la Llei 50/1997, les Comissions Delegades del Govern es creen, es modifiquen i se suprimeixen:",
+    "answerOptions": [
+      {
+        "text": "Pel President del Govern, mitjançant un reial decret del President, sense passar pel Consell de Ministres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El President crea, modifica i suprimeix els ministeris i les secretaries d'Estat (art. 2.2.j), però no les Comissions Delegades."
+      },
+      {
+        "text": "Per les Corts Generals, mitjançant una llei ordinària aprovada a iniciativa del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'organització interna del Govern es regula per reial decret, no per llei."
+      },
+      {
+        "text": "Pel Consell de Ministres, mitjançant un reial decret, a proposta del President del Govern.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 6.1 de la Llei 50/1997. A diferència dels ministeris, que els crea el President per reial decret (art. 2.2.j)."
+      },
+      {
+        "text": "Pel ministre de la Presidència, mitjançant una ordre ministerial publicada al BOE.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 6.1 exigeix un reial decret acordat pel Consell de Ministres; una ordre ministerial no és la forma prevista."
+      }
+    ],
+    "hint": "Art. 6.1 Llei 50/1997: no és el mateix que els ministeris."
+  },
+  {
+    "guid": "63134591-74f3-4c11-8871-a8288caf3e6f",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 2.2.j) de la Llei 50/1997, la creació, modificació i supressió dels departaments ministerials i de les secretaries d'Estat correspon:",
+    "answerOptions": [
+      {
+        "text": "Al Consell de Ministres, a proposta del ministre de la Presidència.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Consell de Ministres crea els òrgans directius dels ministeris (art. 5.1.i), no els ministeris."
+      },
+      {
+        "text": "Al President del Govern, mitjançant un reial decret.",
+        "isCorrect": true,
+        "rationale": "Correcta. És una facultat del President (art. 2.2.j); el contrast és amb les Comissions Delegades, que crea el Consell de Ministres (art. 6.1)."
+      },
+      {
+        "text": "Al Rei, a proposta del President del Govern i amb el refrendament d'aquest.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Rei nomena i separa els ministres (art. 100 CE), però no crea els departaments."
+      },
+      {
+        "text": "Al Congrés dels Diputats, mitjançant una llei ordinària.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'estructura dels departaments és matèria del Govern, no de les Corts."
+      }
+    ],
+    "hint": "Art. 2.2.j) Llei 50/1997: contrasta amb les Comissions Delegades."
+  },
+  {
+    "guid": "8ce7abc3-cd91-44b0-b9fb-0ca4ec87c865",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin d'aquests requisits NO exigeix l'art. 11 de la Llei 50/1997 per ser membre del Govern?",
+    "answerOptions": [
+      {
+        "text": "Tenir la majoria d'edat i la nacionalitat espanyola.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són dos requisits de l'art. 11: ser espanyol i major d'edat."
+      },
+      {
+        "text": "Gaudir dels drets de sufragi actiu i passiu.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És un dels requisits de l'art. 11."
+      },
+      {
+        "text": "No estar inhabilitat per sentència judicial ferma per exercir càrrecs públics.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És un dels requisits de l'art. 11, juntament amb els d'idoneïtat de la Llei 3/2015."
+      },
+      {
+        "text": "Ser diputat o senador en el moment del nomenament.",
+        "isCorrect": true,
+        "rationale": "Correcta. No cal ser parlamentari per ser ministre; l'art. 98.3 CE només admet que es mantingui el mandat parlamentari si ja es té."
+      }
+    ],
+    "hint": "Art. 11 Llei 50/1997: no cal ser parlamentari."
+  },
+  {
+    "guid": "bb410d82-21ad-44e1-93eb-babd8ee2aa1c",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 12.2 bis de la Llei 50/1997, introduït per la LO 2/2024, el nomenament de vicepresidents i ministres ha de garantir que:",
+    "answerOptions": [
+      {
+        "text": "Les dones representin, com a mínim, el 50% del conjunt de vicepresidències i ministeris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El percentatge és del 40% per a cada sexe, no una quota del 50% per a un sol sexe."
+      },
+      {
+        "text": "Cada sexe representi, com a mínim, el 30% del conjunt de vicepresidències i ministeris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El mínim legal és del 40%, no del 30%."
+      },
+      {
+        "text": "Cada sexe representi, com a mínim, el 40% del conjunt de vicepresidències i ministeris.",
+        "isCorrect": true,
+        "rationale": "Correcta. La LO 2/2024, de representació paritària i presència equilibrada de dones i homes, va afegir aquest apartat a l'art. 12 de la Llei 50/1997."
+      },
+      {
+        "text": "Hi hagi almenys tres dones i tres homes entre els titulars de vicepresidències i ministeris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Llei fixa un percentatge sobre el conjunt, no un nombre absolut de persones de cada sexe."
+      }
+    ],
+    "hint": "LO 2/2024 (representació paritària): percentatge mínim per a cada sexe."
+  },
+  {
+    "guid": "7bed816f-4c49-4b86-ba50-e990ca0c9df1",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 102 CE, si l'acusació contra un membre del Govern és per traïció o per un delicte contra la seguretat de l'Estat comès en l'exercici de les seves funcions, el procediment només es pot iniciar:",
+    "answerOptions": [
+      {
+        "text": "A iniciativa d'una quarta part dels membres del Congrés i amb l'aprovació de la majoria absoluta d'aquest.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 102.2 CE. La responsabilitat criminal s'exigeix davant la Sala Penal del Tribunal Suprem (art. 102.1) i no s'hi aplica la prerrogativa reial de gràcia (art. 102.3)."
+      },
+      {
+        "text": "A iniciativa d'una desena part dels diputats i amb l'aprovació de la majoria simple del Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La desena part dels diputats és la iniciativa de la moció de censura (art. 113.2 CE)."
+      },
+      {
+        "text": "A iniciativa del Ministeri Fiscal i amb l'autorització del Senat per majoria de tres cinquenes parts dels seus membres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'autorització és del Congrés, no del Senat, i per majoria absoluta."
+      },
+      {
+        "text": "A iniciativa de la Sala Penal del Tribunal Suprem i amb la ratificació del Consell de Ministres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Tribunal Suprem jutja, però la iniciativa i l'aprovació corresponen al Congrés."
+      }
+    ],
+    "hint": "Art. 102.2 CE: iniciativa d'una quarta part i majoria absoluta."
+  },
+  {
+    "guid": "3b33e520-3b3e-47c4-9970-c12a93116053",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 108 CE, el Govern respon solidàriament de la seva gestió política davant:",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats i el Senat, com a Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Senat controla el Govern, però no en pot exigir la responsabilitat política."
+      },
+      {
+        "text": "El Senat, com a Cambra de representació territorial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Govern no respon davant el Senat (art. 108 CE)."
+      },
+      {
+        "text": "El Rei, que nomena i separa els membres del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Rei no controla el Govern: nomena i separa els ministres a proposta del President (art. 100 CE)."
+      },
+      {
+        "text": "El Congrés dels Diputats.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 108 CE. Per això només el Congrés pot exigir la responsabilitat política del Govern (arts. 112 i 113 CE)."
+      }
+    ],
+    "hint": "Art. 108 CE: quina Cambra pot exigir responsabilitat política."
+  },
+  {
+    "guid": "3e12c158-3ceb-437a-ba5a-91b5e65ef98d",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin d'aquests instruments de control del Govern correspon tant al Congrés com al Senat?",
+    "answerOptions": [
+      {
+        "text": "La moció de censura.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Només el Congrés pot adoptar-la (art. 113 CE)."
+      },
+      {
+        "text": "Les interpel·lacions i les preguntes.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 111 CE sotmet el Govern i cada membre a interpel·lacions i preguntes «en les Cambres»: les dues."
+      },
+      {
+        "text": "La qüestió de confiança.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es planteja i es vota només davant el Congrés (art. 112 CE)."
+      },
+      {
+        "text": "L'autorització prèvia per declarar l'estat d'excepció.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'autoritza el Congrés (art. 116.3 CE); el Senat no hi intervé."
+      }
+    ],
+    "hint": "Art. 111 CE parla de «les Cambres»."
+  },
+  {
+    "guid": "0af112c0-e47f-4719-afb7-10457430e7e4",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 111.2 CE, una interpel·lació al Govern pot donar lloc a:",
+    "answerOptions": [
+      {
+        "text": "Una moció en què la Cambra manifesti la seva posició.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 111.2 CE. És un pronunciament polític de la Cambra, que no obliga jurídicament el Govern ni en provoca la caiguda."
+      },
+      {
+        "text": "Una moció de censura contra el ministre interpel·lat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La moció de censura s'adreça al Govern en conjunt, amb un candidat alternatiu (art. 113 CE), no a un ministre."
+      },
+      {
+        "text": "Una qüestió de confiança sobre la política del departament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Només la pot plantejar el President del Govern, després de deliberar amb el Consell de Ministres (art. 112 CE)."
+      },
+      {
+        "text": "Una resolució jurídicament vinculant que obliga el Govern a rectificar.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La moció fixa la posició de la Cambra, però no té efectes vinculants per al Govern."
+      }
+    ],
+    "hint": "Art. 111.2 CE: la moció no és vinculant."
+  },
+  {
+    "guid": "f9a578f0-bed7-4767-873f-5e76139bd84f",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "El President del Govern, previa deliberació del Consell de Ministres, planteja una qüestió de confiança sobre la seva declaració de política general. Sobre 350 diputats, hi voten a favor 160 i en contra 150 (la resta s'abstenen). Segons l'art. 112 CE:",
+    "answerOptions": [
+      {
+        "text": "No s'atorga la confiança, perquè cal la majoria absoluta (176 vots a favor).",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La majoria absoluta és la de la moció de censura (art. 113) i la de la primera votació d'investidura (art. 99.3)."
+      },
+      {
+        "text": "No s'atorga la confiança, perquè cal la majoria de tres cinquenes parts del Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les tres cinquenes parts són la majoria de la reforma constitucional de l'art. 167, no la de la confiança."
+      },
+      {
+        "text": "Es considera atorgada la confiança, perquè n'hi ha prou amb la majoria simple.",
+        "isCorrect": true,
+        "rationale": "Correcta. La confiança s'atorga per majoria simple (més vots a favor que en contra), no per majoria absoluta (art. 112 CE)."
+      },
+      {
+        "text": "S'atorga només provisionalment, fins que el Senat ratifiqui la votació del Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Senat no hi intervé: la qüestió de confiança es planteja i es vota només al Congrés."
+      }
+    ],
+    "hint": "Art. 112 CE: majoria simple."
+  },
+  {
+    "guid": "882b99be-4ed3-412a-9d2a-d32257d51cc3",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 113 CE, una moció de censura ha de ser proposada, almenys, per:",
+    "answerOptions": [
+      {
+        "text": "Una quarta part dels diputats, i ha d'incloure un candidat a la Presidència del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Una quarta part és la iniciativa de l'art. 102.2 per perseguir un membre del Govern per traïció."
+      },
+      {
+        "text": "Una desena part dels diputats, i ha d'incloure un candidat a la Presidència del Govern.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 113.2 CE: 1/10 dels diputats (35 de 350). És la censura «constructiva»: no n'hi ha prou amb tombar el Govern, cal proposar-ne un d'alternatiu."
+      },
+      {
+        "text": "Una desena part dels diputats o dels senadors, sense que calgui incloure cap candidat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La moció de censura només la proposen diputats i ha d'incloure un candidat (art. 113.2 CE)."
+      },
+      {
+        "text": "La majoria absoluta dels diputats, i ha d'incloure un candidat a la Presidència del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La majoria absoluta és la necessària per adoptar-la, no per proposar-la."
+      }
+    ],
+    "hint": "Art. 113.2 CE: fracció de diputats i candidat."
+  },
+  {
+    "guid": "969ea314-d2af-4eaa-8d01-d63603066486",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 113.3 CE, la moció de censura no es pot votar fins que hagin passat uns dies des de la presentació, i durant els primers d'aquests dies es poden presentar mocions alternatives. Quins són aquests terminis?",
+    "answerOptions": [
+      {
+        "text": "Tres dies, i es poden presentar mocions alternatives durant el primer.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El termini mínim és de cinc dies, no de tres."
+      },
+      {
+        "text": "Deu dies, i es poden presentar mocions alternatives durant els cinc primers.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El termini mínim és de cinc dies, no de deu."
+      },
+      {
+        "text": "Cinc dies, i es poden presentar mocions alternatives durant tot el termini.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les alternatives només es poden presentar durant els dos primers dies."
+      },
+      {
+        "text": "Cinc dies, i es poden presentar mocions alternatives durant els dos primers.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 113.3 CE: la votació no es pot fer abans de cinc dies des de la presentació, i les mocions alternatives, només durant els dos primers."
+      }
+    ],
+    "hint": "Art. 113.3 CE: cinc dies i dos dies."
+  },
+  {
+    "guid": "5940aa95-8487-4874-bd7b-b4baa3e71a41",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 114.2 CE, si el Congrés adopta una moció de censura, el candidat inclòs en ella:",
+    "answerOptions": [
+      {
+        "text": "Es considera investit de la confiança de la Cambra, i el Rei el nomena President del Govern.",
+        "isCorrect": true,
+        "rationale": "Correcta. No hi ha una votació d'investidura posterior: l'aprovació de la moció equival a la confiança de l'art. 99. Només si el Govern perd la confiança (art. 114.1) s'obre el procediment de l'art. 99."
+      },
+      {
+        "text": "Ha de sotmetre's a una votació d'investidura, segons el procediment de l'art. 99, 48 hores després.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el camí quan el Congrés denega la confiança al Govern (art. 114.1), no quan adopta una moció de censura."
+      },
+      {
+        "text": "Ha d'obtenir, a més, la confiança del Senat, que ratifica la decisió adoptada pel Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Senat no intervé en l'exigència de responsabilitat política del Govern."
+      },
+      {
+        "text": "És proposat pel Rei, que abans consulta els grups polítics amb representació parlamentària.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La consulta del Rei amb els grups és pròpia de l'art. 99.1; en la censura el candidat ja és a la moció."
+      }
+    ],
+    "hint": "Art. 114.2 CE: compara-ho amb el 114.1 (confiança denegada)."
+  },
+  {
+    "guid": "5fd969bf-9a58-46f9-9c35-6e6678cd847d",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 115.1 CE, la proposta de dissolució del Congrés, del Senat o de les Corts Generals la fa el President del Govern:",
+    "answerOptions": [
+      {
+        "text": "Prèvia autorització del Congrés dels Diputats, que l'ha d'aprovar per majoria absoluta.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cap autorització parlamentària no és exigible; l'art. 115.1 només requereix la deliberació prèvia del Consell."
+      },
+      {
+        "text": "Prèvia aprovació del Consell de Ministres, que en pren la responsabilitat solidària.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Consell només delibera; la responsabilitat és exclusivament del President."
+      },
+      {
+        "text": "Prèvia deliberació del Consell de Ministres i sota la seva exclusiva responsabilitat.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 115.1 CE: el Consell delibera (no acorda) i la decisió i la responsabilitat són del President; el Rei la decreta i el decret fixa la data de les eleccions."
+      },
+      {
+        "text": "Prèvia consulta amb els presidents de totes dues Cambres, que n'han d'emetre un informe vinculant.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 115.1 no preveu cap informe vinculant dels presidents de les Cambres."
+      }
+    ],
+    "hint": "Art. 115.1 CE: deliberar no és acordar."
+  },
+  {
+    "guid": "f3e2efec-985f-483e-9351-d546aa9b1be2",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Quin d'aquests supòsits impedeix, segons l'art. 115.2 CE, presentar una proposta de dissolució?",
+    "answerOptions": [
+      {
+        "text": "Que el Govern acabi de perdre la votació d'un projecte de llei.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Perdre una votació legislativa no impedeix proposar la dissolució ni obliga el Govern a dimitir."
+      },
+      {
+        "text": "Que hi hagi una qüestió de confiança pendent de votació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 115.2 només esmenta la moció de censura en tràmit."
+      },
+      {
+        "text": "Que el Congrés estigui en un període d'intersessions.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La dissolució no depèn de si hi ha un període de sessions en curs."
+      },
+      {
+        "text": "Que hi hagi una moció de censura en tràmit.",
+        "isCorrect": true,
+        "rationale": "Correcta. Art. 115.2 CE. L'altre límit és el d'un any des de l'anterior dissolució, llevat de la dissolució automàtica de l'art. 99.5."
+      }
+    ],
+    "hint": "Art. 115.2 CE: hi ha dues limitacions constitucionals."
+  },
+  {
+    "guid": "3b1f6b2c-8738-447a-a1b4-22fc390f124a",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "En relació amb l'estat d'alarma (art. 116.2 CE), quina de les afirmacions següents és correcta?",
+    "answerOptions": [
+      {
+        "text": "El Govern el declara per decret per un màxim de 30 dies; la pròrroga també la pot acordar el mateix Govern, sense el Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La durada màxima inicial és de 15 dies i la pròrroga requereix l'autorització del Congrés."
+      },
+      {
+        "text": "El Govern el declara per decret per un màxim de 15 dies; per prorrogar-lo necessita l'autorització del Congrés.",
+        "isCorrect": true,
+        "rationale": "Correcta. El Govern en dona compte al Congrés, que es reuneix immediatament, i sense el seu concurs no es pot prorrogar. A l'estat d'excepció, en canvi, cal autorització prèvia (art. 116.3)."
+      },
+      {
+        "text": "El declara el Congrés per majoria absoluta, a proposta del Govern, i en fixa la durada.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el règim de l'estat de setge (art. 116.4 CE)."
+      },
+      {
+        "text": "El Govern el declara amb autorització prèvia del Congrés i per un màxim de 30 dies.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el règim de l'estat d'excepció (art. 116.3 CE)."
+      }
+    ],
+    "hint": "Art. 116.2 CE: decret del Govern, 15 dies i pròrroga amb el Congrés."
+  },
+  {
+    "guid": "67790fd8-b77b-4a71-805b-ff8dacc9b6e5",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 116.3 CE, l'estat d'excepció el declara el Govern per decret acordat en Consell de Ministres, i la seva durada és:",
+    "answerOptions": [
+      {
+        "text": "Màxim 15 dies, prorrogables amb l'autorització posterior del Congrés, que només n'ha de ser informat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els 15 dies i la mera informació al Congrés són característiques de l'estat d'alarma (art. 116.2)."
+      },
+      {
+        "text": "Màxim 30 dies, prorrogable indefinidament mentre el Congrés ho autoritzi expressament cada mes.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Només es pot prorrogar un cop, per un altre termini igual de 30 dies."
+      },
+      {
+        "text": "Màxim 30 dies, prorrogable un cop per un altre termini igual, i amb autorització prèvia del Congrés.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'autorització del Congrés ha de determinar els efectes de l'estat, l'àmbit territorial i la durada; la pròrroga d'un altre termini igual s'acorda amb els mateixos requisits (art. 116.3 CE)."
+      },
+      {
+        "text": "La que fixi el Govern en el decret, sense límit màxim, perquè l'estat d'excepció és d'urgència.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La CE fixa un màxim de 30 dies; en el setge, en canvi, és el Congrés qui en determina la durada (art. 116.4)."
+      }
+    ],
+    "hint": "Art. 116.3 CE: autorització prèvia del Congrés i 30 dies."
+  },
+  {
+    "guid": "7a8d6105-30f2-4ef9-b054-fe4e8f35447d",
+    "subjectId": "T02",
+    "difficulty": 2,
+    "origin": "Claude IA",
+    "type": "test",
+    "question": "Segons l'art. 116.4 CE, l'estat de setge el declara:",
+    "answerOptions": [
+      {
+        "text": "El Congrés dels Diputats, per majoria absoluta i a proposta exclusiva del Govern.",
+        "isCorrect": true,
+        "rationale": "Correcta. El Congrés en determina l'àmbit territorial, la durada i les condicions. Mentre n'hi ha un de declarat, no es pot dissoldre el Congrés (art. 116.5)."
+      },
+      {
+        "text": "El Govern, per decret acordat en Consell de Ministres, donant-ne compte al Congrés.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el règim de l'estat d'alarma (art. 116.2 CE)."
+      },
+      {
+        "text": "El Rei, a proposta del President del Govern i amb el refrendament d'aquest.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Rei no declara cap dels tres estats: ho fan el Govern o el Congrés."
+      },
+      {
+        "text": "Les Corts Generals, en sessió conjunta i per majoria de tres cinquenes parts.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Senat no hi intervé: el declara només el Congrés, per majoria absoluta."
+      }
+    ],
+    "hint": "Art. 116.4 CE: ho decideix el Congrés, a proposta exclusiva del Govern."
+  }
+]
