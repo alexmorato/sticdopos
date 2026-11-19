@@ -1037,9 +1037,9 @@
             <div class="recursos-title">🌐 Recursos HTML</div>
             <div class="recursos-list">
               ${tema.recursos.htmls.map((htmlFile, idx) => `
-                <a class="recurso-item" id="recurso-html-${tema.tema}-${idx}" onclick="guardarUltimoRecursoClicado('html', ${escaparHtml(JSON.stringify(tema.tema))}, ${idx})" href="${rootSinOpos}/${encodeURIComponent(tema.tema)}/htmls/${encodeURIComponent(htmlFile)}" target="_blank" rel="noopener noreferrer">
+                <a class="recurso-item" id="recurso-html-${tema.tema}-${idx}" onclick="guardarUltimoRecursoClicado('html', ${escaparHtml(JSON.stringify(tema.tema))}, ${idx})" href="iframe_viewer.html?url=${encodeURIComponent(`${rootSinOpos}/${encodeURIComponent(tema.tema)}/htmls/${encodeURIComponent(htmlFile)}`)}&amp;name=${encodeURIComponent(htmlFile)}&amp;fullscreen=true" target="_blank" rel="noopener noreferrer">
                   <div class="recurso-name">${escaparHtml(htmlFile)}</div>
-                  <span class="recurso-tag">↗ Abrir HTML</span>
+                  <span class="recurso-tag">↗ Veure HTML</span>
                 </a>
               `).join('')}
             </div>
