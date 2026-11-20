@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tema 3 · El Defensor del Poble i el Tribunal de Comptes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+  :root {
+    --paper: #F6F3EC; --card: #ECE6DA; --line: #D6CCBA;
+    --ink: #1B2A3A; --ink-2: #33404D; --muted: #5E6670;
+    --accent: #B8432F; --accent-dark: #8E3322; --accent-soft: #E58A6F; --cool: #C9D3DD;
+    --serif: "EB Garamond", Georgia, serif;
+    --sans: "Public Sans", Arial, system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 100%; height: 100%; overflow: hidden; background: #111; }
+  body { font-family: var(--sans); color: var(--ink-2); }
+
+  .deck { position: fixed; inset: 0; display: grid; place-items: center; }
+  .slide {
+    position: absolute; width: 1920px; height: 1080px;
+    background: var(--paper); overflow: hidden;
+    padding: 128px 128px 160px; display: flex; flex-direction: column; gap: 40px;
+    transform-origin: center center; opacity: 0; pointer-events: none;
+    transition: opacity .35s ease;
+  }
+  .slide.active { opacity: 1; pointer-events: auto; }
+  .slide.dark { background: var(--ink); color: var(--cool); }
+
+  .eyebrow { font-size: 24px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); }
+  .dark .eyebrow { color: var(--accent-soft); }
+  h1, h2 { font-family: var(--serif); color: var(--ink); font-weight: 500; line-height: 1.1; }
+  h1 { font-size: 96px; } h2 { font-size: 60px; }
+  .dark h1, .dark h2 { color: #fff; }
+  p, li, td, th { font-size: 28px; line-height: 1.4; }
+  .small { font-size: 24px; color: var(--muted); }
+  strong, .em { color: var(--accent-dark); font-weight: 700; }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; flex: 1; min-height: 0; }
+  .cols.three { grid-template-columns: 1fr 1fr 1fr; gap: 36px; }
+  .card { background: var(--card); border-radius: 6px; padding: 32px 36px; display: flex; flex-direction: column; gap: 14px; }
+  .card h3 { font-family: var(--serif); font-size: 36px; color: var(--ink); font-weight: 600; }
+  .trap { border-left: 6px solid var(--accent); background: #fff; padding: 24px 32px; }
+  ul.list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  ul.list li { padding-left: 28px; position: relative; }
+  ul.list li::before { content: ""; position: absolute; left: 0; top: .6em; width: 12px; height: 12px; background: var(--accent); }
+  .dense p, .dense li { font-size: 24px; }
+  .dense ul.list { gap: 6px; }
+  .dense .card { padding: 26px 30px; gap: 10px; }
+  .traps .card { padding: 16px 24px; gap: 4px; }
+
+  .steps { counter-reset: s; display: flex; flex-direction: column; gap: 18px; }
+  .steps li { list-style: none; counter-increment: s; display: grid; grid-template-columns: 56px 1fr; gap: 20px; align-items: start; }
+  .steps li::before { content: counter(s); width: 56px; height: 56px; border-radius: 50%; background: var(--ink); color: #fff;
+    font: 600 28px/56px var(--sans); text-align: center; }
+  .figure { font-family: var(--serif); font-size: 80px; color: var(--accent); line-height: 1; }
+  .dark .figure { color: var(--accent-soft); }
+  .dark .card { background: #24364A; }
+  .dark .card h3 { color: #fff; }
+  .dark strong { color: var(--accent-soft); }
+
+  table { width: 100%; border-collapse: collapse; }
+  th { background: var(--ink); color: #fff; text-align: left; padding: 14px 18px; font-size: 24px; }
+  td { padding: 12px 18px; border-bottom: 1px solid var(--line); font-size: 24px; vertical-align: top; }
+  tr:nth-child(even) td { background: var(--card); }
+
+  .pyramid { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .pyramid div { background: var(--ink); color: #fff; text-align: center; padding: 18px 24px; font-size: 24px; line-height: 1.3; border-radius: 4px; }
+  .pyramid div:nth-child(2) { background: var(--ink-2); }
+  .pyramid div:nth-child(3) { background: var(--muted); }
+
+  .qa { display: flex; flex-direction: column; gap: 22px; }
+  .qa .q { font-size: 28px; } .qa .q b { color: var(--accent); }
+  .qa .a { font-size: 26px; color: var(--accent-dark); padding-left: 24px; border-left: 4px solid var(--accent); margin-top: 6px; }
+
+  [data-step] { transition: opacity .3s ease, transform .3s ease; }
+  [data-step].hidden { opacity: 0; transform: translateY(16px); }
+
+  .footer { position: absolute; left: 128px; right: 128px; bottom: 56px; display: flex; justify-content: space-between;
+    font-size: 22px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+  .dark .footer { color: var(--cool); border-color: #33404D; }
+
+  .notes { position: fixed; left: 0; right: 0; bottom: 0; max-height: 35vh; overflow: auto; background: rgba(27,42,58,.96);
+    color: #fff; padding: 16px 24px; font-size: 16px; line-height: 1.5; display: none; z-index: 10; }
+  .notes.visible { display: block; }
+
+  @media print {
+    @page { size: 1920px 1080px; margin: 0; }
+    html, body { overflow: visible; background: none; }
+    .deck { position: static; display: block; }
+    .slide { position: relative; opacity: 1; transform: none !important; page-break-after: always; break-after: page; }
+    [data-step].hidden { opacity: 1; transform: none; }
+    .notes { display: none !important; }
+  }
+</style>
+</head>
+<body>
+<main class="deck" id="deck">
+
+  <!-- 1 · PORTADA -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Objectiu: dominar els dos òrgans constitucionals vinculats a les Corts Generals que completen el Tema 3: el Defensor del Poble (art. 54 CE) i el Tribunal de Comptes (art. 136 CE). Recorregut: context → Defensor (concepte, elecció, estatut, funcions) → Tribunal de Comptes (naturalesa, composició, organització, funcions) → comparativa → trampes i test."
+           style="justify-content: center; gap: 32px;">
+    <div class="eyebrow">Temari comú A1 · Ajuntament de Barcelona · Tema 3</div>
+    <h1>El Defensor del Poble i el Tribunal de Comptes</h1>
+    <p style="font-family: var(--serif); font-size: 44px; color: var(--ink-2);">Dos òrgans al servei de les Corts Generals: garantia dels drets i control de la gestió econòmica pública</p>
+    <p class="small">CE 1978 (art. 54 i 136) · LO 3/1981 del Defensor del Poble · LO 2/1982 del Tribunal de Comptes · Sessió d'estudi</p>
+  </section>
+
+  <!-- 2 · CONTEXT -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Tots dos òrgans tenen una relació directa amb les Corts: el Defensor n'és l'alt comissionat; el Tribunal de Comptes en depèn directament i li ret informe anual. Però cap dels dos és un òrgan de les Corts en sentit estricte ni forma part del poder judicial.">
+    <div class="eyebrow">Mapa del tema · Òrgans vinculats a les Corts Generals</div>
+    <h2>Dos òrgans, dues funcions de control</h2>
+    <div class="cols">
+      <div class="card"><h3>Defensor del Poble · art. 54 CE</h3>
+        <ul class="list">
+          <li><strong>Alt comissionat</strong> de les Corts Generals.</li>
+          <li>Defensa els <strong>drets del Títol I</strong>.</li>
+          <li>Supervisa l'activitat de l'<strong>Administració</strong>.</li>
+          <li>Regulat per la <strong>LO 3/1981</strong>, de 6 d'abril.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Tribunal de Comptes · art. 136 CE</h3>
+        <ul class="list">
+          <li><strong>Suprem òrgan fiscalitzador</strong> dels comptes públics.</li>
+          <li>Depèn directament de les Corts Generals.</li>
+          <li>Fiscalitza i <strong>enjudicia</strong> la responsabilitat comptable.</li>
+          <li>Regulat per la <strong>LO 2/1982</strong>, de 12 de maig.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="trap"><p><strong>Idea clau.</strong> Tots dos ajuden les Corts a controlar el poder executiu: un des dels <strong>drets</strong>, l'altre des dels <strong>diners</strong>.</p></div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 3 · DEFENSOR: CONCEPTE -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Remarcar: òrgan unipersonal, alt comissionat de les Corts, reserva de llei orgànica (art. 54). La relació amb les Corts es canalitza a través d'una Comissió Mixta Congrés-Senat (art. 2.2 LODP).">
+    <div class="eyebrow">3.2 · Defensor del Poble · art. 54 CE</div>
+    <h2>Què és el Defensor del Poble</h2>
+    <div class="cols dense">
+      <div class="card"><h3>Concepte</h3>
+        <ul class="list">
+          <li>Òrgan <strong>unipersonal</strong>.</li>
+          <li><strong>Alt comissionat de les Corts Generals</strong>.</li>
+          <li>Finalitat: <strong>defensar els drets del Títol I</strong> de la CE.</li>
+          <li>Per fer-ho, pot <strong>supervisar l'activitat de l'Administració</strong>.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Marc normatiu</h3>
+        <ul class="list">
+          <li>Art. 54 CE: reserva de <strong>llei orgànica</strong>.</li>
+          <li><strong>LO 3/1981, de 6 d'abril</strong>, del Defensor del Poble (LODP).</li>
+          <li>Relació amb les Corts: <strong>Comissió Mixta Congrés–Senat</strong> (art. 2.2 LODP).</li>
+          <li>Ret un <strong>informe anual</strong> a les Corts.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 4 · CARÀCTER I PRERROGATIVES -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="L'actuació del Defensor és moral i ètica: no té instruments coercitius, no anul·la actes ni imposa sancions. En canvi, té legitimació per interposar recurs d'inconstitucionalitat i recurs d'empara (art. 162.1 CE). Aforament: Sala Segona del TS.">
+    <div class="eyebrow">Defensor del Poble · Caràcter i estatut</div>
+    <h2>Independent, sense poder coercitiu</h2>
+    <div class="cols dense">
+      <div class="card"><h3>Caràcter</h3>
+        <ul class="list">
+          <li><strong>Independent</strong>, però ret comptes a les Corts.</li>
+          <li>Actuació <strong>moral i ètica</strong>: no té instruments coercitius.</li>
+          <li>No rep <strong>mandat imperatiu</strong> ni instruccions de cap autoritat.</li>
+          <li>Actua amb <strong>autonomia</strong> i segons el seu criteri.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Prerrogatives</h3>
+        <ul class="list">
+          <li>Legitimació per al <strong>recurs d'inconstitucionalitat</strong> i el <strong>recurs d'empara</strong> (art. 162.1 CE).</li>
+          <li><strong>Inviolabilitat</strong>: per opinions i actes en l'exercici del càrrec (art. 6.2 LODP).</li>
+          <li><strong>Immunitat</strong>: només detenció en cas de <strong>flagrant delicte</strong> (art. 6.3).</li>
+          <li><strong>Aforat</strong> davant la <strong>Sala 2a del Tribunal Suprem</strong>, sense suplicatori.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 5 · ELECCIÓ -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Procediment: primer, 3/5 del Congrés i, després, ratificació per 3/5 del Senat. Si el Senat no arriba als 3/5, en una nova votació n'hi ha prou amb 3/5 del Congrés i majoria absoluta del Senat (art. 2.4 i 2.5 LODP). Requisits mínims: espanyol, major d'edat i ple gaudi de drets civils i polítics.">
+    <div class="eyebrow">Defensor del Poble · Elecció · art. 2 i 3 LODP</div>
+    <h2>Com s'elegeix el Defensor del Poble</h2>
+    <ol class="steps">
+      <li><p>Proposta de la <strong>Comissió Mixta</strong> Congrés–Senat.</p></li>
+      <li><p><strong>Congrés</strong>: cal el vot favorable de <strong>3/5</strong>.</p></li>
+      <li><p><strong>Senat</strong>: ratificació per <strong>3/5</strong>.</p></li>
+      <li><p>Si no hi ha acord: <strong>3/5 del Congrés + majoria absoluta del Senat</strong> (art. 2.5).</p></li>
+    </ol>
+    <div class="cols">
+      <div class="card"><h3>Requisits (art. 3)</h3>
+        <p>Qualsevol <strong>espanyol major d'edat</strong> en ple gaudi dels <strong>drets civils i polítics</strong>.</p>
+      </div>
+      <div class="trap"><p><strong>Atenció.</strong> No se li apliquen els requisits d'alt càrrec de la <strong>Llei 3/2015</strong>.</p></div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 6 · MANDAT, NOMENAMENT, CESSAMENT -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Mandat de 5 anys (art. 2.1). El nomenament el fan conjuntament els presidents del Congrés i del Senat (art. 4.1), NO el Rei. Causes de cessament: art. 5.1. La destitució per notòria negligència necessita 3/5 de cada cambra (art. 5.2).">
+    <div class="eyebrow">Defensor del Poble · Mandat · art. 2, 4 i 5 LODP</div>
+    <h2>Mandat, nomenament i cessament</h2>
+    <div class="cols three dense">
+      <div class="card"><h3>Mandat</h3>
+        <div class="figure">5 anys</div>
+        <p class="small">Art. 2.1 LODP</p>
+      </div>
+      <div class="card"><h3>Nomenament</h3>
+        <p>Conjuntament pels <strong>presidents del Congrés i del Senat</strong> (art. 4.1).</p>
+        <p class="small">No el nomena el Rei.</p>
+      </div>
+      <div class="card"><h3>Cessament (art. 5.1)</h3>
+        <ul class="list">
+          <li>Renúncia.</li>
+          <li>Fi del mandat.</li>
+          <li>Mort o incapacitat sobrevinguda.</li>
+          <li><strong>Notòria negligència</strong>.</li>
+          <li>Condemna ferma per <strong>delicte dolós</strong>.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="trap"><p><strong>Destitució per negligència</strong>: cal una majoria de <strong>3/5 de cada cambra</strong> (art. 5.2 LODP).</p></div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 7 · ACCÉS I PROCEDIMENT -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Accés universal, gratuït i sense necessitat d'advocat. Termini: 1 any des que es té coneixement dels fets (correcció d'errades de 2021; abans es llegia «des dels fets»). El Defensor admet o rebutja la queixa i, si l'admet, demana informe a l'Administració afectada.">
+    <div class="eyebrow">Defensor del Poble · Queixes · Accés de la ciutadania</div>
+    <h2>Com s'hi pot adreçar la ciutadania</h2>
+    <div class="cols dense">
+      <div class="card"><h3>Accés</h3>
+        <ul class="list">
+          <li><strong>Públic</strong>: qualsevol persona pot presentar una queixa.</li>
+          <li><strong>Gratuït</strong>.</li>
+          <li>També pot actuar <strong>d'ofici</strong>.</li>
+        </ul>
+        <div class="figure">1 any</div>
+        <p class="small">des que es té <strong>coneixement</strong> dels fets</p>
+      </div>
+      <div class="card"><h3>Tramitació</h3>
+        <ol class="steps">
+          <li><p>Es presenta la <strong>queixa</strong>.</p></li>
+          <li><p>El Defensor l'<strong>admet o la rebutja</strong>.</p></li>
+          <li><p>Si l'admet, <strong>demana informe</strong> a l'Administració afectada.</p></li>
+          <li><p>Formula les <strong>conclusions</strong> i les actuacions que escaiguin.</p></li>
+        </ol>
+      </div>
+    </div>
+    <div class="trap"><p><strong>Trampa.</strong> El termini és d'1 any <strong>des del coneixement</strong> dels fets, no des dels fets (correcció d'errades de 2021).</p></div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 8 · FUNCIONS I ADJUNTS -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Les funcions són de persuasió: informes, advertències, recomanacions, recordatoris de deures legals i suggeriments. Pot dirigir-se al funcionari, al seu superior o al ministre i exercir l'acció de responsabilitat. Dos adjunts amb la conformitat de les cambres (art. 8). Homòlegs autonòmics: Llei 36/1985 (Síndic de Greuges, Ararteko...).">
+    <div class="eyebrow">Defensor del Poble · Funcions i organització</div>
+    <h2>Què pot fer el Defensor del Poble</h2>
+    <div class="cols three dense">
+      <div class="card"><h3>Funcions</h3>
+        <ul class="list">
+          <li>Informes negatius i <strong>propostes de millora</strong>.</li>
+          <li><strong>Advertències</strong> i <strong>recomanacions</strong>.</li>
+          <li>Dirigir-se al <strong>funcionari</strong>, al seu superior o al <strong>ministre</strong>.</li>
+          <li>Exercir l'<strong>acció de responsabilitat</strong>.</li>
+          <li><strong>Informe anual</strong> a les Corts.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Adjunts i assessors</h3>
+        <ul class="list">
+          <li><strong>Dos adjunts</strong>, amb la conformitat prèvia de les cambres (art. 8).</li>
+          <li>Assessors de <strong>lliure designació</strong>.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Figures autonòmiques</h3>
+        <ul class="list">
+          <li>Coordinació: <strong>Llei 36/1985</strong>.</li>
+          <li>Catalunya: <strong>Síndic de Greuges</strong>.</li>
+          <li>País Basc: <strong>Ararteko</strong>.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 9 · DEFENSOR EN XIFRES (DARK) -->
+  <section class="slide dark" aria-roledescription="slide"
+           data-notes="Diapositiva resum per memoritzar les xifres clau del Defensor: 1 titular, 2 adjunts, 5 anys de mandat, 3/5 per elegir-lo i per destituir-lo per negligència, 1 any per presentar la queixa.">
+    <div class="eyebrow">Resum · Defensor del Poble</div>
+    <h2>Les xifres que cal recordar</h2>
+    <div class="cols three dense">
+      <div class="card"><div class="figure">5</div><p>anys de <strong>mandat</strong></p></div>
+      <div class="card"><div class="figure">3/5</div><p>Congrés i Senat per <strong>elegir-lo</strong> i per <strong>destituir-lo</strong></p></div>
+      <div class="card"><div class="figure">2</div><p><strong>adjunts</strong> amb conformitat de les cambres</p></div>
+    </div>
+    <div class="cols dense">
+      <div class="card"><div class="figure">1 any</div><p>per presentar la <strong>queixa</strong> des del coneixement dels fets</p></div>
+      <div class="card"><div class="figure">Sala 2a</div><p>del <strong>Tribunal Suprem</strong>: aforament</p></div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 10 · TRIBUNAL DE COMPTES: CONCEPTE -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Art. 136 CE: suprem òrgan fiscalitzador dels comptes i de la gestió econòmica de l'Estat i del sector públic. També fiscalitza els partits polítics i les seves fundacions. Únic en el seu ordre i amb jurisdicció a tot Espanya. Existeixen òrgans autonòmics equivalents (Sindicatura de Comptes).">
+    <div class="eyebrow">3.3 · Tribunal de Comptes · art. 136 CE</div>
+    <h2>Què és el Tribunal de Comptes</h2>
+    <div class="cols dense">
+      <div class="card"><h3>Concepte</h3>
+        <ul class="list">
+          <li><strong>Suprem òrgan fiscalitzador</strong> dels comptes i de la gestió econòmica de l'<strong>Estat i del sector públic</strong>.</li>
+          <li>També fiscalitza els <strong>partits polítics</strong> i les seves fundacions.</li>
+          <li><strong>Únic</strong> en el seu ordre, amb jurisdicció a <strong>tot el territori</strong>.</li>
+          <li>Envia un <strong>informe anual</strong> a les Corts Generals.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Marc normatiu</h3>
+        <ul class="list">
+          <li>Art. 136 CE: reserva de <strong>llei orgànica</strong>.</li>
+          <li><strong>LO 2/1982, de 12 de maig</strong>, del Tribunal de Comptes (LOTCt).</li>
+          <li>Equivalents autonòmics: <strong>Sindicatura de Comptes</strong> de Catalunya i altres òrgans de control extern.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 11 · NATURALESA -->
+  <section class="slide dark" aria-roledescription="slide"
+           data-notes="Pregunta típica: el Tribunal de Comptes és poder judicial? No. És un òrgan de les Corts? Tampoc: és un òrgan auxiliar que en depèn directament. Malgrat això, els seus membres tenen la mateixa independència, inamobilitat i incompatibilitats que els jutges.">
+    <div class="eyebrow">Tribunal de Comptes · Naturalesa jurídica</div>
+    <h2>El Tribunal de Comptes forma part del poder judicial?</h2>
+    <div class="figure" style="font-size: 120px;">No.</div>
+    <div class="cols dense">
+      <div class="card"><h3>Què no és</h3>
+        <ul class="list">
+          <li><strong>No</strong> forma part del <strong>poder judicial</strong>.</li>
+          <li><strong>No</strong> és un òrgan de les Corts Generals.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Què és</h3>
+        <ul class="list">
+          <li>Òrgan <strong>auxiliar</strong> que depèn directament de les Corts.</li>
+          <li>Els seus membres tenen la mateixa <strong>independència, inamobilitat i incompatibilitats</strong> que els jutges.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 12 · COMPOSICIÓ -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="12 consellers de comptes (art. 30 LOTCt): 6 elegits pel Congrés i 6 pel Senat, per 3/5, per a 9 anys. Perfils: censors del Tribunal, censors jurats de comptes, magistrats i fiscals, professors d'universitat, funcionaris de grau superior, advocats, economistes i professors mercantils, amb més de 15 anys d'exercici.">
+    <div class="eyebrow">Tribunal de Comptes · Composició · art. 30 LOTCt</div>
+    <h2>Els 12 consellers de comptes</h2>
+    <div class="cols three dense">
+      <div class="card"><div class="figure">12</div><p>consellers: <strong>6 Congrés + 6 Senat</strong></p></div>
+      <div class="card"><div class="figure">3/5</div><p>de cada cambra per elegir-los</p></div>
+      <div class="card"><div class="figure">9 anys</div><p>de mandat</p></div>
+    </div>
+    <div class="card"><h3>D'entre quins perfils? (més de 15 anys d'exercici)</h3>
+      <ul class="list">
+        <li>Censors del Tribunal de Comptes · censors jurats de comptes.</li>
+        <li>Magistrats i fiscals · professors d'universitat · funcionaris de grau superior.</li>
+        <li>Advocats, economistes i professors mercantils.</li>
+      </ul>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 13 · INCOMPATIBILITATS I RESPONSABILITAT -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Incompatibilitats: les dels jutges segons la LOPJ. Un diputat o senador ha de renunciar abans de prendre possessió. No poden ser consellers els qui en els 2 anys anteriors hagin gestionat ingressos o despeses del sector públic, presidit o format part d'òrgans de direcció d'ens públics, administrat fons públics o rebut subvencions. Aforament: Sales 1a i 2a del TS.">
+    <div class="eyebrow">Tribunal de Comptes · Estatut dels consellers</div>
+    <h2>Incompatibilitats i responsabilitat</h2>
+    <div class="cols dense">
+      <div class="card"><h3>Incompatibilitats</h3>
+        <ul class="list">
+          <li>Les mateixes que els <strong>jutges</strong> (LOPJ).</li>
+          <li>Diputats i senadors: han de <strong>renunciar a l'escó</strong> abans.</li>
+          <li>Exclusió si en els <strong>2 anys anteriors</strong> han:
+            <ul class="list">
+              <li>gestionat ingressos o despeses del sector públic;</li>
+              <li>presidit o format part de la direcció d'un ens públic;</li>
+              <li>administrat fons públics o rebut subvencions.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="card"><h3>Responsabilitat</h3>
+        <ul class="list">
+          <li><strong>Aforats</strong> davant el <strong>Tribunal Suprem</strong>.</li>
+          <li>Responsabilitat civil: <strong>Sala 1a</strong>.</li>
+          <li>Responsabilitat penal: <strong>Sala 2a</strong>.</li>
+        </ul>
+        <div class="trap" style="margin-top:20px;"><p>Els consellers resolen <strong>judicis de comptes</strong>, <strong>reintegrament per abast</strong> i <strong>cancel·lació de fiances</strong>.</p></div>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 14 · ORGANITZACIÓ: PRESIDENT, FISCALIA, SECRETARIA -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="El president s'elegeix d'entre els 12 consellers a proposta del Ple, per 3 anys, i el nomena el Rei. La Fiscalia està integrada per un fiscal i advocats; el fiscal forma part del Ple i el nomena el Govern. A més hi ha una Secretaria General.">
+    <div class="eyebrow">Tribunal de Comptes · Organització (I)</div>
+    <h2>President, Fiscalia i Secretaria General</h2>
+    <div class="cols three dense">
+      <div class="card"><h3>President</h3>
+        <ul class="list">
+          <li>Elegit d'entre els <strong>12 consellers</strong>, a proposta del <strong>Ple</strong>.</li>
+          <li>Mandat de <strong>3 anys</strong>.</li>
+          <li>Nomenat pel <strong>Rei</strong>.</li>
+          <li>Representa el Tribunal, presideix el Ple i la Comissió de Govern amb <strong>vot de qualitat</strong>.</li>
+          <li>Dirigeix el personal i autoritza les despeses.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Fiscalia</h3>
+        <ul class="list">
+          <li>Un <strong>fiscal</strong> i advocats.</li>
+          <li>El fiscal forma part del <strong>Ple</strong>.</li>
+          <li>Nomenat pel <strong>Govern</strong>.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Secretaria General</h3>
+        <ul class="list">
+          <li>Òrgan de suport administratiu i de gestió.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 15 · PLE, COMISSIÓ DE GOVERN, SECCIONS -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Ple: 12 consellers + fiscal (art. 21). Quòrum de 2/3; acords per majoria dels presents. Comissió de Govern: president + presidents de les dues seccions. Seccions: fiscalització (revisa els comptes) i enjudiciament (recursos i memòria anual per a les Corts).">
+    <div class="eyebrow">Tribunal de Comptes · Organització (II)</div>
+    <h2>Ple, Comissió de Govern i seccions</h2>
+    <div class="cols three dense">
+      <div class="card"><h3>Ple (art. 21)</h3>
+        <ul class="list">
+          <li><strong>12 consellers + fiscal</strong>.</li>
+          <li>Quòrum: <strong>2/3</strong>; acords per majoria dels presents.</li>
+          <li>Exerceix la fiscalització, planteja <strong>conflictes de competències</strong>, resol recursos contra les seves resolucions administratives i aprova el seu <strong>Reglament</strong>.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Comissió de Govern</h3>
+        <ul class="list">
+          <li><strong>President + presidents de les dues seccions</strong>.</li>
+          <li>Règim de treball del personal i <strong>disciplina</strong>.</li>
+          <li>Distribueix els assumptes.</li>
+          <li>Nomena els <strong>delegats instructors</strong>.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Seccions</h3>
+        <ul class="list">
+          <li><strong>Fiscalització</strong>: revisa els comptes.</li>
+          <li><strong>Enjudiciament</strong>: recursos i <strong>memòria anual</strong> per a les Corts.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 16 · FUNCIONS -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Dues funcions: fiscalitzar tot el sector públic i enjudiciar la responsabilitat comptable. Aquesta jurisdicció és especial i limitada, i és compatible amb la disciplinària i la penal. L'art. 16 LOTCt n'exclou els assumptes del TC, els contenciosos administratius, els delictes i les qüestions civils i laborals.">
+    <div class="eyebrow">Tribunal de Comptes · Funcions</div>
+    <h2>Fiscalitzar i enjudiciar</h2>
+    <div class="cols dense">
+      <div class="card"><h3>1 · Fiscalització</h3>
+        <ul class="list">
+          <li>De <strong>tot el sector públic</strong>.</li>
+          <li>Comptes i gestió econòmica de l'Estat, partits polítics i fundacions.</li>
+          <li>Resultat: <strong>informe anual</strong> a les Corts.</li>
+        </ul>
+      </div>
+      <div class="card"><h3>2 · Enjudiciament</h3>
+        <ul class="list">
+          <li>De la <strong>responsabilitat comptable</strong>.</li>
+          <li>Jurisdicció <strong>especial i limitada</strong>.</li>
+          <li><strong>Compatible</strong> amb la jurisdicció disciplinària i la penal.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="trap"><p><strong>Art. 16 LOTCt · NO coneix de:</strong> assumptes del <strong>Tribunal Constitucional</strong>, qüestions <strong>contenciosa-administratives</strong>, <strong>delictes</strong> ni qüestions <strong>civils o laborals</strong>.</p></div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 17 · COMPARATIVA -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Taula per fixar les diferències. Atenció especial al nomenament: el Defensor el nomenen els presidents de les cambres; el president del Tribunal de Comptes el nomena el Rei. Mandats: 5 anys el Defensor, 9 anys els consellers, 3 anys el president del TCu.">
+    <div class="eyebrow">Comparativa · Defensor del Poble vs Tribunal de Comptes</div>
+    <h2>Cara a cara</h2>
+    <table>
+      <thead><tr><th></th><th>Defensor del Poble</th><th>Tribunal de Comptes</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Article CE</strong></td><td>Art. 54</td><td>Art. 136</td></tr>
+        <tr><td><strong>Llei</strong></td><td>LO 3/1981, de 6 d'abril</td><td>LO 2/1982, de 12 de maig</td></tr>
+        <tr><td><strong>Membres</strong></td><td>1 titular + 2 adjunts</td><td>12 consellers (+ fiscal al Ple)</td></tr>
+        <tr><td><strong>Elecció</strong></td><td>3/5 Congrés + 3/5 Senat</td><td>6 Congrés + 6 Senat, per 3/5</td></tr>
+        <tr><td><strong>Mandat</strong></td><td>5 anys</td><td>9 anys (president: 3)</td></tr>
+        <tr><td><strong>Nomenament</strong></td><td>Presidents del Congrés i del Senat</td><td>President: el Rei</td></tr>
+        <tr><td><strong>Aforament</strong></td><td>Sala 2a del TS</td><td>Sales 1a i 2a del TS</td></tr>
+      </tbody>
+    </table>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 18 · TRAMPES -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Repassar una a una les afirmacions falses habituals. Totes surten de confondre xifres o òrgans de nomenament.">
+    <div class="eyebrow">Examen · Trampes habituals</div>
+    <h2>Compte amb aquestes afirmacions</h2>
+    <div class="cols traps">
+      <div class="card"><p><strong>«El Rei nomena el Defensor del Poble.»</strong> Fals: el nomenen conjuntament els presidents del Congrés i del Senat.</p></div>
+      <div class="card"><p><strong>«El termini per a la queixa és d'1 any des dels fets.»</strong> Fals: des que se'n té coneixement.</p></div>
+      <div class="card"><p><strong>«El Tribunal de Comptes forma part del poder judicial.»</strong> Fals: depèn directament de les Corts.</p></div>
+      <div class="card"><p><strong>«Els consellers tenen un mandat de 5 anys.»</strong> Fals: 9 anys (el Defensor, 5).</p></div>
+      <div class="card"><p><strong>«El Defensor pot anul·lar actes administratius.»</strong> Fals: no té poders coercitius.</p></div>
+      <div class="card"><p><strong>«El Tribunal de Comptes jutja delictes.»</strong> Fals: l'art. 16 LOTCt ho exclou.</p></div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 19 · TEST (I) -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Fer la pregunta, deixar pensar i revelar la resposta amb la fletxa o un clic.">
+    <div class="eyebrow">Test ràpid (I) · Defensor del Poble</div>
+    <h2>Comprova el que saps</h2>
+    <div class="qa">
+      <div><p class="q"><b>Repàs ·</b> Quina majoria cal al Senat si no s'assoleixen els 3/5 en la primera votació?</p><p class="a" data-step>Majoria absoluta, sempre que el Congrés hagi votat per 3/5 (art. 2.5 LODP).</p></div>
+      <div><p class="q"><b>Repàs ·</b> Davant de quin òrgan està aforat el Defensor del Poble?</p><p class="a" data-step>La Sala 2a del Tribunal Suprem, sense necessitat de suplicatori.</p></div>
+      <div><p class="q"><b>Repàs ·</b> Quants adjunts té el Defensor del Poble?</p><p class="a" data-step>Dos, amb la conformitat prèvia de les cambres (art. 8 LODP).</p></div>
+      <div><p class="q"><b>Repàs ·</b> Quina majoria cal per destituir-lo per notòria negligència?</p><p class="a" data-step>3/5 de cada cambra (art. 5.2 LODP).</p></div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 20 · TEST (II) -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Segona tanda de preguntes, centrada en el Tribunal de Comptes.">
+    <div class="eyebrow">Test ràpid (II) · Tribunal de Comptes</div>
+    <h2>Comprova el que saps</h2>
+    <div class="qa">
+      <div><p class="q"><b>Repàs ·</b> Qui forma el Ple del Tribunal de Comptes?</p><p class="a" data-step>Els 12 consellers i el fiscal (art. 21 LOTCt).</p></div>
+      <div><p class="q"><b>Repàs ·</b> Qui nomena el president del Tribunal de Comptes i per a quant de temps?</p><p class="a" data-step>El Rei, a proposta del Ple, per a 3 anys.</p></div>
+      <div><p class="q"><b>Repàs ·</b> Quin és el quòrum del Ple?</p><p class="a" data-step>2/3 dels membres; els acords es prenen per majoria dels presents.</p></div>
+      <div><p class="q"><b>Repàs ·</b> Quins anys d'exercici professional es demanen per ser conseller?</p><p class="a" data-step>Més de 15 anys.</p></div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+  <!-- 21 · FONTS -->
+  <section class="slide" aria-roledescription="slide"
+           data-notes="Fonts utilitzades. Les preguntes del test són de repàs i no provenen de convocatòries reals.">
+    <div class="eyebrow">Fonts</div>
+    <h2>Fonts i material de referència</h2>
+    <div class="cols dense">
+      <div class="card"><h3>Normativa</h3>
+        <ul class="list">
+          <li>Constitució espanyola de 1978 (art. 54, 136 i 162.1).</li>
+          <li>LO 3/1981, de 6 d'abril, del Defensor del Poble.</li>
+          <li>LO 2/1982, de 12 de maig, del Tribunal de Comptes.</li>
+          <li>Llei 36/1985 (relacions amb les figures autonòmiques).</li>
+        </ul>
+      </div>
+      <div class="card"><h3>Material d'estudi</h3>
+        <ul class="list">
+          <li>Apunts <strong>Xavi - T03.pdf</strong> (apartats 3.2 i 3.3).</li>
+          <li>Les Corts Generals (3.1): vegeu la presentació específica del tema.</li>
+          <li>Preguntes del test: elaborades a partir dels apunts (no són convocatòries reals).</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Tema 3 · Defensor del Poble i Tribunal de Comptes</span><span class="page"></span></div>
+  </section>
+
+</main>
+<aside class="notes" id="notes" aria-live="polite"></aside>
+<script>
+(() => {
+  const slides = [...document.querySelectorAll('.slide')];
+  const notes = document.getElementById('notes');
+  const total = slides.length;
+  let current = 0;
+
+  slides.forEach((slide, i) => {
+    slide.setAttribute('aria-label', `Diapositiva ${i + 1} de ${total}`);
+    const page = slide.querySelector('.page');
+    if (page) page.textContent = i + 1;
+    slide.querySelectorAll('[data-step]').forEach(el => el.classList.add('hidden'));
+  });
+
+  function fit() {
+    const scale = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+    slides.forEach(s => { s.style.transform = `scale(${scale})`; });
+  }
+
+  function show(index) {
+    current = Math.max(0, Math.min(total - 1, index));
+    slides.forEach((s, i) => s.classList.toggle('active', i === current));
+    notes.textContent = slides[current].dataset.notes || '';
+    history.replaceState(null, '', `#${current + 1}`);
+  }
+
+  function next() {
+    const pending = slides[current].querySelector('[data-step].hidden');
+    if (pending) { pending.classList.remove('hidden'); return; }
+    if (current < total - 1) show(current + 1);
+  }
+
+  function prev() {
+    const shown = [...slides[current].querySelectorAll('[data-step]:not(.hidden)')].pop();
+    if (shown) { shown.classList.add('hidden'); return; }
+    if (current > 0) show(current - 1);
+  }
+
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    else if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+    else if (e.key === 'Home') show(0);
+    else if (e.key === 'End') show(total - 1);
+    else if (e.key.toLowerCase() === 'n') notes.classList.toggle('visible');
+  });
+
+  document.addEventListener('click', e => {
+    if (e.target.closest('a, button, .notes')) return;
+    e.clientX > window.innerWidth / 2 ? next() : prev();
+  });
+
+  let touchX = null;
+  document.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 50) (dx < 0 ? next : prev)();
+    touchX = null;
+  });
+
+  window.addEventListener('resize', fit);
+  window.addEventListener('hashchange', () => show(parseInt(location.hash.slice(1), 10) - 1 || 0));
+
+  fit();
+  show((parseInt(location.hash.slice(1), 10) || 1) - 1);
+})();
+</script>
+</body>
+</html>
