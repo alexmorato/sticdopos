@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "d8aca831-0cfe-4563-baa3-b84d23290b7f",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 103.1 de la Constitució, l'Administració pública actua d'acord amb els principis de:",
+    "answerOptions": [
+      {
+        "text": "Eficàcia, jerarquia, descentralització, desconcentració i coordinació.",
+        "isCorrect": true,
+        "rationale": "Correcta. És la llista literal de l'art. 103.1 CE, que l'art. 3.1 LRJSP repeteix."
+      },
+      {
+        "text": "Eficiència, jerarquia, descentralització, desconcentració i coordinació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 103.1 CE diu eficàcia; l'eficiència apareix a l'art. 3.1.j LRJSP i a l'art. 31.2 CE."
+      },
+      {
+        "text": "Eficàcia, jerarquia, descentralització, desconcentració i cooperació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 103.1 CE diu coordinació; la cooperació apareix a l'art. 3.1.k LRJSP."
+      },
+      {
+        "text": "Eficàcia, jerarquia, centralització, desconcentració i coordinació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El principi constitucional és la descentralització, no la centralització."
+      }
+    ],
+    "hint": "Cinc principis: compte amb eficàcia i eficiència."
+  },
+  {
+    "guid": "60aa20a3-237e-40b6-af5b-1ac40b823bc3",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 103.1 de la Constitució, l'Administració pública actua amb submissió plena:",
+    "answerOptions": [
+      {
+        "text": "A la Constitució i a les lleis orgàniques.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 103.1 CE no esmenta les lleis orgàniques: parla de la llei i el dret."
+      },
+      {
+        "text": "A la llei i al dret.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 103.1 CE acaba amb «amb submissió plena a la llei i al dret». L'art. 3.1 LRJSP hi afegeix la Constitució."
+      },
+      {
+        "text": "A les instruccions del Govern i dels òrgans superiors.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'Administració està sotmesa a la llei i al dret, no a instruccions; el Govern la dirigeix (art. 97 CE)."
+      },
+      {
+        "text": "A la llei i a les ordres del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La submissió plena és a la llei i al dret, no a les ordres del Govern."
+      }
+    ],
+    "hint": "Dos termes: un de formal i un de més ampli."
+  },
+  {
+    "guid": "9b08c9e3-7b1f-43e7-be02-2bcf9b2be956",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 103.2 de la Constitució, els òrgans de l'Administració de l'Estat:",
+    "answerOptions": [
+      {
+        "text": "Són creats i suprimits per reial decret del President del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El President crea per reial decret els ministeris i les secretaries d'Estat (art. 57 LRJSP), però la Constitució remet a la llei."
+      },
+      {
+        "text": "Són creats pel Govern i coordinats per les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les Corts no coordinen els òrgans de l'Administració; l'art. 103.2 CE remet a la llei."
+      },
+      {
+        "text": "Són creats, regits i coordinats d'acord amb la llei.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el text de l'art. 103.2 CE, que enllaça amb els requisits de creació d'òrgans de l'art. 5 LRJSP."
+      },
+      {
+        "text": "Són creats, regits i coordinats d'acord amb els reglaments del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 103.2 CE parla de la llei, no dels reglaments del Govern."
+      }
+    ],
+    "hint": "Tres verbs i una sola font."
+  },
+  {
+    "guid": "3d0d8cbe-e583-48e6-8195-1dc4524cb887",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Quin d'aquests principis NO és un dels que garanteix l'art. 9.3 de la Constitució?",
+    "answerOptions": [
+      {
+        "text": "La interdicció de l'arbitrarietat dels poders públics.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La interdicció de l'arbitrarietat dels poders públics és a l'art. 9.3 CE."
+      },
+      {
+        "text": "La irretroactivitat de les disposicions sancionadores no favorables.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.3 CE garanteix la irretroactivitat de les disposicions sancionadores no favorables o restrictives de drets individuals."
+      },
+      {
+        "text": "La publicitat de les normes.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La publicitat de les normes és un dels principis de l'art. 9.3 CE."
+      },
+      {
+        "text": "El principi d'eficàcia de l'Administració pública.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'eficàcia és un principi d'actuació de l'Administració de l'art. 103.1 CE, no de l'art. 9.3."
+      }
+    ],
+    "hint": "L'art. 9.3 parla de l'ordenament i dels poders públics en general."
+  },
+  {
+    "guid": "da5c44f3-55fe-4009-a632-b73c7964d45c",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 105.b de la Constitució, la llei regula l'accés dels ciutadans als arxius i registres administratius, excepte en allò que afecti:",
+    "answerOptions": [
+      {
+        "text": "La seguretat i defensa de l'Estat, els interessos econòmics de l'Administració i la intimitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els interessos econòmics de l'Administració no són una excepció de l'art. 105.b CE."
+      },
+      {
+        "text": "La seguretat de l'Estat, els documents dels òrgans col·legiats i el secret professional.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 105.b CE no esmenta els òrgans col·legiats ni el secret professional."
+      },
+      {
+        "text": "La seguretat i defensa de l'Estat, l'esbrinament dels delictes i la intimitat de les persones.",
+        "isCorrect": true,
+        "rationale": "Correcta. Són les tres excepcions de l'art. 105.b CE."
+      },
+      {
+        "text": "La intimitat de les persones, els processos selectius en curs i la defensa de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els processos selectius no figuren entre les excepcions de l'art. 105.b CE."
+      }
+    ],
+    "hint": "Tres excepcions: l'Estat, els delictes i les persones."
+  },
+  {
+    "guid": "fb32e6a1-8cf1-4f15-8700-150499ac0f9a",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 106.2 de la Constitució, els particulars tenen dret a ser indemnitzats per tota lesió causada pel funcionament dels serveis públics:",
+    "answerOptions": [
+      {
+        "text": "Llevat dels casos de força major, en els termes que estableixi la llei.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 106.2 CE només exclou els casos de força major, i remet a la llei."
+      },
+      {
+        "text": "Només si el funcionament del servei públic ha estat anormal o clarament il·legal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 106.2 CE parla del «funcionament» dels serveis públics, sense exigir que sigui anormal."
+      },
+      {
+        "text": "Llevat dels casos en què hi hagi culpa de l'empleat públic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La culpa de l'empleat no exclou la responsabilitat de l'Administració; l'única excepció constitucional és la força major."
+      },
+      {
+        "text": "Només si la lesió afecta un dret fonamental de la persona.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 106.2 CE es refereix a qualsevol bé o dret, no només als drets fonamentals."
+      }
+    ],
+    "hint": "Una sola excepció."
+  },
+  {
+    "guid": "0330aada-7958-4c27-a18b-b770159baae1",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Quin d'aquests principis apareix a l'art. 3.1 de la Llei 40/2015 però NO a l'art. 103.1 de la Constitució?",
+    "answerOptions": [
+      {
+        "text": "Desconcentració.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La desconcentració és a tots dos articles."
+      },
+      {
+        "text": "Coordinació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La coordinació és a l'art. 103.1 CE i també a l'art. 3.1 LRJSP."
+      },
+      {
+        "text": "Jerarquia.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La jerarquia és un dels cinc principis de l'art. 103.1 CE."
+      },
+      {
+        "text": "Eficiència.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'eficiència en l'assignació i la utilització dels recursos públics és a l'art. 3.1.j LRJSP; l'art. 103.1 CE diu eficàcia."
+      }
+    ],
+    "hint": "Pensa en la parella eficàcia i eficiència."
+  },
+  {
+    "guid": "273b243f-06cf-4d53-8b3e-da63012c71fb",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Quin d'aquests NO és un dels principis que enumera l'art. 3.1 de la Llei 40/2015?",
+    "answerOptions": [
+      {
+        "text": "Bona fe, confiança legítima i lleialtat institucional.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la lletra e) de l'art. 3.1 LRJSP."
+      },
+      {
+        "text": "Centralització i concentració de la gestió.",
+        "isCorrect": true,
+        "rationale": "Correcta. La llei parla de descentralització i desconcentració, no de centralització ni concentració."
+      },
+      {
+        "text": "Simplicitat, claredat i proximitat als ciutadans.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la lletra b) de l'art. 3.1 LRJSP."
+      },
+      {
+        "text": "Responsabilitat per la gestió pública.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És la lletra f) de l'art. 3.1 LRJSP."
+      }
+    ],
+    "hint": "Busca el principi «al revés» d'un de constitucional."
+  },
+  {
+    "guid": "ce8a0505-f941-4525-9b4d-b05a42a440c8",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 3.4 de la Llei 40/2015, cadascuna de les administracions públiques actua per complir les seves finalitats:",
+    "answerOptions": [
+      {
+        "text": "Amb tantes personalitats jurídiques com departaments tingui.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els departaments i òrgans no tenen personalitat pròpia: la té l'Administració, i és única."
+      },
+      {
+        "text": "Amb personalitat jurídica única.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el text de l'art. 3.4 LRJSP."
+      },
+      {
+        "text": "Sense personalitat jurídica pròpia, sota la direcció del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cada Administració té personalitat jurídica, i és única (art. 3.4 LRJSP)."
+      },
+      {
+        "text": "Amb personalitat jurídica només en l'àmbit patrimonial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La personalitat jurídica no es limita a l'àmbit patrimonial."
+      }
+    ],
+    "hint": "Una sola persona jurídica per a cada Administració."
+  },
+  {
+    "guid": "58ab027e-33d5-4f00-9103-e5894e38fb02",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 2.1 de la Llei 40/2015, el sector públic comprèn:",
+    "answerOptions": [
+      {
+        "text": "L'AGE, les CCAA i les entitats locals, sense el sector institucional.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El sector públic institucional també en forma part (art. 2.1.d LRJSP)."
+      },
+      {
+        "text": "L'AGE, les CCAA, les entitats locals i les corporacions de dret públic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les corporacions de dret públic no figuren a l'art. 2 LRJSP."
+      },
+      {
+        "text": "L'AGE, les CCAA, el sector públic institucional i les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les Corts Generals no formen part del sector públic de la LRJSP, i hi falten les entitats locals."
+      },
+      {
+        "text": "L'AGE, les CCAA, les entitats locals i el sector públic institucional.",
+        "isCorrect": true,
+        "rationale": "Correcta. Són les quatre lletres de l'art. 2.1 LRJSP."
+      }
+    ],
+    "hint": "Quatre peces: tres territorials i una institucional."
+  },
+  {
+    "guid": "a6dc404c-d9b7-452f-a428-0598f90cffce",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 2.3 de la Llei 40/2015, tenen la consideració d'administracions públiques:",
+    "answerOptions": [
+      {
+        "text": "L'AGE, les CCAA, les entitats locals i els organismes públics i entitats de dret públic vinculats o dependents.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 2.3 LRJSP hi inclou les tres administracions territorials i els organismes i entitats de dret públic de l'art. 2.2.a."
+      },
+      {
+        "text": "L'AGE, les CCAA, les entitats locals i totes les entitats, públiques o privades, del sector públic institucional.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les entitats de dret privat i les universitats són sector públic institucional, però no administracions públiques."
+      },
+      {
+        "text": "L'AGE, les CCAA i les entitats locals, però cap entitat del sector públic institucional.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els organismes públics i les entitats de dret públic de l'art. 2.2.a també ho són."
+      },
+      {
+        "text": "L'AGE, les CCAA, les entitats locals, les universitats públiques i els col·legis professionals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el distractor de l'A1-2020: ni les universitats ni els col·legis professionals tenen aquesta consideració."
+      }
+    ],
+    "hint": "Sector públic i Administració pública no són el mateix."
+  },
+  {
+    "guid": "031f68a0-b5d1-4f56-9eb3-1a1f59a4dc70",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 2.2.c de la Llei 40/2015, les universitats públiques:",
+    "answerOptions": [
+      {
+        "text": "Tenen la consideració d'administracions públiques als efectes de la LRJSP.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 2.3 LRJSP no les inclou entre les administracions públiques."
+      },
+      {
+        "text": "Queden fora del sector públic i només se'ls aplica la Llei 39/2015 de manera supletòria.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Sí que formen part del sector públic institucional (art. 2.2.c LRJSP)."
+      },
+      {
+        "text": "Són sector públic institucional, amb normativa específica i la LRJSP com a supletòria.",
+        "isCorrect": true,
+        "rationale": "Correcta. Formen part del sector públic institucional i es regeixen per la seva normativa específica i, supletòriament, per la LRJSP."
+      },
+      {
+        "text": "Són corporacions de dret públic regides pel dret privat i pels seus estatuts.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No són corporacions de dret públic, sinó sector públic institucional."
+      }
+    ],
+    "hint": "Són sector públic, però no Administració pública."
+  },
+  {
+    "guid": "a5c2dd90-2363-44e7-991b-2cb894dbced9",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 2.4 de la Llei 39/2015, les corporacions de dret públic, com els col·legis professionals:",
+    "answerOptions": [
+      {
+        "text": "Formen part del sector públic institucional i tenen la consideració d'administracions públiques.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 2 de la Llei 40/2015 no les esmenta: no són sector públic ni administracions públiques."
+      },
+      {
+        "text": "Es regeixen íntegrament per la Llei 39/2015 en tota la seva activitat, pública o privada.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Llei 39/2015 només se'ls aplica supletòriament i en les funcions públiques."
+      },
+      {
+        "text": "Queden totalment excloses de la Llei 39/2015, fins i tot quan exerceixen funcions públiques.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Llei 39/2015 se'ls aplica supletòriament en l'exercici de funcions públiques."
+      },
+      {
+        "text": "Es regeixen per la seva normativa en les funcions públiques, i la Llei 39/2015 és supletòria.",
+        "isCorrect": true,
+        "rationale": "Correcta. Es regeixen per la seva normativa específica en l'exercici de les funcions públiques atribuïdes per llei o delegades, i supletòriament per la Llei 39/2015."
+      }
+    ],
+    "hint": "Normativa pròpia primer; la llei de procediment, de reserva."
+  },
+  {
+    "guid": "09730122-d17a-4e82-b423-84c6d7b53d9d",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 84.1 de la Llei 40/2015, quina d'aquestes entitats NO forma part del sector públic institucional estatal?",
+    "answerOptions": [
+      {
+        "text": "Les autoritats administratives independents.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són la lletra b) de l'art. 84.1 LRJSP."
+      },
+      {
+        "text": "Els fons sense personalitat jurídica.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són la lletra f) de l'art. 84.1 LRJSP."
+      },
+      {
+        "text": "Les universitats públiques transferides.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 84.1.g LRJSP només hi inclou les universitats públiques no transferides; les transferides no són sector públic estatal."
+      },
+      {
+        "text": "Les universitats públiques no transferides.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són la lletra g) de l'art. 84.1 LRJSP."
+      }
+    ],
+    "hint": "Una sola paraula ho canvia tot."
+  },
+  {
+    "guid": "438f2957-7a48-4365-b834-84bd2e80b60a",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 84.1.a de la Llei 40/2015, els organismes públics vinculats o dependents de l'AGE es classifiquen en:",
+    "answerOptions": [
+      {
+        "text": "Organismes autònoms, entitats públiques empresarials i societats mercantils estatals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les societats mercantils estatals són la lletra c) de l'art. 84.1, no organismes públics."
+      },
+      {
+        "text": "Organismes autònoms, entitats públiques empresarials i agències estatals.",
+        "isCorrect": true,
+        "rationale": "Correcta. Són els tres tipus d'organismes públics de l'art. 84.1.a LRJSP; les agències estatals hi van ser incorporades per la Llei 11/2020."
+      },
+      {
+        "text": "Organismes autònoms, agències estatals i fundacions del sector públic estatal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les fundacions són la lletra e) de l'art. 84.1, no organismes públics."
+      },
+      {
+        "text": "Entitats públiques empresarials, consorcis i autoritats administratives independents.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els consorcis i les autoritats administratives independents són lletres pròpies de l'art. 84.1 (d i b)."
+      }
+    ],
+    "hint": "Tres tipus: el tercer va arribar el 2021."
+  },
+  {
+    "guid": "73b06f9b-a27a-4ef2-9368-543ae26230fc",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Les agències estatals com a tipus d'organisme públic de l'art. 84.1.a de la Llei 40/2015:",
+    "answerOptions": [
+      {
+        "text": "Hi van ser incorporades per la Llei 11/2020, amb efectes des de l'1 de gener de 2021.",
+        "isCorrect": true,
+        "rationale": "Correcta. La disposició final 34 de la Llei 11/2020 va modificar l'art. 84 i va afegir la regulació de les agències estatals, amb efectes de l'1 de gener de 2021."
+      },
+      {
+        "text": "Hi figuren des de la redacció original de la Llei 40/2015, d'1 d'octubre.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La redacció original de l'art. 84.1.a només hi recollia organismes autònoms i entitats públiques empresarials."
+      },
+      {
+        "text": "En van ser suprimides per la Llei 11/2020 i ara s'han de transformar en consorcis estatals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La Llei 11/2020 les va incorporar, no les va suprimir."
+      },
+      {
+        "text": "No hi figuren: són entitats de dret privat vinculades a l'AGE.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són organismes públics, i per tant entitats de dret públic (art. 84.1.a LRJSP)."
+      }
+    ],
+    "hint": "Llei de pressupostos per al 2021."
+  },
+  {
+    "guid": "2628a59f-247f-4791-a923-ca980fbf43f3",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 103.1 de la Llei 40/2015, les entitats públiques empresarials:",
+    "answerOptions": [
+      {
+        "text": "Són entitats de dret públic que es financen amb ingressos de mercat, llevat de les que són mitjà propi personificat.",
+        "isCorrect": true,
+        "rationale": "Correcta. És la definició vigent de l'art. 103.1 LRJSP, modificat per la Llei 11/2020. La redacció anterior deia que es financen «majoritàriament» amb ingressos de mercat."
+      },
+      {
+        "text": "Són entitats de dret privat, amb forma de societat anònima, que es financen amb ingressos de mercat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són entitats de dret públic; les societats mercantils estatals són una altra categoria (art. 84.1.c)."
+      },
+      {
+        "text": "Són entitats de dret públic finançades exclusivament amb transferències anuals dels pressupostos generals de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es financen amb ingressos de mercat, no exclusivament amb transferències."
+      },
+      {
+        "text": "Són entitats de dret públic sense personalitat jurídica pròpia ni patrimoni propi.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Tenen personalitat jurídica pròpia, patrimoni propi i autonomia de gestió."
+      }
+    ],
+    "hint": "Entitat pública que viu del mercat."
+  },
+  {
+    "guid": "63dd40ff-fef6-483b-b8f0-b01414aa59fa",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 104 de la Llei 40/2015, les entitats públiques empresarials es regeixen:",
+    "answerOptions": [
+      {
+        "text": "Pel dret administratiu en tota la seva activitat, igual que els organismes autònoms.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els organismes autònoms sí que es regeixen pel dret administratiu (art. 99); les EPE, pel privat."
+      },
+      {
+        "text": "Pel dret privat en tota la seva activitat, sense cap excepció, igual que les societats mercantils.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Hi ha excepcions: la formació de la voluntat dels òrgans i l'exercici de potestats administratives."
+      },
+      {
+        "text": "Pel dret privat, excepte en la formació de la voluntat dels òrgans i en l'exercici de potestats.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 104 LRJSP les sotmet al dret privat, amb aquestes excepcions i les que preveuen la llei i els seus estatuts."
+      },
+      {
+        "text": "Pel dret administratiu, excepte en les relacions amb el seu personal i en la contractació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La regla general de les EPE és el dret privat, no l'administratiu."
+      }
+    ],
+    "hint": "Regla general privada, excepcions públiques."
+  },
+  {
+    "guid": "36888a33-fbc9-4eee-a37c-2e0d96f7067a",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 98.3 de la Llei 40/2015, en la denominació d'un organisme autònom hi ha de figurar:",
+    "answerOptions": [
+      {
+        "text": "La indicació «organisme públic» o l'abreviatura «O.P.».",
+        "isCorrect": false,
+        "rationale": "Incorrecta. «Organisme públic» és la categoria general, no la denominació obligatòria."
+      },
+      {
+        "text": "La indicació «organisme autònom» o l'abreviatura «O.A.».",
+        "isCorrect": true,
+        "rationale": "Correcta. Ho exigeix l'art. 98.3 LRJSP. Per a les EPE, l'art. 103.3 exigeix «entitat pública empresarial» o «E.P.E.»."
+      },
+      {
+        "text": "La indicació «entitat pública» o l'abreviatura «E.P.».",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No és la denominació que exigeix l'art. 98.3 LRJSP."
+      },
+      {
+        "text": "La indicació «agència estatal» o la seva abreviatura «A.E.».",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les agències estatals són un altre tipus d'organisme públic."
+      }
+    ],
+    "hint": "Dues lletres."
+  },
+  {
+    "guid": "2ece65e4-41e3-468c-86ee-58db877f5b80",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 5.3 de la Llei 40/2015, quin d'aquests NO és un requisit per crear un òrgan administratiu?",
+    "answerOptions": [
+      {
+        "text": "Determinar la seva forma d'integració i la seva dependència jeràrquica.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el requisit a) de l'art. 5.3 LRJSP."
+      },
+      {
+        "text": "Delimitar les seves funcions i competències.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el requisit b) de l'art. 5.3 LRJSP."
+      },
+      {
+        "text": "Dotar-lo dels crèdits necessaris per posar-lo en marxa i fer-lo funcionar.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el requisit c) de l'art. 5.3 LRJSP."
+      },
+      {
+        "text": "Aprovar la relació de llocs de treball del personal que s'hi adscriu.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 5.3 LRJSP exigeix integració i dependència, funcions i competències, i crèdits; la RLT no hi és. Va sortir a l'A1-2017."
+      }
+    ],
+    "hint": "Tres requisits: on encaixa, què fa i amb quins diners."
+  },
+  {
+    "guid": "a3df7f9e-32dd-4d7e-b8cf-c69e4ebffe4b",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 8.1 de la Llei 40/2015, la competència:",
+    "answerOptions": [
+      {
+        "text": "És renunciable per l'òrgan titular amb l'autorització prèvia del seu superior jeràrquic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La competència és irrenunciable (art. 8.1 LRJSP)."
+      },
+      {
+        "text": "És irrenunciable, però la delegació i l'encàrrec de gestió en transfereixen sempre la titularitat a l'altre òrgan.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Ni la delegació ni l'encàrrec de gestió alteren la titularitat de la competència (art. 8.1 LRJSP)."
+      },
+      {
+        "text": "És irrenunciable, però la suplència n'altera la titularitat mentre dura.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La suplència no implica alteració de la competència (art. 13.2 LRJSP)."
+      },
+      {
+        "text": "És irrenunciable i l'exerceixen els òrgans que la tenen com a pròpia, llevat de delegació o avocació.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el que diu l'art. 8.1 LRJSP."
+      }
+    ],
+    "hint": "Irrenunciable, amb dues excepcions d'exercici."
+  },
+  {
+    "guid": "85ab0c4f-ecca-4c82-84d5-f471083a87e4",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 8.2 de la Llei 40/2015, la desconcentració:",
+    "answerOptions": [
+      {
+        "text": "Trasllada només l'exercici de la competència a un altre òrgan, mitjançant un acord revocable.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això descriu la delegació de competències (art. 9 LRJSP)."
+      },
+      {
+        "text": "Trasllada titularitat i exercici a òrgans jeràrquicament dependents, en els termes de les normes.",
+        "isCorrect": true,
+        "rationale": "Correcta. Segons l'art. 8.2 LRJSP, la titularitat i l'exercici es poden desconcentrar en òrgans jeràrquicament dependents, en els termes de les normes d'atribució."
+      },
+      {
+        "text": "Trasllada competències a una altra persona jurídica, amb personalitat jurídica pròpia.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això és la descentralització: les competències surten de la persona jurídica."
+      },
+      {
+        "text": "Permet a un òrgan superior assumir el coneixement d'un afer que correspon a un òrgan que en depèn.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això és l'avocació (art. 10 LRJSP)."
+      }
+    ],
+    "hint": "Baixar dins la mateixa Administració."
+  },
+  {
+    "guid": "4ebc6c0a-49f0-4019-990a-c2cb70d1bafa",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Quan l'Estat crea un organisme autònom i li atribueix competències pròpies, es produeix:",
+    "answerOptions": [
+      {
+        "text": "Una desconcentració territorial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La desconcentració es fa dins la mateixa persona jurídica, cap a òrgans inferiors; la territorial, cap a òrgans perifèrics."
+      },
+      {
+        "text": "Una delegació de competències.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La delegació només cedeix l'exercici, per acte i de manera revocable."
+      },
+      {
+        "text": "Una descentralització funcional.",
+        "isCorrect": true,
+        "rationale": "Correcta. Les competències passen a una altra persona jurídica, creada per gestionar una funció concreta: és descentralització funcional."
+      },
+      {
+        "text": "Un encàrrec de gestió.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'encàrrec de gestió afecta activitats materials o tècniques i no cedeix la titularitat."
+      }
+    ],
+    "hint": "L'organisme autònom té personalitat jurídica pròpia."
+  },
+  {
+    "guid": "14c6e46c-b3da-4441-9947-9cf46d4a7137",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 9.2 de la Llei 40/2015, en cap cas no es poden delegar les competències relatives a:",
+    "answerOptions": [
+      {
+        "text": "La resolució de recursos en els òrgans que han dictat els actes recorreguts.",
+        "isCorrect": true,
+        "rationale": "Correcta. És la lletra c) de l'art. 9.2 LRJSP. Tampoc no es delega l'adopció de disposicions de caràcter general ni el que determini una norma amb rang de llei."
+      },
+      {
+        "text": "La tramitació dels expedients de contractació de l'òrgan delegant.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No figura a la llista de matèries indelegables de l'art. 9.2 LRJSP."
+      },
+      {
+        "text": "La concessió de les subvencions previstes en el pressupost de l'òrgan delegant.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No figura a la llista de matèries indelegables de l'art. 9.2 LRJSP."
+      },
+      {
+        "text": "La gestió ordinària del personal adscrit a l'òrgan delegant.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No figura a la llista de matèries indelegables de l'art. 9.2 LRJSP."
+      }
+    ],
+    "hint": "Qui ha dictat l'acte no pot resoldre'n el recurs per delegació."
+  },
+  {
+    "guid": "4ef5c449-e870-4407-94e2-425e9043f918",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 9 de la Llei 40/2015, la delegació de competències:",
+    "answerOptions": [
+      {
+        "text": "Només la pot revocar l'òrgan superior jeràrquic del delegant.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La revoca l'òrgan que l'ha conferida."
+      },
+      {
+        "text": "És irrevocable durant tot el termini fixat en l'acord de delegació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es pot revocar en qualsevol moment."
+      },
+      {
+        "text": "És revocable en qualsevol moment per l'òrgan que l'ha conferida.",
+        "isCorrect": true,
+        "rationale": "Correcta. Ho diu l'art. 9.6 LRJSP. Va sortir a l'A1-2017."
+      },
+      {
+        "text": "Només es pot revocar per una norma amb rang de llei.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. N'hi ha prou amb l'acord de l'òrgan delegant, que també s'ha de publicar."
+      }
+    ],
+    "hint": "Qui la dona, la pot treure."
+  },
+  {
+    "guid": "9e1b27b0-ff98-4a76-9529-5b73dca08b43",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 9.5 de la Llei 40/2015, les competències que s'exerceixen per delegació:",
+    "answerOptions": [
+      {
+        "text": "Es poden tornar a delegar si l'acord es publica al butlletí oficial corresponent.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el distractor de l'A1-2017: la publicació no permet subdelegar."
+      },
+      {
+        "text": "Es poden tornar a delegar amb l'autorització de l'òrgan delegant original.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cal una autorització expressa d'una llei, no de l'òrgan delegant."
+      },
+      {
+        "text": "Es poden tornar a delegar un sol cop, en un òrgan jeràrquicament dependent.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.5 LRJSP no admet cap subdelegació sense llei."
+      },
+      {
+        "text": "No es poden delegar, llevat d'autorització expressa d'una llei.",
+        "isCorrect": true,
+        "rationale": "Correcta. Sense una llei que ho autoritzi expressament, no hi ha subdelegació."
+      }
+    ],
+    "hint": "Cal una norma amb rang de llei."
+  },
+  {
+    "guid": "b17d3a5c-69cd-4141-8bb7-2a7c68c0cc8b",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 10.2 de la Llei 40/2015, contra l'acord d'avocació:",
+    "answerOptions": [
+      {
+        "text": "No hi cap recurs, però es pot impugnar en el recurs contra la resolució final.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'acord d'avocació no és recurrible, sens perjudici del recurs que es pugui interposar contra la resolució del procediment. Va sortir a l'A1-2017."
+      },
+      {
+        "text": "Hi cap recurs d'alçada davant l'òrgan superior jeràrquic del que ha avocat l'afer.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Contra l'acord d'avocació no hi cap recurs."
+      },
+      {
+        "text": "Hi cap recurs potestatiu de reposició davant el mateix òrgan, en el termini d'un mes.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Contra l'acord d'avocació no hi cap recurs, ni tan sols el potestatiu."
+      },
+      {
+        "text": "Hi cap directament recurs contenciós administratiu, sense recurs administratiu previ.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No hi cap recurs contra l'acord; s'impugna amb la resolució final."
+      }
+    ],
+    "hint": "S'impugna al final, no al principi."
+  },
+  {
+    "guid": "407271a3-069b-4edf-9346-0e275c2cea44",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 12 de la Llei 40/2015, la delegació de signatura:",
+    "answerOptions": [
+      {
+        "text": "Transfereix la competència a l'òrgan delegat i s'ha de publicar al diari oficial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No transfereix la competència ni s'ha de publicar."
+      },
+      {
+        "text": "No altera la competència de l'òrgan delegant i no cal publicar-la perquè sigui vàlida.",
+        "isCorrect": true,
+        "rationale": "Correcta. Ho diu l'art. 12.2 LRJSP. A les resolucions s'hi ha de fer constar la delegació i l'autoritat de procedència (art. 12.3)."
+      },
+      {
+        "text": "No altera la competència, però s'ha de publicar al diari oficial perquè sigui vàlida.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Per a la seva validesa no cal publicar-la (art. 12.2 LRJSP)."
+      },
+      {
+        "text": "Transfereix l'exercici de la competència, i les resolucions es consideren dictades pel delegat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Només es delega la signatura; la competència continua sent de l'òrgan delegant."
+      }
+    ],
+    "hint": "Només es delega la signatura."
+  },
+  {
+    "guid": "ef5bf3f6-9d75-4c2c-8e4a-17dca48dc5e3",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 11.2 de la Llei 40/2015, l'encàrrec de gestió:",
+    "answerOptions": [
+      {
+        "text": "Transfereix la titularitat de la competència a l'òrgan o l'entitat encarregats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'encàrrec no cedeix la titularitat (art. 11.2 LRJSP)."
+      },
+      {
+        "text": "No suposa cessió de la titularitat ni dels elements substantius del seu exercici.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el text de l'art. 11.2 LRJSP: l'òrgan encarregant dicta els actes jurídics que donen suport a l'activitat encarregada."
+      },
+      {
+        "text": "Transfereix l'exercici de la competència però no la titularitat, com la delegació.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Tampoc no cedeix els elements substantius de l'exercici; només s'encarreguen activitats materials o tècniques."
+      },
+      {
+        "text": "Només es pot fer entre òrgans de la mateixa Administració, mai amb entitats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 11.1 LRJSP permet encarregar-ho també a entitats de dret públic, de la mateixa o d'una altra Administració."
+      }
+    ],
+    "hint": "Activitats materials o tècniques."
+  },
+  {
+    "guid": "7c3fff95-8622-4c12-a806-9eec827e1165",
+    "subjectId": "T06",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 9.4 de la Llei 40/2015, les resolucions administratives que s'adopten per delegació:",
+    "answerOptions": [
+      {
+        "text": "Ho han d'indicar expressament i es consideren dictades per l'òrgan delegant.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el que estableix l'art. 9.4 LRJSP."
+      },
+      {
+        "text": "Es consideren dictades per l'òrgan delegat, que n'assumeix tota la responsabilitat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es consideren dictades per l'òrgan delegant."
+      },
+      {
+        "text": "No cal que ho indiquin, perquè la delegació ja s'ha publicat al diari oficial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 9.4 LRJSP exigeix indicar-ho expressament."
+      },
+      {
+        "text": "Es consideren dictades pel superior jeràrquic comú de tots dos òrgans.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es consideren dictades per l'òrgan delegant, no pel superior comú."
+      }
+    ],
+    "hint": "Qui resol de debò?"
+  }
+]

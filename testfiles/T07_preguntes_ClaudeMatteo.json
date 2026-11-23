@@ -1,0 +1,932 @@
+[
+  {
+    "guid": "eff5a451-b6db-45bf-b58d-4f1b959c3d50",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 55.2 de la Llei 40/2015, l'Administració General de l'Estat comprèn:",
+    "answerOptions": [
+      {
+        "text": "L'organització central i l'organització territorial, només.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Hi falta l'AGE a l'exterior; va ser un distractor de l'A1-2020."
+      },
+      {
+        "text": "L'organització central, la territorial i el sector públic institucional estatal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El sector públic institucional no forma part de l'AGE: s'hi vincula o en depèn."
+      },
+      {
+        "text": "El Govern, l'organització central i l'organització territorial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Govern dirigeix l'AGE (art. 97 CE), però no és una de les seves parts."
+      },
+      {
+        "text": "L'organització central, l'organització territorial i l'AGE a l'exterior.",
+        "isCorrect": true,
+        "rationale": "Correcta. Són les tres parts de l'art. 55.2 LRJSP. L'organització central integra els ministeris i els serveis comuns."
+      }
+    ],
+    "hint": "Tres parts."
+  },
+  {
+    "guid": "bae3af51-75b4-44c4-850a-7b42c3bb58d3",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 55.3 de la Llei 40/2015, són òrgans superiors de l'organització central de l'AGE:",
+    "answerOptions": [
+      {
+        "text": "El President del Govern, els ministres i els secretaris d'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El President no és òrgan superior de l'AGE; era el distractor de l'A1-2020."
+      },
+      {
+        "text": "Els ministres, els secretaris d'Estat i els subsecretaris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els subsecretaris són òrgans directius."
+      },
+      {
+        "text": "Els ministres i els secretaris d'Estat.",
+        "isCorrect": true,
+        "rationale": "Correcta. Només n'hi ha dos. Els altres òrgans de l'organització central són directius."
+      },
+      {
+        "text": "Els ministres i els subsecretaris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Hi falten els secretaris d'Estat, i els subsecretaris són directius."
+      }
+    ],
+    "hint": "Només dos."
+  },
+  {
+    "guid": "8c7708f9-c4a9-4e55-8c63-4dd161922c21",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Quin d'aquests càrrecs NO és un òrgan directiu de l'organització central de l'AGE?",
+    "answerOptions": [
+      {
+        "text": "El secretari general tècnic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És òrgan directiu, amb rang de director general."
+      },
+      {
+        "text": "El secretari d'Estat.",
+        "isCorrect": true,
+        "rationale": "Correcta. Els secretaris d'Estat són òrgans superiors, amb els ministres (art. 55.3 LRJSP)."
+      },
+      {
+        "text": "El subdirector general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És òrgan directiu, el tercer graó."
+      },
+      {
+        "text": "El secretari general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És òrgan directiu, amb rang de subsecretari."
+      }
+    ],
+    "hint": "Superior o directiu?"
+  },
+  {
+    "guid": "f3f4b5cb-ed69-4ca2-b973-fe573e9acbe6",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons la Llei 40/2015, els delegats del Govern a les comunitats autònomes tenen:",
+    "answerOptions": [
+      {
+        "text": "Rang de subsecretari.",
+        "isCorrect": true,
+        "rationale": "Correcta. Són òrgans directius amb rang de subsecretari (arts. 55 i 72 LRJSP). Va sortir a l'A1-2020."
+      },
+      {
+        "text": "Rang de secretari general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Era un dels distractors de l'A1-2020."
+      },
+      {
+        "text": "Nivell de subdirector general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el nivell dels subdelegats."
+      },
+      {
+        "text": "Rang de director general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El rang de director general correspon al secretari general tècnic."
+      }
+    ],
+    "hint": "Primer graó dels directius."
+  },
+  {
+    "guid": "7a8c57cd-35e3-4516-8fa8-e137cfd779b4",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 55 de la Llei 40/2015, els subdelegats del Govern a les províncies tenen:",
+    "answerOptions": [
+      {
+        "text": "Nivell de subdirector general.",
+        "isCorrect": true,
+        "rationale": "Correcta. La llei hi fa servir la paraula «nivell», a diferència del «rang» dels delegats."
+      },
+      {
+        "text": "Rang de subsecretari.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el rang dels delegats del Govern."
+      },
+      {
+        "text": "Rang de director general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No és el nivell dels subdelegats."
+      },
+      {
+        "text": "Nivell de secretari general tècnic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El secretari general tècnic té rang de director general, i no és el nivell dels subdelegats."
+      }
+    ],
+    "hint": "«Nivell», no «rang»."
+  },
+  {
+    "guid": "649c1b9f-a692-413e-bb6a-b4930de5e06f",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 55 de la Llei 40/2015, a l'AGE a l'exterior són òrgans directius:",
+    "answerOptions": [
+      {
+        "text": "Els delegats del Govern a l'exterior i els ambaixadors acreditats davant de cada Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els delegats del Govern són de l'organització territorial, no de l'exterior."
+      },
+      {
+        "text": "Els cònsols generals i els agregats sectorials de les ambaixades i consolats.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La llei no qualifica com a òrgans directius els cònsols ni els agregats."
+      },
+      {
+        "text": "Els ambaixadors i els representants permanents davant organitzacions internacionals.",
+        "isCorrect": true,
+        "rationale": "Correcta. Són els òrgans directius de l'AGE a l'exterior, que es regeix per la Llei 2/2014 (art. 80 LRJSP)."
+      },
+      {
+        "text": "Els secretaris d'Estat d'Afers Exteriors i per a la Unió Europea, només.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els secretaris d'Estat són òrgans superiors de l'organització central."
+      }
+    ],
+    "hint": "Representen l'Estat davant d'altres estats i organitzacions."
+  },
+  {
+    "guid": "bf0320b3-9b8e-4569-98cc-4699d0d87037",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 55 de la Llei 40/2015, els titulars dels òrgans directius es nomenen:",
+    "answerOptions": [
+      {
+        "text": "Lliurement pel Consell de Ministres, sense cap criteri legal, com a càrrecs de confiança política.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La llei fixa criteris: competència professional i experiència."
+      },
+      {
+        "text": "Per criteris de competència professional i experiència, amb responsabilitat per la gestió.",
+        "isCorrect": true,
+        "rationale": "Correcta. L'art. 55 LRJSP fixa aquests criteris i els sotmet a responsabilitat per la seva gestió."
+      },
+      {
+        "text": "Exclusivament per concurs de mèrits entre funcionaris de carrera del subgrup A1.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No es nomenen per concurs, i alguns poden no ser funcionaris, com el secretari general."
+      },
+      {
+        "text": "Per elecció entre els funcionaris del ministeri, per a un mandat de quatre anys.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No hi ha cap sistema electiu."
+      }
+    ],
+    "hint": "Dos criteris professionals."
+  },
+  {
+    "guid": "7dc9a851-ad62-4c70-867e-a2cf7eb07c60",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 55 bis de la Llei 40/2015, en el nomenament de titulars de secretaries d'Estat i òrgans directius de cada ministeri:",
+    "answerOptions": [
+      {
+        "text": "Cada sexe ha de representar exactament el 50 % del total.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La llei fixa una forquilla, no una paritat exacta."
+      },
+      {
+        "text": "Cap sexe no pot superar el 70 % ni quedar per sota del 30 %.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La forquilla és 60/40."
+      },
+      {
+        "text": "S'ha de garantir com a mínim un 25 % de dones a cada ministeri.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La llei fixa una forquilla per a tots dos sexes, no un mínim del 25 %."
+      },
+      {
+        "text": "Cap sexe no pot superar el 60 % ni quedar per sota del 40 %.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el criteri de presència equilibrada de l'art. 55 bis LRJSP."
+      }
+    ],
+    "hint": "Forquilla 40-60."
+  },
+  {
+    "guid": "3d314f96-b611-403f-99a2-326ba53cd029",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 54.1 de la Llei 40/2015, a més dels principis de l'art. 3, l'AGE actua i s'organitza d'acord amb els principis de:",
+    "answerOptions": [
+      {
+        "text": "Centralització i concentració de la direcció política.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La llei parla de descentralització i desconcentració, no del contrari."
+      },
+      {
+        "text": "Autonomia i suficiència financera dels departaments.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquests principis no són a l'art. 54.1 LRJSP."
+      },
+      {
+        "text": "Subsidiarietat i proporcionalitat entre les diferents administracions.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 54.1 LRJSP no esmenta aquests principis."
+      },
+      {
+        "text": "Descentralització i desconcentració funcional i territorial.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el que afegeix l'art. 54.1 LRJSP; és el pont entre el T6 i el T7."
+      }
+    ],
+    "hint": "Dos principis, en dues vessants."
+  },
+  {
+    "guid": "c9b2d448-30f2-46ba-ab6a-e57ead0d298b",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 56 de la Llei 40/2015, els elements organitzatius bàsics de l'AGE són:",
+    "answerOptions": [
+      {
+        "text": "Els òrgans directius, que es creen sempre per reial decret del Consell de Ministres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els elements bàsics són les unitats administratives."
+      },
+      {
+        "text": "Les unitats administratives, que s'estableixen mitjançant les relacions de llocs de treball.",
+        "isCorrect": true,
+        "rationale": "Correcta. Les unitats administratives agrupen llocs de treball vinculats funcionalment sota un cap comú, i s'estableixen mitjançant les RLT."
+      },
+      {
+        "text": "Els llocs de treball, que es creen per ordre del ministre respectiu i que s'agrupen en òrgans.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els llocs s'agrupen en unitats administratives, que són els elements bàsics."
+      },
+      {
+        "text": "Les subdireccions generals, que es creen per ordre del ministre amb autorització d'Hisenda.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les subdireccions generals es creen per reial decret del Consell de Ministres (art. 59.1)."
+      }
+    ],
+    "hint": "La peça més petita."
+  },
+  {
+    "guid": "c41d9574-9e05-45c4-b74d-8c8d8f4d2d79",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 57 de la Llei 40/2015, el nombre, la denominació i l'àmbit de competència dels ministeris i de les secretaries d'Estat s'estableixen:",
+    "answerOptions": [
+      {
+        "text": "Per reial decret del Consell de Ministres.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El Consell de Ministres crea per reial decret des de les subsecretaries fins a les subdireccions generals (art. 59.1)."
+      },
+      {
+        "text": "Per llei de les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No cal una llei: és una facultat del President."
+      },
+      {
+        "text": "Per reial decret del President del Govern.",
+        "isCorrect": true,
+        "rationale": "Correcta. Coincideix amb l'art. 2.2.j de la Llei 50/1997, del Govern."
+      },
+      {
+        "text": "Per ordre del ministre d'Hisenda i Administracions Públiques.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Un ministre no pot crear ministeris."
+      }
+    ],
+    "hint": "Facultat personal del President."
+  },
+  {
+    "guid": "1b01afd7-e6bb-4fea-8373-903ba7e62d41",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 58 de la Llei 40/2015, en l'organització interna dels ministeris:",
+    "answerOptions": [
+      {
+        "text": "Hi ha d'haver en tot cas una subsecretaria, de la qual depèn la secretaria general tècnica.",
+        "isCorrect": true,
+        "rationale": "Correcta. La subsecretaria és obligatòria a tots els ministeris; les secretaries d'Estat i les secretaries generals, no."
+      },
+      {
+        "text": "Hi ha d'haver en tot cas una secretaria d'Estat i una secretaria general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les secretaries d'Estat i les secretaries generals són potestatives."
+      },
+      {
+        "text": "La secretaria general tècnica depèn directament del ministre, sense cap òrgan jeràrquic intermedi.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La secretaria general tècnica depèn de la subsecretaria."
+      },
+      {
+        "text": "La subsecretaria és potestativa i, si n'hi ha, depèn de la secretaria general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La subsecretaria és obligatòria."
+      }
+    ],
+    "hint": "Un òrgan que no hi pot faltar mai."
+  },
+  {
+    "guid": "b0a046ad-4281-4e6c-b3ee-47cad0766534",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 59.1 de la Llei 40/2015, les subdireccions generals es creen, modifiquen i suprimeixen:",
+    "answerOptions": [
+      {
+        "text": "Per ordre del ministre respectiu, amb l'autorització prèvia del ministre d'Hisenda i Administracions Públiques.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el règim dels òrgans de nivell inferior a subdirecció general (art. 59.2)."
+      },
+      {
+        "text": "Per reial decret del President del Govern, a proposta del ministre interessat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El President crea per reial decret els ministeris i les secretaries d'Estat (art. 57)."
+      },
+      {
+        "text": "Per reial decret del Consell de Ministres, a iniciativa del ministre i a proposta d'Hisenda.",
+        "isCorrect": true,
+        "rationale": "Correcta. El text diu «a iniciativa del ministre interessat i a proposta del ministre d'Hisenda i Administracions Públiques». Va sortir a l'A1-2020."
+      },
+      {
+        "text": "Per resolució del subsecretari, d'acord amb la relació de llocs de treball.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La RLT serveix per a les unitats que no són òrgans."
+      }
+    ],
+    "hint": "Fins a subdirecció general, reial decret."
+  },
+  {
+    "guid": "cc357b2a-e3a3-41d4-b948-24d095de12ca",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 59.2 de la Llei 40/2015, els òrgans de nivell inferior a subdirecció general es creen:",
+    "answerOptions": [
+      {
+        "text": "Per reial decret del Consell de Ministres, a proposta del ministre respectiu.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El reial decret del Consell de Ministres arriba fins a les subdireccions generals."
+      },
+      {
+        "text": "Per resolució del subsecretari, sense necessitat de cap autorització prèvia.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cal ordre ministerial i autorització d'Hisenda."
+      },
+      {
+        "text": "Per ordre del ministre respectiu, amb aprovació prèvia del Consell de Ministres i d'Hisenda.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'autorització prèvia és del ministre d'Hisenda, no del Consell de Ministres."
+      },
+      {
+        "text": "Per ordre del ministre respectiu, amb autorització prèvia del ministre d'Hisenda i AAPP.",
+        "isCorrect": true,
+        "rationale": "Correcta. La llei diu «autorització prèvia», no «aprovació», i encara parla del ministre d'Hisenda i Administracions Públiques."
+      }
+    ],
+    "hint": "Per sota de subdirecció, ordre ministerial."
+  },
+  {
+    "guid": "4c4581f1-b952-4d15-bf0c-16a289c81ceb",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 60 de la Llei 40/2015, el secretari general tècnic té rang de:",
+    "answerOptions": [
+      {
+        "text": "Director general.",
+        "isCorrect": true,
+        "rationale": "Correcta. Té rang de director general, tot i que depèn del subsecretari (art. 58)."
+      },
+      {
+        "text": "Subsecretari.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Rang de subsecretari tenen els secretaris generals i els delegats del Govern."
+      },
+      {
+        "text": "Secretari d'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els secretaris d'Estat són òrgans superiors, no directius."
+      },
+      {
+        "text": "Subdirector general.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el tercer graó dels òrgans directius."
+      }
+    ],
+    "hint": "Segon graó."
+  },
+  {
+    "guid": "e91710b9-76c2-47fa-be84-0a8d7b375c5d",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 61 de la Llei 40/2015, correspon als ministres:",
+    "answerOptions": [
+      {
+        "text": "Aprovar reials decrets llei en les matèries pròpies del seu departament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els decrets llei els aprova el Govern en Consell de Ministres (art. 86 CE)."
+      },
+      {
+        "text": "Exercir la potestat reglamentària en les matèries pròpies del seu departament.",
+        "isCorrect": true,
+        "rationale": "Correcta. És la lletra a) de l'art. 61 LRJSP."
+      },
+      {
+        "text": "Crear les secretaries d'Estat del seu departament mitjançant una ordre ministerial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Les secretaries d'Estat es creen per reial decret del President (art. 57)."
+      },
+      {
+        "text": "Nomenar els delegats del Govern a les comunitats autònomes.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els nomena el Consell de Ministres per reial decret, a proposta del President (art. 72)."
+      }
+    ],
+    "hint": "Potestat normativa pròpia."
+  },
+  {
+    "guid": "ed753cc5-57e8-4801-826e-5a6043ad0983",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 62 de la Llei 40/2015, els secretaris d'Estat:",
+    "answerOptions": [
+      {
+        "text": "Són membres del Govern i formen part del Consell de Ministres amb veu i vot en tots els afers.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els secretaris d'Estat no són membres del Govern (art. 98.1 CE)."
+      },
+      {
+        "text": "Són directament responsables de l'execució de l'acció del Govern en un sector d'activitat específic.",
+        "isCorrect": true,
+        "rationale": "Correcta. És la definició de l'art. 62.1 LRJSP."
+      },
+      {
+        "text": "Tenen la representació ordinària del ministeri i dirigeixen tots els serveis comuns del departament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Això correspon als subsecretaris (art. 63)."
+      },
+      {
+        "text": "Són òrgans directius amb rang de subsecretari, nomenats per ordre del ministre del departament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Són òrgans superiors, no directius."
+      }
+    ],
+    "hint": "Responsables d'un sector."
+  },
+  {
+    "guid": "30c38981-b6ed-4473-b0b7-ea4928208286",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 63 de la Llei 40/2015, la representació ordinària del ministeri i la direcció dels serveis comuns corresponen:",
+    "answerOptions": [
+      {
+        "text": "Als subsecretaris.",
+        "isCorrect": true,
+        "rationale": "Correcta. Ho diu l'art. 63.1 LRJSP."
+      },
+      {
+        "text": "Als secretaris generals tècnics.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els secretaris generals tècnics depenen del subsecretari i s'ocupen, entre altres, de la producció normativa i l'assistència jurídica."
+      },
+      {
+        "text": "Als secretaris d'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els secretaris d'Estat són responsables d'un sector d'activitat (art. 62)."
+      },
+      {
+        "text": "Als directors generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els directors generals gestionen una o diverses àrees funcionalment homogènies (art. 66)."
+      }
+    ],
+    "hint": "El cap administratiu del ministeri."
+  },
+  {
+    "guid": "3cb76a60-c1ce-4275-a83c-2808ae630e6c",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 63 de la Llei 40/2015, els subsecretaris es nomenen:",
+    "answerOptions": [
+      {
+        "text": "Per reial decret del Consell de Ministres, entre persones qualificades, sense haver de ser funcionaris.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el règim dels secretaris generals (art. 64)."
+      },
+      {
+        "text": "Per ordre del ministre, entre funcionaris de carrera de l'Estat del subgrup A1.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es nomenen per reial decret del Consell de Ministres, i poden ser funcionaris d'altres administracions."
+      },
+      {
+        "text": "Per reial decret del President del Govern, entre funcionaris de qualsevol subgrup.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El reial decret és del Consell de Ministres, i cal ser del subgrup A1."
+      },
+      {
+        "text": "Per reial decret del Consell de Ministres, entre funcionaris de carrera A1, amb requisits d'idoneïtat.",
+        "isCorrect": true,
+        "rationale": "Correcta. El nomenament és a proposta del ministre, entre funcionaris de carrera A1 de l'Estat, de les CCAA o dels ens locals, amb els requisits d'idoneïtat de la Llei 3/2015."
+      }
+    ],
+    "hint": "Mateix rang que el secretari general, però requisits diferents."
+  },
+  {
+    "guid": "7838a4de-4160-419e-b300-b298b54b44c5",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 64 de la Llei 40/2015, els secretaris generals:",
+    "answerOptions": [
+      {
+        "text": "S'han de nomenar entre funcionaris de carrera del subgrup A1 de qualsevol de les administracions públiques espanyoles.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest requisit és dels subsecretaris i dels secretaris generals tècnics, no dels secretaris generals."
+      },
+      {
+        "text": "Tenen rang de director general i depenen jeràrquicament del subsecretari del ministeri.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Tenen rang de subsecretari; el que té rang de director general i depèn del subsecretari és el secretari general tècnic."
+      },
+      {
+        "text": "Es nomenen entre persones amb qualificació i experiència de responsabilitat, sense haver de ser funcionaris.",
+        "isCorrect": true,
+        "rationale": "Correcta. Són l'excepció: tenen rang de subsecretari, però no cal que siguin funcionaris."
+      },
+      {
+        "text": "Es nomenen per ordre del ministre entre els subdirectors generals del mateix departament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es nomenen per reial decret del Consell de Ministres."
+      }
+    ],
+    "hint": "L'excepció de la llista."
+  },
+  {
+    "guid": "092a3ad7-1ef8-4cc7-99c3-7b537c9f7b33",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 66 de la Llei 40/2015, els directors generals:",
+    "answerOptions": [
+      {
+        "text": "S'han de nomenar entre funcionaris A1, llevat d'una excepció motivada al reial decret d'estructura.",
+        "isCorrect": true,
+        "rationale": "Correcta. El reial decret d'estructura pot permetre que el titular no sigui funcionari, amb un informe que en justifiqui les circumstàncies. Es nomenen per reial decret del Consell de Ministres."
+      },
+      {
+        "text": "Es nomenen lliurement, sense haver de ser funcionaris, exactament igual que els secretaris generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La regla general és ser funcionari A1; l'excepció ha d'estar prevista i motivada."
+      },
+      {
+        "text": "S'han de nomenar sempre entre funcionaris de carrera A1, sense cap excepció possible.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'art. 66 LRJSP admet una excepció si ho permet el reial decret d'estructura."
+      },
+      {
+        "text": "Es nomenen per ordre del ministre entre els subdirectors generals del departament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Es nomenen per reial decret del Consell de Ministres."
+      }
+    ],
+    "hint": "Regla general amb una porta oberta."
+  },
+  {
+    "guid": "f6fcdd55-60e5-471f-aca9-55fb9517d3f5",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 67 de la Llei 40/2015, els subdirectors generals:",
+    "answerOptions": [
+      {
+        "text": "Es nomenen per reial decret del Consell de Ministres, a proposta del ministre respectiu.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No es nomenen per reial decret."
+      },
+      {
+        "text": "Els nomena el ministre, el secretari d'Estat o el subsecretari de qui depenen, entre funcionaris A1.",
+        "isCorrect": true,
+        "rationale": "Correcta. Es nomenen respectant els principis d'igualtat, mèrit i capacitat, entre funcionaris de carrera A1."
+      },
+      {
+        "text": "Els nomena el director general per lliure designació entre qualsevol empleat públic destinat al ministeri.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No els nomena el director general, i cal ser funcionari A1."
+      },
+      {
+        "text": "Es nomenen per concurs oposició lliure entre persones amb titulació universitària.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Cal ser funcionari de carrera A1; no és un concurs oposició lliure."
+      }
+    ],
+    "hint": "L'únic directiu central que no es nomena per reial decret."
+  },
+  {
+    "guid": "fff79b02-fd76-47a0-a9e6-c22ce31365ec",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 69 de la Llei 40/2015, la seu de la delegació del Govern a cada comunitat autònoma és:",
+    "answerOptions": [
+      {
+        "text": "Obligatòriament la localitat on hi ha el consell de govern de la comunitat, sense cap excepció possible.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el distractor de l'A1-2020: hi ha excepció."
+      },
+      {
+        "text": "A la capital de la província més poblada de la comunitat autònoma, sense excepcions.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El criteri és la seu del consell de govern autonòmic."
+      },
+      {
+        "text": "On hi ha el consell de govern de la comunitat, llevat que el Consell de Ministres n'acordi una altra.",
+        "isCorrect": true,
+        "rationale": "Correcta. La regla és la localitat del consell de govern, però el Consell de Ministres en pot decidir una altra."
+      },
+      {
+        "text": "On decideixi el delegat del Govern, amb l'autorització prèvia del ministre d'Hisenda.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No ho decideix el delegat."
+      }
+    ],
+    "hint": "Regla general amb excepció."
+  },
+  {
+    "guid": "a2701ee6-7c15-432b-a2d0-fd4ad222cbae",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 69.3 de la Llei 40/2015, les delegacions del Govern estan adscrites orgànicament:",
+    "answerOptions": [
+      {
+        "text": "A la Presidència del Govern, a través del seu gabinet.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. És el distractor de l'A1-2020: del President depèn orgànicament el delegat, no la Delegació."
+      },
+      {
+        "text": "Al Ministeri de l'Interior, per la seva funció de seguretat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'adscripció orgànica és al Ministeri d'Hisenda i Administracions Públiques."
+      },
+      {
+        "text": "A cada ministeri competent per raó de la matèria.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La dependència funcional del delegat és del ministeri competent per matèria, però la Delegació s'adscriu a Hisenda."
+      },
+      {
+        "text": "Al Ministeri d'Hisenda i Administracions Públiques.",
+        "isCorrect": true,
+        "rationale": "Correcta. La llei manté aquest nom literal, i l'A1-2020 també el fa servir. No confonguis la Delegació (l'òrgan) amb el delegat (el titular)."
+      }
+    ],
+    "hint": "Delegació no és delegat."
+  },
+  {
+    "guid": "3cd40fe9-2f93-45e9-bdbd-fe912dfe2e69",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 72 de la Llei 40/2015, els delegats del Govern depenen:",
+    "answerOptions": [
+      {
+        "text": "Orgànicament del Ministeri d'Hisenda i AAPP i funcionalment del President del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Hisenda és l'adscripció de la Delegació, no la dependència orgànica del delegat."
+      },
+      {
+        "text": "Orgànicament i funcionalment del Ministeri de l'Interior, com a òrgans de seguretat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La dependència orgànica és del President, i la funcional, del ministeri competent per matèria."
+      },
+      {
+        "text": "Orgànicament del President del Govern i funcionalment del ministeri competent per raó de la matèria.",
+        "isCorrect": true,
+        "rationale": "Correcta. Ho diu l'art. 72.3 LRJSP."
+      },
+      {
+        "text": "Orgànicament del ministeri competent per raó de la matèria i funcionalment del President del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. L'ordre és el contrari."
+      }
+    ],
+    "hint": "Orgànicament, del cap del Govern."
+  },
+  {
+    "guid": "2df59f8c-3a37-4a17-8148-2ea04a796dbf",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 72 de la Llei 40/2015, els delegats del Govern es nomenen:",
+    "answerOptions": [
+      {
+        "text": "Per reial decret del Consell de Ministres, a proposta del President del Govern.",
+        "isCorrect": true,
+        "rationale": "Correcta. Es nomenen atenent criteris de competència professional i experiència, i han de complir els requisits d'idoneïtat de la Llei 3/2015."
+      },
+      {
+        "text": "Per reial decret del President del Govern, a proposta del ministre d'Hisenda.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El reial decret és del Consell de Ministres, i la proposta, del President."
+      },
+      {
+        "text": "Per ordre del ministre d'Hisenda, entre funcionaris de carrera del subgrup A1.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No es nomenen per ordre ministerial."
+      },
+      {
+        "text": "Pel consell de govern de la comunitat autònoma, d'acord amb el Govern de l'Estat.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La comunitat autònoma no hi intervé."
+      }
+    ],
+    "hint": "Reial decret col·legiat, proposta presidencial."
+  },
+  {
+    "guid": "7e5ad8f5-d6bd-44ca-9b04-615aa34f4247",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 73 de la Llei 40/2015, entre les competències dels delegats del Govern hi ha:",
+    "answerOptions": [
+      {
+        "text": "Resoldre els recursos contra els actes de les administracions autonòmiques i locals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Era el distractor de l'A1-2020: resolen recursos contra actes de la seva delegació, no de les altres administracions."
+      },
+      {
+        "text": "Nomenar els presidents de les comunitats autònomes en nom del Rei, a proposta del parlament autonòmic.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El president autonòmic el nomena el Rei, i el delegat no hi intervé."
+      },
+      {
+        "text": "Dirigir l'administració de la comunitat autònoma en les matèries de seguretat pública.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. El delegat dirigeix l'Administració de l'Estat, no l'autonòmica."
+      },
+      {
+        "text": "Promoure conflictes i recursos per defensar les competències que la Constitució atribueix a l'Estat.",
+        "isCorrect": true,
+        "rationale": "Correcta. Vetllen per les competències de l'Estat promovent o interposant conflictes de jurisdicció, conflictes d'atribucions, recursos i altres accions. Va sortir a l'A1-2020."
+      }
+    ],
+    "hint": "Control de legalitat."
+  },
+  {
+    "guid": "5409f321-fe68-46a9-89aa-820acbfd4344",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 74 de la Llei 40/2015, els subdelegats del Govern:",
+    "answerOptions": [
+      {
+        "text": "Els nomena el Consell de Ministres per reial decret, a proposta del President del Govern.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Aquest és el sistema de nomenament dels delegats (art. 72)."
+      },
+      {
+        "text": "Els nomena el delegat per lliure designació entre funcionaris de carrera A1 de qualsevol Administració.",
+        "isCorrect": true,
+        "rationale": "Correcta. Hi ha un subdelegat a cada província, amb nivell de subdirector general, nomenat pel delegat entre funcionaris A1 de l'Estat, de les CCAA o dels ens locals."
+      },
+      {
+        "text": "Els nomena el ministre d'Hisenda per concurs de mèrits entre els funcionaris de carrera de l'Estat del subgrup A1.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No els nomena el ministre ni es fa per concurs."
+      },
+      {
+        "text": "Els elegeix la diputació provincial entre els funcionaris destinats a la mateixa província.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La diputació no hi intervé."
+      }
+    ],
+    "hint": "El nomena el seu superior territorial."
+  },
+  {
+    "guid": "27386970-e271-4402-a7af-39804554ca67",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 75 de la Llei 40/2015, correspon als subdelegats del Govern:",
+    "answerOptions": [
+      {
+        "text": "Dirigir la policia local dels municipis de la província.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La policia local depèn dels ajuntaments."
+      },
+      {
+        "text": "Dirigir les Forces i Cossos de Seguretat de l'Estat a la província.",
+        "isCorrect": true,
+        "rationale": "Correcta. També dirigeixen la protecció civil i els serveis integrats, i mantenen la cooperació amb la comunitat autònoma i les entitats locals."
+      },
+      {
+        "text": "Nomenar els directors insulars de la seva província.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Els directors insulars els nomena el delegat del Govern (art. 70)."
+      },
+      {
+        "text": "Resoldre els recursos contra els actes dictats per la diputació provincial.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. No tenen aquesta competència."
+      }
+    ],
+    "hint": "Seguretat pública a la província."
+  },
+  {
+    "guid": "2c626454-1e71-450f-a63a-037bea71a9bd",
+    "subjectId": "T07",
+    "difficulty": 2,
+    "origin": "Claude Matteo",
+    "type": "test",
+    "question": "Segons l'art. 154 de la Constitució, el delegat nomenat pel Govern:",
+    "answerOptions": [
+      {
+        "text": "Dirigeix l'administració de la CA en les matèries que són de competència estatal.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Dirigeix l'Administració de l'Estat, no la de la comunitat."
+      },
+      {
+        "text": "Representa la comunitat autònoma davant el Govern de l'Estat i les Corts Generals.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. Representa el Govern de l'Estat a la comunitat (art. 72.1 LRJSP), no a l'inrevés."
+      },
+      {
+        "text": "Controla la legalitat dels actes autonòmics i en pot suspendre els efectes directament.",
+        "isCorrect": false,
+        "rationale": "Incorrecta. La suspensió d'actes autonòmics no és una facultat que li doni l'art. 154 CE."
+      },
+      {
+        "text": "Dirigeix l'Administració de l'Estat a la CA i la coordina, si escau, amb l'autonòmica.",
+        "isCorrect": true,
+        "rationale": "Correcta. És el contingut de l'art. 154 CE, base constitucional dels delegats del Govern."
+      }
+    ],
+    "hint": "Dirigeix i coordina."
+  }
+]
