@@ -619,6 +619,7 @@ Reglas:
       const output = convertirJson();
       if (!output) return;
       try {
+        borrarEstudioEnProgreso();
         localStorage.setItem(LS_KEYS.PREGUNTES, output);
         localStorage.setItem(LS_KEYS.ESTUDIO_WIP_CONTINUE, 'false');
         window.location.href = 'estudiar.html';
@@ -646,6 +647,7 @@ Reglas:
       const output = document.getElementById('outputJson').value;
       if (!output) return;
       try {
+        borrarEstudioEnProgreso();
         localStorage.setItem(LS_KEYS.PREGUNTES, output);
         localStorage.setItem(LS_KEYS.ESTUDIO_WIP_CONTINUE, 'false');
         window.location.href = 'estudiar.html';
