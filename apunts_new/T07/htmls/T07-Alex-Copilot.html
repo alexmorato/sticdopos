@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tema 7 · L'Administració General de l'Estat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Public+Sans:wght@400;600;700&display=swap">
+<style>
+:root{--paper:#F6F3EC;--card:#ECE6DA;--line:#D6CCBA;--ink:#1B2A3A;--ink-2:#33404D;--muted:#5E6670;--accent:#B8432F;--accent-dark:#8E3322;--accent-soft:#E58A6F;--cool:#C9D3DD;--serif:"EB Garamond",Georgia,serif;--sans:"Public Sans",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:#111}
+body{font-family:var(--sans);color:var(--ink-2)}
+.deck{position:fixed;inset:0;display:grid;place-items:center}
+.slide{position:absolute;width:1920px;height:1080px;padding:110px 128px 145px;background:var(--paper);overflow:hidden;display:flex;flex-direction:column;gap:30px;transform-origin:center;opacity:0;pointer-events:none;transition:opacity .3s ease}
+.slide.active{opacity:1;pointer-events:auto}.slide.dark{background:var(--ink);color:var(--cool)}
+.eyebrow{font-size:23px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--accent-dark)}
+.dark .eyebrow{color:var(--accent-soft)}
+h1,h2,h3{font-family:var(--serif);color:var(--ink);line-height:1.1}h1{font-size:94px;font-weight:500}h2{font-size:60px;font-weight:600}h3{font-size:36px;font-weight:600}.dark h2{color:#fff}
+p,li,td,th{font-size:27px;line-height:1.36}strong{color:var(--accent-dark)}.small{font-size:22px;color:var(--muted)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:36px;flex:1;min-height:0}.three{grid-template-columns:repeat(3,1fr)}
+.card{background:var(--card);border-radius:6px;padding:30px 34px;display:flex;flex-direction:column;gap:15px}.card h3{margin-bottom:4px}
+.dark .card{background:#304354;color:#fff}.dark .card h3{color:#fff}.dark .card strong{color:#ffc1ab}
+ul.list{list-style:none;display:flex;flex-direction:column;gap:15px}ul.list li{padding-left:27px;position:relative}ul.list li:before{content:"";position:absolute;left:0;top:.58em;width:11px;height:11px;background:var(--accent)}
+.trap{border-left:6px solid var(--accent);background:#fff;padding:22px 30px}.trap p{font-size:25px}
+.steps{counter-reset:step;display:flex;flex-direction:column;gap:18px}.steps li{list-style:none;counter-increment:step;display:grid;grid-template-columns:52px 1fr;gap:20px;align-items:start}.steps li:before{content:counter(step);width:52px;height:52px;border-radius:50%;background:var(--ink);color:#fff;font:600 26px/52px var(--sans);text-align:center}
+.figure{font:600 76px/1 var(--serif);color:var(--accent)}.dark .figure{color:var(--accent-soft)}
+table{width:100%;border-collapse:collapse}th{background:var(--ink);color:white;text-align:left;padding:13px 16px;font-size:23px}td{padding:12px 16px;border-bottom:1px solid var(--line);font-size:23px;vertical-align:top}tr:nth-child(even) td{background:var(--card)}
+.qa{display:flex;flex-direction:column;gap:20px}.qa .q{font-size:25px}.qa .q b{color:var(--accent-dark)}.qa .a{font-size:23px;color:var(--accent-dark);padding-left:18px;border-left:4px solid var(--accent);margin-top:5px}
+.trapgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.trapgrid .card{padding:16px 22px;gap:4px}.trapgrid p{font-size:22px}.trapgrid .small{font-size:20px}
+[data-step]{transition:opacity .25s ease,transform .25s ease}[data-step].hidden{opacity:0;transform:translateY(12px)}
+.footer{position:absolute;left:128px;right:128px;bottom:48px;display:flex;justify-content:space-between;font-size:21px;color:var(--muted);border-top:1px solid var(--line);padding-top:15px}.dark .footer{color:var(--cool);border-color:#506173}
+.notes{position:fixed;left:0;right:0;bottom:0;max-height:35vh;overflow:auto;background:rgba(27,42,58,.97);color:#fff;padding:16px 24px;font-size:16px;line-height:1.5;display:none;z-index:10}.notes.visible{display:block}
+a{color:var(--accent-dark);overflow-wrap:anywhere}.sources li{font-size:23px}
+@media print{@page{size:1920px 1080px;margin:0}html,body{overflow:visible;background:none}.deck{position:static;display:block}.slide{position:relative;opacity:1;transform:none!important;break-after:page;page-break-after:always;transition:none}[data-step]{transition:none}[data-step].hidden{opacity:1;transform:none}.notes{display:none!important}}
+@media (prefers-reduced-motion:reduce){.slide,[data-step]{transition:none}}
+</style>
+</head>
+<body>
+<main class="deck">
+<section class="slide" aria-roledescription="slide" data-notes="Presentació orientada a A1: primer l'estructura, després l'organització perifèrica i el sector institucional. Durada aproximada: 45 minuts." style="justify-content:center;gap:32px">
+  <div class="eyebrow">Temari comú A1 · Ajuntament de Barcelona · Tema 7</div>
+  <h1>L'Administració General<br>de l'Estat</h1>
+  <p style="font:44px var(--serif)">Regulació, organització, òrgans superiors i directius<br>i administració perifèrica</p>
+  <p class="small">Constitució espanyola · Llei 40/2015 · Sessió d'estudi: novembre de 2026</p>
+  <p class="small">Navegació: fletxes, espai o clic als laterals · N: notes · Inici/Fi: primera/última</p>
+</section>
+
+<section class="slide" aria-roledescription="slide" data-notes="Distingiu la Constitució, la llei organitzativa i la normativa aplicable al Govern. La denominació concreta dels ministeris pot canviar. 2 minuts.">
+  <div class="eyebrow">Marc normatiu · CE i legislació estatal</div><h2>On es regula l'Administració de l'Estat?</h2>
+  <div class="cols">
+    <div class="card"><h3>Constitució espanyola</h3><ul class="list"><li><strong>Art. 97:</strong> el Govern dirigeix l'Administració.</li><li><strong>Art. 103:</strong> servei objectiu, principis i submissió a la llei i al dret.</li><li><strong>Art. 154:</strong> delegat del Govern a la comunitat autònoma.</li></ul></div>
+    <div class="card"><h3>Lleis i desplegament</h3><ul class="list"><li><strong>Llei 40/2015:</strong> títol I, organització de l'AGE; títol II, sector institucional.</li><li><strong>Llei 50/1997:</strong> Govern i secretaris d'Estat.</li><li><strong>Reials decrets:</strong> despleguen l'estructura orgànica.</li></ul></div>
+  </div><div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="No confongueu descentralització, que implica una altra persona jurídica, amb desconcentració, dins de la mateixa administració. 2 minuts.">
+  <div class="eyebrow">Principis · art. 103 CE i 3 i 54 Llei 40/2015</div><h2>Com actua i s'organitza l'AGE?</h2>
+  <div class="cols"><div class="card"><h3>Servei als interessos generals</h3><ul class="list"><li>Actuació <strong>objectiva</strong> i sotmesa plenament a la llei i al dret.</li><li>Eficàcia, jerarquia, descentralització, desconcentració i coordinació.</li></ul></div><div class="card"><h3>Dos conceptes diferents</h3><ul class="list"><li><strong>Descentralització funcional:</strong> organització mitjançant entitats diferenciades.</li><li><strong>Desconcentració:</strong> distribució interna de competències entre òrgans.</li><li>Cada administració actua amb personalitat jurídica única.</li></ul></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="La pregunta d'examen sol ometre l'exterior. Els organismes institucionals són diferents de les tres branques de l'article 55.2. 2 minuts.">
+  <div class="eyebrow">Estructura · art. 55.1 i 55.2 Llei 40/2015</div><h2>L'AGE comprèn tres organitzacions</h2>
+  <div class="cols three"><div class="card"><div class="figure">01</div><h3>Central</h3><p>Ministeris i serveis comuns.</p></div><div class="card"><div class="figure">02</div><h3>Territorial</h3><p>Delegacions, subdelegacions i serveis territorials.</p></div><div class="card"><div class="figure">03</div><h3>Exterior</h3><p>Administració de l'Estat fora del territori espanyol.</p></div></div>
+  <div class="trap"><p><strong>Clau:</strong> divisió funcional en ministeris i gestió territorial integrada en delegacions, amb les excepcions legals.</p></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Memoritzeu les dues llistes exactes de l'article 55.3. Superiors i directius no són sinònims. 2 minuts.">
+  <div class="eyebrow">Organització central · art. 55.3 i 55.9 Llei 40/2015</div><h2>Òrgans superiors i òrgans directius</h2>
+  <div class="cols"><div class="card"><h3>Superiors</h3><ul class="list"><li><strong>Ministres.</strong></li><li><strong>Secretaris d'Estat.</strong></li><li>Estableixen els plans d'actuació de l'organització sota la seva responsabilitat.</li></ul></div><div class="card"><h3>Directius</h3><ul class="list"><li>Sotssecretaris i secretaris generals.</li><li>Secretaris generals tècnics i directors generals.</li><li>Subdirectors generals.</li><li>Desenvolupen i executen els plans.</li></ul></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="El secretari general no és el secretari general tècnic. L'excepció d'alt càrrec afecta subdirectors generals i assimilats. 2 minuts.">
+  <div class="eyebrow">Jerarquia i rang · art. 55.4–6 i 60 Llei 40/2015</div><h2>Rang, nivell i condició d'alt càrrec</h2>
+  <table><thead><tr><th>Figura</th><th>Categoria o nivell</th><th>Condició</th></tr></thead><tbody>
+  <tr><td>Secretari general</td><td>Categoria de sotssecretari</td><td>Òrgan directiu</td></tr>
+  <tr><td>Secretari general tècnic</td><td>Categoria de director general</td><td>Òrgan directiu</td></tr>
+  <tr><td>Delegat del Govern</td><td>Rang de sotssecretari</td><td>Òrgan directiu territorial</td></tr>
+  <tr><td>Subdelegat del Govern</td><td>Nivell de subdirector general</td><td>Òrgan directiu territorial</td></tr></tbody></table>
+  <div class="trap"><p><strong>Excepció:</strong> els òrgans superiors i directius són alts càrrecs, excepte els subdirectors generals i assimilats.</p></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Cada ministeri té necessàriament una sotssecretaria i una secretaria general tècnica; en canvi, les secretaries d'Estat són facultatives. 2 minuts.">
+  <div class="eyebrow">Ministeris · art. 57, 58 i 60 Llei 40/2015</div><h2>Com s'ordena un ministeri?</h2>
+  <div class="cols"><div class="card"><h3>Estructura</h3><ul class="list"><li>El ministre és el cap superior del departament.</li><li>Hi pot haver secretaries d'Estat i secretaries generals.</li><li>Hi ha <strong>sempre</strong> una sotssecretaria i, sota aquesta, una secretaria general tècnica.</li></ul></div><div class="card"><h3>Gestió</h3><ul class="list"><li>Direccions generals: una o diverses àrees funcionals homogènies.</li><li>Subdireccions generals: distribució de competències i execució.</li><li>Les unitats administratives són els elements organitzatius bàsics (art. 56).</li></ul></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Assenyaleu la diferència entre direcció política sectorial i gestió dels serveis comuns. La secretaria general tècnica depèn immediatament del sotssecretari. 2 minuts.">
+  <div class="eyebrow">Funcions · art. 61–67 Llei 40/2015</div><h2>Què fa cadascun dels òrgans?</h2>
+  <table><thead><tr><th>Òrgan</th><th>Funció característica</th></tr></thead><tbody>
+  <tr><td>Ministre</td><td>Dirigeix el departament, fixa objectius i exerceix la potestat reglamentària en les seves matèries.</td></tr>
+  <tr><td>Secretari d'Estat</td><td>Executa l'acció del Govern en un sector específic i coordina els òrgans dependents.</td></tr>
+  <tr><td>Sotssecretari</td><td>Representació ordinària del ministeri, serveis comuns i direcció superior del personal.</td></tr>
+  <tr><td>Secretari general tècnic</td><td>Serveis comuns: producció normativa, assistència jurídica i publicacions.</td></tr>
+  <tr><td>Director i subdirector generals</td><td>Gestió d'àrees; execució immediata de projectes i gestió ordinària, respectivament.</td></tr></tbody></table>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Diferencieu la creació de l'òrgan del nomenament de la persona titular. La denominació ministerial de la llei pot variar per reorganitzacions. 2 minuts.">
+  <div class="eyebrow">Creació d'òrgans · art. 57.3 i 59 Llei 40/2015</div><h2>Qui crea o modifica l'estructura?</h2>
+  <div class="cols" style="grid-template-columns:2fr 1fr"><ol class="steps"><li><p><strong>Ministeris i secretaries d'Estat:</strong> nombre, denominació i competències per reial decret del president del Govern.</p></li><li><p><strong>De sotssecretaria a subdirecció general:</strong> reial decret del Consell de Ministres, amb iniciativa i proposta ministerials.</p></li><li><p><strong>Òrgans inferiors a subdirecció:</strong> ordre del ministre, amb autorització prèvia. Unitats no òrgan: relacions de llocs de treball.</p></li></ol><div class="card"><h3>Pregunta recurrent</h3><div class="figure">RD</div><p>La <strong>subdirecció general</strong> es crea per reial decret del Consell de Ministres, no per ordre ministerial.</p></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="La regla del director general té excepcions: funcions específiques justificades o persones jubilades que van tenir la condició de funcionari A1. 3 minuts.">
+  <div class="eyebrow">Nomenaments · art. 63–67 Llei 40/2015</div><h2>Perfils dels òrgans directius centrals</h2>
+  <table><thead><tr><th>Titular</th><th>Regla de selecció</th><th>Nomenament</th></tr></thead><tbody>
+  <tr><td>Sotssecretari / secretari general tècnic</td><td>Funcionari de carrera A1</td><td>Reial decret del Consell de Ministres</td></tr>
+  <tr><td>Secretari general</td><td>Qualificació i experiència en gestió pública o privada</td><td>Reial decret del Consell de Ministres</td></tr>
+  <tr><td>Director general</td><td>Funcionari A1 o jubilat que ho hagi estat; excepció motivada a l'estructura</td><td>Reial decret del Consell de Ministres</td></tr>
+  <tr><td>Subdirector general</td><td>Funcionari de carrera A1, amb les condicions legals</td><td>Ministre, secretari d'Estat o sotssecretari del qual depengui</td></tr></tbody></table>
+  <p class="small">Novetat · Reial decret llei 6/2023: possibilitat de nomenar directors generals jubilats que havien estat funcionaris A1 (art. 66.2).</p>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="La delegació és l'òrgan territorial; el delegat és la persona titular. No confongueu la seva dependència orgànica. 2 minuts.">
+  <div class="eyebrow">Administració perifèrica · art. 69 i 72 Llei 40/2015</div><h2>Una delegació a cada comunitat autònoma</h2>
+  <div class="cols"><div class="card"><h3>Delegació del Govern</h3><ul class="list"><li>Una a <strong>cada comunitat autònoma</strong>.</li><li>Seu ordinària on radica el Consell de Govern autonòmic, amb excepcions legals.</li><li>Adscripció orgànica al ministeri competent segons l'organització vigent.</li></ul></div><div class="card"><h3>Delegat del Govern</h3><ul class="list"><li>Representa el <strong>Govern de la nació</strong> a la comunitat autònoma.</li><li>Òrgan directiu amb rang de sotssecretari.</li><li>Depèn orgànicament del president del Govern i funcionalment del ministeri competent per matèria.</li></ul></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Insistiu en la cadena: proposta presidencial i decisió del Consell de Ministres. La persona nomenada no ha de ser necessàriament funcionària A1. 2 minuts.">
+  <div class="eyebrow">Delegat del Govern · art. 72 Llei 40/2015</div><h2>Nomenament i suplència: pas a pas</h2>
+  <div class="cols" style="grid-template-columns:2fr 1fr"><ol class="steps"><li><p>El <strong>president del Govern</strong> proposa el nomenament o cessament.</p></li><li><p>El <strong>Consell de Ministres</strong> nomena o separa per reial decret.</p></li><li><p>Es valoren competència professional i experiència; cal complir els requisits d'idoneïtat dels alts càrrecs.</p></li><li><p>Suplència: subdelegat designat; si no n'hi ha, el de la província de la seu. A la comunitat uniprovincial sense subdelegat, el secretari general.</p></li></ol><div class="card"><h3>Qui fa què?</h3><p><strong>Proposa</strong><br>President del Govern</p><p><strong>Decideix</strong><br>Consell de Ministres</p><p><strong>Instrument</strong><br>Reial decret</p></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="La direcció directa és especialment dels serveis integrats; respecte dels altres, impuls, coordinació i supervisió generals. 2 minuts.">
+  <div class="eyebrow">Competències · art. 72 i 73 Llei 40/2015</div><h2>Què fa el delegat del Govern?</h2>
+  <div class="cols"><div class="card"><h3>Direcció i relacions</h3><ul class="list"><li>Dirigeix i supervisa l'AGE al territori; coordina amb les administracions autonòmica i locals quan pertoqui.</li><li>Nomena i dirigeix els subdelegats i, si escau, els directors insulars.</li><li>Coordina la informació sobre l'acció del Govern.</li></ul></div><div class="card"><h3>Legalitat i polítiques</h3><ul class="list"><li>Vetlla per les competències estatals i l'aplicació de la normativa; promou o interposa les accions procedents.</li><li>Protegeix drets i llibertats i garanteix la seguretat ciutadana dins les competències estatals.</li></ul></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="A les comunitats uniprovincials es poden crear subdelegacions per reial decret; si no n'hi ha, el delegat assumeix les funcions del subdelegat. 2 minuts.">
+  <div class="eyebrow">Províncies i illes · art. 69.4 i 70, 74 i 75 Llei 40/2015</div><h2>Subdelegats i directors insulars</h2>
+  <div class="cols"><div class="card"><h3>Subdelegat provincial</h3><ul class="list"><li>Nivell de subdirector general; dependència immediata del delegat.</li><li>Nomenat pel delegat per <strong>lliure designació</strong> entre funcionaris de carrera A1.</li><li>Cooperació territorial, seguretat, protecció civil i serveis integrats.</li></ul></div><div class="card"><h3>Excepcions i illes</h3><ul class="list"><li>A les comunitats uniprovincials la subdelegació es pot crear per reial decret si es justifica.</li><li>Els directors insulars, on s'estableixin reglamentàriament, són nomenats pel delegat entre funcionaris A1.</li></ul></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Els serveis no integrats no desapareixen: depenen de l'òrgan central sectorial. La Secretaria General gestiona els serveis comuns. 2 minuts.">
+  <div class="eyebrow">Serveis territorials · art. 71, 76 i 79 Llei 40/2015</div><h2>Serveis integrats i no integrats</h2>
+  <div class="cols"><div class="card"><h3>Integrats</h3><p>Depenen del delegat o, si escau, del subdelegat, a través de la Secretaria General.</p><p>Actuen segons les instruccions tècniques del ministeri competent.</p></div><div class="card"><h3>No integrats</h3><p>Depenen de l'òrgan central competent del sector, que fixa objectius i controla l'execució.</p><p>El delegat n'impulsa, coordina i supervisa l'activitat amb caràcter general.</p></div></div>
+  <div class="trap"><p><strong>Suport:</strong> a les comunitats pluriprovincials hi ha una comissió territorial d'assistència presidida pel delegat.</p></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="El sector públic institucional estatal és més ampli que els organismes públics estatals. L'article 81 també estableix supervisió contínua. 2 minuts.">
+  <div class="eyebrow">Sector institucional · art. 81 i 84 Llei 40/2015</div><h2>Què integra el sector institucional estatal?</h2>
+  <div class="cols"><div class="card"><h3>Organismes públics</h3><ul class="list"><li>Organismes autònoms.</li><li>Entitats públiques empresarials.</li><li>Agències estatals.</li></ul><p class="small">Aquests tres són la classificació de l'art. 84.1.a.</p></div><div class="card"><h3>Altres entitats</h3><p>Autoritats administratives independents, societats mercantils estatals, consorcis, fundacions del sector públic, fons sense personalitat jurídica i universitats públiques no transferides.</p></div></div>
+  <div class="trap"><p><strong>Principis:</strong> legalitat, eficiència, transparència en la gestió, estabilitat pressupostària i sostenibilitat financera.</p></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="La redacció vigent de l'article 103 es refereix a ingressos de mercat i preveu excepció per a mitjans propis personificats. Eviteu convertir la formulació històrica de l'examen en una regla absoluta. 3 minuts.">
+  <div class="eyebrow">Comparativa · art. 98, 99, 103 i 104 Llei 40/2015</div><h2>Organisme autònom o entitat pública empresarial?</h2>
+  <table><thead><tr><th></th><th>Organisme autònom · OA</th><th>Entitat pública empresarial · EPE</th></tr></thead><tbody>
+  <tr><td>Naturalesa</td><td>Entitat de dret públic instrumental i dependent</td><td>Entitat de dret públic, amb personalitat i patrimoni propis</td></tr>
+  <tr><td>Activitat</td><td>Foment, prestacions, serveis públics o béns d'interès públic</td><td>Prestacions, serveis o béns susceptibles de contraprestació, amb potestats administratives</td></tr>
+  <tr><td>Règim</td><td>Normes administratives; dret comú si no hi ha norma administrativa</td><td>Dret privat; excepcions: voluntat dels òrgans, potestats administratives i supòsits legals</td></tr>
+  <tr><td>Ingressos</td><td>Règim de recursos de l'art. 101</td><td>Ingressos de mercat, amb excepció legal per a determinats mitjans propis</td></tr></tbody></table>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide dark" aria-roledescription="slide" data-notes="La pregunta històrica utilitza majoritàriament ingressos de mercat. Consulteu l'article 103 actual, que preveu una excepció. No s'atribueix un any desconegut a aquesta pregunta. 2 minuts.">
+  <div class="eyebrow">Aplicació a una pregunta real · art. 103 i 104 Llei 40/2015</div><h2>Ingressos de mercat i potestats: és una societat mercantil?</h2>
+  <div class="figure">No.</div>
+  <div class="cols"><div class="card"><h3>Què plantejava l'examen?</h3><p>Una entitat de dret públic amb patrimoni i autonomia, ingressos de mercat, potestats i serveis susceptibles de contraprestació.</p></div><div class="card"><h3>Per què?</h3><p>La descripció apunta a una <strong>entitat pública empresarial</strong>. El règim vigent inclou una excepció sobre el finançament de determinats mitjans propis.</p></div></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="La pregunta local és de context, no transforma un organisme municipal en estatal. L'aplicació de la Llei 40/2015 als ens locals està delimitada per l'article 81.3. 2 minuts.">
+  <div class="eyebrow">Àmbits diferents · art. 2 i 81.3 Llei 40/2015; art. 85 bis Llei 7/1985</div><h2>Un organisme municipal no és estatal</h2>
+  <div class="cols"><div class="card"><h3>Àmbit estatal</h3><p>Els OA estatals depenen de l'AGE i tenen personalitat jurídica pròpia, patrimoni i autonomia de gestió (art. 98).</p></div><div class="card"><h3>Àmbit local</h3><p>Un organisme autònom local està adscrit a una entitat local. Cal aplicar-ne el règim local i la normativa bàsica aplicable, no identificar-lo amb l'AGE.</p></div></div>
+  <div class="trap"><p><strong>Trampa:</strong> el terme «organisme autònom» no indica per si sol si l'ens és estatal, autonòmic o local.</p></div>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Repàs final de propostes, decisions i requisits. La creació de l'òrgan és distinta del nomenament del titular. 2 minuts.">
+  <div class="eyebrow">Repàs · art. 57, 59, 67, 72 i 74 Llei 40/2015</div><h2>Qui decideix què?</h2>
+  <table><thead><tr><th>Acte</th><th>Qui decideix?</th><th>Requisit o instrument</th><th>Base</th></tr></thead><tbody>
+  <tr><td>Nombre i competències dels ministeris</td><td>President del Govern</td><td>Reial decret</td><td>57.3</td></tr>
+  <tr><td>Crear una subdirecció general</td><td>Consell de Ministres</td><td>Reial decret, iniciativa i proposta ministerials</td><td>59.1</td></tr>
+  <tr><td>Nomenar un delegat</td><td>Consell de Ministres</td><td>Reial decret, proposta del president</td><td>72.4</td></tr>
+  <tr><td>Nomenar un subdelegat</td><td>Delegat del Govern</td><td>Lliure designació; funcionari A1</td><td>74</td></tr>
+  <tr><td>Nomenar un subdirector general</td><td>Ministre, secretari d'Estat o sotssecretari del qual depengui</td><td>Funcionari A1; condicions legals</td><td>67.2</td></tr></tbody></table>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Llegiu primer l'afirmació falsa i demaneu-ne la correcció. La regla de les comunitats uniprovincials té una excepció expressa. 3 minuts.">
+  <div class="eyebrow">Trampes d'examen · Llei 40/2015</div><h2>Set afirmacions que cal detectar</h2>
+  <div class="trapgrid">
+    <div class="card"><p><strong>Fals:</strong> «El sotssecretari és òrgan superior».</p><p class="small">És directiu; superiors: ministres i secretaris d'Estat (art. 55.3).</p></div>
+    <div class="card"><p><strong>Fals:</strong> «L'AGE només és central i territorial».</p><p class="small">També comprèn l'AGE a l'exterior (art. 55.2).</p></div>
+    <div class="card"><p><strong>Fals:</strong> «El delegat el nomena el president».</p><p class="small">El president proposa; nomena el Consell de Ministres (art. 72.4).</p></div>
+    <div class="card"><p><strong>Fals:</strong> «El subdelegat té rang de sotssecretari».</p><p class="small">Té nivell de subdirector general (art. 55.4).</p></div>
+    <div class="card"><p><strong>Fals:</strong> «Mai hi ha subdelegació en una comunitat uniprovincial».</p><p class="small">Es pot crear per reial decret quan es justifiqui (art. 69.4).</p></div>
+    <div class="card"><p><strong>Fals:</strong> «Les EPE sempre apliquen dret administratiu».</p><p class="small">Regla de dret privat, amb excepcions (art. 104).</p></div>
+    <div class="card"><p><strong>Fals:</strong> «Les fundacions són organismes públics de l'art. 84.1.a».</p><p class="small">Són una categoria diferent del sector institucional (art. 84.1.e).</p></div>
+  </div><div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Pregunteu abans de revelar. Cada avanç mostra una resposta, després avança de diapositiva. Les preguntes procedeixen dels fitxers d'exàmens indicats a les fonts. 3 minuts.">
+  <div class="eyebrow">Test ràpid · preguntes d'examen (1/2)</div><h2>Respon abans de revelar</h2>
+  <div class="qa">
+    <div><p class="q"><b>A1 2025 · 12.</b> Qui nomena els delegats del Govern a les comunitats autònomes?</p><p class="a" data-step>El Consell de Ministres, per reial decret i a proposta del president del Govern (art. 72.4).</p></div>
+    <div><p class="q"><b>A1 2020 · 32.</b> D'acord amb la Llei 40/2015, què comprèn l'AGE?</p><p class="a" data-step>Organització central, territorial i AGE a l'exterior (art. 55.2).</p></div>
+    <div><p class="q"><b>A1 2020 · 33.</b> Quins són els òrgans superiors de l'organització central de l'AGE?</p><p class="a" data-step>Ministres i secretaris d'Estat (art. 55.3.a).</p></div>
+    <div><p class="q"><b>A1 2020 · 79.</b> Com es creen, modifiquen i suprimeixen les subdireccions generals?</p><p class="a" data-step>Per reial decret del Consell de Ministres, amb iniciativa i proposta ministerials (art. 59.1).</p></div>
+  </div><div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="A la pregunta 18 del 2021, apliqueu la classificació actual: les agències estatals hi figuren de nou. Les preguntes són abreujades. 3 minuts.">
+  <div class="eyebrow">Test ràpid · preguntes d'examen (2/2)</div><h2>Continua el repàs</h2>
+  <div class="qa">
+    <div><p class="q"><b>A1 2020 · 80.</b> Quin rang tenen els delegats del Govern a les comunitats autònomes?</p><p class="a" data-step>Rang de sotssecretari (art. 55.4 i 72.3).</p></div>
+    <div><p class="q"><b>A1 2020 · 31.</b> Quantes delegacions del Govern hi ha a cada comunitat autònoma?</p><p class="a" data-step>Una; la seu ordinària admet excepcions (art. 69.1 i 69.2).</p></div>
+    <div><p class="q"><b>A1 2021 · 18.</b> Com es classifiquen els organismes públics estatals?</p><p class="a" data-step>Organismes autònoms, EPE i agències estatals (art. 84.1.a, redacció vigent).</p></div>
+    <div><p class="q"><b>A1 2021 · 22.</b> Quins principis regeixen l'actuació del sector públic institucional?</p><p class="a" data-step>Legalitat, eficiència, transparència en la gestió, estabilitat pressupostària i sostenibilitat financera (art. 81.1).</p></div>
+  </div><div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+<section class="slide" aria-roledescription="slide" data-notes="Fonts oficials i material d'estudi. Les preguntes estan abreujades; les convocatòries procedeixen dels fitxers locals. Comproveu el text consolidat abans de l'examen. 1 minut.">
+  <div class="eyebrow">Fonts · normativa consolidada i material d'examen</div><h2>Fonts per continuar estudiant</h2>
+  <ul class="list sources">
+    <li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229">Constitució espanyola · BOE-A-1978-31229</a>: art. 97, 103 i 154.</li>
+    <li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566">Llei 40/2015 · BOE-A-2015-10566</a>: text consolidat; art. 3, 54–81, 84 i 98–104.</li>
+    <li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336">Llei 50/1997, del Govern · BOE-A-1997-25336</a>; <a href="https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392">Llei 7/1985 · BOE-A-1985-5392</a>, art. 85 bis.</li>
+    <li>Apunts T06–T07 de Xavi, temari comú de tècnic superior de l'Ajuntament de Barcelona.</li>
+    <li>Preguntes facilitades per l'usuari i fitxers locals d'exàmens A1 2020, A1 2021 i A1 2025; enunciats abreujats.</li>
+  </ul>
+  <p class="small">Novetat · LO 2/2024: presència equilibrada en els nomenaments, amb els termes i excepcions legals (art. 54.1 i 55 bis Llei 40/2015). Consulta normativa: 24 de novembre de 2026.</p>
+  <div class="footer"><span>Tema 7 · Administració General de l'Estat</span><span class="page"></span></div>
+</section>
+</main>
+<aside class="notes" id="notes" aria-live="polite"></aside>
+<script>
+(() => {
+  const slides = [...document.querySelectorAll('.slide')];
+  const notes = document.getElementById('notes');
+  const total = slides.length;
+  let current = 0;
+  slides.forEach((slide, i) => {
+    slide.setAttribute('aria-label', `Diapositiva ${i + 1} de ${total}`);
+    const page = slide.querySelector('.page');
+    if (page) page.textContent = i + 1;
+    slide.querySelectorAll('[data-step]').forEach(el => { el.classList.add('hidden'); el.setAttribute('aria-hidden', 'true'); });
+  });
+  function fit() {
+    const scale = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+    slides.forEach(slide => { slide.style.transform = `scale(${scale})`; });
+  }
+  function show(index) {
+    current = Math.max(0, Math.min(total - 1, Number.isFinite(index) ? index : 0));
+    slides.forEach((slide, i) => { slide.classList.toggle('active', i === current); slide.setAttribute('aria-hidden', String(i !== current)); slide.inert = i !== current; });
+    notes.textContent = slides[current].dataset.notes || '';
+    history.replaceState(null, '', `#${current + 1}`);
+  }
+  function next() {
+    const pending = slides[current].querySelector('[data-step].hidden');
+    if (pending) { pending.classList.remove('hidden'); pending.removeAttribute('aria-hidden'); }
+    else if (current < total - 1) show(current + 1);
+  }
+  function prev() {
+    const shown = [...slides[current].querySelectorAll('[data-step]:not(.hidden)')].pop();
+    if (shown) { shown.classList.add('hidden'); shown.setAttribute('aria-hidden', 'true'); }
+    else if (current > 0) show(current - 1);
+  }
+  document.addEventListener('keydown', e => {
+    if (e.target.closest('a, button, input, textarea, select')) return;
+    if (['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)) { e.preventDefault(); next(); }
+    else if (['ArrowLeft','ArrowUp','PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+    else if (e.key === 'Home') { e.preventDefault(); show(0); }
+    else if (e.key === 'End') { e.preventDefault(); show(total - 1); }
+    else if (e.key.toLowerCase() === 'n') notes.classList.toggle('visible');
+  });
+  document.addEventListener('click', e => {
+    if (e.target.closest('a, button, .notes')) return;
+    e.clientX > window.innerWidth / 2 ? next() : prev();
+  });
+  let touchX = null;
+  document.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, {passive:true});
+  document.addEventListener('touchend', e => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 50) (dx < 0 ? next : prev)();
+    touchX = null;
+  }, {passive:true});
+  window.addEventListener('resize', fit);
+  window.addEventListener('hashchange', () => show((parseInt(location.hash.slice(1), 10) || 1) - 1));
+  fit();
+  show((parseInt(location.hash.slice(1), 10) || 1) - 1);
+})();
+</script>
+</body>
+</html>
