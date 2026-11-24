@@ -43,7 +43,9 @@ const LS_KEYS = {
   TTS_VOICE: 'sTICdOpos_tts_voice',
   TTS_DOC_REF: 'sTICdOpos_tts_docRef',
   TTS_PROGRESS: 'sTICdOpos_tts_progress',
-  TTS_COLLAPSED_CARDS: 'sTICdOpos_tts_collapsedCards'
+  TTS_COLLAPSED_CARDS: 'sTICdOpos_tts_collapsedCards',
+  CONVERTER_TEMA_UI: 'sTICdOpos_converterTemaUI',
+  CONVERTER_DIFFICULTY_UI: 'sTICdOpos_converterDifficultyUI'
 };
 
 const LS_SENSITIVE_KEYS = Object.freeze(

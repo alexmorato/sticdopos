@@ -47,6 +47,9 @@
     .help-section p { font-size: 0.9em; line-height: 1.6; color: #9fb0ff; }
     ul { margin-left: 20px; }
     ul li { margin-bottom: 6px; }
+    .info-banner { background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%); border-left: 4px solid #667eea; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+    .info-banner h3 { color: #667eea; margin-bottom: 8px; font-size: 1.1em; }
+    .info-banner p { color: #9fb0ff; font-size: 0.9em; line-height: 1.6; margin: 0; }
     /* Menú hamburguesa flotante */
     .menu-btn {
       position: fixed;
@@ -162,10 +165,15 @@
       <p class="subtitle">Convierte preguntas simples a formato de examen profesional</p>
     </header>
 
+    <div class="info-banner">
+      <h3>🔄 Convertidor profesional de preguntas</h3>
+      <p>Convierte preguntas simples a formato profesional para examen. También puedes generar un prompt personalizado para que una IA cree las preguntas por ti.</p>
+    </div>
+
     <div class="grid">
       <!-- Panel de entrada -->
       <div class="panel">
-        <div class="panel-title">📝 Entrada</div>
+        <div class="panel-title">📝 Entrada - JSON Simple</div>
         
         <div class="input-group">
           <label for="temaSelect"><strong>Tema:</strong></label>
@@ -178,7 +186,7 @@
         </div>
 
         <label for="inputJson"><strong>Pega aquí el JSON:</strong></label>
-        <textarea id="inputJson" placeholder="[&#10;  {&#10;    &quot;question&quot;: &quot;¿Pregunta?&quot;,&#10;    &quot;options_good&quot;: [&quot;Respuesta correcta&quot;],&#10;    &quot;options_bad&quot;: [&quot;Incorrecta&quot;],&#10;    &quot;hint&quot;: &quot;Explicación&quot;&#10;  }&#10;]"></textarea>
+        <textarea id="inputJson" placeholder="[&#10;  {&#10;    &quot;question&quot;: &quot;¿Pregunta?&quot;,&#10;    &quot;options_good&quot;: [&quot;Respuesta correcta&quot;],&#10;    &quot;options_bad&quot;: [&quot;Incorrecta&quot;],&#10;    &quot;explanation&quot;: &quot;Explicación&quot;&#10;  }&#10;]"></textarea>
 
         <div class="btn-group">
           <button class="btn btn-secondary" id="pasteBtn">📋 Pegar del portapapeles</button>
@@ -191,6 +199,10 @@
         </div>
 
         <div class="btn-group">
+          <button class="btn btn-ai" id="generatePromptBtn" style="width: 100%;">🤖 Generar Prompt para IA</button>
+        </div>
+
+        <div class="btn-group">
           <button class="btn btn-secondary" id="clearBtn">🗑️ Limpiar</button>
         </div>
 
@@ -199,7 +211,7 @@
 
       <!-- Panel de salida -->
       <div class="panel">
-        <div class="panel-title">✅ Salida</div>
+        <div class="panel-title">✅ Salida - JSON Profesional</div>
         
         <label for="outputJson"><strong>JSON convertido:</strong></label>
         <textarea id="outputJson" readonly placeholder="Aquí aparecerá el JSON convertido..."></textarea>
@@ -229,19 +241,23 @@
       </div>
 
       <div class="code-block"><code>{
-  "question": "string con el texto de la pregunta",
-  "options_good": ["string opcion correcta 1", ...],
-  "options_bad": ["string opcion incorrecta 1", ...],
-  "hint": "string con la pista o aclaración (opcional)"
+  "question": "Texto de la pregunta",
+  "options_good": ["Respuesta correcta"],
+  "options_bad": [
+    "Respuesta incorrecta 1",
+    "Respuesta incorrecta 2",
+    "Respuesta incorrecta 3"
+  ],
+  "explanation": "Texto de la explicación (opcional)"
 }</code></div>
 
       <div class="help-section">
         <h3>Campos requeridos</h3>
         <ul>
           <li><strong>question</strong>: Texto de la pregunta</li>
-          <li><strong>options_good</strong>: Array de respuestas correctas</li>
+          <li><strong>options_good</strong>: Array de respuestas correctas (generalmente una)</li>
           <li><strong>options_bad</strong>: Array de respuestas incorrectas</li>
-          <li><strong>hint</strong>: (Opcional) Pista o aclaración del concepto. Si hay una sola respuesta correcta, se usa como rationale; si hay varias, se conserva como pista de la pregunta</li>
+          <li><strong>explanation</strong>: (Opcional) Explicación o pista. Si hay una sola respuesta correcta, se usa como rationale; si hay varias correctas, se conserva como campo independiente</li>
         </ul>
       </div>
 
@@ -253,21 +269,113 @@
   {
     "question": "¿Qué modelo usa píxeles o celdas?",
     "options_good": ["Ráster"],
-    "options_bad": ["Vectorial", "Topológico"],
-    "hint": "Malla de celdas con valores (ej: orfotos)"
-  },
-  {
-    "question": "¿Cuáles son tipos de datos?",
-    "options_good": ["Raster", "Vector"],
-    "options_bad": ["Topológico"],
-    "hint": "Dos modelos principales de representación"
+    "options_bad": ["Vectorial", "Topológico", "Matricial"],
+    "explanation": "Malla de celdas con valores (ej: orfotos)"
   }
 ]</code></div>
 
-      <button class="btn btn-primary" id="closeHelpBtn">Entendido</button>
+      <div class="btn-group">
+        <button class="btn btn-secondary" id="copyJsonStructureBtn">📋 Copiar estructura JSON</button>
+        <button class="btn btn-primary" id="closeHelpBtn">Entendido</button>
+      </div>
     </div>
   </div>
 
+  <!-- Modal para generar prompt de IA -->
+  <div class="modal" id="promptModal">
+    <div class="modal-content" style="max-width: 700px;">
+      <h2 class="modal-title">🤖 Generador de Prompt para IA</h2>
+      <button class="modal-close" id="promptModalClose">&times;</button>
+
+      <div class="help-section">
+        <h3>Pega el contenido</h3>
+        <p>Pegua aquí tus apuntes, conceptos o textos. La IA generará preguntas de test profesionales siguiendo las reglas de oposición.</p>
+      </div>
+
+      <label for="promptInputContent"><strong>Contenido:</strong></label>
+      <textarea id="promptInputContent" placeholder="Pega aquí el contenido que quieres convertir en preguntas de test..." style="width: 100%; min-height: 250px; background: rgba(20, 26, 42, 0.8); color: #e7ecff; border: 1.5px solid rgba(39, 48, 74, 0.8); border-radius: 8px; padding: 12px 15px; font-family: 'Monaco', 'Menlo', monospace; margin-bottom: 15px; resize: vertical;"></textarea>
+
+      <div class="btn-group">
+        <button class="btn btn-secondary" id="promptPasteBtn">📋 Pegar portapapeles</button>
+        <button class="btn btn-secondary" id="promptHelpBtn">❓ Ver reglas</button>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn btn-primary" id="promptGenerateBtn" style="width: 100%;">🚀 Generar Prompt</button>
+      </div>
+
+      <div id="promptMsgBox"></div>
+    </div>
+  </div>
+
+  <!-- Modal para ver el prompt generado -->
+  <div class="modal" id="promptResultModal">
+    <div class="modal-content" style="max-width: 800px;">
+      <h2 class="modal-title">✅ Prompt Generado</h2>
+      <button class="modal-close" id="promptResultModalClose">&times;</button>
+
+      <label for="promptResultText"><strong>Prompt para copiar a la IA:</strong></label>
+      <textarea id="promptResultText" readonly style="width: 100%; min-height: 350px; background: rgba(20, 26, 42, 0.8); color: #a0d995; border: 1.5px solid rgba(39, 48, 74, 0.8); border-radius: 8px; padding: 12px 15px; font-family: 'Monaco', 'Menlo', monospace; margin-bottom: 15px; resize: vertical;"></textarea>
+
+      <div class="btn-group">
+        <button class="btn btn-secondary" id="promptResultCopyBtn">📋 Copiar Prompt</button>
+        <button class="btn btn-secondary" id="promptResultDownloadBtn">📥 Descargar .txt</button>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn btn-primary" id="promptResultCloseBtn" style="width: 100%;">Cerrar</button>
+      </div>
+
+      <div id="promptResultMsgBox"></div>
+    </div>
+  </div>
+
+  <!-- Modal para ver reglas de generación -->
+  <div class="modal" id="promptRulesModal">
+    <div class="modal-content">
+      <h2 class="modal-title">📋 Reglas de Generación de Preguntas</h2>
+      <button class="modal-close" id="promptRulesModalClose">&times;</button>
+
+      <div class="help-section">
+        <h3>Criterios principales</h3>
+        <ul>
+          <li><strong>Dificultad:</strong> 40% fáciles, 40% medias, 20% difíciles</li>
+          <li><strong>Calidad:</strong> Conceptos importantes y frecuentemente evaluables</li>
+          <li><strong>Respuestas:</strong> Una correcta, tres incorrectas plausibles y similares</li>
+          <li><strong>Lenguaje:</strong> Claro, preciso, sin ambigüedades</li>
+          <li><strong>Sin duplicados:</strong> Evitar preguntas repetidas</li>
+          <li><strong>Enfoque especial:</strong> 50% sobre aspectos que suelen generar errores</li>
+        </ul>
+      </div>
+
+      <div class="help-section">
+        <h3>Aspectos que suelen generar errores</h3>
+        <ul>
+          <li>Excepciones y límites</li>
+          <li>Requisitos y incompatibilidades</li>
+          <li>Plazos y mayorías necesarias</li>
+          <li>Órganos competentes</li>
+          <li>Diferencias entre instituciones similares</li>
+        </ul>
+      </div>
+
+      <div class="help-section">
+        <h3>Explicaciones</h3>
+        <p>Cada pregunta debe incluir una explicación que:</p>
+        <ul>
+          <li>Justifique por qué la respuesta correcta es válida</li>
+          <li>Explique por qué las opciones incorrectas son erróneas</li>
+          <li>Mencione artículos o normas relevantes cuando proceda</li>
+          <li>Destaque confusiones habituales</li>
+          <li>Ayude a comprender el concepto, no solo a memorizarlo</li>
+        </ul>
+      </div>
+
+      <button class="btn btn-primary" id="closeRulesBtn" style="width: 100%;">Entendido</button>
+    </div>
+  </div>
+
+  <script src="assets/js/localstorage-utils.js"></script>
   <script>
     // ===== UTILIDADES =====
     function generateGUID() {
@@ -290,7 +398,7 @@
         .then(r => r.json())
         .then(temes => {
           const select = document.getElementById('temaSelect');
-          const saved = localStorage.getItem('converter_tema') || 'T07';
+          const saved = localStorage.getItem(LS_KEYS.CONVERTER_TEMA_UI) || 'T07';
           temes.forEach(t => {
             const opt = document.createElement('option');
             opt.value = t.tema;
@@ -305,7 +413,7 @@
         .then(r => r.json())
         .then(arr => {
           const select = document.getElementById('difficultySelect');
-          const saved = localStorage.getItem('converter_difficulty') || '1';
+          const saved = localStorage.getItem(LS_KEYS.CONVERTER_DIFFICULTY_UI) || '1';
           arr.forEach(d => {
             const opt = document.createElement('option');
             opt.value = d.id;
@@ -317,14 +425,14 @@
 
       // Event listeners
       document.getElementById('temaSelect').addEventListener('change', e => {
-        localStorage.setItem('converter_tema', e.target.value);
+        localStorage.setItem(LS_KEYS.CONVERTER_TEMA_UI, e.target.value);
       });
       document.getElementById('difficultySelect').addEventListener('change', e => {
-        localStorage.setItem('converter_difficulty', e.target.value);
+        localStorage.setItem(LS_KEYS.CONVERTER_DIFFICULTY_UI, e.target.value);
       });
     });
 
-    // ===== CONVERSIÓN =====
+    // ===== CONVERSIÓN JSON =====
     function convertirJson() {
       const input = document.getElementById('inputJson').value.trim();
       let simpleQuestions = [];
@@ -347,14 +455,14 @@
 
       const questions = simpleQuestions.map(q => {
         const answerOptions = [];
-        const hasHint = typeof q.hint === 'string' && q.hint.trim() !== '';
+        const hasExplanation = typeof q.explanation === 'string' && q.explanation.trim() !== '';
         const singleCorrect = (q.options_good || []).length === 1;
 
         (q.options_good || []).forEach(opt => {
           answerOptions.push({
             text: opt,
             isCorrect: true,
-            rationale: singleCorrect && hasHint ? q.hint : ''
+            rationale: singleCorrect && hasExplanation ? q.explanation : ''
           });
         });
 
@@ -375,8 +483,8 @@
           answerOptions
         };
 
-        if (hasHint && !singleCorrect) {
-          result.hint = q.hint;
+        if (hasExplanation && !singleCorrect) {
+          result.explanation = q.explanation;
         }
 
         return result;
@@ -392,7 +500,109 @@
       return output;
     }
 
-    // ===== EVENT LISTENERS =====
+    // ===== GENERAR PROMPT PARA IA =====
+    function generarPromptIA() {
+      document.getElementById('promptModal').classList.add('visible');
+    }
+
+    function crearPromptDesdeContenido() {
+      let input = document.getElementById('promptInputContent').value.trim();
+      
+      if (!input) {
+        input = "Todo el tema en general, incluyendo conceptos principales, definiciones, competencias, procedimientos, plazos, órganos competentes y excepciones.";
+      }
+
+      const tema = document.getElementById('temaSelect').value;
+      const temaText = document.getElementById('temaSelect').options[document.getElementById('temaSelect').selectedIndex].text;
+
+      const prompt = `Genera preguntas tipo test a partir del contenido proporcionado.
+
+TEMA: ${temaText}
+
+CONTENIDO A PROCESAR:
+---
+${input}
+---
+
+Formato de salida:
+Devuelve EXCLUSIVAMENTE un JSON válido. No añadas explicaciones fuera del JSON, comentarios ni bloques markdown.
+
+Estructura:
+
+[
+  {
+    "question": "Texto de la pregunta",
+    "options_good": [
+      "Respuesta correcta"
+    ],
+    "options_bad": [
+      "Respuesta incorrecta 1",
+      "Respuesta incorrecta 2",
+      "Respuesta incorrecta 3"
+    ],
+    "explanation": "Explicación completa del concepto, indicando por qué la respuesta correcta es válida y por qué las demás son incorrectas."
+  }
+]
+
+Reglas:
+
+1. Las preguntas deben centrarse en conceptos importantes y frecuentemente evaluables.
+2. Evita preguntas triviales o de memorización irrelevante.
+3. Las respuestas incorrectas deben ser plausibles y similares a la correcta.
+4. No utilices opciones absurdas o evidentemente falsas.
+5. Cada pregunta debe tener una única respuesta correcta.
+6. El texto de la pregunta debe ser claro, preciso y sin ambigüedades.
+7. Evita preguntas duplicadas.
+8. Alterna niveles de dificultad:
+   - 40% fáciles
+   - 40% medias
+   - 20% difíciles
+9. Prioriza preguntas sobre competencias, procedimientos, plazos, mayorías, incompatibilidades, excepciones y órganos competentes.
+10. Las preguntas deben incluir tanto definiciones como comparaciones y casos prácticos breves cuando sea posible.
+11. La explicación debe:
+    - Justificar por qué la respuesta correcta es correcta.
+    - Explicar por qué las opciones incorrectas son erróneas.
+    - Mencionar artículos o normas relevantes cuando proceda.
+    - Destacar confusiones habituales de los opositores.
+    - Ayudar a comprender el concepto, no únicamente a memorizarlo.
+12. Redacta todo en catalán preferiblemente.
+13. No incluyas numeración en las preguntas.
+14. Mantén un estilo similar al de los exámenes oficiales de oposición.
+15. Al menos el 50% de las preguntas deben abordar aspectos que suelen generar errores en los exámenes oficiales: excepciones, límites, requisitos, incompatibilidades, plazos, órganos competentes, mayorías necesarias o diferencias entre instituciones similares.`;
+
+      document.getElementById('promptResultText').value = prompt;
+      document.getElementById('promptResultCopyBtn').disabled = false;
+      document.getElementById('promptResultDownloadBtn').disabled = false;
+      document.getElementById('promptResultMsgBox').innerHTML = '';
+      
+      closePromptModal();
+      document.getElementById('promptResultModal').classList.add('visible');
+      showPromptResultMessage('✅ Prompt generado correctamente. Listo para copiar.', 'success');
+      
+      return prompt;
+    }
+
+    function showPromptMessage(text, type = 'info') {
+      const msgBox = document.getElementById('promptMsgBox');
+      msgBox.innerHTML = `<div class="msg ${type}">${text}</div>`;
+      if (type === 'success') setTimeout(() => msgBox.innerHTML = '', 3000);
+    }
+
+    function showPromptResultMessage(text, type = 'info') {
+      const msgBox = document.getElementById('promptResultMsgBox');
+      msgBox.innerHTML = `<div class="msg ${type}">${text}</div>`;
+      if (type === 'success') setTimeout(() => msgBox.innerHTML = '', 3000);
+    }
+
+    function closePromptModal() {
+      document.getElementById('promptModal').classList.remove('visible');
+    }
+
+    function closePromptResultModal() {
+      document.getElementById('promptResultModal').classList.remove('visible');
+    }
+
+    // ===== EVENT LISTENERS - CONVERTIDOR =====
     document.getElementById('convertBtn').onclick = convertirJson;
 
     document.getElementById('pasteBtn').onclick = async () => {
@@ -409,7 +619,8 @@
       const output = convertirJson();
       if (!output) return;
       try {
-        localStorage.setItem('converter_questions', output);
+        localStorage.setItem(LS_KEYS.PREGUNTES, output);
+        localStorage.setItem(LS_KEYS.ESTUDIO_WIP_CONTINUE, 'false');
         window.location.href = 'estudiar.html';
       } catch (e) {
         showMessage('❌ Error al guardar: ' + e.message, 'error');
@@ -425,9 +636,9 @@
 
     document.getElementById('copyPromptBtn').onclick = () => {
       const output = document.getElementById('outputJson').value;
-      const prompt = `Aquí está el JSON con las preguntas de examen convertidas al formato estándar. Revisa que las preguntas sean correctas, mejora la redacción si es necesario, y asegúrate de que el formato sea válido:\n\n${output}`;
+      const prompt = `Revisa y mejora el siguiente JSON con preguntas de test si es necesario:\n\n${output}`;
       navigator.clipboard.writeText(prompt).then(() => {
-        showMessage('✅ Prompt para IA copiado al portapapeles', 'success');
+        showMessage('✅ Prompt copiado al portapapeles', 'success');
       });
     };
 
@@ -435,7 +646,8 @@
       const output = document.getElementById('outputJson').value;
       if (!output) return;
       try {
-        localStorage.setItem('converter_questions', output);
+        localStorage.setItem(LS_KEYS.PREGUNTES, output);
+        localStorage.setItem(LS_KEYS.ESTUDIO_WIP_CONTINUE, 'false');
         window.location.href = 'estudiar.html';
       } catch (e) {
         showMessage('❌ Error: ' + e.message, 'error');
@@ -463,7 +675,87 @@
       document.getElementById('downloadBtn').disabled = true;
     };
 
-    // ===== MODAL AYUDA =====
+    // ===== EVENT LISTENERS - PROMPT MODAL =====
+    document.getElementById('generatePromptBtn').onclick = generarPromptIA;
+
+    document.getElementById('promptPasteBtn').onclick = async () => {
+      try {
+        const text = await navigator.clipboard.readText();
+        document.getElementById('promptInputContent').value = text;
+        showPromptMessage('✅ Contenido pegado desde el portapapeles', 'success');
+      } catch (err) {
+        showPromptMessage('❌ No se pudo leer del portapapeles. Asegúrate de permitir acceso.', 'error');
+      }
+    };
+
+    document.getElementById('promptHelpBtn').onclick = () => {
+      document.getElementById('promptRulesModal').classList.add('visible');
+    };
+
+    document.getElementById('promptGenerateBtn').onclick = crearPromptDesdeContenido;
+
+    document.getElementById('promptResultCopyBtn').onclick = () => {
+      const output = document.getElementById('promptResultText').value;
+      navigator.clipboard.writeText(output).then(() => {
+        showPromptResultMessage('✅ Prompt copiado al portapapeles', 'success');
+      });
+    };
+
+    document.getElementById('promptResultDownloadBtn').onclick = () => {
+      const output = document.getElementById('promptResultText').value;
+      const blob = new Blob([output], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `prompt-ia-${document.getElementById('temaSelect').value}-${new Date().toISOString().slice(0, 10)}.txt`;
+      a.click();
+      URL.revokeObjectURL(url);
+    };
+
+    document.getElementById('promptResultCloseBtn').onclick = closePromptResultModal;
+
+    // ===== MODALES - LISTENERS =====
+    document.getElementById('promptModalClose').onclick = closePromptModal;
+    document.getElementById('promptModal').onclick = e => {
+      if (e.target.id === 'promptModal') closePromptModal();
+    };
+
+    document.getElementById('promptResultModalClose').onclick = closePromptResultModal;
+    document.getElementById('promptResultModal').onclick = e => {
+      if (e.target.id === 'promptResultModal') closePromptResultModal();
+    };
+
+    document.getElementById('promptRulesModalClose').onclick = () => {
+      document.getElementById('promptRulesModal').classList.remove('visible');
+    };
+    document.getElementById('closeRulesBtn').onclick = () => {
+      document.getElementById('promptRulesModal').classList.remove('visible');
+    };
+    document.getElementById('promptRulesModal').onclick = e => {
+      if (e.target.id === 'promptRulesModal') {
+        document.getElementById('promptRulesModal').classList.remove('visible');
+      }
+    };
+
+    // ===== MODAL AYUDA CONVERTIDOR =====
+    document.getElementById('copyJsonStructureBtn').onclick = () => {
+      const jsonStructure = `[
+  {
+    "question": "Texto de la pregunta",
+    "options_good": ["Respuesta correcta"],
+    "options_bad": [
+      "Respuesta incorrecta 1",
+      "Respuesta incorrecta 2",
+      "Respuesta incorrecta 3"
+    ],
+    "explanation": "Texto de la explicación (opcional)"
+  }
+]`;
+      navigator.clipboard.writeText(jsonStructure).then(() => {
+        showMessage('✅ Estructura JSON copiada al portapapeles', 'success');
+      });
+    };
+
     document.getElementById('helpBtn').onclick = () => {
       document.getElementById('helpModal').classList.add('visible');
     };
