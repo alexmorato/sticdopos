@@ -1,15 +1,16 @@
 [
   {
-    "guid": "696e8251-2b21-4df3-8007-dafdcf943adf",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "349c6c0b-8230-40fd-b138-e68b1b9a0ae5",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin article de la Constitució estableix que l'Administració Pública serveix amb objectivitat els interessos generals?",
     "answerOptions": [
       {
         "text": "Article 103",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'article 103 CE estableix que l'Administració serveix amb objectivitat els interessos generals i actua d'acord amb els principis d'eficàcia, jerarquia, descentralització, desconcentració i coordinació, amb submissió plena a la llei i al dret. És probablement l'article més preguntat sobre Administració Pública."
       },
       {
         "text": "Article 9",
@@ -23,20 +24,20 @@
         "text": "Article 117",
         "isCorrect": false
       }
-    ],
-    "hint": "L'article 103 CE estableix que l'Administració serveix amb objectivitat els interessos generals i actua d'acord amb els principis d'eficàcia, jerarquia, descentralització, desconcentració i coordinació, amb submissió plena a la llei i al dret. És probablement l'article més preguntat sobre Administració Pública."
+    ]
   },
   {
-    "guid": "2987805b-5929-474a-89df-ffb9a66216ff",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "c07d5bf9-a906-44b2-9eda-0cf691f78b29",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi obliga l'Administració a actuar d'acord amb la llei i el dret?",
     "answerOptions": [
       {
         "text": "Principi de legalitat",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La Constitució exigeix la submissió plena de l'Administració a la llei i al dret. La discrecionalitat existeix en alguns àmbits, però sempre dins dels límits fixats per la llei."
       },
       {
         "text": "Principi de discrecionalitat",
@@ -50,20 +51,20 @@
         "text": "Principi de jerarquia normativa",
         "isCorrect": false
       }
-    ],
-    "hint": "La Constitució exigeix la submissió plena de l'Administració a la llei i al dret. La discrecionalitat existeix en alguns àmbits, però sempre dins dels límits fixats per la llei."
+    ]
   },
   {
-    "guid": "be001471-486d-4378-a197-966bce83dcf8",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "129e6c20-939e-4f03-8f1a-afc77096b341",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Qui és el representant del Govern en una comunitat autònoma?",
     "answerOptions": [
       {
         "text": "El delegat del Govern",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "El delegat del Govern dirigeix i coordina l'Administració General de l'Estat dins de la comunitat autònoma. El subdelegat del Govern exerceix funcions similars però a escala provincial."
       },
       {
         "text": "El president de la comunitat autònoma",
@@ -77,20 +78,20 @@
         "text": "El ministre de Política Territorial",
         "isCorrect": false
       }
-    ],
-    "hint": "El delegat del Govern dirigeix i coordina l'Administració General de l'Estat dins de la comunitat autònoma. El subdelegat del Govern exerceix funcions similars però a escala provincial."
+    ]
   },
   {
-    "guid": "ac6b76a6-7012-49d4-a9d1-d9d646e03cb0",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "60c32924-e243-445b-85d8-e2bb3a9dc17a",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin és el màxim responsable d'un ministeri?",
     "answerOptions": [
       {
         "text": "El ministre",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Els ministres són òrgans superiors de l'Administració General de l'Estat. Els secretaris d'Estat també són òrgans superiors, però estan jeràrquicament subordinats al ministre."
       },
       {
         "text": "El secretari d'Estat",
@@ -104,20 +105,20 @@
         "text": "El subsecretari",
         "isCorrect": false
       }
-    ],
-    "hint": "Els ministres són òrgans superiors de l'Administració General de l'Estat. Els secretaris d'Estat també són òrgans superiors, però estan jeràrquicament subordinats al ministre."
+    ]
   },
   {
-    "guid": "86c47608-fa5e-49ce-9d0b-6bd4e7a884a1",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "15dd533e-cc33-419f-856a-ad87b9938fd2",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina és la diferència principal entre descentralització i desconcentració?",
     "answerOptions": [
       {
         "text": "La descentralització traspassa competències a una altra persona jurídica; la desconcentració les reparteix dins de la mateixa administració",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Pregunta molt típica de test. La descentralització implica una altra administració o entitat amb personalitat jurídica pròpia. La desconcentració només reorganitza competències entre òrgans de la mateixa administració."
       },
       {
         "text": "Són conceptes idèntics",
@@ -131,20 +132,20 @@
         "text": "La descentralització és sempre territorial",
         "isCorrect": false
       }
-    ],
-    "hint": "Pregunta molt típica de test. La descentralització implica una altra administració o entitat amb personalitat jurídica pròpia. La desconcentració només reorganitza competències entre òrgans de la mateixa administració."
+    ]
   },
   {
-    "guid": "0f449b81-cc43-4f9e-9243-7ae277d0924d",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "8e9920e2-285e-4fce-b132-0c91150ca4e2",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin article de la Constitució estableix que l'Administració Pública serveix amb objectivitat els interessos generals?",
     "answerOptions": [
       {
         "text": "Article 103",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'article 103 de la Constitució Espanyola estableix els principis bàsics d'actuació de l'Administració Pública: objectivitat, eficàcia, jerarquia, descentralització, desconcentració i coordinació, amb submissió plena a la llei i al dret. És un dels articles més importants dels temes 6 i 7."
       },
       {
         "text": "Article 9",
@@ -158,20 +159,20 @@
         "text": "Article 117",
         "isCorrect": false
       }
-    ],
-    "hint": "L'article 103 de la Constitució Espanyola estableix els principis bàsics d'actuació de l'Administració Pública: objectivitat, eficàcia, jerarquia, descentralització, desconcentració i coordinació, amb submissió plena a la llei i al dret. És un dels articles més importants dels temes 6 i 7."
+    ]
   },
   {
-    "guid": "66d62ec7-64d6-49a6-b5d1-d8983e88d225",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "eca92899-6028-41d0-867c-211ab5bbb22a",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi obliga l'Administració a actuar d'acord amb la llei i el dret?",
     "answerOptions": [
       {
         "text": "Principi de legalitat",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La Constitució estableix que l'Administració està plenament sotmesa a la llei i al dret. Encara que disposi de marges de discrecionalitat en algunes decisions, mai pot actuar al marge de les normes jurídiques."
       },
       {
         "text": "Principi de discrecionalitat",
@@ -185,20 +186,20 @@
         "text": "Principi de jerarquia normativa",
         "isCorrect": false
       }
-    ],
-    "hint": "La Constitució estableix que l'Administració està plenament sotmesa a la llei i al dret. Encara que disposi de marges de discrecionalitat en algunes decisions, mai pot actuar al marge de les normes jurídiques."
+    ]
   },
   {
-    "guid": "ef82e7cd-6048-4421-9efb-8836ebb916c0",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "739e97ea-22ff-4007-952d-f33c67da0734",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina norma regula principalment l'organització i el funcionament del sector públic?",
     "answerOptions": [
       {
         "text": "Llei 40/2015, de règim jurídic del sector públic",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La Llei 40/2015 regula l'organització de les administracions públiques, els òrgans col·legiats, les relacions entre administracions i l'Administració General de l'Estat. No s'ha de confondre amb la Llei 39/2015, que regula el procediment administratiu."
       },
       {
         "text": "Llei 39/2015",
@@ -212,20 +213,20 @@
         "text": "Estatut Bàsic de l'Empleat Públic",
         "isCorrect": false
       }
-    ],
-    "hint": "La Llei 40/2015 regula l'organització de les administracions públiques, els òrgans col·legiats, les relacions entre administracions i l'Administració General de l'Estat. No s'ha de confondre amb la Llei 39/2015, que regula el procediment administratiu."
+    ]
   },
   {
-    "guid": "1b52f360-2228-48e9-8e19-db42642ff920",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "dfe5b197-a7a6-4378-8b7c-9cfc73c81c3d",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin tipus d'administració exerceix les competències de l'Estat a tot el territori nacional?",
     "answerOptions": [
       {
         "text": "Administració General de l'Estat",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'Administració General de l'Estat és l'estructura administrativa que depèn del Govern i exerceix les competències atribuïdes a l'Estat. És una de les tres grans administracions territorials."
       },
       {
         "text": "Administració local",
@@ -239,28 +240,30 @@
         "text": "Administració institucional",
         "isCorrect": false
       }
-    ],
-    "hint": "L'Administració General de l'Estat és l'estructura administrativa que depèn del Govern i exerceix les competències atribuïdes a l'Estat. És una de les tres grans administracions territorials."
+    ]
   },
   {
-    "guid": "3cd7e203-f657-4326-b2e7-9133f15d3bfe",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "650b6040-0c38-42f7-bbeb-0552f107f74d",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quines són les principals tipologies d'administracions públiques a Espanya?",
     "answerOptions": [
       {
         "text": "Administració General de l'Estat",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": ""
       },
       {
         "text": "Administracions de les comunitats autònomes",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": ""
       },
       {
         "text": "Administració local",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": ""
       },
       {
         "text": "Partits polítics",
@@ -278,16 +281,17 @@
     "hint": "La Llei 40/2015 identifica com a administracions territorials l'Administració General de l'Estat, les administracions de les comunitats autònomes i les entitats que integren l'Administració local."
   },
   {
-    "guid": "66e9163d-5b8b-4931-a2d6-3b0d2fb64dbd",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "cd79ca57-1a8b-4e7b-9cff-87a93023f1b6",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Qui dirigeix l'Administració General de l'Estat?",
     "answerOptions": [
       {
         "text": "El Govern",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La Constitució atribueix al Govern la direcció de la política interior i exterior, l'Administració civil i militar i la defensa de l'Estat. L'Administració General de l'Estat actua sota la seva direcció."
       },
       {
         "text": "Les Corts Generals",
@@ -301,20 +305,20 @@
         "text": "El Tribunal Suprem",
         "isCorrect": false
       }
-    ],
-    "hint": "La Constitució atribueix al Govern la direcció de la política interior i exterior, l'Administració civil i militar i la defensa de l'Estat. L'Administració General de l'Estat actua sota la seva direcció."
+    ]
   },
   {
-    "guid": "04ec1d87-40dc-4d77-b456-a09a52364de3",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "ffe4c20b-9f54-4101-964e-c31e9116cb66",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin és el principi que implica l'existència de nivells superiors i inferiors dins l'Administració?",
     "answerOptions": [
       {
         "text": "Principi de jerarquia",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La jerarquia permet que els òrgans superiors dirigeixin, coordinin i supervisin els òrgans inferiors. És diferent de la descentralització, que implica el trasllat de competències a una altra administració o entitat."
       },
       {
         "text": "Principi de descentralització",
@@ -328,20 +332,20 @@
         "text": "Principi de coordinació",
         "isCorrect": false
       }
-    ],
-    "hint": "La jerarquia permet que els òrgans superiors dirigeixin, coordinin i supervisin els òrgans inferiors. És diferent de la descentralització, que implica el trasllat de competències a una altra administració o entitat."
+    ]
   },
   {
-    "guid": "3bd5acec-5a82-4f47-b779-12b4b5166a64",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "2c5f831c-d707-48c6-833d-c032fe4826ba",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi busca evitar duplicitats entre administracions públiques?",
     "answerOptions": [
       {
         "text": "Principi de coordinació",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La coordinació permet que diverses administracions actuïn de forma coherent i complementària. És habitual que les preguntes test la confonguin amb la cooperació o la col·laboració."
       },
       {
         "text": "Principi de transparència",
@@ -355,20 +359,20 @@
         "text": "Principi de representació",
         "isCorrect": false
       }
-    ],
-    "hint": "La coordinació permet que diverses administracions actuïn de forma coherent i complementària. És habitual que les preguntes test la confonguin amb la cooperació o la col·laboració."
+    ]
   },
   {
-    "guid": "2ffcbb05-f521-4ecd-b9ff-25323a48bf5a",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "73749ccd-3feb-4604-bc20-a3ddda5c82fa",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Qui és el representant del Govern a una comunitat autònoma?",
     "answerOptions": [
       {
         "text": "El delegat del Govern",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "El delegat del Govern representa el Govern de l'Estat a la comunitat autònoma i dirigeix l'Administració General de l'Estat al territori. El subdelegat del Govern exerceix funcions similars però a nivell provincial."
       },
       {
         "text": "El president de la comunitat autònoma",
@@ -382,20 +386,20 @@
         "text": "El ministre de l'Interior",
         "isCorrect": false
       }
-    ],
-    "hint": "El delegat del Govern representa el Govern de l'Estat a la comunitat autònoma i dirigeix l'Administració General de l'Estat al territori. El subdelegat del Govern exerceix funcions similars però a nivell provincial."
+    ]
   },
   {
-    "guid": "a701bac4-64bb-456a-8536-f4f4dee72752",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "2b8240d6-1424-401a-9e3a-033bebb1054e",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "A quina administració pertany un ajuntament?",
     "answerOptions": [
       {
         "text": "Administració local",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Els municipis, les províncies i altres entitats locals formen part de l'Administració local. És una administració territorial diferent de l'estatal i de l'autonòmica."
       },
       {
         "text": "Administració autonòmica",
@@ -409,20 +413,20 @@
         "text": "Administració institucional estatal",
         "isCorrect": false
       }
-    ],
-    "hint": "Els municipis, les províncies i altres entitats locals formen part de l'Administració local. És una administració territorial diferent de l'estatal i de l'autonòmica."
+    ]
   },
   {
-    "guid": "69d4be3e-036d-422f-a4dd-a83146cee095",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "955cf5c0-3e91-4b47-9f40-d22688d94051",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Per a la constitució vàlida d'un òrgan col·legiat cal, entre altres requisits, l'assistència de:",
     "answerOptions": [
       {
         "text": "El president i el secretari, o qui els substitueixi, i almenys la meitat dels membres",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Segons l'article 17 de la Llei 40/2015, per constituir vàlidament un òrgan col·legiat cal la presència del president i del secretari (o dels seus substituts) i almenys la meitat dels seus membres. Error típic d'examen: confondre 'meitat' amb 'terç' o amb 'majoria absoluta'."
       },
       {
         "text": "Només el president i el secretari",
@@ -436,20 +440,20 @@
         "text": "La majoria absoluta dels membres sense president ni secretari",
         "isCorrect": false
       }
-    ],
-    "hint": "Segons l'article 17 de la Llei 40/2015, per constituir vàlidament un òrgan col·legiat cal la presència del president i del secretari (o dels seus substituts) i almenys la meitat dels seus membres. Error típic d'examen: confondre 'meitat' amb 'terç' o amb 'majoria absoluta'."
+    ]
   },
   {
-    "guid": "364bbd2a-d668-4949-8dcf-dcb03d6dbb85",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "12555547-e5a0-4598-a843-3ed720bc095e",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin òrgan superior de l'Administració General de l'Estat dirigeix un departament ministerial?",
     "answerOptions": [
       {
         "text": "El ministre",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Els ministres són òrgans superiors de l'Administració General de l'Estat i dirigeixen els ministeris. Els directors generals i subsecretaris són òrgans directius, no òrgans superiors."
       },
       {
         "text": "El secretari d'Estat",
@@ -463,20 +467,20 @@
         "text": "El subdelegat del Govern",
         "isCorrect": false
       }
-    ],
-    "hint": "Els ministres són òrgans superiors de l'Administració General de l'Estat i dirigeixen els ministeris. Els directors generals i subsecretaris són òrgans directius, no òrgans superiors."
+    ]
   },
   {
-    "guid": "907e8f02-92ee-40be-9610-52c42783025b",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "1b2c579a-ef27-4e25-872d-f3dcface33f3",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin dels següents és un òrgan directiu?",
     "answerOptions": [
       {
         "text": "Director general",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "A l'Administració General de l'Estat, els ministres i els secretaris d'Estat són òrgans superiors. Els subsecretaris, secretaris generals, secretaris generals tècnics i directors generals són òrgans directius."
       },
       {
         "text": "Ministre",
@@ -490,20 +494,20 @@
         "text": "Consell de Ministres",
         "isCorrect": false
       }
-    ],
-    "hint": "A l'Administració General de l'Estat, els ministres i els secretaris d'Estat són òrgans superiors. Els subsecretaris, secretaris generals, secretaris generals tècnics i directors generals són òrgans directius."
+    ]
   },
   {
-    "guid": "d0b533a9-6e40-414c-a58f-e38dfc7f4f54",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "83eebade-4dbd-4117-bf40-2e8942990c87",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Com s'anomena l'organització territorial de l'Administració General de l'Estat a les províncies?",
     "answerOptions": [
       {
         "text": "Administració perifèrica",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'administració perifèrica de l'Estat està formada principalment pels delegats del Govern a les comunitats autònomes i pels subdelegats del Govern a les províncies."
       },
       {
         "text": "Administració institucional",
@@ -517,20 +521,20 @@
         "text": "Administració delegada",
         "isCorrect": false
       }
-    ],
-    "hint": "L'administració perifèrica de l'Estat està formada principalment pels delegats del Govern a les comunitats autònomes i pels subdelegats del Govern a les províncies."
+    ]
   },
   {
-    "guid": "cf255803-ab39-4ac2-8883-02ebb34e8d9e",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "92db9690-4690-441d-848a-ed221efc89f8",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi constitucional exigeix que l'Administració actuï amb eficàcia?",
     "answerOptions": [
       {
         "text": "Principi d'eficàcia",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'eficàcia implica que l'Administració ha d'aconseguir els objectius que té encomanats i prestar serveis útils a la ciutadania. Forma part dels principis expressament recollits a l'article 103 de la Constitució."
       },
       {
         "text": "Principi de representativitat",
@@ -544,20 +548,20 @@
         "text": "Principi de participació",
         "isCorrect": false
       }
-    ],
-    "hint": "L'eficàcia implica que l'Administració ha d'aconseguir els objectius que té encomanats i prestar serveis útils a la ciutadania. Forma part dels principis expressament recollits a l'article 103 de la Constitució."
+    ]
   },
   {
-    "guid": "d6af69f2-af08-45b9-a71b-21e1c672fe46",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "f502bb7c-dc91-4320-8a42-07cf59dc0ff0",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi implica el traspàs de competències des de l'Administració General de l'Estat a una comunitat autònoma o entitat local?",
     "answerOptions": [
       {
         "text": "Descentralització",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La descentralització suposa transferir competències a una altra administració amb personalitat jurídica pròpia. La pregunta acostuma a confondre's amb la desconcentració, que distribueix competències dins de la mateixa administració."
       },
       {
         "text": "Desconcentració",
@@ -571,20 +575,20 @@
         "text": "Coordinació",
         "isCorrect": false
       }
-    ],
-    "hint": "La descentralització suposa transferir competències a una altra administració amb personalitat jurídica pròpia. La pregunta acostuma a confondre's amb la desconcentració, que distribueix competències dins de la mateixa administració."
+    ]
   },
   {
-    "guid": "ac4771f6-bdba-477c-b9d6-642528468b91",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "7397bc2b-7cdd-47ad-ae92-70aaf1d9a96c",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi permet distribuir competències entre òrgans d'una mateixa administració per apropar la gestió als ciutadans?",
     "answerOptions": [
       {
         "text": "Desconcentració",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La desconcentració es produeix dins d'una mateixa administració. No canvia la titularitat de la competència, només qui l'exerceix."
       },
       {
         "text": "Descentralització",
@@ -598,20 +602,20 @@
         "text": "Legalitat",
         "isCorrect": false
       }
-    ],
-    "hint": "La desconcentració es produeix dins d'una mateixa administració. No canvia la titularitat de la competència, només qui l'exerceix."
+    ]
   },
   {
-    "guid": "ec5990d6-e453-45d0-a9d3-dcba4bfa0d2c",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "97c74674-8b17-44fe-b7ef-c54f95620dda",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin òrgan és el superior jeràrquic dels directors generals dins un ministeri?",
     "answerOptions": [
       {
         "text": "El secretari d'Estat",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "A l'AGE, els ministres i els secretaris d'Estat són òrgans superiors. Els directors generals depenen generalment d'un secretari d'Estat o subsecretari."
       },
       {
         "text": "El subdelegat del Govern",
@@ -625,20 +629,20 @@
         "text": "El president de la comunitat autònoma",
         "isCorrect": false
       }
-    ],
-    "hint": "A l'AGE, els ministres i els secretaris d'Estat són òrgans superiors. Els directors generals depenen generalment d'un secretari d'Estat o subsecretari."
+    ]
   },
   {
-    "guid": "8ec48e2f-dd14-4025-8833-d681cf6dcde2",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "a56dc0e9-9c06-44b9-979d-f866b5b2279d",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina és la finalitat principal del principi d'eficiència en l'actuació administrativa?",
     "answerOptions": [
       {
         "text": "Utilitzar adequadament els recursos públics per assolir els objectius previstos",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'eficiència relaciona els resultats obtinguts amb els recursos utilitzats. Sovint es diferencia de l'eficàcia, que consisteix a assolir els objectius."
       },
       {
         "text": "Incrementar el nombre d'empleats públics",
@@ -652,20 +656,20 @@
         "text": "Limitar l'autonomia local",
         "isCorrect": false
       }
-    ],
-    "hint": "L'eficiència relaciona els resultats obtinguts amb els recursos utilitzats. Sovint es diferencia de l'eficàcia, que consisteix a assolir els objectius."
+    ]
   },
   {
-    "guid": "ace7934c-bc64-47af-97b7-80cab14ca26c",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "10e322ab-1ce3-496d-a442-0109e0ade784",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Qui exerceix la direcció superior de l'Administració General de l'Estat?",
     "answerOptions": [
       {
         "text": "El Govern",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'article 97 de la Constitució atribueix al Govern la direcció de l'Administració civil i militar de l'Estat."
       },
       {
         "text": "El Congrés dels Diputats",
@@ -679,20 +683,20 @@
         "text": "El Tribunal Constitucional",
         "isCorrect": false
       }
-    ],
-    "hint": "L'article 97 de la Constitució atribueix al Govern la direcció de l'Administració civil i militar de l'Estat."
+    ]
   },
   {
-    "guid": "0641bf04-39ee-4ab7-a5c5-ed932b68956b",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "7be02f4d-5d14-41e3-86eb-0a2f86783c2b",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "En quina administració s'integra una diputació provincial?",
     "answerOptions": [
       {
         "text": "Administració local",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Les diputacions, els ajuntaments i els consells insulars formen part de l'Administració local."
       },
       {
         "text": "Administració autonòmica",
@@ -706,20 +710,20 @@
         "text": "Sector públic institucional estatal",
         "isCorrect": false
       }
-    ],
-    "hint": "Les diputacions, els ajuntaments i els consells insulars formen part de l'Administració local."
+    ]
   },
   {
-    "guid": "951e86d9-bd44-46ce-8357-028601a3f427",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "859fee69-8b9e-444a-8ae1-4d5b0efdc75b",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina figura substitueix habitualment el Delegat del Govern en l'àmbit provincial?",
     "answerOptions": [
       {
         "text": "El subdelegat del Govern",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Hi ha un subdelegat del Govern a cada província, excepte en les comunitats autònomes uniprovincials."
       },
       {
         "text": "El governador civil",
@@ -733,20 +737,20 @@
         "text": "El president de la diputació",
         "isCorrect": false
       }
-    ],
-    "hint": "Hi ha un subdelegat del Govern a cada província, excepte en les comunitats autònomes uniprovincials."
+    ]
   },
   {
-    "guid": "6b11850b-e7d1-45e3-97a0-02f328bc1d93",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "7aad0659-05c6-4785-84ea-235fc7645c79",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin requisit és necessari per crear un nou òrgan administratiu?",
     "answerOptions": [
       {
         "text": "Determinar-ne les funcions i la seva integració en l'estructura administrativa",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La Llei 40/2015 exigeix definir funcions, competències i dependència jeràrquica, evitant duplicitats amb altres òrgans."
       },
       {
         "text": "Aprovar-lo per referèndum",
@@ -760,20 +764,20 @@
         "text": "Crear-lo sempre per llei orgànica",
         "isCorrect": false
       }
-    ],
-    "hint": "La Llei 40/2015 exigeix definir funcions, competències i dependència jeràrquica, evitant duplicitats amb altres òrgans."
+    ]
   },
   {
-    "guid": "03330751-3e17-48c5-a657-06cde0f6bab9",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "88d8868a-962d-4c49-9b54-69b0302fde5c",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina funció exerceix principalment un secretari d'un òrgan col·legiat?",
     "answerOptions": [
       {
         "text": "Assistir a les reunions i aixecar acta dels acords",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "El president dirigeix les sessions. El secretari certifica acords, redacta actes i garanteix el correcte funcionament formal de l'òrgan."
       },
       {
         "text": "Dirigir els debats",
@@ -787,20 +791,20 @@
         "text": "Nomenar els membres",
         "isCorrect": false
       }
-    ],
-    "hint": "El president dirigeix les sessions. El secretari certifica acords, redacta actes i garanteix el correcte funcionament formal de l'òrgan."
+    ]
   },
   {
-    "guid": "5bc78bef-9526-43f9-a37c-ca4338a848e3",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "070cd9c2-549a-4519-8d93-dae06d73d945",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina característica diferencia una administració territorial d'una administració institucional?",
     "answerOptions": [
       {
         "text": "L'administració territorial exerceix competències sobre un territori determinat",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Estat, comunitats autònomes i entitats locals són administracions territorials. Els organismes autònoms i entitats públiques empresarials són administració institucional."
       },
       {
         "text": "Només la institucional té personalitat jurídica",
@@ -814,20 +818,20 @@
         "text": "La institucional depèn del poder judicial",
         "isCorrect": false
       }
-    ],
-    "hint": "Estat, comunitats autònomes i entitats locals són administracions territorials. Els organismes autònoms i entitats públiques empresarials són administració institucional."
+    ]
   },
   {
-    "guid": "59f6fbad-5858-417c-a416-3b5b97a08f0a",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "6ec4fdd7-c72e-479e-a1b7-4c3c9b06066a",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin és l'objectiu principal del principi de servei als interessos generals?",
     "answerOptions": [
       {
         "text": "Garantir que l'activitat administrativa estigui orientada al bé comú",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'Administració no defensa interessos propis ni partidistes. L'article 103 CE estableix que ha de servir amb objectivitat els interessos generals."
       },
       {
         "text": "Incrementar la recaptació tributària",
@@ -841,20 +845,20 @@
         "text": "Reduir les competències autonòmiques",
         "isCorrect": false
       }
-    ],
-    "hint": "L'Administració no defensa interessos propis ni partidistes. L'article 103 CE estableix que ha de servir amb objectivitat els interessos generals."
+    ]
   },
   {
-    "guid": "5f239f89-0e2f-4aa4-ad76-55f9e21b1e38",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "a6e74a60-8bfc-425b-a893-16ff0347d165",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina diferència existeix entre eficàcia i eficiència?",
     "answerOptions": [
       {
         "text": "L'eficàcia implica assolir objectius i l'eficiència assolir-los amb el menor cost possible",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "És una de les confusions més freqüents als exàmens. Eficàcia = aconseguir el resultat. Eficiència = aconseguir-lo optimitzant recursos."
       },
       {
         "text": "Són conceptes equivalents",
@@ -868,20 +872,20 @@
         "text": "L'eficàcia només s'aplica als ministres",
         "isCorrect": false
       }
-    ],
-    "hint": "És una de les confusions més freqüents als exàmens. Eficàcia = aconseguir el resultat. Eficiència = aconseguir-lo optimitzant recursos."
+    ]
   },
   {
-    "guid": "fc1d2898-d982-4942-8af1-9cc2e604de4b",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "5866dc82-e917-4bef-a70b-e6a99476f8d4",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi obliga les diferents administracions públiques a prestar-se assistència mútua?",
     "answerOptions": [
       {
         "text": "Cooperació",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La cooperació i la col·laboració entre administracions són principis bàsics de les relacions interadministratives regulades a la Llei 40/2015."
       },
       {
         "text": "Jerarquia",
@@ -895,20 +899,20 @@
         "text": "Avocació",
         "isCorrect": false
       }
-    ],
-    "hint": "La cooperació i la col·laboració entre administracions són principis bàsics de les relacions interadministratives regulades a la Llei 40/2015."
+    ]
   },
   {
-    "guid": "4be8f6e5-d75f-4766-8268-6a988450669d",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "0e7956d7-c657-4693-97e0-2012e6bb0f57",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin òrgan de l'Administració General de l'Estat exerceix funcions de gestió i execució de polítiques públiques en un àmbit específic?",
     "answerOptions": [
       {
         "text": "Direcció General",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Les direccions generals són òrgans directius encarregats de la gestió ordinària i de l'execució de les polítiques públiques."
       },
       {
         "text": "Consell de Ministres",
@@ -922,20 +926,20 @@
         "text": "Tribunal de Comptes",
         "isCorrect": false
       }
-    ],
-    "hint": "Les direccions generals són òrgans directius encarregats de la gestió ordinària i de l'execució de les polítiques públiques."
+    ]
   },
   {
-    "guid": "6ac18518-00f7-40f3-a7ae-2ac2713a7823",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "f668e91e-f3f4-4c27-a4b9-1906c8ed06f3",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quan un òrgan superior assumeix puntualment una competència atribuïda a un òrgan dependent, es produeix:",
     "answerOptions": [
       {
         "text": "Una avocació",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Pregunta recurrent de test. Delegació: el superior cedeix l'exercici al subordinat. Avocació: el superior recupera per a si mateix un assumpte concret."
       },
       {
         "text": "Una delegació",
@@ -949,20 +953,20 @@
         "text": "Una suplència",
         "isCorrect": false
       }
-    ],
-    "hint": "Pregunta recurrent de test. Delegació: el superior cedeix l'exercici al subordinat. Avocació: el superior recupera per a si mateix un assumpte concret."
+    ]
   },
   {
-    "guid": "ccf9c580-2125-4558-a241-886329dfce22",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "4f4bb563-63a1-42a4-ab02-ced1810ef63f",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina és la finalitat principal del principi de coordinació entre administracions públiques?",
     "answerOptions": [
       {
         "text": "Garantir una actuació coherent i evitar duplicitats",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La coordinació és un principi constitucional i legal que pretén que diverses administracions actuïn de manera coherent. No implica jerarquia entre elles, sinó harmonització de les seves actuacions."
       },
       {
         "text": "Subordinar les comunitats autònomes a l'Estat",
@@ -976,20 +980,20 @@
         "text": "Permetre que qualsevol administració assumeixi competències alienes",
         "isCorrect": false
       }
-    ],
-    "hint": "La coordinació és un principi constitucional i legal que pretén que diverses administracions actuïn de manera coherent. No implica jerarquia entre elles, sinó harmonització de les seves actuacions."
+    ]
   },
   {
-    "guid": "2ac36a16-c2b9-4e9d-89e5-198155acca5b",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "b83c54bd-d57c-4611-b03e-eb717138d696",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Què significa que l'Administració Pública serveix amb objectivitat els interessos generals?",
     "answerOptions": [
       {
         "text": "Que ha d'actuar en benefici de l'interès públic i no d'interessos particulars",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'objectivitat és un dels principis centrals de l'article 103 CE. L'Administració ha de perseguir l'interès general amb neutralitat i imparcialitat."
       },
       {
         "text": "Que ha de seguir les directrius dels partits polítics",
@@ -1003,20 +1007,20 @@
         "text": "Que els funcionaris no poden tenir opinió pròpia",
         "isCorrect": false
       }
-    ],
-    "hint": "L'objectivitat és un dels principis centrals de l'article 103 CE. L'Administració ha de perseguir l'interès general amb neutralitat i imparcialitat."
+    ]
   },
   {
-    "guid": "b0023186-e1c4-4346-b88f-95e91e96c59b",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "3d867756-e245-42e4-8a7d-8d320cc0cd1c",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina administració té competències sobre tot el territori d'una comunitat autònoma?",
     "answerOptions": [
       {
         "text": "L'Administració de la comunitat autònoma",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Les comunitats autònomes disposen d'una administració pròpia per exercir les competències assumides als seus estatuts d'autonomia."
       },
       {
         "text": "L'Administració local",
@@ -1030,20 +1034,20 @@
         "text": "Les subdelegacions del Govern",
         "isCorrect": false
       }
-    ],
-    "hint": "Les comunitats autònomes disposen d'una administració pròpia per exercir les competències assumides als seus estatuts d'autonomia."
+    ]
   },
   {
-    "guid": "00227117-5906-4d2d-9af4-c52907c20af0",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "fdef15cb-ccba-4f2d-9ac7-7e7f15e1efc8",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin òrgan de l'Administració General de l'Estat té rang superior a un director general?",
     "answerOptions": [
       {
         "text": "Subsecretari",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'estructura administrativa és una pregunta habitual. Els subsecretaris són òrgans directius superiors als directors generals."
       },
       {
         "text": "Subdelegat del Govern",
@@ -1057,20 +1061,20 @@
         "text": "Secretari d'un òrgan col·legiat",
         "isCorrect": false
       }
-    ],
-    "hint": "L'estructura administrativa és una pregunta habitual. Els subsecretaris són òrgans directius superiors als directors generals."
+    ]
   },
   {
-    "guid": "096086b3-730f-4b6b-9645-b40e6f723821",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "d889527f-1ad8-47bf-b63a-26ac3a0e35d0",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "En una província on existeix Delegació del Govern, qui representa ordinàriament el Govern de l'Estat?",
     "answerOptions": [
       {
         "text": "El subdelegat del Govern",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Els subdelegats exerceixen les funcions de representació i coordinació de l'AGE a escala provincial."
       },
       {
         "text": "El president de la diputació",
@@ -1084,20 +1088,20 @@
         "text": "El director general corresponent",
         "isCorrect": false
       }
-    ],
-    "hint": "Els subdelegats exerceixen les funcions de representació i coordinació de l'AGE a escala provincial."
+    ]
   },
   {
-    "guid": "ac70d0ba-6aee-478e-a8e2-ba71eaf52a25",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "be9d4597-ac3f-4e1d-9bae-1510d473e099",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina és la norma bàsica que regula els òrgans col·legiats de les administracions públiques?",
     "answerOptions": [
       {
         "text": "La Llei 40/2015",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Els articles 15 a 22 de la Llei 40/2015 regulen composició, funcionament, convocatòries, actes i adopció d'acords dels òrgans col·legiats."
       },
       {
         "text": "La Constitució Espanyola",
@@ -1111,20 +1115,20 @@
         "text": "L'Estatut Bàsic de l'Empleat Públic",
         "isCorrect": false
       }
-    ],
-    "hint": "Els articles 15 a 22 de la Llei 40/2015 regulen composició, funcionament, convocatòries, actes i adopció d'acords dels òrgans col·legiats."
+    ]
   },
   {
-    "guid": "0f0f79d1-34cc-43f5-9601-8ea04c263f8f",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "ed715edb-c9e5-4798-a333-5b87af0c1967",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Qui dirigeix les sessions d'un òrgan col·legiat?",
     "answerOptions": [
       {
         "text": "El president",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "El president exerceix les funcions de direcció, moderació dels debats i garantia del correcte desenvolupament de les sessions."
       },
       {
         "text": "El secretari",
@@ -1138,20 +1142,20 @@
         "text": "El membre més antic",
         "isCorrect": false
       }
-    ],
-    "hint": "El president exerceix les funcions de direcció, moderació dels debats i garantia del correcte desenvolupament de les sessions."
+    ]
   },
   {
-    "guid": "5633d2ac-a547-4342-975f-8286298273c1",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "be38f902-0f32-4800-9661-1df83432daec",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina és la funció principal de l'administració perifèrica de l'Estat?",
     "answerOptions": [
       {
         "text": "Portar l'actuació de l'Administració General de l'Estat al territori",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'administració perifèrica apropa l'actuació de l'Estat a les comunitats autònomes i províncies mitjançant delegacions i subdelegacions."
       },
       {
         "text": "Legislar en matèria autonòmica",
@@ -1165,20 +1169,20 @@
         "text": "Gestionar exclusivament els municipis",
         "isCorrect": false
       }
-    ],
-    "hint": "L'administració perifèrica apropa l'actuació de l'Estat a les comunitats autònomes i províncies mitjançant delegacions i subdelegacions."
+    ]
   },
   {
-    "guid": "5c5ed550-3579-48f7-8517-ce48cda1b784",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "ab17ac71-5310-4236-82bb-5d536780f460",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi obliga les administracions públiques a compartir informació quan sigui necessària per a l'exercici de les seves competències?",
     "answerOptions": [
       {
         "text": "Principi de cooperació",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La Llei 40/2015 reforça les relacions de cooperació i assistència mútua entre administracions públiques."
       },
       {
         "text": "Principi de jerarquia",
@@ -1192,20 +1196,20 @@
         "text": "Principi d'avocació",
         "isCorrect": false
       }
-    ],
-    "hint": "La Llei 40/2015 reforça les relacions de cooperació i assistència mútua entre administracions públiques."
+    ]
   },
   {
-    "guid": "4fd3bcfa-2d18-41f6-bdc9-89a21b41724f",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "83f1e2a3-f819-4bed-8876-767e50a21567",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "La potestat de dictar actes administratius correspon únicament a:",
     "answerOptions": [
       {
         "text": "Els òrgans administratius competents",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Un dels principis d'organització administrativa és que cada òrgan només pot exercir les competències que tingui atribuïdes."
       },
       {
         "text": "Qualsevol empleat públic",
@@ -1219,20 +1223,20 @@
         "text": "Els tribunals de justícia",
         "isCorrect": false
       }
-    ],
-    "hint": "Un dels principis d'organització administrativa és que cada òrgan només pot exercir les competències que tingui atribuïdes."
+    ]
   },
   {
-    "guid": "b1e260c7-4a26-4756-bc24-76e8901612b9",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "6f1c19e4-3b86-4ff2-ac72-af8fa595d7e0",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quan diversos òrgans participen en una mateixa actuació administrativa per assolir un objectiu comú, s'està aplicant principalment el principi de:",
     "answerOptions": [
       {
         "text": "Coordinació",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La coordinació apareix molt sovint als exàmens juntament amb eficàcia, jerarquia i cooperació. Cal saber distingir-los."
       },
       {
         "text": "Jerarquia",
@@ -1246,20 +1250,20 @@
         "text": "Delegació",
         "isCorrect": false
       }
-    ],
-    "hint": "La coordinació apareix molt sovint als exàmens juntament amb eficàcia, jerarquia i cooperació. Cal saber distingir-los."
+    ]
   },
   {
-    "guid": "da518296-0dc0-4500-8adc-523c26ec2318",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "90564e8f-c755-49af-b925-b400c6cf1481",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin és l'àmbit territorial ordinari d'actuació d'una subdelegació del Govern?",
     "answerOptions": [
       {
         "text": "La província",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Delegat del Govern = comunitat autònoma. Subdelegat del Govern = província. És una pregunta molt habitual."
       },
       {
         "text": "El municipi",
@@ -1273,20 +1277,20 @@
         "text": "Tot l'Estat",
         "isCorrect": false
       }
-    ],
-    "hint": "Delegat del Govern = comunitat autònoma. Subdelegat del Govern = província. És una pregunta molt habitual."
+    ]
   },
   {
-    "guid": "a914d39b-c3a2-411c-b647-539becc4b8c6",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "5f0791d1-4106-4882-b104-fff6dac47817",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina característica defineix millor un òrgan col·legiat?",
     "answerOptions": [
       {
         "text": "La seva voluntat es forma mitjançant la participació de diversos membres",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Els òrgans col·legiats adopten acords de manera conjunta. Exemples típics: comissions, consells i juntes."
       },
       {
         "text": "Està integrat per una única persona",
@@ -1300,20 +1304,20 @@
         "text": "No pot adoptar acords",
         "isCorrect": false
       }
-    ],
-    "hint": "Els òrgans col·legiats adopten acords de manera conjunta. Exemples típics: comissions, consells i juntes."
+    ]
   },
   {
-    "guid": "3d158692-bcd0-438e-8f39-f8121d3b19d1",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "b7106d01-77fb-44e6-ae83-34fd3fd6a302",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Què és una competència administrativa?",
     "answerOptions": [
       {
         "text": "El conjunt de funcions i potestats atribuïdes a un òrgan per l'ordenament jurídic",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La competència és irrenunciable i s'exerceix pels òrgans que la tenen atribuïda, llevat dels casos de delegació o avocació previstos per la llei."
       },
       {
         "text": "La capacitat professional d'un empleat públic",
@@ -1327,20 +1331,20 @@
         "text": "L'antiguitat dins de l'administració",
         "isCorrect": false
       }
-    ],
-    "hint": "La competència és irrenunciable i s'exerceix pels òrgans que la tenen atribuïda, llevat dels casos de delegació o avocació previstos per la llei."
+    ]
   },
   {
-    "guid": "dbe596b1-c38e-4936-9ee6-40823ad1a838",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "d7cf0155-493e-454a-98fd-bc510515e10e",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi organitzatiu permet que un òrgan superior supervisi l'activitat dels seus subordinats?",
     "answerOptions": [
       {
         "text": "Jerarquia",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La jerarquia implica direcció, supervisió i control dels òrgans inferiors pels superiors dins d'una mateixa administració."
       },
       {
         "text": "Cooperació",
@@ -1354,20 +1358,20 @@
         "text": "Objectivitat",
         "isCorrect": false
       }
-    ],
-    "hint": "La jerarquia implica direcció, supervisió i control dels òrgans inferiors pels superiors dins d'una mateixa administració."
+    ]
   },
   {
-    "guid": "d664c163-47df-4e7b-b626-74ab030d91e1",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "0deba474-46c4-4d23-a521-4d42e3dcb8ce",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin òrgan de l'AGE és responsable de la gestió ordinària d'un sector concret d'activitat administrativa?",
     "answerOptions": [
       {
         "text": "La Direcció General",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Les direccions generals executen i gestionen les polítiques públiques en àmbits específics dins dels ministeris."
       },
       {
         "text": "El Consell de Ministres",
@@ -1381,20 +1385,20 @@
         "text": "La Delegació del Govern",
         "isCorrect": false
       }
-    ],
-    "hint": "Les direccions generals executen i gestionen les polítiques públiques en àmbits específics dins dels ministeris."
+    ]
   },
   {
-    "guid": "0d5990e5-5132-4d99-94df-a1db435ae38e",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "97ff963b-2c65-4e29-a277-dc61db1bd2d4",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "L'Administració General de l'Estat s'organitza en una estructura central i una estructura:",
     "answerOptions": [
       {
         "text": "Perifèrica",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "L'organització central es troba principalment a Madrid. L'administració perifèrica distribueix l'acció de l'Estat pel territori."
       },
       {
         "text": "Judicial",
@@ -1408,20 +1412,20 @@
         "text": "Corporativa",
         "isCorrect": false
       }
-    ],
-    "hint": "L'organització central es troba principalment a Madrid. L'administració perifèrica distribueix l'acció de l'Estat pel territori."
+    ]
   },
   {
-    "guid": "aaf40748-8e0e-4690-b5fc-766fe52e39ac",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "8f50fdff-869c-4420-bfe0-25bffe146f16",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina figura pot substituir el president d'un òrgan col·legiat en cas d'absència legalment prevista?",
     "answerOptions": [
       {
         "text": "La persona que estableixin les normes de funcionament o el seu substitut legal",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La suplència és un mecanisme previst legalment per garantir la continuïtat de l'activitat administrativa."
       },
       {
         "text": "Qualsevol membre assistent",
@@ -1435,20 +1439,20 @@
         "text": "El primer funcionari disponible",
         "isCorrect": false
       }
-    ],
-    "hint": "La suplència és un mecanisme previst legalment per garantir la continuïtat de l'activitat administrativa."
+    ]
   },
   {
-    "guid": "eff83ad3-d0d2-40e8-876f-089ab52c1cca",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "f4b354f3-2f90-44ed-8e2b-e7a17663a8e1",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quina és la principal diferència entre un òrgan superior i un òrgan directiu a l'AGE?",
     "answerOptions": [
       {
         "text": "Els òrgans superiors defineixen les polítiques i els directius les executen i gestionen",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "Ministres i secretaris d'Estat són òrgans superiors. Subsecretaris i directors generals són òrgans directius."
       },
       {
         "text": "No existeix cap diferència",
@@ -1462,20 +1466,20 @@
         "text": "Els superiors només existeixen a les comunitats autònomes",
         "isCorrect": false
       }
-    ],
-    "hint": "Ministres i secretaris d'Estat són òrgans superiors. Subsecretaris i directors generals són òrgans directius."
+    ]
   },
   {
-    "guid": "cb68ecbf-2a52-44ad-85d3-b3005fc34a95",
-    "subjectId": "T17",
-    "difficulty": 2,
+    "guid": "891e19bf-3cb5-41c3-bcda-987d33de304a",
+    "subjectId": "T07",
+    "difficulty": 1,
     "origin": "QuickConverter",
     "type": "test",
     "question": "Quin principi exigeix que les administracions públiques actuïn de forma propera als ciutadans sempre que sigui possible?",
     "answerOptions": [
       {
         "text": "Desconcentració",
-        "isCorrect": true
+        "isCorrect": true,
+        "rationale": "La desconcentració busca apropar la gestió administrativa al territori distribuint funcions entre òrgans de la mateixa administració."
       },
       {
         "text": "Jerarquia",
@@ -1489,7 +1493,6 @@
         "text": "Suplència",
         "isCorrect": false
       }
-    ],
-    "hint": "La desconcentració busca apropar la gestió administrativa al territori distribuint funcions entre òrgans de la mateixa administració."
+    ]
   }
 ]

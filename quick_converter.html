@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TZKHF359');</script>
-  <!-- End Google Tag Manager -->
-
   <meta charset="UTF-8">
-  <title>Quick Converter</title>
-  <link rel="stylesheet" href="assets/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Test Converter - Generador de preguntas de examen</title>
   <style>
-    body { background: #181c2a; color: #e7ecff; font-family: system-ui, sans-serif; margin: 0; padding: 0; }
-    .container { max-width: 800px; margin: 20px auto 20px auto; background: #23284a; padding: 2px 30px 30px 30px; border-radius: 16px; box-shadow: 0 2px 12px #0003; }
-    h1 { text-align: center; margin-bottom: 12px; color: #6ae0a7; font-size: 2em; font-weight: bold; }
-    textarea { width: 100%; min-height: 180px; background: #141a2a; color: #e7ecff; border: 1.5px solid #27304a; border-radius: 8px; font-family: monospace; font-size: 1.05em; padding: 15px; margin-bottom: 18px; resize: vertical; }
-    .btn { background: linear-gradient(180deg,#2aebad,#21c08d); color: #032217; font-weight: bold; font-size: 1.1em; padding: 12px 24px; border-radius: 10px; border: none; cursor: pointer; margin: 8px 0; transition: all 0.2s; }
-    .btn.secondary { background: #27304a; color: #e7ecff; }
-    .btn:disabled { opacity: 0.5; pointer-events: none; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%); color: #e7ecff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 30px 20px; min-height: 100vh; }
+    header { text-align: center; margin-bottom: 40px; }
+    h1 { font-size: 2.5em; color: #6ae0a7; margin-bottom: 8px; font-weight: 700; letter-spacing: -1px; }
+    .subtitle { color: #a0aec0; font-size: 1.1em; margin-bottom: 20px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 40px; }
+    @media (max-width: 1024px) { .grid { grid-template-columns: 1fr; } }
+    .panel { background: rgba(35, 40, 74, 0.6); backdrop-filter: blur(10px); border: 1px solid rgba(106, 224, 167, 0.2); border-radius: 12px; padding: 25px; }
+    .panel-title { font-size: 1.3em; color: #6ae0a7; margin-bottom: 16px; font-weight: 600; border-bottom: 2px solid rgba(106, 224, 167, 0.3); padding-bottom: 12px; }
+    label { display: block; margin-bottom: 12px; font-weight: 500; color: #cbd5e0; font-size: 0.95em; }
+    select, textarea { width: 100%; background: rgba(20, 26, 42, 0.8); color: #e7ecff; border: 1.5px solid rgba(39, 48, 74, 0.8); border-radius: 8px; padding: 12px 15px; font-size: 1em; font-family: 'Monaco', 'Menlo', monospace; margin-bottom: 15px; transition: all 0.3s; }
+    select:focus, textarea:focus { outline: none; border-color: #6ae0a7; box-shadow: 0 0 0 3px rgba(106, 224, 167, 0.1); }
+    textarea { min-height: 300px; resize: vertical; line-height: 1.5; }
+    .input-group { margin-bottom: 18px; }
+    .btn { padding: 12px 24px; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s; font-size: 1em; display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+    .btn-primary { background: linear-gradient(135deg, #2aebad 0%, #21c08d 100%); color: #032217; box-shadow: 0 4px 15px rgba(42, 235, 173, 0.3); }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(42, 235, 173, 0.4); }
+    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+    .btn-secondary { background: rgba(39, 48, 74, 0.8); color: #cbd5e0; border: 1px solid rgba(106, 224, 167, 0.3); }
+    .btn-secondary:hover:not(:disabled) { background: rgba(39, 48, 74, 1); border-color: #6ae0a7; color: #6ae0a7; }
+    .btn-secondary:disabled { opacity: 0.4; cursor: not-allowed; }
+    .btn-ai { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3); }
+    .btn-ai:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4); }
+    .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px; }
+    @media (max-width: 768px) { .btn-group { grid-template-columns: 1fr; } }
+    .msg { padding: 12px 15px; border-radius: 8px; margin-bottom: 15px; font-size: 0.95em; }
+    .msg.success { background: rgba(42, 235, 173, 0.1); border-left: 4px solid #6ae0a7; color: #a0d995; }
+    .msg.error { background: rgba(255, 107, 107, 0.1); border-left: 4px solid #ff6b6b; color: #ff9999; }
+    .msg.info { background: rgba(102, 126, 234, 0.1); border-left: 4px solid #667eea; color: #9fb0ff; }
+    .modal { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); align-items: center; justify-content: center; z-index: 2000; }
+    .modal.visible { display: flex; }
+    .modal-content { background: #1a1f2e; border: 1px solid rgba(106, 224, 167, 0.3); border-radius: 12px; padding: 30px; max-width: 600px; max-height: 80vh; overflow-y: auto; }
+    .modal-title { font-size: 1.5em; color: #6ae0a7; margin-bottom: 20px; font-weight: 600; }
+    .modal-close { position: absolute; top: 20px; right: 20px; background: none; border: none; color: #cbd5e0; cursor: pointer; font-size: 1.5em; }
+    .code-block { background: rgba(20, 26, 42, 0.9); border: 1px solid rgba(39, 48, 74, 0.8); border-radius: 8px; padding: 15px; overflow-x: auto; margin-bottom: 15px; }
+    .code-block code { font-family: 'Monaco', 'Menlo', monospace; font-size: 0.9em; color: #a0d995; }
+    .help-section { background: rgba(102, 126, 234, 0.08); border-left: 3px solid #667eea; padding: 15px; border-radius: 6px; margin-bottom: 20px; }
+    .help-section h3 { color: #667eea; margin-bottom: 8px; font-size: 1em; }
+    .help-section p { font-size: 0.9em; line-height: 1.6; color: #9fb0ff; }
+    ul { margin-left: 20px; }
+    ul li { margin-bottom: 6px; }
     /* Menú hamburguesa flotante */
     .menu-btn {
       position: fixed;
@@ -72,11 +99,7 @@
       display: flex;
       animation: slideIn 0.3s ease-out;
     }
-    @keyframes slideIn {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    .menu-close-btn, .btn-fullscreen, .btn-menu-tornar, .btn-menu-index {
+    .menu-close-btn, .btn-fullscreen, .btn-menu-tornar, .btn-menu-index, .btn-menu-legend {
       width: 100%;
       padding: 12px;
       margin: 0;
@@ -91,27 +114,12 @@
       justify-content: center;
       gap: 8px;
     }
-    .menu-close-btn {
-      background: #2aebad;
-      color: #032217;
-    }
-    .menu-close-btn:hover {
-      background: #21c08d;
-      transform: translateY(-1px);
-    }
-    .btn-fullscreen {
-      background: #2a5f8a;
-      color: #e7ecff;
-    }
-    .btn-fullscreen:hover {
-      background: #3a7faa;
-      transform: translateY(-1px);
-    }
-    .btn-menu-tornar, .btn-menu-index {
-      background: #27304a;
-      color: #e7ecff;
-    }
-    .btn-menu-tornar:hover, .btn-menu-index:hover {
+    .menu-close-btn { background: #2aebad; color: #032217; }
+    .menu-close-btn:hover { background: #21c08d; }
+    .btn-fullscreen { background: #667eea; color: #fff; }
+    .btn-fullscreen:hover { background: #764ba2; transform: translateY(-1px); }
+    .btn-menu-tornar, .btn-menu-index, .btn-menu-legend { background: #27304a; color: #e7ecff; }
+    .btn-menu-tornar:hover, .btn-menu-index:hover, .btn-menu-legend:hover {
       background: #3a4a6a;
       transform: translateY(-1px);
     }
@@ -129,25 +137,16 @@
         right: 10px;
       }
     }
-    .result-area { margin-top: 24px; }
-    .result-label { color: #6ae0a7; font-weight: bold; margin-bottom: 8px; display: block; }
-    .actions { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
-    .msg { color: #ff6b6b; margin-bottom: 10px; }
   </style>
-  <script src="assets/js/localstorage-utils.js"></script>
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZKHF359"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
   <!-- Botón hamburguesa -->
   <button class="menu-btn" id="menuBtn">
     <span></span>
     <span></span>
     <span></span>
   </button>
+  
   <!-- Menú desplegable -->
   <div class="menu-panel" id="menuPanel">
     <button class="menu-close-btn" id="menuCloseBtn">☰ Tancar</button>
@@ -156,66 +155,334 @@
     <button class="btn-menu-index" id="menuIndexBtn">👨‍💻 Menu</button>
     <button class="btn-menu-legend" id="menuLegendBtn">📖 Leyenda JSON</button>
   </div>
+
   <div class="container">
-    <h1>Quick Converter</h1>
-    <div>
-      <label for="temaSelect"><b>Tema:</b></label>
-      <select id="temaSelect" style="min-width:220px;"></select>
+    <header>
+      <h1>📋 JSON Test Converter</h1>
+      <p class="subtitle">Convierte preguntas simples a formato de examen profesional</p>
+    </header>
+
+    <div class="grid">
+      <!-- Panel de entrada -->
+      <div class="panel">
+        <div class="panel-title">📝 Entrada</div>
+        
+        <div class="input-group">
+          <label for="temaSelect"><strong>Tema:</strong></label>
+          <select id="temaSelect"></select>
+        </div>
+
+        <div class="input-group">
+          <label for="difficultySelect"><strong>Dificultad:</strong></label>
+          <select id="difficultySelect"></select>
+        </div>
+
+        <label for="inputJson"><strong>Pega aquí el JSON:</strong></label>
+        <textarea id="inputJson" placeholder="[&#10;  {&#10;    &quot;question&quot;: &quot;¿Pregunta?&quot;,&#10;    &quot;options_good&quot;: [&quot;Respuesta correcta&quot;],&#10;    &quot;options_bad&quot;: [&quot;Incorrecta&quot;],&#10;    &quot;hint&quot;: &quot;Explicación&quot;&#10;  }&#10;]"></textarea>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" id="pasteBtn">📋 Pegar del portapapeles</button>
+          <button class="btn btn-secondary" id="helpBtn">❓ Formato esperado</button>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-primary" id="convertBtn">🔄 Convertir</button>
+          <button class="btn btn-primary" id="convertAndStudyBtn">🔥 Convertir y Estudiar</button>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" id="clearBtn">🗑️ Limpiar</button>
+        </div>
+
+        <div id="msgBox"></div>
+      </div>
+
+      <!-- Panel de salida -->
+      <div class="panel">
+        <div class="panel-title">✅ Salida</div>
+        
+        <label for="outputJson"><strong>JSON convertido:</strong></label>
+        <textarea id="outputJson" readonly placeholder="Aquí aparecerá el JSON convertido..."></textarea>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" id="copyBtn" disabled>📋 Copiar JSON</button>
+          <button class="btn btn-ai" id="copyPromptBtn" disabled>🤖 Copiar Prompt IA</button>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" id="estudiarBtn" disabled>👨‍💻 Estudiar rápido</button>
+          <button class="btn btn-secondary" id="downloadBtn" disabled>📥 Descargar JSON</button>
+        </div>
+      </div>
     </div>
-    <div>
-      <label style="display:inline-flex;align-items:center;gap:10px;">
-        <span style="font-size:0.98em;">Dificultat:</span>
-        <select id="difficultySelect" style="min-width:80px;"></select>
-      </label>
-    </div>
-    <label for="inputJson">Pega aquí el JSON:</label>
-    <textarea id="inputJson" placeholder="Pega aquí el JSON..."></textarea>
-    <div class="actions">
-      <button class="btn" id="convertBtn">Convertir</button>
-      <button class="btn" id="convertAndStudyBtn">🔥 Convertir i estudiar</button>
-    </div>
-    <div class="actions">
-      <button class="btn secondary" id="copyBtn" disabled>📋 Copiar JSON</button>
-      <button class="btn secondary" id="estudiarBtn" disabled>👨‍💻 Estudiar rápido</button>
-    </div>
-    <div class="result-area">
-      <span class="result-label">JSON Preguntas:</span>
-      <textarea id="outputJson" readonly placeholder="Aquí aparecerá el JSON convertido..."></textarea>
-      <div class="msg" id="msgBox"></div>
-    </div>
-    <!-- Leyenda JSON esperado -->
-    <div id="legendJson" style="margin-top:40px;background:#23284a;border-radius:12px;padding:24px 18px;color:#9fb0ff;max-width:700px;margin-left:auto;margin-right:auto;box-shadow:0 2px 12px #0002;">
-      <h2 style="color:#6ae0a7;margin-top:0;font-size:1.3em;">Formato esperado del JSON de entrada</h2>
-      <p>El JSON debe ser un array de objetos con la siguiente estructura:</p>
-      <pre style="background:#181c2a;color:#e7ecff;padding:16px;border-radius:8px;font-size:1em;overflow-x:auto;">[
-  {
-    "question": "string con el texto de la pregunta",
-    "options_good": ["string opcion correcta 1", ...],
-    "options_bad": ["string opcion incorrecta 1", ...],
-    "hint": "string con la pista o aclaración del concepto relacionado con la pregunta"
-  },
-  ...
-]</pre>
-      <ul style="margin-top:18px;">
-        <li><b>question</b>: Texto de la pregunta.</li>
-        <li><b>options_good</b>: Array de respuestas correctas.</li>
-        <li><b>options_bad</b>: Array de respuestas incorrectas.</li>
-        <li><b>hint</b>: (opcional) Pista o aclaración del concepto relacionado con la pregunta.</li>
-      </ul>
-      <p style="margin-top:18px;color:#e7ecff;">Ejemplo:</p>
-      <pre style="background:#181c2a;color:#e7ecff;padding:16px;border-radius:8px;font-size:1em;overflow-x:auto;">[
+  </div>
+
+  <!-- Modal de ayuda -->
+  <div class="modal" id="helpModal">
+    <div class="modal-content">
+      <h2 class="modal-title">📖 Formato esperado del JSON</h2>
+      <button class="modal-close" id="helpModalClose">&times;</button>
+
+      <div class="help-section">
+        <h3>Estructura general</h3>
+        <p>El JSON debe ser un <strong>array de objetos</strong> con la siguiente estructura:</p>
+      </div>
+
+      <div class="code-block"><code>{
+  "question": "string con el texto de la pregunta",
+  "options_good": ["string opcion correcta 1", ...],
+  "options_bad": ["string opcion incorrecta 1", ...],
+  "hint": "string con la pista o aclaración (opcional)"
+}</code></div>
+
+      <div class="help-section">
+        <h3>Campos requeridos</h3>
+        <ul>
+          <li><strong>question</strong>: Texto de la pregunta</li>
+          <li><strong>options_good</strong>: Array de respuestas correctas</li>
+          <li><strong>options_bad</strong>: Array de respuestas incorrectas</li>
+          <li><strong>hint</strong>: (Opcional) Pista o aclaración del concepto. Si hay una sola respuesta correcta, se usa como rationale; si hay varias, se conserva como pista de la pregunta</li>
+        </ul>
+      </div>
+
+      <div class="help-section">
+        <h3>Ejemplo completo</h3>
+      </div>
+
+      <div class="code-block"><code>[
   {
     "question": "¿Qué modelo usa píxeles o celdas?",
     "options_good": ["Ráster"],
-    "options_bad": ["Vectorial", "Topológico", "Matricial"],
-    "hint": "Malla de celdas con valores (ej: ortofotos)"
+    "options_bad": ["Vectorial", "Topológico"],
+    "hint": "Malla de celdas con valores (ej: orfotos)"
+  },
+  {
+    "question": "¿Cuáles son tipos de datos?",
+    "options_good": ["Raster", "Vector"],
+    "options_bad": ["Topológico"],
+    "hint": "Dos modelos principales de representación"
   }
-]</pre>
+]</code></div>
+
+      <button class="btn btn-primary" id="closeHelpBtn">Entendido</button>
     </div>
   </div>
 
   <script>
-    // --- Menú hamburguesa ---
+    // ===== UTILIDADES =====
+    function generateGUID() {
+      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
+        const r = Math.random() * 16 | 0;
+        return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+      });
+    }
+
+    function showMessage(text, type = 'info') {
+      const msgBox = document.getElementById('msgBox');
+      msgBox.innerHTML = `<div class="msg ${type}">${text}</div>`;
+      if (type === 'success') setTimeout(() => msgBox.innerHTML = '', 3000);
+    }
+
+    // ===== CARGA INICIAL =====
+    window.addEventListener('DOMContentLoaded', () => {
+      // Cargar temas
+      fetch('assets/opos24_temes.json')
+        .then(r => r.json())
+        .then(temes => {
+          const select = document.getElementById('temaSelect');
+          const saved = localStorage.getItem('converter_tema') || 'T07';
+          temes.forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = t.tema;
+            opt.textContent = t.tema + ' - ' + t.titol;
+            if (t.tema === saved) opt.selected = true;
+            select.appendChild(opt);
+          });
+        });
+
+      // Cargar dificultades
+      fetch('assets/difficulty.json')
+        .then(r => r.json())
+        .then(arr => {
+          const select = document.getElementById('difficultySelect');
+          const saved = localStorage.getItem('converter_difficulty') || '1';
+          arr.forEach(d => {
+            const opt = document.createElement('option');
+            opt.value = d.id;
+            opt.textContent = d.text;
+            if (String(d.id) === saved) opt.selected = true;
+            select.appendChild(opt);
+          });
+        });
+
+      // Event listeners
+      document.getElementById('temaSelect').addEventListener('change', e => {
+        localStorage.setItem('converter_tema', e.target.value);
+      });
+      document.getElementById('difficultySelect').addEventListener('change', e => {
+        localStorage.setItem('converter_difficulty', e.target.value);
+      });
+    });
+
+    // ===== CONVERSIÓN =====
+    function convertirJson() {
+      const input = document.getElementById('inputJson').value.trim();
+      let simpleQuestions = [];
+      
+      try {
+        simpleQuestions = JSON.parse(input);
+        if (!Array.isArray(simpleQuestions)) throw new Error('El JSON debe ser un array');
+      } catch (e) {
+        showMessage('❌ Error al parsear JSON: ' + e.message, 'error');
+        document.getElementById('outputJson').value = '';
+        document.getElementById('copyBtn').disabled = true;
+        document.getElementById('copyPromptBtn').disabled = true;
+        document.getElementById('estudiarBtn').disabled = true;
+        document.getElementById('downloadBtn').disabled = true;
+        return null;
+      }
+
+      const subjectId = document.getElementById('temaSelect').value;
+      const difficulty = Number(document.getElementById('difficultySelect').value);
+
+      const questions = simpleQuestions.map(q => {
+        const answerOptions = [];
+        const hasHint = typeof q.hint === 'string' && q.hint.trim() !== '';
+        const singleCorrect = (q.options_good || []).length === 1;
+
+        (q.options_good || []).forEach(opt => {
+          answerOptions.push({
+            text: opt,
+            isCorrect: true,
+            rationale: singleCorrect && hasHint ? q.hint : ''
+          });
+        });
+
+        (q.options_bad || []).forEach(opt => {
+          answerOptions.push({
+            text: opt,
+            isCorrect: false
+          });
+        });
+
+        const result = {
+          guid: generateGUID(),
+          subjectId,
+          difficulty,
+          origin: 'QuickConverter',
+          type: 'test',
+          question: q.question,
+          answerOptions
+        };
+
+        if (hasHint && !singleCorrect) {
+          result.hint = q.hint;
+        }
+
+        return result;
+      });
+
+      const output = JSON.stringify(questions, null, 2);
+      document.getElementById('outputJson').value = output;
+      document.getElementById('copyBtn').disabled = false;
+      document.getElementById('copyPromptBtn').disabled = false;
+      document.getElementById('estudiarBtn').disabled = false;
+      document.getElementById('downloadBtn').disabled = false;
+      showMessage('✅ Conversión realizada correctamente: ' + questions.length + ' preguntas', 'success');
+      return output;
+    }
+
+    // ===== EVENT LISTENERS =====
+    document.getElementById('convertBtn').onclick = convertirJson;
+
+    document.getElementById('pasteBtn').onclick = async () => {
+      try {
+        const text = await navigator.clipboard.readText();
+        document.getElementById('inputJson').value = text;
+        showMessage('✅ JSON pegado desde el portapapeles', 'success');
+      } catch (err) {
+        showMessage('❌ No se pudo leer del portapapeles. Asegúrate de permitir acceso.', 'error');
+      }
+    };
+
+    document.getElementById('convertAndStudyBtn').onclick = () => {
+      const output = convertirJson();
+      if (!output) return;
+      try {
+        localStorage.setItem('converter_questions', output);
+        window.location.href = 'estudiar.html';
+      } catch (e) {
+        showMessage('❌ Error al guardar: ' + e.message, 'error');
+      }
+    };
+
+    document.getElementById('copyBtn').onclick = () => {
+      const output = document.getElementById('outputJson').value;
+      navigator.clipboard.writeText(output).then(() => {
+        showMessage('✅ JSON copiado al portapapeles', 'success');
+      });
+    };
+
+    document.getElementById('copyPromptBtn').onclick = () => {
+      const output = document.getElementById('outputJson').value;
+      const prompt = `Aquí está el JSON con las preguntas de examen convertidas al formato estándar. Revisa que las preguntas sean correctas, mejora la redacción si es necesario, y asegúrate de que el formato sea válido:\n\n${output}`;
+      navigator.clipboard.writeText(prompt).then(() => {
+        showMessage('✅ Prompt para IA copiado al portapapeles', 'success');
+      });
+    };
+
+    document.getElementById('estudiarBtn').onclick = () => {
+      const output = document.getElementById('outputJson').value;
+      if (!output) return;
+      try {
+        localStorage.setItem('converter_questions', output);
+        window.location.href = 'estudiar.html';
+      } catch (e) {
+        showMessage('❌ Error: ' + e.message, 'error');
+      }
+    };
+
+    document.getElementById('downloadBtn').onclick = () => {
+      const output = document.getElementById('outputJson').value;
+      const blob = new Blob([output], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `preguntas_${new Date().toISOString().slice(0, 10)}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    };
+
+    document.getElementById('clearBtn').onclick = () => {
+      document.getElementById('inputJson').value = '';
+      document.getElementById('outputJson').value = '';
+      document.getElementById('msgBox').innerHTML = '';
+      document.getElementById('copyBtn').disabled = true;
+      document.getElementById('copyPromptBtn').disabled = true;
+      document.getElementById('estudiarBtn').disabled = true;
+      document.getElementById('downloadBtn').disabled = true;
+    };
+
+    // ===== MODAL AYUDA =====
+    document.getElementById('helpBtn').onclick = () => {
+      document.getElementById('helpModal').classList.add('visible');
+    };
+
+    document.getElementById('helpModalClose').onclick = () => {
+      document.getElementById('helpModal').classList.remove('visible');
+    };
+
+    document.getElementById('closeHelpBtn').onclick = () => {
+      document.getElementById('helpModal').classList.remove('visible');
+    };
+
+    document.getElementById('helpModal').onclick = e => {
+      if (e.target.id === 'helpModal') {
+        document.getElementById('helpModal').classList.remove('visible');
+      }
+    };
+
+    // ===== MENÚ HAMBURGUESA =====
     const menuBtn = document.getElementById('menuBtn');
     const menuPanel = document.getElementById('menuPanel');
     const menuCloseBtn = document.getElementById('menuCloseBtn');
@@ -224,222 +491,46 @@
     const menuIndexBtn = document.getElementById('menuIndexBtn');
     const menuLegendBtn = document.getElementById('menuLegendBtn');
 
-    // Toggle menú
-    menuBtn.addEventListener('click', () => {
+    function toggleMenu() {
       menuPanel.classList.toggle('visible');
-    });
-    // Cerrar menú
-    menuCloseBtn.addEventListener('click', () => {
-      menuPanel.classList.remove('visible');
-    });
-    // Cerrar menú al hacer clic fuera
-    document.addEventListener('mousedown', (e) => {
-      if (!menuPanel.contains(e.target) && !menuBtn.contains(e.target)) {
-        menuPanel.classList.remove('visible');
-      }
-    });
-    // Botón fullscreen
-    fullscreenBtn.addEventListener('click', () => {
-      if (!document.fullscreenElement) {
-        document.documentElement.requestFullscreen();
-        fullscreenBtn.textContent = '⛶ Sortir pantalla completa';
-      } else {
-        document.exitFullscreen();
-        fullscreenBtn.textContent = '⛶ Pantalla completa';
-      }
-    });
-    // Actualizar texto del botón cuando se sale de fullscreen con ESC
-    document.addEventListener('fullscreenchange', () => {
-      if (!document.fullscreenElement) {
-        fullscreenBtn.textContent = '⛶ Pantalla completa';
-      }
-    });
-    // Botón tornar
-    menuTornarBtn.addEventListener('click', irAtrasMenu);
-    function irAtrasMenu() {
-      menuPanel.classList.remove('visible');
-      if (window.history.length > 1) {
-        window.history.back();
-      } else {
-        window.location.href = 'index.html';
-      }
     }
-    menuIndexBtn.addEventListener('click', () => {
+
+    function closeMenu() {
+      menuPanel.classList.remove('visible');
+    }
+
+    menuBtn.onclick = toggleMenu;
+    menuCloseBtn.onclick = closeMenu;
+
+    fullscreenBtn.onclick = () => {
+      if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen().catch(() => {});
+      } else if (document.documentElement.webkitRequestFullscreen) {
+        document.documentElement.webkitRequestFullscreen();
+      }
+      closeMenu();
+    };
+
+    menuTornarBtn.onclick = () => {
+      window.history.back();
+      closeMenu();
+    };
+
+    menuIndexBtn.onclick = () => {
       window.location.href = 'index.html';
-    });
-    menuLegendBtn.addEventListener('click', () => {
-      menuPanel.classList.remove('visible');
-      const legend = document.getElementById('legendJson');
-      if (legend) {
-        legend.scrollIntoView({ behavior: 'smooth' });
+      closeMenu();
+    };
+
+    menuLegendBtn.onclick = () => {
+      document.getElementById('helpModal').classList.add('visible');
+      closeMenu();
+    };
+
+    document.addEventListener('click', e => {
+      if (!menuBtn.contains(e.target) && !menuPanel.contains(e.target)) {
+        closeMenu();
       }
     });
-    // --- Fin menú hamburguesa ---
-    // Cargar temas al iniciar
-    window.addEventListener('DOMContentLoaded', function() {
-      // --- TEMAS ---
-      fetch('assets/opos24_temes.json')
-        .then(r => r.json())
-        .then(temes => {
-          const select = document.getElementById('temaSelect');
-          select.innerHTML = '';
-          // Leer tema guardado en localStorage
-          const temaGuardado = localStorage.getItem('quickconverter_tema');
-          let temaSeleccionado = false;
-          temes.forEach(t => {
-            const opt = document.createElement('option');
-            opt.value = t.tema;
-            opt.textContent = t.tema + ' - ' + t.titol;
-            if (temaGuardado && t.tema === temaGuardado) {
-              opt.selected = true;
-              temaSeleccionado = true;
-            }
-            select.appendChild(opt);
-          });
-          // Si no se encontró el tema guardado, seleccionar el primero
-          if (!temaSeleccionado && select.options.length > 0) {
-            select.selectedIndex = 0;
-          }
-        })
-        .catch(() => {
-          const select = document.getElementById('temaSelect');
-          select.innerHTML = '<option>Error carregant temes</option>';
-        });
-      // --- DIFICULTAD ---
-      fetch('assets/difficulty.json')
-        .then(r => r.json())
-        .then(arr => {
-          const sel = document.getElementById('difficultySelect');
-          sel.innerHTML = '';
-          // Leer dificultad guardada en localStorage
-          const diffGuardada = localStorage.getItem('quickconverter_dificultat');
-          let diffSeleccionada = false;
-          arr.forEach(d => {
-            const opt = document.createElement('option');
-            opt.value = d.id;
-            opt.textContent = d.text;
-            if (diffGuardada && String(d.id) === diffGuardada) {
-              opt.selected = true;
-              diffSeleccionada = true;
-            }
-            sel.appendChild(opt);
-          });
-          // Si no se encontró la dificultad guardada, seleccionar el primero
-          if (!diffSeleccionada && sel.options.length > 0) {
-            sel.selectedIndex = 0;
-          }
-        });
-      // Guardar cambios al seleccionar tema o dificultad
-      document.getElementById('temaSelect').addEventListener('change', function() {
-        localStorage.setItem('quickconverter_tema', this.value);
-      });
-      document.getElementById('difficultySelect').addEventListener('change', function() {
-        localStorage.setItem('quickconverter_dificultat', this.value);
-      });
-    });
-
-    // Utilidad para generar GUID
-    function generateGUID() {
-      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-        var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
-        return v.toString(16);
-      });
-    }
-
-    // Conversión principal
-    function convertirJson() {
-      const input = document.getElementById('inputJson').value.trim();
-      const msgBox = document.getElementById('msgBox');
-      msgBox.textContent = '';
-      let simpleQuestions = [];
-      try {
-        simpleQuestions = JSON.parse(input);
-        if (!Array.isArray(simpleQuestions)) throw new Error('El JSON debe ser un array.');
-      } catch (e) {
-        msgBox.textContent = 'Error al parsear JSON: ' + e.message;
-        document.getElementById('outputJson').value = '';
-        document.getElementById('copyBtn').disabled = true;
-        document.getElementById('estudiarBtn').disabled = true;
-        return null;
-      }
-      // Parámetros
-      const temaSel = document.getElementById('temaSelect');
-      const subjectId = temaSel ? temaSel.value : 'T00';
-      const diffSel = document.getElementById('difficultySelect');
-      const difficulty = diffSel ? Number(diffSel.value) : 1;
-      const origin = 'QuickConverter';
-      const type = 'test';
-      // Convertir
-      const questions = simpleQuestions.map(q => {
-        const answerOptions = [];
-        (q.options_good || []).forEach(opt => {
-          answerOptions.push({ text: opt, isCorrect: true, rationale: '' });
-        });
-        (q.options_bad || []).forEach(opt => {
-          answerOptions.push({ text: opt, isCorrect: false, rationale: '' });
-        });
-        const result = {
-          guid: generateGUID(),
-          subjectId,
-          difficulty,
-          origin,
-          type,
-          question: q.question,
-          answerOptions
-        };
-        if (typeof q.hint === 'string' && q.hint.trim() !== '') {
-          result.hint = q.hint;
-        }
-        return result;
-      });
-      const output = JSON.stringify(questions, null, 2);
-      document.getElementById('outputJson').value = output;
-      document.getElementById('copyBtn').disabled = false;
-      document.getElementById('estudiarBtn').disabled = false;
-      msgBox.textContent = 'Conversión realizada correctamente.';
-      return output;
-    }
-
-    document.getElementById('convertBtn').onclick = function() {
-      convertirJson();
-    };
-
-    document.getElementById('convertAndStudyBtn').onclick = function() {
-      const output = convertirJson();
-      if (!output) return;
-      try {
-        if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
-        localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(['quick converter']));
-        localStorage.setItem(LS_KEYS.PREGUNTES, output);
-        window.location.href = 'estudiar.html';
-      } catch (e) {
-        document.getElementById('msgBox').textContent = 'Error al guardar preguntas: ' + e.message;
-      }
-    };
-
-    // Copiar al portapapeles
-    document.getElementById('copyBtn').onclick = function() {
-      const output = document.getElementById('outputJson').value;
-      navigator.clipboard.writeText(output).then(() => {
-        document.getElementById('msgBox').textContent = '¡Copiado al portapapeles!';
-      });
-    };
-
-    // Estudiar estas preguntas
-    document.getElementById('estudiarBtn').onclick = function() {
-      const output = document.getElementById('outputJson').value;
-      if (!output) return;
-      try {
-        // Borrar estado anterior de estudio
-        if (typeof borrarEstudioEnProgreso === 'function') borrarEstudioEnProgreso();
-
-        localStorage.setItem(LS_KEYS.FITXERS_ESTUDIANT, JSON.stringify(['quick converter']));
-        localStorage.setItem(LS_KEYS.PREGUNTES, output);
-        window.location.href = 'estudiar.html';
-      } catch (e) {
-        document.getElementById('msgBox').textContent = 'Error al guardar preguntas: ' + e.message;
-      }
-    };
   </script>
 </body>
 </html>
