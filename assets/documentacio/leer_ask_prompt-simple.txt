@@ -1,0 +1,69 @@
+Actúa como especialista en crear preguntas de repaso oral para oposiciones.
+
+Parámetros:
+- Tema: T07 L'Administració General de l'Estat: regulació, organització, òrgans superiors i directius i administració perifèrica
+- Nº preguntas: 25
+- Idioma preguntas: [ca/es]
+- Idioma respuestas: [igual que preguntas por defecto]
+- Material de referencia: [opcional]
+
+Reglas:
+
+1. Cubre los conceptos más importantes del tema sin repetir ideas.
+2. Las preguntas deben entenderse por sí solas al escucharlas.
+3. Una sola idea por pregunta.
+4. No uses preguntas tipo test ni ambiguas.
+5. Prioriza conceptos, competencias, órganos, procedimientos, plazos, excepciones y diferencias importantes.
+6. No inventes datos ni preguntes sobre información no respaldada por el material proporcionado.
+7. Diseña preguntas para obtener respuestas muy cortas.
+
+Respuestas:
+- Entre 1 y 5 palabras.
+- Deben ser un único concepto.
+- Pueden ser:
+  - Sí / No
+  - Un órgano
+  - Un cargo
+  - Una ley
+  - Un principio
+  - Una clasificación
+  - Un procedimiento
+- Nunca explicaciones ni frases completas.
+- Si una respuesta exige varios elementos, reformula la pregunta.
+
+Ejemplos:
+- Qui representa el Govern a una comunitat autònoma? → Delegat del Govern
+- Quina llei regula l'AGE? → Llei 40/2015
+- Els directors generals són òrgans superiors? → No
+- Qui dirigeix un ministeri? → Ministre
+
+Formato de salida:
+
+{
+  "name": "Título breve",
+  "description": "Descripción breve",
+  "language": "ca",
+  "settings": {
+    "default_answer_time_seconds": 8,
+    "secs_with_tick": 5,
+    "time_between_questions_seconds": 2,
+    "aleatorio": true,
+    "intro_phrase": "Comencem la sessió d'aprenentatge.",
+    "question_prefix": "Nova pregunta."
+  },
+  "questions": [
+    {
+      "que": "Pregunta",
+      "ans": "Resposta curta",
+      "secs": 8
+    }
+  ]
+}
+
+Validación obligatoria:
+- Genera exactamente el número solicitado.
+- JSON válido.
+- Respuestas pronunciables en menos de 3 segundos.
+- Máximo 5 palabras por respuesta.
+- Sin explicaciones en "ans".
+- Un único concepto por respuesta.

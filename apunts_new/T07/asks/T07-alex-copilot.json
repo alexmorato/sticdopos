@@ -1,0 +1,140 @@
+{
+	"name": "T07 AGE",
+	"description": "Repàs oral de l'Administració General de l'Estat",
+	"language": "ca",
+	"settings": {
+		"default_answer_time_seconds": 8,
+		"secs_with_tick": 5,
+		"time_between_questions_seconds": 2,
+		"aleatorio": true,
+		"intro_phrase": "Comencem la sessió d'aprenentatge.",
+		"question_prefix": "Nova pregunta."
+	},
+	"questions": [
+		{
+			"que": "Quina llei regula principalment l'organització de l'Administració General de l'Estat?",
+			"ans": "Llei 40/2015",
+			"secs": 8
+		},
+		{
+			"que": "Qui dirigeix un ministeri?",
+			"ans": "Ministre",
+			"secs": 6
+		},
+		{
+			"que": "Qui representa el Govern de l'Estat en una comunitat autònoma?",
+			"ans": "Delegat del Govern",
+			"secs": 8
+		},
+		{
+			"que": "Quin òrgan col·legiat dirigeix la política del Govern?",
+			"ans": "Consell de Ministres",
+			"secs": 8
+		},
+		{
+			"que": "Quin òrgan superior dirigeix un sector d'activitat dins un ministeri?",
+			"ans": "Secretari d'Estat",
+			"secs": 8
+		},
+		{
+			"que": "Els directors generals són òrgans superiors?",
+			"ans": "No",
+			"secs": 5
+		},
+		{
+			"que": "Quin òrgan gestiona una àrea funcional concreta?",
+			"ans": "Director general",
+			"secs": 7
+		},
+		{
+			"que": "Quin òrgan directiu dirigeix els serveis comuns d'un ministeri?",
+			"ans": "Subsecretari",
+			"secs": 8
+		},
+		{
+			"que": "Quina llei regula el procediment administratiu comú?",
+			"ans": "Llei 39/2015",
+			"secs": 8
+		},
+		{
+			"que": "L'administració perifèrica apropa l'Estat al territori?",
+			"ans": "Sí",
+			"secs": 5
+		},
+		{
+			"que": "Qui exerceix les funcions estatals amb caràcter provincial?",
+			"ans": "Subdelegat del Govern",
+			"secs": 8
+		},
+		{
+			"que": "Els ministres són òrgans superiors?",
+			"ans": "Sí",
+			"secs": 5
+		},
+		{
+			"que": "Quin principi ordena els òrgans segons subordinació?",
+			"ans": "Jerarquia",
+			"secs": 6
+		},
+		{
+			"que": "Com s'anomena el repartiment de competències dins la mateixa administració?",
+			"ans": "Desconcentració",
+			"secs": 7
+		},
+		{
+			"que": "En la delegació es transfereix la titularitat de la competència?",
+			"ans": "No",
+			"secs": 5
+		},
+		{
+			"que": "Quin òrgan prepara els assumptes del Consell de Ministres?",
+			"ans": "Comissió General",
+			"secs": 8
+		},
+		{
+			"que": "Els subdirectors generals són òrgans directius?",
+			"ans": "Sí",
+			"secs": 5
+		},
+		{
+			"que": "Quin òrgan superior estableix els plans d'actuació política?",
+			"ans": "Ministre",
+			"secs": 7
+		},
+		{
+			"que": "Qui depèn jeràrquicament del delegat del Govern a la província?",
+			"ans": "Subdelegat del Govern",
+			"secs": 8
+		},
+		{
+			"que": "Quin tipus d'òrgan és un director general?",
+			"ans": "Òrgan directiu",
+			"secs": 7
+		},
+		{
+			"que": "Quin tipus d'òrgan és un secretari d'Estat?",
+			"ans": "Òrgan superior",
+			"secs": 7
+		},
+		{
+			"que": "Qui representa el Govern a les comunitats autònomes?",
+			"ans": "Delegat del Govern",
+			"secs": 7
+		},
+		{
+			"que": "L'AGE actua d'acord amb el principi d'eficiència?",
+			"ans": "Sí",
+			"secs": 5
+		},
+		{
+			"que": "Quin òrgan directiu es troba per sota del director general?",
+			"ans": "Subdirector general",
+			"secs": 7
+		},
+		{
+			"que": "A les comunitats uniprovincials qui assumeix habitualment les funcions del subdelegat?",
+			"ans": "Delegat del Govern",
+			"secs": 8
+		}
+	]
+}
