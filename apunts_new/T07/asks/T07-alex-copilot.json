@@ -5,10 +5,10 @@
 	"settings": {
 		"default_answer_time_seconds": 8,
 		"secs_with_tick": 5,
-		"time_between_questions_seconds": 2,
+		"time_between_questions_seconds": 1,
 		"aleatorio": true,
 		"intro_phrase": "Comencem la sessió d'aprenentatge.",
-		"question_prefix": "Nova pregunta."
+		"question_prefix": "pregunta."
 	},
 	"questions": [
 		{
