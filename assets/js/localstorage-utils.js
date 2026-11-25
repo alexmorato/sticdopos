@@ -45,7 +45,9 @@ const LS_KEYS = {
   TTS_PROGRESS: 'sTICdOpos_tts_progress',
   TTS_COLLAPSED_CARDS: 'sTICdOpos_tts_collapsedCards',
   CONVERTER_TEMA_UI: 'sTICdOpos_converterTemaUI',
-  CONVERTER_DIFFICULTY_UI: 'sTICdOpos_converterDifficultyUI'
+  CONVERTER_DIFFICULTY_UI: 'sTICdOpos_converterDifficultyUI',
+  INFOGRAFIA_PADDING: 'sTICdOpos_infografiaPadding',
+  DIAPOS_PADDING: 'sTICdOpos_diaposPadding'
 };
 
 const LS_SENSITIVE_KEYS = Object.freeze(
