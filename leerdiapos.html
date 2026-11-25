@@ -42,6 +42,14 @@
       border-radius: 8px;
     }
 
+    .slide iframe {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+      border: none;
+      min-height: 600px;
+    }
+
     /* Botón hamburguesa */
     .menu-btn {
       position: fixed;
@@ -393,14 +401,30 @@
         counterDiv.textContent = `${index + 1} de ${imgs.length}`;
         makeDismissible(counterDiv);
         
-        const imgElement = document.createElement('img');
-        // Construir ruta: root/tema/dir/imagen
-        imgElement.src = `${root}/${tema}/${dir}/${img.trim()}`;
-        imgElement.alt = `Diapositiva ${index + 1}`;
-        imgElement.loading = 'lazy';
+        // Determinar si es imagen o HTML
+        const fileName = img.trim();
+        const isHtml = fileName.toLowerCase().endsWith('.html');
         
-        slideDiv.appendChild(counterDiv);
-        slideDiv.appendChild(imgElement);
+        if (isHtml) {
+          // Crear iframe para HTML
+          const iframeElement = document.createElement('iframe');
+          iframeElement.src = `${root}/${tema}/${dir}/${fileName}`;
+          iframeElement.title = `Diapositiva ${index + 1}`;
+          iframeElement.sandbox.add('allow-same-origin', 'allow-scripts', 'allow-forms');
+          
+          slideDiv.appendChild(counterDiv);
+          slideDiv.appendChild(iframeElement);
+        } else {
+          // Crear img para imágenes
+          const imgElement = document.createElement('img');
+          imgElement.src = `${root}/${tema}/${dir}/${fileName}`;
+          imgElement.alt = `Diapositiva ${index + 1}`;
+          imgElement.loading = 'lazy';
+          
+          slideDiv.appendChild(counterDiv);
+          slideDiv.appendChild(imgElement);
+        }
+        
         container.appendChild(slideDiv);
       });
 
