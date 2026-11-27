@@ -1,0 +1,856 @@
+[
+	{
+		"guid": "64f93708-34a5-4055-b255-c0dc024773b5",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2025.pdf",
+		"type": "test",
+		"question": "19. Quin és un dels símbols nacionals de Catalunya segons l'Estatut d'Autonomia del 2006?",
+		"answerOptions": [
+			{
+				"text": "A. La bandera quarterada en creu.",
+				"isCorrect": false,
+				"rationale": "Incorrecte."
+			},
+			{
+				"text": "B. La bandera de quatre barres grogues en fons vermell.",
+				"isCorrect": false,
+				"rationale": "Ordre incorrecte."
+			},
+			{
+				"text": "C. La bandera de quatre barres vermelles en fons groc.",
+				"isCorrect": true,
+				"rationale": "Senyera."
+			},
+			{
+				"text": "D. La bandera de Santa Eulàlia.",
+				"isCorrect": false,
+				"rationale": "No és símbol nacional."
+			}
+		]
+	},
+	{
+		"guid": "3931a3f2-9ba0-4cb4-9a09-da854c2e12d1",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2025.pdf",
+		"type": "test",
+		"question": "20. D’acord amb l’article 2 de l'Estatut d'Autonomia de Catalunya, la Generalitat és integrada:",
+		"answerOptions": [
+			{
+				"text": "A. Pel Parlament,el Govern i la Diputació de Barcelona.",
+				"isCorrect": false,
+				"rationale": "Incorrecte."
+			},
+			{
+				"text": "B. Pel Parlament,la Presidència de la Generalitat,el Govern i les altres institucions que estableix el capítol V del títol II.",
+				"isCorrect": true,
+				"rationale": "Definició estatutària."
+			},
+			{
+				"text": "C. Els ajuntaments de les capitals de les quatre províncies de Catalunya,el Parlament i la Presidència de la Generalitat.",
+				"isCorrect": false,
+				"rationale": "Incorrecte."
+			},
+			{
+				"text": "D. El Govern i la Diputació de Barcelona.",
+				"isCorrect": false,
+				"rationale": "Incorrecte."
+			}
+		]
+	},
+	{
+		"guid": "65b0c93e-e6e9-40e6-b7b5-8c2d3b0e1257",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2021__OP_pl_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "24. El Parlament de Catalunya exerceix potestats legislatives?",
+		"hint": "Revisa si la pregunta pertany al bloc constitucional, autonòmic o local abans de determinar la resposta correcta.",
+		"answerOptions": [
+			{
+				"text": "No, la Generalitat de Catalunya no pot aprovar normes amb rang de llei.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "No, perquè el poder legislatiu és únic per a tot l’Estat.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "Sí, d’acord amb l’Estatut d’autonomia de Catalunya.",
+				"isCorrect": true,
+				"rationale": "El Parlament de Catalunya exerceix potestats legislatives d’acord amb l’Estatut d’autonomia."
+			},
+			{
+				"text": "Sí, perquè gaudeix d’un tracte diferencial respecte de les nacionalitats no històriques.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			}
+		]
+	},
+	{
+		"guid": "69ea10c8-fded-4556-b508-a1ea9ca98758",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2021__OP_pl_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "31. Segons l'article 160 de l'Estatut d'autonomia de Catalunya, pel que fa al règim local, les competències de la Generalitat de Catalunya són:",
+		"hint": "Revisa si la pregunta pertany al bloc constitucional, autonòmic o local abans de determinar la resposta correcta.",
+		"answerOptions": [
+			{
+				"text": "Només exclusives.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "Exclusives i absolutes.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "Només compartides.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "Exclusives, i compartides en tot allò que no estableix l’apartat 1 de l’article 160.",
+				"isCorrect": true,
+				"rationale": "En règim local, la Generalitat té competències exclusives i compartides en els termes de l’article 160."
+			}
+		]
+	},
+	{
+		"guid": "d34c6248-02fb-4e9a-89cb-2cd3814dad61",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2021__OP_pl_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "32. D'acord amb l'Estatut d'autonomia de Catalunya del 2006, Catalunya estructura la seva organització territorial bàsica en:",
+		"hint": "Revisa si la pregunta pertany al bloc constitucional, autonòmic o local abans de determinar la resposta correcta.",
+		"answerOptions": [
+			{
+				"text": "Municipis, vegueries i comarques.",
+				"isCorrect": true,
+				"rationale": "L’Estatut estructura l’organització territorial bàsica en municipis, vegueries i comarques."
+			},
+			{
+				"text": "Municipis, comarques, vegueries i diputacions.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "Municipis i vegueries.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "Municipis i comarques.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			}
+		]
+	},
+	{
+		"guid": "81b05465-070e-4976-a12c-8ec42eea7197",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2021__OP_pl_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "33. El Consell de Governs Locals és:",
+		"hint": "Revisa si la pregunta pertany al bloc constitucional, autonòmic o local abans de determinar la resposta correcta.",
+		"answerOptions": [
+			{
+				"text": "L'òrgan de representació de les comarques en les institucions de la Generalitat.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "L’òrgan de representació dels municipis i diputacions en les institucions de la Generalitat.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "L’òrgan de representació de municipis i vegueries en les institucions de la Generalitat.",
+				"isCorrect": true,
+				"rationale": "El Consell de Governs Locals és l’òrgan de representació dels municipis i les vegueries."
+			},
+			{
+				"text": "L’òrgan de representació de les diputacions en les institucions de la Generalitat.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			}
+		]
+	},
+	{
+		"guid": "c34ebfdd-8a28-4b90-b9d3-d7557b645df2",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2021__OP_pl_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "34. D'acord amb l'article 2 de l'Estatut d'autonomia de Catalunya, la Generalitat és integrada per:",
+		"hint": "Revisa si la pregunta pertany al bloc constitucional, autonòmic o local abans de determinar la resposta correcta.",
+		"answerOptions": [
+			{
+				"text": "Només el president/a i el Govern.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "El Parlament, la Presidència de la Generalitat, el Govern i les altres institucions que estableix el capítol V del títol II.",
+				"isCorrect": true,
+				"rationale": "La Generalitat la integren el Parlament, la Presidència, el Govern i les altres institucions estatutàries."
+			},
+			{
+				"text": "Només la presidència de la Generalitat, el Parlament i el Consell de Garanties.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "Només el Parlament, la Sindicatura de Comptes i el Síndic de Greuges.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			}
+		]
+	},
+	{
+		"guid": "d5d02966-e927-4e49-8bb1-b82172b6a8dd",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2021__OP_pl_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "35. Quina és la llengua pròpia de Catalunya:",
+		"hint": "Revisa si la pregunta pertany al bloc constitucional, autonòmic o local abans de determinar la resposta correcta.",
+		"answerOptions": [
+			{
+				"text": "El català.",
+				"isCorrect": true,
+				"rationale": "La llengua pròpia de Catalunya és el català."
+			},
+			{
+				"text": "El català, i també el castellà.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "El català, però només per a la relació amb les administracions públiques catalanes.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "El català, i també el castellà per a la relació amb les unitats directives de l’Administració de l’Estat a Catalunya.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			}
+		]
+	},
+	{
+		"guid": "07b49960-b3a3-40f6-a0c6-e862d073501a",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2021__OP_pl_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "36. La institució en la qual s'organitza políticament l'autogovern de Catalunya és:",
+		"hint": "Revisa si la pregunta pertany al bloc constitucional, autonòmic o local abans de determinar la resposta correcta.",
+		"answerOptions": [
+			{
+				"text": "El Parlament de Catalunya.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "La Generalitat de Catalunya.",
+				"isCorrect": true,
+				"rationale": "La institució en què s’organitza políticament l’autogovern de Catalunya és la Generalitat."
+			},
+			{
+				"text": "El Govern.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			},
+			{
+				"text": "El Parlament de Catalunya i el Govern.",
+				"isCorrect": false,
+				"rationale": "No és correcta: no s’ajusta al text legal o institucional aplicable."
+			}
+		]
+	},
+	{
+		"guid": "ca35fc56-d107-4757-96b7-84398bd84984",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2021.pdf",
+		"type": "test",
+		"question": "25. D'acord amb l'article 7 de l'Estatut d'autonomia de Catalunya, quines persones gaudeixen de la condició política de catalans/anes o ciutadans/anes de Catalunya?",
+		"answerOptions": [
+			{
+				"text": "A. Els ciutadans/anes espanyols/oles que tenen veïnatge administratiu a Catalunya.",
+				"isCorrect": true,
+				"rationale": "És la definició literal de ciutadania catalana segons l’Estatut."
+			},
+			{
+				"text": "B. Els ciutadans/anes de qualsevol estat membre de la Unió Europa que tenen una empresa a Catalunya.",
+				"isCorrect": false,
+				"rationale": "No és criteri suficient per adquirir la condició política."
+			},
+			{
+				"text": "C. Els ciutadans/anes de qualsevol estat llatinoamericà que siguin parella de fet d'una persona que viu a Catalunya.",
+				"isCorrect": false,
+				"rationale": "No és un supòsit previst a l’Estatut."
+			},
+			{
+				"text": "D. Els ciutadans/anes del Principat d'Andorra que passin les vacances d'estiu a Catalunya durant,com a mínim,5 anys seguits.",
+				"isCorrect": false,
+				"rationale": "No és un criteri jurídic vàlid."
+			}
+		]
+	},
+	{
+		"guid": "ecbae749-1271-439b-842a-3baa1d541f88",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2021.pdf",
+		"type": "test",
+		"question": "26. La proposta de reforma de l'Estatut d'autonomia de Catalunya que afecta els títols I i II requereix:",
+		"answerOptions": [
+			{
+				"text": "A. El vot favorable de les dues terceres parts del Parlament,la remissió i consulta a les Corts Generals,la ratificació per mitjà d'una llei orgànica i el referèndum positiu dels electors/ores de Catalunya.",
+				"isCorrect": true,
+				"rationale": "És el procediment reforçat de reforma de l’Estatut."
+			},
+			{
+				"text": "B. El vot favorable de les tres quartes parts del Parlament,la remissió i consulta a les Corts Generals,la ratificació per mitjà d'una llei orgànica i el referèndum positiu dels electors/ores de Catalunya.",
+				"isCorrect": false,
+				"rationale": "No es requereix majoria de tres quartes parts."
+			},
+			{
+				"text": "C. El vot favorable de les dues terceres parts del Parlament,l'aprovació de les Corts Generals per mitjà d'una llei orgànica,i finalment el referèndum positiu dels electors/ores.",
+				"isCorrect": false,
+				"rationale": "Falta el tràmit de remissió i consulta formal."
+			},
+			{
+				"text": "D. El vot favorable de les dues terceres parts del Parlament,l'aprovació de les Corts Generals per mitjà de llei ordinària,i finalment el referèndum positiu dels electors/ores de Catalunya.",
+				"isCorrect": false,
+				"rationale": "La ratificació ha de ser per llei orgànica."
+			}
+		]
+	},
+	{
+		"guid": "4acc0a64-c4a2-4e2b-a391-307906eaf8f7",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2021.pdf",
+		"type": "test",
+		"question": "27. L'Estatut d'autonomia de Catalunya de 2006 determina que:",
+		"answerOptions": [
+			{
+				"text": "A. El català és la llengua d'ús normal i preferent de les administracions públiques i dels mitjans de comunicació públics de Catalunya.",
+				"isCorrect": false,
+				"rationale": "El terme 'preferent' ha estat matisat pel TC."
+			},
+			{
+				"text": "B. El català és la llengua d'ús exclusiu de les administracions públiques i dels mitjans de comunicació públics de Catalunya.",
+				"isCorrect": false,
+				"rationale": "També ho és el castellà com a llengua oficial."
+			},
+			{
+				"text": "C. El català i el castellà és la llengua d'ús normal i preferent de les administracions públiques i dels mitjans de comunicació públics de Catalunya.",
+				"isCorrect": false,
+				"rationale": "La formulació no és correcta."
+			},
+			{
+				"text": "D. El català és la llengua d'ús normal de les administracions públiques i dels mitjans de comunicació públics de Catalunya.",
+				"isCorrect": true,
+				"rationale": "És la formulació conforme a l’Estatut després de la interpretació constitucional."
+			}
+		]
+	},
+	{
+		"guid": "d47db6ed-f917-42f3-a61f-56936e554226",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2021.pdf",
+		"type": "test",
+		"question": "28. D'acord amb el que estableix l’article 2.2 de l'Estatut d'autonomia de Catalunya del 2006 NO forma part de la Generalitat:",
+		"answerOptions": [
+			{
+				"text": "A. El Parlament.",
+				"isCorrect": false,
+				"rationale": "Forma part de la Generalitat."
+			},
+			{
+				"text": "B. La Presidència de la Generalitat i el Govern.",
+				"isCorrect": false,
+				"rationale": "També en formen part."
+			},
+			{
+				"text": "C. El Defensor del Poble.",
+				"isCorrect": true,
+				"rationale": "És una institució estatal,no de la Generalitat."
+			},
+			{
+				"text": "D. El Síndic de Greuges.",
+				"isCorrect": false,
+				"rationale": "És una institució pròpia de la Generalitat."
+			}
+		]
+	},
+	{
+		"guid": "b86120d8-3eb0-4280-b830-827276e74031",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2021.pdf",
+		"type": "test",
+		"question": "29. Quin Títol de l'Estatut d'autonomia de Catalunya del 2006 regula el poder judicial?",
+		"answerOptions": [
+			{
+				"text": "A. El Títol VI.",
+				"isCorrect": false,
+				"rationale": "No és el títol correcte segons l’Estatut."
+			},
+			{
+				"text": "B. El Títol III.",
+				"isCorrect": true,
+				"rationale": "El poder judicial es regula al Títol III de l’Estatut."
+			},
+			{
+				"text": "C. El Títol II.",
+				"isCorrect": false,
+				"rationale": "Aquest títol no regula el poder judicial."
+			},
+			{
+				"text": "D. El Títol II i III.",
+				"isCorrect": false,
+				"rationale": "Només el Títol III regula aquesta matèria."
+			}
+		]
+	},
+	{
+		"guid": "708c6aba-979c-44dd-9a91-bccea1bd95bf",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2021.pdf",
+		"type": "test",
+		"question": "30. D’acord amb el que diu l’article 52 de l’Estatut, i pel que fa al principi rector dels mitjans de comunicació social, en el cas dels mitjans de comunicació de titularitat pública, la informació també ha de ser:",
+		"answerOptions": [
+			{
+				"text": "A. Extensa.",
+				"isCorrect": false,
+				"rationale": "No és un requisit jurídic establert."
+			},
+			{
+				"text": "B. Neutral.",
+				"isCorrect": true,
+				"rationale": "L’Estatut estableix el principi de neutralitat informativa."
+			},
+			{
+				"text": "C. Indiferent.",
+				"isCorrect": false,
+				"rationale": "No és un principi jurídic reconegut."
+			},
+			{
+				"text": "D. Completa.",
+				"isCorrect": false,
+				"rationale": "No és el terme utilitzat per la norma."
+			}
+		]
+	},
+	{
+		"guid": "7427fd7b-421e-401c-b75d-aa68b5cf1ef1",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2020.pdf",
+		"type": "test",
+		"question": "47. Quines tipologies de competències es recullen a l’Estatut d’Autonomia de Catalunya de 2006?",
+		"answerOptions": [
+			{
+				"text": "a) Compartides i plenes.",
+				"isCorrect": false,
+				"rationale": "Falta una categoria."
+			},
+			{
+				"text": "b) Exclusives,compartides i executives.",
+				"isCorrect": true,
+				"rationale": "Classificació de l’Estatut."
+			},
+			{
+				"text": "c) Sectorials i territorials.",
+				"isCorrect": false,
+				"rationale": "No és classificació jurídica."
+			},
+			{
+				"text": "d) Executives,compartides i plenes.",
+				"isCorrect": false,
+				"rationale": "No és denominació correcta."
+			}
+		]
+	},
+	{
+		"guid": "c7cb8e1a-ceed-41a8-b0cf-0af1a92aabd7",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2020.pdf",
+		"type": "test",
+		"question": "48. D’acord amb l’article 25 de l’Estatut d’Autonomia de Catalunya, quins dels següents és un dret en l’àmbit laboral?",
+		"answerOptions": [
+			{
+				"text": "a) El dret a tenir un bon sou.",
+				"isCorrect": false,
+				"rationale": "No és formulació jurídica estatutària."
+			},
+			{
+				"text": "b) El dret a formar-se i promoure’s professionalment i a accedir de manera gratuïta als serveis públics d’ocupació.",
+				"isCorrect": true,
+				"rationale": "Dret reconegut a l’Estatut."
+			},
+			{
+				"text": "c) El dret a tenir festa els caps de setmana.",
+				"isCorrect": false,
+				"rationale": "No és dret estatutari."
+			},
+			{
+				"text": "d) El dret a ser contractat d’acord amb la titulació acadèmica acreditada.",
+				"isCorrect": false,
+				"rationale": "No és dret formulat així."
+			}
+		]
+	},
+	{
+		"guid": "0b7dcb42-041e-4869-ad9c-c8c9509989bf",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2020.pdf",
+		"type": "test",
+		"question": "49. D’acord amb l’Estatut d’Autonomia de Catalunya de 2006, què han de garantir els poders públics respecte de les persones amb discapacitats?",
+		"answerOptions": [
+			{
+				"text": "a) La protecció jurídica i la promoció de la seva integració social,econòmica i laboral.",
+				"isCorrect": true,
+				"rationale": "És el contingut de l’Estatut."
+			},
+			{
+				"text": "b) El dret a accedir a ajuts públics específics.",
+				"isCorrect": false,
+				"rationale": "És parcial."
+			},
+			{
+				"text": "c) La protecció dels seus drets patrimonials.",
+				"isCorrect": false,
+				"rationale": "No és l’enfocament principal."
+			},
+			{
+				"text": "d) El dret d’accés a l’educació en condicions d’igualtat.",
+				"isCorrect": false,
+				"rationale": "És un dret però no el que es demana."
+			}
+		]
+	},
+	{
+		"guid": "c95cc271-5e9d-433f-9d82-15f209580609",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2020.pdf",
+		"type": "test",
+		"question": "50. D’acord amb l’art. 40 de l’Estatut d’Autonomia de Catalunya de 2006, en relació a protecció de les persones i de les famílies, els poders públics han de:",
+		"answerOptions": [
+			{
+				"text": "a) Garantir als joves l’habitatge per tal que puguin desenvolupar llur propi projecte de vida.",
+				"isCorrect": false,
+				"rationale": "No és la formulació exacta."
+			},
+			{
+				"text": "b) Garantir a protecció jurídica,econòmica i social de les diverses modalitats de família que regulen les lleis.",
+				"isCorrect": true,
+				"rationale": "És el mandat estatutari."
+			},
+			{
+				"text": "c) Protegir les entitats privades dedicades a la cura de les persones grans perquè puguin portar una vida digna.",
+				"isCorrect": false,
+				"rationale": "No és el focus."
+			},
+			{
+				"text": "d) Promoure la igualtat de les unions estables de parella heterosexuals,però no de les homosexuals.",
+				"isCorrect": false,
+				"rationale": "És contrari al principi d’igualtat."
+			}
+		]
+	},
+	{
+		"guid": "e2548a1e-53c5-42d2-bed9-1cf870ad321b",
+		"subjectId": "T10",
+		"difficulty": 1,
+		"origin": "A1-2020.pdf",
+		"type": "test",
+		"question": "81. D’acord amb l’Estatut d’Autonomia de Catalunya de 2006, amb quines mesures han de facilitar els poders públics l’accés a l’habitatge?",
+		"answerOptions": [
+			{
+				"text": "a) Amb convocatòries públiques obertes a tothom.",
+				"isCorrect": false,
+				"rationale": "No és la formulació estatutària."
+			},
+			{
+				"text": "b) Amb llistes d’espera regulades per a accedir a habitatges públics.",
+				"isCorrect": false,
+				"rationale": "És un instrument,no el mandat general."
+			},
+			{
+				"text": "c) Amb la generació de sòl i la promoció d’habitatge públic i d’habitatge protegit,amb una atenció especial pels joves i els col·lectius més necessitats.",
+				"isCorrect": true,
+				"rationale": "És el contingut de l’Estatut."
+			},
+			{
+				"text": "d) Amb les actuacions específiques dels serveis socials dirigides a col·lectius o persones en risc d’exclusió.",
+				"isCorrect": false,
+				"rationale": "No és la formulació principal."
+			}
+		]
+	},
+	{
+		"guid": "616f387c-7994-448c-83b2-63e2a0b4a2d6",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2023_278_OP_3pl_TM_del_SPCPEIS_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "21. L’entrada en vigor de l’actual Estatut d’autonomia fou:",
+		"hint": "Relaciona la pregunta amb el bloc constitucional, local, administratiu o de funció pública corresponent.",
+		"answerOptions": [
+			{
+				"text": "El 9 d’agost de 2006.",
+				"isCorrect": true,
+				"rationale": "L'Estatut d'autonomia actual va entrar en vigor el 9 d'agost de 2006. Les altres dates no són la d'entrada en vigor."
+			},
+			{
+				"text": "El 11 de setembre de 2006.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			},
+			{
+				"text": "El 9 d’agost de 2008.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			},
+			{
+				"text": "El 11 de setembre de 2008.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			}
+		]
+	},
+	{
+		"guid": "c9ff396f-47c0-4636-af5c-0bf331cacf61",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2023_278_OP_3pl_TM_del_SPCPEIS_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "22. D’acord amb l’article 55 de l’Estatut d’autonomia de Catalunya, el representant suprem del poble de Catalunya és:",
+		"hint": "Relaciona la pregunta amb el bloc constitucional, local, administratiu o de funció pública corresponent.",
+		"answerOptions": [
+			{
+				"text": "El president de la Generalitat de Catalunya.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			},
+			{
+				"text": "El Parlament de Catalunya.",
+				"isCorrect": true,
+				"rationale": "L'article 55 atribueix al Parlament la representació del poble de Catalunya. Les altres opcions no tenen aquesta condició."
+			},
+			{
+				"text": "La Generalitat de Catalunya.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			},
+			{
+				"text": "El president del Tribunal Superior de Justícia de Catalunya.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			}
+		]
+	},
+	{
+		"guid": "4fbe4d2e-3faf-4097-bb62-d013435b7fe9",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2023_278_OP_3pl_TM_del_SPCPEIS_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "23. D’entre els drets de participació previstos a l’article 29 de l’Estatut d’autonomia de Catalunya, a més dels drets reconeguts només als ciutadans de Catalunya, es reconeix el dret de totes les persones:",
+		"hint": "Relaciona la pregunta amb el bloc constitucional, local, administratiu o de funció pública corresponent.",
+		"answerOptions": [
+			{
+				"text": "A elegir llurs representants en els òrgans polítics representatius i a presentar-s’hi com a candidats.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			},
+			{
+				"text": "A promoure i a presentar iniciatives legislatives al Parlament.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			},
+			{
+				"text": "A dirigir peticions i a plantejar queixes, en la forma i amb els efectes que estableixen les lleis, a les institucions i l’Administració de la Generalitat, i també als ens locals de Catalunya, en matèries de les competències respectives.",
+				"isCorrect": true,
+				"rationale": "L'article 29 reconeix el dret de petició i queixa davant institucions i administracions. Les altres opcions o bé són drets reservats o no tenen aquesta formulació."
+			},
+			{
+				"text": "A promoure la convocatòria de consultes populars per la Generalitat i els ajuntaments.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta perquè no correspon al règim jurídic aplicable."
+			}
+		]
+	},
+	{
+		"guid": "3fed3aaa-0bef-4711-8ee4-10cf9587d757",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2017_408_PIE_60pl_TS__Gestio_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "66. NO és un principi general d'actuació de les administracions públiques de Catalunya:",
+		"answerOptions": [
+			{
+				"text": "Principi de participació ciutadana.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta."
+			},
+			{
+				"text": "Principi de proximitat.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta."
+			},
+			{
+				"text": "Principi de seguretat i prevenció.",
+				"isCorrect": true,
+				"rationale": "La llista de principis generals no inclou, amb aquesta redacció, el de seguretat i prevenció com a principi general d'actuació."
+			},
+			{
+				"text": "Principi de bona fe i confiança legítima.",
+				"isCorrect": false,
+				"rationale": "No és la resposta correcta."
+			}
+		]
+	},
+	{
+		"guid": "cf838071-2935-4593-bad8-f52745fe55a1",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "15. Quin dels següents àmbits són competències pròpies dels governs locals segons l'article 84 de l'Estatut d'Autonomia de Catalunya?",
+		"hint": "Situa la pregunta dins del bloc del temari que correspon al seu contingut normatiu i institucional.",
+		"answerOptions": [
+			{
+				"text": "La política monetària.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció A no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			},
+			{
+				"text": "L'organització del govern autonòmic.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció B no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			},
+			{
+				"text": "L'ordenació i gestió del territori.",
+				"isCorrect": true,
+				"rationale": "L'ordenació i gestió del territori és un àmbit propi de l'autonomia local. Les altres respostes corresponen a nivells institucionals diferents."
+			},
+			{
+				"text": "La política exterior.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció D no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			}
+		]
+	},
+	{
+		"guid": "1f975268-0bb6-4c32-b25b-90623b23ba96",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "16. Segons l'article 86 de l'Estatut d'Autonomia de Catalunya, quin és l'ens local bàsic de l'organització territorial de Catalunya?",
+		"hint": "Situa la pregunta dins del bloc del temari que correspon al seu contingut normatiu i institucional.",
+		"answerOptions": [
+			{
+				"text": "La comarca.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció A no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			},
+			{
+				"text": "El municipi.",
+				"isCorrect": true,
+				"rationale": "El municipi és l'ens local bàsic de l'organització territorial de Catalunya. La resta d'opcions no tenen aquest caràcter bàsic."
+			},
+			{
+				"text": "La vegueria.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció C no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			},
+			{
+				"text": "El districte.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció D no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			}
+		]
+	},
+	{
+		"guid": "30ab23db-a235-44f2-8c99-18d1eb052b9e",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "17. L’article 87 de l'Estatut d'Autonomia de Catalunya defineix els principis d'organització i funcionament i potestat normativa dels municipis. Segons aquest indica la resposta CORRECTA:",
+		"hint": "Situa la pregunta dins del bloc del temari que correspon al seu contingut normatiu i institucional.",
+		"answerOptions": [
+			{
+				"text": "Els municipis tenen plena capacitat d’autoorganització.",
+				"isCorrect": true,
+				"rationale": "L'EAC reconeix autonomia i capacitat d'autoorganització municipal. Les altres opcions neguen o limiten indegudament aquests principis."
+			},
+			{
+				"text": "Els municipis no tenen potestat normativa.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció B no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			},
+			{
+				"text": "Els municipis actuaran de forma individual i no podran associar-se amb altres.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció C no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			},
+			{
+				"text": "Els municipis no disposen d’autonomia per l’exercici de les competències que tenen encomanades i resten subjectes a la Generalitat de Catalunya.",
+				"isCorrect": false,
+				"rationale": "No és correcta: l'opció D no s'ajusta al precepte o atribueix una funció/contingut diferent."
+			}
+		]
+	},
+	{
+		"guid": "2999fd03-30cc-40eb-8513-0a9ba70d8d1a",
+		"subjectId": "T10",
+		"difficulty": 2,
+		"origin": "2024_211_OP_Subgrups_COMU_A2_Questionari_Solucionari_Temari_General.pdf",
+		"type": "test",
+		"question": "42. D'acord amb l'article 2 de l'Estatut d'Autonomia de Catalunya, la Generalitat la integren:",
+		"hint": "Relaciona la pregunta amb el bloc constitucional, estatutari, procedimental o tributari corresponent.",
+		"answerOptions": [
+			{
+				"text": "El Parlament, la Presidencia de la Generalitat, el Govern i les altres institucions que estableix el capitol V del titol II.",
+				"isCorrect": true,
+				"rationale": "L'article 2 de l'EAC defineix la Generalitat com el Parlament, la Presidencia, el Govern i les institucions estatutaries previstes."
+			},
+			{
+				"text": "El Parlament, lAjuntament de Barcelona, el Govern i la Diputacio de Barcelona.",
+				"isCorrect": false,
+				"rationale": "No es correcta: no s'ajusta al regim juridic aplicable."
+			},
+			{
+				"text": "Els ajuntaments de Barcelona i Girona, el Parlament i la Presidencia de la Generalitat.",
+				"isCorrect": false,
+				"rationale": "No es correcta: no s'ajusta al regim juridic aplicable."
+			},
+			{
+				"text": "El Govern i la Diputacio de Barcelona.",
+				"isCorrect": false,
+				"rationale": "No es correcta: no s'ajusta al regim juridic aplicable."
+			}
+		]
+	}
+]

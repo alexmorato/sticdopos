@@ -526,10 +526,6 @@
       "htmls": [
         "Temes 6 i 7 — L'Administració Pública i l'AGE.html"
       ],
-      "info": [
-        "info/T06_bloc1_infografia_ester.jpg",
-        "info/T06_bloc2_infografia_ester.jpg"
-      ],
       "slides": [
         {
           "dir": "T06-7  RESUM - AdmPública al ordenament Esp",
@@ -580,6 +576,20 @@
             "img_24.jpg",
             "img_25.jpg",
             "img_26.jpg"
+          ]
+        },
+        {
+          "dir": "slides/Marc",
+          "imgs": [
+            "Tema 6 Marc 1 Principis constitucionals d'actuació i Tipologia de les Administracions Públiques.html",
+            "Tema 6 Marc 2  Cooperació i competencia.html"
+          ]
+        },
+        {
+          "dir": "slides/T06-Ester",
+          "imgs": [
+            "T06_bloc1_infografia_ester.jpg",
+            "T06_bloc2_infografia_ester.jpg"
           ]
         },
         {
@@ -638,7 +648,8 @@
         "T07-alex-copilot.json"
       ],
       "htmls": [
-        "T07-Alex-Copilot.html"
+        "T07-Alex-Copilot.html",
+        "Tema 7 diapositives Marc.html"
       ],
       "info": [
         "info/T07-Organització-Basica.jpg",
@@ -663,7 +674,8 @@
       "md": [
         "T08-Apunts-Xavi-Diagrames-deepseek.md",
         "T08-Apunts-Xavi.md",
-        "T08-CEF-2021.md"
+        "T08-CEF-2021.md",
+        "T08-Examens-Anteriors-analisis.md"
       ],
       "urls": [
         {
@@ -704,6 +716,29 @@
             "img_05.jpg",
             "img_06.jpg",
             "img_07.jpg"
+          ]
+        },
+        {
+          "dir": "slides/T08-ExamensAnteriors",
+          "imgs": [
+            "T08-01.html",
+            "T08-02.html",
+            "T08-03.html",
+            "T08-04.html",
+            "T08-05.html",
+            "T08-06.html"
+          ]
+        },
+        {
+          "dir": "slides/T08-Test-MADAMES",
+          "imgs": [
+            "T08-MADAMES-01.html",
+            "T08-MADAMES-02.html",
+            "T08-MADAMES-03.html",
+            "T08-MADAMES-04.html",
+            "T08-MADAMES-05.html",
+            "T08-MADAMES-06.html",
+            "T08-MADAMES-07.html"
           ]
         }
       ]
