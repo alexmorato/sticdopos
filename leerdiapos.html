@@ -31,9 +31,100 @@
       padding: 0 var(--side-padding);
     }
 
+    .slide-index {
+      margin: 20px auto 10px;
+      padding: 18px;
+      background: #fff;
+      border: 2px solid #2878bd;
+      border-radius: 12px;
+      color: #172033;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+
+    .slide-index summary {
+      cursor: pointer;
+      color: #12355b;
+      font-size: 1.25rem;
+      font-weight: 800;
+    }
+
+    .slide-index-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 9px;
+      margin-top: 14px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .slide-index-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 42px;
+      padding: 9px 11px;
+      border-radius: 8px;
+      background: #e9f5ff;
+      color: #12355b;
+      text-decoration: none;
+      font-weight: 650;
+    }
+
+    .slide-index-link:hover,
+    .slide-index-link:focus-visible {
+      background: #d6edff;
+      outline: 2px solid #2878bd;
+      outline-offset: 1px;
+    }
+
+    .slide-index-number {
+      flex: 0 0 auto;
+      min-width: 28px;
+      color: #0f766e;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .slide-index-type {
+      margin-left: auto;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: #fff;
+      color: #667085;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .slide-index-type.type-html {
+      background: #fff4d5;
+      color: #8a5600;
+    }
+
+    .slide-index-type.type-md {
+      background: #dbeafe;
+      color: #1e40af;
+    }
+
+    .slide-index-type.type-tts {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .slide-index-type.type-ask {
+      background: #f3e8ff;
+      color: #6b21a8;
+    }
+
+    .slide-index-type.type-image {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
     .slide {
       margin: 40px auto;
       box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      scroll-margin-top: 80px;
     }
 
     .slide img {
@@ -190,6 +281,96 @@
       font: 1.05rem/1.7 system-ui, sans-serif;
     }
 
+    .ask-slide {
+      padding: 24px;
+    }
+
+    .ask-header {
+      padding-bottom: 18px;
+      border-bottom: 1px solid #d5dfeb;
+    }
+
+    .ask-header h2 {
+      margin: 0 0 6px;
+      color: #12355b;
+    }
+
+    .ask-description {
+      margin: 0;
+      color: #667085;
+    }
+
+    .ask-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 18px 0;
+    }
+
+    .ask-actions button,
+    .ask-question button {
+      padding: 9px 13px;
+      border: 0;
+      border-radius: 7px;
+      background: #12355b;
+      color: #fff;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+    }
+
+    .ask-actions .ask-play-all {
+      background: #0f766e;
+    }
+
+    .ask-actions .ask-play-all:hover {
+      background: #0b5f59;
+    }
+
+    .ask-actions button:disabled,
+    .ask-question button:disabled {
+      cursor: default;
+      opacity: 0.45;
+    }
+
+    .ask-actions button:hover,
+    .ask-question button:hover {
+      background: #2878bd;
+    }
+
+    .ask-question {
+      margin: 14px 0;
+      padding: 18px;
+      border: 1px solid #d5dfeb;
+      border-left: 5px solid #2878bd;
+      border-radius: 9px;
+      background: #f8fbff;
+    }
+
+    .ask-question h3 {
+      margin: 0 0 12px;
+      color: #12355b;
+    }
+
+    .ask-answer {
+      margin-top: 12px;
+      padding: 13px;
+      border-radius: 7px;
+      background: #eafff3;
+      color: #14532d;
+      white-space: pre-wrap;
+    }
+
+    .ask-answer[hidden] {
+      display: none;
+    }
+
+    .ask-question-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
     .slide-error,
     .slide-loading {
       padding: 40px;
@@ -220,6 +401,32 @@
       z-index: 1000;
       transition: all 0.3s;
       box-shadow: 0 4px 12px rgba(42, 235, 173, 0.3);
+    }
+
+    .back-to-top-btn {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 50px;
+      height: 50px;
+      border: 0;
+      border-radius: 8px;
+      background: #2aebad;
+      color: #032217;
+      box-shadow: 0 4px 12px rgba(42, 235, 173, 0.35);
+      cursor: pointer;
+      font-size: 1.45rem;
+      font-weight: 900;
+      z-index: 1000;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .back-to-top-btn:hover,
+    .back-to-top-btn:focus-visible {
+      background: #21c08d;
+      transform: translateY(-2px);
+      outline: 2px solid #fff;
+      outline-offset: 2px;
     }
 
     .menu-btn:hover {
@@ -431,6 +638,32 @@
       cursor: pointer;
     }
 
+    .html-open-btn {
+      position: absolute;
+      top: 10px;
+      right: 105px;
+      z-index: 11;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 9px;
+      border: 0;
+      border-radius: 6px;
+      background: #12355b;
+      color: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      font: 700 0.82rem/1 system-ui, sans-serif;
+      text-decoration: none;
+    }
+
+    .html-open-btn:hover,
+    .html-open-btn:focus-visible {
+      background: #2878bd;
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
+
     @media (max-width: 768px) {
       .menu-btn {
         width: 45px;
@@ -448,6 +681,13 @@
         right: 15px;
         min-width: 150px;
       }
+
+      .back-to-top-btn {
+        right: 15px;
+        bottom: 15px;
+        width: 45px;
+        height: 45px;
+      }
     }
   </style>
 </head>
@@ -463,6 +703,9 @@
     <span></span>
     <span></span>
   </button>
+
+  <button class="back-to-top-btn" id="backToTopBtn" type="button"
+    title="Anar a l'inici" aria-label="Anar a l'inici de la presentació">↑</button>
 
   <!-- Menú desplegable -->
   <div class="menu-panel" id="menuPanel">
@@ -494,6 +737,7 @@
     <!-- Se rellena con JavaScript -->
   </div>
 
+  <nav id="slideIndex" class="slide-index" aria-label="Índex de diapositives" hidden></nav>
   <div id="slidesContainer"></div>
 
   <script src="assets/js/localstorage-utils.js"></script>
@@ -512,6 +756,8 @@
     // Restaurar padding desde localStorage
     let lateralPadding = parseFloat(localStorage.getItem(LS_KEYS.DIAPOS_PADDING)) || 2;
     document.getElementById('slidesContainer').style.setProperty('--side-padding', `${lateralPadding}%`);
+    document.getElementById('slideIndex').style.marginLeft = `${lateralPadding}%`;
+    document.getElementById('slideIndex').style.marginRight = `${lateralPadding}%`;
 
     // Verificar si hay datos de continuar diapos
     const continueDiapos = localStorage.getItem(LS_KEYS.DIAPOS_CONTINUE);
@@ -530,15 +776,18 @@
 
     // Generar dinámicamente los slides
     const container = document.getElementById('slidesContainer');
+    const slideIndexElement = document.getElementById('slideIndex');
     
     if (imgs.length === 0) {
       container.innerHTML = '<div style="text-align:center;padding:40px;color:#666;">No hi ha imatges disponibles</div>';
     } else {
+      renderSlideIndex(imgs);
       imgs.forEach((img, index) => {
         const slideDiv = document.createElement('div');
         slideDiv.className = 'slide';
         slideDiv.style.position = 'relative';
         slideDiv.dataset.index = index;
+        slideDiv.id = `slide-${index + 1}`;
         
         // Si es la diapositiva donde se pausó, añadir indicador
         if (slideInicioContinuar !== null && index === slideInicioContinuar) {
@@ -559,7 +808,10 @@
         
         // Determinar el tipus de recurs.
         const fileName = img.trim();
-        const extension = fileName.toLowerCase().split('.').pop();
+        const lowerFileName = fileName.toLowerCase();
+        const extension = lowerFileName.endsWith('.ask.json')
+          ? 'ask'
+          : lowerFileName.split('.').pop();
         const resourceUrl = `${root}/${tema}/${dir}/${fileName}`;
         
         if (extension === 'html') {
@@ -568,8 +820,16 @@
           iframeElement.src = resourceUrl;
           iframeElement.title = `Diapositiva ${index + 1}`;
           iframeElement.sandbox.add('allow-same-origin', 'allow-scripts', 'allow-forms');
+          const openHtmlButton = document.createElement('a');
+          openHtmlButton.className = 'html-open-btn';
+          openHtmlButton.href = resourceUrl;
+          openHtmlButton.target = '_blank';
+          openHtmlButton.rel = 'noopener noreferrer';
+          openHtmlButton.textContent = '↗ Obrir';
+          openHtmlButton.setAttribute('aria-label', `Obrir ${fileName} en una pestanya nova`);
           
           slideDiv.appendChild(counterDiv);
+          slideDiv.appendChild(openHtmlButton);
           slideDiv.appendChild(iframeElement);
         } else if (extension === 'md') {
           slideDiv.appendChild(counterDiv);
@@ -577,6 +837,9 @@
         } else if (extension === 'tts') {
           slideDiv.appendChild(counterDiv);
           renderTtsSlide(slideDiv, resourceUrl, fileName);
+        } else if (extension === 'ask') {
+          slideDiv.appendChild(counterDiv);
+          renderAskSlide(slideDiv, resourceUrl);
         } else {
           // Crear img para imágenes
           const imgElement = document.createElement('img');
@@ -600,6 +863,72 @@
           }
         }, 300);
       }
+    }
+
+    function formatSlideName(fileName) {
+      const lowerName = fileName.toLowerCase();
+      let name = fileName;
+      if (lowerName.endsWith('.ask.json')) {
+        name = fileName.slice(0, -'.ask.json'.length);
+      } else {
+        const extensionIndex = name.lastIndexOf('.');
+        if (extensionIndex > 0) name = name.slice(0, extensionIndex);
+      }
+      return name.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function slideType(fileName) {
+      const lowerName = fileName.toLowerCase();
+      if (lowerName.endsWith('.ask.json')) return 'ask';
+      const extensionIndex = lowerName.lastIndexOf('.');
+      return extensionIndex >= 0 ? lowerName.slice(extensionIndex + 1) : '';
+    }
+
+    function slideTypePresentation(type) {
+      const types = {
+        html: { icon: '🌐', label: 'HTML', className: 'type-html' },
+        md: { icon: '📝', label: 'MD', className: 'type-md' },
+        tts: { icon: '🔊', label: 'TTS', className: 'type-tts' },
+        ask: { icon: '❓', label: 'ASK', className: 'type-ask' },
+        jpg: { icon: '🖼️', label: 'Img', className: 'type-image' },
+        jpeg: { icon: '🖼️', label: 'Img', className: 'type-image' },
+        png: { icon: '🖼️', label: 'Img', className: 'type-image' }
+      };
+      return types[type] || { icon: '📄', label: type || 'Fitxer', className: '' };
+    }
+
+    function renderSlideIndex(files) {
+      const list = files.map((fileName, index) => {
+        const name = formatSlideName(fileName);
+        const type = slideType(fileName);
+        const presentation = slideTypePresentation(type);
+        return `
+          <li>
+            <a class="slide-index-link" href="#slide-${index + 1}">
+              <span class="slide-index-number">${index + 1}</span>
+              <span aria-hidden="true">${presentation.icon}</span>
+              <span>${escapeHtml(name)}</span>
+              <span class="slide-index-type ${presentation.className}">${escapeHtml(presentation.label)}</span>
+            </a>
+          </li>
+        `;
+      }).join('');
+
+      slideIndexElement.hidden = false;
+      slideIndexElement.innerHTML = `
+        <details open>
+          <summary>Índex de la presentació · ${files.length} elements</summary>
+          <ol class="slide-index-list">${list}</ol>
+        </details>
+      `;
+
+      slideIndexElement.addEventListener('click', event => {
+        const link = event.target.closest('.slide-index-link');
+        if (!link) return;
+        event.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
     }
 
     function getSafeResourceUrl(url) {
@@ -745,6 +1074,349 @@
       return chunks;
     }
 
+    function speakText(text, language = 'ca-ES') {
+      if (!('speechSynthesis' in window) || !text.trim()) return;
+
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      const voices = window.speechSynthesis.getVoices();
+      const languageCode = language.includes('-')
+        ? language
+        : `${language}-${language === 'ca' ? 'ES' : language.toUpperCase()}`;
+      const normalizedLanguage = languageCode.toLowerCase();
+      const voice = voices.find(item => item.lang.toLowerCase().startsWith(normalizedLanguage))
+        || voices.find(item => item.lang.toLowerCase().startsWith(normalizedLanguage.split('-')[0]))
+        || voices.find(item => /^ca(?:[-_]|$)/i.test(item.lang))
+        || voices.find(item => /^es(?:[-_]|$)/i.test(item.lang))
+        || null;
+      utterance.lang = voice ? voice.lang : languageCode;
+      if (voice) utterance.voice = voice;
+      utterance.rate = 0.95;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function speakTextAsync(text, language = 'ca-ES', sequenceState) {
+      if (!text.trim()) return Promise.resolve();
+      if (!('speechSynthesis' in window)) return Promise.resolve();
+
+      return new Promise(resolve => {
+        const requestToken = sequenceState.token;
+        const words = text.trim().split(/\s+/).length;
+        const fallbackMilliseconds = Math.max(1500, words * 350 + 800);
+        let finished = false;
+        let fallbackTimeout = null;
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        const voices = window.speechSynthesis.getVoices();
+        const languageCode = language.includes('-')
+          ? language
+          : `${language}-${language === 'ca' ? 'ES' : language.toUpperCase()}`;
+        const normalizedLanguage = languageCode.toLowerCase();
+        const voice = voices.find(item => item.lang.toLowerCase().startsWith(normalizedLanguage))
+          || voices.find(item => item.lang.toLowerCase().startsWith(normalizedLanguage.split('-')[0]))
+          || voices.find(item => /^ca(?:[-_]|$)/i.test(item.lang))
+          || null;
+        utterance.lang = voice ? voice.lang : languageCode;
+        if (voice) utterance.voice = voice;
+        utterance.rate = 0.95;
+
+        const finish = () => {
+          if (finished) return;
+          finished = true;
+          if (fallbackTimeout !== null) window.clearTimeout(fallbackTimeout);
+          resolve(sequenceState.token === requestToken);
+        };
+        utterance.onend = finish;
+        utterance.onerror = finish;
+        window.speechSynthesis.speak(utterance);
+        fallbackTimeout = window.setTimeout(() => {
+          if (sequenceState.token === requestToken) {
+            window.speechSynthesis.cancel();
+          }
+          finish();
+        }, fallbackMilliseconds);
+      });
+    }
+
+    function waitMilliseconds(milliseconds, sequenceState) {
+      return new Promise(resolve => {
+        if (!sequenceState.active || milliseconds <= 0) {
+          resolve(false);
+          return;
+        }
+
+        sequenceState.waitResolve = resolve;
+        sequenceState.waitTimeout = window.setTimeout(() => {
+          sequenceState.waitTimeout = null;
+          sequenceState.waitResolve = null;
+          resolve(sequenceState.active);
+        }, milliseconds);
+      });
+    }
+
+    function playCountdownTick(audioContextState) {
+      try {
+        const AudioContextConstructor = window.AudioContext || window.webkitAudioContext;
+        if (!AudioContextConstructor) return;
+        if (!audioContextState.context) {
+          audioContextState.context = new AudioContextConstructor();
+        }
+        const context = audioContextState.context;
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+        oscillator.type = 'sine';
+        oscillator.frequency.value = 700;
+        gain.gain.value = 0.16;
+        oscillator.connect(gain);
+        gain.connect(context.destination);
+        oscillator.start();
+        oscillator.stop(context.currentTime + 0.06);
+        oscillator.onended = () => {
+          gain.disconnect();
+          oscillator.disconnect();
+        };
+      } catch (error) {
+        console.error('No s’ha pogut reproduir el tic:', error);
+      }
+    }
+
+    async function enableTickAudio(audioContextState) {
+      const AudioContextConstructor = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContextConstructor) return;
+      if (!audioContextState.context) {
+        audioContextState.context = new AudioContextConstructor();
+      }
+      if (audioContextState.context.state !== 'running') {
+        try {
+          await audioContextState.context.resume();
+        } catch {
+          return;
+        }
+      }
+    }
+
+    async function waitAnswerTime(seconds, tickThreshold, sequenceState, audioContextState) {
+      const duration = Math.max(0, Number(seconds) || 0);
+      if (duration === 0) return sequenceState.active;
+
+      const deadline = Date.now() + duration * 1000;
+      let lastTickSecond = null;
+
+      while (sequenceState.active) {
+        const remaining = Math.max(0, deadline - Date.now());
+        const shownSeconds = Math.ceil(remaining / 1000);
+        if (shownSeconds > 0
+          && shownSeconds <= Math.max(0, Number(tickThreshold) || 0)
+          && shownSeconds !== lastTickSecond) {
+          lastTickSecond = shownSeconds;
+          playCountdownTick(audioContextState);
+        }
+        if (remaining <= 0) return true;
+        await waitMilliseconds(Math.min(100, remaining), sequenceState);
+      }
+
+      return false;
+    }
+
+    function validateAskData(data) {
+      if (!data || typeof data !== 'object' || Array.isArray(data)) {
+        throw new Error('El fitxer ASK no conté un objecte vàlid.');
+      }
+      if (!Array.isArray(data.questions) || data.questions.length === 0) {
+        throw new Error('El fitxer ASK no conté preguntes.');
+      }
+      data.questions.forEach((question, index) => {
+        if (!question || typeof question.que !== 'string' || !question.que.trim()
+          || typeof question.ans !== 'string' || !question.ans.trim()) {
+          throw new Error(`La pregunta ${index + 1} no té text o resposta vàlids.`);
+        }
+      });
+      return data;
+    }
+
+    function shuffledCopy(items) {
+      const copy = [...items];
+      for (let index = copy.length - 1; index > 0; index -= 1) {
+        const randomIndex = Math.floor(Math.random() * (index + 1));
+        [copy[index], copy[randomIndex]] = [copy[randomIndex], copy[index]];
+      }
+      return copy;
+    }
+
+    async function renderAskSlide(slide, resourceUrl) {
+      const content = document.createElement('section');
+      content.className = 'slide-content ask-slide';
+      content.innerHTML = '<div class="slide-loading">Carregant preguntes...</div>';
+      slide.appendChild(content);
+
+      try {
+        const response = await fetch(resourceUrl);
+        if (!response.ok) {
+          throw new Error(`No s'ha pogut carregar el fitxer (${response.status}).`);
+        }
+
+        const data = validateAskData(await response.json());
+        const language = data.language || 'ca';
+        const answerLanguage = data.answer_language || language;
+        const sequenceState = {
+          active: false,
+          token: 0,
+          waitTimeout: null,
+          waitResolve: null
+        };
+        const audioContextState = { context: null };
+        let currentQuestions = data.settings?.aleatorio
+          ? shuffledCopy(data.questions)
+          : [...data.questions];
+
+        const renderQuestions = () => {
+          content.innerHTML = `
+            <header class="ask-header">
+              <h2>${escapeHtml(data.name || 'Preguntes')}</h2>
+              <p class="ask-description">${escapeHtml(data.description || `${currentQuestions.length} preguntes`)}</p>
+            </header>
+            <div class="ask-actions">
+              <button type="button" class="ask-play-all">▶ Reproduir-ho tot</button>
+              <button type="button" class="ask-show-all">Mostrar respostes</button>
+              <button type="button" class="ask-shuffle">Barrejar preguntes</button>
+              <button type="button" class="ask-stop">Aturar</button>
+            </div>
+            <div class="ask-questions"></div>
+          `;
+
+          const questionsContainer = content.querySelector('.ask-questions');
+          currentQuestions.forEach((question, index) => {
+            const card = document.createElement('article');
+            card.className = 'ask-question';
+            card.innerHTML = `
+              <h3>${index + 1}. ${escapeHtml(question.que)}</h3>
+              <div class="ask-question-buttons">
+                <button type="button" class="ask-reveal">Mostrar resposta</button>
+                <button type="button" class="ask-speak-question">Escoltar pregunta</button>
+                <button type="button" class="ask-speak-answer">Escoltar resposta</button>
+              </div>
+              <div class="ask-answer" hidden>${escapeHtml(question.ans)}</div>
+            `;
+            const answer = card.querySelector('.ask-answer');
+            const reveal = card.querySelector('.ask-reveal');
+            reveal.addEventListener('click', () => {
+              answer.hidden = !answer.hidden;
+              reveal.textContent = answer.hidden ? 'Mostrar resposta' : 'Amagar resposta';
+            });
+            card.querySelector('.ask-speak-question').addEventListener('click', () => {
+              speakText(question.que, language);
+            });
+            card.querySelector('.ask-speak-answer').addEventListener('click', () => {
+              speakText(question.ans, answerLanguage);
+            });
+            questionsContainer.appendChild(card);
+          });
+
+          content.querySelector('.ask-show-all').addEventListener('click', () => {
+            const answers = content.querySelectorAll('.ask-answer');
+            const shouldShow = Array.from(answers).some(answer => answer.hidden);
+            answers.forEach(answer => {
+              answer.hidden = !shouldShow;
+            });
+            content.querySelectorAll('.ask-reveal').forEach(button => {
+              button.textContent = shouldShow ? 'Amagar resposta' : 'Mostrar resposta';
+            });
+            content.querySelector('.ask-show-all').textContent =
+              shouldShow ? 'Amagar respostes' : 'Mostrar respostes';
+          });
+          content.querySelector('.ask-shuffle').addEventListener('click', () => {
+            stopAskSequence();
+            currentQuestions = shuffledCopy(data.questions);
+            renderQuestions();
+          });
+          content.querySelector('.ask-stop').addEventListener('click', stopAskSequence);
+          content.querySelector('.ask-play-all').addEventListener('click', playAllQuestions);
+        };
+
+        const stopAskSequence = () => {
+          sequenceState.active = false;
+          sequenceState.token += 1;
+          if (sequenceState.waitTimeout !== null) {
+            window.clearTimeout(sequenceState.waitTimeout);
+            sequenceState.waitTimeout = null;
+          }
+          if (sequenceState.waitResolve) {
+            const resolveWait = sequenceState.waitResolve;
+            sequenceState.waitResolve = null;
+            resolveWait(false);
+          }
+          if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+          const playButton = content.querySelector('.ask-play-all');
+          const shuffleButton = content.querySelector('.ask-shuffle');
+          if (playButton) {
+            playButton.disabled = false;
+            playButton.textContent = '▶ Reproduir-ho tot';
+          }
+          if (shuffleButton) shuffleButton.disabled = false;
+          content.querySelectorAll('.ask-speak-question, .ask-speak-answer, .ask-show-all')
+            .forEach(button => { button.disabled = false; });
+        };
+
+        const playAllQuestions = async () => {
+          if (sequenceState.active) return;
+          sequenceState.active = true;
+          sequenceState.token += 1;
+          await enableTickAudio(audioContextState);
+
+          const playButton = content.querySelector('.ask-play-all');
+          const shuffleButton = content.querySelector('.ask-shuffle');
+          playButton.disabled = true;
+          playButton.textContent = '▶ Reproduint...';
+          shuffleButton.disabled = true;
+          content.querySelectorAll('.ask-speak-question, .ask-speak-answer, .ask-show-all')
+            .forEach(button => { button.disabled = true; });
+
+          const introParts = [
+            data.name,
+            data.description
+          ].filter(part => typeof part === 'string' && part.trim());
+          const settings = data.settings || {};
+          const defaultSeconds = Number(settings.default_answer_time_seconds);
+          const betweenSeconds = Math.max(0, Number(settings.time_between_questions_seconds) || 0);
+          const tickThreshold = Math.max(0, Number(settings.secs_with_tick) || 0);
+          const prefix = typeof settings.question_prefix === 'string' ? settings.question_prefix.trim() : '';
+
+          for (const part of introParts) {
+            if (!sequenceState.active) break;
+            await speakTextAsync(part, language, sequenceState);
+          }
+
+          for (const question of currentQuestions) {
+            if (!sequenceState.active) break;
+            const questionText = [prefix, question.que].filter(Boolean).join(' ');
+            await speakTextAsync(questionText, language, sequenceState);
+            if (!sequenceState.active) break;
+
+            const questionSeconds = Number.isFinite(Number(question.secs))
+              ? Math.max(0, Number(question.secs))
+              : Math.max(0, Number.isFinite(defaultSeconds) ? defaultSeconds : 8);
+            const completed = await waitAnswerTime(
+              questionSeconds,
+              tickThreshold,
+              sequenceState,
+              audioContextState
+            );
+            if (!completed || !sequenceState.active) break;
+
+            await speakTextAsync(question.ans, answerLanguage, sequenceState);
+            if (!sequenceState.active) break;
+            await waitMilliseconds(betweenSeconds * 1000, sequenceState);
+          }
+
+          stopAskSequence();
+        };
+
+        renderQuestions();
+      } catch (error) {
+        content.innerHTML = `<div class="slide-error">Error carregant ASK.<br>${escapeHtml(error.message)}</div>`;
+      }
+    }
+
     async function renderTtsSlide(slide, resourceUrl, fileName) {
       const content = document.createElement('section');
       content.className = 'slide-content tts-slide';
@@ -883,6 +1555,7 @@
 
     // Referencias a elementos del menú
     const menuBtn = document.getElementById('menuBtn');
+    const backToTopBtn = document.getElementById('backToTopBtn');
     const menuPanel = document.getElementById('menuPanel');
     const menuCloseBtn = document.getElementById('menuCloseBtn');
     const fullscreenBtn = document.getElementById('fullscreenBtn');
@@ -902,6 +1575,8 @@
     function adjustPadding(change) {
       lateralPadding = Math.min(40, Math.max(0, lateralPadding + change));
       container.style.setProperty('--side-padding', `${lateralPadding}%`);
+      slideIndexElement.style.marginLeft = `${lateralPadding}%`;
+      slideIndexElement.style.marginRight = `${lateralPadding}%`;
       // Guardar en localStorage
       localStorage.setItem(LS_KEYS.DIAPOS_PADDING, lateralPadding.toString());
       updatePaddingButtons();
@@ -940,6 +1615,10 @@
     // Toggle menú
     menuBtn.addEventListener('click', () => {
       menuPanel.classList.toggle('visible');
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     // Cerrar menú

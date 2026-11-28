@@ -1,0 +1,21 @@
+{
+  "name": "Prova de seqüència",
+  "description": "Validació del reproductor complet",
+  "language": "ca",
+  "answer_language": "ca",
+  "settings": {
+    "default_answer_time_seconds": 2,
+    "secs_with_tick": 2,
+    "time_between_questions_seconds": 1,
+    "aleatorio": false,
+    "intro_phrase": "No es reprodueix.",
+    "question_prefix": "Pregunta."
+  },
+  "questions": [
+    {
+      "que": "Prova curta?",
+      "ans": "Resposta curta.",
+      "secs": 2
+    }
+  ]
+}

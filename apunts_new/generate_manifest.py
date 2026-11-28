@@ -11,6 +11,7 @@ MD_EXT = ".md"
 IMG_EXT = ".jpg"
 TTS_EXT = ".tts"
 HTML_EXT = ".html"
+ASK_EXT = ".ask.json"
 URL_MANIFEST = "manifest_url.json"
 
 # =========================
@@ -24,6 +25,26 @@ def list_files_with_ext(folder, ext):
         f for f in os.listdir(folder)
         if is_file_with_ext(os.path.join(folder, f), ext)
     )
+
+def slide_resource_sort_key(filename):
+    lower_name = filename.lower()
+    ordered_extensions = (
+        (ASK_EXT, 4),
+        (MD_EXT, 0),
+        (IMG_EXT, 1),
+        (HTML_EXT, 2),
+        (TTS_EXT, 3),
+    )
+
+    stem = lower_name
+    rank = 99
+    for extension, extension_rank in ordered_extensions:
+        if lower_name.endswith(extension):
+            stem = lower_name[:-len(extension)]
+            rank = extension_rank
+            break
+
+    return stem, rank, lower_name
 
 # =========================
 # LÓGICA PRINCIPAL
@@ -100,12 +121,14 @@ def generate_manifest(base_dir):
                     html_files = list_files_with_ext(presentation_path, HTML_EXT)
                     md_files = list_files_with_ext(presentation_path, MD_EXT)
                     tts_files = list_files_with_ext(presentation_path, TTS_EXT)
+                    ask_files = list_files_with_ext(presentation_path, ASK_EXT)
 
                     files.extend(jpg_files)
                     files.extend(html_files)
                     files.extend(md_files)
                     files.extend(tts_files)
-                    files = sorted(files)
+                    files.extend(ask_files)
+                    files = sorted(files, key=slide_resource_sort_key)
 
                     if files:
                         slides.append({
