@@ -3,7 +3,9 @@
 ## 1. Resum de la mostra
 
 S'han analitzat **14 preguntes** del fitxer
-[`T08_Examens_Anteriors.json`](../../testfiles/T08_Examens_Anteriors.json):
+[`T08_Examens_Anteriors.json`](../../../../testfiles/T08_Examens_Anteriors.json):
+
+testfiles\T08_Examens_Anteriors.json
 
 | Convocatòria o document d'origen | Preguntes |
 |---|---:|

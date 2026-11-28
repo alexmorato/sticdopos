@@ -92,17 +92,21 @@ def generate_manifest(base_dir):
                     if not os.path.isdir(presentation_path):
                         continue
 
-                    # Recopilar tanto JPG como HTML
+                    # Recursos renderizables dentro de la presentación.
+                    # Se conserva la clave "imgs" por compatibilidad con
+                    # leerrecursos.html y leerdiapos.html.
                     files = []
                     jpg_files = list_files_with_ext(presentation_path, IMG_EXT)
                     html_files = list_files_with_ext(presentation_path, HTML_EXT)
-                    
+                    md_files = list_files_with_ext(presentation_path, MD_EXT)
+                    tts_files = list_files_with_ext(presentation_path, TTS_EXT)
+
                     files.extend(jpg_files)
                     files.extend(html_files)
-                    
-                    # Ordenar la lista completa
+                    files.extend(md_files)
+                    files.extend(tts_files)
                     files = sorted(files)
-                    
+
                     if files:
                         slides.append({
                             "dir": os.path.join(item, presentation).replace(os.sep, "/"),

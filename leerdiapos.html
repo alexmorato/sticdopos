@@ -11,7 +11,7 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Presentación por imágenes</title>
+  <title>Presentació de diapositives</title>
   <style>
     * {
       margin: 0;
@@ -48,6 +48,157 @@
       border-radius: 8px;
       border: none;
       min-height: 600px;
+    }
+
+    .slide-content {
+      width: 100%;
+      min-height: 600px;
+      background: #fff;
+      color: #172033;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .markdown-slide {
+      padding: 32px;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    .markdown-slide h1,
+    .markdown-slide h2,
+    .markdown-slide h3,
+    .markdown-slide h4 {
+      color: #12355b;
+      line-height: 1.25;
+      margin: 1.1em 0 0.55em;
+    }
+
+    .markdown-slide h1:first-child,
+    .markdown-slide h2:first-child {
+      margin-top: 0;
+    }
+
+    .markdown-slide p,
+    .markdown-slide ul,
+    .markdown-slide ol,
+    .markdown-slide blockquote,
+    .markdown-slide pre,
+    .markdown-slide table {
+      margin: 0 0 1em;
+    }
+
+    .markdown-slide ul,
+    .markdown-slide ol {
+      padding-left: 1.5em;
+    }
+
+    .markdown-slide blockquote {
+      padding: 0.8em 1em;
+      border-left: 5px solid #2878bd;
+      background: #e9f5ff;
+    }
+
+    .markdown-slide pre {
+      overflow-x: auto;
+      padding: 1em;
+      border-radius: 6px;
+      background: #101828;
+      color: #f8fafc;
+    }
+
+    .markdown-slide code {
+      padding: 0.1em 0.3em;
+      border-radius: 4px;
+      background: #eef2f6;
+    }
+
+    .markdown-slide pre code {
+      padding: 0;
+      background: transparent;
+    }
+
+    .markdown-slide table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .markdown-slide th,
+    .markdown-slide td {
+      padding: 0.65em;
+      border: 1px solid #cad3df;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .markdown-slide th {
+      background: #dfeefd;
+    }
+
+    .markdown-slide img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .tts-slide {
+      padding: 24px;
+    }
+
+    .tts-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding-bottom: 14px;
+      background: #fff;
+    }
+
+    .tts-toolbar button {
+      padding: 10px 14px;
+      border: 0;
+      border-radius: 7px;
+      background: #12355b;
+      color: #fff;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+    }
+
+    .tts-toolbar button:hover {
+      background: #2878bd;
+    }
+
+    .tts-toolbar button:disabled {
+      cursor: default;
+      opacity: 0.45;
+    }
+
+    .tts-toolbar button.tts-stop {
+      background: #b42318;
+    }
+
+    .tts-text {
+      white-space: pre-wrap;
+      padding: 20px;
+      border: 1px solid #d5dfeb;
+      border-radius: 8px;
+      background: #f8fbff;
+      color: #172033;
+      font: 1.05rem/1.7 system-ui, sans-serif;
+    }
+
+    .slide-error,
+    .slide-loading {
+      padding: 40px;
+      color: #667085;
+      text-align: center;
+    }
+
+    .slide-error {
+      color: #b42318;
     }
 
     /* Botón hamburguesa */
@@ -346,6 +497,7 @@
   <div id="slidesContainer"></div>
 
   <script src="assets/js/localstorage-utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
     // Leer parámetros de la URL
     const urlParams = new URLSearchParams(window.location.search);
@@ -405,23 +557,30 @@
         counterDiv.textContent = `${index + 1} de ${imgs.length}`;
         makeDismissible(counterDiv);
         
-        // Determinar si es imagen o HTML
+        // Determinar el tipus de recurs.
         const fileName = img.trim();
-        const isHtml = fileName.toLowerCase().endsWith('.html');
+        const extension = fileName.toLowerCase().split('.').pop();
+        const resourceUrl = `${root}/${tema}/${dir}/${fileName}`;
         
-        if (isHtml) {
+        if (extension === 'html') {
           // Crear iframe para HTML
           const iframeElement = document.createElement('iframe');
-          iframeElement.src = `${root}/${tema}/${dir}/${fileName}`;
+          iframeElement.src = resourceUrl;
           iframeElement.title = `Diapositiva ${index + 1}`;
           iframeElement.sandbox.add('allow-same-origin', 'allow-scripts', 'allow-forms');
           
           slideDiv.appendChild(counterDiv);
           slideDiv.appendChild(iframeElement);
+        } else if (extension === 'md') {
+          slideDiv.appendChild(counterDiv);
+          renderMarkdownSlide(slideDiv, resourceUrl);
+        } else if (extension === 'tts') {
+          slideDiv.appendChild(counterDiv);
+          renderTtsSlide(slideDiv, resourceUrl, fileName);
         } else {
           // Crear img para imágenes
           const imgElement = document.createElement('img');
-          imgElement.src = `${root}/${tema}/${dir}/${fileName}`;
+          imgElement.src = resourceUrl;
           imgElement.alt = `Diapositiva ${index + 1}`;
           imgElement.loading = 'lazy';
           
@@ -441,6 +600,265 @@
           }
         }, 300);
       }
+    }
+
+    function getSafeResourceUrl(url) {
+      const resolved = new URL(url, window.location.href);
+      return resolved.href;
+    }
+
+    function escapeHtml(text) {
+      return String(text).replace(/[&<>"']/g, character => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      })[character]);
+    }
+
+    function fallbackMarkdownParser(markdown) {
+      const escaped = escapeHtml(markdown);
+      const lines = escaped.split(/\r?\n/);
+      let html = '';
+      let listType = null;
+
+      const closeList = () => {
+        if (listType) {
+          html += `</${listType}>`;
+          listType = null;
+        }
+      };
+
+      lines.forEach(line => {
+        const unordered = line.match(/^\s*[-*+]\s+(.*)$/);
+        const ordered = line.match(/^\s*\d+\.\s+(.*)$/);
+        const heading = line.match(/^(#{1,6})\s+(.*)$/);
+
+        if (heading) {
+          closeList();
+          html += `<h${heading[1].length}>${heading[2]}</h${heading[1].length}>`;
+        } else if (unordered || ordered) {
+          const nextType = unordered ? 'ul' : 'ol';
+          if (listType !== nextType) {
+            closeList();
+            listType = nextType;
+            html += `<${listType}>`;
+          }
+          html += `<li>${(unordered || ordered)[1]}</li>`;
+        } else if (line.trim() === '') {
+          closeList();
+        } else {
+          closeList();
+          html += `<p>${line}</p>`;
+        }
+      });
+
+      closeList();
+      return html;
+    }
+
+    function sanitizeMarkdownHtml(html, resourceUrl) {
+      const parsedDocument = new DOMParser().parseFromString(html, 'text/html');
+      const wrapper = parsedDocument.body;
+
+      wrapper.querySelectorAll('script, iframe, object, embed, form, style').forEach(node => node.remove());
+      wrapper.querySelectorAll('*').forEach(element => {
+        Array.from(element.attributes).forEach(attribute => {
+          const name = attribute.name.toLowerCase();
+          const value = attribute.value.trim();
+          if (name.startsWith('on') || (name === 'style' && /url\s*\(/i.test(value))) {
+            element.removeAttribute(attribute.name);
+          }
+        });
+      });
+
+      const baseUrl = new URL(resourceUrl, window.location.href);
+      wrapper.querySelectorAll('img[src]').forEach(image => {
+        const src = image.getAttribute('src');
+        if (src && !/^(?:[a-z]+:|\/\/|#)/i.test(src)) {
+          image.src = new URL(src, baseUrl).href;
+        }
+      });
+      wrapper.querySelectorAll('a[href]').forEach(link => {
+        const href = link.getAttribute('href');
+        if (/^(?:javascript|data|vbscript):/i.test(href)) {
+          link.removeAttribute('href');
+          return;
+        }
+        if (href && !/^(?:[a-z]+:|\/\/|#)/i.test(href)) {
+          link.href = new URL(href, baseUrl).href;
+        }
+        if (/^https?:/i.test(link.href)) {
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+        }
+      });
+
+      return wrapper.innerHTML;
+    }
+
+    async function renderMarkdownSlide(slide, resourceUrl) {
+      const content = document.createElement('article');
+      content.className = 'slide-content markdown-slide';
+      content.innerHTML = '<div class="slide-loading">Carregant Markdown...</div>';
+      slide.appendChild(content);
+
+      try {
+        const response = await fetch(resourceUrl);
+        if (!response.ok) {
+          throw new Error(`No s'ha pogut carregar el fitxer (${response.status}).`);
+        }
+
+        const markdown = await response.text();
+        const html = window.marked
+          ? window.marked.parse(markdown, { gfm: true, breaks: false })
+          : fallbackMarkdownParser(markdown);
+        content.innerHTML = sanitizeMarkdownHtml(html, getSafeResourceUrl(resourceUrl));
+      } catch (error) {
+        content.innerHTML = `<div class="slide-error">Error carregant Markdown.<br>${escapeHtml(error.message)}</div>`;
+      }
+    }
+
+    function splitSpeechText(text) {
+      const paragraphs = text.split(/\n\s*\n/).map(part => part.trim()).filter(Boolean);
+      const chunks = [];
+
+      paragraphs.forEach(paragraph => {
+        if (paragraph.length <= 700) {
+          chunks.push(paragraph);
+          return;
+        }
+        const sentences = paragraph.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [paragraph];
+        let buffer = '';
+        sentences.forEach(sentence => {
+          if ((buffer + ' ' + sentence).trim().length > 700 && buffer) {
+            chunks.push(buffer.trim());
+            buffer = sentence.trim();
+          } else {
+            buffer = (buffer + ' ' + sentence).trim();
+          }
+        });
+        if (buffer) chunks.push(buffer);
+      });
+
+      return chunks;
+    }
+
+    async function renderTtsSlide(slide, resourceUrl, fileName) {
+      const content = document.createElement('section');
+      content.className = 'slide-content tts-slide';
+      content.innerHTML = '<div class="slide-loading">Carregant text per a veu...</div>';
+      slide.appendChild(content);
+
+      try {
+        const response = await fetch(resourceUrl);
+        if (!response.ok) {
+          throw new Error(`No s'ha pogut carregar el fitxer (${response.status}).`);
+        }
+
+        const text = await response.text();
+        const controlsId = `tts-controls-${slide.dataset.index}`;
+        const textId = `tts-text-${slide.dataset.index}`;
+        content.innerHTML = `
+          <div class="tts-toolbar" id="${controlsId}">
+            <button type="button" class="tts-play">🔊 Reproduir</button>
+            <button type="button" class="tts-pause" disabled>Pausar</button>
+            <button type="button" class="tts-stop" disabled>Aturar</button>
+          </div>
+          <div class="tts-text" id="${textId}">${escapeHtml(text)}</div>
+        `;
+
+        configureSpeechControls(content, text, fileName);
+      } catch (error) {
+        content.innerHTML = `<div class="slide-error">Error carregant el TTS.<br>${escapeHtml(error.message)}</div>`;
+      }
+    }
+
+    function configureSpeechControls(content, text, fileName) {
+      const playButton = content.querySelector('.tts-play');
+      const pauseButton = content.querySelector('.tts-pause');
+      const stopButton = content.querySelector('.tts-stop');
+      const chunks = splitSpeechText(text);
+      let chunkIndex = 0;
+      let active = false;
+
+      if (!('speechSynthesis' in window) || chunks.length === 0) {
+        playButton.disabled = true;
+        playButton.textContent = chunks.length === 0 ? 'Text buit' : 'Veu no disponible';
+        return;
+      }
+
+      const selectCatalanVoice = () => {
+        const voices = window.speechSynthesis.getVoices();
+        return voices.find(voice => /^ca(?:[-_]|$)/i.test(voice.lang))
+          || voices.find(voice => /^es(?:[-_]|$)/i.test(voice.lang))
+          || null;
+      };
+
+      const updateButtons = () => {
+        playButton.disabled = active && !window.speechSynthesis.paused;
+        pauseButton.disabled = !active;
+        stopButton.disabled = !active;
+        pauseButton.textContent = window.speechSynthesis.paused ? 'Reprendre' : 'Pausar';
+      };
+
+      const finish = () => {
+        active = false;
+        chunkIndex = 0;
+        updateButtons();
+      };
+
+      const speakNext = () => {
+        if (!active || chunkIndex >= chunks.length) {
+          finish();
+          return;
+        }
+
+        const utterance = new SpeechSynthesisUtterance(chunks[chunkIndex]);
+        const voice = selectCatalanVoice();
+        utterance.lang = voice ? voice.lang : 'ca-ES';
+        if (voice) utterance.voice = voice;
+        utterance.rate = 0.95;
+        utterance.pitch = 1;
+        utterance.onend = () => {
+          chunkIndex += 1;
+          speakNext();
+        };
+        utterance.onerror = event => {
+          if (event.error !== 'canceled' && event.error !== 'interrupted') {
+            console.error(`Error de veu a ${fileName}:`, event);
+          }
+          finish();
+        };
+        window.speechSynthesis.speak(utterance);
+      };
+
+      playButton.addEventListener('click', () => {
+        window.speechSynthesis.cancel();
+        active = true;
+        chunkIndex = 0;
+        speakNext();
+        updateButtons();
+      });
+
+      pauseButton.addEventListener('click', () => {
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        } else {
+          window.speechSynthesis.pause();
+        }
+        updateButtons();
+      });
+
+      stopButton.addEventListener('click', () => {
+        active = false;
+        window.speechSynthesis.cancel();
+        finish();
+      });
+
+      window.addEventListener('beforeunload', () => window.speechSynthesis.cancel(), { once: true });
+      updateButtons();
     }
 
     // Actualizar label con el nombre del directorio
