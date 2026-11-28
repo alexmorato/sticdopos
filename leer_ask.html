@@ -456,7 +456,16 @@
 			}
 			if (!tema || !filename) throw new Error('Falten els paràmetres tema o fitxer a la URL.');
 			const safeRoot = normalizeRoot(root);
-			const path = `${safeRoot}/${encodeURIComponent(tema)}/asks/${encodeURIComponent(filename)}`;
+			const normalizedFilename = filename.replace(/^\/+/, '');
+			const encodedRelativePath = normalizedFilename
+				.split('/')
+				.filter(Boolean)
+				.map(segment => encodeURIComponent(segment))
+				.join('/');
+			const relativePath = normalizedFilename.includes('/')
+				? encodedRelativePath
+				: `asks/${encodedRelativePath}`;
+			const path = `${safeRoot}/${encodeURIComponent(tema)}/${relativePath}`;
 			const response = await fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' });
 			if (!response.ok) throw new Error(`No s'ha pogut carregar el fitxer (HTTP ${response.status}).`);
 			const data = await response.json();

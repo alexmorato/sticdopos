@@ -272,6 +272,8 @@
     }
 
     .tts-text {
+      max-height: 490px;
+      overflow-y: auto;
       white-space: pre-wrap;
       padding: 20px;
       border: 1px solid #d5dfeb;
@@ -279,6 +281,7 @@
       background: #f8fbff;
       color: #172033;
       font: 1.05rem/1.7 system-ui, sans-serif;
+      scrollbar-gutter: stable;
     }
 
     .ask-slide {
@@ -317,14 +320,6 @@
       cursor: pointer;
       font: inherit;
       font-weight: 700;
-    }
-
-    .ask-actions .ask-play-all {
-      background: #0f766e;
-    }
-
-    .ask-actions .ask-play-all:hover {
-      background: #0b5f59;
     }
 
     .ask-actions button:disabled,
@@ -622,26 +617,22 @@
       cursor: pointer;
     }
 
-    /* Contador de diapositivas */
-    .slide-counter {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      background: #2aebad;
-      color: #032217;
-      padding: 6px 14px;
-      border-radius: 6px;
-      font-size: 0.95rem;
-      font-weight: 700;
-      box-shadow: 0 2px 6px rgba(42, 235, 173, 0.4);
-      z-index: 10;
-      cursor: pointer;
+    .slide-heading {
+      min-height: 48px;
+      padding: 13px 120px 13px 16px;
+      border-radius: 8px 8px 0 0;
+      background: #12355b;
+      color: #fff;
+      font-size: 0.98rem;
+      font-weight: 750;
+      line-height: 1.35;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     }
 
     .html-open-btn {
       position: absolute;
-      top: 10px;
-      right: 105px;
+      top: 8px;
+      right: 12px;
       z-index: 11;
       display: inline-flex;
       align-items: center;
@@ -800,12 +791,6 @@
           slideDiv.appendChild(indicatorDiv);
         }
         
-        // Contador de diapositiva (1 de N)
-        const counterDiv = document.createElement('div');
-        counterDiv.className = 'slide-counter';
-        counterDiv.textContent = `${index + 1} de ${imgs.length}`;
-        makeDismissible(counterDiv);
-        
         // Determinar el tipus de recurs.
         const fileName = img.trim();
         const lowerFileName = fileName.toLowerCase();
@@ -813,6 +798,11 @@
           ? 'ask'
           : lowerFileName.split('.').pop();
         const resourceUrl = `${root}/${tema}/${dir}/${fileName}`;
+        const presentation = slideTypePresentation(slideType(fileName));
+        const heading = document.createElement('div');
+        heading.className = 'slide-heading';
+        heading.textContent = `${index + 1} de ${imgs.length} - ${presentation.icon} ${presentation.label} - ${formatSlideName(fileName)}`;
+        slideDiv.appendChild(heading);
         
         if (extension === 'html') {
           // Crear iframe para HTML
@@ -828,17 +818,39 @@
           openHtmlButton.textContent = '↗ Obrir';
           openHtmlButton.setAttribute('aria-label', `Obrir ${fileName} en una pestanya nova`);
           
-          slideDiv.appendChild(counterDiv);
           slideDiv.appendChild(openHtmlButton);
           slideDiv.appendChild(iframeElement);
         } else if (extension === 'md') {
-          slideDiv.appendChild(counterDiv);
           renderMarkdownSlide(slideDiv, resourceUrl);
         } else if (extension === 'tts') {
-          slideDiv.appendChild(counterDiv);
+          const openTtsButton = document.createElement('a');
+          openTtsButton.className = 'html-open-btn';
+          const readerParams = new URLSearchParams({
+            root,
+            tema,
+            fitxer: `${dir}/${fileName}`
+          });
+          openTtsButton.href = `leertts.html?${readerParams.toString()}`;
+          openTtsButton.target = '_blank';
+          openTtsButton.rel = 'noopener noreferrer';
+          openTtsButton.textContent = '↗ Obrir';
+          openTtsButton.setAttribute('aria-label', `Obrir ${fileName} amb el lector TTS en una pestanya nova`);
+          slideDiv.appendChild(openTtsButton);
           renderTtsSlide(slideDiv, resourceUrl, fileName);
         } else if (extension === 'ask') {
-          slideDiv.appendChild(counterDiv);
+          const openAskButton = document.createElement('a');
+          openAskButton.className = 'html-open-btn';
+          const askReaderParams = new URLSearchParams({
+            root,
+            tema,
+            fitxer: `${dir}/${fileName}`
+          });
+          openAskButton.href = `leer_ask.html?${askReaderParams.toString()}`;
+          openAskButton.target = '_blank';
+          openAskButton.rel = 'noopener noreferrer';
+          openAskButton.textContent = '↗ Obrir';
+          openAskButton.setAttribute('aria-label', `Obrir ${fileName} amb el lector ASK en una pestanya nova`);
+          slideDiv.appendChild(openAskButton);
           renderAskSlide(slideDiv, resourceUrl);
         } else {
           // Crear img para imágenes
@@ -847,7 +859,6 @@
           imgElement.alt = `Diapositiva ${index + 1}`;
           imgElement.loading = 'lazy';
           
-          slideDiv.appendChild(counterDiv);
           slideDiv.appendChild(imgElement);
         }
         
@@ -1074,150 +1085,6 @@
       return chunks;
     }
 
-    function speakText(text, language = 'ca-ES') {
-      if (!('speechSynthesis' in window) || !text.trim()) return;
-
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      const voices = window.speechSynthesis.getVoices();
-      const languageCode = language.includes('-')
-        ? language
-        : `${language}-${language === 'ca' ? 'ES' : language.toUpperCase()}`;
-      const normalizedLanguage = languageCode.toLowerCase();
-      const voice = voices.find(item => item.lang.toLowerCase().startsWith(normalizedLanguage))
-        || voices.find(item => item.lang.toLowerCase().startsWith(normalizedLanguage.split('-')[0]))
-        || voices.find(item => /^ca(?:[-_]|$)/i.test(item.lang))
-        || voices.find(item => /^es(?:[-_]|$)/i.test(item.lang))
-        || null;
-      utterance.lang = voice ? voice.lang : languageCode;
-      if (voice) utterance.voice = voice;
-      utterance.rate = 0.95;
-      window.speechSynthesis.speak(utterance);
-    }
-
-    function speakTextAsync(text, language = 'ca-ES', sequenceState) {
-      if (!text.trim()) return Promise.resolve();
-      if (!('speechSynthesis' in window)) return Promise.resolve();
-
-      return new Promise(resolve => {
-        const requestToken = sequenceState.token;
-        const words = text.trim().split(/\s+/).length;
-        const fallbackMilliseconds = Math.max(1500, words * 350 + 800);
-        let finished = false;
-        let fallbackTimeout = null;
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(text);
-        const voices = window.speechSynthesis.getVoices();
-        const languageCode = language.includes('-')
-          ? language
-          : `${language}-${language === 'ca' ? 'ES' : language.toUpperCase()}`;
-        const normalizedLanguage = languageCode.toLowerCase();
-        const voice = voices.find(item => item.lang.toLowerCase().startsWith(normalizedLanguage))
-          || voices.find(item => item.lang.toLowerCase().startsWith(normalizedLanguage.split('-')[0]))
-          || voices.find(item => /^ca(?:[-_]|$)/i.test(item.lang))
-          || null;
-        utterance.lang = voice ? voice.lang : languageCode;
-        if (voice) utterance.voice = voice;
-        utterance.rate = 0.95;
-
-        const finish = () => {
-          if (finished) return;
-          finished = true;
-          if (fallbackTimeout !== null) window.clearTimeout(fallbackTimeout);
-          resolve(sequenceState.token === requestToken);
-        };
-        utterance.onend = finish;
-        utterance.onerror = finish;
-        window.speechSynthesis.speak(utterance);
-        fallbackTimeout = window.setTimeout(() => {
-          if (sequenceState.token === requestToken) {
-            window.speechSynthesis.cancel();
-          }
-          finish();
-        }, fallbackMilliseconds);
-      });
-    }
-
-    function waitMilliseconds(milliseconds, sequenceState) {
-      return new Promise(resolve => {
-        if (!sequenceState.active || milliseconds <= 0) {
-          resolve(false);
-          return;
-        }
-
-        sequenceState.waitResolve = resolve;
-        sequenceState.waitTimeout = window.setTimeout(() => {
-          sequenceState.waitTimeout = null;
-          sequenceState.waitResolve = null;
-          resolve(sequenceState.active);
-        }, milliseconds);
-      });
-    }
-
-    function playCountdownTick(audioContextState) {
-      try {
-        const AudioContextConstructor = window.AudioContext || window.webkitAudioContext;
-        if (!AudioContextConstructor) return;
-        if (!audioContextState.context) {
-          audioContextState.context = new AudioContextConstructor();
-        }
-        const context = audioContextState.context;
-        const oscillator = context.createOscillator();
-        const gain = context.createGain();
-        oscillator.type = 'sine';
-        oscillator.frequency.value = 700;
-        gain.gain.value = 0.16;
-        oscillator.connect(gain);
-        gain.connect(context.destination);
-        oscillator.start();
-        oscillator.stop(context.currentTime + 0.06);
-        oscillator.onended = () => {
-          gain.disconnect();
-          oscillator.disconnect();
-        };
-      } catch (error) {
-        console.error('No s’ha pogut reproduir el tic:', error);
-      }
-    }
-
-    async function enableTickAudio(audioContextState) {
-      const AudioContextConstructor = window.AudioContext || window.webkitAudioContext;
-      if (!AudioContextConstructor) return;
-      if (!audioContextState.context) {
-        audioContextState.context = new AudioContextConstructor();
-      }
-      if (audioContextState.context.state !== 'running') {
-        try {
-          await audioContextState.context.resume();
-        } catch {
-          return;
-        }
-      }
-    }
-
-    async function waitAnswerTime(seconds, tickThreshold, sequenceState, audioContextState) {
-      const duration = Math.max(0, Number(seconds) || 0);
-      if (duration === 0) return sequenceState.active;
-
-      const deadline = Date.now() + duration * 1000;
-      let lastTickSecond = null;
-
-      while (sequenceState.active) {
-        const remaining = Math.max(0, deadline - Date.now());
-        const shownSeconds = Math.ceil(remaining / 1000);
-        if (shownSeconds > 0
-          && shownSeconds <= Math.max(0, Number(tickThreshold) || 0)
-          && shownSeconds !== lastTickSecond) {
-          lastTickSecond = shownSeconds;
-          playCountdownTick(audioContextState);
-        }
-        if (remaining <= 0) return true;
-        await waitMilliseconds(Math.min(100, remaining), sequenceState);
-      }
-
-      return false;
-    }
-
     function validateAskData(data) {
       if (!data || typeof data !== 'object' || Array.isArray(data)) {
         throw new Error('El fitxer ASK no conté un objecte vàlid.');
@@ -1256,18 +1123,7 @@
         }
 
         const data = validateAskData(await response.json());
-        const language = data.language || 'ca';
-        const answerLanguage = data.answer_language || language;
-        const sequenceState = {
-          active: false,
-          token: 0,
-          waitTimeout: null,
-          waitResolve: null
-        };
-        const audioContextState = { context: null };
-        let currentQuestions = data.settings?.aleatorio
-          ? shuffledCopy(data.questions)
-          : [...data.questions];
+        let currentQuestions = [...data.questions];
 
         const renderQuestions = () => {
           content.innerHTML = `
@@ -1276,10 +1132,8 @@
               <p class="ask-description">${escapeHtml(data.description || `${currentQuestions.length} preguntes`)}</p>
             </header>
             <div class="ask-actions">
-              <button type="button" class="ask-play-all">▶ Reproduir-ho tot</button>
               <button type="button" class="ask-show-all">Mostrar respostes</button>
               <button type="button" class="ask-shuffle">Barrejar preguntes</button>
-              <button type="button" class="ask-stop">Aturar</button>
             </div>
             <div class="ask-questions"></div>
           `;
@@ -1292,8 +1146,6 @@
               <h3>${index + 1}. ${escapeHtml(question.que)}</h3>
               <div class="ask-question-buttons">
                 <button type="button" class="ask-reveal">Mostrar resposta</button>
-                <button type="button" class="ask-speak-question">Escoltar pregunta</button>
-                <button type="button" class="ask-speak-answer">Escoltar resposta</button>
               </div>
               <div class="ask-answer" hidden>${escapeHtml(question.ans)}</div>
             `;
@@ -1302,12 +1154,6 @@
             reveal.addEventListener('click', () => {
               answer.hidden = !answer.hidden;
               reveal.textContent = answer.hidden ? 'Mostrar resposta' : 'Amagar resposta';
-            });
-            card.querySelector('.ask-speak-question').addEventListener('click', () => {
-              speakText(question.que, language);
-            });
-            card.querySelector('.ask-speak-answer').addEventListener('click', () => {
-              speakText(question.ans, answerLanguage);
             });
             questionsContainer.appendChild(card);
           });
@@ -1325,90 +1171,9 @@
               shouldShow ? 'Amagar respostes' : 'Mostrar respostes';
           });
           content.querySelector('.ask-shuffle').addEventListener('click', () => {
-            stopAskSequence();
             currentQuestions = shuffledCopy(data.questions);
             renderQuestions();
           });
-          content.querySelector('.ask-stop').addEventListener('click', stopAskSequence);
-          content.querySelector('.ask-play-all').addEventListener('click', playAllQuestions);
-        };
-
-        const stopAskSequence = () => {
-          sequenceState.active = false;
-          sequenceState.token += 1;
-          if (sequenceState.waitTimeout !== null) {
-            window.clearTimeout(sequenceState.waitTimeout);
-            sequenceState.waitTimeout = null;
-          }
-          if (sequenceState.waitResolve) {
-            const resolveWait = sequenceState.waitResolve;
-            sequenceState.waitResolve = null;
-            resolveWait(false);
-          }
-          if ('speechSynthesis' in window) window.speechSynthesis.cancel();
-          const playButton = content.querySelector('.ask-play-all');
-          const shuffleButton = content.querySelector('.ask-shuffle');
-          if (playButton) {
-            playButton.disabled = false;
-            playButton.textContent = '▶ Reproduir-ho tot';
-          }
-          if (shuffleButton) shuffleButton.disabled = false;
-          content.querySelectorAll('.ask-speak-question, .ask-speak-answer, .ask-show-all')
-            .forEach(button => { button.disabled = false; });
-        };
-
-        const playAllQuestions = async () => {
-          if (sequenceState.active) return;
-          sequenceState.active = true;
-          sequenceState.token += 1;
-          await enableTickAudio(audioContextState);
-
-          const playButton = content.querySelector('.ask-play-all');
-          const shuffleButton = content.querySelector('.ask-shuffle');
-          playButton.disabled = true;
-          playButton.textContent = '▶ Reproduint...';
-          shuffleButton.disabled = true;
-          content.querySelectorAll('.ask-speak-question, .ask-speak-answer, .ask-show-all')
-            .forEach(button => { button.disabled = true; });
-
-          const introParts = [
-            data.name,
-            data.description
-          ].filter(part => typeof part === 'string' && part.trim());
-          const settings = data.settings || {};
-          const defaultSeconds = Number(settings.default_answer_time_seconds);
-          const betweenSeconds = Math.max(0, Number(settings.time_between_questions_seconds) || 0);
-          const tickThreshold = Math.max(0, Number(settings.secs_with_tick) || 0);
-          const prefix = typeof settings.question_prefix === 'string' ? settings.question_prefix.trim() : '';
-
-          for (const part of introParts) {
-            if (!sequenceState.active) break;
-            await speakTextAsync(part, language, sequenceState);
-          }
-
-          for (const question of currentQuestions) {
-            if (!sequenceState.active) break;
-            const questionText = [prefix, question.que].filter(Boolean).join(' ');
-            await speakTextAsync(questionText, language, sequenceState);
-            if (!sequenceState.active) break;
-
-            const questionSeconds = Number.isFinite(Number(question.secs))
-              ? Math.max(0, Number(question.secs))
-              : Math.max(0, Number.isFinite(defaultSeconds) ? defaultSeconds : 8);
-            const completed = await waitAnswerTime(
-              questionSeconds,
-              tickThreshold,
-              sequenceState,
-              audioContextState
-            );
-            if (!completed || !sequenceState.active) break;
-
-            await speakTextAsync(question.ans, answerLanguage, sequenceState);
-            if (!sequenceState.active) break;
-            await waitMilliseconds(betweenSeconds * 1000, sequenceState);
-          }
-
-          stopAskSequence();
         };
 
         renderQuestions();
